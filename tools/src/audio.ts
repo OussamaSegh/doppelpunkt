@@ -111,7 +111,7 @@ export function quoted(prompt: string): string | undefined {
   return out || undefined;
 }
 
-function promptSpeaker(prompt: string): string | undefined {
+export function promptSpeaker(prompt: string): string | undefined {
   const head = prompt.split(/["„“]/)[0] ?? prompt;
   let best: { name: string; at: number } | undefined;
   for (const name of Object.keys(CAST)) {
@@ -121,7 +121,7 @@ function promptSpeaker(prompt: string): string | undefined {
   return best?.name;
 }
 
-function exerciseText(ex: Exercise): { kind: AudioKind; text: string } | undefined {
+export function exerciseText(ex: Exercise): { kind: AudioKind; text: string } | undefined {
   if (ex.type === 'dictation') return { kind: 'dictation', text: ex.transcript };
   if (ex.type === 'speak') return { kind: 'speak', text: ex.target };
   if (ex.skill === 'listening' && ex.type !== 'roleplay') {

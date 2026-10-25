@@ -1,0 +1,2823 @@
+{
+  "unitId": "a1-u10",
+  "level": "A1",
+  "folder": "a1/unit-10",
+  "title": "Kleidung und Wetter",
+  "delivery": {
+    "raw": "WAV or FLAC, 48 kHz, 24-bit, mono, one file per entry, named <file base>.wav",
+    "processed": [
+      "mp3 64 kbps mono 44.1 kHz",
+      "opus 32 kbps mono 48 kHz",
+      "EBU R128 -16 LUFS, true peak -1.5 dBTP"
+    ]
+  },
+  "entries": [
+    {
+      "file": "dialog-intro-01.mp3",
+      "kind": "dialogue-intro",
+      "text": "Guten Tag! Kann ich Ihnen helfen?",
+      "en": "Hello! Can I help you?",
+      "variety": "ch-std",
+      "voice": "zh-f",
+      "speaker": "Verkäuferin",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          0,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-01.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-02.mp3",
+      "kind": "dialogue-intro",
+      "text": "Ja, gern. Ich suche eine Jacke. Es ist jetzt so kalt!",
+      "en": "Yes, please. I'm looking for a jacket. It's so cold now!",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          1,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-02.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-03.mp3",
+      "kind": "dialogue-intro",
+      "text": "Welche Farbe möchten Sie?",
+      "en": "Which colour would you like?",
+      "variety": "ch-std",
+      "voice": "zh-f",
+      "speaker": "Verkäuferin",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          2,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-03.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-04.mp3",
+      "kind": "dialogue-intro",
+      "text": "Blau oder schwarz.",
+      "en": "Blue or black.",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          3,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-04.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-05.mp3",
+      "kind": "dialogue-intro",
+      "text": "Wie finden Sie diese Jacke hier? Sie ist sehr warm.",
+      "en": "What do you think of this jacket here? It's very warm.",
+      "variety": "ch-std",
+      "voice": "zh-f",
+      "speaker": "Verkäuferin",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          4,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-05.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-06.mp3",
+      "kind": "dialogue-intro",
+      "text": "Schön! Kann ich sie anprobieren? Welche Größe ist das?",
+      "en": "Nice! Can I try it on? What size is it?",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          5,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-06.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-07.mp3",
+      "kind": "dialogue-intro",
+      "text": "Das ist Grösse M. Die Kabine ist dort hinten.",
+      "en": "That's size M. The changing room is at the back over there.",
+      "variety": "ch-std",
+      "voice": "zh-f",
+      "speaker": "Verkäuferin",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          6,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-07.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-08.mp3",
+      "kind": "dialogue-intro",
+      "text": "Hm, die Jacke ist zu klein. Haben Sie sie auch in L?",
+      "en": "Hm, the jacket is too small. Do you have it in L too?",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          7,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-08.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-09.mp3",
+      "kind": "dialogue-intro",
+      "text": "Ja, hier ist sie in L. Oh, die steht Ihnen gut!",
+      "en": "Yes, here it is in L. Oh, it suits you!",
+      "variety": "ch-std",
+      "voice": "zh-f",
+      "speaker": "Verkäuferin",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          8,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-09.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-10.mp3",
+      "kind": "dialogue-intro",
+      "text": "Danke! Sie passt perfekt. Was kostet sie?",
+      "en": "Thanks! It fits perfectly. How much is it?",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          9,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-10.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-11.mp3",
+      "kind": "dialogue-intro",
+      "text": "Sie kostet neunundachtzig Franken.",
+      "en": "It costs eighty-nine francs.",
+      "variety": "ch-std",
+      "voice": "zh-f",
+      "speaker": "Verkäuferin",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          10,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-11.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-12.mp3",
+      "kind": "dialogue-intro",
+      "text": "Gut, ich nehme sie. Und diesen Schal nehme ich auch. Morgen schneit es!",
+      "en": "Good, I'll take it. And I'll take this scarf too. It's going to snow tomorrow!",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          11,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-12.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-01.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Lueg emal use, es schiffet!",
+      "en": "Look outside, it's pouring!",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          0,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-01.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-02.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Oh nei! Und ich ha kei Rägejagge.",
+      "en": "Oh no! And I haven't got a rain jacket.",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          1,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-02.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-03.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Nimm mini! Si hanget im Gang.",
+      "en": "Take mine! It's hanging in the hall.",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          2,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-03.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-04.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Die isch mer aber z gross.",
+      "en": "But it's too big for me.",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          3,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-04.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-05.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Egal, si isch warm. Hüt isch es mega chalt, nur drü Grad.",
+      "en": "Never mind, it's warm. It's really cold today, only three degrees.",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          4,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-05.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-06.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Guet, ich nimm si. Merci! Und wo sind mini Finke?",
+      "en": "OK, I'll take it. Thanks! And where are my slippers?",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          5,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-06.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-07.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Under em Sofa. Und dis neue Jäggli staht dir übrigens guet!",
+      "en": "Under the sofa. And by the way, your new little jacket suits you!",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          6,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-07.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-08.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Merci! Aber es isch tüür gsii.",
+      "en": "Thanks! But it was expensive.",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          7,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-08.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-09.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Sandra, nimm e Lismer mit! Hüt isch es chaut z Bärn.",
+      "en": "Sandra, take a jumper! It's cold in Bern today.",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "speaker": "Mami",
+      "voiceGuessed": true,
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          8,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-09.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-10.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Ja, Mami, i ha dr Lismer scho.",
+      "en": "Yes, Mum, I've already got the jumper.",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          9,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-10.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kleidung.mp3",
+      "kind": "vocab",
+      "text": "Kleidung",
+      "en": "clothes, clothing",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kleidung",
+        "pointer": [
+          0,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-kleidung.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kleidung-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Die Kleidung hier ist nicht teuer.",
+      "en": "The clothes here aren't expensive.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kleidung",
+        "pointer": [
+          0,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-kleidung-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kleidung-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Chleider",
+      "note": "plural",
+      "en": "clothes, clothing",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kleidung",
+        "pointer": [
+          0,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-kleidung-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-hose.mp3",
+      "kind": "vocab",
+      "text": "Hose",
+      "en": "trousers, pants",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "hose",
+        "pointer": [
+          1,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-hose.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-hose-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Die Hose ist zu lang.",
+      "en": "The trousers are too long.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "hose",
+        "pointer": [
+          1,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-hose-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-hose-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Hose",
+      "note": "d Hose",
+      "en": "trousers, pants",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "hose",
+        "pointer": [
+          1,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-hose-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-jeans.mp3",
+      "kind": "vocab",
+      "text": "Jeans",
+      "en": "jeans",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "jeans",
+        "pointer": [
+          2,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-jeans.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-jeans-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Meine Jeans ist blau.",
+      "en": "My jeans are blue.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "jeans",
+        "pointer": [
+          2,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-jeans-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-hemd.mp3",
+      "kind": "vocab",
+      "text": "Hemd",
+      "en": "shirt",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "hemd",
+        "pointer": [
+          3,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-hemd.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-hemd-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Das Hemd ist weiß.",
+      "en": "The shirt is white.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "hemd",
+        "pointer": [
+          3,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-hemd-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-hemd-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Hemp / Hemd",
+      "en": "shirt",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "hemd",
+        "pointer": [
+          3,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-hemd-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-t-shirt.mp3",
+      "kind": "vocab",
+      "text": "T-Shirt",
+      "en": "T-shirt",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "t-shirt",
+        "pointer": [
+          4,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-t-shirt.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-t-shirt-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Im Sommer trage ich ein T-Shirt.",
+      "en": "In summer I wear a T-shirt.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "t-shirt",
+        "pointer": [
+          4,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-t-shirt-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-pullover.mp3",
+      "kind": "vocab",
+      "text": "Pullover",
+      "en": "jumper, sweater",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "pullover",
+        "pointer": [
+          5,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-pullover.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-pullover-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Der Pullover ist warm.",
+      "en": "The jumper is warm.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "pullover",
+        "pointer": [
+          5,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-pullover-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-pullover-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Pulli / Lismer",
+      "note": "knitted",
+      "en": "jumper, sweater",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "pullover",
+        "pointer": [
+          5,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-pullover-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-pullover-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "Lismer / Puli",
+      "en": "jumper, sweater",
+      "variety": "gsw-be",
+      "voice": "be-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "pullover",
+        "pointer": [
+          5,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-pullover-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-jacke.mp3",
+      "kind": "vocab",
+      "text": "Jacke",
+      "en": "jacket",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "jacke",
+        "pointer": [
+          6,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-jacke.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-jacke-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich suche eine Jacke.",
+      "en": "I'm looking for a jacket.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "jacke",
+        "pointer": [
+          6,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-jacke-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-jacke-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Jagge / Jacke",
+      "note": "s Jäggli = small or light jacket",
+      "en": "jacket",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "jacke",
+        "pointer": [
+          6,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-jacke-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-jacke-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "Jagge",
+      "note": "d Rägejagge = rain jacket",
+      "en": "jacket",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "jacke",
+        "pointer": [
+          6,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-jacke-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-mantel.mp3",
+      "kind": "vocab",
+      "text": "Mantel",
+      "en": "coat",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "mantel",
+        "pointer": [
+          7,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-mantel.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-mantel-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Der Mantel ist grau.",
+      "en": "The coat is grey.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "mantel",
+        "pointer": [
+          7,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-mantel-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-mantel-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Mantel",
+      "en": "coat",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "mantel",
+        "pointer": [
+          7,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-mantel-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kleid.mp3",
+      "kind": "vocab",
+      "text": "Kleid",
+      "en": "dress",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kleid",
+        "pointer": [
+          8,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-kleid.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kleid-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Das Kleid ist grün.",
+      "en": "The dress is green.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kleid",
+        "pointer": [
+          8,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-kleid-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kleid-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Chleid",
+      "en": "dress",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kleid",
+        "pointer": [
+          8,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-kleid-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-rock.mp3",
+      "kind": "vocab",
+      "text": "Rock",
+      "en": "skirt",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "rock",
+        "pointer": [
+          9,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-rock.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-rock-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Der Rock ist zu kurz.",
+      "en": "The skirt is too short.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "rock",
+        "pointer": [
+          9,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-rock-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-rock-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Jupe / Rock",
+      "en": "skirt",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "rock",
+        "pointer": [
+          9,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-rock-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-schuh.mp3",
+      "kind": "vocab",
+      "text": "Schuh",
+      "en": "shoe",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "schuh",
+        "pointer": [
+          10,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-schuh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-schuh-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Die Schuhe sind schwarz.",
+      "en": "The shoes are black.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "schuh",
+        "pointer": [
+          10,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-schuh-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-schuh-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Schue",
+      "note": "plural Schue",
+      "en": "shoe",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "schuh",
+        "pointer": [
+          10,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-schuh-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-hausschuh.mp3",
+      "kind": "vocab",
+      "text": "Hausschuh",
+      "en": "slipper",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "hausschuh",
+        "pointer": [
+          11,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-hausschuh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-hausschuh-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Zu Hause trage ich Hausschuhe.",
+      "en": "At home I wear slippers.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "hausschuh",
+        "pointer": [
+          11,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-hausschuh-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-hausschuh-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Finke",
+      "note": "plural Finke",
+      "en": "slipper",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "hausschuh",
+        "pointer": [
+          11,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-hausschuh-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-hausschuh-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "Finke",
+      "en": "slipper",
+      "variety": "gsw-be",
+      "voice": "be-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "hausschuh",
+        "pointer": [
+          11,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-hausschuh-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-socke.mp3",
+      "kind": "vocab",
+      "text": "Socke",
+      "en": "sock",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "socke",
+        "pointer": [
+          12,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-socke.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-socke-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich brauche Socken.",
+      "en": "I need socks.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "socke",
+        "pointer": [
+          12,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-socke-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-socke-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Socke",
+      "en": "sock",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "socke",
+        "pointer": [
+          12,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-socke-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-muetze.mp3",
+      "kind": "vocab",
+      "text": "Mütze",
+      "en": "woolly hat, cap",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "muetze",
+        "pointer": [
+          13,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-muetze.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-muetze-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Nimm eine Mütze mit, es ist kalt!",
+      "en": "Take a hat, it's cold!",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "muetze",
+        "pointer": [
+          13,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-muetze-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-muetze-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Mütze / Chappe",
+      "en": "woolly hat, cap",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "muetze",
+        "pointer": [
+          13,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-muetze-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-schal.mp3",
+      "kind": "vocab",
+      "text": "Schal",
+      "en": "scarf",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "schal",
+        "pointer": [
+          14,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-schal.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-schal-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Diesen Schal nehme ich auch.",
+      "en": "I'll take this scarf too.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "schal",
+        "pointer": [
+          14,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-schal-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-schal-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Schal",
+      "en": "scarf",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "schal",
+        "pointer": [
+          14,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-schal-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-groesse.mp3",
+      "kind": "vocab",
+      "text": "Größe",
+      "en": "size",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "groesse",
+        "pointer": [
+          15,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-groesse.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-groesse-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Welche Größe haben Sie?",
+      "en": "What size are you?",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "groesse",
+        "pointer": [
+          15,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-groesse-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-groesse-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Grössi",
+      "en": "size",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "groesse",
+        "pointer": [
+          15,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-groesse-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-farbe.mp3",
+      "kind": "vocab",
+      "text": "Farbe",
+      "en": "colour",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "farbe",
+        "pointer": [
+          16,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-farbe.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-farbe-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Welche Farbe möchten Sie?",
+      "en": "Which colour would you like?",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "farbe",
+        "pointer": [
+          16,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-farbe-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-farbe-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Farb",
+      "en": "colour",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "farbe",
+        "pointer": [
+          16,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-farbe-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kabine.mp3",
+      "kind": "vocab",
+      "text": "Umkleidekabine",
+      "en": "changing room, fitting room",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kabine",
+        "pointer": [
+          17,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-kabine.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kabine-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Die Umkleidekabine ist dort hinten.",
+      "en": "The changing room is over there at the back.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kabine",
+        "pointer": [
+          17,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-kabine-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kabine-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Kabine",
+      "en": "changing room, fitting room",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kabine",
+        "pointer": [
+          17,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-kabine-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-rot.mp3",
+      "kind": "vocab",
+      "text": "rot",
+      "en": "red",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "rot",
+        "pointer": [
+          18,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-rot.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-rot-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Die Mütze ist rot.",
+      "en": "The hat is red.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "rot",
+        "pointer": [
+          18,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-rot-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-rot-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "rot",
+      "en": "red",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "rot",
+        "pointer": [
+          18,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-rot-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-blau.mp3",
+      "kind": "vocab",
+      "text": "blau",
+      "en": "blue",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "blau",
+        "pointer": [
+          19,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-blau.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-blau-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich möchte die Jacke in Blau.",
+      "en": "I'd like the jacket in blue.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "blau",
+        "pointer": [
+          19,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-blau-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-blau-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "blau",
+      "en": "blue",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "blau",
+        "pointer": [
+          19,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-blau-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gruen.mp3",
+      "kind": "vocab",
+      "text": "grün",
+      "en": "green",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gruen",
+        "pointer": [
+          20,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-gruen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gruen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Im Frühling ist alles grün.",
+      "en": "In spring everything is green.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gruen",
+        "pointer": [
+          20,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-gruen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gruen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "grüen",
+      "en": "green",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gruen",
+        "pointer": [
+          20,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-gruen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gelb.mp3",
+      "kind": "vocab",
+      "text": "gelb",
+      "en": "yellow",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gelb",
+        "pointer": [
+          21,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-gelb.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gelb-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Die Sonne ist gelb.",
+      "en": "The sun is yellow.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gelb",
+        "pointer": [
+          21,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-gelb-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gelb-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "gäl / gääl",
+      "en": "yellow",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gelb",
+        "pointer": [
+          21,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-gelb-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-schwarz.mp3",
+      "kind": "vocab",
+      "text": "schwarz",
+      "en": "black",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "schwarz",
+        "pointer": [
+          22,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-schwarz.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-schwarz-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Die Schuhe sind schwarz.",
+      "en": "The shoes are black.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "schwarz",
+        "pointer": [
+          22,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-schwarz-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-schwarz-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "schwarz",
+      "en": "black",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "schwarz",
+        "pointer": [
+          22,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-schwarz-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-weiss.mp3",
+      "kind": "vocab",
+      "text": "weiß",
+      "en": "white",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "weiss",
+        "pointer": [
+          23,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-weiss.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-weiss-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Der Schnee ist weiß.",
+      "en": "The snow is white.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "weiss",
+        "pointer": [
+          23,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-weiss-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-weiss-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "wiiss",
+      "en": "white",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "weiss",
+        "pointer": [
+          23,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-weiss-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-grau.mp3",
+      "kind": "vocab",
+      "text": "grau",
+      "en": "grey",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "grau",
+        "pointer": [
+          24,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-grau.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-grau-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Heute ist der Himmel grau.",
+      "en": "Today the sky is grey.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "grau",
+        "pointer": [
+          24,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-grau-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-grau-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "grau",
+      "en": "grey",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "grau",
+        "pointer": [
+          24,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-grau-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-braun.mp3",
+      "kind": "vocab",
+      "text": "braun",
+      "en": "brown",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "braun",
+        "pointer": [
+          25,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-braun.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-braun-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Die Hose ist braun.",
+      "en": "The trousers are brown.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "braun",
+        "pointer": [
+          25,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-braun-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-braun-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "bruun",
+      "en": "brown",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "braun",
+        "pointer": [
+          25,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-braun-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-anprobieren.mp3",
+      "kind": "vocab",
+      "text": "anprobieren",
+      "en": "to try on",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "anprobieren",
+        "pointer": [
+          26,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-anprobieren.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-anprobieren-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Kann ich die Jacke anprobieren?",
+      "en": "Can I try the jacket on?",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "anprobieren",
+        "pointer": [
+          26,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-anprobieren-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-anprobieren-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "aaprobiere",
+      "en": "to try on",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "anprobieren",
+        "pointer": [
+          26,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-anprobieren-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-tragen.mp3",
+      "kind": "vocab",
+      "text": "tragen",
+      "en": "to wear; to carry",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "tragen",
+        "pointer": [
+          27,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-tragen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-tragen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Er trägt heute einen Mantel.",
+      "en": "He's wearing a coat today.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "tragen",
+        "pointer": [
+          27,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-tragen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-tragen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "träge",
+      "en": "to wear; to carry",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "tragen",
+        "pointer": [
+          27,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-tragen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-stehen-kleidung.mp3",
+      "kind": "vocab",
+      "text": "stehen",
+      "note": "Das steht dir.",
+      "en": "to suit (someone)",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "stehen-kleidung",
+        "pointer": [
+          28,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-stehen-kleidung.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-stehen-kleidung-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Die Farbe steht dir gut!",
+      "en": "That colour suits you!",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "stehen-kleidung",
+        "pointer": [
+          28,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-stehen-kleidung-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-stehen-kleidung-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "stah",
+      "note": "Das staht dir guet!",
+      "en": "to suit (someone)",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "stehen-kleidung",
+        "pointer": [
+          28,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-stehen-kleidung-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-welcher.mp3",
+      "kind": "vocab",
+      "text": "welcher / welche / welches",
+      "en": "which",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "welcher",
+        "pointer": [
+          29,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-welcher.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-welcher-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Welcher Pullover ist warm?",
+      "en": "Which jumper is warm?",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "welcher",
+        "pointer": [
+          29,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-welcher-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-dieser.mp3",
+      "kind": "vocab",
+      "text": "dieser / diese / dieses",
+      "en": "this (one), these",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "dieser",
+        "pointer": [
+          30,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-dieser.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-dieser-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Diese Jacke ist schön.",
+      "en": "This jacket is nice.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "dieser",
+        "pointer": [
+          30,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-dieser-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-zu-adj.mp3",
+      "kind": "vocab",
+      "text": "zu",
+      "note": "+ adjective",
+      "en": "too (zu groß = too big)",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "zu-adj",
+        "pointer": [
+          31,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-zu-adj.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-zu-adj-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Die Schuhe sind zu klein.",
+      "en": "The shoes are too small.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "zu-adj",
+        "pointer": [
+          31,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-zu-adj-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-zu-adj-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "z / zu",
+      "note": "z gross",
+      "en": "too (zu groß = too big)",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "zu-adj",
+        "pointer": [
+          31,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-zu-adj-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wind.mp3",
+      "kind": "vocab",
+      "text": "Wind",
+      "en": "wind",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wind",
+        "pointer": [
+          32,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-wind.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wind-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Am Abend kommt Wind.",
+      "en": "In the evening the wind picks up.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wind",
+        "pointer": [
+          32,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-wind-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wind-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Wind / d Bise / de Föhn",
+      "en": "wind",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wind",
+        "pointer": [
+          32,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-wind-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wolke.mp3",
+      "kind": "vocab",
+      "text": "Wolke",
+      "en": "cloud",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wolke",
+        "pointer": [
+          33,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-wolke.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wolke-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Heute gibt es viele Wolken.",
+      "en": "There are a lot of clouds today.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wolke",
+        "pointer": [
+          33,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-wolke-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wolke-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Wulche",
+      "en": "cloud",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wolke",
+        "pointer": [
+          33,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-wolke-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gewitter.mp3",
+      "kind": "vocab",
+      "text": "Gewitter",
+      "en": "thunderstorm",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gewitter",
+        "pointer": [
+          34,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-gewitter.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gewitter-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Am Nachmittag gibt es ein Gewitter.",
+      "en": "There will be a thunderstorm in the afternoon.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gewitter",
+        "pointer": [
+          34,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-gewitter-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gewitter-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Gwitter",
+      "en": "thunderstorm",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gewitter",
+        "pointer": [
+          34,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-gewitter-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-grad.mp3",
+      "kind": "vocab",
+      "text": "Grad",
+      "en": "degree (temperature)",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "grad",
+        "pointer": [
+          35,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-grad.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-grad-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Heute sind es zwanzig Grad.",
+      "en": "It's twenty degrees today.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "grad",
+        "pointer": [
+          35,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-grad-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-grad-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Grad",
+      "en": "degree (temperature)",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "grad",
+        "pointer": [
+          35,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-grad-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sonnig.mp3",
+      "kind": "vocab",
+      "text": "sonnig",
+      "en": "sunny",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sonnig",
+        "pointer": [
+          36,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-sonnig.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sonnig-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Am Samstag ist es sonnig.",
+      "en": "It's sunny on Saturday.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sonnig",
+        "pointer": [
+          36,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-sonnig-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sonnig-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "sunnig",
+      "en": "sunny",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sonnig",
+        "pointer": [
+          36,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-sonnig-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-windig.mp3",
+      "kind": "vocab",
+      "text": "windig",
+      "en": "windy",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "windig",
+        "pointer": [
+          37,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-windig.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-windig-ex.mp3",
+      "kind": "vocab-example",
+      "text": "In den Bergen ist es windig.",
+      "en": "It's windy in the mountains.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "windig",
+        "pointer": [
+          37,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-windig-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-windig-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "windig",
+      "en": "windy",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "windig",
+        "pointer": [
+          37,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-windig-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-bewoelkt.mp3",
+      "kind": "vocab",
+      "text": "bewölkt",
+      "en": "cloudy",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "bewoelkt",
+        "pointer": [
+          38,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-bewoelkt.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-bewoelkt-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Am Sonntag ist es bewölkt.",
+      "en": "It's cloudy on Sunday.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "bewoelkt",
+        "pointer": [
+          38,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-bewoelkt-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-bewoelkt-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "bewölkt / wulchig",
+      "en": "cloudy",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "bewoelkt",
+        "pointer": [
+          38,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-bewoelkt-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-heiss.mp3",
+      "kind": "vocab",
+      "text": "heiß",
+      "en": "hot",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "heiss",
+        "pointer": [
+          39,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-heiss.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-heiss-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Im Juli ist es oft heiß.",
+      "en": "It's often hot in July.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "heiss",
+        "pointer": [
+          39,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-heiss-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-heiss-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "heiss",
+      "en": "hot",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "heiss",
+        "pointer": [
+          39,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-heiss-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-u10-dictation-size.mp3",
+      "kind": "dictation",
+      "text": "Haben Sie die Jacke auch in Größe L?",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a1-u10-dictation-size",
+        "pointer": [
+          26,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a1-u10-dictation-size.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-u10-dictation-weather.mp3",
+      "kind": "dictation",
+      "text": "Morgen ist es bewölkt und windig, nur zwölf Grad.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a1-u10-dictation-weather",
+        "pointer": [
+          27,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a1-u10-dictation-weather.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-u10-speak-shop.mp3",
+      "kind": "speak",
+      "text": "Ich suche eine Jacke in Größe M. Haben Sie sie auch in Blau?",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a1-u10-speak-shop",
+        "pointer": [
+          28,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a1-u10-speak-shop.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-u10-speak-shadow-tom.mp3",
+      "kind": "speak",
+      "text": "Schön! Kann ich sie anprobieren? Welche Größe ist das?",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a1-u10-speak-shadow-tom",
+        "pointer": [
+          29,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a1-u10-speak-shadow-tom.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-u10-speak-shadow-verkaeuferin.mp3",
+      "kind": "speak",
+      "text": "Ja, hier ist sie in L. Oh, die steht Ihnen gut!",
+      "variety": "ch-std",
+      "voice": "zh-f",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a1-u10-speak-shadow-verkaeuferin",
+        "pointer": [
+          30,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a1-u10-speak-shadow-verkaeuferin.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-u10-speak-intonation-aber.mp3",
+      "kind": "speak",
+      "text": "Die Jacke ist schön, aber zu teuer.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a1-u10-speak-intonation-aber",
+        "pointer": [
+          31,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a1-u10-speak-intonation-aber.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-u10-speak-pron-oe.mp3",
+      "kind": "speak",
+      "text": "Größe, schön, Röcke – groß, rot, Rock",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a1-u10-speak-pron-oe",
+        "pointer": [
+          32,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a1-u10-speak-pron-oe.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-u10-ch-mcq-schiffet.mp3",
+      "kind": "listening",
+      "text": "Lueg emal use, es schiffet!",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a1-u10-ch-mcq-schiffet",
+        "pointer": [
+          38,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a1-u10-ch-mcq-schiffet.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-u10-ch-mcq-finke.mp3",
+      "kind": "listening",
+      "text": "Und wo sind mini Finke?",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a1-u10-ch-mcq-finke",
+        "pointer": [
+          41,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a1-u10-ch-mcq-finke.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-u10-ch-be-mcq-lismer.mp3",
+      "kind": "listening",
+      "text": "Sandra, nimm e Lismer mit! Hüt isch es chaut z Bärn.",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a1-u10-ch-be-mcq-lismer",
+        "pointer": [
+          44,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a1-u10-ch-be-mcq-lismer.mp3",
+      "referenced": false
+    }
+  ]
+}

@@ -1,0 +1,2828 @@
+{
+  "unitId": "a1-u11",
+  "level": "A1",
+  "folder": "a1/unit-11",
+  "title": "Gesundheit",
+  "delivery": {
+    "raw": "WAV or FLAC, 48 kHz, 24-bit, mono, one file per entry, named <file base>.wav",
+    "processed": [
+      "mp3 64 kbps mono 44.1 kHz",
+      "opus 32 kbps mono 48 kHz",
+      "EBU R128 -16 LUFS, true peak -1.5 dBTP"
+    ]
+  },
+  "entries": [
+    {
+      "file": "dialog-intro-01.mp3",
+      "kind": "dialogue-intro",
+      "text": "Guten Morgen, Herr Baker. Was fehlt Ihnen?",
+      "en": "Good morning, Mr Baker. What's the matter?",
+      "variety": "ch-std",
+      "voice": "zh-f",
+      "speaker": "Dr. Huber",
+      "voiceGuessed": true,
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          0,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-01.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-02.mp3",
+      "kind": "dialogue-intro",
+      "text": "Ich habe Halsschmerzen und Husten. Und mein Kopf tut weh.",
+      "en": "I've got a sore throat and a cough. And my head hurts.",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          1,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-02.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-03.mp3",
+      "kind": "dialogue-intro",
+      "text": "Haben Sie auch Fieber?",
+      "en": "Do you have a temperature too?",
+      "variety": "ch-std",
+      "voice": "zh-f",
+      "speaker": "Dr. Huber",
+      "voiceGuessed": true,
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          2,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-03.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-04.mp3",
+      "kind": "dialogue-intro",
+      "text": "Ja, ein bisschen. Heute Morgen 38 Grad.",
+      "en": "Yes, a little. 38 degrees this morning.",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          3,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-04.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-05.mp3",
+      "kind": "dialogue-intro",
+      "text": "Machen Sie bitte den Mund auf. Ja, Ihr Hals ist rot. Sie sind erkältet.",
+      "en": "Please open your mouth. Yes, your throat is red. You've got a cold.",
+      "variety": "ch-std",
+      "voice": "zh-f",
+      "speaker": "Dr. Huber",
+      "voiceGuessed": true,
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          4,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-05.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-06.mp3",
+      "kind": "dialogue-intro",
+      "text": "Darf ich morgen arbeiten?",
+      "en": "Am I allowed to work tomorrow?",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          5,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-06.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-07.mp3",
+      "kind": "dialogue-intro",
+      "text": "Nein, Sie dürfen drei Tage nicht arbeiten. Sie müssen viel schlafen und viel Tee trinken.",
+      "en": "No, you mustn't work for three days. You have to sleep a lot and drink a lot of tea.",
+      "variety": "ch-std",
+      "voice": "zh-f",
+      "speaker": "Dr. Huber",
+      "voiceGuessed": true,
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          6,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-07.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-08.mp3",
+      "kind": "dialogue-intro",
+      "text": "Brauche ich Medikamente?",
+      "en": "Do I need any medicine?",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          7,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-08.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-09.mp3",
+      "kind": "dialogue-intro",
+      "text": "Ich schreibe Ihnen ein Rezept. Nehmen Sie dreimal täglich eine Tablette, nach dem Essen.",
+      "en": "I'll write you a prescription. Take one tablet three times a day, after meals.",
+      "variety": "ch-std",
+      "voice": "zh-f",
+      "speaker": "Dr. Huber",
+      "voiceGuessed": true,
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          8,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-09.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-10.mp3",
+      "kind": "dialogue-intro",
+      "text": "Und brauche ich ein Arztzeugnis für die Arbeit?",
+      "en": "And do I need a doctor's note for work?",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          9,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-10.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-11.mp3",
+      "kind": "dialogue-intro",
+      "text": "Ja, hier ist es. Gute Besserung, Herr Baker!",
+      "en": "Yes, here it is. Get well soon, Mr Baker!",
+      "variety": "ch-std",
+      "voice": "zh-f",
+      "speaker": "Dr. Huber",
+      "voiceGuessed": true,
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          10,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-11.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-12.mp3",
+      "kind": "dialogue-intro",
+      "text": "Vielen Dank! Auf Wiedersehen.",
+      "en": "Thank you very much! Goodbye.",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          11,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-12.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-01.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Hoi Reto, wie gaats dir?",
+      "en": "Hi Reto, how are you?",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          0,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-01.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-02.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Nöd guet. Ich bi chrank.",
+      "en": "Not good. I'm ill.",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          1,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-02.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-03.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Oh nei! Was häsch?",
+      "en": "Oh no! What's wrong?",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          2,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-03.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-04.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Ich ha Chopfweh und Halsweh, und ich bi mega müed.",
+      "en": "I've got a headache and a sore throat, and I'm really tired.",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          3,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-04.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-05.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Häsch Fieber?",
+      "en": "Have you got a temperature?",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          4,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-05.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-06.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Ja, chli. Achtedriissg.",
+      "en": "Yes, a bit. Thirty-eight.",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          5,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-06.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-07.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Gang zum Dokter! Und trink vill Tee.",
+      "en": "Go to the doctor! And drink lots of tea.",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          6,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-07.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-08.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Ja, ich ha morn en Termin. Hatschi!",
+      "en": "Yes, I've got an appointment tomorrow. Atchoo!",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          7,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-08.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-09.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Gsundheit! Gueti Besserig, Reto!",
+      "en": "Bless you! Get well soon, Reto!",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          8,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-09.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-10.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Sandra, bisch vercheltet? Du tönsch so komisch.",
+      "en": "Sandra, have you got a cold? You sound so strange.",
+      "variety": "gsw-be",
+      "voice": "be-m",
+      "speaker": "Mami",
+      "voiceGuessed": true,
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          9,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-10.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-11.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Nei, Mami, dr Reto isch chrank. Är het Gringweh.",
+      "en": "No, Mum, Reto is ill. He's got a headache.",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          10,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-11.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-koerper.mp3",
+      "kind": "vocab",
+      "text": "Körper",
+      "en": "body",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "koerper",
+        "pointer": [
+          0,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-koerper.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-koerper-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Sport ist gut für den Körper.",
+      "en": "Sport is good for the body.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "koerper",
+        "pointer": [
+          0,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-koerper-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-koerper-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Körper / Chörper",
+      "en": "body",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "koerper",
+        "pointer": [
+          0,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-koerper-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kopf.mp3",
+      "kind": "vocab",
+      "text": "Kopf",
+      "en": "head",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kopf",
+        "pointer": [
+          1,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-kopf.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kopf-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Mein Kopf tut weh.",
+      "en": "My head hurts.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kopf",
+        "pointer": [
+          1,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-kopf-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kopf-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Chopf",
+      "note": "plural Chöpf",
+      "en": "head",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kopf",
+        "pointer": [
+          1,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-kopf-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kopf-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "Chopf / Gring",
+      "note": "coarse but affectionate",
+      "en": "head",
+      "variety": "gsw-be",
+      "voice": "be-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kopf",
+        "pointer": [
+          1,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-kopf-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-hals.mp3",
+      "kind": "vocab",
+      "text": "Hals",
+      "en": "throat; neck",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "hals",
+        "pointer": [
+          2,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-hals.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-hals-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ihr Hals ist rot.",
+      "en": "Your throat is red.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "hals",
+        "pointer": [
+          2,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-hals-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-hals-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Hals",
+      "en": "throat; neck",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "hals",
+        "pointer": [
+          2,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-hals-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-bauch.mp3",
+      "kind": "vocab",
+      "text": "Bauch",
+      "en": "belly, stomach",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "bauch",
+        "pointer": [
+          3,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-bauch.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-bauch-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich habe Bauchschmerzen.",
+      "en": "I've got stomach ache.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "bauch",
+        "pointer": [
+          3,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-bauch-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-bauch-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Buuch",
+      "en": "belly, stomach",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "bauch",
+        "pointer": [
+          3,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-bauch-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-ruecken.mp3",
+      "kind": "vocab",
+      "text": "Rücken",
+      "en": "back",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "ruecken",
+        "pointer": [
+          4,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-ruecken.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-ruecken-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Mein Rücken tut weh.",
+      "en": "My back hurts.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "ruecken",
+        "pointer": [
+          4,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-ruecken-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-ruecken-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Rugge",
+      "en": "back",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "ruecken",
+        "pointer": [
+          4,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-ruecken-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-arm.mp3",
+      "kind": "vocab",
+      "text": "Arm",
+      "en": "arm",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "arm",
+        "pointer": [
+          5,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-arm.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-arm-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Mein Arm tut weh.",
+      "en": "My arm hurts.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "arm",
+        "pointer": [
+          5,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-arm-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-arm-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Arm",
+      "en": "arm",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "arm",
+        "pointer": [
+          5,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-arm-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-bein.mp3",
+      "kind": "vocab",
+      "text": "Bein",
+      "en": "leg",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "bein",
+        "pointer": [
+          6,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-bein.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-bein-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Er hat zwei Beine.",
+      "en": "He has two legs.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "bein",
+        "pointer": [
+          6,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-bein-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-bein-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Bei",
+      "en": "leg",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "bein",
+        "pointer": [
+          6,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-bein-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-fuss.mp3",
+      "kind": "vocab",
+      "text": "Fuß",
+      "en": "foot",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "fuss",
+        "pointer": [
+          7,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-fuss.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-fuss-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Meine Füße tun weh.",
+      "en": "My feet hurt.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "fuss",
+        "pointer": [
+          7,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-fuss-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-fuss-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Fuess",
+      "note": "plural Füess",
+      "en": "foot",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "fuss",
+        "pointer": [
+          7,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-fuss-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-hand.mp3",
+      "kind": "vocab",
+      "text": "Hand",
+      "en": "hand",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "hand",
+        "pointer": [
+          8,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-hand.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-hand-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Waschen Sie bitte die Hände.",
+      "en": "Please wash your hands.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "hand",
+        "pointer": [
+          8,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-hand-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-hand-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Hand",
+      "note": "plural Händ",
+      "en": "hand",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "hand",
+        "pointer": [
+          8,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-hand-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-auge.mp3",
+      "kind": "vocab",
+      "text": "Auge",
+      "en": "eye",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "auge",
+        "pointer": [
+          9,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-auge.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-auge-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Meine Augen sind müde.",
+      "en": "My eyes are tired.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "auge",
+        "pointer": [
+          9,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-auge-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-auge-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Aug",
+      "note": "plural Auge",
+      "en": "eye",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "auge",
+        "pointer": [
+          9,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-auge-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-ohr.mp3",
+      "kind": "vocab",
+      "text": "Ohr",
+      "en": "ear",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "ohr",
+        "pointer": [
+          10,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-ohr.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-ohr-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Das Kind hat Ohrenschmerzen.",
+      "en": "The child has earache.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "ohr",
+        "pointer": [
+          10,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-ohr-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-ohr-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Ohr",
+      "en": "ear",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "ohr",
+        "pointer": [
+          10,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-ohr-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-nase.mp3",
+      "kind": "vocab",
+      "text": "Nase",
+      "en": "nose",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "nase",
+        "pointer": [
+          11,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-nase.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-nase-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Meine Nase ist rot.",
+      "en": "My nose is red.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "nase",
+        "pointer": [
+          11,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-nase-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-nase-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Nase",
+      "en": "nose",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "nase",
+        "pointer": [
+          11,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-nase-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-zahn.mp3",
+      "kind": "vocab",
+      "text": "Zahn",
+      "en": "tooth",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "zahn",
+        "pointer": [
+          12,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-zahn.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-zahn-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich habe Zahnschmerzen.",
+      "en": "I've got toothache.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "zahn",
+        "pointer": [
+          12,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-zahn-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-zahn-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Zaa / Zahn",
+      "note": "plural Zää",
+      "en": "tooth",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "zahn",
+        "pointer": [
+          12,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-zahn-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-mund.mp3",
+      "kind": "vocab",
+      "text": "Mund",
+      "en": "mouth",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "mund",
+        "pointer": [
+          13,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-mund.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-mund-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Machen Sie bitte den Mund auf.",
+      "en": "Please open your mouth.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "mund",
+        "pointer": [
+          13,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-mund-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-mund-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Mund / Muul",
+      "note": "colloquial",
+      "en": "mouth",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "mund",
+        "pointer": [
+          13,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-mund-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-schmerzen.mp3",
+      "kind": "vocab",
+      "text": "Schmerzen",
+      "en": "pain, ache",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "schmerzen",
+        "pointer": [
+          14,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-schmerzen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-schmerzen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Haben Sie Schmerzen?",
+      "en": "Are you in pain?",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "schmerzen",
+        "pointer": [
+          14,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-schmerzen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-schmerzen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Schmärze / ...weh",
+      "note": "Chopfweh, Buuchweh, Halsweh",
+      "en": "pain, ache",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "schmerzen",
+        "pointer": [
+          14,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-schmerzen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wehtun.mp3",
+      "kind": "vocab",
+      "text": "wehtun",
+      "en": "to hurt",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wehtun",
+        "pointer": [
+          15,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-wehtun.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wehtun-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Was tut Ihnen weh?",
+      "en": "What hurts?",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wehtun",
+        "pointer": [
+          15,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-wehtun-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wehtun-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "weh tue",
+      "note": "es tuet weh",
+      "en": "to hurt",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wehtun",
+        "pointer": [
+          15,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-wehtun-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-fieber.mp3",
+      "kind": "vocab",
+      "text": "Fieber",
+      "en": "fever, temperature",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "fieber",
+        "pointer": [
+          16,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-fieber.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-fieber-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich habe Fieber: 38 Grad.",
+      "en": "I've got a temperature: 38 degrees.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "fieber",
+        "pointer": [
+          16,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-fieber-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-fieber-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Fieber",
+      "en": "fever, temperature",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "fieber",
+        "pointer": [
+          16,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-fieber-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-husten.mp3",
+      "kind": "vocab",
+      "text": "Husten",
+      "en": "cough",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "husten",
+        "pointer": [
+          17,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-husten.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-husten-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich habe Husten.",
+      "en": "I've got a cough.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "husten",
+        "pointer": [
+          17,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-husten-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-husten-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Hueschte",
+      "en": "cough",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "husten",
+        "pointer": [
+          17,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-husten-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-schnupfen.mp3",
+      "kind": "vocab",
+      "text": "Schnupfen",
+      "en": "runny nose, cold",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "schnupfen",
+        "pointer": [
+          18,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-schnupfen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-schnupfen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Im Winter habe ich oft Schnupfen.",
+      "en": "In winter I often have a runny nose.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "schnupfen",
+        "pointer": [
+          18,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-schnupfen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-schnupfen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Schnupfe",
+      "en": "runny nose, cold",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "schnupfen",
+        "pointer": [
+          18,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-schnupfen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-erkaeltung.mp3",
+      "kind": "vocab",
+      "text": "Erkältung",
+      "en": "cold (illness)",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "erkaeltung",
+        "pointer": [
+          19,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-erkaeltung.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-erkaeltung-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Sie haben eine Erkältung.",
+      "en": "You've got a cold.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "erkaeltung",
+        "pointer": [
+          19,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-erkaeltung-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-erkaeltung-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Erchältig",
+      "en": "cold (illness)",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "erkaeltung",
+        "pointer": [
+          19,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-erkaeltung-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-erkaeltet.mp3",
+      "kind": "vocab",
+      "text": "erkältet",
+      "en": "having a cold",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "erkaeltet",
+        "pointer": [
+          20,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-erkaeltet.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-erkaeltet-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich bin erkältet.",
+      "en": "I've got a cold.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "erkaeltet",
+        "pointer": [
+          20,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-erkaeltet-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-erkaeltet-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "verchältet",
+      "en": "having a cold",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "erkaeltet",
+        "pointer": [
+          20,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-erkaeltet-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-erkaeltet-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "vercheltet / ercheltet",
+      "en": "having a cold",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "erkaeltet",
+        "pointer": [
+          20,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-erkaeltet-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-grippe.mp3",
+      "kind": "vocab",
+      "text": "Grippe",
+      "en": "flu",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "grippe",
+        "pointer": [
+          21,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-grippe.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-grippe-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Mein Bruder hat Grippe.",
+      "en": "My brother has the flu.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "grippe",
+        "pointer": [
+          21,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-grippe-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-grippe-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Grippe",
+      "en": "flu",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "grippe",
+        "pointer": [
+          21,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-grippe-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-krank.mp3",
+      "kind": "vocab",
+      "text": "krank",
+      "en": "ill, sick",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "krank",
+        "pointer": [
+          22,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-krank.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-krank-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich bin krank, ich kann nicht kommen.",
+      "en": "I'm ill, I can't come.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "krank",
+        "pointer": [
+          22,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-krank-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-krank-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "chrank",
+      "en": "ill, sick",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "krank",
+        "pointer": [
+          22,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-krank-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gesund.mp3",
+      "kind": "vocab",
+      "text": "gesund",
+      "en": "healthy, well",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gesund",
+        "pointer": [
+          23,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-gesund.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gesund-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Obst ist gesund.",
+      "en": "Fruit is healthy.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gesund",
+        "pointer": [
+          23,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-gesund-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gesund-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "gsund",
+      "en": "healthy, well",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gesund",
+        "pointer": [
+          23,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-gesund-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-muede.mp3",
+      "kind": "vocab",
+      "text": "müde",
+      "en": "tired",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "muede",
+        "pointer": [
+          24,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-muede.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-muede-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich bin heute sehr müde.",
+      "en": "I'm very tired today.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "muede",
+        "pointer": [
+          24,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-muede-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-muede-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "müed",
+      "en": "tired",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "muede",
+        "pointer": [
+          24,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-muede-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-was-fehlt-ihnen.mp3",
+      "kind": "vocab",
+      "text": "Was fehlt Ihnen?",
+      "en": "What's the matter (with you)?",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "was-fehlt-ihnen",
+        "pointer": [
+          25,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-was-fehlt-ihnen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-was-fehlt-ihnen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Guten Morgen! Was fehlt Ihnen?",
+      "en": "Good morning! What's the matter?",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "was-fehlt-ihnen",
+        "pointer": [
+          25,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-was-fehlt-ihnen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-was-fehlt-ihnen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Was fählt Ine? / Was häsch?",
+      "en": "What's the matter (with you)?",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "was-fehlt-ihnen",
+        "pointer": [
+          25,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-was-fehlt-ihnen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gute-besserung.mp3",
+      "kind": "vocab",
+      "text": "Gute Besserung!",
+      "en": "Get well soon!",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gute-besserung",
+        "pointer": [
+          26,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-gute-besserung.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gute-besserung-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Gute Besserung, Herr Baker!",
+      "en": "Get well soon, Mr Baker!",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gute-besserung",
+        "pointer": [
+          26,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-gute-besserung-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gute-besserung-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Gueti Besserig!",
+      "en": "Get well soon!",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gute-besserung",
+        "pointer": [
+          26,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-gute-besserung-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gesundheit.mp3",
+      "kind": "vocab",
+      "text": "Gesundheit!",
+      "en": "Bless you! (after a sneeze)",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gesundheit",
+        "pointer": [
+          27,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-gesundheit.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gesundheit-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Hatschi! – Gesundheit! – Danke!",
+      "en": "Atchoo! – Bless you! – Thanks!",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gesundheit",
+        "pointer": [
+          27,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-gesundheit-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gesundheit-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Gsundheit!",
+      "en": "Bless you! (after a sneeze)",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gesundheit",
+        "pointer": [
+          27,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-gesundheit-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-apotheke.mp3",
+      "kind": "vocab",
+      "text": "Apotheke",
+      "en": "pharmacy, chemist's",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "apotheke",
+        "pointer": [
+          28,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-apotheke.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-apotheke-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Die Apotheke ist am Sonntag geschlossen.",
+      "en": "The pharmacy is closed on Sunday.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "apotheke",
+        "pointer": [
+          28,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-apotheke-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-apotheke-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Apiteegg / Apotheke",
+      "en": "pharmacy, chemist's",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "apotheke",
+        "pointer": [
+          28,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-apotheke-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-medikament.mp3",
+      "kind": "vocab",
+      "text": "Medikament",
+      "en": "medicine, drug",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "medikament",
+        "pointer": [
+          29,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-medikament.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-medikament-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Brauche ich Medikamente?",
+      "en": "Do I need any medicine?",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "medikament",
+        "pointer": [
+          29,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-medikament-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-medikament-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Medikamänt",
+      "en": "medicine, drug",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "medikament",
+        "pointer": [
+          29,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-medikament-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-tablette.mp3",
+      "kind": "vocab",
+      "text": "Tablette",
+      "en": "tablet, pill",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "tablette",
+        "pointer": [
+          30,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-tablette.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-tablette-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Nehmen Sie dreimal täglich eine Tablette.",
+      "en": "Take one tablet three times a day.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "tablette",
+        "pointer": [
+          30,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-tablette-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-tablette-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Tablette",
+      "en": "tablet, pill",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "tablette",
+        "pointer": [
+          30,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-tablette-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-rezept.mp3",
+      "kind": "vocab",
+      "text": "Rezept",
+      "en": "prescription; recipe",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "rezept",
+        "pointer": [
+          31,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-rezept.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-rezept-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich schreibe Ihnen ein Rezept.",
+      "en": "I'll write you a prescription.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "rezept",
+        "pointer": [
+          31,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-rezept-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-rezept-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Rezäpt",
+      "en": "prescription; recipe",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "rezept",
+        "pointer": [
+          31,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-rezept-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-krankenhaus.mp3",
+      "kind": "vocab",
+      "text": "Krankenhaus",
+      "en": "hospital",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "krankenhaus",
+        "pointer": [
+          32,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-krankenhaus.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-krankenhaus-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Das Krankenhaus ist in der Nähe.",
+      "en": "The hospital is nearby.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "krankenhaus",
+        "pointer": [
+          32,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-krankenhaus-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-krankenhaus-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Spital",
+      "en": "hospital",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "krankenhaus",
+        "pointer": [
+          32,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-krankenhaus-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-krankenkasse.mp3",
+      "kind": "vocab",
+      "text": "Krankenkasse",
+      "en": "health insurance (company)",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "krankenkasse",
+        "pointer": [
+          33,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-krankenkasse.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-krankenkasse-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Hier ist meine Karte von der Krankenkasse.",
+      "en": "Here's my health insurance card.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "krankenkasse",
+        "pointer": [
+          33,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-krankenkasse-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-krankenkasse-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Chrankekasse",
+      "en": "health insurance (company)",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "krankenkasse",
+        "pointer": [
+          33,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-krankenkasse-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-arztzeugnis.mp3",
+      "kind": "vocab",
+      "text": "Krankschreibung",
+      "en": "doctor's note, sick note",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "arztzeugnis",
+        "pointer": [
+          34,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-arztzeugnis.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-arztzeugnis-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich brauche eine Krankschreibung für die Arbeit.",
+      "en": "I need a sick note for work.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "arztzeugnis",
+        "pointer": [
+          34,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-arztzeugnis-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-arztzeugnis-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Arztzüügnis",
+      "en": "doctor's note, sick note",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "arztzeugnis",
+        "pointer": [
+          34,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-arztzeugnis-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wartezimmer.mp3",
+      "kind": "vocab",
+      "text": "Wartezimmer",
+      "en": "waiting room",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wartezimmer",
+        "pointer": [
+          35,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-wartezimmer.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wartezimmer-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Bitte nehmen Sie im Wartezimmer Platz.",
+      "en": "Please take a seat in the waiting room.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wartezimmer",
+        "pointer": [
+          35,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-wartezimmer-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wartezimmer-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Wartezimmer",
+      "en": "waiting room",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wartezimmer",
+        "pointer": [
+          35,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-wartezimmer-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-notfall.mp3",
+      "kind": "vocab",
+      "text": "Notfall",
+      "en": "emergency; A&E",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "notfall",
+        "pointer": [
+          36,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-notfall.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-notfall-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Im Notfall rufen Sie 144 an.",
+      "en": "In an emergency, call 144.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "notfall",
+        "pointer": [
+          36,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-notfall-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-notfall-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Notfall",
+      "en": "emergency; A&E",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "notfall",
+        "pointer": [
+          36,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-notfall-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-bleiben.mp3",
+      "kind": "vocab",
+      "text": "bleiben",
+      "en": "to stay",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "bleiben",
+        "pointer": [
+          37,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-bleiben.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-bleiben-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Bleib heute im Bett!",
+      "en": "Stay in bed today!",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "bleiben",
+        "pointer": [
+          37,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-bleiben-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-bleiben-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "bliibe",
+      "en": "to stay",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "bleiben",
+        "pointer": [
+          37,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-bleiben-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-taeglich.mp3",
+      "kind": "vocab",
+      "text": "täglich",
+      "en": "daily, a day",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "taeglich",
+        "pointer": [
+          38,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-taeglich.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-taeglich-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Nehmen Sie die Tabletten dreimal täglich.",
+      "en": "Take the tablets three times a day.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "taeglich",
+        "pointer": [
+          38,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-taeglich-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-taeglich-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "täglich / jede Tag",
+      "en": "daily, a day",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "taeglich",
+        "pointer": [
+          38,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-taeglich-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-u11-dictation-kopf.mp3",
+      "kind": "dictation",
+      "text": "Mein Kopf tut weh, und ich habe Fieber.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a1-u11-dictation-kopf",
+        "pointer": [
+          25,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a1-u11-dictation-kopf.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-u11-dictation-tablette.mp3",
+      "kind": "dictation",
+      "text": "Nehmen Sie zweimal täglich eine Tablette.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a1-u11-dictation-tablette",
+        "pointer": [
+          26,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a1-u11-dictation-tablette.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-u11-speak-appointment.mp3",
+      "kind": "speak",
+      "text": "Guten Tag, hier ist Tom Baker. Ich bin krank und möchte heute einen Termin, bitte.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a1-u11-speak-appointment",
+        "pointer": [
+          27,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a1-u11-speak-appointment.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-u11-speak-shadow-tom.mp3",
+      "kind": "speak",
+      "text": "Ich habe Halsschmerzen und Husten. Und mein Kopf tut weh.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a1-u11-speak-shadow-tom",
+        "pointer": [
+          28,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a1-u11-speak-shadow-tom.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-u11-speak-shadow-huber.mp3",
+      "kind": "speak",
+      "text": "Nein, Sie dürfen drei Tage nicht arbeiten. Sie müssen viel schlafen und viel Tee trinken.",
+      "variety": "ch-std",
+      "voice": "zh-f",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a1-u11-speak-shadow-huber",
+        "pointer": [
+          29,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a1-u11-speak-shadow-huber.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-u11-speak-intonation-besserung.mp3",
+      "kind": "speak",
+      "text": "Oh, du bist krank? Gute Besserung!",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a1-u11-speak-intonation-besserung",
+        "pointer": [
+          30,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a1-u11-speak-intonation-besserung.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-u11-speak-pron-ach.mp3",
+      "kind": "speak",
+      "text": "Bauch, Buch, auch, Woche – ich, nicht, Milch, täglich",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a1-u11-speak-pron-ach",
+        "pointer": [
+          31,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a1-u11-speak-pron-ach.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-u11-ch-mcq-besserig.mp3",
+      "kind": "listening",
+      "text": "Gsundheit! Gueti Besserig, Reto!",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a1-u11-ch-mcq-besserig",
+        "pointer": [
+          40,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a1-u11-ch-mcq-besserig.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-u11-ch-be-mcq-vercheltet.mp3",
+      "kind": "listening",
+      "text": "Sandra, bisch vercheltet?",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a1-u11-ch-be-mcq-vercheltet",
+        "pointer": [
+          43,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a1-u11-ch-be-mcq-vercheltet.mp3",
+      "referenced": false
+    }
+  ]
+}

@@ -1,0 +1,380 @@
+# A1 unit 11 – Gesundheit
+
+# ---------- the body ----------
+- id: koerper
+  de: Körper
+  en: body
+  pos: noun
+  gender: m
+  plural: Körper
+  example: { de: "Sport ist gut für den Körper.", en: "Sport is good for the body." }
+  gswZh: Körper / Chörper
+  tags: [body]
+
+- id: kopf
+  de: Kopf
+  en: head
+  pos: noun
+  gender: m
+  plural: Köpfe
+  example: { de: "Mein Kopf tut weh.", en: "My head hurts." }
+  gswZh: Chopf (plural Chöpf)
+  gswBe: Chopf / Gring (coarse but affectionate)
+  tags: [body]
+
+- id: hals
+  de: Hals
+  en: throat; neck
+  pos: noun
+  gender: m
+  plural: Hälse
+  example: { de: "Ihr Hals ist rot.", en: "Your throat is red." }
+  gswZh: Hals
+  tags: [body]
+
+- id: bauch
+  de: Bauch
+  en: belly, stomach
+  pos: noun
+  gender: m
+  plural: Bäuche
+  example: { de: "Ich habe Bauchschmerzen.", en: "I've got stomach ache." }
+  gswZh: Buuch
+  tags: [body]
+
+- id: ruecken
+  de: Rücken
+  en: back
+  pos: noun
+  gender: m
+  plural: Rücken
+  example: { de: "Mein Rücken tut weh.", en: "My back hurts." }
+  gswZh: Rugge
+  tags: [body]
+
+- id: arm
+  de: Arm
+  en: arm
+  pos: noun
+  gender: m
+  plural: Arme
+  example: { de: "Mein Arm tut weh.", en: "My arm hurts." }
+  gswZh: Arm
+  tags: [body]
+
+- id: bein
+  de: Bein
+  en: leg
+  pos: noun
+  gender: n
+  plural: Beine
+  example: { de: "Er hat zwei Beine.", en: "He has two legs." }
+  gswZh: Bei
+  tags: [body]
+
+- id: fuss
+  de: Fuß
+  en: foot
+  pos: noun
+  gender: m
+  plural: Füße
+  example: { de: "Meine Füße tun weh.", en: "My feet hurt." }
+  chStd: Fuss
+  gswZh: Fuess (plural Füess)
+  tags: [body]
+
+- id: hand
+  de: Hand
+  en: hand
+  pos: noun
+  gender: f
+  plural: Hände
+  example: { de: "Waschen Sie bitte die Hände.", en: "Please wash your hands." }
+  gswZh: Hand (plural Händ)
+  tags: [body]
+
+- id: auge
+  de: Auge
+  en: eye
+  pos: noun
+  gender: n
+  plural: Augen
+  example: { de: "Meine Augen sind müde.", en: "My eyes are tired." }
+  gswZh: Aug (plural Auge)
+  tags: [body]
+
+- id: ohr
+  de: Ohr
+  en: ear
+  pos: noun
+  gender: n
+  plural: Ohren
+  example: { de: "Das Kind hat Ohrenschmerzen.", en: "The child has earache." }
+  gswZh: Ohr
+  tags: [body]
+
+- id: nase
+  de: Nase
+  en: nose
+  pos: noun
+  gender: f
+  plural: Nasen
+  example: { de: "Meine Nase ist rot.", en: "My nose is red." }
+  gswZh: Nase
+  tags: [body]
+
+- id: zahn
+  de: Zahn
+  en: tooth
+  pos: noun
+  gender: m
+  plural: Zähne
+  example: { de: "Ich habe Zahnschmerzen.", en: "I've got toothache." }
+  gswZh: Zaa / Zahn (plural Zää)
+  tags: [body]
+
+- id: mund
+  de: Mund
+  en: mouth
+  pos: noun
+  gender: m
+  plural: Münder
+  example: { de: "Machen Sie bitte den Mund auf.", en: "Please open your mouth." }
+  gswZh: Mund / Muul (colloquial)
+  tags: [body]
+
+# ---------- feeling ill ----------
+- id: schmerzen
+  de: Schmerzen
+  en: pain, ache
+  pos: noun
+  pluralOnly: true
+  example: { de: "Haben Sie Schmerzen?", en: "Are you in pain?" }
+  chStd: Schmerzen / ...weh (Kopfweh, Bauchweh)
+  gswZh: Schmärze / ...weh (Chopfweh, Buuchweh, Halsweh)
+  tags: [health]
+
+- id: wehtun
+  de: wehtun
+  en: to hurt
+  pos: verb
+  example: { de: "Was tut Ihnen weh?", en: "What hurts?" }
+  gswZh: weh tue (es tuet weh)
+  tags: [health, separable]
+
+- id: fieber
+  de: Fieber
+  en: fever, temperature
+  pos: noun
+  gender: n
+  plural: "-"
+  example: { de: "Ich habe Fieber: 38 Grad.", en: "I've got a temperature: 38 degrees." }
+  gswZh: Fieber
+  tags: [health]
+
+- id: husten
+  de: Husten
+  en: cough
+  pos: noun
+  gender: m
+  plural: "-"
+  example: { de: "Ich habe Husten.", en: "I've got a cough." }
+  gswZh: Hueschte
+  tags: [health]
+
+- id: schnupfen
+  de: Schnupfen
+  en: runny nose, cold
+  pos: noun
+  gender: m
+  plural: "-"
+  example: { de: "Im Winter habe ich oft Schnupfen.", en: "In winter I often have a runny nose." }
+  gswZh: Schnupfe
+  tags: [health]
+
+- id: erkaeltung
+  de: Erkältung
+  en: cold (illness)
+  pos: noun
+  gender: f
+  plural: Erkältungen
+  example: { de: "Sie haben eine Erkältung.", en: "You've got a cold." }
+  gswZh: Erchältig
+  tags: [health]
+
+- id: erkaeltet
+  de: erkältet
+  en: having a cold
+  pos: adj
+  example: { de: "Ich bin erkältet.", en: "I've got a cold." }
+  gswZh: verchältet
+  gswBe: vercheltet / ercheltet
+  tags: [health]
+
+- id: grippe
+  de: Grippe
+  en: flu
+  pos: noun
+  gender: f
+  plural: Grippen
+  example: { de: "Mein Bruder hat Grippe.", en: "My brother has the flu." }
+  gswZh: Grippe
+  tags: [health]
+
+- id: krank
+  de: krank
+  en: ill, sick
+  pos: adj
+  example: { de: "Ich bin krank, ich kann nicht kommen.", en: "I'm ill, I can't come." }
+  gswZh: chrank
+  tags: [health]
+
+- id: gesund
+  de: gesund
+  en: healthy, well
+  pos: adj
+  example: { de: "Obst ist gesund.", en: "Fruit is healthy." }
+  gswZh: gsund
+  tags: [health]
+
+- id: muede
+  de: müde
+  en: tired
+  pos: adj
+  example: { de: "Ich bin heute sehr müde.", en: "I'm very tired today." }
+  gswZh: müed
+  tags: [health]
+
+- id: was-fehlt-ihnen
+  de: "Was fehlt Ihnen?"
+  en: "What's the matter (with you)?"
+  pos: phrase
+  example: { de: "Guten Morgen! Was fehlt Ihnen?", en: "Good morning! What's the matter?" }
+  gswZh: "Was fählt Ine? / Was häsch?"
+  tags: [health, phrases]
+
+- id: gute-besserung
+  de: Gute Besserung!
+  en: Get well soon!
+  pos: phrase
+  example: { de: "Gute Besserung, Herr Baker!", en: "Get well soon, Mr Baker!" }
+  gswZh: Gueti Besserig!
+  tags: [health, phrases]
+
+- id: gesundheit
+  de: Gesundheit!
+  en: Bless you! (after a sneeze)
+  pos: phrase
+  example: { de: "Hatschi! – Gesundheit! – Danke!", en: "Atchoo! – Bless you! – Thanks!" }
+  gswZh: Gsundheit!
+  tags: [health, phrases]
+
+# ---------- doctor and pharmacy ----------
+- id: apotheke
+  de: Apotheke
+  en: pharmacy, chemist's
+  pos: noun
+  gender: f
+  plural: Apotheken
+  example: { de: "Die Apotheke ist am Sonntag geschlossen.", en: "The pharmacy is closed on Sunday." }
+  chStd: Apotheke (prescription medicine) / Drogerie (non-prescription remedies)
+  gswZh: Apiteegg / Apotheke
+  tags: [health, helvetism]
+
+- id: medikament
+  de: Medikament
+  en: medicine, drug
+  pos: noun
+  gender: n
+  plural: Medikamente
+  example: { de: "Brauche ich Medikamente?", en: "Do I need any medicine?" }
+  gswZh: Medikamänt
+  tags: [health]
+
+- id: tablette
+  de: Tablette
+  en: tablet, pill
+  pos: noun
+  gender: f
+  plural: Tabletten
+  example: { de: "Nehmen Sie dreimal täglich eine Tablette.", en: "Take one tablet three times a day." }
+  gswZh: Tablette
+  tags: [health]
+
+- id: rezept
+  de: Rezept
+  en: prescription; recipe
+  pos: noun
+  gender: n
+  plural: Rezepte
+  example: { de: "Ich schreibe Ihnen ein Rezept.", en: "I'll write you a prescription." }
+  gswZh: Rezäpt
+  tags: [health]
+
+- id: krankenhaus
+  de: Krankenhaus
+  en: hospital
+  pos: noun
+  gender: n
+  plural: Krankenhäuser
+  example: { de: "Das Krankenhaus ist in der Nähe.", en: "The hospital is nearby." }
+  chStd: Spital (das Spital, plural Spitäler)
+  gswZh: Spital
+  tags: [health, helvetism]
+
+- id: krankenkasse
+  de: Krankenkasse
+  en: health insurance (company)
+  pos: noun
+  gender: f
+  plural: Krankenkassen
+  example: { de: "Hier ist meine Karte von der Krankenkasse.", en: "Here's my health insurance card." }
+  gswZh: Chrankekasse
+  tags: [health, culture]
+
+- id: arztzeugnis
+  de: Krankschreibung
+  en: doctor's note, sick note
+  pos: noun
+  gender: f
+  plural: Krankschreibungen
+  example: { de: "Ich brauche eine Krankschreibung für die Arbeit.", en: "I need a sick note for work." }
+  chStd: Arztzeugnis (das Arztzeugnis)
+  gswZh: Arztzüügnis
+  tags: [health, work, helvetism]
+
+- id: wartezimmer
+  de: Wartezimmer
+  en: waiting room
+  pos: noun
+  gender: n
+  plural: Wartezimmer
+  example: { de: "Bitte nehmen Sie im Wartezimmer Platz.", en: "Please take a seat in the waiting room." }
+  gswZh: Wartezimmer
+  tags: [health]
+
+- id: notfall
+  de: Notfall
+  en: emergency; A&E
+  pos: noun
+  gender: m
+  plural: Notfälle
+  example: { de: "Im Notfall rufen Sie 144 an.", en: "In an emergency, call 144." }
+  gswZh: Notfall
+  tags: [health]
+
+- id: bleiben
+  de: bleiben
+  en: to stay
+  pos: verb
+  example: { de: "Bleib heute im Bett!", en: "Stay in bed today!" }
+  gswZh: bliibe
+  tags: [verbs]
+
+- id: taeglich
+  de: täglich
+  en: daily, a day
+  pos: adv
+  example: { de: "Nehmen Sie die Tabletten dreimal täglich.", en: "Take the tablets three times a day." }
+  gswZh: täglich / jede Tag
+  tags: [time, health]

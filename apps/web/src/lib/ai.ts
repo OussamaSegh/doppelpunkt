@@ -7,6 +7,7 @@ import {
   DEFAULT_MODELS,
   PROVIDER_IDS,
   estimateCost,
+  estimateTranscriptionCost,
   type ChatMessage,
   type Provider,
   type ProviderId,
@@ -14,6 +15,7 @@ import {
 } from '@doppelpunkt/ai';
 import { db, type Settings, type UsageRow } from '../db';
 import { useSession } from './session';
+import { audioSecondsOf } from './speech';
 import { useSettings } from './hooks';
 
 export const PROVIDERS: readonly ProviderId[] = PROVIDER_IDS;
@@ -38,6 +40,12 @@ export async function monthSpend(): Promise<number> {
   return rows.reduce((sum, r) => sum + r.costUsd, 0);
 }
 
+/** This month's transcription: seconds of audio and approximate cost. */
+export async function monthTranscription(): Promise<{ seconds: number; costUsd: number }> {
+  const rows = await db.usage.where('at').aboveOrEqual(monthStart()).filter((r) => r.purpose === 'transcription').toArray();
+  return rows.reduce((a, r) => ({ seconds: a.seconds + (r.audioSeconds ?? 0), costUsd: a.costUsd + r.costUsd }), { seconds: 0, costUsd: 0 });
+}
+
 export async function recordUsage(
   provider: ProviderId,
   model: string,
@@ -59,9 +67,32 @@ export async function recordUsage(
   return costUsd;
 }
 
+export async function recordTranscription(provider: ProviderId, model: string, audio: Blob): Promise<number> {
+  const { seconds } = audioSecondsOf(audio);
+  const costUsd = estimateTranscriptionCost(provider, model, seconds);
+  await db.usage.add({
+    at: new Date().toISOString(),
+    provider,
+    model,
+    inputTokens: 0,
+    outputTokens: 0,
+    costUsd,
+    purpose: 'transcription',
+    // Always an estimate: providers don't report billed seconds back.
+    estimated: true,
+    audioSeconds: Math.round(seconds * 10) / 10,
+  });
+  return costUsd;
+}
+
 /** Rough token estimate (~4 characters per token) for streams that report no usage. */
 export function estimateTokens(text: string): number {
   return Math.ceil(text.length / 4);
+}
+
+/** The model a provider transcribes with (OpenAI has dedicated transcription models; Gemini uses the chat model). */
+function transcribeModel(p: Provider): string {
+  return p.id === 'openai' ? 'gpt-4o-transcribe' : p.model;
 }
 
 /** Wraps a provider so every call checks the cap first and logs its usage afterwards. */
@@ -106,11 +137,13 @@ export function trackedProvider(p: Provider, cap: number, purpose: UsageRow['pur
       }
     },
   });
-  // Transcription has no token usage to log, but it costs money too: respect the spend cap.
+  // Transcription is billed per audio minute, not per token: respect the cap and log the seconds.
   const transcribe: Provider['transcribe'] = p.transcribe
     ? async (audio, lang, opts) => {
         await guard();
-        return p.transcribe!(audio, lang, opts);
+        const text = await p.transcribe!(audio, lang, opts);
+        await recordTranscription(p.id, transcribeModel(p), audio);
+        return text;
       }
     : undefined;
   return { ...p, chat, structured, stream, transcribe };

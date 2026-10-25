@@ -11,8 +11,8 @@ import { Placement, PlacementResults } from './Placement';
 const unit2 = CompiledUnit.parse({ ...fixtureUnit, id: 'a1-u02', number: 2, title: 'Zahlen', titleEn: 'Numbers', exercises: fixtureUnit.exercises.map((e) => ({ ...e, id: e.id.replace('u01', 'u02') })) });
 const a2 = CompiledUnit.parse({ ...fixtureUnit, id: 'a2-u01', level: 'A2', title: 'Alltag', titleEn: 'Everyday life', exercises: fixtureUnit.exercises.map((e) => ({ ...e, id: e.id.replace('a1', 'a2') })) });
 const packs: LevelPack[] = [
-  { level: 'A1', version: 't', builtAt: '2026-01-01T00:00:00.000Z', units: [fixtureUnit, unit2] },
-  { level: 'A2', version: 't', builtAt: '2026-01-01T00:00:00.000Z', units: [a2] },
+  { level: 'A1', version: 't', builtAt: '2026-01-01T00:00:00.000Z', units: [fixtureUnit, unit2], exams: [] },
+  { level: 'A2', version: 't', builtAt: '2026-01-01T00:00:00.000Z', units: [a2], exams: [] },
 ];
 
 function Where() {

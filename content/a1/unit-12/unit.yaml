@@ -1,0 +1,306 @@
+id: a1-u12
+level: A1
+number: 12
+title: Feste und Feiern
+titleEn: Celebrations
+goal: >-
+  By the end you can invite people, accept or decline politely, congratulate and give good wishes, talk
+  about Swiss and German holidays, fill in a simple form, spell your name and ask people to repeat – and
+  you have reviewed the whole of A1: verb position, the sentence bracket, nicht and kein, the accusative
+  and questions.
+canDo:
+  - I can invite someone, and accept or decline an invitation politely (Ich komme gern! Leider kann ich nicht.).
+  - I can congratulate people and give good wishes for birthdays and holidays (Herzlichen Glückwunsch! Frohe Weihnachten!).
+  - I can write a short invitation, card or message with a greeting, the key information and a closing.
+  - I can fill in a simple form with my personal details (name, address, date of birth, nationality) and spell my name.
+  - I can ask people to repeat or speak more slowly when I don't understand (Wie bitte? Können Sie das bitte wiederholen?).
+  - I can put the verb in the right place in statements, questions, imperatives and sentences with modal or separable verbs.
+  - I can recognise Swiss celebration words and customs (Geburi, Fäscht, Vill Glück zum Geburtstag!, Samichlaus, 1. August, Sechseläuten, En Guete!, Proscht!).
+
+review:
+  notes:
+    - "'Vill Glück zum Geburtstag!' – the usual Zurich birthday wish? Also 'Alles Gueti zum Geburi!' and 'Härzliche Glückwunsch!'?"
+    - "'Chumm ine!' (Komm herein!) – ine / inä spelling?"
+    - "'Da, es Gschänk für dich.' – Gschänk (n.) in Zurich as in Bern (BD #55070)? 'Mach s uf!' (Mach es auf!) natural?"
+    - "'Wottsch öppis trinke? Es Bier?' – fine for A1 recognition (wott from the lexicon)."
+    - "'Mir gönd am erschte Auguscht as Fürwerk am See.' – as = an das? Fürwerk spelling (Füürwerch?)."
+    - "Samichlaus (Zurich) vs Samichlous (Bern, BD #12148); Schmutzli (BD #56714) – please confirm the note on what the Samichlaus brings (nuts, mandarins, gingerbread – Grittibänz is a bread figure)."
+    - "Sechseläuten: the unit says it is on a Monday in April, the Böögg (a snowman figure) burns on the Sechseläutenplatz at 6 p.m., and a quick explosion of the head means a good summer (source: zuerich.com, Wer ist der Böögg?). Dialect name Sächsilüüte – please confirm."
+    - "Bernese lines: 'Sandra, ds Fescht für e Ätti isch am Sunntig. Bringsch es Gschänk?' (Fescht n. BD #51848, Gschänk n. BD #55070) / 'Klar, Mami! Mir gratuliere ihm zäme.' (gratuliere BD #53603) – is 'für e Ätti' (für den Vater) right, and is 'mir gratuliere ihm zäme' natural?"
+    - "Swiss Standard: die Fasnacht (for Karneval / Fasching), der Samichlaus (Duden: schweizerisch), der Nationalfeiertag (1. August), das Geburtstagsfest – fine?"
+    - "Vocabulary gswZh forms without a source (please tick or correct): Party / Fäscht, Fiir, fiire, Gschänk, schänke, gratuliere, Cherze, Turte, Blueme, Schoggi, Gascht, Überraschig, zuesäge, Wienacht, Oschtere, Silväschter, Neujahr, Hochziit, Fiirtig, Fürwerk, Fasnacht, Formular, buechstabiere, widerhole, langsam, sich freue."
+
+intro:
+  scene: >-
+    Friday afternoon in the office kitchen. Tom's colleague Nadine, from Winterthur, invites him to her
+    birthday party. She speaks Swiss Standard German with him.
+  dialogue:
+    - speaker: Nadine
+      text: Tom, am Samstag feiere ich meinen Geburtstag. Ich werde dreissig! Kommst du auch?
+      en: Tom, I'm celebrating my birthday on Saturday. I'm turning thirty! Are you coming too?
+      variety: ch-std
+    - speaker: Tom
+      text: Herzlichen Glückwunsch! Wann ist die Party?
+      en: Happy birthday! When is the party?
+    - speaker: Nadine
+      text: Am Samstag um acht, bei mir zu Hause.
+      en: On Saturday at eight, at my place.
+      variety: ch-std
+    - speaker: Tom
+      text: Ja, ich komme gern! Soll ich etwas mitbringen?
+      en: Yes, I'd love to come! Shall I bring anything?
+    - speaker: Nadine
+      text: Nein, du musst nichts mitbringen. Es gibt genug Essen und Getränke.
+      en: No, you don't have to bring anything. There's enough food and drink.
+      variety: ch-std
+    - speaker: Tom
+      text: Kommt Lena auch?
+      en: Is Lena coming too?
+    - speaker: Nadine
+      text: Ich lade sie ein, aber sie kann leider nicht. Sie ist am Wochenende in Berlin.
+      en: I'm inviting her, but unfortunately she can't come. She's in Berlin at the weekend.
+      variety: ch-std
+    - speaker: Tom
+      text: Schade! Tanzen wir auch?
+      en: What a pity! Are we going to dance too?
+    - speaker: Nadine
+      text: Natürlich! Und um Mitternacht gibt es eine Torte mit dreissig Kerzen.
+      en: Of course! And at midnight there's a cake with thirty candles.
+      variety: ch-std
+    - speaker: Tom
+      text: Super, ich freue mich! Bis Samstag!
+      en: Great, I'm looking forward to it! See you on Saturday!
+    - speaker: Nadine
+      text: Ich mich auch. Bis Samstag!
+      en: Me too. See you on Saturday!
+      variety: ch-std
+
+grammar:
+  - id: review-word-order
+    title: "A1 review: where does the verb go?"
+    body: >-
+      Everything in A1 word order comes down to **four patterns**.
+
+
+      1. **Statement – verb second.** One element in position 1 (subject, time, object), the conjugated verb in
+      position 2: *Ich **feiere** am Samstag. Am Samstag **feiere** ich.* (units 1 and 4)
+
+      2. **Yes/no question and imperative – verb first.** ***Kommst** du auch? **Bring** bitte Wein mit!
+      **Nehmen** Sie Platz!* (units 1 and 8)
+
+      3. **W-question – W-word first, verb second.** ***Wann ist** die Party? **Was bringst** du mit?*
+
+
+      4. **The sentence bracket.** A modal verb or a separable verb opens the bracket in position 2 (or 1);
+      the infinitive or the prefix closes it at the end: *Ich **kann** am Samstag leider nicht **kommen**. Ich
+      **lade** dich **ein**. **Kannst** du einen Kuchen **mitbringen**?* (units 4, 7–9)
+
+
+      Objects, time words and *nicht* go **inside** the bracket. A pronoun object comes early: *Ich lade
+      **sie** am Freitag **ein**.*
+    tables:
+      - [["Position 1", "Position 2 (verb)", "Middle", "End"],
+         ["Ich", "feiere", "am Samstag meinen Geburtstag.", ""],
+         ["Am Samstag", "feiere", "ich meinen Geburtstag.", ""],
+         ["Wann", "ist", "die Party?", ""],
+         ["Ich", "lade", "dich zur Party", "ein."],
+         ["Ich", "kann", "am Samstag leider nicht", "kommen."],
+         ["Soll", "ich", "etwas", "mitbringen?"]]
+    commonMistakes:
+      - "*Am Samstag ich feiere.* → **Am Samstag feiere ich.** Only one element before the verb."
+      - "*Ich kann nicht kommen am Samstag.* → **Ich kann am Samstag nicht kommen.** The infinitive closes the sentence."
+      - "*Ich einlade dich.* → **Ich lade dich ein.** Separable prefixes go to the end."
+      - "*Wann die Party ist?* → **Wann ist die Party?** In a W-question the verb comes second."
+
+  - id: review-negation-accusative
+    title: "A1 review: nicht or kein, and the accusative"
+    body: >-
+      **kein** negates a noun with *ein* or without an article: *Ich habe **ein** Geschenk → Ich habe **kein**
+      Geschenk. Ich habe Zeit → Ich habe **keine** Zeit.* **nicht** negates everything else – verbs,
+      adjectives, names, nouns with *der/die/das*: *Ich komme **nicht**. Die Party ist **nicht** lang. Ich
+      kenne den Gast **nicht**.* (unit 5)
+
+
+      **The accusative** (the direct object) only changes the **masculine**: *der → den, ein → einen, kein →
+      keinen, mein → meinen, dieser → diesen, er → ihn*: *Ich feiere **meinen** Geburtstag. Ich kaufe **einen**
+      Kuchen. Ich sehe **ihn**.* Feminine, neuter and plural look the same as the nominative.
+
+
+      Many A1 verbs take an accusative object: *haben, brauchen, möchten, nehmen, kaufen, sehen, einladen,
+      feiern, schenken, mitbringen*. After *es gibt* too: *Es gibt **einen** Kuchen.*
+    tables:
+      - [["", "der (m)", "die (f)", "das (n)", "die (plural)"],
+         ["Nominative", "der / ein / kein / mein", "die / eine / keine / meine", "das / ein / kein / mein", "die / – / keine / meine"],
+         ["Accusative", "den / einen / keinen / meinen", "die / eine / keine / meine", "das / ein / kein / mein", "die / – / keine / meine"],
+         ["Pronoun", "er → ihn", "sie → sie", "es → es", "sie → sie"]]
+    commonMistakes:
+      - "*Ich habe nicht ein Geschenk.* → **Ich habe kein Geschenk.**"
+      - "*Ich habe kein Zeit.* → **Ich habe keine Zeit.** die Zeit → keine."
+      - "*Ich kaufe ein Kuchen.* → **Ich kaufe einen Kuchen.** der Kuchen, object → einen."
+      - "*Ich komme kein.* → **Ich komme nicht.** Verbs are negated with nicht."
+
+  - id: congratulating-inviting
+    title: "Inviting, accepting, declining, congratulating"
+    body: >-
+      **Inviting:** *Ich lade dich zu meiner Party ein. Kommst du am Samstag? Hast du am Freitag Zeit? Möchtest
+      du zum Essen kommen?*
+
+
+      **Accepting:** *Ja, gern! Ich komme gern. Super, ich freue mich!* (*sich freuen* = to look forward to it /
+      to be happy – learn *ich freue mich* as a chunk.)
+
+
+      **Declining politely:** always say **leider** and give a short reason: *Leider kann ich nicht. Ich muss
+      arbeiten. Schade, am Samstag habe ich keine Zeit.*
+
+
+      **Congratulating and good wishes** – the occasion follows **zum** (der/das) or **zur** (die):
+      ***Herzlichen Glückwunsch zum** Geburtstag! **Alles Gute zum** Geburtstag! **Herzlichen Glückwunsch zur**
+      Hochzeit!* Holidays: ***Frohe Weihnachten! Frohe Ostern! Ein gutes neues Jahr!*** Before eating:
+      ***Guten Appetit!*** When drinking: ***Prost! / Zum Wohl!*** Have fun: ***Viel Spaß!***
+    tables:
+      - [["Occasion", "Wish", "Swiss German"],
+         ["der Geburtstag", "Herzlichen Glückwunsch zum Geburtstag! / Alles Gute!", "Vill Glück zum Geburtstag!"],
+         ["die Hochzeit", "Herzlichen Glückwunsch zur Hochzeit!", "Härzliche Glückwunsch zur Hochziit!"],
+         ["Weihnachten", "Frohe Weihnachten!", "Schöni Wienacht!"],
+         ["Neujahr", "Ein gutes neues Jahr!", "Es guets Nöis!"],
+         ["Ostern", "Frohe Ostern!", "Schöni Oschtere!"],
+         ["essen", "Guten Appetit!", "En Guete!"],
+         ["trinken", "Prost! / Zum Wohl!", "Proscht! / Zum Wohl!"]]
+    commonMistakes:
+      - "*Glücklichen Geburtstag!* (a word-for-word *Happy birthday*) → **Herzlichen Glückwunsch zum Geburtstag!** or **Alles Gute zum Geburtstag!**"
+      - "*Ich komme nicht.* alone sounds rude → **Leider kann ich nicht. Ich muss arbeiten.**"
+      - "*Frohe Weihnacht!* is old-fashioned → **Frohe Weihnachten!** (plural form)."
+      - "*Ich freue.* → **Ich freue mich!** The mich is part of the chunk."
+
+  - id: spelling-repair
+    title: "Forms, spelling and asking for help"
+    body: >-
+      In exams and offices you fill in forms (**das Formular**): *Name, Vorname, Straße / Hausnummer, PLZ /
+      Wohnort, Geburtsdatum, Land, Telefon, E-Mail*. Dates of birth are written day first: *14.03.1995*.
+
+
+      **Spelling:** *Wie schreibt man das? – Können Sie das bitte **buchstabieren**? – B-A-K-E-R.* Letters
+      that sound different from English: **a** [aː], **e** [eː], **i** [iː], **j** [jɔt], **r** [ɛr], **u** [uː],
+      **v** [faʊ], **w** [veː], **y** [ˈʏpsilɔn], **z** [tsɛt]; **ä, ö, ü** are said as the sounds, **ß** is
+      *Eszett*.
+
+
+      **When you don't understand,** say so – it's normal at A1: ***Wie bitte?*** *Können Sie das bitte
+      **wiederholen**? Bitte **langsam**! Was bedeutet ...? Ich verstehe das nicht.*
+    tables:
+      - [["Letter", "Say", "Letter", "Say"],
+         ["A", "ah", "J", "yot"],
+         ["E", "ay", "R", "air"],
+         ["I", "ee", "V", "fow"],
+         ["U", "oo", "W", "vay"],
+         ["Y", "üpsilon", "Z", "tset"]]
+    commonMistakes:
+      - "Spelling *e* as English *ee* and *i* as *eye* → German **E = ay, I = ee**: the classic confusion in exams."
+      - "*Können Sie wiederholen das?* → **Können Sie das bitte wiederholen?** Infinitive at the end."
+      - "Writing a date of birth *03/14/1995* → **14.03.1995** (day, month, year)."
+
+reading:
+  title: "Feste in der Schweiz"
+  text: >-
+    In der Schweiz gibt es viele Feste. Im Februar oder März ist Fasnacht. In Basel und Luzern tragen die Leute
+    Masken und machen laute Musik, auch in der Nacht.
+
+
+    Im April feiert Zürich das Sechseläuten. Am Montag gehen die Zünfte durch die Stadt, und um sechs Uhr
+    brennt der Böögg, eine Figur aus Holz und Papier. Explodiert sein Kopf schnell? Dann kommt ein schöner
+    Sommer!
+
+
+    Am 1. August ist der Nationalfeiertag. Es gibt Feuerwerk, Feuer auf den Bergen und am Morgen oft einen
+    Brunch auf dem Bauernhof.
+
+
+    Am 6. Dezember kommt der Samichlaus zu den Kindern. Er bringt Nüsse, Mandarinen und Lebkuchen. Dann
+    kommen Weihnachten und Silvester. Um Mitternacht sagen alle: «Ein gutes neues Jahr!»
+  en: >-
+    There are many festivals in Switzerland. In February or March it's carnival. In Basel and Lucerne people
+    wear masks and make loud music, also at night.
+
+
+    In April Zurich celebrates the Sechseläuten. On the Monday the guilds walk through the city, and at six
+    o'clock the Böögg burns, a figure made of wood and paper. Does its head explode quickly? Then a nice
+    summer is coming!
+
+
+    On 1 August it's the national day. There are fireworks, bonfires on the mountains and in the morning
+    often a brunch on a farm.
+
+
+    On 6 December Santa Claus (Saint Nicholas) visits the children. He brings nuts, mandarins and gingerbread.
+    Then come Christmas and New Year's Eve. At midnight everyone says: "Happy New Year!"
+
+swiss:
+  scene: >-
+    Saturday evening: Reto's birthday party in Zurich. Sandra arrives with a present. Listen for Vill Glück,
+    Gschänk, Proscht and En Guete. Later her mother calls from Bern about her father's birthday.
+  dialogue:
+    - speaker: Sandra
+      text: Hoi Reto! Vill Glück zum Geburtstag!
+      en: Hi Reto! Happy birthday!
+      variety: gsw-zh
+    - speaker: Reto
+      text: Merci vilmal! Chumm ine!
+      en: Thanks a lot! Come in!
+      variety: gsw-zh
+    - speaker: Sandra
+      text: Da, es Gschänk für dich.
+      en: Here, a present for you.
+      variety: gsw-zh
+    - speaker: Reto
+      text: Oh, merci! Was isch es?
+      en: Oh, thank you! What is it?
+      variety: gsw-zh
+    - speaker: Sandra
+      text: Mach s uf!
+      en: Open it!
+      variety: gsw-zh
+    - speaker: Reto
+      text: Schoggi! Mega, merci! Wottsch öppis trinke? Es Bier?
+      en: Chocolate! Great, thanks! Do you want something to drink? A beer?
+      variety: gsw-zh
+    - speaker: Sandra
+      text: Gärn. Proscht, Reto!
+      en: I'd love one. Cheers, Reto!
+      variety: gsw-zh
+    - speaker: Reto
+      text: Proscht! Und jetzt gits Fondue. En Guete mitenand!
+      en: Cheers! And now there's fondue. Enjoy your meal, everyone!
+      variety: gsw-zh
+    - speaker: Mami
+      text: Sandra, ds Fescht für e Ätti isch am Sunntig. Bringsch es Gschänk?
+      en: Sandra, the party for Dad is on Sunday. Will you bring a present?
+      variety: gsw-be
+    - speaker: Sandra
+      text: Klar, Mami! Mir gratuliere ihm zäme.
+      en: Of course, Mum! We'll congratulate him together.
+      variety: gsw-be
+  notes:
+    - >-
+      **Birthdays:** *de Geburtstag* or colloquially **de Geburi**: *Vill Glück zum Geburtstag!* or *Alles Gueti
+      zum Geburi!* In Switzerland the person whose birthday it is often brings the cake to work or invites
+      friends themselves – don't wait to be thrown a party.
+    - >-
+      **Parties:** *s Fäscht* (Fest), *e Party*, *fiire* (feiern). **s Gschänk** = das Geschenk; *Mach s uf!* = Mach
+      es auf! A small present for the host is a *Mitbringsel* (flowers, chocolate, wine).
+    - >-
+      **En Guete!** before every meal – also to colleagues and strangers at the next table – and **Proscht!** when
+      you clink glasses: look each person in the eye. *Mitenand* = everyone (Grüezi mitenand, En Guete mitenand).
+    - >-
+      **The Swiss year:** **Fasnacht** (Swiss Standard for Karneval / Fasching; Basel, Lucerne), **Sechseläuten**
+      (*Sächsilüüte*, Zurich's spring festival: the guilds parade and the snowman-like **Böögg** burns at 6 p.m. –
+      zuerich.com), **1. August** (national day: bonfires, fireworks, the Buurezmorge brunch on farms), **Samichlaus**
+      (6 December, with his helper Schmutzli; Bernese *Samichlous*), *Wienacht* and *Silväschter*.
+    - >-
+      **Good wishes in dialect:** *Schöni Wienacht!*, *Es guets Nöis!* (Happy New Year!), *Härzliche Glückwunsch!*,
+      *Gueti Besserig!* (unit 11). Swiss Standard German writes the same wishes as Germany – with ss: *Herzlichen
+      Glückwunsch zum dreissigsten Geburtstag!*
+    - >-
+      **Bernese** (Sandra's mother): **ds Fescht** (n., berndeutsch.ch), **ds Gschänk** (n.), **gratuliere**
+      (gratulieren), **dr Ätti** (Papa), **für e Ätti** (für den Papa), *zäme* = zusammen. Bernese uses *ds* for the
+      neuter article where Zurich says *s*.

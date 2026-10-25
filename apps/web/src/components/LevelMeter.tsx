@@ -32,7 +32,9 @@ export function LevelMeter({ stream, className = '' }: { stream?: MediaStream; c
     analyser.fftSize = 1024;
     source.connect(analyser);
     const data = new Uint8Array(analyser.fftSize);
-    const g = canvas.getContext('2d');
+    // Reduced motion: no moving waveform, only the level bar (which conveys the same information).
+    const still = !!window.matchMedia?.('(prefers-reduced-motion: reduce)').matches;
+    const g = still ? null : canvas.getContext('2d');
     let raf = 0;
 
     const draw = () => {
@@ -78,14 +80,14 @@ export function LevelMeter({ stream, className = '' }: { stream?: MediaStream; c
   if (!Ctor || !stream) {
     return (
       <span className={`inline-flex items-center gap-2 text-sm text-swiss-strong ${className}`}>
-        <span aria-hidden="true" className="h-2.5 w-2.5 animate-pulse rounded-full bg-swiss" />
+        <span aria-hidden="true" className="h-2.5 w-2.5 animate-pulse rounded-full bg-swiss motion-reduce:animate-none" />
         Listening…
       </span>
     );
   }
   return (
     <div className={`space-y-1 ${className}`}>
-      <canvas ref={canvasRef} aria-hidden="true" className="h-12 w-full rounded-lg bg-swiss-soft text-swiss" />
+      <canvas ref={canvasRef} aria-hidden="true" className="h-12 w-full rounded-lg bg-swiss-soft text-swiss motion-reduce:hidden" />
       <div
         role="meter"
         aria-label="Microphone level"
@@ -94,7 +96,7 @@ export function LevelMeter({ stream, className = '' }: { stream?: MediaStream; c
         aria-valuenow={0}
         className="h-1.5 overflow-hidden rounded-full bg-surface-2"
       >
-        <span ref={barRef} className="block h-full w-0 bg-swiss transition-[width] duration-75" />
+        <span ref={barRef} className="block h-full w-0 bg-swiss transition-[width] duration-75 motion-reduce:transition-none" />
       </div>
     </div>
   );

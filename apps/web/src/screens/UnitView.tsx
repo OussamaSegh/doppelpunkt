@@ -111,7 +111,7 @@ function UnitScreen() {
                   className={`chip whitespace-nowrap ${
                     active
                       ? s.swiss
-                        ? 'border-swiss bg-swiss text-white'
+                        ? 'border-swiss bg-swiss text-white dark:text-ink'
                         : 'border-ink bg-ink text-white dark:border-accent dark:bg-accent dark:text-ink'
                       : s.swiss
                         ? 'border-swiss/40 text-swiss-strong'

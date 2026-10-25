@@ -1,0 +1,633 @@
+# A1 unit 11 – Gesundheit
+
+# ---------- vocabulary ----------
+- id: a1-u11-match-body
+  type: match
+  skill: vocabulary
+  variety: de
+  prompt: Match the parts of the body with English.
+  pairs:
+    - ["der Kopf", "head"]
+    - ["der Bauch", "belly"]
+    - ["der Rücken", "back"]
+    - ["das Bein", "leg"]
+    - ["der Fuß", "foot"]
+    - ["der Hals", "throat, neck"]
+  explanation: >-
+    Learn the plurals too: die Köpfe, die Bäuche, die Beine, die Füße. der Hals is both the throat (Halsschmerzen)
+    and the neck.
+
+- id: a1-u11-mcq-plural-fuesse
+  type: mcq
+  skill: vocabulary
+  variety: de
+  grammar: [plural-nouns]
+  prompt: What is the plural of der Fuß?
+  options: ["die Fuße", "die Füßen", "die Fußer", "die Füße"]
+  answer: 3
+  explanation: >-
+    der Fuß → die Füße, like der Zahn → die Zähne and die Hand → die Hände: umlaut + -e. Swiss spelling: Füsse.
+
+- id: a1-u11-match-illness
+  type: match
+  skill: vocabulary
+  variety: de
+  grammar: [wehtun-schmerzen]
+  prompt: Match the German with English.
+  pairs:
+    - ["Ich habe Fieber.", "I've got a temperature."]
+    - ["Ich habe Husten.", "I've got a cough."]
+    - ["Ich bin erkältet.", "I've got a cold."]
+    - ["Mir ist schlecht.", "I feel sick."]
+    - ["Ich bin müde.", "I'm tired."]
+  explanation: >-
+    Fieber, Husten and Schnupfen take no article after haben. Mir ist schlecht is a chunk – don't say Ich bin
+    schlecht (that means I'm bad at something or a bad person).
+
+- id: a1-u11-mcq-gesundheit
+  type: mcq
+  skill: vocabulary
+  variety: de
+  grammar: [wehtun-schmerzen]
+  prompt: "Your colleague sneezes: \"Hatschi!\" What do you say?"
+  options: ["Gute Besserung!", "Gesundheit!", "Guten Appetit!", "Herzlichen Glückwunsch!"]
+  answer: 1
+  explanation: >-
+    Gesundheit! (literally: health!) after a sneeze; the answer is Danke! Gute Besserung! (Get well soon!) is for
+    someone who is ill.
+
+- id: a1-u11-gap-pharmacy-words
+  type: gap
+  skill: vocabulary
+  variety: de
+  prompt: "Fill in: prescription – pharmacy."
+  text: Der Arzt schreibt ein ___. Dann gehe ich in die ___ und hole das Medikament.
+  answers: [["Rezept"], ["Apotheke"]]
+  explanation: >-
+    das Rezept = prescription (also a cooking recipe). die Apotheke = pharmacy: in die Apotheke gehen (chunk).
+
+# ---------- grammar: wehtun and Schmerzen ----------
+- id: a1-u11-gap-tut-tun
+  type: gap
+  skill: grammar
+  variety: de
+  grammar: [wehtun-schmerzen]
+  prompt: "Fill in tut or tun."
+  text: Mein Kopf ___ weh, und meine Füße ___ auch weh.
+  answers: [["tut"], ["tun"]]
+  explanation: >-
+    The body part is the subject: mein Kopf (one) → tut weh; meine Füße (plural) → tun weh.
+
+- id: a1-u11-mcq-kopfschmerzen
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [wehtun-schmerzen]
+  prompt: Which sentence is correct?
+  options: ["Ich habe Kopfschmerzen.", "Ich habe einen Kopfschmerz.", "Ich bin Kopfschmerzen.", "Mein Kopf hat Schmerzen weh."]
+  answer: 0
+  rationales:
+    - "Correct. ...schmerzen is plural and takes no article."
+    - "The singular with an article sounds wrong in everyday German."
+    - "Pains are something you have, not something you are."
+    - "Use either tut weh or ...schmerzen, not both."
+  explanation: >-
+    Ich habe Kopfschmerzen / Halsschmerzen / Bauchschmerzen – always plural, no article. Or: Mein Kopf tut weh.
+
+- id: a1-u11-mcq-mir-ist-kalt
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [wehtun-schmerzen]
+  prompt: "You have a cold. What do you say?"
+  options: ["Ich bin kalt.", "Ich habe kalt.", "Ich bin erkältet.", "Ich habe erkältet."]
+  answer: 2
+  rationales:
+    - "Ich bin kalt describes your personality: I'm a cold person."
+    - "Not German (French j'ai froid). For feeling cold, say Mir ist kalt."
+    - "Correct. Ich bin erkältet = Ich habe eine Erkältung."
+    - "erkältet goes with sein."
+  explanation: >-
+    Ich bin erkältet (I've got a cold). If you feel cold, it's Mir ist kalt. English speakers often say Ich bin
+    kalt – that sounds unfriendly!
+
+- id: a1-u11-translate-throat
+  type: translate
+  skill: writing
+  variety: de
+  grammar: [wehtun-schmerzen]
+  prompt: Translate into German.
+  source: I've got a sore throat and a cough.
+  answers: ["Ich habe Halsschmerzen und Husten.", "Mein Hals tut weh und ich habe Husten.", "Mein Hals tut weh, und ich habe Husten.", "Ich habe Halsweh und Husten."]
+  explanation: >-
+    sore throat = Halsschmerzen (plural) or Mein Hals tut weh. Husten takes no article. Halsweh is common in
+    Switzerland and southern Germany.
+
+- id: a1-u11-order-tut-weh
+  type: order
+  skill: grammar
+  variety: de
+  grammar: [wehtun-schmerzen, w-questions]
+  prompt: Make the doctor's question.
+  tokens: ["Was", "tut", "Ihnen", "weh"]
+  answers: ["Was tut Ihnen weh?"]
+  explanation: >-
+    W-word first, verb tut second, Ihnen (to you, a dative chunk) in the middle, weh at the end – like a
+    separable prefix.
+
+# ---------- grammar: modal verbs review ----------
+- id: a1-u11-gap-modals
+  type: gap
+  skill: grammar
+  variety: de
+  grammar: [modal-review, modal-muessen-duerfen]
+  prompt: "Fill in: muss – darf – soll."
+  text: "Ich ___ drei Tage nicht arbeiten (forbidden). Ich ___ viel schlafen (necessary). Der Arzt sagt, ich ___ viel Tee trinken (his instruction)."
+  answers: [["darf"], ["muss"], ["soll"]]
+  explanation: >-
+    nicht dürfen = mustn't, müssen = have to, sollen = an instruction from someone else. ich has no ending: ich
+    darf, ich muss, ich soll.
+
+- id: a1-u11-mcq-nicht-muessen
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [modal-review, modal-muessen-duerfen]
+  prompt: "Dr Huber: \"Sie müssen nicht ins Spital.\" What does she mean?"
+  options: ["You mustn't go to hospital.", "You must go to hospital.", "You don't have to go to hospital.", "You should go to hospital."]
+  answer: 2
+  explanation: >-
+    nicht müssen = don't have to (no need). Forbidden is nicht dürfen: Sie dürfen nicht rauchen. This is the
+    classic trap for English speakers, because must not means forbidden.
+
+- id: a1-u11-mcq-darf-ich
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [modal-review, modal-muessen-duerfen]
+  prompt: "You want to know if you are allowed to do sport. Ask the doctor."
+  options: ["Muss ich Sport machen?", "Darf ich Sport machen?", "Soll ich Sport machen?", "Will ich Sport machen?"]
+  answer: 1
+  rationales:
+    - "This asks whether you have to."
+    - "Correct. dürfen = to be allowed to."
+    - "This asks for advice or an instruction (Shall I ...?)."
+    - "You can't ask someone else what you want."
+  explanation: >-
+    Darf ich ...? asks for permission. The doctor may answer: Ja, aber nicht zu viel. / Nein, Sie dürfen eine
+    Woche keinen Sport machen.
+
+- id: a1-u11-transform-soll
+  type: transform
+  skill: grammar
+  variety: de
+  grammar: [modal-review, sollen]
+  prompt: "The doctor says: \"Bleiben Sie zwei Tage im Bett!\" Tell your friend. Start with \"Ich soll ...\"."
+  from: de
+  to: de
+  source: Bleiben Sie zwei Tage im Bett!
+  answers: ["Ich soll zwei Tage im Bett bleiben.", "Ich soll zwei Tage im Bett bleiben!"]
+  explanation: >-
+    An instruction from someone else becomes sollen: soll in position 2, the infinitive bleiben at the end.
+
+- id: a1-u11-order-modal
+  type: order
+  skill: grammar
+  variety: de
+  grammar: [modal-review, nicht-kein]
+  prompt: Put the words in order.
+  tokens: ["Sie", "dürfen", "morgen", "nicht", "arbeiten"]
+  answers: ["Sie dürfen morgen nicht arbeiten.", "Morgen dürfen Sie nicht arbeiten."]
+  explanation: >-
+    Modal verb in position 2, infinitive at the very end. nicht comes just before the infinitive; morgen can
+    also start the sentence (then the subject follows the verb).
+
+- id: a1-u11-translate-mustnt
+  type: translate
+  skill: writing
+  variety: de
+  grammar: [modal-review, modal-muessen-duerfen]
+  prompt: Translate into German (Sie).
+  source: You mustn't drink alcohol.
+  answers: ["Sie dürfen keinen Alkohol trinken.", "Sie dürfen nicht Alkohol trinken."]
+  explanation: >-
+    mustn't = nicht dürfen. With a noun without an article, use kein: keinen Alkohol (der Alkohol → keinen).
+
+# ---------- grammar: imperative in instructions ----------
+- id: a1-u11-gap-imperative-sie
+  type: gap
+  skill: grammar
+  variety: de
+  grammar: [imperative-instructions, imperative]
+  prompt: "Fill in the Sie-imperative: nehmen – trinken."
+  text: ___ Sie dreimal täglich eine Tablette. ___ Sie viel Wasser!
+  answers: [["Nehmen"], ["Trinken"]]
+  explanation: >-
+    Sie-imperative: infinitive first, then Sie. It is polite and used by doctors and pharmacists.
+
+- id: a1-u11-transform-imperative-du
+  type: transform
+  skill: grammar
+  variety: de
+  grammar: [imperative-instructions, imperative]
+  prompt: "Say it to a friend (du-imperative)."
+  from: de
+  to: de
+  source: Bleiben Sie im Bett!
+  answers: ["Bleib im Bett!", "Bleibe im Bett!", "Bleib im Bett."]
+  explanation: >-
+    du bleibst → Bleib! Drop -st and du. Bleibe is also correct but sounds formal.
+
+- id: a1-u11-mcq-nimm
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [imperative-instructions, stem-changing-verbs]
+  prompt: Choose the du-imperative of nehmen.
+  question: "___ die Tabletten nach dem Essen!"
+  options: ["Nehm", "Nimmst", "Nehme", "Nimm"]
+  answer: 3
+  rationales:
+    - "The e → i change of du nimmst stays in the imperative."
+    - "No -st in the imperative."
+    - "There's no -e and the vowel must change."
+    - "Correct. du nimmst → Nimm!"
+  explanation: >-
+    Verbs with e → i / ie keep the change: nehmen → Nimm!, lesen → Lies!, essen → Iss! Verbs with a → ä drop it:
+    schlafen → Schlaf!
+
+- id: a1-u11-mcq-schlaf
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [imperative-instructions, stem-changing-verbs]
+  prompt: Choose the du-imperative of schlafen.
+  question: "Du bist müde. ___ viel!"
+  options: ["Schläfst", "Schlaf", "Schläf", "Schlafen"]
+  answer: 1
+  explanation: >-
+    du schläfst, but Schlaf! The a → ä change is dropped in the imperative (fahren → Fahr!). Schlafen Sie! is
+    the Sie-form.
+
+# ---------- reading ----------
+- id: a1-u11-mcq-reading-sunday
+  type: mcq
+  skill: reading
+  variety: ch-std
+  prompt: Read the pharmacy information. It's Sunday and you need medicine. What do you do?
+  options: ["Go to the pharmacy at 8 a.m.", "Go to the pharmacy at 7.30 a.m.", "Call the emergency pharmacy", "Wait until Saturday"]
+  answer: 2
+  explanation: >-
+    "Am Sonntag ist die Apotheke geschlossen. Im Notfall rufen Sie bitte die Notfall-Apotheke an." geschlossen =
+    closed; anrufen is separable: rufen ... an.
+
+- id: a1-u11-mcq-reading-dose
+  type: mcq
+  skill: reading
+  variety: ch-std
+  grammar: [imperative-instructions]
+  prompt: How do you take the cough syrup?
+  options: ["One spoonful three times a day, after meals", "Three spoonfuls once a day, before meals", "One spoonful a day with alcohol", "Three tablets a day"]
+  answer: 0
+  explanation: >-
+    "Dreimal täglich einen Löffel, nach dem Essen." dreimal = three times, täglich = a day, der Löffel = spoon.
+
+- id: a1-u11-mcq-reading-children
+  type: mcq
+  skill: reading
+  variety: ch-std
+  grammar: [modal-review]
+  prompt: "\"Kinder unter 12 Jahren dürfen den Sirup nicht nehmen.\" What does it mean?"
+  options: ["Children under 12 don't have to take the syrup.", "Children under 12 must take the syrup.", "Children under 12 mustn't take the syrup.", "Children under 12 can take half."]
+  answer: 2
+  explanation: >-
+    nicht dürfen = mustn't, it's forbidden. Not having to would be nicht müssen.
+
+# ---------- listening ----------
+- id: a1-u11-mcq-listening-symptoms
+  type: mcq
+  skill: listening
+  variety: de
+  grammar: [wehtun-schmerzen]
+  prompt: Listen to the intro dialogue again. What's wrong with Tom?
+  options: ["Stomach ache and a temperature", "A sore throat, a cough and a headache", "Toothache", "A bad back"]
+  answer: 1
+  explanation: >-
+    "Ich habe Halsschmerzen und Husten. Und mein Kopf tut weh." He also has a slight temperature: 38 Grad.
+
+- id: a1-u11-mcq-listening-doctor
+  type: mcq
+  skill: listening
+  variety: ch-std
+  grammar: [modal-review]
+  prompt: Listen to the intro dialogue again. What does Dr Huber say?
+  options: ["Tom can work tomorrow.", "Tom has to go to hospital.", "Tom mustn't drink tea.", "Tom mustn't work for three days."]
+  answer: 3
+  explanation: >-
+    "Sie dürfen drei Tage nicht arbeiten. Sie müssen viel schlafen und viel Tee trinken." nicht dürfen = mustn't.
+
+- id: a1-u11-dictation-kopf
+  type: dictation
+  skill: listening
+  variety: de
+  grammar: [wehtun-schmerzen]
+  prompt: Listen and write what you hear.
+  transcript: Mein Kopf tut weh, und ich habe Fieber.
+  explanation: >-
+    tut weh – two words here; the infinitive is written wehtun. Fieber has no article.
+
+- id: a1-u11-dictation-tablette
+  type: dictation
+  skill: listening
+  variety: de
+  grammar: [imperative-instructions]
+  prompt: Listen and write what you hear.
+  transcript: Nehmen Sie zweimal täglich eine Tablette.
+  explanation: >-
+    zweimal täglich = twice a day. Nehmen Sie ... – the Sie-imperative with the verb first.
+
+# ---------- speaking ----------
+- id: a1-u11-speak-appointment
+  type: speak
+  skill: speaking
+  variety: de
+  grammar: [moechte, wehtun-schmerzen]
+  prompt: "On the phone to the practice: read aloud, then say it with your own symptoms."
+  target: Guten Tag, hier ist Tom Baker. Ich bin krank und möchte heute einen Termin, bitte.
+  explanation: >-
+    Hier ist ... on the phone (unit 9). möchte + einen Termin (accusative). Add your symptoms: Ich habe Fieber
+    und Husten.
+
+- id: a1-u11-speak-shadow-tom
+  type: speak
+  skill: speaking
+  variety: de
+  grammar: [wehtun-schmerzen]
+  prompt: "Shadowing: speak along with Tom's line from the intro dialogue, then say it alone."
+  target: Ich habe Halsschmerzen und Husten. Und mein Kopf tut weh.
+  explanation: >-
+    Stress the first part of the compound: HALS-schmerzen. In Kopf, say p and f together – one quick sound pf.
+    See the drill z [ts] and pf.
+
+- id: a1-u11-speak-shadow-huber
+  type: speak
+  skill: speaking
+  variety: ch-std
+  grammar: [modal-review]
+  prompt: "Shadowing: speak along with Dr Huber, then say it alone."
+  target: Nein, Sie dürfen drei Tage nicht arbeiten. Sie müssen viel schlafen und viel Tee trinken.
+  explanation: >-
+    Swiss Standard German keeps the -en endings clear (dürfen, müssen, schlafen, trinken) and uses a short, tapped
+    r. Stress NICHT to make the rule clear. See the drill The Swiss Standard German accent.
+
+- id: a1-u11-speak-intonation-besserung
+  type: speak
+  skill: speaking
+  variety: de
+  grammar: [wehtun-schmerzen]
+  prompt: "Intonation: friendly wishes. Read aloud with a warm, falling melody."
+  target: Oh, du bist krank? Gute Besserung!
+  explanation: >-
+    The question rises at the end (du bist krank?); the wish starts high on GU-te and falls on BES-serung. A
+    flat melody sounds cold.
+
+- id: a1-u11-speak-pron-ach
+  type: speak
+  skill: speaking
+  variety: de
+  grammar: [wehtun-schmerzen]
+  prompt: "Pronunciation: ach-Laut after a, o, u, au; ich-Laut after e, i, ü. Read aloud."
+  target: Bauch, Buch, auch, Woche – ich, nicht, Milch, täglich
+  explanation: >-
+    After a, o, u and au, ch is made at the back of the mouth (Bauch, Buch, auch, Woche). After e, i, ä, ö, ü and
+    consonants it's the soft ich-Laut (ich, nicht, Milch). täglich: -ig is [ɪç] in Germany, [ɪk] in the south and
+    in Switzerland. See the drills The ach-Laut (back ch) and The ich-Laut (soft ch).
+
+- id: a1-u11-roleplay-lena
+  type: roleplay
+  skill: speaking
+  variety: de
+  grammar: [wehtun-schmerzen, modal-review, imperative-instructions]
+  tutor: lena
+  prompt: "Roleplay with Lena: you're ill."
+  scenario: >-
+    You wanted to meet Lena this evening, but you're ill. Phone her, cancel, explain what's wrong and tell
+    her what the doctor said. Use du.
+  goals:
+    - Cancel the meeting (Ich kann heute leider nicht.).
+    - Say what's wrong (Ich bin erkältet. Mein Kopf tut weh.).
+    - Report the doctor's instructions with sollen and dürfen.
+    - React to Lena's good wishes and say goodbye.
+  model: |
+    Lena: Hallo! Wir sehen uns heute um sieben, oder?
+    Du: Hallo Lena. Ich kann heute leider nicht. Ich bin krank.
+    Lena: Oh nein! Was hast du?
+    Du: Ich bin erkältet. Ich habe Halsschmerzen und mein Kopf tut weh.
+    Lena: Warst du beim Arzt?
+    Du: Ja. Ich soll viel schlafen, und ich darf zwei Tage nicht arbeiten.
+    Lena: Dann bleib im Bett und trink viel Tee! Gute Besserung!
+    Du: Danke! Tschüss, bis bald!
+  explanation: >-
+    Lena uses one past form (Warst du beim Arzt? = Have you been to the doctor?) – just understand it. Your
+    frames: Ich kann leider nicht. Ich habe ... Ich soll ... Ich darf nicht ...
+
+# ---------- writing ----------
+- id: a1-u11-write-sick-note
+  type: write
+  skill: writing
+  variety: de
+  grammar: [wehtun-schmerzen, modal-review]
+  prompt: Write an email to your German teacher.
+  task: >-
+    You're ill and can't come to the German course tomorrow. Write to your teacher, Frau Keller (5–6
+    sentences): say that you can't come and why, say what the doctor said, and ask what the homework is.
+  minWords: 35
+  model: >-
+    Liebe Frau Keller, ich kann morgen leider nicht in den Deutschkurs kommen. Ich bin krank: Ich habe Fieber
+    und Husten, und mein Hals tut weh. Der Arzt sagt, ich soll zwei Tage im Bett bleiben. Ich darf auch nicht
+    arbeiten. Was sind die Hausaufgaben? Viele Grüße, Tom Baker
+  checklist:
+    - I start and end the email politely (Liebe Frau ..., Viele Grüße).
+    - I say what is wrong with tut weh or ...schmerzen and haben + illness without an article.
+    - I report the doctor with sollen (Ich soll ...) and use dürfen / müssen correctly.
+    - The modal verb is in position 2 and the infinitive at the end.
+  explanation: >-
+    A short formal email uses Sie-forms for the teacher and the unit's patterns: Ich bin krank. Mein ... tut weh.
+    Der Arzt sagt, ich soll ... Ich darf nicht ...
+
+# ---------- Swiss Standard German ----------
+- id: a1-u11-chstd-match
+  type: match
+  skill: vocabulary
+  variety: ch-std
+  prompt: Match the Swiss Standard German words with the German-German words.
+  pairs:
+    - ["das Spital", "das Krankenhaus"]
+    - ["das Arztzeugnis", "die Krankschreibung"]
+    - ["das Kopfweh", "die Kopfschmerzen"]
+    - ["der Fuss", "der Fuß"]
+  explanation: >-
+    das Spital is the normal Swiss word for hospital (Duden: Swiss, also der Spital). Your employer asks for an
+    Arztzeugnis when you're ill for a few days. Kopfweh is also heard in southern Germany.
+
+- id: a1-u11-chstd-mcq-drogerie
+  type: mcq
+  skill: reading
+  variety: ch-std
+  prompt: "You need a prescription medicine (Sie haben ein Rezept). Where do you go in Switzerland?"
+  options: ["In die Drogerie", "In die Migros", "In die Apotheke", "Zur Krankenkasse"]
+  answer: 2
+  explanation: >-
+    Prescription medicine comes from the Apotheke. The Swiss Drogerie sells non-prescription remedies, cosmetics
+    and household products. The Krankenkasse is your health insurance, not a shop.
+
+# ---------- Swiss lane (gsw-zh) ----------
+- id: a1-u11-ch-match-words
+  type: match
+  skill: vocabulary
+  variety: gsw-zh
+  grammar: [wehtun-schmerzen]
+  prompt: Match the Zurich German words with Standard German.
+  pairs:
+    - ["Chopfweh", "Kopfschmerzen"]
+    - ["Buuch", "Bauch"]
+    - ["chrank", "krank"]
+    - ["müed", "müde"]
+    - ["Gsundheit!", "Gesundheit!"]
+  explanation: >-
+    k at the start → ch (Chopf, chrank); au → uu (Buuch); the unstressed e in ge- disappears (Gsundheit, like
+    gmacht).
+
+- id: a1-u11-ch-mcq-symptoms
+  type: mcq
+  skill: listening
+  variety: gsw-zh
+  grammar: [wehtun-schmerzen]
+  prompt: Listen to the Swiss lane dialogue. What's wrong with Reto?
+  options: ["He has stomach ache and is hungry.", "He has a headache and a sore throat and is very tired.", "He has a bad back.", "He has hurt his foot."]
+  answer: 1
+  explanation: >-
+    "Ich ha Chopfweh und Halsweh, und ich bi mega müed." Chopfweh = Kopfschmerzen, mega müed = sehr müde. He also
+    has a temperature: achtedriissg (38).
+
+- id: a1-u11-ch-transform-chrank
+  type: transform
+  skill: reading
+  variety: gsw-zh
+  grammar: [sein-present]
+  prompt: What does Reto say? Write it in Standard German.
+  from: gsw-zh
+  to: de
+  source: Nöd guet. Ich bi chrank.
+  answers: ["Nicht gut. Ich bin krank.", "Nicht gut, ich bin krank.", "Nicht gut. Ich bin krank!"]
+  explanation: >-
+    nöd = nicht, guet = gut, ich bi = ich bin, chrank = krank.
+
+- id: a1-u11-ch-transform-gang
+  type: transform
+  skill: reading
+  variety: gsw-zh
+  grammar: [imperative-instructions, imperative]
+  prompt: What does Sandra tell Reto? Write it in Standard German (du).
+  from: gsw-zh
+  to: de
+  source: Gang zum Dokter! Und trink vill Tee.
+  answers: ["Geh zum Arzt! Und trink viel Tee.", "Geh zum Arzt! Und trink viel Tee!", "Geh zum Doktor! Und trink viel Tee.", "Geh zum Arzt und trink viel Tee!", "Geh zum Arzt und trink viel Tee."]
+  explanation: >-
+    gang = geh (du-imperative of gaa), Dokter = Arzt (Doktor), vill = viel. The imperative works exactly as in
+    Standard German.
+
+- id: a1-u11-ch-mcq-besserig
+  type: mcq
+  skill: listening
+  variety: gsw-zh
+  prompt: "At the end Sandra says: \"Gsundheit! Gueti Besserig, Reto!\" Why does she say Gsundheit?"
+  options: ["Reto has sneezed.", "Reto is healthy again.", "Reto is going to the doctor.", "It means goodbye."]
+  answer: 0
+  explanation: >-
+    Reto sneezes (Hatschi!), so Sandra says Gsundheit! (Bless you!). Gueti Besserig! = Gute Besserung! (Get well
+    soon!).
+
+- id: a1-u11-ch-transform-de-gsw
+  type: transform
+  skill: vocabulary
+  variety: gsw-zh
+  grammar: [wehtun-schmerzen, haben-present]
+  prompt: "Recognition: how do you say this in Zurich German? (Common spellings are accepted.)"
+  from: de
+  to: gsw-zh
+  source: Ich habe Kopfschmerzen.
+  answers: ["Ich ha Chopfweh.", "Ich han Chopfweh.", "Ich ha Chopfwee.", "I ha Chopfweh."]
+  explanation: >-
+    ich habe → ich ha, Kopfschmerzen → Chopfweh (Kopf → Chopf, -schmerzen → -weh). Bernese: I ha Gringweh /
+    Chopfweh.
+
+- id: a1-u11-roleplay-reto
+  type: roleplay
+  skill: listening
+  variety: gsw-zh
+  grammar: [wehtun-schmerzen, modal-review, imperative-instructions]
+  tutor: reto
+  prompt: "Listening roleplay with Reto: at the Drogerie."
+  scenario: >-
+    You have a cold and go to a Drogerie in Zurich. Reto works there today. He asks what's wrong in Zurich
+    German and gives you advice. You answer in Standard German.
+  goals:
+    - Understand Was fählt Ine? / Was händ Sie? and say what's wrong.
+    - Understand Reto's advice (Trinked Sie vill Tee! Bliibed Sie dihei!).
+    - Understand how often to take the medicine and when to see a doctor.
+  model: |
+    Reto: Grüezi! Was fählt Ine?
+    Du: Guten Tag. Ich bin erkältet. Ich habe Schnupfen und Halsschmerzen.
+    Reto: Händ Sie au Fieber?
+    Du: Nein, kein Fieber.
+    Reto: Guet. Dänn nämed Sie die Tablette drüümal am Tag. Und trinked Sie vill Tee!
+    Du: Dreimal am Tag, gut. Muss ich zum Arzt gehen?
+    Reto: Nei, nöd grad. Händ Sie nach föif Täg no Hueschte, dänn gönd Sie zum Dokter.
+    Du: Vielen Dank! Auf Wiedersehen.
+    Reto: Uf Widerluege und gueti Besserig!
+  explanation: >-
+    Decoding: Was fählt Ine? = Was fehlt Ihnen?, händ Sie = haben Sie, nämed Sie = nehmen Sie, drüümal am Tag =
+    dreimal täglich, nöd grad = not straight away, Händ Sie ... no Hueschte, dänn ... = if you still have a cough, then ..., gönd Sie = gehen Sie. Polite Sie-imperatives end in -ed in
+    Zurich German.
+
+# ---------- Bernese (gsw-be, recognition) ----------
+- id: a1-u11-ch-be-mcq-vercheltet
+  type: mcq
+  skill: listening
+  variety: gsw-be
+  grammar: [wehtun-schmerzen]
+  prompt: "Sandra's mother asks: \"Sandra, bisch vercheltet?\" What does she want to know?"
+  options: ["Is Sandra late?", "Is Sandra cold?", "Is Sandra at work?", "Has Sandra got a cold?"]
+  answer: 3
+  explanation: >-
+    vercheltet = erkältet (berndeutsch.ch: verchelte, sech = sich erkälten; i bi vercheltet = ich bin erkältet).
+    bisch = bist du.
+
+- id: a1-u11-ch-be-transform
+  type: transform
+  skill: reading
+  variety: gsw-be
+  grammar: [wehtun-schmerzen, haben-present]
+  prompt: What does Sandra tell her mother? Write it in Standard German.
+  from: gsw-be
+  to: de
+  source: Dr Reto isch chrank. Är het Gringweh.
+  answers: ["Reto ist krank. Er hat Kopfschmerzen.", "Der Reto ist krank. Er hat Kopfschmerzen.", "Reto ist krank. Er hat Kopfweh.", "Der Reto ist krank. Er hat Kopfweh.", "Reto ist krank, er hat Kopfschmerzen."]
+  explanation: >-
+    dr = der (Swiss German puts an article before names), är het = er hat (Zurich er hät), Gringweh = Kopfweh:
+    dr Gring is the Bernese word for head (berndeutsch.ch: coarse but affectionate).
+
+- id: a1-u11-ch-be-match
+  type: match
+  skill: vocabulary
+  variety: gsw-be
+  prompt: Match the Bernese words with Standard German.
+  pairs:
+    - ["Gring", "Kopf"]
+    - ["vercheltet", "erkältet"]
+    - ["är het", "er hat"]
+    - ["chrank", "krank"]
+  explanation: >-
+    Gring (head) and verchelte (to catch a cold) are typical Bernese words (berndeutsch.ch). Zurich says Chopf
+    and verchältet; chrank is the same in both dialects.

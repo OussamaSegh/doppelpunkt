@@ -1,0 +1,644 @@
+# A1 unit 12 – Feste und Feiern (A1 review)
+
+# ---------- vocabulary ----------
+- id: a1-u12-match-wishes
+  type: match
+  skill: vocabulary
+  variety: de
+  grammar: [congratulating-inviting]
+  prompt: Match the occasion with the right wish.
+  pairs:
+    - ["Geburtstag", "Herzlichen Glückwunsch!"]
+    - ["Weihnachten", "Frohe Weihnachten!"]
+    - ["Silvester, um Mitternacht", "Ein gutes neues Jahr!"]
+    - ["Vor dem Essen", "Guten Appetit!"]
+    - ["Mit einem Glas Wein", "Prost!"]
+    - ["Vor der Party", "Viel Spaß!"]
+  explanation: >-
+    Each occasion has its fixed wish. Herzlichen Glückwunsch also works for a wedding or an exam (zur Hochzeit,
+    zur Prüfung). In Switzerland: Vill Glück zum Geburtstag!, En Guete!, Proscht!
+
+- id: a1-u12-match-party
+  type: match
+  skill: vocabulary
+  variety: de
+  prompt: Match the party words with English.
+  pairs:
+    - ["das Geschenk", "present"]
+    - ["die Kerze", "candle"]
+    - ["der Gast", "guest"]
+    - ["die Überraschung", "surprise"]
+    - ["das Feuerwerk", "fireworks"]
+  explanation: >-
+    Plurals: die Geschenke, die Kerzen, die Gäste (umlaut!), die Überraschungen. das Feuerwerk is singular in
+    German but fireworks is plural in English.
+
+# ---------- grammar: inviting, accepting, declining, congratulating ----------
+- id: a1-u12-mcq-decline
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [congratulating-inviting, modal-koennen-wollen]
+  prompt: Lena invites you to her party, but you have to work. What's the most polite answer?
+  options: ["Ich komme nicht.", "Nein.", "Leider kann ich nicht. Ich muss arbeiten.", "Ich will nicht kommen."]
+  answer: 2
+  rationales:
+    - "Correct grammar, but it sounds rude without leider and a reason."
+    - "Much too short."
+    - "Correct. leider + a short reason is the polite way."
+    - "This says you don't want to – unfriendly."
+  explanation: >-
+    Decline with leider (unfortunately) and a short reason: Leider kann ich nicht. Ich muss arbeiten. Then add
+    Schade! or Viel Spaß!
+
+- id: a1-u12-gap-zum-zur
+  type: gap
+  skill: grammar
+  variety: de
+  grammar: [congratulating-inviting]
+  prompt: "Fill in zum or zur."
+  text: Herzlichen Glückwunsch ___ Geburtstag! Herzlichen Glückwunsch ___ Hochzeit!
+  answers: [["zum"], ["zur"]]
+  explanation: >-
+    zum = zu dem (der Geburtstag), zur = zu der (die Hochzeit). The same chunk as zum Bahnhof / zur Post (unit 8).
+
+- id: a1-u12-mcq-freue-mich
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [congratulating-inviting]
+  prompt: "You accept an invitation happily. Complete: \"Super, ich ___!\""
+  options: ["freue", "freue mich", "freue dich", "bin freue"]
+  answer: 1
+  explanation: >-
+    sich freuen is reflexive: ich freue mich, du freust dich. Learn Ich freue mich! as a chunk for I'm looking
+    forward to it / I'm happy.
+
+- id: a1-u12-translate-happy-birthday
+  type: translate
+  skill: writing
+  variety: de
+  grammar: [congratulating-inviting]
+  prompt: Translate into German.
+  source: Happy birthday!
+  answers: ["Herzlichen Glückwunsch zum Geburtstag!", "Alles Gute zum Geburtstag!", "Herzlichen Glückwunsch!", "Alles Gute!"]
+  explanation: >-
+    Not Glücklichen Geburtstag – that's a word-for-word translation. Say Herzlichen Glückwunsch zum Geburtstag!
+    or Alles Gute zum Geburtstag!
+
+# ---------- review: word order ----------
+- id: a1-u12-order-time-first
+  type: order
+  skill: grammar
+  variety: de
+  grammar: [review-word-order, time-inversion]
+  prompt: Start with "Am Samstag".
+  tokens: ["Am", "Samstag", "feiere", "ich", "meinen", "Geburtstag"]
+  answers: ["Am Samstag feiere ich meinen Geburtstag."]
+  explanation: >-
+    Only one element before the verb: Am Samstag (position 1), feiere (position 2), then the subject ich.
+
+- id: a1-u12-order-separable
+  type: order
+  skill: grammar
+  variety: de
+  grammar: [review-word-order, separable-verbs-modal]
+  prompt: Put the words in order.
+  tokens: ["Ich", "lade", "dich", "zur", "Party", "ein"]
+  answers: ["Ich lade dich zur Party ein."]
+  explanation: >-
+    einladen is separable: lade in position 2, ein at the end. The pronoun dich comes early, right after the
+    verb.
+
+- id: a1-u12-order-modal-question
+  type: order
+  skill: grammar
+  variety: de
+  grammar: [review-word-order, separable-verbs-modal, sollen]
+  prompt: Make a yes/no question.
+  tokens: ["Soll", "ich", "einen", "Kuchen", "mitbringen"]
+  answers: ["Soll ich einen Kuchen mitbringen?"]
+  explanation: >-
+    Yes/no question: the modal verb first, the separable infinitive at the end in one word.
+
+- id: a1-u12-mcq-word-order
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [review-word-order, modal-koennen-wollen]
+  prompt: Which sentence is correct?
+  options: ["Ich kann nicht kommen am Samstag.", "Am Samstag ich kann nicht kommen.", "Ich kann am Samstag nicht kommen.", "Ich nicht kann am Samstag kommen."]
+  answer: 2
+  rationales:
+    - "The infinitive must be at the very end."
+    - "Only one element before the verb."
+    - "Correct. Modal second, time and nicht in the middle, infinitive at the end."
+    - "The modal verb must be in position 2."
+  explanation: >-
+    The sentence bracket: kann ... kommen. Everything else (am Samstag, nicht) goes inside.
+
+- id: a1-u12-transform-modal
+  type: transform
+  skill: grammar
+  variety: de
+  grammar: [review-word-order, modal-muessen-duerfen, separable-verbs-modal]
+  prompt: "Add the modal verb: müssen."
+  from: de
+  to: de
+  source: Ich kaufe heute ein Geschenk ein.
+  answers: ["Ich muss heute ein Geschenk einkaufen.", "Heute muss ich ein Geschenk einkaufen."]
+  explanation: >-
+    muss takes position 2; kaufe ... ein becomes one infinitive at the end: einkaufen. (Ich muss heute ein
+    Geschenk kaufen is also good German.)
+
+- id: a1-u12-transform-imperative
+  type: transform
+  skill: grammar
+  variety: de
+  grammar: [review-word-order, imperative]
+  prompt: "Make a du-imperative."
+  from: de
+  to: de
+  source: Du bringst Blumen mit.
+  answers: ["Bring Blumen mit!", "Bring bitte Blumen mit!", "Bring Blumen mit.", "Bringe Blumen mit!"]
+  explanation: >-
+    du bringst → Bring! (drop -st and du). The prefix mit stays at the end.
+
+# ---------- review: nicht / kein and accusative ----------
+- id: a1-u12-gap-nicht-kein
+  type: gap
+  skill: grammar
+  variety: de
+  grammar: [review-negation-accusative, nicht-kein]
+  prompt: "Fill in nicht, kein or keine."
+  text: Ich habe ___ Zeit, und ich habe ___ Geschenk. Ich komme leider ___.
+  answers: [["keine"], ["kein"], ["nicht"]]
+  explanation: >-
+    kein negates nouns: die Zeit → keine Zeit, das Geschenk → kein Geschenk. nicht negates verbs: Ich komme nicht.
+
+- id: a1-u12-gap-accusative
+  type: gap
+  skill: grammar
+  variety: de
+  grammar: [review-negation-accusative, accusative-indefinite, possessives]
+  prompt: "Fill in: einen – eine – meinen."
+  text: Ich kaufe ___ Kuchen und ___ Kerze. Am Samstag feiere ich ___ Geburtstag.
+  answers: [["einen"], ["eine"], ["meinen"]]
+  explanation: >-
+    der Kuchen and der Geburtstag are masculine objects: einen, meinen. die Kerze doesn't change: eine.
+
+- id: a1-u12-mcq-keinen
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [review-negation-accusative, nicht-kein]
+  prompt: Choose the correct form.
+  question: Wir brauchen ___ Wein, wir haben genug.
+  options: ["kein", "keine", "nicht", "keinen"]
+  answer: 3
+  explanation: >-
+    der Wein, object of brauchen → keinen (like einen). genug = enough.
+
+- id: a1-u12-mcq-doch
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [ja-nein-doch]
+  prompt: "\"Kommst du nicht zur Party?\" – You are coming. What do you answer?"
+  options: ["Ja!", "Doch, ich komme!", "Nein, ich komme!", "Nicht, ich komme!"]
+  answer: 1
+  explanation: >-
+    After a negative question, doch says yes, I am (unit 5). Ja would be confusing; Nein means you're not coming.
+
+- id: a1-u12-transform-pronoun
+  type: transform
+  skill: grammar
+  variety: de
+  grammar: [review-negation-accusative, accusative-pronouns]
+  prompt: "Replace the noun with a pronoun."
+  from: de
+  to: de
+  source: Ich lade Reto ein.
+  answers: ["Ich lade ihn ein."]
+  explanation: >-
+    Reto is male and the object of einladen → ihn (unit 10). The pronoun stays before the prefix ein.
+
+# ---------- review: questions, present tense, sein / haben ----------
+- id: a1-u12-gap-sein-haben
+  type: gap
+  skill: grammar
+  variety: de
+  grammar: [sein-present, haben-present, stem-changing-verbs]
+  prompt: "Fill in the verbs: sein – haben – fahren."
+  text: Nadine ___ dreißig Jahre alt. Sie ___ am Samstag Geburtstag. Wir ___ mit dem Tram zur Party.
+  answers: [["ist"], ["hat"], ["fahren"]]
+  explanation: >-
+    sie ist, sie hat (irregular); wir fahren (the a → ä change is only for du and er/sie/es: du fährst, sie
+    fährt).
+
+- id: a1-u12-mcq-du-sie
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [du-sie]
+  prompt: You invite your boss, Frau Weber. Which question is right?
+  options: ["Kommst du auch, Frau Weber?", "Kommen Sie auch, Frau Weber?", "Kommt ihr auch, Frau Weber?", "Kommen sie auch, Frau Weber?"]
+  answer: 1
+  explanation: >-
+    Use Sie (capital S, verb ending -en) with your boss and with Herr / Frau + surname. du is for friends and
+    family; lower-case sie means they.
+
+# ---------- forms, spelling, asking for help ----------
+- id: a1-u12-gap-form
+  type: gap
+  skill: writing
+  variety: ch-std
+  grammar: [spelling-repair, dates-ordinals]
+  prompt: >-
+    Fill in the registration form for the Sommerfest from this text: "Ich heisse Sofia Ramos, ich komme aus
+    Portugal. Ich wohne an der Seestrasse 12 in 8002 Zürich. Ich bin am 3. Juli 1990 geboren."
+  text: "Vorname: ___ / Familienname: ___ / Land: ___ / Wohnort: ___ / Geburtsdatum: ___"
+  answers: [["Sofia"], ["Ramos"], ["Portugal"], ["Zürich", "8002 Zürich", "Zuerich"], ["03.07.1990", "3.7.1990", "3. Juli 1990", "03.07.90", "3.7.90"]]
+  explanation: >-
+    Vorname = first name, Familienname (Nachname) = surname. Dates are written day first with full stops:
+    03.07.1990. ich bin ... geboren = I was born (a chunk).
+
+- id: a1-u12-mcq-wiederholen
+  type: mcq
+  skill: speaking
+  variety: de
+  grammar: [spelling-repair]
+  prompt: The receptionist speaks very fast and you don't understand. What do you say?
+  options: ["Ich spreche nicht.", "Können Sie das bitte wiederholen?", "Das ist falsch.", "Sprechen Sie bitte schnell!"]
+  answer: 1
+  explanation: >-
+    Können Sie das bitte wiederholen? (Could you repeat that, please?) Also: Wie bitte? Bitte langsam! Asking for
+    help is normal at A1 – and allowed in the exam.
+
+- id: a1-u12-match-letters
+  type: match
+  skill: listening
+  variety: de
+  grammar: [spelling-repair]
+  prompt: "Spelling: match the German letter names with the letters."
+  pairs:
+    - ["ay", "E"]
+    - ["ee", "I"]
+    - ["yot", "J"]
+    - ["fow", "V"]
+    - ["vay", "W"]
+    - ["tset", "Z"]
+  explanation: >-
+    The classic trap: German E sounds like English A in day, German I like English E in see. V is fau, W is we,
+    Z is tset.
+
+- id: a1-u12-dictation-spelling
+  type: dictation
+  skill: listening
+  variety: de
+  grammar: [spelling-repair]
+  prompt: Listen and write what you hear.
+  transcript: Mein Name ist Baker. Ich buchstabiere B-A-K-E-R.
+  explanation: >-
+    buchstabieren = to spell. Listen carefully for E (ay) and A (ah).
+
+# ---------- reading ----------
+- id: a1-u12-mcq-reading-sechselaeuten
+  type: mcq
+  skill: reading
+  variety: ch-std
+  prompt: Read "Feste in der Schweiz". What happens at the Sechseläuten in Zurich?
+  options: ["Children get nuts and mandarins.", "There are fireworks on the mountains.", "People wear masks all night.", "The Böögg burns at six o'clock."]
+  answer: 3
+  explanation: >-
+    "Im April feiert Zürich das Sechseläuten ... um sechs Uhr brennt der Böögg." The quicker its head explodes, the
+    better the summer (zuerich.com). Masks are the Fasnacht, nuts and mandarins the Samichlaus.
+
+- id: a1-u12-mcq-reading-august
+  type: mcq
+  skill: reading
+  variety: ch-std
+  grammar: [dates-ordinals]
+  prompt: What do many people do on the morning of the Swiss national day?
+  options: ["They have a brunch on a farm.", "They go to the Fasnacht.", "They visit Saint Nicholas.", "They burn the Böögg."]
+  answer: 0
+  explanation: >-
+    "Am 1. August ... am Morgen oft einen Brunch auf dem Bauernhof." der Bauernhof = farm. The Swiss call it
+    Buurezmorge (farmers' breakfast).
+
+- id: a1-u12-translate-reading
+  type: translate
+  skill: reading
+  variety: ch-std
+  grammar: [review-word-order]
+  prompt: Translate into English.
+  source: Am 6. Dezember kommt der Samichlaus zu den Kindern.
+  answers: ["On 6 December Saint Nicholas comes to the children.", "On the 6th of December Saint Nicholas visits the children.", "On 6 December Santa Claus comes to the children.", "On 6 December St Nicholas visits the children."]
+  explanation: >-
+    Time first, then the verb kommt, then the subject der Samichlaus – verb second. Samichlaus is the Swiss name
+    for Saint Nicholas (Duden: schweizerisch).
+
+# ---------- listening ----------
+- id: a1-u12-mcq-listening-when
+  type: mcq
+  skill: listening
+  variety: ch-std
+  grammar: [time-inversion, telling-time]
+  prompt: Listen to the intro dialogue again. When and where is Nadine's party?
+  options: ["Friday at eight, in a bar", "Saturday at eight, at her place", "Saturday at six, at the office", "Sunday at eight, at her place"]
+  answer: 1
+  explanation: >-
+    "Am Samstag um acht, bei mir zu Hause." bei mir zu Hause = at my place (a chunk).
+
+- id: a1-u12-mcq-listening-lena
+  type: mcq
+  skill: listening
+  variety: ch-std
+  grammar: [modal-koennen-wollen, accusative-pronouns]
+  prompt: Listen to the intro dialogue again. Why isn't Lena coming?
+  options: ["She isn't invited.", "She has to work.", "She's in Berlin at the weekend.", "She's ill."]
+  answer: 2
+  explanation: >-
+    "Ich lade sie ein, aber sie kann leider nicht. Sie ist am Wochenende in Berlin." sie = Lena, the object of
+    einladen.
+
+- id: a1-u12-dictation-invitation
+  type: dictation
+  skill: listening
+  variety: de
+  grammar: [review-word-order, separable-verbs-modal]
+  prompt: Listen and write what you hear.
+  transcript: Ich lade dich am Freitag zum Essen ein.
+  explanation: >-
+    einladen splits: lade ... ein. zum Essen = for a meal.
+
+# ---------- speaking ----------
+- id: a1-u12-speak-invite
+  type: speak
+  skill: speaking
+  variety: de
+  grammar: [congratulating-inviting, review-word-order]
+  prompt: "Read aloud, then invite a friend to your own party (day, time, place)."
+  target: Ich feiere am Samstag meinen Geburtstag. Kommst du auch? Die Party beginnt um acht.
+  explanation: >-
+    Three A1 patterns in a row: verb second (Ich feiere ...), verb first in a yes/no question (Kommst du ...?),
+    and the time with um.
+
+- id: a1-u12-speak-shadow-tom
+  type: speak
+  skill: speaking
+  variety: de
+  grammar: [congratulating-inviting, sollen]
+  prompt: "Shadowing: speak along with Tom's line from the intro dialogue, then say it alone."
+  target: Ja, ich komme gern! Soll ich etwas mitbringen?
+  explanation: >-
+    Enthusiastic: a high start on JA, stress on GERN. The question Soll ich etwas MIT-bringen? rises at the end.
+
+- id: a1-u12-speak-shadow-nadine
+  type: speak
+  skill: speaking
+  variety: ch-std
+  grammar: [review-negation-accusative, modal-muessen-duerfen]
+  prompt: "Shadowing: speak along with Nadine, then say it alone."
+  target: Nein, du musst nichts mitbringen. Es gibt genug Essen und Getränke.
+  explanation: >-
+    Swiss Standard German: the ch in nichts is often the back ach-sound, the r is tapped, and -en is fully
+    pronounced (Getränke, mitbringen). See the drill The Swiss Standard German accent.
+
+- id: a1-u12-speak-intonation-wishes
+  type: speak
+  skill: speaking
+  variety: de
+  grammar: [congratulating-inviting]
+  prompt: "Intonation: wishes sound warm. Stress the key word and let the voice fall."
+  target: Herzlichen Glückwunsch zum Geburtstag! Alles Gute!
+  explanation: >-
+    Stress HERZ-lichen and GLÜCK-wunsch, then ge-BURTS-tag; the voice falls at the end. Alles GU-te with a warm,
+    falling tone.
+
+- id: a1-u12-speak-pron-review
+  type: speak
+  skill: speaking
+  variety: de
+  grammar: [spelling-repair]
+  prompt: "Pronunciation review of A1: ü, ö, ch, z and the vocalised -er. Read aloud slowly."
+  target: Fünf Gäste feiern zwölf Stunden – Frohe Weihnachten und schöne Grüße aus Zürich!
+  explanation: >-
+    ü in fünf, Grüße, Zürich (say ee with round lips); ö in zwölf, schöne; ach-Laut in Weihnachten; z = ts in
+    zwölf, Zürich; -er in feiern sounds like a short a. See the drills ü vs u and i, ö vs o and e, The ach-Laut
+    (back ch), z [ts] and pf, and German r and the vocalised -er.
+
+- id: a1-u12-roleplay-lena
+  type: roleplay
+  skill: speaking
+  variety: de
+  grammar: [congratulating-inviting, review-word-order, review-negation-accusative, spelling-repair]
+  tutor: lena
+  prompt: "Roleplay with Lena: planning a party (A1 review)."
+  scenario: >-
+    It's Lena's birthday next week. Congratulate her early, ask about her party, accept the invitation, offer
+    to bring something and ask her to repeat one thing she says too fast. Use du.
+  goals:
+    - Congratulate Lena (Herzlichen Glückwunsch! / Alles Gute!).
+    - Ask when and where the party is (Wann? Wo?).
+    - Accept the invitation (Ich komme gern!) and offer something (Soll ich ... mitbringen?).
+    - Ask Lena to repeat or speak more slowly (Wie bitte? Kannst du das wiederholen?).
+  model: |
+    Lena: Nächste Woche habe ich Geburtstag!
+    Du: Oh, alles Gute! Feierst du?
+    Lena: Ja, am Freitag. Ich lade dich ein!
+    Du: Danke! Wann und wo ist die Party?
+    Lena: Umachtbeimirundwirgrillenimgarten!
+    Du: Wie bitte? Kannst du das bitte langsam wiederholen?
+    Lena: Um acht, bei mir. Wir grillen im Garten.
+    Du: Super, ich komme gern! Soll ich einen Salat mitbringen?
+    Lena: Ja, gern! Danke!
+  explanation: >-
+    A review of A1 in one conversation: W-questions, separable einladen and mitbringen, Soll ich ...?, and the
+    rescue phrases Wie bitte? / Kannst du das bitte wiederholen?
+
+# ---------- writing ----------
+- id: a1-u12-write-invitation
+  type: write
+  skill: writing
+  variety: de
+  grammar: [congratulating-inviting, review-word-order, dates-ordinals, separable-verbs-modal]
+  prompt: Write an invitation.
+  task: >-
+    Write an invitation to your birthday party for your German course (5–7 sentences). Say what you are
+    celebrating, give the day, date, time and place, say what there is to eat and drink, ask people to bring
+    something, and ask them to reply (zusagen) by a date.
+  minWords: 35
+  model: >-
+    Liebe Kursteilnehmerinnen und Kursteilnehmer, am Samstag, 14. Juni, feiere ich meinen Geburtstag. Ich lade
+    euch ein! Die Party beginnt um 19 Uhr bei mir zu Hause, an der Seestraße 12. Es gibt Pizza, Salat und
+    Getränke. Bringt bitte gute Laune und Musik mit! Bitte sagt bis zum 10. Juni zu. Ich freue mich! Viele
+    Grüße, Tom
+  checklist:
+    - I start with a greeting (Liebe ..., Hallo ...) and end with Viele Grüße and my name.
+    - I give the day, date (am 14. Juni), time (um 19 Uhr) and place.
+    - The verb is in position 2 in every statement, also after a time word.
+    - Separable verbs (einladen, mitbringen, zusagen) have the prefix at the end.
+    - I use ihr / euch for the group (Ich lade euch ein. Bringt ... mit!).
+  explanation: >-
+    An invitation to a group uses ihr: Ich lade euch ein. Bringt ... mit! Bitte sagt ... zu. gute Laune = a good
+    mood (a fixed chunk).
+
+# ---------- Swiss Standard German ----------
+- id: a1-u12-chstd-match
+  type: match
+  skill: vocabulary
+  variety: ch-std
+  prompt: Match the Swiss Standard German words with the German-German words.
+  pairs:
+    - ["der Samichlaus", "der Nikolaus"]
+    - ["die Fasnacht", "der Karneval"]
+    - ["die Schoggi", "die Schokolade"]
+    - ["dreissig", "dreißig"]
+  explanation: >-
+    Samichlaus (Duden: schweizerisch) comes on 6 December. Fasnacht is the Swiss carnival (Basel, Lucerne).
+    Schoggi is colloquial – you see it on Swiss packaging and menus. Swiss spelling has no ß.
+
+# ---------- Swiss lane (gsw-zh) ----------
+- id: a1-u12-ch-match-words
+  type: match
+  skill: vocabulary
+  variety: gsw-zh
+  prompt: Match the Zurich German words with Standard German.
+  pairs:
+    - ["s Gschänk", "das Geschenk"]
+    - ["s Fäscht", "das Fest"]
+    - ["de Geburi", "der Geburtstag"]
+    - ["Proscht!", "Prost!"]
+    - ["En Guete!", "Guten Appetit!"]
+  explanation: >-
+    Gschänk and Fäscht follow regular patterns: ge- → g, e → ä, st → scht. Geburi is the colloquial short form.
+    En Guete! is said before every meal.
+
+- id: a1-u12-ch-mcq-present
+  type: mcq
+  skill: listening
+  variety: gsw-zh
+  prompt: Listen to the Swiss lane dialogue. What is Sandra's present for Reto?
+  options: ["A bottle of wine", "Flowers", "Chocolate", "A cake"]
+  answer: 2
+  explanation: >-
+    "Mach s uf!" – "Schoggi! Mega, merci!" Schoggi = Schokolade, Mach s uf! = Mach es auf! (Open it!)
+
+- id: a1-u12-ch-transform-glueck
+  type: transform
+  skill: reading
+  variety: gsw-zh
+  grammar: [congratulating-inviting]
+  prompt: What does Sandra say to Reto? Write it in Standard German.
+  from: gsw-zh
+  to: de
+  source: Vill Glück zum Geburtstag!
+  answers: ["Viel Glück zum Geburtstag!", "Herzlichen Glückwunsch zum Geburtstag!", "Alles Gute zum Geburtstag!"]
+  explanation: >-
+    vill = viel. Word for word it's Viel Glück zum Geburtstag; in Germany you'd say Herzlichen Glückwunsch or
+    Alles Gute zum Geburtstag.
+
+- id: a1-u12-ch-transform-trinke
+  type: transform
+  skill: reading
+  variety: gsw-zh
+  grammar: [modal-koennen-wollen]
+  prompt: What does Reto ask? Write it in Standard German.
+  from: gsw-zh
+  to: de
+  source: Wottsch öppis trinke?
+  answers: ["Willst du etwas trinken?", "Möchtest du etwas trinken?", "Willst du was trinken?"]
+  explanation: >-
+    wottsch = willst du (wele, unit 7), öppis = etwas, trinke = trinken (no final -n in Zurich German).
+
+- id: a1-u12-ch-mcq-en-guete
+  type: mcq
+  skill: listening
+  variety: gsw-zh
+  grammar: [congratulating-inviting]
+  prompt: "Reto says: \"Und jetzt gits Fondue. En Guete mitenand!\" When do Swiss people say En Guete?"
+  options: ["When they clink glasses", "When someone sneezes", "When they say goodbye", "Before they start eating"]
+  answer: 3
+  explanation: >-
+    En Guete! = Guten Appetit! Swiss people say it before every meal, also to colleagues. gits = es gibt,
+    mitenand = everyone. For clinking glasses: Proscht!
+
+- id: a1-u12-ch-transform-de-gsw
+  type: transform
+  skill: vocabulary
+  variety: gsw-zh
+  grammar: [congratulating-inviting]
+  prompt: "Recognition: how do you say this in Zurich German? (Common spellings are accepted.)"
+  from: de
+  to: gsw-zh
+  source: Guten Appetit!
+  answers: ["En Guete!", "En Guete.", "Ä Guete!", "E Guete!"]
+  explanation: >-
+    En Guete! is the fixed phrase; you'll hear it in every Swiss canteen and restaurant.
+
+- id: a1-u12-roleplay-reto
+  type: roleplay
+  skill: listening
+  variety: gsw-zh
+  grammar: [congratulating-inviting, dates-ordinals, review-word-order]
+  tutor: reto
+  prompt: "Listening roleplay with Reto: 1 August plans."
+  scenario: >-
+    Reto invites you to celebrate the Swiss national day with his friends. He speaks Zurich German; you
+    answer in Standard German. Find out what the plan is, accept and offer to bring something.
+  goals:
+    - Understand the invitation and the date (am erschte Auguscht).
+    - Understand the plan (Buurezmorge, Fürwerk am See) and ask a question.
+    - Accept and offer to bring something.
+  model: |
+    Reto: Du, am erschte Auguscht mached mir es Fäscht. Chunnsch au?
+    Du: Am ersten August? Ja, gern! Was macht ihr?
+    Reto: Am Morge gönd mir as Buurezmorge, und am Abig luege mir s Fürwerk am See.
+    Du: Super! Soll ich etwas mitbringen?
+    Reto: Ja, gärn. Bring en Salat mit!
+    Du: Gut, mache ich. Ich freue mich!
+    Reto: Ich mich au. Bis dänn!
+  explanation: >-
+    Decoding: mached mir = machen wir, chunnsch au? = kommst du auch?, gönd mir = gehen wir, as Buurezmorge = zum
+    Bauernfrühstück (brunch on a farm), luege = schauen, s Fürwerk = das Feuerwerk.
+
+# ---------- Bernese (gsw-be, recognition) ----------
+- id: a1-u12-ch-be-mcq-fescht
+  type: mcq
+  skill: listening
+  variety: gsw-be
+  prompt: "Sandra's mother: \"Sandra, ds Fescht für e Ätti isch am Sunntig. Bringsch es Gschänk?\" What does she ask?"
+  options: ["Is Sandra bringing a present to Dad's party on Sunday?", "Is Sandra coming to dinner on Saturday?", "Has Sandra bought flowers for Mum?", "Can Sandra help with the party food?"]
+  answer: 0
+  explanation: >-
+    ds Fescht = das Fest, dr Ätti = Papa, am Sunntig = am Sonntag, Bringsch es Gschänk? = Bringst du ein
+    Geschenk? (berndeutsch.ch: Fescht n., Gschänk n.).
+
+- id: a1-u12-ch-be-transform
+  type: transform
+  skill: reading
+  variety: gsw-be
+  grammar: [congratulating-inviting]
+  prompt: What does Sandra answer? Write it in Standard German.
+  from: gsw-be
+  to: de
+  source: Mir gratuliere ihm zäme.
+  answers: ["Wir gratulieren ihm zusammen.", "Wir gratulieren ihm gemeinsam."]
+  explanation: >-
+    mir = wir (not me!), gratuliere = gratulieren (berndeutsch.ch), zäme = zusammen. ihm = to him (gratulieren
+    takes the dative – learn it as a chunk).
+
+- id: a1-u12-ch-be-match
+  type: match
+  skill: vocabulary
+  variety: gsw-be
+  prompt: Match the Bernese words with Standard German.
+  pairs:
+    - ["ds Fescht", "das Fest"]
+    - ["Samichlous", "Nikolaus"]
+    - ["Silveschter", "Silvester"]
+    - ["zäme", "zusammen"]
+  explanation: >-
+    All from berndeutsch.ch. Bernese ds is the neuter article (Zurich s), and ou often stands where Zurich has
+    au (Samichlous – Zurich Samichlaus).

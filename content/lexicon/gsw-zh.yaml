@@ -307,3 +307,38 @@ entries:
   - { de: Terminkalender, gswZh: Agenda, chStd: Agenda, en: "diary, calendar", pos: noun, tags: [helvetism] }
   - { de: Auf Wiederhören!, gswZh: Uf Widerlose! / Tschüss!, en: Goodbye! (on the phone), pos: phrase, tags: [phrases, phone] }
   - { de: nächste Woche, gswZh: nächscht Wuche, en: next week, pos: phrase, tags: [time] }
+
+  # ----- clothes and weather (A1 unit 10) -----
+  - { de: Jacke, gswZh: Jagge / Jacke, gswBe: Jagge, en: jacket, pos: noun, notes: "d Jagge (f.); s Jäggli = a light or small jacket; d Rägejagge = rain jacket (berndeutsch.ch).", tags: [clothes] }
+  - { de: Pullover, gswZh: Pulli / Lismer, gswBe: Lismer / Puli, chStd: Pullover / Pulli, en: jumper, pos: noun, notes: "de Lismer = a knitted jumper or cardigan (lisme = to knit; berndeutsch.ch).", tags: [clothes, helvetism] }
+  - { de: Hausschuh, gswZh: Finke, gswBe: Finke, chStd: Finken, en: slipper, pos: noun, notes: "de Finke, plural Finke (berndeutsch.ch; Duden: schweizerisch mundartlich). Swiss homes are shoe-free.", tags: [clothes, helvetism] }
+  - { de: Rock, gswZh: Jupe / Rock, chStd: Jupe, en: skirt, pos: noun, notes: "der Jupe (Duden: schweizerisch, meist maskulin).", tags: [clothes, helvetism] }
+  - { de: Kleid, gswZh: Chleid, en: dress, pos: noun, notes: "Plural Chleider = clothes in general.", tags: [clothes] }
+  - { de: Schuh, gswZh: Schue, en: shoe, pos: noun, notes: "Plural Schue.", tags: [clothes] }
+  - { de: gelb, gswZh: gäl / gääl, en: yellow, pos: adj, tags: [colours] }
+  - { de: weiß, gswZh: wiiss, chStd: weiss, en: white, pos: adj, tags: [colours] }
+  - { de: grün, gswZh: grüen, en: green, pos: adj, tags: [colours] }
+  - { de: braun, gswZh: bruun, en: brown, pos: adj, tags: [colours] }
+  - { de: "stehen (Das steht dir.)", gswZh: "stah (Das staht dir guet!)", en: to suit (someone), pos: verb, tags: [clothes, phrases] }
+  - { de: stark regnen, gswZh: schiffe (es schiffet), en: to pour with rain, pos: verb, notes: "Colloquial; German slang schiffen also means to pee (Duden: salopp). Neutral: es rägnet.", tags: [weather, register] }
+  - { de: Wolke, gswZh: Wulche, en: cloud, pos: noun, tags: [weather] }
+  - { de: Bise, gswZh: Bise, chStd: Bise, en: cold north-east wind, pos: noun, notes: "d Bise; its opposite is de Föhn, the warm dry wind from the south (also: hairdryer).", tags: [weather, helvetism] }
+
+  # ----- health (A1 unit 11) -----
+  - { de: Kopfschmerzen, gswZh: Chopfweh, gswBe: Chopfweh / Gringweh, chStd: Kopfweh, en: headache, pos: noun, notes: "Also Buuchweh, Halsweh, Zaaweh. Bernese dr Gring = head (coarse but affectionate; berndeutsch.ch).", tags: [health, body] }
+  - { de: Arzt, gswZh: Dokter / Arzt, en: doctor, pos: noun, notes: "Gang zum Dokter! = Geh zum Arzt!", tags: [health] }
+  - { de: erkältet, gswZh: verchältet, gswBe: vercheltet / ercheltet, en: having a cold, pos: adj, notes: "Bernese: i bi vercheltet, i ha mi vercheltet (berndeutsch.ch).", tags: [health] }
+  - { de: gesund, gswZh: gsund, en: healthy, pos: adj, tags: [health] }
+  - { de: Gute Besserung!, gswZh: Gueti Besserig!, en: Get well soon!, pos: phrase, tags: [health, phrases] }
+  - { de: Krankschreibung, gswZh: Arztzüügnis, chStd: Arztzeugnis, en: "doctor's note, sick note", pos: noun, tags: [health, work, helvetism] }
+  - { de: bleiben, gswZh: bliibe, en: to stay, pos: verb, notes: "Bliib im Bett! = Bleib im Bett!", tags: [verbs] }
+
+  # ----- celebrations (A1 unit 12) -----
+  - { de: Geschenk, gswZh: Gschänk, gswBe: Gschänk, en: present, pos: noun, notes: "s Gschänk (Bernese ds Gschänk, berndeutsch.ch).", tags: [celebrations] }
+  - { de: feiern, gswZh: fiire, en: to celebrate, pos: verb, tags: [celebrations, verbs] }
+  - { de: Schokolade, gswZh: Schoggi, chStd: Schokolade / Schoggi, en: chocolate, pos: noun, notes: "d Schoggi; also on Swiss packaging and menus.", tags: [food, helvetism] }
+  - { de: Herzlichen Glückwunsch zum Geburtstag!, gswZh: Vill Glück zum Geburtstag! / Alles Gueti zum Geburi!, en: Happy birthday!, pos: phrase, tags: [celebrations, phrases] }
+  - { de: Ein gutes neues Jahr!, gswZh: Es guets Nöis!, en: Happy New Year!, pos: phrase, tags: [celebrations, phrases] }
+  - { de: Weihnachten, gswZh: Wienacht, en: Christmas, pos: noun, notes: "Schöni Wienacht! = Frohe Weihnachten!", tags: [celebrations, holidays] }
+  - { de: Nikolaus, gswZh: Samichlaus, gswBe: Samichlous, chStd: Samichlaus, en: Saint Nicholas, pos: noun, notes: "6 December, with his helper Schmutzli (berndeutsch.ch; Duden: Samichlaus, schweizerisch).", tags: [celebrations, culture, helvetism] }
+  - { de: Karneval, gswZh: Fasnacht, chStd: Fasnacht, en: carnival, pos: noun, tags: [celebrations, culture, helvetism] }

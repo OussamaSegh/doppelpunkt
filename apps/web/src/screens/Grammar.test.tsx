@@ -22,7 +22,7 @@ const unit2 = CompiledUnit.parse({
     { id: 'a1-u02-zh-1', type: 'mcq', skill: 'vocabulary', variety: 'gsw-zh', prompt: 'Pick the Zurich word.', options: ['Hoi', 'Moin'], answer: 0, explanation: 'Hoi is Swiss.', grammar: ['verb-second'] },
   ],
 });
-const packs: LevelPack[] = [{ level: 'A1', version: 't', builtAt: '2026-01-01T00:00:00.000Z', units: [fixtureUnit, unit2] }];
+const packs: LevelPack[] = [{ level: 'A1', version: 't', builtAt: '2026-01-01T00:00:00.000Z', units: [fixtureUnit, unit2], exams: [] }];
 
 function renderAt(path: string) {
   return render(

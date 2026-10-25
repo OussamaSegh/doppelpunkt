@@ -1,4 +1,5 @@
 // Loads compiled level packs from /packs (built by tools/ into apps/web/public/packs).
+import { useEffect } from 'react';
 import { create } from 'zustand';
 import {
   LevelPack,
@@ -93,6 +94,18 @@ export const useContent = create<ContentStore>((set, get) => ({
   },
   setPacks: (packs) => set({ status: packs.length ? 'ready' : 'empty', packs, warnings: [], error: undefined }),
 }));
+
+/**
+ * Starts loading the level packs the first time a screen that needs them renders. Screens that
+ * don't show lessons (onboarding, settings) never fetch or parse the packs.
+ */
+export function useEnsureContent(): void {
+  const status = useContent((s) => s.status);
+  const load = useContent((s) => s.load);
+  useEffect(() => {
+    if (status === 'idle') void load();
+  }, [status, load]);
+}
 
 export function findPack(packs: LevelPack[], level: Level): LevelPack | undefined {
   return packs.find((p) => p.level === level);

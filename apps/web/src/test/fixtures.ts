@@ -60,7 +60,7 @@ export const fixtureUnit: CompiledUnit = CompiledUnit.parse({
   ],
 });
 
-export const fixturePack: LevelPack = { level: 'A1', version: 'test', builtAt: '2026-01-01T00:00:00.000Z', units: [fixtureUnit] };
+export const fixturePack: LevelPack = { level: 'A1', version: 'test', builtAt: '2026-01-01T00:00:00.000Z', units: [fixtureUnit], exams: [] };
 
 export function exercise(id: string) {
   const ex = fixtureUnit.exercises.find((e) => e.id === id);

@@ -1,0 +1,285 @@
+id: a1-u11
+level: A1
+number: 11
+title: Gesundheit
+titleEn: Health
+goal: >-
+  By the end you can say what hurts and how you feel, make a doctor's appointment, understand what the
+  doctor and the pharmacist tell you to do, use müssen, dürfen and sollen together, and recognise how
+  Zurich speakers talk about being ill.
+canDo:
+  - I can name the main parts of the body and say what hurts (Mein Kopf tut weh. Ich habe Halsschmerzen.).
+  - I can say how I feel and describe simple symptoms (Ich bin erkältet. Ich habe Fieber und Husten.).
+  - I can understand and report what the doctor says with müssen, dürfen and sollen (Ich soll im Bett bleiben.).
+  - I can understand simple instructions at the doctor's and on a medicine pack (Nehmen Sie dreimal täglich eine Tablette.).
+  - I can wish someone a quick recovery and react to a sneeze (Gute Besserung! Gesundheit!).
+  - I can recognise Zurich health words (Chopfweh, Buuchweh, chrank, müed, Gsundheit!, Spital, Gueti Besserig!).
+
+review:
+  notes:
+    - "'Ich ha Chopfweh und Halsweh, und ich bi mega müed.' – Halsweh as the Zurich word for a sore throat? (Chopf, Buuch, chrank, müed are in the lexicon.)"
+    - "'Ja, chli. Achtedriissg.' – Zurich 38: achtedriissg / achtedrissg?"
+    - "'Gang zum Dokter!' – gang as the du-imperative of gaa (as in unit 8 'Gang grad us'); 'zum Dokter' natural, or 'zum Arzt'?"
+    - "'Gueti Besserig!' – spelling and still common? (Standard: Gute Besserung!)"
+    - "'Hatschi!' – the sneeze word, same as in Germany?"
+    - "Bernese lines: 'Sandra, bisch vercheltet?' (BD #45414: verchelte, sech; i bi vercheltet), 'Du tönsch so komisch.' (töne = to sound?), 'Nei, Mami, dr Reto isch chrank. Är het Gringweh.' (BD #10817 Gringweh, BD #10643 Gring = Kopf, coarse but affectionate) – natural? Is Gringweh fine to teach for recognition, given the coarse register of Gring?"
+    - "Swiss Standard: das Spital (Duden: schweizerisch auch der Spital), das Arztzeugnis (for Krankschreibung / Attest), die Krankenkasse (basic health insurance is compulsory), die Drogerie vs die Apotheke – please confirm the notes."
+    - "Roleplay model (Reto at the Drogerie): 'Was fählt Ine?', 'Händ Sie au Fieber?', 'Dänn nämed Sie die Tablette drüümal am Tag. Und trinked Sie vill Tee!', 'Händ Sie nach föif Täg no Hueschte, dänn gönd Sie zum Dokter.' – are -ed Sie-imperatives (nämed, trinked) and 'drüümal' right?"
+    - "Swiss Standard 'Kopfweh / Bauchweh' as the everyday spoken words (also used in southern Germany) – fine to present as the Swiss default?"
+    - "Vocabulary gswZh forms without a source (please tick or correct): Hals, Rugge, Arm, Bei, Fuess (plural Füess), Hand (plural Händ), Aug (plural Auge), Ohr, Zaa, Nase, Fieber, Hueschte, Schnupfe, Grippe, Tablette, Medikamänt, Apiteegg / Apotheke, Rezäpt, Wartezimmer, Notfall, weh tue (es tuet weh), bliibe, gsund, verchältet."
+
+intro:
+  scene: >-
+    Wednesday, 11 May, half past nine: Tom's appointment at Dr Huber's practice (unit 9). He doesn't feel
+    well. Dr Huber speaks Swiss Standard German.
+  dialogue:
+    - speaker: Dr. Huber
+      text: Guten Morgen, Herr Baker. Was fehlt Ihnen?
+      en: Good morning, Mr Baker. What's the matter?
+      variety: ch-std
+    - speaker: Tom
+      text: Ich habe Halsschmerzen und Husten. Und mein Kopf tut weh.
+      en: I've got a sore throat and a cough. And my head hurts.
+    - speaker: Dr. Huber
+      text: Haben Sie auch Fieber?
+      en: Do you have a temperature too?
+      variety: ch-std
+    - speaker: Tom
+      text: Ja, ein bisschen. Heute Morgen 38 Grad.
+      en: Yes, a little. 38 degrees this morning.
+    - speaker: Dr. Huber
+      text: Machen Sie bitte den Mund auf. Ja, Ihr Hals ist rot. Sie sind erkältet.
+      en: Please open your mouth. Yes, your throat is red. You've got a cold.
+      variety: ch-std
+    - speaker: Tom
+      text: Darf ich morgen arbeiten?
+      en: Am I allowed to work tomorrow?
+    - speaker: Dr. Huber
+      text: Nein, Sie dürfen drei Tage nicht arbeiten. Sie müssen viel schlafen und viel Tee trinken.
+      en: No, you mustn't work for three days. You have to sleep a lot and drink a lot of tea.
+      variety: ch-std
+    - speaker: Tom
+      text: Brauche ich Medikamente?
+      en: Do I need any medicine?
+    - speaker: Dr. Huber
+      text: Ich schreibe Ihnen ein Rezept. Nehmen Sie dreimal täglich eine Tablette, nach dem Essen.
+      en: I'll write you a prescription. Take one tablet three times a day, after meals.
+      variety: ch-std
+    - speaker: Tom
+      text: Und brauche ich ein Arztzeugnis für die Arbeit?
+      en: And do I need a doctor's note for work?
+    - speaker: Dr. Huber
+      text: Ja, hier ist es. Gute Besserung, Herr Baker!
+      en: Yes, here it is. Get well soon, Mr Baker!
+      variety: ch-std
+    - speaker: Tom
+      text: Vielen Dank! Auf Wiedersehen.
+      en: Thank you very much! Goodbye.
+
+grammar:
+  - id: wehtun-schmerzen
+    title: "Saying what hurts: tut weh, ...schmerzen, ich bin erkältet"
+    body: >-
+      Learn these as **chunks**:
+
+
+      - **... tut weh / ... tun weh** (... hurts / hurt): *Mein Kopf **tut** weh. Meine Füße **tun** weh.* The
+      body part is the subject, so the verb agrees with it: one thing → *tut*, plural → *tun*.
+
+      - **Ich habe ...schmerzen** (always plural): *Ich habe **Kopfschmerzen / Halsschmerzen /
+      Bauchschmerzen / Rückenschmerzen**.* Spoken German (and Swiss German) often says *Kopfweh,
+      Bauchweh*.
+
+      - **Ich habe** + illness, without an article: *Ich habe **Fieber / Husten / Schnupfen / Grippe**.*
+      But: *Ich habe **eine Erkältung**.* = ***Ich bin erkältet**.*
+
+      - **Ich bin krank / müde.** *Mir ist schlecht.* (I feel sick.) – *mir* is a fixed chunk here.
+
+
+      The doctor asks ***Was fehlt Ihnen?*** or ***Was tut Ihnen weh?*** (What's the matter? What hurts?).
+      Wish someone well: ***Gute Besserung!*** After a sneeze: ***Gesundheit!***
+    tables:
+      - [["Body part", "tut weh", "...schmerzen"],
+         ["der Kopf", "Mein Kopf tut weh.", "Ich habe Kopfschmerzen."],
+         ["der Hals", "Mein Hals tut weh.", "Ich habe Halsschmerzen."],
+         ["der Bauch", "Mein Bauch tut weh.", "Ich habe Bauchschmerzen."],
+         ["der Rücken", "Mein Rücken tut weh.", "Ich habe Rückenschmerzen."],
+         ["der Zahn (die Zähne)", "Mein Zahn tut weh.", "Ich habe Zahnschmerzen."],
+         ["die Füße (plural)", "Meine Füße tun weh.", "–"]]
+    commonMistakes:
+      - "*Ich habe einen Kopfschmerz.* → **Ich habe Kopfschmerzen.** Always plural, no article."
+      - "*Meine Füße tut weh.* → **Meine Füße tun weh.** Plural subject, plural verb."
+      - "*Ich bin kalt.* (I'm cold / I have a cold) → **Mir ist kalt.** (I feel cold) / **Ich bin erkältet.** (I have a cold). *Ich bin kalt* describes your personality!"
+      - "*Ich habe ein Fieber.* → **Ich habe Fieber.** No article with Fieber, Husten, Schnupfen."
+
+  - id: modal-review
+    title: "müssen, dürfen, sollen: what the doctor says"
+    body: >-
+      Three modal verbs, one pattern: **modal in position 2, infinitive at the end** (units 7–9).
+
+
+      - **müssen** = have to, must: *Sie **müssen** viel schlafen.*
+
+      - **nicht müssen** = don't have to: *Sie **müssen nicht** ins Spital.* (no need)
+
+      - **dürfen** = be allowed to: ***Darf** ich arbeiten?*
+
+      - **nicht dürfen** = mustn't: *Sie **dürfen nicht** rauchen.* (it's forbidden)
+
+      - **sollen** = an instruction from someone else: *Der Arzt sagt, ich **soll** viel Tee trinken.*
+
+
+      **Reporting the doctor:** what the doctor tells you as an imperative or with *müssen*, you report to
+      others with **sollen**: *Dr. Huber: „Trinken Sie viel Tee!" → Ich **soll** viel Tee trinken.*
+
+
+      Remember the forms: *ich muss, ich darf, ich soll* – no ending for ich and er/sie/es; *du musst, du
+      darfst, du sollst*.
+    tables:
+      - [["", "müssen", "dürfen", "sollen"],
+         ["ich", "muss", "darf", "soll"],
+         ["du", "musst", "darfst", "sollst"],
+         ["er / sie / es", "muss", "darf", "soll"],
+         ["wir", "müssen", "dürfen", "sollen"],
+         ["ihr", "müsst", "dürft", "sollt"],
+         ["sie / Sie", "müssen", "dürfen", "sollen"]]
+      - [["English", "German", "Meaning"],
+         ["You don't have to stay in bed.", "Sie müssen nicht im Bett bleiben.", "no obligation"],
+         ["You mustn't stay in bed.", "Sie dürfen nicht im Bett bleiben.", "forbidden"]]
+    commonMistakes:
+      - "*Sie müssen nicht rauchen* for *You mustn't smoke* → **Sie dürfen nicht rauchen.** *nicht müssen* only means *no need*."
+      - "*Der Arzt sagt, ich muss Tee trinken* is possible, but the typical report of an instruction is **Ich soll Tee trinken.**"
+      - "*Ich darf nicht arbeiten morgen.* → **Ich darf morgen nicht arbeiten.** Infinitive at the very end."
+
+  - id: imperative-instructions
+    title: "Instructions: Nehmen Sie ...! Trink ...! Bleib ...!"
+    body: >-
+      Doctors, pharmacists and leaflets give instructions with the **imperative** (unit 8):
+
+
+      - **Sie**: verb first + *Sie*: ***Nehmen Sie** die Tabletten nach dem Essen. **Trinken Sie** viel Wasser.*
+
+      - **du**: the du-form without *-st* and without *du*: *du nimmst → **Nimm**! du bleibst → **Bleib** im
+      Bett! du gehst → **Geh** zum Arzt!*
+
+      - **ihr**: the ihr-form without *ihr*: ***Bleibt** zu Hause!*
+
+
+      Leaflets also use the **infinitive** for instructions: *Dreimal täglich eine Tablette **nehmen**. Nicht mit
+      Alkohol **nehmen**.* Useful time chunks: ***dreimal täglich*** (three times a day), ***vor / nach dem
+      Essen*** (before / after meals), ***morgens und abends*** (in the morning and in the evening).
+    tables:
+      - [["Infinitive", "Sie", "du", "ihr"],
+         ["nehmen", "Nehmen Sie ...!", "Nimm ...!", "Nehmt ...!"],
+         ["bleiben", "Bleiben Sie im Bett!", "Bleib im Bett!", "Bleibt im Bett!"],
+         ["trinken", "Trinken Sie viel Tee!", "Trink viel Tee!", "Trinkt viel Tee!"],
+         ["schlafen", "Schlafen Sie viel!", "Schlaf viel!", "Schlaft viel!"],
+         ["aufmachen", "Machen Sie den Mund auf!", "Mach den Mund auf!", "Macht den Mund auf!"]]
+    commonMistakes:
+      - "*Nimmst die Tablette!* → **Nimm die Tablette!** No -st in the du-imperative; and e → i stays (nehmen → nimm)."
+      - "*Schläf viel!* → **Schlaf viel!** The a → ä change of du schläfst is dropped in the imperative."
+      - "*Sie nehmen die Tablette!* → **Nehmen Sie die Tablette!** The verb comes first."
+
+reading:
+  title: "Apotheke am Bahnhof"
+  text: >-
+    Apotheke am Bahnhof – Öffnungszeiten: Montag bis Freitag 7.30 bis 20 Uhr, Samstag 8 bis 18 Uhr. Am Sonntag
+    ist die Apotheke geschlossen. Im Notfall rufen Sie bitte die Notfall-Apotheke an: Telefon 0800 33 66 55.
+
+
+    Ihr Medikament: Hustensirup für Erwachsene.
+
+    So nehmen Sie den Sirup: Dreimal täglich einen Löffel, nach dem Essen. Trinken Sie viel Wasser oder Tee.
+    Sie dürfen keinen Alkohol trinken. Kinder unter 12 Jahren dürfen den Sirup nicht nehmen. Haben Sie nach
+    fünf Tagen noch Husten? Dann gehen Sie bitte zum Arzt.
+
+
+    Gute Besserung wünscht Ihr Apotheken-Team!
+  en: >-
+    Station Pharmacy – opening hours: Monday to Friday 7.30 a.m. to 8 p.m., Saturday 8 a.m. to 6 p.m. On
+    Sunday the pharmacy is closed. In an emergency please call the emergency pharmacy: phone 0800 33 66 55.
+
+
+    Your medicine: cough syrup for adults.
+
+    How to take the syrup: one spoonful three times a day, after meals. Drink a lot of water or tea. You
+    mustn't drink alcohol. Children under 12 mustn't take the syrup. Do you still have a cough after five
+    days? Then please go to the doctor.
+
+
+    Your pharmacy team wishes you a quick recovery!
+
+swiss:
+  scene: >-
+    Sandra phones Reto, who stayed at home today. He's ill. Listen for chrank, Chopfweh, müed and the
+    good wishes at the end. Then Sandra's mother calls from Bern.
+  dialogue:
+    - speaker: Sandra
+      text: Hoi Reto, wie gaats dir?
+      en: Hi Reto, how are you?
+      variety: gsw-zh
+    - speaker: Reto
+      text: Nöd guet. Ich bi chrank.
+      en: Not good. I'm ill.
+      variety: gsw-zh
+    - speaker: Sandra
+      text: Oh nei! Was häsch?
+      en: Oh no! What's wrong?
+      variety: gsw-zh
+    - speaker: Reto
+      text: Ich ha Chopfweh und Halsweh, und ich bi mega müed.
+      en: I've got a headache and a sore throat, and I'm really tired.
+      variety: gsw-zh
+    - speaker: Sandra
+      text: Häsch Fieber?
+      en: Have you got a temperature?
+      variety: gsw-zh
+    - speaker: Reto
+      text: Ja, chli. Achtedriissg.
+      en: Yes, a bit. Thirty-eight.
+      variety: gsw-zh
+    - speaker: Sandra
+      text: Gang zum Dokter! Und trink vill Tee.
+      en: Go to the doctor! And drink lots of tea.
+      variety: gsw-zh
+    - speaker: Reto
+      text: Ja, ich ha morn en Termin. Hatschi!
+      en: Yes, I've got an appointment tomorrow. Atchoo!
+      variety: gsw-zh
+    - speaker: Sandra
+      text: Gsundheit! Gueti Besserig, Reto!
+      en: Bless you! Get well soon, Reto!
+      variety: gsw-zh
+    - speaker: Mami
+      text: Sandra, bisch vercheltet? Du tönsch so komisch.
+      en: Sandra, have you got a cold? You sound so strange.
+      variety: gsw-be
+    - speaker: Sandra
+      text: Nei, Mami, dr Reto isch chrank. Är het Gringweh.
+      en: No, Mum, Reto is ill. He's got a headache.
+      variety: gsw-be
+  notes:
+    - >-
+      **...weh** is the everyday Swiss way to say what hurts: **Chopfweh** (Kopfschmerzen), **Buuchweh**
+      (Bauchschmerzen), **Halsweh**, **Zaaweh**. Swiss Standard German also prefers *Kopfweh, Bauchweh* in
+      speech. *Es tuet weh* = es tut weh.
+    - >-
+      **chrank** (krank), **müed** (müde), **gsund** (gesund). *Ich bi chrank* = Ich bin krank. *Hatschi!* –
+      **Gsundheit!** And when someone is ill: **Gueti Besserig!** (Gute Besserung!).
+    - >-
+      **Swiss Standard German:** the hospital is **das Spital** (Duden: Swiss, also *der Spital*), the doctor's
+      note for your employer is **das Arztzeugnis**, and every resident must have basic health insurance with a
+      **Krankenkasse** – you show its card at the doctor's (unit 9). In an emergency go to the **Notfall** of a
+      Spital or call 144.
+    - >-
+      **Apotheke or Drogerie?** In Switzerland the **Apotheke** sells prescription medicine (*Rezept*); the
+      **Drogerie** sells non-prescription remedies, cosmetics and household products. Many people ask in the
+      Drogerie or Apotheke before they see a doctor.
+    - >-
+      **Imperatives in dialect** work as in Standard German: **Gang zum Dokter!** (Geh zum Arzt!), **Trink vill
+      Tee!** (Trink viel Tee!), **Bliib im Bett!** (Bleib im Bett!). *Dokter* is the everyday word; *Arzt* is
+      used too.
+    - >-
+      **Bernese** (Sandra's mother): **bisch vercheltet?** = bist du erkältet? (berndeutsch.ch: *verchelte,
+      sech* = sich erkälten). **Är het Gringweh** = er hat Kopfweh: **dr Gring** is the Bernese word for the
+      head – coarse but affectionate, so use it only with friends. *Du tönsch komisch* = du klingst komisch.

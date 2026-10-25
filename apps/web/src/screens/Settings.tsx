@@ -12,7 +12,7 @@ import {
   type Settings,
   type ThemePref,
 } from '../db';
-import { errorMessage, modelFor, monthSpend, PROVIDERS } from '../lib/ai';
+import { errorMessage, modelFor, monthSpend, monthTranscription, PROVIDERS } from '../lib/ai';
 import { useSettings } from '../lib/hooks';
 import { useSession } from '../lib/session';
 import { applyTheme } from '../lib/theme';
@@ -137,7 +137,7 @@ function ProviderCard({ provider, settings }: { provider: ProviderId; settings: 
             name="active-provider"
             checked={active}
             onChange={() => void updateSettings({ activeProvider: provider })}
-            className="h-4 w-4"
+            className="h-5 w-5"
           />
           Use for feedback and explanations
         </label>
@@ -262,11 +262,16 @@ function ModelPicker({ provider, settings }: { provider: ProviderId; settings: S
   );
 }
 
+function formatAudio(seconds: number): string {
+  return seconds < 60 ? `${Math.round(seconds)} s of audio` : `${(seconds / 60).toFixed(1)} min of audio`;
+}
+
 function RelayAndCap({ settings }: { settings: Settings }) {
   const [relay, setRelay] = useState(settings.relayUrl ?? '');
   const [cap, setCap] = useState(String(settings.monthlyCapUsd));
   const [relayError, setRelayError] = useState<string>();
   const spent = useLiveQuery(() => monthSpend(), []);
+  const transcribed = useLiveQuery(() => monthTranscription(), []);
 
   const saveRelay = () => {
     const v = relay.trim();
@@ -301,7 +306,13 @@ function RelayAndCap({ settings }: { settings: Settings }) {
             if (Number.isFinite(n) && n >= 0) void updateSettings({ monthlyCapUsd: n });
           }}
         />
-        <p className="mt-1 text-xs text-muted">Spent this month: about ${(spent ?? 0).toFixed(3)}. 0 switches AI off.</p>
+        <p className="mt-1 text-xs text-muted">
+          Spent this month: about ${(spent ?? 0).toFixed(3)}
+          {transcribed && transcribed.seconds > 0
+            ? `, of which speech transcription about $${transcribed.costUsd.toFixed(3)} (${formatAudio(transcribed.seconds)})`
+            : ''}
+          . 0 switches AI off.
+        </p>
       </div>
     </div>
   );
@@ -334,7 +345,7 @@ function LearningPrefs({ settings }: { settings: Settings }) {
       <label className="flex items-start gap-2 text-sm sm:col-span-2">
         <input
           type="checkbox"
-          className="mt-0.5 h-4 w-4"
+          className="mt-0.5 h-5 w-5 shrink-0"
           checked={settings.haptics}
           onChange={(e) => void updateSettings({ haptics: e.target.checked })}
         />

@@ -1,0 +1,361 @@
+# A1 unit 12 – Feste und Feiern (A1 review)
+
+# ---------- parties and presents ----------
+- id: party
+  de: Party
+  en: party
+  pos: noun
+  gender: f
+  plural: Partys
+  example: { de: "Die Party beginnt um acht.", en: "The party starts at eight." }
+  gswZh: Party / Fäscht
+  tags: [celebrations]
+
+- id: feier
+  de: Feier
+  en: celebration
+  pos: noun
+  gender: f
+  plural: Feiern
+  example: { de: "Die Feier ist im Garten.", en: "The celebration is in the garden." }
+  gswZh: Fiir
+  gswBe: Fyr (d Geburtstagsfyr)
+  tags: [celebrations]
+
+- id: feiern
+  de: feiern
+  en: to celebrate
+  pos: verb
+  example: { de: "Am Samstag feiere ich meinen Geburtstag.", en: "On Saturday I'm celebrating my birthday." }
+  gswZh: fiire
+  tags: [celebrations]
+
+- id: geschenk
+  de: Geschenk
+  en: present, gift
+  pos: noun
+  gender: n
+  plural: Geschenke
+  example: { de: "Das Geschenk ist für dich.", en: "The present is for you." }
+  gswZh: Gschänk
+  gswBe: Gschänk (ds Gschänk)
+  tags: [celebrations]
+
+- id: schenken
+  de: schenken
+  en: to give (as a present)
+  pos: verb
+  example: { de: "Ich schenke Reto Blumen.", en: "I'm giving Reto flowers." }
+  gswZh: schänke
+  tags: [celebrations]
+
+- id: glueckwunsch
+  de: Glückwunsch
+  en: congratulations, good wishes
+  pos: noun
+  gender: m
+  plural: Glückwünsche
+  example: { de: "Vielen Dank für die Glückwünsche!", en: "Thank you very much for the good wishes!" }
+  gswZh: Glückwunsch
+  tags: [celebrations, wishes]
+
+- id: gratulieren
+  de: gratulieren
+  en: to congratulate
+  pos: verb
+  example: { de: "Wir gratulieren dir zum Geburtstag!", en: "We wish you a happy birthday!" }
+  gswZh: gratuliere
+  gswBe: gratuliere
+  tags: [celebrations, wishes]
+
+- id: herzlichen-glueckwunsch
+  de: Herzlichen Glückwunsch!
+  en: Congratulations! / Happy birthday!
+  pos: phrase
+  example: { de: "Herzlichen Glückwunsch zum Geburtstag!", en: "Happy birthday!" }
+  gswZh: Härzliche Glückwunsch! / Vill Glück zum Geburtstag!
+  tags: [wishes]
+
+- id: alles-gute
+  de: Alles Gute!
+  en: All the best!
+  pos: phrase
+  example: { de: "Alles Gute zum Geburtstag!", en: "All the best for your birthday!" }
+  gswZh: Alles Gueti!
+  tags: [wishes]
+
+- id: frohe-weihnachten
+  de: Frohe Weihnachten!
+  en: Merry Christmas!
+  pos: phrase
+  example: { de: "Frohe Weihnachten und ein gutes neues Jahr!", en: "Merry Christmas and a happy New Year!" }
+  gswZh: Schöni Wienacht! / Frohi Wienacht!
+  tags: [wishes, holidays]
+
+- id: gutes-neues-jahr
+  de: Ein gutes neues Jahr!
+  en: Happy New Year!
+  pos: phrase
+  example: { de: "Um Mitternacht sagen alle: Ein gutes neues Jahr!", en: "At midnight everyone says: Happy New Year!" }
+  gswZh: Es guets Nöis!
+  tags: [wishes, holidays]
+
+- id: guten-appetit
+  de: Guten Appetit!
+  en: Enjoy your meal!
+  pos: phrase
+  example: { de: "Das Essen ist fertig. Guten Appetit!", en: "The food is ready. Enjoy your meal!" }
+  gswZh: En Guete!
+  tags: [wishes, food]
+
+- id: prost
+  de: Prost!
+  en: Cheers!
+  pos: phrase
+  example: { de: "Prost! Auf dich!", en: "Cheers! To you!" }
+  gswZh: Proscht! / Zum Wohl!
+  tags: [wishes, drinks]
+
+- id: viel-spass
+  de: Viel Spaß!
+  en: Have fun!
+  pos: phrase
+  example: { de: "Viel Spaß auf der Party!", en: "Have fun at the party!" }
+  chStd: Viel Spass!
+  gswZh: Vill Spass! / Vill Plausch!
+  tags: [wishes]
+
+- id: sich-freuen
+  de: sich freuen
+  en: to be happy; to look forward to it (ich freue mich)
+  pos: verb
+  example: { de: "Du kommst? Super, ich freue mich!", en: "You're coming? Great, I'm looking forward to it!" }
+  gswZh: sich freue (ich freu mich)
+  tags: [phrases]
+
+- id: zusagen
+  de: zusagen
+  en: to accept (an invitation)
+  pos: verb
+  example: { de: "Ich sage gern zu!", en: "I'm happy to accept!" }
+  gswZh: zuesäge
+  tags: [invitations, separable]
+
+- id: gast
+  de: Gast
+  en: guest
+  pos: noun
+  gender: m
+  plural: Gäste
+  example: { de: "Wir haben zwanzig Gäste.", en: "We have twenty guests." }
+  gswZh: Gascht (plural Gäscht)
+  tags: [celebrations]
+
+- id: kerze
+  de: Kerze
+  en: candle
+  pos: noun
+  gender: f
+  plural: Kerzen
+  example: { de: "Die Torte hat dreißig Kerzen.", en: "The cake has thirty candles." }
+  gswZh: Cherze
+  tags: [celebrations]
+
+- id: torte
+  de: Torte
+  en: (layer) cake, gateau
+  pos: noun
+  gender: f
+  plural: Torten
+  example: { de: "Um Mitternacht gibt es eine Torte.", en: "At midnight there's a cake." }
+  gswZh: Turte
+  tags: [celebrations, food]
+
+- id: blume
+  de: Blume
+  en: flower
+  pos: noun
+  gender: f
+  plural: Blumen
+  example: { de: "Ich bringe Blumen mit.", en: "I'll bring flowers." }
+  gswZh: Blueme
+  tags: [celebrations, presents]
+
+- id: schokolade
+  de: Schokolade
+  en: chocolate
+  pos: noun
+  gender: f
+  plural: Schokoladen
+  example: { de: "Schweizer Schokolade ist ein gutes Geschenk.", en: "Swiss chocolate is a good present." }
+  chStd: Schokolade / Schoggi (colloquial)
+  gswZh: Schoggi
+  tags: [food, presents]
+
+- id: ueberraschung
+  de: Überraschung
+  en: surprise
+  pos: noun
+  gender: f
+  plural: Überraschungen
+  example: { de: "Die Party ist eine Überraschung!", en: "The party is a surprise!" }
+  gswZh: Überraschig
+  tags: [celebrations]
+
+# ---------- holidays ----------
+- id: feiertag
+  de: Feiertag
+  en: public holiday
+  pos: noun
+  gender: m
+  plural: Feiertage
+  example: { de: "Am Montag ist ein Feiertag, die Geschäfte sind zu.", en: "Monday is a public holiday, the shops are closed." }
+  gswZh: Fiirtig
+  tags: [holidays]
+
+- id: nationalfeiertag
+  de: Nationalfeiertag
+  en: national day
+  pos: noun
+  gender: m
+  plural: Nationalfeiertage
+  example: { de: "Der Schweizer Nationalfeiertag ist am 1. August.", en: "The Swiss national day is on 1 August." }
+  gswZh: Nationalfiirtig / de erscht Auguscht
+  tags: [holidays, culture]
+
+- id: feuerwerk
+  de: Feuerwerk
+  en: fireworks
+  pos: noun
+  gender: n
+  plural: Feuerwerke
+  example: { de: "Am 1. August gibt es ein Feuerwerk.", en: "There are fireworks on 1 August." }
+  gswZh: Füürwerch / Fürwerk
+  tags: [holidays]
+
+- id: weihnachten
+  de: Weihnachten
+  en: Christmas
+  pos: noun
+  gender: n
+  plural: "-"
+  example: { de: "An Weihnachten bin ich bei meinen Eltern.", en: "At Christmas I'm at my parents'." }
+  gswZh: Wienacht
+  tags: [holidays]
+
+- id: ostern
+  de: Ostern
+  en: Easter
+  pos: noun
+  gender: n
+  plural: "-"
+  example: { de: "An Ostern suchen die Kinder Eier.", en: "At Easter the children look for eggs." }
+  gswZh: Oschtere
+  tags: [holidays]
+
+- id: silvester
+  de: Silvester
+  en: New Year's Eve
+  pos: noun
+  gender: n
+  plural: "-"
+  example: { de: "An Silvester feiern wir mit Freunden.", en: "On New Year's Eve we celebrate with friends." }
+  gswZh: Silväschter
+  gswBe: Silveschter
+  tags: [holidays]
+
+- id: neujahr
+  de: Neujahr
+  en: New Year's Day
+  pos: noun
+  gender: n
+  plural: "-"
+  example: { de: "An Neujahr schlafe ich lange.", en: "On New Year's Day I sleep in." }
+  gswZh: Neujahr / Nüüjahr
+  tags: [holidays]
+
+- id: hochzeit
+  de: Hochzeit
+  en: wedding
+  pos: noun
+  gender: f
+  plural: Hochzeiten
+  example: { de: "Herzlichen Glückwunsch zur Hochzeit!", en: "Congratulations on your wedding!" }
+  gswZh: Hochziit
+  tags: [celebrations]
+
+- id: nikolaus
+  de: Nikolaus
+  en: Saint Nicholas (6 December)
+  pos: noun
+  gender: m
+  plural: Nikoläuse
+  example: { de: "Am 6. Dezember kommt der Nikolaus.", en: "Saint Nicholas comes on 6 December." }
+  chStd: Samichlaus
+  gswZh: Samichlaus
+  gswBe: Samichlous
+  tags: [holidays, culture, helvetism]
+
+- id: karneval
+  de: Karneval
+  en: carnival
+  pos: noun
+  gender: m
+  plural: Karnevale
+  example: { de: "Im Februar ist in Köln Karneval.", en: "In February it's carnival in Cologne." }
+  chStd: Fasnacht (die Fasnacht)
+  gswZh: Fasnacht
+  tags: [holidays, culture, helvetism]
+
+# ---------- forms and asking for help ----------
+- id: formular
+  de: Formular
+  en: form
+  pos: noun
+  gender: n
+  plural: Formulare
+  example: { de: "Füllen Sie bitte das Formular aus.", en: "Please fill in the form." }
+  gswZh: Formular
+  tags: [forms]
+
+- id: geburtsdatum
+  de: Geburtsdatum
+  en: date of birth
+  pos: noun
+  gender: n
+  plural: Geburtsdaten
+  example: { de: "Mein Geburtsdatum ist der 14. März 1995.", en: "My date of birth is 14 March 1995." }
+  gswZh: Geburtsdatum
+  tags: [forms, dates]
+
+- id: buchstabieren
+  de: buchstabieren
+  en: to spell
+  pos: verb
+  example: { de: "Können Sie Ihren Namen bitte buchstabieren?", en: "Can you spell your name, please?" }
+  gswZh: buechstabiere
+  tags: [forms, phrases]
+
+- id: wiederholen
+  de: wiederholen
+  en: to repeat
+  pos: verb
+  example: { de: "Können Sie das bitte wiederholen?", en: "Could you repeat that, please?" }
+  gswZh: widerhole
+  tags: [phrases]
+
+- id: langsam
+  de: langsam
+  en: slow, slowly
+  pos: adj
+  example: { de: "Bitte sprechen Sie langsam!", en: "Please speak slowly!" }
+  gswZh: langsam
+  tags: [phrases]
+
+- id: wie-bitte
+  de: Wie bitte?
+  en: Pardon? Sorry?
+  pos: phrase
+  example: { de: "Wie bitte? Ich verstehe das nicht.", en: "Pardon? I don't understand." }
+  gswZh: Wie bitte? / Was häsch gseit?
+  tags: [phrases]

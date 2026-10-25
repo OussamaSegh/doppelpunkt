@@ -10,7 +10,7 @@ function pack(level: Level, count: number): LevelPack {
   );
   exercises.push(ex({ id: `${level.toLowerCase()}-gsw`, type: 'mcq', variety: 'gsw-zh', options: ['a', 'b'], answer: 0 }));
   exercises.push(ex({ id: `${level.toLowerCase()}-w`, type: 'write', skill: 'writing', task: 't', model: 'm', checklist: ['c'] }));
-  return { level, version: '0.1.0', builtAt: '', units: [{ id: `${level.toLowerCase()}-u01`, exercises } as never] };
+  return { level, version: '0.1.0', builtAt: '', units: [{ id: `${level.toLowerCase()}-u01`, exercises } as never], exams: [] };
 }
 
 describe('placementItems', () => {

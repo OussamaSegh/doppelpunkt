@@ -20,3 +20,7 @@ export {
   type Attempt, type SkillEstimate,
 } from './progress';
 export { placementItems, placeLearner, PLACEMENT_TYPES, PASS_SCORE, MASTERED_SCORE, type PlacementItem } from './placement';
+export {
+  scoreExam, sectionPoints, examMaxPoints, isOpenExamItem, OPEN_EXAM_TYPES,
+  type ExamScore, type ExamSectionScore, type ExamItemScore,
+} from './exam';

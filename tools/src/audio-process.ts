@@ -12,6 +12,7 @@ import { buildManifest } from './audio';
 import { repoRoot, unitFolder } from './lint';
 import { loadContent } from './load';
 import { buildPronunciationManifest, loadDrills, PRONUNCIATION_DIR } from './pronunciation';
+import { buildExamManifest, examAudioFolder, loadExams } from './exam';
 
 export const RAW_EXTENSIONS = ['.wav', '.flac', '.aif', '.aiff', '.mp3', '.m4a', '.ogg', '.opus', '.webm'];
 export const LOUDNESS = { I: -16, TP: -1.5, LRA: 11 };
@@ -104,14 +105,23 @@ export function processAudio(opts: ProcessOptions): ProcessResult {
     const b = e.file.replace(/\.mp3$/, '');
     owners.set(b, [...(owners.get(b) ?? []), `${PRONUNCIATION_DIR}/${e.drill}`]);
   }
-  if (opts.unit && !dirs.has(opts.unit)) return { ok: false, skipped: false, processed: [], log: `unknown unit ${opts.unit} (expected e.g. a1/unit-01 or pronunciation/<drill id>)` };
+  // Mock exams: folder <level>/exam/<id>, processed into content/<level>/exam/<id>/audio/.
+  for (const le of loadExams(opts.contentDir, root).exams) {
+    const folder = examAudioFolder(le);
+    dirs.set(folder, le.dir);
+    for (const e of buildExamManifest(le.level, [le]).entries) {
+      const b = e.file.replace(/\.mp3$/, '');
+      owners.set(b, [...(owners.get(b) ?? []), folder]);
+    }
+  }
+  if (opts.unit && !dirs.has(opts.unit)) return { ok: false, skipped: false, processed: [], log: `unknown unit ${opts.unit} (expected e.g. a1/unit-01, a1/exam/<exam id> or pronunciation/<drill id>)` };
 
   const processed: string[] = [];
   let ok = true;
   for (const input of walk(opts.inDir)) {
     const rel = relative(opts.inDir, input).split(sep).join('/');
     const base = basename(input, extname(input));
-    const fromPath = /(?:^|\/)([a-c][12]\/unit-\d{2}|pronunciation\/[a-z0-9-]+)\//.exec(rel)?.[1];
+    const fromPath = /(?:^|\/)([a-c][12]\/unit-\d{2}|[a-c][12]\/exam\/[a-z0-9-]+|pronunciation\/[a-z0-9-]+)\//.exec(rel)?.[1];
     const candidates = owners.get(base) ?? [];
     const folder = opts.unit ?? fromPath ?? (candidates.length === 1 ? candidates[0] : undefined);
     if (!candidates.length) {
@@ -119,7 +129,7 @@ export function processAudio(opts: ProcessOptions): ProcessResult {
       continue;
     }
     if (!folder) {
-      log.push(`skip ${rel}: "${base}" exists in ${candidates.join(', ')}; put it in a <level>/unit-NN/ subfolder or pass --unit`);
+      log.push(`skip ${rel}: "${base}" exists in ${candidates.join(', ')}; put it in a <level>/unit-NN/ (or <level>/exam/<id>/) subfolder or pass --unit`);
       continue;
     }
     if (!candidates.includes(folder)) {

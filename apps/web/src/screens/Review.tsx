@@ -8,7 +8,7 @@ import { ContentGate } from '../components/ContentGate';
 import { EmptyState } from '../components/EmptyState';
 import { GermanText } from '../components/GermanText';
 import { SwissForms, VocabWord } from '../components/VocabWord';
-import { allUnits, audioUrl, useContent } from '../content';
+import { allUnits, audioUrl, useContent, useEnsureContent } from '../content';
 import { db, type CardRow } from '../db';
 
 const RATINGS: Array<{ id: Rating; label: string; className: string }> = [
@@ -29,6 +29,7 @@ export function Review() {
 }
 
 function ReviewSession() {
+  useEnsureContent();
   const packs = useContent((s) => s.packs);
   const cards = useLiveQuery(() => db.cards.toArray(), []);
   const [direction, setDirection] = useState<Direction>('de-en');

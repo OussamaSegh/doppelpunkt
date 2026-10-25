@@ -1,18 +1,23 @@
-import { useMemo } from 'react';
+import { useMemo, type ReactNode } from 'react';
 import { Link } from 'react-router-dom';
 import { useLiveQuery } from 'dexie-react-hooks';
 import { errorProfile, estimateSkills } from '@doppelpunkt/engine';
 import { SkillRadar, skillLabel } from '../components/SkillRadar';
-import { allUnits, useContent } from '../content';
-import { db, type PlacementResult } from '../db';
+import type { LevelPack } from '@doppelpunkt/content-schema';
+import { allUnits, useContent, useEnsureContent } from '../content';
+import { db, type AttemptRow, type ExamResultRow, type PlacementResult, type UnitStatusRow } from '../db';
+import { canDoChecklist, CHECK_COVERAGE, CHECK_PASS_SCORE, levelMilestone, UNITS_PER_LEVEL } from '../lib/cando';
+import { latestPerLevel, SKILL_NAME } from '../lib/exam';
 import { useAttempts, useSettings } from '../lib/hooks';
-import { studyStreak, weekMinutes } from '../lib/progress';
+import { setCanDo, studyStreak, weekMinutes } from '../lib/progress';
 
 export function Progress() {
   const attempts = useAttempts();
   const activity = useLiveQuery(() => db.activity.toArray(), []);
   const statuses = useLiveQuery(() => db.unitStatus.toArray(), []);
+  const examResults = useLiveQuery(() => db.examResults.toArray(), []);
   const settings = useSettings();
+  useEnsureContent();
   const packs = useContent((s) => s.packs);
 
   const skills = useMemo(() => estimateSkills(attempts ?? []), [attempts]);
@@ -29,7 +34,6 @@ export function Progress() {
   const goal = settings?.dailyGoalMin ?? 10;
   const maxMin = Math.max(goal, ...days.map((d) => d.minutes));
   const total = days.reduce((a, d) => a + d.minutes, 0);
-  const started = allUnits(packs).filter((u) => statuses.some((s) => s.unitId === u.id));
 
   return (
     <div className="space-y-5">
@@ -112,41 +116,147 @@ export function Progress() {
         )}
       </section>
 
-      <section className="card" aria-labelledby="cando-title">
-        <h2 id="cando-title" className="mb-2 font-semibold">
-          Can-do statements
+      {packs.map((pack) => (
+        <LevelChecklist key={pack.level} pack={pack} attempts={attempts} statuses={statuses} results={examResults ?? []} />
+      ))}
+    </div>
+  );
+}
+
+function LevelChecklist({ pack, attempts, statuses, results }: { pack: LevelPack; attempts: AttemptRow[]; statuses: UnitStatusRow[]; results: ExamResultRow[] }) {
+  const list = useMemo(() => canDoChecklist(pack, attempts, statuses), [pack, attempts, statuses]);
+  const levelResults = results.filter((r) => r.level === pack.level);
+  const latest = latestPerLevel(levelResults).get(pack.level);
+  const passedOnce = levelResults.some((r) => r.passed);
+  const m = levelMilestone(pack, statuses, list, passedOnce);
+  const exam = latest ? pack.exams.find((e) => e.id === latest.examId) : undefined;
+  return (
+    <>
+      <section className={`card space-y-2 ${m.complete ? 'border-gold bg-gold-soft' : ''}`} aria-labelledby={`milestone-${pack.level}`}>
+        <h2 id={`milestone-${pack.level}`} className="font-semibold">
+          {m.complete ? `${pack.level} complete` : `Towards ${pack.level} complete`}
         </h2>
-        {started.length === 0 ? (
-          <p className="text-sm text-muted">
-            Start a unit on the <Link className="text-accent underline" to="/learn">Learn</Link> tab.
+        {m.complete ? (
+          <p className="text-sm">
+            <span aria-hidden="true">★ </span>Herzlichen Glückwunsch! You finished all {m.units} {pack.level} units and passed the mock exam. You can do everything on the {pack.level} list below.
           </p>
         ) : (
-          <div className="space-y-3">
-            {started.map((u) => {
-              const st = statuses.find((s) => s.unitId === u.id);
-              return (
-                <div key={u.id}>
-                  <Link to={`/unit/${u.id}/check`} className="font-medium text-accent hover:underline">
-                    {u.level} · {u.number}. <span lang="de">{u.title}</span>
-                  </Link>
-                  <ul className="mt-1 space-y-0.5 text-sm">
-                    {u.canDo.map((c, i) => (
-                      <li key={i} className="flex gap-2">
-                        <span aria-hidden="true" className={st?.canDo[i] ? 'text-ok' : 'text-muted'}>
-                          {st?.canDo[i] ? '✓' : '○'}
-                        </span>
-                        <span className={st?.canDo[i] ? '' : 'text-muted'}>{c}</span>
-                        <span className="sr-only">{st?.canDo[i] ? '(done)' : '(not yet)'}</span>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              );
-            })}
-          </div>
+          <ul className="space-y-0.5 text-sm">
+            <MilestoneLine done={m.allUnitsDone}>
+              Units marked as done: {m.unitsDone} of {UNITS_PER_LEVEL}
+              {m.units < UNITS_PER_LEVEL ? ` (${m.units} installed so far)` : ''}
+            </MilestoneLine>
+            <MilestoneLine done={m.examPassed}>
+              {pack.level} mock exam {m.examPassed ? 'passed' : m.hasExam ? 'not passed yet' : 'coming soon'}
+            </MilestoneLine>
+          </ul>
+        )}
+        <p className="text-xs text-muted">
+          Can-do statements: {m.canDoDone} of {m.canDoTotal}
+        </p>
+      </section>
+
+      <section className="card space-y-2" aria-labelledby={`exam-card-${pack.level}`}>
+        <h2 id={`exam-card-${pack.level}`} className="font-semibold">
+          {pack.level} mock exam
+        </h2>
+        {latest ? (
+          <>
+            <p className="text-sm">
+              Latest: <span className="font-semibold">{latest.points} of {latest.max} points</span> ({Math.round((latest.points / Math.max(1, latest.max)) * 100)}%),{' '}
+              <span className={latest.passed ? 'text-ok' : 'text-bad'}>{latest.passed ? 'passed' : 'not passed'}</span> on{' '}
+              {new Date(latest.at).toLocaleDateString('en', { day: 'numeric', month: 'short', year: 'numeric' })}.
+            </p>
+            {exam && (
+              <ul className="flex flex-wrap gap-2 text-sm" aria-label="Mock exam points per section">
+                {exam.sections.map((s) => {
+                  const r = latest.sections.find((x) => x.sectionId === s.id);
+                  return (
+                    <li key={s.id} className="chip bg-surface">
+                      <span lang="de" className="font-semibold">{SKILL_NAME[s.skill].de}</span>&nbsp;{r?.points ?? 0}/{r?.max ?? 0}
+                    </li>
+                  );
+                })}
+              </ul>
+            )}
+            <p className="flex flex-wrap gap-x-4 text-sm">
+              <Link to={`/exam/${latest.examId}?result=${latest.id}`} className="text-accent hover:underline">
+                Review the answers
+              </Link>
+              <Link to={`/exam/${latest.examId}`} className="text-accent hover:underline">
+                Take it again
+              </Link>
+            </p>
+          </>
+        ) : pack.exams.length ? (
+          <p className="text-sm text-muted">
+            You haven't taken it yet.{' '}
+            <Link to="/exam" className="text-accent underline">
+              Take the {pack.level} mock exam
+            </Link>{' '}
+            when you've worked through the units.
+          </p>
+        ) : (
+          <p className="text-sm text-muted">The {pack.level} mock exam is being written.</p>
         )}
       </section>
-    </div>
+
+      <section className="card" aria-labelledby={`cando-${pack.level}`}>
+        <h2 id={`cando-${pack.level}`} className="mb-1 font-semibold">
+          {pack.level} can-do checklist
+        </h2>
+        <p className="mb-3 text-xs text-muted">
+          Statements tick themselves when you pass a unit check (unit marked as done, at least {Math.round(CHECK_COVERAGE * 100)}% of its exercises tried,
+          average {Math.round(CHECK_PASS_SCORE * 100)}% or more). You can also tick them yourself.
+        </p>
+        <div className="space-y-4">
+          {list.map(({ unit, check, items }) => (
+            <fieldset key={unit.id}>
+              <legend className="font-medium">
+                <Link to={`/unit/${unit.id}/check`} className="text-accent hover:underline">
+                  {unit.level} · {unit.number}. <span lang="de">{unit.title}</span>
+                </Link>
+                {check.passed && <span className="ml-2 rounded bg-ok-soft px-1.5 text-xs text-ok">Check passed</span>}
+              </legend>
+              <ul className="mt-1 space-y-1 text-sm">
+                {items.map((it) => (
+                  <li key={it.index}>
+                    <label className="flex min-h-6 items-start gap-2">
+                      <input
+                        type="checkbox"
+                        className="mt-0.5 h-5 w-5 shrink-0"
+                        checked={it.done}
+                        disabled={it.auto}
+                        aria-describedby={it.auto ? `auto-${unit.id}` : undefined}
+                        onChange={(e) => void setCanDo(unit, it.index, e.target.checked)}
+                      />
+                      <span className={it.done ? '' : 'text-muted'}>{it.text}</span>
+                    </label>
+                  </li>
+                ))}
+              </ul>
+              {check.passed && (
+                <p id={`auto-${unit.id}`} className="mt-1 text-xs text-muted">
+                  Ticked because you passed the unit check.
+                </p>
+              )}
+            </fieldset>
+          ))}
+        </div>
+      </section>
+    </>
+  );
+}
+
+function MilestoneLine({ done, children }: { done: boolean; children: ReactNode }) {
+  return (
+    <li className="flex gap-2">
+      <span aria-hidden="true" className={done ? 'text-ok' : 'text-muted'}>
+        {done ? '✓' : '○'}
+      </span>
+      <span>{children}</span>
+      <span className="sr-only">{done ? '(done)' : '(not yet)'}</span>
+    </li>
   );
 }
 

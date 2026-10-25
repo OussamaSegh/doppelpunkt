@@ -34,7 +34,7 @@ export function SpeakTask({ ex, unit, record, onDone }: Props) {
         )}
         {!outcome && (
           <label className="flex items-center gap-2 text-sm text-muted">
-            <input type="checkbox" className="h-4 w-4" checked={shadowing} onChange={(e) => setShadowing(e.target.checked)} />
+            <input type="checkbox" className="h-5 w-5" checked={shadowing} onChange={(e) => setShadowing(e.target.checked)} />
             Shadowing mode
           </label>
         )}

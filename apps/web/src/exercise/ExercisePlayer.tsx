@@ -16,10 +16,11 @@ import { answerText, type ExerciseOutcome, type InputProps } from './types';
 
 export type { ExerciseOutcome } from './types';
 
-type ClosedType = 'mcq' | 'gap' | 'order' | 'match' | 'dictation' | 'translate' | 'transform';
-type ClosedExercise = Extract<Exercise, { type: ClosedType }>;
+export type ClosedType = 'mcq' | 'gap' | 'order' | 'match' | 'dictation' | 'translate' | 'transform';
+export type ClosedExercise = Extract<Exercise, { type: ClosedType }>;
 
-const INPUTS: { [K in ClosedType]: ComponentType<InputProps<K>> } = {
+/** The answer input for each closed type (also used by the mock exam, which grades at the end). */
+export const INPUTS: { [K in ClosedType]: ComponentType<InputProps<K>> } = {
   mcq: McqInput,
   gap: GapInput,
   order: OrderInput,
@@ -29,7 +30,7 @@ const INPUTS: { [K in ClosedType]: ComponentType<InputProps<K>> } = {
   transform: TransformInput,
 };
 
-const TYPE_LABEL: Record<Exercise['type'], string> = {
+export const TYPE_LABEL: Record<Exercise['type'], string> = {
   mcq: 'Multiple choice',
   gap: 'Fill the gaps',
   order: 'Word order',

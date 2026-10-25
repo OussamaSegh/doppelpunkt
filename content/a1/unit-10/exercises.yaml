@@ -1,0 +1,653 @@
+# A1 unit 10 – Kleidung und Wetter
+
+# ---------- vocabulary ----------
+- id: a1-u10-match-clothes
+  type: match
+  skill: vocabulary
+  variety: de
+  prompt: Match the clothes with English.
+  pairs:
+    - ["die Hose", "trousers"]
+    - ["das Hemd", "shirt"]
+    - ["der Rock", "skirt"]
+    - ["der Mantel", "coat"]
+    - ["die Mütze", "woolly hat"]
+    - ["der Hausschuh", "slipper"]
+  explanation: >-
+    Learn clothes with their article: der Mantel, der Rock, der Pullover, die Hose, die Jacke, das Hemd,
+    das Kleid. die Hose is singular in German, but trousers is plural in English: Die Hose ist zu lang.
+
+- id: a1-u10-match-colours
+  type: match
+  skill: vocabulary
+  variety: de
+  grammar: [colours-zu-adjective]
+  prompt: Match the colours.
+  pairs:
+    - ["gelb", "yellow"]
+    - ["grau", "grey"]
+    - ["braun", "brown"]
+    - ["blau", "blue"]
+    - ["grün", "green"]
+  explanation: >-
+    braun / brown, grün / green and blau / blue are close to English. gelb (yellow) is not – and grau is
+    grey, not brown. Colours after sein have no ending: Der Mantel ist grau.
+
+- id: a1-u10-match-weather
+  type: match
+  skill: vocabulary
+  variety: de
+  grammar: [weather-forecast]
+  prompt: Match the weather words with English.
+  pairs:
+    - ["sonnig", "sunny"]
+    - ["windig", "windy"]
+    - ["bewölkt", "cloudy"]
+    - ["das Gewitter", "thunderstorm"]
+    - ["minus fünf Grad", "−5 °C"]
+  explanation: >-
+    -ig turns a noun into an adjective: die Sonne → sonnig, der Wind → windig. bewölkt comes from die Wolke.
+    Grad has no plural ending: fünf Grad.
+
+- id: a1-u10-gap-weather
+  type: gap
+  skill: vocabulary
+  variety: de
+  grammar: [weather-forecast]
+  prompt: "Fill in: sunny – hot."
+  text: "Heute scheint die Sonne, es ist ___. Es sind 32 Grad – es ist sehr ___!"
+  answers: [["sonnig"], ["heiß", "heiss", "warm"]]
+  explanation: >-
+    sonnig = sunny (from die Sonne). heiß = hot, Swiss spelling heiss. warm is milder (20 Grad); at 32 Grad
+    Germans say heiß.
+
+# ---------- grammar: accusative pronouns ----------
+- id: a1-u10-gap-pronouns-things
+  type: gap
+  skill: grammar
+  variety: de
+  grammar: [accusative-pronouns]
+  prompt: "Replace the noun: ihn, sie or es?"
+  text: "Der Pullover ist schön. Ich nehme ___. Die Jacke? Ich probiere ___ an. Das Hemd ist zu teuer. Ich kaufe ___ nicht."
+  answers: [["ihn"], ["sie"], ["es"]]
+  explanation: >-
+    The pronoun follows the gender of the noun: der Pullover → ihn, die Jacke → sie, das Hemd → es. Only the
+    masculine changes in the accusative (er → ihn, like der → den).
+
+- id: a1-u10-mcq-mich
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [accusative-pronouns]
+  prompt: Choose the pronoun.
+  question: "Lena, siehst du ___? Ich bin hier, bei der Kasse!"
+  options: ["ich", "mir", "mich", "mein"]
+  answer: 2
+  rationales:
+    - "ich is the subject form."
+    - "mir is dative (Das steht mir) – sehen needs the accusative."
+    - "Correct. sehen + accusative: mich."
+    - "mein is a possessive (my)."
+  explanation: >-
+    ich → mich, du → dich in the accusative. Siehst du mich? Ich rufe dich an.
+
+- id: a1-u10-mcq-ihn
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [accusative-pronouns]
+  prompt: Choose the pronoun.
+  question: "Wo ist mein Schal? – Ich sehe ___ nicht."
+  options: ["ihn", "er", "es", "sie"]
+  answer: 0
+  rationales:
+    - "Correct. der Schal → ihn (accusative)."
+    - "er is the nominative (Er ist hier.)."
+    - "es is for das-words."
+    - "sie is for die-words and plurals."
+  explanation: >-
+    der Schal is masculine and the object of sehen: ihn. English says it for everything; German follows the
+    gender.
+
+- id: a1-u10-gap-uns-euch
+  type: gap
+  skill: grammar
+  variety: de
+  grammar: [accusative-pronouns]
+  prompt: "Fill in uns or euch."
+  text: "Hallo Lena, hallo Tom! Ich besuche ___ am Samstag. Und am Sonntag besucht ihr ___, okay?"
+  answers: [["euch"], ["uns"]]
+  explanation: >-
+    ihr → euch, wir → uns. The speaker visits you two (euch); then you two visit us (uns). Both are the
+    same in the accusative and the dative.
+
+- id: a1-u10-transform-pronoun
+  type: transform
+  skill: grammar
+  variety: de
+  grammar: [accusative-pronouns, accusative-definite]
+  prompt: "Replace den Mantel with a pronoun."
+  from: de
+  to: de
+  source: Ich kaufe den Mantel.
+  answers: ["Ich kaufe ihn."]
+  explanation: >-
+    den Mantel (masculine, accusative) → ihn. The pronoun takes the place of article + noun.
+
+- id: a1-u10-order-anprobieren
+  type: order
+  skill: grammar
+  variety: de
+  grammar: [accusative-pronouns, separable-verbs-modal]
+  prompt: Make a question.
+  tokens: ["Kann", "ich", "sie", "anprobieren"]
+  answers: ["Kann ich sie anprobieren?"]
+  explanation: >-
+    Modal verb first in a yes/no question, then the subject, the pronoun early, and the separable
+    infinitive at the end in one word: anprobieren.
+
+- id: a1-u10-translate-take-it
+  type: translate
+  skill: writing
+  variety: de
+  grammar: [accusative-pronouns]
+  prompt: "Translate into German. (it = die Jacke)"
+  source: I'll take it.
+  answers: ["Ich nehme sie.", "Ich nehme sie!", "Die nehme ich.", "Ich nehme die Jacke."]
+  explanation: >-
+    die Jacke → sie. German uses the present tense here: Ich nehme sie. In speech you also hear Die nehme
+    ich! with the article as a pointing word.
+
+# ---------- grammar: welcher / dieser ----------
+- id: a1-u10-gap-welche-diese
+  type: gap
+  skill: grammar
+  variety: de
+  grammar: [welcher-dieser]
+  prompt: "Fill in welch- and dies- (die Jacke)."
+  text: "___ Jacke möchten Sie? – ___ hier, bitte."
+  answers: [["Welche"], ["Diese"]]
+  explanation: >-
+    die Jacke → welche / diese, the same ending as die. diese can stand alone when the noun is clear.
+
+- id: a1-u10-mcq-diesen
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [welcher-dieser, accusative-definite]
+  prompt: Choose the correct form.
+  question: Ich nehme ___ Pullover.
+  options: ["dieser", "diesen", "dieses", "diese"]
+  answer: 1
+  rationales:
+    - "dieser is the nominative (Dieser Pullover ist warm.)."
+    - "Correct. der Pullover, object of nehmen: diesen (like den)."
+    - "dieses is for das-words."
+    - "diese is for die-words and plurals."
+  explanation: >-
+    dies- takes the endings of the article: der → dieser, den → diesen. Only the masculine changes in the
+    accusative.
+
+- id: a1-u10-transform-diesen
+  type: transform
+  skill: grammar
+  variety: de
+  grammar: [welcher-dieser, accusative-definite]
+  prompt: "Replace den with the right form of dies-."
+  from: de
+  to: de
+  source: Ich kaufe den Rock.
+  answers: ["Ich kaufe diesen Rock."]
+  explanation: >-
+    der Rock is the object of kaufen: den → diesen. The ending -en is the same as in den.
+
+- id: a1-u10-order-welche-groesse
+  type: order
+  skill: grammar
+  variety: de
+  grammar: [welcher-dieser, w-questions]
+  prompt: Make a question.
+  tokens: ["Größe", "haben", "Welche", "Sie"]
+  answers: ["Welche Größe haben Sie?"]
+  explanation: >-
+    welche + noun counts as one question word and takes position 1; the verb follows in position 2. die
+    Größe → welche.
+
+# ---------- grammar: colours, zu + adjective ----------
+- id: a1-u10-mcq-zu-lang
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [colours-zu-adjective]
+  prompt: "\"Die Hose ist zu lang.\" What's the problem?"
+  options: ["The trousers are long enough.", "The trousers are too long.", "The trousers are also long.", "The trousers are very long and nice."]
+  answer: 1
+  explanation: >-
+    zu + adjective = too: zu lang, zu klein, zu teuer. Don't mix it up with auch (also) or sehr (very).
+
+- id: a1-u10-mcq-predicative
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [colours-zu-adjective, predicative-adjectives]
+  prompt: Which sentence is correct?
+  options: ["Die Jacke ist rote.", "Die Jacke rot ist.", "Die Jacke ist rot.", "Die Jacke ist ein rot."]
+  answer: 2
+  rationales:
+    - "No ending after sein."
+    - "The verb is in position 2."
+    - "Correct. Colour after sein, no ending."
+    - "No article before an adjective."
+  explanation: >-
+    After sein, adjectives and colours never take an ending (unit 6): Die Jacke ist rot. Die Schuhe sind
+    rot.
+
+- id: a1-u10-mcq-steht-dir
+  type: mcq
+  skill: vocabulary
+  variety: de
+  grammar: [colours-zu-adjective]
+  prompt: "Your friend says: \"Das steht dir gut!\" What does she mean?"
+  options: ["That suits you!", "That stands over there.", "That fits in your bag.", "You're standing well."]
+  answer: 0
+  explanation: >-
+    stehen + dir / Ihnen = to suit someone (colour, style). passen = to fit (size): Die Jacke passt. Learn
+    both as chunks: Das steht dir gut. Die Hose passt mir nicht.
+
+- id: a1-u10-translate-too-expensive
+  type: translate
+  skill: writing
+  variety: de
+  grammar: [colours-zu-adjective]
+  prompt: Translate into German.
+  source: The coat is too expensive.
+  answers: ["Der Mantel ist zu teuer.", "Der Mantel ist mir zu teuer."]
+  explanation: >-
+    der Mantel; zu + adjective, no ending after sein. In Switzerland the dialect word is tüür.
+
+# ---------- grammar: weather ----------
+- id: a1-u10-gap-weather-es
+  type: gap
+  skill: grammar
+  variety: de
+  grammar: [weather-forecast, weather-es, time-inversion]
+  prompt: "Fill in: it rains – it is windy."
+  text: Am Sonntag ___ es, und am Abend ist es ___.
+  answers: [["regnet"], ["windig"]]
+  explanation: >-
+    Weather verbs need es: es regnet, es schneit. After Am Sonntag the verb comes second and es third. der
+    Wind → windig.
+
+- id: a1-u10-mcq-grad
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [weather-forecast]
+  prompt: How do you say "It's 25 degrees"?
+  options: ["Es sind 25 Grad.", "Es hat 25 Grade.", "Es macht 25 Graden.", "Es gibt 25 Grade."]
+  answer: 0
+  explanation: >-
+    Es sind 25 Grad. Grad has no plural ending. You also hear Es ist 25 Grad and, in Switzerland and southern
+    Germany, Es hat 25 Grad – but never Grade.
+
+# ---------- reading ----------
+- id: a1-u10-mcq-reading-warm
+  type: mcq
+  skill: reading
+  variety: ch-std
+  grammar: [weather-forecast]
+  prompt: Read the weather forecast. Where is it warmest on Saturday?
+  options: ["In Zurich", "In Bern", "In the mountains", "In Ticino"]
+  answer: 3
+  explanation: >-
+    "Im Tessin sogar 19 Grad" – Ticino (das Tessin), south of the Alps, is warmer. sogar = even. Zurich and Bern
+    have 14 Grad, the mountains only zwei Grad.
+
+- id: a1-u10-mcq-reading-sunday
+  type: mcq
+  skill: reading
+  variety: ch-std
+  grammar: [weather-forecast]
+  prompt: What do you need on Sunday, according to the forecast?
+  options: ["Sunglasses", "An umbrella", "Only a T-shirt", "Skis"]
+  answer: 1
+  explanation: >-
+    "Am Sonntag brauchen Sie einen Regenschirm." der Regen (rain) + der Schirm (shade) = umbrella. On Sunday it
+    rains in Basel and Zurich.
+
+- id: a1-u10-translate-reading
+  type: translate
+  skill: reading
+  variety: ch-std
+  grammar: [imperative, separable-verbs]
+  prompt: Translate into English.
+  source: Nehmen Sie eine Jacke und eine Mütze mit!
+  answers: ["Take a jacket and a hat with you!", "Take a jacket and a hat!", "Bring a jacket and a hat!", "Take a jacket and a cap with you!"]
+  explanation: >-
+    mitnehmen = to take along, a separable verb: in the Sie-imperative the verb goes first and mit goes to the
+    end (unit 8).
+
+# ---------- listening ----------
+- id: a1-u10-mcq-listening-problem
+  type: mcq
+  skill: listening
+  variety: de
+  grammar: [colours-zu-adjective]
+  prompt: Listen to the intro dialogue again. What's wrong with the first jacket?
+  options: ["It's too expensive.", "It's the wrong colour.", "It's too big.", "It's too small."]
+  answer: 3
+  explanation: >-
+    "Hm, die Jacke ist zu klein. Haben Sie sie auch in L?" Size M is too small, so Tom asks for L.
+
+- id: a1-u10-mcq-listening-buy
+  type: mcq
+  skill: listening
+  variety: ch-std
+  grammar: [accusative-pronouns, numbers]
+  prompt: Listen to the intro dialogue again. What does Tom buy, and what does the jacket cost?
+  options: ["A jacket and a scarf; the jacket costs 89 francs", "A jacket and a hat; the jacket costs 98 francs", "Only a jacket for 89 francs", "A coat and a scarf; the coat costs 79 francs"]
+  answer: 0
+  explanation: >-
+    "Sie kostet neunundachtzig Franken." – "Gut, ich nehme sie. Und diesen Schal nehme ich auch." neunundachtzig
+    = 9 + 80: the ones come first in German numbers.
+
+- id: a1-u10-dictation-size
+  type: dictation
+  skill: listening
+  variety: de
+  grammar: [accusative-pronouns]
+  prompt: Listen and write what you hear.
+  transcript: Haben Sie die Jacke auch in Größe L?
+  explanation: >-
+    Größe (Swiss spelling Grösse) with ö and ß. die Jacke → you could also say Haben Sie sie auch in L?
+
+- id: a1-u10-dictation-weather
+  type: dictation
+  skill: listening
+  variety: de
+  grammar: [weather-forecast]
+  prompt: Listen and write what you hear.
+  transcript: Morgen ist es bewölkt und windig, nur zwölf Grad.
+  explanation: >-
+    bewölkt (cloudy), windig (windy), zwölf Grad – no plural ending on Grad. Morgen in position 1, then the verb
+    ist.
+
+# ---------- speaking ----------
+- id: a1-u10-speak-shop
+  type: speak
+  skill: speaking
+  variety: de
+  grammar: [colours-zu-adjective, accusative-pronouns]
+  prompt: "In the shop: read aloud, then say it with your own size and colour."
+  target: Ich suche eine Jacke in Größe M. Haben Sie sie auch in Blau?
+  explanation: >-
+    in Größe M, in Blau – colours are capitalised after in because they are used as nouns. die Jacke → sie.
+
+- id: a1-u10-speak-shadow-tom
+  type: speak
+  skill: speaking
+  variety: de
+  grammar: [accusative-pronouns, welcher-dieser]
+  prompt: "Shadowing: speak along with Tom's line from the intro dialogue, then say it alone."
+  target: Schön! Kann ich sie anprobieren? Welche Größe ist das?
+  explanation: >-
+    Two questions with different melodies: Kann ich sie anprobieren? rises at the end (yes/no question);
+    Welche Größe ist das? falls (W-question). Stress AN-probieren.
+
+- id: a1-u10-speak-shadow-verkaeuferin
+  type: speak
+  skill: speaking
+  variety: ch-std
+  grammar: [colours-zu-adjective]
+  prompt: "Shadowing: speak along with the Swiss shop assistant, then say it alone."
+  target: Ja, hier ist sie in L. Oh, die steht Ihnen gut!
+  explanation: >-
+    Listen to the Swiss Standard melody: a clear, rolled or tapped r in hier, a fully pronounced -en in
+    Ihnen, no glottal stop in Oh, die. See the drill The Swiss Standard German accent.
+
+- id: a1-u10-speak-intonation-aber
+  type: speak
+  skill: speaking
+  variety: de
+  grammar: [colours-zu-adjective]
+  prompt: "Intonation: stress the contrast. Say the first part rising, then fall on the second."
+  target: Die Jacke ist schön, aber zu teuer.
+  explanation: >-
+    The voice goes up on SCHÖN, pauses briefly at the comma, then stresses TEU-er and falls at the end. This
+    "yes, but" melody makes a polite complaint.
+
+- id: a1-u10-speak-pron-oe
+  type: speak
+  skill: speaking
+  variety: de
+  grammar: [colours-zu-adjective]
+  prompt: "Pronunciation: ö vs o. Read aloud and round your lips for ö."
+  target: Größe, schön, Röcke – groß, rot, Rock
+  explanation: >-
+    For ö say e (as in bed) with rounded lips: Größe, schön, Röcke. For o just round the lips without moving
+    the tongue forward: groß, rot, Rock. Röcke is the plural of Rock. See the drill ö vs o and e.
+
+- id: a1-u10-roleplay-lena
+  type: roleplay
+  skill: speaking
+  variety: de
+  grammar: [accusative-pronouns, welcher-dieser, colours-zu-adjective]
+  tutor: lena
+  prompt: "Roleplay with Lena: shopping for clothes."
+  scenario: >-
+    You're shopping with Lena. You need shoes or a jumper for the winter. Lena asks what you're looking
+    for, suggests things and asks your opinion. Use du.
+  goals:
+    - Say what you're looking for (Ich suche ...).
+    - Say the size and colour you want.
+    - Give your opinion with zu or sehr (zu teuer, sehr schön).
+    - Refer to things with ihn / sie / es (Ich nehme ihn.).
+  model: |
+    Lena: Was suchst du?
+    Du: Ich suche einen Pullover. Es ist so kalt!
+    Lena: Welche Farbe möchtest du?
+    Du: Grau oder blau. Größe L.
+    Lena: Wie findest du diesen Pullover hier?
+    Du: Der ist schön, aber zu teuer. Und dieser?
+    Lena: Der kostet nur 39 Franken.
+    Du: Super, ich nehme ihn!
+  explanation: >-
+    Useful frames: Ich suche ... Wie findest du diesen / diese / dieses ...? Der ist zu ... Ich nehme ihn /
+    sie / es.
+
+# ---------- writing ----------
+- id: a1-u10-write-message
+  type: write
+  skill: writing
+  variety: de
+  grammar: [weather-forecast, imperative, accusative-pronouns]
+  prompt: Write a short message to a friend.
+  task: >-
+    Your friend Lena is coming to visit you in Zurich next weekend. Write her a message (4–6 sentences):
+    say what the weather will be like on Saturday and Sunday, tell her which clothes to bring, and ask
+    whether she has a rain jacket or an umbrella.
+  minWords: 30
+  model: >-
+    Hallo Lena, am Wochenende ist es in Zürich kalt. Am Samstag ist es sonnig, aber es sind nur fünf Grad.
+    Am Sonntag regnet es. Nimm bitte einen Mantel, eine Mütze und einen Schal mit! Wir wandern am Samstag,
+    also bring auch Schuhe für die Berge mit. Hast du eine Regenjacke oder einen Regenschirm? Bis Freitag!
+    Liebe Grüße, Sarah
+  checklist:
+    - I use es with the weather (es regnet, es ist kalt) and Grad without an ending.
+    - After a time word (Am Samstag) the verb is in position 2.
+    - My du-imperatives have no -st and the prefix at the end (Nimm ... mit!).
+    - Accusative articles are right (einen Mantel, eine Mütze, einen Schal).
+  explanation: >-
+    A message to a friend uses du, Hallo / Liebe Grüße, and the unit's patterns: weather with es, Grad,
+    imperatives with mitnehmen and mitbringen, and accusative objects.
+
+# ---------- Swiss Standard German ----------
+- id: a1-u10-chstd-match
+  type: match
+  skill: vocabulary
+  variety: ch-std
+  prompt: Match the Swiss Standard German words with the German-German words.
+  pairs:
+    - ["der Pulli", "der Pullover"]
+    - ["der Jupe", "der Rock"]
+    - ["die Finken", "die Hausschuhe"]
+    - ["die Grösse", "die Größe"]
+  explanation: >-
+    der Jupe comes from French (la jupe); Duden marks it as Swiss. die Finken are warm slippers (Duden:
+    schweizerisch mundartlich) – Swiss homes are shoe-free. Swiss spelling never uses ß: Grösse, weiss.
+
+- id: a1-u10-chstd-mcq-bise
+  type: mcq
+  skill: reading
+  variety: ch-std
+  grammar: [weather-forecast]
+  prompt: "The Swiss weather forecast says: \"Morgen weht eine kalte Bise.\" (wehen = to blow) What's coming?"
+  options: ["A warm wind from the south", "A thunderstorm", "A cold wind from the north-east", "Heavy snow"]
+  answer: 2
+  explanation: >-
+    die Bise is the cold, dry north-east wind of the Swiss plateau. Its opposite is der Föhn, the warm, dry
+    wind from the south – and also the word for a hairdryer.
+
+# ---------- Swiss lane (gsw-zh) ----------
+- id: a1-u10-ch-match-words
+  type: match
+  skill: vocabulary
+  variety: gsw-zh
+  prompt: Match the Zurich German words with Standard German.
+  pairs:
+    - ["chalt", "kalt"]
+    - ["tüür", "teuer"]
+    - ["wiiss", "weiß"]
+    - ["gäl", "gelb"]
+    - ["Chleid", "Kleid"]
+  explanation: >-
+    k at the start becomes ch (chalt, Chleid), Standard ei often becomes ii (weiß → wiiss), and eu becomes üü
+    (teuer → tüür).
+
+- id: a1-u10-ch-mcq-schiffet
+  type: mcq
+  skill: listening
+  variety: gsw-zh
+  grammar: [weather-es]
+  prompt: "Listen to the Swiss lane dialogue. Reto says: \"Lueg emal use, es schiffet!\" What's the weather like?"
+  options: ["It's sunny and hot.", "It's snowing.", "It's very windy.", "It's pouring with rain."]
+  answer: 3
+  explanation: >-
+    es schiffet = it's pouring (colloquial; the neutral word is es rägnet). Lueg emal use! = Look outside!
+    Later Reto says nur drü Grad – only three degrees.
+
+- id: a1-u10-ch-transform-staht
+  type: transform
+  skill: reading
+  variety: gsw-zh
+  grammar: [colours-zu-adjective]
+  prompt: What does Reto say? Write it in Standard German.
+  from: gsw-zh
+  to: de
+  source: Das staht dir guet!
+  answers: ["Das steht dir gut!", "Das steht dir gut.", "Es steht dir gut!"]
+  explanation: >-
+    stah = stehen, guet = gut (ue for Standard u). The chunk is the same as in Standard German: Das steht dir
+    gut!
+
+- id: a1-u10-ch-transform-z-gross
+  type: transform
+  skill: reading
+  variety: gsw-zh
+  grammar: [colours-zu-adjective]
+  prompt: What does Sandra say about Reto's jacket? Write it in Standard German.
+  from: gsw-zh
+  to: de
+  source: Die isch mer aber z gross.
+  answers: ["Die ist mir aber zu groß.", "Die ist mir aber zu gross.", "Sie ist mir aber zu groß.", "Die ist mir zu groß.", "Sie ist mir zu groß.", "Die ist aber zu groß."]
+  explanation: >-
+    z = zu (too), mer = mir (for me), isch = ist. Die (that one) points to the jacket, die Jacke.
+
+- id: a1-u10-ch-mcq-finke
+  type: mcq
+  skill: listening
+  variety: gsw-zh
+  prompt: "Sandra asks: \"Und wo sind mini Finke?\" What is she looking for?"
+  options: ["Her slippers", "Her keys", "Her gloves", "Her phone"]
+  answer: 0
+  explanation: >-
+    d Finke = Hausschuhe (slippers). Reto: Under em Sofa = Unter dem Sofa. Many Swiss give guests Finke at the
+    door.
+
+- id: a1-u10-ch-transform-de-gsw
+  type: transform
+  skill: vocabulary
+  variety: gsw-zh
+  grammar: [weather-es]
+  prompt: "Recognition: how do you say this in Zurich German? (Common spellings are accepted.)"
+  from: de
+  to: gsw-zh
+  source: Es ist kalt.
+  answers: ["Es isch chalt.", "Es isch chalt!", "S isch chalt.", "Es isch kalt."]
+  explanation: >-
+    ist → isch, kalt → chalt. Add mega for really: Es isch mega chalt! Bernese says chaut.
+
+- id: a1-u10-roleplay-reto
+  type: roleplay
+  skill: listening
+  variety: gsw-zh
+  grammar: [weather-forecast, accusative-pronouns, colours-zu-adjective]
+  tutor: reto
+  prompt: "Listening roleplay with Reto: what to wear."
+  scenario: >-
+    You and Reto want to go hiking on the Üetliberg. Reto looks at the weather on his phone and tells you
+    in Zurich German what to wear. You answer in Standard German.
+  goals:
+    - Understand the weather (chalt, es schiffet, Grad) and answer.
+    - Understand which clothes Reto suggests (Jagge, Mütze, Schue).
+    - Say what you have and what you need (Ich habe keine ... Kannst du mir ... geben? as a chunk).
+  model: |
+    Reto: Lueg, hüt isch es chalt, nur vier Grad. Und am Namittag schiffet s.
+    Du: Oh nein! Ich habe keine Regenjacke.
+    Reto: Kei Problem, nimm mini Rägejagge. Und häsch e Mütze?
+    Du: Ja, ich habe eine Mütze. Sind meine Schuhe gut?
+    Reto: Nei, die sind z dünn. Nimm d Wanderschue!
+    Du: Gut, ich nehme sie. Gehen wir?
+    Reto: Ja, gömmer!
+  explanation: >-
+    Decoding: hüt = heute, Namittag = Nachmittag, schiffet s = es regnet stark, häsch = hast du, z dünn = zu
+    dünn (too thin), gömmer = gehen wir (unit 7).
+
+# ---------- Bernese (gsw-be, recognition) ----------
+- id: a1-u10-ch-be-mcq-lismer
+  type: mcq
+  skill: listening
+  variety: gsw-be
+  prompt: "Sandra's mother: \"Sandra, nimm e Lismer mit! Hüt isch es chaut z Bärn.\" What should Sandra take?"
+  options: ["A rain jacket", "A jumper", "A scarf", "Her slippers"]
+  answer: 1
+  explanation: >-
+    de Lismer = a knitted jumper (berndeutsch.ch; also used in Zurich); lisme = to knit. chaut = kalt: Bernese
+    turns l into a vowel sound.
+
+- id: a1-u10-ch-be-match
+  type: match
+  skill: vocabulary
+  variety: gsw-be
+  prompt: Match the Bernese words with Standard German.
+  pairs:
+    - ["chaut", "kalt"]
+    - ["Lismer", "Pullover"]
+    - ["Rägejagge", "Regenjacke"]
+    - ["Finke", "Hausschuhe"]
+  explanation: >-
+    All four are in the berndeutsch.ch dictionary (Finke and Lismer: masculine, plural unchanged). Zurich
+    says chalt; the other three are the same in Zurich.
+
+- id: a1-u10-ch-be-transform
+  type: transform
+  skill: reading
+  variety: gsw-be
+  grammar: [weather-es]
+  prompt: What does Sandra's mother say about the weather? Write it in Standard German.
+  from: gsw-be
+  to: de
+  source: Hüt isch es chaut z Bärn.
+  answers: ["Heute ist es kalt in Bern.", "Heute ist es in Bern kalt.", "In Bern ist es heute kalt."]
+  explanation: >-
+    hüt = heute, isch = ist, chaut = kalt, z Bärn = in Bern (z is used with place names: z Züri, z Bärn).
