@@ -1,0 +1,259 @@
+id: a1-u06
+level: A1
+number: 6
+title: Wohnen in der Schweiz
+titleEn: Living in Switzerland
+goal: >-
+  By the end you can describe your flat and your building, say what there is and isn't with es gibt,
+  understand a simple Swiss flat ad (3½ Zimmer, Mietzins, Nebenkosten), and follow a Zurich German
+  conversation about the laundry room and the rubbish rules.
+canDo:
+  - I can name the rooms of a flat and the most important furniture and appliances.
+  - I can say what there is and isn't with es gibt + accusative (Es gibt einen Balkon, aber keinen Lift.).
+  - I can describe rooms with adjectives after sein (Die Küche ist klein, aber hell.).
+  - I can say where something is with fixed chunks (in der Küche, im Wohnzimmer, im Keller).
+  - I can understand a Swiss flat ad and recognise Zurich words for the home (Wohnig, Chuchi, Stube, Stäge, Waschchuchi, Güsel).
+
+review:
+  notes:
+    - "Zurich 'es git' vs 'es hät' for 'es gibt': the unit teaches both (es hät is common in Zurich for 'there is/are here'). Is the explanation fair?"
+    - "Swiss lane dialogue: 'Huusornig' for Hausordnung, 'Züri-Säck', 'Es git aber vill Regle!' – natural spellings and phrasing?"
+    - "Waschküche rule: the unit says many house rules don't allow laundry on Sundays. Please confirm the wording isn't overstated."
+    - "Bernese lines: 'U, wie isch d Wohnig?', 'D Chuchi isch chly, aber d Stube isch gross u hell.', 'U dr Ghüder?', 'Dä chunnt i Züri-Sack. Aues klar!' – natural? (Ghüder m., Wöschchuchi f. confirmed by berndeutsch.ch.)"
+    - "3½-Zimmer-Wohnung: the note explains the half room as a large hall or dining area. Confirm."
+    - "Fenster in Zurich: Feischter (SRF Merkblatt example) – is 'Fenschter' also accepted?"
+
+intro:
+  scene: >-
+    Tom is looking for a flat in Winterthur. Herr Brunner, the landlord, shows him a flat.
+  dialogue:
+    - speaker: Herr Brunner
+      text: Guten Tag! Ich bin Herr Brunner. Kommen Sie, hier ist die Wohnung.
+      en: Hello! I'm Mr Brunner. Come in, here's the flat.
+    - speaker: Tom
+      text: Guten Tag! Oh, die Wohnung ist schön hell!
+      en: Hello! Oh, the flat is nice and bright!
+    - speaker: Herr Brunner
+      text: Ja, es gibt viele Fenster. Hier ist das Wohnzimmer, und da ist der Balkon.
+      en: Yes, there are lots of windows. Here's the living room, and there's the balcony.
+    - speaker: Tom
+      text: Der Balkon ist groß! Und wo ist die Küche?
+      en: The balcony is big! And where's the kitchen?
+    - speaker: Herr Brunner
+      text: Hier links. Die Küche ist klein, aber modern. Es gibt einen Kühlschrank und einen Herd.
+      en: Here on the left. The kitchen is small, but modern. There's a fridge and a cooker.
+    - speaker: Tom
+      text: Gibt es auch eine Waschmaschine?
+      en: Is there a washing machine too?
+    - speaker: Herr Brunner
+      text: Nein, in der Wohnung gibt es keine Waschmaschine. Die Waschküche ist im Keller.
+      en: No, there's no washing machine in the flat. The laundry room is in the basement.
+    - speaker: Tom
+      text: Und das Schlafzimmer?
+      en: And the bedroom?
+    - speaker: Herr Brunner
+      text: Das Schlafzimmer ist hier. Es ist ruhig und gemütlich.
+      en: The bedroom is here. It's quiet and cosy.
+    - speaker: Tom
+      text: Sehr schön. Was kostet die Miete?
+      en: Very nice. How much is the rent?
+    - speaker: Herr Brunner
+      text: Die Miete ist 1650 Franken, plus 200 Franken Nebenkosten.
+      en: The rent is 1,650 francs, plus 200 francs for utilities.
+    - speaker: Tom
+      text: Das ist nicht billig, aber die Wohnung ist toll!
+      en: That's not cheap, but the flat is great!
+
+grammar:
+  - id: es-gibt
+    title: "es gibt + accusative (there is / there are)"
+    body: >-
+      **es gibt** = *there is* and *there are*. It never changes: one thing or many, it's always *es gibt*.
+      What exists is the **object** of *gibt*, so it's in the **accusative**:
+
+
+      *Es gibt **einen** Balkon* (der Balkon) – *Es gibt **eine** Waschküche* – *Es gibt **ein** Bad* – *Es gibt
+      viele Fenster.*
+
+
+      Negative: *Es gibt **keinen** Lift / **keine** Waschmaschine / **kein** Sofa.*
+
+
+      Question: ***Gibt es** einen Balkon?* – *Was gibt es im Keller?* With a place or a time in position 1,
+      es moves after the verb: *Im Keller **gibt es** eine Waschküche.*
+
+
+      For a specific flat you can also use **haben**: *Die Wohnung hat einen Balkon.* Both are fine.
+    tables:
+      - [["", "masculine", "feminine", "neuter", "plural"],
+         ["es gibt", "einen Balkon", "eine Küche", "ein Bad", "zwei Zimmer"],
+         ["es gibt kein-", "keinen Lift", "keine Waschmaschine", "kein Sofa", "keine Möbel"]]
+    commonMistakes:
+      - "*Es gibt ein Balkon.* → **Es gibt einen Balkon.** es gibt takes the accusative: masculine einen."
+      - "*Es geben zwei Zimmer.* → **Es gibt zwei Zimmer.** es gibt never changes for the plural."
+      - "*There is* ≠ *Da ist*: *Da ist ein Balkon* means 'There (over there) is a balcony' – pointing. For existence, use **es gibt**."
+      - "*Im Keller es gibt eine Waschküche.* → **Im Keller gibt es eine Waschküche.** Verb second."
+
+  - id: predicative-adjectives
+    title: "Adjectives after sein: Die Küche ist klein."
+    body: >-
+      When an adjective comes **after** *sein* (or *werden, bleiben*), it has **no ending** – whatever the
+      gender or number:
+
+
+      *Der Balkon ist groß. – Die Küche ist modern. – Das Zimmer ist hell. – Die Zimmer sind hell.*
+
+
+      Adjectives **before** a noun (*ein großer Balkon*) need endings – that comes in A2. For now, use the
+      pattern *noun + ist/sind + adjective*.
+
+
+      Useful words: **sehr** (very), **ziemlich** (quite), **zu** (too), **nicht** (not), and **aber** to contrast:
+      *Die Küche ist klein, **aber** modern.* *schön hell* (nice and bright) is a common pair.
+
+
+      Learn adjectives in **pairs of opposites**: hell – dunkel, ruhig – laut, groß – klein, billig – teuer,
+      neu – alt, modern – alt.
+    tables:
+      - [["Noun", "sein", "Adjective"],
+         ["Der Balkon", "ist", "groß."],
+         ["Die Küche", "ist", "klein, aber modern."],
+         ["Das Schlafzimmer", "ist", "ruhig."],
+         ["Die Zimmer", "sind", "hell."],
+         ["Die Miete", "ist", "zu teuer."]]
+    commonMistakes:
+      - "*Die Küche ist kleine.* → **Die Küche ist klein.** No ending after sein."
+      - "*Die Zimmer sind hells.* → **Die Zimmer sind hell.** No plural ending either."
+      - "*Die Wohnung ist sehr laut* means noisy. **ruhig** means quiet; *leise* is for sounds and voices."
+      - "*Die Miete ist billig* is understood, but for prices Swiss and German speakers prefer **günstig** or **nicht teuer**."
+
+  - id: location-chunks
+    title: "Where is it? in der Küche, im Wohnzimmer (fixed chunks)"
+    body: >-
+      To say **where** something is, German uses *in* + the **dative**. You'll learn the dative properly
+      later. For now, learn the room phrases as **chunks**:
+
+
+      - masculine and neuter rooms → **im** (= in dem): *im Keller, im Flur, im Wohnzimmer, im Schlafzimmer, im Bad*
+
+      - feminine rooms → **in der**: *in der Küche, in der Waschküche, in der Wohnung*
+
+      - *auf dem Balkon* (on the balcony), *im Haus*, *im Garten*, *im Estrich* (Swiss attic)
+
+
+      Question: **Wo ist ...?** – *Wo ist die Waschmaschine? – In der Waschküche.* The article changes
+      because of *in*: *die Küche* → *in **der** Küche*, *das Bad* → ***im** Bad*.
+    tables:
+      - [["Room", "Where?", "Example"],
+         ["der Keller", "im Keller", "Die Waschküche ist im Keller."],
+         ["das Wohnzimmer", "im Wohnzimmer", "Das Sofa ist im Wohnzimmer."],
+         ["die Küche", "in der Küche", "Der Kühlschrank ist in der Küche."],
+         ["der Balkon", "auf dem Balkon", "Der Tisch ist auf dem Balkon."]]
+    commonMistakes:
+      - "*in die Küche* (for location) → **in der Küche.** in die Küche means *into* the kitchen (a movement, unit A2)."
+      - "*in dem Wohnzimmer* is correct but sounds heavy; say **im Wohnzimmer**."
+      - "*im Küche* → **in der Küche.** im is only for masculine and neuter nouns."
+      - "*in dem Balkon* → **auf dem Balkon.** You're *on* a balcony in German too."
+
+reading:
+  title: "Zu vermieten: 3½-Zimmer-Wohnung in Winterthur"
+  text: >-
+    Schöne, helle Wohnung im 2. Stock (mit Lift), 85 m². Es gibt ein Wohnzimmer mit Balkon, zwei
+    Schlafzimmer, eine Küche und ein Badezimmer mit Badewanne. Die Küche ist neu und modern. Das Wohnzimmer
+    ist gross und ruhig. Ein WC ist separat. Im Keller gibt es eine Waschküche und einen Veloraum. Ein Estrich
+    ist auch dabei. Einen Parkplatz gibt es nicht. Der Bahnhof ist nur fünf Minuten zu Fuss. Mietzins:
+    1'850 Franken pro Monat plus 220 Franken Nebenkosten. Haustiere sind leider nicht erlaubt. Frei ab
+    1. Oktober. Besichtigung am Samstag von 10 bis 12 Uhr.
+  en: >-
+    Lovely bright flat on the 2nd floor (with lift), 85 m². There is a living room with a balcony, two
+    bedrooms, a kitchen and a bathroom with a bathtub. The kitchen is new and modern. The living room is big
+    and quiet. There is a separate toilet. In the basement there is a laundry room and a bike room. An attic
+    storage room is included too. There is no parking space. The station is only five minutes' walk. Rent:
+    1,850 francs a month plus 220 francs for utilities. Pets are unfortunately not allowed. Available from
+    1 October. Viewing on Saturday from 10 to 12.
+
+swiss:
+  scene: >-
+    Sandra has been in her new flat for a week. Reto shows her the laundry room in the basement and explains
+    the house rules. Afterwards Sandra's mother calls from Bern.
+  dialogue:
+    - speaker: Reto
+      text: Lueg, da une isch d Waschchuchi.
+      en: Look, down here is the laundry room.
+      variety: gsw-zh
+    - speaker: Sandra
+      text: Ah, guet. Wänn chan ich wäsche?
+      en: Ah, good. When can I do my washing?
+      variety: gsw-zh
+    - speaker: Reto
+      text: Du häsch de Mäntig und de Donschtig. Da isch de Plan.
+      en: You have Monday and Thursday. Here's the schedule.
+      variety: gsw-zh
+    - speaker: Sandra
+      text: Und am Sunntig?
+      en: And on Sunday?
+      variety: gsw-zh
+    - speaker: Reto
+      text: Am Sunntig wäscht niemert. Das staat i de Huusornig.
+      en: Nobody does laundry on Sunday. It's in the house rules.
+      variety: gsw-zh
+    - speaker: Sandra
+      text: Okay. Und de Güsel?
+      en: OK. And the rubbish?
+      variety: gsw-zh
+    - speaker: Reto
+      text: Für de Güsel bruuchsch Züri-Säck. Die gits im Lade.
+      en: For the rubbish you need Züri-Säcke (official bin bags). You get them in the shop.
+      variety: gsw-zh
+    - speaker: Sandra
+      text: Es git aber vill Regle!
+      en: There are a lot of rules, though!
+      variety: gsw-zh
+    - speaker: Reto
+      text: Tja, das isch d Schwiiz! Aber d Wohnig isch schön, oder?
+      en: Well, that's Switzerland! But the flat is nice, isn't it?
+      variety: gsw-zh
+    - speaker: Sandra
+      text: Ja, si isch hell und gmüetlich. Und d Chuchi isch mega gäbig.
+      en: Yes, it's bright and cosy. And the kitchen is really practical.
+      variety: gsw-zh
+    - speaker: Mami
+      text: Hoi Sandra! U, wie isch d Wohnig?
+      en: Hi Sandra! So, how's the flat?
+      variety: gsw-be
+    - speaker: Sandra
+      text: Schön! D Chuchi isch chly, aber d Stube isch gross u hell.
+      en: Lovely! The kitchen is small, but the living room is big and bright.
+      variety: gsw-be
+    - speaker: Mami
+      text: U dr Ghüder?
+      en: And the rubbish?
+      variety: gsw-be
+    - speaker: Sandra
+      text: Dä chunnt i Züri-Sack. Aues klar!
+      en: It goes into a Züri-Sack. All sorted!
+      variety: gsw-be
+  notes:
+    - >-
+      **Home words in Zurich German**: **d Wohnig** (*Wohnung*: -ung → -ig), **d Chuchi** (*Küche*),
+      **d Stube** (*Wohnzimmer* – also used in Swiss Standard German), **d Stäge** (*Treppe*), **de Chäller**
+      (*Keller*), **s Feischter** (*Fenster*), **de Chaschte** (*Schrank*), **de Chüelschrank** (*Kühlschrank*).
+    - >-
+      **es git** = *es gibt*: *Es git vill Regle.* In Zurich you also hear **es hät** for *there is / there
+      are (here)*: *Hät s no Platz?* (Is there still room?) – *Es hät en Balkon.*
+    - >-
+      **d Waschchuchi** (*Waschküche*): most Swiss rental buildings have a shared laundry room with a
+      schedule (**Wäschplan / Plan**): each flat gets its days. Many house rules (**Huusornig**,
+      *Hausordnung*) don't allow washing on Sundays or late at night.
+    - >-
+      **de Güsel** (*Müll*; Swiss Standard *Kehricht*): in the city of Zurich, household rubbish must go into
+      the official, prepaid **Züri-Sack**. Bernese says **dr Ghüder**.
+    - >-
+      **Flat ads (ch-std)**: a **3½-Zimmer-Wohnung** counts the bedrooms and the living room; the kitchen and
+      bathroom are not counted, and the "half" is usually a large hall or dining area. **Mietzins** (*Miete*),
+      **Nebenkosten** (utilities), **Estrich** (attic storage), **Lift** (*Aufzug*), **WC** (*Toilette*),
+      **Parterre** (*Erdgeschoss*), **Hauswart / Abwart** (caretaker). Swiss numbers use an apostrophe:
+      *1'850 Franken*.
+    - >-
+      **Bernese** (Sandra's mother): **u** = *und*, **chly** = *klein*, **dr** = *der*, **dä** = *der / er*
+      (that one), **aues** = *alles* (l → u again), **i** = *in (den)*.

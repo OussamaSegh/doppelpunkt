@@ -13,6 +13,11 @@ canDo:
   - I can form the plural of common nouns and say people's ages.
   - I can recognise Zurich family words (Muetter, Brueder, Schwöschter, Chind, Götti, Gotte) and the forms ich ha, du häsch.
 
+review:
+  notes:
+    - "Bernese lines: 'Hoi zäme! I bi d Mia, d Schwöschter vo dr Sandra.' and 'I ha zwöi Ching, dr Luca u d Nina.' – natural? (Ching, Giel/Gieu, Meitschi confirmed by berndeutsch.ch.)"
+    - "Natural flow of the balcony dialogue (Häsch du Gschwüschterti?)."
+
 intro:
   scene: >-
     After class Anna shows Tom photos on her phone.
@@ -169,7 +174,7 @@ reading:
 swiss:
   scene: >-
     Reto and Sandra have coffee on the balcony. Sandra looks at a photo on Reto's fridge. Listen and read
-    along; notice the family words.
+    along; notice the family words. Then Sandra's sister Mia joins on a video call from Bern.
   dialogue:
     - speaker: Sandra
       text: Isch das dini Familie?
@@ -207,6 +212,14 @@ swiss:
       text: Mis Mami und min Papi wohned au z Bärn. Und si händ en Hund.
       en: My mum and my dad live in Bern too. And they have a dog.
       variety: gsw-zh
+    - speaker: Mia
+      text: Hoi zäme! I bi d Mia, d Schwöschter vo dr Sandra.
+      en: Hi everyone! I'm Mia, Sandra's sister.
+      variety: gsw-be
+    - speaker: Mia
+      text: I ha zwöi Ching, dr Luca u d Nina.
+      en: I have two children, Luca and Nina.
+      variety: gsw-be
   notes:
     - >-
       **haben** in Zurich German: *ich ha, du häsch, er/si/es hät, mir händ, ihr händ, si händ*.
@@ -228,3 +241,7 @@ swiss:
     - >-
       Plural verbs end in **-ed** in Zurich German, the same for wir, ihr and sie: *mir wohned, ihr wohned,
       si wohned* (Standard: wir wohnen, ihr wohnt, sie wohnen).
+    - >-
+      **Bernese family words**: **Ching** (*Kind*, Zurich *Chind*: Bernese pronounces nd as ng), **Giel /
+      Gieu** (*Junge*), **Meitschi** (*Mädchen*, Zurich *Meitli*). The masculine article is **dr**
+      (*dr Luca*), Zurich **de**. *vo dr Sandra* = *von Sandra* (Sandra's).

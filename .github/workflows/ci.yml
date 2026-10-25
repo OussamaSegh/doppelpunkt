@@ -4,7 +4,6 @@ on:
   push:
     branches: [main]
   pull_request:
-    branches: [main]
 
 concurrency:
   group: ci-${{ github.ref }}
@@ -39,6 +38,9 @@ jobs:
 
       - name: Content lint
         run: npm run content:lint
+
+      - name: Audio manifests up to date
+        run: npm run audio:scripts -- --check
 
       - name: Build (content packs + web app)
         run: npm run build

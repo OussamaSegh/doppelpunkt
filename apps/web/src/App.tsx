@@ -13,6 +13,7 @@ import { Tutor } from './screens/Tutor';
 import { Progress } from './screens/Progress';
 import { SettingsScreen } from './screens/Settings';
 import { NotFound } from './screens/NotFound';
+import { Grammar } from './screens/Grammar';
 
 /** Loads content once, keeps the theme in sync and sends new learners to onboarding. */
 function Root() {
@@ -59,6 +60,8 @@ const router = createBrowserRouter(
             { path: '/learn/:level', element: <Learn /> },
             { path: '/unit/:unitId', element: <UnitView /> },
             { path: '/unit/:unitId/:step', element: <UnitView /> },
+            { path: '/grammar', element: <Grammar /> },
+            { path: '/grammar/:unitId/:grammarId', element: <Grammar /> },
             { path: '/review', element: <Review /> },
             { path: '/tutor', element: <Tutor /> },
             { path: '/progress', element: <Progress /> },

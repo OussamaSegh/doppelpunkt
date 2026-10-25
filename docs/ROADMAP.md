@@ -53,18 +53,18 @@ TTS-less), native-speaker review of content still pending, no accounts.
 
 **Goal:** a first-time learner lands at the right place and every exercise feels finished.
 
-- Adaptive placement test (~25 min) using `engine.placeLearner`, result explained in plain English
-- Exercise player polish: keyboard support for umlauts (ä ö ü ß buttons), haptics, retry flow,
-  "almost" state, session summary screen
-- Audio pipeline in `tools/`: script export per unit, file naming, loudness normalisation, Opus/AAC
-  encode, lint check for missing audio, CDN upload
-- Record A1 units 1–3 with two German and two Zurich voices
-- Grammar reference screen (search across all grammar points)
-- Content: A1 units 4–6
-- Native review sign-off process (`reviewed_by` metadata in unit.yaml)
+- [x] Adaptive placement test (~25 min) using `engine.placeLearner`, result explained in plain English
+- [x] Exercise player polish: umlaut/ß buttons, keyboard, haptics, retry flow, "almost" state, session summary
+- [x] Audio pipeline in `tools/`: scripts + manifests per unit, file naming, loudness normalisation,
+      MP3/Opus encode, auto-linking, coverage in lint
+- [ ] CDN upload for audio (moved to v0.4)
+- [ ] Record A1 units 1–6 (needs voice actors: scripts are ready in `content/a1/unit-*/audio-script.md`)
+- [x] Grammar reference screen (search across all grammar points)
+- [x] Content: A1 units 4–6, Bernese recognition items in units 1–6, Swiss forms checked against online sources
+- [x] Native review sign-off process (`review` metadata in unit.yaml, `npm run content:report`)
 
 **Roles:** frontend, content tooling, language expert, audio producer, QA.
-**Exit:** placement puts 80% of test users within one unit of a teacher's assessment.
+**Exit:** placement puts 80% of test users within one unit of a teacher's assessment (measured in the v0.5 beta).
 
 ## v0.3 "Stimme"
 

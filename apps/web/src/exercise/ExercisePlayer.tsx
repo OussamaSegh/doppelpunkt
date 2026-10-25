@@ -1,9 +1,12 @@
-import { useState, type ComponentType } from 'react';
+import { useCallback, useRef, useState, type ComponentType } from 'react';
 import type { CompiledUnit, Exercise } from '@doppelpunkt/content-schema';
 import { grade, type Answer, type GradeResult } from '@doppelpunkt/engine';
 import { VarietyTag } from '../components/VarietyTag';
 import { recordAttempt } from '../lib/progress';
 import { errorMessage } from '../lib/ai';
+import { haptic, resultTone, toneOfScore } from '../lib/feedback';
+import { useSettings } from '../lib/hooks';
+import { useCardKeys } from '../lib/keys';
 import { Feedback } from './Feedback';
 import { DictationInput, GapInput, MatchInput, McqInput, OrderInput, TransformInput, TranslateInput } from './inputs';
 import { RolePlayTask } from './RolePlayTask';
@@ -47,12 +50,34 @@ type Props = {
   /** Hide solutions after checking (placement test). */
   showFeedback?: boolean;
   onDone?: (outcome: ExerciseOutcome) => void;
+  /** Called on Enter once the item is answered (go to the next item). */
+  onNext?: () => void;
 };
 
-/** Renders any exercise type; closed types are graded locally by the engine. */
-export function ExercisePlayer({ exercise, unit, record = true, showFeedback = true, onDone = () => undefined }: Props) {
+/**
+ * Renders any exercise type; closed types are graded locally by the engine.
+ * Keyboard: Enter checks, then (with `onNext`) moves on; 1–9 pick a multiple-choice option.
+ */
+export function ExercisePlayer({ exercise, unit, record = true, showFeedback = true, onDone, onNext }: Props) {
+  const settings = useSettings();
+  const ref = useRef<HTMLElement>(null);
+  const [finished, setFinished] = useState(false);
+  const hapticsOn = settings?.haptics ?? true;
+  const done = useCallback(
+    (o: ExerciseOutcome) => {
+      setFinished(true);
+      if (showFeedback) haptic(o.tone ?? toneOfScore(o.score, o.correct), hapticsOn);
+      onDone?.(o);
+    },
+    [onDone, showFeedback, hapticsOn],
+  );
+  useCardKeys(ref, (e) => {
+    if (e.key !== 'Enter' || !finished || !onNext) return;
+    onNext();
+    return true;
+  });
   return (
-    <article className="card" aria-labelledby={`ex-${exercise.id}-prompt`}>
+    <article ref={ref} className="card" aria-labelledby={`ex-${exercise.id}-prompt`}>
       <header className="mb-3 flex items-center justify-between gap-2">
         <span className="text-xs font-semibold uppercase tracking-wide text-muted">{TYPE_LABEL[exercise.type]}</span>
         <VarietyTag variety={exercise.variety} />
@@ -60,12 +85,14 @@ export function ExercisePlayer({ exercise, unit, record = true, showFeedback = t
       <h3 id={`ex-${exercise.id}-prompt`} className="mb-4 text-base font-semibold">
         {exercise.prompt}
       </h3>
-      <Body key={exercise.id} exercise={exercise} unit={unit} record={record} showFeedback={showFeedback} onDone={onDone} />
+      <Body key={exercise.id} exercise={exercise} unit={unit} record={record} showFeedback={showFeedback} onDone={done} />
     </article>
   );
 }
 
-function Body({ exercise, unit, record, showFeedback, onDone }: Required<Omit<Props, 'onDone'>> & { onDone: (o: ExerciseOutcome) => void }) {
+type BodyProps = Required<Pick<Props, 'exercise' | 'unit' | 'record' | 'showFeedback'>> & { onDone: (o: ExerciseOutcome) => void };
+
+function Body({ exercise, unit, record, showFeedback, onDone }: BodyProps) {
   switch (exercise.type) {
     case 'write':
       return <WriteTask ex={exercise} unit={unit} record={record} onDone={onDone} />;
@@ -95,9 +122,10 @@ function ClosedPlayer({
   const [result, setResult] = useState<GradeResult>();
   const [error, setError] = useState<string>();
   const Input = INPUTS[ex.type] as ComponentType<InputProps<ClosedType>>;
+  const form = useRef<HTMLFormElement>(null);
 
   const check = async () => {
-    if (answer === undefined) return;
+    if (answer === undefined || result) return;
     let r: GradeResult;
     try {
       r = grade(ex, answer);
@@ -106,12 +134,20 @@ function ClosedPlayer({
       return;
     }
     setResult(r);
-    onDone({ exerciseId: ex.id, score: r.score, correct: r.correct });
+    onDone({ exerciseId: ex.id, score: r.score, correct: r.correct, tone: resultTone(r) });
     if (record) await recordAttempt(ex, unit, r.score, r.correct ? undefined : ex.grammar);
   };
 
+  // Enter on an option button (or with nothing focused) checks; Enter in a text field submits the form.
+  useCardKeys(form, (e) => {
+    if (e.key !== 'Enter' || result || answer === undefined) return;
+    void check();
+    return true;
+  });
+
   return (
     <form
+      ref={form}
       onSubmit={(e) => {
         e.preventDefault();
         void check();

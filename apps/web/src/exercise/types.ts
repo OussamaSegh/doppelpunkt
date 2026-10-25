@@ -1,5 +1,6 @@
 import type { CompiledUnit, Exercise, ExerciseType } from '@doppelpunkt/content-schema';
 import type { Answer } from '@doppelpunkt/engine';
+import type { ResultTone } from '../lib/feedback';
 
 export type ExerciseOf<T extends ExerciseType> = Extract<Exercise, { type: T }>;
 
@@ -11,7 +12,13 @@ export type InputProps<T extends ExerciseType> = {
   onChange: (answer: Answer | undefined) => void;
 };
 
-export type ExerciseOutcome = { exerciseId: string; score: number; correct: boolean };
+export type ExerciseOutcome = {
+  exerciseId: string;
+  score: number;
+  correct: boolean;
+  /** Set by graded closed types; open types derive it from the score. */
+  tone?: ResultTone;
+};
 
 /** Builds the engine answer for a word-order exercise from the tapped tokens. */
 export function orderAnswer(tokens: string[]): Answer {

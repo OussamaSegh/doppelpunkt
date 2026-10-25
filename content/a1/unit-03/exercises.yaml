@@ -21,8 +21,8 @@
   skill: vocabulary
   variety: de
   prompt: "Mein Vater hat einen Bruder. Er ist mein ..."
-  options: ["Onkel", "Neffe", "Cousin", "Großvater"]
-  answer: 0
+  options: ["Neffe", "Cousin", "Onkel", "Großvater"]
+  answer: 2
   explanation: >-
     The brother of your father or mother is your Onkel; his children are your Cousins/Cousinen. You are
     his Neffe (nephew) or Nichte (niece).
@@ -32,8 +32,8 @@
   skill: vocabulary
   variety: de
   prompt: "\"Hast du Geschwister?\" What is the question?"
-  options: ["Do you have brothers or sisters?", "Do you have children?", "Do you have a partner?", "Do you have parents?"]
-  answer: 0
+  options: ["Do you have children?", "Do you have brothers or sisters?", "Do you have a partner?", "Do you have parents?"]
+  answer: 1
   explanation: >-
     die Geschwister = brothers and sisters together (siblings). It's a plural-only word in everyday German,
     like die Eltern (parents). Answer: Ja, ich habe einen Bruder. / Nein, ich habe keine Geschwister.
@@ -84,13 +84,13 @@
   variety: de
   grammar: [haben-present]
   prompt: "How do you say \"I am thirty years old\"?"
-  options: ["Ich bin dreißig Jahre alt.", "Ich habe dreißig Jahre.", "Ich habe dreißig Jahre alt.", "Ich bin dreißig Jahren."]
-  answer: 0
+  options: ["Ich habe dreißig Jahre.", "Ich habe dreißig Jahre alt.", "Ich bin dreißig Jahren.", "Ich bin dreißig Jahre alt."]
+  answer: 3
   rationales:
-    - Correct. Age uses sein, as in English. You can also just say Ich bin dreißig.
-    - This is the French/Spanish pattern (j'ai trente ans). German uses sein.
-    - Mixes haben with alt – not possible.
-    - The plural of Jahr is Jahre.
+    - "This is the French/Spanish pattern (j'ai trente ans). German uses sein."
+    - "Mixes haben with alt – not possible."
+    - "The plural of Jahr is Jahre."
+    - "Correct. Age uses sein, as in English. You can also just say Ich bin dreißig."
   explanation: >-
     Age: Ich bin ... (Jahre alt). Question: Wie alt bist du? / Wie alt sind Sie? Swiss spelling: dreissig.
 
@@ -129,10 +129,10 @@
   options: ["ihr", "sein", "ihre", "seine"]
   answer: 0
   rationales:
-    - Correct. Owner = Anna (a woman) → ihr-; noun = der Bruder (masculine) → no ending.
-    - sein- would mean his.
-    - The -e ending would be for a feminine or plural noun (ihre Schwester).
-    - Wrong owner and wrong ending.
+    - "Correct. Owner = Anna (a woman) → ihr-; noun = der Bruder (masculine) → no ending."
+    - "sein- would mean his."
+    - "The -e ending would be for a feminine or plural noun (ihre Schwester)."
+    - "Wrong owner and wrong ending."
   explanation: >-
     Two decisions: the owner picks the word (man → sein, woman → ihr), the noun picks the ending
     (der Bruder → ihr, die Schwester → ihre). English only makes the first decision.
@@ -144,8 +144,8 @@
   grammar: [possessives]
   prompt: Choose the correct word for "his".
   question: Tom und ___ Nichte Emily wohnen in England.
-  options: ["seine", "sein", "ihre", "ihr"]
-  answer: 0
+  options: ["sein", "seine", "ihre", "ihr"]
+  answer: 1
   explanation: >-
     Owner = Tom → sein-. Noun = die Nichte (feminine) → ending -e: seine Nichte. English speakers often
     pick ihre because Nichte is female – but the possessor, not the noun, decides between sein and ihr.
@@ -237,8 +237,8 @@
   variety: de
   grammar: [plural-nouns]
   prompt: "die Mutter → die ..."
-  options: ["Mütter", "Muttern", "Mutters", "Mutter"]
-  answer: 0
+  options: ["Muttern", "Mutters", "Mutter", "Mütter"]
+  answer: 3
   explanation: >-
     Mutter and Tochter are the big exceptions to "feminine adds -n": they take only an umlaut (die Mütter,
     die Töchter). (Muttern exists, but it means nuts – the ones for bolts!)
@@ -275,8 +275,8 @@
   variety: de
   grammar: [plural-nouns]
   prompt: "Read \"Meine Familie\". How many brothers and sisters does Paul have?"
-  options: ["Three", "Two", "One", "Four"]
-  answer: 0
+  options: ["Two", "One", "Three", "Four"]
+  answer: 2
   explanation: >-
     "Ich habe zwei Brüder und eine Schwester." Brüder is the plural of Bruder (umlaut ü), so two brothers
     + one sister = three siblings (Geschwister).
@@ -310,8 +310,8 @@
   variety: de
   grammar: [possessives]
   prompt: "\"Wir haben auch eine Katze. Ihr Name ist Minou.\" What does Ihr mean here?"
-  options: ["Her (the cat's)", "Your (polite)", "Their", "You (plural)"]
-  answer: 0
+  options: ["Your (polite)", "Her (the cat's)", "Their", "You (plural)"]
+  answer: 1
   explanation: >-
     die Katze is feminine, so the owner is "she" → ihr Name. It has a capital I only because it starts the
     sentence. In mid-sentence, Ihr with a capital means polite your; ihr in lower case means her/their.
@@ -365,8 +365,8 @@
   skill: listening
   variety: de
   prompt: Listen to the intro dialogue. How many sisters does Anna have?
-  options: ["Two", "One", "Three", "None"]
-  answer: 0
+  options: ["One", "Three", "None", "Two"]
+  answer: 3
   explanation: >-
     "Ja, ich habe zwei Schwestern, Lea und Sophie." Listen for the plural ending -n: Schwestern = more
     than one; Schwester = one.
@@ -500,8 +500,8 @@
   skill: vocabulary
   variety: ch-std
   prompt: "In a Swiss newspaper: \"Der Götti von Noah bringt ein Geschenk.\" Who is the Götti?"
-  options: ["Noah's godfather", "Noah's grandfather", "Noah's teacher", "Noah's older brother"]
-  answer: 0
+  options: ["Noah's grandfather", "Noah's godfather", "Noah's teacher", "Noah's older brother"]
+  answer: 1
   explanation: >-
     Götti (godfather) and Gotte (godmother) are Swiss words used in Swiss Standard German too; in Germany
     they're der Pate / die Patin. In Switzerland the Götti or Gotte is an important family figure for a child.
@@ -556,8 +556,8 @@
   skill: listening
   variety: gsw-zh
   prompt: "In the Swiss lane dialogue Reto says: \"Ich bi de Götti vom Noah.\" What is Reto?"
-  options: ["Noah's godfather", "Noah's father", "Noah's grandfather", "Noah's cousin"]
-  answer: 0
+  options: ["Noah's father", "Noah's grandfather", "Noah's cousin", "Noah's godfather"]
+  answer: 3
   explanation: >-
     Götti = Pate (godfather); vom Noah = von Noah (Noah's). Swiss German expresses possession with
     vo(m) + name rather than with -s: de Götti vom Noah = Noahs Pate.
@@ -568,8 +568,8 @@
   variety: gsw-zh
   grammar: [possessives]
   prompt: "Zurich German: min Brueder, mini Schwöschter ... and for s Chind (neuter)?"
-  options: ["mis Chind", "min Chind", "mini Chind", "mein Chind"]
-  answer: 0
+  options: ["min Chind", "mini Chind", "mis Chind", "mein Chind"]
+  answer: 2
   explanation: >-
     Zurich possessives have three forms: min (masculine), mini (feminine and plural), mis (neuter).
     So: min Papi, mini Muetter, mini Eltere, mis Chind, mis Mami (s Mami is neuter).
@@ -614,3 +614,44 @@
   explanation: >-
     Decoding: lueg = schau (look); mini/min = meine/mein; hät = hat; Chind = Kinder; föif = fünf. Reto uses
     articles before names (de Lukas, d Lina). In your Standard German answer you can drop them.
+
+# ---------- Bernese (gsw-be, recognition) ----------
+- id: a1-u03-ch-be-match-haben
+  type: match
+  skill: grammar
+  variety: gsw-be
+  grammar: [haben-present]
+  prompt: Match the Bernese forms of haben with Standard German.
+  pairs:
+    - ["i ha", "ich habe"]
+    - ["du hesch", "du hast"]
+    - ["är het", "er hat"]
+    - ["mir hei", "wir haben"]
+  explanation: >-
+    Bernese: i ha, du hesch, är het, mir hei, dir heit, si hei. Zurich: ich ha, du häsch, er hät, mir händ.
+    The Bernese plural hei is one of the easiest ways to recognise the dialect.
+
+- id: a1-u03-ch-be-transform-ching
+  type: transform
+  skill: reading
+  variety: gsw-be
+  grammar: [haben-present, plural-nouns]
+  prompt: What does Mia say? Write it in Standard German.
+  from: gsw-be
+  to: de
+  source: I ha zwöi Ching.
+  answers: ["Ich habe zwei Kinder.", "Ich hab zwei Kinder."]
+  explanation: >-
+    i ha = ich habe, zwöi = zwei, Ching = Kinder (the plural is the same as the singular, like Zurich Chind).
+    Bernese pronounces nd as ng: Ching, angers (anders).
+
+- id: a1-u03-ch-be-mcq-meitschi
+  type: mcq
+  skill: vocabulary
+  variety: gsw-be
+  prompt: "Mia says: \"D Nina isch es Meitschi.\" What is Nina?"
+  options: ["A girl", "A boy", "A baby boy", "A teenager"]
+  answer: 0
+  explanation: >-
+    s Meitschi = das Mädchen (Zurich: s Meitli). Like Mädchen, it is neuter. A boy is e Giel (also Gieu) or
+    e Bueb.

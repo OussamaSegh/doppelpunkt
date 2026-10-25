@@ -1,13 +1,35 @@
 // Content linter: `npm run content:lint`. Validates the YAML with the zod schemas, then checks
 // the editorial rules below. Exits 1 when there is at least one error (warnings never fail).
-import { existsSync } from 'node:fs';
+import { existsSync, readFileSync } from 'node:fs';
 import { join, relative, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { SKILLS, type CompiledUnit, type Exercise, type Level } from '@doppelpunkt/content-schema';
+import { SKILLS, type Exercise, type Level } from '@doppelpunkt/content-schema';
 import { grade, normalize, sentenceKey, type Answer } from '@doppelpunkt/engine';
+import { addCoverage, audioRefs, buildManifest, coverage, formatCoverage, isRemote, type Coverage } from './audio';
+import { lintLexicons } from './lexicon';
 import { loadContent, UNIT_FILES, type Issue, type LoadedUnit } from './load';
 
-export type LintResult = { issues: Issue[]; errors: number; warnings: number; units: LoadedUnit[]; levels: Level[] };
+export type ReviewStatus = { unitId: string; de: boolean; ch: boolean };
+export type LintResult = {
+  issues: Issue[];
+  errors: number;
+  warnings: number;
+  units: LoadedUnit[];
+  levels: Level[];
+  /** Recorded audio slots over all slots that have a YAML audio field (see audio.ts). */
+  audio: Coverage;
+  review: ReviewStatus[];
+  /** Summary lines printed after the issues (never fail the lint). */
+  info: string[];
+};
+
+export type LintOptions = {
+  /** Missing native-review sign-off becomes a warning per unit (from v1.0 on). Before that it is an info summary. */
+  strictReview?: boolean;
+};
+
+/** Folder of a unit relative to content/, e.g. "a1/unit-01". */
+export const unitFolder = (lu: Pick<LoadedUnit, 'level' | 'number'>) => `${lu.level.toLowerCase()}/unit-${String(lu.number).padStart(2, '0')}`;
 
 /** Count of gap markers. A gap is exactly three underscores. */
 export function countGaps(text: string): number {
@@ -89,21 +111,14 @@ function exerciseRules(ex: Exercise, where: string, file: string, push: (s: Issu
   }
 }
 
-function audioRefs(u: CompiledUnit): Array<{ file: string; path: string; where: string }> {
-  const out: Array<{ file: string; path: string; where: string }> = [];
-  u.intro.dialogue.forEach((l, i) => l.audio && out.push({ file: UNIT_FILES.unit, path: l.audio, where: `intro.dialogue[${i}]` }));
-  u.swiss.dialogue.forEach((l, i) => l.audio && out.push({ file: UNIT_FILES.unit, path: l.audio, where: `swiss.dialogue[${i}]` }));
-  u.vocab.forEach((v, i) => v.audio && out.push({ file: UNIT_FILES.vocab, path: v.audio, where: `[${i}] (id: ${v.id})` }));
-  u.exercises.forEach((e, i) => e.audio && out.push({ file: UNIT_FILES.exercises, path: e.audio, where: `[${i}] (id: ${e.id})` }));
-  return out;
-}
-
 /** Lint everything under `contentDir`. `root` is used for relative paths in messages. */
-export function lintContent(contentDir: string, root = process.cwd()): LintResult {
+export function lintContent(contentDir: string, root = process.cwd(), opts: LintOptions = {}): LintResult {
   const loaded = loadContent(contentDir, root);
   const issues: Issue[] = [...loaded.issues];
   const push = (severity: Issue['severity'], file: string, message: string) => issues.push({ severity, file, message });
 
+  let audio: Coverage = { recorded: 0, total: 0 };
+  const review: ReviewStatus[] = [];
   const byLevel = new Map<Level, LoadedUnit[]>();
   for (const lu of loaded.units) byLevel.set(lu.level, [...(byLevel.get(lu.level) ?? []), lu]);
 
@@ -144,14 +159,42 @@ export function lintContent(contentDir: string, root = process.cwd()): LintResul
         if (!v.plural) push('warning', f(UNIT_FILES.vocab), `[${i}] (id: ${v.id}): noun "${v.de}" has no plural (use plural: "-" if it has none)`);
       });
 
+      const mcqs = u.exercises.filter((e) => e.type === 'mcq');
+      if (mcqs.length >= 2 && mcqs.every((e) => e.answer === 0)) {
+        push('warning', f(UNIT_FILES.exercises), `all ${mcqs.length} mcq items have answer: 0; vary the position of the correct option`);
+      }
+
       for (const ref of audioRefs(u)) {
-        if (!existsSync(join(lu.dir, ref.path))) push('warning', f(ref.file), `${ref.where}: audio file ${ref.path} does not exist yet`);
+        if (!isRemote(ref.path) && !existsSync(join(lu.dir, ref.path))) push('warning', f(ref.file), `${ref.where}: audio file ${ref.path} does not exist yet`);
+      }
+      audio = addCoverage(audio, coverage(buildManifest(u, unitFolder(lu)), lu.dir));
+
+      const rs = { unitId: u.id, de: Boolean(u.review?.de?.trim()), ch: Boolean(u.review?.ch?.trim()) };
+      review.push(rs);
+      if (opts.strictReview && (!rs.de || !rs.ch)) {
+        const which = [!rs.de && 'review.de', !rs.ch && 'review.ch'].filter(Boolean).join(' and ');
+        push('warning', f(UNIT_FILES.unit), `native review sign-off missing: ${which}`);
       }
     }
   }
 
+  const lexicon = lintLexicons(contentDir, root);
+  issues.push(...lexicon.issues);
+
+  const info: string[] = [`audio coverage: ${formatCoverage(audio)}`];
+  if (lexicon.files) info.push(`lexicon: ${lexicon.entries} entr${lexicon.entries === 1 ? 'y' : 'ies'} in ${lexicon.files} file(s)`);
+  if (review.length) {
+    const done = review.filter((r) => r.de && r.ch).length;
+    const missDe = review.filter((r) => !r.de).map((r) => r.unitId);
+    const missCh = review.filter((r) => !r.ch).map((r) => r.unitId);
+    let line = `review sign-off: ${done}/${review.length} unit(s)`;
+    if (missDe.length) line += `; missing review.de: ${missDe.join(', ')}`;
+    if (missCh.length) line += `; missing review.ch: ${missCh.join(', ')}`;
+    info.push(line);
+  }
+
   const errors = issues.filter((i) => i.severity === 'error').length;
-  return { issues, errors, warnings: issues.length - errors, units: loaded.units, levels: loaded.levels };
+  return { issues, errors, warnings: issues.length - errors, units: loaded.units, levels: loaded.levels, audio, review, info };
 }
 
 export function formatIssues(issues: Issue[]): string {
@@ -172,13 +215,20 @@ function argValue(argv: string[], name: string): string | undefined {
   return i >= 0 ? argv[i + 1] : undefined;
 }
 
+/** Version of the root package.json; from 1.0 on the review sign-off is enforced as warnings. */
+export function repoVersion(): string {
+  return (JSON.parse(readFileSync(join(repoRoot, 'package.json'), 'utf8')) as { version: string }).version;
+}
+export const isV1 = (version: string) => Number(version.split('.')[0]) >= 1;
+
 export function main(argv = process.argv.slice(2)): number {
   const contentDir = resolve(argValue(argv, '--content') ?? join(repoRoot, 'content'));
-  const r = lintContent(contentDir, repoRoot);
+  const r = lintContent(contentDir, repoRoot, { strictReview: isV1(repoVersion()) });
   if (r.issues.length) console.log(formatIssues(r.issues));
   console.log(
     `\n${r.units.length} unit(s) in ${r.levels.length} level(s): ${r.errors} error(s), ${r.warnings} warning(s).`,
   );
+  for (const line of r.info) console.log(line);
   return r.errors ? 1 : 0;
 }
 

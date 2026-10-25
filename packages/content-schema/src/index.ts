@@ -34,13 +34,16 @@ export const VocabItem = z.object({
   plural: z.string().optional(),
   /** Plural-only nouns (die Eltern, die Geschwister): no gender, `de` is the plural form. */
   pluralOnly: z.boolean().optional(),
-  example: z.object({ de: z.string(), en: z.string() }).optional(),
+  example: z.object({ de: z.string(), en: z.string(), audio }).optional(),
   /** Swiss Standard German variant (Helvetism), e.g. Velo for Fahrrad. */
   chStd: z.string().optional(),
   /** Zurich German form in Dieth-style spelling; alternatives separated by " / ". */
   gswZh: z.string().optional(),
   gswBe: z.string().optional(),
   audio,
+  /** Recording of the Zurich / Bernese form. */
+  gswZhAudio: audio,
+  gswBeAudio: audio,
   tags: z.array(z.string()).default([]),
 });
 export type VocabItem = z.infer<typeof VocabItem>;
@@ -171,8 +174,22 @@ export const DialogueLine = z.object({
   audio,
 });
 
+/** Native-speaker sign-off. A unit ships to learners in v1.0+ only when both reviews are present. */
+export const Review = z.object({
+  /** German native teacher who checked the Standard German. */
+  de: z.string().optional(),
+  /** Swiss native who checked every Swiss lane item and Helvetism. */
+  ch: z.string().optional(),
+  /** ISO date of the last sign-off. */
+  date: z.string().optional(),
+  /** Open questions for the reviewer. */
+  notes: z.array(z.string()).default([]),
+});
+export type Review = z.infer<typeof Review>;
+
 export const Unit = z.object({
   id,                       // e.g. "a1-u01"
+  review: Review.optional(),
   level: Level,
   number: z.number().int().min(1).max(12),
   title: z.string(),        // German title

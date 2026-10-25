@@ -1,0 +1,2989 @@
+{
+  "unitId": "a1-u02",
+  "level": "A1",
+  "folder": "a1/unit-02",
+  "title": "Im Café",
+  "delivery": {
+    "raw": "WAV or FLAC, 48 kHz, 24-bit, mono, one file per entry, named <file base>.wav",
+    "processed": [
+      "mp3 64 kbps mono 44.1 kHz",
+      "opus 32 kbps mono 48 kHz",
+      "EBU R128 -16 LUFS, true peak -1.5 dBTP"
+    ]
+  },
+  "entries": [
+    {
+      "file": "dialog-intro-01.mp3",
+      "kind": "dialogue-intro",
+      "text": "Guten Tag! Was möchten Sie?",
+      "en": "Hello! What would you like?",
+      "variety": "de",
+      "voice": "de-f",
+      "speaker": "Kellnerin",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          0,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-01.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-02.mp3",
+      "kind": "dialogue-intro",
+      "text": "Ich möchte einen Kaffee, bitte.",
+      "en": "I'd like a coffee, please.",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          1,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-02.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-03.mp3",
+      "kind": "dialogue-intro",
+      "text": "Und ich nehme einen Tee und ein Croissant.",
+      "en": "And I'll have a tea and a croissant.",
+      "variety": "de",
+      "voice": "de-f",
+      "speaker": "Anna",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          2,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-03.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-04.mp3",
+      "kind": "dialogue-intro",
+      "text": "Gern. Möchten Sie auch ein Wasser?",
+      "en": "Certainly. Would you like some water too?",
+      "variety": "de",
+      "voice": "de-f",
+      "speaker": "Kellnerin",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          3,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-04.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-05.mp3",
+      "kind": "dialogue-intro",
+      "text": "Nein, danke. Aber ich hätte gern ein Stück Kuchen.",
+      "en": "No, thanks. But I'd like a piece of cake.",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          4,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-05.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-06.mp3",
+      "kind": "dialogue-intro",
+      "text": "Also, einen Kaffee, einen Tee, ein Croissant und ein Stück Kuchen. Sonst noch etwas?",
+      "en": "So, a coffee, a tea, a croissant and a piece of cake. Anything else?",
+      "variety": "de",
+      "voice": "de-f",
+      "speaker": "Kellnerin",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          5,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-06.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-07.mp3",
+      "kind": "dialogue-intro",
+      "text": "Nein, danke. Das ist alles.",
+      "en": "No, thanks. That's all.",
+      "variety": "de",
+      "voice": "de-f",
+      "speaker": "Anna",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          6,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-07.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-08.mp3",
+      "kind": "dialogue-intro",
+      "text": "Entschuldigung! Wir möchten zahlen, bitte.",
+      "en": "Excuse me! We'd like to pay, please.",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          7,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-08.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-09.mp3",
+      "kind": "dialogue-intro",
+      "text": "Zusammen oder getrennt?",
+      "en": "Together or separately?",
+      "variety": "de",
+      "voice": "de-f",
+      "speaker": "Kellnerin",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          8,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-09.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-10.mp3",
+      "kind": "dialogue-intro",
+      "text": "Zusammen, bitte. Was macht das?",
+      "en": "Together, please. How much is that?",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          9,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-10.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-11.mp3",
+      "kind": "dialogue-intro",
+      "text": "Das macht siebzehn Franken achtzig.",
+      "en": "That's seventeen francs eighty.",
+      "variety": "de",
+      "voice": "de-f",
+      "speaker": "Kellnerin",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          10,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-11.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-12.mp3",
+      "kind": "dialogue-intro",
+      "text": "Hier sind zwanzig Franken. Stimmt so.",
+      "en": "Here are twenty francs. Keep the change.",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          11,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-12.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-01.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Grüezi mitenand! Was dörfs sii?",
+      "en": "Hello, both of you! What can I get you?",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Kellnerin",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          0,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-01.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-02.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Grüezi. Ich hett gärn en Kafi Crème und es Gipfeli, bitte.",
+      "en": "Hello. I'd like a coffee with cream and a croissant, please.",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          1,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-02.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-03.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Und für mich e Schale und es Weggli.",
+      "en": "And for me a milky coffee and a soft bread roll.",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          2,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-03.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-04.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Gärn. Suscht no öppis?",
+      "en": "Certainly. Anything else?",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Kellnerin",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          3,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-04.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-05.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Nei, merci, das isch alles.",
+      "en": "No, thanks, that's all.",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          4,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-05.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-06.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Exgüsi! Chönd mir bitte zahle?",
+      "en": "Excuse me! Can we pay, please?",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          5,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-06.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-07.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Zäme oder separat?",
+      "en": "Together or separately?",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Kellnerin",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          6,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-07.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-08.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Zäme, bitte.",
+      "en": "Together, please.",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          7,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-08.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-09.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Das macht zwölf Franke füfzg.",
+      "en": "That's twelve francs fifty.",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Kellnerin",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          8,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-09.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-10.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Da sind füfzää. Isch guet so.",
+      "en": "Here's fifteen. Keep the change.",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          9,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-10.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-11.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Merci viumau u schöne Tag!",
+      "en": "Thanks a lot and have a nice day!",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          10,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-11.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-eins.mp3",
+      "kind": "vocab",
+      "text": "eins",
+      "en": "one",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "eins",
+        "pointer": [
+          0,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-eins.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-eins-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Eins, zwei, drei – los!",
+      "en": "One, two, three – go!",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "eins",
+        "pointer": [
+          0,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-eins-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-eins-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "eis / eins",
+      "en": "one",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "eins",
+        "pointer": [
+          0,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-eins-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-eins-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "eis",
+      "en": "one",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "eins",
+        "pointer": [
+          0,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-eins-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-zwei.mp3",
+      "kind": "vocab",
+      "text": "zwei",
+      "en": "two",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "zwei",
+        "pointer": [
+          1,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-zwei.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-zwei-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Zwei Kaffee, bitte.",
+      "en": "Two coffees, please.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "zwei",
+        "pointer": [
+          1,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-zwei-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-zwei-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "zwei",
+      "note": "older forms: zwee m. / zwo f. / zwei n.",
+      "en": "two",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "zwei",
+        "pointer": [
+          1,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-zwei-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-zwei-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "zwöi",
+      "en": "two",
+      "variety": "gsw-be",
+      "voice": "be-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "zwei",
+        "pointer": [
+          1,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-zwei-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-drei.mp3",
+      "kind": "vocab",
+      "text": "drei",
+      "en": "three",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "drei",
+        "pointer": [
+          2,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-drei.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-drei-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Das macht drei Franken.",
+      "en": "That's three francs.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "drei",
+        "pointer": [
+          2,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-drei-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-drei-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "drü",
+      "en": "three",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "drei",
+        "pointer": [
+          2,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-drei-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-drei-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "drü",
+      "en": "three",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "drei",
+        "pointer": [
+          2,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-drei-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-vier.mp3",
+      "kind": "vocab",
+      "text": "vier",
+      "en": "four",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "vier",
+        "pointer": [
+          3,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-vier.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-vier-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ein Kaffee kostet vier Franken achtzig.",
+      "en": "A coffee costs four francs eighty.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "vier",
+        "pointer": [
+          3,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-vier-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-vier-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "vier",
+      "en": "four",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "vier",
+        "pointer": [
+          3,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-vier-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-fuenf.mp3",
+      "kind": "vocab",
+      "text": "fünf",
+      "en": "five",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "fuenf",
+        "pointer": [
+          4,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-fuenf.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-fuenf-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Der Kuchen kostet fünf Franken siebzig.",
+      "en": "The cake costs five francs seventy.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "fuenf",
+        "pointer": [
+          4,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-fuenf-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-fuenf-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "föif",
+      "en": "five",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "fuenf",
+        "pointer": [
+          4,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-fuenf-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-fuenf-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "füf",
+      "en": "five",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "fuenf",
+        "pointer": [
+          4,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-fuenf-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sechs.mp3",
+      "kind": "vocab",
+      "text": "sechs",
+      "en": "six",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sechs",
+        "pointer": [
+          5,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-sechs.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sechs-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Wir sind sechs Personen.",
+      "en": "There are six of us.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sechs",
+        "pointer": [
+          5,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-sechs-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sechs-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "sächs",
+      "en": "six",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sechs",
+        "pointer": [
+          5,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-sechs-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sieben.mp3",
+      "kind": "vocab",
+      "text": "sieben",
+      "en": "seven",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sieben",
+        "pointer": [
+          6,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-sieben.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sieben-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Das macht sieben Franken.",
+      "en": "That's seven francs.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sieben",
+        "pointer": [
+          6,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-sieben-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sieben-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "sibe",
+      "en": "seven",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sieben",
+        "pointer": [
+          6,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-sieben-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-acht.mp3",
+      "kind": "vocab",
+      "text": "acht",
+      "en": "eight",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "acht",
+        "pointer": [
+          7,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-acht.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-acht-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Acht Gipfeli, bitte!",
+      "en": "Eight croissants, please!",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "acht",
+        "pointer": [
+          7,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-acht-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-acht-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "acht",
+      "en": "eight",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "acht",
+        "pointer": [
+          7,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-acht-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-neun.mp3",
+      "kind": "vocab",
+      "text": "neun",
+      "en": "nine",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "neun",
+        "pointer": [
+          8,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-neun.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-neun-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Das Bier kostet neun Franken.",
+      "en": "The beer costs nine francs.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "neun",
+        "pointer": [
+          8,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-neun-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-neun-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "nüün",
+      "en": "nine",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "neun",
+        "pointer": [
+          8,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-neun-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-neun-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "nün",
+      "en": "nine",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "neun",
+        "pointer": [
+          8,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-neun-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-zehn.mp3",
+      "kind": "vocab",
+      "text": "zehn",
+      "en": "ten",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "zehn",
+        "pointer": [
+          9,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-zehn.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-zehn-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Hier sind zehn Franken.",
+      "en": "Here are ten francs.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "zehn",
+        "pointer": [
+          9,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-zehn-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-zehn-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "zää / zäh / zä",
+      "en": "ten",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "zehn",
+        "pointer": [
+          9,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-zehn-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-zehn-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "zäh",
+      "en": "ten",
+      "variety": "gsw-be",
+      "voice": "be-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "zehn",
+        "pointer": [
+          9,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-zehn-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-zwanzig.mp3",
+      "kind": "vocab",
+      "text": "zwanzig",
+      "en": "twenty",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "zwanzig",
+        "pointer": [
+          10,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-zwanzig.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-zwanzig-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Hier sind zwanzig Franken. Stimmt so.",
+      "en": "Here are twenty francs. Keep the change.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "zwanzig",
+        "pointer": [
+          10,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-zwanzig-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-zwanzig-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "zwänzg",
+      "en": "twenty",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "zwanzig",
+        "pointer": [
+          10,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-zwanzig-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-fuenfzig.mp3",
+      "kind": "vocab",
+      "text": "fünfzig",
+      "en": "fifty",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "fuenfzig",
+        "pointer": [
+          11,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-fuenfzig.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-fuenfzig-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Das macht zwölf Franken fünfzig.",
+      "en": "That's twelve francs fifty.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "fuenfzig",
+        "pointer": [
+          11,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-fuenfzig-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-fuenfzig-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "füfzg",
+      "en": "fifty",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "fuenfzig",
+        "pointer": [
+          11,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-fuenfzig-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-hundert.mp3",
+      "kind": "vocab",
+      "text": "hundert",
+      "en": "(one) hundred",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "hundert",
+        "pointer": [
+          12,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-hundert.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-hundert-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Das kostet hundert Franken!",
+      "en": "That costs a hundred francs!",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "hundert",
+        "pointer": [
+          12,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-hundert-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-hundert-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "hundert",
+      "en": "(one) hundred",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "hundert",
+        "pointer": [
+          12,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-hundert-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kaffee.mp3",
+      "kind": "vocab",
+      "text": "Kaffee",
+      "en": "coffee",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kaffee",
+        "pointer": [
+          13,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-kaffee.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kaffee-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich möchte einen Kaffee, bitte.",
+      "en": "I'd like a coffee, please.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kaffee",
+        "pointer": [
+          13,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-kaffee-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kaffee-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Kafi",
+      "note": "en Kafi; en Kafi Crème = coffee with cream",
+      "en": "coffee",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kaffee",
+        "pointer": [
+          13,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-kaffee-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kaffee-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "Kafi",
+      "en": "coffee",
+      "variety": "gsw-be",
+      "voice": "be-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kaffee",
+        "pointer": [
+          13,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-kaffee-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-tee.mp3",
+      "kind": "vocab",
+      "text": "Tee",
+      "en": "tea",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "tee",
+        "pointer": [
+          14,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-tee.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-tee-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich nehme einen Tee.",
+      "en": "I'll have a tea.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "tee",
+        "pointer": [
+          14,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-tee-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-tee-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Tee",
+      "note": "en Tee",
+      "en": "tea",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "tee",
+        "pointer": [
+          14,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-tee-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wasser.mp3",
+      "kind": "vocab",
+      "text": "Wasser",
+      "en": "water",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wasser",
+        "pointer": [
+          15,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-wasser.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wasser-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Möchten Sie ein Wasser?",
+      "en": "Would you like some water?",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wasser",
+        "pointer": [
+          15,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-wasser-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wasser-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Wasser / Mineral; Hahnewasser",
+      "note": "es Mineral mit oder ohni = sparkling or still; tap water",
+      "en": "water",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wasser",
+        "pointer": [
+          15,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-wasser-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-milch.mp3",
+      "kind": "vocab",
+      "text": "Milch",
+      "en": "milk",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "milch",
+        "pointer": [
+          16,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-milch.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-milch-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Einen Tee mit Milch, bitte.",
+      "en": "A tea with milk, please.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "milch",
+        "pointer": [
+          16,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-milch-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-milch-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Milch",
+      "en": "milk",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "milch",
+        "pointer": [
+          16,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-milch-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-milch-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "Miuch",
+      "en": "milk",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "milch",
+        "pointer": [
+          16,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-milch-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-bier.mp3",
+      "kind": "vocab",
+      "text": "Bier",
+      "en": "beer",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "bier",
+        "pointer": [
+          17,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-bier.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-bier-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ein Bier, bitte!",
+      "en": "A beer, please!",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "bier",
+        "pointer": [
+          17,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-bier-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-bier-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Bier",
+      "note": "es Bier; e Stange = a small draught beer",
+      "en": "beer",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "bier",
+        "pointer": [
+          17,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-bier-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-croissant.mp3",
+      "kind": "vocab",
+      "text": "Croissant",
+      "en": "croissant",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "croissant",
+        "pointer": [
+          18,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-croissant.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-croissant-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich nehme ein Croissant.",
+      "en": "I'll have a croissant.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "croissant",
+        "pointer": [
+          18,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-croissant-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-croissant-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Gipfeli",
+      "note": "es Gipfeli",
+      "en": "croissant",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "croissant",
+        "pointer": [
+          18,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-croissant-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-broetchen.mp3",
+      "kind": "vocab",
+      "text": "Brötchen",
+      "en": "bread roll",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "broetchen",
+        "pointer": [
+          19,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-broetchen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-broetchen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Zwei Brötchen, bitte.",
+      "en": "Two bread rolls, please.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "broetchen",
+        "pointer": [
+          19,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-broetchen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-broetchen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Brötli / Weggli / Bürli",
+      "en": "bread roll",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "broetchen",
+        "pointer": [
+          19,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-broetchen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kuchen.mp3",
+      "kind": "vocab",
+      "text": "Kuchen",
+      "en": "cake",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kuchen",
+        "pointer": [
+          20,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-kuchen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kuchen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Der Kuchen ist sehr gut!",
+      "en": "The cake is very good!",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kuchen",
+        "pointer": [
+          20,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-kuchen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kuchen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Chueche",
+      "note": "de Chueche",
+      "en": "cake",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kuchen",
+        "pointer": [
+          20,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-kuchen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-eis.mp3",
+      "kind": "vocab",
+      "text": "Eis",
+      "en": "ice cream; ice",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "eis",
+        "pointer": [
+          21,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-eis.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-eis-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich möchte ein Eis.",
+      "en": "I'd like an ice cream.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "eis",
+        "pointer": [
+          21,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-eis-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-eis-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Glace",
+      "note": "e Glace",
+      "en": "ice cream; ice",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "eis",
+        "pointer": [
+          21,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-eis-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-fruehstueck.mp3",
+      "kind": "vocab",
+      "text": "Frühstück",
+      "en": "breakfast",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "fruehstueck",
+        "pointer": [
+          22,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-fruehstueck.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-fruehstueck-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Das Frühstück kostet zwölf Franken.",
+      "en": "Breakfast costs twelve francs.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "fruehstueck",
+        "pointer": [
+          22,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-fruehstueck-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-fruehstueck-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Zmorge",
+      "note": "de Zmorge; s Zmorge is also heard",
+      "en": "breakfast",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "fruehstueck",
+        "pointer": [
+          22,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-fruehstueck-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-fruehstueck-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "Zmorge",
+      "note": "ds Zmorge, neuter",
+      "en": "breakfast",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "fruehstueck",
+        "pointer": [
+          22,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-fruehstueck-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-rechnung.mp3",
+      "kind": "vocab",
+      "text": "Rechnung",
+      "en": "bill, check; invoice",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "rechnung",
+        "pointer": [
+          23,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-rechnung.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-rechnung-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Die Rechnung, bitte!",
+      "en": "The bill, please!",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "rechnung",
+        "pointer": [
+          23,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-rechnung-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-rechnung-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Rächnig",
+      "en": "bill, check; invoice",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "rechnung",
+        "pointer": [
+          23,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-rechnung-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-franken.mp3",
+      "kind": "vocab",
+      "text": "Franken",
+      "en": "(Swiss) franc",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "franken",
+        "pointer": [
+          24,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-franken.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-franken-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Das macht sieben Franken.",
+      "en": "That's seven francs.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "franken",
+        "pointer": [
+          24,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-franken-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-franken-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Franke / Stutz",
+      "note": "colloquial",
+      "en": "(Swiss) franc",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "franken",
+        "pointer": [
+          24,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-franken-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-rappen.mp3",
+      "kind": "vocab",
+      "text": "Rappen",
+      "en": "centime (1/100 franc)",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "rappen",
+        "pointer": [
+          25,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-rappen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-rappen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ein Franken hat hundert Rappen.",
+      "en": "One franc has a hundred centimes.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "rappen",
+        "pointer": [
+          25,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-rappen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-rappen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Rappe",
+      "en": "centime (1/100 franc)",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "rappen",
+        "pointer": [
+          25,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-rappen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-karte.mp3",
+      "kind": "vocab",
+      "text": "Karte",
+      "en": "card; menu",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "karte",
+        "pointer": [
+          26,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-karte.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-karte-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Kann ich mit Karte zahlen?",
+      "en": "Can I pay by card?",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "karte",
+        "pointer": [
+          26,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-karte-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-karte-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Charte",
+      "en": "card; menu",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "karte",
+        "pointer": [
+          26,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-karte-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kellner.mp3",
+      "kind": "vocab",
+      "text": "Kellner",
+      "en": "waiter",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kellner",
+        "pointer": [
+          27,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-kellner.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kellner-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Der Kellner bringt den Kaffee.",
+      "en": "The waiter brings the coffee.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kellner",
+        "pointer": [
+          27,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-kellner-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kellner-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Kellner",
+      "en": "waiter",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kellner",
+        "pointer": [
+          27,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-kellner-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kellnerin.mp3",
+      "kind": "vocab",
+      "text": "Kellnerin",
+      "en": "waitress",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kellnerin",
+        "pointer": [
+          28,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-kellnerin.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kellnerin-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Die Kellnerin ist sehr nett.",
+      "en": "The waitress is very nice.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kellnerin",
+        "pointer": [
+          28,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-kellnerin-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kellnerin-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Kellnerin",
+      "en": "waitress",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kellnerin",
+        "pointer": [
+          28,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-kellnerin-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-moechten.mp3",
+      "kind": "vocab",
+      "text": "möchten",
+      "en": "would like",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "moechten",
+        "pointer": [
+          29,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-moechten.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-moechten-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Was möchtest du?",
+      "en": "What would you like?",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "moechten",
+        "pointer": [
+          29,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-moechten-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-moechten-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "möchte",
+      "note": "ich möcht, du möchtsch / möchtisch, mir möchted",
+      "en": "would like",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "moechten",
+        "pointer": [
+          29,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-moechten-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-nehmen.mp3",
+      "kind": "vocab",
+      "text": "nehmen",
+      "en": "to take; to have (when ordering)",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "nehmen",
+        "pointer": [
+          30,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-nehmen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-nehmen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich nehme einen Tee. Was nimmst du?",
+      "en": "I'll have a tea. What are you having?",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "nehmen",
+        "pointer": [
+          30,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-nehmen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-nehmen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "näh",
+      "note": "ich nimm, du nimmsch, er nimmt",
+      "en": "to take; to have (when ordering)",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "nehmen",
+        "pointer": [
+          30,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-nehmen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-trinken.mp3",
+      "kind": "vocab",
+      "text": "trinken",
+      "en": "to drink",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "trinken",
+        "pointer": [
+          31,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-trinken.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-trinken-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Was trinkst du?",
+      "en": "What are you drinking?",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "trinken",
+        "pointer": [
+          31,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-trinken-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-trinken-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "trinke",
+      "en": "to drink",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "trinken",
+        "pointer": [
+          31,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-trinken-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kosten.mp3",
+      "kind": "vocab",
+      "text": "kosten",
+      "en": "to cost",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kosten",
+        "pointer": [
+          32,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-kosten.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kosten-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Was kostet ein Kaffee?",
+      "en": "How much is a coffee?",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kosten",
+        "pointer": [
+          32,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-kosten-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kosten-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "choschte",
+      "note": "Was choschtet das?",
+      "en": "to cost",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kosten",
+        "pointer": [
+          32,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-kosten-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-zahlen.mp3",
+      "kind": "vocab",
+      "text": "zahlen",
+      "en": "to pay",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "zahlen",
+        "pointer": [
+          33,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-zahlen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-zahlen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Wir möchten zahlen, bitte.",
+      "en": "We'd like to pay, please.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "zahlen",
+        "pointer": [
+          33,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-zahlen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-zahlen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "zahle",
+      "en": "to pay",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "zahlen",
+        "pointer": [
+          33,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-zahlen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-ich-haette-gern.mp3",
+      "kind": "vocab",
+      "text": "Ich hätte gern ...",
+      "en": "I'd like ... (very polite)",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "ich-haette-gern",
+        "pointer": [
+          34,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-ich-haette-gern.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-ich-haette-gern-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich hätte gern ein Wasser.",
+      "en": "I'd like a water.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "ich-haette-gern",
+        "pointer": [
+          34,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-ich-haette-gern-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-ich-haette-gern-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Ich hett gärn ... / Ich hett gern ...",
+      "en": "I'd like ... (very polite)",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "ich-haette-gern",
+        "pointer": [
+          34,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-ich-haette-gern-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-das-macht.mp3",
+      "kind": "vocab",
+      "text": "Das macht ...",
+      "en": "That comes to ... / That's ...",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "das-macht",
+        "pointer": [
+          35,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-das-macht.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-das-macht-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Das macht neun Franken fünfzig.",
+      "en": "That's nine francs fifty.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "das-macht",
+        "pointer": [
+          35,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-das-macht-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-das-macht-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Das macht ...",
+      "en": "That comes to ... / That's ...",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "das-macht",
+        "pointer": [
+          35,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-das-macht-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sonst-noch-etwas.mp3",
+      "kind": "vocab",
+      "text": "Sonst noch etwas?",
+      "en": "Anything else?",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sonst-noch-etwas",
+        "pointer": [
+          36,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-sonst-noch-etwas.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sonst-noch-etwas-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ein Kaffee. Sonst noch etwas?",
+      "en": "One coffee. Anything else?",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sonst-noch-etwas",
+        "pointer": [
+          36,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-sonst-noch-etwas-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sonst-noch-etwas-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Suscht no öppis? / Süscht no öppis?",
+      "en": "Anything else?",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sonst-noch-etwas",
+        "pointer": [
+          36,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-sonst-noch-etwas-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sonst-noch-etwas-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "Süsch no öppis?",
+      "en": "Anything else?",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sonst-noch-etwas",
+        "pointer": [
+          36,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-sonst-noch-etwas-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-zusammen.mp3",
+      "kind": "vocab",
+      "text": "zusammen",
+      "en": "together",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "zusammen",
+        "pointer": [
+          37,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-zusammen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-zusammen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Zusammen oder getrennt?",
+      "en": "Together or separately?",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "zusammen",
+        "pointer": [
+          37,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-zusammen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-zusammen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "zäme",
+      "en": "together",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "zusammen",
+        "pointer": [
+          37,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-zusammen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-stimmt-so.mp3",
+      "kind": "vocab",
+      "text": "Stimmt so.",
+      "en": "Keep the change.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "stimmt-so",
+        "pointer": [
+          38,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-stimmt-so.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-stimmt-so-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Hier sind zehn Franken. Stimmt so.",
+      "en": "Here are ten francs. Keep the change.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "stimmt-so",
+        "pointer": [
+          38,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-stimmt-so-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-stimmt-so-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Stimmt so. / Isch guet so.",
+      "en": "Keep the change.",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "stimmt-so",
+        "pointer": [
+          38,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-stimmt-so-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-u02-dictation-order.mp3",
+      "kind": "dictation",
+      "text": "Ein Kaffee und ein Croissant, bitte.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a1-u02-dictation-order",
+        "pointer": [
+          17,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a1-u02-dictation-order.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-u02-dictation-price.mp3",
+      "kind": "dictation",
+      "text": "Das macht siebzehn Franken achtzig.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a1-u02-dictation-price",
+        "pointer": [
+          18,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a1-u02-dictation-price.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-u02-dictation-milch.mp3",
+      "kind": "dictation",
+      "text": "Ich möchte einen Tee mit Milch.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a1-u02-dictation-milch",
+        "pointer": [
+          19,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a1-u02-dictation-milch.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-u02-mcq-listening-getrennt.mp3",
+      "kind": "listening",
+      "text": "Zusammen oder getrennt?",
+      "variety": "de",
+      "voice": "de-f",
+      "speaker": "waitress",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a1-u02-mcq-listening-getrennt",
+        "pointer": [
+          22,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a1-u02-mcq-listening-getrennt.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-u02-speak-order.mp3",
+      "kind": "speak",
+      "text": "Guten Tag! Ich hätte gern einen Kaffee und ein Croissant, bitte.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a1-u02-speak-order",
+        "pointer": [
+          27,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a1-u02-speak-order.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-u02-speak-umlaut.mp3",
+      "kind": "speak",
+      "text": "fünf, fünfzehn, fünfzig. Zwölf Franken fünfzig, bitte.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a1-u02-speak-umlaut",
+        "pointer": [
+          28,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a1-u02-speak-umlaut.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-u02-speak-prices.mp3",
+      "kind": "speak",
+      "text": "vier Franken achtzig, siebzehn Franken fünfzig, dreiundzwanzig Franken neunzig, neunundneunzig Franken",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a1-u02-speak-prices",
+        "pointer": [
+          29,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a1-u02-speak-prices.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-u02-ch-mcq-doerfs.mp3",
+      "kind": "listening",
+      "text": "Grüezi mitenand! Was dörfs sii?",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "waitress",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a1-u02-ch-mcq-doerfs",
+        "pointer": [
+          37,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a1-u02-ch-mcq-doerfs.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-u02-ch-mcq-price.mp3",
+      "kind": "listening",
+      "text": "Das macht zwölf Franke füfzg.",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "waitress",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a1-u02-ch-mcq-price",
+        "pointer": [
+          39,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a1-u02-ch-mcq-price.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-u02-ch-be-mcq-fuef.mp3",
+      "kind": "listening",
+      "text": "Das macht füf Franke.",
+      "variety": "gsw-be",
+      "voice": "be-m",
+      "speaker": "waiter",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a1-u02-ch-be-mcq-fuef",
+        "pointer": [
+          46,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a1-u02-ch-be-mcq-fuef.mp3",
+      "referenced": false
+    }
+  ]
+}

@@ -94,6 +94,7 @@ function UnitScreen() {
           {unit.title}
         </h1>
         <p className="text-muted">{unit.titleEn}</p>
+        <ReviewNote unit={unit} />
       </header>
 
       <nav aria-label="Unit steps" className="-mx-4 overflow-x-auto px-4">
@@ -136,5 +137,24 @@ function UnitScreen() {
         </div>
       )}
     </div>
+  );
+}
+
+/** Subtle note on units whose German and Swiss content hasn't been signed off by native speakers yet. */
+export function ReviewNote({ unit }: { unit: Pick<CompiledUnit, 'review'> }) {
+  const de = !!unit.review?.de;
+  const ch = !!unit.review?.ch;
+  if (de && ch) {
+    return (
+      <p className="mt-1 text-xs text-muted">
+        <span aria-hidden="true">✓ </span>Checked by native speakers{unit.review?.date ? ` (${unit.review.date})` : ''}
+      </p>
+    );
+  }
+  const missing = !de && !ch ? '' : !de ? ' (Standard German check pending)' : ' (Swiss German check pending)';
+  return (
+    <p className="mt-1 text-xs text-muted" title="A German teacher and a Swiss native check every unit before v1.0.">
+      <span aria-hidden="true">ⓘ </span>Not yet reviewed by a native speaker{missing}
+    </p>
   );
 }

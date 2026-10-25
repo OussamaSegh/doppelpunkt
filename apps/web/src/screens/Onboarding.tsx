@@ -119,7 +119,7 @@ export function Onboarding() {
           </button>
           <button type="button" className="card w-full text-left" onClick={() => finish(true)}>
             <span className="block font-semibold">I know some German</span>
-            <span className="text-sm text-muted">Take a short placement test (about 5 minutes).</span>
+            <span className="text-sm text-muted">Take the placement test (about 25 minutes; you can stop early).</span>
           </button>
           <button type="button" className="btn-ghost" onClick={() => setStep('goal')}>
             Back

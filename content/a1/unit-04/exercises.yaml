@@ -1,0 +1,700 @@
+# A1 unit 4 – Mein Tag
+
+# ---------- vocabulary ----------
+- id: a1-u04-match-days
+  type: match
+  skill: vocabulary
+  variety: de
+  prompt: Match the days of the week with English.
+  pairs:
+    - ["Montag", "Monday"]
+    - ["Dienstag", "Tuesday"]
+    - ["Mittwoch", "Wednesday"]
+    - ["Donnerstag", "Thursday"]
+    - ["Freitag", "Friday"]
+  explanation: >-
+    All days are masculine (der Montag) and end in -tag, except der Mittwoch ("mid-week"). Samstag and
+    Sonntag complete the week; in northern Germany you'll also hear Sonnabend for Saturday.
+
+- id: a1-u04-match-parts-of-day
+  type: match
+  skill: vocabulary
+  variety: de
+  prompt: Match the parts of the day with English.
+  pairs:
+    - ["der Morgen", "morning"]
+    - ["der Vormittag", "late morning"]
+    - ["der Nachmittag", "afternoon"]
+    - ["der Abend", "evening"]
+    - ["die Nacht", "night"]
+  explanation: >-
+    The parts of the day are masculine (der Morgen, der Abend) – except die Nacht. With am they become
+    time expressions: am Morgen, am Abend; but in der Nacht. Don't confuse der Morgen (morning) with the
+    adverb morgen (tomorrow).
+
+- id: a1-u04-mcq-wochenende
+  type: mcq
+  skill: vocabulary
+  variety: de
+  prompt: "Samstag und Sonntag sind das ..."
+  options: ["Woche", "Abendessen", "Wochenende", "Mittagessen"]
+  answer: 2
+  explanation: >-
+    das Wochenende = Woche + Ende (week + end). Like most compound nouns it takes the gender of the last
+    part: das Ende → das Wochenende. "At the weekend" = am Wochenende.
+
+# ---------- grammar: stem-changing verbs ----------
+- id: a1-u04-gap-stem-1
+  type: gap
+  skill: grammar
+  variety: de
+  grammar: [stem-changing-verbs]
+  prompt: Fill in the correct form of the verb in brackets.
+  text: Du ___ (fahren) nach Luzern. Tom ___ (schlafen) bis sieben. Anna ___ (lesen) die Zeitung.
+  answers: [["fährst"], ["schläft"], ["liest"]]
+  explanation: >-
+    The vowel changes only for du and er/sie/es: fahren → du fährst (a → ä), schlafen → er schläft (a → ä),
+    lesen → sie liest (e → ie). After the s of lies- the er-form adds only -t.
+
+- id: a1-u04-gap-stem-2
+  type: gap
+  skill: grammar
+  variety: de
+  grammar: [stem-changing-verbs]
+  prompt: Fill in the correct form of the verb in brackets. Careful – not every person changes.
+  text: Was ___ (essen) du zum Frühstück? – Ich ___ (essen) ein Croissant. ___ (fahren) ihr am Sonntag nach Bern?
+  answers: [["isst"], ["esse"], ["Fahrt", "fahrt"]]
+  explanation: >-
+    essen: du isst (e → i, only -t after the s-sound), but ich esse – no change. ihr keeps the infinitive
+    vowel: ihr fahrt, not ihr fährt.
+
+- id: a1-u04-mcq-isst
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [stem-changing-verbs]
+  prompt: Choose the correct form.
+  question: Er ___ um zwölf Uhr zu Mittag.
+  options: ["esst", "isst", "ist", "esset"]
+  answer: 1
+  rationales:
+    - "esst is the ihr-form (ihr esst)."
+    - "Correct. essen → er isst (e → i)."
+    - "ist is a form of sein (he is) – it sounds the same as isst, so listen to the context."
+    - "This form does not exist."
+  explanation: >-
+    essen changes e → i in the du- and er-forms: du isst, er isst. isst and ist sound identical; only the
+    spelling and the context tell them apart.
+
+- id: a1-u04-match-stem
+  type: match
+  skill: grammar
+  variety: de
+  grammar: [stem-changing-verbs]
+  prompt: Match each infinitive with its er-form.
+  pairs:
+    - ["fahren", "er fährt"]
+    - ["schlafen", "er schläft"]
+    - ["essen", "er isst"]
+    - ["lesen", "er liest"]
+    - ["sehen", "er sieht"]
+  explanation: >-
+    Three patterns: a → ä (fährt, schläft), e → i (isst, nimmt), e → ie (liest, sieht). Learn each of these
+    verbs with its er-form, as dictionaries show them: fahren (fährt).
+
+# ---------- grammar: separable verbs ----------
+- id: a1-u04-gap-aufstehen
+  type: gap
+  skill: grammar
+  variety: de
+  grammar: [separable-verbs]
+  prompt: "Fill in the two parts of the verb aufstehen."
+  text: Ich ___ jeden Tag um sieben Uhr ___.
+  answers: [["stehe"], ["auf"]]
+  explanation: >-
+    aufstehen is separable: the conjugated part stehe goes to position 2, the prefix auf to the very end.
+    jeden Tag = every day.
+
+- id: a1-u04-gap-separable-mix
+  type: gap
+  skill: grammar
+  variety: de
+  grammar: [separable-verbs, stem-changing-verbs]
+  prompt: "Fill in the verb parts. (anfangen, fernsehen)"
+  text: Der Kurs ___ um neun ___. Am Abend ___ Anna ___.
+  answers: [["fängt"], ["an"], ["sieht"], ["fern"]]
+  explanation: >-
+    Both verbs are separable and stem-changing: an|fangen → es fängt ... an (a → ä); fern|sehen → sie sieht
+    ... fern (e → ie). The prefix always closes the sentence.
+
+- id: a1-u04-order-aufstehen
+  type: order
+  skill: grammar
+  variety: de
+  grammar: [separable-verbs, time-inversion]
+  prompt: Put the words in order.
+  tokens: ["stehe", "Ich", "um", "sechs", "auf"]
+  answers: ["Ich stehe um sechs auf.", "Um sechs stehe ich auf."]
+  explanation: >-
+    Verb (stehe) in position 2, prefix (auf) at the end. If you start with the time, the subject moves
+    after the verb: Um sechs stehe ich auf.
+
+- id: a1-u04-order-anfangen
+  type: order
+  skill: grammar
+  variety: de
+  grammar: [separable-verbs]
+  prompt: Make a question.
+  tokens: ["fängt", "Wann", "Kurs", "der", "an"]
+  answers: ["Wann fängt der Kurs an?"]
+  explanation: >-
+    W-question: question word, verb, subject – and the prefix still goes to the end. English "When does
+    the course start?" needs does; German doesn't.
+
+- id: a1-u04-mcq-fernsehen
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [separable-verbs, time-inversion]
+  prompt: Which sentence is correct?
+  options: ["Am Abend ich sehe fern.", "Am Abend fernsehe ich.", "Am Abend sehe fern ich.", "Am Abend sehe ich fern."]
+  answer: 3
+  rationales:
+    - "The verb must be in position 2, before the subject."
+    - "The prefix splits off in a statement."
+    - "The prefix goes to the very end, after the subject."
+    - "Correct. Time – verb – subject – prefix at the end."
+  explanation: >-
+    Two rules at once: inversion (Am Abend + verb + subject) and the separable bracket (sehe ... fern).
+
+- id: a1-u04-mcq-fruehstuecken
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [separable-verbs]
+  prompt: Choose the correct sentence.
+  options: ["Ich frühstücke um sieben.", "Ich stücke um sieben früh.", "Ich früh stücke um sieben.", "Ich frühstücken um sieben."]
+  answer: 0
+  rationales:
+    - "Correct. frühstücken is a normal verb; it never splits."
+    - "früh is not a separable prefix here."
+    - "The verb is one word."
+    - "frühstücken is the infinitive; ich needs -e."
+  explanation: >-
+    Only real prefixes split off (auf-, an-, ein-, fern- ...). frühstücken comes from das Frühstück and
+    behaves like any regular verb: ich frühstücke, du frühstückst.
+
+- id: a1-u04-transform-einkaufen
+  type: transform
+  skill: grammar
+  variety: de
+  grammar: [separable-verbs, time-inversion]
+  prompt: Start the sentence with the time expression.
+  from: de
+  to: de
+  source: Ich kaufe am Samstag ein.
+  answers: ["Am Samstag kaufe ich ein."]
+  explanation: >-
+    Am Samstag takes position 1, the verb kaufe stays in position 2, the subject ich follows, and the
+    prefix ein stays at the end.
+
+# ---------- grammar: telling the time ----------
+- id: a1-u04-mcq-halb-neun
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [telling-time]
+  prompt: "\"Es ist halb neun.\" What time is it?"
+  options: ["9.30", "8.30", "8.50", "9.05"]
+  answer: 1
+  rationales:
+    - "The classic trap for English speakers. \"Half nine\" in British English is 9.30, but German halb neun is 8.30."
+    - "Correct. halb neun = half way to nine = 8.30."
+    - "8.50 is zehn vor neun."
+    - "9.05 is fünf nach neun."
+  explanation: >-
+    German halb looks forward to the next hour: halb neun = 8.30, halb drei = 2.30. When in doubt, think
+    "half (of the way) to nine".
+
+- id: a1-u04-match-clock
+  type: match
+  skill: grammar
+  variety: de
+  grammar: [telling-time]
+  prompt: Match the times with the everyday German.
+  pairs:
+    - ["8.15", "Viertel nach acht"]
+    - ["8.30", "halb neun"]
+    - ["8.45", "Viertel vor neun"]
+    - ["8.10", "zehn nach acht"]
+    - ["8.25", "fünf vor halb neun"]
+  explanation: >-
+    nach = past, vor = to. halb refers to the next hour (halb neun = 8.30), and the minutes around it count
+    from the half hour: fünf vor halb neun = 8.25.
+
+- id: a1-u04-gap-um-am
+  type: gap
+  skill: grammar
+  variety: de
+  grammar: [telling-time]
+  prompt: Fill in um, am, von or bis.
+  text: ___ Montag arbeite ich ___ neun ___ fünf Uhr. Der Kurs fängt ___ sechs an.
+  answers: [["Am", "am"], ["von"], ["bis"], ["um"]]
+  explanation: >-
+    am + day (am Montag), von ... bis for a period, um + clock time (um sechs). English uses on / from ...
+    to / at.
+
+- id: a1-u04-mcq-official-time
+  type: mcq
+  skill: listening
+  variety: ch-std
+  grammar: [telling-time]
+  prompt: "At Zurich station you hear: \"Der Zug nach Bern fährt um zwanzig Uhr fünfundvierzig.\" When does the train leave?"
+  options: ["20.15", "19.45", "21.45", "20.45"]
+  answer: 3
+  explanation: >-
+    Announcements, timetables and appointments use official 24-hour time: hour + Uhr + minutes. zwanzig
+    Uhr fünfundvierzig = 20.45 – in everyday speech Viertel vor neun (am Abend). der Zug = the train.
+
+- id: a1-u04-translate-time
+  type: translate
+  skill: writing
+  variety: de
+  grammar: [telling-time]
+  prompt: Translate into German (everyday time).
+  source: What time is it? – It's half past seven.
+  answers:
+    - "Wie spät ist es? – Es ist halb acht."
+    - "Wie viel Uhr ist es? – Es ist halb acht."
+    - "Wie spät ist es? Es ist halb acht."
+    - "Wie viel Uhr ist es? Es ist halb acht."
+    - "Wieviel Uhr ist es? – Es ist halb acht."
+  explanation: >-
+    Half past seven = halb acht (half way to eight). Both Wie spät ist es? and Wie viel Uhr ist es? are
+    common; the answer always starts with Es ist ...
+
+# ---------- grammar: inversion ----------
+- id: a1-u04-order-inversion
+  type: order
+  skill: grammar
+  variety: de
+  grammar: [time-inversion]
+  prompt: Start with the time expression.
+  tokens: ["Am", "Sonntag", "schläft", "Anna", "lang"]
+  answers: ["Am Sonntag schläft Anna lang.", "Anna schläft am Sonntag lang."]
+  explanation: >-
+    Am Sonntag in position 1 → verb (schläft) in position 2 → subject (Anna) in position 3. Starting with
+    Anna is also correct; note that am then has a lower-case a.
+
+- id: a1-u04-transform-dann
+  type: transform
+  skill: grammar
+  variety: de
+  grammar: [time-inversion, separable-verbs]
+  prompt: Join the two sentences with "dann" at the start of the second one.
+  from: de
+  to: de
+  source: Ich stehe auf. Ich frühstücke.
+  answers: ["Ich stehe auf. Dann frühstücke ich.", "Ich stehe auf, dann frühstücke ich.", "Ich stehe auf und dann frühstücke ich."]
+  explanation: >-
+    dann takes position 1, so the verb comes next and the subject after it: Dann frühstücke ich. (Not:
+    Dann ich frühstücke.) und does not count as a position, so ... und dann frühstücke ich works too.
+
+- id: a1-u04-mcq-time-place
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [time-inversion]
+  prompt: "Which is the most natural word order for \"Anna works in the café on Monday\"?"
+  options: ["Anna arbeitet im Café am Montag.", "Anna am Montag arbeitet im Café.", "Anna arbeitet am Montag im Café.", "Am Montag Anna arbeitet im Café."]
+  answer: 2
+  rationales:
+    - "Possible for contrast, but the neutral order is time before place."
+    - "The verb must be in position 2."
+    - "Correct. Time (am Montag) before place (im Café)."
+    - "After Am Montag the verb comes next, then the subject."
+  explanation: >-
+    English: place, then time ("in the café on Monday"). German: time, then place ("am Montag im Café").
+    Or start with the time: Am Montag arbeitet Anna im Café.
+
+# ---------- reading ----------
+- id: a1-u04-mcq-reading-aufstehen
+  type: mcq
+  skill: reading
+  variety: de
+  grammar: [telling-time]
+  prompt: "Read \"Ein Tag von Jonas\". When does Jonas get up?"
+  options: ["At 2.30", "At 3.30", "At 2.15", "At 3.00"]
+  answer: 0
+  explanation: >-
+    "Ich stehe um halb drei auf." halb drei = 2.30, half way to three. At 3.00 he starts work ("Von drei
+    bis elf Uhr arbeite ich").
+
+- id: a1-u04-mcq-reading-afternoon
+  type: mcq
+  skill: reading
+  variety: de
+  prompt: What does Jonas do in the afternoon?
+  options: ["He works in the bakery.", "He watches TV with Lea.", "He sleeps for two hours and then goes shopping.", "He rides his bike to Winterthur."]
+  answer: 2
+  explanation: >-
+    "Am Nachmittag schlafe ich zwei Stunden. Dann kaufe ich ein ..." einkaufen is separable: kaufe ... ein.
+    Watching TV happens at nine in the evening.
+
+- id: a1-u04-mcq-reading-weekend
+  type: mcq
+  skill: reading
+  variety: de
+  prompt: "Richtig oder falsch? \"Jonas arbeitet am Samstag.\""
+  options: ["Richtig", "Falsch"]
+  answer: 1
+  explanation: >-
+    Falsch. "Am Samstag und am Sonntag habe ich frei." frei haben = to have the day off. At the weekend he
+    sleeps until eight or nine.
+
+- id: a1-u04-translate-reading
+  type: translate
+  skill: reading
+  variety: de
+  grammar: [time-inversion, stem-changing-verbs]
+  prompt: Translate into English.
+  source: Am Nachmittag schläft Jonas zwei Stunden.
+  answers:
+    - "In the afternoon Jonas sleeps for two hours."
+    - "Jonas sleeps for two hours in the afternoon."
+    - "In the afternoon Jonas sleeps two hours."
+    - "Jonas sleeps two hours in the afternoon."
+  explanation: >-
+    Am Nachmittag = in the afternoon; schläft is er-form of schlafen (a → ä). English keeps subject-verb
+    order after the time expression; German inverts: Am Nachmittag schläft Jonas.
+
+# ---------- listening ----------
+- id: a1-u04-dictation-aufstehen
+  type: dictation
+  skill: listening
+  variety: de
+  grammar: [separable-verbs]
+  prompt: Listen and write what you hear.
+  transcript: Ich stehe um sechs Uhr auf.
+  explanation: >-
+    Listen for the stressed prefix auf at the end – it completes the verb stehe. Uhr is written with h.
+
+- id: a1-u04-dictation-kurs
+  type: dictation
+  skill: listening
+  variety: de
+  grammar: [telling-time, separable-verbs]
+  prompt: Listen and write what you hear.
+  transcript: Der Kurs fängt um halb neun an.
+  explanation: >-
+    fängt has ä (from anfangen, a → ä). halb neun = 8.30. The sentence ends with the prefix an.
+
+- id: a1-u04-dictation-sonntag
+  type: dictation
+  skill: listening
+  variety: de
+  grammar: [time-inversion, stem-changing-verbs]
+  prompt: Listen and write what you hear.
+  transcript: Am Sonntag sieht Tom fern.
+  explanation: >-
+    sieht (e → ie, with h) and the prefix fern at the end. Days are nouns and start with a capital letter.
+
+- id: a1-u04-mcq-listening-time
+  type: mcq
+  skill: listening
+  variety: de
+  grammar: [telling-time]
+  prompt: Listen to the intro dialogue. What time is it when Anna and Tom meet?
+  options: ["8.30", "7.45", "9.15", "8.15"]
+  answer: 3
+  explanation: >-
+    "Es ist Viertel nach acht." = 8.15. The course starts at halb neun (8.30). At the end it's fünf vor
+    halb neun (8.25).
+
+- id: a1-u04-mcq-listening-anna
+  type: mcq
+  skill: listening
+  variety: de
+  grammar: [telling-time]
+  prompt: Listen to the intro dialogue again. When does Anna work in the café?
+  options: ["From 2 to 6", "From 6 to 7.30", "From 8.30 to 2", "On Saturday"]
+  answer: 0
+  explanation: >-
+    "Von zwei bis sechs arbeite ich im Café." von ... bis = from ... to. She sleeps until halb acht (7.30),
+    and on Saturday she sleeps in.
+
+# ---------- speaking ----------
+- id: a1-u04-speak-routine
+  type: speak
+  skill: speaking
+  variety: de
+  grammar: [separable-verbs, time-inversion]
+  prompt: Read aloud, then describe your own morning in the same way.
+  target: Um sieben Uhr stehe ich auf. Dann frühstücke ich. Um halb neun fängt mein Kurs an.
+  explanation: >-
+    Every sentence starts with a time word, so the verb comes second and the subject third. Stress the
+    separable prefixes: AUF, AN.
+
+- id: a1-u04-speak-stress
+  type: speak
+  skill: speaking
+  variety: de
+  grammar: [separable-verbs]
+  prompt: "Pronunciation: stress the separable prefix. Read aloud."
+  target: aufstehen – Ich stehe auf. anfangen – Es fängt an. einkaufen – Ich kaufe ein. fernsehen – Ich sehe fern.
+  explanation: >-
+    Separable verbs are stressed on the prefix: AUFstehen, ANfangen, EINkaufen, FERNsehen. The prefix at the
+    end of the sentence also carries stress – it's the part listeners wait for.
+
+- id: a1-u04-roleplay-lena
+  type: roleplay
+  skill: speaking
+  variety: de
+  grammar: [separable-verbs, stem-changing-verbs, telling-time, time-inversion]
+  tutor: lena
+  prompt: "Roleplay with Lena: compare your days and find a time to meet."
+  scenario: >-
+    Lena, your classmate, wants to cook dinner with you this week. Compare your routines and find a day and
+    a time that works for both of you. Use du.
+  goals:
+    - Say when you get up and when you start and finish work or class.
+    - Ask Lena at least two questions with Wann ...? or Um wie viel Uhr ...?
+    - Use at least two separable verbs correctly (aufstehen, anfangen, einkaufen, fernsehen).
+    - Agree on a day and a time (am ... um ...).
+  model: |
+    Lena: Wann hast du diese Woche Zeit? Ich koche gern!
+    Du: Von Montag bis Freitag arbeite ich von acht bis fünf.
+    Lena: Und am Abend?
+    Du: Am Montag kaufe ich ein, und am Dienstag fängt um sieben mein Deutschkurs an.
+    Lena: Und am Donnerstag?
+    Du: Am Donnerstag geht es. Um wie viel Uhr?
+    Lena: Um halb sieben?
+    Du: Gut, am Donnerstag um halb sieben!
+  explanation: >-
+    Useful frames: Am Montag ... / Um halb sieben ... (inversion); Wann fängt ... an?; Am Donnerstag geht
+    es (Thursday works). Remember halb sieben = 6.30.
+
+# ---------- writing ----------
+- id: a1-u04-translate-saturday
+  type: translate
+  skill: writing
+  variety: de
+  grammar: [separable-verbs, time-inversion]
+  prompt: Translate into German.
+  source: On Saturday I go shopping.
+  answers: ["Am Samstag kaufe ich ein.", "Ich kaufe am Samstag ein.", "Am Samstag gehe ich einkaufen.", "Ich gehe am Samstag einkaufen."]
+  explanation: >-
+    "Go shopping" is einkaufen (separable): Am Samstag kaufe ich ein. Ich gehe einkaufen is also very common.
+    Don't translate "go" with fahren unless you mean by car or bus.
+
+- id: a1-u04-translate-fernsehen
+  type: translate
+  skill: writing
+  variety: de
+  grammar: [separable-verbs, stem-changing-verbs, telling-time]
+  prompt: Translate into German.
+  source: Do you watch TV in the evening?
+  answers: ["Siehst du am Abend fern?", "Sehen Sie am Abend fern?", "Seht ihr am Abend fern?", "Siehst du abends fern?"]
+  explanation: >-
+    Yes/no question: verb first (Siehst), subject, time, prefix at the end (fern). sehen changes e → ie
+    for du: du siehst.
+
+- id: a1-u04-write-day
+  type: write
+  skill: writing
+  variety: de
+  grammar: [separable-verbs, stem-changing-verbs, telling-time, time-inversion]
+  prompt: Write about your typical day.
+  task: >-
+    Write 6–8 sentences about a normal weekday for your course blog: when you get up, eat, work or study,
+    and what you do in the evening. Add one sentence about the weekend. Start at least three sentences with
+    a time expression.
+  minWords: 45
+  model: >-
+    Ich stehe um halb sieben auf. Dann frühstücke ich und lese die Zeitung. Um acht Uhr fahre ich zur Arbeit.
+    Ich arbeite von halb neun bis fünf. Um zwölf Uhr esse ich zu Mittag. Am Abend kaufe ich ein und koche.
+    Dann sehe ich ein bisschen fern. Am Wochenende schlafe ich lang!
+  checklist:
+    - I put the prefix of separable verbs at the end (Ich stehe ... auf).
+    - After a time expression in position 1, the verb comes second and the subject third.
+    - I use um with clock times and am with days and parts of the day.
+    - I use the right forms of stem-changing verbs (er fährt, sie liest).
+    - I remember that halb acht means 7.30.
+  explanation: >-
+    A routine text is a chain of time expressions: Um ... / Dann ... / Am Abend ... Each one triggers
+    inversion. Mixing them with plain subject-first sentences makes the text sound natural.
+
+# ---------- Swiss Standard German ----------
+- id: a1-u04-chstd-mcq-nachtessen
+  type: mcq
+  skill: reading
+  variety: ch-std
+  prompt: "A hotel sign in Lucerne: \"Nachtessen von 18.30 bis 21 Uhr\". What is served?"
+  options: ["A night-time snack", "Dinner", "Breakfast", "Lunch"]
+  answer: 1
+  explanation: >-
+    das Nachtessen is the Swiss Standard German word for das Abendessen (dinner). Likewise das Morgenessen
+    = das Frühstück. In dialect: s Znacht, de Zmorge.
+
+# ---------- Swiss lane (gsw-zh) ----------
+- id: a1-u04-ch-mcq-halbi
+  type: mcq
+  skill: listening
+  variety: gsw-zh
+  grammar: [telling-time]
+  prompt: "Reto says: \"Ich schlaf bis am halbi achti.\" Until when does he sleep?"
+  options: ["8.30", "8.00", "7.15", "7.30"]
+  answer: 3
+  explanation: >-
+    halbi achti = halb acht = 7.30, half way to eight – exactly like Standard German. Zurich hours take -i
+    from four on (vieri, föifi, ... achti), and am replaces um: bis am halbi achti = bis halb acht.
+
+- id: a1-u04-ch-mcq-meet
+  type: mcq
+  skill: listening
+  variety: gsw-zh
+  grammar: [telling-time]
+  prompt: Listen to the Swiss lane dialogue. When do Reto and Sandra meet for dinner?
+  options: ["At 6.45", "At 6.00", "At 7.15", "At 7.30"]
+  answer: 2
+  explanation: >-
+    "Am Viertel ab sibni." Viertel ab = Viertel nach, so it's 7.15. Reto can't come earlier: "ich schaffe
+    bis am sächsi" (I work until six).
+
+- id: a1-u04-ch-match-meals
+  type: match
+  skill: vocabulary
+  variety: gsw-zh
+  prompt: Match the Swiss meal words with English.
+  pairs:
+    - ["de Zmorge", "breakfast"]
+    - ["de Zmittag", "lunch"]
+    - ["s Znacht", "dinner"]
+    - ["s Znüni", "mid-morning snack"]
+    - ["s Zvieri", "afternoon snack"]
+  explanation: >-
+    All five start with z (= zu, "at"): Zmorge = at morning, Znüni = at nine, Zvieri = at four. Znüni and
+    Zvieri are also used in Swiss Standard German – a Swiss office has a Znünipause.
+
+- id: a1-u04-ch-match-days
+  type: match
+  skill: vocabulary
+  variety: gsw-zh
+  prompt: Match the Zurich German days with Standard German.
+  pairs:
+    - ["Mäntig", "Montag"]
+    - ["Ziischtig", "Dienstag"]
+    - ["Donschtig", "Donnerstag"]
+    - ["Friitig", "Freitag"]
+    - ["Samschtig", "Samstag"]
+  explanation: >-
+    Familiar patterns: st → scht (Samschtig, Donschtig), ei → ii (Friitig), and -tag → -tig. Ziischtig
+    keeps the old name of the god Ziu, which is also behind English Tuesday.
+
+- id: a1-u04-ch-transform-stah-uf
+  type: transform
+  skill: reading
+  variety: gsw-zh
+  grammar: [separable-verbs, telling-time]
+  prompt: What does this mean in Standard German?
+  from: gsw-zh
+  to: de
+  source: Ich stah am sächsi uf.
+  answers: ["Ich stehe um sechs auf.", "Ich stehe um sechs Uhr auf.", "Ich stehe um 6 Uhr auf.", "Ich stehe um 6 auf."]
+  explanation: >-
+    stah ... uf = stehe ... auf (the verb splits just like in Standard German); am sächsi = um sechs (Uhr).
+    Zurich uses am, not um, with clock times.
+
+- id: a1-u04-ch-mcq-fahrt
+  type: mcq
+  skill: grammar
+  variety: gsw-zh
+  grammar: [stem-changing-verbs]
+  prompt: "Reto says: \"Mis Tram fahrt am achti.\" What is different from Standard German?"
+  options: ["fahrt has no umlaut (Standard: fährt).", "fahrt is the ihr-form.", "am achti means eight minutes.", "Nothing – it's Standard German."]
+  answer: 0
+  rationales:
+    - "Correct. Swiss German verbs don't take the a → ä change: er fahrt, si schlaft, es fangt aa."
+    - "In Standard German ihr fahrt looks like this, but here it is the er/es-form."
+    - "am achti = um acht (Uhr)."
+    - "mis, am achti and the missing umlaut are all dialect."
+  explanation: >-
+    Zurich German keeps the a in the er-form: er fahrt, er schlaft. Don't carry this into Standard German –
+    there you need er fährt, er schläft. (s Tram is neuter in Switzerland.)
+
+- id: a1-u04-ch-transform-wie-spaat
+  type: transform
+  skill: vocabulary
+  variety: gsw-zh
+  grammar: [telling-time]
+  prompt: "Recognition: how would Reto ask this in Zurich German? (Common spellings are accepted.)"
+  from: de
+  to: gsw-zh
+  source: Wie spät ist es?
+  answers: ["Wie spaat isch es?", "Wie spat isch es?", "Wievill Uhr isch es?", "Wie vill Uhr isch es?", "Wie spoot isch es?"]
+  explanation: >-
+    spät → spaat (long a), ist → isch. Wievill Uhr isch es? (= Wie viel Uhr ist es?) is just as common.
+
+- id: a1-u04-roleplay-reto
+  type: roleplay
+  skill: listening
+  variety: gsw-zh
+  grammar: [telling-time, separable-verbs]
+  tutor: reto
+  prompt: "Listening roleplay with Reto: arrange a Zvieri."
+  scenario: >-
+    Reto suggests meeting for an afternoon snack (Zvieri) on Saturday. He speaks Zurich German; answer in
+    Standard German and make sure you understood the day and the time.
+  goals:
+    - Understand the day (Samschtig) and the time (halbi vieri, Viertel ab vieri ...).
+    - Say when you get up or what you do on Saturday.
+    - Confirm the day and time in Standard German.
+  model: |
+    Reto: Hoi! Häsch du am Samschtig Ziit? Mir chönted zäme es Zvieri näh.
+    Du: Am Samstag? Ja, gern. Um wie viel Uhr?
+    Reto: Am halbi vieri? Oder schlafsch du so lang? (lacht)
+    Du: Nein, nein! Am Samstag stehe ich um neun auf. Halb vier ist gut.
+    Reto: Super. Mir gönd is Café am See.
+    Du: Also Samstag, halb vier, im Café am See. Bis Samstag!
+  explanation: >-
+    Decoding: häsch = hast, Ziit = Zeit, chönted = könnten, näh = nehmen, gönd = gehen (wir), is = ins.
+    am halbi vieri = um halb vier (3.30). Repeating the time in your own words is the best way to check.
+
+# ---------- Bernese (gsw-be, recognition) ----------
+- id: a1-u04-ch-be-match-days
+  type: match
+  skill: vocabulary
+  variety: gsw-be
+  prompt: "Sandra's family in Bern says the days differently. Match the Bernese days with Standard German."
+  pairs:
+    - ["Mänti", "Montag"]
+    - ["Zyschtig", "Dienstag"]
+    - ["Donschti", "Donnerstag"]
+    - ["Fryti", "Freitag"]
+  explanation: >-
+    Bernese often drops the final -g (Mänti, Donschti, Fryti, Samschti, Sunnti) and writes long i as y
+    (Fryti, Zyschtig). Zurich: Mäntig, Ziischtig, Donschtig, Friitig.
+
+- id: a1-u04-ch-be-mcq-zmorge
+  type: mcq
+  skill: listening
+  variety: gsw-be
+  prompt: "Sandra's mother asks: \"Chunsch zum Zmorge?\" What is she inviting Sandra to?"
+  options: ["Dinner", "A walk", "Breakfast", "A party"]
+  answer: 2
+  explanation: >-
+    Zmorge = breakfast (in Bern usually ds Zmorge, neuter). chunsch = kommst du. The Bernese evening meal is
+    ds Znacht or, traditionally, ds Zaabe.
+
+- id: a1-u04-ch-be-transform-samschti
+  type: transform
+  skill: reading
+  variety: gsw-be
+  prompt: What does Sandra say in Standard German?
+  from: gsw-be
+  to: de
+  source: Am Samschti bin i z Bärn.
+  answers: ["Am Samstag bin ich in Bern.", "Ich bin am Samstag in Bern."]
+  explanation: >-
+    i = ich (Zurich: ich), bin i = bin ich (inversion after Am Samschti, as in Standard German), z Bärn = in
+    Bern. Samschti = Samstag without the final -g.

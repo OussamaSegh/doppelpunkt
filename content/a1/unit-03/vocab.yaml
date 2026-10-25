@@ -96,7 +96,7 @@
   plural: Kinder
   example: { de: "Er ist verheiratet und hat zwei Kinder.", en: "He's married and has two children." }
   gswZh: Chind (plural Chind / Chinde)
-  gswBe: Chind
+  gswBe: Chind / Ching
   tags: [family]
 
 - id: junge
@@ -108,7 +108,7 @@
   example: { de: "Der Junge heißt Oliver.", en: "The boy is called Oliver." }
   chStd: Knabe (official) / Bub
   gswZh: Bueb (plural Buebe)
-  gswBe: Bueb / Giel
+  gswBe: Bueb / Giel / Gieu
   tags: [family, helvetism]
 
 - id: maedchen
@@ -142,7 +142,7 @@
   example: { de: "Mein Großvater wohnt in Luzern.", en: "My grandfather lives in Lucerne." }
   chStd: Grossvater
   gswZh: Grossvater / Grosspapi
-  gswBe: Grossätti / Grosspapi
+  gswBe: Grosätti / Grossätti / Grospapi
   tags: [family]
 
 - id: onkel

@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useRef, useState } from 'react';
 import type { CompiledUnit } from '@doppelpunkt/content-schema';
 import { gradeWriting, WRITING_CRITERIA, type WritingFeedback } from '@doppelpunkt/ai';
 import { db } from '../db';
@@ -6,6 +6,7 @@ import { GermanText } from '../components/GermanText';
 import { aiUnavailableMessage, errorMessage, useAi } from '../lib/ai';
 import { recordAttempt } from '../lib/progress';
 import type { ExerciseOf, ExerciseOutcome } from './types';
+import { UmlautBar } from './UmlautBar';
 
 /** Averages the rubric criteria (each 0–5, see WRITING_CRITERIA) to 0..1. */
 export function writingScore(scores: Record<string, number>): number {
@@ -19,6 +20,7 @@ const countWords = (s: string) => s.trim().split(/\s+/).filter(Boolean).length;
 type Props = { ex: ExerciseOf<'write'>; unit: CompiledUnit; record: boolean; onDone: (o: ExerciseOutcome) => void };
 
 export function WriteTask({ ex, unit, record, onDone }: Props) {
+  const area = useRef<HTMLTextAreaElement>(null);
   const ai = useAi('writing');
   const [text, setText] = useState('');
   const [phase, setPhase] = useState<'writing' | 'grading' | 'self' | 'done'>('writing');
@@ -56,6 +58,7 @@ export function WriteTask({ ex, unit, record, onDone }: Props) {
         Your text {ex.minWords ? `(at least ${ex.minWords} words)` : ''}
       </label>
       <textarea
+        ref={area}
         id={`write-${ex.id}`}
         rows={7}
         lang="de"
@@ -64,6 +67,7 @@ export function WriteTask({ ex, unit, record, onDone }: Props) {
         disabled={phase !== 'writing'}
         onChange={(e) => setText(e.target.value)}
       />
+      {phase === 'writing' && <UmlautBar target={() => area.current} onInsert={setText} />}
       <p className={`text-xs ${enough ? 'text-muted' : 'text-bad'}`} aria-live="polite">
         {words} words
       </p>

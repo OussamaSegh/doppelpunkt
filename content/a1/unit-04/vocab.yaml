@@ -1,0 +1,387 @@
+# A1 unit 4 – Mein Tag
+
+# ---------- verbs ----------
+- id: aufstehen
+  de: aufstehen
+  en: to get up
+  pos: verb
+  example: { de: "Ich stehe um sechs Uhr auf.", en: "I get up at six o'clock." }
+  gswZh: ufstah (ich stah uf / ich stand uf, du staasch uf, er staat uf, mir stönd uf)
+  gswBe: ufstah / ufsta (participle ufgstange)
+  tags: [routine, separable]
+
+- id: fruehstuecken
+  de: frühstücken
+  en: to have breakfast
+  pos: verb
+  example: { de: "Ich frühstücke um sieben.", en: "I have breakfast at seven." }
+  chStd: frühstücken / z Morgen essen
+  gswZh: zmorge ässe / zmörgele
+  tags: [routine, meals]
+
+- id: anfangen
+  de: anfangen
+  en: to start, to begin
+  pos: verb
+  example: { de: "Der Kurs fängt um halb neun an.", en: "The course starts at half past eight." }
+  gswZh: aafange (es fangt aa – no umlaut)
+  tags: [routine, separable, stem-change]
+
+- id: einkaufen
+  de: einkaufen
+  en: to go shopping, to shop
+  pos: verb
+  example: { de: "Am Samstag kaufe ich ein.", en: "On Saturday I go shopping." }
+  gswZh: poschte / iichaufe
+  gswBe: ychoufe / poschte
+  tags: [routine, separable, shopping]
+
+- id: fernsehen
+  de: fernsehen
+  en: to watch TV
+  pos: verb
+  example: { de: "Am Abend sieht Anna fern.", en: "In the evening Anna watches TV." }
+  gswZh: TV luege / färnseh luege
+  tags: [routine, separable, stem-change]
+
+- id: arbeiten
+  de: arbeiten
+  en: to work
+  pos: verb
+  example: { de: "Von neun bis fünf arbeite ich.", en: "I work from nine to five." }
+  gswZh: schaffe (ich schaff, du schaffsch, er schafft)
+  tags: [routine, work]
+
+- id: schlafen
+  de: schlafen
+  en: to sleep
+  pos: verb
+  example: { de: "Am Sonntag schläft Tom lang.", en: "On Sunday Tom sleeps in." }
+  gswZh: schlafe (er schlaft – no umlaut)
+  tags: [routine, stem-change]
+
+- id: fahren
+  de: fahren
+  en: to go (by vehicle), to drive, to ride
+  pos: verb
+  example: { de: "Fährst du am Wochenende nach Bern?", en: "Are you going to Bern at the weekend?" }
+  gswZh: fahre (er fahrt – no umlaut)
+  tags: [routine, stem-change, transport]
+
+- id: essen
+  de: essen
+  en: to eat
+  pos: verb
+  example: { de: "Was isst du zum Frühstück?", en: "What do you have for breakfast?" }
+  gswZh: ässe (ich iss, du issisch, er isst, mir ässed)
+  tags: [routine, stem-change, meals]
+
+- id: lesen
+  de: lesen
+  en: to read
+  pos: verb
+  example: { de: "Tom liest am Morgen die Zeitung.", en: "Tom reads the newspaper in the morning." }
+  gswZh: läse (ich lise, du lisisch, er list, mir läsed)
+  tags: [routine, stem-change]
+
+- id: sehen
+  de: sehen
+  en: to see
+  pos: verb
+  example: { de: "Siehst du die Uhr?", en: "Can you see the clock?" }
+  gswZh: gseh / gsee (ich gseh, du gsehsch, er gseht, mir gsehnd)
+  tags: [stem-change]
+
+- id: gehen
+  de: gehen
+  en: to go (on foot), to walk
+  pos: verb
+  example: { de: "Um halb zehn gehe ich schlafen.", en: "At half past nine I go to bed." }
+  gswZh: gaa / gah (ich gang, du gaasch, er gaat, mir gönd)
+  gswBe: ga (i gange, du geisch, är geit, mir göh)
+  tags: [routine]
+
+- id: kochen
+  de: kochen
+  en: to cook
+  pos: verb
+  example: { de: "Am Abend kocht Anna.", en: "In the evening Anna cooks." }
+  gswZh: choche
+  tags: [routine, meals]
+
+# ---------- time ----------
+- id: uhr
+  de: Uhr
+  en: clock, watch; o'clock
+  pos: noun
+  gender: f
+  plural: Uhren
+  example: { de: "Es ist acht Uhr.", en: "It's eight o'clock." }
+  gswZh: Uhr (Wie spaat isch es? / Wievill Uhr isch es?)
+  tags: [time]
+
+- id: stunde
+  de: Stunde
+  en: hour
+  pos: noun
+  gender: f
+  plural: Stunden
+  example: { de: "Jonas schläft zwei Stunden.", en: "Jonas sleeps for two hours." }
+  gswZh: Stund (plural Stunde)
+  tags: [time]
+
+- id: viertel
+  de: Viertel
+  en: quarter
+  pos: noun
+  gender: n
+  plural: Viertel
+  example: { de: "Es ist Viertel nach acht.", en: "It's quarter past eight." }
+  gswZh: Viertel (Viertel ab = Viertel nach)
+  gswBe: Viertel / Viertu
+  tags: [time]
+
+- id: halb
+  de: halb
+  en: half; (with clock times) half past the previous hour
+  pos: adj
+  example: { de: "Es ist halb neun.", en: "It's half past eight." }
+  gswZh: halb / halbi (halbi nüüni = 8.30)
+  gswBe: haub
+  tags: [time]
+
+- id: spaet
+  de: spät
+  en: late
+  pos: adj
+  example: { de: "Wie spät ist es?", en: "What time is it?" }
+  gswZh: spaat
+  tags: [time]
+
+- id: frueh
+  de: früh
+  en: early
+  pos: adj
+  example: { de: "Um sechs? Das ist früh!", en: "At six? That's early!" }
+  gswZh: früe / früeh
+  gswBe: früech
+  tags: [time]
+
+- id: heute
+  de: heute
+  en: today
+  pos: adv
+  example: { de: "Heute arbeite ich von zwei bis sechs.", en: "Today I work from two to six." }
+  gswZh: hüt (hüt am Abig = heute Abend)
+  tags: [time]
+
+- id: dann
+  de: dann
+  en: then
+  pos: adv
+  example: { de: "Ich stehe auf, dann frühstücke ich.", en: "I get up, then I have breakfast." }
+  gswZh: dänn
+  gswBe: de
+  tags: [time]
+
+- id: morgen-tageszeit
+  de: Morgen
+  en: morning
+  pos: noun
+  gender: m
+  plural: Morgen
+  example: { de: "Am Morgen trinke ich einen Kaffee.", en: "In the morning I drink a coffee." }
+  gswZh: Morge (am Morge)
+  tags: [time, day]
+
+- id: vormittag
+  de: Vormittag
+  en: (late) morning, before noon
+  pos: noun
+  gender: m
+  plural: Vormittage
+  example: { de: "Am Vormittag lerne ich Deutsch.", en: "In the morning I study German." }
+  gswZh: Vormittag
+  tags: [time, day]
+
+- id: nachmittag
+  de: Nachmittag
+  en: afternoon
+  pos: noun
+  gender: m
+  plural: Nachmittage
+  example: { de: "Am Nachmittag arbeitet Anna im Café.", en: "In the afternoon Anna works in the café." }
+  gswZh: Namittag
+  tags: [time, day]
+
+- id: abend
+  de: Abend
+  en: evening
+  pos: noun
+  gender: m
+  plural: Abende
+  example: { de: "Am Abend sehe ich fern.", en: "In the evening I watch TV." }
+  gswZh: Abig (am Abig)
+  gswBe: Abe / Aabe
+  tags: [time, day]
+
+- id: nacht
+  de: Nacht
+  en: night
+  pos: noun
+  gender: f
+  plural: Nächte
+  example: { de: "Jonas arbeitet in der Nacht.", en: "Jonas works at night." }
+  gswZh: Nacht (znacht = at night)
+  tags: [time, day]
+
+- id: tag
+  de: Tag
+  en: day
+  pos: noun
+  gender: m
+  plural: Tage
+  example: { de: "Mein Tag fängt früh an.", en: "My day starts early." }
+  gswZh: Tag
+  tags: [time, day]
+
+- id: woche
+  de: Woche
+  en: week
+  pos: noun
+  gender: f
+  plural: Wochen
+  example: { de: "Die Woche hat sieben Tage.", en: "The week has seven days." }
+  gswZh: Wuche (under de Wuche = during the week)
+  tags: [time, days]
+
+- id: wochenende
+  de: Wochenende
+  en: weekend
+  pos: noun
+  gender: n
+  plural: Wochenenden
+  example: { de: "Am Wochenende schlafe ich lang.", en: "At the weekend I sleep in." }
+  gswZh: Wuchenänd
+  tags: [time, days]
+
+- id: montag
+  de: Montag
+  en: Monday
+  pos: noun
+  gender: m
+  plural: Montage
+  example: { de: "Am Montag fängt der Kurs an.", en: "The course starts on Monday." }
+  gswZh: Mäntig
+  gswBe: Mänti / Määndi
+  tags: [days]
+
+- id: dienstag
+  de: Dienstag
+  en: Tuesday
+  pos: noun
+  gender: m
+  plural: Dienstage
+  example: { de: "Am Dienstag arbeite ich bis sechs.", en: "On Tuesday I work until six." }
+  gswZh: Ziischtig
+  gswBe: Zyschtig / Zyschti
+  tags: [days]
+
+- id: mittwoch
+  de: Mittwoch
+  en: Wednesday
+  pos: noun
+  gender: m
+  plural: Mittwoche
+  example: { de: "Am Mittwoch kaufe ich ein.", en: "On Wednesday I go shopping." }
+  gswZh: Mittwuch
+  gswBe: Mittwuch
+  tags: [days]
+
+- id: donnerstag
+  de: Donnerstag
+  en: Thursday
+  pos: noun
+  gender: m
+  plural: Donnerstage
+  example: { de: "Am Donnerstag kocht Tom.", en: "On Thursday Tom cooks." }
+  gswZh: Donschtig
+  gswBe: Donschtig / Donschti
+  tags: [days]
+
+- id: freitag
+  de: Freitag
+  en: Friday
+  pos: noun
+  gender: m
+  plural: Freitage
+  example: { de: "Am Freitag fahre ich nach Basel.", en: "On Friday I'm going to Basel." }
+  gswZh: Friitig
+  gswBe: Frytig / Fryti
+  tags: [days]
+
+- id: samstag
+  de: Samstag
+  en: Saturday
+  pos: noun
+  gender: m
+  plural: Samstage
+  example: { de: "Am Samstag schläft Anna bis zehn.", en: "On Saturday Anna sleeps until ten." }
+  gswZh: Samschtig
+  gswBe: Samschtig / Samschti
+  tags: [days]
+
+- id: sonntag
+  de: Sonntag
+  en: Sunday
+  pos: noun
+  gender: m
+  plural: Sonntage
+  example: { de: "Am Sonntag liest Tom.", en: "On Sunday Tom reads." }
+  gswZh: Sunntig
+  gswBe: Sunntig / Sunnti
+  tags: [days]
+
+# ---------- meals and everyday things ----------
+- id: mittagessen
+  de: Mittagessen
+  en: lunch
+  pos: noun
+  gender: n
+  plural: Mittagessen
+  example: { de: "Das Mittagessen ist um zwölf.", en: "Lunch is at twelve." }
+  gswZh: Zmittag (de Zmittag)
+  tags: [meals]
+
+- id: abendessen
+  de: Abendessen
+  en: dinner, supper
+  pos: noun
+  gender: n
+  plural: Abendessen
+  example: { de: "Das Abendessen kocht Anna.", en: "Anna cooks dinner." }
+  chStd: Nachtessen
+  gswZh: Znacht (s Znacht)
+  gswBe: Znacht / Zaabe (ds Zaabe)
+  tags: [meals, helvetism]
+
+- id: pause
+  de: Pause
+  en: break
+  pos: noun
+  gender: f
+  plural: Pausen
+  example: { de: "Um zehn Uhr ist Pause.", en: "There's a break at ten o'clock." }
+  chStd: Pause; the snack in it is the Znüni (morning) or Zvieri (afternoon)
+  gswZh: Pause / Znünipause
+  tags: [routine, meals, helvetism]
+
+- id: zeitung
+  de: Zeitung
+  en: newspaper
+  pos: noun
+  gender: f
+  plural: Zeitungen
+  example: { de: "Tom liest die Zeitung.", en: "Tom reads the newspaper." }
+  gswZh: Ziitig
+  tags: [routine]

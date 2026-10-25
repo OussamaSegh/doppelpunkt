@@ -2,6 +2,7 @@ import { useEffect, useRef, useState, type FormEvent } from 'react';
 import type { ChatMessage, Provider, Usage } from '@doppelpunkt/ai';
 import { estimateCost } from '@doppelpunkt/ai';
 import { errorMessage } from '../lib/ai';
+import { UmlautBar } from '../exercise/UmlautBar';
 
 type Props = {
   provider: Provider;
@@ -21,6 +22,7 @@ export function ChatPanel({ provider, system, opener, onTurn, onCost, placeholde
   const [error, setError] = useState<string>();
   const abort = useRef<AbortController | null>(null);
   const endRef = useRef<HTMLDivElement>(null);
+  const inputRef = useRef<HTMLTextAreaElement>(null);
   const started = useRef(false);
 
   useEffect(() => () => abort.current?.abort(), []);
@@ -101,6 +103,7 @@ export function ChatPanel({ provider, system, opener, onTurn, onCost, placeholde
           Message
         </label>
         <textarea
+          ref={inputRef}
           id="chat-input"
           rows={2}
           className="input flex-1 resize-none"
@@ -122,6 +125,7 @@ export function ChatPanel({ provider, system, opener, onTurn, onCost, placeholde
           </button>
         )}
       </form>
+      <UmlautBar target={() => inputRef.current} onInsert={setDraft} />
     </div>
   );
 }

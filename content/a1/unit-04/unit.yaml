@@ -1,0 +1,297 @@
+id: a1-u04
+level: A1
+number: 4
+title: Mein Tag
+titleEn: My day
+goal: >-
+  By the end you can describe your daily routine, tell the time, say on which day and at what time you
+  do things, and follow a Zurich German conversation about times and meals.
+canDo:
+  - I can ask for and tell the time, informally (halb acht, Viertel nach neun) and officially (19.45 Uhr).
+  - I can describe my day with separable verbs (Ich stehe um sieben auf.).
+  - I can use stem-changing verbs correctly (du fährst, er schläft, sie liest).
+  - I can say when I do things with um, am and von ... bis, and start a sentence with a time expression.
+  - I can recognise Zurich clock times (halbi drü, Viertel ab sibni) and the Swiss meal names (Zmorge, Zmittag, Znacht, Znüni, Zvieri).
+
+review:
+  notes:
+    - "Zurich clock times: is 'am sächsi' (= um sechs) the most natural form, and is 'am Viertel ab sibni' with am natural? No citable online source was found; forms are from teaching practice."
+    - "ufstah: 'ich stah uf' vs 'ich stand uf' in Zurich. Both are listed; which is more common today?"
+    - "Swiss lane dialogue: 'under de Wuche' (during the week) and 'en guete Zmorge' – natural?"
+    - "Gender of Zmorge / Zmittag: Duden gives masculine or neuter; berndeutsch.ch gives neuter for Bernese. The unit says 'de Zmorge' for Zurich and notes 's Zmorge' – please confirm."
+    - "Bernese lines (Sandra and her mother): 'Am Samschti bin i z Bärn.' and 'Chunsch zum Zmorge?' – natural Bernese?"
+    - "früe / früeh (früh) in Zurich and früech in Bernese – spellings ok?"
+
+intro:
+  scene: >-
+    Monday, 8.15 a.m. Anna and Tom meet in front of the language school in Zurich, before class.
+  dialogue:
+    - speaker: Anna
+      text: Hallo Tom! Wie spät ist es?
+      en: Hi Tom! What time is it?
+    - speaker: Tom
+      text: Es ist Viertel nach acht. Der Kurs fängt um halb neun an.
+      en: It's quarter past eight. The course starts at half past eight.
+    - speaker: Anna
+      text: Gut. Wann stehst du am Morgen auf?
+      en: Good. When do you get up in the morning?
+    - speaker: Tom
+      text: Ich stehe um sechs Uhr auf. Dann frühstücke ich und lese die Zeitung.
+      en: I get up at six o'clock. Then I have breakfast and read the newspaper.
+    - speaker: Anna
+      text: Um sechs? Das ist früh! Ich schlafe bis halb acht.
+      en: At six? That's early! I sleep until half past seven.
+    - speaker: Tom
+      text: Du schläfst lang! Was machst du am Nachmittag?
+      en: You sleep a long time! What do you do in the afternoon?
+    - speaker: Anna
+      text: Von zwei bis sechs arbeite ich im Café. Am Abend kaufe ich ein und koche.
+      en: From two to six I work in the café. In the evening I go shopping and cook.
+    - speaker: Tom
+      text: Und am Wochenende?
+      en: And at the weekend?
+    - speaker: Anna
+      text: Am Samstag schlafe ich lang, und am Sonntag sehe ich fern. Und du?
+      en: On Saturday I sleep in, and on Sunday I watch TV. And you?
+    - speaker: Tom
+      text: Am Sonntag fahre ich oft nach Luzern. Und am Abend lese ich.
+      en: On Sunday I often go to Lucerne. And in the evening I read.
+    - speaker: Anna
+      text: Oh, es ist schon fünf vor halb neun! Komm, der Kurs fängt an!
+      en: Oh, it's already twenty-five past eight! Come on, the course is starting!
+
+grammar:
+  - id: stem-changing-verbs
+    title: "Stem-changing verbs: fahren, schlafen, essen, lesen, sehen"
+    body: >-
+      Some common verbs change their **vowel** in the **du** and **er/sie/es** forms only. The endings are
+      regular. All other persons keep the vowel of the infinitive.
+
+
+      - **a → ä**: *fahren → du fährst, er fährt*; *schlafen → du schläfst, sie schläft*
+
+      - **e → i**: *essen → du isst, er isst*; *nehmen → du nimmst, er nimmt* (unit 2); *sprechen → du sprichst*
+
+      - **e → ie**: *lesen → du liest, sie liest*; *sehen → du siehst, er sieht*
+
+
+      Watch the s-sounds: when the stem ends in **-s, -ss, -ß** or **-z**, the du-form adds only **-t**:
+      *du isst, du liest* (not *du issst, du liesst*). So du and er look the same: *du isst – er isst*.
+
+
+      A dictionary shows the change: *fahren (fährt)*, *lesen (liest)*. Learn these verbs with their er-form.
+    tables:
+      - [["Person", "fahren", "schlafen", "essen", "lesen", "sehen"],
+         ["ich", "fahre", "schlafe", "esse", "lese", "sehe"],
+         ["du", "fährst", "schläfst", "isst", "liest", "siehst"],
+         ["er / sie / es", "fährt", "schläft", "isst", "liest", "sieht"],
+         ["wir", "fahren", "schlafen", "essen", "lesen", "sehen"],
+         ["ihr", "fahrt", "schlaft", "esst", "lest", "seht"],
+         ["sie / Sie", "fahren", "schlafen", "essen", "lesen", "sehen"]]
+    commonMistakes:
+      - "*ich fähre, ich lies* → **ich fahre, ich lese.** The vowel only changes for du and er/sie/es."
+      - "*ihr fährt* → **ihr fahrt.** ihr keeps the infinitive vowel."
+      - "*du esst / du issst* → **du isst.** e → i, and only -t after the s-sound."
+      - "*er seht* → **er sieht.** The h stays: sieht, siehst."
+      - "*Ich fahre nach Luzern* is right, but for walking use **gehen**: *Ich gehe zum Kurs* (on foot). fahren always means by vehicle."
+
+  - id: separable-verbs
+    title: "Separable verbs I: aufstehen, anfangen, einkaufen, fernsehen"
+    body: >-
+      Many German verbs have a **prefix** that splits off: *auf|stehen, an|fangen, ein|kaufen, fern|sehen*.
+      In a statement or question, the conjugated verb goes to **position 2** as usual, and the prefix goes to
+      the **very end** of the sentence. The two parts form a bracket around the rest.
+
+
+      *Ich **stehe** um sieben Uhr **auf**.* – *Wann **fängt** der Kurs **an**?* – *Am Samstag **kaufe** ich **ein**.*
+
+
+      In the infinitive and in dictionaries the verb is **one word**: *aufstehen*. The stress is always on the
+      prefix: **AUF**stehen, **AN**fangen, **EIN**kaufen, **FERN**sehen. Separable verbs can also change their
+      stem: *er **fängt** an, sie **sieht** fern*.
+
+
+      Not every verb that looks long is separable: *frühstücken* never splits. *Ich frühstücke um sieben.*
+    tables:
+      - [["Position 1", "Verb (2)", "Middle", "End (prefix)"],
+         ["Ich", "stehe", "um sieben Uhr", "auf."],
+         ["Der Kurs", "fängt", "um halb neun", "an."],
+         ["Am Samstag", "kaufe", "ich", "ein."],
+         ["Wann", "siehst", "du", "fern?"],
+         ["–", "Stehst", "du früh", "auf?"]]
+    commonMistakes:
+      - "*Ich aufstehe um sieben.* → **Ich stehe um sieben auf.** The prefix splits off and goes to the end."
+      - "*Ich stehe auf um sieben.* → **Ich stehe um sieben auf.** English says 'get up at seven', but the German prefix comes last, after the time."
+      - "*Ich stücke um sieben früh.* → **Ich frühstücke um sieben.** frühstücken is not separable."
+      - "*Der Kurs anfängt um neun.* → **Der Kurs fängt um neun an.**"
+
+  - id: telling-time
+    title: "Telling the time; um, am, von ... bis"
+    body: >-
+      **Wie spät ist es?** or **Wie viel Uhr ist es?** = What time is it? Answer with *Es ist ...*.
+
+
+      **Official time** (timetables, radio, appointments) uses 24 hours: *Es ist neunzehn Uhr fünfundvierzig*
+      (19.45). **Everyday time** uses 12 hours with *nach*, *vor*, *Viertel* and *halb*:
+
+
+      - *Viertel nach acht* (8.15), *Viertel vor neun* (8.45), *zehn nach acht* (8.10), *fünf vor neun* (8.55)
+
+      - **halb neun = 8.30.** German *halb* counts towards the **next** hour: "half way to nine". English
+      speakers read it as 9.30 – the most common time mistake.
+
+      - Around the half hour: *fünf vor halb neun* (8.25), *fünf nach halb neun* (8.35).
+
+
+      **Prepositions of time:**
+
+      - **um** + clock time: *um sieben Uhr, um halb neun*. Question: *Um wie viel Uhr ...?* or *Wann ...?*
+
+      - **am** + day and part of the day: *am Montag, am Morgen, am Nachmittag, am Abend, am Wochenende*.
+      Exception: *in der Nacht* (at night) – learn it as a chunk.
+
+      - **von ... bis** for a period: *von neun bis fünf (Uhr)*. **bis** alone = until: *Ich schlafe bis acht.*
+    tables:
+      - [["Time", "Everyday", "Official"],
+         ["7.00", "sieben (Uhr)", "sieben Uhr"],
+         ["7.15", "Viertel nach sieben", "sieben Uhr fünfzehn"],
+         ["7.30", "halb acht", "sieben Uhr dreißig"],
+         ["7.45", "Viertel vor acht", "sieben Uhr fünfundvierzig"],
+         ["7.25", "fünf vor halb acht", "sieben Uhr fünfundzwanzig"],
+         ["19.10", "zehn nach sieben (am Abend)", "neunzehn Uhr zehn"]]
+      - [["Preposition", "With", "Example"],
+         ["um", "clock times", "um acht Uhr, um halb zehn"],
+         ["am", "days, parts of the day", "am Montag, am Abend, am Wochenende"],
+         ["in der", "Nacht (chunk)", "in der Nacht"],
+         ["von ... bis", "a period", "von Montag bis Freitag, von neun bis fünf"]]
+    commonMistakes:
+      - "*halb neun* = 9.30 → **halb neun = 8.30.** Think 'half (of the way) to nine'."
+      - "*Ich komme am acht Uhr.* → **Ich komme um acht Uhr.** Clock times take um."
+      - "*in Montag, an Montag* → **am Montag.** Days take am (= an dem)."
+      - "*Es ist acht Uhren.* → **Es ist acht Uhr.** Uhr stays singular in times; die Uhren are clocks."
+      - "*Viertel nach halb* does not exist. 8.40 is **zwanzig vor neun** or **zehn nach halb neun**."
+
+  - id: time-inversion
+    title: "Starting with a time expression: verb second, subject third"
+    body: >-
+      German loves to start a sentence with **when**: *Um sieben ..., Am Montag ..., Dann ...*. The verb
+      **stays in position 2**, so the subject moves **after** the verb. This is called inversion.
+
+
+      *Ich stehe um sieben auf.* → ***Um sieben** stehe ich auf.*
+
+
+      *Ich arbeite am Montag.* → ***Am Montag** arbeite ich.*
+
+
+      **dann** (then) works the same way: *Dann frühstücke ich.* Only *und, aber, oder* do not count as
+      position 1: *..., und dann lese ich.*
+
+
+      When a sentence has several details, the usual order in the middle is **time before place**:
+      *Ich arbeite **am Montag** **im Café**.* English puts the time at the end ("I work in the café on
+      Monday"); German puts it earlier.
+    tables:
+      - [["Position 1", "Verb (2)", "Subject", "Rest"],
+         ["Ich", "frühstücke", "–", "um sieben."],
+         ["Um sieben", "frühstücke", "ich.", ""],
+         ["Am Abend", "sehe", "ich", "fern."],
+         ["Dann", "liest", "Tom", "die Zeitung."],
+         ["Von zwei bis sechs", "arbeitet", "Anna", "im Café."]]
+    commonMistakes:
+      - "*Um sieben ich stehe auf.* → **Um sieben stehe ich auf.** The verb never moves to position 3."
+      - "*Dann ich frühstücke.* → **Dann frühstücke ich.** dann counts as position 1."
+      - "*Ich arbeite im Café am Montag.* → **Ich arbeite am Montag im Café.** Time before place."
+      - "*Am Abend fernsehe ich.* → **Am Abend sehe ich fern.** Inversion doesn't stop the prefix going to the end."
+
+reading:
+  title: "Ein Tag von Jonas"
+  text: >-
+    Hallo! Ich heiße Jonas und ich bin Bäcker in Winterthur. Mein Tag fängt sehr früh an: Ich stehe um
+    halb drei auf! Ich trinke einen Kaffee, dann fahre ich mit dem Velo zur Bäckerei. Von drei bis elf Uhr
+    arbeite ich. Um elf Uhr esse ich zu Mittag. Am Nachmittag schlafe ich zwei Stunden. Dann kaufe ich ein,
+    und am Abend koche ich mit meiner Freundin Lea. Lea ist Lehrerin. Ihr Unterricht fängt um acht Uhr an.
+    Um neun sehen wir ein bisschen fern, und um halb zehn schlafe ich schon. Am Samstag und am Sonntag habe
+    ich frei. Dann schlafe ich lang – bis acht oder neun Uhr!
+  en: >-
+    Hello! My name is Jonas and I'm a baker in Winterthur. My day starts very early: I get up at half past
+    two! I drink a coffee, then I ride my bike to the bakery. I work from three to eleven. At eleven I have
+    lunch. In the afternoon I sleep for two hours. Then I go shopping, and in the evening I cook with my
+    girlfriend Lea. Lea is a teacher. Her lessons start at eight o'clock. At nine we watch a bit of TV, and at
+    half past nine I'm already asleep. On Saturday and Sunday I'm off. Then I sleep in – until eight or nine!
+
+swiss:
+  scene: >-
+    6.40 a.m. in the stairwell. Reto, on his way out with a coffee, meets Sandra. Listen for the clock times
+    and the meal words. Afterwards Sandra phones her mother in Bern – listen to the Bernese.
+  dialogue:
+    - speaker: Reto
+      text: Guete Morge, Sandra! Scho wach?
+      en: Good morning, Sandra! Awake already?
+      variety: gsw-zh
+    - speaker: Sandra
+      text: Morge! Ja, ich stah under de Wuche am sächsi uf.
+      en: Morning! Yes, during the week I get up at six.
+      variety: gsw-zh
+    - speaker: Reto
+      text: Am sächsi? Ich schlaf normalerwiis bis am halbi achti!
+      en: At six? I normally sleep until half past seven!
+      variety: gsw-zh
+    - speaker: Sandra
+      text: Und wänn fangt dini Arbet aa?
+      en: And when does your work start?
+      variety: gsw-zh
+    - speaker: Reto
+      text: Am nüüni. Am Morge nimm ich nur en Kafi, und am zäni gits es Znüni.
+      en: At nine. In the morning I just have a coffee, and at ten there's a mid-morning snack.
+      variety: gsw-zh
+    - speaker: Sandra
+      text: Ich bruuch am Morge en guete Zmorge. Wämmer hüt am Abig zäme znacht ässe?
+      en: I need a proper breakfast in the morning. Shall we have dinner together this evening?
+      variety: gsw-zh
+    - speaker: Reto
+      text: Gärn! Aber ich schaffe bis am sächsi. Am Viertel ab sibni?
+      en: Gladly! But I work until six. At quarter past seven?
+      variety: gsw-zh
+    - speaker: Sandra
+      text: Guet, am Viertel ab sibni. Bis am Abig!
+      en: Fine, at quarter past seven. See you this evening!
+      variety: gsw-zh
+    - speaker: Sandra
+      text: Hoi Mami! Am Samschti bin i z Bärn.
+      en: Hi Mum! On Saturday I'll be in Bern.
+      variety: gsw-be
+    - speaker: Mami
+      text: Schön! Chunsch zum Zmorge?
+      en: Lovely! Are you coming for breakfast?
+      variety: gsw-be
+    - speaker: Sandra
+      text: Ja, gärn! Tschou Mami!
+      en: Yes, I'd love to! Bye, Mum!
+      variety: gsw-be
+  notes:
+    - >-
+      **Clock times in Zurich German**: the hour takes an **-i** ending from four o'clock on: *am vieri,
+      am föifi, am sächsi, am sibni, am achti, am nüüni, am zäni, am elfi, am zwölfi* (but *am eis, am zwei,
+      am drü*). Swiss German uses **am** where Standard German has **um**: *am sächsi* = *um sechs*.
+    - >-
+      **halbi** works like Standard *halb*: **halbi achti = 7.30** (half way to eight). **Viertel ab** =
+      *Viertel nach* (*Viertel ab sibni* = 7.15); **Viertel vor** is the same as in Standard German.
+      Minutes: *zää ab drü* (3.10), *füf vor halbi drü* (2.25).
+    - >-
+      **Swiss meals**: **de Zmorge** (breakfast; also *s Zmorge*, the usual gender in Bern), **de Zmittag**
+      (lunch), **s Znacht** (dinner), plus two snacks: **s Znüni** ("at nine", mid-morning) and **s Zvieri**
+      ("at four", afternoon). As verbs: *zmorge ässe, zmittag ässe, znacht ässe*. In Swiss Standard German
+      you'll read *Morgenessen* and *Nachtessen*.
+    - >-
+      **No umlaut** in Swiss German stem-changing verbs: *er fahrt, si schlaft, es fangt aa* (Standard:
+      *fährt, schläft, fängt an*). But the e → i change exists: *ich iss, du issisch, er isst*; *ich lise, er list*.
+      Separable verbs split just like in Standard German: *Ich stah am sächsi uf*.
+    - >-
+      **Days**: *Mäntig, Ziischtig, Mittwuch, Donschtig, Friitig, Samschtig, Sunntig*; parts of the day:
+      *am Morge, am Mittag, am Namittag, am Abig, znacht* (at night). *hüt am Abig* = *heute Abend*.
+      **schaffe** = *arbeiten*; **d Arbet** = *die Arbeit*.
+    - >-
+      **Bernese** (Sandra's family): **i** = *ich*, **bin i** = *bin ich*, days often without -g: *Mänti,
+      Zyschti, Donschti, Fryti, Samschti, Sunnti*. The evening meal is **ds Znacht** or the traditional
+      **ds Zaabe**. **Tschou** = *Tschüss* to people you say du to.

@@ -63,8 +63,14 @@ export async function setUnitComplete(unit: CompiledUnit, done: boolean): Promis
 
 /** Adds the unit's vocabulary to the review deck (existing cards keep their schedule). */
 export async function addUnitVocab(unit: CompiledUnit, now = new Date()): Promise<number> {
-  const existing = new Set((await db.cards.where('unitId').equals(unit.id).primaryKeys()).map(String));
-  const fresh = unit.vocab.filter((v) => !existing.has(v.id));
+  return addVocab(unit, unit.vocab.map((v) => v.id), now);
+}
+
+/** Adds some of the unit's words to the review deck; returns how many were new. */
+export async function addVocab(unit: CompiledUnit, ids: string[], now = new Date()): Promise<number> {
+  const wanted = new Set(ids);
+  const existing = new Set((await db.cards.bulkGet([...wanted])).filter(Boolean).map((c) => c!.id));
+  const fresh = unit.vocab.filter((v) => wanted.has(v.id) && !existing.has(v.id));
   await db.cards.bulkPut(fresh.map((v) => ({ ...newCard(v.id, now), unitId: unit.id, addedAt: now.toISOString() })));
   return fresh.length;
 }

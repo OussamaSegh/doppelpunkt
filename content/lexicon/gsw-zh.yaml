@@ -22,8 +22,8 @@ entries:
   - { de: wir, gswZh: mir, en: we, pos: pron, notes: "mir = wir in all Swiss dialects; it is not 'me'.", tags: [pronouns] }
   - { de: ihr, gswZh: ihr, gswBe: dir, en: you (plural informal), pos: pron, notes: "Bernese dir = Standard ihr – a classic trap.", tags: [pronouns] }
   - { de: Sie (polite), gswZh: Sie, gswBe: Dir (dative / accusative Ech), en: you (polite), pos: pron, notes: "Bernese traditionally uses Ihrzen instead of Siezen: Dir (= Ihr) as subject, Ech (= Euch) as object: Wie geits Ech? Chöit Dir mer hälfe?", tags: [pronouns] }
-  - { de: mein / meine, gswZh: min (m) / mini (f, pl) / mis (n), en: my, pos: pron, tags: [possessives] }
-  - { de: dein / deine, gswZh: din (m) / dini (f, pl) / dis (n), en: your (informal), pos: pron, tags: [possessives] }
+  - { de: mein / meine, gswZh: "min (m) / mini (f, pl) / mis (n)", en: my, pos: pron, tags: [possessives] }
+  - { de: dein / deine, gswZh: "din (m) / dini (f, pl) / dis (n)", en: your (informal), pos: pron, tags: [possessives] }
   - { de: unser / unsere, gswZh: öise / öisi / öises, gswBe: üse / üsi / üses, en: our, pos: pron, tags: [possessives] }
   - { de: etwas, gswZh: öppis, en: something, pos: pron, tags: [pronouns] }
   - { de: jemand, gswZh: öpper, en: somebody, pos: pron, tags: [pronouns] }
@@ -35,28 +35,31 @@ entries:
   - { de: haben, gswZh: "ha (ich ha, du häsch, er hät, mir/ihr/si händ)", gswBe: "ha (i ha, du hesch, är het, mir hei, dir heit, si hei)", en: to have, pos: verb, notes: "Participle gha: ich ha gha.", tags: [verbs, irregular] }
   - { de: gehen, gswZh: "gaa / gah (ich gang, du gaasch, er gaat, mir gönd)", gswBe: "ga (i gange, du geisch, är geit, mir göh)", en: to go, pos: verb, notes: "Participle: gange. 'go + infinitive' pattern: Ich gang go poschte (I'm going shopping).", tags: [verbs, irregular] }
   - { de: kommen, gswZh: "cho (ich chume, du chunnsch, er chunnt, mir chömed)", gswBe: "cho (i chume, du chunsch, är chunnt, mir chöme)", en: to come, pos: verb, notes: "Participle: cho. Chunsch au? = Kommst du auch?", tags: [verbs, irregular] }
+  - { de: aufstehen, gswZh: "ufstah (ich stah uf / ich stand uf, du staasch uf, er staat uf, mir stönd uf)", gswBe: ufstah / ufsta, en: to get up, pos: verb, notes: "Participle: ufgstande (Bernese ufgstange).", tags: [verbs, separable] }
+  - { de: anfangen, gswZh: "aafange (es fangt aa)", en: to start, pos: verb, notes: "No umlaut: de Kurs fangt am nüüni aa.", tags: [verbs, separable] }
+  - { de: lesen, gswZh: "läse (ich lise, du lisisch, er list, mir läsed)", en: to read, pos: verb, tags: [verbs, irregular] }
+  - { de: kaufen, gswZh: chaufe, gswBe: "choufe (participle gchouft)", en: to buy, pos: verb, tags: [verbs, shopping] }
   - { de: machen, gswZh: mache, en: to make; to do, pos: verb, notes: "Participle: gmacht.", tags: [verbs] }
   - { de: sagen, gswZh: "säge (ich säg, du seisch, er seit, mir säged)", en: to say, pos: verb, tags: [verbs] }
   - { de: geben, gswZh: "gää (ich gib, du gisch, er git, mir gänd)", gswBe: gä, en: to give, pos: verb, notes: "es gibt = es git; Participle: ggää (ich ha der s ggää). Learners may write gää.", tags: [verbs, irregular] }
   - { de: nehmen, gswZh: "näh (ich nimm, du nimmsch, er nimmt, mir nämed)", gswBe: "näh (i nime)", en: to take, pos: verb, notes: "Participle: gnaa.", tags: [verbs, irregular] }
-  - { de: können, gswZh: "chöne (ich chan, du chasch, er chan, mir chönd)", gswBe: "chönne (i cha, du chasch, mir chöi)", en: can, to be able to, pos: verb, tags: [verbs, modal] }
-  - { de: müssen, gswZh: "müese (ich mues, du muesch, mir müend)", gswBe: "müesse (i mues, mir müesse)", en: must, to have to, pos: verb, tags: [verbs, modal] }
+  - { de: können, gswZh: "chöne (ich chan, du chasch, er chan, mir chönd)", gswBe: "chönne (i cha, du chasch, mir chöi)", en: "can, to be able to", pos: verb, tags: [verbs, modal] }
+  - { de: müssen, gswZh: "müese (ich mues, du muesch, mir müend)", gswBe: "müesse (i mues, mir müesse)", en: "must, to have to", pos: verb, tags: [verbs, modal] }
   - { de: wollen, gswZh: "wele / welle (ich wott, du wottsch, er wott, mir wänd)", gswBe: "wöue (i wott, mir wei)", en: to want, pos: verb, notes: "Wämmer ...? = Wollen wir ...? (Shall we ...?)", tags: [verbs, modal] }
-  - { de: dürfen, gswZh: "dörfe (ich dörf, du dörfsch, er dörf, mir dörfed; darf is also heard)", en: may, to be allowed to, pos: verb, notes: "Was dörfs sii? = Was darf es sein?", tags: [verbs, modal] }
-  - { de: sollen, gswZh: "sölle / söle (ich söll, du söllsch, er söll, mir sölled)", en: should, to be supposed to, pos: verb, tags: [verbs, modal] }
+  - { de: dürfen, gswZh: "dörfe (ich dörf, du dörfsch, er dörf, mir dörfed; darf is also heard)", en: "may, to be allowed to", pos: verb, notes: "Was dörfs sii? = Was darf es sein?", tags: [verbs, modal] }
+  - { de: sollen, gswZh: "sölle / söle (ich söll, du söllsch, er söll, mir sölled)", en: "should, to be supposed to", pos: verb, tags: [verbs, modal] }
   - { de: möchten, gswZh: "möchte (ich möcht, du möchtsch / möchtisch, er möcht, mir möchted)", en: would like, pos: verb, notes: "Ordering usually uses Ich hett gärn ... or Ich nimm ... Zurich also says ich wett (= ich möchte / wollte).", tags: [verbs, modal] }
   - { de: wissen, gswZh: "wüsse (ich weiss, du weisch, er weiss, mir wüssed)", en: to know (a fact), pos: verb, tags: [verbs, irregular] }
   - { de: sehen, gswZh: "gseh (ich gseh / gsee, du gsehsch, er gseht, mir gsehnd / gseend)", notes: "Spelled gseh / gsee; graders accept both. Some speakers say ich gsehne.", en: to see, pos: verb, tags: [verbs, irregular] }
-  - { de: schauen, gswZh: luege, en: to look, to watch, pos: verb, notes: "Lueg emal! = Schau mal! TV luege = fernsehen.", tags: [verbs] }
+  - { de: schauen, gswZh: luege, en: "to look, to watch", pos: verb, notes: "Lueg emal! = Schau mal! TV luege = fernsehen.", tags: [verbs] }
   - { de: hören, gswZh: ghöre, en: to hear, pos: verb, tags: [verbs] }
   - { de: zuhören, gswZh: lose, en: to listen, pos: verb, notes: "Los emal! = Hör mal! Not related to Standard los.", tags: [verbs, false-friend] }
   - { de: essen, gswZh: ässe, en: to eat, pos: verb, notes: "Participle: ggässe.", tags: [verbs, food] }
   - { de: trinken, gswZh: trinke, en: to drink, pos: verb, notes: "Participle: trunke.", tags: [verbs, food] }
   - { de: arbeiten, gswZh: schaffe / schaffe gaa, en: to work, pos: verb, notes: "Arbeite is understood but schaffe is the everyday word. Colloquial: büeze.", tags: [verbs, work] }
   - { de: wohnen, gswZh: wohne, en: to live (reside), pos: verb, tags: [verbs] }
-  - { de: reden / sprechen, gswZh: rede, en: to speak, to talk, pos: verb, notes: "Spräche is rare in Zurich. Basel and eastern Switzerland also say schwätze.", tags: [verbs] }
-  - { de: kaufen, gswZh: chaufe, en: to buy, pos: verb, tags: [verbs, shopping] }
-  - { de: einkaufen, gswZh: poschte / iichaufe, en: to go (grocery) shopping, pos: verb, notes: "Ich gang go poschte.", tags: [verbs, shopping] }
+  - { de: reden / sprechen, gswZh: rede, en: "to speak, to talk", pos: verb, notes: "Spräche is rare in Zurich. Basel and eastern Switzerland also say schwätze.", tags: [verbs] }
+  - { de: einkaufen, gswZh: poschte / iichaufe, gswBe: ychoufe / poschte, en: to go (grocery) shopping, pos: verb, notes: "Ich gang go poschte. berndeutsch.ch notes that poschte came to Bern from eastern Switzerland; Bernese also says ychoufe or kömerle.", tags: [verbs, shopping] }
   - { de: fahren, gswZh: fahre, en: to drive; to ride, pos: verb, tags: [verbs, transport] }
   - { de: zu Fuß gehen, gswZh: laufe, en: to walk, pos: verb, notes: "Swiss laufe = walk (Standard: laufen = run in Germany). To run = springe / renne / seckle.", tags: [verbs, false-friend] }
   - { de: rennen, gswZh: springe / renne / seckle, en: to run, pos: verb, notes: "Swiss springe = run, not jump. To jump = gumpe.", tags: [verbs, false-friend] }
@@ -74,11 +77,13 @@ entries:
   - { de: grillen, gswZh: grilliere / brätle, chStd: grillieren, en: to barbecue, pos: verb, notes: "brätle = grilling outdoors over a fire, a Swiss summer ritual.", tags: [verbs, food, helvetism] }
 
   # ----- question words, adverbs, particles -----
+  - { de: kein / keine, gswZh: kei (neuter also keis), gswBe: ke / kei (neuter kes), en: "no, not any", pos: pron, notes: "Usually one form for all genders: kei Rahm, kei Milch, kei Eier. kei ... meh = kein ... mehr.", tags: [basics, negation] }
+  - { de: es gibt, gswZh: es git / es hät, gswBe: es git / es het, en: "there is, there are", pos: phrase, notes: "es hät is typical for 'there is/are (here)': Es hät no Platz.", tags: [basics, grammar] }
   - { de: nicht, gswZh: nöd / nid, gswBe: nid, en: not, pos: adv, notes: "nöd is typical Zurich; nid is Bernese and also heard in Zurich.", tags: [basics] }
   - { de: ja, gswZh: ja / jo, en: "yes", pos: other, tags: [basics] }
   - { de: nein, gswZh: nei, en: "no", pos: other, tags: [basics] }
   - { de: doch, gswZh: moll / momoll, en: yes (contradicting a negative), pos: other, notes: "Du chunnsch nöd? – Moll! (Doch!)", tags: [basics] }
-  - { de: auch, gswZh: au, en: also, too, pos: adv, tags: [basics] }
+  - { de: auch, gswZh: au, en: "also, too", pos: adv, tags: [basics] }
   - { de: noch, gswZh: no, en: still; yet; else, pos: adv, notes: "Suscht no öppis? = Sonst noch etwas?", tags: [basics] }
   - { de: schon, gswZh: scho, en: already, pos: adv, tags: [basics] }
   - { de: jetzt, gswZh: jetzt / jetz / etz, en: now, pos: adv, tags: [time] }
@@ -91,8 +96,8 @@ entries:
   - { de: immer, gswZh: immer, en: always, pos: adv, tags: [time] }
   - { de: hier, gswZh: da, gswBe: hie / da, en: here, pos: adv, tags: [place] }
   - { de: dort, gswZh: det, en: there, pos: adv, tags: [place] }
-  - { de: oben, gswZh: obe, en: up, upstairs, pos: adv, tags: [place] }
-  - { de: unten, gswZh: une, en: down, downstairs, pos: adv, tags: [place] }
+  - { de: oben, gswZh: obe, en: "up, upstairs", pos: adv, tags: [place] }
+  - { de: unten, gswZh: une, en: "down, downstairs", pos: adv, tags: [place] }
   - { de: drinnen, gswZh: dinne, en: inside, pos: adv, tags: [place] }
   - { de: draußen, gswZh: dusse, en: outside, pos: adv, tags: [place] }
   - { de: hinauf / herauf, gswZh: ufe / uufe, en: up (direction), pos: adv, tags: [place] }
@@ -104,21 +109,21 @@ entries:
   - { de: warum, gswZh: wieso / werum, en: why, pos: adv, tags: [questions] }
   - { de: wann, gswZh: wänn, en: when, pos: adv, tags: [questions] }
   - { de: wie viel, gswZh: wie vill, gswBe: wie viu, en: how much, pos: adv, tags: [questions] }
-  - { de: viel, gswZh: vill, gswBe: viu, en: much, a lot, pos: adv, notes: "Bernese turns l before a consonant or at the end of a word into u: viu, aut, chaut, Miuch.", tags: [quantity] }
+  - { de: viel, gswZh: vill, gswBe: viu, en: "much, a lot", pos: adv, notes: "Bernese turns l before a consonant or at the end of a word into u: viu, aut, chaut, Miuch.", tags: [quantity] }
   - { de: sehr, gswZh: sehr / mega / huere, en: very, pos: adv, notes: "mega is very common in informal speech (mega guet). huere is vulgar – recognise it, don't use it.", tags: [quantity, register] }
   - { de: ein bisschen, gswZh: es bitzeli / echli / chli, en: a little, pos: adv, tags: [quantity] }
-  - { de: ungefähr, gswZh: öppe, en: about, approximately, pos: adv, notes: "öppe zäh Minute = ungefähr zehn Minuten.", tags: [quantity] }
+  - { de: ungefähr, gswZh: öppe, en: "about, approximately", pos: adv, notes: "öppe zäh Minute = ungefähr zehn Minuten.", tags: [quantity] }
   - { de: gern, gswZh: gärn, en: gladly, pos: adv, notes: "Gärn gscheh = You're welcome.", tags: [basics] }
   - { de: vielleicht, gswZh: villicht, gswBe: villech / vilech, en: maybe, pos: adv, tags: [basics] }
   - { de: zusammen, gswZh: zäme, en: together, pos: adv, tags: [basics] }
-  - { de: so, gswZh: eso / so, en: so, like this, pos: adv, tags: [basics] }
-  - { de: "nicht wahr? / oder?", gswZh: oder? / gäll? / gell?, en: "isn't it?, right?", pos: other, notes: "The Swiss tag question 'oder?' is everywhere: Schön, oder?", tags: [basics] }
+  - { de: so, gswZh: eso / so, en: "so, like this", pos: adv, tags: [basics] }
+  - { de: "nicht wahr? / oder?", gswZh: "oder? / gäll? / gell?", en: "isn't it?, right?", pos: other, notes: "The Swiss tag question 'oder?' is everywhere: Schön, oder?", tags: [basics] }
   - { de: in (Ortsname), gswZh: z, en: in / to (a town), pos: prep, notes: "z Züri, z Bärn = in/nach Zürich, Bern.", tags: [place, grammar] }
-  - { de: aus, gswZh: us, en: from, out of, pos: prep, tags: [place] }
+  - { de: aus, gswZh: us, en: "from, out of", pos: prep, tags: [place] }
 
   # ----- people and family -----
   - { de: Mann, gswZh: Maa, gswBe: Ma, en: man; husband, pos: noun, tags: [people] }
-  - { de: Kind, gswZh: Chind, en: child, pos: noun, notes: "Plural: Chind (unchanged), d Chind. Chinde is heard in some other dialects.", tags: [people, family] }
+  - { de: Kind, gswZh: Chind, gswBe: Chind / Ching, en: child, pos: noun, notes: "Plural: Chind (unchanged), d Chind. Chinde is heard in some other dialects.", tags: [people, family] }
   - { de: Junge, gswZh: Bueb, gswBe: Bueb / Giel, chStd: Knabe (official) / Bub, en: boy, pos: noun, tags: [people, family] }
   - { de: Mädchen, gswZh: Meitli, gswBe: Meitschi, en: girl, pos: noun, tags: [people, family] }
   - { de: Mutter / Mama, gswZh: Muetter / Mami, en: mother / mum, pos: noun, notes: "s Mami is neuter.", tags: [family] }
@@ -128,25 +133,31 @@ entries:
   - { de: Geschwister, gswZh: Gschwüschterti / Gschwüschter, en: siblings, pos: noun, tags: [family] }
   - { de: Großmutter / Oma, gswZh: Grossmuetter / Grosi / Grossmami, chStd: Grossmutter, en: grandmother, pos: noun, tags: [family] }
   - { de: Pate / Patin, gswZh: Götti / Gotte, chStd: Götti / Gotte, en: godfather / godmother, pos: noun, tags: [family, helvetism] }
-  - { de: Freund (Kumpel), gswZh: Kolleg / Kollegin / Fründ, en: friend, mate, pos: noun, notes: "Kolleg in Swiss German means friend, not only colleague.", tags: [people, false-friend] }
+  - { de: Freund (Kumpel), gswZh: Kolleg / Kollegin / Fründ, en: "friend, mate", pos: noun, notes: "Kolleg in Swiss German means friend, not only colleague.", tags: [people, false-friend] }
   - { de: Leute, gswZh: Lüüt, en: people, pos: noun, tags: [people] }
 
   # ----- home -----
   - { de: Haus, gswZh: Huus, en: house, pos: noun, notes: "Long uu where Standard has au: Haus, Maus, Bauch → Huus, Muus, Buuch.", tags: [home] }
-  - { de: Wohnung, gswZh: Wohnig, en: flat, apartment, pos: noun, notes: "-ung → -ig: Wohnig, Rächnig, Zitig (Zeitung).", tags: [home] }
+  - { de: Wohnung, gswZh: Wohnig, en: "flat, apartment", pos: noun, notes: "-ung → -ig: Wohnig, Rächnig, Zitig (Zeitung).", tags: [home] }
   - { de: Küche, gswZh: Chuchi, en: kitchen, pos: noun, tags: [home] }
   - { de: Wohnzimmer, gswZh: Stube, en: living room, pos: noun, tags: [home] }
   - { de: Kühlschrank, gswZh: Chüelschrank, en: fridge, pos: noun, tags: [home] }
-  - { de: Schrank, gswZh: Chaschte, en: cupboard, wardrobe, pos: noun, tags: [home] }
+  - { de: Schrank, gswZh: Chaschte, en: "cupboard, wardrobe", pos: noun, tags: [home] }
   - { de: Treppe, gswZh: Stäge, en: stairs, pos: noun, tags: [home] }
-  - { de: Müll, gswZh: Güsel, gswBe: Ghüder, en: rubbish, trash, pos: noun, notes: "Güselsack = bin bag (official 'Züri-Sack' in Zurich).", tags: [home] }
+  - { de: Müll, gswZh: Güsel, gswBe: Ghüder, en: "rubbish, trash", pos: noun, notes: "Güselsack = bin bag (official 'Züri-Sack' in Zurich).", tags: [home] }
+  - { de: Waschküche, gswZh: Waschchuchi, gswBe: Wöschchuchi, en: "(shared) laundry room", pos: noun, notes: "Shared laundry room in the basement, used by turns (Wäschplan).", tags: [home, swiss-life] }
+  - { de: Keller, gswZh: Chäller, en: "basement, cellar", pos: noun, tags: [home] }
+  - { de: Dachboden, gswZh: Estrich, chStd: Estrich, en: attic, pos: noun, notes: "In Germany Estrich means floor screed.", tags: [home, helvetism] }
+  - { de: Aufzug, gswZh: Lift, chStd: Lift, en: "lift, elevator", pos: noun, tags: [home, helvetism] }
+  - { de: Fenster, gswZh: Feischter, en: window, pos: noun, tags: [home] }
+  - { de: Miete, gswZh: Miete / Ziis, chStd: Mietzins, en: rent, pos: noun, tags: [home, renting, helvetism] }
   - { de: Mülleimer, gswZh: Güselchübel, gswBe: Ghüderchübu, en: bin, pos: noun, tags: [home] }
   - { de: Tüte, gswZh: Sack / Säckli, en: (plastic/paper) bag, pos: noun, tags: [home, shopping] }
 
   # ----- food and drink -----
-  - { de: Frühstück, gswZh: Zmorge, chStd: Morgenessen, en: breakfast, pos: noun, notes: "de Zmorge (masculine), like de Zmittag; but s Znacht is neuter.", tags: [food, meals] }
+  - { de: Frühstück, gswZh: Zmorge, chStd: Morgenessen, en: breakfast, pos: noun, gswBe: Zmorge (ds Zmorge), notes: "Zurich mostly de Zmorge, like de Zmittag (Duden: masculine or neuter); Bernese ds Zmorge (berndeutsch.ch: n.). s Znacht is neuter.", tags: [food, meals] }
   - { de: Mittagessen, gswZh: Zmittag, chStd: Mittagessen, en: lunch, pos: noun, tags: [food, meals] }
-  - { de: Abendessen, gswZh: Znacht, chStd: Nachtessen, en: dinner, supper, pos: noun, notes: "s Znacht (neuter).", tags: [food, meals] }
+  - { de: Abendessen, gswZh: Znacht, gswBe: Znacht / Zaabe, chStd: Nachtessen, en: "dinner, supper", pos: noun, notes: "s Znacht (neuter).", tags: [food, meals] }
   - { de: Pausensnack (vormittags), gswZh: Znüni, chStd: Znüni, en: mid-morning snack, pos: noun, notes: "Literally 'at nine'. Its afternoon partner is the Zvieri ('at four'). Both are heard as de and s (de Znüni / s Znüni).", tags: [food, meals, helvetism] }
   - { de: Nachmittagssnack, gswZh: Zvieri, chStd: Zvieri, en: afternoon snack, pos: noun, tags: [food, meals, helvetism] }
   - { de: Kaffee, gswZh: Kafi, en: coffee, pos: noun, notes: "de Kafi / en Kafi (the drink, masculine); s Kafi / es Kafi (neuter) is a café.", tags: [food, drinks] }
@@ -154,6 +165,10 @@ entries:
   - { de: Croissant, gswZh: Gipfeli, chStd: Gipfeli, en: croissant, pos: noun, tags: [food, helvetism] }
   - { de: Brötchen, gswZh: Brötli / Weggli / Bürli, chStd: Brötchen / Weggli / Bürli, en: bread roll, pos: noun, notes: "Weggli = soft white roll; Bürli = crusty roll.", tags: [food, helvetism] }
   - { de: Kuchen, gswZh: Chueche, en: cake; tart, pos: noun, tags: [food] }
+  - { de: Butter, gswZh: Anke / Butter, gswBe: Anke, en: butter, pos: noun, tags: [food] }
+  - { de: Käse, gswZh: Chäs, en: cheese, pos: noun, notes: "räss = sharp, strong (of cheese).", tags: [food] }
+  - { de: Zwiebel, gswZh: Zwieble / Bölle, gswBe: Zibele, en: onion, pos: noun, tags: [food] }
+  - { de: Milch, gswZh: Milch, gswBe: Miuch, en: milk, pos: noun, tags: [food, drinks] }
   - { de: Kartoffel, gswZh: Härdöpfel / Erdöpfel, gswBe: Härdöpfu, en: potato, pos: noun, tags: [food] }
   - { de: Karotte / Möhre, gswZh: Rüebli, chStd: Rüebli, en: carrot, pos: noun, notes: "Rüeblichueche = carrot cake, a Swiss classic.", tags: [food, helvetism] }
   - { de: Apfel, gswZh: Öpfel, gswBe: Öpfu, en: apple, pos: noun, tags: [food] }
@@ -161,9 +176,9 @@ entries:
   - { de: Hähnchen, gswZh: Poulet, chStd: Poulet, en: chicken (meat), pos: noun, tags: [food, helvetism] }
   - { de: Sahne, gswZh: Rahm / Nidle, chStd: Rahm, en: cream, pos: noun, notes: "Schlagrahm = whipped cream.", tags: [food, helvetism] }
   - { de: Eis (Speiseeis), gswZh: Glace, chStd: Glace, en: ice cream, pos: noun, notes: "e Glace (feminine), pronounced 'Glasse'.", tags: [food, helvetism] }
-  - { de: Bonbon, gswZh: Täfeli / Zältli, en: sweet, candy, pos: noun, notes: "Täfeli is typical of Zurich; Zältli is more Bernese and central Swiss. Both are understood.", tags: [food] }
+  - { de: Bonbon, gswZh: Täfeli / Zältli, gswBe: Täfeli / Zältli, en: "sweet, candy", pos: noun, notes: "Täfeli is the usual Zurich word; Zältli is heard more in Bern and central Switzerland (berndeutsch.ch lists both for Bern). Both are understood.", tags: [food] }
   - { de: Tasse, gswZh: Tasse / Chacheli, en: cup, pos: noun, notes: "Tasse is the everyday Zurich word; Chacheli (cup, small bowl) is more Bernese and rural, and sounds homely.", tags: [food] }
-  - { de: lecker, gswZh: fein, chStd: fein, en: tasty, delicious, pos: adj, notes: "Das isch fein! = Das ist lecker! Lecker is understood but sounds German.", tags: [food, helvetism] }
+  - { de: lecker, gswZh: fein, chStd: fein, en: "tasty, delicious", pos: adj, notes: "Das isch fein! = Das ist lecker! Lecker is understood but sounds German.", tags: [food, helvetism] }
   - { de: Guten Appetit!, gswZh: En Guete!, en: Enjoy your meal!, pos: phrase, notes: "Said by everyone, also to colleagues and strangers at the next table.", tags: [food, phrases] }
   - { de: Prost!, gswZh: Proscht! / Zum Wohl!, en: Cheers!, pos: phrase, notes: "Look people in the eye when clinking glasses.", tags: [food, phrases] }
 
@@ -171,7 +186,7 @@ entries:
   - { de: Fahrrad, gswZh: Velo, chStd: Velo, en: bicycle, pos: noun, tags: [transport, helvetism] }
   - { de: Straßenbahn, gswZh: Tram, chStd: Tram, en: tram, pos: noun, notes: "In Switzerland es Tram (neuter); in Germany die Tram.", tags: [transport, helvetism] }
   - { de: Fahrkarte, gswZh: Billett / Billet, chStd: Billett, en: ticket, pos: noun, tags: [transport, helvetism] }
-  - { de: Bürgersteig, gswZh: Trottoir, chStd: Trottoir, en: pavement, sidewalk, pos: noun, tags: [transport, helvetism] }
+  - { de: Bürgersteig, gswZh: Trottoir, chStd: Trottoir, en: "pavement, sidewalk", pos: noun, tags: [transport, helvetism] }
   - { de: Auto, gswZh: Auto / Charre (colloquial), en: car, pos: noun, tags: [transport] }
   - { de: Krankenhaus, gswZh: Spital, chStd: Spital, en: hospital, pos: noun, notes: "s Spital (neuter).", tags: [health, helvetism] }
   - { de: Handy, gswZh: Handy / Natel (dated), chStd: Handy / Natel, en: mobile phone, pos: noun, tags: [phone, helvetism] }
@@ -179,7 +194,7 @@ entries:
   - { de: Geld, gswZh: Gäld / Stutz (colloquial), en: money, pos: noun, notes: "Stutz = Franken (colloquial).", tags: [money] }
   - { de: Rechnung, gswZh: Rächnig, en: bill, pos: noun, tags: [money] }
   - { de: Arbeit, gswZh: Arbet / Büez (colloquial), en: work, pos: noun, tags: [work] }
-  - { de: Fest, gswZh: Fäscht, en: party, festival, pos: noun, tags: [leisure] }
+  - { de: Fest, gswZh: Fäscht, en: "party, festival", pos: noun, tags: [leisure] }
   - { de: Spaß, gswZh: Plausch / Gspass, en: fun, pos: noun, notes: "Das isch en Plausch! = That's fun!", tags: [leisure] }
   - { de: Geburtstag, gswZh: Geburtstag / Geburi (colloquial), en: birthday, pos: noun, tags: [leisure] }
 
@@ -189,32 +204,42 @@ entries:
   - { de: Morgen, gswZh: Morge, en: morning, pos: noun, tags: [time] }
   - { de: Nachmittag, gswZh: Namittag, en: afternoon, pos: noun, tags: [time] }
   - { de: Abend, gswZh: Abig, gswBe: Abe, en: evening, pos: noun, tags: [time] }
+  - { de: Montag, gswZh: Mäntig, gswBe: Mänti / Määndi, en: Monday, pos: noun, tags: [time, days] }
+  - { de: Dienstag, gswZh: Ziischtig, gswBe: Zyschtig / Zyschti, en: Tuesday, pos: noun, tags: [time, days] }
+  - { de: Mittwoch, gswZh: Mittwuch, en: Wednesday, pos: noun, tags: [time, days] }
+  - { de: Donnerstag, gswZh: Donschtig, gswBe: Donschtig / Donschti, en: Thursday, pos: noun, tags: [time, days] }
+  - { de: Freitag, gswZh: Friitig, gswBe: Frytig / Fryti, en: Friday, pos: noun, tags: [time, days] }
+  - { de: Samstag, gswZh: Samschtig, gswBe: Samschtig / Samschti, en: Saturday, pos: noun, tags: [time, days] }
+  - { de: Sonntag, gswZh: Sunntig, gswBe: Sunntig / Sunnti, en: Sunday, pos: noun, tags: [time, days] }
+  - { de: halb (Uhrzeit), gswZh: "halbi (halbi achti = 7.30)", en: "half (past the previous hour)", pos: adj, notes: "Hours take -i from four on: vieri, föifi, sächsi, sibni, achti, nüüni, zäni, elfi, zwölfi. am = um: am sächsi.", tags: [time] }
+  - { de: Viertel nach, gswZh: Viertel ab, en: quarter past, pos: phrase, notes: "Viertel ab sibni = 7.15; Viertel vor is the same as in Standard German.", tags: [time] }
+  - { de: "Wie spät ist es?", gswZh: "Wie spaat isch es? / Wievill Uhr isch es?", en: "What time is it?", pos: phrase, tags: [time, phrases] }
   - { de: Zeit, gswZh: Ziit, en: time, pos: noun, tags: [time] }
 
   # ----- body and health -----
   - { de: Kopf, gswZh: Chopf, en: head, pos: noun, tags: [body] }
-  - { de: Bauch, gswZh: Buuch, en: belly, stomach, pos: noun, tags: [body] }
-  - { de: krank, gswZh: chrank, en: ill, sick, pos: adj, tags: [health] }
+  - { de: Bauch, gswZh: Buuch, en: "belly, stomach", pos: noun, tags: [body] }
+  - { de: krank, gswZh: chrank, en: "ill, sick", pos: adj, tags: [health] }
   - { de: müde, gswZh: müed, en: tired, pos: adj, tags: [health] }
   - { de: Gesundheit!, gswZh: Gsundheit!, en: Bless you!, pos: phrase, tags: [health, phrases] }
 
   # ----- adjectives -----
   - { de: gut, gswZh: guet, en: good, pos: adj, tags: [adjectives] }
   - { de: schlecht, gswZh: schlächt, en: bad, pos: adj, tags: [adjectives] }
-  - { de: schön, gswZh: schön / schöön, en: beautiful, nice, pos: adj, tags: [adjectives] }
+  - { de: schön, gswZh: schön / schöön, en: "beautiful, nice", pos: adj, tags: [adjectives] }
   - { de: hässlich, gswZh: wüescht, en: ugly, pos: adj, notes: "Also: horrible, nasty (weather, behaviour).", tags: [adjectives] }
   - { de: klein, gswZh: chlii / chli, gswBe: chly / chli, en: small, pos: adj, notes: "Attributive: en chliine Bueb.", tags: [adjectives] }
-  - { de: groß, gswZh: gross, chStd: gross, en: big, tall, pos: adj, tags: [adjectives] }
+  - { de: groß, gswZh: gross, chStd: gross, en: "big, tall", pos: adj, tags: [adjectives] }
   - { de: alt, gswZh: alt, gswBe: aut, en: old, pos: adj, tags: [adjectives] }
   - { de: neu, gswZh: neu, gswBe: nöi, en: new, pos: adj, tags: [adjectives] }
   - { de: kalt, gswZh: chalt, gswBe: chaut, en: cold, pos: adj, tags: [adjectives, weather] }
   - { de: heiß, gswZh: heiss, chStd: heiss, en: hot, pos: adj, tags: [adjectives, weather] }
   - { de: teuer, gswZh: tüür, en: expensive, pos: adj, tags: [adjectives, money] }
-  - { de: einfach, gswZh: eifach, en: easy, simple, pos: adj, tags: [adjectives] }
+  - { de: einfach, gswZh: eifach, en: "easy, simple", pos: adj, tags: [adjectives] }
   - { de: schwierig, gswZh: schwirig, en: difficult, pos: adj, tags: [adjectives] }
-  - { de: schnell, gswZh: schnäll / tifig (nimble), en: fast, quick, pos: adj, tags: [adjectives] }
-  - { de: praktisch, gswZh: gäbig, en: handy, practical, pos: adj, tags: [adjectives] }
-  - { de: gemütlich, gswZh: gmüetlich, en: cosy, relaxed, pos: adj, tags: [adjectives] }
+  - { de: schnell, gswZh: schnäll / tifig (nimble), en: "fast, quick", pos: adj, tags: [adjectives] }
+  - { de: praktisch, gswZh: gäbig, en: "handy, practical", pos: adj, tags: [adjectives] }
+  - { de: gemütlich, gswZh: gmüetlich, en: "cosy, relaxed", pos: adj, tags: [adjectives] }
   - { de: süß (niedlich), gswZh: herzig, gswBe: härzig, chStd: herzig, en: cute, pos: adj, notes: "Süess = sweet (taste).", tags: [adjectives, helvetism] }
 
   # ----- numbers -----
@@ -230,18 +255,18 @@ entries:
   - { de: Hallo!, gswZh: Hoi! / Sali! / Salü!, en: Hi!, pos: phrase, tags: [phrases, greetings] }
   - { de: Tschüss!, gswZh: Tschüss! / Ciao! / Adie!, gswBe: Tschou! / Ciao!, en: Bye!, pos: phrase, tags: [phrases, greetings] }
   - { de: Auf Wiedersehen!, gswZh: Uf Widerluege!, gswBe: Uf Widerluege! / Adieu!, en: Goodbye! (polite), pos: phrase, tags: [phrases, greetings] }
-  - { de: Wie geht's?, gswZh: Wie gaats? / Wie gahts?, gswBe: Wie geits?, en: How are you?, pos: phrase, tags: [phrases, greetings] }
+  - { de: "Wie geht's?", gswZh: "Wie gaats? / Wie gahts?", gswBe: "Wie geits?", en: "How are you?", pos: phrase, tags: [phrases, greetings] }
   - { de: danke, gswZh: merci / danke, en: thanks, pos: phrase, tags: [phrases, politeness] }
   - { de: Vielen Dank!, gswZh: Merci vilmal! / Danke vilmal!, gswBe: Merci viumau!, en: Thank you very much!, pos: phrase, tags: [phrases, politeness] }
   - { de: Bitte! (Antwort auf Danke), gswZh: Gärn gscheh! / Bitte!, en: You're welcome!, pos: phrase, tags: [phrases, politeness] }
   - { de: Entschuldigung!, gswZh: Exgüsi! / Entschuldigung!, en: Excuse me! / Sorry!, pos: phrase, tags: [phrases, politeness] }
-  - { de: Was darf es sein?, gswZh: Was dörfs sii?, en: What can I get you?, pos: phrase, tags: [phrases, shopping] }
+  - { de: "Was darf es sein?", gswZh: "Was dörfs sii?", en: "What can I get you?", pos: phrase, tags: [phrases, shopping] }
   - { de: Ich hätte gern ..., gswZh: Ich hett gärn ... / Ich hett gern ..., en: I'd like ..., pos: phrase, tags: [phrases, shopping] }
   - { de: Ich weiß nicht., gswZh: Ich weiss es nöd., gswBe: I weiss es nid., en: I don't know., pos: phrase, tags: [phrases] }
   - { de: Keine Ahnung., gswZh: Kei Ahnig., en: No idea., pos: phrase, tags: [phrases] }
-  - { de: Was ist los?, gswZh: Was isch los?, en: What's up? / What's wrong?, pos: phrase, tags: [phrases] }
+  - { de: "Was ist los?", gswZh: "Was isch los?", en: "What's up? / What's wrong?", pos: phrase, tags: [phrases] }
   - { de: Bis morgen!, gswZh: Bis morn!, en: See you tomorrow!, pos: phrase, tags: [phrases, greetings] }
   - { de: Schönes Wochenende!, gswZh: Schöns Wuchenänd!, en: Have a nice weekend!, pos: phrase, tags: [phrases, greetings] }
   - { de: Schönen Abend!, gswZh: En schöne Abig!, gswBe: E schöne Abe!, en: Have a nice evening!, pos: phrase, tags: [phrases, greetings] }
   - { de: Viele Grüße, gswZh: Liebi Grüess / En liebe Gruess, en: Best wishes (in messages), pos: phrase, tags: [phrases, writing] }
-  - { de: Wollen wir du sagen?, gswZh: Wämmer Duzis mache?, en: Shall we use du?, pos: phrase, notes: "Duzis mache = agree to use du.", tags: [phrases, politeness] }
+  - { de: "Wollen wir du sagen?", gswZh: "Wämmer Duzis mache?", en: "Shall we use du?", pos: phrase, notes: "Duzis mache = agree to use du.", tags: [phrases, politeness] }

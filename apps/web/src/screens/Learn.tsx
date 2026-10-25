@@ -56,6 +56,7 @@ function LevelOverview() {
       {!pack ? (
         <EmptyState title={`${level} is not available yet`}>Lessons for this level are still being written.</EmptyState>
       ) : (
+        <>
         <ol className="space-y-3" aria-label={`${pack.level} units`}>
           {pack.units.map((u) => (
             <li key={u.id}>
@@ -68,6 +69,14 @@ function LevelOverview() {
             </li>
           ))}
         </ol>
+        <Link to="/grammar" className="card flex items-center justify-between gap-3 py-3 transition-colors hover:border-accent">
+          <span>
+            <span className="block font-semibold">Grammar reference</span>
+            <span className="block text-sm text-muted">Look up any grammar point from your lessons.</span>
+          </span>
+          <span aria-hidden="true" className="text-accent">→</span>
+        </Link>
+        </>
       )}
     </div>
   );

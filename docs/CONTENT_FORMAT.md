@@ -22,7 +22,7 @@ content/
 - Unit folders are `unit-NN` with two digits. The unit `id` is `<level>-u<NN>`, for example `a1-u01`.
 - All ids are lowercase kebab-case (`a1-u02-gap-accusative`). Exercise, vocab and grammar ids must
   be unique within a level. Prefix exercise ids with the unit id, and use the infix `-ch-` for
-  Swiss-lane items (`a1-u01-ch-mcq-gruezi`).
+  Swiss-lane items (`a1-u01-ch-mcq-gruezi`) and `-ch-be-` for Bernese items (`a1-u04-ch-be-match-days`).
 - `docs/CURRICULUM.md` is the syllabus. A unit must match its entry there: title, grammar and Swiss focus.
 
 ## 2. Varieties
@@ -69,6 +69,9 @@ principles: write what you hear, close to Standard German letters.
 ```yaml
 id: a1-u01
 level: A1
+review:                            # native sign-off: leave de / ch / date empty until a human has checked
+  notes:                           # open questions for the reviewer (every form you were unsure of)
+    - "Is 'Wämmer grad Duzis mache?' natural Zurich German?"
 number: 1
 title: Grüezi und Hallo!          # German title
 titleEn: Hello and hi!
@@ -118,6 +121,8 @@ earlier point. The linter warns about ids that are not defined anywhere.
   example: { de: "Ich möchte einen Kaffee, bitte.", en: "I'd like a coffee, please." }
   gswZh: Kafi (en Kafi; en Kafi Crème = coffee with cream)
   gswBe: Kafi                     # only if notably different from Zurich
+  # audio fields: audio (word), example.audio, gswZhAudio, gswBeAudio; leave them out until the
+  # file exists, npm run audio:link writes them (see AUDIO.md)
   tags: [cafe, drinks]
 
 - id: eltern
@@ -257,6 +262,9 @@ Examples of each type:
 - **A1–A2:** Swiss items are about comprehension and recognition: gsw→de transforms, listening MCQs,
   matching, and recognition-level de→gsw transforms with many accepted spellings. Do not ask
   learners to produce free dialect before B1.
+- **Bernese at A1–A2:** 2–4 recognition items per unit (`variety: gsw-be`: gsw-be → de transforms,
+  listening MCQs, matching) and, where it fits, a few `gsw-be` dialogue lines. Use only forms you can
+  source (for example berndeutsch.ch) and record the source in `docs/NATIVE_REVIEW.md`.
 - **B1+:** Add dialect `speak` items, `gsw-zh` roleplays where the learner answers in dialect, and
   `gsw-be` items where the curriculum says so.
 - In every unit, include one Lena roleplay (Standard, speaking) and one Reto roleplay (Swiss lane,
@@ -307,6 +315,12 @@ The lexicon has one entry per Standard German headword. It has `de`, `gswZh` and
 required), plus optional `gswBe`, `chStd`, `pos`, `notes` and `tags`. Tag false friends
 (`laufe` = walk, `springe` = run, `lose` = listen) with `false-friend`. Each new unit's Swiss lane
 should reuse lexicon spellings, so the course stays consistent.
+
+`npm run content:lint` validates every `content/lexicon/*.yaml` with a light schema
+(`tools/src/lexicon.ts`): YAML syntax, the fields above (no unknown keys, no empty strings, `pos`
+one of noun, verb, adj, adv, prep, conj, pron, num, phrase, other) and no duplicate headword
+(same `de` and `pos`). The lexicon is reference data, not part of the content contract, so its schema
+lives in `tools/` rather than `packages/content-schema`.
 
 ## 9. Review
 

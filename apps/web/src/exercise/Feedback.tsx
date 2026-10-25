@@ -5,6 +5,14 @@ import { explain } from '@doppelpunkt/ai';
 import { DiffView } from '../components/DiffView';
 import { GermanText } from '../components/GermanText';
 import { aiUnavailableMessage, errorMessage, useAi } from '../lib/ai';
+import { resultTone, type ResultTone } from '../lib/feedback';
+
+const TONE_BOX: Record<ResultTone, string> = {
+  right: 'border-ok/40 bg-ok-soft',
+  almost: 'border-accent/40 bg-accent-soft',
+  wrong: 'border-bad/40 bg-bad-soft',
+};
+const TONE_TEXT: Record<ResultTone, string> = { right: 'text-ok', almost: 'text-accent', wrong: 'text-bad' };
 
 const TEXT_TYPES = new Set<Exercise['type']>(['gap', 'order', 'dictation', 'translate', 'transform', 'speak']);
 
@@ -15,15 +23,16 @@ function solutionVariety(ex: Exercise) {
 export function Feedback({ ex, unit, result, answer }: { ex: Exercise; unit: CompiledUnit; result: GradeResult; answer: string }) {
   const diff = result.diff ?? (TEXT_TYPES.has(ex.type) && !result.correct ? diffWords(result.expected, answer) : []);
   const pct = Math.round(result.score * 100);
+  const tone = resultTone(result);
+  // The headline already says "Almost!", so the hint doesn't repeat it.
+  const hints = tone === 'almost' ? result.feedback.map((f) => f.replace(/^Almost!\s*/, '')).filter(Boolean) : result.feedback;
   return (
-    <section
-      aria-live="polite"
-      aria-label="Result"
-      className={`mt-4 space-y-3 rounded-2xl border p-4 ${result.correct ? 'border-ok/40 bg-ok-soft' : 'border-bad/40 bg-bad-soft'}`}
-    >
-      <p className={`text-lg font-bold ${result.correct ? 'text-ok' : 'text-bad'}`}>
-        {result.correct ? 'Richtig!' : pct > 0 ? `Almost — ${pct}%` : 'Not quite'}
+    <section aria-live="polite" aria-label="Result" data-tone={tone} className={`mt-4 space-y-3 rounded-2xl border p-4 ${TONE_BOX[tone]}`}>
+      <p className={`flex items-baseline gap-2 text-lg font-bold ${TONE_TEXT[tone]}`}>
+        <span aria-hidden="true">{tone === 'right' ? '✓' : tone === 'almost' ? '≈' : '✗'}</span>
+        <span>{tone === 'right' ? 'Richtig!' : tone === 'almost' ? 'Almost!' : pct > 0 ? `Not quite — ${pct}% right` : 'Not quite'}</span>
       </p>
+      {tone === 'almost' && <p className="text-sm">So close: one small slip. Check the solution below.</p>}
       {!result.correct && result.expected && (
         <div>
           <p className="text-xs font-semibold uppercase tracking-wide text-muted">Solution</p>
@@ -36,9 +45,9 @@ export function Feedback({ ex, unit, result, answer }: { ex: Exercise; unit: Com
           <DiffView tokens={diff} />
         </div>
       )}
-      {result.feedback.length > 0 && (
+      {hints.length > 0 && (
         <ul className="list-disc space-y-1 pl-5 text-sm">
-          {result.feedback.map((f, i) => (
+          {hints.map((f, i) => (
             <li key={i}>{f}</li>
           ))}
         </ul>

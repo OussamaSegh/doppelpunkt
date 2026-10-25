@@ -9,6 +9,7 @@ import { recordAttempt } from '../lib/progress';
 import { canRecognize, canRecord, startRecording, type Recording } from '../lib/speech';
 import { Feedback } from './Feedback';
 import type { ExerciseOf, ExerciseOutcome } from './types';
+import { UmlautBar } from './UmlautBar';
 
 type Props = { ex: ExerciseOf<'speak'>; unit: CompiledUnit; record: boolean; onDone: (o: ExerciseOutcome) => void };
 
@@ -29,6 +30,7 @@ export function SpeakTask({ ex, unit, record, onDone }: Props) {
   const [error, setError] = useState<string>();
   const [busy, setBusy] = useState(false);
   const recRef = useRef<Recording | undefined>(undefined);
+  const heardRef = useRef<HTMLInputElement>(null);
   recRef.current = rec;
 
   useEffect(() => () => recRef.current?.cancel(), []);
@@ -110,7 +112,18 @@ export function SpeakTask({ ex, unit, record, onDone }: Props) {
           <label htmlFor={`heard-${ex.id}`} className="label">
             What we heard (you can correct it)
           </label>
-          <input id={`heard-${ex.id}`} className="input" lang="de" value={transcript} onChange={(e) => setTranscript(e.target.value)} />
+          <input
+            ref={heardRef}
+            id={`heard-${ex.id}`}
+            className="input"
+            lang="de"
+            autoComplete="off"
+            autoCapitalize="off"
+            spellCheck={false}
+            value={transcript}
+            onChange={(e) => setTranscript(e.target.value)}
+          />
+          <UmlautBar target={() => heardRef.current} onInsert={setTranscript} />
         </div>
       )}
 

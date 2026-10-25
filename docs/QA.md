@@ -3,6 +3,8 @@
 This is how we check Doppelpunkt before a release. The v0.1 exit criteria are in
 [`ROADMAP.md`](ROADMAP.md): CI green (typecheck, unit tests, content lint, build, e2e), the app
 installs on Android Chrome and iOS Safari, and a learner can finish A1 unit 1 offline without an API key.
+v0.2 adds the placement test, the exercise-player polish, the grammar reference, the Bern lane and the
+audio pipeline; see [v0.2 "Erste Schritte"](#v02-erste-schritte) below.
 
 ## Test strategy
 
@@ -10,7 +12,8 @@ installs on Android Chrome and iOS Safari, and a learner can finish A1 unit 1 of
 |---|---|---|---|
 | Types | `tsc --noEmit` per workspace | every `package.json` has `typecheck` | the whole monorepo, including e2e specs and configs |
 | Unit | Vitest (`vitest.config.ts` projects) | `packages/*/test`, `services/relay/test`, `tools/test`, `apps/web/src/**/*.test.tsx` | graders and German normalisation, FSRS, skill estimates, placement, AI adapters (mocked fetch), structured output, key vault, relay, linter and pack builder, exercise player (jsdom + fake IndexedDB) |
-| Content | `npm run content:lint` | `content/` | schema, ids, variety tags, every exercise has a solution and an explanation, warnings for style |
+| Content | `npm run content:lint` | `content/` | schema, ids, variety tags, every exercise has a solution and an explanation, warnings for style; the lexicon (`content/lexicon/*.yaml`) against its schema |
+| Generated files | `npm run audio:scripts -- --check` | `content/<level>/unit-NN/audio-*` | the audio manifests and recording scripts match the YAML (exits 1 when stale) |
 | End to end | Playwright, Chromium | `apps/web/e2e/*.spec.ts` | the production build served by `vite preview` on port 4319, desktop Chrome and a Pixel 7 viewport |
 | Manual | checklist below | real devices | install, offline, microphone, TTS, look and feel in both themes |
 
@@ -27,7 +30,9 @@ Principles:
   throws an uncaught exception. A test can allow specific messages with `test.use({ allowConsole: [...] })`
   (only the offline test does, for failed network requests).
 
-### E2e suite (14 tests × 2 projects = 28)
+### E2e suite (36 tests × 2 projects = 72)
+
+v0.1 specs (14 tests):
 
 | Spec | Tests |
 |---|---|
@@ -36,13 +41,17 @@ Principles:
 | `ai.spec.ts` | save an Anthropic key with a passphrase (stored encrypted), lock, wrong passphrase, unlock, forget; short passphrase rejected; tutor without a key shows "add a key"; tutor with a key streams a mocked reply and sends the key only to the provider |
 | `pwa.spec.ts` | manifest (name, 192/512 PNG icons served, maskable icon, `display: standalone`, colours, apple-touch-icon); offline: after the first visit, go offline, reload → shell and A1 pack load, deep link to a unit works |
 
+v0.2 specs (22 tests) — see the v0.2 section for details: `placement.spec.ts` (4), `player.spec.ts` (10),
+`grammar.spec.ts` (4), `bern.spec.ts` (4).
+
 ## How to run
 
 ```bash
 npm ci                     # or npm install
 npm run typecheck          # tsc in every workspace
 npx vitest run             # all unit tests (same as npm test)
-npm run content:lint       # content linter
+npm run content:lint       # content linter (units and lexicon)
+npm run audio:scripts -- --check   # generated audio manifests/scripts are up to date
 npm run build              # content packs + production build of the web app
 npm run test:e2e           # Playwright (Chromium, desktop + Pixel 7)
 ```
@@ -58,8 +67,9 @@ E2e details:
 - Reports: `apps/web/playwright-report/index.html`; traces and screenshots of failures in `apps/web/test-results/`.
 - Flakiness check before merging test changes: `npm run test:e2e -- --repeat-each=4`.
 
-CI (`.github/workflows/ci.yml`) runs on every push and pull request to `main` with Node 22:
-`npm ci` → typecheck → unit tests → content lint → build → install Chromium → e2e, and uploads the
+CI (`.github/workflows/ci.yml`) runs on every push to `main` and every pull request with Node 22:
+`npm ci` → typecheck → unit tests → content lint (units + lexicon) → audio manifests up to date
+(`npm run audio:scripts -- --check`) → build → install Chromium → e2e, and uploads the
 Playwright report and test results when something fails.
 
 ## Manual device checklist
@@ -97,7 +107,64 @@ Run against a deployed preview over HTTPS (service workers and the microphone ne
 - [ ] Screen reader spot-check (VoiceOver or NVDA): German text is read with a German voice (`lang` attributes), variety tags are announced ("Zurich German").
 - [ ] Export progress → Reset everything → Import progress restores it; keys are not in the export.
 
+## v0.2 "Erste Schritte"
+
+### New automated coverage
+
+E2e (real A1 pack, via `e2e/fixtures.ts`; `onboard(page, { dialect: 'Bern', start: 'placement' })`,
+`openItem`, `answerCorrectly`, `shownExerciseId`, `pressOnPage`). Specs that need the app's own logic
+to stay content-independent import it from `src/lib` (`wordsInExercises`, `searchGrammar`, `exercisesFor`).
+
+| Spec | Tests |
+|---|---|
+| `placement.spec.ts` | intro (question count, sections, rules, Next disabled until answered, only de/ch-std closed items); wrong answers + "Stop here" → A1 unit 1, "ended early", no "Start from A1 unit 1 instead", "Start here" opens unit 1, result card on Progress; all right → mastered, placed at the last A1 unit, score table, "Start here" opens that unit, Progress card and the Learn "Start here" badge follow; keyboard-only run (Enter checks, Enter moves on) → "Start from A1 unit 1 instead" resets the start to unit 1 and keeps the result |
+| `player.spec.ts` | umlaut bar inserts at the caret / replaces a selection and keeps focus, hides after Check; present under dictation, translate, transform and writing inputs; number keys 1–9 pick the option shown at that position, Enter checks, Enter goes to the next item; Enter in a gap submits; "Almost!" (`data-tone="almost"`) for a one-letter slip with the hint and solution, Try again clears and a right answer has no Try again; wrong → `data-tone="wrong"` with Try again; vibration patterns (`navigator.vibrate` stubbed) for wrong and right, none when the Settings toggle is off or with reduced motion; session summary after Finish (first-attempt score, right first time, by skill, mistakes, "Add missed words to review" → cards in Review, "Practise item n again" → `?item=<id>`), empty summary and "Practise this set again", Enter on the last item opens the summary |
+| `grammar.spec.ts` | list of every point by unit (sidebar on desktop, Learn card on phones); search ignores accents and accepts ae/oe/ue, ss and case (`mochte`, `moechte`, `MÖCHTE`, `kuche`, `heisst`), counts match `searchGrammar`, empty state; detail view with "Practise this" links that open the item in its unit step, back links; unknown point → not-found state |
+| `bern.spec.ts` | onboarding with Bern → the unit 1 Schwiiz lane lists every BE item before the ZH ones, BE tag on the first card, Bernese dialogue with a "Show the Zurich German version" toggle, no fallback note; every A1 unit leads with BE items (or shows the fallback note if a unit has none); Zurich learner gets ZH first and can show the Bernese dialogue, then switching to Bern in Settings puts BE first; "Not yet reviewed by a native speaker" note on unsigned units |
+
+Unit tests added in v0.2 by the feature teams: `ExercisePolish.test.tsx`, `ExerciseRunner.test.tsx`,
+`SwissLane.test.tsx`, `Placement.test.tsx` (including the adaptive stop between levels, which e2e can't
+reach while only A1 is installed), `Grammar.test.tsx`, `tools/test/audio.test.ts`, `tools/test/report.test.ts`.
+QA added `tools/test/lexicon.test.ts` (the real lexicon validates; schema errors, YAML errors and
+duplicate headwords are reported; the lexicon is part of `content:lint`).
+
+### Manual checks for v0.2
+
+- [ ] **Vibration on Android** (Chrome, installed app and browser tab): a right answer gives one short
+  buzz, "Almost!" a short double, a wrong answer a longer double. Settings → "Vibrate on right and wrong
+  answers" off → no vibration. Android *Settings → Accessibility → Remove animations* on → no vibration.
+  Placement test: never vibrates (no feedback during the test). iOS Safari has no Vibration API: nothing
+  happens and nothing breaks.
+- [ ] **Umlaut bar on phone keyboards** (Gboard and Samsung keyboard on Android, iOS keyboard): tapping
+  ä/ö/ü/ß inserts at the caret without closing the keyboard or jumping the page; works in gaps (with
+  several gaps, into the one last focused), dictation, translation, transform, writing tasks and the tutor
+  chat; autocorrect and auto-capitalisation stay off in answer fields; VoiceOver/TalkBack read "Insert ä"
+  and "Insert capital Ä" differently.
+- [ ] **Almost panel in both themes**: light and dark (system setting and the theme toggle), the
+  "≈ Almost!" panel uses the accent colour and is clearly different from the green "Richtig!" and red
+  "Not quite" panels; text contrast is readable; the hint ("… should be …") and the solution are visible.
+- [ ] Keyboard on desktop: 1–9 pick options (kbd badges visible from `sm` up), Enter checks and moves on,
+  Enter in a textarea makes a new line and Ctrl/Cmd+Enter checks; Tab order still reaches every button.
+- [ ] Placement test on a phone: about 25 minutes for 30 questions is realistic; "Stop here" at any point
+  gives a sensible result; the result text reads well.
+- [ ] Bern learner: onboarding with Bern, then every unit's Schwiiz lane starts with BE items; Settings →
+  change dialect to Zurich and back reorders the lane.
+- [ ] Grammar reference on a phone: reached from the Learn card; search works with the phone keyboard
+  (no umlaut needed: "mochte" finds möchte).
+
 ## Found issues and known gaps
+
+### Fixed during QA (v0.2)
+
+| Issue | Fix |
+|---|---|
+| `npm run audio:scripts -- --check` never checked anything: the root script forwarded `--check` to the inner `npm run` as an npm option instead of to the tool, so it regenerated the files and always exited 0. | The root `audio:scripts` script ends with `--` like `audio:process` and `audio:link` (`package.json`). |
+| `content/lexicon/gsw-zh.yaml` had `kaufen` twice (the second copy without the Bernese form). | Removed the duplicate; `content:lint` now reports duplicate headwords. |
+| The lexicon was never validated: a typo in a field name or a broken YAML line went unnoticed. | Light zod schema in `tools/src/lexicon.ts`, run by `content:lint`, tested in `tools/test/lexicon.test.ts`. |
+| The umlaut bar's buttons "Insert ä" and "Insert Ä" had names that differ only in case (screen readers say the same thing). | Capitals are labelled "Insert capital Ä" (`apps/web/src/exercise/UmlautBar.tsx`). |
+| `tools` imported `zod` without declaring it. | Declared in `tools/package.json` (already installed via content-schema; lockfile entry updated, no new download). |
+
+
 
 ### Fixed during QA (v0.1)
 
@@ -110,14 +177,17 @@ Run against a deployed preview over HTTPS (service workers and the microphone ne
 
 ### Known gaps / open issues
 
-- **Content:** no Bernese (`gsw-be`) exercises in units 1–3, although onboarding offers Bern; Bernese learners
-  get the Zurich lane. (The 7 content-lint warnings about nouns without a plural seen early in QA have
-  since been fixed; lint is now clean.) All mcq items still list the
-  correct option first in the YAML (harmless now that the player shuffles, but authors should vary it).
-  No recorded audio yet (TTS only; Swiss lane has none). Native-speaker review pending (`NATIVE_REVIEW.md`).
-- **E2e not covered yet:** placement test, match / dictation / translate / transform / speak / write / role-play
-  exercises in the browser (unit-tested in jsdom only), Bern dialect path, export/import, reset, theme switching,
-  other AI providers in the browser, relay mode, spend-cap enforcement in the UI, the "Why?" button.
+- **Content:** every A1 unit (1–6) now has Bernese items, so the Bern fallback note can't be seen with real
+  content (unit-tested in `SwissLane.test.tsx`). No recorded audio yet (audio coverage 0/968; TTS only, Swiss
+  lane has none). Native-speaker review pending for all six units (`NATIVE_REVIEW.md`; the lint prints the
+  review sign-off summary).
+- **Placement:** only A1 is installed, so the e2e run has one section and the adaptive stop between levels
+  is covered by unit tests only. The roadmap exit criterion (80% within one unit of a teacher's assessment)
+  needs a study with real learners; nothing here measures it.
+- **E2e not covered yet:** match / dictation / translate / transform answers graded in the browser
+  (inputs checked, grading unit-tested in jsdom), speak / write / role-play flows, export/import, reset, theme
+  switching, other AI providers in the browser, relay mode, spend-cap enforcement in the UI, the "Why?" button,
+  Ctrl/Cmd+Enter in textareas, the audio tools against real recordings (unit-tested with ffmpeg when present).
 - **Not automatable here:** real install prompts, iOS Safari (WebKit is not in the CI matrix), microphone
   permission and speech recognition, TTS voices — see the manual checklist.
 - The e2e Anthropic mock returns the whole SSE body at once; it checks that deltas are assembled, not timing.

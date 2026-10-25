@@ -13,6 +13,12 @@ canDo:
   - I can choose between du and Sie.
   - I can recognise Grüezi, Hoi, Sali, Merci and "Wie gaats?" when Swiss people say them.
 
+review:
+  notes:
+    - "Bernese lines: 'Hoi Mami! Ja, i bi guet acho. Aues guet!', 'U d Nachbare?', 'Nätt!' – natural Bernese?"
+    - "Bernese 'u' for 'und' and 'aues' for 'alles' – confirm spellings (u is confirmed by berndeutsch.ch examples such as 'mit Chind u Chegu')."
+    - "Natural flow of the Zurich stairwell dialogue (Wämmer grad Duzis mache?)."
+
 intro:
   scene: >-
     First morning of a German course in Zurich. The teacher, Frau Keller, greets the class.
@@ -178,7 +184,8 @@ reading:
 swiss:
   scene: >-
     In the stairwell of an apartment building in Zurich. Reto meets his new neighbour Sandra,
-    who has just moved in from Bern. Listen first; read along; don't try to speak it yet.
+    who has just moved in from Bern. Listen first; read along; don't try to speak it yet. Then Sandra
+    phones her mother in Bern – listen to the Bernese.
   dialogue:
     - speaker: Reto
       text: Grüezi! Sind Sie neu da?
@@ -216,6 +223,18 @@ swiss:
       text: Au guet, merci. Tschüss Sandra, bis spöter!
       en: Fine too, thanks. Bye Sandra, see you later!
       variety: gsw-zh
+    - speaker: Sandra
+      text: Hoi Mami! Ja, i bi guet acho. Aues guet!
+      en: Hi Mum! Yes, I've arrived safely. All good!
+      variety: gsw-be
+    - speaker: Mami
+      text: Schön! U d Nachbare?
+      en: Lovely! And the neighbours?
+      variety: gsw-be
+    - speaker: Sandra
+      text: Nätt! Tschou Mami!
+      en: Nice! Bye, Mum!
+      variety: gsw-be
   notes:
     - >-
       **Grüezi** is the polite greeting to one person you say Sie to; to a group say **Grüezi mitenand**.
@@ -234,3 +253,8 @@ swiss:
     - >-
       **Merci** (from French) is the everyday Swiss *danke*; **au** = *auch*; **gärn** = *gern*.
       **Duzis mache** = agreeing to use *du*.
+    - >-
+      **Bernese** (Sandra's home dialect): **i** = *ich*, **u** = *und*, **Grüessech** = polite *Grüezi*,
+      **Tschou** = *Tschüss* among du-friends, **Merci viumau** = *Vielen Dank*. **sein**: *i bi, du bisch,
+      är isch, mir sy, dir syt, si sy*. **aues** = *alles*: Bernese turns l before a consonant into u.
+      The polite form is **Dir** (= Ihr), not Sie: *Wie geits Ech?*

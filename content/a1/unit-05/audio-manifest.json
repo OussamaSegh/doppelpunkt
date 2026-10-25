@@ -1,0 +1,3035 @@
+{
+  "unitId": "a1-u05",
+  "level": "A1",
+  "folder": "a1/unit-05",
+  "title": "Einkaufen",
+  "delivery": {
+    "raw": "WAV or FLAC, 48 kHz, 24-bit, mono, one file per entry, named <file base>.wav",
+    "processed": [
+      "mp3 64 kbps mono 44.1 kHz",
+      "opus 32 kbps mono 48 kHz",
+      "EBU R128 -16 LUFS, true peak -1.5 dBTP"
+    ]
+  },
+  "entries": [
+    {
+      "file": "dialog-intro-01.mp3",
+      "kind": "dialogue-intro",
+      "text": "Tom, was brauchen wir für heute Abend?",
+      "en": "Tom, what do we need for this evening?",
+      "variety": "de",
+      "voice": "de-f",
+      "speaker": "Anna",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          0,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-01.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-02.mp3",
+      "kind": "dialogue-intro",
+      "text": "Wir brauchen Nudeln, Tomaten und eine Zwiebel. Haben wir noch Käse?",
+      "en": "We need pasta, tomatoes and an onion. Do we still have cheese?",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          1,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-02.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-03.mp3",
+      "kind": "dialogue-intro",
+      "text": "Nein, wir haben keinen Käse mehr. Ich nehme den Käse hier.",
+      "en": "No, we haven't got any cheese left. I'll take this cheese here.",
+      "variety": "de",
+      "voice": "de-f",
+      "speaker": "Anna",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          2,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-03.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-04.mp3",
+      "kind": "dialogue-intro",
+      "text": "Und Fleisch? Das Hähnchen ist billig.",
+      "en": "And meat? The chicken is cheap.",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          3,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-04.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-05.mp3",
+      "kind": "dialogue-intro",
+      "text": "Nein, kein Fleisch. Ich esse kein Fleisch. Ich bin Vegetarierin.",
+      "en": "No, no meat. I don't eat meat. I'm a vegetarian.",
+      "variety": "de",
+      "voice": "de-f",
+      "speaker": "Anna",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          4,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-05.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-06.mp3",
+      "kind": "dialogue-intro",
+      "text": "Ach ja, richtig! Und brauchen wir keinen Wein?",
+      "en": "Oh yes, right! And don't we need any wine?",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          5,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-06.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-07.mp3",
+      "kind": "dialogue-intro",
+      "text": "Doch! Eine Flasche Rotwein. Der Wein hier ist nicht teuer.",
+      "en": "Yes, we do! A bottle of red wine. The wine here isn't expensive.",
+      "variety": "de",
+      "voice": "de-f",
+      "speaker": "Anna",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          6,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-07.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-08.mp3",
+      "kind": "dialogue-intro",
+      "text": "Und Obst? Ich kaufe ein Kilo Äpfel.",
+      "en": "And fruit? I'll buy a kilo of apples.",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          7,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-08.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-09.mp3",
+      "kind": "dialogue-intro",
+      "text": "Ein Kilo ist viel. Ich nehme nur vier Äpfel. Die Bananen sind nicht frisch.",
+      "en": "A kilo is a lot. I'll just take four apples. The bananas aren't fresh.",
+      "variety": "de",
+      "voice": "de-f",
+      "speaker": "Anna",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          8,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-09.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-10.mp3",
+      "kind": "dialogue-intro",
+      "text": "Das macht dreiundzwanzig Franken vierzig. Brauchen Sie eine Tüte?",
+      "en": "That's twenty-three francs forty. Do you need a bag?",
+      "variety": "de",
+      "voice": "de-f",
+      "speaker": "Kassierer",
+      "voiceGuessed": true,
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          9,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-10.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-11.mp3",
+      "kind": "dialogue-intro",
+      "text": "Nein, danke, keine Tüte.",
+      "en": "No, thanks, no bag.",
+      "variety": "de",
+      "voice": "de-f",
+      "speaker": "Anna",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          10,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-11.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-01.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Grüezi mitenand! Was dörfs sii?",
+      "en": "Hello, both of you! What can I get you?",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Verkäuferin",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          0,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-01.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-02.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Grüezi. Ich hett gärn es Kilo Härdöpfel und föif Rüebli.",
+      "en": "Hello. I'd like a kilo of potatoes and five carrots.",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          1,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-02.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-03.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Gärn. Suscht no öppis? Mir händ hüt schöni Peperoni.",
+      "en": "Certainly. Anything else? We have nice peppers today.",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Verkäuferin",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          2,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-03.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-04.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Nei, merci, Peperoni äss ich nöd so gärn. Händ Sie no Eier?",
+      "en": "No, thanks, I don't like peppers much. Do you still have eggs?",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          3,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-04.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-05.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Nei, leider kei Eier meh. Aber mir händ frische Rahm.",
+      "en": "No, sorry, no eggs left. But we have fresh cream.",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Verkäuferin",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          4,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-05.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-06.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Reto, bruuchsch du kei Rahm für de Chueche?",
+      "en": "Reto, don't you need cream for the cake?",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          5,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-06.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-07.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Moll, natürli! Dänn nimm ich no Rahm.",
+      "en": "Yes, of course I do! Then I'll take some cream as well.",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          6,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-07.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-08.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Das macht zwölf Franke vierzg. Bar oder mit Twint?",
+      "en": "That's twelve francs forty. Cash or with Twint?",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Verkäuferin",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          7,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-08.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-09.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Mit Twint, bitte.",
+      "en": "With Twint, please.",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          8,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-09.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-10.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Merci vilmal! Wänd Sie es Säckli?",
+      "en": "Thank you very much! Would you like a bag?",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Verkäuferin",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          9,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-10.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-11.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Nei, merci, mir händ en Sack debii.",
+      "en": "No, thanks, we've brought a bag.",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          10,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-11.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-12.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Hoi Sandra! Chouf no Härdöpfu u Anke!",
+      "en": "Hi Sandra! Buy some potatoes and butter as well!",
+      "variety": "gsw-be",
+      "voice": "be-m",
+      "speaker": "Mami",
+      "voiceGuessed": true,
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          11,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-12.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-13.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Mach i, Mami. U Miuch?",
+      "en": "Will do, Mum. And milk?",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          12,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-13.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-14.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Nei, Miuch hei mer gnue.",
+      "en": "No, we have enough milk.",
+      "variety": "gsw-be",
+      "voice": "be-m",
+      "speaker": "Mami",
+      "voiceGuessed": true,
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          13,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-14.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-supermarkt.mp3",
+      "kind": "vocab",
+      "text": "Supermarkt",
+      "en": "supermarket",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "supermarkt",
+        "pointer": [
+          0,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-supermarkt.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-supermarkt-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich kaufe im Supermarkt ein.",
+      "en": "I do my shopping in the supermarket.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "supermarkt",
+        "pointer": [
+          0,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-supermarkt-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-supermarkt-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Supermarkt / Lade",
+      "note": "de Migros, de Coop",
+      "en": "supermarket",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "supermarkt",
+        "pointer": [
+          0,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-supermarkt-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-markt.mp3",
+      "kind": "vocab",
+      "text": "Markt",
+      "en": "market",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "markt",
+        "pointer": [
+          1,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-markt.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-markt-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Am Samstag ist Markt.",
+      "en": "There's a market on Saturday.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "markt",
+        "pointer": [
+          1,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-markt-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-markt-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Märt",
+      "note": "de Wuchemärt = weekly market",
+      "en": "market",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "markt",
+        "pointer": [
+          1,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-markt-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kasse.mp3",
+      "kind": "vocab",
+      "text": "Kasse",
+      "en": "till, checkout",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kasse",
+        "pointer": [
+          2,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-kasse.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kasse-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Die Kasse ist hier.",
+      "en": "The checkout is here.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kasse",
+        "pointer": [
+          2,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-kasse-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kasse-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Kasse",
+      "en": "till, checkout",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kasse",
+        "pointer": [
+          2,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-kasse-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-tuete.mp3",
+      "kind": "vocab",
+      "text": "Tüte",
+      "en": "(shopping) bag",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "tuete",
+        "pointer": [
+          3,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-tuete.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-tuete-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Brauchen Sie eine Tüte?",
+      "en": "Do you need a bag?",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "tuete",
+        "pointer": [
+          3,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-tuete-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-tuete-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Säckli / Sack",
+      "en": "(shopping) bag",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "tuete",
+        "pointer": [
+          3,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-tuete-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-preis.mp3",
+      "kind": "vocab",
+      "text": "Preis",
+      "en": "price",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "preis",
+        "pointer": [
+          4,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-preis.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-preis-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Der Preis ist gut.",
+      "en": "The price is good.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "preis",
+        "pointer": [
+          4,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-preis-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-preis-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Priis",
+      "en": "price",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "preis",
+        "pointer": [
+          4,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-preis-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gemuese.mp3",
+      "kind": "vocab",
+      "text": "Gemüse",
+      "en": "vegetables",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gemuese",
+        "pointer": [
+          5,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-gemuese.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gemuese-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Das Gemüse ist frisch.",
+      "en": "The vegetables are fresh.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gemuese",
+        "pointer": [
+          5,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-gemuese-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gemuese-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Gmües",
+      "en": "vegetables",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gemuese",
+        "pointer": [
+          5,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-gemuese-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-obst.mp3",
+      "kind": "vocab",
+      "text": "Obst",
+      "en": "fruit",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "obst",
+        "pointer": [
+          6,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-obst.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-obst-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich esse jeden Tag Obst.",
+      "en": "I eat fruit every day.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "obst",
+        "pointer": [
+          6,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-obst-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-obst-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Frücht / Obscht",
+      "en": "fruit",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "obst",
+        "pointer": [
+          6,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-obst-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kartoffel.mp3",
+      "kind": "vocab",
+      "text": "Kartoffel",
+      "en": "potato",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kartoffel",
+        "pointer": [
+          7,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-kartoffel.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kartoffel-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ein Kilo Kartoffeln, bitte.",
+      "en": "A kilo of potatoes, please.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kartoffel",
+        "pointer": [
+          7,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-kartoffel-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kartoffel-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Härdöpfel / Erdöpfel",
+      "note": "de Härdöpfel, plural Härdöpfel",
+      "en": "potato",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kartoffel",
+        "pointer": [
+          7,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-kartoffel-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kartoffel-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "Härdöpfu",
+      "en": "potato",
+      "variety": "gsw-be",
+      "voice": "be-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kartoffel",
+        "pointer": [
+          7,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-kartoffel-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-karotte.mp3",
+      "kind": "vocab",
+      "text": "Karotte",
+      "en": "carrot",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "karotte",
+        "pointer": [
+          8,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-karotte.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-karotte-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich brauche drei Karotten.",
+      "en": "I need three carrots.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "karotte",
+        "pointer": [
+          8,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-karotte-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-karotte-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Rüebli",
+      "note": "s Rüebli",
+      "en": "carrot",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "karotte",
+        "pointer": [
+          8,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-karotte-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-tomate.mp3",
+      "kind": "vocab",
+      "text": "Tomate",
+      "en": "tomato",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "tomate",
+        "pointer": [
+          9,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-tomate.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-tomate-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Die Tomaten sind nicht gut.",
+      "en": "The tomatoes aren't good.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "tomate",
+        "pointer": [
+          9,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-tomate-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-tomate-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Tomate",
+      "en": "tomato",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "tomate",
+        "pointer": [
+          9,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-tomate-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-zwiebel.mp3",
+      "kind": "vocab",
+      "text": "Zwiebel",
+      "en": "onion",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "zwiebel",
+        "pointer": [
+          10,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-zwiebel.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-zwiebel-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Wir brauchen eine Zwiebel.",
+      "en": "We need an onion.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "zwiebel",
+        "pointer": [
+          10,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-zwiebel-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-zwiebel-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Zwieble / Bölle",
+      "note": "de Bölle",
+      "en": "onion",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "zwiebel",
+        "pointer": [
+          10,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-zwiebel-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-zwiebel-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "Zibele",
+      "en": "onion",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "zwiebel",
+        "pointer": [
+          10,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-zwiebel-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-paprika.mp3",
+      "kind": "vocab",
+      "text": "Paprika",
+      "en": "(bell) pepper",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "paprika",
+        "pointer": [
+          11,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-paprika.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-paprika-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich nehme eine Paprika.",
+      "en": "I'll take a pepper.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "paprika",
+        "pointer": [
+          11,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-paprika-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-paprika-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Peperoni",
+      "en": "(bell) pepper",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "paprika",
+        "pointer": [
+          11,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-paprika-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-apfel.mp3",
+      "kind": "vocab",
+      "text": "Apfel",
+      "en": "apple",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "apfel",
+        "pointer": [
+          12,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-apfel.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-apfel-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich kaufe ein Kilo Äpfel.",
+      "en": "I'm buying a kilo of apples.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "apfel",
+        "pointer": [
+          12,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-apfel-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-apfel-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Öpfel",
+      "note": "plural Öpfel",
+      "en": "apple",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "apfel",
+        "pointer": [
+          12,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-apfel-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-apfel-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "Öpfu",
+      "en": "apple",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "apfel",
+        "pointer": [
+          12,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-apfel-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-banane.mp3",
+      "kind": "vocab",
+      "text": "Banane",
+      "en": "banana",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "banane",
+        "pointer": [
+          13,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-banane.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-banane-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Die Bananen sind nicht frisch.",
+      "en": "The bananas aren't fresh.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "banane",
+        "pointer": [
+          13,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-banane-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-banane-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Banane",
+      "en": "banana",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "banane",
+        "pointer": [
+          13,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-banane-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-brot.mp3",
+      "kind": "vocab",
+      "text": "Brot",
+      "en": "bread",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "brot",
+        "pointer": [
+          14,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-brot.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-brot-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Das Brot hier ist teuer.",
+      "en": "The bread here is expensive.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "brot",
+        "pointer": [
+          14,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-brot-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-brot-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Brot",
+      "en": "bread",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "brot",
+        "pointer": [
+          14,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-brot-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-butter.mp3",
+      "kind": "vocab",
+      "text": "Butter",
+      "en": "butter",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "butter",
+        "pointer": [
+          15,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-butter.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-butter-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich kaufe die Butter im Supermarkt.",
+      "en": "I buy the butter in the supermarket.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "butter",
+        "pointer": [
+          15,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-butter-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-butter-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Anke / Butter",
+      "note": "de Anke",
+      "en": "butter",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "butter",
+        "pointer": [
+          15,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-butter-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-butter-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "Anke",
+      "en": "butter",
+      "variety": "gsw-be",
+      "voice": "be-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "butter",
+        "pointer": [
+          15,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-butter-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kaese.mp3",
+      "kind": "vocab",
+      "text": "Käse",
+      "en": "cheese",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kaese",
+        "pointer": [
+          16,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-kaese.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kaese-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich nehme den Käse hier.",
+      "en": "I'll take this cheese.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kaese",
+        "pointer": [
+          16,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-kaese-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kaese-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Chäs",
+      "note": "de Chäs",
+      "en": "cheese",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kaese",
+        "pointer": [
+          16,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-kaese-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-ei.mp3",
+      "kind": "vocab",
+      "text": "Ei",
+      "en": "egg",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "ei",
+        "pointer": [
+          17,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-ei.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-ei-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Wir haben keine Eier mehr.",
+      "en": "We haven't got any eggs left.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "ei",
+        "pointer": [
+          17,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-ei-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-ei-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Ei",
+      "note": "plural Eier",
+      "en": "egg",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "ei",
+        "pointer": [
+          17,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-ei-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sahne.mp3",
+      "kind": "vocab",
+      "text": "Sahne",
+      "en": "cream",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sahne",
+        "pointer": [
+          18,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-sahne.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sahne-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Brauchst du Sahne für den Kuchen?",
+      "en": "Do you need cream for the cake?",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sahne",
+        "pointer": [
+          18,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-sahne-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sahne-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Rahm / Nidle",
+      "en": "cream",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sahne",
+        "pointer": [
+          18,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-sahne-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sahne-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "Nidle / Nydle",
+      "en": "cream",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sahne",
+        "pointer": [
+          18,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-sahne-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-fleisch.mp3",
+      "kind": "vocab",
+      "text": "Fleisch",
+      "en": "meat",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "fleisch",
+        "pointer": [
+          19,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-fleisch.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-fleisch-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Anna isst kein Fleisch.",
+      "en": "Anna doesn't eat meat.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "fleisch",
+        "pointer": [
+          19,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-fleisch-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-fleisch-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Fleisch",
+      "en": "meat",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "fleisch",
+        "pointer": [
+          19,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-fleisch-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-haehnchen.mp3",
+      "kind": "vocab",
+      "text": "Hähnchen",
+      "en": "chicken (as food)",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "haehnchen",
+        "pointer": [
+          20,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-haehnchen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-haehnchen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Das Hähnchen ist billig.",
+      "en": "The chicken is cheap.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "haehnchen",
+        "pointer": [
+          20,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-haehnchen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-haehnchen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Poulet",
+      "en": "chicken (as food)",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "haehnchen",
+        "pointer": [
+          20,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-haehnchen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-nudel.mp3",
+      "kind": "vocab",
+      "text": "Nudel",
+      "en": "noodle; (plural) pasta",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "nudel",
+        "pointer": [
+          21,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-nudel.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-nudel-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Wir brauchen eine Packung Nudeln.",
+      "en": "We need a packet of pasta.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "nudel",
+        "pointer": [
+          21,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-nudel-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-nudel-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Teigwaare / Nudle / Pasta",
+      "en": "noodle; (plural) pasta",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "nudel",
+        "pointer": [
+          21,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-nudel-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-salz.mp3",
+      "kind": "vocab",
+      "text": "Salz",
+      "en": "salt",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "salz",
+        "pointer": [
+          22,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-salz.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-salz-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Haben wir noch Salz?",
+      "en": "Do we still have salt?",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "salz",
+        "pointer": [
+          22,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-salz-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-salz-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Salz",
+      "en": "salt",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "salz",
+        "pointer": [
+          22,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-salz-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-saft.mp3",
+      "kind": "vocab",
+      "text": "Saft",
+      "en": "juice",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "saft",
+        "pointer": [
+          23,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-saft.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-saft-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich nehme einen Liter Apfelsaft.",
+      "en": "I'll take a litre of apple juice.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "saft",
+        "pointer": [
+          23,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-saft-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-saft-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Saft",
+      "note": "Öpfelsaft / Süessmoscht = apple juice",
+      "en": "juice",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "saft",
+        "pointer": [
+          23,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-saft-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wein.mp3",
+      "kind": "vocab",
+      "text": "Wein",
+      "en": "wine",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wein",
+        "pointer": [
+          24,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-wein.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wein-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Eine Flasche Wein, bitte.",
+      "en": "A bottle of wine, please.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wein",
+        "pointer": [
+          24,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-wein-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wein-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Wii",
+      "note": "de Wii",
+      "en": "wine",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wein",
+        "pointer": [
+          24,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-wein-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-flasche.mp3",
+      "kind": "vocab",
+      "text": "Flasche",
+      "en": "bottle",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "flasche",
+        "pointer": [
+          25,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-flasche.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-flasche-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Wir brauchen zwei Flaschen Wasser.",
+      "en": "We need two bottles of water.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "flasche",
+        "pointer": [
+          25,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-flasche-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-flasche-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Fläsche",
+      "en": "bottle",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "flasche",
+        "pointer": [
+          25,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-flasche-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-packung.mp3",
+      "kind": "vocab",
+      "text": "Packung",
+      "en": "packet, pack",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "packung",
+        "pointer": [
+          26,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-packung.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-packung-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Eine Packung Nudeln kostet zwei Franken.",
+      "en": "A packet of pasta costs two francs.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "packung",
+        "pointer": [
+          26,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-packung-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-packung-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Packig / Päckli",
+      "en": "packet, pack",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "packung",
+        "pointer": [
+          26,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-packung-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kilo.mp3",
+      "kind": "vocab",
+      "text": "Kilo",
+      "en": "kilo",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kilo",
+        "pointer": [
+          27,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-kilo.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kilo-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Zwei Kilo Kartoffeln, bitte.",
+      "en": "Two kilos of potatoes, please.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kilo",
+        "pointer": [
+          27,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-kilo-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kilo-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Kilo",
+      "en": "kilo",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kilo",
+        "pointer": [
+          27,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-kilo-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gramm.mp3",
+      "kind": "vocab",
+      "text": "Gramm",
+      "en": "gram",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gramm",
+        "pointer": [
+          28,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-gramm.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gramm-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich nehme 200 Gramm Käse.",
+      "en": "I'll take 200 grams of cheese.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gramm",
+        "pointer": [
+          28,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-gramm-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gramm-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Gramm",
+      "en": "gram",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gramm",
+        "pointer": [
+          28,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-gramm-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-liter.mp3",
+      "kind": "vocab",
+      "text": "Liter",
+      "en": "litre",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "liter",
+        "pointer": [
+          29,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-liter.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-liter-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ein Liter Milch kostet einen Franken sechzig.",
+      "en": "A litre of milk costs one franc sixty.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "liter",
+        "pointer": [
+          29,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-liter-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-liter-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Liter",
+      "note": "in Swiss usage also s Liter",
+      "en": "litre",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "liter",
+        "pointer": [
+          29,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-liter-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-stueck.mp3",
+      "kind": "vocab",
+      "text": "Stück",
+      "en": "piece",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "stueck",
+        "pointer": [
+          30,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-stueck.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-stueck-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ein Stück Käse, bitte.",
+      "en": "A piece of cheese, please.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "stueck",
+        "pointer": [
+          30,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-stueck-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-stueck-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Stück / es Stückli",
+      "en": "piece",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "stueck",
+        "pointer": [
+          30,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-stueck-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-brauchen.mp3",
+      "kind": "vocab",
+      "text": "brauchen",
+      "en": "to need",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "brauchen",
+        "pointer": [
+          31,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-brauchen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-brauchen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Was brauchen wir für heute Abend?",
+      "en": "What do we need for this evening?",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "brauchen",
+        "pointer": [
+          31,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-brauchen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-brauchen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "bruuche",
+      "note": "ich bruuch, du bruuchsch, er bruucht",
+      "en": "to need",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "brauchen",
+        "pointer": [
+          31,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-brauchen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kaufen.mp3",
+      "kind": "vocab",
+      "text": "kaufen",
+      "en": "to buy",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kaufen",
+        "pointer": [
+          32,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-kaufen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kaufen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich kaufe das Brot im Supermarkt.",
+      "en": "I buy the bread in the supermarket.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kaufen",
+        "pointer": [
+          32,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-kaufen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kaufen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "chaufe",
+      "en": "to buy",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kaufen",
+        "pointer": [
+          32,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-kaufen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kaufen-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "choufe",
+      "note": "participle gchouft",
+      "en": "to buy",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kaufen",
+        "pointer": [
+          32,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-kaufen-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-suchen.mp3",
+      "kind": "vocab",
+      "text": "suchen",
+      "en": "to look for",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "suchen",
+        "pointer": [
+          33,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-suchen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-suchen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich suche den Käse.",
+      "en": "I'm looking for the cheese.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "suchen",
+        "pointer": [
+          33,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-suchen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-suchen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "sueche",
+      "en": "to look for",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "suchen",
+        "pointer": [
+          33,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-suchen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-billig.mp3",
+      "kind": "vocab",
+      "text": "billig",
+      "en": "cheap",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "billig",
+        "pointer": [
+          34,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-billig.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-billig-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Das Obst ist billig.",
+      "en": "The fruit is cheap.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "billig",
+        "pointer": [
+          34,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-billig-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-billig-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "billig / günschtig",
+      "en": "cheap",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "billig",
+        "pointer": [
+          34,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-billig-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-teuer.mp3",
+      "kind": "vocab",
+      "text": "teuer",
+      "en": "expensive",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "teuer",
+        "pointer": [
+          35,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-teuer.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-teuer-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Der Wein ist nicht teuer.",
+      "en": "The wine isn't expensive.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "teuer",
+        "pointer": [
+          35,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-teuer-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-teuer-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "tüür",
+      "en": "expensive",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "teuer",
+        "pointer": [
+          35,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-teuer-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-frisch.mp3",
+      "kind": "vocab",
+      "text": "frisch",
+      "en": "fresh",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "frisch",
+        "pointer": [
+          36,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-frisch.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-frisch-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Die Eier sind frisch.",
+      "en": "The eggs are fresh.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "frisch",
+        "pointer": [
+          36,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-frisch-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-frisch-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "frisch",
+      "en": "fresh",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "frisch",
+        "pointer": [
+          36,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-frisch-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-nicht.mp3",
+      "kind": "vocab",
+      "text": "nicht",
+      "en": "not",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "nicht",
+        "pointer": [
+          37,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-nicht.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-nicht-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Der Käse ist nicht teuer.",
+      "en": "The cheese isn't expensive.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "nicht",
+        "pointer": [
+          37,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-nicht-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-nicht-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "nöd / nid",
+      "en": "not",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "nicht",
+        "pointer": [
+          37,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-nicht-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-nicht-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "nid",
+      "en": "not",
+      "variety": "gsw-be",
+      "voice": "be-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "nicht",
+        "pointer": [
+          37,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-nicht-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kein.mp3",
+      "kind": "vocab",
+      "text": "kein / keine",
+      "en": "no, not a, not any",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kein",
+        "pointer": [
+          38,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-kein.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kein-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich habe kein Brot.",
+      "en": "I haven't got any bread.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kein",
+        "pointer": [
+          38,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-kein-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kein-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "kei; neuter also keis",
+      "note": "kei Ziit, kei Eier",
+      "en": "no, not a, not any",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kein",
+        "pointer": [
+          38,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-kein-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kein-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "ke / kei; neuter kes",
+      "note": "Mach kes Ghei!",
+      "en": "no, not a, not any",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kein",
+        "pointer": [
+          38,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-kein-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-doch.mp3",
+      "kind": "vocab",
+      "text": "doch",
+      "en": "yes (contradicting a negative question)",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "doch",
+        "pointer": [
+          39,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-doch.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-doch-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Brauchen wir keinen Wein? – Doch!",
+      "en": "Don't we need wine? – Yes, we do!",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "doch",
+        "pointer": [
+          39,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-doch-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-doch-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "moll / momoll",
+      "en": "yes (contradicting a negative question)",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "doch",
+        "pointer": [
+          39,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-doch-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-u05-dictation-kilo.mp3",
+      "kind": "dictation",
+      "text": "Ein Kilo Kartoffeln und drei Karotten, bitte.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a1-u05-dictation-kilo",
+        "pointer": [
+          23,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a1-u05-dictation-kilo.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-u05-dictation-kein.mp3",
+      "kind": "dictation",
+      "text": "Wir haben keinen Käse mehr.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a1-u05-dictation-kein",
+        "pointer": [
+          24,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a1-u05-dictation-kein.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-u05-dictation-preis.mp3",
+      "kind": "dictation",
+      "text": "Das macht dreiundzwanzig Franken vierzig.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a1-u05-dictation-preis",
+        "pointer": [
+          25,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a1-u05-dictation-preis.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-u05-mcq-listening-wein.mp3",
+      "kind": "listening",
+      "text": "Brauchen wir keinen Wein? Doch!",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a1-u05-mcq-listening-wein",
+        "pointer": [
+          27,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a1-u05-mcq-listening-wein.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-u05-speak-order.mp3",
+      "kind": "speak",
+      "text": "Guten Tag! Ich hätte gern ein Kilo Äpfel, 200 Gramm Käse und eine Flasche Wasser, bitte.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a1-u05-speak-order",
+        "pointer": [
+          28,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a1-u05-speak-order.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-u05-speak-doch.mp3",
+      "kind": "speak",
+      "text": "Hast du kein Geld? – Doch, ich habe Geld! Ist das Brot nicht frisch? – Doch, es ist frisch!",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a1-u05-speak-doch",
+        "pointer": [
+          29,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a1-u05-speak-doch.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-u05-ch-mcq-moll.mp3",
+      "kind": "listening",
+      "text": "Bruuchsch du kei Rahm für de Chueche? Moll, natürli!",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a1-u05-ch-mcq-moll",
+        "pointer": [
+          36,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a1-u05-ch-mcq-moll.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-u05-ch-mcq-eier.mp3",
+      "kind": "listening",
+      "text": "Nei, leider kei Eier meh.",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a1-u05-ch-mcq-eier",
+        "pointer": [
+          37,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a1-u05-ch-mcq-eier.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-u05-ch-be-mcq-miuch.mp3",
+      "kind": "listening",
+      "text": "Nei, Miuch hei mer gnue.",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a1-u05-ch-be-mcq-miuch",
+        "pointer": [
+          42,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a1-u05-ch-be-mcq-miuch.mp3",
+      "referenced": false
+    }
+  ]
+}
