@@ -1,0 +1,12 @@
+name = "doppelpunkt-relay"
+main = "src/index.ts"
+compatibility_date = "2025-06-01"
+workers_dev = true
+
+# Don't keep request logs. The worker itself never logs bodies or keys.
+[observability]
+enabled = false
+
+[vars]
+# Comma-separated allowed origins. Leave empty to allow any origin (keys are still the learner's own).
+ALLOWED_ORIGINS = ""

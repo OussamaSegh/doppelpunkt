@@ -1,0 +1,360 @@
+- id: guten-morgen
+  de: Guten Morgen!
+  en: Good morning!
+  pos: phrase
+  example: { de: "Guten Morgen, Frau Keller!", en: "Good morning, Ms Keller!" }
+  gswZh: Guete Morge!
+  gswBe: Guete Morge!
+  tags: [greetings]
+
+- id: guten-tag
+  de: Guten Tag!
+  en: Hello! / Good day! (polite)
+  pos: phrase
+  example: { de: "Guten Tag, Herr Baker!", en: "Hello, Mr Baker!" }
+  gswZh: Grüezi! / Grüezi mitenand! (to a group)
+  gswBe: Grüessech! / Grüessech mitenand!
+  tags: [greetings, formal]
+
+- id: guten-abend
+  de: Guten Abend!
+  en: Good evening!
+  pos: phrase
+  example: { de: "Guten Abend! Wie geht es Ihnen?", en: "Good evening! How are you?" }
+  gswZh: Guete Abig!
+  gswBe: Guete Abe!
+  tags: [greetings]
+
+- id: hallo
+  de: Hallo!
+  en: Hi! / Hello! (informal)
+  pos: phrase
+  example: { de: "Hallo Anna!", en: "Hi Anna!" }
+  gswZh: Hoi! / Sali! / Salü! / Hallo!
+  gswBe: Hoi! / Sali! / Salü!
+  tags: [greetings, informal]
+
+- id: tschuess
+  de: Tschüss!
+  en: Bye!
+  pos: phrase
+  example: { de: "Tschüss, bis morgen!", en: "Bye, see you tomorrow!" }
+  gswZh: Tschüss! / Tschau! / Ciao! / Adie!
+  gswBe: Tschou! / Ciao! / Adie!
+  tags: [greetings, informal]
+
+- id: auf-wiedersehen
+  de: Auf Wiedersehen!
+  en: Goodbye! (polite)
+  pos: phrase
+  example: { de: "Auf Wiedersehen, Frau Keller!", en: "Goodbye, Ms Keller!" }
+  gswZh: Uf Widerluege! / Uf Wiederluege! / Adie!
+  gswBe: Uf Widerluege! / Adieu!
+  tags: [greetings, formal]
+
+- id: wie-gehts
+  de: Wie geht's?
+  en: How are you? / How's it going? (informal)
+  pos: phrase
+  example: { de: "Hallo Tom, wie geht's?", en: "Hi Tom, how's it going?" }
+  gswZh: Wie gaats? / Wie gahts?
+  gswBe: Wie geits?
+  tags: [greetings, informal]
+
+- id: wie-geht-es-ihnen
+  de: Wie geht es Ihnen?
+  en: How are you? (polite)
+  pos: phrase
+  example: { de: "Guten Tag, Frau Keller! Wie geht es Ihnen?", en: "Hello, Ms Keller! How are you?" }
+  gswZh: Wie gaats Ine? / Wie gahts Ihne?
+  gswBe: Wie geits Ech?
+  tags: [greetings, formal]
+
+- id: gut
+  de: gut
+  en: good, well
+  pos: adj
+  example: { de: "Danke, gut!", en: "Fine, thanks!" }
+  gswZh: guet
+  tags: [greetings]
+
+- id: danke
+  de: danke
+  en: thank you, thanks
+  pos: phrase
+  example: { de: "Gut, danke. Und dir?", en: "Fine, thanks. And you?" }
+  chStd: danke / merci (spoken)
+  gswZh: merci / danke
+  tags: [politeness]
+
+- id: vielen-dank
+  de: Vielen Dank!
+  en: Thank you very much!
+  pos: phrase
+  example: { de: "Vielen Dank, Frau Keller!", en: "Thank you very much, Ms Keller!" }
+  chStd: Vielen Dank! / Merci vielmals! (spoken)
+  gswZh: Merci vilmal! / Danke vilmal!
+  gswBe: Merci viumau! / Danke viumau!
+  tags: [politeness]
+
+- id: bitte
+  de: bitte
+  en: please; you're welcome
+  pos: phrase
+  example: { de: "Danke! – Bitte!", en: "Thanks! – You're welcome!" }
+  gswZh: bitte / gärn gscheh (you're welcome)
+  tags: [politeness]
+
+- id: ja
+  de: ja
+  en: "yes"
+  pos: other
+  example: { de: "Ja, ich bin Tom.", en: "Yes, I'm Tom." }
+  gswZh: ja / jo
+  tags: [basics]
+
+- id: nein
+  de: nein
+  en: "no"
+  pos: other
+  example: { de: "Nein, ich komme aus England.", en: "No, I come from England." }
+  gswZh: nei
+  tags: [basics]
+
+- id: entschuldigung
+  de: Entschuldigung!
+  en: Excuse me! / Sorry!
+  pos: phrase
+  example: { de: "Entschuldigung, sind Sie Frau Keller?", en: "Excuse me, are you Ms Keller?" }
+  chStd: Entschuldigung! / Pardon!
+  gswZh: Exgüsi! / Entschuldigung!
+  tags: [politeness]
+
+- id: freut-mich
+  de: Freut mich!
+  en: Nice to meet you!
+  pos: phrase
+  example: { de: "Ich heiße Anna. – Freut mich!", en: "I'm Anna. – Nice to meet you!" }
+  gswZh: Freut mi!
+  gswBe: Fröit mi!
+  tags: [introductions]
+
+- id: name
+  de: Name
+  en: name
+  pos: noun
+  gender: m
+  plural: Namen
+  example: { de: "Mein Name ist Tom Baker.", en: "My name is Tom Baker." }
+  gswZh: Name
+  tags: [introductions]
+
+- id: vorname
+  de: Vorname
+  en: first name
+  pos: noun
+  gender: m
+  plural: Vornamen
+  example: { de: "Mein Vorname ist Tom.", en: "My first name is Tom." }
+  tags: [introductions]
+
+- id: heissen
+  de: heißen
+  en: to be called
+  pos: verb
+  example: { de: "Wie heißt du? – Ich heiße Mia.", en: "What's your name? – My name is Mia." }
+  chStd: heissen
+  gswZh: heisse (ich heisse, du heissisch)
+  gswBe: heisse (i heisse, du heissisch)
+  tags: [introductions]
+
+- id: kommen
+  de: kommen
+  en: to come
+  pos: verb
+  example: { de: "Ich komme aus England.", en: "I come from England." }
+  gswZh: cho (ich chume, du chunnsch, er chunnt)
+  gswBe: cho (i chume, du chunsch, är chunnt)
+  tags: [introductions]
+
+- id: wohnen
+  de: wohnen
+  en: to live (reside)
+  pos: verb
+  example: { de: "Wir wohnen in Zürich.", en: "We live in Zurich." }
+  gswZh: wohne (ich wohne, du wohnsch)
+  tags: [introductions]
+
+- id: sein
+  de: sein
+  en: to be
+  pos: verb
+  example: { de: "Ich bin Tom. Das ist Anna.", en: "I'm Tom. This is Anna." }
+  gswZh: sii (ich bi, du bisch, er isch, mir sind)
+  gswBe: sy (i bi, du bisch, är isch, mir sy)
+  tags: [basics]
+
+- id: sprechen
+  de: sprechen
+  en: to speak
+  pos: verb
+  example: { de: "Sprichst du Englisch?", en: "Do you speak English?" }
+  gswZh: rede (ich red, du redsch) – spräche is rare
+  gswBe: rede (i rede, du redsch)
+  tags: [languages]
+
+- id: lernen
+  de: lernen
+  en: to learn, to study
+  pos: verb
+  example: { de: "Ich lerne Deutsch.", en: "I'm learning German." }
+  gswZh: lerne
+  tags: [languages]
+
+- id: land
+  de: Land
+  en: country
+  pos: noun
+  gender: n
+  plural: Länder
+  example: { de: "Aus welchem Land kommst du?", en: "Which country do you come from?" }
+  gswZh: Land
+  tags: [countries]
+
+- id: stadt
+  de: Stadt
+  en: town, city
+  pos: noun
+  gender: f
+  plural: Städte
+  example: { de: "Zürich ist eine Stadt in der Schweiz.", en: "Zurich is a city in Switzerland." }
+  gswZh: Stadt
+  tags: [countries]
+
+- id: deutsch
+  de: Deutsch
+  en: German (language)
+  pos: noun
+  gender: n
+  plural: "-"
+  example: { de: "Ich lerne Deutsch.", en: "I'm learning German." }
+  gswZh: Tüütsch / Düütsch / Dütsch
+  gswBe: Dütsch
+  tags: [languages]
+
+- id: englisch
+  de: Englisch
+  en: English (language)
+  pos: noun
+  gender: n
+  plural: "-"
+  example: { de: "Sprechen Sie Englisch?", en: "Do you speak English?" }
+  gswZh: Änglisch
+  tags: [languages]
+
+- id: schweizerdeutsch
+  de: Schweizerdeutsch
+  en: Swiss German (the dialects)
+  pos: noun
+  gender: n
+  plural: "-"
+  example: { de: "Frau Keller spricht Schweizerdeutsch.", en: "Ms Keller speaks Swiss German." }
+  gswZh: Schwiizertüütsch / Schwiizerdüütsch / Schwyzerdütsch
+  gswBe: Schwyzerdütsch / Bärndütsch (Bernese)
+  tags: [languages]
+
+- id: schweiz
+  de: Schweiz
+  en: Switzerland
+  pos: noun
+  gender: f
+  plural: "-"
+  example: { de: "Ich wohne in der Schweiz.", en: "I live in Switzerland." }
+  gswZh: d Schwiiz / d Schwyz
+  tags: [countries]
+
+- id: zuerich
+  de: Zürich
+  en: Zurich
+  pos: noun
+  gender: n
+  plural: "-"
+  example: { de: "Wohnst du in Zürich?", en: "Do you live in Zurich?" }
+  gswZh: Züri (in Zürich = z Züri)
+  tags: [countries, swiss]
+
+- id: herr
+  de: Herr
+  en: Mr; gentleman
+  pos: noun
+  gender: m
+  plural: Herren
+  example: { de: "Guten Tag, Herr Baker!", en: "Hello, Mr Baker!" }
+  gswZh: Herr
+  tags: [introductions, formal]
+
+- id: frau
+  de: Frau
+  en: Ms, Mrs; woman
+  pos: noun
+  gender: f
+  plural: Frauen
+  example: { de: "Das ist Frau Keller.", en: "This is Ms Keller." }
+  gswZh: Frau
+  tags: [introductions, formal]
+
+- id: wer
+  de: wer
+  en: who
+  pos: pron
+  example: { de: "Wer ist das?", en: "Who is that?" }
+  gswZh: wer
+  tags: [questions]
+
+- id: wie
+  de: wie
+  en: how
+  pos: adv
+  example: { de: "Wie heißen Sie?", en: "What is your name? (literally: How are you called?)" }
+  gswZh: wie
+  tags: [questions]
+
+- id: wo
+  de: wo
+  en: where
+  pos: adv
+  example: { de: "Wo wohnst du?", en: "Where do you live?" }
+  gswZh: wo
+  tags: [questions]
+
+- id: woher
+  de: woher
+  en: where from
+  pos: adv
+  example: { de: "Woher kommen Sie?", en: "Where do you come from?" }
+  gswZh: vo wo
+  tags: [questions]
+
+- id: was
+  de: was
+  en: what
+  pos: pron
+  example: { de: "Was ist das?", en: "What is that?" }
+  gswZh: was
+  tags: [questions]
+
+- id: auch
+  de: auch
+  en: also, too
+  pos: adv
+  example: { de: "Ich wohne auch in Zürich.", en: "I live in Zurich too." }
+  gswZh: au
+  tags: [basics]
+
+- id: aus
+  de: aus
+  en: from (origin); out of
+  pos: prep
+  example: { de: "Anna kommt aus Deutschland.", en: "Anna comes from Germany." }
+  gswZh: us / vo (with towns)
+  tags: [basics]

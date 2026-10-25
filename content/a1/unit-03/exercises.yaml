@@ -1,0 +1,616 @@
+# A1 unit 3 – Meine Familie
+
+# ---------- vocabulary ----------
+- id: a1-u03-match-pairs
+  type: match
+  skill: vocabulary
+  variety: de
+  prompt: Match each male family member with the female one.
+  pairs:
+    - ["der Bruder", "die Schwester"]
+    - ["der Vater", "die Mutter"]
+    - ["der Sohn", "die Tochter"]
+    - ["der Onkel", "die Tante"]
+    - ["der Neffe", "die Nichte"]
+  explanation: >-
+    Most family words come in male/female pairs that look different. Only some form the female with
+    -in (der Cousin – die Cousine is French; der Pate – die Patin, der Freund – die Freundin use -in).
+
+- id: a1-u03-mcq-onkel
+  type: mcq
+  skill: vocabulary
+  variety: de
+  prompt: "Mein Vater hat einen Bruder. Er ist mein ..."
+  options: ["Onkel", "Neffe", "Cousin", "Großvater"]
+  answer: 0
+  explanation: >-
+    The brother of your father or mother is your Onkel; his children are your Cousins/Cousinen. You are
+    his Neffe (nephew) or Nichte (niece).
+
+- id: a1-u03-mcq-geschwister
+  type: mcq
+  skill: vocabulary
+  variety: de
+  prompt: "\"Hast du Geschwister?\" What is the question?"
+  options: ["Do you have brothers or sisters?", "Do you have children?", "Do you have a partner?", "Do you have parents?"]
+  answer: 0
+  explanation: >-
+    die Geschwister = brothers and sisters together (siblings). It's a plural-only word in everyday German,
+    like die Eltern (parents). Answer: Ja, ich habe einen Bruder. / Nein, ich habe keine Geschwister.
+
+- id: a1-u03-match-english
+  type: match
+  skill: vocabulary
+  variety: de
+  prompt: Match the German words with their English meaning.
+  pairs:
+    - ["die Eltern", "parents"]
+    - ["das Kind", "child"]
+    - ["verheiratet", "married"]
+    - ["ledig", "single"]
+    - ["der Junge", "boy"]
+  explanation: >-
+    die Eltern has no singular in everyday use (for one parent say der Vater / die Mutter or ein Elternteil).
+    das Kind is neuter for boys and girls alike. ledig is the official word for unmarried.
+
+# ---------- grammar: haben ----------
+- id: a1-u03-gap-haben-1
+  type: gap
+  skill: grammar
+  variety: de
+  grammar: [haben-present]
+  prompt: Fill in the correct forms of haben.
+  text: Ich ___ einen Bruder. ___ du Geschwister? Anna ___ zwei Schwestern.
+  answers: [["habe"], ["Hast", "hast"], ["hat"]]
+  explanation: >-
+    haben: ich habe, du hast, er/sie/es hat. The b disappears in hast and hat. In the yes/no question the
+    verb comes first: Hast du ...?
+
+- id: a1-u03-gap-haben-2
+  type: gap
+  skill: grammar
+  variety: de
+  grammar: [haben-present]
+  prompt: Fill in the correct forms of haben.
+  text: Wir ___ einen Hund. ___ ihr auch einen Hund? – Nein, aber meine Eltern ___ eine Katze.
+  answers: [["haben"], ["Habt", "habt"], ["haben"]]
+  explanation: >-
+    Plural: wir haben, ihr habt, sie haben. meine Eltern = sie (they), so the verb is haben. ihr habt
+    follows the regular -t ending for ihr.
+
+- id: a1-u03-mcq-age
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [haben-present]
+  prompt: "How do you say \"I am thirty years old\"?"
+  options: ["Ich bin dreißig Jahre alt.", "Ich habe dreißig Jahre.", "Ich habe dreißig Jahre alt.", "Ich bin dreißig Jahren."]
+  answer: 0
+  rationales:
+    - Correct. Age uses sein, as in English. You can also just say Ich bin dreißig.
+    - This is the French/Spanish pattern (j'ai trente ans). German uses sein.
+    - Mixes haben with alt – not possible.
+    - The plural of Jahr is Jahre.
+  explanation: >-
+    Age: Ich bin ... (Jahre alt). Question: Wie alt bist du? / Wie alt sind Sie? Swiss spelling: dreissig.
+
+- id: a1-u03-gap-haben-acc
+  type: gap
+  skill: grammar
+  variety: de
+  grammar: [haben-present, plural-nouns]
+  prompt: "Fill in einen, eine or ein. (der Sohn, die Tochter, das Kind)"
+  text: Herr Keller hat ___ Sohn, ___ Tochter und ___ Enkelkind.
+  answers: [["einen"], ["eine"], ["ein"]]
+  explanation: >-
+    What you have is the direct object, so it's accusative. der Sohn → einen Sohn; die Tochter → eine
+    Tochter; das Enkelkind (grandchild) → ein Enkelkind. Only the masculine article changes.
+
+# ---------- grammar: possessives ----------
+- id: a1-u03-gap-mein
+  type: gap
+  skill: grammar
+  variety: de
+  grammar: [possessives]
+  prompt: "Fill in mein or meine. (der Bruder, die Schwester, die Eltern)"
+  text: Das ist ___ Bruder und das ist ___ Schwester. Das sind ___ Eltern.
+  answers: [["mein"], ["meine"], ["meine"]]
+  explanation: >-
+    Possessives take the endings of ein: masculine and neuter no ending (mein Bruder), feminine -e (meine
+    Schwester), plural -e (meine Eltern) – even though ein has no plural.
+
+- id: a1-u03-mcq-ihr
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [possessives]
+  prompt: Choose the correct word for "her".
+  question: Das ist Anna und ___ Bruder Jonas.
+  options: ["ihr", "sein", "ihre", "seine"]
+  answer: 0
+  rationales:
+    - Correct. Owner = Anna (a woman) → ihr-; noun = der Bruder (masculine) → no ending.
+    - sein- would mean his.
+    - The -e ending would be for a feminine or plural noun (ihre Schwester).
+    - Wrong owner and wrong ending.
+  explanation: >-
+    Two decisions: the owner picks the word (man → sein, woman → ihr), the noun picks the ending
+    (der Bruder → ihr, die Schwester → ihre). English only makes the first decision.
+
+- id: a1-u03-mcq-seine
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [possessives]
+  prompt: Choose the correct word for "his".
+  question: Tom und ___ Nichte Emily wohnen in England.
+  options: ["seine", "sein", "ihre", "ihr"]
+  answer: 0
+  explanation: >-
+    Owner = Tom → sein-. Noun = die Nichte (feminine) → ending -e: seine Nichte. English speakers often
+    pick ihre because Nichte is female – but the possessor, not the noun, decides between sein and ihr.
+
+- id: a1-u03-gap-ihr-polite
+  type: gap
+  skill: grammar
+  variety: de
+  grammar: [possessives]
+  prompt: Ask Frau Keller politely. Fill in the possessive for "your" (Sie).
+  text: Frau Keller, wie heißt ___ Sohn? Und wie alt ist ___ Tochter?
+  answers: [["Ihr"], ["Ihre"]]
+  explanation: >-
+    The polite possessive is Ihr/Ihre with a capital I, matching polite Sie. der Sohn → Ihr Sohn;
+    die Tochter → Ihre Tochter. Lower-case ihr would mean her or their.
+
+- id: a1-u03-gap-meinen
+  type: gap
+  skill: grammar
+  variety: de
+  grammar: [possessives, haben-present]
+  prompt: "Accusative after a verb. Fill in meinen or meine. (fragen = to ask)"
+  text: Ich frage ___ Vater und ___ Mutter.
+  answers: [["meinen"], ["meine"]]
+  explanation: >-
+    der Vater is the object of fragen, so it's accusative: mein → meinen (just like ein → einen).
+    die Mutter stays meine. Same pattern as unit 2: only masculine changes.
+
+- id: a1-u03-transform-ihr
+  type: transform
+  skill: grammar
+  variety: de
+  grammar: [possessives]
+  prompt: Rewrite with a possessive article.
+  from: de
+  to: de
+  source: Das ist der Hund von Anna.
+  answers: ["Das ist ihr Hund.", "Das ist Annas Hund."]
+  explanation: >-
+    Anna is a woman → ihr; der Hund is masculine nominative → no ending: ihr Hund. You can also use the
+    name with -s and no apostrophe: Annas Hund.
+
+- id: a1-u03-transform-euer
+  type: transform
+  skill: grammar
+  variety: de
+  grammar: [possessives, plural-nouns]
+  prompt: "Ask two friends the same question: change du to ihr."
+  from: de
+  to: de
+  source: Wo wohnen deine Kinder?
+  answers: ["Wo wohnen eure Kinder?"]
+  explanation: >-
+    dein (your, one person) → euer (your, several people you say du to). With an ending, euer drops the
+    second e: eure Kinder, not euere Kinder.
+
+# ---------- grammar: plurals ----------
+- id: a1-u03-match-plurals
+  type: match
+  skill: grammar
+  variety: de
+  grammar: [plural-nouns]
+  prompt: Match each singular with its plural.
+  pairs:
+    - ["der Bruder", "die Brüder"]
+    - ["die Schwester", "die Schwestern"]
+    - ["das Kind", "die Kinder"]
+    - ["der Sohn", "die Söhne"]
+    - ["die Oma", "die Omas"]
+  explanation: >-
+    Five patterns: umlaut only (Brüder), -n (Schwestern), -er (Kinder), umlaut + -e (Söhne), -s (Omas).
+    The plural article is always die. Learn each noun as a trio: der Sohn, die Söhne.
+
+- id: a1-u03-gap-plurals
+  type: gap
+  skill: grammar
+  variety: de
+  grammar: [plural-nouns, haben-present]
+  prompt: Write the plural of the noun in brackets.
+  text: Ich habe zwei ___ (Bruder) und drei ___ (Schwester). Meine Eltern haben fünf ___ (Kind)!
+  answers: [["Brüder", "Brueder"], ["Schwestern"], ["Kinder"]]
+  explanation: >-
+    der Bruder → die Brüder (-er noun: no ending, but umlaut). Feminine nouns usually add -(e)n:
+    Schwestern. Many neuter nouns add -er: Kinder.
+
+- id: a1-u03-mcq-muetter
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [plural-nouns]
+  prompt: "die Mutter → die ..."
+  options: ["Mütter", "Muttern", "Mutters", "Mutter"]
+  answer: 0
+  explanation: >-
+    Mutter and Tochter are the big exceptions to "feminine adds -n": they take only an umlaut (die Mütter,
+    die Töchter). (Muttern exists, but it means nuts – the ones for bolts!)
+
+# ---------- grammar: word order ----------
+- id: a1-u03-order-schwestern
+  type: order
+  skill: grammar
+  variety: de
+  grammar: [haben-present, plural-nouns]
+  prompt: Put the words in order.
+  tokens: ["hat", "Anna", "Schwestern", "zwei"]
+  answers: ["Anna hat zwei Schwestern.", "Zwei Schwestern hat Anna."]
+  explanation: >-
+    Verb in position 2. The normal order is subject – verb – object; putting the object first
+    (Zwei Schwestern hat Anna) is possible for emphasis.
+
+- id: a1-u03-order-geschwister
+  type: order
+  skill: grammar
+  variety: de
+  grammar: [haben-present]
+  prompt: Make a yes/no question.
+  tokens: ["Geschwister", "du", "Hast"]
+  answers: ["Hast du Geschwister?"]
+  explanation: >-
+    Yes/no question: verb first, then subject, then the rest. No article is needed with Geschwister
+    (like English "Do you have siblings?").
+
+# ---------- reading ----------
+- id: a1-u03-mcq-reading-siblings
+  type: mcq
+  skill: reading
+  variety: de
+  grammar: [plural-nouns]
+  prompt: "Read \"Meine Familie\". How many brothers and sisters does Paul have?"
+  options: ["Three", "Two", "One", "Four"]
+  answer: 0
+  explanation: >-
+    "Ich habe zwei Brüder und eine Schwester." Brüder is the plural of Bruder (umlaut ü), so two brothers
+    + one sister = three siblings (Geschwister).
+
+- id: a1-u03-mcq-reading-leo
+  type: mcq
+  skill: reading
+  variety: de
+  grammar: [possessives]
+  prompt: "Who is Leo?"
+  options: ["David's son – Paul's nephew", "Paul's brother", "Paul's son", "The cat"]
+  answer: 0
+  explanation: >-
+    "Mein Bruder David ist verheiratet. Seine Frau heißt Sarah, und sie haben ein Baby. Das Baby heißt Leo."
+    So Leo is David and Sarah's baby – Paul's Neffe. seine Frau = David's wife.
+
+- id: a1-u03-mcq-reading-emma
+  type: mcq
+  skill: reading
+  variety: de
+  prompt: "Read the text again. Richtig oder falsch? \"Pauls Eltern wohnen in Berlin.\""
+  options: ["Falsch", "Richtig"]
+  answer: 0
+  explanation: >-
+    Falsch. The parents live in Montreal ("Sie wohnen in Montreal"); Emma, Paul's sister, lives in Berlin.
+    Check who sie refers to: here sie = meine Eltern (they), because the verb is wohnen, not wohnt.
+
+- id: a1-u03-mcq-reading-minou
+  type: mcq
+  skill: reading
+  variety: de
+  grammar: [possessives]
+  prompt: "\"Wir haben auch eine Katze. Ihr Name ist Minou.\" What does Ihr mean here?"
+  options: ["Her (the cat's)", "Your (polite)", "Their", "You (plural)"]
+  answer: 0
+  explanation: >-
+    die Katze is feminine, so the owner is "she" → ihr Name. It has a capital I only because it starts the
+    sentence. In mid-sentence, Ihr with a capital means polite your; ihr in lower case means her/their.
+
+- id: a1-u03-translate-reading
+  type: translate
+  skill: reading
+  variety: de
+  grammar: [possessives]
+  prompt: Translate into English.
+  source: Seine Frau heißt Sarah, und sie haben ein Baby.
+  answers: ["His wife is called Sarah, and they have a baby.", "His wife's name is Sarah, and they have a baby.", "His wife is named Sarah and they have a baby."]
+  explanation: >-
+    seine = his (owner David), die Frau = woman or wife (from context: wife). sie haben = they have –
+    the -en form of the verb shows sie is plural here.
+
+# ---------- listening ----------
+- id: a1-u03-dictation-eltern
+  type: dictation
+  skill: listening
+  variety: de
+  grammar: [possessives]
+  prompt: Listen and write what you hear.
+  transcript: Das sind meine Eltern. Mein Vater heißt Peter.
+  explanation: >-
+    Das sind + plural (das ist + singular). meine Eltern has -e because it's plural; mein Vater has no
+    ending (masculine nominative).
+
+- id: a1-u03-dictation-geschwister
+  type: dictation
+  skill: listening
+  variety: de
+  grammar: [haben-present]
+  prompt: Listen and write what you hear.
+  transcript: Ich habe einen Bruder und zwei Schwestern.
+  explanation: >-
+    Listen for einen (masculine accusative after haben) and the -n plural of Schwestern.
+
+- id: a1-u03-dictation-grossmutter
+  type: dictation
+  skill: listening
+  variety: de
+  prompt: Listen and write what you hear.
+  transcript: Meine Großmutter ist achtzig Jahre alt.
+  explanation: >-
+    Age with sein. Großmutter is written with ß in Germany and Austria, Grossmutter in Switzerland.
+    achtzig = 80 (not achtzehn = 18).
+
+- id: a1-u03-mcq-listening-anna
+  type: mcq
+  skill: listening
+  variety: de
+  prompt: Listen to the intro dialogue. How many sisters does Anna have?
+  options: ["Two", "One", "Three", "None"]
+  answer: 0
+  explanation: >-
+    "Ja, ich habe zwei Schwestern, Lea und Sophie." Listen for the plural ending -n: Schwestern = more
+    than one; Schwester = one.
+
+- id: a1-u03-mcq-listening-tom
+  type: mcq
+  skill: listening
+  variety: de
+  prompt: Listen to the intro dialogue. What do we learn about Tom's brother?
+  options: ["He lives in London, is married and has two children.", "He lives in Manchester and has a dog.", "He is twenty-five and single.", "He lives in Zurich with Tom."]
+  answer: 0
+  explanation: >-
+    "Er wohnt in London. Er ist verheiratet und hat zwei Kinder." Tom's parents live in Manchester and
+    have a dog; Jonas (25) is Anna's brother.
+
+# ---------- speaking ----------
+- id: a1-u03-speak-family
+  type: speak
+  skill: speaking
+  variety: de
+  grammar: [possessives]
+  prompt: Read aloud, then describe your own family photo in the same way.
+  target: Das ist meine Familie. Das sind meine Eltern, und das ist mein Bruder. Er ist zwanzig.
+  explanation: >-
+    Das ist + singular, Das sind + plural. Point and name: Das ist mein/meine ... This frame works for any
+    photo.
+
+- id: a1-u03-speak-umlaut
+  type: speak
+  skill: speaking
+  variety: de
+  grammar: [plural-nouns]
+  prompt: "Pronunciation: the umlaut makes the plural. Read each pair aloud."
+  target: der Vater – die Väter, die Mutter – die Mütter, der Bruder – die Brüder, der Sohn – die Söhne
+  explanation: >-
+    In many plurals the umlaut is the only difference you hear: Bruder [u] → Brüder [ü]. ä sounds like e
+    in "bet" (long in Väter), ö like a rounded e, ü like a rounded ee.
+
+- id: a1-u03-roleplay-photo
+  type: roleplay
+  skill: speaking
+  variety: de
+  grammar: [haben-present, possessives, plural-nouns]
+  tutor: lena
+  prompt: "Roleplay with Lena: talk about your families."
+  scenario: >-
+    You and Lena, your classmate, show each other family photos on your phones. Use du.
+  goals:
+    - Say who is in your photo with Das ist / Das sind + mein/meine.
+    - Say how many siblings you have and how old they are.
+    - Ask Lena at least two questions about her family.
+    - Use sein or ihr correctly when talking about another person's family.
+  model: |
+    Lena: Ist das deine Familie?
+    Du: Ja! Das sind meine Eltern, und das ist meine Schwester Kate.
+    Lena: Wie alt ist deine Schwester?
+    Du: Sie ist zweiundzwanzig. Hast du Geschwister?
+    Lena: Ja, ich habe einen Bruder, Max. Er hat zwei Kinder.
+    Du: Oh, wie heißen seine Kinder?
+    Lena: Ben und Lara. Sie sind sehr süß!
+    Du: Und deine Eltern? Wo wohnen sie?
+    Lena: In Graz, in Österreich.
+  explanation: >-
+    Useful frames: Das ist mein/meine ... / Das sind meine ... / Ich habe einen/eine/ein ... /
+    Er/Sie ist ... Jahre alt. For someone else's family, switch to sein (his) or ihr (her): seine Kinder.
+
+# ---------- writing ----------
+- id: a1-u03-translate-kinder
+  type: translate
+  skill: writing
+  variety: de
+  grammar: [haben-present, possessives, plural-nouns]
+  prompt: Translate into German.
+  source: My sister has two children.
+  answers: ["Meine Schwester hat zwei Kinder."]
+  explanation: >-
+    die Schwester → meine Schwester; she = er/sie/es form → hat; das Kind → die Kinder (-er plural).
+
+- id: a1-u03-translate-geschwister
+  type: translate
+  skill: writing
+  variety: de
+  grammar: [haben-present]
+  prompt: Translate into German.
+  source: Do you have any brothers or sisters?
+  answers: ["Hast du Geschwister?", "Haben Sie Geschwister?", "Habt ihr Geschwister?"]
+  explanation: >-
+    "Brothers or sisters" = Geschwister, one word. No word for "any" is needed. Verb first in a yes/no
+    question.
+
+- id: a1-u03-translate-seine-frau
+  type: translate
+  skill: writing
+  variety: de
+  grammar: [possessives]
+  prompt: Translate into German.
+  source: His wife comes from Bern.
+  answers: ["Seine Frau kommt aus Bern.", "Seine Frau ist aus Bern."]
+  explanation: >-
+    his → sein-, die Frau (wife) is feminine → seine. The usual word for wife in everyday German is just
+    Frau (Ehefrau is more formal); husband is Mann.
+
+- id: a1-u03-write-family
+  type: write
+  skill: writing
+  variety: de
+  grammar: [haben-present, possessives, plural-nouns]
+  prompt: Write about your family.
+  task: >-
+    Write 5–7 sentences about your family for your course blog: who is in your family, what they are called,
+    how old they are, where they live. Mention at least one person's partner or children using sein or ihr.
+  minWords: 40
+  model: >-
+    Meine Familie ist klein. Meine Mutter heißt Helen und mein Vater heißt John. Sie wohnen in Leeds.
+    Ich habe eine Schwester. Sie heißt Kate und ist zweiundzwanzig Jahre alt. Ihr Freund heißt Sam.
+    Ich habe auch einen Hund. Sein Name ist Max. Er ist sehr süß!
+  checklist:
+    - I use mein/meine with the right ending (mein Vater, meine Mutter, meine Eltern).
+    - I use sein or ihr for another person's family, chosen by the owner.
+    - I use haben with einen/eine/ein (Ich habe einen Bruder).
+    - I give ages with sein (Sie ist zweiundzwanzig).
+    - My plurals are correct (Brüder, Schwestern, Kinder).
+    - The verb is in position 2 in every sentence.
+  explanation: >-
+    A family text is a chain of short sentences built from three frames: [Possessive + noun] heißt ...;
+    Ich habe + accusative; Er/Sie ist ... (Jahre alt). Using sein/ihr links the sentences (Ihr Freund heißt Sam).
+
+# ---------- Swiss Standard German ----------
+- id: a1-u03-chstd-goetti
+  type: mcq
+  skill: vocabulary
+  variety: ch-std
+  prompt: "In a Swiss newspaper: \"Der Götti von Noah bringt ein Geschenk.\" Who is the Götti?"
+  options: ["Noah's godfather", "Noah's grandfather", "Noah's teacher", "Noah's older brother"]
+  answer: 0
+  explanation: >-
+    Götti (godfather) and Gotte (godmother) are Swiss words used in Swiss Standard German too; in Germany
+    they're der Pate / die Patin. In Switzerland the Götti or Gotte is an important family figure for a child.
+
+# ---------- Swiss lane (gsw-zh) ----------
+- id: a1-u03-ch-match-haben
+  type: match
+  skill: grammar
+  variety: gsw-zh
+  grammar: [haben-present]
+  prompt: Match the Zurich German forms of haben with Standard German.
+  pairs:
+    - ["ich ha", "ich habe"]
+    - ["du häsch", "du hast"]
+    - ["er hät", "er hat"]
+    - ["mir händ", "wir haben"]
+  explanation: >-
+    Zurich German: ich ha, du häsch, er/si/es hät, mir/ihr/si händ. As with sein (bisch, isch), the du-form
+    ends in -sch, and all plural persons share one form.
+
+- id: a1-u03-ch-match-family
+  type: match
+  skill: vocabulary
+  variety: gsw-zh
+  prompt: Match the Zurich German family words with Standard German.
+  pairs:
+    - ["d Muetter", "die Mutter"]
+    - ["de Brueder", "der Bruder"]
+    - ["d Schwöschter", "die Schwester"]
+    - ["s Chind", "das Kind"]
+    - ["d Gschwüschterti", "die Geschwister"]
+  explanation: >-
+    Sound patterns you can reuse: u → ue (Mutter → Muetter, Bruder → Brueder, gut → guet; the plural Brüder → Brüeder keeps the umlaut), k → ch
+    (Kind → Chind), st → scht (Schwester → Schwöschter). Articles shrink: de, d, s.
+
+- id: a1-u03-ch-transform-schwoeschter
+  type: transform
+  skill: reading
+  variety: gsw-zh
+  grammar: [haben-present]
+  prompt: What does this mean in Standard German?
+  from: gsw-zh
+  to: de
+  source: Ich ha e Schwöschter. Si wohnt z Bärn.
+  answers: ["Ich habe eine Schwester. Sie wohnt in Bern.", "Ich hab eine Schwester. Sie wohnt in Bern."]
+  explanation: >-
+    ha = habe, e = eine, Schwöschter = Schwester, si = sie, z Bärn = in Bern. Note that Swiss German
+    e (eine) doesn't change in the accusative, and Standard German eine doesn't either – it's feminine.
+
+- id: a1-u03-ch-mcq-goetti
+  type: mcq
+  skill: listening
+  variety: gsw-zh
+  prompt: "In the Swiss lane dialogue Reto says: \"Ich bi de Götti vom Noah.\" What is Reto?"
+  options: ["Noah's godfather", "Noah's father", "Noah's grandfather", "Noah's cousin"]
+  answer: 0
+  explanation: >-
+    Götti = Pate (godfather); vom Noah = von Noah (Noah's). Swiss German expresses possession with
+    vo(m) + name rather than with -s: de Götti vom Noah = Noahs Pate.
+
+- id: a1-u03-ch-mcq-mis
+  type: mcq
+  skill: grammar
+  variety: gsw-zh
+  grammar: [possessives]
+  prompt: "Zurich German: min Brueder, mini Schwöschter ... and for s Chind (neuter)?"
+  options: ["mis Chind", "min Chind", "mini Chind", "mein Chind"]
+  answer: 0
+  explanation: >-
+    Zurich possessives have three forms: min (masculine), mini (feminine and plural), mis (neuter).
+    So: min Papi, mini Muetter, mini Eltere, mis Chind, mis Mami (s Mami is neuter).
+
+- id: a1-u03-ch-transform-gschwuester
+  type: transform
+  skill: vocabulary
+  variety: gsw-zh
+  grammar: [haben-present]
+  prompt: "Recognition: how would Reto ask this in Zurich German? (Common spellings are accepted.)"
+  from: de
+  to: gsw-zh
+  source: Hast du Geschwister?
+  answers: ["Häsch du Gschwüschterti?", "Häsch Gschwüschterti?", "Hesch du Gschwüschterti?", "Häsch du Gschwüschter?"]
+  explanation: >-
+    hast → häsch (Zurich; hesch in Bern). Geschwister → Gschwüschterti: Swiss German drops the e in ge-
+    (Gschwüschter, gsi, gha) and often adds -ti. Swiss speakers often leave out du after the verb: Häsch ...?
+
+- id: a1-u03-roleplay-reto
+  type: roleplay
+  skill: listening
+  variety: gsw-zh
+  grammar: [haben-present, possessives]
+  tutor: reto
+  prompt: "Listening roleplay with Reto: he tells you about his family."
+  scenario: >-
+    Reto shows you a photo of his family and talks about it in Zurich German. Ask him questions in Standard
+    German and check that you understood.
+  goals:
+    - Understand who is in the photo (Eltere, Brueder, Chind).
+    - Understand "Häsch du Gschwüschterti?" and answer.
+    - Ask about one person with sein or ihr and understand the answer.
+  model: |
+    Reto: Lueg, das isch mini Familie. Das sind mini Eltere.
+    Du: Schön! Und wer ist das?
+    Reto: Das isch min Brueder, de Lukas. Er hät zwei Chind.
+    Du: Wie heißen seine Kinder?
+    Reto: De Noah und d Lina. Ich bi de Götti vom Noah.
+    Du: Ah, du bist sein Pate! Wie alt ist er?
+    Reto: Er isch föif. Und du, häsch du Gschwüschterti?
+    Du: Ja, ich habe eine Schwester. Sie wohnt in London.
+  explanation: >-
+    Decoding: lueg = schau (look); mini/min = meine/mein; hät = hat; Chind = Kinder; föif = fünf. Reto uses
+    articles before names (de Lukas, d Lina). In your Standard German answer you can drop them.

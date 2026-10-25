@@ -1,0 +1,145 @@
+@import "tailwindcss";
+
+/* Dark mode follows the data-theme attribute set on <html> (system preference or manual toggle). */
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
+
+/* Raw design tokens. Gold = Standard German, red = Swiss German, ink blue = accent. */
+:root {
+  --dp-gold: #b07a12;
+  --dp-gold-soft: #f6ebcf;
+  --dp-gold-strong: #8a5e0a;
+  --dp-swiss: #c8281c;
+  --dp-swiss-soft: #f9dcd8;
+  --dp-swiss-strong: #9e1f15;
+  --dp-ink: #1c2a4a;
+  --dp-accent: #2f4f8f;
+  --dp-accent-soft: #e2e8f5;
+
+  --dp-bg: #fbf8f1;
+  --dp-surface: #ffffff;
+  --dp-surface-2: #f3efe5;
+  --dp-fg: #1b1f2a;
+  --dp-muted: #5b6273;
+  --dp-border: #e2dccd;
+  --dp-ok: #1f7a4a;
+  --dp-ok-soft: #dcf1e5;
+  --dp-bad: #b3261e;
+  --dp-bad-soft: #fbe3e1;
+
+  --dp-der: #1d5fd1;
+  --dp-die: #c8281c;
+  --dp-das: #1f8a4c;
+
+  color-scheme: light;
+}
+
+[data-theme="dark"] {
+  --dp-gold: #e0b04a;
+  --dp-gold-soft: #3a2e14;
+  --dp-gold-strong: #f2cd7c;
+  --dp-swiss: #f0675b;
+  --dp-swiss-soft: #42201d;
+  --dp-swiss-strong: #ff9a90;
+  --dp-accent: #8fb0f0;
+  --dp-accent-soft: #1e2c4a;
+
+  --dp-bg: #0f1626;
+  --dp-surface: #172035;
+  --dp-surface-2: #1e2942;
+  --dp-fg: #ecedf2;
+  --dp-muted: #a3aabb;
+  --dp-border: #2c3856;
+  --dp-ok: #5cc98d;
+  --dp-ok-soft: #143326;
+  --dp-bad: #ff8a80;
+  --dp-bad-soft: #3d1c1a;
+
+  --dp-der: #7aa7ff;
+  --dp-die: #ff7a6e;
+  --dp-das: #63d391;
+
+  color-scheme: dark;
+}
+
+/* Expose tokens as Tailwind colours: bg-surface, text-muted, border-line, text-gold, bg-swiss-soft ... */
+@theme inline {
+  --color-gold: var(--dp-gold);
+  --color-gold-soft: var(--dp-gold-soft);
+  --color-gold-strong: var(--dp-gold-strong);
+  --color-swiss: var(--dp-swiss);
+  --color-swiss-soft: var(--dp-swiss-soft);
+  --color-swiss-strong: var(--dp-swiss-strong);
+  --color-ink: var(--dp-ink);
+  --color-accent: var(--dp-accent);
+  --color-accent-soft: var(--dp-accent-soft);
+  --color-bg: var(--dp-bg);
+  --color-surface: var(--dp-surface);
+  --color-surface-2: var(--dp-surface-2);
+  --color-fg: var(--dp-fg);
+  --color-muted: var(--dp-muted);
+  --color-line: var(--dp-border);
+  --color-ok: var(--dp-ok);
+  --color-ok-soft: var(--dp-ok-soft);
+  --color-bad: var(--dp-bad);
+  --color-bad-soft: var(--dp-bad-soft);
+  --color-der: var(--dp-der);
+  --color-die: var(--dp-die);
+  --color-das: var(--dp-das);
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+html,
+body {
+  background: var(--dp-bg);
+  color: var(--dp-fg);
+}
+
+body {
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  min-height: 100dvh;
+}
+
+:focus-visible {
+  outline: 3px solid var(--dp-accent);
+  outline-offset: 2px;
+  border-radius: 6px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl px-4 py-2.5 text-sm font-semibold transition-colors disabled:cursor-not-allowed disabled:opacity-50;
+  }
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl px-4 py-2.5 text-sm font-semibold transition-colors disabled:cursor-not-allowed disabled:opacity-50 bg-ink text-white hover:bg-accent dark:bg-accent dark:text-ink dark:hover:bg-gold;
+  }
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl px-4 py-2.5 text-sm font-semibold transition-colors disabled:cursor-not-allowed disabled:opacity-50 border border-line bg-surface text-fg hover:bg-surface-2;
+  }
+  .btn-ghost {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl px-4 py-2.5 text-sm font-semibold transition-colors disabled:cursor-not-allowed disabled:opacity-50 text-fg hover:bg-surface-2;
+  }
+  .card {
+    @apply rounded-2xl border border-line bg-surface p-4 shadow-sm;
+  }
+  .input {
+    @apply w-full rounded-xl border border-line bg-surface px-3 py-2 text-base text-fg placeholder:text-muted focus:border-accent;
+  }
+  .label {
+    @apply mb-1 block text-sm font-medium text-fg;
+  }
+  .chip {
+    @apply inline-flex items-center rounded-full border border-line px-3 py-1 text-sm;
+  }
+}

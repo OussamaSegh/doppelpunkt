@@ -1,0 +1,362 @@
+# Numbers
+- id: eins
+  de: eins
+  en: one
+  pos: num
+  example: { de: "Eins, zwei, drei – los!", en: "One, two, three – go!" }
+  gswZh: eis / eins
+  gswBe: eis
+  tags: [numbers]
+
+- id: zwei
+  de: zwei
+  en: two
+  pos: num
+  example: { de: "Zwei Kaffee, bitte.", en: "Two coffees, please." }
+  gswZh: "zwei (older forms: zwee m. / zwo f. / zwei n.)"
+  gswBe: zwöi
+  tags: [numbers]
+
+- id: drei
+  de: drei
+  en: three
+  pos: num
+  example: { de: "Das macht drei Franken.", en: "That's three francs." }
+  gswZh: drü
+  gswBe: drü
+  tags: [numbers]
+
+- id: vier
+  de: vier
+  en: four
+  pos: num
+  example: { de: "Ein Kaffee kostet vier Franken achtzig.", en: "A coffee costs four francs eighty." }
+  gswZh: vier
+  tags: [numbers]
+
+- id: fuenf
+  de: fünf
+  en: five
+  pos: num
+  example: { de: "Der Kuchen kostet fünf Franken siebzig.", en: "The cake costs five francs seventy." }
+  gswZh: föif
+  gswBe: füf
+  tags: [numbers]
+
+- id: sechs
+  de: sechs
+  en: six
+  pos: num
+  example: { de: "Wir sind sechs Personen.", en: "There are six of us." }
+  gswZh: sächs
+  tags: [numbers]
+
+- id: sieben
+  de: sieben
+  en: seven
+  pos: num
+  example: { de: "Das macht sieben Franken.", en: "That's seven francs." }
+  gswZh: sibe
+  tags: [numbers]
+
+- id: acht
+  de: acht
+  en: eight
+  pos: num
+  example: { de: "Acht Gipfeli, bitte!", en: "Eight croissants, please!" }
+  gswZh: acht
+  tags: [numbers]
+
+- id: neun
+  de: neun
+  en: nine
+  pos: num
+  example: { de: "Das Bier kostet neun Franken.", en: "The beer costs nine francs." }
+  gswZh: nüün
+  gswBe: nün
+  tags: [numbers]
+
+- id: zehn
+  de: zehn
+  en: ten
+  pos: num
+  example: { de: "Hier sind zehn Franken.", en: "Here are ten francs." }
+  gswZh: zää / zäh / zä
+  gswBe: zäh
+  tags: [numbers]
+
+- id: zwanzig
+  de: zwanzig
+  en: twenty
+  pos: num
+  example: { de: "Hier sind zwanzig Franken. Stimmt so.", en: "Here are twenty francs. Keep the change." }
+  gswZh: zwänzg
+  tags: [numbers]
+
+- id: fuenfzig
+  de: fünfzig
+  en: fifty
+  pos: num
+  example: { de: "Das macht zwölf Franken fünfzig.", en: "That's twelve francs fifty." }
+  gswZh: füfzg
+  tags: [numbers]
+
+- id: hundert
+  de: hundert
+  en: (one) hundred
+  pos: num
+  example: { de: "Das kostet hundert Franken!", en: "That costs a hundred francs!" }
+  gswZh: hundert
+  tags: [numbers]
+
+# Café
+- id: kaffee
+  de: Kaffee
+  en: coffee
+  pos: noun
+  gender: m
+  plural: Kaffees
+  example: { de: "Ich möchte einen Kaffee, bitte.", en: "I'd like a coffee, please." }
+  gswZh: Kafi (en Kafi; en Kafi Crème = coffee with cream)
+  gswBe: Kafi
+  tags: [cafe, drinks]
+
+- id: tee
+  de: Tee
+  en: tea
+  pos: noun
+  gender: m
+  plural: Tees
+  example: { de: "Ich nehme einen Tee.", en: "I'll have a tea." }
+  gswZh: Tee (en Tee)
+  tags: [cafe, drinks]
+
+- id: wasser
+  de: Wasser
+  en: water
+  pos: noun
+  gender: n
+  plural: Wasser
+  example: { de: "Möchten Sie ein Wasser?", en: "Would you like some water?" }
+  chStd: Mineralwasser / Mineral (bottled); Hahnenwasser (tap water)
+  gswZh: Wasser / Mineral (es Mineral mit oder ohni = sparkling or still); Hahnewasser (tap water)
+  tags: [cafe, drinks]
+
+- id: milch
+  de: Milch
+  en: milk
+  pos: noun
+  gender: f
+  plural: "-"
+  example: { de: "Einen Tee mit Milch, bitte.", en: "A tea with milk, please." }
+  gswZh: Milch
+  tags: [cafe, drinks]
+
+- id: bier
+  de: Bier
+  en: beer
+  pos: noun
+  gender: n
+  plural: Biere
+  example: { de: "Ein Bier, bitte!", en: "A beer, please!" }
+  gswZh: Bier (es Bier; e Stange = a small draught beer)
+  tags: [cafe, drinks]
+
+- id: croissant
+  de: Croissant
+  en: croissant
+  pos: noun
+  gender: n
+  plural: Croissants
+  example: { de: "Ich nehme ein Croissant.", en: "I'll have a croissant." }
+  chStd: Gipfeli (das Gipfeli, die Gipfeli)
+  gswZh: Gipfeli (es Gipfeli)
+  tags: [cafe, food, helvetism]
+
+- id: broetchen
+  de: Brötchen
+  en: bread roll
+  pos: noun
+  gender: n
+  plural: Brötchen
+  example: { de: "Zwei Brötchen, bitte.", en: "Two bread rolls, please." }
+  chStd: Brötchen / Brötli; Weggli (soft white roll); Bürli (crusty roll)
+  gswZh: Brötli / Weggli / Bürli
+  tags: [cafe, food, helvetism]
+
+- id: kuchen
+  de: Kuchen
+  en: cake
+  pos: noun
+  gender: m
+  plural: Kuchen
+  example: { de: "Der Kuchen ist sehr gut!", en: "The cake is very good!" }
+  gswZh: Chueche (de Chueche)
+  tags: [cafe, food]
+
+- id: eis
+  de: Eis
+  en: ice cream; ice
+  pos: noun
+  gender: n
+  plural: "-"
+  example: { de: "Ich möchte ein Eis.", en: "I'd like an ice cream." }
+  chStd: Glace (die Glace, die Glacen)
+  gswZh: Glace (e Glace)
+  tags: [cafe, food, helvetism]
+
+- id: fruehstueck
+  de: Frühstück
+  en: breakfast
+  pos: noun
+  gender: n
+  plural: Frühstücke
+  example: { de: "Das Frühstück kostet zwölf Franken.", en: "Breakfast costs twelve francs." }
+  chStd: Morgenessen / Frühstück
+  gswZh: Zmorge (de Zmorge, masculine)
+  tags: [cafe, food, helvetism]
+
+- id: rechnung
+  de: Rechnung
+  en: bill, check; invoice
+  pos: noun
+  gender: f
+  plural: Rechnungen
+  example: { de: "Die Rechnung, bitte!", en: "The bill, please!" }
+  gswZh: Rächnig
+  tags: [cafe, money]
+
+- id: franken
+  de: Franken
+  en: (Swiss) franc
+  pos: noun
+  gender: m
+  plural: Franken
+  example: { de: "Das macht sieben Franken.", en: "That's seven francs." }
+  gswZh: Franke / Stutz (colloquial)
+  tags: [money, swiss]
+
+- id: rappen
+  de: Rappen
+  en: centime (1/100 franc)
+  pos: noun
+  gender: m
+  plural: Rappen
+  example: { de: "Ein Franken hat hundert Rappen.", en: "One franc has a hundred centimes." }
+  gswZh: Rappe
+  tags: [money, swiss]
+
+- id: karte
+  de: Karte
+  en: card; menu
+  pos: noun
+  gender: f
+  plural: Karten
+  example: { de: "Kann ich mit Karte zahlen?", en: "Can I pay by card?" }
+  chStd: Karte; Menükarte (menu)
+  gswZh: Charte
+  tags: [cafe, money]
+
+- id: kellner
+  de: Kellner
+  en: waiter
+  pos: noun
+  gender: m
+  plural: Kellner
+  example: { de: "Der Kellner bringt den Kaffee.", en: "The waiter brings the coffee." }
+  chStd: Kellner / Servicemitarbeiter
+  gswZh: Kellner
+  tags: [cafe, people]
+
+- id: kellnerin
+  de: Kellnerin
+  en: waitress
+  pos: noun
+  gender: f
+  plural: Kellnerinnen
+  example: { de: "Die Kellnerin ist sehr nett.", en: "The waitress is very nice." }
+  chStd: Kellnerin / Servicemitarbeiterin
+  gswZh: Kellnerin
+  tags: [cafe, people]
+
+# Verbs and phrases
+- id: moechten
+  de: möchten
+  en: would like
+  pos: verb
+  example: { de: "Was möchtest du?", en: "What would you like?" }
+  gswZh: möchte (ich möcht, du möchtsch / möchtisch, mir möchted)
+  tags: [ordering]
+
+- id: nehmen
+  de: nehmen
+  en: to take; to have (when ordering)
+  pos: verb
+  example: { de: "Ich nehme einen Tee. Was nimmst du?", en: "I'll have a tea. What are you having?" }
+  gswZh: näh (ich nimm, du nimmsch, er nimmt)
+  tags: [ordering]
+
+- id: trinken
+  de: trinken
+  en: to drink
+  pos: verb
+  example: { de: "Was trinkst du?", en: "What are you drinking?" }
+  gswZh: trinke
+  tags: [ordering]
+
+- id: kosten
+  de: kosten
+  en: to cost
+  pos: verb
+  example: { de: "Was kostet ein Kaffee?", en: "How much is a coffee?" }
+  gswZh: choschte (Was choschtet das?)
+  tags: [money]
+
+- id: zahlen
+  de: zahlen
+  en: to pay
+  pos: verb
+  example: { de: "Wir möchten zahlen, bitte.", en: "We'd like to pay, please." }
+  gswZh: zahle
+  tags: [money]
+
+- id: ich-haette-gern
+  de: Ich hätte gern ...
+  en: I'd like ... (very polite)
+  pos: phrase
+  example: { de: "Ich hätte gern ein Wasser.", en: "I'd like a water." }
+  gswZh: Ich hett gärn ... / Ich hett gern ...
+  tags: [ordering]
+
+- id: das-macht
+  de: Das macht ...
+  en: That comes to ... / That's ...
+  pos: phrase
+  example: { de: "Das macht neun Franken fünfzig.", en: "That's nine francs fifty." }
+  gswZh: Das macht ...
+  tags: [money]
+
+- id: sonst-noch-etwas
+  de: Sonst noch etwas?
+  en: Anything else?
+  pos: phrase
+  example: { de: "Ein Kaffee. Sonst noch etwas?", en: "One coffee. Anything else?" }
+  gswZh: Suscht no öppis? / Süscht no öppis?
+  gswBe: Süsch no öppis?
+  tags: [ordering]
+
+- id: zusammen
+  de: zusammen
+  en: together
+  pos: adv
+  example: { de: "Zusammen oder getrennt?", en: "Together or separately?" }
+  gswZh: zäme
+  tags: [money]
+
+- id: stimmt-so
+  de: Stimmt so.
+  en: Keep the change.
+  pos: phrase
+  example: { de: "Hier sind zehn Franken. Stimmt so.", en: "Here are ten francs. Keep the change." }
+  gswZh: Stimmt so. / Isch guet so.
+  tags: [money]

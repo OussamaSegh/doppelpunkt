@@ -1,0 +1,618 @@
+# A1 unit 1 – Grüezi und Hallo!
+# Standard German first (variety de), then Swiss Standard (ch-std), then the Swiss lane (gsw-zh).
+
+# ---------- vocabulary ----------
+- id: a1-u01-mcq-greeting-formal
+  type: mcq
+  skill: vocabulary
+  variety: de
+  prompt: It is 9 a.m. You meet your new boss, Frau Meier, in the lift. What do you say?
+  options: ["Guten Morgen, Frau Meier!", "Tschüss, Frau Meier!", "Gute Nacht, Frau Meier!", "Hallo, du!"]
+  answer: 0
+  rationales:
+    - Correct. "Guten Morgen" is used until about 10–11 a.m. and is polite enough for a boss.
+    - Tschüss means "bye" – it closes a conversation, it doesn't open one.
+    - Gute Nacht is only said when someone goes to bed or very late at night.
+    - Hallo, du! is informal, and you would not say du to a new boss without being invited.
+  explanation: >-
+    Greetings depend on the time of day and on formality. Guten Morgen (morning), Guten Tag (daytime,
+    polite), Guten Abend (evening). Hallo is informal. Tschüss and Auf Wiedersehen are for leaving.
+
+- id: a1-u01-match-greetings
+  type: match
+  skill: vocabulary
+  variety: de
+  prompt: Match the German phrases with their English meaning.
+  pairs:
+    - ["Freut mich!", "Nice to meet you!"]
+    - ["Entschuldigung!", "Excuse me!"]
+    - ["Vielen Dank!", "Thank you very much!"]
+    - ["Auf Wiedersehen!", "Goodbye! (polite)"]
+    - ["Wie geht's?", "How's it going?"]
+  explanation: >-
+    These five phrases cover a whole first meeting: open with Entschuldigung to get attention, say
+    Freut mich after names, Vielen Dank to thank, and Auf Wiedersehen (polite) or Tschüss (informal)
+    to leave. "Wie geht's?" is the short, informal form of "Wie geht es dir?".
+
+- id: a1-u01-mcq-bitte
+  type: mcq
+  skill: vocabulary
+  variety: de
+  prompt: Someone says "Danke!" to you. What is the usual answer?
+  options: ["Bitte!", "Danke!", "Hallo!", "Freut mich!"]
+  answer: 0
+  explanation: >-
+    bitte has two jobs: "please" when you ask for something, and "you're welcome" as the answer to
+    danke. "Danke – Bitte!" is the standard exchange. (In Switzerland you will also hear "Gärn gscheh".)
+
+- id: a1-u01-mcq-woher-meaning
+  type: mcq
+  skill: vocabulary
+  variety: de
+  prompt: Which question word means "where from"?
+  options: ["woher", "wo", "wer", "wie"]
+  answer: 0
+  rationales:
+    - Correct. wo + her = where from. Woher kommst du?
+    - wo = where (place). Wo wohnst du?
+    - wer = who. Watch out – it looks like English "where"!
+    - wie = how. Wie heißt du?
+  explanation: >-
+    German question words start with w-. wo (where), woher (where from), wer (who), wie (how), was (what).
+    The trap for English speakers: German wer means who, not where.
+
+# ---------- grammar ----------
+- id: a1-u01-mcq-sein-du
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [sein-present]
+  prompt: Choose the correct form of sein.
+  question: Du ___ Tom, oder?
+  options: ["bist", "bin", "ist", "seid"]
+  answer: 0
+  rationales:
+    - Correct. du bist.
+    - bin goes with ich only.
+    - ist goes with er, sie, es.
+    - seid goes with ihr (you, several people).
+  explanation: >-
+    sein is irregular and each person has its own form: ich bin, du bist, er/sie/es ist, wir sind,
+    ihr seid, sie/Sie sind. With du the form is always bist.
+
+- id: a1-u01-gap-sein-forms
+  type: gap
+  skill: grammar
+  variety: de
+  grammar: [sein-present]
+  prompt: Fill in the correct forms of sein.
+  text: Ich ___ Anna. Das ___ Tom. Wir ___ im Deutschkurs.
+  answers: [["bin"], ["ist"], ["sind"]]
+  explanation: >-
+    ich bin – das/er/sie/es ist – wir sind. "Das ist ..." (this is ...) always takes ist, because das
+    is third person singular, even when you introduce a person.
+
+- id: a1-u01-gap-sein-ihr
+  type: gap
+  skill: grammar
+  variety: de
+  grammar: [sein-present, w-questions]
+  prompt: Fill in the correct forms of sein.
+  text: "___ ihr aus England? – Nein, wir ___ aus Irland."
+  answers: [["Seid", "seid"], ["sind"]]
+  explanation: >-
+    ihr (you, several people you say du to) takes seid; wir takes sind. In a yes/no question the verb
+    comes first: Seid ihr ...? Don't confuse seid (verb, you are) with seit (since).
+
+- id: a1-u01-gap-regular-present
+  type: gap
+  skill: grammar
+  variety: de
+  grammar: [regular-present]
+  prompt: Put the verb in brackets into the correct form.
+  text: Ich ___ (kommen) aus Kanada. Du ___ (wohnen) in Bern. Maria ___ (heißen) Maria Rossi.
+  answers: [["komme"], ["wohnst"], ["heißt", "heisst"]]
+  explanation: >-
+    Regular endings: ich -e, du -st, er/sie/es -t. So: ich komme, du wohnst, sie heißt. heißen already
+    ends in an s-sound, so the du-form and the er/sie/es-form are the same: heißt.
+
+- id: a1-u01-gap-heissen
+  type: gap
+  skill: grammar
+  variety: de
+  grammar: [regular-present, w-questions]
+  prompt: Complete the mini-dialogue with heißen.
+  text: Wie ___ du? – Ich ___ Lukas. Und wie ___ Sie? – Ich ___ Frau Keller.
+  answers: [["heißt", "heisst"], ["heiße", "heisse"], ["heißen", "heissen"], ["heiße", "heisse"]]
+  explanation: >-
+    du heißt (stem heiß- + t, not heißst), ich heiße, Sie heißen. Polite Sie always takes the same form
+    as the infinitive. In Switzerland you write heisst/heisse with ss – both spellings are accepted here.
+
+- id: a1-u01-mcq-du-sie
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [du-sie]
+  prompt: At the station you ask an older stranger for their name. Which question fits?
+  options: ["Wie heißen Sie?", "Wie heißt du?", "Wie heißt ihr?", "Wie heißen sie?"]
+  answer: 0
+  rationales:
+    - Correct. A stranger you don't know gets polite Sie (capital S) + verb in the -en form.
+    - du is for friends, children and classmates – too familiar here.
+    - ihr is for several people you say du to.
+    - With a small s this means "What are THEY called?"
+  explanation: >-
+    Use Sie with adults you don't know, officials and staff; use du with friends, family and children.
+    Sie always takes the -en form of the verb (heißen, kommen, wohnen) and is always written with a capital S.
+
+- id: a1-u01-transform-du-sie
+  type: transform
+  skill: grammar
+  variety: de
+  grammar: [du-sie, regular-present]
+  prompt: Make the question polite – change du to Sie.
+  from: de
+  to: de
+  source: Woher kommst du?
+  answers: ["Woher kommen Sie?"]
+  explanation: >-
+    To switch from du to Sie, change the pronoun to Sie and the verb ending from -st to -en:
+    kommst → kommen. The word order stays the same.
+
+- id: a1-u01-mcq-w-question
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [w-questions]
+  prompt: The answer is "Ich komme aus Irland." What was the question?
+  options: ["Woher kommst du?", "Wo wohnst du?", "Wie heißt du?", "Wer bist du?"]
+  answer: 0
+  explanation: >-
+    "aus + country" answers woher (where from). "in + place" answers wo (where): Wo wohnst du? – In Dublin.
+    Choose the question word that fits the information in the answer.
+
+- id: a1-u01-match-questions-answers
+  type: match
+  skill: grammar
+  variety: de
+  grammar: [w-questions]
+  prompt: Match each question with its answer.
+  pairs:
+    - ["Wie heißt du?", "Ich heiße Mia."]
+    - ["Woher kommst du?", "Aus Kanada."]
+    - ["Wo wohnst du?", "In Basel."]
+    - ["Wie geht's?", "Gut, danke!"]
+    - ["Wer ist das?", "Das ist Herr Keller."]
+  explanation: >-
+    wie asks for a manner or name (heißen), woher for origin (aus ...), wo for a place (in ...),
+    wer for a person. Short answers without a verb are completely normal in spoken German.
+
+- id: a1-u01-order-statement
+  type: order
+  skill: grammar
+  variety: de
+  grammar: [w-questions]
+  prompt: Put the words in order to make a statement.
+  tokens: ["aus", "komme", "Ich", "England"]
+  answers: ["Ich komme aus England.", "Aus England komme ich."]
+  explanation: >-
+    In a German statement the conjugated verb is in position 2. Usually the subject comes first
+    (Ich komme ...), but another part can go first – then the subject moves behind the verb
+    (Aus England komme ich.).
+
+- id: a1-u01-order-question-wo
+  type: order
+  skill: grammar
+  variety: de
+  grammar: [w-questions]
+  prompt: Put the words in order to make a question.
+  tokens: ["du", "Wo", "wohnst"]
+  answers: ["Wo wohnst du?"]
+  explanation: >-
+    W-questions: question word in position 1, conjugated verb in position 2, then the subject.
+    English needs "do" (Where do you live?); German doesn't.
+
+- id: a1-u01-order-question-polite
+  type: order
+  skill: grammar
+  variety: de
+  grammar: [w-questions, du-sie]
+  prompt: Put the words in order to make a polite question.
+  tokens: ["Sie", "Woher", "kommen", "Frau Keller"]
+  answers: ["Woher kommen Sie, Frau Keller?"]
+  explanation: >-
+    Question word – verb – subject. The name of the person you are talking to goes at the end,
+    separated by a comma.
+
+- id: a1-u01-order-yes-no
+  type: order
+  skill: grammar
+  variety: de
+  grammar: [w-questions, regular-present]
+  prompt: Make a yes/no question.
+  tokens: ["Deutsch", "du", "Lernst"]
+  answers: ["Lernst du Deutsch?"]
+  explanation: >-
+    In a yes/no question the conjugated verb comes first, then the subject: Lernst du Deutsch?
+    The capital letter on Lernst is a clue – it starts the sentence.
+
+# ---------- reading ----------
+- id: a1-u01-mcq-reading-mia
+  type: mcq
+  skill: reading
+  variety: de
+  prompt: "Read \"Hallo aus dem Deutschkurs!\". Where does Mia come from?"
+  options: ["Aus Italien", "Aus Kanada", "Aus Zürich", "Aus Winterthur"]
+  answer: 0
+  explanation: >-
+    The text says "Ich komme aus Italien, aus Mailand." kommen aus + country tells you where someone is
+    from; "Ich wohne jetzt in Zürich" tells you where she lives now. Paul is from Canada; Frau Keller is
+    from Winterthur.
+
+- id: a1-u01-mcq-reading-paul
+  type: mcq
+  skill: reading
+  variety: de
+  prompt: "Read the text again. Richtig oder falsch? \"Paul wohnt in Kanada.\""
+  options: ["Falsch", "Richtig"]
+  answer: 0
+  explanation: >-
+    Falsch. Paul kommt aus Kanada (origin), but "Er wohnt auch in Zürich" (residence). Keep kommen aus
+    (where from) and wohnen in (where you live) apart.
+
+- id: a1-u01-mcq-reading-keller
+  type: mcq
+  skill: reading
+  variety: de
+  prompt: "Read the text again. Which languages does Frau Keller speak?"
+  options: ["Deutsch und Schweizerdeutsch", "Italienisch und Englisch", "Nur Deutsch", "Englisch und Deutsch"]
+  answer: 0
+  explanation: >-
+    "Sie spricht Deutsch und Schweizerdeutsch." sie here means she (verb spricht, singular).
+    Italian and English are Mia's languages: "Ich spreche Italienisch und Englisch."
+
+- id: a1-u01-translate-reading
+  type: translate
+  skill: reading
+  variety: de
+  prompt: Translate into English.
+  source: Wir sind auch im Deutschkurs.
+  answers: ["We are in the German course too.", "We're in the German course too.", "We are also in the German course.", "We're also in the German course.", "We are in the German class too."]
+  explanation: >-
+    wir sind = we are; auch = too/also, usually placed right after the verb or the subject in German.
+    im = in dem (in the).
+
+# ---------- listening ----------
+- id: a1-u01-mcq-listening-tom
+  type: mcq
+  skill: listening
+  variety: de
+  prompt: Listen to the intro dialogue again. Woher kommt Tom?
+  options: ["Aus England", "Aus Deutschland", "Aus der Schweiz", "Aus Kanada"]
+  answer: 0
+  explanation: >-
+    Tom says "Ich komme aus England, aus Manchester." Anna is the one from Germany (Hamburg). Listen for
+    the word after aus – it names the country or town of origin.
+
+- id: a1-u01-mcq-listening-anna
+  type: mcq
+  skill: listening
+  variety: de
+  prompt: Listen to the intro dialogue again. Wo wohnt Anna?
+  options: ["In Zürich", "In Hamburg", "In Manchester", "In Bern"]
+  answer: 0
+  explanation: >-
+    Anna comes from Hamburg but lives in Zurich: "Ich wohne in Zürich." wo + wohnen asks where someone
+    lives now, not where they were born.
+
+- id: a1-u01-dictation-anna
+  type: dictation
+  skill: listening
+  variety: de
+  prompt: Listen and write what you hear.
+  transcript: Guten Tag! Ich heiße Anna und ich komme aus Deutschland.
+  explanation: >-
+    Nouns and the polite Sie always start with a capital letter in German: Tag, Deutschland. ß in heiße
+    is pronounced like a sharp s; Swiss writers use ss (heisse).
+
+- id: a1-u01-dictation-woher
+  type: dictation
+  skill: listening
+  variety: de
+  prompt: Listen and write what you hear.
+  transcript: Woher kommen Sie, Herr Baker?
+  explanation: >-
+    In a W-question the voice usually goes down at the end. Herr is a noun and is capitalised; Sie
+    (polite you) is capitalised too.
+
+- id: a1-u01-dictation-wir
+  type: dictation
+  skill: listening
+  variety: de
+  prompt: Listen and write what you hear.
+  transcript: Wir sind Tom und Anna. Wir wohnen auch in Zürich.
+  explanation: >-
+    wir takes sind and the -en form of regular verbs (wohnen). The w in German is pronounced like an
+    English v: "vir", "vohnen".
+
+# ---------- speaking ----------
+- id: a1-u01-speak-intro
+  type: speak
+  skill: speaking
+  variety: de
+  prompt: Read aloud, then say it again with your own name, country and town.
+  target: Guten Morgen! Ich heiße Tom. Ich komme aus England, und ich wohne in Zürich.
+  explanation: >-
+    This is the core self-introduction: heißen + name, kommen aus + country, wohnen in + town.
+    German ch in ich is a soft hiss (like a whispered "h" in "huge"), not a k.
+
+- id: a1-u01-speak-questions
+  type: speak
+  skill: speaking
+  variety: de
+  prompt: Read the questions aloud. Let your voice fall at the end of each W-question.
+  target: Wie heißen Sie? Woher kommen Sie? Wo wohnen Sie?
+  explanation: >-
+    W-questions normally fall at the end in German; yes/no questions (Wohnen Sie in Zürich?) rise.
+    wo, woher and wohnen all start with a v-sound.
+
+- id: a1-u01-speak-ei-ie
+  type: speak
+  skill: speaking
+  variety: de
+  prompt: "Pronunciation: ei sounds like English \"eye\", ie like English \"ee\". Read aloud."
+  target: Ich heiße Lisa. Wie heißt sie? Sie heißt Lisa.
+  explanation: >-
+    Rule of thumb: say the second letter. ei → "i" as in eye (heißen, nein, zwei); ie → "ee" (Lisa,
+    wie, sie, Sie). Mixing them up changes words: Wein (wine) vs. Wien (Vienna).
+
+# ---------- writing ----------
+- id: a1-u01-translate-name
+  type: translate
+  skill: writing
+  variety: de
+  grammar: [regular-present]
+  prompt: Translate into German.
+  source: My name is Tom and I come from England.
+  answers:
+    - Ich heiße Tom und ich komme aus England.
+    - Ich heisse Tom und ich komme aus England.
+    - Ich heiße Tom und komme aus England.
+    - Ich heisse Tom und komme aus England.
+    - Mein Name ist Tom und ich komme aus England.
+  explanation: >-
+    "My name is" is usually Ich heiße (literally "I am called"). Mein Name ist ... is also correct but
+    more formal. come from = kommen aus.
+
+- id: a1-u01-translate-wo
+  type: translate
+  skill: writing
+  variety: de
+  grammar: [w-questions, du-sie]
+  prompt: "Translate into German (informal, to a classmate)."
+  source: Where do you live?
+  answers: ["Wo wohnst du?"]
+  explanation: >-
+    No "do" in German: question word + verb + subject. Informal you = du, so the verb ends in -st.
+    to live (reside) = wohnen, not leben (leben = to be alive / to live a life).
+
+- id: a1-u01-translate-sind-sie
+  type: translate
+  skill: writing
+  variety: de
+  grammar: [sein-present, du-sie]
+  prompt: Translate into German.
+  source: Excuse me, are you Ms Keller?
+  answers: ["Entschuldigung, sind Sie Frau Keller?"]
+  explanation: >-
+    Yes/no question: the verb sind comes first, then polite Sie. Ms/Mrs/Miss are all Frau in German;
+    Fräulein is outdated and can offend.
+
+- id: a1-u01-write-profile
+  type: write
+  skill: writing
+  variety: de
+  grammar: [sein-present, regular-present]
+  prompt: Write a short profile for the course notice board.
+  task: >-
+    Write 4–6 sentences about yourself: greet the readers, say your name, where you come from, where you
+    live, which languages you speak and what you are learning. End with a question for the readers.
+  minWords: 30
+  model: >-
+    Hallo! Ich heiße Sarah Miller. Ich komme aus Irland, aus Dublin. Ich wohne jetzt in Winterthur.
+    Ich spreche Englisch und ein bisschen Französisch. Ich lerne Deutsch und Schweizerdeutsch.
+    Und du? Woher kommst du?
+  checklist:
+    - I greet the readers (Hallo! / Guten Tag!).
+    - I use heißen with my name (Ich heiße ...).
+    - I use kommen aus + country and wohnen in + town.
+    - Every verb has the right ending (ich -e, du -st).
+    - The verb is in position 2 in every statement.
+    - All nouns (Deutsch, England, Kurs ...) start with a capital letter.
+    - I end with a W-question.
+  explanation: >-
+    A good A1 profile is built from short main clauses, each with the verb in position 2: Ich heiße ...
+    / Ich komme aus ... / Ich wohne in ... / Ich spreche ... / Ich lerne .... Linking two of them with und
+    makes the text flow. Languages and countries are nouns, so they are capitalised.
+
+# ---------- roleplay ----------
+- id: a1-u01-roleplay-course
+  type: roleplay
+  skill: speaking
+  variety: de
+  grammar: [sein-present, regular-present, w-questions, du-sie]
+  tutor: lena
+  prompt: "Roleplay with Lena: it's your first day in a German course."
+  scenario: >-
+    Lena is a classmate in your German course in Zurich. She sits next to you and starts talking.
+    Use du with her.
+  goals:
+    - Greet Lena and say your name.
+    - Say where you come from and where you live.
+    - Ask Lena where she comes from and where she lives.
+    - React with "Freut mich!" and say goodbye.
+  model: |
+    Lena: Hallo! Ich bin Lena. Wie heißt du?
+    Du: Hallo Lena! Ich heiße Sam. Freut mich!
+    Lena: Freut mich auch! Woher kommst du, Sam?
+    Du: Ich komme aus Australien, aus Sydney. Und du?
+    Lena: Ich komme aus Österreich. Wo wohnst du?
+    Du: Ich wohne in Zürich. Wohnst du auch in Zürich?
+    Lena: Nein, ich wohne in Baden.
+    Du: Ah, schön! Tschüss, Lena, bis morgen!
+  explanation: >-
+    A first conversation follows a fixed pattern: greeting → name → Freut mich → origin (woher, aus) →
+    residence (wo, in) → goodbye. Turning the question back ("Und du?") keeps the conversation going.
+
+- id: a1-u01-roleplay-reto
+  type: roleplay
+  skill: listening
+  variety: gsw-zh
+  grammar: [sein-present, w-questions]
+  tutor: reto
+  prompt: "Listening roleplay with Reto: your new neighbour speaks Zurich German."
+  scenario: >-
+    Reto, your new neighbour in Zurich, greets you in the stairwell. He speaks Zurich German (slowly).
+    You answer in Standard German – that's completely normal in Switzerland. Your job is to understand him.
+  goals:
+    - Understand Reto's greeting and answer it.
+    - Understand "Wie heissisch?" and say your name.
+    - Understand "Vo wo chunnsch?" and say where you come from.
+    - Understand "Wie gaats?" and answer.
+  model: |
+    Reto: Grüezi! Sind Sie neu da?
+    Du: Guten Tag! Ja, ich wohne jetzt hier.
+    Reto: Ich bi de Reto. Wämmer Duzis mache? Wie heissisch du?
+    Du: Gern! Ich heiße Emma.
+    Reto: Freut mi, Emma! Vo wo chunnsch?
+    Du: Ich komme aus Kanada.
+    Reto: Cool! Und, wie gaats?
+    Du: Gut, danke! Und dir?
+    Reto: Guet, merci. Tschüss Emma!
+    Du: Tschüss Reto!
+  explanation: >-
+    Key decoding rules: bi/bisch = bin/bist; heissisch = heißt (du-forms end in -sch); vo wo chunnsch =
+    woher kommst du (k → ch); gaats = geht's; guet = gut; merci = danke. In Switzerland, answering a
+    dialect speaker in Standard German is normal and polite.
+
+# ---------- Swiss Standard German ----------
+- id: a1-u01-chstd-ss
+  type: mcq
+  skill: reading
+  variety: ch-std
+  prompt: "In a Swiss newspaper you read: \"Die Lehrerin heisst Frau Keller.\" Is heisst a mistake?"
+  options: ["No – Swiss Standard German always writes ss instead of ß.", "Yes – it must be heißt.", "Yes – it must be heist.", "No – heisst is the Zurich German form."]
+  answer: 0
+  explanation: >-
+    Swiss Standard German (Schweizer Hochdeutsch) does not use the letter ß at all: heissen, Strasse,
+    gross. It is still Standard German, not dialect. In Germany and Austria you write heißen. Both are correct.
+
+# ---------- Swiss lane (gsw-zh) ----------
+- id: a1-u01-ch-mcq-gruezi
+  type: mcq
+  skill: vocabulary
+  variety: gsw-zh
+  prompt: In a Zurich shop you greet one shop assistant you don't know. What do Zurich people say?
+  options: ["Grüezi!", "Grüezi mitenand!", "Hoi!", "Grüß Gott!"]
+  answer: 0
+  rationales:
+    - Correct. Grüezi is the polite greeting to one person (Sie-level).
+    - Grüezi mitenand is for greeting a group.
+    - Hoi is for friends and people you say du to.
+    - Grüß Gott is Bavarian/Austrian; it is not used in Zurich.
+  explanation: >-
+    Zurich greetings: Grüezi (polite, one person), Grüezi mitenand (polite, a group), Hoi / Sali / Salü
+    (informal). For goodbye: Uf Widerluege (polite) and Tschüss / Ciao (informal).
+
+- id: a1-u01-ch-match-sein
+  type: match
+  skill: grammar
+  variety: gsw-zh
+  grammar: [sein-present]
+  prompt: Match the Zurich German forms of sein with Standard German.
+  pairs:
+    - ["ich bi", "ich bin"]
+    - ["du bisch", "du bist"]
+    - ["er isch", "er ist"]
+    - ["mir sind", "wir sind"]
+    - ["ihr sind", "ihr seid"]
+  explanation: >-
+    Zurich German drops the final -n of bin (bi), turns -st into -sch (bisch, isch), says mir for wir,
+    and uses sind for all three plural persons (mir/ihr/si sind).
+
+- id: a1-u01-ch-gap-bi
+  type: gap
+  skill: grammar
+  variety: gsw-zh
+  grammar: [sein-present]
+  prompt: Complete Reto's line from the Swiss lane dialogue (Zurich German).
+  text: Sali Sandra, ich ___ de Reto.
+  answers: [["bi"]]
+  explanation: >-
+    In Zurich German ich bin becomes ich bi. Notice the article before the name: de Reto (= der Reto).
+    Swiss German uses articles before first names; Standard written German does not.
+
+- id: a1-u01-ch-mcq-vo-wo
+  type: mcq
+  skill: listening
+  variety: gsw-zh
+  grammar: [w-questions]
+  prompt: "In the Swiss lane dialogue, Sandra asks Reto: \"Vo wo chunnsch du?\". What does she want to know?"
+  options: ["Where he comes from", "Where he lives", "What his name is", "How he is"]
+  answer: 0
+  explanation: >-
+    vo wo = woher (literally "from where"); chunnsch = kommst (German k often becomes ch in Swiss German,
+    and the du-ending -st becomes -sch). So "Vo wo chunnsch du?" = "Woher kommst du?".
+
+- id: a1-u01-ch-mcq-duzis
+  type: mcq
+  skill: listening
+  variety: gsw-zh
+  grammar: [du-sie]
+  prompt: "Reto asks: \"Wämmer grad Duzis mache?\" What is he suggesting?"
+  options: ["To say du to each other", "To meet again later", "To have a coffee", "To speak Standard German"]
+  answer: 0
+  explanation: >-
+    Duzis mache = to agree to use du (from duzen). Wämmer = wollen wir (shall we). Swiss people switch to
+    du quickly, especially neighbours, colleagues and younger people – but the offer usually comes first.
+
+- id: a1-u01-ch-transform-vo-wo
+  type: transform
+  skill: reading
+  variety: gsw-zh
+  grammar: [w-questions]
+  prompt: What does this mean in Standard German?
+  from: gsw-zh
+  to: de
+  source: Vo wo chunnsch du?
+  answers: ["Woher kommst du?"]
+  explanation: >-
+    vo wo → woher, chunnsch → kommst. Two patterns to remember: k → ch at the start (cho = kommen) and
+    du-forms ending in -sch instead of -st (bisch, chunnsch, wohnsch).
+
+- id: a1-u01-ch-transform-zueri
+  type: transform
+  skill: reading
+  variety: gsw-zh
+  grammar: [sein-present]
+  prompt: What does this mean in Standard German?
+  from: gsw-zh
+  to: de
+  source: Ich bi d Sandra und ich wohne z Züri.
+  answers: ["Ich bin Sandra und ich wohne in Zürich.", "Ich bin die Sandra und ich wohne in Zürich.", "Ich bin Sandra und wohne in Zürich."]
+  explanation: >-
+    bi = bin; d Sandra = (die) Sandra – Standard German normally drops the article before names;
+    z Züri = in Zürich (z = in/to with town names; Züri = Zürich).
+
+- id: a1-u01-ch-transform-gaats
+  type: transform
+  skill: vocabulary
+  variety: gsw-zh
+  prompt: "Recognition: how would a Zurich person say this? (Choose your spelling – common variants are accepted.)"
+  from: de
+  to: gsw-zh
+  source: Wie geht's? – Gut, danke.
+  answers: ["Wie gaats? – Guet, merci.", "Wie gahts? – Guet, merci.", "Wie gaats? – Guet, danke.", "Wie gahts? – Guet, danke.", "Wie gaat's? – Guet, merci."]
+  explanation: >-
+    geht's → gaats / gahts (Zurich long a), gut → guet (the Swiss diphthong ue, as in Muetter, Bueb),
+    danke → merci (very common) or danke. Swiss German has no fixed spelling, so several spellings are fine.

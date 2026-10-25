@@ -1,0 +1,257 @@
+id: a1-u02
+level: A1
+number: 2
+title: Im Café
+titleEn: At the café
+goal: >-
+  By the end you can count to 100, understand and say prices in francs, order food and drink politely
+  with "Ich möchte ..." and "Ich hätte gern ...", ask for the bill, and recognise an order in Zurich German.
+canDo:
+  - I can count from 0 to 100 and understand prices like "4 Franken 80".
+  - I can order a drink and something to eat politely.
+  - I can ask what something costs and ask for the bill.
+  - I can use ein / eine / ein and einen after verbs like möchten and nehmen.
+  - I can recognise Zurich café words (Kafi, Gipfeli, Weggli, Schale) and Zurich numbers.
+
+intro:
+  scene: >-
+    Tom and Anna go to Café Sonne near Zurich main station after class. A waitress comes to their table.
+  dialogue:
+    - speaker: Kellnerin
+      text: Guten Tag! Was möchten Sie?
+      en: Hello! What would you like?
+    - speaker: Tom
+      text: Ich möchte einen Kaffee, bitte.
+      en: I'd like a coffee, please.
+    - speaker: Anna
+      text: Und ich nehme einen Tee und ein Croissant.
+      en: And I'll have a tea and a croissant.
+    - speaker: Kellnerin
+      text: Gern. Möchten Sie auch ein Wasser?
+      en: Certainly. Would you like some water too?
+    - speaker: Tom
+      text: Nein, danke. Aber ich hätte gern ein Stück Kuchen.
+      en: No, thanks. But I'd like a piece of cake.
+    - speaker: Kellnerin
+      text: Also, einen Kaffee, einen Tee, ein Croissant und ein Stück Kuchen. Sonst noch etwas?
+      en: So, a coffee, a tea, a croissant and a piece of cake. Anything else?
+    - speaker: Anna
+      text: Nein, danke. Das ist alles.
+      en: No, thanks. That's all.
+    - speaker: Tom
+      text: Entschuldigung! Wir möchten zahlen, bitte.
+      en: Excuse me! We'd like to pay, please.
+    - speaker: Kellnerin
+      text: Zusammen oder getrennt?
+      en: Together or separately?
+    - speaker: Tom
+      text: Zusammen, bitte. Was macht das?
+      en: Together, please. How much is that?
+    - speaker: Kellnerin
+      text: Das macht siebzehn Franken achtzig.
+      en: That's seventeen francs eighty.
+    - speaker: Tom
+      text: Hier sind zwanzig Franken. Stimmt so.
+      en: Here are twenty francs. Keep the change.
+
+grammar:
+  - id: numbers
+    title: "Numbers 0–100 and prices"
+    body: >-
+      From 13 to 19 you add **-zehn**: dreizehn, vierzehn ... Note **sechzehn** (not sechszehn) and
+      **siebzehn** (not siebenzehn).
+
+
+      From 21 German says the **ones first, then the tens**, joined by **und** and written as one word:
+      **einundzwanzig** (one-and-twenty), **fünfundvierzig** (five-and-forty). The tens end in **-zig**,
+      except **dreißig** (Swiss spelling: dreissig).
+
+
+      Prices: **4.80 Fr.** is read *vier Franken achtzig*. The cents (Rappen) follow the franc without
+      "und". In Switzerland you often hear just *vier achtzig*. Euro prices work the same way:
+      *3,50 €* = *drei Euro fünfzig*.
+    tables:
+      - [["0–10", "11–20", "Tens"],
+         ["0 null", "11 elf", "10 zehn"],
+         ["1 eins", "12 zwölf", "20 zwanzig"],
+         ["2 zwei", "13 dreizehn", "30 dreißig"],
+         ["3 drei", "14 vierzehn", "40 vierzig"],
+         ["4 vier", "15 fünfzehn", "50 fünfzig"],
+         ["5 fünf", "16 sechzehn", "60 sechzig"],
+         ["6 sechs", "17 siebzehn", "70 siebzig"],
+         ["7 sieben", "18 achtzehn", "80 achtzig"],
+         ["8 acht", "19 neunzehn", "90 neunzig"],
+         ["9 neun / 10 zehn", "20 zwanzig", "100 hundert"]]
+      - [["Number", "German", "Pattern"],
+         ["21", "einundzwanzig", "1 + und + 20"],
+         ["34", "vierunddreißig", "4 + und + 30"],
+         ["67", "siebenundsechzig", "7 + und + 60"],
+         ["99", "neunundneunzig", "9 + und + 90"]]
+    commonMistakes:
+      - "*zwanzigeins* → **einundzwanzig**. Ones before tens, like the old English 'four-and-twenty'."
+      - "Hearing *vierundfünfzig* (54) and writing 45. Write the last number you hear **first**: 5, then 4."
+      - "*eins Kaffee* → **ein Kaffee**. *eins* is only used when counting (eins, zwei, drei); before a noun it becomes ein/eine."
+      - "*sechszehn, siebenzehn* → **sechzehn, siebzehn**; *sechszig, siebenzig* → **sechzig, siebzig**."
+
+  - id: gender-articles
+    title: "der, die, das – every noun has a gender"
+    body: >-
+      Every German noun is **masculine**, **feminine** or **neuter**, and you will see it in the article:
+      **der** Kaffee, **die** Milch, **das** Wasser. The indefinite article (*a/an*) is **ein** (m),
+      **eine** (f), **ein** (n). Plural: **die** for all genders, and no indefinite article.
+
+
+      Gender is mostly not logical (das Mädchen = the girl is neuter!), so **always learn a noun with its
+      article**. A few helpful clues: nouns ending in **-ung** are feminine (die Rechnung); nouns ending in
+      **-chen** or **-li** are neuter (das Brötchen, das Gipfeli); drinks are often masculine (der Kaffee,
+      der Tee, der Saft), but not always (das Wasser, das Bier, die Milch).
+
+
+      All nouns are written with a **capital letter**.
+    tables:
+      - [["", "masculine", "feminine", "neuter", "plural"],
+         ["the", "der Kaffee", "die Milch", "das Wasser", "die Kaffees"],
+         ["a / an", "ein Kaffee", "eine Milch", "ein Wasser", "Kaffees (no article)"]]
+    commonMistakes:
+      - "Learning *Kaffee = coffee* without the article. Learn **der Kaffee** as one unit, ideally with the colour or symbol your app uses."
+      - "Guessing gender from meaning: *die Mädchen* (the girl) → **das Mädchen**. The ending -chen makes it neuter."
+      - "Writing nouns in lower case: *ein kaffee* → **ein Kaffee**."
+
+  - id: accusative-indefinite
+    title: "The accusative with ein: einen Kaffee"
+    body: >-
+      The **subject** of a sentence (who does something) is in the **nominative**. The **direct object**
+      (what you want, take, order, pay) is in the **accusative**. After verbs like **möchten, nehmen,
+      haben, kosten**, and after **es gibt**, the noun is a direct object.
+
+
+      Good news: only the **masculine** article changes. **ein** becomes **einen** (and **der** becomes
+      **den**). Feminine, neuter and plural stay the same.
+
+
+      *Das ist **ein** Kuchen.* (nominative: subject/identity) – *Ich möchte **einen** Kuchen.* (accusative: object)
+    tables:
+      - [["", "masculine", "feminine", "neuter"],
+         ["nominative (subject)", "ein Tee / der Tee", "eine Milch / die Milch", "ein Wasser / das Wasser"],
+         ["accusative (object)", "einen Tee / den Tee", "eine Milch / die Milch", "ein Wasser / das Wasser"]]
+    commonMistakes:
+      - "*Ich möchte ein Kaffee.* → **Ich möchte einen Kaffee.** Kaffee is masculine, so after möchte it's einen."
+      - "*Ich möchte einen Wasser.* → **Ich möchte ein Wasser.** Only masculine nouns take -en."
+      - "*Das ist einen Kuchen.* → **Das ist ein Kuchen.** sein never takes an accusative: what comes after ist is nominative."
+
+  - id: moechte
+    title: "möchte(n) – the polite way to order"
+    body: >-
+      **möchte** means *would like*. It is the polite form for wishes and orders. Use it with a noun
+      (*Ich möchte einen Tee*) or with a verb in the infinitive at the **end** of the sentence
+      (*Wir möchten **zahlen***).
+
+
+      Even more polite and very common in cafés: **Ich hätte gern ...** (I would like to have ...).
+      Also fine: **Ich nehme ...** (I'll take ...). **Ich will ...** (I want) sounds demanding when ordering.
+
+
+      **nehmen** is irregular: *ich nehme, du nimmst, er/sie/es nimmt, wir nehmen, ihr nehmt, sie/Sie nehmen*.
+    tables:
+      - [["Person", "möchten", "nehmen"],
+         ["ich", "möchte", "nehme"],
+         ["du", "möchtest", "nimmst"],
+         ["er / sie / es", "möchte", "nimmt"],
+         ["wir", "möchten", "nehmen"],
+         ["ihr", "möchtet", "nehmt"],
+         ["sie / Sie", "möchten", "nehmen"]]
+    commonMistakes:
+      - "*Er möchtet ...* → **Er möchte ...** ich and er/sie/es have the same form, with no -t."
+      - "*Ich möchte zahlen einen Kaffee* / *Wir möchten zahlen bitte jetzt* → put the infinitive at the very end: **Wir möchten jetzt bitte zahlen.**"
+      - "*Ich will einen Kaffee.* is grammatical but sounds rude when ordering. Use **möchte** or **hätte gern**."
+      - "*zählen* (to count) vs. **zahlen** (to pay). In a café you want to zahlen!"
+
+reading:
+  title: "Im Café Sonne"
+  text: >-
+    Café Sonne, Zürich – Getränke: Kaffee 4.80 Fr. · Espresso 4.20 Fr. · Tee 4.50 Fr. ·
+    Schokolade 5.20 Fr. · Mineralwasser 4.00 Fr. · Bier 5.50 Fr. – Gebäck: Gipfeli 2.20 Fr. ·
+    Brötchen 1.50 Fr. · Kuchen 5.70 Fr.
+
+
+    Tom ist heute allein im Café Sonne. Er möchte einen Kaffee und ein Gipfeli. Ein Gipfeli ist ein
+    Croissant – so sagt man in der Schweiz. Der Kaffee kostet vier Franken achtzig, das Gipfeli kostet
+    zwei Franken zwanzig. Das macht zusammen sieben Franken. Tom zahlt mit Karte. Die Kellnerin sagt:
+    "Vielen Dank und einen schönen Tag!"
+  en: >-
+    Café Sonne, Zurich – Drinks: coffee CHF 4.80 · espresso CHF 4.20 · tea CHF 4.50 · hot chocolate
+    CHF 5.20 · mineral water CHF 4.00 · beer CHF 5.50 – Pastries: croissant CHF 2.20 · bread roll
+    CHF 1.50 · cake CHF 5.70.
+
+
+    Today Tom is alone at Café Sonne. He'd like a coffee and a Gipfeli. A Gipfeli is a croissant – that's
+    what they say in Switzerland. The coffee costs four francs eighty, the Gipfeli costs two francs
+    twenty. That's seven francs altogether. Tom pays by card. The waitress says: "Thank you very much and
+    have a nice day!"
+
+swiss:
+  scene: >-
+    Saturday morning in a café in Zurich's old town. Reto and Sandra order. Listen for the café words
+    and the numbers – you don't need to say them yet.
+  dialogue:
+    - speaker: Kellnerin
+      text: Grüezi mitenand! Was dörfs sii?
+      en: Hello, both of you! What can I get you?
+      variety: gsw-zh
+    - speaker: Reto
+      text: Grüezi. Ich hett gärn en Kafi Crème und es Gipfeli, bitte.
+      en: Hello. I'd like a coffee with cream and a croissant, please.
+      variety: gsw-zh
+    - speaker: Sandra
+      text: Und für mich e Schale und es Weggli.
+      en: And for me a milky coffee and a soft bread roll.
+      variety: gsw-zh
+    - speaker: Kellnerin
+      text: Gärn. Suscht no öppis?
+      en: Certainly. Anything else?
+      variety: gsw-zh
+    - speaker: Reto
+      text: Nei, merci, das isch alles.
+      en: No, thanks, that's all.
+      variety: gsw-zh
+    - speaker: Reto
+      text: Exgüsi! Chönd mir bitte zahle?
+      en: Excuse me! Can we pay, please?
+      variety: gsw-zh
+    - speaker: Kellnerin
+      text: Zäme oder separat?
+      en: Together or separately?
+      variety: gsw-zh
+    - speaker: Reto
+      text: Zäme, bitte.
+      en: Together, please.
+      variety: gsw-zh
+    - speaker: Kellnerin
+      text: Das macht zwölf Franke füfzg.
+      en: That's twelve francs fifty.
+      variety: gsw-zh
+    - speaker: Reto
+      text: Da sind füfzää. Isch guet so.
+      en: Here's fifteen. Keep the change.
+      variety: gsw-zh
+  notes:
+    - >-
+      **Was dörfs sii?** (= Was darf es sein?) is what Swiss waiters and shop staff say to take your order.
+      **Suscht no öppis?** (also spelled *Süscht no öppis?*) = *Sonst noch etwas?*; öppis = etwas, no = noch.
+    - >-
+      **Ich hett gärn ...** (also written *gern*) = *Ich hätte gern ...*, the standard polite way to order in Zurich.
+      **Chönd mir zahle?** = *Können wir zahlen?* (k → ch again: chönd = können).
+    - >-
+      Swiss German has **no separate accusative** for articles: *en Kafi* is the same as subject and as
+      object, where Standard German needs *einen Kaffee*. Indefinite articles: **en** (m), **e** (f), **es** (n).
+    - >-
+      Café vocabulary: **en Kafi Crème** = a regular coffee with a little cream; **e Schale** = coffee with
+      lots of milk; **es Gipfeli** = croissant; **es Weggli** = soft white bread roll; **es Mineral** =
+      mineral water; **e Stange** = a small glass (3 dl) of draught beer.
+    - >-
+      Zurich numbers: eis, zwei, drü, vier, föif, sächs, sibe, acht, nüün, zää. Note the vowel shift in
+      **füfzää** (15) and **füfzg** (50), and **zwänzg** (20). Colloquially a franc is a **Stutz**:
+      *zwänzg Stutz* = 20 francs.
+    - >-
+      **zäme** = *zusammen*; **Isch guet so** = *Stimmt so* (keep the change). In Switzerland service is
+      included in the price; rounding up a little is friendly but not required.

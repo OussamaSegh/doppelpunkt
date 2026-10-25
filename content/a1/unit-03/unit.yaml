@@ -1,0 +1,230 @@
+id: a1-u03
+level: A1
+number: 3
+title: Meine Familie
+titleEn: My family
+goal: >-
+  By the end you can talk about your family, say who people are, how old they are and what they are
+  called, ask others about their family, and follow a simple family conversation in Zurich German.
+canDo:
+  - I can introduce my family members (Das ist mein Bruder. Das sind meine Eltern.).
+  - I can say what I have with haben (Ich habe zwei Schwestern.).
+  - I can use mein, dein, sein, ihr, unser and Ihr correctly.
+  - I can form the plural of common nouns and say people's ages.
+  - I can recognise Zurich family words (Muetter, Brueder, Schwöschter, Chind, Götti, Gotte) and the forms ich ha, du häsch.
+
+intro:
+  scene: >-
+    After class Anna shows Tom photos on her phone.
+  dialogue:
+    - speaker: Tom
+      text: Ist das deine Familie?
+      en: Is that your family?
+    - speaker: Anna
+      text: Ja, das sind meine Eltern. Mein Vater heißt Peter und meine Mutter heißt Sabine.
+      en: Yes, these are my parents. My father is called Peter and my mother is called Sabine.
+    - speaker: Tom
+      text: Und wer ist das?
+      en: And who is that?
+    - speaker: Anna
+      text: Das ist mein Bruder Jonas. Er ist fünfundzwanzig Jahre alt.
+      en: That's my brother Jonas. He is twenty-five years old.
+    - speaker: Tom
+      text: Hast du auch eine Schwester?
+      en: Do you have a sister too?
+    - speaker: Anna
+      text: Ja, ich habe zwei Schwestern, Lea und Sophie. Und du? Hast du Geschwister?
+      en: Yes, I have two sisters, Lea and Sophie. And you? Do you have any brothers or sisters?
+    - speaker: Tom
+      text: Ja, ich habe einen Bruder. Er wohnt in London. Er ist verheiratet und hat zwei Kinder.
+      en: Yes, I have a brother. He lives in London. He's married and has two children.
+    - speaker: Anna
+      text: Oh, du bist Onkel! Wie heißen die Kinder?
+      en: Oh, you're an uncle! What are the children called?
+    - speaker: Tom
+      text: Mein Neffe heißt Oliver und meine Nichte heißt Emily. Sie sind vier und sieben.
+      en: My nephew is called Oliver and my niece is called Emily. They are four and seven.
+    - speaker: Anna
+      text: Süß! Und deine Eltern?
+      en: Sweet! And your parents?
+    - speaker: Tom
+      text: Meine Eltern wohnen in Manchester. Sie haben einen Hund.
+      en: My parents live in Manchester. They have a dog.
+
+grammar:
+  - id: haben-present
+    title: "haben (to have)"
+    body: >-
+      **haben** is the second key verb after sein. It is nearly regular – only **du hast** and
+      **er/sie/es hat** lose the b.
+
+
+      What you have is a direct object, so it is in the **accusative**: *Ich habe **einen** Bruder*
+      (der Bruder), *eine Schwester* (die Schwester), *ein Kind* (das Kind).
+
+
+      For **age**, German uses **sein**, like English: *Ich **bin** dreißig (Jahre alt).* – *Wie alt **bist** du?*
+
+
+      To say you have none, use **kein/keine**: *Ich habe **keine** Geschwister.* (More on kein in unit 5.)
+    tables:
+      - [["Person", "haben", "Example"],
+         ["ich", "habe", "Ich habe einen Bruder."],
+         ["du", "hast", "Hast du Geschwister?"],
+         ["er / sie / es", "hat", "Anna hat zwei Schwestern."],
+         ["wir", "haben", "Wir haben einen Hund."],
+         ["ihr", "habt", "Habt ihr Kinder?"],
+         ["sie / Sie", "haben", "Meine Eltern haben eine Katze."]]
+    commonMistakes:
+      - "*du habst, er habt* → **du hast, er hat**."
+      - "*Ich habe ein Bruder.* → **Ich habe einen Bruder.** der Bruder is masculine; after haben it's einen."
+      - "*Ich habe dreißig Jahre.* (French/Spanish pattern) → **Ich bin dreißig (Jahre alt).**"
+      - "*Ich habe nicht Geschwister.* → **Ich habe keine Geschwister.** Before a noun, use kein."
+
+  - id: possessives
+    title: "Possessive articles: mein, dein, sein, ihr ..."
+    body: >-
+      Possessive articles (*my, your, his ...*) take the **same endings as ein**: no ending for masculine
+      and neuter, **-e** for feminine and plural, **-en** for masculine accusative.
+
+
+      *mein Vater, meine Mutter, mein Kind, meine Eltern* – *Ich frage meinen Vater.*
+
+
+      **sein or ihr?** The **owner** decides which word: a man's things are **sein**, a woman's are **ihr**.
+      The **noun** decides the ending: Anna**s** Bruder = **ihr** Bruder; Tom**s** Schwester = **sein**e Schwester.
+
+
+      *Annas Bruder*: German adds **-s** to a name for possession, **without** an apostrophe.
+    tables:
+      - [["", "masculine", "feminine", "neuter", "plural"],
+         ["my", "mein Bruder", "meine Schwester", "mein Kind", "meine Eltern"],
+         ["your (du)", "dein Bruder", "deine Schwester", "dein Kind", "deine Eltern"],
+         ["his / its", "sein Bruder", "seine Schwester", "sein Kind", "seine Eltern"],
+         ["her / their", "ihr Bruder", "ihre Schwester", "ihr Kind", "ihre Eltern"],
+         ["our", "unser Bruder", "unsere Schwester", "unser Kind", "unsere Eltern"],
+         ["your (ihr)", "euer Bruder", "eure Schwester", "euer Kind", "eure Eltern"],
+         ["your (Sie)", "Ihr Bruder", "Ihre Schwester", "Ihr Kind", "Ihre Eltern"]]
+      - [["", "masculine", "feminine", "neuter", "plural"],
+         ["nominative", "mein Vater", "meine Mutter", "mein Kind", "meine Eltern"],
+         ["accusative", "meinen Vater", "meine Mutter", "mein Kind", "meine Eltern"]]
+    commonMistakes:
+      - "*Anna und sein Bruder* → **Anna und ihr Bruder.** Anna is the owner, so it's ihr – even though Bruder is masculine."
+      - "*Tom und ihre Schwester* (meaning Tom's sister) → **Tom und seine Schwester.** The -e comes from die Schwester; sein- comes from Tom."
+      - "*Anna's Bruder* → **Annas Bruder.** No apostrophe in German possessive -s."
+      - "*euere Kinder* → **eure Kinder.** euer drops its second e when an ending is added."
+      - "Polite Your is **Ihr** with a capital I: *Wie heißt Ihr Sohn, Frau Keller?*"
+
+  - id: plural-nouns
+    title: "Plural nouns"
+    body: >-
+      German has several plural endings, and many plurals add an **umlaut** (a → ä, o → ö, u → ü).
+      **Learn every noun with its plural**, just like with its article. The article in the plural is
+      always **die**.
+
+
+      Rules of thumb that work most of the time:
+
+      - **Feminine** nouns usually add **-n / -en**: die Schwester → die Schwestern, die Frau → die Frauen.
+
+      - Masculine and neuter nouns ending in **-er, -el, -en, -chen** add **nothing** (sometimes an umlaut):
+        der Onkel → die Onkel, der Vater → die Väter, das Mädchen → die Mädchen.
+
+      - Many short masculine nouns add **-e**, often with umlaut: der Hund → die Hunde, der Sohn → die Söhne.
+
+      - Many short neuter nouns add **-er**, with umlaut where possible: das Kind → die Kinder, das Land → die Länder.
+
+      - Words from English/French and words ending in a vowel other than -e add **-s**: die Oma → die Omas, das Baby → die Babys.
+
+
+      Some nouns exist **only in the plural**: *die Eltern* (parents), *die Geschwister* (siblings).
+    tables:
+      - [["Ending", "Singular", "Plural"],
+         ["-(e)n", "die Schwester / die Tante", "die Schwestern / die Tanten"],
+         ["– or ¨", "der Onkel / der Bruder", "die Onkel / die Brüder"],
+         ["-e or ¨e", "der Hund / der Sohn", "die Hunde / die Söhne"],
+         ["-er or ¨er", "das Kind / der Mann", "die Kinder / die Männer"],
+         ["-s", "die Oma / das Baby", "die Omas / die Babys"]]
+    commonMistakes:
+      - "Adding -s by default: *die Kinds, die Hunds* → **die Kinder, die Hunde**. -s is the rarest plural."
+      - "Forgetting the umlaut: *zwei Bruder* → **zwei Brüder**; *zwei Mutter* → **zwei Mütter**."
+      - "*der Eltern* / *ein Geschwister* → **die Eltern, die Geschwister** (plural only in everyday German)."
+      - "*die Tochters* → **die Töchter**."
+
+reading:
+  title: "Meine Familie"
+  text: >-
+    Hallo! Ich bin Paul, und das ist meine Familie. Meine Familie ist groß. Mein Vater heißt Marc und
+    meine Mutter heißt Julie. Sie wohnen in Montreal. Ich habe zwei Brüder und eine Schwester. Mein
+    Bruder David ist verheiratet. Seine Frau heißt Sarah, und sie haben ein Baby. Das Baby heißt Leo
+    – er ist sehr süß! Meine Schwester Emma ist zwanzig Jahre alt und ledig. Sie lernt Deutsch, wie ich,
+    aber sie wohnt in Berlin. Mein Bruder Tim ist zwölf. Und wir haben auch eine Katze. Ihr Name ist Minou.
+  en: >-
+    Hi! I'm Paul, and this is my family. My family is big. My father is called Marc and my mother is
+    called Julie. They live in Montreal. I have two brothers and one sister. My brother David is married.
+    His wife is called Sarah, and they have a baby. The baby is called Leo – he's very sweet! My sister
+    Emma is twenty years old and single. She's learning German, like me, but she lives in Berlin. My brother
+    Tim is twelve. And we also have a cat. Her name is Minou.
+
+swiss:
+  scene: >-
+    Reto and Sandra have coffee on the balcony. Sandra looks at a photo on Reto's fridge. Listen and read
+    along; notice the family words.
+  dialogue:
+    - speaker: Sandra
+      text: Isch das dini Familie?
+      en: Is that your family?
+      variety: gsw-zh
+    - speaker: Reto
+      text: Ja, das sind mini Eltere. Und das isch min Brueder, de Lukas.
+      en: Yes, those are my parents. And that's my brother, Lukas.
+      variety: gsw-zh
+    - speaker: Sandra
+      text: Und die chliine Chind?
+      en: And the little children?
+      variety: gsw-zh
+    - speaker: Reto
+      text: Das sind sini Chind, de Noah und d Lina. Ich bi de Götti vom Noah.
+      en: Those are his children, Noah and Lina. I'm Noah's godfather.
+      variety: gsw-zh
+    - speaker: Sandra
+      text: Herzig!
+      en: Cute!
+      variety: gsw-zh
+    - speaker: Reto
+      text: Und du? Häsch du Gschwüschterti?
+      en: And you? Do you have brothers or sisters?
+      variety: gsw-zh
+    - speaker: Sandra
+      text: Ja, ich ha e Schwöschter. Si wohnt z Bärn.
+      en: Yes, I have a sister. She lives in Bern.
+      variety: gsw-zh
+    - speaker: Reto
+      text: Und dini Eltere?
+      en: And your parents?
+      variety: gsw-zh
+    - speaker: Sandra
+      text: Mis Mami und min Papi wohned au z Bärn. Und si händ en Hund.
+      en: My mum and my dad live in Bern too. And they have a dog.
+      variety: gsw-zh
+  notes:
+    - >-
+      **haben** in Zurich German: *ich ha, du häsch, er/si/es hät, mir händ, ihr händ, si händ*.
+      In Bernese: *i ha, du hesch, är het, mir hei, dir heit, si hei*.
+    - >-
+      **Possessives** in Zurich German: **min** (m), **mini** (f and plural), **mis** (n):
+      *min Brueder, mini Schwöschter, mini Eltere, mis Chind*. Likewise **din/dini/dis**, **sin/sini/sis**,
+      and **öise/öisi/öises** for *unser*.
+    - >-
+      **Family words**: Muetter / Mami, Vater / Papi, Eltere, Brueder, Schwöschter (also Schwester),
+      **Gschwüschterti** (siblings), Chind, **Grosi** (grandma). The **ue** in Muetter and Brueder is a
+      gliding u-e sound, as in *guet*. Note that *s Mami* is neuter in Swiss German (hence *mis Mami*).
+    - >-
+      **Götti** (godfather) and **Gotte** (godmother) play a big role in Swiss families: children call them
+      by these names, and you'll also read *Götti* and *Gotte* in Swiss Standard German.
+    - >-
+      **herzig** = *süß* (cute) – one of the most used Swiss words, also in Swiss Standard German.
+      **chlii / chli** = *klein*: *die chliine Chind* = *die kleinen Kinder*.
+    - >-
+      Plural verbs end in **-ed** in Zurich German, the same for wir, ihr and sie: *mir wohned, ihr wohned,
+      si wohned* (Standard: wir wohnen, ihr wohnt, sie wohnen).
