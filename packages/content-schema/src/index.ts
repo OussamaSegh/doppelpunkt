@@ -171,8 +171,22 @@ export const DialogueLine = z.object({
   audio,
 });
 
+/** Native-speaker sign-off. A unit ships to learners in v1.0+ only when both reviews are present. */
+export const Review = z.object({
+  /** German native teacher who checked the Standard German. */
+  de: z.string().optional(),
+  /** Swiss native who checked every Swiss lane item and Helvetism. */
+  ch: z.string().optional(),
+  /** ISO date of the last sign-off. */
+  date: z.string().optional(),
+  /** Open questions for the reviewer. */
+  notes: z.array(z.string()).default([]),
+});
+export type Review = z.infer<typeof Review>;
+
 export const Unit = z.object({
   id,                       // e.g. "a1-u01"
+  review: Review.optional(),
   level: Level,
   number: z.number().int().min(1).max(12),
   title: z.string(),        // German title
