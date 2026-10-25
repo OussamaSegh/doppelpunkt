@@ -213,7 +213,7 @@
   plural: Frühstücke
   example: { de: "Das Frühstück kostet zwölf Franken.", en: "Breakfast costs twelve francs." }
   chStd: Morgenessen / Frühstück
-  gswZh: Zmorge
+  gswZh: Zmorge (de Zmorge, masculine)
   tags: [cafe, food, helvetism]
 
 - id: rechnung
@@ -285,7 +285,7 @@
   en: would like
   pos: verb
   example: { de: "Was möchtest du?", en: "What would you like?" }
-  gswZh: möchte (ich möcht, du möchtisch, mir möchted)
+  gswZh: möchte (ich möcht, du möchtsch / möchtisch, mir möchted)
   tags: [ordering]
 
 - id: nehmen
@@ -325,7 +325,7 @@
   en: I'd like ... (very polite)
   pos: phrase
   example: { de: "Ich hätte gern ein Wasser.", en: "I'd like a water." }
-  gswZh: Ich hett gern ... / Ich hett gärn ...
+  gswZh: Ich hett gärn ... / Ich hett gern ...
   tags: [ordering]
 
 - id: das-macht

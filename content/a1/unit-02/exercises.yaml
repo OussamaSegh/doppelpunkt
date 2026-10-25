@@ -549,7 +549,7 @@
   prompt: What does this mean in Standard German?
   from: gsw-zh
   to: de
-  source: Ich hett gern en Kafi und es Gipfeli.
+  source: Ich hett gärn en Kafi und es Gipfeli.
   answers: ["Ich hätte gern einen Kaffee und ein Croissant.", "Ich hätte gern einen Kaffee und ein Gipfeli.", "Ich hätte gerne einen Kaffee und ein Croissant.", "Ich hätte gerne einen Kaffee und ein Gipfeli."]
   explanation: >-
     hett = hätte, en = ein/einen, es = ein (neuter), Kafi = Kaffee. Swiss German en Kafi has no

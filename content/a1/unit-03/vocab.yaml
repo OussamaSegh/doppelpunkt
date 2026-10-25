@@ -44,7 +44,7 @@
   gender: m
   plural: Brüder
   example: { de: "Ich habe einen Bruder.", en: "I have a brother." }
-  gswZh: Brüeder / Brueder
+  gswZh: Brueder (plural Brüeder)
   gswBe: Brueder
   tags: [family]
 

@@ -11,7 +11,7 @@ canDo:
   - I can say what I have with haben (Ich habe zwei Schwestern.).
   - I can use mein, dein, sein, ihr, unser and Ihr correctly.
   - I can form the plural of common nouns and say people's ages.
-  - I can recognise Zurich family words (Muetter, Brüeder, Schwöschter, Chind, Götti, Gotte) and the forms ich ha, du häsch.
+  - I can recognise Zurich family words (Muetter, Brueder, Schwöschter, Chind, Götti, Gotte) and the forms ich ha, du häsch.
 
 intro:
   scene: >-
@@ -176,7 +176,7 @@ swiss:
       en: Is that your family?
       variety: gsw-zh
     - speaker: Reto
-      text: Ja, das sind mini Eltere. Und das isch min Brüeder, de Lukas.
+      text: Ja, das sind mini Eltere. Und das isch min Brueder, de Lukas.
       en: Yes, those are my parents. And that's my brother, Lukas.
       variety: gsw-zh
     - speaker: Sandra
@@ -213,11 +213,11 @@ swiss:
       In Bernese: *i ha, du hesch, är het, mir hei, dir heit, si hei*.
     - >-
       **Possessives** in Zurich German: **min** (m), **mini** (f and plural), **mis** (n):
-      *min Brüeder, mini Schwöschter, mini Eltere, mis Chind*. Likewise **din/dini/dis**, **sin/sini/sis**,
+      *min Brueder, mini Schwöschter, mini Eltere, mis Chind*. Likewise **din/dini/dis**, **sin/sini/sis**,
       and **öise/öisi/öises** for *unser*.
     - >-
-      **Family words**: Muetter / Mami, Vater / Papi, Eltere, Brüeder, Schwöschter (also Schwester),
-      **Gschwüschterti** (siblings), Chind, **Grosi** (grandma). The **ue** in Muetter and Brüeder is a
+      **Family words**: Muetter / Mami, Vater / Papi, Eltere, Brueder, Schwöschter (also Schwester),
+      **Gschwüschterti** (siblings), Chind, **Grosi** (grandma). The **ue** in Muetter and Brueder is a
       gliding u-e sound, as in *guet*. Note that *s Mami* is neuter in Swiss German (hence *mis Mami*).
     - >-
       **Götti** (godfather) and **Gotte** (godmother) play a big role in Swiss families: children call them
