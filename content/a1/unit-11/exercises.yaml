@@ -541,7 +541,10 @@
   type: mcq
   skill: listening
   variety: gsw-zh
-  prompt: "At the end Sandra says: \"Gsundheit! Gueti Besserig, Reto!\" Why does she say Gsundheit?"
+  prompt: "Listen to the end of the Swiss lane dialogue. Why does Sandra say Gsundheit?"
+  transcript: |-
+    Reto: Ja, ich ha morn en Termin. Hatschi!
+    Sandra: Gsundheit! Gueti Besserig, Reto!
   options: ["Reto has sneezed.", "Reto is healthy again.", "Reto is going to the doctor.", "It means goodbye."]
   answer: 0
   explanation: >-
@@ -597,7 +600,9 @@
   skill: listening
   variety: gsw-be
   grammar: [wehtun-schmerzen]
-  prompt: "Sandra's mother asks: \"Sandra, bisch vercheltet?\" What does she want to know?"
+  prompt: "Listen to Sandra's mother. What does she want to know?"
+  transcript: |-
+    Mami: Sandra, bisch vercheltet?
   options: ["Is Sandra late?", "Is Sandra cold?", "Is Sandra at work?", "Has Sandra got a cold?"]
   answer: 3
   explanation: >-

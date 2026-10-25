@@ -6,6 +6,7 @@ import { DiffView } from '../components/DiffView';
 import { GermanText } from '../components/GermanText';
 import { aiUnavailableMessage, errorMessage, useAi } from '../lib/ai';
 import { resultTone, type ResultTone } from '../lib/feedback';
+import { listeningTranscript, TranscriptText } from './Listen';
 
 const TONE_BOX: Record<ResultTone, string> = {
   right: 'border-ok/40 bg-ok-soft',
@@ -24,6 +25,7 @@ export function Feedback({ ex, unit, result, answer }: { ex: Exercise; unit: Com
   const diff = result.diff ?? (TEXT_TYPES.has(ex.type) && !result.correct ? diffWords(result.expected, answer) : []);
   const pct = Math.round(result.score * 100);
   const tone = resultTone(result);
+  const transcript = listeningTranscript(ex);
   // The headline already says "Almost!", so the hint doesn't repeat it.
   const hints = tone === 'almost' ? result.feedback.map((f) => f.replace(/^Almost!\s*/, '')).filter(Boolean) : result.feedback;
   return (
@@ -51,6 +53,12 @@ export function Feedback({ ex, unit, result, answer }: { ex: Exercise; unit: Com
             <li key={i}>{f}</li>
           ))}
         </ul>
+      )}
+      {transcript && (
+        <div>
+          <p className="text-xs font-semibold uppercase tracking-wide text-muted">What you heard</p>
+          <TranscriptText text={transcript} variety={ex.variety} className="text-sm" />
+        </div>
       )}
       <div>
         <p className="text-xs font-semibold uppercase tracking-wide text-muted">Explanation</p>

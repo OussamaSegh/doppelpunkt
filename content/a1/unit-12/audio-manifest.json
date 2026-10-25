@@ -20,7 +20,6 @@
       "variety": "ch-std",
       "voice": "zh-f",
       "speaker": "Nadine",
-      "voiceGuessed": true,
       "source": {
         "file": "unit.yaml",
         "pointer": [
@@ -61,7 +60,6 @@
       "variety": "ch-std",
       "voice": "zh-f",
       "speaker": "Nadine",
-      "voiceGuessed": true,
       "source": {
         "file": "unit.yaml",
         "pointer": [
@@ -102,7 +100,6 @@
       "variety": "ch-std",
       "voice": "zh-f",
       "speaker": "Nadine",
-      "voiceGuessed": true,
       "source": {
         "file": "unit.yaml",
         "pointer": [
@@ -143,7 +140,6 @@
       "variety": "ch-std",
       "voice": "zh-f",
       "speaker": "Nadine",
-      "voiceGuessed": true,
       "source": {
         "file": "unit.yaml",
         "pointer": [
@@ -184,7 +180,6 @@
       "variety": "ch-std",
       "voice": "zh-f",
       "speaker": "Nadine",
-      "voiceGuessed": true,
       "source": {
         "file": "unit.yaml",
         "pointer": [
@@ -225,7 +220,6 @@
       "variety": "ch-std",
       "voice": "zh-f",
       "speaker": "Nadine",
-      "voiceGuessed": true,
       "source": {
         "file": "unit.yaml",
         "pointer": [
@@ -404,9 +398,8 @@
       "text": "Sandra, ds Fescht für e Ätti isch am Sunntig. Bringsch es Gschänk?",
       "en": "Sandra, the party for Dad is on Sunday. Will you bring a present?",
       "variety": "gsw-be",
-      "voice": "be-m",
+      "voice": "be-f",
       "speaker": "Mami",
-      "voiceGuessed": true,
       "source": {
         "file": "unit.yaml",
         "pointer": [
@@ -2745,7 +2738,7 @@
     {
       "file": "ex-a1-u12-ch-mcq-en-guete.mp3",
       "kind": "listening",
-      "text": "Und jetzt gits Fondue. En Guete mitenand!",
+      "text": "Reto: Und jetzt gits Fondue. En Guete mitenand!",
       "variety": "gsw-zh",
       "voice": "zh-m",
       "speaker": "Reto",
@@ -2763,10 +2756,10 @@
     {
       "file": "ex-a1-u12-ch-be-mcq-fescht.mp3",
       "kind": "listening",
-      "text": "Sandra, ds Fescht für e Ätti isch am Sunntig. Bringsch es Gschänk?",
+      "text": "Mami: Sandra, ds Fescht für e Ätti isch am Sunntig. Bringsch es Gschänk?",
       "variety": "gsw-be",
       "voice": "be-f",
-      "speaker": "Sandra",
+      "speaker": "Mami",
       "source": {
         "file": "exercises.yaml",
         "id": "a1-u12-ch-be-mcq-fescht",

@@ -9,7 +9,7 @@ import { lintExams, loadExams, type LoadedExam } from './exam';
 import { lintLexicons } from './lexicon';
 import { loadContent, UNIT_FILES, type Issue, type LoadedUnit } from './load';
 import { lintDrills, loadDrills, type LoadedDrill } from './pronunciation';
-import { exerciseRules } from './rules';
+import { exerciseRules, listeningRules } from './rules';
 
 export { countGaps } from './rules';
 
@@ -75,6 +75,8 @@ export function lintContent(contentDir: string, root = process.cwd(), opts: Lint
 
       u.exercises.forEach((ex, i) => {
         exerciseRules(ex, `[${i}]`, f(UNIT_FILES.exercises), push);
+        // In a unit, "Listen to the intro / Swiss lane dialogue" items play the unit's dialogue.
+        listeningRules(ex, /\bdialogue\b/i.test(ex.prompt), `[${i}]`, f(UNIT_FILES.exercises), push);
         for (const g of ex.grammar) {
           if (!knownGrammar.has(g)) push('warning', f(UNIT_FILES.exercises), `[${i}] (id: ${ex.id}): grammar "${g}" is not defined in any unit`);
         }

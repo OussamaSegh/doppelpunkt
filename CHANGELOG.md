@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.4.0 "A1 komplett"
+
+- A1 units 10–12: all 12 A1 units written
+- Mock exams: A1 in Goethe Start Deutsch 1 format and a Zurich German check; timed runner, marking, results and review
+- A1 can-do checklist and "A1 complete" milestone
+- Accessibility fixes (contrast, headings, focus, live regions, target sizes) and `docs/ACCESSIBILITY.md`
+- Lazy-loaded screens; initial JS 174 KB gzip with a CI budget check
+- Listening items play a hidden `transcript` instead of showing it
+- Audio CDN upload with SigV4, `docs/DEPLOY.md`; transcription cost tracking
+- 365 unit tests, 122 e2e tests
+
 ## 0.3.0 "Stimme"
 
 - Recorder with live waveform, playback next to native audio, mic-permission help per platform

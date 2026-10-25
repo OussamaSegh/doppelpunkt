@@ -39,7 +39,9 @@ sections:
         skill: listening
         variety: gsw-zh
         grammar: [numbers]
-        prompt: 'How many Gipfeli (croissants) does Herr Frei buy? "Herr Frei: Ich hett gärn drü Gipfeli und es Bürli."'
+        prompt: "How many Gipfeli (croissants) does Herr Frei buy?"
+        transcript: |-
+          Herr Frei: Ich hett gärn drü Gipfeli und es Bürli.
         options: ["Two", "Three", "Five", "Ten"]
         answer: 1
         rationales: ["zwei would be two; he says drü.", "Correct: drü = drei.", "föif = fünf is not mentioned.", "zää is part of the price."]
@@ -50,7 +52,9 @@ sections:
         type: mcq
         skill: listening
         variety: gsw-zh
-        prompt: 'What does he order to drink? "Herr Frei: Ja, en Kafi Crème, bitte. Zum Mitnää."'
+        prompt: "What does he order to drink?"
+        transcript: |-
+          Herr Frei: Ja, en Kafi Crème, bitte. Zum Mitnää.
         options: ["A beer", "A tea", "A coffee with cream, to take away", "A mineral water"]
         answer: 2
         rationales: ["Bier is not mentioned.", "He orders a Kafi, not a Tee.", "Correct: en Kafi Crème, zum Mitnää.", "Mineral is not mentioned."]
@@ -63,7 +67,9 @@ sections:
         skill: listening
         variety: gsw-zh
         grammar: [numbers]
-        prompt: 'How much does he pay? "Verchäuferin: Das macht zää Franke füfzg."'
+        prompt: "How much does he pay?"
+        transcript: |-
+          Verchäuferin: Das macht zää Franke füfzg.
         options: ["CHF 10.50", "CHF 15.50", "CHF 3.50", "CHF 10.15"]
         answer: 0
         rationales: ["Correct: zää Franke füfzg.", "füfzää would be 15.", "drü would be 3.", "füfzg is 50, not 15."]
@@ -75,7 +81,9 @@ sections:
         type: mcq
         skill: listening
         variety: gsw-zh
-        prompt: 'How does he pay? "Herr Frei: Ich zahl mit Twint."'
+        prompt: "How does he pay?"
+        transcript: |-
+          Herr Frei: Ich zahl mit Twint.
         options: ["In cash", "By card", "He doesn't pay.", "With Twint (the Swiss payment app)"]
         answer: 3
         rationales: ["He doesn't pay cash.", "Twint is an app, not a card.", "He does pay.", "Correct: Ich zahl mit Twint."]
@@ -86,7 +94,9 @@ sections:
         type: mcq
         skill: listening
         variety: gsw-zh
-        prompt: 'What day is it? "Verchäuferin: Guet. Merci vilmal und en schöne Samschtig!"'
+        prompt: "What day is it?"
+        transcript: |-
+          Verchäuferin: Guet. Merci vilmal und en schöne Samschtig!
         options: ["Friday", "Saturday", "Sunday", "Monday"]
         answer: 1
         rationales: ["Friitig would be Friday.", "Correct: en schöne Samschtig.", "Sunntig would be Sunday.", "Mäntig would be Monday."]
@@ -116,7 +126,9 @@ sections:
         skill: listening
         variety: gsw-zh
         grammar: [telling-time]
-        prompt: 'Nachricht 1: "Reto: Hoi Sandra, ich bi no im Büro. Ich chume hüt erscht am halbi achti hei. Chasch du no poschte? Mir bruuched Milch und Brot. Merci!"'
+        prompt: "Nachricht 1 – listen: richtig oder falsch?"
+        transcript: |-
+          Reto: Hoi Sandra, ich bi no im Büro. Ich chume hüt erscht am halbi achti hei. Chasch du no poschte? Mir bruuched Milch und Brot. Merci!
         question: Reto kommt heute um 19.30 Uhr nach Hause.
         options: ["Richtig", "Falsch"]
         answer: 0
@@ -128,7 +140,9 @@ sections:
         type: mcq
         skill: listening
         variety: gsw-zh
-        prompt: 'Nachricht 1: "Reto: Hoi Sandra, ich bi no im Büro. Ich chume hüt erscht am halbi achti hei. Chasch du no poschte? Mir bruuched Milch und Brot. Merci!"'
+        prompt: "Nachricht 1 – listen: richtig oder falsch?"
+        transcript: |-
+          Reto: Hoi Sandra, ich bi no im Büro. Ich chume hüt erscht am halbi achti hei. Chasch du no poschte? Mir bruuched Milch und Brot. Merci!
         question: Sandra soll Milch und Käse kaufen.
         options: ["Richtig", "Falsch"]
         answer: 1
@@ -141,7 +155,9 @@ sections:
         skill: listening
         variety: gsw-zh
         grammar: [nicht-kein]
-        prompt: 'Nachricht 2: "Nadine: Hoi zäme! Mis Geburi-Fäscht isch am Friitig, nöd am Samschtig. Am achti bi mir. Bringed ihr bitte öppis z trinke mit? Ich freu mich!"'
+        prompt: "Nachricht 2 – listen: richtig oder falsch?"
+        transcript: |-
+          Nadine: Hoi zäme! Mis Geburi-Fäscht isch am Friitig, nöd am Samschtig. Am achti bi mir. Bringed ihr bitte öppis z trinke mit? Ich freu mich!
         question: Nadines Fest ist am Samstag.
         options: ["Richtig", "Falsch"]
         answer: 1
@@ -154,7 +170,9 @@ sections:
         skill: listening
         variety: gsw-zh
         grammar: [separable-verbs-modal]
-        prompt: 'Nachricht 2: "Nadine: Hoi zäme! Mis Geburi-Fäscht isch am Friitig, nöd am Samschtig. Am achti bi mir. Bringed ihr bitte öppis z trinke mit? Ich freu mich!"'
+        prompt: "Nachricht 2 – listen: richtig oder falsch?"
+        transcript: |-
+          Nadine: Hoi zäme! Mis Geburi-Fäscht isch am Friitig, nöd am Samschtig. Am achti bi mir. Bringed ihr bitte öppis z trinke mit? Ich freu mich!
         question: Die Gäste sollen etwas zu trinken mitbringen.
         options: ["Richtig", "Falsch"]
         answer: 0

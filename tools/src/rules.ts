@@ -1,6 +1,7 @@
 // Editorial rules for a single exercise, shared by units (lint.ts) and mock exams (exam.ts).
 import type { Exercise } from '@doppelpunkt/content-schema';
 import { grade, normalize, sentenceKey, type Answer } from '@doppelpunkt/engine';
+import { quoted } from './audio';
 import type { Issue } from './load';
 
 /** Count of gap markers. A gap is exactly three underscores. */
@@ -83,3 +84,21 @@ export function exerciseRules(ex: Exercise, where: string, file: string, push: (
   }
 }
 
+
+/** Item types that play something to the learner in a listening task (dictation has its own transcript). */
+const HEARD = new Set<Exercise['type']>(['mcq', 'gap', 'order', 'match', 'translate', 'transform']);
+
+/**
+ * A listening item must have something to hear: its own `audio` or `transcript`, or a shared stimulus
+ * (the section stimulus in an exam; the unit's dialogues when the prompt says "Listen to the … dialogue").
+ * Text quoted in the prompt is shown on screen, which turns listening into reading.
+ */
+export function listeningRules(ex: Exercise, stimulus: boolean, where: string, file: string, push: (s: Issue['severity'], f: string, m: string) => void) {
+  if (ex.skill !== 'listening' || !HEARD.has(ex.type)) return;
+  const at = `${where} (id: ${ex.id})`;
+  if (!ex.transcript && quoted(ex.prompt)) {
+    push('warning', file, `${at}: listening item quotes what is said in its prompt (shown on screen); move it to transcript: and keep a short question`);
+  } else if (!ex.audio && !ex.transcript?.trim() && !stimulus) {
+    push('warning', file, `${at}: listening item has no audio, no transcript and no stimulus; there is nothing to hear`);
+  }
+}

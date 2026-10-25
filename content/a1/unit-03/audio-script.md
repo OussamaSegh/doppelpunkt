@@ -49,8 +49,8 @@ Total: 157 file(s), 0 done.
 | `dialog-swiss-07.mp3` | zh-f | gsw-zh | Sandra | Ja, ich ha e Schwöschter. Si wohnt z Bärn. | Yes, I have a sister. She lives in Bern. |  |
 | `dialog-swiss-08.mp3` | zh-m | gsw-zh | Reto | Und dini Eltere? | And your parents? |  |
 | `dialog-swiss-09.mp3` | zh-f | gsw-zh | Sandra | Mis Mami und min Papi wohned au z Bärn. Und si händ en Hund. | My mum and my dad live in Bern too. And they have a dog. |  |
-| `dialog-swiss-10.mp3` | be-f (?) | gsw-be | Mia | Hoi zäme! I bi d Mia, d Schwöschter vo dr Sandra. | Hi everyone! I'm Mia, Sandra's sister. |  |
-| `dialog-swiss-11.mp3` | be-f (?) | gsw-be | Mia | I ha zwöi Ching, dr Luca u d Nina. | I have two children, Luca and Nina. |  |
+| `dialog-swiss-10.mp3` | be-f | gsw-be | Mia | Hoi zäme! I bi d Mia, d Schwöschter vo dr Sandra. | Hi everyone! I'm Mia, Sandra's sister. |  |
+| `dialog-swiss-11.mp3` | be-f | gsw-be | Mia | I ha zwöi Ching, dr Luca u d Nina. | I have two children, Luca and Nina. |  |
 
 ## Vocabulary
 
@@ -195,4 +195,4 @@ Total: 157 file(s), 0 done.
 | `ex-a1-u03-dictation-grossmutter.mp3` | de-f | de |  | Meine Großmutter ist achtzig Jahre alt. |  |  |
 | `ex-a1-u03-speak-family.mp3` | de-m | de |  | Das ist meine Familie. Das sind meine Eltern, und das ist mein Bruder. Er ist zwanzig. |  |  |
 | `ex-a1-u03-speak-umlaut.mp3` | de-f | de |  | der Vater – die Väter, die Mutter – die Mütter, der Bruder – die Brüder, der Sohn – die Söhne |  |  |
-| `ex-a1-u03-ch-mcq-goetti.mp3` | zh-m | gsw-zh | Reto | Ich bi de Götti vom Noah. |  |  |
+| `ex-a1-u03-ch-mcq-goetti.mp3` | zh-m | gsw-zh | Reto | Reto: Ich bi de Götti vom Noah. |  |  |

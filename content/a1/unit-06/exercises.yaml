@@ -484,7 +484,9 @@
   type: mcq
   skill: listening
   variety: gsw-zh
-  prompt: "Reto says: \"Für de Güsel bruuchsch Züri-Säck.\" What is he explaining?"
+  prompt: "Listen to Reto. What is he explaining?"
+  transcript: |-
+    Reto: Für de Güsel bruuchsch Züri-Säck.
   options: ["You need bags for shopping.", "The rubbish is collected on Sunday.", "There is no rubbish collection.", "You need special official bags for rubbish."]
   answer: 3
   explanation: >-
@@ -576,7 +578,9 @@
   type: mcq
   skill: listening
   variety: gsw-be
-  prompt: "Sandra's mother asks: \"U dr Ghüder?\" What is she asking about?"
+  prompt: "Listen to Sandra's mother. What is she asking about?"
+  transcript: |-
+    Mami: U dr Ghüder?
   options: ["The rubbish", "The rent", "The neighbours", "The kitchen"]
   answer: 0
   explanation: >-

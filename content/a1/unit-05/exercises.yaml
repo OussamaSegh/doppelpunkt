@@ -359,7 +359,10 @@
   skill: listening
   variety: de
   grammar: [ja-nein-doch]
-  prompt: "Listen again. Tom asks \"Brauchen wir keinen Wein?\" Anna answers \"Doch!\" What does she mean?"
+  prompt: "Listen again: Tom asks about wine and Anna answers. What does she mean?"
+  transcript: |-
+    Tom: Brauchen wir keinen Wein?
+    Anna: Doch!
   options: ["No, we don't need wine.", "Maybe.", "The wine is expensive.", "Yes, we do need wine."]
   answer: 3
   explanation: >-
@@ -498,7 +501,10 @@
   skill: listening
   variety: gsw-zh
   grammar: [ja-nein-doch]
-  prompt: "In the Swiss lane dialogue Sandra asks \"Bruuchsch du kei Rahm für de Chueche?\" Reto answers \"Moll, natürli!\" What does he mean?"
+  prompt: "In the Swiss lane dialogue Sandra asks about cream and Reto answers. What does he mean?"
+  transcript: |-
+    Sandra: Bruuchsch du kei Rahm für de Chueche?
+    Reto: Moll, natürli!
   options: ["No, I don't need cream.", "I don't know.", "Yes, of course I need cream.", "The cream is too expensive."]
   answer: 2
   explanation: >-
@@ -509,7 +515,9 @@
   skill: listening
   variety: gsw-zh
   grammar: [nicht-kein]
-  prompt: "The stallholder says: \"Nei, leider kei Eier meh.\" What does she mean?"
+  prompt: "Listen to the stallholder. What does she mean?"
+  transcript: |-
+    Verkäuferin: Nei, leider kei Eier meh.
   options: ["Sorry, there are no eggs left.", "The eggs are not fresh.", "Eggs are more expensive.", "She has only a few eggs."]
   answer: 0
   explanation: >-
@@ -587,7 +595,9 @@
   type: mcq
   skill: listening
   variety: gsw-be
-  prompt: "Sandra's mother says: \"Nei, Miuch hei mer gnue.\" What doesn't she need?"
+  prompt: "Listen to Sandra's mother. What doesn't she need?"
+  transcript: |-
+    Mami: Nei, Miuch hei mer gnue.
   options: ["Butter", "Milk", "Potatoes", "Money"]
   answer: 1
   explanation: >-

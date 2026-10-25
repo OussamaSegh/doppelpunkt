@@ -23,10 +23,10 @@
     {
       "file": "stimulus-hoeren-1.mp3",
       "kind": "exam-stimulus",
-      "text": "Gespräch 1.\nFrau: Entschuldigung, wo finde ich hier die Milch?\nMann: Die Milch? Gehen Sie geradeaus, dann hinten links, beim Käse.\nFrau: Hinten links. Vielen Dank!\n\nGespräch 2.\nMann: Hallo, ich habe eine Frage. Wann beginnt der Deutschkurs am Montag?\nFrau: Um halb sieben am Abend.\nMann: Um halb sieben, also 18.30 Uhr?\nFrau: Ja, genau. Und er ist bis 20 Uhr.\n\nGespräch 3.\nFrau: So, was möchtest du trinken? Einen Kaffee?\nMann: Nein, danke, heute keinen Kaffee. Ich nehme einen Tee mit Milch.\nFrau: Gut, und ich nehme ein Wasser.\n\nGespräch 4.\nMann: Entschuldigung, kostet die Jacke hier 79 Euro?\nFrau: Normal ja, aber heute kostet sie nur 59 Euro.\nMann: 59 Euro? Super, dann nehme ich sie.\n\nGespräch 5.\nFrau: Und, wie ist deine neue Wohnung?\nMann: Sehr schön! Sie hat drei Zimmer und einen Balkon. Aber sie hat keinen Garten.\nFrau: Und wo ist sie?\nMann: In der Gartenstraße, Nummer 8.\n\nGespräch 6.\nFrau: Zahnarztpraxis Dr. Wolf, guten Tag.\nMann: Guten Tag, hier ist Peter Klein. Ich habe Zahnschmerzen. Kann ich heute kommen?\nFrau: Heute geht es leider nicht. Morgen um zehn Uhr?\nMann: Morgen um zehn, ja, das passt. Danke!",
+      "text": "Sprecher: Gespräch 1.\nFrau: Entschuldigung, wo finde ich hier die Milch?\nMann: Die Milch? Gehen Sie geradeaus, dann hinten links, beim Käse.\nFrau: Hinten links. Vielen Dank!\n\nSprecher: Gespräch 2.\nMann: Hallo, ich habe eine Frage. Wann beginnt der Deutschkurs am Montag?\nFrau: Um halb sieben am Abend.\nMann: Um halb sieben, also 18.30 Uhr?\nFrau: Ja, genau. Und er ist bis 20 Uhr.\n\nSprecher: Gespräch 3.\nFrau: So, was möchtest du trinken? Einen Kaffee?\nMann: Nein, danke, heute keinen Kaffee. Ich nehme einen Tee mit Milch.\nFrau: Gut, und ich nehme ein Wasser.\n\nSprecher: Gespräch 4.\nMann: Entschuldigung, kostet die Jacke hier 79 Euro?\nFrau: Normal ja, aber heute kostet sie nur 59 Euro.\nMann: 59 Euro? Super, dann nehme ich sie.\n\nSprecher: Gespräch 5.\nFrau: Und, wie ist deine neue Wohnung?\nMann: Sehr schön! Sie hat drei Zimmer und einen Balkon. Aber sie hat keinen Garten.\nFrau: Und wo ist sie?\nMann: In der Gartenstraße, Nummer 8.\n\nSprecher: Gespräch 6.\nFrau: Zahnarztpraxis Dr. Wolf, guten Tag.\nMann: Guten Tag, hier ist Peter Klein. Ich habe Zahnschmerzen. Kann ich heute kommen?\nFrau: Heute geht es leider nicht. Morgen um zehn Uhr?\nMann: Morgen um zehn, ja, das passt. Danke!",
       "en": "Sechs kurze Gespräche",
       "variety": "de",
-      "speaker": "Frau",
+      "speaker": "Sprecher",
       "source": {
         "file": "a1-mock-1.yaml",
         "id": "hoeren-1",
@@ -39,16 +39,148 @@
       },
       "exam": "a1-mock-1",
       "path": "audio/stimulus-hoeren-1.mp3",
+      "voice": "de-m",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-mock1-h1-milch.mp3",
+      "kind": "listening",
+      "text": "Frau: Entschuldigung, wo finde ich hier die Milch?\nMann: Die Milch? Gehen Sie geradeaus, dann hinten links, beim Käse.\nFrau: Hinten links. Vielen Dank!",
+      "variety": "de",
+      "speaker": "Frau",
+      "source": {
+        "file": "a1-mock-1.yaml",
+        "id": "a1-mock1-h1-milch",
+        "pointer": [
+          "sections",
+          0,
+          "exercises",
+          0,
+          "audio"
+        ]
+      },
+      "exam": "a1-mock-1",
+      "path": "audio/ex-a1-mock1-h1-milch.mp3",
       "voice": "de-f",
       "referenced": false
     },
     {
-      "voiceGuessed": true,
+      "file": "ex-a1-mock1-h1-kurs.mp3",
+      "kind": "listening",
+      "text": "Mann: Hallo, ich habe eine Frage. Wann beginnt der Deutschkurs am Montag?\nFrau: Um halb sieben am Abend.\nMann: Um halb sieben, also 18.30 Uhr?\nFrau: Ja, genau. Und er ist bis 20 Uhr.",
+      "variety": "de",
+      "speaker": "Mann",
+      "source": {
+        "file": "a1-mock-1.yaml",
+        "id": "a1-mock1-h1-kurs",
+        "pointer": [
+          "sections",
+          0,
+          "exercises",
+          1,
+          "audio"
+        ]
+      },
+      "exam": "a1-mock-1",
+      "path": "audio/ex-a1-mock1-h1-kurs.mp3",
+      "voice": "de-m",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-mock1-h1-trinken.mp3",
+      "kind": "listening",
+      "text": "Frau: So, was möchtest du trinken? Einen Kaffee?\nMann: Nein, danke, heute keinen Kaffee. Ich nehme einen Tee mit Milch.\nFrau: Gut, und ich nehme ein Wasser.",
+      "variety": "de",
+      "speaker": "Frau",
+      "source": {
+        "file": "a1-mock-1.yaml",
+        "id": "a1-mock1-h1-trinken",
+        "pointer": [
+          "sections",
+          0,
+          "exercises",
+          2,
+          "audio"
+        ]
+      },
+      "exam": "a1-mock-1",
+      "path": "audio/ex-a1-mock1-h1-trinken.mp3",
+      "voice": "de-f",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-mock1-h1-jacke.mp3",
+      "kind": "listening",
+      "text": "Mann: Entschuldigung, kostet die Jacke hier 79 Euro?\nFrau: Normal ja, aber heute kostet sie nur 59 Euro.\nMann: 59 Euro? Super, dann nehme ich sie.",
+      "variety": "de",
+      "speaker": "Mann",
+      "source": {
+        "file": "a1-mock-1.yaml",
+        "id": "a1-mock1-h1-jacke",
+        "pointer": [
+          "sections",
+          0,
+          "exercises",
+          3,
+          "audio"
+        ]
+      },
+      "exam": "a1-mock-1",
+      "path": "audio/ex-a1-mock1-h1-jacke.mp3",
+      "voice": "de-m",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-mock1-h1-wohnung.mp3",
+      "kind": "listening",
+      "text": "Frau: Und, wie ist deine neue Wohnung?\nMann: Sehr schön! Sie hat drei Zimmer und einen Balkon. Aber sie hat keinen Garten.\nFrau: Und wo ist sie?\nMann: In der Gartenstraße, Nummer 8.",
+      "variety": "de",
+      "speaker": "Frau",
+      "source": {
+        "file": "a1-mock-1.yaml",
+        "id": "a1-mock1-h1-wohnung",
+        "pointer": [
+          "sections",
+          0,
+          "exercises",
+          4,
+          "audio"
+        ]
+      },
+      "exam": "a1-mock-1",
+      "path": "audio/ex-a1-mock1-h1-wohnung.mp3",
+      "voice": "de-f",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-mock1-h1-termin.mp3",
+      "kind": "listening",
+      "text": "Frau: Zahnarztpraxis Dr. Wolf, guten Tag.\nMann: Guten Tag, hier ist Peter Klein. Ich habe Zahnschmerzen. Kann ich heute kommen?\nFrau: Heute geht es leider nicht. Morgen um zehn Uhr?\nMann: Morgen um zehn, ja, das passt. Danke!",
+      "variety": "de",
+      "speaker": "Frau",
+      "source": {
+        "file": "a1-mock-1.yaml",
+        "id": "a1-mock1-h1-termin",
+        "pointer": [
+          "sections",
+          0,
+          "exercises",
+          5,
+          "audio"
+        ]
+      },
+      "exam": "a1-mock-1",
+      "path": "audio/ex-a1-mock1-h1-termin.mp3",
+      "voice": "de-f",
+      "referenced": false
+    },
+    {
       "file": "stimulus-hoeren-2.mp3",
       "kind": "exam-stimulus",
-      "text": "Durchsage 1. Information am Gleis 7: Der Zug nach Bern fährt heute zehn Minuten später ab. Neue Abfahrt: 14.42 Uhr.\n\nDurchsage 2. Liebe Kundinnen und Kunden, heute im Angebot: ein Kilo Tomaten für nur zwei Franken fünfzig. Unser Supermarkt schliesst heute um 20 Uhr.\n\nDurchsage 3. Information für die Kursteilnehmer: Der Deutschkurs A1 ist heute nicht im Zimmer 12. Der Kurs ist heute im Zimmer 21, im zweiten Stock.\n\nDurchsage 4. Und jetzt das Wetter für morgen: In der ganzen Schweiz ist es sonnig und warm, bis 24 Grad. Am Abend gibt es in den Bergen vielleicht ein Gewitter.",
+      "text": "Sprecher: Durchsage 1.\nSprecherin: Information am Gleis 7: Der Zug nach Bern fährt heute zehn Minuten später ab. Neue Abfahrt: 14.42 Uhr.\n\nSprecher: Durchsage 2.\nSprecher: Liebe Kundinnen und Kunden, heute im Angebot: ein Kilo Tomaten für nur zwei Franken fünfzig. Unser Supermarkt schliesst heute um 20 Uhr.\n\nSprecher: Durchsage 3.\nSprecherin: Information für die Kursteilnehmer: Der Deutschkurs A1 ist heute nicht im Zimmer 12. Der Kurs ist heute im Zimmer 21, im zweiten Stock.\n\nSprecher: Durchsage 4.\nSprecher: Und jetzt das Wetter für morgen: In der ganzen Schweiz ist es sonnig und warm, bis 24 Grad. Am Abend gibt es in den Bergen vielleicht ein Gewitter.",
       "en": "Vier Durchsagen",
       "variety": "ch-std",
+      "speaker": "Sprecher",
       "source": {
         "file": "a1-mock-1.yaml",
         "id": "hoeren-2",
@@ -61,17 +193,104 @@
       },
       "exam": "a1-mock-1",
       "path": "audio/stimulus-hoeren-2.mp3",
+      "voice": "zh-m",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-mock1-h2-zug.mp3",
+      "kind": "listening",
+      "text": "Sprecherin: Information am Gleis 7: Der Zug nach Bern fährt heute zehn Minuten später ab. Neue Abfahrt: 14.42 Uhr.",
+      "variety": "ch-std",
+      "speaker": "Sprecherin",
+      "source": {
+        "file": "a1-mock-1.yaml",
+        "id": "a1-mock1-h2-zug",
+        "pointer": [
+          "sections",
+          1,
+          "exercises",
+          0,
+          "audio"
+        ]
+      },
+      "exam": "a1-mock-1",
+      "path": "audio/ex-a1-mock1-h2-zug.mp3",
       "voice": "zh-f",
       "referenced": false
     },
     {
-      "voiceGuessed": true,
+      "file": "ex-a1-mock1-h2-supermarkt.mp3",
+      "kind": "listening",
+      "text": "Sprecher: Liebe Kundinnen und Kunden, heute im Angebot: ein Kilo Tomaten für nur zwei Franken fünfzig. Unser Supermarkt schliesst heute um 20 Uhr.",
+      "variety": "ch-std",
+      "speaker": "Sprecher",
+      "source": {
+        "file": "a1-mock-1.yaml",
+        "id": "a1-mock1-h2-supermarkt",
+        "pointer": [
+          "sections",
+          1,
+          "exercises",
+          1,
+          "audio"
+        ]
+      },
+      "exam": "a1-mock-1",
+      "path": "audio/ex-a1-mock1-h2-supermarkt.mp3",
+      "voice": "zh-m",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-mock1-h2-zimmer.mp3",
+      "kind": "listening",
+      "text": "Sprecherin: Information für die Kursteilnehmer: Der Deutschkurs A1 ist heute nicht im Zimmer 12. Der Kurs ist heute im Zimmer 21, im zweiten Stock.",
+      "variety": "ch-std",
+      "speaker": "Sprecherin",
+      "source": {
+        "file": "a1-mock-1.yaml",
+        "id": "a1-mock1-h2-zimmer",
+        "pointer": [
+          "sections",
+          1,
+          "exercises",
+          2,
+          "audio"
+        ]
+      },
+      "exam": "a1-mock-1",
+      "path": "audio/ex-a1-mock1-h2-zimmer.mp3",
+      "voice": "zh-f",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-mock1-h2-wetter.mp3",
+      "kind": "listening",
+      "text": "Sprecher: Und jetzt das Wetter für morgen: In der ganzen Schweiz ist es sonnig und warm, bis 24 Grad. Am Abend gibt es in den Bergen vielleicht ein Gewitter.",
+      "variety": "ch-std",
+      "speaker": "Sprecher",
+      "source": {
+        "file": "a1-mock-1.yaml",
+        "id": "a1-mock1-h2-wetter",
+        "pointer": [
+          "sections",
+          1,
+          "exercises",
+          3,
+          "audio"
+        ]
+      },
+      "exam": "a1-mock-1",
+      "path": "audio/ex-a1-mock1-h2-wetter.mp3",
+      "voice": "zh-m",
+      "referenced": false
+    },
+    {
       "file": "stimulus-hoeren-3.mp3",
       "kind": "exam-stimulus",
-      "text": "Nachricht 1. Hallo Tom, hier ist Lena. Du, morgen um sieben kann ich leider nicht, ich muss arbeiten. Geht es um acht? Ruf mich bitte an. Tschüss!\n\nNachricht 2. Guten Tag, Frau Costa, hier ist die Praxis Dr. Huber. Ihr Termin am Donnerstag geht leider nicht. Können Sie am Freitag um Viertel nach neun kommen? Bitte rufen Sie uns zurück. Die Nummer ist 0 44 3 21 54 76. Auf Wiederhören!\n\nNachricht 3. Hallo Sandra, hier ist Marco. Ich bin im Supermarkt. Milch habe ich schon. Brauchen wir noch Eier für den Kuchen? Schreib mir bitte schnell eine Nachricht!\n\nNachricht 4. Guten Tag, hier ist Frau Keller von der Sprachschule. Eine Information zum neuen Kurs: Der Kurs beginnt nicht am dritten September, er beginnt am zehnten September. Der Kurs ist am Montag und am Mittwoch. Vielen Dank und auf Wiederhören.\n\nNachricht 5. Hallo, hier ist Nadine! Meine Party ist am Samstag um acht bei mir. Essen und Getränke haben wir genug, aber bringst du bitte Musik mit? Bis Samstag!",
+      "text": "Sprecher: Nachricht 1.\nLena: Hallo Tom, hier ist Lena. Du, morgen um sieben kann ich leider nicht, ich muss arbeiten. Geht es um acht? Ruf mich bitte an. Tschüss!\n\nSprecher: Nachricht 2.\nPraxis: Guten Tag, Frau Costa, hier ist die Praxis Dr. Huber. Ihr Termin am Donnerstag geht leider nicht. Können Sie am Freitag um Viertel nach neun kommen? Bitte rufen Sie uns zurück. Die Nummer ist 0 44 3 21 54 76. Auf Wiederhören!\n\nSprecher: Nachricht 3.\nMarco: Hallo Sandra, hier ist Marco. Ich bin im Supermarkt. Milch habe ich schon. Brauchen wir noch Eier für den Kuchen? Schreib mir bitte schnell eine Nachricht!\n\nSprecher: Nachricht 4.\nFrau Keller: Guten Tag, hier ist Frau Keller von der Sprachschule. Eine Information zum neuen Kurs: Der Kurs beginnt nicht am dritten September, er beginnt am zehnten September. Der Kurs ist am Montag und am Mittwoch. Vielen Dank und auf Wiederhören.\n\nSprecher: Nachricht 5.\nNadine: Hallo, hier ist Nadine! Meine Party ist am Samstag um acht bei mir. Essen und Getränke haben wir genug, aber bringst du bitte Musik mit? Bis Samstag!",
       "en": "Fünf Nachrichten",
       "variety": "de",
-      "speaker": "Tom",
+      "speaker": "Sprecher",
       "source": {
         "file": "a1-mock-1.yaml",
         "id": "hoeren-3",
@@ -85,6 +304,116 @@
       "exam": "a1-mock-1",
       "path": "audio/stimulus-hoeren-3.mp3",
       "voice": "de-m",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-mock1-h3-lena.mp3",
+      "kind": "listening",
+      "text": "Lena: Hallo Tom, hier ist Lena. Du, morgen um sieben kann ich leider nicht, ich muss arbeiten. Geht es um acht? Ruf mich bitte an. Tschüss!",
+      "variety": "de",
+      "speaker": "Lena",
+      "source": {
+        "file": "a1-mock-1.yaml",
+        "id": "a1-mock1-h3-lena",
+        "pointer": [
+          "sections",
+          2,
+          "exercises",
+          0,
+          "audio"
+        ]
+      },
+      "exam": "a1-mock-1",
+      "path": "audio/ex-a1-mock1-h3-lena.mp3",
+      "voice": "de-f",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-mock1-h3-praxis.mp3",
+      "kind": "listening",
+      "text": "Praxis: Guten Tag, Frau Costa, hier ist die Praxis Dr. Huber. Ihr Termin am Donnerstag geht leider nicht. Können Sie am Freitag um Viertel nach neun kommen? Bitte rufen Sie uns zurück. Die Nummer ist 0 44 3 21 54 76. Auf Wiederhören!",
+      "variety": "de",
+      "speaker": "Praxis",
+      "source": {
+        "file": "a1-mock-1.yaml",
+        "id": "a1-mock1-h3-praxis",
+        "pointer": [
+          "sections",
+          2,
+          "exercises",
+          1,
+          "audio"
+        ]
+      },
+      "exam": "a1-mock-1",
+      "path": "audio/ex-a1-mock1-h3-praxis.mp3",
+      "voice": "de-f",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-mock1-h3-marco.mp3",
+      "kind": "listening",
+      "text": "Marco: Hallo Sandra, hier ist Marco. Ich bin im Supermarkt. Milch habe ich schon. Brauchen wir noch Eier für den Kuchen? Schreib mir bitte schnell eine Nachricht!",
+      "variety": "de",
+      "speaker": "Marco",
+      "source": {
+        "file": "a1-mock-1.yaml",
+        "id": "a1-mock1-h3-marco",
+        "pointer": [
+          "sections",
+          2,
+          "exercises",
+          2,
+          "audio"
+        ]
+      },
+      "exam": "a1-mock-1",
+      "path": "audio/ex-a1-mock1-h3-marco.mp3",
+      "voice": "de-m",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-mock1-h3-kurs.mp3",
+      "kind": "listening",
+      "text": "Frau Keller: Guten Tag, hier ist Frau Keller von der Sprachschule. Eine Information zum neuen Kurs: Der Kurs beginnt nicht am dritten September, er beginnt am zehnten September. Der Kurs ist am Montag und am Mittwoch. Vielen Dank und auf Wiederhören.",
+      "variety": "de",
+      "speaker": "Frau Keller",
+      "source": {
+        "file": "a1-mock-1.yaml",
+        "id": "a1-mock1-h3-kurs",
+        "pointer": [
+          "sections",
+          2,
+          "exercises",
+          3,
+          "audio"
+        ]
+      },
+      "exam": "a1-mock-1",
+      "path": "audio/ex-a1-mock1-h3-kurs.mp3",
+      "voice": "de-f",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-mock1-h3-nadine.mp3",
+      "kind": "listening",
+      "text": "Nadine: Hallo, hier ist Nadine! Meine Party ist am Samstag um acht bei mir. Essen und Getränke haben wir genug, aber bringst du bitte Musik mit? Bis Samstag!",
+      "variety": "de",
+      "speaker": "Nadine",
+      "source": {
+        "file": "a1-mock-1.yaml",
+        "id": "a1-mock1-h3-nadine",
+        "pointer": [
+          "sections",
+          2,
+          "exercises",
+          4,
+          "audio"
+        ]
+      },
+      "exam": "a1-mock-1",
+      "path": "audio/ex-a1-mock1-h3-nadine.mp3",
+      "voice": "de-f",
       "referenced": false
     },
     {
@@ -110,13 +439,122 @@
       "referenced": false
     },
     {
-      "voiceGuessed": true,
+      "file": "ex-a1-schwiiz1-l1-gipfeli.mp3",
+      "kind": "listening",
+      "text": "Herr Frei: Ich hett gärn drü Gipfeli und es Bürli.",
+      "variety": "gsw-zh",
+      "speaker": "Herr Frei",
+      "source": {
+        "file": "a1-schwiiz-1.yaml",
+        "id": "a1-schwiiz1-l1-gipfeli",
+        "pointer": [
+          "sections",
+          0,
+          "exercises",
+          0,
+          "audio"
+        ]
+      },
+      "exam": "a1-schwiiz-1",
+      "path": "audio/ex-a1-schwiiz1-l1-gipfeli.mp3",
+      "voice": "zh-m",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-schwiiz1-l1-kafi.mp3",
+      "kind": "listening",
+      "text": "Herr Frei: Ja, en Kafi Crème, bitte. Zum Mitnää.",
+      "variety": "gsw-zh",
+      "speaker": "Herr Frei",
+      "source": {
+        "file": "a1-schwiiz-1.yaml",
+        "id": "a1-schwiiz1-l1-kafi",
+        "pointer": [
+          "sections",
+          0,
+          "exercises",
+          1,
+          "audio"
+        ]
+      },
+      "exam": "a1-schwiiz-1",
+      "path": "audio/ex-a1-schwiiz1-l1-kafi.mp3",
+      "voice": "zh-m",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-schwiiz1-l1-preis.mp3",
+      "kind": "listening",
+      "text": "Verchäuferin: Das macht zää Franke füfzg.",
+      "variety": "gsw-zh",
+      "speaker": "Verchäuferin",
+      "source": {
+        "file": "a1-schwiiz-1.yaml",
+        "id": "a1-schwiiz1-l1-preis",
+        "pointer": [
+          "sections",
+          0,
+          "exercises",
+          2,
+          "audio"
+        ]
+      },
+      "exam": "a1-schwiiz-1",
+      "path": "audio/ex-a1-schwiiz1-l1-preis.mp3",
+      "voice": "zh-f",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-schwiiz1-l1-zahlen.mp3",
+      "kind": "listening",
+      "text": "Herr Frei: Ich zahl mit Twint.",
+      "variety": "gsw-zh",
+      "speaker": "Herr Frei",
+      "source": {
+        "file": "a1-schwiiz-1.yaml",
+        "id": "a1-schwiiz1-l1-zahlen",
+        "pointer": [
+          "sections",
+          0,
+          "exercises",
+          3,
+          "audio"
+        ]
+      },
+      "exam": "a1-schwiiz-1",
+      "path": "audio/ex-a1-schwiiz1-l1-zahlen.mp3",
+      "voice": "zh-m",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-schwiiz1-l1-tag.mp3",
+      "kind": "listening",
+      "text": "Verchäuferin: Guet. Merci vilmal und en schöne Samschtig!",
+      "variety": "gsw-zh",
+      "speaker": "Verchäuferin",
+      "source": {
+        "file": "a1-schwiiz-1.yaml",
+        "id": "a1-schwiiz1-l1-tag",
+        "pointer": [
+          "sections",
+          0,
+          "exercises",
+          4,
+          "audio"
+        ]
+      },
+      "exam": "a1-schwiiz-1",
+      "path": "audio/ex-a1-schwiiz1-l1-tag.mp3",
+      "voice": "zh-f",
+      "referenced": false
+    },
+    {
       "file": "stimulus-lose-2.mp3",
       "kind": "exam-stimulus",
-      "text": "Nachricht 1 – Reto: Hoi Sandra, ich bi no im Büro. Ich chume hüt erscht am halbi achti hei. Chasch du no poschte? Mir bruuched Milch und Brot. Merci!\n\nNachricht 2 – Nadine: Hoi zäme! Mis Geburi-Fäscht isch am Friitig, nöd am Samschtig. Am achti bi mir. Bringed ihr bitte öppis z trinke mit? Ich freu mich!",
+      "text": "Sprecher: Nachricht 1.\nReto: Hoi Sandra, ich bi no im Büro. Ich chume hüt erscht am halbi achti hei. Chasch du no poschte? Mir bruuched Milch und Brot. Merci!\n\nSprecher: Nachricht 2.\nNadine: Hoi zäme! Mis Geburi-Fäscht isch am Friitig, nöd am Samschtig. Am achti bi mir. Bringed ihr bitte öppis z trinke mit? Ich freu mich!",
       "en": "Zwei Sprachnachrichte",
       "variety": "gsw-zh",
-      "speaker": "Reto",
+      "speaker": "Sprecher",
       "source": {
         "file": "a1-schwiiz-1.yaml",
         "id": "lose-2",
@@ -130,6 +568,94 @@
       "exam": "a1-schwiiz-1",
       "path": "audio/stimulus-lose-2.mp3",
       "voice": "zh-m",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-schwiiz1-l2-reto-zeit.mp3",
+      "kind": "listening",
+      "text": "Reto: Hoi Sandra, ich bi no im Büro. Ich chume hüt erscht am halbi achti hei. Chasch du no poschte? Mir bruuched Milch und Brot. Merci!",
+      "variety": "gsw-zh",
+      "speaker": "Reto",
+      "source": {
+        "file": "a1-schwiiz-1.yaml",
+        "id": "a1-schwiiz1-l2-reto-zeit",
+        "pointer": [
+          "sections",
+          1,
+          "exercises",
+          0,
+          "audio"
+        ]
+      },
+      "exam": "a1-schwiiz-1",
+      "path": "audio/ex-a1-schwiiz1-l2-reto-zeit.mp3",
+      "voice": "zh-m",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-schwiiz1-l2-reto-poschte.mp3",
+      "kind": "listening",
+      "text": "Reto: Hoi Sandra, ich bi no im Büro. Ich chume hüt erscht am halbi achti hei. Chasch du no poschte? Mir bruuched Milch und Brot. Merci!",
+      "variety": "gsw-zh",
+      "speaker": "Reto",
+      "source": {
+        "file": "a1-schwiiz-1.yaml",
+        "id": "a1-schwiiz1-l2-reto-poschte",
+        "pointer": [
+          "sections",
+          1,
+          "exercises",
+          1,
+          "audio"
+        ]
+      },
+      "exam": "a1-schwiiz-1",
+      "path": "audio/ex-a1-schwiiz1-l2-reto-poschte.mp3",
+      "voice": "zh-m",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-schwiiz1-l2-nadine-tag.mp3",
+      "kind": "listening",
+      "text": "Nadine: Hoi zäme! Mis Geburi-Fäscht isch am Friitig, nöd am Samschtig. Am achti bi mir. Bringed ihr bitte öppis z trinke mit? Ich freu mich!",
+      "variety": "gsw-zh",
+      "speaker": "Nadine",
+      "source": {
+        "file": "a1-schwiiz-1.yaml",
+        "id": "a1-schwiiz1-l2-nadine-tag",
+        "pointer": [
+          "sections",
+          1,
+          "exercises",
+          2,
+          "audio"
+        ]
+      },
+      "exam": "a1-schwiiz-1",
+      "path": "audio/ex-a1-schwiiz1-l2-nadine-tag.mp3",
+      "voice": "zh-f",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-schwiiz1-l2-nadine-trinken.mp3",
+      "kind": "listening",
+      "text": "Nadine: Hoi zäme! Mis Geburi-Fäscht isch am Friitig, nöd am Samschtig. Am achti bi mir. Bringed ihr bitte öppis z trinke mit? Ich freu mich!",
+      "variety": "gsw-zh",
+      "speaker": "Nadine",
+      "source": {
+        "file": "a1-schwiiz-1.yaml",
+        "id": "a1-schwiiz1-l2-nadine-trinken",
+        "pointer": [
+          "sections",
+          1,
+          "exercises",
+          3,
+          "audio"
+        ]
+      },
+      "exam": "a1-schwiiz-1",
+      "path": "audio/ex-a1-schwiiz1-l2-nadine-trinken.mp3",
+      "voice": "zh-f",
       "referenced": false
     }
   ]

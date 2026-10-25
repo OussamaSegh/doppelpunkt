@@ -32,7 +32,7 @@ export function Tutor() {
 
   if (ai.status !== 'ready') {
     return (
-      <EmptyState title="Talk with a tutor" action={<Link className="btn-primary" to="/settings">Open Settings</Link>}>
+      <EmptyState headingLevel={1} title="Talk with a tutor" action={<Link className="btn-primary" to="/settings">Open Settings</Link>}>
         {aiUnavailableMessage(ai)} Tutors use your own AI key; messages go straight from this device to the provider.
       </EmptyState>
     );

@@ -11,6 +11,7 @@ import { VarietyTag } from '../../components/VarietyTag';
 import type { ExamItemResult, ExamResultRow } from '../../db';
 import { WritingReport } from '../../exercise/WriteTask';
 import { TYPE_LABEL } from '../../exercise/ExercisePlayer';
+import { listeningTranscript, TranscriptText } from '../../exercise/Listen';
 import { clock, practiseLinks, SKILL_NAME, verdictText } from '../../lib/exam';
 import { asWriting } from './ExamMarking';
 
@@ -182,6 +183,7 @@ function ReviewItem({ ex, n, item }: { ex: Exercise; n: number; item?: ExamItemR
   const none = !item || item.points <= 0;
   const tone = full ? 'border-ok/40' : none ? 'border-bad/40' : 'border-accent/40';
   const checklist = ex.type === 'write' || ex.type === 'roleplay' ? asWriting(ex).checklist : [];
+  const transcript = listeningTranscript(ex);
   return (
     <article className={`card space-y-2 border-l-4 ${tone}`} aria-labelledby={`rev-${ex.id}`}>
       <header className="flex flex-wrap items-baseline justify-between gap-2">
@@ -195,6 +197,12 @@ function ReviewItem({ ex, n, item }: { ex: Exercise; n: number; item?: ExamItemR
       <p className="text-xs text-muted">
         {TYPE_LABEL[ex.type]} <VarietyTag variety={ex.variety} /> {METHOD[item?.method ?? 'unanswered']}
       </p>
+      {transcript && (
+        <div>
+          <p className="text-xs font-semibold uppercase tracking-wide text-muted">Transcript</p>
+          <TranscriptText text={transcript} variety={ex.variety} className="text-sm" />
+        </div>
+      )}
       {ex.type === 'mcq' && ex.question && <GermanText text={ex.question} variety={ex.variety} />}
       {item?.answer ? (
         <div>

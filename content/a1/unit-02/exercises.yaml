@@ -293,7 +293,9 @@
   type: mcq
   skill: listening
   variety: de
-  prompt: "The waitress asks: \"Zusammen oder getrennt?\" What does she want to know?"
+  prompt: "The waitress asks you a question. What does she want to know?"
+  transcript: |-
+    Kellnerin: Zusammen oder getrennt?
   options: ["Whether you sit together or apart", "Whether you want milk or not", "Whether you pay together or separately", "Whether you eat here or take away"]
   answer: 2
   explanation: >-
@@ -506,7 +508,9 @@
   type: mcq
   skill: listening
   variety: gsw-zh
-  prompt: "The waitress says: \"Grüezi mitenand! Was dörfs sii?\" What does she mean?"
+  prompt: "Listen to the waitress. What does she mean?"
+  transcript: |-
+    Kellnerin: Grüezi mitenand! Was dörfs sii?
   options: ["Where are you from?", "Do you want to pay?", "Is everything all right?", "What can I get you?"]
   answer: 3
   explanation: >-
@@ -534,7 +538,9 @@
   skill: listening
   variety: gsw-zh
   grammar: [numbers]
-  prompt: "In the Swiss lane dialogue the waitress says: \"Das macht zwölf Franke füfzg.\" How much is it?"
+  prompt: "In the Swiss lane dialogue the waitress tells you the price. How much is it?"
+  transcript: |-
+    Kellnerin: Das macht zwölf Franke füfzg.
   options: ["12.15 Fr.", "20.50 Fr.", "12.50 Fr.", "15.12 Fr."]
   answer: 2
   explanation: >-
@@ -647,7 +653,9 @@
   skill: listening
   variety: gsw-be
   grammar: [numbers]
-  prompt: "In a Bernese café the waiter says: \"Das macht füf Franke.\" How much do you pay?"
+  prompt: "In a Bernese café the waiter tells you the price. How much do you pay?"
+  transcript: |-
+    Kellner: Das macht füf Franke.
   options: ["15 francs", "5 francs", "50 francs", "4 francs"]
   answer: 1
   explanation: >-

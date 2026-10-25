@@ -460,7 +460,6 @@
       "variety": "gsw-be",
       "voice": "be-f",
       "speaker": "Mami",
-      "voiceGuessed": true,
       "source": {
         "file": "unit.yaml",
         "pointer": [
@@ -501,7 +500,6 @@
       "variety": "gsw-be",
       "voice": "be-f",
       "speaker": "Mami",
-      "voiceGuessed": true,
       "source": {
         "file": "unit.yaml",
         "pointer": [
@@ -2889,7 +2887,7 @@
     {
       "file": "ex-a1-u06-ch-mcq-gusel.mp3",
       "kind": "listening",
-      "text": "Für de Güsel bruuchsch Züri-Säck.",
+      "text": "Reto: Für de Güsel bruuchsch Züri-Säck.",
       "variety": "gsw-zh",
       "voice": "zh-m",
       "speaker": "Reto",
@@ -2907,10 +2905,10 @@
     {
       "file": "ex-a1-u06-ch-be-mcq-ghueder.mp3",
       "kind": "listening",
-      "text": "U dr Ghüder?",
+      "text": "Mami: U dr Ghüder?",
       "variety": "gsw-be",
       "voice": "be-f",
-      "speaker": "Sandra",
+      "speaker": "Mami",
       "source": {
         "file": "exercises.yaml",
         "id": "a1-u06-ch-be-mcq-ghueder",

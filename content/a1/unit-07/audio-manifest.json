@@ -440,7 +440,6 @@
       "variety": "gsw-be",
       "voice": "be-f",
       "speaker": "Mami",
-      "voiceGuessed": true,
       "source": {
         "file": "unit.yaml",
         "pointer": [
@@ -2900,7 +2899,7 @@
     {
       "file": "ex-a1-u07-ch-mcq-regen.mp3",
       "kind": "listening",
-      "text": "Und wänn s rägnet?",
+      "text": "Sandra: Und wänn s rägnet?\nReto: Dänn gömmer is Kino.",
       "variety": "gsw-zh",
       "voice": "zh-f",
       "speaker": "Sandra",
@@ -2918,7 +2917,7 @@
     {
       "file": "ex-a1-u07-ch-mcq-jass.mp3",
       "kind": "listening",
-      "text": "Am Friitig jassed mir im Kafi. Wottsch au cho?",
+      "text": "Reto: Am Friitig jassed mir im Kafi. Wottsch au cho?",
       "variety": "gsw-zh",
       "voice": "zh-m",
       "speaker": "Reto",
@@ -2936,10 +2935,10 @@
     {
       "file": "ex-a1-u07-ch-be-mcq-aare.mp3",
       "kind": "listening",
-      "text": "Am Sunntig wei mir i dr Aare schwümme.",
+      "text": "Mami: Am Sunntig wei mir i dr Aare schwümme.",
       "variety": "gsw-be",
       "voice": "be-f",
-      "speaker": "Sandra",
+      "speaker": "Mami",
       "source": {
         "file": "exercises.yaml",
         "id": "a1-u07-ch-be-mcq-aare",

@@ -50,7 +50,7 @@ Total: 158 file(s), 0 done.
 | `dialog-swiss-08.mp3` | zh-f | gsw-zh | Sandra | Und wänn s rägnet? | And if it rains? |  |
 | `dialog-swiss-09.mp3` | zh-m | gsw-zh | Reto | Dänn gömmer is Kino. | Then we'll go to the cinema. |  |
 | `dialog-swiss-10.mp3` | zh-f | gsw-zh | Sandra | Mega! Ich gang gärn is Kino. | Great! I like going to the cinema. |  |
-| `dialog-swiss-11.mp3` | be-f (?) | gsw-be | Mami | Hoi Sandra! Am Sunntig wei mir i dr Aare schwümme. | Hi Sandra! On Sunday we want to swim in the Aare. |  |
+| `dialog-swiss-11.mp3` | be-f | gsw-be | Mami | Hoi Sandra! Am Sunntig wei mir i dr Aare schwümme. | Hi Sandra! On Sunday we want to swim in the Aare. |  |
 | `dialog-swiss-12.mp3` | be-f | gsw-be | Sandra | Oh, schad! Am Sunntig cha i nid. Aber am Samschti chume i gärn hei. | Oh, what a pity! I can't on Sunday. But I'd love to come home on Saturday. |  |
 
 ## Vocabulary
@@ -194,6 +194,6 @@ Total: 158 file(s), 0 done.
 | `ex-a1-u07-speak-shadow-tom.mp3` | de-f | de |  | Ich kann leider nicht Ski fahren. Aber ich will es lernen! |  |  |
 | `ex-a1-u07-speak-questions.mp3` | de-m | de |  | Kannst du schwimmen? Willst du mitkommen? Spielst du gern Gitarre? |  |  |
 | `ex-a1-u07-speak-pron-ue-ch.mp3` | de-f | de |  | Im Frühling mache ich am liebsten Musik. Am Wochenende koche ich auch. |  |  |
-| `ex-a1-u07-ch-mcq-regen.mp3` | zh-f | gsw-zh | Sandra | Und wänn s rägnet? |  |  |
-| `ex-a1-u07-ch-mcq-jass.mp3` | zh-m | gsw-zh | Reto | Am Friitig jassed mir im Kafi. Wottsch au cho? |  |  |
-| `ex-a1-u07-ch-be-mcq-aare.mp3` | be-f | gsw-be | Sandra | Am Sunntig wei mir i dr Aare schwümme. |  |  |
+| `ex-a1-u07-ch-mcq-regen.mp3` | zh-f | gsw-zh | Sandra | Sandra: Und wänn s rägnet? Reto: Dänn gömmer is Kino. |  |  |
+| `ex-a1-u07-ch-mcq-jass.mp3` | zh-m | gsw-zh | Reto | Reto: Am Friitig jassed mir im Kafi. Wottsch au cho? |  |  |
+| `ex-a1-u07-ch-be-mcq-aare.mp3` | be-f | gsw-be | Mami | Mami: Am Sunntig wei mir i dr Aare schwümme. |  |  |

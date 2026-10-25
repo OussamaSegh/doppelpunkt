@@ -11,7 +11,7 @@ import { MockExam, type Exercise, type Level, type Variety } from '@doppelpunkt/
 import { examMaxPoints, sectionPoints } from '@doppelpunkt/engine';
 import { DELIVERY, exerciseText, isRemote, promptSpeaker, speakerGender, voiceFor, type AudioEntry, type AudioKind, type Coverage, type Gender } from './audio';
 import { levelDirs, readYaml, zodIssues, type Issue, type LoadedUnit } from './load';
-import { exerciseRules } from './rules';
+import { exerciseRules, listeningRules } from './rules';
 
 export const EXAM_DIR = 'exam';
 
@@ -157,15 +157,13 @@ export function lintExams(exams: LoadedExam[], units: LoadedUnit[], knownGrammar
           err(`${at}: points has ${s.points.length} entr${s.points.length === 1 ? 'y' : 'ies'} but the section has ${s.exercises.length} exercise(s)`);
         }
         if (s.points?.some((p) => p === 0)) warn(`${at}: an item is worth 0 points`);
-        if (s.skill === 'listening' && !s.stimulus && !s.exercises.some((e) => e.audio || exerciseText(e))) {
-          warn(`${at}: listening section without a stimulus or item audio text; there is nothing to play`);
-        }
         s.exercises.forEach((ex, ei) => {
           const where = `${at}.exercises[${ei}]`;
           const prev = exerciseOwner.get(ex.id);
           if (prev) err(`${where} (id: ${ex.id}): duplicate exercise id "${ex.id}" (also in ${prev})`);
           else exerciseOwner.set(ex.id, `${file} ${at}`);
           exerciseRules(ex, where, file, push);
+          listeningRules(s.skill === 'listening' && ex.skill !== 'listening' ? { ...ex, skill: 'listening' } : ex, !!s.stimulus?.text.trim(), where, file, push);
           for (const g of ex.grammar) {
             if (!knownGrammar.has(g)) warn(`${where} (id: ${ex.id}): grammar "${g}" is not defined in any unit`);
           }
@@ -229,7 +227,7 @@ export type ExamAudioManifest = {
 /**
  * Recordings for the exams of one level, in exam-id order: the stimulus of each listening section
  * (`stimulus-<section id>.mp3`, text = stimulus.text) and the exercises that units would record
- * too (dictation, speaking model, listening item with quoted text: `ex-<exercise id>.mp3`).
+ * too (dictation, speaking model, listening item `transcript`: `ex-<exercise id>.mp3`).
  * The YAML path is audio/<file>, relative to content/<level>/exam/<id>/.
  */
 export function buildExamManifest(level: Level, exams: LoadedExam[]): ExamAudioManifest {
@@ -261,7 +259,7 @@ export function buildExamManifest(level: Level, exams: LoadedExam[]): ExamAudioM
       s.exercises.forEach((ex, ei) => {
         const t = exerciseText(ex);
         if (!t) return;
-        const speaker = t.kind === 'listening' ? promptSpeaker(ex.prompt) : undefined;
+        const speaker = t.speaker;
         add({
           file: `ex-${ex.id}.mp3`, kind: t.kind as ExamAudioEntry['kind'], text: t.text, variety: ex.variety as Variety,
           gender: pick(speaker), ...(speaker ? { speaker } : {}),

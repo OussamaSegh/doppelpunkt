@@ -440,7 +440,6 @@
       "variety": "gsw-be",
       "voice": "be-f",
       "speaker": "Mami",
-      "voiceGuessed": true,
       "source": {
         "file": "unit.yaml",
         "pointer": [
@@ -3062,7 +3061,7 @@
     {
       "file": "ex-a1-u01-ch-mcq-vo-wo.mp3",
       "kind": "listening",
-      "text": "Vo wo chunnsch du?",
+      "text": "Sandra: Vo wo chunnsch du?",
       "variety": "gsw-zh",
       "voice": "zh-f",
       "speaker": "Sandra",
@@ -3080,7 +3079,7 @@
     {
       "file": "ex-a1-u01-ch-mcq-duzis.mp3",
       "kind": "listening",
-      "text": "Wämmer grad Duzis mache?",
+      "text": "Reto: Wämmer grad Duzis mache?",
       "variety": "gsw-zh",
       "voice": "zh-m",
       "speaker": "Reto",
@@ -3098,9 +3097,10 @@
     {
       "file": "ex-a1-u01-ch-be-mcq-gruessech.mp3",
       "kind": "listening",
-      "text": "Grüessech!",
+      "text": "Verkäuferin: Grüessech!",
       "variety": "gsw-be",
       "voice": "be-f",
+      "speaker": "Verkäuferin",
       "source": {
         "file": "exercises.yaml",
         "id": "a1-u01-ch-be-mcq-gruessech",

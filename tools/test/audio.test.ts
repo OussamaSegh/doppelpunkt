@@ -38,6 +38,7 @@ function richUnit() {
       ...exercises('a1-u1'),
       { ...base, id: 'a1-u1-lis-dialog', type: 'mcq', skill: 'listening', prompt: 'Listen to the intro dialogue. Who is Tom?', options: ['a', 'b'], answer: 1 },
       { ...base, id: 'a1-u1-lis-reto', type: 'mcq', skill: 'listening', variety: 'gsw-zh', prompt: 'Reto asks: "Wie gaats?" What does he mean?', options: ['a', 'b'], answer: 0 },
+      { ...base, id: 'a1-u1-lis-sandra', type: 'mcq', skill: 'listening', variety: 'gsw-zh', prompt: 'Listen. What does she want?', transcript: 'Sandra: Hoi Reto!\nReto: Sali!', options: ['a', 'b'], answer: 0 },
     ],
   });
 }
@@ -52,7 +53,7 @@ describe('manifest', () => {
       'dialog-intro-01.mp3', 'dialog-intro-02.mp3', 'dialog-intro-03.mp3',
       'dialog-swiss-01.mp3',
       'vocab-hallo.mp3', 'vocab-hallo-ex.mp3', 'vocab-hallo-zh.mp3', 'vocab-hallo-be.mp3', 'vocab-tisch.mp3',
-      'ex-a1-u1-dict.mp3', 'ex-a1-u1-speak.mp3', 'ex-a1-u1-lis-reto.mp3',
+      'ex-a1-u1-dict.mp3', 'ex-a1-u1-speak.mp3', 'ex-a1-u1-lis-reto.mp3', 'ex-a1-u1-lis-sandra.mp3',
     ]);
     const by = Object.fromEntries(m.entries.map((e) => [e.file, e]));
     expect(by['dialog-intro-01.mp3']).toMatchObject({ voice: 'de-f', speaker: 'Frau Keller', referenced: false, source: { file: 'unit.yaml', pointer: ['intro', 'dialogue', 0, 'audio'] } });
@@ -66,6 +67,8 @@ describe('manifest', () => {
     expect(by['vocab-tisch.mp3']).toMatchObject({ referenced: false, current: 'audio/my-own.mp3' });
     expect(by['ex-a1-u1-dict.mp3']).toMatchObject({ kind: 'dictation', text: 'Hallo Anna.', source: { file: 'exercises.yaml', pointer: [4, 'audio'] } });
     expect(by['ex-a1-u1-lis-reto.mp3']).toMatchObject({ kind: 'listening', text: 'Wie gaats?', voice: 'zh-m', speaker: 'Reto' });
+    // A transcript is the recording's text; its first speaker label picks the voice.
+    expect(by['ex-a1-u1-lis-sandra.mp3']).toMatchObject({ kind: 'listening', text: 'Sandra: Hoi Reto!\nReto: Sali!', voice: 'zh-f', speaker: 'Sandra', source: { pointer: [9, 'audio'] } });
   });
   it('is deterministic and renders a script with every file', () => {
     richUnit();

@@ -529,7 +529,9 @@
   skill: listening
   variety: gsw-zh
   grammar: [weather-es]
-  prompt: "Listen to the Swiss lane dialogue. Reto says: \"Lueg emal use, es schiffet!\" What's the weather like?"
+  prompt: "Listen to Reto in the Swiss lane dialogue. What's the weather like?"
+  transcript: |-
+    Reto: Lueg emal use, es schiffet!
   options: ["It's sunny and hot.", "It's snowing.", "It's very windy.", "It's pouring with rain."]
   answer: 3
   explanation: >-
@@ -567,7 +569,9 @@
   type: mcq
   skill: listening
   variety: gsw-zh
-  prompt: "Sandra asks: \"Und wo sind mini Finke?\" What is she looking for?"
+  prompt: "Listen to Sandra. What is she looking for?"
+  transcript: |-
+    Sandra: Und wo sind mini Finke?
   options: ["Her slippers", "Her keys", "Her gloves", "Her phone"]
   answer: 0
   explanation: >-
@@ -618,7 +622,9 @@
   type: mcq
   skill: listening
   variety: gsw-be
-  prompt: "Sandra's mother: \"Sandra, nimm e Lismer mit! Hüt isch es chaut z Bärn.\" What should Sandra take?"
+  prompt: "Listen to Sandra's mother. What should Sandra take?"
+  transcript: |-
+    Mami: Sandra, nimm e Lismer mit! Hüt isch es chaut z Bärn.
   options: ["A rain jacket", "A jumper", "A scarf", "Her slippers"]
   answer: 1
   explanation: >-

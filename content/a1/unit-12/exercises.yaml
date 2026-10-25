@@ -277,7 +277,7 @@
 
 - id: a1-u12-match-letters
   type: match
-  skill: listening
+  skill: vocabulary
   variety: de
   grammar: [spelling-repair]
   prompt: "Spelling: match the German letter names with the letters."
@@ -557,7 +557,9 @@
   skill: listening
   variety: gsw-zh
   grammar: [congratulating-inviting]
-  prompt: "Reto says: \"Und jetzt gits Fondue. En Guete mitenand!\" When do Swiss people say En Guete?"
+  prompt: "Listen to Reto. When do Swiss people say En Guete?"
+  transcript: |-
+    Reto: Und jetzt gits Fondue. En Guete mitenand!
   options: ["When they clink glasses", "When someone sneezes", "When they say goodbye", "Before they start eating"]
   answer: 3
   explanation: >-
@@ -608,7 +610,9 @@
   type: mcq
   skill: listening
   variety: gsw-be
-  prompt: "Sandra's mother: \"Sandra, ds Fescht für e Ätti isch am Sunntig. Bringsch es Gschänk?\" What does she ask?"
+  prompt: "Listen to Sandra's mother. What does she ask?"
+  transcript: |-
+    Mami: Sandra, ds Fescht für e Ätti isch am Sunntig. Bringsch es Gschänk?
   options: ["Is Sandra bringing a present to Dad's party on Sunday?", "Is Sandra coming to dinner on Saturday?", "Has Sandra bought flowers for Mum?", "Can Sandra help with the party food?"]
   answer: 0
   explanation: >-

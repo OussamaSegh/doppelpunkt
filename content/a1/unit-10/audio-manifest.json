@@ -420,7 +420,6 @@
       "variety": "gsw-be",
       "voice": "be-f",
       "speaker": "Mami",
-      "voiceGuessed": true,
       "source": {
         "file": "unit.yaml",
         "pointer": [
@@ -2768,7 +2767,7 @@
     {
       "file": "ex-a1-u10-ch-mcq-schiffet.mp3",
       "kind": "listening",
-      "text": "Lueg emal use, es schiffet!",
+      "text": "Reto: Lueg emal use, es schiffet!",
       "variety": "gsw-zh",
       "voice": "zh-m",
       "speaker": "Reto",
@@ -2786,7 +2785,7 @@
     {
       "file": "ex-a1-u10-ch-mcq-finke.mp3",
       "kind": "listening",
-      "text": "Und wo sind mini Finke?",
+      "text": "Sandra: Und wo sind mini Finke?",
       "variety": "gsw-zh",
       "voice": "zh-f",
       "speaker": "Sandra",
@@ -2804,10 +2803,10 @@
     {
       "file": "ex-a1-u10-ch-be-mcq-lismer.mp3",
       "kind": "listening",
-      "text": "Sandra, nimm e Lismer mit! Hüt isch es chaut z Bärn.",
+      "text": "Mami: Sandra, nimm e Lismer mit! Hüt isch es chaut z Bärn.",
       "variety": "gsw-be",
       "voice": "be-f",
-      "speaker": "Sandra",
+      "speaker": "Mami",
       "source": {
         "file": "exercises.yaml",
         "id": "a1-u10-ch-be-mcq-lismer",

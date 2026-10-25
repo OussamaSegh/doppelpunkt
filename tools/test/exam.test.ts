@@ -29,7 +29,7 @@ export function examYaml(over: Record<string, unknown> = {}) {
         stimulus: { text: 'Anna: Hallo, ich bin Anna.\nTom: Hallo Anna!' },
         exercises: [
           { ...base, id: 'a1-mt1-h1', type: 'mcq', skill: 'listening', options: ['Anna', 'Tom', 'Reto'], answer: 0 },
-          { ...base, id: 'a1-mt1-h2', type: 'mcq', skill: 'listening', prompt: 'Tom says: "Ich komme aus Berlin." Where is he from?', options: ['Wien', 'Berlin'], answer: 1 },
+          { ...base, id: 'a1-mt1-h2', type: 'mcq', skill: 'listening', prompt: 'Where is Tom from?', transcript: 'Tom: Ich komme aus Berlin.', options: ['Wien', 'Berlin'], answer: 1 },
         ],
       },
       {
@@ -63,6 +63,19 @@ describe('exam lint', () => {
     expect(r.exams.map((e) => e.exam.id)).toEqual(['a1-modelltest-1']);
     expect(examMinutes(r.exams[0]!.exam)).toEqual({ written: 65, speaking: 15 });
     expect(r.info.some((l) => /^exams: 1 mock exam\(s\), audio coverage 0\/3/.test(l))).toBe(true);
+  });
+  it('warns about listening items without anything to hear, or with the transcript in the prompt', () => {
+    writeUnit(f, 'A1', 1);
+    const x = examYaml();
+    const h = (x.sections as Array<Record<string, unknown>>)[0]!;
+    delete h.stimulus;
+    (h.exercises as Array<Record<string, unknown>>).push({ ...base, id: 'a1-mt1-h3', type: 'mcq', skill: 'listening', prompt: 'Anna: "Ich wohne in Bern." Where?', options: ['Bern', 'Wien'], answer: 0 });
+    write(x);
+    const m = messages().filter((y) => /listening item/.test(y));
+    expect(m).toEqual([
+      'warning content/a1/exam/a1-modelltest-1.yaml: sections[0] (id: hoeren).exercises[0] (id: a1-mt1-h1): listening item has no audio, no transcript and no stimulus; there is nothing to hear',
+      'warning content/a1/exam/a1-modelltest-1.yaml: sections[0] (id: hoeren).exercises[2] (id: a1-mt1-h3): listening item quotes what is said in its prompt (shown on screen); move it to transcript: and keep a short question',
+    ]);
   });
   it('reports schema errors, file name and level mismatches', () => {
     writeUnit(f, 'A1', 1);

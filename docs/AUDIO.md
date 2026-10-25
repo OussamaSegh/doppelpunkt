@@ -58,7 +58,7 @@ What gets an entry:
 | Bernese German word | `vocab-<id>-be.mp3` | `gswBe` | `vocab[i].gswBeAudio` |
 | Dictation | `ex-<exercise id>.mp3` | `transcript` | `exercises[i].audio` |
 | Speaking model | `ex-<exercise id>.mp3` | `target` | `exercises[i].audio` |
-| Listening stimulus | `ex-<exercise id>.mp3` | the quoted text in the prompt | `exercises[i].audio` |
+| Listening stimulus | `ex-<exercise id>.mp3` | `transcript` (older items: the quoted text in the prompt) | `exercises[i].audio` |
 
 Pronunciation drills (`content/pronunciation/<id>.yaml`) share one manifest and script,
 `content/pronunciation/audio-manifest.json` and `audio-script.md`, in drill-id order:
@@ -82,7 +82,7 @@ Mock exams (`content/<level>/exam/<id>.yaml`) share one manifest and script per 
 | Kind | File name | Text | YAML field filled by `audio:link` |
 | --- | --- | --- | --- |
 | Listening section stimulus | `stimulus-<section id>.mp3` | `stimulus.text` of a `listening` section | `sections[i].stimulus.audio` |
-| Dictation, speaking model, listening item | `ex-<exercise id>.mp3` | as for units (transcript, target, quoted text in the prompt) | `sections[i].exercises[j].audio` |
+| Dictation, speaking model, listening item | `ex-<exercise id>.mp3` | as for units (`transcript`, `target`) | `sections[i].exercises[j].audio` |
 
 A stimulus that starts with a speaker label (`Anna: …`) gets that speaker's voice; the speaker
 labels are a change of voice, not read aloud. Reading and writing stimuli are not recorded.
@@ -93,7 +93,9 @@ exam ids must differ from unit ids; lint checks this). For `audio:process`, put 
 `raw/<level>/exam/<id>/` or pass `--unit a1/exam/<id>`; stimulus names repeat across exams.
 
 Listening items whose prompt says "Listen to the intro dialogue" reuse the dialogue recordings and get
-no entry of their own. Roleplays are generated live and are not recorded.
+no entry of their own. The first speaker label of a `transcript` picks the voice; read the labels only
+as a change of voice. Two items with the same transcript (e.g. two questions on one voicemail) get two
+entries: record once and copy the file. Roleplays are generated live and are not recorded.
 
 Each manifest entry has: `file`, `path` (the value for the YAML field), `kind`, `text`, `note`
 (parenthesised reading hints such as "(to a group)" moved out of the text), `en`, `variety`, `voice`,

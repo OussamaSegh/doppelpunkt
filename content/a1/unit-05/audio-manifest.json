@@ -198,9 +198,8 @@
       "text": "Das macht dreiundzwanzig Franken vierzig. Brauchen Sie eine Tüte?",
       "en": "That's twenty-three francs forty. Do you need a bag?",
       "variety": "de",
-      "voice": "de-f",
+      "voice": "de-m",
       "speaker": "Kassierer",
-      "voiceGuessed": true,
       "source": {
         "file": "unit.yaml",
         "pointer": [
@@ -459,9 +458,8 @@
       "text": "Hoi Sandra! Chouf no Härdöpfu u Anke!",
       "en": "Hi Sandra! Buy some potatoes and butter as well!",
       "variety": "gsw-be",
-      "voice": "be-m",
+      "voice": "be-f",
       "speaker": "Mami",
-      "voiceGuessed": true,
       "source": {
         "file": "unit.yaml",
         "pointer": [
@@ -500,9 +498,8 @@
       "text": "Nei, Miuch hei mer gnue.",
       "en": "No, we have enough milk.",
       "variety": "gsw-be",
-      "voice": "be-m",
+      "voice": "be-f",
       "speaker": "Mami",
-      "voiceGuessed": true,
       "source": {
         "file": "unit.yaml",
         "pointer": [
@@ -2929,7 +2926,7 @@
     {
       "file": "ex-a1-u05-mcq-listening-wein.mp3",
       "kind": "listening",
-      "text": "Brauchen wir keinen Wein? Doch!",
+      "text": "Tom: Brauchen wir keinen Wein?\nAnna: Doch!",
       "variety": "de",
       "voice": "de-m",
       "speaker": "Tom",
@@ -2981,7 +2978,7 @@
     {
       "file": "ex-a1-u05-ch-mcq-moll.mp3",
       "kind": "listening",
-      "text": "Bruuchsch du kei Rahm für de Chueche? Moll, natürli!",
+      "text": "Sandra: Bruuchsch du kei Rahm für de Chueche?\nReto: Moll, natürli!",
       "variety": "gsw-zh",
       "voice": "zh-f",
       "speaker": "Sandra",
@@ -2999,9 +2996,10 @@
     {
       "file": "ex-a1-u05-ch-mcq-eier.mp3",
       "kind": "listening",
-      "text": "Nei, leider kei Eier meh.",
+      "text": "Verkäuferin: Nei, leider kei Eier meh.",
       "variety": "gsw-zh",
-      "voice": "zh-m",
+      "voice": "zh-f",
+      "speaker": "Verkäuferin",
       "source": {
         "file": "exercises.yaml",
         "id": "a1-u05-ch-mcq-eier",
@@ -3016,10 +3014,10 @@
     {
       "file": "ex-a1-u05-ch-be-mcq-miuch.mp3",
       "kind": "listening",
-      "text": "Nei, Miuch hei mer gnue.",
+      "text": "Mami: Nei, Miuch hei mer gnue.",
       "variety": "gsw-be",
       "voice": "be-f",
-      "speaker": "Sandra",
+      "speaker": "Mami",
       "source": {
         "file": "exercises.yaml",
         "id": "a1-u05-ch-be-mcq-miuch",

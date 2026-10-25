@@ -82,13 +82,15 @@ TTS-less), native-speaker review of content still pending, no accounts.
 
 ## v0.4 "A1 komplett"
 
-Carried over from v0.3: speech grading should flag umlaut-less number words (funf → fünf);
-log transcription cost in the cost meter.
-
-- A1 units 10–12, all A1 audio recorded and reviewed
-- A1 mock exam (original items in Goethe/telc/ÖSD format: Hören, Lesen, Schreiben, Sprechen), timed, with solutions
-- Can-do checklist for A1 complete
-- Accessibility audit (WCAG 2.2 AA), performance budget (< 200 KB JS initial, LCP < 2.5 s on 4G)
+- [x] A1 units 10–12 (A1 complete: 12 units)
+- [ ] All A1 audio recorded and reviewed (needs voice actors; scripts and upload tooling ready)
+- [x] A1 mock exam (original items in Goethe Start Deutsch 1 format: Hören, Lesen, Schreiben, Sprechen), timed, with solutions; plus a Swiss track check
+- [x] Can-do checklist for A1 complete, "A1 complete" milestone
+- [x] Accessibility audit (WCAG 2.2 AA, manual; `docs/ACCESSIBILITY.md`)
+- [x] Performance budget: initial JS 174 KB gzip (< 200 KB, checked in CI); LCP still to measure with Lighthouse
+- [x] Audio CDN upload (`npm run audio:upload`, `docs/DEPLOY.md`)
+- [x] Carried over: speech grading flags umlaut-less numbers; transcription cost in the cost meter
+- [x] Listening items keep what is heard in `transcript`, revealed only after answering
 
 ## v0.5 "Beta"
 

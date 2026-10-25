@@ -48,7 +48,7 @@ function UnitScreen() {
 
   if (!unit) {
     return (
-      <EmptyState title="Unit not found" action={<Link className="btn-primary" to="/learn">Back to Learn</Link>}>
+      <EmptyState headingLevel={1} title="Unit not found" action={<Link className="btn-primary" to="/learn">Back to Learn</Link>}>
         "{unitId}" isn't in the installed lessons.
       </EmptyState>
     );

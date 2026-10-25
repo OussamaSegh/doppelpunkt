@@ -45,6 +45,9 @@ jobs:
       - name: Build (content packs + web app)
         run: npm run build
 
+      - name: Performance budget (initial JS < 200 KB gzip)
+        run: npm run budget -w @doppelpunkt/web
+
       - name: Cache Playwright browsers
         uses: actions/cache@v4
         with:

@@ -49,7 +49,7 @@ Total: 151 file(s), 0 done.
 | `dialog-swiss-06.mp3` | zh-f | gsw-zh | Sandra | Guet, ich nimm si. Merci! Und wo sind mini Finke? | OK, I'll take it. Thanks! And where are my slippers? |  |
 | `dialog-swiss-07.mp3` | zh-m | gsw-zh | Reto | Under em Sofa. Und dis neue Jäggli staht dir übrigens guet! | Under the sofa. And by the way, your new little jacket suits you! |  |
 | `dialog-swiss-08.mp3` | zh-f | gsw-zh | Sandra | Merci! Aber es isch tüür gsii. | Thanks! But it was expensive. |  |
-| `dialog-swiss-09.mp3` | be-f (?) | gsw-be | Mami | Sandra, nimm e Lismer mit! Hüt isch es chaut z Bärn. | Sandra, take a jumper! It's cold in Bern today. |  |
+| `dialog-swiss-09.mp3` | be-f | gsw-be | Mami | Sandra, nimm e Lismer mit! Hüt isch es chaut z Bärn. | Sandra, take a jumper! It's cold in Bern today. |  |
 | `dialog-swiss-10.mp3` | be-f | gsw-be | Sandra | Ja, Mami, i ha dr Lismer scho. | Yes, Mum, I've already got the jumper. |  |
 
 ## Vocabulary
@@ -187,6 +187,6 @@ Total: 151 file(s), 0 done.
 | `ex-a1-u10-speak-shadow-verkaeuferin.mp3` | zh-f | ch-std |  | Ja, hier ist sie in L. Oh, die steht Ihnen gut! |  |  |
 | `ex-a1-u10-speak-intonation-aber.mp3` | de-m | de |  | Die Jacke ist schön, aber zu teuer. |  |  |
 | `ex-a1-u10-speak-pron-oe.mp3` | de-f | de |  | Größe, schön, Röcke – groß, rot, Rock |  |  |
-| `ex-a1-u10-ch-mcq-schiffet.mp3` | zh-m | gsw-zh | Reto | Lueg emal use, es schiffet! |  |  |
-| `ex-a1-u10-ch-mcq-finke.mp3` | zh-f | gsw-zh | Sandra | Und wo sind mini Finke? |  |  |
-| `ex-a1-u10-ch-be-mcq-lismer.mp3` | be-f | gsw-be | Sandra | Sandra, nimm e Lismer mit! Hüt isch es chaut z Bärn. |  |  |
+| `ex-a1-u10-ch-mcq-schiffet.mp3` | zh-m | gsw-zh | Reto | Reto: Lueg emal use, es schiffet! |  |  |
+| `ex-a1-u10-ch-mcq-finke.mp3` | zh-f | gsw-zh | Sandra | Sandra: Und wo sind mini Finke? |  |  |
+| `ex-a1-u10-ch-be-mcq-lismer.mp3` | be-f | gsw-be | Mami | Mami: Sandra, nimm e Lismer mit! Hüt isch es chaut z Bärn. |  |  |

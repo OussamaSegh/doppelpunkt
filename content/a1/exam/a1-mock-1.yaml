@@ -64,7 +64,11 @@ sections:
         skill: listening
         variety: de
         grammar: [directions-chunks]
-        prompt: 'Gespräch 1: "Frau: Entschuldigung, wo finde ich hier die Milch? Mann: Die Milch? Gehen Sie geradeaus, dann hinten links, beim Käse. Frau: Hinten links. Vielen Dank!"'
+        prompt: "Gespräch 1 – listen and choose the right answer."
+        transcript: |-
+          Frau: Entschuldigung, wo finde ich hier die Milch?
+          Mann: Die Milch? Gehen Sie geradeaus, dann hinten links, beim Käse.
+          Frau: Hinten links. Vielen Dank!
         question: Wo ist die Milch?
         options: ["Vorne rechts", "Hinten links", "Bei der Kasse"]
         answer: 1
@@ -78,7 +82,12 @@ sections:
         skill: listening
         variety: de
         grammar: [telling-time]
-        prompt: 'Gespräch 2: "Mann: Hallo, ich habe eine Frage. Wann beginnt der Deutschkurs am Montag? Frau: Um halb sieben am Abend. Mann: Um halb sieben, also 18.30 Uhr? Frau: Ja, genau. Und er ist bis 20 Uhr."'
+        prompt: "Gespräch 2 – listen and choose the right answer."
+        transcript: |-
+          Mann: Hallo, ich habe eine Frage. Wann beginnt der Deutschkurs am Montag?
+          Frau: Um halb sieben am Abend.
+          Mann: Um halb sieben, also 18.30 Uhr?
+          Frau: Ja, genau. Und er ist bis 20 Uhr.
         question: Wann beginnt der Kurs?
         options: ["Um 18.30 Uhr", "Um 17.30 Uhr", "Um 20 Uhr"]
         answer: 0
@@ -92,7 +101,11 @@ sections:
         skill: listening
         variety: de
         grammar: [nicht-kein, accusative-indefinite]
-        prompt: 'Gespräch 3: "Frau: So, was möchtest du trinken? Einen Kaffee? Mann: Nein, danke, heute keinen Kaffee. Ich nehme einen Tee mit Milch. Frau: Gut, und ich nehme ein Wasser."'
+        prompt: "Gespräch 3 – listen and choose the right answer."
+        transcript: |-
+          Frau: So, was möchtest du trinken? Einen Kaffee?
+          Mann: Nein, danke, heute keinen Kaffee. Ich nehme einen Tee mit Milch.
+          Frau: Gut, und ich nehme ein Wasser.
         question: Was trinkt der Mann?
         options: ["Einen Kaffee", "Ein Wasser", "Einen Tee mit Milch"]
         answer: 2
@@ -106,7 +119,11 @@ sections:
         skill: listening
         variety: de
         grammar: [numbers]
-        prompt: 'Gespräch 4: "Mann: Entschuldigung, kostet die Jacke hier 79 Euro? Frau: Normal ja, aber heute kostet sie nur 59 Euro. Mann: 59 Euro? Super, dann nehme ich sie."'
+        prompt: "Gespräch 4 – listen and choose the right answer."
+        transcript: |-
+          Mann: Entschuldigung, kostet die Jacke hier 79 Euro?
+          Frau: Normal ja, aber heute kostet sie nur 59 Euro.
+          Mann: 59 Euro? Super, dann nehme ich sie.
         question: Wie viel kostet die Jacke heute?
         options: ["79 Euro", "59 Euro", "95 Euro"]
         answer: 1
@@ -120,7 +137,12 @@ sections:
         skill: listening
         variety: de
         grammar: [es-gibt, nicht-kein]
-        prompt: 'Gespräch 5: "Frau: Und, wie ist deine neue Wohnung? Mann: Sehr schön! Sie hat drei Zimmer und einen Balkon. Aber sie hat keinen Garten. Frau: Und wo ist sie? Mann: In der Gartenstraße, Nummer 8."'
+        prompt: "Gespräch 5 – listen and choose the right answer."
+        transcript: |-
+          Frau: Und, wie ist deine neue Wohnung?
+          Mann: Sehr schön! Sie hat drei Zimmer und einen Balkon. Aber sie hat keinen Garten.
+          Frau: Und wo ist sie?
+          Mann: In der Gartenstraße, Nummer 8.
         question: Was hat die Wohnung?
         options: ["Zwei Zimmer und einen Garten", "Drei Zimmer und einen Garten", "Drei Zimmer und einen Balkon"]
         answer: 2
@@ -134,7 +156,12 @@ sections:
         skill: listening
         variety: de
         grammar: [time-adverbs, telling-time]
-        prompt: 'Gespräch 6: "Frau: Zahnarztpraxis Dr. Wolf, guten Tag. Mann: Guten Tag, hier ist Peter Klein. Ich habe Zahnschmerzen. Kann ich heute kommen? Frau: Heute geht es leider nicht. Morgen um zehn Uhr? Mann: Morgen um zehn, ja, das passt. Danke!"'
+        prompt: "Gespräch 6 – listen and choose the right answer."
+        transcript: |-
+          Frau: Zahnarztpraxis Dr. Wolf, guten Tag.
+          Mann: Guten Tag, hier ist Peter Klein. Ich habe Zahnschmerzen. Kann ich heute kommen?
+          Frau: Heute geht es leider nicht. Morgen um zehn Uhr?
+          Mann: Morgen um zehn, ja, das passt. Danke!
         question: Wann hat Herr Klein den Termin?
         options: ["Morgen um zehn Uhr", "Heute um zehn Uhr", "Morgen um zwei Uhr"]
         answer: 0
@@ -172,7 +199,9 @@ sections:
         skill: listening
         variety: ch-std
         grammar: [telling-time]
-        prompt: 'Durchsage 1: "Information am Gleis 7: Der Zug nach Bern fährt heute zehn Minuten später ab. Neue Abfahrt: 14.42 Uhr."'
+        prompt: "Durchsage 1 – listen: richtig oder falsch?"
+        transcript: |-
+          Sprecherin: Information am Gleis 7: Der Zug nach Bern fährt heute zehn Minuten später ab. Neue Abfahrt: 14.42 Uhr.
         question: Der Zug nach Bern fährt um 14.32 Uhr ab.
         options: ["Richtig", "Falsch"]
         answer: 1
@@ -185,7 +214,9 @@ sections:
         skill: listening
         variety: ch-std
         grammar: [telling-time]
-        prompt: 'Durchsage 2: "Liebe Kundinnen und Kunden, heute im Angebot: ein Kilo Tomaten für nur zwei Franken fünfzig. Unser Supermarkt schliesst heute um 20 Uhr."'
+        prompt: "Durchsage 2 – listen: richtig oder falsch?"
+        transcript: |-
+          Sprecher: Liebe Kundinnen und Kunden, heute im Angebot: ein Kilo Tomaten für nur zwei Franken fünfzig. Unser Supermarkt schliesst heute um 20 Uhr.
         question: Der Supermarkt ist heute bis 20 Uhr offen.
         options: ["Richtig", "Falsch"]
         answer: 0
@@ -199,7 +230,9 @@ sections:
         skill: listening
         variety: ch-std
         grammar: [nicht-kein]
-        prompt: 'Durchsage 3: "Information für die Kursteilnehmer: Der Deutschkurs A1 ist heute nicht im Zimmer 12. Der Kurs ist heute im Zimmer 21, im zweiten Stock."'
+        prompt: "Durchsage 3 – listen: richtig oder falsch?"
+        transcript: |-
+          Sprecherin: Information für die Kursteilnehmer: Der Deutschkurs A1 ist heute nicht im Zimmer 12. Der Kurs ist heute im Zimmer 21, im zweiten Stock.
         question: Der Kurs ist heute im Zimmer 12.
         options: ["Richtig", "Falsch"]
         answer: 1
@@ -213,7 +246,9 @@ sections:
         skill: listening
         variety: ch-std
         grammar: [weather-forecast]
-        prompt: 'Durchsage 4: "Und jetzt das Wetter für morgen: In der ganzen Schweiz ist es sonnig und warm, bis 24 Grad. Am Abend gibt es in den Bergen vielleicht ein Gewitter."'
+        prompt: "Durchsage 4 – listen: richtig oder falsch?"
+        transcript: |-
+          Sprecher: Und jetzt das Wetter für morgen: In der ganzen Schweiz ist es sonnig und warm, bis 24 Grad. Am Abend gibt es in den Bergen vielleicht ein Gewitter.
         question: Morgen ist das Wetter schön.
         options: ["Richtig", "Falsch"]
         answer: 0
@@ -255,7 +290,9 @@ sections:
         skill: listening
         variety: de
         grammar: [telling-time, modal-koennen-wollen]
-        prompt: 'Nachricht 1: "Lena: Hallo Tom, hier ist Lena. Du, morgen um sieben kann ich leider nicht, ich muss arbeiten. Geht es um acht? Ruf mich bitte an. Tschüss!"'
+        prompt: "Nachricht 1 – listen and choose the right answer."
+        transcript: |-
+          Lena: Hallo Tom, hier ist Lena. Du, morgen um sieben kann ich leider nicht, ich muss arbeiten. Geht es um acht? Ruf mich bitte an. Tschüss!
         question: Wann möchte Lena Tom treffen?
         options: ["Um sieben", "Um neun", "Um acht"]
         answer: 2
@@ -268,7 +305,9 @@ sections:
         skill: listening
         variety: de
         grammar: [separable-verbs-modal, imperative]
-        prompt: 'Nachricht 2: "Praxis: Guten Tag, Frau Costa, hier ist die Praxis Dr. Huber. Ihr Termin am Donnerstag geht leider nicht. Können Sie am Freitag um Viertel nach neun kommen? Bitte rufen Sie uns zurück. Die Nummer ist 0 44 3 21 54 76. Auf Wiederhören!"'
+        prompt: "Nachricht 2 – listen and choose the right answer."
+        transcript: |-
+          Praxis: Guten Tag, Frau Costa, hier ist die Praxis Dr. Huber. Ihr Termin am Donnerstag geht leider nicht. Können Sie am Freitag um Viertel nach neun kommen? Bitte rufen Sie uns zurück. Die Nummer ist 0 44 3 21 54 76. Auf Wiederhören!
         question: Was soll Frau Costa machen?
         options: ["Am Donnerstag kommen", "Die Praxis anrufen", "Ein Rezept holen"]
         answer: 1
@@ -281,7 +320,9 @@ sections:
         skill: listening
         variety: de
         grammar: [haben-present]
-        prompt: 'Nachricht 3: "Marco: Hallo Sandra, hier ist Marco. Ich bin im Supermarkt. Milch habe ich schon. Brauchen wir noch Eier für den Kuchen? Schreib mir bitte schnell eine Nachricht!"'
+        prompt: "Nachricht 3 – listen and choose the right answer."
+        transcript: |-
+          Marco: Hallo Sandra, hier ist Marco. Ich bin im Supermarkt. Milch habe ich schon. Brauchen wir noch Eier für den Kuchen? Schreib mir bitte schnell eine Nachricht!
         question: Was hat Marco schon?
         options: ["Milch", "Eier", "Einen Kuchen"]
         answer: 0
@@ -294,7 +335,9 @@ sections:
         skill: listening
         variety: de
         grammar: [dates-ordinals]
-        prompt: 'Nachricht 4: "Frau Keller: Guten Tag, hier ist Frau Keller von der Sprachschule. Eine Information zum neuen Kurs: Der Kurs beginnt nicht am dritten September, er beginnt am zehnten September. Der Kurs ist am Montag und am Mittwoch. Vielen Dank und auf Wiederhören."'
+        prompt: "Nachricht 4 – listen and choose the right answer."
+        transcript: |-
+          Frau Keller: Guten Tag, hier ist Frau Keller von der Sprachschule. Eine Information zum neuen Kurs: Der Kurs beginnt nicht am dritten September, er beginnt am zehnten September. Der Kurs ist am Montag und am Mittwoch. Vielen Dank und auf Wiederhören.
         question: Wann beginnt der neue Kurs?
         options: ["Am 3. September", "Am 13. September", "Am 10. September"]
         answer: 2
@@ -307,7 +350,9 @@ sections:
         skill: listening
         variety: de
         grammar: [separable-verbs-modal]
-        prompt: 'Nachricht 5: "Nadine: Hallo, hier ist Nadine! Meine Party ist am Samstag um acht bei mir. Essen und Getränke haben wir genug, aber bringst du bitte Musik mit? Bis Samstag!"'
+        prompt: "Nachricht 5 – listen and choose the right answer."
+        transcript: |-
+          Nadine: Hallo, hier ist Nadine! Meine Party ist am Samstag um acht bei mir. Essen und Getränke haben wir genug, aber bringst du bitte Musik mit? Bis Samstag!
         question: Was soll der Freund mitbringen?
         options: ["Getränke", "Musik", "Essen"]
         answer: 1

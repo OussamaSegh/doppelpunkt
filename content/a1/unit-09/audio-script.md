@@ -50,9 +50,9 @@ Total: 150 file(s), 0 done.
 | `dialog-swiss-08.mp3` | zh-m | gsw-zh | Reto | Nei, nüt. Oder doch – e Fläsche Wii! | No, nothing. Or actually – a bottle of wine! |  |
 | `dialog-swiss-09.mp3` | zh-f | gsw-zh | Sandra | Guet, abgmacht! Ich lüüt dir morn no aa. | Good, it's a deal! I'll give you a call tomorrow. |  |
 | `dialog-swiss-10.mp3` | zh-m | gsw-zh | Reto | Super. Tschüss, bis übermorn! | Great. Bye, see you the day after tomorrow! |  |
-| `dialog-swiss-11.mp3` | be-f (?) | gsw-be | Mami | Sandra, am vierte Juli het dr Ätti Geburtstag. Chunsch? | Sandra, Dad's birthday is on the fourth of July. Are you coming? |  |
+| `dialog-swiss-11.mp3` | be-f | gsw-be | Mami | Sandra, am vierte Juli het dr Ätti Geburtstag. Chunsch? | Sandra, Dad's birthday is on the fourth of July. Are you coming? |  |
 | `dialog-swiss-12.mp3` | be-f | gsw-be | Sandra | Klar, i chume! | Of course I'm coming! |  |
-| `dialog-swiss-13.mp3` | be-f (?) | gsw-be | Mami | Super. Lüt mer de aa, gäu! | Great. Give me a call then, won't you! |  |
+| `dialog-swiss-13.mp3` | be-f | gsw-be | Mami | Super. Lüt mer de aa, gäu! | Great. Give me a call then, won't you! |  |
 
 ## Vocabulary
 
@@ -187,5 +187,5 @@ Total: 150 file(s), 0 done.
 | `ex-a1-u09-speak-shadow-graf.mp3` | zh-f | ch-std |  | Geht es am elften Mai um halb zehn? Das ist ein Mittwoch. |  |  |
 | `ex-a1-u09-speak-dates.mp3` | de-m | de |  | am ersten Januar, am dritten März, am siebten Juli, am zwanzigsten Oktober |  |  |
 | `ex-a1-u09-speak-pron-stress.mp3` | de-f | de |  | anrufen, absagen, vorbeikommen, mitbringen – verschieben, besuchen, verstehen |  |  |
-| `ex-a1-u09-ch-mcq-soell.mp3` | zh-f | gsw-zh | Sandra | Söll ich öppis mitbringe? |  |  |
-| `ex-a1-u09-ch-be-mcq-birthday.mp3` | be-f | gsw-be | Sandra | Am vierte Juli het dr Ätti Geburtstag. |  |  |
+| `ex-a1-u09-ch-mcq-soell.mp3` | zh-f | gsw-zh | Sandra | Sandra: Gärn! Söll ich öppis mitbringe? Reto: Nei, nüt. Oder doch – e Fläsche Wii! |  |  |
+| `ex-a1-u09-ch-be-mcq-birthday.mp3` | be-f | gsw-be | Mami | Mami: Am vierte Juli het dr Ätti Geburtstag. |  |  |

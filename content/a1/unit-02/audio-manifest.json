@@ -2865,10 +2865,10 @@
     {
       "file": "ex-a1-u02-mcq-listening-getrennt.mp3",
       "kind": "listening",
-      "text": "Zusammen oder getrennt?",
+      "text": "Kellnerin: Zusammen oder getrennt?",
       "variety": "de",
       "voice": "de-f",
-      "speaker": "waitress",
+      "speaker": "Kellnerin",
       "source": {
         "file": "exercises.yaml",
         "id": "a1-u02-mcq-listening-getrennt",
@@ -2934,10 +2934,10 @@
     {
       "file": "ex-a1-u02-ch-mcq-doerfs.mp3",
       "kind": "listening",
-      "text": "Grüezi mitenand! Was dörfs sii?",
+      "text": "Kellnerin: Grüezi mitenand! Was dörfs sii?",
       "variety": "gsw-zh",
       "voice": "zh-f",
-      "speaker": "waitress",
+      "speaker": "Kellnerin",
       "source": {
         "file": "exercises.yaml",
         "id": "a1-u02-ch-mcq-doerfs",
@@ -2952,10 +2952,10 @@
     {
       "file": "ex-a1-u02-ch-mcq-price.mp3",
       "kind": "listening",
-      "text": "Das macht zwölf Franke füfzg.",
+      "text": "Kellnerin: Das macht zwölf Franke füfzg.",
       "variety": "gsw-zh",
       "voice": "zh-f",
-      "speaker": "waitress",
+      "speaker": "Kellnerin",
       "source": {
         "file": "exercises.yaml",
         "id": "a1-u02-ch-mcq-price",
@@ -2970,10 +2970,10 @@
     {
       "file": "ex-a1-u02-ch-be-mcq-fuef.mp3",
       "kind": "listening",
-      "text": "Das macht füf Franke.",
+      "text": "Kellner: Das macht füf Franke.",
       "variety": "gsw-be",
       "voice": "be-m",
-      "speaker": "waiter",
+      "speaker": "Kellner",
       "source": {
         "file": "exercises.yaml",
         "id": "a1-u02-ch-be-mcq-fuef",

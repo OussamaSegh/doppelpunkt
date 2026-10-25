@@ -59,6 +59,11 @@ const base = {
   /** Grammar point ids this item practises; feeds the error profile. */
   grammar: z.array(z.string()).default([]),
   audio,
+  /**
+   * What the learner hears in a listening item (one speaker label per line). Read aloud by
+   * TTS / recorded as audio, and shown only after answering (or in the exam review).
+   */
+  transcript: z.string().optional(),
 };
 
 export const MultipleChoice = z.object({

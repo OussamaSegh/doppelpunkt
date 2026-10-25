@@ -9,6 +9,7 @@ import { Recorder, type RecorderResult } from '../../components/Recorder';
 import { VarietyTag } from '../../components/VarietyTag';
 import { audioUrl } from '../../content';
 import { INPUTS, TYPE_LABEL, type ClosedType } from '../../exercise/ExercisePlayer';
+import { ListenPanel, listeningTranscript, spokenText } from '../../exercise/Listen';
 import type { InputProps } from '../../exercise/types';
 import { UmlautBar } from '../../exercise/UmlautBar';
 import { stimulusLang, stimulusPlayable } from '../../lib/exam';
@@ -37,8 +38,8 @@ export function Stimulus({ section, unit }: { section: ExamSection; unit: Compil
           </p>
           <div className="flex flex-wrap items-center gap-2">
             <VarietyTag variety={st.variety} />
-            <AudioButton text={st.text} variety={st.variety} url={url} label="Play the recording" className="border border-line" />
-            <AudioButton text={st.text} variety={st.variety} url={url} rate={0.75} label="Slower" className="border border-line" />
+            <AudioButton text={spokenText(st.text)} variety={st.variety} url={url} label="Play the recording" className="border border-line" />
+            <AudioButton text={spokenText(st.text)} variety={st.variety} url={url} rate={0.75} label="Slower" className="border border-line" />
           </div>
         </>
       ) : (
@@ -94,7 +95,7 @@ export function ExamItem(props: {
       body = <SpeakItem ex={ex} onTake={(t) => props.onTake(ex.id, t)} />;
       break;
     default:
-      body = <ClosedItem ex={ex} unit={unit} onAnswer={props.onAnswer} />;
+      body = <ClosedItem ex={ex} unit={unit} n={n} onAnswer={props.onAnswer} />;
   }
   return (
     <ItemCard ex={ex} unit={unit} n={n} points={points}>
@@ -103,13 +104,16 @@ export function ExamItem(props: {
   );
 }
 
-function ClosedItem({ ex, unit, onAnswer }: { ex: Extract<Exercise, { type: ClosedType }>; unit: CompiledUnit; onAnswer: (id: string, a: Answer | undefined) => void }) {
+function ClosedItem({ ex, unit, n, onAnswer }: { ex: Extract<Exercise, { type: ClosedType }>; unit: CompiledUnit; n: number; onAnswer: (id: string, a: Answer | undefined) => void }) {
   const Input = INPUTS[ex.type] as ComponentType<InputProps<ClosedType>>;
   const onChange = useCallback((a: Answer | undefined) => onAnswer(ex.id, a), [ex.id, onAnswer]);
   const url = ex.audio && ex.type !== 'dictation' ? audioUrl(unit, ex.audio) : undefined;
+  // What the item plays; the transcript itself is only shown in the review after the exam.
+  const transcript = listeningTranscript(ex);
   return (
     <div className="space-y-3">
-      {url && (
+      {transcript && <ListenPanel text={transcript} variety={ex.variety} url={url} id={`exam-${ex.id}`} what={`item ${n}`} after="in the review after the exam" />}
+      {url && !transcript && (
         <AudioButton
           text={ex.type === 'mcq' ? (ex.question ?? '') : ''}
           variety={ex.variety}

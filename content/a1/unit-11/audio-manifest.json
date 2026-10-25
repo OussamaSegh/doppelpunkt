@@ -444,9 +444,8 @@
       "text": "Sandra, bisch vercheltet? Du tönsch so komisch.",
       "en": "Sandra, have you got a cold? You sound so strange.",
       "variety": "gsw-be",
-      "voice": "be-m",
+      "voice": "be-f",
       "speaker": "Mami",
-      "voiceGuessed": true,
       "source": {
         "file": "unit.yaml",
         "pointer": [
@@ -2791,10 +2790,10 @@
     {
       "file": "ex-a1-u11-ch-mcq-besserig.mp3",
       "kind": "listening",
-      "text": "Gsundheit! Gueti Besserig, Reto!",
+      "text": "Reto: Ja, ich ha morn en Termin. Hatschi!\nSandra: Gsundheit! Gueti Besserig, Reto!",
       "variety": "gsw-zh",
-      "voice": "zh-f",
-      "speaker": "Sandra",
+      "voice": "zh-m",
+      "speaker": "Reto",
       "source": {
         "file": "exercises.yaml",
         "id": "a1-u11-ch-mcq-besserig",
@@ -2809,10 +2808,10 @@
     {
       "file": "ex-a1-u11-ch-be-mcq-vercheltet.mp3",
       "kind": "listening",
-      "text": "Sandra, bisch vercheltet?",
+      "text": "Mami: Sandra, bisch vercheltet?",
       "variety": "gsw-be",
       "voice": "be-f",
-      "speaker": "Sandra",
+      "speaker": "Mami",
       "source": {
         "file": "exercises.yaml",
         "id": "a1-u11-ch-be-mcq-vercheltet",

@@ -51,14 +51,14 @@ function ReviewSession() {
 
   if (!cards.length) {
     return (
-      <EmptyState title="Your review deck is empty" action={<Link className="btn-primary" to="/learn">Open a unit</Link>}>
+      <EmptyState headingLevel={1} title="Your review deck is empty" action={<Link className="btn-primary" to="/learn">Open a unit</Link>}>
         Open a unit's <span lang="de">Wortschatz</span> step and tap "Add to review".
       </EmptyState>
     );
   }
   if (!card) {
     return (
-      <EmptyState title="All caught up" action={<Link className="btn-secondary" to="/learn">Keep learning</Link>}>
+      <EmptyState headingLevel={1} title="All caught up" action={<Link className="btn-secondary" to="/learn">Keep learning</Link>}>
         {reviewed ? `You reviewed ${reviewed} cards. ` : ''}No cards are due right now.
       </EmptyState>
     );

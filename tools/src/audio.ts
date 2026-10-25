@@ -68,6 +68,9 @@ export const CAST: Record<string, Gender> = {
   Anna: 'f', Tom: 'm', Reto: 'm', Sandra: 'f', Lena: 'f', Noah: 'm', Martin: 'm',
   'Frau Keller': 'f', Kellnerin: 'f', Kellner: 'm', Verkäuferin: 'f', Verkäufer: 'm',
   waitress: 'f', waiter: 'm', teacher: 'f',
+  // Units 7–12 and the mock exams: transcript speaker labels.
+  Mami: 'f', Nadine: 'f', Mia: 'f', Marco: 'm', Kassierer: 'm', Passantin: 'f',
+  Frau: 'f', Mann: 'm', Sprecher: 'm', Sprecherin: 'f', Praxis: 'f',
 };
 
 /** Gender of a named speaker, from the cast list or the title (Frau/Herr) or a feminine -in noun. */
@@ -121,13 +124,31 @@ export function promptSpeaker(prompt: string): string | undefined {
   return best?.name;
 }
 
-export function exerciseText(ex: Exercise): { kind: AudioKind; text: string } | undefined {
+/** First speaker label of a transcript ("Frau: ..." → "Frau"), if any. */
+export function transcriptSpeaker(transcript: string): string | undefined {
+  return /^\s*([A-ZÄÖÜ][\p{L}. ]{0,24}):/mu.exec(transcript)?.[1]?.trim();
+}
+
+/**
+ * What an exercise needs recorded as `ex-<id>`: the dictation text, the speaking model, or what a
+ * listening item plays (its `transcript`; older items without one: the text quoted in the prompt).
+ */
+export function exerciseText(ex: Exercise): { kind: AudioKind; text: string; speaker?: string } | undefined {
   if (ex.type === 'dictation') return { kind: 'dictation', text: ex.transcript };
   if (ex.type === 'speak') return { kind: 'speak', text: ex.target };
-  if (ex.skill === 'listening' && ex.type !== 'roleplay') {
+  if (ex.type === 'roleplay') return undefined;
+  if (ex.transcript?.trim()) {
+    const text = ex.transcript.trim();
+    const speaker = transcriptSpeaker(text) ?? promptSpeaker(ex.prompt);
+    return { kind: 'listening', text, ...(speaker ? { speaker } : {}) };
+  }
+  if (ex.skill === 'listening') {
     // Listening items that say "Listen to the dialogue" reuse the dialogue recordings.
     const q = quoted(ex.prompt);
-    if (q) return { kind: 'listening', text: q };
+    if (q) {
+      const speaker = promptSpeaker(ex.prompt);
+      return { kind: 'listening', text: q, ...(speaker ? { speaker } : {}) };
+    }
   }
   return undefined;
 }
@@ -203,7 +224,7 @@ export function buildManifest(unit: CompiledUnit, folder: string): AudioManifest
   unit.exercises.forEach((ex, i) => {
     const t = exerciseText(ex);
     if (!t) return;
-    const speaker = t.kind === 'listening' ? promptSpeaker(ex.prompt) : undefined;
+    const speaker = t.speaker;
     const { g, guessed: gu } = gender(speaker, alt++ % 2 === 0 ? 'f' : 'm');
     add(
       {

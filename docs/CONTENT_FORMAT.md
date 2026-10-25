@@ -159,6 +159,7 @@ Every exercise has these common fields:
 | `explanation` | yes      | English; **teaches the rule** (see section 7) |
 | `grammar`     | no       | grammar point ids the item practises (feeds the error profile) |
 | `audio`       | no       | leave it out until the file exists |
+| `transcript`  | no       | what the learner **hears** in a listening item, one speaker turn per line (`Reto: Grüezi!`); read by TTS (`de`, `ch-std`) or recorded, shown only after answering / in the exam review. Required in `dictation` (graded) |
 
 Examples of each type:
 
@@ -275,6 +276,26 @@ Examples of each type:
   listening-oriented at A1–A2).
 - For listening MCQs on the dialogues (no audio yet), refer to the dialogue in the prompt ("Listen to
   the intro dialogue again").
+- **Never quote what is said in a listening prompt.** The prompt is shown on screen, so
+  `prompt: 'Reto says: "Ich bi müed." What does he mean?'` is a reading item. Put the words in
+  `transcript` (with speaker labels) and keep a short question in the prompt:
+
+  ```yaml
+  - id: a1-u11-ch-mcq-mued
+    type: mcq
+    skill: listening
+    variety: gsw-zh
+    prompt: Listen to Reto. How does he feel?
+    transcript: |-
+      Reto: Ich bi hüt so müed.
+    options: [...]
+  ```
+
+  The app plays the transcript (recording, else TTS for `de` / `ch-std`) and shows it only with the
+  feedback. A `gsw-*` transcript without a recording is shown as text with "No recording yet — read
+  instead". Speaker labels (`Name:` at the start of a line) are not read aloud. `content:lint` warns
+  when a listening item quotes text in its prompt, or has no `audio`, no `transcript` and no stimulus
+  (in a unit: a prompt that names the dialogue; in an exam: the section `stimulus`).
 - **Speaking (from v0.3, units 7+):** at least **5 `speak` items** per unit: a read-aloud frame the
   learner then personalises, **shadowing** of 1–2 dialogue lines (prompt starts with "Shadowing:";
   the `target` is the exact dialogue line, with the line's variety), an intonation item, and a
@@ -414,7 +435,7 @@ sections:                      # one section per exam part (Teil)
       title: Sechs kurze Gespräche
       variety: de
       text: |
-        Gespräch 1.
+        Sprecher: Gespräch 1.
         Frau: Entschuldigung, wo finde ich hier die Milch?
     points: [1, 1, 1, 1, 1, 1] # one entry per exercise; default 1 each
     exercises:                 # ordinary exercises (section 6); ids unique across units and exams
@@ -422,7 +443,10 @@ sections:                      # one section per exam part (Teil)
         type: mcq
         skill: listening
         variety: de
-        prompt: Gespräch 1
+        prompt: Gespräch 1 – listen and choose the right answer.
+        transcript: |-             # this item's part of the stimulus: played, shown only in the review
+          Frau: Entschuldigung, wo finde ich hier die Milch?
+          Mann: Die Milch? Gehen Sie geradeaus, dann hinten links, beim Käse.
         question: Wo ist die Milch?
         options: ["Vorne rechts", "Hinten links", "Bei der Kasse"]
         answer: 1

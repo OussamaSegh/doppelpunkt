@@ -555,7 +555,9 @@
   type: mcq
   skill: listening
   variety: gsw-zh
-  prompt: "In the Swiss lane dialogue Reto says: \"Ich bi de Götti vom Noah.\" What is Reto?"
+  prompt: "In the Swiss lane dialogue Reto says who he is. What is Reto?"
+  transcript: |-
+    Reto: Ich bi de Götti vom Noah.
   options: ["Noah's father", "Noah's grandfather", "Noah's cousin", "Noah's godfather"]
   answer: 3
   explanation: >-

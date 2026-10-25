@@ -46,7 +46,16 @@ section 10). They let a learner check, under exam conditions, whether the level 
 7. **Points and pass mark.** `points` per item mirrors the official weighting; `passMark` is the
    official fraction (0.6 for Goethe / telc A1). Run `npm run content:lint`; the exam linter checks
    ids, points, timing ranges and skills.
-8. **Audio.** Until studio recordings exist, `de` and `ch-std` listening stimuli are read by the
+8. **Speaker labels and per-item audio.** Every line of a listening stimulus starts with a speaker
+   label (`Frau:`, `Sprecher:` for the narrator's "Gespräch 1."). Each listening item puts its own
+   part of the recording in `transcript` (never in the `prompt`, which is shown on screen and would
+   turn listening into reading); the prompt stays short (`Gespräch 1 – listen and choose the right
+   answer.`) and the question goes in `question`. `npm run audio:scripts` lists one recording per
+   item (`ex-<id>.mp3`), so items can be replayed one by one, as in the real exam; the section
+   stimulus stays as the full recording. In the exam the item shows only Play / Slower buttons; the
+   transcript appears in the review. Speaker labels are not read aloud. `content:lint` warns when a
+   listening item quotes text in its prompt or has no audio, transcript or stimulus.
+9. **Audio.** Until studio recordings exist, `de` and `ch-std` listening stimuli are read by the
    device's TTS (hidden text, transcript shown in the review); `gsw-*` stimuli have no TTS and are
    shown as text with a "read once, then answer" instruction. `npm run audio:scripts` lists the
    stimuli to record (`content/<level>/exam/audio-script.md`).
@@ -112,8 +121,7 @@ listening and reading only (20 minutes, 21 points, pass at 60 %):
 - *Läse, Teil 2*: a 5-pair matching item (1 point per pair) and two gsw → de transforms.
 
 Learners never have to produce dialect. Answers in Standard German accept several word orders.
-The exam linter reports three warnings for this file (no writing or speaking section, 20 minutes is
-below the A1 written range); they are expected for a recognition-only check.
+The check has no writing or speaking section and only 20 minutes by design (recognition only).
 
 ## Scoring in the app
 

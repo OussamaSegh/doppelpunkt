@@ -7,7 +7,9 @@ import { errorMessage } from '../lib/ai';
 import { haptic, resultTone, toneOfScore } from '../lib/feedback';
 import { useSettings } from '../lib/hooks';
 import { useCardKeys } from '../lib/keys';
+import { audioUrl } from '../content';
 import { Feedback } from './Feedback';
+import { ListenPanel, listeningTranscript } from './Listen';
 import { DictationInput, GapInput, MatchInput, McqInput, OrderInput, TransformInput, TranslateInput } from './inputs';
 import { RolePlayTask } from './RolePlayTask';
 import { SpeakTask } from './SpeakTask';
@@ -124,6 +126,7 @@ function ClosedPlayer({
   const [error, setError] = useState<string>();
   const Input = INPUTS[ex.type] as ComponentType<InputProps<ClosedType>>;
   const form = useRef<HTMLFormElement>(null);
+  const transcript = listeningTranscript(ex);
 
   const check = async () => {
     if (answer === undefined || result) return;
@@ -154,6 +157,7 @@ function ClosedPlayer({
         void check();
       }}
     >
+      {transcript && !result && <ListenPanel text={transcript} variety={ex.variety} url={ex.audio ? audioUrl(unit, ex.audio) : undefined} id={ex.id} />}
       <Input ex={ex} unit={unit} disabled={!!result} onChange={setAnswer} />
       {!result && (
         <button type="submit" className="btn-primary mt-4 w-full sm:w-auto" disabled={answer === undefined}>

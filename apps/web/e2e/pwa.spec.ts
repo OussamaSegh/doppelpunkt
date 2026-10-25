@@ -72,6 +72,28 @@ test.describe('offline', () => {
     await page.goto(`/unit/${unit.id}/uebungen`);
     await expect(page.getByRole('heading', { level: 1, name: unit.title })).toBeVisible();
     await expect(page.getByRole('button', { name: 'Check' })).toBeVisible();
+
+    // Lazy screens (their own JS chunks, never opened before this point) are precached and load offline.
+    const screens: Array<[path: string, heading: string]> = [
+      ['/exam', 'Mock exams'],
+      ['/progress', 'Progress'],
+      ['/review', 'Your review deck is empty'],
+      ['/grammar', 'Grammar reference'],
+      ['/pronunciation', 'Pronunciation'],
+      ['/settings', 'Settings'],
+    ];
+    for (const [path, heading] of screens) {
+      await page.goto(path);
+      await expect(page.getByRole('heading', { level: 1, name: heading })).toBeVisible();
+    }
+    // In-app navigation into a lazy route, then the exam runner itself.
+    await page.getByRole('navigation', { name: 'Main' }).filter({ visible: true }).getByRole('link', { name: 'Learn' }).click();
+    await page.getByRole('link', { name: /A1 mock exam/ }).click();
+    await expect(page.getByRole('heading', { level: 1, name: 'Mock exams' })).toBeVisible();
+    const mock = a1Pack().exams.find((e) => e.id === 'a1-mock-1')!;
+    await page.getByRole('article', { name: mock.title }).getByRole('link', { name: 'Start' }).click();
+    await page.getByRole('button', { name: 'Start the exam' }).click();
+    await expect(page.getByRole('timer')).toBeVisible();
     await context.setOffline(false);
   });
 });
