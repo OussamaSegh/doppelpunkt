@@ -1,0 +1,2687 @@
+{
+  "unitId": "a2-u06",
+  "level": "A2",
+  "folder": "a2/unit-06",
+  "title": "Vergleichen und Kaufen",
+  "delivery": {
+    "raw": "WAV or FLAC, 48 kHz, 24-bit, mono, one file per entry, named <file base>.wav",
+    "processed": [
+      "mp3 64 kbps mono 44.1 kHz",
+      "opus 32 kbps mono 48 kHz",
+      "EBU R128 -16 LUFS, true peak -1.5 dBTP"
+    ]
+  },
+  "entries": [
+    {
+      "file": "dialog-intro-01.mp3",
+      "kind": "dialogue-intro",
+      "text": "Martin, welche Kopfhörer sind besser – diese hier oder die da?",
+      "en": "Martin, which headphones are better – these or those?",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          0,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-01.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-02.mp3",
+      "kind": "dialogue-intro",
+      "text": "Diese hier sind leichter, aber die da sind bequemer.",
+      "en": "These are lighter, but those are more comfortable.",
+      "variety": "ch-std",
+      "voice": "zh-m",
+      "speaker": "Martin",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          1,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-02.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-03.mp3",
+      "kind": "dialogue-intro",
+      "text": "Aber sie sind auch viel teurer. 149 Franken!",
+      "en": "But they're also much more expensive. 149 francs!",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          2,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-03.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-04.mp3",
+      "kind": "dialogue-intro",
+      "text": "Moment, die da sind in Aktion – zwanzig Prozent günstiger.",
+      "en": "Wait, those are on special offer – twenty per cent cheaper.",
+      "variety": "ch-std",
+      "voice": "zh-m",
+      "speaker": "Martin",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          3,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-04.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-05.mp3",
+      "kind": "dialogue-intro",
+      "text": "Guten Tag! Kann ich Ihnen helfen?",
+      "en": "Hello! Can I help you?",
+      "variety": "ch-std",
+      "voice": "zh-f",
+      "speaker": "Verkäuferin",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          4,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-05.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-06.mp3",
+      "kind": "dialogue-intro",
+      "text": "Ja, gern. Ich fahre jeden Tag Zug. Welche Kopfhörer sind am besten für mich?",
+      "en": "Yes, please. I take the train every day. Which headphones are best for me?",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          5,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-06.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-07.mp3",
+      "kind": "dialogue-intro",
+      "text": "Diese hier. Sie sind so gut wie die teuren, aber kleiner und leichter.",
+      "en": "These ones. They're as good as the expensive ones, but smaller and lighter.",
+      "variety": "ch-std",
+      "voice": "zh-f",
+      "speaker": "Verkäuferin",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          6,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-07.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-08.mp3",
+      "kind": "dialogue-intro",
+      "text": "Und wie lange hält der Akku?",
+      "en": "And how long does the battery last?",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          7,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-08.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-09.mp3",
+      "kind": "dialogue-intro",
+      "text": "Vierzig Stunden. Bei diesem Modell hält er am längsten.",
+      "en": "Forty hours. On this model it lasts the longest.",
+      "variety": "ch-std",
+      "voice": "zh-f",
+      "speaker": "Verkäuferin",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          8,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-09.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-10.mp3",
+      "kind": "dialogue-intro",
+      "text": "Vierzig Stunden? Das ist länger als eine Reise nach Manchester!",
+      "en": "Forty hours? That's longer than a trip to Manchester!",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          9,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-10.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-11.mp3",
+      "kind": "dialogue-intro",
+      "text": "Und sie sind dreissig Franken billiger als die anderen. Nimm sie!",
+      "en": "And they're thirty francs cheaper than the others. Take them!",
+      "variety": "ch-std",
+      "voice": "zh-m",
+      "speaker": "Martin",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          10,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-11.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-12.mp3",
+      "kind": "dialogue-intro",
+      "text": "Okay, die nehme ich. Kann ich mit Karte bezahlen?",
+      "en": "OK, I'll take them. Can I pay by card?",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          11,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-12.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-01.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Lueg emal, die zwei Velos! Wels gfallt der besser?",
+      "en": "Look at these two bikes! Which one do you like better?",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          0,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-01.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-02.mp3",
+      "kind": "dialogue-swiss",
+      "text": "S rote isch schöner, aber s blaue isch gröösser – das passt mer besser.",
+      "en": "The red one is nicer, but the blue one is bigger – that suits me better.",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          1,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-02.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-03.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Was choschtet s blaue?",
+      "en": "How much is the blue one?",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          2,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-03.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-04.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Vierhundert Franke. Das isch mer z tüür.",
+      "en": "Four hundred francs. That's too expensive for me.",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          3,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-04.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-05.mp3",
+      "kind": "dialogue-swiss",
+      "text": "S rote isch i de Aktion: nur zweihundertfüfzg. Das isch am billigschte.",
+      "en": "The red one is on special offer: only two hundred and fifty. That's the cheapest.",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          4,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-05.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-06.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Günschtig! Und es hät e Chörbli – das isch gäbig für s Poschte.",
+      "en": "Good price! And it has a little basket – that's handy for the shopping.",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          5,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-06.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-07.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Und es isch fascht so guet wie s blaue.",
+      "en": "And it's almost as good as the blue one.",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          6,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-07.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-08.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Also guet, ich nimm s rote. Jetzt bruuch ich nur no en Helm – aber en günschtige!",
+      "en": "All right, I'll take the red one. Now I only need a helmet – but a cheap one!",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          7,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-08.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-09.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Isch das Velo nid chöschtlech gsy?",
+      "en": "Wasn't the bike expensive?",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "speaker": "Mami",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          8,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-09.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-10.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Nei, es isch i dr Aktion gsy – viu billiger aus ds blaue.",
+      "en": "No, it was on special offer – much cheaper than the blue one.",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          9,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-10.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-11.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Super, de het er ja Glück gha!",
+      "en": "Great, then he was lucky!",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "speaker": "Mami",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          10,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-11.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-preis.mp3",
+      "kind": "vocab",
+      "text": "Preis",
+      "en": "price",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "preis",
+        "pointer": [
+          0,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-preis.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-preis-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Der Preis ist gut.",
+      "en": "The price is good.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "preis",
+        "pointer": [
+          0,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-preis-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-preis-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Priis",
+      "en": "price",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "preis",
+        "pointer": [
+          0,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-preis-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-angebot.mp3",
+      "kind": "vocab",
+      "text": "Angebot",
+      "en": "special offer; offer",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "angebot",
+        "pointer": [
+          1,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-angebot.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-angebot-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Die Kopfhörer sind im Angebot.",
+      "en": "The headphones are on special offer.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "angebot",
+        "pointer": [
+          1,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-angebot-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-angebot-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Aktion",
+      "note": "i de Aktion",
+      "en": "special offer; offer",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "angebot",
+        "pointer": [
+          1,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-angebot-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-ausverkauf.mp3",
+      "kind": "vocab",
+      "text": "Ausverkauf",
+      "en": "sale (clearance)",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "ausverkauf",
+        "pointer": [
+          2,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-ausverkauf.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-ausverkauf-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Im Januar ist Ausverkauf.",
+      "en": "In January there are the sales.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "ausverkauf",
+        "pointer": [
+          2,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-ausverkauf-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-ausverkauf-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Uusverchauf / Ausverchauf",
+      "en": "sale (clearance)",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "ausverkauf",
+        "pointer": [
+          2,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-ausverkauf-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-rabatt.mp3",
+      "kind": "vocab",
+      "text": "Rabatt",
+      "en": "discount",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "rabatt",
+        "pointer": [
+          3,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-rabatt.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-rabatt-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Es gibt zwanzig Prozent Rabatt.",
+      "en": "There's a twenty per cent discount.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "rabatt",
+        "pointer": [
+          3,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-rabatt-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-rabatt-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Rabatt",
+      "en": "discount",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "rabatt",
+        "pointer": [
+          3,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-rabatt-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-prozent.mp3",
+      "kind": "vocab",
+      "text": "Prozent",
+      "en": "per cent",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "prozent",
+        "pointer": [
+          4,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-prozent.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-prozent-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Die Maschine ist dreißig Prozent günstiger.",
+      "en": "The machine is thirty per cent cheaper.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "prozent",
+        "pointer": [
+          4,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-prozent-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-prozent-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Prozänt",
+      "en": "per cent",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "prozent",
+        "pointer": [
+          4,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-prozent-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-quittung.mp3",
+      "kind": "vocab",
+      "text": "Quittung",
+      "en": "receipt",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "quittung",
+        "pointer": [
+          5,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-quittung.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-quittung-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Kann ich bitte eine Quittung haben?",
+      "en": "Can I have a receipt, please?",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "quittung",
+        "pointer": [
+          5,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-quittung-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-quittung-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Quittig",
+      "en": "receipt",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "quittung",
+        "pointer": [
+          5,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-quittung-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-garantie.mp3",
+      "kind": "vocab",
+      "text": "Garantie",
+      "en": "guarantee, warranty",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "garantie",
+        "pointer": [
+          6,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-garantie.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-garantie-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Es gibt zwei Jahre Garantie.",
+      "en": "There's a two-year guarantee.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "garantie",
+        "pointer": [
+          6,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-garantie-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-garantie-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Garantie",
+      "en": "guarantee, warranty",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "garantie",
+        "pointer": [
+          6,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-garantie-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-qualitaet.mp3",
+      "kind": "vocab",
+      "text": "Qualität",
+      "en": "quality",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "qualitaet",
+        "pointer": [
+          7,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-qualitaet.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-qualitaet-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Die Qualität ist besser als der Preis.",
+      "en": "The quality is better than the price suggests.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "qualitaet",
+        "pointer": [
+          7,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-qualitaet-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-qualitaet-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Qualität",
+      "en": "quality",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "qualitaet",
+        "pointer": [
+          7,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-qualitaet-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-modell.mp3",
+      "kind": "vocab",
+      "text": "Modell",
+      "en": "model",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "modell",
+        "pointer": [
+          8,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-modell.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-modell-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Welches Modell ist am leichtesten?",
+      "en": "Which model is the lightest?",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "modell",
+        "pointer": [
+          8,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-modell-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-modell-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Modäll",
+      "en": "model",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "modell",
+        "pointer": [
+          8,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-modell-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-marke.mp3",
+      "kind": "vocab",
+      "text": "Marke",
+      "en": "brand",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "marke",
+        "pointer": [
+          9,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-marke.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-marke-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Diese Marke ist teurer als die andere.",
+      "en": "This brand is more expensive than the other one.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "marke",
+        "pointer": [
+          9,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-marke-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-marke-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Marke",
+      "en": "brand",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "marke",
+        "pointer": [
+          9,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-marke-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kopfhoerer.mp3",
+      "kind": "vocab",
+      "text": "Kopfhörer",
+      "en": "headphones",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kopfhoerer",
+        "pointer": [
+          10,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-kopfhoerer.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kopfhoerer-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich brauche neue Kopfhörer für den Zug.",
+      "en": "I need new headphones for the train.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kopfhoerer",
+        "pointer": [
+          10,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-kopfhoerer-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kopfhoerer-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Chopfhörer",
+      "en": "headphones",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kopfhoerer",
+        "pointer": [
+          10,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-kopfhoerer-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-akku-battery.mp3",
+      "kind": "vocab",
+      "text": "Akku",
+      "en": "(rechargeable) battery",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "akku-battery",
+        "pointer": [
+          11,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-akku-battery.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-akku-battery-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Der Akku hält vierzig Stunden.",
+      "en": "The battery lasts forty hours.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "akku-battery",
+        "pointer": [
+          11,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-akku-battery-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-akku-battery-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Akku",
+      "en": "(rechargeable) battery",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "akku-battery",
+        "pointer": [
+          11,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-akku-battery-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-laptop.mp3",
+      "kind": "vocab",
+      "text": "Laptop",
+      "en": "laptop",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "laptop",
+        "pointer": [
+          12,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-laptop.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-laptop-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Der Laptop ist schwerer als das Tablet.",
+      "en": "The laptop is heavier than the tablet.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "laptop",
+        "pointer": [
+          12,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-laptop-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-laptop-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Laptop",
+      "en": "laptop",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "laptop",
+        "pointer": [
+          12,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-laptop-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kaffeemaschine.mp3",
+      "kind": "vocab",
+      "text": "Kaffeemaschine",
+      "en": "coffee machine",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kaffeemaschine",
+        "pointer": [
+          13,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-kaffeemaschine.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kaffeemaschine-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Die kleine Kaffeemaschine ist am billigsten.",
+      "en": "The small coffee machine is the cheapest.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kaffeemaschine",
+        "pointer": [
+          13,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-kaffeemaschine-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kaffeemaschine-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Kafimaschine",
+      "en": "coffee machine",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kaffeemaschine",
+        "pointer": [
+          13,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-kaffeemaschine-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-vergleichen.mp3",
+      "kind": "vocab",
+      "text": "vergleichen",
+      "en": "to compare",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "vergleichen",
+        "pointer": [
+          14,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-vergleichen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-vergleichen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich vergleiche die Preise im Internet.",
+      "en": "I compare the prices online.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "vergleichen",
+        "pointer": [
+          14,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-vergleichen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-vergleichen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "vergliiche",
+      "en": "to compare",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "vergleichen",
+        "pointer": [
+          14,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-vergleichen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-aussuchen.mp3",
+      "kind": "vocab",
+      "text": "aussuchen",
+      "en": "to choose, to pick out",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "aussuchen",
+        "pointer": [
+          15,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-aussuchen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-aussuchen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Hast du schon ein Geschenk ausgesucht?",
+      "en": "Have you picked out a present yet?",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "aussuchen",
+        "pointer": [
+          15,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-aussuchen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-aussuchen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "uussueche",
+      "en": "to choose, to pick out",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "aussuchen",
+        "pointer": [
+          15,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-aussuchen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-bezahlen.mp3",
+      "kind": "vocab",
+      "text": "bezahlen",
+      "en": "to pay",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "bezahlen",
+        "pointer": [
+          16,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-bezahlen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-bezahlen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Kann ich mit Karte bezahlen?",
+      "en": "Can I pay by card?",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "bezahlen",
+        "pointer": [
+          16,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-bezahlen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-bezahlen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "zale / zahle",
+      "en": "to pay",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "bezahlen",
+        "pointer": [
+          16,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-bezahlen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-umtauschen.mp3",
+      "kind": "vocab",
+      "text": "umtauschen",
+      "en": "to exchange (goods)",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "umtauschen",
+        "pointer": [
+          17,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-umtauschen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-umtauschen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Mit der Quittung kann man alles umtauschen.",
+      "en": "With the receipt you can exchange anything.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "umtauschen",
+        "pointer": [
+          17,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-umtauschen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-umtauschen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "umtuusche",
+      "en": "to exchange (goods)",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "umtauschen",
+        "pointer": [
+          17,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-umtauschen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sparen.mp3",
+      "kind": "vocab",
+      "text": "sparen",
+      "en": "to save (money)",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sparen",
+        "pointer": [
+          18,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-sparen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sparen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "In der Aktion spare ich dreißig Franken.",
+      "en": "With the offer I save thirty francs.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sparen",
+        "pointer": [
+          18,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-sparen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sparen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "spare",
+      "en": "to save (money)",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sparen",
+        "pointer": [
+          18,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-sparen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-ausgeben.mp3",
+      "kind": "vocab",
+      "text": "ausgeben",
+      "en": "to spend (money)",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "ausgeben",
+        "pointer": [
+          19,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-ausgeben.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-ausgeben-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich möchte nicht mehr als hundert Franken ausgeben.",
+      "en": "I don't want to spend more than a hundred francs.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "ausgeben",
+        "pointer": [
+          19,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-ausgeben-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-ausgeben-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "uusgää",
+      "en": "to spend (money)",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "ausgeben",
+        "pointer": [
+          19,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-ausgeben-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-halten.mp3",
+      "kind": "vocab",
+      "text": "halten",
+      "en": "to last; to hold",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "halten",
+        "pointer": [
+          20,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-halten.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-halten-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Wie lange hält der Akku?",
+      "en": "How long does the battery last?",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "halten",
+        "pointer": [
+          20,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-halten-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-halten-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "hebe / halte",
+      "en": "to last; to hold",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "halten",
+        "pointer": [
+          20,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-halten-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-billig.mp3",
+      "kind": "vocab",
+      "text": "billig",
+      "en": "cheap",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "billig",
+        "pointer": [
+          21,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-billig.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-billig-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Das rote Velo ist billiger als das blaue.",
+      "en": "The red bike is cheaper than the blue one.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "billig",
+        "pointer": [
+          21,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-billig-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-billig-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "billig",
+      "note": "am billigschte",
+      "en": "cheap",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "billig",
+        "pointer": [
+          21,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-billig-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-teuer.mp3",
+      "kind": "vocab",
+      "text": "teuer",
+      "en": "expensive",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "teuer",
+        "pointer": [
+          22,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-teuer.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-teuer-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Die Kopfhörer sind teurer als die anderen.",
+      "en": "The headphones are more expensive than the others.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "teuer",
+        "pointer": [
+          22,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-teuer-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-teuer-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "tüür",
+      "note": "tüürer",
+      "en": "expensive",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "teuer",
+        "pointer": [
+          22,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-teuer-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-guenstig.mp3",
+      "kind": "vocab",
+      "text": "günstig",
+      "en": "good value, inexpensive",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "guenstig",
+        "pointer": [
+          23,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-guenstig.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-guenstig-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Diese Maschine ist am günstigsten.",
+      "en": "This machine is the best value.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "guenstig",
+        "pointer": [
+          23,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-guenstig-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-guenstig-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "günschtig",
+      "en": "good value, inexpensive",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "guenstig",
+        "pointer": [
+          23,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-guenstig-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-leicht.mp3",
+      "kind": "vocab",
+      "text": "leicht",
+      "en": "light (not heavy); easy",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "leicht",
+        "pointer": [
+          24,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-leicht.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-leicht-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Diese Kopfhörer sind leichter.",
+      "en": "These headphones are lighter.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "leicht",
+        "pointer": [
+          24,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-leicht-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-leicht-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "liecht",
+      "en": "light (not heavy); easy",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "leicht",
+        "pointer": [
+          24,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-leicht-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-bequem.mp3",
+      "kind": "vocab",
+      "text": "bequem",
+      "en": "comfortable",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "bequem",
+        "pointer": [
+          25,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-bequem.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-bequem-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Das Sofa ist bequemer als der Sessel.",
+      "en": "The sofa is more comfortable than the armchair.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "bequem",
+        "pointer": [
+          25,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-bequem-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-bequem-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "bequem",
+      "en": "comfortable",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "bequem",
+        "pointer": [
+          25,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-bequem-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-modern.mp3",
+      "kind": "vocab",
+      "text": "modern",
+      "en": "modern",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "modern",
+        "pointer": [
+          26,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-modern.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-modern-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Das neue Modell ist moderner.",
+      "en": "The new model is more modern.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "modern",
+        "pointer": [
+          26,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-modern-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-modern-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "modern",
+      "en": "modern",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "modern",
+        "pointer": [
+          26,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-modern-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-praktisch.mp3",
+      "kind": "vocab",
+      "text": "praktisch",
+      "en": "practical, handy",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "praktisch",
+        "pointer": [
+          27,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-praktisch.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-praktisch-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ein Korb am Velo ist sehr praktisch.",
+      "en": "A basket on the bike is very handy.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "praktisch",
+        "pointer": [
+          27,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-praktisch-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-praktisch-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "gäbig / praktisch",
+      "en": "practical, handy",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "praktisch",
+        "pointer": [
+          27,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-praktisch-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-praktisch-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "gäbig",
+      "en": "practical, handy",
+      "variety": "gsw-be",
+      "voice": "be-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "praktisch",
+        "pointer": [
+          27,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-praktisch-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gebraucht.mp3",
+      "kind": "vocab",
+      "text": "gebraucht",
+      "en": "used, second-hand",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gebraucht",
+        "pointer": [
+          28,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-gebraucht.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gebraucht-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich kaufe ein gebrauchtes Velo.",
+      "en": "I'm buying a second-hand bike.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gebraucht",
+        "pointer": [
+          28,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-gebraucht-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gebraucht-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Occasion",
+      "note": "es Occasionsvelo",
+      "en": "used, second-hand",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gebraucht",
+        "pointer": [
+          28,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-gebraucht-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-laut.mp3",
+      "kind": "vocab",
+      "text": "laut",
+      "en": "loud, noisy",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "laut",
+        "pointer": [
+          29,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-laut.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-laut-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Die alte Maschine ist lauter als die neue.",
+      "en": "The old machine is louder than the new one.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "laut",
+        "pointer": [
+          29,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-laut-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-laut-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "luut",
+      "en": "loud, noisy",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "laut",
+        "pointer": [
+          29,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-laut-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-leise.mp3",
+      "kind": "vocab",
+      "text": "leise",
+      "en": "quiet",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "leise",
+        "pointer": [
+          30,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-leise.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-leise-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Die neuen Modelle sind genauso leise wie die alten.",
+      "en": "The new models are just as quiet as the old ones.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "leise",
+        "pointer": [
+          30,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-leise-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-leise-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "liislig / lislig",
+      "en": "quiet",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "leise",
+        "pointer": [
+          30,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-leise-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-besser.mp3",
+      "kind": "vocab",
+      "text": "besser",
+      "en": "better",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "besser",
+        "pointer": [
+          31,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-besser.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-besser-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Welche Kopfhörer sind besser?",
+      "en": "Which headphones are better?",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "besser",
+        "pointer": [
+          31,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-besser-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-besser-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "besser",
+      "en": "better",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "besser",
+        "pointer": [
+          31,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-besser-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-am-besten.mp3",
+      "kind": "vocab",
+      "text": "am besten",
+      "en": "(the) best",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "am-besten",
+        "pointer": [
+          32,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-am-besten.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-am-besten-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Diese Kopfhörer sind am besten für den Zug.",
+      "en": "These headphones are the best for the train.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "am-besten",
+        "pointer": [
+          32,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-am-besten-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-am-besten-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "am beschte",
+      "en": "(the) best",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "am-besten",
+        "pointer": [
+          32,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-am-besten-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-mehr.mp3",
+      "kind": "vocab",
+      "text": "mehr",
+      "en": "more",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "mehr",
+        "pointer": [
+          33,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-mehr.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-mehr-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Das Velo kostet mehr als 300 Franken.",
+      "en": "The bike costs more than 300 francs.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "mehr",
+        "pointer": [
+          33,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-mehr-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-mehr-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "meh",
+      "en": "more",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "mehr",
+        "pointer": [
+          33,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-mehr-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-als.mp3",
+      "kind": "vocab",
+      "text": "als",
+      "en": "than (after a comparative)",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "als",
+        "pointer": [
+          34,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-als.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-als-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Tom ist größer als Martin.",
+      "en": "Tom is taller than Martin.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "als",
+        "pointer": [
+          34,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-als-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-als-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "als / wie / weder",
+      "en": "than (after a comparative)",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "als",
+        "pointer": [
+          34,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-als-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-als-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "aus",
+      "en": "than (after a comparative)",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "als",
+        "pointer": [
+          34,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-als-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-genauso.mp3",
+      "kind": "vocab",
+      "text": "genauso … wie",
+      "en": "just as … as",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "genauso",
+        "pointer": [
+          35,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-genauso.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-genauso-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Das rote Velo ist genauso gut wie das blaue.",
+      "en": "The red bike is just as good as the blue one.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "genauso",
+        "pointer": [
+          35,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-genauso-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-genauso-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "gliich … wie / grad eso … wie",
+      "en": "just as … as",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "genauso",
+        "pointer": [
+          35,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-genauso-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u06-mcq-listening-verkaeuferin.mp3",
+      "kind": "listening",
+      "text": "Verkäuferin: Diese hier. Sie sind so gut wie die teuren, aber kleiner und leichter.",
+      "variety": "ch-std",
+      "voice": "zh-f",
+      "speaker": "Verkäuferin",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u06-mcq-listening-verkaeuferin",
+        "pointer": [
+          25,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u06-mcq-listening-verkaeuferin.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u06-dictation-billiger.mp3",
+      "kind": "dictation",
+      "text": "Die Kopfhörer sind dreißig Franken billiger als die anderen.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u06-dictation-billiger",
+        "pointer": [
+          26,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u06-dictation-billiger.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u06-dictation-am-besten.mp3",
+      "kind": "dictation",
+      "text": "Welches Modell ist am besten für mich?",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u06-dictation-am-besten",
+        "pointer": [
+          27,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u06-dictation-am-besten.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u06-speak-frame.mp3",
+      "kind": "speak",
+      "text": "Mein neues Handy ist größer und schneller als das alte. Der Akku hält am längsten von allen Handys.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u06-speak-frame",
+        "pointer": [
+          28,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u06-speak-frame.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u06-speak-shadow-tom.mp3",
+      "kind": "speak",
+      "text": "Vierzig Stunden? Das ist länger als eine Reise nach Manchester!",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u06-speak-shadow-tom",
+        "pointer": [
+          29,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u06-speak-shadow-tom.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u06-speak-shadow-martin.mp3",
+      "kind": "speak",
+      "text": "Und sie sind dreissig Franken billiger als die anderen. Nimm sie!",
+      "variety": "ch-std",
+      "voice": "zh-m",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u06-speak-shadow-martin",
+        "pointer": [
+          30,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u06-speak-shadow-martin.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u06-speak-intonation.mp3",
+      "kind": "speak",
+      "text": "Sind diese hier besser oder die da?",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u06-speak-intonation",
+        "pointer": [
+          31,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u06-speak-intonation.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u06-speak-pron-oe.mp3",
+      "kind": "speak",
+      "text": "Das Sofa ist schöner und größer, aber am schönsten ist der höhere Sessel.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u06-speak-pron-oe",
+        "pointer": [
+          32,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u06-speak-pron-oe.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u06-ch-mcq-besser.mp3",
+      "kind": "listening",
+      "text": "Reto: S rote isch schöner, aber s blaue isch gröösser – das passt mer besser.",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u06-ch-mcq-besser",
+        "pointer": [
+          36,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u06-ch-mcq-besser.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u06-ch-mcq-so-guet.mp3",
+      "kind": "listening",
+      "text": "Sandra: Und es isch fascht so guet wie s blaue.",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u06-ch-mcq-so-guet",
+        "pointer": [
+          40,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u06-ch-mcq-so-guet.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u06-ch-be-mcq-choeschtlech.mp3",
+      "kind": "listening",
+      "text": "Mami: Isch das Velo nid chöschtlech gsy?",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "speaker": "Mami",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u06-ch-be-mcq-choeschtlech",
+        "pointer": [
+          44,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u06-ch-be-mcq-choeschtlech.mp3",
+      "referenced": false
+    }
+  ]
+}

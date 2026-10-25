@@ -77,6 +77,7 @@ function isPayload(v: unknown): v is LicensePayload {
   return (
     p.v === 1 &&
     typeof p.kid === 'string' &&
+    /^[\w-]{1,32}$/.test(p.kid) &&
     typeof p.pid === 'string' &&
     /^[\w-]{8,64}$/.test(p.pid) &&
     typeof p.sku === 'string' &&
@@ -111,8 +112,9 @@ export function decodeToken(token: string): { payload: LicensePayload; signed: s
 export async function verifyToken(token: string, keys: PublicKeySet, now = Date.now()): Promise<VerifyResult> {
   const decoded = decodeToken(token);
   if (!decoded) return { ok: false, reason: 'malformed' };
-  const raw = keys[decoded.payload.kid];
-  if (!raw) return { ok: false, reason: 'unknown-key' };
+  // Own properties only: a kid like "constructor" or "__proto__" must not reach Object.prototype.
+  const raw = Object.hasOwn(keys, decoded.payload.kid) ? keys[decoded.payload.kid] : undefined;
+  if (typeof raw !== 'string' || !raw) return { ok: false, reason: 'unknown-key' };
   let valid: boolean;
   try {
     valid = await crypto.subtle.verify(ED25519, await importPublic(raw), decoded.signature, utf8(decoded.signed));

@@ -1,0 +1,332 @@
+id: a2-u12
+level: A2
+number: 12
+title: Unterwegs in der Schweiz
+titleEn: Around Switzerland
+goal: >-
+  By the end you can plan a trip in Switzerland with someone – suggest, agree and fix a time (Wollen wir …?
+  Wie wäre es mit …? Treffen wir uns um …?) – say where you are going (nach Bern, in die Altstadt, an den See,
+  auf den Pilatus), tell what you did on a trip in the Perfekt, give reasons and conditions with weil, dass,
+  wenn and als, and recognise how people greet each other in Zurich, Bern and Basel. This unit reviews A2.
+canDo:
+  - I can plan a day trip with someone, make suggestions, agree or disagree and fix a time and place (Wollen wir am Samstag nach Luzern fahren? – Gute Idee! Treffen wir uns um neun am Bahnhof.).
+  - I can say where I am going with nach, in, an, auf and zu, and where something is with the dative (Ich fahre an den Vierwaldstättersee. Das Hotel ist am See.).
+  - I can tell what I did on a trip, with haben and sein, and with war and hatte (Wir sind mit dem Schiff gefahren. Das Wetter war super.).
+  - I can link ideas with weil, dass, wenn, als and ob, with the verb at the end.
+  - I can name some cantons, cities, languages and regional dishes of Switzerland.
+  - I can recognise regional greetings (Grüezi, Grüessech, Griezi, Hoi, Tschou) and understand a short Bernese conversation with help.
+
+review:
+  notes:
+    - "'Hoi zäme! Händ ihr s Billett? Mir fahred am nüüni ab Gleis sächzäh.' – fahred (wir fahren), am nüüni, ab Gleis sächzäh natural?"
+    - "'In Bärn säged d Lüüt nöd Grüezi, sondern Grüessech. Und Tschou statt Tschüss.' – säged, d Lüüt, sondern (is it used in Zurich dialect, or rather 'nöd …, aber …'?), statt?"
+    - "'Det säged vill Lüüt Griezi – mit i. Und d Basler säged Kind, nöd Chind.' – Basel facts from de.wikipedia Baseldeutsch (Griezi for Grüezi; unshifted k in Kind). Is 'Hoi' also usual in Basel (curriculum: Basel Grüezi / Hoi)? Should Basel 'Sali' be mentioned?"
+    - "'Wo n ich s erscht Mal z Bärn gsii bin, han ich fascht nüt verstande.' – wo n ich (als ich; see A2.9), fascht nüt, verstande?"
+    - "'Kei Angscht, mis Mami redt langsam. Lueg, mir sind scho z Bärn!' – redt (redet), mis Mami (neuter) natural?"
+    - "Vocabulary gswZh forms without a source: Kanton, Hauptstadt, Gränze, Region, Röschti, Fondue, Raclette, Spezialität, Altstadt, Schiff, Uusflugsziil, Tageskarte, s GA, Aaschluss, Abfahrt, plane, Bär, Gletscher, Pass, Brunne, Rathuus, Französisch / Franzöösisch, Italiänisch, Rätoromanisch, mehrsprachig, berüemt, ungerwägs / unterwägs, Stadtfüerig."
+    - "Swiss Standard: das GA (Generalabonnement), das Halbtax, die Tageskarte (Spartageskarte), der Röstigraben (Duden: schweizerisch scherzhaft), die Rösti (f.), das Raclette, Grüessech as a Bernese greeting (BD #12003). Nadine's lines: 'Ich bin letztes Jahr mit dem Schiff von Luzern nach Flüelen gefahren.', 'Ich finde, dass man in Bern unbedingt in der Aare schwimmen muss – wenn es warm ist.' Please tick."
+    - "Facts to check: Switzerland has 26 cantons and four national languages (German, French, Italian, Romansh); Bern is the federal city (Bundesstadt) – the constitution names no capital, so the unit says 'Bundesstadt' and explains that people call it the capital. Fribourg / Freiburg is bilingual and lies on the 'Röstigraben'."
+    - "Bernese (short sample, recognition): 'Grüessech mitenand! Syt dir guet aacho?' (Grüessech BD #12003; dir syt BD #18248; aacho BD #11138) / 'Chömet ine! I ha Kafi u Züpfe.' (chömet = kommt, imperative plural?; Züpfe BD #13006) / 'Nachär göh mir zäme a d Aare.' (nachär?, mir göh: lexicon, a d Aare) / Sandra: 'Merci, Mami, das isch lieb vo dir.' – sentence flow and forms?"
+
+intro:
+  scene: >-
+    Thursday lunch in the canteen. Tom's parents are coming from Manchester next month, and Tom wants to show
+    them Switzerland in three days. His colleague Nadine helps him plan. She speaks Swiss Standard German.
+  dialogue:
+    - speaker: Tom
+      text: Nadine, meine Eltern kommen im Mai. Weißt du, wohin wir fahren könnten?
+      en: Nadine, my parents are coming in May. Do you know where we could go?
+    - speaker: Nadine
+      text: Wie wäre es mit Luzern? Ich bin letztes Jahr mit dem Schiff von Luzern nach Flüelen gefahren. Das war wunderschön.
+      en: How about Lucerne? Last year I took the boat from Lucerne to Flüelen. It was wonderful.
+      variety: ch-std
+    - speaker: Tom
+      text: Gute Idee! Meine Mutter fährt gern Schiff. Und am zweiten Tag?
+      en: Good idea! My mother loves boat trips. And on the second day?
+    - speaker: Nadine
+      text: Dann fahrt ihr nach Bern. Die Altstadt ist super, und an der Aare kann man schön spazieren.
+      en: Then you go to Bern. The old town is great, and you can go for a nice walk along the Aare.
+      variety: ch-std
+    - speaker: Tom
+      text: Ich war noch nie in Bern, aber es ist so nah. Ist Bern nicht die Hauptstadt?
+      en: I've never been to Bern, but it's so close. Isn't Bern the capital?
+    - speaker: Nadine
+      text: Fast! Offiziell ist Bern die Bundesstadt. Aber alle sagen Hauptstadt. Wenn es warm ist, musst du unbedingt in der Aare schwimmen.
+      en: Almost! Officially Bern is the federal city. But everyone says capital. If it's warm, you absolutely must swim in the Aare.
+      variety: ch-std
+    - speaker: Tom
+      text: Im Mai? Ich glaube nicht, dass mein Vater das macht! Und der dritte Tag?
+      en: In May? I don't think my father will do that! And the third day?
+      variety: de
+    - speaker: Nadine
+      text: Fahrt doch an den Genfersee, nach Lausanne. Dort spricht man Französisch – dann seht ihr den Röstigraben.
+      en: Why not go to Lake Geneva, to Lausanne? They speak French there – then you'll see the "Röstigraben".
+      variety: ch-std
+    - speaker: Tom
+      text: Den Röstigraben? Was ist das?
+      en: The Röstigraben? What's that?
+    - speaker: Nadine
+      text: Die Grenze zwischen der Deutschschweiz und der Romandie. Kauft für drei Tage eine Tageskarte, wenn ihr kein Halbtax habt.
+      en: The border between German-speaking and French-speaking Switzerland. Buy day passes for the three days if you don't have a Halbtax.
+      variety: ch-std
+    - speaker: Tom
+      text: Super, danke! Wollen wir nächste Woche zusammen den Fahrplan anschauen?
+      en: Great, thanks! Shall we look at the timetable together next week?
+    - speaker: Nadine
+      text: Gern. Am Dienstag habe ich Zeit. Treffen wir uns um zwölf hier in der Kantine?
+      en: Sure. I'm free on Tuesday. Shall we meet at twelve here in the canteen?
+      variety: ch-std
+
+grammar:
+  - id: travel-prepositions
+    title: "Where to? nach, in, an, auf, zu – and where? (review)"
+    body: >-
+      For **where to (Wohin?)** German chooses the preposition by the **kind of place**:
+
+      - **nach** + towns and countries **without** an article, and *nach Hause*: ***nach** Bern, **nach**
+        Lausanne, **nach** Italien*
+
+      - **in** + accusative for countries **with** an article, regions, buildings and areas you go *into*:
+        ***in die** Schweiz, **ins** Tessin, **in die** Altstadt, **ins** Museum*
+
+      - **an** + accusative for water (to the edge of it): ***an den** Genfersee, **an die** Aare, **ans** Meer*
+
+      - **auf** + accusative for mountains (to the top), islands and squares: ***auf den** Pilatus, **auf den**
+        Markt*
+
+      - **zu** + dative for people and specific points: ***zum** Bahnhof, **zu** meiner Mutter, **zur** Kapellbrücke*
+
+
+      For **where (Wo?)** the two-way prepositions take the **dative** (unit 5): *Wir sind **in der** Altstadt /
+      **am** See / **auf dem** Pilatus*. Towns use **in**: *Wir sind **in** Bern* (not *nach*). Being at
+      someone's place is **bei**: ***bei** meiner Mutter*. And coming **from** is **aus** (*aus Manchester*) or
+      **von** (*vom Bahnhof*).
+    tables:
+      - [["Place", "Wohin? (where to)", "Wo? (where)"],
+         ["town / country without article", "nach Bern", "in Bern"],
+         ["country with article / region", "in die Schweiz, ins Tessin", "in der Schweiz, im Tessin"],
+         ["building / part of town", "in die Altstadt, ins Museum", "in der Altstadt, im Museum"],
+         ["lake, river, sea", "an den See, an die Aare", "am See, an der Aare"],
+         ["mountain", "auf den Pilatus", "auf dem Pilatus"],
+         ["person", "zu meiner Mutter", "bei meiner Mutter"],
+         ["home", "nach Hause", "zu Hause"]]
+    commonMistakes:
+      - "*Ich fahre zu Bern.* → **Ich fahre nach Bern.** Towns: nach."
+      - "*Wir fahren nach die Schweiz.* → **Wir fahren in die Schweiz.** Countries with an article: in."
+      - "*Ich gehe zum See schwimmen.* is fine for 'to the lake', but *Ich fahre an den See* is the usual 'trip to the lake'."
+      - "*Ich bin nach Bern.* → **Ich bin in Bern.** Location: in."
+
+  - id: review-a2-perfekt
+    title: "Review: telling a trip in the past"
+    body: >-
+      When you tell a story in spoken German, use the **Perfekt** for most verbs and **war / hatte** for *sein*
+      and *haben* (units 1–2):
+
+      - **haben** + participle for most verbs: *Wir **haben** die Altstadt **besichtigt**. Ich **habe** viel
+        **fotografiert**.*
+
+      - **sein** + participle for movement A → B and change: *Wir **sind** mit dem Schiff nach Flüelen
+        **gefahren**. Wir **sind** früh **aufgestanden**.* Also *sein, bleiben, passieren*: *Wir **sind** zwei
+        Nächte **geblieben**.*
+
+      - **war / hatte**: *Das Wetter **war** super. Wir **hatten** Glück.*
+
+
+      Participles: regular *ge-…-t* (*gemacht, gekauft*), irregular *ge-…-en* (*gefahren, gesehen,
+      geschwommen*), no *ge-* for *-ieren* and *be-/ver-/er-* (*besichtigt, telefoniert*), *ge* in the middle for
+      separable verbs (*angekommen, ausgestiegen*). The participle goes to the **end**.
+    tables:
+      - [["Verb", "Perfekt", "Why"],
+         ["fahren", "Wir sind nach Luzern gefahren.", "movement: sein"],
+         ["besichtigen", "Wir haben die Kapellbrücke besichtigt.", "object: haben, no ge-"],
+         ["ankommen", "Der Zug ist pünktlich angekommen.", "movement, separable: ange-kommen"],
+         ["schwimmen", "Mein Vater ist in der Aare geschwommen.", "movement: sein"],
+         ["sein", "Es war wunderschön.", "Präteritum war"]]
+    commonMistakes:
+      - "*Wir haben nach Bern gefahren.* → **Wir sind nach Bern gefahren.** Movement: sein."
+      - "*Wir sind die Altstadt besichtigt.* → **Wir haben die Altstadt besichtigt.** An object (Akkusativ) means haben."
+      - "*Es ist schön gewesen* is correct and common in Switzerland, but *Es war schön* is the usual form in Germany."
+
+  - id: review-a2-subordinate
+    title: "Review: weil, dass, wenn, als, ob – verb at the end"
+    body: >-
+      All these words start a **subordinate clause**, and the **conjugated verb goes to the end**. If the
+      clause comes first, the main clause starts with its verb.
+
+
+      - **weil** = because (unit 8): *Wir fahren nach Bern, **weil** die Altstadt so schön **ist**.*
+
+      - **dass** = that (unit 8): *Ich glaube nicht, **dass** mein Vater in der Aare **schwimmt**.*
+
+      - **wenn** = if / whenever (unit 9): ***Wenn** es warm **ist**, gehen wir schwimmen.*
+
+      - **als** = when (one time in the past, unit 9): ***Als** wir in Luzern **waren**, hat es geregnet.*
+
+      - **ob** and question words = indirect questions (unit 10): *Weisst du, **ob** der Zug pünktlich **ist**?
+        Kannst du mir sagen, **wann** das Schiff **fährt**?*
+
+
+      With the Perfekt, the auxiliary is the very last word: *…, weil wir zu spät aufgestanden **sind**.* Compare
+      **deshalb** and **trotzdem** (unit 10): they start a main clause, so the verb comes straight after them.
+    tables:
+      - [["Main clause", "Subordinate clause (verb last)"],
+         ["Wir fahren nach Bern,", "weil die Altstadt so schön ist."],
+         ["Ich glaube nicht,", "dass mein Vater in der Aare schwimmt."],
+         ["Wir gehen schwimmen,", "wenn es warm ist."],
+         ["Es hat geregnet,", "als wir in Luzern waren."],
+         ["Weisst du,", "ob das Schiff heute fährt?"],
+         ["Wir kommen später,", "weil wir den Zug verpasst haben."]]
+    commonMistakes:
+      - "*…, weil die Altstadt ist so schön.* → **…, weil die Altstadt so schön ist.** Verb last."
+      - "*Wenn es ist warm, …* → **Wenn es warm ist, gehen wir …**"
+      - "*…, weil wir haben den Zug verpasst.* → **…, weil wir den Zug verpasst haben.**"
+
+  - id: planning-together
+    title: "Planning together: suggest, agree, fix a time"
+    body: >-
+      To plan something with a friend, you need four moves – the same as in part 3 of the A2 speaking exam.
+
+      - **Suggest:** *Wollen wir am Samstag nach Luzern fahren? Wie wäre es mit einer Schifffahrt? Lass uns doch
+        an den See gehen! Ich schlage vor, dass wir den Zug um neun nehmen.* (vorschlagen = to suggest)
+
+      - **Agree / disagree:** *Gute Idee! Das passt mir. Einverstanden! – Am Samstag kann ich leider nicht, da
+        muss ich arbeiten. Lieber am Sonntag?*
+
+      - **Ask about time:** *Hast du am Samstag Zeit? Wann passt es dir? Um wie viel Uhr?*
+
+      - **Fix the details:** *Treffen wir uns um neun am Bahnhof. Wer kauft die Billette? Ich bringe das Picknick
+        mit.*
+
+
+      *Wie wäre es mit …?* takes the dative (*mit einem Ausflug, mit der Altstadt*); *wäre* is a chunk here, like
+      *hätte gern*.
+    tables:
+      - [["Move", "Chunks"],
+         ["suggest", "Wollen wir …? / Wie wäre es mit …? / Lass uns doch …!"],
+         ["agree", "Gute Idee! / Einverstanden! / Das passt mir gut."],
+         ["say no politely", "Da kann ich leider nicht, weil … / Lieber am …?"],
+         ["fix details", "Treffen wir uns um … am …? / Ich kaufe die Billette."]]
+    commonMistakes:
+      - "*Wie wäre es mit ein Ausflug?* → **Wie wäre es mit einem Ausflug?** mit + dative."
+      - "*Wollen wir fahren nach Luzern?* → **Wollen wir nach Luzern fahren?** Infinitive at the end."
+      - "*Lass uns gehen an den See!* → **Lass uns an den See gehen!**"
+
+reading:
+  title: "Drei Tage, drei Sprachen: Die Schweiz mit dem Zug"
+  text: >-
+    Die Schweiz ist klein, aber sehr vielfältig: Sie hat 26 Kantone und vier Landessprachen – Deutsch,
+    Französisch, Italienisch und Rätoromanisch. Mit dem Zug sieht man in drei Tagen viel.
+
+
+    Am ersten Tag fahren Sie von Zürich nach Luzern. Besichtigen Sie die Kapellbrücke und machen Sie eine
+    Schifffahrt auf dem Vierwaldstättersee. Wenn das Wetter schön ist, fahren Sie mit der Zahnradbahn auf den
+    Pilatus.
+
+
+    Am zweiten Tag geht es nach Bern. Die Altstadt mit ihren Brunnen und Arkaden gehört zum UNESCO-Welterbe. Im
+    Sommer schwimmen viele Bernerinnen und Berner in der Aare – das Wasser ist kalt, aber sauber.
+
+
+    Am dritten Tag fahren Sie über Freiburg, eine zweisprachige Stadt, an den Genfersee. In Lausanne spricht man
+    Französisch, und das Essen ist anders: Statt Rösti gibt es Fondue und Raclette.
+
+
+    Unser Tipp: Kaufen Sie eine Tageskarte, wenn Sie kein Halbtax oder GA haben. Und reservieren Sie im Sommer
+    einen Sitzplatz, weil die Züge oft voll sind.
+  en: >-
+    Switzerland is small but very varied: it has 26 cantons and four national languages – German, French,
+    Italian and Romansh. By train you can see a lot in three days.
+
+
+    On the first day you go from Zurich to Lucerne. Visit the Chapel Bridge and take a boat trip on Lake Lucerne.
+    If the weather is nice, take the cogwheel railway up the Pilatus.
+
+
+    On the second day you head to Bern. The old town with its fountains and arcades is a UNESCO World Heritage
+    Site. In summer many people from Bern swim in the Aare – the water is cold but clean.
+
+
+    On the third day you travel via Fribourg, a bilingual town, to Lake Geneva. In Lausanne people speak French,
+    and the food is different: instead of Rösti there is fondue and raclette.
+
+
+    Our tip: buy a day pass if you don't have a Halbtax or a GA. And book a seat in summer, because the trains are
+    often full.
+
+swiss:
+  scene: >-
+    Saturday morning on the train from Zurich to Bern. Reto and Sandra are taking Tom and Anna to visit Sandra's
+    mother. On the way they talk about how people greet each other in different parts of Switzerland. In Bern,
+    Sandra's mother welcomes them in Bernese – a short preview of the B1 Bernese option.
+  dialogue:
+    - speaker: Reto
+      text: Hoi zäme! Händ ihr s Billett? Mir fahred am nüüni ab Gleis sächzäh.
+      en: Hi everyone! Have you got your tickets? We leave at nine from platform sixteen.
+      variety: gsw-zh
+    - speaker: Sandra
+      text: "Ja. Und lueged: In Bärn säged d Lüüt nöd Grüezi, sondern Grüessech. Und Tschou statt Tschüss."
+      en: "Yes. And listen: in Bern people don't say Grüezi but Grüessech. And Tschou instead of Tschüss."
+      variety: gsw-zh
+    - speaker: Reto
+      text: Und z Basel?
+      en: And in Basel?
+      variety: gsw-zh
+    - speaker: Sandra
+      text: Det säged vill Lüüt Griezi – mit i. Und d Basler säged Kind, nöd Chind.
+      en: There lots of people say Griezi – with an i. And people from Basel say Kind, not Chind.
+      variety: gsw-zh
+    - speaker: Reto
+      text: Lustig. Wo n ich s erscht Mal z Bärn gsii bin, han ich fascht nüt verstande.
+      en: Funny. The first time I was in Bern, I understood almost nothing.
+      variety: gsw-zh
+    - speaker: Sandra
+      text: Kei Angscht, mis Mami redt langsam. Lueg, mir sind scho z Bärn!
+      en: Don't worry, my mum speaks slowly. Look, we're already in Bern!
+      variety: gsw-zh
+    - speaker: Mami
+      text: Grüessech mitenand! Syt dir guet aacho?
+      en: Hello everyone! Did you arrive safely?
+      variety: gsw-be
+    - speaker: Reto
+      text: Grüezi! Ja, merci, de Zug isch pünktlich gsii.
+      en: Hello! Yes, thanks, the train was on time.
+      variety: gsw-zh
+    - speaker: Mami
+      text: Chömet ine! I ha Kafi u Züpfe.
+      en: Come in! I've got coffee and Zopf.
+      variety: gsw-be
+    - speaker: Mami
+      text: Nachär göh mir zäme a d Aare.
+      en: Afterwards we'll all go down to the Aare together.
+      variety: gsw-be
+    - speaker: Sandra
+      text: Merci, Mami, das isch lieb vo dir.
+      en: Thanks, Mum, that's kind of you.
+      variety: gsw-be
+  notes:
+    - >-
+      **Greetings around Switzerland.** **Zurich:** *Grüezi* (polite, to one person), *Grüezi mitenand* (to
+      several), *Hoi* and *Sali* (to friends), goodbye *Uf Widerluege / Tschüss / Ciao*. **Bern:** **Grüessech**
+      (= Grüss Euch; polite, berndeutsch.ch), *Grüessech mitenand*, *Hoi*, goodbye **Tschou** (berndeutsch.ch: to
+      people you know). **Basel:** many people say **Griezi** – Basel German unrounds ü to i (*grien* for grün,
+      *scheen* for schön) – and *Hoi* among friends (Wikipedia, *Baseldeutsch*). *Hoi* works almost everywhere in
+      German-speaking Switzerland.
+    - >-
+      **Regional sounds to recognise:** Bern turns **l into u** before consonants and at the end of a word (*viu* =
+      viel, *Miuch* = Milch, *gäu* = gell) and says **i** for *ich*, **nid** for *nicht*. Basel keeps **k** at
+      the start of a word where Zurich has *ch*: *Kind* vs *Chind* (Wikipedia, *Baseldeutsch*). The grammar stays
+      the same – no Präteritum anywhere: *Wo n ich z Bärn gsii bin …*
+    - >-
+      **The Röstigraben** (Duden: schweizerisch, scherzhaft) is the language border between German-speaking
+      Switzerland and the French-speaking **Romandie** – named after the Swiss German potato dish *Rösti*. It runs
+      through bilingual towns such as Fribourg / Freiburg and Biel / Bienne. Switzerland has four national
+      languages: German, French, Italian and Romansh (*Rätoromanisch*).
+    - >-
+      **Travel words in Swiss Standard German:** *das Billett*, *das Halbtax* (half-price card), *das GA*
+      (Generalabonnement – the all-network pass), *die Tageskarte*, *das Gleis*, *pünktlich*. Bern is officially
+      the **Bundesstadt** (federal city); people still call it the capital.
+    - >-
+      **Bernese sample** (Sandra's mother): **Grüessech mitenand!** = Guten Tag zusammen!, **Syt dir guet
+      aacho?** = Seid ihr gut angekommen? (*dir syt*, *aacho*: berndeutsch.ch), **Chömet ine!** = Kommt herein!,
+      **u** = und, **d Züpfe** = der Zopf (berndeutsch.ch), **nachär** = nachher, **göh mir** = gehen wir, **a d
+      Aare** = an die Aare. Bernese becomes an active option at B1.

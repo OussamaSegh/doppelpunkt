@@ -1,0 +1,2857 @@
+{
+  "unitId": "a2-u05",
+  "level": "A2",
+  "folder": "a2/unit-05",
+  "title": "Umziehen und Einrichten",
+  "delivery": {
+    "raw": "WAV or FLAC, 48 kHz, 24-bit, mono, one file per entry, named <file base>.wav",
+    "processed": [
+      "mp3 64 kbps mono 44.1 kHz",
+      "opus 32 kbps mono 48 kHz",
+      "EBU R128 -16 LUFS, true peak -1.5 dBTP"
+    ]
+  },
+  "entries": [
+    {
+      "file": "dialog-intro-01.mp3",
+      "kind": "dialogue-intro",
+      "text": "Hallo Tom! Merci für deine Hilfe. Der Zügelwagen ist schon da.",
+      "en": "Hi Tom! Thanks for your help. The removal van is already here.",
+      "variety": "ch-std",
+      "voice": "zh-f",
+      "speaker": "Nadine",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          0,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-01.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-02.mp3",
+      "kind": "dialogue-intro",
+      "text": "Gern! Wohin kommt das Sofa?",
+      "en": "My pleasure! Where does the sofa go?",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          1,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-02.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-03.mp3",
+      "kind": "dialogue-intro",
+      "text": "Ins Wohnzimmer, bitte. Stell es an die Wand, unter das Fenster.",
+      "en": "Into the living room, please. Put it against the wall, under the window.",
+      "variety": "ch-std",
+      "voice": "zh-f",
+      "speaker": "Nadine",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          2,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-03.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-04.mp3",
+      "kind": "dialogue-intro",
+      "text": "Okay. Und der Tisch? Stelle ich ihn neben das Sofa?",
+      "en": "OK. And the table? Shall I put it next to the sofa?",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          3,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-04.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-05.mp3",
+      "kind": "dialogue-intro",
+      "text": "Nein, der Tisch kommt in die Küche. Die Stühle auch.",
+      "en": "No, the table goes in the kitchen. The chairs too.",
+      "variety": "ch-std",
+      "voice": "zh-f",
+      "speaker": "Nadine",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          4,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-05.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-06.mp3",
+      "kind": "dialogue-intro",
+      "text": "Und wo ist der Karton mit den Gläsern?",
+      "en": "And where's the box with the glasses?",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          5,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-06.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-07.mp3",
+      "kind": "dialogue-intro",
+      "text": "Er steht im Gang, hinter der Tür. Stell die Gläser bitte in den Schrank.",
+      "en": "It's in the hallway, behind the door. Please put the glasses in the cupboard.",
+      "variety": "ch-std",
+      "voice": "zh-f",
+      "speaker": "Nadine",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          6,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-07.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-08.mp3",
+      "kind": "dialogue-intro",
+      "text": "Mache ich. Und wohin hängen wir das Bild?",
+      "en": "Will do. And where shall we hang the picture?",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          7,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-08.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-09.mp3",
+      "kind": "dialogue-intro",
+      "text": "Über das Sofa. Die Lampe hängt schon über dem Tisch.",
+      "en": "Above the sofa. The lamp is already hanging above the table.",
+      "variety": "ch-std",
+      "voice": "zh-f",
+      "speaker": "Nadine",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          8,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-09.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-10.mp3",
+      "kind": "dialogue-intro",
+      "text": "Sehr schön! Aber das Bett liegt noch in Teilen auf dem Boden.",
+      "en": "Very nice! But the bed is still lying in pieces on the floor.",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          9,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-10.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-11.mp3",
+      "kind": "dialogue-intro",
+      "text": "Das baue ich später auf. Jetzt machen wir zuerst eine Pause – ich habe Pizza bestellt!",
+      "en": "I'll put that together later. First let's take a break – I've ordered pizza!",
+      "variety": "ch-std",
+      "voice": "zh-f",
+      "speaker": "Nadine",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          10,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-11.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-12.mp3",
+      "kind": "dialogue-intro",
+      "text": "Super, ich habe Hunger!",
+      "en": "Great, I'm hungry!",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          11,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-12.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-01.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Hoi Reto, chumm ine!",
+      "en": "Hi Reto, come in!",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          0,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-01.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-02.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Hoi! Ich ha der s Tischli us em Chäller bracht. Wo söll ich s ane stelle?",
+      "en": "Hi! I've brought you the little table from the cellar. Where shall I put it?",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          1,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-02.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-03.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Merci! Stell s bitte i d Stube, näbe s Sofa.",
+      "en": "Thanks! Please put it in the living room, next to the sofa.",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          2,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-03.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-04.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Oh, und wer isch das? Es Chätzli!",
+      "en": "Oh, and who's this? A kitten!",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          3,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-04.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-05.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Ja, das isch d Mimi. Si wohnt sit geschter bi mir.",
+      "en": "Yes, this is Mimi. She's been living with me since yesterday.",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          4,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-05.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-06.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Mega herzig! Was macht si det uf em Chaschte?",
+      "en": "So cute! What's she doing up there on the wardrobe?",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          5,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-06.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-07.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Si spilt mit irem Müsli. Es isch us Stoff.",
+      "en": "She's playing with her little mouse. It's made of fabric.",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          6,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-07.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-08.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Und die leere Kartons? Söll ich die abe in Chäller träge?",
+      "en": "And the empty boxes? Shall I carry them down to the cellar?",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          7,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-08.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-09.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Ja, gärn. Und dänn chunnsch wider ufe, und mir trinked es Käfeli.",
+      "en": "Yes, please. And then you come back up, and we'll have a coffee.",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          8,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-09.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-10.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Sandra, i ghöre, du hesch es Chätzli?",
+      "en": "Sandra, I hear you've got a kitten?",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "speaker": "Mami",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          9,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-10.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-11.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Ja, Mami! Es isch so härzig. Und d Mia züglet im Mai uf Thun.",
+      "en": "Yes, Mum! It's so cute. And Mia is moving to Thun in May.",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          10,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-11.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-12.mp3",
+      "kind": "dialogue-swiss",
+      "text": "I weiss. Mir hälfe re bi dr Züglete.",
+      "en": "I know. We'll help her with the move.",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "speaker": "Mami",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          11,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-12.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-umzug.mp3",
+      "kind": "vocab",
+      "text": "Umzug",
+      "en": "move (to a new home)",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "umzug",
+        "pointer": [
+          0,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-umzug.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-umzug-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Tom hilft Nadine beim Umzug.",
+      "en": "Tom is helping Nadine with the move.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "umzug",
+        "pointer": [
+          0,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-umzug-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-umzug-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Züglete / s Zügle",
+      "en": "move (to a new home)",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "umzug",
+        "pointer": [
+          0,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-umzug-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-umzug-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "Züglete",
+      "note": "d Züglete",
+      "en": "move (to a new home)",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "umzug",
+        "pointer": [
+          0,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-umzug-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-umziehen.mp3",
+      "kind": "vocab",
+      "text": "umziehen",
+      "en": "to move (house)",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "umziehen",
+        "pointer": [
+          1,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-umziehen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-umziehen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Nadine ist nach Winterthur umgezogen.",
+      "en": "Nadine has moved to Winterthur.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "umziehen",
+        "pointer": [
+          1,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-umziehen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-umziehen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "zügle",
+      "note": "züglet",
+      "en": "to move (house)",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "umziehen",
+        "pointer": [
+          1,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-umziehen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-umziehen-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "zügle",
+      "note": "züglet",
+      "en": "to move (house)",
+      "variety": "gsw-be",
+      "voice": "be-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "umziehen",
+        "pointer": [
+          1,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-umziehen-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-tragen.mp3",
+      "kind": "vocab",
+      "text": "tragen",
+      "en": "to carry",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "tragen",
+        "pointer": [
+          2,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-tragen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-tragen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Kannst du den Karton in den Keller tragen?",
+      "en": "Can you carry the box to the cellar?",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "tragen",
+        "pointer": [
+          2,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-tragen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-tragen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "träge",
+      "en": "to carry",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "tragen",
+        "pointer": [
+          2,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-tragen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-karton.mp3",
+      "kind": "vocab",
+      "text": "Karton",
+      "en": "cardboard box",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "karton",
+        "pointer": [
+          3,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-karton.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-karton-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Die Teller sind noch im Karton.",
+      "en": "The plates are still in the box.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "karton",
+        "pointer": [
+          3,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-karton-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-karton-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Karton / Kartonschachtle",
+      "en": "cardboard box",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "karton",
+        "pointer": [
+          3,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-karton-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-aufbauen.mp3",
+      "kind": "vocab",
+      "text": "aufbauen",
+      "en": "to put together, to assemble",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "aufbauen",
+        "pointer": [
+          4,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-aufbauen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-aufbauen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Das Bett baue ich später auf.",
+      "en": "I'll put the bed together later.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "aufbauen",
+        "pointer": [
+          4,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-aufbauen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-aufbauen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "ufstelle / zämebaue",
+      "en": "to put together, to assemble",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "aufbauen",
+        "pointer": [
+          4,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-aufbauen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-einrichten.mp3",
+      "kind": "vocab",
+      "text": "einrichten",
+      "en": "to furnish",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "einrichten",
+        "pointer": [
+          5,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-einrichten.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-einrichten-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich richte mein Wohnzimmer neu ein.",
+      "en": "I'm furnishing my living room again.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "einrichten",
+        "pointer": [
+          5,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-einrichten-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-einrichten-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "iirichte",
+      "en": "to furnish",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "einrichten",
+        "pointer": [
+          5,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-einrichten-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-moebel.mp3",
+      "kind": "vocab",
+      "text": "Möbel",
+      "en": "furniture",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "moebel",
+        "pointer": [
+          6,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-moebel.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-moebel-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Die Möbel sind schon in der Wohnung.",
+      "en": "The furniture is already in the flat.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "moebel",
+        "pointer": [
+          6,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-moebel-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-moebel-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Möbel",
+      "en": "furniture",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "moebel",
+        "pointer": [
+          6,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-moebel-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-moebel-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "Möbu",
+      "note": "small = Möbeli",
+      "en": "furniture",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "moebel",
+        "pointer": [
+          6,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-moebel-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sofa.mp3",
+      "kind": "vocab",
+      "text": "Sofa",
+      "en": "sofa",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sofa",
+        "pointer": [
+          7,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-sofa.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sofa-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Das Sofa steht unter dem Fenster.",
+      "en": "The sofa is under the window.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sofa",
+        "pointer": [
+          7,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-sofa-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sofa-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Sofa",
+      "en": "sofa",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sofa",
+        "pointer": [
+          7,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-sofa-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sessel.mp3",
+      "kind": "vocab",
+      "text": "Sessel",
+      "en": "armchair",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sessel",
+        "pointer": [
+          8,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-sessel.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sessel-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Neben dem Sofa steht ein Sessel.",
+      "en": "There's an armchair next to the sofa.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sessel",
+        "pointer": [
+          8,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-sessel-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sessel-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Sessel / Fauteuil",
+      "en": "armchair",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sessel",
+        "pointer": [
+          8,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-sessel-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-schrank.mp3",
+      "kind": "vocab",
+      "text": "Schrank",
+      "en": "cupboard, wardrobe",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "schrank",
+        "pointer": [
+          9,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-schrank.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-schrank-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Stell die Gläser bitte in den Schrank.",
+      "en": "Please put the glasses in the cupboard.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "schrank",
+        "pointer": [
+          9,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-schrank-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-schrank-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Chaschte / Schrank",
+      "en": "cupboard, wardrobe",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "schrank",
+        "pointer": [
+          9,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-schrank-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-regal.mp3",
+      "kind": "vocab",
+      "text": "Regal",
+      "en": "shelf, set of shelves",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "regal",
+        "pointer": [
+          10,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-regal.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-regal-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Die Bücher stehen im Regal.",
+      "en": "The books are on the shelves.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "regal",
+        "pointer": [
+          10,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-regal-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-regal-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Gstell / Regal",
+      "en": "shelf, set of shelves",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "regal",
+        "pointer": [
+          10,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-regal-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-tisch.mp3",
+      "kind": "vocab",
+      "text": "Tisch",
+      "en": "table",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "tisch",
+        "pointer": [
+          11,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-tisch.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-tisch-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Der Tisch kommt in die Küche.",
+      "en": "The table goes in the kitchen.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "tisch",
+        "pointer": [
+          11,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-tisch-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-tisch-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Tisch",
+      "note": "small = Tischli",
+      "en": "table",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "tisch",
+        "pointer": [
+          11,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-tisch-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-stuhl.mp3",
+      "kind": "vocab",
+      "text": "Stuhl",
+      "en": "chair",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "stuhl",
+        "pointer": [
+          12,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-stuhl.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-stuhl-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Um den Tisch stehen vier Stühle.",
+      "en": "There are four chairs around the table.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "stuhl",
+        "pointer": [
+          12,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-stuhl-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-stuhl-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Stuehl",
+      "note": "small = Stüeli",
+      "en": "chair",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "stuhl",
+        "pointer": [
+          12,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-stuhl-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-stuhl-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "Stuel",
+      "note": "small = Stüeli",
+      "en": "chair",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "stuhl",
+        "pointer": [
+          12,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-stuhl-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-bett.mp3",
+      "kind": "vocab",
+      "text": "Bett",
+      "en": "bed",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "bett",
+        "pointer": [
+          13,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-bett.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-bett-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Das Bett steht an der Wand.",
+      "en": "The bed is against the wall.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "bett",
+        "pointer": [
+          13,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-bett-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-bett-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Bett",
+      "en": "bed",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "bett",
+        "pointer": [
+          13,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-bett-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-lampe.mp3",
+      "kind": "vocab",
+      "text": "Lampe",
+      "en": "lamp, light",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "lampe",
+        "pointer": [
+          14,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-lampe.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-lampe-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Die Lampe hängt über dem Tisch.",
+      "en": "The light hangs above the table.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "lampe",
+        "pointer": [
+          14,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-lampe-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-lampe-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Lampe",
+      "en": "lamp, light",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "lampe",
+        "pointer": [
+          14,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-lampe-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-teppich.mp3",
+      "kind": "vocab",
+      "text": "Teppich",
+      "en": "rug, carpet",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "teppich",
+        "pointer": [
+          15,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-teppich.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-teppich-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Auf dem Boden liegt ein blauer Teppich.",
+      "en": "There's a blue rug on the floor.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "teppich",
+        "pointer": [
+          15,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-teppich-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-teppich-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Teppich",
+      "en": "rug, carpet",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "teppich",
+        "pointer": [
+          15,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-teppich-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-bild.mp3",
+      "kind": "vocab",
+      "text": "Bild",
+      "en": "picture",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "bild",
+        "pointer": [
+          16,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-bild.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-bild-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Wir hängen das Bild über das Sofa.",
+      "en": "We'll hang the picture above the sofa.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "bild",
+        "pointer": [
+          16,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-bild-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-bild-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Bild",
+      "en": "picture",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "bild",
+        "pointer": [
+          16,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-bild-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-spiegel.mp3",
+      "kind": "vocab",
+      "text": "Spiegel",
+      "en": "mirror",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "spiegel",
+        "pointer": [
+          17,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-spiegel.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-spiegel-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Der Spiegel hängt im Bad.",
+      "en": "The mirror hangs in the bathroom.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "spiegel",
+        "pointer": [
+          17,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-spiegel-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-spiegel-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Spiegel",
+      "en": "mirror",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "spiegel",
+        "pointer": [
+          17,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-spiegel-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-vorhang.mp3",
+      "kind": "vocab",
+      "text": "Vorhang",
+      "en": "curtain",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "vorhang",
+        "pointer": [
+          18,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-vorhang.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-vorhang-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Die Vorhänge sind noch im Karton.",
+      "en": "The curtains are still in the box.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "vorhang",
+        "pointer": [
+          18,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-vorhang-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-vorhang-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Vorhang",
+      "en": "curtain",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "vorhang",
+        "pointer": [
+          18,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-vorhang-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-flur.mp3",
+      "kind": "vocab",
+      "text": "Flur",
+      "en": "hallway, corridor",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "flur",
+        "pointer": [
+          19,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-flur.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-flur-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Der Karton steht im Flur.",
+      "en": "The box is in the hallway.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "flur",
+        "pointer": [
+          19,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-flur-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-flur-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Gang",
+      "en": "hallway, corridor",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "flur",
+        "pointer": [
+          19,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-flur-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wand.mp3",
+      "kind": "vocab",
+      "text": "Wand",
+      "en": "wall (inside)",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wand",
+        "pointer": [
+          20,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-wand.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wand-ex.mp3",
+      "kind": "vocab-example",
+      "text": "An der Wand hängt ein Bild.",
+      "en": "There's a picture on the wall.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wand",
+        "pointer": [
+          20,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-wand-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wand-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Wand",
+      "en": "wall (inside)",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wand",
+        "pointer": [
+          20,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-wand-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-boden.mp3",
+      "kind": "vocab",
+      "text": "Boden",
+      "en": "floor",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "boden",
+        "pointer": [
+          21,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-boden.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-boden-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Meine Kleider liegen noch auf dem Boden.",
+      "en": "My clothes are still lying on the floor.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "boden",
+        "pointer": [
+          21,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-boden-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-boden-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Bode",
+      "en": "floor",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "boden",
+        "pointer": [
+          21,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-boden-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-decke.mp3",
+      "kind": "vocab",
+      "text": "Decke",
+      "en": "ceiling; blanket",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "decke",
+        "pointer": [
+          22,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-decke.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-decke-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Die Lampe hängt an der Decke.",
+      "en": "The light hangs from the ceiling.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "decke",
+        "pointer": [
+          22,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-decke-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-decke-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Decki",
+      "en": "ceiling; blanket",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "decke",
+        "pointer": [
+          22,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-decke-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-ecke.mp3",
+      "kind": "vocab",
+      "text": "Ecke",
+      "en": "corner",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "ecke",
+        "pointer": [
+          23,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-ecke.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-ecke-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Stell den Sessel in die Ecke.",
+      "en": "Put the armchair in the corner.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "ecke",
+        "pointer": [
+          23,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-ecke-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-ecke-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Egge",
+      "en": "corner",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "ecke",
+        "pointer": [
+          23,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-ecke-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-stellen.mp3",
+      "kind": "vocab",
+      "text": "stellen",
+      "en": "to put (upright), to stand",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "stellen",
+        "pointer": [
+          24,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-stellen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-stellen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich stelle den Tisch in die Küche.",
+      "en": "I'm putting the table in the kitchen.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "stellen",
+        "pointer": [
+          24,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-stellen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-stellen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "stelle",
+      "en": "to put (upright), to stand",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "stellen",
+        "pointer": [
+          24,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-stellen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-stehen.mp3",
+      "kind": "vocab",
+      "text": "stehen",
+      "en": "to stand, to be (upright)",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "stehen",
+        "pointer": [
+          25,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-stehen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-stehen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Der Tisch steht in der Küche.",
+      "en": "The table is in the kitchen.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "stehen",
+        "pointer": [
+          25,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-stehen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-stehen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "stah",
+      "note": "es staht",
+      "en": "to stand, to be (upright)",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "stehen",
+        "pointer": [
+          25,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-stehen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-legen.mp3",
+      "kind": "vocab",
+      "text": "legen",
+      "en": "to put (flat), to lay",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "legen",
+        "pointer": [
+          26,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-legen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-legen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich lege das Handy auf den Tisch.",
+      "en": "I'm putting the phone on the table.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "legen",
+        "pointer": [
+          26,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-legen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-legen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "lege / leie",
+      "en": "to put (flat), to lay",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "legen",
+        "pointer": [
+          26,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-legen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-liegen.mp3",
+      "kind": "vocab",
+      "text": "liegen",
+      "en": "to lie, to be (lying)",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "liegen",
+        "pointer": [
+          27,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-liegen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-liegen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Das Handy liegt auf dem Tisch.",
+      "en": "The phone is on the table.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "liegen",
+        "pointer": [
+          27,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-liegen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-liegen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "ligge",
+      "en": "to lie, to be (lying)",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "liegen",
+        "pointer": [
+          27,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-liegen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-haengen.mp3",
+      "kind": "vocab",
+      "text": "hängen",
+      "en": "to hang",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "haengen",
+        "pointer": [
+          28,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-haengen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-haengen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich hänge das Bild an die Wand. Jetzt hängt es an der Wand.",
+      "en": "I'm hanging the picture on the wall. Now it's on the wall.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "haengen",
+        "pointer": [
+          28,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-haengen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-haengen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "hänke",
+      "en": "to hang",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "haengen",
+        "pointer": [
+          28,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-haengen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-neben.mp3",
+      "kind": "vocab",
+      "text": "neben",
+      "en": "next to",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "neben",
+        "pointer": [
+          29,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-neben.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-neben-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Der Sessel steht neben dem Sofa.",
+      "en": "The armchair is next to the sofa.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "neben",
+        "pointer": [
+          29,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-neben-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-neben-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "näbe",
+      "en": "next to",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "neben",
+        "pointer": [
+          29,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-neben-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-zwischen.mp3",
+      "kind": "vocab",
+      "text": "zwischen",
+      "en": "between",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "zwischen",
+        "pointer": [
+          30,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-zwischen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-zwischen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Die Lampe steht zwischen dem Sofa und dem Sessel.",
+      "en": "The lamp is between the sofa and the armchair.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "zwischen",
+        "pointer": [
+          30,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-zwischen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-zwischen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "zwüsche",
+      "en": "between",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "zwischen",
+        "pointer": [
+          30,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-zwischen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-hinter.mp3",
+      "kind": "vocab",
+      "text": "hinter",
+      "en": "behind",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "hinter",
+        "pointer": [
+          31,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-hinter.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-hinter-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Der Karton steht hinter der Tür.",
+      "en": "The box is behind the door.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "hinter",
+        "pointer": [
+          31,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-hinter-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-hinter-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "hinder",
+      "en": "behind",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "hinter",
+        "pointer": [
+          31,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-hinter-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-ueber.mp3",
+      "kind": "vocab",
+      "text": "über",
+      "en": "above, over",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "ueber",
+        "pointer": [
+          32,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-ueber.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-ueber-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Über dem Sofa hängt ein Bild.",
+      "en": "There's a picture above the sofa.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "ueber",
+        "pointer": [
+          32,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-ueber-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-ueber-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "über",
+      "en": "above, over",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "ueber",
+        "pointer": [
+          32,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-ueber-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-unter.mp3",
+      "kind": "vocab",
+      "text": "unter",
+      "en": "under, below",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "unter",
+        "pointer": [
+          33,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-unter.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-unter-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Die Katze schläft unter dem Bett.",
+      "en": "The cat is sleeping under the bed.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "unter",
+        "pointer": [
+          33,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-unter-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-unter-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "under",
+      "en": "under, below",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "unter",
+        "pointer": [
+          33,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-unter-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-hell.mp3",
+      "kind": "vocab",
+      "text": "hell",
+      "en": "bright, light",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "hell",
+        "pointer": [
+          34,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-hell.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-hell-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Das Wohnzimmer ist groß und hell.",
+      "en": "The living room is big and bright.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "hell",
+        "pointer": [
+          34,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-hell-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-hell-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "hell",
+      "en": "bright, light",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "hell",
+        "pointer": [
+          34,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-hell-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-dunkel.mp3",
+      "kind": "vocab",
+      "text": "dunkel",
+      "en": "dark",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "dunkel",
+        "pointer": [
+          35,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-dunkel.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-dunkel-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Der Flur ist ein bisschen dunkel.",
+      "en": "The hallway is a bit dark.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "dunkel",
+        "pointer": [
+          35,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-dunkel-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-dunkel-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "dunkel",
+      "en": "dark",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "dunkel",
+        "pointer": [
+          35,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-dunkel-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-leer.mp3",
+      "kind": "vocab",
+      "text": "leer",
+      "en": "empty",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "leer",
+        "pointer": [
+          36,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-leer.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-leer-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Die leeren Kartons trage ich in den Keller.",
+      "en": "I'm carrying the empty boxes to the cellar.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "leer",
+        "pointer": [
+          36,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-leer-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-leer-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "läär / leer",
+      "en": "empty",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "leer",
+        "pointer": [
+          36,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-leer-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-schwer.mp3",
+      "kind": "vocab",
+      "text": "schwer",
+      "en": "heavy; difficult",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "schwer",
+        "pointer": [
+          37,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-schwer.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-schwer-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Der Schrank ist sehr schwer.",
+      "en": "The wardrobe is very heavy.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "schwer",
+        "pointer": [
+          37,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-schwer-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-schwer-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "schwär",
+      "en": "heavy; difficult",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "schwer",
+        "pointer": [
+          37,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-schwer-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u05-mcq-listening-karton.mp3",
+      "kind": "listening",
+      "text": "Nadine: Er steht im Gang, hinter der Tür. Stell die Gläser bitte in den Schrank.",
+      "variety": "ch-std",
+      "voice": "zh-f",
+      "speaker": "Nadine",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u05-mcq-listening-karton",
+        "pointer": [
+          25,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u05-mcq-listening-karton.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u05-dictation-sofa.mp3",
+      "kind": "dictation",
+      "text": "Stell das Sofa bitte an die Wand.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u05-dictation-sofa",
+        "pointer": [
+          26,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u05-dictation-sofa.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u05-dictation-lampe.mp3",
+      "kind": "dictation",
+      "text": "Die Lampe hängt schon über dem Tisch.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u05-dictation-lampe",
+        "pointer": [
+          27,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u05-dictation-lampe.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u05-speak-frame.mp3",
+      "kind": "speak",
+      "text": "In meinem Wohnzimmer steht ein Sofa unter dem Fenster. An der Wand hängt ein Bild, und auf dem Boden liegt ein Teppich.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u05-speak-frame",
+        "pointer": [
+          28,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u05-speak-frame.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u05-speak-shadow-tom.mp3",
+      "kind": "speak",
+      "text": "Sehr schön! Aber das Bett liegt noch in Teilen auf dem Boden.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u05-speak-shadow-tom",
+        "pointer": [
+          29,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u05-speak-shadow-tom.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u05-speak-shadow-nadine.mp3",
+      "kind": "speak",
+      "text": "Ins Wohnzimmer, bitte. Stell es an die Wand, unter das Fenster.",
+      "variety": "ch-std",
+      "voice": "zh-m",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u05-speak-shadow-nadine",
+        "pointer": [
+          30,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u05-speak-shadow-nadine.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u05-speak-intonation.mp3",
+      "kind": "speak",
+      "text": "Wohin kommt der Tisch? – In die Küche.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u05-speak-intonation",
+        "pointer": [
+          31,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u05-speak-intonation.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u05-speak-pron-st.mp3",
+      "kind": "speak",
+      "text": "Stell den Stuhl in die Ecke, der Spiegel steht schon im Flur, und der Schrank ist sehr schwer.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u05-speak-pron-st",
+        "pointer": [
+          32,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u05-speak-pron-st.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u05-ch-mcq-ane.mp3",
+      "kind": "listening",
+      "text": "Reto: Hoi! Ich ha der s Tischli us em Chäller bracht. Wo söll ich s ane stelle?",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u05-ch-mcq-ane",
+        "pointer": [
+          36,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u05-ch-mcq-ane.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u05-ch-mcq-abe.mp3",
+      "kind": "listening",
+      "text": "Reto: Und die leere Kartons? Söll ich die abe in Chäller träge?",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u05-ch-mcq-abe",
+        "pointer": [
+          40,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u05-ch-mcq-abe.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u05-ch-be-mcq-zuegle.mp3",
+      "kind": "listening",
+      "text": "Sandra: Ja, Mami! Es isch so härzig. Und d Mia züglet im Mai uf Thun.",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u05-ch-be-mcq-zuegle",
+        "pointer": [
+          44,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u05-ch-be-mcq-zuegle.mp3",
+      "referenced": false
+    }
+  ]
+}

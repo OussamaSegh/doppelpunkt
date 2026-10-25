@@ -1,0 +1,2778 @@
+{
+  "unitId": "a2-u08",
+  "level": "A2",
+  "folder": "a2/unit-08",
+  "title": "Schule und Lernen",
+  "delivery": {
+    "raw": "WAV or FLAC, 48 kHz, 24-bit, mono, one file per entry, named <file base>.wav",
+    "processed": [
+      "mp3 64 kbps mono 44.1 kHz",
+      "opus 32 kbps mono 48 kHz",
+      "EBU R128 -16 LUFS, true peak -1.5 dBTP"
+    ]
+  },
+  "entries": [
+    {
+      "file": "dialog-intro-01.mp3",
+      "kind": "dialogue-intro",
+      "text": "Du siehst nervös aus, Tom. Was ist los?",
+      "en": "You look nervous, Tom. What's up?",
+      "variety": "ch-std",
+      "voice": "zh-m",
+      "speaker": "Martin",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          0,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-01.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-02.mp3",
+      "kind": "dialogue-intro",
+      "text": "Ich habe morgen eine Prüfung im Deutschkurs. Ich lerne jeden Abend, weil ich das A2-Zertifikat brauche.",
+      "en": "I've got an exam in my German course tomorrow. I study every evening because I need the A2 certificate.",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          1,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-02.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-03.mp3",
+      "kind": "dialogue-intro",
+      "text": "Warum brauchst du das Zertifikat?",
+      "en": "Why do you need the certificate?",
+      "variety": "ch-std",
+      "voice": "zh-m",
+      "speaker": "Martin",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          2,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-03.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-04.mp3",
+      "kind": "dialogue-intro",
+      "text": "Weil ich länger in der Schweiz bleiben will. Und ich finde, dass Deutsch hier sehr wichtig ist.",
+      "en": "Because I want to stay in Switzerland longer. And I think German is very important here.",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          3,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-04.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-05.mp3",
+      "kind": "dialogue-intro",
+      "text": "Da hast du recht. Ich habe in der Schule auch Französisch und Englisch gelernt.",
+      "en": "You're right. I learned French and English at school too.",
+      "variety": "ch-std",
+      "voice": "zh-m",
+      "speaker": "Martin",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          4,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-05.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-06.mp3",
+      "kind": "dialogue-intro",
+      "text": "Wie lange geht man in der Schweiz zur Schule?",
+      "en": "How long do people go to school in Switzerland?",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          5,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-06.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-07.mp3",
+      "kind": "dialogue-intro",
+      "text": "Zuerst zwei Jahre Kindergarten, dann sechs Jahre Primarschule und drei Jahre Sek.",
+      "en": "First two years of kindergarten, then six years of primary school and three years of lower secondary.",
+      "variety": "ch-std",
+      "voice": "zh-m",
+      "speaker": "Martin",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          6,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-07.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-08.mp3",
+      "kind": "dialogue-intro",
+      "text": "Und dann? Machen alle die Matur?",
+      "en": "And then? Does everyone do the Matura?",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          7,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-08.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-09.mp3",
+      "kind": "dialogue-intro",
+      "text": "Nein, die meisten machen eine Lehre. Ich habe auch eine Lehre gemacht, denn ich habe gern praktisch gearbeitet.",
+      "en": "No, most people do an apprenticeship. I did one too, because I liked practical work.",
+      "variety": "ch-std",
+      "voice": "zh-m",
+      "speaker": "Martin",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          8,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-09.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-10.mp3",
+      "kind": "dialogue-intro",
+      "text": "Ich glaube, dass das System hier sehr gut ist.",
+      "en": "I think the system here is very good.",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          9,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-10.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-11.mp3",
+      "kind": "dialogue-intro",
+      "text": "Ja, weil man nach der Lehre auch noch studieren kann.",
+      "en": "Yes, because after an apprenticeship you can still go on to study.",
+      "variety": "ch-std",
+      "voice": "zh-m",
+      "speaker": "Martin",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          10,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-11.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-12.mp3",
+      "kind": "dialogue-intro",
+      "text": "Interessant! Aber jetzt gehe ich nach Hause, weil ich noch die Verben wiederholen muss.",
+      "en": "Interesting! But now I'm going home, because I still have to revise the verbs.",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          11,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-12.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-01.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Hoi Reto! Du strahlsch ja! Was isch passiert?",
+      "en": "Hi Reto! You're beaming! What's happened?",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          0,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-01.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-02.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Min Neffe, de Luca, hät d Gymiprüefig bestande!",
+      "en": "My nephew Luca has passed the Gymnasium entrance exam!",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          1,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-02.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-03.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Super! Gaat er jetzt is Gymi?",
+      "en": "Great! Is he going to the Gymnasium now?",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          2,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-03.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-04.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Ja, im August. Er wott Arzt werde, wil er gärn Mänsche hilft.",
+      "en": "Yes, in August. He wants to be a doctor, because he likes helping people.",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          3,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-04.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-05.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Und du? Bisch du au is Gymi gange?",
+      "en": "And you? Did you go to the Gymnasium too?",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          4,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-05.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-06.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Nei, nach de Sek han ich e Lehr als Koch gmacht, wil ich gärn choche.",
+      "en": "No, after the Sek I did an apprenticeship as a cook, because I like cooking.",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          5,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-06.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-07.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Ich find, dass d Lehr i de Schwiiz e super Sach isch.",
+      "en": "I think the apprenticeship in Switzerland is a great thing.",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          6,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-07.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-08.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Stimmt. Und hüt bin ich en guete Koch!",
+      "en": "True. And today I'm a good cook!",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          7,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-08.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-09.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Weisch was? Dr Jonas het d Prüefig bestande!",
+      "en": "Guess what? Jonas has passed his exam!",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "speaker": "Mami",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          8,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-09.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-10.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Super! Geit er itz i Gymer?",
+      "en": "Great! Is he going to the Gymnasium now?",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          9,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-10.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-11.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Nei, är macht e Lehr, wüu är lieber mit de Händ schaffet.",
+      "en": "No, he's doing an apprenticeship, because he prefers working with his hands.",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "speaker": "Mami",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          10,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-11.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-schule.mp3",
+      "kind": "vocab",
+      "text": "Schule",
+      "en": "school",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "schule",
+        "pointer": [
+          0,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-schule.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-schule-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Wie lange geht man in der Schweiz zur Schule?",
+      "en": "How long do people go to school in Switzerland?",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "schule",
+        "pointer": [
+          0,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-schule-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-schule-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Schuel",
+      "en": "school",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "schule",
+        "pointer": [
+          0,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-schule-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-schule-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "Schuel",
+      "en": "school",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "schule",
+        "pointer": [
+          0,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-schule-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kindergarten.mp3",
+      "kind": "vocab",
+      "text": "Kindergarten",
+      "en": "kindergarten",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kindergarten",
+        "pointer": [
+          1,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-kindergarten.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kindergarten-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Die Kinder beginnen mit vier Jahren im Kindergarten.",
+      "en": "Children start kindergarten at four.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kindergarten",
+        "pointer": [
+          1,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-kindergarten-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kindergarten-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Chindsgi / Kindergarte",
+      "en": "kindergarten",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kindergarten",
+        "pointer": [
+          1,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-kindergarten-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-primarschule.mp3",
+      "kind": "vocab",
+      "text": "Grundschule",
+      "en": "primary school",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "primarschule",
+        "pointer": [
+          2,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-primarschule.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-primarschule-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Die Grundschule dauert in Deutschland vier Jahre.",
+      "en": "Primary school lasts four years in Germany.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "primarschule",
+        "pointer": [
+          2,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-primarschule-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-primarschule-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Primarschuel / Primar",
+      "en": "primary school",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "primarschule",
+        "pointer": [
+          2,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-primarschule-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sekundarschule.mp3",
+      "kind": "vocab",
+      "text": "Sekundarschule",
+      "en": "lower secondary school",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sekundarschule",
+        "pointer": [
+          3,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-sekundarschule.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sekundarschule-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Nach der Primarschule gehen alle in die Sekundarschule.",
+      "en": "After primary school everyone goes to lower secondary school.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sekundarschule",
+        "pointer": [
+          3,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-sekundarschule-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sekundarschule-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Sek / Sekundarschuel",
+      "en": "lower secondary school",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sekundarschule",
+        "pointer": [
+          3,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-sekundarschule-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gymnasium.mp3",
+      "kind": "vocab",
+      "text": "Gymnasium",
+      "en": "academic secondary school (grammar school)",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gymnasium",
+        "pointer": [
+          4,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-gymnasium.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gymnasium-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Luca geht ab August ins Gymnasium.",
+      "en": "Luca is going to the Gymnasium from August.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gymnasium",
+        "pointer": [
+          4,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-gymnasium-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gymnasium-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Gymi / Kanti",
+      "en": "academic secondary school (grammar school)",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gymnasium",
+        "pointer": [
+          4,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-gymnasium-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gymnasium-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "Gymer",
+      "en": "academic secondary school (grammar school)",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gymnasium",
+        "pointer": [
+          4,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-gymnasium-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-matur.mp3",
+      "kind": "vocab",
+      "text": "Abitur",
+      "en": "school-leaving exam for university entrance",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "matur",
+        "pointer": [
+          5,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-matur.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-matur-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Nach dem Abitur möchte sie studieren.",
+      "en": "After her final exams she wants to go to university.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "matur",
+        "pointer": [
+          5,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-matur-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-matur-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Matur",
+      "en": "school-leaving exam for university entrance",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "matur",
+        "pointer": [
+          5,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-matur-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-universitaet.mp3",
+      "kind": "vocab",
+      "text": "Universität",
+      "en": "university",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "universitaet",
+        "pointer": [
+          6,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-universitaet.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-universitaet-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Mit der Matur kann man an der Universität studieren.",
+      "en": "With the Matura you can study at university.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "universitaet",
+        "pointer": [
+          6,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-universitaet-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-universitaet-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Uni",
+      "en": "university",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "universitaet",
+        "pointer": [
+          6,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-universitaet-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-studieren.mp3",
+      "kind": "vocab",
+      "text": "studieren",
+      "en": "to study (at university)",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "studieren",
+        "pointer": [
+          7,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-studieren.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-studieren-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Meine Schwester studiert Medizin in Bern.",
+      "en": "My sister is studying medicine in Bern.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "studieren",
+        "pointer": [
+          7,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-studieren-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-studieren-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "studiere",
+      "en": "to study (at university)",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "studieren",
+        "pointer": [
+          7,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-studieren-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-student.mp3",
+      "kind": "vocab",
+      "text": "Student / Studentin",
+      "en": "(university) student",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "student",
+        "pointer": [
+          8,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-student.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-student-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Viele Studenten arbeiten Teilzeit.",
+      "en": "Many students work part-time.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "student",
+        "pointer": [
+          8,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-student-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-student-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Student / Studentin",
+      "en": "(university) student",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "student",
+        "pointer": [
+          8,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-student-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-schueler.mp3",
+      "kind": "vocab",
+      "text": "Schüler / Schülerin",
+      "en": "pupil, school student",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "schueler",
+        "pointer": [
+          9,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-schueler.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-schueler-ex.mp3",
+      "kind": "vocab-example",
+      "text": "In meiner Klasse sind zwanzig Schüler.",
+      "en": "There are twenty pupils in my class.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "schueler",
+        "pointer": [
+          9,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-schueler-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-schueler-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Schüeler / Schüelerin",
+      "en": "pupil, school student",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "schueler",
+        "pointer": [
+          9,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-schueler-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-schueler-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "Schüeler",
+      "en": "pupil, school student",
+      "variety": "gsw-be",
+      "voice": "be-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "schueler",
+        "pointer": [
+          9,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-schueler-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-klasse.mp3",
+      "kind": "vocab",
+      "text": "Klasse",
+      "en": "class, school year",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "klasse",
+        "pointer": [
+          10,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-klasse.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-klasse-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Luca ist in der sechsten Klasse.",
+      "en": "Luca is in year six.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "klasse",
+        "pointer": [
+          10,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-klasse-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-klasse-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Klass",
+      "en": "class, school year",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "klasse",
+        "pointer": [
+          10,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-klasse-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-fach.mp3",
+      "kind": "vocab",
+      "text": "Fach",
+      "en": "(school) subject",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "fach",
+        "pointer": [
+          11,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-fach.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-fach-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Mein Lieblingsfach war Mathematik.",
+      "en": "My favourite subject was maths.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "fach",
+        "pointer": [
+          11,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-fach-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-fach-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Fach",
+      "en": "(school) subject",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "fach",
+        "pointer": [
+          11,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-fach-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-fremdsprache.mp3",
+      "kind": "vocab",
+      "text": "Fremdsprache",
+      "en": "foreign language",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "fremdsprache",
+        "pointer": [
+          12,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-fremdsprache.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-fremdsprache-ex.mp3",
+      "kind": "vocab-example",
+      "text": "In der Primarschule lernen die Kinder zwei Fremdsprachen.",
+      "en": "In primary school children learn two foreign languages.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "fremdsprache",
+        "pointer": [
+          12,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-fremdsprache-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-fremdsprache-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Fremdspraach",
+      "en": "foreign language",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "fremdsprache",
+        "pointer": [
+          12,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-fremdsprache-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-pruefung.mp3",
+      "kind": "vocab",
+      "text": "Prüfung",
+      "en": "exam, test",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "pruefung",
+        "pointer": [
+          13,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-pruefung.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-pruefung-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich habe morgen eine Prüfung.",
+      "en": "I've got an exam tomorrow.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "pruefung",
+        "pointer": [
+          13,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-pruefung-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-pruefung-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Prüefig",
+      "en": "exam, test",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "pruefung",
+        "pointer": [
+          13,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-pruefung-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-pruefung-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "Prüefig",
+      "en": "exam, test",
+      "variety": "gsw-be",
+      "voice": "be-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "pruefung",
+        "pointer": [
+          13,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-pruefung-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-bestehen.mp3",
+      "kind": "vocab",
+      "text": "bestehen",
+      "en": "to pass (an exam)",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "bestehen",
+        "pointer": [
+          14,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-bestehen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-bestehen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich hoffe, dass ich die Prüfung bestehe.",
+      "en": "I hope I pass the exam.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "bestehen",
+        "pointer": [
+          14,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-bestehen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-bestehen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "bestah",
+      "note": "bestande",
+      "en": "to pass (an exam)",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "bestehen",
+        "pointer": [
+          14,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-bestehen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-bestehen-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "bestaa",
+      "note": "bestande",
+      "en": "to pass (an exam)",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "bestehen",
+        "pointer": [
+          14,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-bestehen-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-note.mp3",
+      "kind": "vocab",
+      "text": "Note",
+      "en": "mark, grade",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "note",
+        "pointer": [
+          15,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-note.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-note-ex.mp3",
+      "kind": "vocab-example",
+      "text": "In der Schweiz ist eine Sechs die beste Note.",
+      "en": "In Switzerland a six is the best mark.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "note",
+        "pointer": [
+          15,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-note-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-note-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Note",
+      "en": "mark, grade",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "note",
+        "pointer": [
+          15,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-note-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-zeugnis.mp3",
+      "kind": "vocab",
+      "text": "Zeugnis",
+      "en": "school report; certificate",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "zeugnis",
+        "pointer": [
+          16,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-zeugnis.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-zeugnis-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Im Zeugnis hat sie gute Noten.",
+      "en": "She has good marks in her report.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "zeugnis",
+        "pointer": [
+          16,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-zeugnis-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-zeugnis-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Zügnis",
+      "en": "school report; certificate",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "zeugnis",
+        "pointer": [
+          16,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-zeugnis-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-zertifikat.mp3",
+      "kind": "vocab",
+      "text": "Zertifikat",
+      "en": "certificate",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "zertifikat",
+        "pointer": [
+          17,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-zertifikat.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-zertifikat-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Tom braucht das A2-Zertifikat.",
+      "en": "Tom needs the A2 certificate.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "zertifikat",
+        "pointer": [
+          17,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-zertifikat-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-zertifikat-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Zertifikat",
+      "en": "certificate",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "zertifikat",
+        "pointer": [
+          17,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-zertifikat-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kurs.mp3",
+      "kind": "vocab",
+      "text": "Kurs",
+      "en": "course",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kurs",
+        "pointer": [
+          18,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-kurs.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kurs-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Der Deutschkurs ist am Dienstag und Donnerstag.",
+      "en": "The German course is on Tuesdays and Thursdays.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kurs",
+        "pointer": [
+          18,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-kurs-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kurs-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Kurs",
+      "en": "course",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kurs",
+        "pointer": [
+          18,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-kurs-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-hausaufgabe.mp3",
+      "kind": "vocab",
+      "text": "Hausaufgabe",
+      "en": "homework (task)",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "hausaufgabe",
+        "pointer": [
+          19,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-hausaufgabe.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-hausaufgabe-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Hast du die Hausaufgaben schon gemacht?",
+      "en": "Have you done your homework yet?",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "hausaufgabe",
+        "pointer": [
+          19,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-hausaufgabe-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-hausaufgabe-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Ufgab / Huusufgab",
+      "en": "homework (task)",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "hausaufgabe",
+        "pointer": [
+          19,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-hausaufgabe-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-lernen.mp3",
+      "kind": "vocab",
+      "text": "lernen",
+      "en": "to learn; to study (for an exam)",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "lernen",
+        "pointer": [
+          20,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-lernen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-lernen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich lerne jeden Abend eine Stunde.",
+      "en": "I study for an hour every evening.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "lernen",
+        "pointer": [
+          20,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-lernen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-lernen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "lerne / lehre",
+      "en": "to learn; to study (for an exam)",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "lernen",
+        "pointer": [
+          20,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-lernen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-lernen-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "lehre",
+      "note": "glehrt",
+      "en": "to learn; to study (for an exam)",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "lernen",
+        "pointer": [
+          20,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-lernen-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-ueben.mp3",
+      "kind": "vocab",
+      "text": "üben",
+      "en": "to practise",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "ueben",
+        "pointer": [
+          21,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-ueben.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-ueben-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Es ist wichtig, dass man jeden Tag übt.",
+      "en": "It's important to practise every day.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "ueben",
+        "pointer": [
+          21,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-ueben-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-ueben-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "üebe",
+      "en": "to practise",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "ueben",
+        "pointer": [
+          21,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-ueben-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wiederholen.mp3",
+      "kind": "vocab",
+      "text": "wiederholen",
+      "en": "to revise, to repeat",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wiederholen",
+        "pointer": [
+          22,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-wiederholen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wiederholen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich muss noch die Verben wiederholen.",
+      "en": "I still have to revise the verbs.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wiederholen",
+        "pointer": [
+          22,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-wiederholen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wiederholen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "repetiere / widerhole",
+      "en": "to revise, to repeat",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wiederholen",
+        "pointer": [
+          22,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-wiederholen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-verstehen.mp3",
+      "kind": "vocab",
+      "text": "verstehen",
+      "en": "to understand",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "verstehen",
+        "pointer": [
+          23,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-verstehen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-verstehen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich verstehe nicht alles, aber immer mehr.",
+      "en": "I don't understand everything, but more and more.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "verstehen",
+        "pointer": [
+          23,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-verstehen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-verstehen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "verstah",
+      "note": "verstande",
+      "en": "to understand",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "verstehen",
+        "pointer": [
+          23,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-verstehen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-erklaeren.mp3",
+      "kind": "vocab",
+      "text": "erklären",
+      "en": "to explain",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "erklaeren",
+        "pointer": [
+          24,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-erklaeren.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-erklaeren-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Martin erklärt Tom das Schweizer Schulsystem.",
+      "en": "Martin explains the Swiss school system to Tom.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "erklaeren",
+        "pointer": [
+          24,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-erklaeren-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-erklaeren-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "erchläre",
+      "en": "to explain",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "erklaeren",
+        "pointer": [
+          24,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-erklaeren-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-woerterbuch.mp3",
+      "kind": "vocab",
+      "text": "Wörterbuch",
+      "en": "dictionary",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "woerterbuch",
+        "pointer": [
+          25,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-woerterbuch.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-woerterbuch-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich suche das Wort im Wörterbuch.",
+      "en": "I look the word up in the dictionary.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "woerterbuch",
+        "pointer": [
+          25,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-woerterbuch-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-woerterbuch-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Wörterbuech",
+      "en": "dictionary",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "woerterbuch",
+        "pointer": [
+          25,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-woerterbuch-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-fehler.mp3",
+      "kind": "vocab",
+      "text": "Fehler",
+      "en": "mistake",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "fehler",
+        "pointer": [
+          26,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-fehler.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-fehler-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Fehler sind beim Lernen normal.",
+      "en": "Mistakes are normal when you learn.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "fehler",
+        "pointer": [
+          26,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-fehler-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-fehler-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Fähler",
+      "en": "mistake",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "fehler",
+        "pointer": [
+          26,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-fehler-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-lieblingsfach.mp3",
+      "kind": "vocab",
+      "text": "Lieblingsfach",
+      "en": "favourite subject",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "lieblingsfach",
+        "pointer": [
+          27,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-lieblingsfach.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-lieblingsfach-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Mein Lieblingsfach war Geschichte.",
+      "en": "My favourite subject was history.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "lieblingsfach",
+        "pointer": [
+          27,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-lieblingsfach-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-lieblingsfach-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Lieblingsfach",
+      "en": "favourite subject",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "lieblingsfach",
+        "pointer": [
+          27,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-lieblingsfach-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-grund.mp3",
+      "kind": "vocab",
+      "text": "Grund",
+      "en": "reason",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "grund",
+        "pointer": [
+          28,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-grund.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-grund-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich habe zwei Gründe: die Arbeit und meine Freunde.",
+      "en": "I have two reasons: work and my friends.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "grund",
+        "pointer": [
+          28,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-grund-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-grund-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Grund",
+      "en": "reason",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "grund",
+        "pointer": [
+          28,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-grund-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-weil.mp3",
+      "kind": "vocab",
+      "text": "weil",
+      "en": "because (verb at the end)",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "weil",
+        "pointer": [
+          29,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-weil.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-weil-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich lerne Deutsch, weil ich in Zürich arbeite.",
+      "en": "I'm learning German because I work in Zurich.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "weil",
+        "pointer": [
+          29,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-weil-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-weil-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "wil",
+      "en": "because (verb at the end)",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "weil",
+        "pointer": [
+          29,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-weil-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-weil-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "wüu",
+      "en": "because (verb at the end)",
+      "variety": "gsw-be",
+      "voice": "be-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "weil",
+        "pointer": [
+          29,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-weil-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-denn.mp3",
+      "kind": "vocab",
+      "text": "denn",
+      "en": "because (normal word order)",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "denn",
+        "pointer": [
+          30,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-denn.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-denn-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich habe eine Lehre gemacht, denn ich habe gern praktisch gearbeitet.",
+      "en": "I did an apprenticeship, because I liked practical work.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "denn",
+        "pointer": [
+          30,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-denn-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-denn-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "wil",
+      "note": "denn is rare in dialect",
+      "en": "because (normal word order)",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "denn",
+        "pointer": [
+          30,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-denn-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-dass.mp3",
+      "kind": "vocab",
+      "text": "dass",
+      "en": "that (verb at the end)",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "dass",
+        "pointer": [
+          31,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-dass.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-dass-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich hoffe, dass ich die Prüfung bestehe.",
+      "en": "I hope that I pass the exam.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "dass",
+        "pointer": [
+          31,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-dass-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-dass-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "dass",
+      "en": "that (verb at the end)",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "dass",
+        "pointer": [
+          31,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-dass-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-warum.mp3",
+      "kind": "vocab",
+      "text": "warum",
+      "en": "why",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "warum",
+        "pointer": [
+          32,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-warum.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-warum-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Warum brauchst du das Zertifikat?",
+      "en": "Why do you need the certificate?",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "warum",
+        "pointer": [
+          32,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-warum-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-warum-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "wieso / werum",
+      "en": "why",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "warum",
+        "pointer": [
+          32,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-warum-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-glauben.mp3",
+      "kind": "vocab",
+      "text": "glauben",
+      "en": "to believe, to think",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "glauben",
+        "pointer": [
+          33,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-glauben.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-glauben-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich glaube, dass das System sehr gut ist.",
+      "en": "I think the system is very good.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "glauben",
+        "pointer": [
+          33,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-glauben-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-glauben-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "glaube",
+      "en": "to believe, to think",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "glauben",
+        "pointer": [
+          33,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-glauben-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-hoffen.mp3",
+      "kind": "vocab",
+      "text": "hoffen",
+      "en": "to hope",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "hoffen",
+        "pointer": [
+          34,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-hoffen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-hoffen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich hoffe, dass ich bestehe.",
+      "en": "I hope I pass.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "hoffen",
+        "pointer": [
+          34,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-hoffen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-hoffen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "hoffe",
+      "en": "to hope",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "hoffen",
+        "pointer": [
+          34,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-hoffen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-meinen.mp3",
+      "kind": "vocab",
+      "text": "meinen",
+      "en": "to think, to mean",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "meinen",
+        "pointer": [
+          35,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-meinen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-meinen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Was meinst du? Ist die Matur schwierig?",
+      "en": "What do you think? Is the Matura difficult?",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "meinen",
+        "pointer": [
+          35,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-meinen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-meinen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "meine",
+      "en": "to think, to mean",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "meinen",
+        "pointer": [
+          35,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-meinen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u08-mcq-listening-martin.mp3",
+      "kind": "listening",
+      "text": "Martin: Nein, die meisten machen eine Lehre. Ich habe auch eine Lehre gemacht, denn ich habe gern praktisch gearbeitet.",
+      "variety": "ch-std",
+      "voice": "zh-m",
+      "speaker": "Martin",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u08-mcq-listening-martin",
+        "pointer": [
+          25,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u08-mcq-listening-martin.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u08-dictation-weil.mp3",
+      "kind": "dictation",
+      "text": "Ich lerne jeden Abend, weil ich morgen eine Prüfung habe.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u08-dictation-weil",
+        "pointer": [
+          26,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u08-dictation-weil.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u08-dictation-dass.mp3",
+      "kind": "dictation",
+      "text": "Ich glaube, dass das System hier sehr gut ist.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u08-dictation-dass",
+        "pointer": [
+          27,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u08-dictation-dass.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u08-speak-frame.mp3",
+      "kind": "speak",
+      "text": "Ich lerne Deutsch, weil ich in Zürich arbeite. Ich finde, dass man hier ohne Deutsch nicht viel versteht.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u08-speak-frame",
+        "pointer": [
+          28,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u08-speak-frame.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u08-speak-shadow-tom.mp3",
+      "kind": "speak",
+      "text": "Interessant! Aber jetzt gehe ich nach Hause, weil ich noch die Verben wiederholen muss.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u08-speak-shadow-tom",
+        "pointer": [
+          29,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u08-speak-shadow-tom.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u08-speak-shadow-martin.mp3",
+      "kind": "speak",
+      "text": "Zuerst zwei Jahre Kindergarten, dann sechs Jahre Primarschule und drei Jahre Sek.",
+      "variety": "ch-std",
+      "voice": "zh-m",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u08-speak-shadow-martin",
+        "pointer": [
+          30,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u08-speak-shadow-martin.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u08-speak-intonation.mp3",
+      "kind": "speak",
+      "text": "Ich bin müde, weil ich viel gelernt habe.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u08-speak-intonation",
+        "pointer": [
+          31,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u08-speak-intonation.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u08-speak-pron-glottal.mp3",
+      "kind": "speak",
+      "text": "Ich arbeite am Abend in Uster, aber ich übe immer am Ende eines Arbeitstags.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u08-speak-pron-glottal",
+        "pointer": [
+          32,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u08-speak-pron-glottal.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u08-ch-mcq-gymi.mp3",
+      "kind": "listening",
+      "text": "Reto: Min Neffe, de Luca, hät d Gymiprüefig bestande!",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u08-ch-mcq-gymi",
+        "pointer": [
+          36,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u08-ch-mcq-gymi.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u08-ch-mcq-lehr.mp3",
+      "kind": "listening",
+      "text": "Reto: Nei, nach de Sek han ich e Lehr als Koch gmacht, wil ich gärn choche.",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u08-ch-mcq-lehr",
+        "pointer": [
+          40,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u08-ch-mcq-lehr.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u08-ch-be-mcq-pruefig.mp3",
+      "kind": "listening",
+      "text": "Mami: Weisch was? Dr Jonas het d Prüefig bestande!",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "speaker": "Mami",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u08-ch-be-mcq-pruefig",
+        "pointer": [
+          44,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u08-ch-be-mcq-pruefig.mp3",
+      "referenced": false
+    }
+  ]
+}

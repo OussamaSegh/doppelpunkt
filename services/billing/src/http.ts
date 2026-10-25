@@ -11,6 +11,7 @@
  * Stores no names, plaintext emails, card data or IP addresses. See docs/PAYMENTS.md.
  */
 import { productFor, SOLD_PRODUCTS, newPurchaseId } from '@doppelpunkt/license';
+import { TEST_KEY_ID, TEST_PRIVATE_KEY } from '@doppelpunkt/license/testing';
 import { FulfilError, findForRestore, fulfil, isPaid, redeem, signer, type Signer } from './billing';
 import { hmacHex } from './crypto';
 import type { MemoryRateLimiter } from './ratelimit';
@@ -105,10 +106,14 @@ export function prices(env: Config): Record<string, string> {
   }
 }
 
+const normKey = (k: string) => k.trim().replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
+
 function signerFor(env: Config): Signer | undefined {
   const kid = env.LICENSE_KEY_ID?.trim();
   if (!kid || !env.LICENSE_PRIVATE_KEY) return undefined;
-  if (kid === 'test' && env.ALLOW_TEST_KEY !== '1') return undefined;
+  // The TEST private key is in git: refuse it under any key id unless explicitly allowed.
+  const isTestKey = kid === TEST_KEY_ID || normKey(env.LICENSE_PRIVATE_KEY) === normKey(TEST_PRIVATE_KEY);
+  if (isTestKey && env.ALLOW_TEST_KEY !== '1') return undefined;
   return signer(kid, env.LICENSE_PRIVATE_KEY);
 }
 

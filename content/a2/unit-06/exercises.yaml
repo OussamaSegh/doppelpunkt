@@ -499,12 +499,12 @@
   type: match
   skill: vocabulary
   variety: ch-std
-  prompt: Match the Swiss shopping words with the words used in Germany.
+  prompt: Match the Swiss shopping words and price notation with their Standard German equivalents.
   pairs:
     - ["in Aktion", "im Angebot"]
     - ["die Occasion", "die Gebrauchtware"]
     - ["das Velo", "das Fahrrad"]
-    - ["Fr. 89.–", "89 Euro"]
+    - ["Fr. 89.–", "89 Franken"]
   explanation: >-
     Swiss shops put special offers in Aktion; a second-hand item is an Occasion (Duden: österreichisch,
     schweizerisch). Prices are in Franken, written Fr. 89.– or CHF 89.– (and not in euros).

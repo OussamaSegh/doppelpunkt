@@ -1,0 +1,359 @@
+# A2 unit 12 – Unterwegs in der Schweiz
+
+# ---------- the country ----------
+- id: kanton
+  de: Kanton
+  en: canton (Swiss state)
+  pos: noun
+  gender: m
+  plural: Kantone
+  example: { de: "Die Schweiz hat 26 Kantone.", en: "Switzerland has 26 cantons." }
+  gswZh: Kanton
+  tags: [switzerland, places]
+
+- id: hauptstadt
+  de: Hauptstadt
+  en: capital (city)
+  pos: noun
+  gender: f
+  plural: Hauptstädte
+  example: { de: "Bern ist die Hauptstadt der Schweiz – offiziell die Bundesstadt.", en: "Bern is the capital of Switzerland – officially the federal city." }
+  chStd: Hauptstadt / Bundesstadt (Bern)
+  gswZh: Hauptstadt
+  tags: [switzerland, places]
+
+- id: grenze
+  de: Grenze
+  en: border
+  pos: noun
+  gender: f
+  plural: Grenzen
+  example: { de: "Basel liegt an der Grenze zu Deutschland und Frankreich.", en: "Basel is on the border with Germany and France." }
+  gswZh: Gränze
+  tags: [switzerland, places]
+
+- id: region
+  de: Region
+  en: region
+  pos: noun
+  gender: f
+  plural: Regionen
+  example: { de: "In jeder Region spricht man einen anderen Dialekt.", en: "In every region people speak a different dialect." }
+  gswZh: Region
+  tags: [switzerland, places]
+
+- id: roestigraben
+  de: Röstigraben
+  en: the "Rösti ditch" (language border between German- and French-speaking Switzerland)
+  pos: noun
+  gender: m
+  plural: "-"
+  example: { de: "Freiburg liegt direkt am Röstigraben.", en: "Fribourg lies right on the Röstigraben." }
+  chStd: "Röstigraben (Duden: schweizerisch, scherzhaft)"
+  gswZh: Röschtigrabe
+  tags: [switzerland, culture, helvetism]
+
+- id: franzoesisch
+  de: Französisch
+  en: French (language)
+  pos: noun
+  gender: n
+  plural: "-"
+  example: { de: "In Lausanne spricht man Französisch.", en: "In Lausanne people speak French." }
+  gswZh: Französisch
+  tags: [switzerland, languages]
+
+- id: italienisch
+  de: Italienisch
+  en: Italian (language)
+  pos: noun
+  gender: n
+  plural: "-"
+  example: { de: "Im Tessin spricht man Italienisch.", en: "In Ticino people speak Italian." }
+  gswZh: Italiänisch
+  tags: [switzerland, languages]
+
+- id: raetoromanisch
+  de: Rätoromanisch
+  en: Romansh (language)
+  pos: noun
+  gender: n
+  plural: "-"
+  example: { de: "Rätoromanisch spricht man in Graubünden.", en: "Romansh is spoken in Graubünden." }
+  gswZh: Rätoromanisch / Romanisch
+  tags: [switzerland, languages]
+
+- id: zweisprachig
+  de: zweisprachig
+  en: bilingual
+  pos: adj
+  example: { de: "Biel ist eine zweisprachige Stadt.", en: "Biel is a bilingual town." }
+  gswZh: zweisprachig
+  tags: [switzerland, languages]
+
+# ---------- sights ----------
+- id: altstadt
+  de: Altstadt
+  en: old town
+  pos: noun
+  gender: f
+  plural: Altstädte
+  example: { de: "Die Berner Altstadt hat viele Brunnen.", en: "Bern's old town has many fountains." }
+  gswZh: Altstadt
+  tags: [sights, places]
+
+- id: brunnen
+  de: Brunnen
+  en: fountain, well
+  pos: noun
+  gender: m
+  plural: Brunnen
+  example: { de: "Aus dem Brunnen kann man Wasser trinken.", en: "You can drink water from the fountain." }
+  gswZh: Brunne
+  tags: [sights]
+
+- id: rathaus
+  de: Rathaus
+  en: town hall
+  pos: noun
+  gender: n
+  plural: Rathäuser
+  example: { de: "Das Rathaus ist gleich neben der Kirche.", en: "The town hall is right next to the church." }
+  gswZh: Rathuus
+  tags: [sights, places]
+
+- id: schiff
+  de: Schiff
+  en: boat, ship
+  pos: noun
+  gender: n
+  plural: Schiffe
+  example: { de: "Wir sind mit dem Schiff nach Flüelen gefahren.", en: "We went to Flüelen by boat." }
+  gswZh: Schiff
+  tags: [transport, sights]
+
+- id: schifffahrt
+  de: Schifffahrt
+  en: boat trip
+  pos: noun
+  gender: f
+  plural: Schifffahrten
+  example: { de: "Eine Schifffahrt auf dem See dauert zwei Stunden.", en: "A boat trip on the lake takes two hours." }
+  gswZh: Schiffahrt / Schifffahrt
+  tags: [transport, sights]
+
+- id: gletscher
+  de: Gletscher
+  en: glacier
+  pos: noun
+  gender: m
+  plural: Gletscher
+  example: { de: "Die Gletscher in den Alpen werden kleiner.", en: "The glaciers in the Alps are getting smaller." }
+  gswZh: Gletscher
+  tags: [nature, mountains]
+
+- id: pass
+  de: Pass
+  en: (mountain) pass; also passport
+  pos: noun
+  gender: m
+  plural: Pässe
+  example: { de: "Im Winter ist der Pass geschlossen.", en: "In winter the pass is closed." }
+  gswZh: Pass
+  tags: [nature, mountains, travel]
+
+- id: baer
+  de: Bär
+  en: bear
+  pos: noun
+  gender: m
+  plural: Bären
+  example: { de: "Der Bär ist das Symbol von Bern.", en: "The bear is the symbol of Bern." }
+  gswZh: Bär
+  tags: [animals, switzerland]
+
+- id: ausflugsziel
+  de: Ausflugsziel
+  en: destination for a day trip
+  pos: noun
+  gender: n
+  plural: Ausflugsziele
+  example: { de: "Der Pilatus ist ein beliebtes Ausflugsziel.", en: "The Pilatus is a popular day-trip destination." }
+  gswZh: Uusflugsziil
+  tags: [travel]
+
+- id: beruehmt
+  de: berühmt
+  en: famous
+  pos: adj
+  example: { de: "Die Kapellbrücke in Luzern ist sehr berühmt.", en: "The Chapel Bridge in Lucerne is very famous." }
+  gswZh: berüemt
+  tags: [describing, travel]
+
+- id: beliebt
+  de: beliebt
+  en: popular
+  pos: adj
+  example: { de: "Zermatt ist bei Touristen sehr beliebt.", en: "Zermatt is very popular with tourists." }
+  gswZh: beliebt
+  tags: [describing, travel]
+
+# ---------- regional food ----------
+- id: spezialitaet
+  de: Spezialität
+  en: speciality
+  pos: noun
+  gender: f
+  plural: Spezialitäten
+  example: { de: "Rösti ist eine Spezialität aus der Deutschschweiz.", en: "Rösti is a speciality from German-speaking Switzerland." }
+  gswZh: Spezialität
+  tags: [food, switzerland]
+
+- id: roesti
+  de: Rösti
+  en: rösti (fried grated potatoes)
+  pos: noun
+  gender: f
+  plural: "-"
+  example: { de: "Zum Mittagessen gibt es Rösti mit Spiegelei.", en: "For lunch there's rösti with a fried egg." }
+  chStd: die Rösti
+  gswZh: Röschti
+  tags: [food, switzerland, helvetism]
+
+- id: fondue
+  de: Fondue
+  en: fondue
+  pos: noun
+  gender: n
+  plural: Fondues
+  example: { de: "Im Winter essen wir gern Fondue.", en: "In winter we like to eat fondue." }
+  gswZh: Fondue
+  tags: [food, switzerland]
+
+- id: raclette
+  de: Raclette
+  en: raclette (melted cheese with potatoes)
+  pos: noun
+  gender: n
+  plural: Raclettes
+  example: { de: "Raclette kommt aus dem Wallis.", en: "Raclette comes from Valais." }
+  chStd: das Raclette (also die Raclette)
+  gswZh: Raclette
+  tags: [food, switzerland]
+
+# ---------- the train ----------
+- id: tageskarte
+  de: Tageskarte
+  en: day pass, day ticket
+  pos: noun
+  gender: f
+  plural: Tageskarten
+  example: { de: "Mit der Tageskarte kann man einen Tag lang überall Zug fahren.", en: "With a day pass you can travel everywhere by train for a whole day." }
+  gswZh: Tageskarte
+  tags: [transport, tickets]
+
+- id: generalabonnement
+  de: Generalabonnement (GA)
+  en: Swiss travel pass for the whole network (GA)
+  pos: noun
+  gender: n
+  plural: Generalabonnemente
+  example: { de: "Mit dem GA fährt Nadine jeden Tag nach Zürich.", en: "With her GA Nadine travels to Zurich every day." }
+  chStd: das GA
+  gswZh: s GA
+  tags: [transport, tickets, helvetism]
+
+- id: anschluss
+  de: Anschluss
+  en: (train) connection
+  pos: noun
+  gender: m
+  plural: Anschlüsse
+  example: { de: "In Bern haben wir fünf Minuten für den Anschluss.", en: "In Bern we have five minutes for the connection." }
+  gswZh: Aaschluss
+  tags: [transport]
+
+- id: abfahrt
+  de: Abfahrt
+  en: departure
+  pos: noun
+  gender: f
+  plural: Abfahrten
+  example: { de: "Die Abfahrt ist um 9.02 Uhr auf Gleis 16.", en: "Departure is at 9.02 from platform 16." }
+  gswZh: Abfahrt
+  tags: [transport]
+
+- id: puenktlich
+  de: pünktlich
+  en: on time, punctual
+  pos: adj
+  example: { de: "Der Zug ist pünktlich angekommen.", en: "The train arrived on time." }
+  gswZh: pünktlich
+  tags: [transport, describing]
+
+- id: unterwegs
+  de: unterwegs
+  en: on the way, out and about
+  pos: adv
+  example: { de: "Wir sind den ganzen Tag unterwegs.", en: "We're out and about all day." }
+  gswZh: unterwägs
+  tags: [travel]
+
+- id: tagesausflug
+  de: Tagesausflug
+  en: day trip
+  pos: noun
+  gender: m
+  plural: Tagesausflüge
+  example: { de: "Am Samstag machen wir einen Tagesausflug nach Bern.", en: "On Saturday we're taking a day trip to Bern." }
+  gswZh: Tagesuusflug
+  tags: [travel]
+
+- id: planen
+  de: planen
+  en: to plan
+  pos: verb
+  example: { de: "Wir planen eine Reise in die Schweiz.", en: "We're planning a trip to Switzerland." }
+  gswZh: plane
+  tags: [travel, verbs]
+
+- id: vorschlagen
+  de: vorschlagen
+  en: to suggest
+  pos: verb
+  example: { de: "Ich schlage vor, dass wir den Zug um neun nehmen.", en: "I suggest we take the nine o'clock train." }
+  gswZh: vorschlah
+  tags: [verbs, separable, planning]
+
+- id: wie-waere-es-mit
+  de: Wie wäre es mit …?
+  en: How about …?
+  pos: phrase
+  example: { de: "Wie wäre es mit einer Schifffahrt?", en: "How about a boat trip?" }
+  gswZh: Wie wärs mit …?
+  tags: [planning, phrases]
+
+- id: einverstanden
+  de: einverstanden
+  en: agreed, OK (with something)
+  pos: adj
+  example: { de: "Um neun am Bahnhof? – Einverstanden!", en: "Nine o'clock at the station? – Agreed!" }
+  gswZh: iiverstande
+  tags: [planning, phrases]
+
+- id: gruessech
+  de: Guten Tag! (in Bern)
+  en: hello (polite Bernese greeting)
+  pos: phrase
+  example: { de: "In Bern sagt man oft Grüessech statt Grüezi.", en: "In Bern people often say Grüessech instead of Grüezi." }
+  gswZh: Grüezi
+  gswBe: Grüessech (mitenand)
+  tags: [greetings, regional]
+
+- id: statt
+  de: statt
+  en: instead of
+  pos: prep
+  example: { de: "Statt Rösti gibt es in Lausanne oft Fondue.", en: "Instead of rösti there's often fondue in Lausanne." }
+  gswZh: statt / anstatt
+  tags: [prepositions]

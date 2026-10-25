@@ -1,0 +1,2707 @@
+{
+  "unitId": "a2-u10",
+  "level": "A2",
+  "folder": "a2/unit-10",
+  "title": "Medien und Kommunikation",
+  "delivery": {
+    "raw": "WAV or FLAC, 48 kHz, 24-bit, mono, one file per entry, named <file base>.wav",
+    "processed": [
+      "mp3 64 kbps mono 44.1 kHz",
+      "opus 32 kbps mono 48 kHz",
+      "EBU R128 -16 LUFS, true peak -1.5 dBTP"
+    ]
+  },
+  "entries": [
+    {
+      "file": "dialog-intro-01.mp3",
+      "kind": "dialogue-intro",
+      "text": "Tom, hast du meine Nachricht gelesen?",
+      "en": "Tom, did you read my message?",
+      "variety": "ch-std",
+      "voice": "zh-f",
+      "speaker": "Nadine",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          0,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-01.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-02.mp3",
+      "kind": "dialogue-intro",
+      "text": "Nein, tut mir leid. Mein Handy ist kaputt, deshalb habe ich seit gestern keine Nachrichten bekommen.",
+      "en": "No, sorry. My phone is broken, so I haven't got any messages since yesterday.",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          1,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-02.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-03.mp3",
+      "kind": "dialogue-intro",
+      "text": "Ach so! Ich habe im Team-Chat geschrieben. Weisst du, ob die Sitzung heute um zehn oder um elf ist?",
+      "en": "I see! I wrote in the team chat. Do you know whether the meeting today is at ten or at eleven?",
+      "variety": "ch-std",
+      "voice": "zh-f",
+      "speaker": "Nadine",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          2,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-03.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-04.mp3",
+      "kind": "dialogue-intro",
+      "text": "Keine Ahnung. Martin weiß sicher, wann sie beginnt.",
+      "en": "No idea. Martin is sure to know when it starts.",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          3,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-04.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-05.mp3",
+      "kind": "dialogue-intro",
+      "text": "Martin ist heute im Homeoffice. Er hat ein Mail an alle geschickt, aber ich finde es nicht mehr.",
+      "en": "Martin is working from home today. He sent an email to everyone, but I can't find it any more.",
+      "variety": "ch-std",
+      "voice": "zh-f",
+      "speaker": "Nadine",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          4,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-05.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-06.mp3",
+      "kind": "dialogue-intro",
+      "text": "Hast du es vielleicht gelöscht?",
+      "en": "Did you maybe delete it?",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          5,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-06.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-07.mp3",
+      "kind": "dialogue-intro",
+      "text": "Kann sein. Ich lösche jeden Abend alte Mails. Trotzdem ist mein Postfach immer voll!",
+      "en": "Could be. I delete old emails every evening. Even so, my inbox is always full!",
+      "variety": "ch-std",
+      "voice": "zh-f",
+      "speaker": "Nadine",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          6,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-07.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-08.mp3",
+      "kind": "dialogue-intro",
+      "text": "Dann schreibe ich Martin schnell vom Computer aus.",
+      "en": "Then I'll quickly write to Martin from the computer.",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          7,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-08.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-09.mp3",
+      "kind": "dialogue-intro",
+      "text": "Gute Idee. Und vergiss nicht, ihm das Dokument zu schicken!",
+      "en": "Good idea. And don't forget to send him the document!",
+      "variety": "ch-std",
+      "voice": "zh-f",
+      "speaker": "Nadine",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          8,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-09.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-10.mp3",
+      "kind": "dialogue-intro",
+      "text": "Mache ich. Oh, er hat schon geantwortet. Die Sitzung ist um elf.",
+      "en": "Will do. Oh, he's already replied. The meeting is at eleven.",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          9,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-10.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-11.mp3",
+      "kind": "dialogue-intro",
+      "text": "Super, dann habe ich noch Zeit, einen Kaffee zu trinken!",
+      "en": "Great, then I still have time to have a coffee!",
+      "variety": "ch-std",
+      "voice": "zh-f",
+      "speaker": "Nadine",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          10,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-11.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-01.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Hoi zäme! Wie gahts? Am Samschtig mach ich Znacht. Händ ihr Ziit?",
+      "en": "Hi everyone! How are you? On Saturday I'm cooking dinner. Do you have time?",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          0,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-01.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-02.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Hoi! Ja, gärn! Weisch scho, öb d Nadine au chunnt?",
+      "en": "Hi! Yes, I'd love to! Do you know yet whether Nadine is coming too?",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          1,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-02.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-03.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Kei Ahnig. Ich ha ere gschribe, aber si hät no nöd gantwortet.",
+      "en": "No idea. I wrote to her, but she hasn't replied yet.",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          2,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-03.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-04.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Hallo zusammen! Anna und ich kommen gern. Sollen wir etwas mitbringen?",
+      "en": "Hi all! Anna and I would love to come. Shall we bring something?",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          3,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-04.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-05.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Merci, das isch lieb! Bringed ihr es Dessert?",
+      "en": "Thanks, that's kind! Will you bring a dessert?",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          4,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-05.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-06.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Ich ha am Samschtig Frühdienscht, drum chum ich erscht am achti. Isch das ok?",
+      "en": "I'm on the early shift on Saturday, so I won't come until eight. Is that OK?",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          5,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-06.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-07.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Klar, kei Problem. Bis Samschtig! Händ en schöne Abig!",
+      "en": "Sure, no problem. See you Saturday! Have a nice evening, all of you!",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          6,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-07.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-08.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Merci, du au! hdl",
+      "en": "Thanks, you too! Love you (lots of love)",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          7,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-08.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-09.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Hoi Sandra, i ha der hüt zwöimau aaglütet. Hesch mi Nachricht übercho?",
+      "en": "Hi Sandra, I phoned you twice today. Did you get my message?",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "speaker": "Mami",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          8,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-09.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-10.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Sorry, Mami, mi Akku isch läär gsy. I lüte der hüt am Abe a.",
+      "en": "Sorry, Mum, my battery was dead. I'll call you this evening.",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          9,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-10.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-11.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Guet, tschou!",
+      "en": "OK, bye!",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "speaker": "Mami",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          10,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-11.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-nachricht.mp3",
+      "kind": "vocab",
+      "text": "Nachricht",
+      "en": "message",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "nachricht",
+        "pointer": [
+          0,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-nachricht.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-nachricht-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Hast du meine Nachricht gelesen?",
+      "en": "Did you read my message?",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "nachricht",
+        "pointer": [
+          0,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-nachricht-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-nachricht-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Nachricht",
+      "en": "message",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "nachricht",
+        "pointer": [
+          0,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-nachricht-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sprachnachricht.mp3",
+      "kind": "vocab",
+      "text": "Sprachnachricht",
+      "en": "voice message",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sprachnachricht",
+        "pointer": [
+          1,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-sprachnachricht.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sprachnachricht-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Meine Mutter schickt mir jeden Tag eine Sprachnachricht.",
+      "en": "My mother sends me a voice message every day.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sprachnachricht",
+        "pointer": [
+          1,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-sprachnachricht-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sprachnachricht-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Sprachnachricht / Sprachi",
+      "note": "colloquial",
+      "en": "voice message",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sprachnachricht",
+        "pointer": [
+          1,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-sprachnachricht-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-e-mail.mp3",
+      "kind": "vocab",
+      "text": "E-Mail",
+      "en": "email",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "e-mail",
+        "pointer": [
+          2,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-e-mail.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-e-mail-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich schreibe dir später eine E-Mail.",
+      "en": "I'll write you an email later.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "e-mail",
+        "pointer": [
+          2,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-e-mail-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-e-mail-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "s Mail",
+      "en": "email",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "e-mail",
+        "pointer": [
+          2,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-e-mail-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-betreff.mp3",
+      "kind": "vocab",
+      "text": "Betreff",
+      "en": "subject (of an email)",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "betreff",
+        "pointer": [
+          3,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-betreff.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-betreff-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Schreib bitte einen kurzen Betreff.",
+      "en": "Please write a short subject line.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "betreff",
+        "pointer": [
+          3,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-betreff-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-betreff-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Betreff",
+      "en": "subject (of an email)",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "betreff",
+        "pointer": [
+          3,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-betreff-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-anhang.mp3",
+      "kind": "vocab",
+      "text": "Anhang",
+      "en": "attachment",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "anhang",
+        "pointer": [
+          4,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-anhang.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-anhang-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Das Dokument ist im Anhang.",
+      "en": "The document is attached.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "anhang",
+        "pointer": [
+          4,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-anhang-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-anhang-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Aahang",
+      "en": "attachment",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "anhang",
+        "pointer": [
+          4,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-anhang-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-antwort.mp3",
+      "kind": "vocab",
+      "text": "Antwort",
+      "en": "answer, reply",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "antwort",
+        "pointer": [
+          5,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-antwort.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-antwort-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Vielen Dank für deine schnelle Antwort!",
+      "en": "Thanks a lot for your quick reply!",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "antwort",
+        "pointer": [
+          5,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-antwort-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-antwort-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Antwort",
+      "en": "answer, reply",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "antwort",
+        "pointer": [
+          5,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-antwort-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-antworten.mp3",
+      "kind": "vocab",
+      "text": "antworten",
+      "en": "to answer, to reply",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "antworten",
+        "pointer": [
+          6,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-antworten.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-antworten-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Martin hat schon geantwortet.",
+      "en": "Martin has already replied.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "antworten",
+        "pointer": [
+          6,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-antworten-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-antworten-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "antworte",
+      "note": "gantwortet",
+      "en": "to answer, to reply",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "antworten",
+        "pointer": [
+          6,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-antworten-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-erreichen.mp3",
+      "kind": "vocab",
+      "text": "erreichen",
+      "en": "to reach, to get hold of (someone)",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "erreichen",
+        "pointer": [
+          7,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-erreichen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-erreichen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich habe dich gestern nicht erreicht.",
+      "en": "I couldn't get hold of you yesterday.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "erreichen",
+        "pointer": [
+          7,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-erreichen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-erreichen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "erreiche",
+      "en": "to reach, to get hold of (someone)",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "erreichen",
+        "pointer": [
+          7,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-erreichen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-bekommen.mp3",
+      "kind": "vocab",
+      "text": "bekommen",
+      "en": "to get, to receive",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "bekommen",
+        "pointer": [
+          8,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-bekommen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-bekommen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich habe deine Nachricht nicht bekommen.",
+      "en": "I didn't get your message.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "bekommen",
+        "pointer": [
+          8,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-bekommen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-bekommen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "übercho / bechoo",
+      "note": "ich ha übercho",
+      "en": "to get, to receive",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "bekommen",
+        "pointer": [
+          8,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-bekommen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-bekommen-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "übercho",
+      "note": "i ha übercho",
+      "en": "to get, to receive",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "bekommen",
+        "pointer": [
+          8,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-bekommen-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-loeschen.mp3",
+      "kind": "vocab",
+      "text": "löschen",
+      "en": "to delete",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "loeschen",
+        "pointer": [
+          9,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-loeschen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-loeschen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich lösche jeden Abend alte E-Mails.",
+      "en": "I delete old emails every evening.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "loeschen",
+        "pointer": [
+          9,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-loeschen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-loeschen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "lösche",
+      "en": "to delete",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "loeschen",
+        "pointer": [
+          9,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-loeschen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-speichern.mp3",
+      "kind": "vocab",
+      "text": "speichern",
+      "en": "to save (a file, a number)",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "speichern",
+        "pointer": [
+          10,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-speichern.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-speichern-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Hast du meine Nummer gespeichert?",
+      "en": "Have you saved my number?",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "speichern",
+        "pointer": [
+          10,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-speichern-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-speichern-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "spichere",
+      "en": "to save (a file, a number)",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "speichern",
+        "pointer": [
+          10,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-speichern-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-teilen.mp3",
+      "kind": "vocab",
+      "text": "teilen",
+      "en": "to share",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "teilen",
+        "pointer": [
+          11,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-teilen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-teilen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Teil das Passwort bitte nicht im Chat!",
+      "en": "Please don't share the password in the chat!",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "teilen",
+        "pointer": [
+          11,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-teilen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-teilen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "teile",
+      "en": "to share",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "teilen",
+        "pointer": [
+          11,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-teilen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-herunterladen.mp3",
+      "kind": "vocab",
+      "text": "herunterladen",
+      "en": "to download",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "herunterladen",
+        "pointer": [
+          12,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-herunterladen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-herunterladen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich habe die App heruntergeladen.",
+      "en": "I've downloaded the app.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "herunterladen",
+        "pointer": [
+          12,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-herunterladen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-herunterladen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "abelade / herunterlade",
+      "en": "to download",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "herunterladen",
+        "pointer": [
+          12,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-herunterladen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-aufladen.mp3",
+      "kind": "vocab",
+      "text": "aufladen",
+      "en": "to charge (a battery)",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "aufladen",
+        "pointer": [
+          13,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-aufladen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-aufladen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich muss mein Handy aufladen.",
+      "en": "I have to charge my phone.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "aufladen",
+        "pointer": [
+          13,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-aufladen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-aufladen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "uflade / lade",
+      "en": "to charge (a battery)",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "aufladen",
+        "pointer": [
+          13,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-aufladen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-posten.mp3",
+      "kind": "vocab",
+      "text": "posten",
+      "en": "to post (online)",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "posten",
+        "pointer": [
+          14,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-posten.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-posten-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Sie postet jeden Tag ein Foto.",
+      "en": "She posts a photo every day.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "posten",
+        "pointer": [
+          14,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-posten-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-posten-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "poste",
+      "en": "to post (online)",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "posten",
+        "pointer": [
+          14,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-posten-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-smartphone.mp3",
+      "kind": "vocab",
+      "text": "Smartphone",
+      "en": "smartphone",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "smartphone",
+        "pointer": [
+          15,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-smartphone.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-smartphone-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich lese die Zeitung auf dem Smartphone.",
+      "en": "I read the newspaper on my smartphone.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "smartphone",
+        "pointer": [
+          15,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-smartphone-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-smartphone-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Handy / Natel",
+      "en": "smartphone",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "smartphone",
+        "pointer": [
+          15,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-smartphone-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-akku.mp3",
+      "kind": "vocab",
+      "text": "Akku",
+      "en": "(rechargeable) battery",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "akku",
+        "pointer": [
+          16,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-akku.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-akku-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Mein Akku ist leer.",
+      "en": "My battery is dead.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "akku",
+        "pointer": [
+          16,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-akku-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-akku-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Akku",
+      "en": "(rechargeable) battery",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "akku",
+        "pointer": [
+          16,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-akku-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-bildschirm.mp3",
+      "kind": "vocab",
+      "text": "Bildschirm",
+      "en": "screen",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "bildschirm",
+        "pointer": [
+          17,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-bildschirm.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-bildschirm-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Der Bildschirm von meinem Handy ist kaputt.",
+      "en": "The screen of my phone is broken.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "bildschirm",
+        "pointer": [
+          17,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-bildschirm-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-bildschirm-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Bildschirm",
+      "en": "screen",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "bildschirm",
+        "pointer": [
+          17,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-bildschirm-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-app.mp3",
+      "kind": "vocab",
+      "text": "App",
+      "en": "app",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "app",
+        "pointer": [
+          18,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-app.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-app-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Mit dieser App kann man Zugbillette kaufen.",
+      "en": "With this app you can buy train tickets.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "app",
+        "pointer": [
+          18,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-app-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-app-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "App",
+      "en": "app",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "app",
+        "pointer": [
+          18,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-app-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-internet.mp3",
+      "kind": "vocab",
+      "text": "Internet",
+      "en": "internet",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "internet",
+        "pointer": [
+          19,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-internet.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-internet-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich suche die Adresse im Internet.",
+      "en": "I'm looking up the address on the internet.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "internet",
+        "pointer": [
+          19,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-internet-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-internet-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Internet",
+      "en": "internet",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "internet",
+        "pointer": [
+          19,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-internet-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wlan.mp3",
+      "kind": "vocab",
+      "text": "WLAN",
+      "en": "Wi-Fi",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wlan",
+        "pointer": [
+          20,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-wlan.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wlan-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Wie ist das WLAN-Passwort?",
+      "en": "What's the Wi-Fi password?",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wlan",
+        "pointer": [
+          20,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-wlan-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wlan-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "WLAN / Wifi",
+      "en": "Wi-Fi",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wlan",
+        "pointer": [
+          20,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-wlan-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-passwort.mp3",
+      "kind": "vocab",
+      "text": "Passwort",
+      "en": "password",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "passwort",
+        "pointer": [
+          21,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-passwort.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-passwort-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich habe mein Passwort vergessen.",
+      "en": "I've forgotten my password.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "passwort",
+        "pointer": [
+          21,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-passwort-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-passwort-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Passwort",
+      "en": "password",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "passwort",
+        "pointer": [
+          21,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-passwort-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-video.mp3",
+      "kind": "vocab",
+      "text": "Video",
+      "en": "video",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "video",
+        "pointer": [
+          22,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-video.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-video-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Hast du das Video schon gesehen?",
+      "en": "Have you seen the video yet?",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "video",
+        "pointer": [
+          22,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-video-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-video-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Video",
+      "en": "video",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "video",
+        "pointer": [
+          22,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-video-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-online.mp3",
+      "kind": "vocab",
+      "text": "online",
+      "en": "online",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "online",
+        "pointer": [
+          23,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-online.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-online-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich kaufe meine Billette online.",
+      "en": "I buy my tickets online.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "online",
+        "pointer": [
+          23,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-online-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-online-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "online",
+      "en": "online",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "online",
+        "pointer": [
+          23,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-online-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-nachrichten-news.mp3",
+      "kind": "vocab",
+      "text": "Nachrichten",
+      "en": "the news",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "nachrichten-news",
+        "pointer": [
+          24,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-nachrichten-news.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-nachrichten-news-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Am Morgen höre ich die Nachrichten im Radio.",
+      "en": "In the morning I listen to the news on the radio.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "nachrichten-news",
+        "pointer": [
+          24,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-nachrichten-news-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-nachrichten-news-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "d Nachrichte",
+      "en": "the news",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "nachrichten-news",
+        "pointer": [
+          24,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-nachrichten-news-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-artikel.mp3",
+      "kind": "vocab",
+      "text": "Artikel",
+      "en": "article",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "artikel",
+        "pointer": [
+          25,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-artikel.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-artikel-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich habe einen interessanten Artikel gelesen.",
+      "en": "I read an interesting article.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "artikel",
+        "pointer": [
+          25,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-artikel-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-artikel-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Artikel",
+      "en": "article",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "artikel",
+        "pointer": [
+          25,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-artikel-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sendung.mp3",
+      "kind": "vocab",
+      "text": "Sendung",
+      "en": "programme, show (TV, radio)",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sendung",
+        "pointer": [
+          26,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-sendung.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sendung-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Die Sendung beginnt um acht.",
+      "en": "The programme starts at eight.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sendung",
+        "pointer": [
+          26,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-sendung-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sendung-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Sändig",
+      "en": "programme, show (TV, radio)",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sendung",
+        "pointer": [
+          26,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-sendung-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-radio.mp3",
+      "kind": "vocab",
+      "text": "Radio",
+      "en": "radio",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "radio",
+        "pointer": [
+          27,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-radio.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-radio-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Im Auto höre ich gern Radio.",
+      "en": "I like listening to the radio in the car.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "radio",
+        "pointer": [
+          27,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-radio-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-radio-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Radio",
+      "en": "radio",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "radio",
+        "pointer": [
+          27,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-radio-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-ob.mp3",
+      "kind": "vocab",
+      "text": "ob",
+      "en": "whether, if",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "ob",
+        "pointer": [
+          28,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-ob.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-ob-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Weißt du, ob Nadine morgen kommt?",
+      "en": "Do you know whether Nadine is coming tomorrow?",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "ob",
+        "pointer": [
+          28,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-ob-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-ob-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "öb / ob",
+      "en": "whether, if",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "ob",
+        "pointer": [
+          28,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-ob-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-deshalb.mp3",
+      "kind": "vocab",
+      "text": "deshalb",
+      "en": "so, that's why",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "deshalb",
+        "pointer": [
+          29,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-deshalb.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-deshalb-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Mein Akku war leer, deshalb habe ich nicht angerufen.",
+      "en": "My battery was dead, so I didn't call.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "deshalb",
+        "pointer": [
+          29,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-deshalb-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-deshalb-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "drum / wäge dem",
+      "en": "so, that's why",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "deshalb",
+        "pointer": [
+          29,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-deshalb-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-trotzdem.mp3",
+      "kind": "vocab",
+      "text": "trotzdem",
+      "en": "even so, anyway",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "trotzdem",
+        "pointer": [
+          30,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-trotzdem.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-trotzdem-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Es regnet, trotzdem gehen wir spazieren.",
+      "en": "It's raining, but we're going for a walk anyway.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "trotzdem",
+        "pointer": [
+          30,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-trotzdem-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-trotzdem-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "trotzdem",
+      "en": "even so, anyway",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "trotzdem",
+        "pointer": [
+          30,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-trotzdem-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wissen.mp3",
+      "kind": "vocab",
+      "text": "wissen",
+      "en": "to know (a fact)",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wissen",
+        "pointer": [
+          31,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-wissen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wissen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich weiß nicht, wann der Film beginnt.",
+      "en": "I don't know when the film starts.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wissen",
+        "pointer": [
+          31,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-wissen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wissen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "wüsse",
+      "note": "ich weiss, du weisch",
+      "en": "to know (a fact)",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wissen",
+        "pointer": [
+          31,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-wissen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-fragen.mp3",
+      "kind": "vocab",
+      "text": "fragen",
+      "en": "to ask",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "fragen",
+        "pointer": [
+          32,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-fragen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-fragen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich frage Martin, ob er Zeit hat.",
+      "en": "I'll ask Martin whether he has time.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "fragen",
+        "pointer": [
+          32,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-fragen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-fragen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "frage",
+      "en": "to ask",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "fragen",
+        "pointer": [
+          32,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-fragen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-vergessen.mp3",
+      "kind": "vocab",
+      "text": "vergessen",
+      "en": "to forget",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "vergessen",
+        "pointer": [
+          33,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-vergessen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-vergessen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Vergiss nicht, das Dokument zu schicken!",
+      "en": "Don't forget to send the document!",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "vergessen",
+        "pointer": [
+          33,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-vergessen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-vergessen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "vergässe",
+      "note": "participle vergässe",
+      "en": "to forget",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "vergessen",
+        "pointer": [
+          33,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-vergessen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wichtig.mp3",
+      "kind": "vocab",
+      "text": "wichtig",
+      "en": "important",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wichtig",
+        "pointer": [
+          34,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-wichtig.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wichtig-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Es ist wichtig, das Passwort nicht zu teilen.",
+      "en": "It's important not to share the password.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wichtig",
+        "pointer": [
+          34,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-wichtig-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wichtig-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "wichtig",
+      "en": "important",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wichtig",
+        "pointer": [
+          34,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-wichtig-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-keine-ahnung.mp3",
+      "kind": "vocab",
+      "text": "Keine Ahnung!",
+      "en": "No idea!",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "keine-ahnung",
+        "pointer": [
+          35,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-keine-ahnung.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-keine-ahnung-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Wann kommt der Bus? – Keine Ahnung!",
+      "en": "When is the bus coming? – No idea!",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "keine-ahnung",
+        "pointer": [
+          35,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-keine-ahnung-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-keine-ahnung-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Kei Ahnig!",
+      "en": "No idea!",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "keine-ahnung",
+        "pointer": [
+          35,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-keine-ahnung-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sehr-geehrte.mp3",
+      "kind": "vocab",
+      "text": "Sehr geehrte Frau … / Sehr geehrter Herr …",
+      "en": "Dear Ms … / Dear Mr … (formal)",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sehr-geehrte",
+        "pointer": [
+          36,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-sehr-geehrte.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sehr-geehrte-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Sehr geehrte Frau Brunner, vielen Dank für Ihre Mail.",
+      "en": "Dear Ms Brunner, thank you for your email.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sehr-geehrte",
+        "pointer": [
+          36,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-sehr-geehrte-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-freundliche-gruesse.mp3",
+      "kind": "vocab",
+      "text": "Mit freundlichen Grüßen",
+      "en": "Kind regards, Yours sincerely (formal)",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "freundliche-gruesse",
+        "pointer": [
+          37,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-freundliche-gruesse.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-freundliche-gruesse-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Mit freundlichen Grüßen, Tom Baker",
+      "en": "Kind regards, Tom Baker",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "freundliche-gruesse",
+        "pointer": [
+          37,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-freundliche-gruesse-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u10-mcq-listening-sitzung.mp3",
+      "kind": "listening",
+      "text": "Nadine: Ach so! Ich habe im Team-Chat geschrieben. Weisst du, ob die Sitzung heute um zehn oder um elf ist?",
+      "variety": "ch-std",
+      "voice": "zh-f",
+      "speaker": "Nadine",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u10-mcq-listening-sitzung",
+        "pointer": [
+          25,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u10-mcq-listening-sitzung.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u10-dictation-zeit.mp3",
+      "kind": "dictation",
+      "text": "Ich habe heute keine Zeit, deine Nachricht zu lesen.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u10-dictation-zeit",
+        "pointer": [
+          26,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u10-dictation-zeit.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u10-dictation-ob.mp3",
+      "kind": "dictation",
+      "text": "Kannst du mir sagen, ob Martin schon geantwortet hat?",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u10-dictation-ob",
+        "pointer": [
+          27,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u10-dictation-ob.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u10-speak-frame.mp3",
+      "kind": "speak",
+      "text": "Am Morgen lese ich die Nachrichten auf dem Handy. Ich habe wenig Zeit, deshalb höre ich im Zug Podcasts.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u10-speak-frame",
+        "pointer": [
+          28,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u10-speak-frame.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u10-speak-shadow-tom.mp3",
+      "kind": "speak",
+      "text": "Nein, tut mir leid. Mein Handy ist kaputt, deshalb habe ich seit gestern keine Nachrichten bekommen.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u10-speak-shadow-tom",
+        "pointer": [
+          29,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u10-speak-shadow-tom.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u10-speak-shadow-nadine.mp3",
+      "kind": "speak",
+      "text": "Weisst du, ob die Sitzung heute um zehn oder um elf ist?",
+      "variety": "ch-std",
+      "voice": "zh-m",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u10-speak-shadow-nadine",
+        "pointer": [
+          30,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u10-speak-shadow-nadine.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u10-speak-intonation.mp3",
+      "kind": "speak",
+      "text": "Ist die Sitzung um zehn oder um elf?",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u10-speak-intonation",
+        "pointer": [
+          31,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u10-speak-intonation.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u10-speak-pron-sch.mp3",
+      "kind": "speak",
+      "text": "Ich schicke dir später eine Sprachnachricht und speichere deine Nummer.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u10-speak-pron-sch",
+        "pointer": [
+          32,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u10-speak-pron-sch.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u10-ch-mcq-drum.mp3",
+      "kind": "listening",
+      "text": "Sandra: Ich ha am Samschtig Frühdienscht, drum chum ich erscht am achti. Isch das ok?",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u10-ch-mcq-drum",
+        "pointer": [
+          38,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u10-ch-mcq-drum.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u10-ch-be-mcq-aalute.mp3",
+      "kind": "listening",
+      "text": "Mami: Hoi Sandra, i ha der hüt zwöimau aaglütet. Hesch mi Nachricht übercho?",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "speaker": "Mami",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u10-ch-be-mcq-aalute",
+        "pointer": [
+          44,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u10-ch-be-mcq-aalute.mp3",
+      "referenced": false
+    }
+  ]
+}

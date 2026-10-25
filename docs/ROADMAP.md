@@ -106,14 +106,21 @@ TTS-less), native-speaker review of content still pending, no accounts.
 
 ## v1.0 "Ankommen" (public launch)
 
-- A2 units 1–12 with audio; Swiss lane introduces no-Präteritum, "go + infinitive", -li diminutives
-- A2 mock exam
-- Payments: A1 free, A2+ per level or yearly; book access codes
-- **Book 1 "Doppelpunkt 1: Ankommen" (A1–A2)** + answer key (PDF free), built from the same content with Typst
-- Landing page, onboarding video, store listing assets
-- Legal: privacy policy, terms, imprint (Swiss/EU)
+- [x] A2 units 1–12; Swiss lane introduces no-Präteritum, "go + infinitive", -li diminutives
+- [ ] A2 audio recorded (needs voice actors; scripts and manifests ready)
+- [x] A2 mock exam (original items in Goethe-Zertifikat A2 format) and an A2 Swiss track check
+- [x] Payments: A1 free, A2+ per level or yearly pass, book access codes; offline-verified signed
+      unlocks, Stripe Checkout via `services/billing` (off unless configured; `docs/PAYMENTS.md`)
+- [x] **Book 1 "Doppelpunkt 1: Ankommen" (A1–A2)** + answer key, built from the same content with Typst
+      (`npm run book:build`, `docs/BOOKS.md`)
+- [x] Landing page (`/landing/`) and in-app About page
+- [ ] Onboarding video, store listing assets
+- [x] Legal: privacy policy, terms, imprint (Swiss/EU) – drafts with placeholders the operator must fill
+- [x] Public web app on GitHub Pages: https://oussamasegh.github.io/doppelpunkt/
 
 **Exit:** content reviewed by two German and one Swiss native reviewer; book proofread; CI green.
+Still open: native review (0/24 units signed off), proofreading, Stripe account and billing Worker
+deployment, legal placeholders and counsel review.
 
 ## v1.1 "Sync"
 

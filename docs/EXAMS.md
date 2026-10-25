@@ -16,6 +16,8 @@ section 10). They let a learner check, under exam conditions, whether the level 
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | `content/a1/exam/a1-mock-1.yaml` | A1 | `goethe` | Hören 3 + Lesen 3 + Schreiben 2 + Sprechen 3 | 37 | 60 | 65 min written + 15 min speaking | draft, needs native review |
 | `content/a1/exam/a1-schwiiz-1.yaml` | A1 | `generic` | Lose 2 + Läse 2 (Zurich German) | 17 | 21 | 20 min | draft, needs Zurich native review |
+| `content/a2/exam/a2-mock-1.yaml` | A2 | `goethe` | Lesen 4 + Hören 4 + Schreiben 2 + Sprechen 3 | 45 | 80 | 90 min written + 15 min speaking | draft, needs native review |
+| `content/a2/exam/a2-schwiiz-1.yaml` | A2 | `generic` | Lose 2 (Zurich, Bernese) + Läse 2 (Zurich, one guided production gap) | 17 | 22 | 21 min | draft, needs Zurich and Bernese native review |
 
 ## How a mock exam is built
 
@@ -123,6 +125,43 @@ listening and reading only (20 minutes, 21 points, pass at 60 %):
 Learners never have to produce dialect. Answers in Standard German accept several word orders.
 The check has no writing or speaking section and only 20 minutes by design (recognition only).
 
+## Format notes per exam family (A2)
+
+Format facts only; checked on 2026-10-25 from GI-A2, GI-DB2 and GI-MS2 (see *Sources*).
+
+### Goethe-Zertifikat A2 (`format: goethe`)
+
+| Module | Time | Parts | Task types (format only) | Raw points |
+| --- | --- | --- | --- | --- |
+| Lesen | 30 min | 4 | Teil 1: newspaper article, 5 × a/b/c · Teil 2: store or building directory, 5 × a/b/c (one option is "another floor") · Teil 3: a personal email, 5 × a/b/c · Teil 4: 5 people and 6 ads, match each person to an ad or to "none" | 20 |
+| Hören | ≈ 30 min | 4 | Teil 1: 5 short texts (radio, phone, announcements), a/b/c, heard twice · Teil 2: a conversation, match 5 days or people to pictures, heard once · Teil 3: 5 short conversations, a/b/c, heard once · Teil 4: a radio interview, 5 × ja/nein, heard twice | 20 |
+| Schreiben | 30 min | 2 | Teil 1: a text message of 20–30 words on 3 points · Teil 2: a semi-formal email of about 30–40 words on 3 points | 20 (10 + 10) |
+| Sprechen | ≈ 15 min | 3 | Pair exam. Teil 1: ask and answer questions about yourself with 4 word cards · Teil 2: talk about your life from a card with 4 prompts, then answer a question · Teil 3: plan something together with two diaries | 20 |
+
+- **Scoring:** the written modules are added and weighted to 75 points (25 each), Sprechen to 25.
+  **Pass: 60 of 100** overall (GI-DB2). The official weights of the three Sprechen parts are not
+  published in the sources we read.
+- **Doppelpunkt mapping (`a2-mock-1`):** 13 sections (one per Teil), 20 raw points per module (80 in
+  total), `passMark: 0.6` → 48 points; every module has the same maximum, so the ratio equals the
+  100-point scale. Lesen 7/7/8/8 min, Hören 8/7/7/8, Schreiben 12/18, Sprechen 3/5/7. Lesen Teil 4 is
+  an mcq with seven options (*Anzeige a–f* and *X*). Hören Teil 2 describes the pictures in words
+  (the schema has no images yet). Speaking points 4/8/8 are **our own weighting** (Teil 1 is the
+  shortest task). The pair exam becomes roleplays: Lena as the partner in Teile 1 and 3, Frau Keller as the examiner in Teil 2.
+
+### Doppelpunkt Swiss track check A2 (`format: generic`, `a2-schwiiz-1`)
+
+Still no official exam. At A2 the Swiss lane adds Bernese recognition and one guided production item
+per unit, so the check is 21 minutes, 22 points, pass at 60 %:
+
+- *Lose, Teil 1*: a Zurich phone call about a train trip to Bern, 5 × a/b/c/d (*am halbi nüüni*, *drum*,
+  *wänn*, *suscht*).
+- *Lose, Teil 2*: three Bernese voice messages, 3 × richtig/falsch (recognition only: *Mänti*, *gchouft*,
+  *aaglütet*, *gäu*).
+- *Läse, Teil 1*: a neighbourhood group chat about the Räbeliechtli procession, 4 × mcq + 1 gsw → de
+  transform (*niemert*).
+- *Läse, Teil 2*: a 5-pair match, two gsw → de transforms (*öb*, *wo* = als) and one **guided
+  production** gap in Zurich German (*öpper / niemert*, 2 points). Listed spelling variants are accepted.
+
 ## Scoring in the app
 
 - `scoreExam()` (`packages/engine/src/exam.ts`) grades closed items with the same grader as the
@@ -143,6 +182,9 @@ The check has no writing or speaking section and only 20 minutes by design (reco
 | KLETT | Klett Sprachen, exam overview pages for Start Deutsch 1 / telc A1 (timing): https://www.klett-sprachen.de/c-2555, https://www.klett-sprachen.de/c-2557 |
 | OSD-F | ÖSD, *Zertifikat A1 (ZA1) folder* (modules, timing, individual oral exam): https://www.osd.at/wp-content/uploads/2024/02/ZA1_Folder.pdf |
 | OSD-M | ÖSD, *ZA1 Modellsatz brochure* (tasks, item counts, points, pass marks): https://www.osd.at/wp-content/uploads/2024/09/ZA1-Modellsatzbroschure_WEB.pdf |
+| GI-A2 | Goethe-Institut, *Goethe-Zertifikat A2 – Weitere Informationen* (modules and timing): https://www.goethe.de/ins/gb/de/m/sta/gla/prf/gzsd2/inf.html |
+| GI-DB2 | Goethe-Institut, *Durchführungsbestimmungen Goethe-Zertifikat A2* (modules, points, pass mark), copy hosted by ifage Genève: https://www.ifage.ch/wp-content/uploads/2020/11/goethe-modalites-organisation-A2_de-en.pdf |
+| GI-MS2 | Goethe-Institut, *Goethe-Zertifikat A2 Modellsatz* – read for structure only (parts, item counts, answer formats, how often recordings are played); third-party copy: https://bean.ninjateam.org/wp-content/uploads/2023/08/Modellsatz.pdf |
 | CEFR | Council of Europe, *Common European Framework of Reference – global scale and self-assessment grid* (A1 descriptors used for the can-do mapping in docs/CURRICULUM.md): https://rm.coe.int/168045b15e |
 
 The Goethe test description PDF (*Prüfungsziele, Testbeschreibung A1*) could not be read from the

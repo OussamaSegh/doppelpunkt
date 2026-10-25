@@ -1,0 +1,330 @@
+# Doppelpunkt Schwiiz-Check A2 – the Swiss track's own practice test (Zurich German recognition, with a
+# short Bernese part and one guided production task). There is no official exam for Swiss German; this test
+# only checks what the Swiss lane of A2 units 1–12 teaches: understanding spoken and written Zurich German
+# at A2, recognising Bernese, and writing a few Zurich words. Format notes: docs/EXAMS.md.
+id: a2-schwiiz-1
+level: A2
+title: "Schwiiz-Check A2: Züritüütsch und e chli Bärndütsch"
+format: generic
+passMark: 0.6
+sections:
+  - id: lose-1
+    skill: listening
+    title: "Lose, Teil 1: Es Telefon"
+    minutes: 6
+    instructions: >-
+      **Doppelpunkt's own Swiss-track check – there is no official Swiss German exam.** It tests what the
+      Swiss lane of the A2 units teaches: understanding Zurich German, recognising Bernese, and writing a few
+      Zurich words. Answers are in English or Standard German, except in the last task.
+
+
+      **Teil 1.** Reto phones Sandra about their Saturday trip to Bern. Choose the right answer. Until the
+      dialect recording exists, read the transcript once, at normal speed, then answer without looking back.
+    stimulus:
+      title: Es Telefon
+      variety: gsw-zh
+      text: |
+        Reto: Hoi Sandra, ich bis. Häsch churz Ziit?
+        Sandra: Hoi Reto! Ja, was isch?
+        Reto: Mir gönd doch am Samschtig uf Bärn. Weisch, wänn de Zug fahrt?
+        Sandra: Am halbi nüüni ab Züri HB, uf Gleis 16. Churz vor zää simmer z Bärn.
+        Reto: Und häsch s Billett scho gchauft?
+        Sandra: Ich ha es GA, drum bruuch ich keis. Aber du muesch dir e Tageskarte chaufe.
+        Reto: Ok, das mach ich hüt no. Söll ich öppis für dis Mami mitbringe?
+        Sandra: Wänn du wottsch, chasch Blueme mitbringe. Si hät Blueme mega gärn.
+        Reto: Guet. Und z Bärn – gömmer a d Aare?
+        Sandra: Wänn s Wätter schön isch, ja. Suscht gömmer is Museum.
+    points: [1, 1, 1, 1, 1]
+    exercises:
+      - id: a2-schwiiz1-l1-zug
+        type: mcq
+        skill: listening
+        variety: gsw-zh
+        grammar: [telling-time]
+        prompt: "When does the train leave Zurich?"
+        transcript: |-
+          Sandra: Am halbi nüüni ab Züri HB, uf Gleis 16. Churz vor zää simmer z Bärn.
+        options: ["At 9.30", "At 8.30", "At 7.30", "At 10.00"]
+        answer: 1
+        rationales: ["halbi nüüni is half past eight, not half past nine.", "Correct: am halbi nüüni = um halb neun = 8.30.", "Half past seven would be halbi achti.", "Churz vor zää is when they arrive in Bern."]
+        explanation: >-
+          am halbi nüüni = um halb neun = 8.30: as in Standard German, halb points to the next hour. Zurich uses
+          am for clock times. Churz vor zää simmer z Bärn = Kurz vor zehn sind wir in Bern.
+
+      - id: a2-schwiiz1-l1-billett
+        type: mcq
+        skill: listening
+        variety: gsw-zh
+        grammar: [connectors-deshalb-trotzdem]
+        prompt: "Why doesn't Sandra need a ticket?"
+        transcript: |-
+          Sandra: Ich ha es GA, drum bruuch ich keis. Aber du muesch dir e Tageskarte chaufe.
+        options: ["She already bought one online.", "Reto is paying for her.", "She is taking the car.", "She has a GA (a travel pass for the whole network)."]
+        answer: 3
+        rationales: ["She doesn't mention buying one.", "Reto has to buy his own ticket.", "They are going by train.", "Correct: Ich ha es GA, drum bruuch ich keis."]
+        explanation: >-
+          drum = deshalb (A2.10): Ich ha es GA, drum bruuch ich keis = Ich habe ein GA, deshalb brauche ich keins.
+          The GA (Generalabonnement) covers almost all trains, buses and boats in Switzerland (A2.12).
+
+      - id: a2-schwiiz1-l1-tageskarte
+        type: mcq
+        skill: listening
+        variety: gsw-zh
+        prompt: "What does Reto have to buy?"
+        transcript: |-
+          Sandra: Aber du muesch dir e Tageskarte chaufe.
+          Reto: Ok, das mach ich hüt no.
+        options: ["A day pass, today", "A GA, tomorrow", "Flowers, on Saturday", "A return ticket, at the station"]
+        answer: 0
+        rationales: ["Correct: e Tageskarte – and he'll do it hüt no (today).", "Sandra has the GA; Reto needs a day pass.", "The flowers are optional, and not the ticket.", "A return ticket (Retourbillett) isn't mentioned."]
+        explanation: >-
+          e Tageskarte chaufe = eine Tageskarte kaufen. hüt no = heute noch (later today). chaufe is the Zurich
+          form of kaufen: ch for k at the start of a word.
+
+      - id: a2-schwiiz1-l1-geschenk
+        type: mcq
+        skill: listening
+        variety: gsw-zh
+        grammar: [wenn-condition]
+        prompt: "What can Reto bring for Sandra's mother?"
+        transcript: |-
+          Reto: Söll ich öppis für dis Mami mitbringe?
+          Sandra: Wänn du wottsch, chasch Blueme mitbringe. Si hät Blueme mega gärn.
+        options: ["Chocolate", "Wine", "Flowers", "Nothing – she says no presents."]
+        answer: 2
+        rationales: ["Schoggi isn't mentioned.", "Wii isn't mentioned.", "Correct: chasch Blueme mitbringe.", "She suggests something."]
+        explanation: >-
+          Wänn du wottsch, chasch Blueme mitbringe = Wenn du willst, kannst du Blumen mitbringen. öppis = etwas
+          (A2.11), Blueme = Blumen.
+
+      - id: a2-schwiiz1-l1-wetter
+        type: mcq
+        skill: listening
+        variety: gsw-zh
+        grammar: [wenn-condition]
+        prompt: "What will they do in Bern if the weather is bad?"
+        transcript: |-
+          Sandra: Wänn s Wätter schön isch, ja. Suscht gömmer is Museum.
+        options: ["Go to the Aare anyway", "Go to a museum", "Go home early", "Go to a café"]
+        answer: 1
+        rationales: ["The Aare is only if the weather is nice.", "Correct: Suscht gömmer is Museum.", "They don't plan to go home early.", "A café isn't mentioned."]
+        explanation: >-
+          suscht = sonst (otherwise). gömmer = gehen wir (gönd + mir). Wänn s Wätter schön isch = Wenn das Wetter
+          schön ist: wänn with the verb at the end, as in Standard German.
+
+  - id: lose-2
+    skill: listening
+    title: "Lose, Teil 2: Drü Sprachnachrichte us Bärn"
+    minutes: 4
+    instructions: >-
+      **Teil 2. Bärndütsch – recognition only.** Sandra's mother lives in Bern and sends three voice messages.
+      Is each statement right or wrong? Read each transcript once, then answer.
+    stimulus:
+      title: Drü Sprachnachrichte us Bärn
+      variety: gsw-be
+      text: |
+        Sprecher: Nachricht 1.
+        Mami: Hoi Sandra! Am Mänti isch Zibelemärit. I gange scho am sächsi am Morge. Chunsch o?
+
+        Sprecher: Nachricht 2.
+        Mami: I ha der e Zibelezüpfe gchouft. Si isch no warm!
+
+        Sprecher: Nachricht 3.
+        Mami: Sandra, i ha der hüt zwöimau aaglütet. Lüt mer hüt am Abe a, gäu! Tschou!
+    points: [1, 1, 1]
+    exercises:
+      - id: a2-schwiiz1-l2-maerit
+        type: mcq
+        skill: listening
+        variety: gsw-be
+        grammar: [telling-time]
+        prompt: "Nachricht 1 – listen: richtig oder falsch?"
+        transcript: |-
+          Mami: Hoi Sandra! Am Mänti isch Zibelemärit. I gange scho am sächsi am Morge. Chunsch o?
+        question: Die Mutter geht am Montagabend auf den Zwiebelmarkt.
+        options: ["Richtig", "Falsch"]
+        answer: 1
+        rationales: ["am sächsi am Morge = at six in the morning, not in the evening.", "Correct: she goes at six in the morning."]
+        explanation: >-
+          Mänti = Montag (Bernese; Zurich Mäntig), am sächsi am Morge = um sechs Uhr morgens. Zibelemärit = the
+          Bern onion market on the fourth Monday of November (A2.9). i = ich, o = auch.
+
+      - id: a2-schwiiz1-l2-zuepfe
+        type: mcq
+        skill: listening
+        variety: gsw-be
+        grammar: [review-a2-perfekt]
+        prompt: "Nachricht 2 – listen: richtig oder falsch?"
+        transcript: |-
+          Mami: I ha der e Zibelezüpfe gchouft. Si isch no warm!
+        question: Die Mutter hat für Sandra einen Zwiebelzopf gekauft.
+        options: ["Richtig", "Falsch"]
+        answer: 0
+        rationales: ["Correct: I ha der e Zibelezüpfe gchouft.", "She did buy it – for Sandra (der = dir)."]
+        explanation: >-
+          I ha der … gchouft = Ich habe dir … gekauft. Bernese gchouft, Zurich gchauft. Züpfe = Zopf, the Sunday
+          bread; Zibele = Zwiebel (berndeutsch.ch).
+
+      - id: a2-schwiiz1-l2-aalute
+        type: mcq
+        skill: listening
+        variety: gsw-be
+        prompt: "Nachricht 3 – listen: richtig oder falsch?"
+        transcript: |-
+          Mami: Sandra, i ha der hüt zwöimau aaglütet. Lüt mer hüt am Abe a, gäu! Tschou!
+        question: Sandra soll ihre Mutter morgen früh anrufen.
+        options: ["Richtig", "Falsch"]
+        answer: 1
+        rationales: ["hüt am Abe = this evening, not tomorrow morning.", "Correct: she should call this evening."]
+        explanation: >-
+          aalüte = anrufen (berndeutsch.ch; Zurich aalüüte), aaglütet = angerufen, zwöimau = zweimal (Bernese l → u).
+          Lüt mer … a = Ruf mich … an. hüt am Abe = heute Abend; gäu = gell; Tschou = tschüss.
+
+  - id: laese-1
+    skill: reading
+    title: "Läse, Teil 1: Im Quartier-Chat"
+    minutes: 5
+    instructions: >-
+      **Teil 1.** Read the neighbourhood group chat and answer the questions.
+    stimulus:
+      title: "Gruppechat «Quartier Wipkinge»"
+      variety: gsw-zh
+      text: |
+        Nadine: Hoi zäme! Weiss öpper, wänn de Räbeliechtli-Umzug isch?
+        Reto: Am Friitig am sächsi, bim Schuelhuus. D Strasselampe sind dänn uus.
+        Nadine: Merci! Und mues mer d Räbe sälber mitbringe?
+        Sandra: Nei, mer chan d Räbe am Mittwuch im Gmeindsaal hole. Si choschted nüt.
+        Reto: Aber es Mässer muesch sälber mitnää.
+        Nadine: Super. Ich chume mit de Chind. Niemert vo eus hät das scho mal gmacht!
+        Sandra: Kei Problem, ich zeig eu, wie mer schnitzt.
+    points: [1, 1, 1, 1, 1]
+    exercises:
+      - id: a2-schwiiz1-r1-umzug
+        type: mcq
+        skill: reading
+        variety: gsw-zh
+        grammar: [dates-festivals, telling-time]
+        prompt: When and where is the lantern procession?
+        options: ["Wednesday at 6 p.m., at the community hall", "Friday at 7 p.m., at the station", "Friday at 6 p.m., at the school", "Saturday at 6 p.m., at the school"]
+        answer: 2
+        rationales: ["Wednesday is when you collect the turnips.", "am sächsi is six, and it starts bim Schuelhuus.", "Correct: am Friitig am sächsi, bim Schuelhuus.", "Friitig is Friday, not Saturday."]
+        explanation: >-
+          am Friitig am sächsi = am Freitag um sechs, bim Schuelhuus = beim Schulhaus. D Strasselampe sind dänn uus
+          = then the street lights are off – part of the Räbeliechtli tradition (A2.9).
+
+      - id: a2-schwiiz1-r1-raebe
+        type: mcq
+        skill: reading
+        variety: gsw-zh
+        prompt: Where do you get the turnips (Räben)?
+        options: ["At the community hall on Wednesday", "At the school on Friday", "At the market on Monday", "You have to bring your own."]
+        answer: 0
+        rationales: ["Correct: am Mittwuch im Gmeindsaal hole.", "Friday is the procession.", "The Monday market is the Bern Zibelemärit.", "Sandra says no – nei."]
+        explanation: >-
+          mer chan d Räbe am Mittwuch im Gmeindsaal hole = man kann die Räben am Mittwoch im Gemeindesaal holen.
+          mer = man in Zurich German (and also wir – the context decides).
+
+      - id: a2-schwiiz1-r1-choschte
+        type: mcq
+        skill: reading
+        variety: gsw-zh
+        grammar: [indefinite-pronouns]
+        prompt: What do the turnips cost?
+        options: ["Two francs each", "Five francs for a family", "You pay with a knife.", "Nothing"]
+        answer: 3
+        rationales: ["No price is given.", "No price is given.", "The knife is something you bring yourself.", "Correct: Si choschted nüt."]
+        explanation: >-
+          Si choschted nüt = Sie kosten nichts. nüt = nichts (A2.11). Zurich plural verbs end in -ed: si choschted.
+
+      - id: a2-schwiiz1-r1-niemert
+        type: transform
+        skill: reading
+        variety: gsw-zh
+        grammar: [indefinite-pronouns, review-a2-perfekt]
+        prompt: What does Nadine write about her family? Write it in Standard German.
+        from: gsw-zh
+        to: de
+        source: Niemert vo eus hät das scho mal gmacht!
+        answers: ["Niemand von uns hat das schon mal gemacht!", "Niemand von uns hat das schon einmal gemacht!", "Niemand von uns hat das schon mal gemacht.", "Niemand von uns hat das schon einmal gemacht.", "Keiner von uns hat das schon einmal gemacht!", "Keiner von uns hat das schon mal gemacht!"]
+        explanation: >-
+          niemert = niemand (A2.11), vo eus = von uns, hät … gmacht = hat … gemacht (Perfekt), scho mal = schon
+          (ein)mal.
+
+      - id: a2-schwiiz1-r1-sandra
+        type: mcq
+        skill: reading
+        variety: gsw-zh
+        grammar: [indirect-questions]
+        prompt: What does Sandra offer to do?
+        options: ["Buy the turnips for everyone", "Show them how to carve", "Bring the children home", "Switch off the street lights"]
+        answer: 1
+        rationales: ["The turnips are free at the community hall.", "Correct: ich zeig eu, wie mer schnitzt.", "Not mentioned.", "The lights go off anyway."]
+        explanation: >-
+          ich zeig eu, wie mer schnitzt = ich zeige euch, wie man schnitzt. eu = euch; wie mer schnitzt is an
+          indirect question with the verb at the end (A2.10).
+
+  - id: laese-2
+    skill: reading
+    title: "Läse, Teil 2: Wörter, Sätze und es bitzeli schriibe"
+    minutes: 6
+    instructions: >-
+      **Teil 2.** Match the Zurich German words with Standard German, then write two sentences in Standard
+      German. In the last task you write two Zurich German words yourself; common spellings are accepted.
+    points: [5, 1, 1, 2]
+    exercises:
+      - id: a2-schwiiz1-r2-match
+        type: match
+        skill: vocabulary
+        variety: gsw-zh
+        prompt: Match the Zurich German words with Standard German.
+        pairs:
+          - ["de Güsel", "der Müll"]
+          - ["aalüüte", "anrufen"]
+          - ["öpper", "jemand"]
+          - ["drum", "deshalb"]
+          - ["d Strasselampe", "die Straßenlampe"]
+        explanation: >-
+          Güsel (A2.11; Bernese Ghüder), aalüüte (A2.10), öpper (A2.11), drum (A2.10), Strasselampe (A2.9). One
+          point per pair.
+
+      - id: a2-schwiiz1-r2-oeb
+        type: transform
+        skill: reading
+        variety: gsw-zh
+        grammar: [indirect-questions]
+        prompt: Write it in Standard German.
+        from: gsw-zh
+        to: de
+        source: Weisch du, öb de Zug pünktlich isch?
+        answers: ["Weißt du, ob der Zug pünktlich ist?", "Weisst du, ob der Zug pünktlich ist?"]
+        explanation: >-
+          öb = ob, and the verb goes to the end: ob der Zug pünktlich ist (A2.10). Swiss Standard German writes
+          weisst (no ß), Germany and Austria weißt – both are accepted.
+
+      - id: a2-schwiiz1-r2-wo
+        type: transform
+        skill: reading
+        variety: gsw-zh
+        grammar: [wenn-als, review-a2-perfekt]
+        prompt: Write it in Standard German.
+        from: gsw-zh
+        to: de
+        source: Wo n ich chlii gsii bin, han ich jedes Jahr es Räbeliechtli gschnitzt.
+        answers: ["Als ich klein war, habe ich jedes Jahr ein Räbeliechtli geschnitzt.", "Als ich klein gewesen bin, habe ich jedes Jahr ein Räbeliechtli geschnitzt.", "Als ich klein war, habe ich jedes Jahr ein Räbenlicht geschnitzt.", "Als ich klein war, schnitzte ich jedes Jahr ein Räbeliechtli."]
+        explanation: >-
+          wo (or wänn) for a time in the past → als (A2.9); the n in wo n ich just links the two words. gsii bin =
+          gewesen bin, but Standard German prefers war. han … gschnitzt = habe … geschnitzt.
+
+      - id: a2-schwiiz1-r2-gap
+        type: gap
+        skill: grammar
+        variety: gsw-zh
+        grammar: [indefinite-pronouns]
+        prompt: "Guided production: write the Zurich words for jemand and niemand."
+        text: Häsch ___ gseh? – Nei, ich ha ___ gseh.
+        answers:
+          - ["öpper"]
+          - ["niemert", "niemer"]
+        explanation: >-
+          jemand → öpper, niemand → niemert (also niemer), A2.11. Häsch … gseh = Hast du … gesehen? One point per
+          gap.

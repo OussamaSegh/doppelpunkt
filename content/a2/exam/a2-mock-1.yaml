@@ -1,0 +1,1020 @@
+# Doppelpunkt A2 Modelltest 1 – original items in the format of the Goethe-Zertifikat A2 (Lesen, Hören,
+# Schreiben, Sprechen). Format sources and scoring notes: docs/EXAMS.md. No item, text or audio script is
+# copied or adapted from a publisher; only the task types, timing and point structure follow the public exam
+# description and the publisher's model paper (read for structure only). Vocabulary and grammar: A1 and A2
+# units 1–12.
+id: a2-mock-1
+level: A2
+title: "A2 Modelltest 1 (Goethe-Zertifikat A2 format)"
+format: goethe
+passMark: 0.6
+sections:
+  # ===================================================================== LESEN (30 min, 20 points)
+  - id: lesen-1
+    skill: reading
+    title: "Lesen, Teil 1"
+    minutes: 7
+    instructions: >-
+      **Doppelpunkt practice test – not an official exam.** It follows the format of the Goethe-Zertifikat A2;
+      all texts and items are our own. The real exam starts with Lesen, then Hören and Schreiben (90 minutes
+      without a break); Sprechen is a separate 15-minute pair exam.
+
+
+      **Lesen, Teil 1.** *Sie lesen in einer Zeitung diesen Text. Wählen Sie für die Aufgaben 1 bis 5 die
+      richtige Lösung a, b oder c.* Read the newspaper article and choose the right answer for each question.
+    stimulus:
+      title: "Reparieren statt wegwerfen: Das Repair-Café in Winterthur"
+      variety: ch-std
+      text: >-
+        Jeden ersten Samstag im Monat ist im Quartierzentrum Töss viel los. Von 10 bis 16 Uhr findet dort das
+        Repair-Café statt. Die Idee ist einfach: Man bringt kaputte Sachen mit – eine Lampe, ein Velo, einen
+        Toaster oder eine Hose – und repariert sie zusammen mit Helferinnen und Helfern. Die Reparatur kostet
+        nichts, aber wer möchte, kann etwas Geld in eine Kasse legen.
+
+
+        Ruth Meier hat das Café vor fünf Jahren eröffnet. Sie war lange Elektrikerin und ist heute pensioniert.
+        «Früher haben die Leute viel mehr repariert», sagt sie. «Heute wirft man ein Gerät weg, wenn es nicht
+        mehr funktioniert, und kauft ein neues. Das ist schlecht für die Umwelt und auch für das Portemonnaie.»
+
+
+        Am Anfang waren es nur fünf Helferinnen und Helfer. Heute sind es über zwanzig: Elektriker,
+        Schneiderinnen, Velomechaniker und auch Studenten. Nicht alles kann man reparieren. «Bei etwa zwei von
+        drei Sachen klappt es», erzählt Ruth Meier. Wenn man warten muss, kann man Kaffee trinken und Kuchen
+        essen – den Kuchen backen die Helferinnen selbst. Viele Besucher kommen deshalb auch einfach, weil sie
+        gern mit anderen Leuten reden. Wer mithelfen möchte, schreibt eine Mail an das Quartierzentrum.
+    points: [1, 1, 1, 1, 1]
+    exercises:
+      - id: a2-mock1-l1-wann
+        type: mcq
+        skill: reading
+        variety: ch-std
+        grammar: [dates-festivals]
+        prompt: Aufgabe 1
+        question: Das Repair-Café ist …
+        options: ["jeden Samstag.", "einmal im Monat.", "nur im Sommer."]
+        answer: 1
+        rationales: ["Not every Saturday – only the first one of the month.", "Correct: jeden ersten Samstag im Monat.", "No season is mentioned."]
+        explanation: >-
+          "Jeden ersten Samstag im Monat" = on the first Saturday of every month, so once a month. The distractor
+          jeden Samstag takes a word from the text but leaves out ersten.
+
+      - id: a2-mock1-l1-kosten
+        type: mcq
+        skill: reading
+        variety: ch-std
+        prompt: Aufgabe 2
+        question: Für eine Reparatur …
+        options: ["muss man nichts bezahlen.", "bezahlt man zehn Franken.", "braucht man einen Termin."]
+        answer: 0
+        rationales: ["Correct: Die Reparatur kostet nichts.", "No price is mentioned; you may give money if you want.", "No appointment is mentioned."]
+        explanation: >-
+          "Die Reparatur kostet nichts, aber wer möchte, kann etwas Geld in eine Kasse legen." Giving money is
+          optional.
+
+      - id: a2-mock1-l1-meier
+        type: mcq
+        skill: reading
+        variety: ch-std
+        grammar: [perfekt-haben]
+        prompt: Aufgabe 3
+        question: Ruth Meier …
+        options: ["arbeitet noch als Elektrikerin.", "repariert nur Velos.", "hat das Repair-Café eröffnet."]
+        answer: 2
+        rationales: ["She was an electrician and is now retired (pensioniert).", "Bikes are repaired by the Velomechaniker.", "Correct: Ruth Meier hat das Café vor fünf Jahren eröffnet."]
+        explanation: >-
+          "Sie war lange Elektrikerin und ist heute pensioniert" – she no longer works. "Ruth Meier hat das Café vor
+          fünf Jahren eröffnet."
+
+      - id: a2-mock1-l1-helfer
+        type: mcq
+        skill: reading
+        variety: ch-std
+        prompt: Aufgabe 4
+        question: Heute helfen im Repair-Café …
+        options: ["fünf Personen.", "mehr als zwanzig Personen.", "nur Studenten."]
+        answer: 1
+        rationales: ["Five was the number at the beginning (am Anfang).", "Correct: Heute sind es über zwanzig.", "Students are only one group among many."]
+        explanation: >-
+          "Am Anfang waren es nur fünf … Heute sind es über zwanzig." über = more than. Listen and read for the time
+          word: am Anfang vs heute.
+
+      - id: a2-mock1-l1-reden
+        type: mcq
+        skill: reading
+        variety: ch-std
+        grammar: [review-a2-subordinate]
+        prompt: Aufgabe 5
+        question: Viele Besucher kommen auch, …
+        options: ["weil das Essen gratis ist.", "weil sie dort Geld verdienen.", "weil sie gern mit anderen Leuten reden."]
+        answer: 2
+        rationales: ["The text doesn't say that the cake is free.", "Nobody earns money there.", "Correct: weil sie gern mit anderen Leuten reden."]
+        explanation: >-
+          "Viele Besucher kommen deshalb auch einfach, weil sie gern mit anderen Leuten reden." Coffee and cake are
+          mentioned, but not that they are free.
+
+  - id: lesen-2
+    skill: reading
+    title: "Lesen, Teil 2"
+    minutes: 7
+    instructions: >-
+      **Lesen, Teil 2.** *Sie sind in einem Kaufhaus. Lesen Sie die Aufgaben 6 bis 10 und den Wegweiser. In
+      welches Stockwerk gehen Sie? Wählen Sie die richtige Lösung a, b oder c.* You are in a department store.
+      Read the store guide: which floor do you go to? c (anderes Stockwerk) means "another floor".
+    stimulus:
+      title: "Kaufhaus Seetor, Luzern – Wegweiser"
+      variety: ch-std
+      text: |
+        4. Stock: Elektronik · Handys und Zubehör · Computer · Spielwaren · Bücher · Restaurant «Seeblick» · Toiletten
+        3. Stock: Haushalt · Küche und Geschirr · Bettwäsche · Lampen
+        2. Stock: Herrenmode · Kindermode · Sportbekleidung
+        1. Stock: Damenmode · Schuhe · Socken und Strümpfe
+        Erdgeschoss: Kosmetik · Schmuck · Taschen · Zeitschriften · Information · Konzertbillette
+        Untergeschoss: Lebensmittel · Getränke · Bäckerei · Schlüsselservice
+    points: [1, 1, 1, 1, 1]
+    exercises:
+      - id: a2-mock1-l2-tasche
+        type: mcq
+        skill: reading
+        variety: ch-std
+        prompt: Aufgabe 6
+        question: Sie möchten Ihrer Mutter eine Handtasche schenken.
+        options: ["Erdgeschoss", "1. Stock", "anderes Stockwerk"]
+        answer: 0
+        rationales: ["Correct: Taschen are on the ground floor.", "The 1st floor has women's clothes and shoes – not bags.", "The bags are on one of the given floors."]
+        explanation: >-
+          Handtasche → Taschen, Erdgeschoss. The trap: a present for your mother makes you think of Damenmode (1.
+          Stock).
+
+      - id: a2-mock1-l2-ladegeraet
+        type: mcq
+        skill: reading
+        variety: ch-std
+        prompt: Aufgabe 7
+        question: Ihr Handy ist leer, und Sie brauchen ein neues Ladekabel.
+        options: ["2. Stock", "Untergeschoss", "anderes Stockwerk"]
+        answer: 2
+        rationales: ["The 2nd floor has clothes for men and children.", "The basement has food and drinks.", "Correct: Handys und Zubehör are on the 4th floor."]
+        explanation: >-
+          A charging cable is Zubehör (accessories) for a phone: 4. Stock. That floor is not among a and b, so the
+          answer is c.
+
+      - id: a2-mock1-l2-sporthose
+        type: mcq
+        skill: reading
+        variety: ch-std
+        prompt: Aufgabe 8
+        question: Ihr Sohn ist acht Jahre alt. Er braucht eine Hose für den Turnunterricht.
+        options: ["1. Stock", "2. Stock", "anderes Stockwerk"]
+        answer: 1
+        rationales: ["The 1st floor is women's fashion.", "Correct: Kindermode and Sportbekleidung are on the 2nd floor.", "The 2nd floor is one of the options."]
+        explanation: >-
+          A sports trousers for a child: Kindermode or Sportbekleidung – both on the 2nd floor. der Turnunterricht =
+          PE lessons.
+
+      - id: a2-mock1-l2-konzert
+        type: mcq
+        skill: reading
+        variety: ch-std
+        prompt: Aufgabe 9
+        question: Sie möchten Billette für ein Konzert am Samstag kaufen.
+        options: ["4. Stock", "Erdgeschoss", "anderes Stockwerk"]
+        answer: 1
+        rationales: ["The 4th floor has electronics and books, not tickets.", "Correct: Konzertbillette, Erdgeschoss.", "The tickets are on the ground floor."]
+        explanation: >-
+          Konzertbillette are sold on the ground floor next to the information desk. Billett is the Swiss word for
+          a ticket.
+
+      - id: a2-mock1-l2-teller
+        type: mcq
+        skill: reading
+        variety: ch-std
+        prompt: Aufgabe 10
+        question: Sie sind umgezogen und brauchen neue Teller.
+        options: ["Untergeschoss", "4. Stock", "anderes Stockwerk"]
+        answer: 2
+        rationales: ["The basement has food, not plates.", "The 4th floor has a restaurant with plates – but you can't buy them there.", "Correct: Küche und Geschirr are on the 3rd floor."]
+        explanation: >-
+          Teller (plates) are Geschirr: 3. Stock. The restaurant on the 4th floor is a typical distractor.
+
+  - id: lesen-3
+    skill: reading
+    title: "Lesen, Teil 3"
+    minutes: 8
+    instructions: >-
+      **Lesen, Teil 3.** *Sie lesen eine E-Mail. Wählen Sie für die Aufgaben 11 bis 15 die richtige Lösung a, b
+      oder c.* Read the email and choose the right answer for each question.
+    stimulus:
+      title: "E-Mail von Lena"
+      variety: de
+      text: >-
+        Liebe Sarah,
+
+
+        wie geht es dir? Ich habe tolle Neuigkeiten: Ich habe eine neue Stelle! Ab dem 1. März arbeite ich als
+        Grafikerin bei einer Firma in Basel. Ich freue mich sehr, weil wir dann nicht mehr so weit voneinander
+        wohnen. Von Basel nach Zürich ist es nur eine Stunde mit dem Zug.
+
+
+        Leider habe ich noch keine Wohnung. In Basel sind die Wohnungen teuer, und es gibt nicht viele. Am
+        Wochenende vom 14. und 15. Februar möchte ich nach Basel fahren und drei Wohnungen anschauen. Am Samstag
+        um 10 Uhr habe ich den ersten Termin, am Sonntag um 14 Uhr den letzten.
+
+
+        Darf ich am Samstagabend bei dir in Zürich übernachten? Ich könnte nach dem letzten Termin am Samstag
+        mit dem Zug zu dir kommen und am Sonntagmorgen wieder nach Basel fahren. Ich bringe auch einen Kuchen
+        aus Hamburg mit!
+
+
+        Schreib mir bitte bald, ob das für dich passt.
+
+
+        Liebe Grüße
+
+        Lena
+    points: [1, 1, 1, 1, 1]
+    exercises:
+      - id: a2-mock1-l3-warum
+        type: mcq
+        skill: reading
+        variety: de
+        prompt: Aufgabe 11
+        question: Lena zieht nach Basel, weil …
+        options: ["sie dort studieren möchte.", "ihr Freund dort wohnt.", "sie dort eine neue Stelle hat."]
+        answer: 2
+        rationales: ["Studying is not mentioned.", "No boyfriend is mentioned.", "Correct: Ich habe eine neue Stelle … bei einer Firma in Basel."]
+        explanation: >-
+          "Ich habe eine neue Stelle! Ab dem 1. März arbeite ich als Grafikerin bei einer Firma in Basel."
+
+      - id: a2-mock1-l3-beginn
+        type: mcq
+        skill: reading
+        variety: de
+        grammar: [dates-festivals]
+        prompt: Aufgabe 12
+        question: Lena beginnt mit der neuen Arbeit …
+        options: ["am 1. März.", "am 14. Februar.", "am 15. Februar."]
+        answer: 0
+        rationales: ["Correct: Ab dem 1. März arbeite ich …", "14 February is the flat-hunting weekend.", "15 February is the Sunday of that weekend."]
+        explanation: >-
+          "Ab dem 1. März arbeite ich als Grafikerin." The February dates are for the flat viewings – a typical date
+          distractor.
+
+      - id: a2-mock1-l3-problem
+        type: mcq
+        skill: reading
+        variety: de
+        prompt: Aufgabe 13
+        question: Lenas Problem ist, dass …
+        options: ["sie kein Schweizerdeutsch versteht.", "sie noch keine Wohnung hat.", "der Zug nach Zürich zu lange fährt."]
+        answer: 1
+        rationales: ["Swiss German is not mentioned.", "Correct: Leider habe ich noch keine Wohnung.", "She says it's only an hour – a positive point."]
+        explanation: >-
+          "Leider habe ich noch keine Wohnung. In Basel sind die Wohnungen teuer, und es gibt nicht viele." leider
+          signals the problem.
+
+      - id: a2-mock1-l3-wochenende
+        type: mcq
+        skill: reading
+        variety: de
+        prompt: Aufgabe 14
+        question: Am Wochenende vom 14. und 15. Februar möchte Lena …
+        options: ["in Basel Wohnungen anschauen.", "ihre Eltern in Hamburg besuchen.", "mit Sarah Ski fahren."]
+        answer: 0
+        rationales: ["Correct: … nach Basel fahren und drei Wohnungen anschauen.", "Hamburg is only mentioned because of the cake.", "Skiing is not mentioned."]
+        explanation: >-
+          "Am Wochenende vom 14. und 15. Februar möchte ich nach Basel fahren und drei Wohnungen anschauen."
+
+      - id: a2-mock1-l3-sarah
+        type: mcq
+        skill: reading
+        variety: de
+        grammar: [indirect-questions]
+        prompt: Aufgabe 15
+        question: Was soll Sarah machen?
+        options: ["Lena am Bahnhof in Basel abholen.", "Eine Wohnung für Lena suchen.", "Antworten, ob Lena bei ihr übernachten kann."]
+        answer: 2
+        rationales: ["Lena travels to Zurich herself by train.", "Lena looks for the flat herself.", "Correct: Darf ich … bei dir übernachten? … Schreib mir bitte bald, ob das für dich passt."]
+        explanation: >-
+          Lena asks "Darf ich am Samstagabend bei dir in Zürich übernachten?" and ends with "Schreib mir bitte bald,
+          ob das für dich passt." – an indirect question with ob.
+
+  - id: lesen-4
+    skill: reading
+    title: "Lesen, Teil 4"
+    minutes: 8
+    instructions: >-
+      **Lesen, Teil 4.** *Sechs Personen suchen im Internet nach Angeboten. Lesen Sie die Aufgaben 16 bis 20 und
+      die Anzeigen a bis f. Welche Anzeige passt zu welcher Person? Für eine Aufgabe gibt es keine passende
+      Anzeige. Wählen Sie dann X.* Five people look for offers on the internet. Which ad fits each person? For
+      one person there is no suitable ad: choose X.
+    stimulus:
+      title: Anzeigen
+      variety: ch-std
+      text: |
+        a) Kochkurs «Thai-Küche»: vier Abende, jeweils Mittwoch von 18.30 bis 21.30 Uhr, in Zürich-Altstetten. Fr. 280.– inklusive Essen.
+        b) Kletterhalle Winterthur: Schnupperkurs für Kinder von 8 bis 12 Jahren, jeden Samstag von 9 bis 11 Uhr. Material gibt es bei uns.
+        c) Velobörse Bern: Kaufen und verkaufen Sie gebrauchte Velos! Samstag, 18. April, 9 bis 13 Uhr, auf dem Waisenhausplatz.
+        d) Sprachtandem: Ich bin Spanierin (30) und suche eine Tandempartnerin oder einen Tandempartner Deutsch–Spanisch. Treffen einmal pro Woche in einem Café in Zürich. Gratis!
+        e) Yoga am Morgen: Montag bis Freitag, 6.30 bis 7.30 Uhr, im Studio Kleinbasel. Probelektion gratis.
+        f) Wandergruppe 60+ Zürcher Oberland: Wir wandern jeden zweiten Sonntag zusammen, 3–4 Stunden, gemütliches Tempo. Neue Mitglieder sind willkommen!
+    points: [1, 1, 1, 1, 1]
+    exercises:
+      - id: a2-mock1-l4-marco
+        type: mcq
+        skill: reading
+        variety: ch-std
+        prompt: Aufgabe 16
+        question: Marco möchte sein Spanisch verbessern, aber er hat nicht viel Geld.
+        options: ["Anzeige a", "Anzeige b", "Anzeige c", "Anzeige d", "Anzeige e", "Anzeige f", "X (keine Anzeige)"]
+        answer: 3
+        rationales: ["a is a cooking course.", "b is for children.", "c is about bikes.", "Correct: a free German–Spanish language tandem.", "e is yoga.", "f is a hiking group.", "There is a suitable ad: d."]
+        explanation: >-
+          d: Sprachtandem Deutsch–Spanisch, "Gratis!" – it matches both conditions (Spanish, little money).
+
+      - id: a2-mock1-l4-kunz
+        type: mcq
+        skill: reading
+        variety: ch-std
+        prompt: Aufgabe 17
+        question: Frau Kunz ist 70 Jahre alt. Sie wandert gern, aber nicht allein.
+        options: ["Anzeige a", "Anzeige b", "Anzeige c", "Anzeige d", "Anzeige e", "Anzeige f", "X (keine Anzeige)"]
+        answer: 5
+        rationales: ["a is a cooking course.", "b is for children.", "c is about bikes.", "d is a language tandem.", "e is yoga.", "Correct: a hiking group for people over 60.", "f fits."]
+        explanation: >-
+          f: Wandergruppe 60+, "Wir wandern … zusammen", gemütliches Tempo – a group, so she isn't alone.
+
+      - id: a2-mock1-l4-jonas
+        type: mcq
+        skill: reading
+        variety: ch-std
+        prompt: Aufgabe 18
+        question: Jonas sucht für seine Tochter (10) einen Sportkurs am Wochenende.
+        options: ["Anzeige a", "Anzeige b", "Anzeige c", "Anzeige d", "Anzeige e", "Anzeige f", "X (keine Anzeige)"]
+        answer: 1
+        rationales: ["a is a cooking course on Wednesdays.", "Correct: climbing for children aged 8–12 on Saturdays.", "c is a bike sale.", "d is a language tandem.", "e is yoga on weekdays.", "f is for people over 60.", "b fits."]
+        explanation: >-
+          b: Kletterhalle, Schnupperkurs für Kinder von 8 bis 12 Jahren, jeden Samstag – a sport, the right age and
+          the weekend.
+
+      - id: a2-mock1-l4-aylin
+        type: mcq
+        skill: reading
+        variety: ch-std
+        prompt: Aufgabe 19
+        question: Aylin arbeitet jeden Tag bis 19 Uhr. Sie möchte am Abend asiatisch kochen lernen.
+        options: ["Anzeige a", "Anzeige b", "Anzeige c", "Anzeige d", "Anzeige e", "Anzeige f", "X (keine Anzeige)"]
+        answer: 6
+        rationales: ["The Thai course starts at 18.30 – Aylin works until 19.00.", "b is for children.", "c is about bikes.", "d is a language tandem.", "e is yoga.", "f is a hiking group.", "Correct: no ad fits."]
+        explanation: >-
+          Ad a is an Asian cooking course in the evening, but it starts at 18.30 and Aylin works until 19 Uhr. So no ad
+          fits: X. In every Teil 4 one person has no ad – read the times carefully.
+
+      - id: a2-mock1-l4-brunner
+        type: mcq
+        skill: reading
+        variety: ch-std
+        prompt: Aufgabe 20
+        question: Herr Brunner hat ein neues E-Bike. Sein altes Velo möchte er verkaufen.
+        options: ["Anzeige a", "Anzeige b", "Anzeige c", "Anzeige d", "Anzeige e", "Anzeige f", "X (keine Anzeige)"]
+        answer: 2
+        rationales: ["a is a cooking course.", "b is a climbing course.", "Correct: a market for selling used bikes.", "d is a language tandem.", "e is yoga.", "f is a hiking group.", "c fits."]
+        explanation: >-
+          c: Velobörse – "Kaufen und verkaufen Sie gebrauchte Velos!" gebraucht = used, second-hand.
+
+  # ===================================================================== HÖREN (30 min, 20 points)
+  - id: hoeren-1
+    skill: listening
+    title: "Hören, Teil 1"
+    minutes: 8
+    instructions: >-
+      **Hören, Teil 1.** *Sie hören fünf kurze Texte. Sie hören jeden Text zweimal. Wählen Sie für die Aufgaben 1
+      bis 5 die richtige Lösung a, b oder c.* You hear five short texts – messages and announcements. Choose the
+      right answer. In the real exam you hear each text **twice**.
+    stimulus:
+      title: Fünf kurze Texte
+      variety: ch-std
+      text: |
+        Sprecher: Text 1.
+        Frau Graf: Guten Tag, Herr Okafor, hier ist Frau Graf von der Praxis Dr. Huber. Ihr Termin am Dienstag um 14.30 Uhr geht leider nicht, Frau Doktor Huber ist an diesem Tag nicht da. Können Sie am Donnerstag kommen, auch um 14.30 Uhr? Bitte rufen Sie uns kurz zurück. Danke und auf Wiederhören.
+
+        Sprecher: Text 2.
+        Sprecherin: Gleisänderung: Der Intercity nach Bern, Abfahrt 10.32 Uhr, fährt heute nicht auf Gleis 5, sondern auf Gleis 7. Der Zug hat etwa fünf Minuten Verspätung. Wir bitten um Entschuldigung.
+
+        Sprecher: Text 3.
+        Sprecher: Und jetzt das Wetter für die Region Zürich. Am Morgen gibt es noch Nebel, am Nachmittag scheint dann überall die Sonne, bei 18 Grad. Morgen wird es kühler, und es regnet den ganzen Tag.
+
+        Sprecher: Text 4.
+        Sprecherin: Liebe Kundinnen und Kunden, nur heute in unserer Gemüseabteilung: Schweizer Erdbeeren zum halben Preis! Das Kilo kostet nur 6 Franken. Das Angebot gilt bis 18 Uhr.
+
+        Sprecher: Text 5.
+        Sandra: Hoi Anna, hier ist Sandra. Der Film beginnt erst um 20.15 Uhr, nicht um 19.30 Uhr. Wir essen also nicht vorher im Restaurant. Treffen wir uns um 20 Uhr direkt vor dem Kino? Bis später!
+    points: [1, 1, 1, 1, 1]
+    exercises:
+      - id: a2-mock1-h1-termin
+        type: mcq
+        skill: listening
+        variety: ch-std
+        grammar: [dates-festivals, telling-time]
+        prompt: "Text 1 – listen and choose the right answer."
+        transcript: |-
+          Frau Graf: Guten Tag, Herr Okafor, hier ist Frau Graf von der Praxis Dr. Huber. Ihr Termin am Dienstag um 14.30 Uhr geht leider nicht, Frau Doktor Huber ist an diesem Tag nicht da. Können Sie am Donnerstag kommen, auch um 14.30 Uhr? Bitte rufen Sie uns kurz zurück. Danke und auf Wiederhören.
+        question: Wann ist der neue Termin?
+        options: ["Am Dienstag um 14.30 Uhr", "Am Donnerstag um 14.30 Uhr", "Am Donnerstag um 16.30 Uhr"]
+        answer: 1
+        rationales: ["Tuesday was the old appointment.", "Correct: am Donnerstag, auch um 14.30 Uhr.", "The time stays the same: 14.30."]
+        explanation: >-
+          The old appointment (Dienstag) doesn't work; the new one is "am Donnerstag …, auch um 14.30 Uhr". auch
+          tells you the time doesn't change.
+
+      - id: a2-mock1-h1-gleis
+        type: mcq
+        skill: listening
+        variety: ch-std
+        grammar: [connectors-deshalb-trotzdem]
+        prompt: "Text 2 – listen and choose the right answer."
+        transcript: |-
+          Sprecherin: Gleisänderung: Der Intercity nach Bern, Abfahrt 10.32 Uhr, fährt heute nicht auf Gleis 5, sondern auf Gleis 7. Der Zug hat etwa fünf Minuten Verspätung. Wir bitten um Entschuldigung.
+        question: Von welchem Gleis fährt der Zug nach Bern?
+        options: ["Von Gleis 7", "Von Gleis 5", "Von Gleis 17"]
+        answer: 0
+        rationales: ["Correct: nicht auf Gleis 5, sondern auf Gleis 7.", "Gleis 5 is the usual platform – not today.", "17 is not mentioned."]
+        explanation: >-
+          "nicht auf Gleis 5, sondern auf Gleis 7" – the first number is corrected. A classic distractor in
+          announcements: listen for nicht … sondern.
+
+      - id: a2-mock1-h1-wetter
+        type: mcq
+        skill: listening
+        variety: ch-std
+        grammar: [weather-forecast]
+        prompt: "Text 3 – listen and choose the right answer."
+        transcript: |-
+          Sprecher: Und jetzt das Wetter für die Region Zürich. Am Morgen gibt es noch Nebel, am Nachmittag scheint dann überall die Sonne, bei 18 Grad. Morgen wird es kühler, und es regnet den ganzen Tag.
+        question: Wie ist das Wetter heute am Nachmittag?
+        options: ["Es regnet.", "Es ist neblig.", "Es ist sonnig."]
+        answer: 2
+        rationales: ["The rain is tomorrow.", "The fog is in the morning.", "Correct: am Nachmittag scheint überall die Sonne."]
+        explanation: >-
+          Three times of day, three kinds of weather: am Morgen Nebel, am Nachmittag Sonne, morgen Regen. The question
+          asks about this afternoon.
+
+      - id: a2-mock1-h1-erdbeeren
+        type: mcq
+        skill: listening
+        variety: ch-std
+        prompt: "Text 4 – listen and choose the right answer."
+        transcript: |-
+          Sprecherin: Liebe Kundinnen und Kunden, nur heute in unserer Gemüseabteilung: Schweizer Erdbeeren zum halben Preis! Das Kilo kostet nur 6 Franken. Das Angebot gilt bis 18 Uhr.
+        question: Was ist heute billiger?
+        options: ["Erdbeeren", "Gemüse", "Brot"]
+        answer: 0
+        rationales: ["Correct: Schweizer Erdbeeren zum halben Preis.", "Gemüseabteilung is only where the strawberries are.", "Bread is not mentioned."]
+        explanation: >-
+          "Schweizer Erdbeeren zum halben Preis" (half price). The word Gemüseabteilung (vegetable department) is a
+          trap: it says where, not what.
+
+      - id: a2-mock1-h1-kino
+        type: mcq
+        skill: listening
+        variety: ch-std
+        grammar: [planning-together, two-way-prepositions]
+        prompt: "Text 5 – listen and choose the right answer."
+        transcript: |-
+          Sandra: Hoi Anna, hier ist Sandra. Der Film beginnt erst um 20.15 Uhr, nicht um 19.30 Uhr. Wir essen also nicht vorher im Restaurant. Treffen wir uns um 20 Uhr direkt vor dem Kino? Bis später!
+        question: Wo treffen sich Anna und Sandra?
+        options: ["Im Restaurant", "Vor dem Kino", "Am Bahnhof"]
+        answer: 1
+        rationales: ["They don't eat in the restaurant before the film any more.", "Correct: direkt vor dem Kino.", "The station is not mentioned."]
+        explanation: >-
+          "Wir essen also nicht vorher im Restaurant. Treffen wir uns um 20 Uhr direkt vor dem Kino?" vor + dative =
+          in front of (Wo?).
+
+  - id: hoeren-2
+    skill: listening
+    title: "Hören, Teil 2"
+    minutes: 7
+    instructions: >-
+      **Hören, Teil 2.** *Sie hören ein Gespräch. Sie hören den Text einmal. Was hat Nina wann gemacht? Wählen
+      Sie für die Aufgaben 6 bis 10 die richtige Lösung.* You hear a conversation between Nina and Paul about
+      Nina's last week. What did Nina do on each day? In the real exam you match the days to pictures and hear
+      the conversation **once**; here each day has four options.
+    stimulus:
+      title: Ninas Woche
+      variety: de
+      text: |
+        Paul: Hallo Nina! Wie war deine erste Woche in der neuen Wohnung?
+        Nina: Super, aber auch anstrengend! Am Montag wollte ich eigentlich kochen, aber die Küche war noch voll mit Kartons. Ich bin dann ins Möbelhaus gefahren und habe ein Regal gekauft.
+        Paul: Und am Dienstag? Da hast du doch Volleyball, oder?
+        Nina: Normalerweise ja. Aber mein Rücken hat so wehgetan. Deshalb bin ich zum Arzt gegangen.
+        Paul: Oh nein! Und am Mittwoch?
+        Nina: Am Mittwoch wollte ich schwimmen gehen, aber meine Kollegin Marta hatte Geburtstag. Wir haben im Büro mit Kuchen gefeiert, und am Abend waren wir noch zusammen essen.
+        Paul: Schön! Und am Donnerstag hattest du Deutschkurs?
+        Nina: Nein, der Kurs war diese Woche am Mittwoch, und den habe ich verpasst. Am Donnerstag habe ich endlich die Wohnung geputzt.
+        Paul: Und am Freitag waren wir zusammen im Kino.
+        Nina: Genau! Der Film war toll.
+    points: [1, 1, 1, 1, 1]
+    exercises:
+      - id: a2-mock1-h2-montag
+        type: mcq
+        skill: listening
+        variety: de
+        grammar: [perfekt-haben, perfekt-sein]
+        prompt: "Aufgabe 6 – Montag"
+        transcript: |-
+          Nina: Super, aber auch anstrengend! Am Montag wollte ich eigentlich kochen, aber die Küche war noch voll mit Kartons. Ich bin dann ins Möbelhaus gefahren und habe ein Regal gekauft.
+        question: Was hat Nina am Montag gemacht?
+        options: ["gekocht", "ein Regal gekauft", "die Wohnung geputzt", "Volleyball gespielt"]
+        answer: 1
+        rationales: ["She wanted to cook (wollte), but didn't.", "Correct: ins Möbelhaus gefahren und ein Regal gekauft.", "That was Thursday.", "Volleyball is normally on Tuesday."]
+        explanation: >-
+          "Am Montag wollte ich eigentlich kochen, aber …" – wollte + aber means she didn't. What she did is in the
+          Perfekt: habe ein Regal gekauft.
+
+      - id: a2-mock1-h2-dienstag
+        type: mcq
+        skill: listening
+        variety: de
+        grammar: [connectors-deshalb-trotzdem, wehtun-schmerzen]
+        prompt: "Aufgabe 7 – Dienstag"
+        transcript: |-
+          Paul: Und am Dienstag? Da hast du doch Volleyball, oder?
+          Nina: Normalerweise ja. Aber mein Rücken hat so wehgetan. Deshalb bin ich zum Arzt gegangen.
+        question: Was hat Nina am Dienstag gemacht?
+        options: ["Volleyball gespielt", "Kuchen gegessen", "eingekauft", "sie war beim Arzt"]
+        answer: 3
+        rationales: ["Normally yes – but not this week.", "The cake was on Wednesday.", "Shopping is not mentioned for Tuesday.", "Correct: Deshalb bin ich zum Arzt gegangen."]
+        explanation: >-
+          "Normalerweise ja. Aber …" – this week was different: her back hurt, deshalb (so) she went to the doctor.
+
+      - id: a2-mock1-h2-mittwoch
+        type: mcq
+        skill: listening
+        variety: de
+        grammar: [perfekt-haben]
+        prompt: "Aufgabe 8 – Mittwoch"
+        transcript: |-
+          Nina: Am Mittwoch wollte ich schwimmen gehen, aber meine Kollegin Marta hatte Geburtstag. Wir haben im Büro mit Kuchen gefeiert, und am Abend waren wir noch zusammen essen.
+        question: Was hat Nina am Mittwoch gemacht?
+        options: ["einen Geburtstag gefeiert", "sie war schwimmen", "sie war im Deutschkurs", "sie war im Kino"]
+        answer: 0
+        rationales: ["Correct: Wir haben im Büro mit Kuchen gefeiert.", "She wanted to (wollte), but didn't.", "The course was on Wednesday, but she missed it.", "The cinema was on Friday."]
+        explanation: >-
+          wollte schwimmen gehen, aber … → no. "Wir haben im Büro mit Kuchen gefeiert." Later we hear the course was on
+          Wednesday – and that she missed it (verpasst).
+
+      - id: a2-mock1-h2-donnerstag
+        type: mcq
+        skill: listening
+        variety: de
+        grammar: [perfekt-haben]
+        prompt: "Aufgabe 9 – Donnerstag"
+        transcript: |-
+          Paul: Schön! Und am Donnerstag hattest du Deutschkurs?
+          Nina: Nein, der Kurs war diese Woche am Mittwoch, und den habe ich verpasst. Am Donnerstag habe ich endlich die Wohnung geputzt.
+        question: Was hat Nina am Donnerstag gemacht?
+        options: ["sie war im Deutschkurs", "ein Regal gekauft", "die Wohnung geputzt", "sie war beim Arzt"]
+        answer: 2
+        rationales: ["Paul thinks so, but Nina says Nein.", "That was Monday.", "Correct: Am Donnerstag habe ich endlich die Wohnung geputzt.", "That was Tuesday."]
+        explanation: >-
+          Paul's question is wrong – Nina corrects him (Nein). endlich (at last) introduces what she did: die Wohnung
+          geputzt.
+
+      - id: a2-mock1-h2-freitag
+        type: mcq
+        skill: listening
+        variety: de
+        prompt: "Aufgabe 10 – Freitag"
+        transcript: |-
+          Paul: Und am Freitag waren wir zusammen im Kino.
+          Nina: Genau! Der Film war toll.
+        question: Was hat Nina am Freitag gemacht?
+        options: ["sie war essen", "sie war mit Paul im Kino", "sie war schwimmen", "gekocht"]
+        answer: 1
+        rationales: ["Eating out was Wednesday evening.", "Correct: am Freitag waren wir zusammen im Kino.", "She didn't go swimming this week.", "She didn't cook this week."]
+        explanation: >-
+          "Am Freitag waren wir zusammen im Kino. – Genau!" war / waren for sein in the past.
+
+  - id: hoeren-3
+    skill: listening
+    title: "Hören, Teil 3"
+    minutes: 7
+    instructions: >-
+      **Hören, Teil 3.** *Sie hören fünf kurze Gespräche. Sie hören jeden Text einmal. Wählen Sie für die
+      Aufgaben 11 bis 15 die richtige Lösung a, b oder c.* You hear five short conversations. Choose the right
+      answer. In the real exam the answers are pictures and you hear each conversation **once**.
+    stimulus:
+      title: Fünf kurze Gespräche
+      variety: de
+      text: |
+        Sprecher: Gespräch 1.
+        Verkäuferin: Und, passt der blaue Pullover?
+        Frau: Nein, leider ist er zu klein. Haben Sie ihn eine Nummer größer?
+        Verkäuferin: In Blau leider nicht mehr. Aber in Grau haben wir ihn noch in Größe M.
+        Frau: Grau ist auch schön. Dann nehme ich den grauen.
+
+        Sprecher: Gespräch 2.
+        Frau: Du bist ja ganz nass! Fährst du nicht immer mit dem Velo zur Arbeit?
+        Mann: Doch, normalerweise schon. Aber heute regnet es so stark. Ich habe das Tram genommen, aber die Haltestelle ist weit weg.
+
+        Sprecher: Gespräch 3.
+        Kellner: Möchten Sie bestellen?
+        Frau: Ja, ich hätte gern den Fisch mit Reis.
+        Kellner: Oh, das tut mir leid, der Fisch ist heute schon aus. Ich kann Ihnen die Rösti mit Gemüse empfehlen.
+        Frau: Gut, dann nehme ich die Rösti. Und einen Salat dazu? Nein, doch nicht – nur die Rösti, bitte.
+
+        Sprecher: Gespräch 4.
+        Mann: Oh nein, der Zug um 14.08 Uhr ist gerade abgefahren!
+        Frau: Kein Problem, der nächste fährt in einer halben Stunde, um 14.38 Uhr.
+        Mann: Dann trinken wir noch schnell einen Kaffee.
+
+        Sprecher: Gespräch 5.
+        Mann: Hast du meinen Schlüssel gesehen? In meiner Tasche ist er nicht.
+        Frau: Liegt er nicht auf dem Tisch?
+        Mann: Nein, da habe ich schon geschaut.
+        Frau: Ah, da ist er ja – neben dem Fernseher!
+    points: [1, 1, 1, 1, 1]
+    exercises:
+      - id: a2-mock1-h3-pullover
+        type: mcq
+        skill: listening
+        variety: de
+        grammar: [colours-zu-adjective, comparative]
+        prompt: "Gespräch 1 – listen and choose the right answer."
+        transcript: |-
+          Verkäuferin: Und, passt der blaue Pullover?
+          Frau: Nein, leider ist er zu klein. Haben Sie ihn eine Nummer größer?
+          Verkäuferin: In Blau leider nicht mehr. Aber in Grau haben wir ihn noch in Größe M.
+          Frau: Grau ist auch schön. Dann nehme ich den grauen.
+        question: Was kauft die Frau?
+        options: ["Einen blauen Pullover", "Eine Jacke", "Einen grauen Pullover"]
+        answer: 2
+        rationales: ["The blue one is too small and there's no bigger size in blue.", "A jacket is not mentioned.", "Correct: Dann nehme ich den grauen."]
+        explanation: >-
+          The blue pullover is zu klein, and there is no bigger one in blue. "Dann nehme ich den grauen" – the
+          decision comes at the end.
+
+      - id: a2-mock1-h3-tram
+        type: mcq
+        skill: listening
+        variety: ch-std
+        grammar: [dative-prepositions]
+        prompt: "Gespräch 2 – listen and choose the right answer."
+        transcript: |-
+          Frau: Du bist ja ganz nass! Fährst du nicht immer mit dem Velo zur Arbeit?
+          Mann: Doch, normalerweise schon. Aber heute regnet es so stark. Ich habe das Tram genommen, aber die Haltestelle ist weit weg.
+        question: Wie ist der Mann heute zur Arbeit gekommen?
+        options: ["Mit dem Velo", "Mit dem Tram", "Mit dem Auto"]
+        answer: 1
+        rationales: ["Normally yes – but not today.", "Correct: Ich habe das Tram genommen.", "A car is not mentioned."]
+        explanation: >-
+          normalerweise (usually) – aber heute (but today): "Ich habe das Tram genommen." He is wet because the stop is
+          far away.
+
+      - id: a2-mock1-h3-essen
+        type: mcq
+        skill: listening
+        variety: de
+        grammar: [moechte]
+        prompt: "Gespräch 3 – listen and choose the right answer."
+        transcript: |-
+          Kellner: Möchten Sie bestellen?
+          Frau: Ja, ich hätte gern den Fisch mit Reis.
+          Kellner: Oh, das tut mir leid, der Fisch ist heute schon aus. Ich kann Ihnen die Rösti mit Gemüse empfehlen.
+          Frau: Gut, dann nehme ich die Rösti. Und einen Salat dazu? Nein, doch nicht – nur die Rösti, bitte.
+        question: Was isst die Frau?
+        options: ["Rösti mit Gemüse", "Fisch mit Reis", "Rösti und einen Salat"]
+        answer: 0
+        rationales: ["Correct: nur die Rösti, bitte.", "The fish is sold out (aus).", "She changes her mind about the salad: doch nicht."]
+        explanation: >-
+          der Fisch ist aus = sold out. She thinks about a salad, then says "Nein, doch nicht – nur die Rösti". Listen
+          to the end of the conversation.
+
+      - id: a2-mock1-h3-zug
+        type: mcq
+        skill: listening
+        variety: de
+        grammar: [telling-time]
+        prompt: "Gespräch 4 – listen and choose the right answer."
+        transcript: |-
+          Mann: Oh nein, der Zug um 14.08 Uhr ist gerade abgefahren!
+          Frau: Kein Problem, der nächste fährt in einer halben Stunde, um 14.38 Uhr.
+          Mann: Dann trinken wir noch schnell einen Kaffee.
+        question: Wann fahren die beiden?
+        options: ["Um 14.08 Uhr", "Um 15.08 Uhr", "Um 14.38 Uhr"]
+        answer: 2
+        rationales: ["That train has just left.", "Not mentioned.", "Correct: der nächste fährt … um 14.38 Uhr."]
+        explanation: >-
+          The 14.08 train ist gerade abgefahren (has just left). The next one: in einer halben Stunde, um 14.38 Uhr.
+
+      - id: a2-mock1-h3-schluessel
+        type: mcq
+        skill: listening
+        variety: de
+        grammar: [two-way-prepositions, position-verbs]
+        prompt: "Gespräch 5 – listen and choose the right answer."
+        transcript: |-
+          Mann: Hast du meinen Schlüssel gesehen? In meiner Tasche ist er nicht.
+          Frau: Liegt er nicht auf dem Tisch?
+          Mann: Nein, da habe ich schon geschaut.
+          Frau: Ah, da ist er ja – neben dem Fernseher!
+        question: Wo ist der Schlüssel?
+        options: ["In der Tasche", "Neben dem Fernseher", "Auf dem Tisch"]
+        answer: 1
+        rationales: ["In meiner Tasche ist er nicht.", "Correct: da ist er ja – neben dem Fernseher!", "Da habe ich schon geschaut – it's not there."]
+        explanation: >-
+          Two places are ruled out (nicht in der Tasche, nicht auf dem Tisch); the key is neben dem Fernseher – Wo? +
+          dative.
+
+  - id: hoeren-4
+    skill: listening
+    title: "Hören, Teil 4"
+    minutes: 8
+    instructions: >-
+      **Hören, Teil 4.** *Sie hören ein Interview. Sie hören den Text zweimal. Wählen Sie für die Aufgaben 16 bis
+      20 Ja oder Nein.* You hear a radio interview. Is each statement right (Ja) or wrong (Nein)? In the real
+      exam you hear it **twice**.
+    stimulus:
+      title: "Radio-Interview: Menschen und Berufe"
+      variety: ch-std
+      text: |
+        Moderator: In unserer Sendung «Menschen und Berufe» ist heute Jasmin Frei bei uns. Frau Frei, Sie sind Zugbegleiterin. Wie lange machen Sie das schon?
+        Jasmin Frei: Seit zwölf Jahren. Vorher habe ich in einem Hotel an der Rezeption gearbeitet.
+        Moderator: Wie sieht ein normaler Arbeitstag aus?
+        Jasmin Frei: Das ist jeden Tag anders. Manchmal beginne ich schon um fünf Uhr am Morgen, manchmal arbeite ich bis Mitternacht. Ich kontrolliere die Billette, helfe den Fahrgästen und mache die Durchsagen.
+        Moderator: Welche Sprachen sprechen Sie bei der Arbeit?
+        Jasmin Frei: Deutsch, Französisch und Englisch. Italienisch kann ich leider nicht, aber ich lerne es gerade.
+        Moderator: Sind die Fahrgäste freundlich?
+        Jasmin Frei: Ja, die meisten sind sehr nett. Nur wenn ein Zug Verspätung hat, sind manche Leute nervös. Dann muss ich ruhig bleiben.
+        Moderator: Und in Ihrer Freizeit? Fahren Sie dann auch Zug?
+        Jasmin Frei: Ja, sehr gern sogar! Mit meiner Familie mache ich oft Ausflüge mit dem Zug, zum Beispiel ins Tessin.
+    points: [1, 1, 1, 1, 1]
+    exercises:
+      - id: a2-mock1-h4-seit
+        type: mcq
+        skill: listening
+        variety: ch-std
+        grammar: [seit-present]
+        prompt: "Aufgabe 16 – Ja oder Nein?"
+        transcript: |-
+          Moderator: Frau Frei, Sie sind Zugbegleiterin. Wie lange machen Sie das schon?
+          Jasmin Frei: Seit zwölf Jahren. Vorher habe ich in einem Hotel an der Rezeption gearbeitet.
+        question: Frau Frei arbeitet seit zwölf Jahren als Zugbegleiterin.
+        options: ["Ja", "Nein"]
+        answer: 0
+        rationales: ["Correct: Seit zwölf Jahren.", "She says seit zwölf Jahren."]
+        explanation: >-
+          "Wie lange machen Sie das schon? – Seit zwölf Jahren." seit + present (A2.3). The hotel job was before.
+
+      - id: a2-mock1-h4-tag
+        type: mcq
+        skill: listening
+        variety: ch-std
+        prompt: "Aufgabe 17 – Ja oder Nein?"
+        transcript: |-
+          Jasmin Frei: Das ist jeden Tag anders. Manchmal beginne ich schon um fünf Uhr am Morgen, manchmal arbeite ich bis Mitternacht. Ich kontrolliere die Billette, helfe den Fahrgästen und mache die Durchsagen.
+        question: Frau Frei arbeitet immer von morgens bis nachmittags.
+        options: ["Ja", "Nein"]
+        answer: 1
+        rationales: ["Her hours change: from 5 a.m. or until midnight.", "Correct: Das ist jeden Tag anders."]
+        explanation: >-
+          "Das ist jeden Tag anders. Manchmal … um fünf Uhr am Morgen, manchmal … bis Mitternacht." immer (always)
+          in the statement is wrong.
+
+      - id: a2-mock1-h4-sprachen
+        type: mcq
+        skill: listening
+        variety: ch-std
+        prompt: "Aufgabe 18 – Ja oder Nein?"
+        transcript: |-
+          Moderator: Welche Sprachen sprechen Sie bei der Arbeit?
+          Jasmin Frei: Deutsch, Französisch und Englisch. Italienisch kann ich leider nicht, aber ich lerne es gerade.
+        question: Frau Frei spricht bei der Arbeit Italienisch.
+        options: ["Ja", "Nein"]
+        answer: 1
+        rationales: ["She is learning Italian, but can't speak it yet.", "Correct: Italienisch kann ich leider nicht."]
+        explanation: >-
+          German, French and English – "Italienisch kann ich leider nicht, aber ich lerne es gerade." Learning it is
+          not the same as speaking it at work.
+
+      - id: a2-mock1-h4-fahrgaeste
+        type: mcq
+        skill: listening
+        variety: ch-std
+        prompt: "Aufgabe 19 – Ja oder Nein?"
+        transcript: |-
+          Moderator: Sind die Fahrgäste freundlich?
+          Jasmin Frei: Ja, die meisten sind sehr nett. Nur wenn ein Zug Verspätung hat, sind manche Leute nervös. Dann muss ich ruhig bleiben.
+        question: Die meisten Fahrgäste sind freundlich.
+        options: ["Ja", "Nein"]
+        answer: 0
+        rationales: ["Correct: die meisten sind sehr nett.", "Only some are nervous when there is a delay."]
+        explanation: >-
+          "Ja, die meisten sind sehr nett." The exception (wenn ein Zug Verspätung hat) is only some people.
+
+      - id: a2-mock1-h4-freizeit
+        type: mcq
+        skill: listening
+        variety: ch-std
+        prompt: "Aufgabe 20 – Ja oder Nein?"
+        transcript: |-
+          Moderator: Und in Ihrer Freizeit? Fahren Sie dann auch Zug?
+          Jasmin Frei: Ja, sehr gern sogar! Mit meiner Familie mache ich oft Ausflüge mit dem Zug, zum Beispiel ins Tessin.
+        question: In ihrer Freizeit fährt Frau Frei nicht gern Zug.
+        options: ["Ja", "Nein"]
+        answer: 1
+        rationales: ["She says the opposite: sehr gern sogar.", "Correct: Ja, sehr gern sogar!"]
+        explanation: >-
+          "Ja, sehr gern sogar!" – she likes it a lot and often takes trips with her family by train. The statement
+          with nicht gern is wrong.
+
+  # ===================================================================== SCHREIBEN (30 min, 20 points)
+  - id: schreiben-1
+    skill: writing
+    title: "Schreiben, Teil 1"
+    minutes: 12
+    instructions: >-
+      **Schreiben, Teil 1.** *Sie sind mit Ihrer Freundin Julia zum Kino verabredet. Sie kommen zu spät.
+      Schreiben Sie Julia eine SMS. Schreiben Sie etwa 20–30 Wörter zu allen drei Punkten.* Write a short text
+      message of about 20–30 words that covers all three points. Scored 0–10 for task fulfilment (all three
+      points) and language.
+    points: [10]
+    exercises:
+      - id: a2-mock1-s1-sms
+        type: write
+        skill: writing
+        variety: de
+        grammar: [connectors-deshalb-trotzdem, review-a2-subordinate, planning-together]
+        prompt: Write a text message to Julia.
+        task: >-
+          Sie sind mit Julia um 19.30 Uhr vor dem Kino verabredet. Sie kommen zu spät. Schreiben Sie Julia eine SMS:
+          (1) Entschuldigen Sie sich. (2) Warum kommen Sie zu spät? (3) Machen Sie einen Vorschlag: Was soll Julia
+          machen?
+        minWords: 20
+        model: >-
+          Hallo Julia, es tut mir leid, ich komme etwa zwanzig Minuten zu spät, weil mein Zug Verspätung hat. Kannst
+          du schon die Billette kaufen? Wir treffen uns dann drinnen. Bis gleich! Tom
+        checklist:
+          - "Point 1: I apologise (Es tut mir leid / Entschuldigung)."
+          - "Point 2: I give a reason (weil … / … , deshalb …)."
+          - "Point 3: I suggest what Julia should do (Kannst du …? Geh doch schon …)."
+          - I start with Hallo / Liebe Julia and end with a short closing and my name.
+          - I write about 20–30 words with the verb in the right place (weil → verb last).
+        explanation: >-
+          The official criteria are task fulfilment (all three points, right register: du to a friend) and language.
+          Three short sentences, one per point, are enough. weil + verb at the end, or … , deshalb + verb.
+
+  - id: schreiben-2
+    skill: writing
+    title: "Schreiben, Teil 2"
+    minutes: 18
+    instructions: >-
+      **Schreiben, Teil 2.** *Ihr Deutschlehrer, Herr Wyss, organisiert am Samstag einen Ausflug für den Kurs.
+      Schreiben Sie Herrn Wyss eine E-Mail. Schreiben Sie etwa 30–40 Wörter zu allen drei Punkten.* Write a
+      formal email of about 30–40 words covering all three points, with a suitable opening and closing. Scored
+      0–10.
+    points: [10]
+    exercises:
+      - id: a2-mock1-s2-email
+        type: write
+        skill: writing
+        variety: ch-std
+        grammar: [messages-register, indirect-questions, review-a2-subordinate]
+        prompt: Write an email to your German teacher, Herr Wyss.
+        task: >-
+          Herr Wyss organisiert am Samstag einen Ausflug nach Luzern für den Deutschkurs. Sie können leider nicht
+          mitkommen. Schreiben Sie ihm eine E-Mail: (1) Bedanken Sie sich für die Einladung. (2) Sagen Sie, warum Sie
+          nicht kommen können. (3) Fragen Sie nach den Hausaufgaben für Montag.
+        minWords: 30
+        model: >-
+          Sehr geehrter Herr Wyss,
+
+
+          vielen Dank für die Einladung zum Ausflug nach Luzern. Leider kann ich am Samstag nicht mitkommen, weil meine
+          Schwester heiratet. Können Sie mir bitte sagen, welche Hausaufgaben wir für Montag machen sollen?
+
+
+          Freundliche Grüsse
+
+          Sarah Miller
+        checklist:
+          - "Point 1: I thank him for the invitation (Vielen Dank für …)."
+          - "Point 2: I say why I can't come (weil … / leider …)."
+          - "Point 3: I ask about the homework (Können Sie mir sagen, …? / Welche Hausaufgaben …?)."
+          - I use Sie and a formal opening and closing (Sehr geehrter Herr Wyss / Freundliche Grüsse).
+          - I write about 30–40 words.
+        explanation: >-
+          A teacher is a Sie-contact: Sehr geehrter Herr Wyss, Sie / Ihnen, Freundliche Grüsse (or Mit freundlichen
+          Grüssen). An indirect question (Können Sie mir sagen, welche …?) is polite; the verb goes to the end.
+
+  # ===================================================================== SPRECHEN (15 min, 20 points)
+  - id: sprechen-1
+    skill: speaking
+    title: "Sprechen, Teil 1"
+    minutes: 3
+    instructions: >-
+      **Sprechen, Teil 1: Fragen zur Person.** *Sie bekommen vier Karten. Fragen Sie Ihre Partnerin / Ihren
+      Partner und antworten Sie.* You get four cards with a key word each. Ask your partner a question with each
+      word and answer your partner's questions. In the real exam this is a pair exam with two examiners; here
+      Lena is your partner. Scored 0–4.
+    points: [4]
+    exercises:
+      - id: a2-mock1-sp1-person
+        type: roleplay
+        skill: speaking
+        variety: de
+        tutor: lena
+        grammar: [w-questions, review-a2-perfekt, dates-festivals]
+        prompt: "Your cards: Geburtstag? – Wohnort? – Sprachen? – Wochenende?"
+        scenario: >-
+          Lena is your exam partner. Ask her four questions, one with each card word (Geburtstag, Wohnort, Sprachen,
+          Wochenende), and answer her four questions about you in full sentences.
+        goals:
+          - Ask a correct question with each of the four card words.
+          - Answer Lena's questions in full, correct sentences.
+          - Add one extra detail to at least two answers (why, since when, with whom).
+        model: |
+          Du: Wann haben Sie Geburtstag?
+          Lena: Am 3. Juli. Und wo wohnen Sie?
+          Du: Ich wohne seit zwei Jahren in Zürich, in Oerlikon. Wo wohnen Sie?
+          Lena: In Hamburg. Welche Sprachen sprechen Sie?
+          Du: Englisch, Spanisch und ein bisschen Deutsch. Und Sie?
+          Lena: Deutsch und Englisch. Was haben Sie letztes Wochenende gemacht?
+          Du: Ich bin mit Freunden auf den Üetliberg gewandert. Und Sie?
+          Lena: Ich habe meine Eltern besucht.
+        explanation: >-
+          The card word must be in your question: Wann haben Sie Geburtstag? Wo wohnen Sie? Welche Sprachen sprechen
+          Sie? Was machen / haben Sie am Wochenende (gemacht)? A short extra detail (seit zwei Jahren, mit Freunden)
+          shows A2 level.
+
+  - id: sprechen-2
+    skill: speaking
+    title: "Sprechen, Teil 2"
+    minutes: 5
+    instructions: >-
+      **Sprechen, Teil 2: Über das eigene Leben erzählen.** *Sie bekommen eine Karte und erzählen etwas über Ihr
+      Leben.* You get a card with a topic and four prompts. Talk for about 1–2 minutes, then answer one question
+      from the examiner (Frau Keller). Scored 0–8.
+    points: [8]
+    exercises:
+      - id: a2-mock1-sp2-wohnen
+        type: roleplay
+        skill: speaking
+        variety: de
+        tutor: keller
+        grammar: [two-way-prepositions, review-a2-subordinate, comparative]
+        prompt: "Thema: Wohnen. Wo? – Wie viele Zimmer? – Mit wem? – Was gefällt Ihnen (nicht)?"
+        scenario: >-
+          Frau Keller is the examiner. Talk about where you live, using the four prompts on the card. Then she asks you
+          one question (for example: Möchten Sie lieber in der Stadt oder auf dem Land wohnen?). Answer with a reason.
+        goals:
+          - Talk about all four prompts in connected sentences (dann, aber, deshalb, weil).
+          - Describe your flat with the right prepositions (im Zentrum, neben dem Bahnhof, im dritten Stock).
+          - Answer Frau Keller's question with a reason (weil …).
+        model: |
+          Du: Ich wohne in Zürich, im Kreis 6, nicht weit vom Bahnhof. Meine Wohnung hat drei Zimmer und einen kleinen Balkon. Ich wohne dort mit meinem Partner und unserer Katze. Mir gefällt die Wohnung sehr, weil sie hell und ruhig ist. Nicht so gut ist die Miete – sie ist ziemlich teuer. Deshalb suchen wir vielleicht bald etwas Günstigeres.
+          Frau Keller: Möchten Sie lieber in der Stadt oder auf dem Land wohnen?
+          Du: Lieber in der Stadt, weil ich mit dem Velo zur Arbeit fahren kann und weil es viele Cafés gibt.
+        explanation: >-
+          Cover all four prompts and link your sentences: weil (verb last), deshalb (verb next), aber. Wo? + dative (im
+          Kreis 6, vom Bahnhof). Comparatives (lieber, günstiger) are a plus.
+
+  - id: sprechen-3
+    skill: speaking
+    title: "Sprechen, Teil 3"
+    minutes: 7
+    instructions: >-
+      **Sprechen, Teil 3: Gemeinsam etwas planen.** *Sie möchten mit Ihrer Partnerin / Ihrem Partner am Samstag
+      ein Geschenk für eine Kollegin kaufen. Finden Sie einen Termin.* You and your partner want to buy a present
+      for a colleague on Saturday. Each of you has a different diary. Find a time when you are both free. Scored
+      0–8.
+    points: [8]
+    exercises:
+      - id: a2-mock1-sp3-geschenk
+        type: roleplay
+        skill: speaking
+        variety: de
+        tutor: lena
+        grammar: [planning-together, review-a2-subordinate, dative-verbs]
+        prompt: "Gemeinsam planen: ein Geschenk für Marta kaufen (Samstag)."
+        scenario: >-
+          Your diary for Saturday: 8–9 Uhr joggen · 9.30 Uhr Frühstück mit Anna · 11–13 Uhr frei · 13 Uhr Mittagessen
+          bei den Eltern · 15–16 Uhr Velo reparieren · ab 17 Uhr frei. Lena has her own diary (she's free 11.30–13.00
+          and after 18 Uhr). Suggest times, react to Lena's suggestions, agree on a time and decide what to buy and
+          where to meet.
+        goals:
+          - Suggest times and react (Wie wäre es um …? / Da kann ich leider nicht, weil …).
+          - Find a time you are both free and say it clearly.
+          - Agree on the present and the meeting point.
+          - Use polite planning chunks (Wollen wir …? Passt dir …? Einverstanden!).
+        model: |
+          Du: Wann wollen wir das Geschenk für Marta kaufen? Passt es dir um neun?
+          Lena: Um neun kann ich leider nicht, da gehe ich zum Friseur. Wie wäre es um elf?
+          Du: Um elf ist gut, aber um 13 Uhr muss ich bei meinen Eltern sein. Ist halb zwölf okay?
+          Lena: Ja, ab halb zwölf habe ich Zeit. Was schenken wir ihr?
+          Du: Marta liest gern. Wie wäre es mit einem Buch und Blumen?
+          Lena: Gute Idee! Treffen wir uns vor der Buchhandlung am Bahnhof?
+          Du: Einverstanden! Also Samstag um halb zwölf vor der Buchhandlung.
+        explanation: >-
+          The task is scored on interaction: suggest, react with a reason (… kann ich nicht, weil / da …), agree, and
+          summarise the result at the end. Wie wäre es mit + dative (mit einem Buch). schenken + dative person: Was
+          schenken wir ihr?

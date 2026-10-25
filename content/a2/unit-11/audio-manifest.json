@@ -1,0 +1,2895 @@
+{
+  "unitId": "a2-u11",
+  "level": "A2",
+  "folder": "a2/unit-11",
+  "title": "Natur und Umwelt",
+  "delivery": {
+    "raw": "WAV or FLAC, 48 kHz, 24-bit, mono, one file per entry, named <file base>.wav",
+    "processed": [
+      "mp3 64 kbps mono 44.1 kHz",
+      "opus 32 kbps mono 48 kHz",
+      "EBU R128 -16 LUFS, true peak -1.5 dBTP"
+    ]
+  },
+  "entries": [
+    {
+      "file": "dialog-intro-01.mp3",
+      "kind": "dialogue-intro",
+      "text": "Tom, könntest du mir kurz helfen? Jemand hat die PET-Flaschen in den Abfall geworfen.",
+      "en": "Tom, could you help me for a moment? Someone has thrown the PET bottles in the rubbish.",
+      "variety": "ch-std",
+      "voice": "zh-m",
+      "speaker": "Martin",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          0,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-01.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-02.mp3",
+      "kind": "dialogue-intro",
+      "text": "Oh, das war vielleicht ich. Wohin kommen sie denn?",
+      "en": "Oh, that was maybe me. Where do they go, then?",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          1,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-02.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-03.mp3",
+      "kind": "dialogue-intro",
+      "text": "In den PET-Sack neben dem Kühlschrank. Das Glas bringt man zur Sammelstelle, und das Altpapier holt die Stadt am Donnerstag ab.",
+      "en": "Into the PET bag next to the fridge. You take the glass to the recycling point, and the city collects the waste paper on Thursday.",
+      "variety": "ch-std",
+      "voice": "zh-m",
+      "speaker": "Martin",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          2,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-03.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-04.mp3",
+      "kind": "dialogue-intro",
+      "text": "In England trennen wir den Müll auch, aber nicht so viel.",
+      "en": "In England we sort our rubbish too, but not so much.",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          3,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-04.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-05.mp3",
+      "kind": "dialogue-intro",
+      "text": "Hier trennt man fast alles. Der Abfallsack kostet extra, deshalb wirft niemand gern etwas weg.",
+      "en": "Here people sort almost everything. The rubbish bag costs extra, so nobody likes throwing things away.",
+      "variety": "ch-std",
+      "voice": "zh-m",
+      "speaker": "Martin",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          4,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-05.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-06.mp3",
+      "kind": "dialogue-intro",
+      "text": "Ah, deshalb ist der Sack so teuer! Übrigens, wohin gehen wir am Samstag?",
+      "en": "Ah, that's why the bag is so expensive! By the way, where are we going on Saturday?",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          5,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-06.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-07.mp3",
+      "kind": "dialogue-intro",
+      "text": "Auf den Pilatus. Wir wandern zuerst durch den Wald, und oben hat man eine tolle Aussicht auf den Vierwaldstättersee.",
+      "en": "Up the Pilatus. First we hike through the forest, and at the top you have a great view of Lake Lucerne.",
+      "variety": "ch-std",
+      "voice": "zh-m",
+      "speaker": "Martin",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          6,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-07.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-08.mp3",
+      "kind": "dialogue-intro",
+      "text": "Super! Würdest du mir die Route schicken?",
+      "en": "Great! Would you send me the route?",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          7,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-08.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-09.mp3",
+      "kind": "dialogue-intro",
+      "text": "Klar. Und könntest du etwas zu trinken mitnehmen? Aber bitte nicht in Plastikflaschen.",
+      "en": "Sure. And could you bring something to drink? But please not in plastic bottles.",
+      "variety": "ch-std",
+      "voice": "zh-m",
+      "speaker": "Martin",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          8,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-09.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-10.mp3",
+      "kind": "dialogue-intro",
+      "text": "Mache ich. Hat jemand schon den Wetterbericht gelesen?",
+      "en": "Will do. Has anyone read the weather forecast yet?",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          9,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-10.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-11.mp3",
+      "kind": "dialogue-intro",
+      "text": "Ja, es soll sonnig sein. Aber in den Bergen weiss man nie!",
+      "en": "Yes, it's supposed to be sunny. But in the mountains you never know!",
+      "variety": "ch-std",
+      "voice": "zh-m",
+      "speaker": "Martin",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          10,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-11.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-12.mp3",
+      "kind": "dialogue-intro",
+      "text": "Dann nehme ich auch eine Regenjacke mit.",
+      "en": "Then I'll take a rain jacket too.",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          11,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-12.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-01.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Hoi Reto! Bisch au am Entsorge?",
+      "en": "Hi Reto! Are you getting rid of your rubbish too?",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          0,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-01.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-02.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Ja, s Altglas und de Karton. Weisch du, öb mer s Glas am Samschtig bringe dörf?",
+      "en": "Yes, the old glass and the cardboard. Do you know whether you can bring glass on a Saturday?",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          1,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-02.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-03.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Ja, aber nöd am Sunntig und nöd z Nacht. Lueg, s staat uf em Schild.",
+      "en": "Yes, but not on Sundays and not at night. Look, it says so on the sign.",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          2,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-03.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-04.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Und d PET-Flasche? Die chönd nöd in Güselsack, oder?",
+      "en": "And the PET bottles? They can't go in the rubbish bag, can they?",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          3,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-04.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-05.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Nei! S PET bringsch in Lade zrugg. Und s Grüengut chunnt in grüene Container.",
+      "en": "No! You take the PET back to the shop. And the green waste goes in the green container.",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          4,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-05.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-06.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Lueg, da hät öpper Güsel näbe de Container gstellt. Und niemert nimmt en mit.",
+      "en": "Look, someone has put rubbish next to the containers. And nobody takes it away.",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          5,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-06.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-07.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Das find ich nöd guet. Du, gömmer morn go wandere? Uf de Üetliberg?",
+      "en": "I don't think that's OK. Hey, shall we go hiking tomorrow? Up the Üetliberg?",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          6,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-07.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-08.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Gärn! Ich nimm öppis z ässe mit.",
+      "en": "I'd love to! I'll bring something to eat.",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          7,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-08.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-09.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Und ich bring nüt – nur gueti Luune!",
+      "en": "And I'll bring nothing – just a good mood!",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          8,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-09.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-10.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Sandra, mir göh am Sunntig uf e Gurte. Chunsch o?",
+      "en": "Sandra, we're going up the Gurten on Sunday. Are you coming too?",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "speaker": "Mami",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          9,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-10.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-11.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Nei, merci, i ga mit em Reto uf e Üetliberg.",
+      "en": "No, thanks, I'm going up the Üetliberg with Reto.",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          10,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-11.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-12.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Schön! Nimm öppis Warms mit, gäu!",
+      "en": "Nice! Take something warm with you, won't you!",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "speaker": "Mami",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          11,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-12.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-natur.mp3",
+      "kind": "vocab",
+      "text": "Natur",
+      "en": "nature",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "natur",
+        "pointer": [
+          0,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-natur.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-natur-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Am Wochenende bin ich gern in der Natur.",
+      "en": "At the weekend I like being out in nature.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "natur",
+        "pointer": [
+          0,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-natur-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-natur-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Natur",
+      "en": "nature",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "natur",
+        "pointer": [
+          0,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-natur-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-umwelt.mp3",
+      "kind": "vocab",
+      "text": "Umwelt",
+      "en": "environment",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "umwelt",
+        "pointer": [
+          1,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-umwelt.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-umwelt-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Plastik ist schlecht für die Umwelt.",
+      "en": "Plastic is bad for the environment.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "umwelt",
+        "pointer": [
+          1,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-umwelt-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-umwelt-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Umwält",
+      "en": "environment",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "umwelt",
+        "pointer": [
+          1,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-umwelt-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wald.mp3",
+      "kind": "vocab",
+      "text": "Wald",
+      "en": "forest, woods",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wald",
+        "pointer": [
+          2,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-wald.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wald-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Wir sind zwei Stunden durch den Wald gewandert.",
+      "en": "We hiked through the forest for two hours.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wald",
+        "pointer": [
+          2,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-wald-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wald-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Wald",
+      "en": "forest, woods",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wald",
+        "pointer": [
+          2,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-wald-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-baum.mp3",
+      "kind": "vocab",
+      "text": "Baum",
+      "en": "tree",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "baum",
+        "pointer": [
+          3,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-baum.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-baum-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Unter dem Baum machen wir ein Picknick.",
+      "en": "We're having a picnic under the tree.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "baum",
+        "pointer": [
+          3,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-baum-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-baum-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Baum",
+      "note": "Plural Bäum",
+      "en": "tree",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "baum",
+        "pointer": [
+          3,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-baum-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-fluss.mp3",
+      "kind": "vocab",
+      "text": "Fluss",
+      "en": "river",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "fluss",
+        "pointer": [
+          4,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-fluss.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-fluss-ex.mp3",
+      "kind": "vocab-example",
+      "text": "In Bern kann man im Fluss schwimmen.",
+      "en": "In Bern you can swim in the river.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "fluss",
+        "pointer": [
+          4,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-fluss-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-fluss-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Fluss",
+      "en": "river",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "fluss",
+        "pointer": [
+          4,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-fluss-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wiese.mp3",
+      "kind": "vocab",
+      "text": "Wiese",
+      "en": "meadow, field (of grass)",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wiese",
+        "pointer": [
+          5,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-wiese.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wiese-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Auf der Wiese stehen viele Kühe.",
+      "en": "There are lots of cows in the meadow.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wiese",
+        "pointer": [
+          5,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-wiese-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wiese-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Wise / Matte",
+      "note": "in the mountains",
+      "en": "meadow, field (of grass)",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wiese",
+        "pointer": [
+          5,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-wiese-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gipfel.mp3",
+      "kind": "vocab",
+      "text": "Gipfel",
+      "en": "summit, peak",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gipfel",
+        "pointer": [
+          6,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-gipfel.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gipfel-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Vom Gipfel hat man eine tolle Aussicht.",
+      "en": "From the summit you have a great view.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gipfel",
+        "pointer": [
+          6,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-gipfel-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gipfel-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Gipfel",
+      "en": "summit, peak",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gipfel",
+        "pointer": [
+          6,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-gipfel-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-alm.mp3",
+      "kind": "vocab",
+      "text": "Alm",
+      "en": "mountain pasture (summer pasture)",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "alm",
+        "pointer": [
+          7,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-alm.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-alm-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Im Sommer sind die Kühe auf der Alm.",
+      "en": "In summer the cows are up on the mountain pasture.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "alm",
+        "pointer": [
+          7,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-alm-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-alm-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Alp",
+      "en": "mountain pasture (summer pasture)",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "alm",
+        "pointer": [
+          7,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-alm-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wanderweg.mp3",
+      "kind": "vocab",
+      "text": "Wanderweg",
+      "en": "hiking trail",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wanderweg",
+        "pointer": [
+          8,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-wanderweg.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wanderweg-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Die gelben Schilder zeigen den Wanderweg.",
+      "en": "The yellow signs show the hiking trail.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wanderweg",
+        "pointer": [
+          8,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-wanderweg-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wanderweg-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Wanderwääg",
+      "en": "hiking trail",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wanderweg",
+        "pointer": [
+          8,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-wanderweg-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-picknick.mp3",
+      "kind": "vocab",
+      "text": "Picknick",
+      "en": "picnic",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "picknick",
+        "pointer": [
+          9,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-picknick.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-picknick-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Am Mittag machen wir ein Picknick am See.",
+      "en": "At noon we have a picnic by the lake.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "picknick",
+        "pointer": [
+          9,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-picknick-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-picknick-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Picknick",
+      "en": "picnic",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "picknick",
+        "pointer": [
+          9,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-picknick-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-tier.mp3",
+      "kind": "vocab",
+      "text": "Tier",
+      "en": "animal",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "tier",
+        "pointer": [
+          10,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-tier.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-tier-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Im Wald haben wir viele Tiere gesehen.",
+      "en": "We saw lots of animals in the forest.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "tier",
+        "pointer": [
+          10,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-tier-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-tier-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Tier",
+      "en": "animal",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "tier",
+        "pointer": [
+          10,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-tier-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-vogel.mp3",
+      "kind": "vocab",
+      "text": "Vogel",
+      "en": "bird",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "vogel",
+        "pointer": [
+          11,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-vogel.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-vogel-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Am Morgen singen die Vögel.",
+      "en": "The birds sing in the morning.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "vogel",
+        "pointer": [
+          11,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-vogel-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-vogel-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Vogel",
+      "note": "Plural Vögel",
+      "en": "bird",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "vogel",
+        "pointer": [
+          11,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-vogel-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kuh.mp3",
+      "kind": "vocab",
+      "text": "Kuh",
+      "en": "cow",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kuh",
+        "pointer": [
+          12,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-kuh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kuh-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Die Kühe tragen große Glocken.",
+      "en": "The cows wear big bells.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kuh",
+        "pointer": [
+          12,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-kuh-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kuh-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Chue",
+      "note": "Plural Chüe",
+      "en": "cow",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kuh",
+        "pointer": [
+          12,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-kuh-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-abfall.mp3",
+      "kind": "vocab",
+      "text": "Abfall",
+      "en": "rubbish, waste",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "abfall",
+        "pointer": [
+          13,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-abfall.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-abfall-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Wohin kommt dieser Abfall?",
+      "en": "Where does this rubbish go?",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "abfall",
+        "pointer": [
+          13,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-abfall-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-abfall-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Abfall / Güsel",
+      "en": "rubbish, waste",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "abfall",
+        "pointer": [
+          13,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-abfall-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-abfall-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "Ghüder",
+      "note": "dr Ghüder",
+      "en": "rubbish, waste",
+      "variety": "gsw-be",
+      "voice": "be-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "abfall",
+        "pointer": [
+          13,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-abfall-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-muellsack.mp3",
+      "kind": "vocab",
+      "text": "Müllsack",
+      "en": "rubbish bag, bin bag",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "muellsack",
+        "pointer": [
+          14,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-muellsack.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-muellsack-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Der Müllsack kostet in vielen Gemeinden extra.",
+      "en": "In many municipalities the rubbish bag costs extra.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "muellsack",
+        "pointer": [
+          14,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-muellsack-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-muellsack-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Güselsack",
+      "note": "in Zurich de Züri-Sack",
+      "en": "rubbish bag, bin bag",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "muellsack",
+        "pointer": [
+          14,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-muellsack-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-muellsack-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "Ghüdersack",
+      "en": "rubbish bag, bin bag",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "muellsack",
+        "pointer": [
+          14,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-muellsack-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sammelstelle.mp3",
+      "kind": "vocab",
+      "text": "Sammelstelle",
+      "en": "recycling point, collection point",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sammelstelle",
+        "pointer": [
+          15,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-sammelstelle.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sammelstelle-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Das Glas bringe ich zur Sammelstelle beim Bahnhof.",
+      "en": "I take the glass to the recycling point near the station.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sammelstelle",
+        "pointer": [
+          15,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-sammelstelle-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sammelstelle-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Sammelstell",
+      "en": "recycling point, collection point",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sammelstelle",
+        "pointer": [
+          15,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-sammelstelle-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-altglas.mp3",
+      "kind": "vocab",
+      "text": "Altglas",
+      "en": "glass for recycling",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "altglas",
+        "pointer": [
+          16,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-altglas.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-altglas-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Am Sonntag darf man kein Altglas einwerfen.",
+      "en": "You mustn't throw glass in the container on Sundays.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "altglas",
+        "pointer": [
+          16,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-altglas-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-altglas-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Altglas",
+      "en": "glass for recycling",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "altglas",
+        "pointer": [
+          16,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-altglas-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-altpapier.mp3",
+      "kind": "vocab",
+      "text": "Altpapier",
+      "en": "waste paper",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "altpapier",
+        "pointer": [
+          17,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-altpapier.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-altpapier-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Die Stadt holt das Altpapier am Donnerstag ab.",
+      "en": "The city collects the waste paper on Thursday.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "altpapier",
+        "pointer": [
+          17,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-altpapier-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-altpapier-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Altpapier",
+      "en": "waste paper",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "altpapier",
+        "pointer": [
+          17,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-altpapier-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-pet-flasche.mp3",
+      "kind": "vocab",
+      "text": "PET-Flasche",
+      "en": "PET bottle (plastic drinks bottle)",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "pet-flasche",
+        "pointer": [
+          18,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-pet-flasche.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-pet-flasche-ex.mp3",
+      "kind": "vocab-example",
+      "text": "PET-Flaschen bringt man in den Laden zurück.",
+      "en": "You take PET bottles back to the shop.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "pet-flasche",
+        "pointer": [
+          18,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-pet-flasche-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-pet-flasche-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "PET-Fläsche",
+      "en": "PET bottle (plastic drinks bottle)",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "pet-flasche",
+        "pointer": [
+          18,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-pet-flasche-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-dose.mp3",
+      "kind": "vocab",
+      "text": "Dose",
+      "en": "can, tin",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "dose",
+        "pointer": [
+          19,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-dose.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-dose-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Alte Dosen kommen in einen eigenen Container.",
+      "en": "Old cans go into a separate container.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "dose",
+        "pointer": [
+          19,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-dose-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-dose-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Büchse / Dose",
+      "en": "can, tin",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "dose",
+        "pointer": [
+          19,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-dose-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-biomuell.mp3",
+      "kind": "vocab",
+      "text": "Biomüll",
+      "en": "green waste, food and garden waste",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "biomuell",
+        "pointer": [
+          20,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-biomuell.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-biomuell-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Gemüsereste sind Biomüll.",
+      "en": "Vegetable scraps are green waste.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "biomuell",
+        "pointer": [
+          20,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-biomuell-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-biomuell-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Grüengut",
+      "en": "green waste, food and garden waste",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "biomuell",
+        "pointer": [
+          20,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-biomuell-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-plastik.mp3",
+      "kind": "vocab",
+      "text": "Plastik",
+      "en": "plastic",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "plastik",
+        "pointer": [
+          21,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-plastik.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-plastik-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich kaufe möglichst wenig Plastik.",
+      "en": "I buy as little plastic as possible.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "plastik",
+        "pointer": [
+          21,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-plastik-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-plastik-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Plastik",
+      "en": "plastic",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "plastik",
+        "pointer": [
+          21,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-plastik-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-trennen.mp3",
+      "kind": "vocab",
+      "text": "trennen",
+      "en": "to separate, to sort (rubbish)",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "trennen",
+        "pointer": [
+          22,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-trennen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-trennen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "In der Schweiz trennt man den Abfall.",
+      "en": "In Switzerland people sort their rubbish.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "trennen",
+        "pointer": [
+          22,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-trennen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-trennen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "tränne",
+      "en": "to separate, to sort (rubbish)",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "trennen",
+        "pointer": [
+          22,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-trennen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-recyceln.mp3",
+      "kind": "vocab",
+      "text": "recyceln",
+      "en": "to recycle",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "recyceln",
+        "pointer": [
+          23,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-recyceln.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-recyceln-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Man kann fast alles recyceln.",
+      "en": "You can recycle almost everything.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "recyceln",
+        "pointer": [
+          23,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-recyceln-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-recyceln-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "rezykliere",
+      "en": "to recycle",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "recyceln",
+        "pointer": [
+          23,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-recyceln-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wegwerfen.mp3",
+      "kind": "vocab",
+      "text": "wegwerfen",
+      "en": "to throw away",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wegwerfen",
+        "pointer": [
+          24,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-wegwerfen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wegwerfen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Wirf die Flasche nicht weg!",
+      "en": "Don't throw the bottle away!",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wegwerfen",
+        "pointer": [
+          24,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-wegwerfen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wegwerfen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "wägwerfe",
+      "en": "to throw away",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wegwerfen",
+        "pointer": [
+          24,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-wegwerfen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sammeln.mp3",
+      "kind": "vocab",
+      "text": "sammeln",
+      "en": "to collect",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sammeln",
+        "pointer": [
+          25,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-sammeln.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sammeln-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Die Gemeinde sammelt jeden Monat Papier.",
+      "en": "The municipality collects paper every month.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sammeln",
+        "pointer": [
+          25,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-sammeln-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sammeln-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "sammle",
+      "en": "to collect",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sammeln",
+        "pointer": [
+          25,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-sammeln-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-schuetzen.mp3",
+      "kind": "vocab",
+      "text": "schützen",
+      "en": "to protect",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "schuetzen",
+        "pointer": [
+          26,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-schuetzen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-schuetzen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Wir müssen die Natur schützen.",
+      "en": "We have to protect nature.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "schuetzen",
+        "pointer": [
+          26,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-schuetzen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-schuetzen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "schütze",
+      "en": "to protect",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "schuetzen",
+        "pointer": [
+          26,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-schuetzen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-energie-sparen.mp3",
+      "kind": "vocab",
+      "text": "Energie sparen",
+      "en": "to save energy",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "energie-sparen",
+        "pointer": [
+          27,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-energie-sparen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-energie-sparen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Mit dem Velo spart man Geld und Energie.",
+      "en": "Cycling saves money and energy.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "energie-sparen",
+        "pointer": [
+          27,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-energie-sparen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-energie-sparen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Energie spare",
+      "en": "to save energy",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "energie-sparen",
+        "pointer": [
+          27,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-energie-sparen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-energie.mp3",
+      "kind": "vocab",
+      "text": "Energie",
+      "en": "energy",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "energie",
+        "pointer": [
+          28,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-energie.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-energie-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Licht aus! Wir sparen Energie.",
+      "en": "Lights off! We're saving energy.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "energie",
+        "pointer": [
+          28,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-energie-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-energie-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Energie",
+      "en": "energy",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "energie",
+        "pointer": [
+          28,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-energie-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-strom.mp3",
+      "kind": "vocab",
+      "text": "Strom",
+      "en": "electricity",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "strom",
+        "pointer": [
+          29,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-strom.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-strom-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ein großer Teil vom Schweizer Strom kommt aus Wasser.",
+      "en": "A large part of Swiss electricity comes from water.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "strom",
+        "pointer": [
+          29,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-strom-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-strom-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Strom",
+      "en": "electricity",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "strom",
+        "pointer": [
+          29,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-strom-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-luft.mp3",
+      "kind": "vocab",
+      "text": "Luft",
+      "en": "air",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "luft",
+        "pointer": [
+          30,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-luft.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-luft-ex.mp3",
+      "kind": "vocab-example",
+      "text": "In den Bergen ist die Luft frisch.",
+      "en": "In the mountains the air is fresh.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "luft",
+        "pointer": [
+          30,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-luft-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-luft-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Luft",
+      "en": "air",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "luft",
+        "pointer": [
+          30,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-luft-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sauber.mp3",
+      "kind": "vocab",
+      "text": "sauber",
+      "en": "clean",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sauber",
+        "pointer": [
+          31,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-sauber.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sauber-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Das Wasser im See ist sehr sauber.",
+      "en": "The water in the lake is very clean.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sauber",
+        "pointer": [
+          31,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-sauber-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sauber-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "suuber",
+      "en": "clean",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sauber",
+        "pointer": [
+          31,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-sauber-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-schmutzig.mp3",
+      "kind": "vocab",
+      "text": "schmutzig",
+      "en": "dirty",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "schmutzig",
+        "pointer": [
+          32,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-schmutzig.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-schmutzig-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Nach der Wanderung sind meine Schuhe schmutzig.",
+      "en": "After the hike my shoes are dirty.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "schmutzig",
+        "pointer": [
+          32,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-schmutzig-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-schmutzig-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "dreckig",
+      "en": "dirty",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "schmutzig",
+        "pointer": [
+          32,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-schmutzig-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-man.mp3",
+      "kind": "vocab",
+      "text": "man",
+      "en": "one, you, people (in general)",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "man",
+        "pointer": [
+          33,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-man.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-man-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Hier darf man nicht grillieren.",
+      "en": "You're not allowed to barbecue here.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "man",
+        "pointer": [
+          33,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-man-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-man-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "mer / me",
+      "en": "one, you, people (in general)",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "man",
+        "pointer": [
+          33,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-man-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-jemand.mp3",
+      "kind": "vocab",
+      "text": "jemand",
+      "en": "someone, anyone",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "jemand",
+        "pointer": [
+          34,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-jemand.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-jemand-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Hat jemand meinen Schlüssel gesehen?",
+      "en": "Has anyone seen my key?",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "jemand",
+        "pointer": [
+          34,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-jemand-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-jemand-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "öpper",
+      "en": "someone, anyone",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "jemand",
+        "pointer": [
+          34,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-jemand-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-jemand-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "öpper",
+      "en": "someone, anyone",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "jemand",
+        "pointer": [
+          34,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-jemand-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-niemand.mp3",
+      "kind": "vocab",
+      "text": "niemand",
+      "en": "nobody, no one",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "niemand",
+        "pointer": [
+          35,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-niemand.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-niemand-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Am Sonntag ist niemand im Büro.",
+      "en": "On Sunday there's nobody in the office.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "niemand",
+        "pointer": [
+          35,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-niemand-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-niemand-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "niemert / niemer",
+      "en": "nobody, no one",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "niemand",
+        "pointer": [
+          35,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-niemand-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-niemand-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "niemer",
+      "en": "nobody, no one",
+      "variety": "gsw-be",
+      "voice": "be-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "niemand",
+        "pointer": [
+          35,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-niemand-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-koennte.mp3",
+      "kind": "vocab",
+      "text": "könnte",
+      "note": "könntest, könnten",
+      "en": "could (polite)",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "koennte",
+        "pointer": [
+          36,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-koennte.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-koennte-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Könntest du mir bitte helfen?",
+      "en": "Could you help me, please?",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "koennte",
+        "pointer": [
+          36,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-koennte-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-koennte-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "chönnt",
+      "note": "chöntsch du …?",
+      "en": "could (polite)",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "koennte",
+        "pointer": [
+          36,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-koennte-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wuerde.mp3",
+      "kind": "vocab",
+      "text": "würde",
+      "note": "würdest, würden",
+      "en": "would",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wuerde",
+        "pointer": [
+          37,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-wuerde.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wuerde-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich würde gern auf den Pilatus wandern.",
+      "en": "I'd like to hike up the Pilatus.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wuerde",
+        "pointer": [
+          37,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-wuerde-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wuerde-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "würd",
+      "note": "würdsch du …?",
+      "en": "would",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wuerde",
+        "pointer": [
+          37,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-wuerde-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u11-mcq-listening-pet.mp3",
+      "kind": "listening",
+      "text": "Martin: In den PET-Sack neben dem Kühlschrank. Das Glas bringt man zur Sammelstelle, und das Altpapier holt die Stadt am Donnerstag ab.",
+      "variety": "ch-std",
+      "voice": "zh-m",
+      "speaker": "Martin",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u11-mcq-listening-pet",
+        "pointer": [
+          23,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u11-mcq-listening-pet.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u11-dictation-wald.mp3",
+      "kind": "dictation",
+      "text": "Wir sind durch den Wald gewandert und haben am See ein Picknick gemacht.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u11-dictation-wald",
+        "pointer": [
+          24,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u11-dictation-wald.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u11-dictation-koennten.mp3",
+      "kind": "dictation",
+      "text": "Könnten Sie mir bitte sagen, wo die Sammelstelle ist?",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u11-dictation-koennten",
+        "pointer": [
+          25,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u11-dictation-koennten.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u11-mcq-listening-regenjacke.mp3",
+      "kind": "listening",
+      "text": "Tom: Mache ich. Hat jemand schon den Wetterbericht gelesen?\nMartin: Ja, es soll sonnig sein. Aber in den Bergen weiss man nie!\nTom: Dann nehme ich auch eine Regenjacke mit.",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u11-mcq-listening-regenjacke",
+        "pointer": [
+          26,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u11-mcq-listening-regenjacke.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u11-speak-frame.mp3",
+      "kind": "speak",
+      "text": "Letzten Sonntag bin ich auf den Üetliberg gewandert. Oben war die Aussicht wunderschön. Nächstes Mal würde ich gern an einen See fahren.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u11-speak-frame",
+        "pointer": [
+          28,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u11-speak-frame.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u11-speak-shadow-tom.mp3",
+      "kind": "speak",
+      "text": "Super! Würdest du mir die Route schicken?",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u11-speak-shadow-tom",
+        "pointer": [
+          29,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u11-speak-shadow-tom.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u11-speak-shadow-martin.mp3",
+      "kind": "speak",
+      "text": "Ja, es soll sonnig sein. Aber in den Bergen weiss man nie!",
+      "variety": "ch-std",
+      "voice": "zh-f",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u11-speak-shadow-martin",
+        "pointer": [
+          30,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u11-speak-shadow-martin.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u11-speak-intonation.mp3",
+      "kind": "speak",
+      "text": "Könnten Sie mir bitte helfen?",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u11-speak-intonation",
+        "pointer": [
+          31,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u11-speak-intonation.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u11-speak-pron-ue.mp3",
+      "kind": "speak",
+      "text": "Würdest du die Flüsse und die grünen Hügel fotografieren? Die Kühe stehen hinter dem Wald.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u11-speak-pron-ue",
+        "pointer": [
+          32,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u11-speak-pron-ue.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u11-ch-mcq-glas.mp3",
+      "kind": "listening",
+      "text": "Sandra: Ja, aber nöd am Sunntig und nöd z Nacht. Lueg, s staat uf em Schild.",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u11-ch-mcq-glas",
+        "pointer": [
+          36,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u11-ch-mcq-glas.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u11-ch-mcq-pet.mp3",
+      "kind": "listening",
+      "text": "Sandra: Nei! S PET bringsch in Lade zrugg. Und s Grüengut chunnt in grüene Container.",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u11-ch-mcq-pet",
+        "pointer": [
+          39,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u11-ch-mcq-pet.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u11-ch-mcq-wandere.mp3",
+      "kind": "listening",
+      "text": "Sandra: Das find ich nöd guet. Du, gömmer morn go wandere? Uf de Üetliberg?\nReto: Gärn! Ich nimm öppis z ässe mit.",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u11-ch-mcq-wandere",
+        "pointer": [
+          40,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u11-ch-mcq-wandere.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u11-ch-be-mcq-gurte.mp3",
+      "kind": "listening",
+      "text": "Mami: Sandra, mir göh am Sunntig uf e Gurte. Chunsch o?",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "speaker": "Mami",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u11-ch-be-mcq-gurte",
+        "pointer": [
+          44,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u11-ch-be-mcq-gurte.mp3",
+      "referenced": false
+    }
+  ]
+}

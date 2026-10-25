@@ -1,0 +1,349 @@
+# A2 unit 8 – Schule und Lernen
+
+# ---------- the school system ----------
+- id: schule
+  de: Schule
+  en: school
+  pos: noun
+  gender: f
+  plural: Schulen
+  example: { de: "Wie lange geht man in der Schweiz zur Schule?", en: "How long do people go to school in Switzerland?" }
+  gswZh: Schuel
+  gswBe: Schuel
+  tags: [school]
+
+- id: kindergarten
+  de: Kindergarten
+  en: kindergarten
+  pos: noun
+  gender: m
+  plural: Kindergärten
+  example: { de: "Die Kinder beginnen mit vier Jahren im Kindergarten.", en: "Children start kindergarten at four." }
+  gswZh: Chindsgi / Kindergarte
+  tags: [school, switzerland]
+
+- id: primarschule
+  de: Grundschule
+  en: primary school
+  pos: noun
+  gender: f
+  plural: Grundschulen
+  example: { de: "Die Grundschule dauert in Deutschland vier Jahre.", en: "Primary school lasts four years in Germany." }
+  chStd: die Primarschule (sechs Jahre)
+  gswZh: Primarschuel / Primar
+  tags: [school, helvetism]
+
+- id: sekundarschule
+  de: Sekundarschule
+  en: lower secondary school
+  pos: noun
+  gender: f
+  plural: Sekundarschulen
+  example: { de: "Nach der Primarschule gehen alle in die Sekundarschule.", en: "After primary school everyone goes to lower secondary school." }
+  chStd: die Sekundarschule / die Sek
+  gswZh: Sek / Sekundarschuel
+  tags: [school, switzerland]
+
+- id: gymnasium
+  de: Gymnasium
+  en: academic secondary school (grammar school)
+  pos: noun
+  gender: n
+  plural: Gymnasien
+  example: { de: "Luca geht ab August ins Gymnasium.", en: "Luca is going to the Gymnasium from August." }
+  chStd: das Gymnasium / die Kantonsschule (Kanti)
+  gswZh: Gymi / Kanti
+  gswBe: Gymer
+  tags: [school, switzerland]
+
+- id: matur
+  de: Abitur
+  en: school-leaving exam for university entrance
+  pos: noun
+  gender: n
+  plural: Abiture
+  example: { de: "Nach dem Abitur möchte sie studieren.", en: "After her final exams she wants to go to university." }
+  chStd: die Matur / die Matura
+  gswZh: Matur
+  tags: [school, helvetism]
+
+- id: universitaet
+  de: Universität
+  en: university
+  pos: noun
+  gender: f
+  plural: Universitäten
+  example: { de: "Mit der Matur kann man an der Universität studieren.", en: "With the Matura you can study at university." }
+  gswZh: Uni
+  tags: [school, studies]
+
+- id: studieren
+  de: studieren
+  en: to study (at university)
+  pos: verb
+  example: { de: "Meine Schwester studiert Medizin in Bern.", en: "My sister is studying medicine in Bern." }
+  gswZh: studiere
+  tags: [studies]
+
+- id: student
+  de: Student / Studentin
+  en: (university) student
+  pos: noun
+  gender: m
+  plural: Studenten / Studentinnen
+  example: { de: "Viele Studenten arbeiten Teilzeit.", en: "Many students work part-time." }
+  gswZh: Student / Studentin
+  tags: [studies, people]
+
+- id: schueler
+  de: Schüler / Schülerin
+  en: pupil, school student
+  pos: noun
+  gender: m
+  plural: Schüler / Schülerinnen
+  example: { de: "In meiner Klasse sind zwanzig Schüler.", en: "There are twenty pupils in my class." }
+  gswZh: Schüeler / Schüelerin
+  gswBe: Schüeler
+  tags: [school, people]
+
+- id: klasse
+  de: Klasse
+  en: class, school year
+  pos: noun
+  gender: f
+  plural: Klassen
+  example: { de: "Luca ist in der sechsten Klasse.", en: "Luca is in year six." }
+  gswZh: Klass
+  tags: [school]
+
+# ---------- subjects and exams ----------
+- id: fach
+  de: Fach
+  en: (school) subject
+  pos: noun
+  gender: n
+  plural: Fächer
+  example: { de: "Mein Lieblingsfach war Mathematik.", en: "My favourite subject was maths." }
+  gswZh: Fach
+  tags: [school]
+
+- id: fremdsprache
+  de: Fremdsprache
+  en: foreign language
+  pos: noun
+  gender: f
+  plural: Fremdsprachen
+  example: { de: "In der Primarschule lernen die Kinder zwei Fremdsprachen.", en: "In primary school children learn two foreign languages." }
+  gswZh: Fremdspraach
+  tags: [school, languages]
+
+- id: pruefung
+  de: Prüfung
+  en: exam, test
+  pos: noun
+  gender: f
+  plural: Prüfungen
+  example: { de: "Ich habe morgen eine Prüfung.", en: "I've got an exam tomorrow." }
+  gswZh: Prüefig
+  gswBe: Prüefig
+  tags: [school, exams]
+
+- id: bestehen
+  de: bestehen
+  en: to pass (an exam)
+  pos: verb
+  example: { de: "Ich hoffe, dass ich die Prüfung bestehe.", en: "I hope I pass the exam." }
+  gswZh: bestah (bestande)
+  gswBe: bestaa (bestande)
+  tags: [exams, irregular, inseparable]
+
+- id: note
+  de: Note
+  en: mark, grade
+  pos: noun
+  gender: f
+  plural: Noten
+  example: { de: "In der Schweiz ist eine Sechs die beste Note.", en: "In Switzerland a six is the best mark." }
+  gswZh: Note
+  tags: [school, exams]
+
+- id: zeugnis
+  de: Zeugnis
+  en: school report; certificate
+  pos: noun
+  gender: n
+  plural: Zeugnisse
+  example: { de: "Im Zeugnis hat sie gute Noten.", en: "She has good marks in her report." }
+  gswZh: Zügnis
+  tags: [school, exams]
+
+- id: zertifikat
+  de: Zertifikat
+  en: certificate
+  pos: noun
+  gender: n
+  plural: Zertifikate
+  example: { de: "Tom braucht das A2-Zertifikat.", en: "Tom needs the A2 certificate." }
+  gswZh: Zertifikat
+  tags: [exams, languages]
+
+- id: kurs
+  de: Kurs
+  en: course
+  pos: noun
+  gender: m
+  plural: Kurse
+  example: { de: "Der Deutschkurs ist am Dienstag und Donnerstag.", en: "The German course is on Tuesdays and Thursdays." }
+  gswZh: Kurs
+  tags: [languages, learning]
+
+- id: hausaufgabe
+  de: Hausaufgabe
+  en: homework (task)
+  pos: noun
+  gender: f
+  plural: Hausaufgaben
+  example: { de: "Hast du die Hausaufgaben schon gemacht?", en: "Have you done your homework yet?" }
+  gswZh: Ufgab / Huusufgab
+  tags: [school, learning]
+
+# ---------- learning ----------
+- id: lernen
+  de: lernen
+  en: to learn; to study (for an exam)
+  pos: verb
+  example: { de: "Ich lerne jeden Abend eine Stunde.", en: "I study for an hour every evening." }
+  gswZh: lerne / lehre
+  gswBe: lehre (glehrt)
+  tags: [learning]
+
+- id: ueben
+  de: üben
+  en: to practise
+  pos: verb
+  example: { de: "Es ist wichtig, dass man jeden Tag übt.", en: "It's important to practise every day." }
+  gswZh: üebe
+  tags: [learning]
+
+- id: wiederholen
+  de: wiederholen
+  en: to revise, to repeat
+  pos: verb
+  example: { de: "Ich muss noch die Verben wiederholen.", en: "I still have to revise the verbs." }
+  chStd: repetieren
+  gswZh: repetiere / widerhole
+  tags: [learning, inseparable, helvetism]
+
+- id: verstehen
+  de: verstehen
+  en: to understand
+  pos: verb
+  example: { de: "Ich verstehe nicht alles, aber immer mehr.", en: "I don't understand everything, but more and more." }
+  gswZh: verstah (verstande)
+  tags: [learning, irregular]
+
+- id: erklaeren
+  de: erklären
+  en: to explain
+  pos: verb
+  example: { de: "Martin erklärt Tom das Schweizer Schulsystem.", en: "Martin explains the Swiss school system to Tom." }
+  gswZh: erchläre
+  tags: [learning, dative-accusative]
+
+- id: woerterbuch
+  de: Wörterbuch
+  en: dictionary
+  pos: noun
+  gender: n
+  plural: Wörterbücher
+  example: { de: "Ich suche das Wort im Wörterbuch.", en: "I look the word up in the dictionary." }
+  gswZh: Wörterbuech
+  tags: [learning, languages]
+
+- id: fehler
+  de: Fehler
+  en: mistake
+  pos: noun
+  gender: m
+  plural: Fehler
+  example: { de: "Fehler sind beim Lernen normal.", en: "Mistakes are normal when you learn." }
+  gswZh: Fähler
+  tags: [learning]
+
+- id: lieblingsfach
+  de: Lieblingsfach
+  en: favourite subject
+  pos: noun
+  gender: n
+  plural: Lieblingsfächer
+  example: { de: "Mein Lieblingsfach war Geschichte.", en: "My favourite subject was history." }
+  gswZh: Lieblingsfach
+  tags: [school]
+
+- id: grund
+  de: Grund
+  en: reason
+  pos: noun
+  gender: m
+  plural: Gründe
+  example: { de: "Ich habe zwei Gründe: die Arbeit und meine Freunde.", en: "I have two reasons: work and my friends." }
+  gswZh: Grund
+  tags: [reasons]
+
+# ---------- reasons and opinions ----------
+- id: weil
+  de: weil
+  en: because (verb at the end)
+  pos: conj
+  example: { de: "Ich lerne Deutsch, weil ich in Zürich arbeite.", en: "I'm learning German because I work in Zurich." }
+  gswZh: wil
+  gswBe: wüu
+  tags: [conjunctions, reasons]
+
+- id: denn
+  de: denn
+  en: because (normal word order)
+  pos: conj
+  example: { de: "Ich habe eine Lehre gemacht, denn ich habe gern praktisch gearbeitet.", en: "I did an apprenticeship, because I liked practical work." }
+  gswZh: wil (denn is rare in dialect)
+  tags: [conjunctions, reasons]
+
+- id: dass
+  de: dass
+  en: that (verb at the end)
+  pos: conj
+  example: { de: "Ich hoffe, dass ich die Prüfung bestehe.", en: "I hope that I pass the exam." }
+  gswZh: dass
+  tags: [conjunctions, opinions]
+
+- id: warum
+  de: warum
+  en: why
+  pos: adv
+  example: { de: "Warum brauchst du das Zertifikat?", en: "Why do you need the certificate?" }
+  gswZh: wieso / werum
+  tags: [questions, reasons]
+
+- id: glauben
+  de: glauben
+  en: to believe, to think
+  pos: verb
+  example: { de: "Ich glaube, dass das System sehr gut ist.", en: "I think the system is very good." }
+  gswZh: glaube
+  tags: [opinions]
+
+- id: hoffen
+  de: hoffen
+  en: to hope
+  pos: verb
+  example: { de: "Ich hoffe, dass ich bestehe.", en: "I hope I pass." }
+  gswZh: hoffe
+  tags: [opinions]
+
+- id: meinen
+  de: meinen
+  en: to think, to mean
+  pos: verb
+  example: { de: "Was meinst du? Ist die Matur schwierig?", en: "What do you think? Is the Matura difficult?" }
+  gswZh: meine
+  tags: [opinions]

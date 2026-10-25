@@ -1,0 +1,2815 @@
+{
+  "unitId": "a2-u04",
+  "level": "A2",
+  "folder": "a2/unit-04",
+  "title": "Geschenke und Einladungen",
+  "delivery": {
+    "raw": "WAV or FLAC, 48 kHz, 24-bit, mono, one file per entry, named <file base>.wav",
+    "processed": [
+      "mp3 64 kbps mono 44.1 kHz",
+      "opus 32 kbps mono 48 kHz",
+      "EBU R128 -16 LUFS, true peak -1.5 dBTP"
+    ]
+  },
+  "entries": [
+    {
+      "file": "dialog-intro-01.mp3",
+      "kind": "dialogue-intro",
+      "text": "Tom, Nadine hat am Freitag Geburtstag. Sie macht nach der Arbeit einen Apéro.",
+      "en": "Tom, it's Nadine's birthday on Friday. She's having drinks after work.",
+      "variety": "ch-std",
+      "voice": "zh-m",
+      "speaker": "Martin",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          0,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-01.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-02.mp3",
+      "kind": "dialogue-intro",
+      "text": "Ich weiß, sie hat mir gestern eine Einladung geschickt. Was schenken wir ihr?",
+      "en": "I know, she sent me an invitation yesterday. What shall we give her?",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          1,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-02.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-03.mp3",
+      "kind": "dialogue-intro",
+      "text": "Gute Frage. Gefallen ihr Blumen?",
+      "en": "Good question. Does she like flowers?",
+      "variety": "ch-std",
+      "voice": "zh-m",
+      "speaker": "Martin",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          2,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-03.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-04.mp3",
+      "kind": "dialogue-intro",
+      "text": "Blumen gefallen ihr sicher. Aber sie liest auch sehr gern. Wir können ihr ein Buch schenken.",
+      "en": "She's sure to like flowers. But she also loves reading. We could give her a book.",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          3,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-04.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-05.mp3",
+      "kind": "dialogue-intro",
+      "text": "Gute Idee! Und dazu noch Schokolade – die schmeckt allen.",
+      "en": "Good idea! And some chocolate as well – everyone likes that.",
+      "variety": "ch-std",
+      "voice": "zh-m",
+      "speaker": "Martin",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          4,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-05.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-06.mp3",
+      "kind": "dialogue-intro",
+      "text": "Perfekt. Kannst du mir nach der Arbeit helfen? Ich kenne die Buchhandlung hier nicht.",
+      "en": "Perfect. Can you help me after work? I don't know the bookshop here.",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          5,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-06.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-07.mp3",
+      "kind": "dialogue-intro",
+      "text": "Klar. Ah, gehört dir der Regenschirm hier?",
+      "en": "Sure. Oh, is this umbrella yours?",
+      "variety": "ch-std",
+      "voice": "zh-m",
+      "speaker": "Martin",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          6,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-07.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-08.mp3",
+      "kind": "dialogue-intro",
+      "text": "Nein, der gehört Nadine. Ich bringe ihn ihr später.",
+      "en": "No, it's Nadine's. I'll take it to her later.",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          7,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-08.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-09.mp3",
+      "kind": "dialogue-intro",
+      "text": "Herzlichen Glückwunsch, Nadine! Das ist für dich, von Martin und mir.",
+      "en": "Happy birthday, Nadine! This is for you, from Martin and me.",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          8,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-09.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-10.mp3",
+      "kind": "dialogue-intro",
+      "text": "Oh, vielen Dank! Das wäre doch nicht nötig gewesen! Ein Krimi aus Zürich – der gefällt mir sehr!",
+      "en": "Oh, thank you so much! You really shouldn't have! A crime novel set in Zurich – I love it!",
+      "variety": "ch-std",
+      "voice": "zh-f",
+      "speaker": "Nadine",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          9,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-10.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-11.mp3",
+      "kind": "dialogue-intro",
+      "text": "Und die Schokolade ist für deine Gäste.",
+      "en": "And the chocolate is for your guests.",
+      "variety": "ch-std",
+      "voice": "zh-m",
+      "speaker": "Martin",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          10,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-11.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-12.mp3",
+      "kind": "dialogue-intro",
+      "text": "Merci! Das ist aber lieb von euch. Kommt, das Buffet ist offen!",
+      "en": "Thanks! That's really kind of you. Come on, the buffet is open!",
+      "variety": "ch-std",
+      "voice": "zh-f",
+      "speaker": "Nadine",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          11,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-12.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-01.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Hoi Reto! Vill Glück zum Geburtstag! Das isch für dich.",
+      "en": "Hi Reto! Happy birthday! This is for you.",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          0,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-01.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-02.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Oh, merci! Das wär doch nöd nötig gsii!",
+      "en": "Oh, thanks! You really shouldn't have!",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          1,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-02.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-03.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Mach s uf! Ich hoff, es gfallt der.",
+      "en": "Open it! I hope you like it.",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          2,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-03.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-04.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Es Buech über s Tessin! Mega, das gfallt mer.",
+      "en": "A book about Ticino! Great, I really like it.",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          3,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-04.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-05.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Und d Schoggi chasch de Gäscht gää.",
+      "en": "And you can give the chocolate to your guests.",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          4,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-05.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-06.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Super Idee! Chumm, ich zeig der d Wohnig. Wottsch es Glas Wii?",
+      "en": "Great idea! Come on, I'll show you the flat. Would you like a glass of wine?",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          5,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-06.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-07.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Gärn. Wem ghört eigentlich die Jagge da?",
+      "en": "I'd love one. Whose jacket is this, by the way?",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          6,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-07.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-08.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Die ghört em Nico, mim Kolleg vom Kafi.",
+      "en": "It's Nico's, my friend from the café.",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          7,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-08.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-09.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Mmh, und de Chueche isch mega fein!",
+      "en": "Mmm, and the cake is really delicious!",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          8,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-09.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-10.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Und, het em Reto ds Gschänk gfaue?",
+      "en": "So, did Reto like the present?",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "speaker": "Mami",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          9,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-10.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-11.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Ja, mega! Är het sech fescht gfröit.",
+      "en": "Yes, a lot! He was really pleased.",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          10,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-11.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-12.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Das fröit mi! Säg ihm e liebe Gruess.",
+      "en": "I'm glad! Give him my best wishes.",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "speaker": "Mami",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          11,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-12.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-geschenk.mp3",
+      "kind": "vocab",
+      "text": "Geschenk",
+      "en": "present, gift",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "geschenk",
+        "pointer": [
+          0,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-geschenk.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-geschenk-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Das Geschenk ist für dich.",
+      "en": "The present is for you.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "geschenk",
+        "pointer": [
+          0,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-geschenk-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-geschenk-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Gschänk",
+      "note": "es Gschänk; small = es Gschänkli",
+      "en": "present, gift",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "geschenk",
+        "pointer": [
+          0,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-geschenk-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-geschenk-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "Gschänk",
+      "note": "ds Gschänk",
+      "en": "present, gift",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "geschenk",
+        "pointer": [
+          0,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-geschenk-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-schenken.mp3",
+      "kind": "vocab",
+      "text": "schenken",
+      "en": "to give (as a present)",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "schenken",
+        "pointer": [
+          1,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-schenken.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-schenken-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Was schenken wir Nadine?",
+      "en": "What shall we give Nadine?",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "schenken",
+        "pointer": [
+          1,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-schenken-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-schenken-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "schänke",
+      "note": "gschänkt",
+      "en": "to give (as a present)",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "schenken",
+        "pointer": [
+          1,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-schenken-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-schenken-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "schänke",
+      "note": "gschänkt",
+      "en": "to give (as a present)",
+      "variety": "gsw-be",
+      "voice": "be-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "schenken",
+        "pointer": [
+          1,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-schenken-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-geben.mp3",
+      "kind": "vocab",
+      "text": "geben",
+      "en": "to give",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "geben",
+        "pointer": [
+          2,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-geben.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-geben-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Kannst du mir bitte das Glas geben?",
+      "en": "Can you pass me the glass, please?",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "geben",
+        "pointer": [
+          2,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-geben-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-geben-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "gää",
+      "note": "ich gib, du gisch, er git; ggää",
+      "en": "to give",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "geben",
+        "pointer": [
+          2,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-geben-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-bringen.mp3",
+      "kind": "vocab",
+      "text": "bringen",
+      "en": "to bring, to take (to someone)",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "bringen",
+        "pointer": [
+          3,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-bringen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-bringen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich bringe ihr den Schirm später.",
+      "en": "I'll take her the umbrella later.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "bringen",
+        "pointer": [
+          3,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-bringen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-bringen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "bringe",
+      "note": "bracht",
+      "en": "to bring, to take (to someone)",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "bringen",
+        "pointer": [
+          3,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-bringen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-mitbringen.mp3",
+      "kind": "vocab",
+      "text": "mitbringen",
+      "en": "to bring (along)",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "mitbringen",
+        "pointer": [
+          4,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-mitbringen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-mitbringen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Soll ich etwas mitbringen?",
+      "en": "Shall I bring anything?",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "mitbringen",
+        "pointer": [
+          4,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-mitbringen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-mitbringen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "mitbringe",
+      "note": "mitbracht",
+      "en": "to bring (along)",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "mitbringen",
+        "pointer": [
+          4,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-mitbringen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-schicken.mp3",
+      "kind": "vocab",
+      "text": "schicken",
+      "en": "to send",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "schicken",
+        "pointer": [
+          5,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-schicken.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-schicken-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Nadine hat uns eine Einladung geschickt.",
+      "en": "Nadine sent us an invitation.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "schicken",
+        "pointer": [
+          5,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-schicken-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-schicken-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "schicke",
+      "en": "to send",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "schicken",
+        "pointer": [
+          5,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-schicken-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-zeigen.mp3",
+      "kind": "vocab",
+      "text": "zeigen",
+      "en": "to show",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "zeigen",
+        "pointer": [
+          6,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-zeigen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-zeigen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Komm, ich zeige dir die Wohnung.",
+      "en": "Come on, I'll show you the flat.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "zeigen",
+        "pointer": [
+          6,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-zeigen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-zeigen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "zeige",
+      "note": "ich zeig der …",
+      "en": "to show",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "zeigen",
+        "pointer": [
+          6,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-zeigen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-auspacken.mp3",
+      "kind": "vocab",
+      "text": "auspacken",
+      "en": "to unwrap, to unpack",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "auspacken",
+        "pointer": [
+          7,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-auspacken.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-auspacken-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Nadine packt das Geschenk sofort aus.",
+      "en": "Nadine unwraps the present straight away.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "auspacken",
+        "pointer": [
+          7,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-auspacken-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-auspacken-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "uuspacke / ufmache",
+      "en": "to unwrap, to unpack",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "auspacken",
+        "pointer": [
+          7,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-auspacken-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-blumenstrauss.mp3",
+      "kind": "vocab",
+      "text": "Blumenstrauß",
+      "en": "bunch of flowers, bouquet",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "blumenstrauss",
+        "pointer": [
+          8,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-blumenstrauss.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-blumenstrauss-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich bringe meiner Gastgeberin einen Blumenstrauß mit.",
+      "en": "I'm bringing my hostess a bunch of flowers.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "blumenstrauss",
+        "pointer": [
+          8,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-blumenstrauss-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-blumenstrauss-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Bluemestruuss / Hüchlerbäse",
+      "note": "joking",
+      "en": "bunch of flowers, bouquet",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "blumenstrauss",
+        "pointer": [
+          8,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-blumenstrauss-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-blume.mp3",
+      "kind": "vocab",
+      "text": "Blume",
+      "en": "flower",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "blume",
+        "pointer": [
+          9,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-blume.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-blume-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Gefallen dir die Blumen?",
+      "en": "Do you like the flowers?",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "blume",
+        "pointer": [
+          9,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-blume-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-blume-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Blueme",
+      "en": "flower",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "blume",
+        "pointer": [
+          9,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-blume-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-blume-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "Blueme",
+      "note": "small = Blüemli",
+      "en": "flower",
+      "variety": "gsw-be",
+      "voice": "be-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "blume",
+        "pointer": [
+          9,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-blume-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wein.mp3",
+      "kind": "vocab",
+      "text": "Wein",
+      "en": "wine",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wein",
+        "pointer": [
+          10,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-wein.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wein-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Wir bringen eine Flasche Wein mit.",
+      "en": "We'll bring a bottle of wine.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wein",
+        "pointer": [
+          10,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-wein-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wein-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Wii",
+      "en": "wine",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wein",
+        "pointer": [
+          10,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-wein-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kerze.mp3",
+      "kind": "vocab",
+      "text": "Kerze",
+      "en": "candle",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kerze",
+        "pointer": [
+          11,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-kerze.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kerze-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Auf dem Kuchen sind dreißig Kerzen.",
+      "en": "There are thirty candles on the cake.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kerze",
+        "pointer": [
+          11,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-kerze-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kerze-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Cherze",
+      "en": "candle",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kerze",
+        "pointer": [
+          11,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-kerze-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gutschein.mp3",
+      "kind": "vocab",
+      "text": "Gutschein",
+      "en": "voucher, gift card",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gutschein",
+        "pointer": [
+          12,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-gutschein.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gutschein-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Wir schenken ihm einen Gutschein für das Kino.",
+      "en": "We're giving him a cinema voucher.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gutschein",
+        "pointer": [
+          12,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-gutschein-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gutschein-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Guetschiin / Gutschein",
+      "en": "voucher, gift card",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gutschein",
+        "pointer": [
+          12,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-gutschein-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-schal.mp3",
+      "kind": "vocab",
+      "text": "Schal",
+      "en": "scarf",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "schal",
+        "pointer": [
+          13,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-schal.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-schal-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Der Schal steht dir gut.",
+      "en": "The scarf suits you.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "schal",
+        "pointer": [
+          13,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-schal-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-schal-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Schal",
+      "en": "scarf",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "schal",
+        "pointer": [
+          13,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-schal-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-ueberraschung.mp3",
+      "kind": "vocab",
+      "text": "Überraschung",
+      "en": "surprise",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "ueberraschung",
+        "pointer": [
+          14,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-ueberraschung.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-ueberraschung-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Das Geschenk ist eine Überraschung.",
+      "en": "The present is a surprise.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "ueberraschung",
+        "pointer": [
+          14,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-ueberraschung-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-ueberraschung-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Überraschig",
+      "en": "surprise",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "ueberraschung",
+        "pointer": [
+          14,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-ueberraschung-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-regenschirm.mp3",
+      "kind": "vocab",
+      "text": "Regenschirm",
+      "en": "umbrella",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "regenschirm",
+        "pointer": [
+          15,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-regenschirm.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-regenschirm-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Der Regenschirm gehört Nadine.",
+      "en": "The umbrella is Nadine's.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "regenschirm",
+        "pointer": [
+          15,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-regenschirm-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-regenschirm-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Rägeschirm / Schirm",
+      "en": "umbrella",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "regenschirm",
+        "pointer": [
+          15,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-regenschirm-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-einladung.mp3",
+      "kind": "vocab",
+      "text": "Einladung",
+      "en": "invitation",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "einladung",
+        "pointer": [
+          16,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-einladung.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-einladung-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Danke für die Einladung!",
+      "en": "Thanks for the invitation!",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "einladung",
+        "pointer": [
+          16,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-einladung-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-einladung-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Iiladig",
+      "en": "invitation",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "einladung",
+        "pointer": [
+          16,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-einladung-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-einladen.mp3",
+      "kind": "vocab",
+      "text": "einladen",
+      "en": "to invite",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "einladen",
+        "pointer": [
+          17,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-einladen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-einladen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich lade dich zu meinem Geburtstag ein.",
+      "en": "I'm inviting you to my birthday.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "einladen",
+        "pointer": [
+          17,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-einladen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-einladen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "iilade",
+      "note": "ich lad di ii",
+      "en": "to invite",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "einladen",
+        "pointer": [
+          17,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-einladen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gast.mp3",
+      "kind": "vocab",
+      "text": "Gast",
+      "en": "guest",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gast",
+        "pointer": [
+          18,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-gast.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gast-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Die Schokolade ist für deine Gäste.",
+      "en": "The chocolate is for your guests.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gast",
+        "pointer": [
+          18,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-gast-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gast-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Gascht",
+      "note": "plural Gäscht",
+      "en": "guest",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gast",
+        "pointer": [
+          18,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-gast-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gastgeber.mp3",
+      "kind": "vocab",
+      "text": "Gastgeber / Gastgeberin",
+      "en": "host / hostess",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gastgeber",
+        "pointer": [
+          19,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-gastgeber.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gastgeber-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Die Gastgeberin hat einen Kuchen gebacken.",
+      "en": "The hostess has baked a cake.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gastgeber",
+        "pointer": [
+          19,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-gastgeber-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gastgeber-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Gastgäber / Gastgäberin",
+      "en": "host / hostess",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gastgeber",
+        "pointer": [
+          19,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-gastgeber-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-apero.mp3",
+      "kind": "vocab",
+      "text": "Aperitif",
+      "en": "drinks (and snacks) after work or before dinner",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "apero",
+        "pointer": [
+          20,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-apero.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-apero-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Nach der Arbeit gibt es einen Aperitif.",
+      "en": "After work there are drinks.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "apero",
+        "pointer": [
+          20,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-apero-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-apero-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Apéro",
+      "en": "drinks (and snacks) after work or before dinner",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "apero",
+        "pointer": [
+          20,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-apero-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-buffet.mp3",
+      "kind": "vocab",
+      "text": "Buffet",
+      "en": "buffet",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "buffet",
+        "pointer": [
+          21,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-buffet.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-buffet-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Kommt, das Buffet ist offen!",
+      "en": "Come on, the buffet is open!",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "buffet",
+        "pointer": [
+          21,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-buffet-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-buffet-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Buffet",
+      "en": "buffet",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "buffet",
+        "pointer": [
+          21,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-buffet-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-glueckwunsch.mp3",
+      "kind": "vocab",
+      "text": "Glückwunsch",
+      "en": "congratulations, good wishes",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "glueckwunsch",
+        "pointer": [
+          22,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-glueckwunsch.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-glueckwunsch-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Herzlichen Glückwunsch zum Geburtstag!",
+      "en": "Happy birthday!",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "glueckwunsch",
+        "pointer": [
+          22,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-glueckwunsch-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-glueckwunsch-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Glückwunsch",
+      "note": "Vill Glück zum Geburtstag!",
+      "en": "congratulations, good wishes",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "glueckwunsch",
+        "pointer": [
+          22,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-glueckwunsch-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gratulieren.mp3",
+      "kind": "vocab",
+      "text": "gratulieren",
+      "en": "to congratulate",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gratulieren",
+        "pointer": [
+          23,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-gratulieren.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gratulieren-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Wir gratulieren dir zum Geburtstag.",
+      "en": "Happy birthday from us.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gratulieren",
+        "pointer": [
+          23,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-gratulieren-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gratulieren-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "gratuliere",
+      "en": "to congratulate",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gratulieren",
+        "pointer": [
+          23,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-gratulieren-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-absagen.mp3",
+      "kind": "vocab",
+      "text": "absagen",
+      "en": "to cancel, to decline (an invitation)",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "absagen",
+        "pointer": [
+          24,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-absagen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-absagen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Leider muss ich für Freitag absagen.",
+      "en": "Unfortunately I have to decline for Friday.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "absagen",
+        "pointer": [
+          24,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-absagen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-absagen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "absäge",
+      "en": "to cancel, to decline (an invitation)",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "absagen",
+        "pointer": [
+          24,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-absagen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gefallen.mp3",
+      "kind": "vocab",
+      "text": "gefallen",
+      "en": "to please (Das gefällt mir = I like it)",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gefallen",
+        "pointer": [
+          25,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-gefallen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gefallen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Das Buch gefällt mir sehr.",
+      "en": "I really like the book.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gefallen",
+        "pointer": [
+          25,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-gefallen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gefallen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "gfalle",
+      "note": "es gfallt mer",
+      "en": "to please (Das gefällt mir = I like it)",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gefallen",
+        "pointer": [
+          25,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-gefallen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gefallen-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "gfalle / gfaue",
+      "note": "es gfaut mer",
+      "en": "to please (Das gefällt mir = I like it)",
+      "variety": "gsw-be",
+      "voice": "be-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gefallen",
+        "pointer": [
+          25,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-gefallen-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gehoeren.mp3",
+      "kind": "vocab",
+      "text": "gehören",
+      "en": "to belong (to)",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gehoeren",
+        "pointer": [
+          26,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-gehoeren.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gehoeren-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Wem gehört der Schirm?",
+      "en": "Whose umbrella is this?",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gehoeren",
+        "pointer": [
+          26,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-gehoeren-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gehoeren-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "ghöre",
+      "note": "Wem ghört das?",
+      "en": "to belong (to)",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gehoeren",
+        "pointer": [
+          26,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-gehoeren-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-schmecken.mp3",
+      "kind": "vocab",
+      "text": "schmecken",
+      "en": "to taste (good)",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "schmecken",
+        "pointer": [
+          27,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-schmecken.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-schmecken-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Schmeckt dir der Kuchen?",
+      "en": "Do you like the cake?",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "schmecken",
+        "pointer": [
+          27,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-schmecken-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-schmecken-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Das isch fein!",
+      "note": "schmöcke = to smell",
+      "en": "to taste (good)",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "schmecken",
+        "pointer": [
+          27,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-schmecken-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-helfen.mp3",
+      "kind": "vocab",
+      "text": "helfen",
+      "en": "to help",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "helfen",
+        "pointer": [
+          28,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-helfen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-helfen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Kannst du mir nach der Arbeit helfen?",
+      "en": "Can you help me after work?",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "helfen",
+        "pointer": [
+          28,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-helfen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-helfen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "hälfe",
+      "note": "ich hilf, du hilfsch, er hilft",
+      "en": "to help",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "helfen",
+        "pointer": [
+          28,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-helfen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-danken.mp3",
+      "kind": "vocab",
+      "text": "danken",
+      "en": "to thank",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "danken",
+        "pointer": [
+          29,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-danken.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-danken-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich danke dir für das Geschenk.",
+      "en": "Thank you for the present.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "danken",
+        "pointer": [
+          29,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-danken-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-danken-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "danke",
+      "note": "merci",
+      "en": "to thank",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "danken",
+        "pointer": [
+          29,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-danken-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-passen.mp3",
+      "kind": "vocab",
+      "text": "passen",
+      "en": "to fit; to suit (a plan)",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "passen",
+        "pointer": [
+          30,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-passen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-passen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Passt dir Freitag um sechs?",
+      "en": "Does Friday at six suit you?",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "passen",
+        "pointer": [
+          30,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-passen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-passen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "passe",
+      "note": "Das passt mer.",
+      "en": "to fit; to suit (a plan)",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "passen",
+        "pointer": [
+          30,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-passen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-stehen-passen.mp3",
+      "kind": "vocab",
+      "text": "stehen",
+      "en": "to suit (someone's looks)",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "stehen-passen",
+        "pointer": [
+          31,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-stehen-passen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-stehen-passen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Die Farbe steht dir super.",
+      "en": "The colour really suits you.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "stehen-passen",
+        "pointer": [
+          31,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-stehen-passen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-stehen-passen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "stah",
+      "note": "Das staht der guet!",
+      "en": "to suit (someone's looks)",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "stehen-passen",
+        "pointer": [
+          31,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-stehen-passen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-noetig.mp3",
+      "kind": "vocab",
+      "text": "nötig",
+      "en": "necessary",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "noetig",
+        "pointer": [
+          32,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-noetig.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-noetig-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Das wäre doch nicht nötig gewesen!",
+      "en": "You really shouldn't have!",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "noetig",
+        "pointer": [
+          32,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-noetig-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-noetig-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "nötig",
+      "en": "necessary",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "noetig",
+        "pointer": [
+          32,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-noetig-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-lieb.mp3",
+      "kind": "vocab",
+      "text": "lieb",
+      "en": "kind, sweet (of a person)",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "lieb",
+        "pointer": [
+          33,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-lieb.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-lieb-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Das ist aber lieb von dir!",
+      "en": "That's really kind of you!",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "lieb",
+        "pointer": [
+          33,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-lieb-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-lieb-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "lieb",
+      "en": "kind, sweet (of a person)",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "lieb",
+        "pointer": [
+          33,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-lieb-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-huebsch.mp3",
+      "kind": "vocab",
+      "text": "hübsch",
+      "en": "pretty",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "huebsch",
+        "pointer": [
+          34,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-huebsch.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-huebsch-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Die Kerzen sind sehr hübsch.",
+      "en": "The candles are very pretty.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "huebsch",
+        "pointer": [
+          34,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-huebsch-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-huebsch-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "hübsch / schön",
+      "en": "pretty",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "huebsch",
+        "pointer": [
+          34,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-huebsch-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-nicht-noetig.mp3",
+      "kind": "vocab",
+      "text": "Das wäre doch nicht nötig gewesen!",
+      "en": "You really shouldn't have! (thanking for a present)",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "nicht-noetig",
+        "pointer": [
+          35,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-nicht-noetig.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-nicht-noetig-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Blumen für mich? Das wäre doch nicht nötig gewesen!",
+      "en": "Flowers for me? You really shouldn't have!",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "nicht-noetig",
+        "pointer": [
+          35,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-nicht-noetig-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-nicht-noetig-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Das wär doch nöd nötig gsii!",
+      "en": "You really shouldn't have! (thanking for a present)",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "nicht-noetig",
+        "pointer": [
+          35,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-nicht-noetig-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-danke-einladung.mp3",
+      "kind": "vocab",
+      "text": "Danke für die Einladung!",
+      "en": "Thanks for the invitation!",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "danke-einladung",
+        "pointer": [
+          36,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-danke-einladung.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-danke-einladung-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Danke für die Einladung! Ich komme gern.",
+      "en": "Thanks for the invitation! I'd love to come.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "danke-einladung",
+        "pointer": [
+          36,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-danke-einladung-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-danke-einladung-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Merci für d Iiladig!",
+      "en": "Thanks for the invitation!",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "danke-einladung",
+        "pointer": [
+          36,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-danke-einladung-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u04-mcq-listening-schirm.mp3",
+      "kind": "listening",
+      "text": "Tom: Nein, der gehört Nadine. Ich bringe ihn ihr später.",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u04-mcq-listening-schirm",
+        "pointer": [
+          25,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u04-mcq-listening-schirm.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u04-dictation-einladung.mp3",
+      "kind": "dictation",
+      "text": "Sie hat mir gestern eine Einladung geschickt.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u04-dictation-einladung",
+        "pointer": [
+          26,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u04-dictation-einladung.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u04-dictation-kuchen.mp3",
+      "kind": "dictation",
+      "text": "Der Kuchen schmeckt den Gästen sehr gut.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u04-dictation-kuchen",
+        "pointer": [
+          27,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u04-dictation-kuchen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u04-speak-frame.mp3",
+      "kind": "speak",
+      "text": "Meine Freundin hat Geburtstag. Ich schenke ihr einen Schal. Ich hoffe, er gefällt ihr.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u04-speak-frame",
+        "pointer": [
+          28,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u04-speak-frame.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u04-speak-shadow-tom.mp3",
+      "kind": "speak",
+      "text": "Herzlichen Glückwunsch, Nadine! Das ist für dich, von Martin und mir.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u04-speak-shadow-tom",
+        "pointer": [
+          29,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u04-speak-shadow-tom.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u04-speak-shadow-nadine.mp3",
+      "kind": "speak",
+      "text": "Oh, vielen Dank! Das wäre doch nicht nötig gewesen!",
+      "variety": "ch-std",
+      "voice": "zh-m",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u04-speak-shadow-nadine",
+        "pointer": [
+          30,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u04-speak-shadow-nadine.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u04-speak-intonation.mp3",
+      "kind": "speak",
+      "text": "Gefällt dir das Geschenk? – Ja, es gefällt mir sehr!",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u04-speak-intonation",
+        "pointer": [
+          31,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u04-speak-intonation.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u04-speak-pron-ue.mp3",
+      "kind": "speak",
+      "text": "Herzlichen Glückwunsch! Die Blumen sind für dich, und natürlich gibt es auch Kuchen mit Früchten.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u04-speak-pron-ue",
+        "pointer": [
+          32,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u04-speak-pron-ue.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u04-ch-mcq-fuer-dich.mp3",
+      "kind": "listening",
+      "text": "Sandra: Hoi Reto! Vill Glück zum Geburtstag! Das isch für dich.",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u04-ch-mcq-fuer-dich",
+        "pointer": [
+          36,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u04-ch-mcq-fuer-dich.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u04-ch-mcq-ghoert.mp3",
+      "kind": "listening",
+      "text": "Sandra: Gärn. Wem ghört eigentlich die Jagge da?\nReto: Die ghört em Nico, mim Kolleg vom Kafi.",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u04-ch-mcq-ghoert",
+        "pointer": [
+          40,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u04-ch-mcq-ghoert.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u04-ch-be-mcq-gfaue.mp3",
+      "kind": "listening",
+      "text": "Mami: Und, het em Reto ds Gschänk gfaue?",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "speaker": "Mami",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u04-ch-be-mcq-gfaue",
+        "pointer": [
+          44,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u04-ch-be-mcq-gfaue.mp3",
+      "referenced": false
+    }
+  ]
+}

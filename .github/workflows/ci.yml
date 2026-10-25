@@ -56,6 +56,14 @@ jobs:
       - name: Performance budget, beta variant
         run: npm run budget -w @doppelpunkt/web -- --dist dist-beta
 
+      # Payments variant for e2e/billing (playwright.billing.config.ts): VITE_BILLING_URL points at a
+      # mock billing Worker the specs serve with page.route; trusts only the public TEST key.
+      - name: Build the payments variant (dist-billing)
+        run: npm run build:e2e-billing -w @doppelpunkt/web
+
+      - name: Performance budget, payments variant
+        run: npm run budget -w @doppelpunkt/web -- --dist dist-billing
+
       - name: Cache Playwright browsers
         uses: actions/cache@v4
         with:
@@ -65,7 +73,7 @@ jobs:
       - name: Install Playwright Chromium
         run: npx playwright install --with-deps chromium
 
-      - name: End-to-end tests (regular build, then the beta build)
+      - name: End-to-end tests (regular build, then the beta and payments builds)
         run: npm run test:e2e
 
       - name: Upload Playwright report
@@ -78,4 +86,6 @@ jobs:
             apps/web/test-results/
             apps/web/playwright-report-beta/
             apps/web/test-results-beta/
+            apps/web/playwright-report-billing/
+            apps/web/test-results-billing/
           retention-days: 14

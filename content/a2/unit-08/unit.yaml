@@ -1,0 +1,300 @@
+id: a2-u08
+level: A2
+number: 8
+title: Schule und Lernen
+titleEn: School and learning
+goal: >-
+  By the end you can talk about your education and how you learn languages, describe the Swiss school
+  system in simple words, give reasons and say what you think – using subordinate clauses with weil and
+  dass, with the verb at the end (…, weil ich die Prüfung bestehen will.), and the difference between denn
+  and weil – and recognise the Swiss school words (Kindergarte, Primar, Sek, Gymi, Lehr, Matur) and the
+  dialect wil and dass.
+canDo:
+  - I can talk about my school, my studies and my language learning (Ich habe in der Schule Französisch gelernt.).
+  - I can give a reason with weil and denn (Ich lerne Deutsch, weil ich hier arbeite.).
+  - I can say what I think, hope or know with dass (Ich finde, dass Deutsch wichtig ist.).
+  - I can put the verb at the end of a subordinate clause, also with modal verbs, separable verbs and the Perfekt.
+  - I can understand a short text about the Swiss school system.
+  - I can recognise the Swiss school words Kindergarte, Primar, Sek, Gymi, Lehr and Matur, and the dialect conjunctions wil and dass.
+
+review:
+  notes:
+    - "'Hoi Reto! Du strahlsch ja! Was isch passiert?' – strahle (to beam), passiert (A2.2) natural?"
+    - "'Min Neffe, de Luca, hät d Gymiprüefig bestande!' – Gymiprüefig (the Zurich Gymnasium entrance exam) spelling, Prüefig (BD #50052 for Bern: 'Er het d Prüefig bestande'), bestande in Zurich?"
+    - "'Super! Gaat er jetzt is Gymi?' – is Gymi (ins Gymnasium), Gymi in Zurich (curriculum)."
+    - "'Ja, im August. Er wott Arzt werde, wil er gärn Mänsche hilft.' – wil (ALS-ZH: 'wil sich alewiil mee … duregsetzt hät'), verb-final hilft, werde, Mänsche spelling?"
+    - "'Und du? Bisch du au is Gymi gange?' – gange (lexicon)."
+    - "'Nei, nach de Sek han ich e Lehr als Koch gmacht, wil ich gärn choche.' – nach de Sek (dative de), han ich (inverted), Lehr (A2.3)."
+    - "'Ich find, dass d Lehr i de Schwiiz e super Sach isch.' – dass + verb-final (WP-SG: 'Ich weiss dass sie gaat go ässe'), e super Sach natural?"
+    - "'Stimmt. Und hüt bin ich en guete Koch!' – bin vs bi before a vowel (hüt bin ich)."
+    - "Verb clusters in Swiss subordinate clauses (wil er hät müese schaffe vs wil er schaffe müese hät) are not taught; the unit uses only one verb at the end in dialect. Please check that the dialogue lines sound natural."
+    - "School system note: 11 years of compulsory school from age 4, 2 years Kindergarten counted as primary, 6 years Primarschule, 3 years Sekundarschule (Ticino 4) – EDK (edk.ch, compulsory education). Zurich Gymi entrance exam after 6th class (Langgymnasium) or 2nd / 3rd Sek (Kurzgymnasium): general knowledge, please tick. 'Most young people do a Lehre' (A2.3, two thirds) – SBFI figure still to check."
+    - "Swiss Standard: die Matur (Duden: schweizerisch, f.; also die Matura), die Primarschule (Duden: schweizerisch), die Sekundarschule / die Sek, das Gymnasium / die Kantonsschule (Kanti) / das Gymi, der Kindergarten (Chindsgi in dialect), repetieren (= wiederholen, eine Klasse repetieren). Please tick."
+    - "Swiss Standard dialogue lines (Martin): 'Zuerst zwei Jahre Kindergarten, dann sechs Jahre Primarschule und drei Jahre Sek.' / 'Nein, die meisten machen eine Lehre. Ich habe auch eine Lehre gemacht, denn ich habe gern praktisch gearbeitet.' – please tick."
+    - "Vocabulary gswZh forms without a source: Schuel, Chindsgi / Kindergarte, Primarschuel / Primar, Sekundarschuel / Sek, Gymi / Kanti, Matur, Uni, studiere, Fach, Fremdspraach, Prüefig, bestah (bestande), Note, Zügnis, Kurs, Ufgab / Huusufgabe, lerne / lehre, üebe, repetiere, verstah, erchläre, Wörterbuech, Fähler, Schüeler / Schüelerin, Student, Klass, Zertifikat, Grund, wil, dass, dänn (denn?), wichtig, hoffe, glaube."
+    - "Bernese: 'Weisch was? Dr Jonas het d Prüefig bestande!' (BD #50052: bestaa, PP. bestande, example 'Er het d' Prüefig bestande') / 'Super! Geit er itz i Gymer?' (Gymer = Gymnasium in Bern, not found on BD; itz BD #17325) / 'Nei, är macht e Lehr, wüu är lieber mit de Händ schaffet.' (wüu = weil, BD #30410; Lehr BD #17640; schaffet 3rd person?) – sentence flow?"
+
+intro:
+  scene: >-
+    Wednesday afternoon at the coffee machine in Tom's office. Tom has a German exam tomorrow. His colleague
+    Martin, from Bern, speaks Swiss Standard German with him and explains how school works in Switzerland.
+  dialogue:
+    - speaker: Martin
+      text: Du siehst nervös aus, Tom. Was ist los?
+      en: You look nervous, Tom. What's up?
+      variety: ch-std
+    - speaker: Tom
+      text: Ich habe morgen eine Prüfung im Deutschkurs. Ich lerne jeden Abend, weil ich das A2-Zertifikat brauche.
+      en: I've got an exam in my German course tomorrow. I study every evening because I need the A2 certificate.
+    - speaker: Martin
+      text: Warum brauchst du das Zertifikat?
+      en: Why do you need the certificate?
+      variety: ch-std
+    - speaker: Tom
+      text: Weil ich länger in der Schweiz bleiben will. Und ich finde, dass Deutsch hier sehr wichtig ist.
+      en: Because I want to stay in Switzerland longer. And I think German is very important here.
+    - speaker: Martin
+      text: Da hast du recht. Ich habe in der Schule auch Französisch und Englisch gelernt.
+      en: You're right. I learned French and English at school too.
+      variety: ch-std
+    - speaker: Tom
+      text: Wie lange geht man in der Schweiz zur Schule?
+      en: How long do people go to school in Switzerland?
+    - speaker: Martin
+      text: Zuerst zwei Jahre Kindergarten, dann sechs Jahre Primarschule und drei Jahre Sek.
+      en: First two years of kindergarten, then six years of primary school and three years of lower secondary.
+      variety: ch-std
+    - speaker: Tom
+      text: Und dann? Machen alle die Matur?
+      en: And then? Does everyone do the Matura?
+    - speaker: Martin
+      text: Nein, die meisten machen eine Lehre. Ich habe auch eine Lehre gemacht, denn ich habe gern praktisch gearbeitet.
+      en: No, most people do an apprenticeship. I did one too, because I liked practical work.
+      variety: ch-std
+    - speaker: Tom
+      text: Ich glaube, dass das System hier sehr gut ist.
+      en: I think the system here is very good.
+    - speaker: Martin
+      text: Ja, weil man nach der Lehre auch noch studieren kann.
+      en: Yes, because after an apprenticeship you can still go on to study.
+      variety: ch-std
+    - speaker: Tom
+      text: Interessant! Aber jetzt gehe ich nach Hause, weil ich noch die Verben wiederholen muss.
+      en: Interesting! But now I'm going home, because I still have to revise the verbs.
+
+grammar:
+  - id: weil-clause
+    title: "Giving reasons with weil: the verb goes to the end"
+    body: >-
+      **weil** (because) starts a **subordinate clause**. In a subordinate clause the **conjugated verb goes to
+      the end**: *Ich lerne jeden Abend, **weil** ich das Zertifikat **brauche**.*
+
+
+      - A comma always separates the two clauses.
+
+      - **Modal verbs:** the modal goes last, after the infinitive: *…, weil ich die Verben wiederholen
+      **muss**.*
+
+      - **Separable verbs** join up again at the end: *…, weil ich früh **aufstehe**.*
+
+      - **Perfekt:** the auxiliary goes last: *…, weil ich viel gelernt **habe**.*
+
+      - The subject comes straight after *weil*: *weil **ich** …, weil **man** …*
+
+
+      ***Warum?*** (why?) is often answered with a *weil* clause on its own: *Warum lernst du Deutsch? – **Weil**
+      ich hier **arbeite**.*
+    tables:
+      - [["Main clause", "weil-clause (verb at the end)"],
+         ["Ich lerne Deutsch,", "weil ich in Zürich arbeite."],
+         ["Tom ist nervös,", "weil er morgen eine Prüfung hat."],
+         ["Ich gehe nach Hause,", "weil ich noch lernen muss."],
+         ["Ich bin müde,", "weil ich um sechs aufgestanden bin."]]
+    commonMistakes:
+      - "*…, weil ich brauche das Zertifikat.* → **…, weil ich das Zertifikat brauche.** Verb at the end (in speech you hear the first version, but don't write it)."
+      - "*…, weil ich muss lernen.* → **…, weil ich lernen muss.** The modal goes last."
+      - "*…, weil ich stehe früh auf.* → **…, weil ich früh aufstehe.** The prefix and verb join at the end."
+
+  - id: dass-clause
+    title: "Saying what you think: dass + verb at the end"
+    body: >-
+      **dass** (that) introduces what you think, believe, hope, know or find. Like *weil*, it sends the verb to
+      the **end**: *Ich finde, **dass** Deutsch sehr wichtig **ist**.*
+
+
+      Typical starters: ***Ich finde / glaube / denke, dass …*** (I think that …), ***Ich hoffe, dass …*** (I hope
+      that …), ***Ich weiß, dass …*** (I know that …), ***Es ist wichtig, dass …*** (It is important that …).
+
+
+      English often drops *that* (*I think it's good*). German **keeps dass** in writing – or uses a main clause
+      without dass: *Ich glaube, das System ist gut.* (verb in position 2).
+
+
+      Careful with the spelling: **dass** (that, conjunction, double s) – **das** (the / that one, article or
+      pronoun, one s).
+    tables:
+      - [["Starter", "dass-clause"],
+         ["Ich finde,", "dass Deutsch wichtig ist."],
+         ["Ich hoffe,", "dass ich die Prüfung bestehe."],
+         ["Ich weiß,", "dass die Matur schwierig ist."],
+         ["Es ist wichtig,", "dass man jeden Tag übt."]]
+    commonMistakes:
+      - "*Ich glaube, dass das System ist gut.* → **Ich glaube, dass das System gut ist.**"
+      - "*Ich hoffe, das ich bestehe.* → **Ich hoffe, dass ich bestehe.** The conjunction is dass."
+      - "*Ich finde dass …* without a comma → **Ich finde, dass …** German always puts a comma before dass."
+
+  - id: denn-weil
+    title: "denn or weil?"
+    body: >-
+      Both mean *because*, but the word order is different:
+
+
+      - **weil** + verb at the **end**: *Ich habe eine Lehre gemacht, **weil** ich gern praktisch **gearbeitet
+      habe**.*
+
+      - **denn** + **normal** word order (verb in position 2, after the subject): *Ich habe eine Lehre gemacht,
+      **denn** ich **habe** gern praktisch gearbeitet.*
+
+
+      *denn* is like *und, aber, oder*: it joins two main clauses and doesn't count as a position. It is a bit
+      more written. *denn* **cannot** start an answer to *Warum?* – use *weil*: *Warum? – **Weil** ich …*
+    tables:
+      - [["Conjunction", "Word order", "Example"],
+         ["weil", "verb at the end", "…, weil ich morgen eine Prüfung habe."],
+         ["denn", "verb in position 2", "…, denn ich habe morgen eine Prüfung."],
+         ["und / aber / oder", "verb in position 2", "…, aber ich habe morgen eine Prüfung."]]
+    commonMistakes:
+      - "*…, denn ich morgen eine Prüfung habe.* → **…, denn ich habe morgen eine Prüfung.** denn keeps the normal order."
+      - "*Warum lernst du? – Denn ich …* → **Weil ich …** Only weil can start a short answer."
+
+  - id: subordinate-first
+    title: "When the weil- or dass-clause comes first"
+    body: >-
+      A subordinate clause can also start the sentence. Then the **whole clause counts as position 1**, and
+      the main verb comes **right after the comma**: verb – comma – verb.
+
+
+      - *Ich lerne am Abend, weil ich am Tag arbeite.* → ***Weil ich am Tag arbeite, lerne ich am Abend.***
+
+      - *Ich bin müde, weil ich viel gelernt habe.* → ***Weil ich viel gelernt habe, bin ich müde.***
+
+
+      This is the same rule as *Am Abend lerne ich* (A1): something in position 1, then the verb, then the
+      subject.
+    tables:
+      - [["Position 1", "Verb", "Rest"],
+         ["Weil ich am Tag arbeite,", "lerne", "ich am Abend."],
+         ["Weil die Prüfung morgen ist,", "bin", "ich nervös."]]
+    commonMistakes:
+      - "*Weil ich am Tag arbeite, ich lerne am Abend.* → **Weil ich am Tag arbeite, lerne ich am Abend.** Verb right after the comma."
+
+reading:
+  title: "Die Schule in der Schweiz"
+  text: >-
+    In der Schweiz ist die Schule Sache der Kantone. Darum ist sie nicht überall gleich, aber das System ist
+    ähnlich.
+
+
+    Die obligatorische Schule dauert elf Jahre. Die Kinder beginnen mit vier Jahren im Kindergarten. Nach zwei
+    Jahren Kindergarten kommen sie in die Primarschule. Sie dauert sechs Jahre. In der Primarschule lernen die
+    Kinder schon zwei Fremdsprachen, meistens Englisch und Französisch.
+
+
+    Danach gehen alle drei Jahre in die Sekundarschule, die «Sek». Nach der Sek machen die meisten Jugendlichen
+    eine Lehre, weil sie einen Beruf lernen und Geld verdienen wollen. Andere gehen ins Gymnasium. Dort machen
+    sie nach vier Jahren die Matur. Mit der Matur können sie an der Universität studieren.
+
+
+    Viele Leute sagen, dass das Schweizer System gut ist, weil es viele Wege gibt: Auch nach einer Lehre kann
+    man später noch studieren.
+  en: >-
+    In Switzerland, school is the cantons' business. That's why it isn't the same everywhere, but the system
+    is similar.
+
+
+    Compulsory school lasts eleven years. Children start kindergarten at the age of four. After two years of
+    kindergarten they go to primary school. It lasts six years. In primary school children already learn two
+    foreign languages, mostly English and French.
+
+
+    After that everyone goes to lower secondary school, the "Sek", for three years. After the Sek most young
+    people do an apprenticeship, because they want to learn a trade and earn money. Others go to the
+    Gymnasium. There they take the Matura after four years. With the Matura they can study at university.
+
+
+    Many people say that the Swiss system is good because there are many paths: even after an apprenticeship
+    you can still study later.
+
+swiss:
+  scene: >-
+    Friday evening at the café. Reto is beaming with pride, and Sandra wants to know why. Listen for the
+    school words Gymi, Sek, Lehr and the dialect conjunctions wil and dass. Later Sandra's mother calls from
+    Bern with family news.
+  dialogue:
+    - speaker: Sandra
+      text: Hoi Reto! Du strahlsch ja! Was isch passiert?
+      en: Hi Reto! You're beaming! What's happened?
+      variety: gsw-zh
+    - speaker: Reto
+      text: Min Neffe, de Luca, hät d Gymiprüefig bestande!
+      en: My nephew Luca has passed the Gymnasium entrance exam!
+      variety: gsw-zh
+    - speaker: Sandra
+      text: Super! Gaat er jetzt is Gymi?
+      en: Great! Is he going to the Gymnasium now?
+      variety: gsw-zh
+    - speaker: Reto
+      text: Ja, im August. Er wott Arzt werde, wil er gärn Mänsche hilft.
+      en: Yes, in August. He wants to be a doctor, because he likes helping people.
+      variety: gsw-zh
+    - speaker: Sandra
+      text: Und du? Bisch du au is Gymi gange?
+      en: And you? Did you go to the Gymnasium too?
+      variety: gsw-zh
+    - speaker: Reto
+      text: Nei, nach de Sek han ich e Lehr als Koch gmacht, wil ich gärn choche.
+      en: No, after the Sek I did an apprenticeship as a cook, because I like cooking.
+      variety: gsw-zh
+    - speaker: Sandra
+      text: Ich find, dass d Lehr i de Schwiiz e super Sach isch.
+      en: I think the apprenticeship in Switzerland is a great thing.
+      variety: gsw-zh
+    - speaker: Reto
+      text: Stimmt. Und hüt bin ich en guete Koch!
+      en: True. And today I'm a good cook!
+      variety: gsw-zh
+    - speaker: Mami
+      text: Weisch was? Dr Jonas het d Prüefig bestande!
+      en: Guess what? Jonas has passed his exam!
+      variety: gsw-be
+    - speaker: Sandra
+      text: Super! Geit er itz i Gymer?
+      en: Great! Is he going to the Gymnasium now?
+      variety: gsw-be
+    - speaker: Mami
+      text: Nei, är macht e Lehr, wüu är lieber mit de Händ schaffet.
+      en: No, he's doing an apprenticeship, because he prefers working with his hands.
+      variety: gsw-be
+  notes:
+    - >-
+      **wil and dass:** Zurich German says **wil** for *weil* (Alemannic Wikipedia) and **dass** as in Standard
+      German, and the verb goes to the end just the same: *…, wil er gärn Mänsche **hilft**. Ich find, dass d Lehr
+      e super Sach **isch**.* Bernese says **wüu** (berndeutsch.ch; l → u again). *denn* is rare in dialect –
+      people just use *wil*.
+    - >-
+      **The school words:** **de Chindsgi / de Kindergarte** (kindergarten, from age 4), **d Primar** (Primarschule,
+      6 years), **d Sek** (Sekundarschule, 3 years), then **e Lehr** (apprenticeship, A2.3) or **s Gymi** (Zurich;
+      also *d Kanti* = Kantonsschule; Bernese *dr Gymer*) and **d Matur** (Duden: schweizerisch, = Abitur). In
+      Zurich many pupils take the **Gymiprüefig**, an entrance exam for the Gymnasium.
+    - >-
+      **The system:** school is run by the 26 cantons, but compulsory school lasts **eleven years** everywhere:
+      two years of kindergarten, six of primary and three of lower secondary (EDK). Children learn a second
+      national language and English at primary school. After the Sek about two thirds of young people start a
+      Lehre; with a vocational Matura they can still go on to study.
+    - >-
+      **lerne and lehre:** in Bernese (and in many Swiss dialects) **lehre** means *lernen* as well as *lehren*
+      (berndeutsch.ch: *lehre* = 1. lernen, 2. lehren). Zurich usually says **lerne**: *Ich lern Dütsch.*
+    - >-
+      **Bernese** (Sandra's mother): **Weisch was?** = Weisst du was?, **het … bestande** = hat … bestanden
+      (berndeutsch.ch: *Er het d Prüefig bestande*), **itz** = jetzt, **dr Gymer** = das Gymnasium, **wüu** =
+      weil, **mit de Händ schaffe** = mit den Händen arbeiten.

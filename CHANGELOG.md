@@ -1,5 +1,19 @@
 # Changelog
 
+## 1.0.0 "Ankommen"
+
+- A2 complete: units 4–12 (presents, moving, shopping, health, school, festivals, media, nature,
+  travel in Switzerland), with Bernese recognition items and guided dialect production
+- A2 mock exam in Goethe-Zertifikat A2 format and an A2 Swiss track check
+- Payments, off unless configured: A1 free, unit 1 of every level free, A2+ per level, yearly pass or
+  Book 1 code; Ed25519-signed unlocks verified on device; `packages/license`, `services/billing`
+  (Stripe Checkout, webhooks, book codes, restore), Unlock screen and Settings → Unlocks
+- Book 1 "Doppelpunkt 1: Ankommen" and answer key as PDF from the content (`npm run book:build`,
+  CI workflow `books.yml`)
+- Landing page, About, Terms, Imprint and a full privacy policy
+- GitHub Pages deployment of main
+- 559+ unit tests, e2e suites for the regular, beta and billing builds
+
 ## 0.5.0 "Beta"
 
 - Beta features, active only in builds with `VITE_COLLECTOR_URL` and all opt-in: "Report a problem",

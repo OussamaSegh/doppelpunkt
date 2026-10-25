@@ -1,0 +1,726 @@
+# A2 unit 12 – Unterwegs in der Schweiz (A2 review)
+
+# ---------- vocabulary ----------
+- id: a2-u12-match-country
+  type: match
+  skill: vocabulary
+  variety: ch-std
+  prompt: Match the words with English.
+  pairs:
+    - ["der Kanton", "canton"]
+    - ["die Grenze", "border"]
+    - ["die Altstadt", "old town"]
+    - ["der Brunnen", "fountain"]
+    - ["der Gletscher", "glacier"]
+    - ["zweisprachig", "bilingual"]
+  explanation: >-
+    Switzerland has 26 Kantone. die Altstadt = alt + Stadt (feminine like Stadt). zweisprachig = zwei + Sprache +
+    -ig: Biel / Bienne and Fribourg / Freiburg are bilingual towns.
+
+- id: a2-u12-match-train
+  type: match
+  skill: vocabulary
+  variety: ch-std
+  prompt: Match the travel words with English.
+  pairs:
+    - ["die Tageskarte", "day pass"]
+    - ["der Anschluss", "connection"]
+    - ["die Abfahrt", "departure"]
+    - ["pünktlich", "on time"]
+    - ["die Schifffahrt", "boat trip"]
+    - ["das Ausflugsziel", "day-trip destination"]
+  explanation: >-
+    die Schifffahrt has three f: Schiff + Fahrt. der Anschluss is the connecting train: Wir haben den Anschluss
+    verpasst = we missed the connection.
+
+# ---------- grammar: where to? ----------
+- id: a2-u12-gap-travel-prepositions
+  type: gap
+  skill: grammar
+  variety: ch-std
+  grammar: [travel-prepositions, two-way-prepositions]
+  prompt: "Fill in nach, in die, an den or auf den."
+  text: Am Montag fahren wir ___ Bern. Am Dienstag gehen wir ___ Altstadt. Am Mittwoch fahren wir ___ Genfersee und am Donnerstag ___ Pilatus.
+  answers: [["nach"], ["in die"], ["an den"], ["auf den"]]
+  explanation: >-
+    Towns without an article → nach. Into a part of town → in + accusative (die Altstadt). Water → an + accusative
+    (der See → an den See). Mountains → auf + accusative (der Pilatus → auf den Pilatus).
+
+- id: a2-u12-mcq-in-die-schweiz
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [travel-prepositions]
+  prompt: Choose the right preposition.
+  question: Toms Eltern fliegen im Mai ___ Schweiz.
+  options: ["nach der", "zu der", "in die", "in der"]
+  answer: 2
+  rationales:
+    - "nach is for countries without an article (nach Italien). die Schweiz has an article."
+    - "zu is for people and specific places."
+    - "Correct. Countries with an article: in + accusative (Wohin?)."
+    - "in der Schweiz = in Switzerland (Wo? – dative), not where to."
+  explanation: >-
+    die Schweiz, die Türkei, die USA always have an article: Wohin? → in die Schweiz, Wo? → in der Schweiz. Countries
+    without an article take nach: nach Deutschland, nach England.
+
+- id: a2-u12-mcq-wo-in-bern
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [travel-prepositions]
+  prompt: Choose the right preposition.
+  question: Wo seid ihr am Samstag? – Wir sind ___ Bern, ___ Sandras Mutter.
+  options: ["in … bei", "nach … zu", "in … zu", "nach … bei"]
+  answer: 0
+  rationales:
+    - "Correct. Location: in Bern; at someone's place: bei."
+    - "nach and zu are for where to, not where."
+    - "zu is for where to: zu Sandras Mutter fahren."
+    - "nach is for where to."
+  explanation: >-
+    Wo? → in Bern, bei Sandras Mutter. Wohin? → nach Bern, zu Sandras Mutter. Learn the pairs: nach / in, zu / bei,
+    nach Hause / zu Hause.
+
+- id: a2-u12-match-wo-wohin
+  type: match
+  skill: grammar
+  variety: de
+  grammar: [travel-prepositions, two-way-prepositions]
+  prompt: Match "where to?" with "where?".
+  pairs:
+    - ["an den See", "am See"]
+    - ["auf den Berg", "auf dem Berg"]
+    - ["in die Altstadt", "in der Altstadt"]
+    - ["nach Luzern", "in Luzern"]
+    - ["nach Hause", "zu Hause"]
+  explanation: >-
+    Two-way prepositions: Wohin? = accusative (den, die), Wo? = dative (dem, der; an dem → am). Towns and home have
+    their own pairs: nach Luzern / in Luzern, nach Hause / zu Hause.
+
+- id: a2-u12-transform-wohin
+  type: transform
+  skill: grammar
+  variety: ch-std
+  grammar: [travel-prepositions, two-way-prepositions]
+  prompt: "Answer the question Wohin? Change the location into a direction."
+  from: ch-std
+  to: ch-std
+  source: Wir sind am Genfersee.
+  answers: ["Wir fahren an den Genfersee.", "Wir gehen an den Genfersee."]
+  explanation: >-
+    am (an dem) Genfersee = Wo? (dative). Wohin? → an den Genfersee (accusative). Water always takes an.
+
+# ---------- grammar: Perfekt review ----------
+- id: a2-u12-gap-perfekt-trip
+  type: gap
+  skill: grammar
+  variety: ch-std
+  grammar: [review-a2-perfekt, perfekt-sein, perfekt-haben]
+  prompt: "Fill in haben or sein in the right form (habe, haben, bin, sind, ist)."
+  text: Wir ___ früh aufgestanden. Dann ___ wir mit dem Schiff nach Flüelen gefahren. Dort ___ wir ein Picknick gemacht. Mein Vater ___ sogar in der Aare geschwommen.
+  answers: [["sind"], ["sind"], ["haben"], ["ist"]]
+  explanation: >-
+    aufstehen, fahren, schwimmen (movement or change) take sein; ein Picknick machen takes haben. sogar = even.
+
+- id: a2-u12-mcq-participle
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [review-a2-perfekt, participles-regular, participles-separable]
+  prompt: Choose the right participle.
+  question: Wir haben die Kapellbrücke ___.
+  options: ["gebesichtigt", "besichtigen", "besichtigt", "besichtiget"]
+  answer: 2
+  rationales:
+    - "be- verbs take no ge-."
+    - "That's the infinitive; the Perfekt needs the participle."
+    - "Correct. Inseparable be-: no ge-, ending -t."
+    - "The -et ending is only after t or d (gearbeitet)."
+  explanation: >-
+    Verbs with be-, ver-, er- and -ieren take no ge-: besichtigt, besucht, verpasst, fotografiert. Regular ending -t.
+
+- id: a2-u12-transform-perfekt
+  type: transform
+  skill: grammar
+  variety: de
+  grammar: [review-a2-perfekt, perfekt-sein, participles-separable]
+  prompt: "Tell it in the past (Perfekt)."
+  from: de
+  to: de
+  source: Der Zug kommt pünktlich in Bern an.
+  answers: ["Der Zug ist pünktlich in Bern angekommen."]
+  explanation: >-
+    ankommen = movement → sein; separable → an-ge-kommen. ist in position 2, angekommen at the end.
+
+- id: a2-u12-translate-trip
+  type: translate
+  skill: writing
+  variety: de
+  grammar: [review-a2-perfekt, praeteritum-sein-haben, travel-prepositions]
+  prompt: Translate into German.
+  source: Last summer we went to Lucerne. The weather was great.
+  answers:
+    - "Letzten Sommer sind wir nach Luzern gefahren. Das Wetter war super."
+    - "Letzten Sommer sind wir nach Luzern gefahren. Das Wetter war toll."
+    - "Letzten Sommer sind wir nach Luzern gefahren. Das Wetter war sehr schön."
+    - "Wir sind letzten Sommer nach Luzern gefahren. Das Wetter war super."
+    - "Letzten Sommer sind wir nach Luzern gereist. Das Wetter war super."
+  explanation: >-
+    went (by train / car) = sind … gefahren (sein: movement); town → nach Luzern. For sein, use war. letzten Sommer
+    is accusative of time, no preposition.
+
+# ---------- grammar: subordinate clauses review ----------
+- id: a2-u12-gap-conjunctions
+  type: gap
+  skill: grammar
+  variety: ch-std
+  grammar: [review-a2-subordinate, wenn-als, indirect-questions]
+  prompt: "Fill in weil, dass, wenn, als or ob."
+  text: Wir fahren nach Bern, ___ die Altstadt so schön ist. ___ es warm ist, schwimmen wir in der Aare. Ich glaube nicht, ___ mein Vater mitkommt. ___ wir in Luzern waren, hat es geregnet. Weisst du, ___ das Schiff heute fährt?
+  answers: [["weil"], ["Wenn", "wenn"], ["dass"], ["Als", "als"], ["ob"]]
+  explanation: >-
+    weil = reason, wenn = condition, dass = what I think, als = one time in the past, ob = yes/no indirect question.
+    In every clause the verb is last.
+
+- id: a2-u12-mcq-weil-order
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [review-a2-subordinate, review-a2-perfekt]
+  prompt: Which sentence is correct?
+  options:
+    - "Wir kommen später, weil wir haben den Zug verpasst."
+    - "Wir kommen später, weil wir den Zug haben verpasst."
+    - "Wir kommen später, weil haben wir den Zug verpasst."
+    - "Wir kommen später, weil wir den Zug verpasst haben."
+  answer: 3
+  rationales:
+    - "After weil the conjugated verb goes to the end."
+    - "haben must come after the participle, at the very end."
+    - "weil doesn't take verb-second order."
+    - "Correct. Perfekt in a weil-clause: participle, then haben at the end."
+  explanation: >-
+    In a subordinate clause the auxiliary is the very last word: …, weil wir den Zug verpasst haben. verpassen = to
+    miss (be-, ver- verbs: no ge-).
+
+- id: a2-u12-order-dass
+  type: order
+  skill: grammar
+  variety: ch-std
+  grammar: [review-a2-subordinate]
+  prompt: Put the words in order.
+  tokens: ["Ich", "finde", "dass", "man", "Bern", "unbedingt", "besuchen", "muss"]
+  answers: ["Ich finde, dass man Bern unbedingt besuchen muss."]
+  explanation: >-
+    In the dass-clause the modal verb muss goes to the very end, after the infinitive besuchen. unbedingt =
+    absolutely.
+
+- id: a2-u12-transform-weil
+  type: transform
+  skill: grammar
+  variety: ch-std
+  grammar: [review-a2-subordinate, connectors-deshalb-trotzdem]
+  prompt: "Join the sentences with weil."
+  from: ch-std
+  to: ch-std
+  source: Wir kaufen eine Tageskarte. Wir haben kein Halbtax.
+  answers: ["Wir kaufen eine Tageskarte, weil wir kein Halbtax haben.", "Weil wir kein Halbtax haben, kaufen wir eine Tageskarte."]
+  explanation: >-
+    weil + reason, verb at the end: weil wir kein Halbtax haben. With deshalb it would be: Wir haben kein Halbtax,
+    deshalb kaufen wir eine Tageskarte.
+
+- id: a2-u12-gap-wo-dative
+  type: gap
+  skill: grammar
+  variety: ch-std
+  grammar: [travel-prepositions, two-way-prepositions, dative-review]
+  prompt: "Where are they? Fill in am, an der, auf dem or in der."
+  text: Toms Eltern sitzen ___ Pilatus im Restaurant. Am Nachmittag spazieren sie ___ Aare. Das Hotel ist ___ Genfersee. Am Abend essen sie ___ Altstadt.
+  answers: [["auf dem"], ["an der"], ["am"], ["in der"]]
+  explanation: >-
+    Wo? → dative: auf dem Pilatus (m), an der Aare (f), am See (an dem, m), in der Altstadt (f). Compare Wohin?: auf
+    den Pilatus, an die Aare, an den See, in die Altstadt.
+
+- id: a2-u12-mcq-als-wenn-review
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [review-a2-subordinate, wenn-als]
+  prompt: Choose the right word.
+  question: ___ ich letztes Jahr in Lausanne war, habe ich nur Französisch gehört.
+  options: ["Wenn", "Wann", "Ob", "Als"]
+  answer: 3
+  rationales:
+    - "wenn is for repeated events or the present; this was one trip."
+    - "wann asks a question."
+    - "ob means whether."
+    - "Correct. One time in the past (letztes Jahr): als."
+  explanation: >-
+    als for one event in the past, with the verb (war) at the end of the clause; then the main clause starts with
+    habe. Review of unit 9.
+
+# ---------- grammar: planning together ----------
+- id: a2-u12-mcq-wie-waere
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [planning-together, dative-articles]
+  prompt: Choose the right form.
+  question: Wie wäre es mit ___ Schifffahrt auf dem Vierwaldstättersee?
+  options: ["eine", "einer", "einen", "ein"]
+  answer: 1
+  rationales:
+    - "eine is nominative or accusative; mit needs the dative."
+    - "Correct. mit + dative, feminine: einer Schifffahrt."
+    - "einen is masculine accusative."
+    - "ein is nominative masculine or neuter."
+  explanation: >-
+    Wie wäre es mit …? = How about …? mit always takes the dative: mit einer Schifffahrt (f), mit einem Ausflug (m),
+    mit einem Picknick (n).
+
+- id: a2-u12-match-planning
+  type: match
+  skill: speaking
+  variety: de
+  grammar: [planning-together]
+  prompt: Match the planning phrases with their function.
+  pairs:
+    - ["Wollen wir nach Luzern fahren?", "make a suggestion"]
+    - ["Einverstanden!", "agree"]
+    - ["Da kann ich leider nicht.", "say no politely"]
+    - ["Wann passt es dir?", "ask about the time"]
+    - ["Treffen wir uns um neun am Bahnhof.", "fix the details"]
+  explanation: >-
+    These four moves – suggest, agree or say no, ask about time, fix the details – are exactly what part 3 of the
+    A2 speaking exam asks for.
+
+- id: a2-u12-order-planning
+  type: order
+  skill: grammar
+  variety: de
+  grammar: [planning-together]
+  prompt: Put the words in order to make a suggestion.
+  tokens: ["Wollen", "wir", "am", "Samstag", "nach", "Bern", "fahren"]
+  answers: ["Wollen wir am Samstag nach Bern fahren?"]
+  explanation: >-
+    Wollen wir …? = Shall we …? Verb first (a yes/no question), time before place, infinitive at the end.
+
+- id: a2-u12-translate-meet
+  type: translate
+  skill: writing
+  variety: de
+  grammar: [planning-together]
+  prompt: Translate into German.
+  source: Shall we meet at nine at the station?
+  answers:
+    - "Treffen wir uns um neun am Bahnhof?"
+    - "Treffen wir uns um neun Uhr am Bahnhof?"
+    - "Wollen wir uns um neun am Bahnhof treffen?"
+    - "Wollen wir uns um neun Uhr am Bahnhof treffen?"
+    - "Sollen wir uns um neun am Bahnhof treffen?"
+  explanation: >-
+    sich treffen is reflexive (unit 7): Treffen wir uns …? or Wollen wir uns … treffen? Time (um neun) before place
+    (am Bahnhof).
+
+# ---------- reading ----------
+- id: a2-u12-mcq-reading-languages
+  type: mcq
+  skill: reading
+  variety: ch-std
+  prompt: Read the travel article. How many national languages does Switzerland have?
+  options: ["Two", "Three", "Four", "26"]
+  answer: 2
+  explanation: >-
+    "Sie hat 26 Kantone und vier Landessprachen – Deutsch, Französisch, Italienisch und Rätoromanisch." 26 is the
+    number of cantons.
+
+- id: a2-u12-mcq-reading-tipp
+  type: mcq
+  skill: reading
+  variety: ch-std
+  grammar: [review-a2-subordinate]
+  prompt: Read the article again. Why should you book a seat in summer?
+  options: ["Because the trains are often full", "Because the Halbtax is cheaper then", "Because you have to change trains in Fribourg", "Because the boats don't run"]
+  answer: 0
+  explanation: >-
+    "Reservieren Sie im Sommer einen Sitzplatz, weil die Züge oft voll sind." The reason follows weil, with the verb
+    sind at the end.
+
+- id: a2-u12-translate-reading
+  type: translate
+  skill: reading
+  variety: ch-std
+  prompt: Translate into English.
+  source: In Lausanne spricht man Französisch, und statt Rösti gibt es Fondue und Raclette.
+  answers:
+    - "In Lausanne people speak French, and instead of rösti there is fondue and raclette."
+    - "In Lausanne they speak French, and instead of rösti there's fondue and raclette."
+    - "In Lausanne people speak French, and instead of rösti you get fondue and raclette."
+  explanation: >-
+    man spricht = people speak / they speak. statt = instead of. es gibt = there is / there are.
+
+# ---------- listening ----------
+- id: a2-u12-mcq-listening-plan
+  type: mcq
+  skill: listening
+  variety: ch-std
+  grammar: [travel-prepositions]
+  prompt: Listen to the intro dialogue again. What does Nadine suggest for the three days?
+  options: ["Zurich, Basel, Geneva", "Lucerne, Bern, Lausanne", "Bern, Ticino, Zermatt", "Lucerne, Zermatt, Bern"]
+  answer: 1
+  explanation: >-
+    Day 1: "Wie wäre es mit Luzern?", day 2: "Dann fahrt ihr nach Bern", day 3: "Fahrt doch an den Genfersee, nach
+    Lausanne."
+
+- id: a2-u12-mcq-listening-treffen
+  type: mcq
+  skill: listening
+  variety: ch-std
+  grammar: [planning-together]
+  prompt: Listen to Nadine. When and where do they meet?
+  transcript: |-
+    Nadine: Gern. Am Dienstag habe ich Zeit. Treffen wir uns um zwölf hier in der Kantine?
+  options: ["On Thursday at twelve in the canteen", "On Tuesday at twelve at the station", "On Tuesday at twelve in the canteen", "On Tuesday at two in the canteen"]
+  answer: 2
+  explanation: >-
+    Am Dienstag (Tuesday), um zwölf (12), hier in der Kantine (in + dative: Wo?). Today is Thursday.
+
+- id: a2-u12-dictation-schiff
+  type: dictation
+  skill: listening
+  variety: ch-std
+  grammar: [review-a2-perfekt, travel-prepositions]
+  prompt: Listen and write what you hear.
+  transcript: Letztes Jahr bin ich mit dem Schiff von Luzern nach Flüelen gefahren.
+  explanation: >-
+    fahren → bin … gefahren (movement). mit dem Schiff (dative), von Luzern nach Flüelen (from … to, towns).
+
+- id: a2-u12-dictation-wenn
+  type: dictation
+  skill: listening
+  variety: ch-std
+  grammar: [review-a2-subordinate, wenn-condition]
+  prompt: Listen and write what you hear.
+  transcript: Wenn es warm ist, schwimmen wir in der Aare.
+  explanation: >-
+    wenn-clause (verb ist at the end), then the main clause starts with the verb: schwimmen wir. in der Aare = Wo? →
+    dative.
+
+# ---------- speaking ----------
+- id: a2-u12-speak-frame
+  type: speak
+  skill: speaking
+  variety: ch-std
+  grammar: [planning-together, travel-prepositions]
+  prompt: "Read aloud, then plan your own day trip."
+  target: Wollen wir am Samstag nach Luzern fahren? Wir können eine Schifffahrt machen und am Abend in der Altstadt essen.
+  explanation: >-
+    Frame: Wollen wir am … nach … fahren? Wir können … und … Change the day, the place and the activities.
+
+- id: a2-u12-speak-shadow-tom
+  type: speak
+  skill: speaking
+  variety: de
+  grammar: [planning-together]
+  prompt: "Shadowing: speak along with Tom's line from the intro dialogue, then say it alone."
+  target: Super, danke! Wollen wir nächste Woche zusammen den Fahrplan anschauen?
+  explanation: >-
+    A friendly suggestion: the voice rises at the end (… ANschauen? ↗). anschauen is stressed on AN-, the separable
+    prefix (see the drill Word stress in compounds and verbs).
+
+- id: a2-u12-speak-shadow-nadine
+  type: speak
+  skill: speaking
+  variety: ch-std
+  grammar: [review-a2-perfekt, travel-prepositions]
+  prompt: "Shadowing: speak along with Nadine, then say it alone."
+  target: Wie wäre es mit Luzern? Ich bin letztes Jahr mit dem Schiff von Luzern nach Flüelen gefahren.
+  explanation: >-
+    Swiss Standard German: the stress in Luzern is on the second syllable (LuZERN), the r is tapped, and the ch in
+    nach is the back ach-sound. See the drill The Swiss Standard German accent.
+
+- id: a2-u12-speak-intonation
+  type: speak
+  skill: speaking
+  variety: de
+  grammar: [planning-together]
+  prompt: "Intonation: agreeing warmly, then fixing a time. Stress the key words."
+  target: Gute Idee! Treffen wir uns um neun am Bahnhof.
+  explanation: >-
+    GUte iDEE! (enthusiastic, falling) – then a calm statement with stress on the facts: um NEUN am BAHNhof ↘. As a
+    statement it falls; as a question (Treffen wir uns um neun?) it would rise.
+
+- id: a2-u12-speak-pron-stress
+  type: speak
+  skill: speaking
+  variety: ch-std
+  prompt: "Pronunciation: word stress in compounds. Read aloud slowly."
+  target: Vierwaldstättersee, Tageskarte, Altstadt, Generalabonnement, Ausflugsziel.
+  explanation: >-
+    Compounds are stressed on the first part: VIERwaldstättersee, TAgeskarte, ALTstadt, AUSflugsziel. Loanwords keep
+    their own stress: GeneralabonneMENT. See the drill Word stress in compounds and verbs.
+
+# ---------- roleplay and writing ----------
+- id: a2-u12-roleplay-lena
+  type: roleplay
+  skill: speaking
+  variety: de
+  grammar: [planning-together, travel-prepositions, review-a2-subordinate]
+  tutor: lena
+  prompt: "Roleplay with Lena: plan a day trip together."
+  scenario: >-
+    Lena is visiting you in Zurich for a weekend. Plan a day trip together: suggest a destination, react to her
+    ideas (agree or say no politely with a reason), and fix the time, the meeting point and who buys the tickets.
+  goals:
+    - Make at least two suggestions (Wollen wir …? Wie wäre es mit …?).
+    - Agree and disagree politely, once with weil.
+    - Fix the time and the meeting point (Treffen wir uns um … am …).
+    - Say who does what (Ich kaufe die Billette, du bringst …).
+  model: |
+    Lena: Was machen wir am Samstag?
+    Du: Wollen wir nach Luzern fahren? Wir können eine Schifffahrt machen.
+    Lena: Hm, ich bin nicht so gern auf dem Schiff. Wie wäre es mit Bern?
+    Du: Gute Idee! Ich war noch nie in der Berner Altstadt. Wenn es warm ist, können wir an die Aare gehen.
+    Lena: Super. Wann fahren wir?
+    Du: Am Samstag kann ich nicht früh, weil ich am Freitag lange arbeite. Treffen wir uns um zehn am Hauptbahnhof?
+    Lena: Einverstanden! Und die Billette?
+    Du: Ich kaufe zwei Tageskarten online. Bringst du das Picknick mit?
+    Lena: Klar!
+  explanation: >-
+    The four planning moves: suggest (Wollen wir …?), react (Gute Idee! / … kann ich nicht, weil …), fix the time and
+    place (Treffen wir uns um … am …?), share the jobs (Ich kaufe …, Bringst du …?).
+
+- id: a2-u12-write-trip
+  type: write
+  skill: writing
+  variety: ch-std
+  grammar: [review-a2-perfekt, travel-prepositions, review-a2-subordinate]
+  prompt: Write about a trip in Switzerland.
+  task: >-
+    Write an email (8–10 sentences) to a friend about a trip you made in Switzerland. Where did you go and how? What
+    did you see, eat and do? What did you like, and why (weil)? Suggest a trip you could make together (Wollen wir
+    …?).
+  minWords: 70
+  model: >-
+    Liebe Mia,
+
+
+    letztes Wochenende bin ich mit Tom und Anna nach Bern gefahren. Wir haben Sandras Mutter besucht. Sie hat uns
+    Kaffee und Zopf gemacht. Am Nachmittag sind wir durch die Altstadt gelaufen und haben die vielen Brunnen gesehen.
+    Danach sind wir an die Aare gegangen, aber das Wasser war zu kalt zum Schwimmen. Am Abend haben wir Rösti
+    gegessen. Bern hat mir sehr gut gefallen, weil die Stadt klein und gemütlich ist. Wenn du im Sommer kommst, wollen
+    wir zusammen nach Luzern fahren? Ich bin sicher, dass dir die Schifffahrt gefällt.
+
+
+    Liebe Grüsse
+
+    Priya
+  checklist:
+    - I use the Perfekt with sein for movement (bin gefahren, sind gelaufen) and with haben for the rest.
+    - I use war / hatte for sein and haben.
+    - I use the right preposition for where to (nach Bern, in die Altstadt, an die Aare).
+    - I give a reason with weil and put the verb at the end.
+    - I make a suggestion (Wollen wir …?) and open and close the email.
+  explanation: >-
+    A trip story combines the A2 tools: Perfekt (haben / sein), war / hatte, nach / in / an + place, the dative after
+    mit and an (Wo?), weil / wenn / dass with the verb last, and a planning question to finish.
+
+# ---------- Swiss Standard German ----------
+- id: a2-u12-chstd-match
+  type: match
+  skill: vocabulary
+  variety: ch-std
+  prompt: Match the Swiss travel words with their meaning.
+  pairs:
+    - ["das Halbtax", "half-price travel card"]
+    - ["das GA", "travel pass for the whole network"]
+    - ["das Billett", "ticket"]
+    - ["der Röstigraben", "language border between German and French Switzerland"]
+  explanation: >-
+    das Halbtax (half fare for a year), das GA (Generalabonnement – unlimited travel), das Billett (Duden:
+    schweizerisch for Fahrkarte), der Röstigraben (Duden: schweizerisch, scherzhaft).
+
+# ---------- Swiss lane (gsw-zh) ----------
+- id: a2-u12-ch-mcq-gleis
+  type: mcq
+  skill: listening
+  variety: gsw-zh
+  prompt: Listen to Reto. When and from where does the train leave?
+  transcript: |-
+    Reto: Hoi zäme! Händ ihr s Billett? Mir fahred am nüüni ab Gleis sächzäh.
+  options: ["At nine from platform six", "At nine from platform sixteen", "At ten from platform sixteen", "At nineteen hundred from platform six"]
+  answer: 1
+  rationales:
+    - "sächs would be six; sächzäh is sixteen."
+    - "Correct. am nüüni = um neun, sächzäh = sechzehn."
+    - "zäni would be ten."
+    - "nüüni is nine o'clock, not 19.00."
+  explanation: >-
+    am nüüni = um neun (Zurich: am + hour with -i), Gleis sächzäh = Gleis sechzehn, Mir fahred = Wir fahren.
+
+- id: a2-u12-ch-match-greetings
+  type: match
+  skill: vocabulary
+  variety: gsw-zh
+  prompt: Match the greetings with where and how they are used.
+  pairs:
+    - ["Grüezi", "polite hello in Zurich"]
+    - ["Grüessech", "polite hello in Bern"]
+    - ["Griezi", "hello as many people say it in Basel"]
+    - ["Tschou", "bye in Bern (to people you know)"]
+    - ["Hoi", "hi to friends, almost everywhere"]
+  explanation: >-
+    Grüezi and Grüessech both come from (Gott) grüsse … (berndeutsch.ch: grüessech = Grüss Euch). Basel German
+    unrounds ü to i: Griezi, grien (Wikipedia, Baseldeutsch).
+
+- id: a2-u12-ch-mcq-basel
+  type: mcq
+  skill: listening
+  variety: gsw-zh
+  prompt: Listen to Sandra. What does she say about Basel?
+  transcript: |-
+    Sandra: Det säged vill Lüüt Griezi – mit i. Und d Basler säged Kind, nöd Chind.
+  options: ["People in Basel say Grüessech.", "People in Basel don't greet strangers.", "In Basel, people say Chind like in Zurich.", "Many say Griezi, and Basel people say Kind instead of Chind."]
+  answer: 3
+  rationales:
+    - "Grüessech is Bernese."
+    - "Nothing like that is said."
+    - "The other way round: Kind, nöd Chind."
+    - "Correct. det = dort, vill Lüüt = viele Leute, säged = sagen."
+  explanation: >-
+    det = dort, vill Lüüt = viele Leute, säged = sagen, nöd = nicht. Basel German keeps the k at the start of Kind,
+    where Zurich has ch (Chind).
+
+- id: a2-u12-ch-transform-erscht-mal
+  type: transform
+  skill: reading
+  variety: gsw-zh
+  grammar: [wenn-als, review-a2-perfekt]
+  prompt: What does Reto say? Write it in Standard German.
+  from: gsw-zh
+  to: de
+  source: Wo n ich s erscht Mal z Bärn gsii bin, han ich fascht nüt verstande.
+  answers:
+    - "Als ich das erste Mal in Bern war, habe ich fast nichts verstanden."
+    - "Als ich zum ersten Mal in Bern war, habe ich fast nichts verstanden."
+    - "Als ich das erste Mal in Bern gewesen bin, habe ich fast nichts verstanden."
+  explanation: >-
+    wo n ich = als ich (one time in the past; unit 9: wo or wänn), s erscht Mal = das erste Mal, z Bärn = in Bern,
+    gsii bin = war, fascht nüt = fast nichts, verstande = verstanden.
+
+- id: a2-u12-ch-mcq-zurich-word
+  type: mcq
+  skill: vocabulary
+  variety: gsw-zh
+  prompt: Which of these is the Zurich German way of saying "Kind" (child)?
+  options: ["Chind", "Kind", "Ching", "Kint"]
+  answer: 0
+  rationales:
+    - "Correct. Zurich turns k at the start of a word into ch: Chind, Chuchi, Chäs."
+    - "That's Standard German – and Basel German."
+    - "Ching is heard in Bern (lexicon: Chind / Ching)."
+    - "Not a Swiss form."
+  explanation: >-
+    Most Swiss dialects say Chind (also Chuchi = Küche, Chäs = Käse); Basel keeps Kind; Bernese also has Ching (nd →
+    ng).
+
+- id: a2-u12-ch-gap-gsii
+  type: gap
+  skill: grammar
+  variety: gsw-zh
+  grammar: [review-a2-perfekt, praeteritum-sein-haben]
+  prompt: "Guided production: write the Zurich participles of sein (gewesen) and fahren (gefahren)."
+  text: Mir sind geschter z Bärn ___. Mir sind mit em Zug ___.
+  answers:
+    - ["gsii", "gsi", "gsy"]
+    - ["gfahre", "gfaare"]
+  explanation: >-
+    gewesen → gsii (A2.1), gefahren → gfahre (A2.2). Both take sind: movement and sein. Swiss German has no war, so
+    gsii is the only way to say "was".
+
+- id: a2-u12-ch-transform-de-gsw
+  type: transform
+  skill: vocabulary
+  variety: gsw-zh
+  grammar: [travel-prepositions]
+  prompt: "Recognition: how do you say this in Zurich German? (Common spellings are accepted.)"
+  from: de
+  to: gsw-zh
+  source: Wir fahren nach Bern.
+  answers:
+    - "Mir fahred uf Bärn."
+    - "Mir fahred nach Bärn."
+    - "Mir fahred uf Bern."
+    - "Mir fahred nach Bern."
+  explanation: >-
+    wir → mir, fahren → fahred (plural -ed), Bern → Bärn. For a town Zurich German often uses uf (uf Bärn, uf
+    Luzern); nach is heard too.
+
+- id: a2-u12-roleplay-reto
+  type: roleplay
+  skill: listening
+  variety: gsw-zh
+  grammar: [planning-together, review-a2-perfekt]
+  tutor: reto
+  prompt: "Listening roleplay with Reto: planning a trip to Bern."
+  scenario: >-
+    Reto suggests a day trip to Bern in Zurich German. He tells you when the train leaves, who you will meet and how
+    people greet in Bern. You answer in Standard German, agree, and ask about the details.
+  goals:
+    - Understand the time and the platform (am nüüni, Gleis sächzäh).
+    - Understand Reto's tips about Bern (Grüessech, Tschou, d Aare).
+    - Agree, and ask one question about the plan (Wann …? Wo treffen wir uns?).
+  model: |
+    Reto: Hoi! Wämmer am Samschtig uf Bärn fahre? Zu de Mueter vo de Sandra.
+    Du: Gern! Wann fährt der Zug?
+    Reto: Am nüüni ab Gleis sächzäh. Mir träffed eus am Viertel vor nüüni bim Gleis.
+    Du: Gut. Was muss ich in Bern sagen?
+    Reto: Säg eifach Grüessech – und am Schluss Tschou.
+    Du: Grüessech! Und was machen wir dort?
+    Reto: Mir gönd i d Altstadt und dänn a d Aare.
+  explanation: >-
+    Decoding: Wämmer … fahre? = Wollen wir … fahren?, mir träffed eus = wir treffen uns, am Viertel vor nüüni = um
+    Viertel vor neun, säg eifach = sag einfach, am Schluss = am Ende.
+
+# ---------- Bernese (gsw-be, recognition) ----------
+- id: a2-u12-ch-be-mcq-aacho
+  type: mcq
+  skill: listening
+  variety: gsw-be
+  prompt: Listen to Sandra's mother. What does she ask her guests?
+  transcript: |-
+    Mami: Grüessech mitenand! Syt dir guet aacho?
+  options: ["Whether they would like coffee", "Whether they arrived safely", "Where they come from", "Whether they took the train"]
+  answer: 1
+  explanation: >-
+    Grüessech mitenand = Guten Tag zusammen, Syt dir … aacho? = Seid ihr … angekommen? (berndeutsch.ch: dir syt;
+    aacho = ankommen).
+
+- id: a2-u12-ch-be-transform
+  type: transform
+  skill: reading
+  variety: gsw-be
+  grammar: [travel-prepositions]
+  prompt: What does Sandra's mother say? Write it in Standard German.
+  from: gsw-be
+  to: de
+  source: Nachär göh mir zäme a d Aare.
+  answers: ["Nachher gehen wir zusammen an die Aare.", "Danach gehen wir zusammen an die Aare.", "Später gehen wir zusammen an die Aare."]
+  explanation: >-
+    nachär = nachher, göh mir = gehen wir (Zurich gömmer), zäme = zusammen, a d Aare = an die Aare (river → an +
+    accusative for where to).
+
+- id: a2-u12-ch-be-match
+  type: match
+  skill: vocabulary
+  variety: gsw-be
+  prompt: Match the Bernese words with Standard German.
+  pairs:
+    - ["Grüessech", "Guten Tag (polite)"]
+    - ["dir syt", "ihr seid"]
+    - ["aacho", "angekommen"]
+    - ["u", "und"]
+  explanation: >-
+    From berndeutsch.ch: grüessech (Grüss Euch), sy (i bi, … dir syt), aacho (to arrive, PP aacho). u = und is the
+    Bernese short form (A1).

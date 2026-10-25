@@ -70,6 +70,16 @@ describe('license tokens', () => {
     expect((await verifyToken(rotated, { ...KEYS, k2027: other.pub }, NOW)).ok).toBe(true);
   });
 
+  it('key ids are looked up as own properties only (no Object.prototype)', async () => {
+    for (const kid of ['constructor', 'toString', 'hasOwnProperty', '__proto__']) {
+      const t = await signToken(payloadFor('level-a2', { kid, pid: PID, now: NOW }), await key());
+      expect(await verifyToken(t, KEYS, NOW)).toEqual({ ok: false, reason: 'unknown-key' });
+    }
+    // Key ids outside the VITE_LICENSE_PUBLIC_KEYS format are malformed.
+    const bad = toBase64Url(new TextEncoder().encode(JSON.stringify({ v: 1, kid: 'a b', pid: PID, sku: 'level-a2', lv: ['A2'], iat: 1 })));
+    expect(decodeToken(`DP1.${bad}.${'A'.repeat(86)}`)).toBeUndefined();
+  });
+
   it('rejects malformed tokens', async () => {
     for (const t of ['', 'DP1', 'DP1.a.b', 'XX1.e30.' + 'A'.repeat(86), 'DP1.!!.??', 'x'.repeat(5000)]) {
       expect(await verifyToken(t, KEYS, NOW)).toEqual({ ok: false, reason: 'malformed' });

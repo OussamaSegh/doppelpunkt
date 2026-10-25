@@ -35,6 +35,16 @@ Legend: ✅ confirmed, no change · ✏️ corrected in content · ❓ no source
 | ALS-ZH | Alemannic Wikipedia, *Zürichdeutsch* (written in Zurich German): https://als.wikipedia.org/wiki/Zürichdeutsch – participles *gsii, choo, ttroffe, gredt*, *go* + infinitive (*es Wiili go trinke*), dative *em, ere, bim*, diminutives (*Margriitli*) |
 | DUDEN-K | Duden online, conjugation of *sitzen*: https://www.duden.de/konjugation/sitzen – "Das Hilfsverb *sein* wird nur im Süddeutschen, Österreichischen und Schweizerischen verwendet." |
 | DUDEN-W3 | Duden online entries *streng* (https://www.duden.de/rechtschreibung/streng: sense 6 'anstrengend', besonders süddeutsch, schweizerisch), *Detailhandel* (https://www.duden.de/rechtschreibung/Detailhandel: schweizerisch = Einzelhandel), *retour* (https://www.duden.de/rechtschreibung/retour: landschaftlich, österreichisch, schweizerisch), *glätten* (https://www.duden.de/rechtschreibung/glaetten: 'bügeln', schweizerisch mundartnah), *grillieren* (https://www.duden.de/rechtschreibung/grillieren: schweizerisch) |
+| WIKT | Wiktionary (de), *zügeln*: https://de.wiktionary.org/wiki/z%C3%BCgeln – senses 3–4 'umziehen / transportieren', Schweiz; from the alpine farming of Bern and Fribourg; *ist / hat gezügelt* |
+| ZT-ZD | Zürich Tourismus, *Zürichdeutsch für Anfänger:innen* (CC-BY glossary): https://www.zuerich.com/de/besuchen/praktische-informationen/zuerichdeutsch – *Hüchlerbäse* (Blumenstrauss), *es bitzeli*, *Pfnüsel* (Schnupfen), *lässig* |
+| EDK | EDK, *Compulsory education*: https://edk.ch/en/education-system-ch/compulsory – 11 compulsory years from age 4, 2 years kindergarten / first cycle within primary (8 years), lower secondary 3 years (Ticino 4) |
+| DUDEN-W4 | Duden online entries *Matur* (schweizerisch, f.), *Apéro* (besonders schweizerisch, meist m.), *merci* (besonders schweizerisch), *Occasion* (österreichisch, schweizerisch), *Primarschule* (schweizerisch), *Velo* (schweizerisch), *tönen* (sense 2b → klingen, schweizerisch), *Aktion* (sense 3 Sonderangebot, **no** Swiss label), *Ausverkauf*, *günstig* (no regional label), *Fitnesscenter* (no label) – all under https://www.duden.de/rechtschreibung/<Wort> |
+| DUDEN-W5 | Duden online entries *rezyklieren* (https://www.duden.de/rechtschreibung/rezyklieren: schweizerisch), *Räbe* (https://www.duden.de/rechtschreibung/Raebe: schweizerisch, die, Plural Räben), *Guggenmusik* (https://www.duden.de/rechtschreibung/Guggenmusik: süddeutsch, schweizerisch), *Kehricht* (https://www.duden.de/rechtschreibung/Kehricht: schweizerisch = Müll), *Röstigraben* (https://www.duden.de/rechtschreibung/Roestigraben: schweizerisch, scherzhaft), *Natel* (https://www.duden.de/rechtschreibung/Natel: schweizerisch, neben Handy), *E-Mail* (https://www.duden.de/rechtschreibung/E_Mail: das E-Mail besonders süddeutsch, österreichisch, schweizerisch), *anläuten* (https://www.duden.de/rechtschreibung/anlaeuten: Swiss use marked veraltend, so not taught) |
+| WP-ZIB | Wikipedia, *Zibelemärit* (fourth Monday of November, confetti): https://en.wikipedia.org/wiki/Zibelem%C3%A4rit |
+| WP-RAEB | Wikipedia, *Räbeliechtli* (November processions, street lights switched off, Richterswil): https://en.wikipedia.org/wiki/R%C3%A4beliechtli |
+| LUZ | Luzern Tourismus, *Küssnachter Klausjagen* (5 December, 20:15, Iffelen, Trychler): https://luzern.com/en/event/kuessnachter-klausjagen |
+| SRF-MUND | SRF, *WhatsApp, SMS: Wieso Junge lieber Mundart texten* (University of Bern study: 20–40-year-olds about 80 % of messages in dialect, over-65s about 38 %): https://www.srf.ch/kultur/gesellschaft-religion/whatsapp-sms-wieso-junge-lieber-mundart-texten |
+| WP-BS | Wikipedia, *Baseldeutsch* (de) (*Griezi*, unrounding *grien, scheen*, initial *k* in *Kind*): https://de.wikipedia.org/wiki/Baseldeutsch |
 | AI | No fetchable source found; the form follows teaching practice and Dieth conventions. **Needs a native.** |
 
 The Schweizerisches Idiotikon (idiotikon.ch), Wiktionary and quizlet/ch-de.ch pages could not be
@@ -390,6 +400,122 @@ Zurich participles *gspilt, gluegt, gjasst, gwanderet, grägnet, gschwumme*, the
 *Fiirabig*, *Käfeli*; Bernese *hei cho*, *hani*, *o mau*, *z tüe*. The Nederveen paper on the Swiss double
 perfect (University of Toronto) returned a browser check page; Duden's *Stift* (Lehrling) page failed.
 
+## Pass 7 (2026-10-25): A2 units 4–8 (v1.0)
+
+New content: `content/a2/unit-04` to `unit-08` (dative verbs and object order; two-way prepositions and
+stellen / stehen; comparative and superlative; reflexive verbs; *weil / dass / denn*), 34 new lexicon
+entries. Each unit's `review.notes` repeats its open questions line by line.
+
+### A2 units 4–8, Zurich German (gsw-zh)
+
+| Form | Verdict | Source | Notes |
+| --- | --- | --- | --- |
+| `gfalle` (*Das gfallt mer*), `ghöre` (gehören, also hören), `Wem ghört das?` | ✅ / ❓ | lexicon (*gfalle*), ALS-ZH (*ghööred, ghöört* = gehören) | *Wem* in Zurich unverified. |
+| Unstressed dative pronouns `mer, der, em, ere, ene` (stressed `mir, dir, im, ire, ine`) | ✅ / ❓ | WP-SG (*Es tuet mer leid*) | Only *mer* attested; table to tick. |
+| `schmöcke` = riechen (false friend), `fein` for tasty | ✅ | BD #15339 (Bern: *schmöcke* = riechen), lexicon | Zurich meaning assumed equal. |
+| `Hüchlerbäse` (joking: bouquet) | ✅ | ZT-ZD | Still in use? |
+| `-li` diminutives (*Tischli, Hüsli, Chätzli, Müsli, Bitzeli, Käfeli, Stüeli*), all neuter, umlaut | ✅ / ❓ | BD #17401, #17220, #56932, #34216; ZT-ZD (*es bitzeli*); ALS-ZH (*Margriitli, Wiili*) | *Müsli* (mouse) vs *Müesli* (cereal) vowel to tick. |
+| Direction words `ufe, abe, ine, use, ane` | ✅ / ❓ | lexicon (*ufe, abe, wo ane*), BD #12202 (*abe*), ALS-ZH (*ufezie*) | *ine, use* not sourced for Zurich. |
+| Case in the article: `i d Stube` (acc.) / `i de Stube` (dat.), `uf de` / `uf em` | ❓ | AI | Masculine accusative *de* vs dative *em* needs a tick. |
+| `zügle`, `d Züglete` | ✅ | WIKT, BD #12911, #46343 | Zurich use of *Züglete* vs *s Zügle*. |
+| Comparatives `gröösser, tüürer, schöner`, superlative `am billigschte, am beschte` | ✅ / ❓ | curriculum, lexicon (*am liebschte*) | *am gröschte* unverified. |
+| `als / wie / weder` after a comparative | ✅ / ❓ | ALS-ZH (*andersch weder im Nöihoochtüütsch*) | How common is *weder* today? |
+| `tüür, günschtig, gäbig, i de Aktion, Occasion` | ✅ / ❓ | lexicon (*tüür, gäbig*), BD #10839 (*gäbig*), DUDEN-W4 (*Occasion*) | *Aktion* has no Swiss label in Duden (sense 3) – taught as everyday Swiss shop usage. |
+| `go` + infinitive: *Ich gang go jogge, Mir gönd go poschte, Gömmer go schwümme?, Ich bi go jogge* | ✅ / ❓ | WP-SG (*Ich gang jetzt go ässe*, *Er chunnt jetzt cho ässe*), ALS-ZH (*es Wiili go trinke*), lexicon | Past without *gange* as in A2.1; *Chunnsch mit?* + go to tick. |
+| `sich fröie` (*ich fröi mich*), `di / mi` unstressed | ✅ / ❓ | BD #12017 (Bern), WP-SG (*Laa mi la ässe*) | |
+| `tönt guet` | ✅ | DUDEN-W4 (*tönen* = klingen, schweizerisch) | |
+| `Pfnüsel` | ✅ | ZT-ZD | |
+| `wil` (weil), `dass` + verb at the end | ✅ | ALS-ZH (*wil sich … duregsetzt hät*), WP-SG (*Ich weiss dass sie gaat go ässe*) | |
+| School words `Chindsgi, Primar, Sek, Gymi, Kanti, Gymiprüefig, Matur` | ✅ / ❓ | DUDEN-W4 (*Matur, Primarschule*), EDK (structure) | *Chindsgi, Gymiprüefig* spelling; Langgymnasium after 6th class from general knowledge. |
+| Swiss-lane dialogues and Reto roleplays of A2.4–A2.8 | ❓ | – | Natural flow can only be judged by a native. |
+
+### A2 units 4–8, Bernese (gsw-be)
+
+| Form | Verdict | Source | Notes |
+| --- | --- | --- | --- |
+| `gfalle / gfaue` (PP. *gfalle*) | ✅ | BD #57251 | |
+| `ds Gschänk`, `schänke` (PP. *gschänkt*), `d Blueme` (Dim. *Blüemli*) | ✅ | BD #55070, #54395, #57215 | |
+| `zügle` (PP. *züglet*), `d Züglete` | ✅ | BD #12911, #46343 | |
+| `Möbu`, `Hüsli`, `Chätzli`, `Stuel / Stüeli`, `abe` | ✅ | BD #34216, #17401, #17220, #56932, #12202 | |
+| `chöschtlech` (teuer), `gäbig` | ✅ | BD #31049, #10839 | |
+| `aus` = als | ❓ | – | By analogy with l → u; not found on BD. |
+| `müed`, `fröie, sech`, `jogge / tschogge` (*mir sy tschogget*) | ✅ | BD #54376, #12017, #56700 | |
+| `wüu` (weil), `Schuel`, `Schüeler`, `lehre` (= lernen), `d Prüefig bestande` | ✅ | BD #30410, #11187, #56809, #17994, #50052 | |
+| `dr Gymer` (Gymnasium) | ❓ | – | Searched on BD, not found (only *Proger* = Progymnasium). |
+| `härzig`, `itz`, `het`, `fescht` (sehr), `re` (ihr), `uf Thun` | ✅ / ❓ | lexicon, BD #17325 (*itz*) | *fescht, re, uf Thun* unverified. |
+| Dialogue lines: A2.4 *Und, het em Reto ds Gschänk gfaue? / Ja, mega! Är het sech fescht gfröit. / Das fröit mi! Säg ihm e liebe Gruess.*; A2.5 *Sandra, i ghöre, du hesch es Chätzli? / … Und d Mia züglet im Mai uf Thun. / I weiss. Mir hälfe re bi dr Züglete.*; A2.6 *Isch das Velo nid chöschtlech gsy? / Nei, es isch i dr Aktion gsy – viu billiger aus ds blaue. / Super, de het er ja Glück gha!*; A2.7 *Sandra, bisch müed? / E chli. I bi am Morge go jogge. / Bravo! I fröie mi, dass es dir guet geit.*; A2.8 *Weisch was? Dr Jonas het d Prüefig bestande! / Super! Geit er itz i Gymer? / Nei, är macht e Lehr, wüu är lieber mit de Händ schaffet.* | ❓ | – | Words mostly sourced; sentence flow needs a Bernese speaker. |
+
+### A2 units 4–8, Swiss Standard German (ch-std)
+
+| Form | Verdict | Source | Notes |
+| --- | --- | --- | --- |
+| `der Apéro`, `merci` | ✅ | DUDEN-W4 | |
+| `zügeln`, `der Zügelwagen` | ✅ / ❓ | WIKT | *Zügelwagen* from general knowledge. |
+| `der Gang` (Flur), `das Gestell` (Regal), `der Fauteuil` (Sessel), `der Karton` (box) | ❓ | AI | Please tick as Helvetisms. |
+| `die Occasion`, `in Aktion`, `der Ausverkauf`, `Fr. 89.–` | ✅ / ❓ | DUDEN-W4 (*Occasion*) | *Aktion* and *Ausverkauf* carry no Swiss label in Duden. |
+| `tönen` = klingen, `das Fitness` (gym), `die Früchte` (Obst) | ✅ / ❓ | DUDEN-W4 (*tönen*) | *das Fitness* and *Früchte* for *Obst* need a tick. |
+| `die Matur`, `die Primarschule`, `die Sek`, `die Kantonsschule`, `repetieren` | ✅ / ❓ | DUDEN-W4 (*Matur, Primarschule*), EDK | *repetieren* = wiederholen as Swiss usage to tick. |
+| ch-std dialogue lines (Martin in A2.4, A2.6, A2.8; Nadine in A2.4, A2.5, A2.7; Verkäuferin in A2.6) | ❓ | – | E.g. *Merci für deine Hilfe. Der Zügelwagen ist schon da.*, *Moment, die da sind in Aktion*, *Wir treffen uns um halb sieben beim Bahnhof.* |
+
+### Not found online (pass 7)
+
+berndeutsch.ch had no entry for *gstresst*, *Gymer*, *Sek / Sekundarschule*, *tüür* (as a headword on page
+1), *Ussverchouf*; Duden's *zügeln* and *Pfnüsel* pages failed to load; no fetched source gives a Zurich
+pronoun table (Wikipedia *Zurich German* has phonology only). The Idiotikon was not tried again (blocked in
+earlier passes).
+
+## Pass 8 (2026-10-25): A2 units 9–12 and the A2 mock exams (v1.0)
+
+New content: `content/a2/unit-09` to `unit-12` (*wenn / als*, dates and festivals; indirect questions,
+*deshalb / trotzdem*, *zu* + infinitive, message register; *würde / könnte*, indefinite pronouns, dative
+review; travel prepositions and the A2 review), `content/a2/exam/a2-mock-1.yaml` and
+`content/a2/exam/a2-schwiiz-1.yaml`. Each unit's `review.notes` repeats its open questions line by line.
+
+### A2 units 9–12 and the Schwiiz-Check A2, Zurich German (gsw-zh)
+
+| Form | Verdict | Source | Notes |
+| --- | --- | --- | --- |
+| `wänn` for wenn, als and wann (*Wänn ich es Chind gsii bin*) and `wo (n)` for a single past event (*Wo n ich s erscht Mal z Bärn gsii bin*) | ❓ | AI | How common is *wo* vs *wänn* for *als*? No source found. |
+| `Räbeliechtli`, `Räbeliechtli-Umzug`, `schnitze`, `d Strasselampe sind uus` | ✅ / ❓ | WP-RAEB, DUDEN-W5 (*Räbe*) | *Strasselampe* spelling. |
+| `Fasnacht`, `Guggemusig` (pl. *Guggemusige*), `a d Fasnacht uf Luzern`, `Chlausjage z Küssnacht` | ✅ / ❓ | DUDEN-W5 (*Guggenmusik*), LUZ | *a d Fasnacht*, *uf Luzern* (direction) to tick. |
+| `Doozmaal / dozmal`, `früener` | ✅ / ❓ | ALS-ZH (*Doozmaal*) | Spelling choice *dozmal*. |
+| `öb` (ob) + verb at the end, `drum` (deshalb), `gschribe`, `gantwortet`, `Ahnig`, `erscht` | ✅ / ❓ | ALS-ZH (*gschribe*) | *öb, drum, gantwortet* unverified. |
+| Texting in dialect; abbreviations `hdl`, `lg` | ✅ / ❓ | SRF-MUND | No source for the abbreviations. |
+| `aalüüte` (anrufen) | ✅ / ❓ | lexicon, BD #17260 (Bern *aalüte*) | Zurich vowel length *aalüüte*. |
+| `öpper, niemert / niemer, öppis, nüt` | ✅ | lexicon, BD #13040 (*öpper*), #11867 (*niemer*) | |
+| `Güsel`, `Güselsack`, `Grüengut`, `s PET in Lade zrugg` | ✅ / ❓ | lexicon (*Güsel*), DUDEN-W5 (*Kehricht*) | Recycling facts follow the Wädenswil-style leaflet in A2.11; local rules vary. |
+| `Bärg`, `wandere`, `Üetliberg`, `gömmer` | ✅ | lexicon, BD #47425 (*Bärg*) | |
+| `Röschti`, `Röschtigrabe`, `s GA`, `Tageskarte`, `Billett`, `chaufe / gchauft` | ✅ / ❓ | DUDEN-W5 (*Röstigraben*), DUDEN-W (*Billett*) | *Röschtigrabe* spelling. |
+| `Grüezi / Grüezi mitenand / Hoi / Sali`, Basel `Griezi` and `Kind` | ✅ | WP-BS, lexicon | |
+| Schwiiz-Check A2: *Churz vor zää simmer z Bärn*, *Ich ha es GA, drum bruuch ich keis*, *Suscht gömmer is Museum*, *mer chan d Räbe am Mittwuch im Gmeindsaal hole*, *Si choschted nüt*, *Niemert vo eus hät das scho mal gmacht*, *ich zeig eu, wie mer schnitzt* | ❓ | – | Sentence flow; *simmer*, *Gmeindsaal*, *eu* to tick. |
+| Swiss-lane dialogues and Reto roleplays of A2.9–A2.12 | ❓ | – | Natural flow can only be judged by a native. |
+
+### A2 units 9–12 and the Schwiiz-Check A2, Bernese (gsw-be)
+
+| Form | Verdict | Source | Notes |
+| --- | --- | --- | --- |
+| `Zibelemärit`, `Märit`, `Zibele`, `Zibelechueche`, `Züpfe`, `Mänti` | ✅ / ❓ | BD #12581, #10908, #12578, #54636, #13006; WP-ZIB | *Mänti* (Monday) from earlier passes. |
+| `choufe` (PP. *gchouft*), `gäng`, `gäu`, `tschou` | ✅ / ❓ | BD #55495, #11081, #12136 | *gchouft* by analogy. |
+| `aalüte` (PP. *aaglütet*), `übercho`, `zwöimau` | ✅ | BD #17260, #18862 | |
+| `Ghüder`, `Ghüdersack` | ✅ | BD #10821, #53741 | |
+| `Grüessech (mitenand)`, `aacho` (*Syt dir guet aacho?*) | ✅ | BD #12003, #11138 | |
+| Dialogue lines: A2.9 *Am Mänti isch Zibelemärit. Chunsch o? / De choufen i dir e Zibelezüpfe.*; A2.10 *I ha der hüt zwöimau aaglütet. Hesch mi Nachricht übercho? / I lüte der hüt am Abe a.*; A2.11 *Mir göh am Sunntig uf e Gurte. / I ga mit em Reto uf e Üetliberg. / Nimm öppis Warms mit, gäu!*; A2.12 *Chömet ine! I ha Kafi u Züpfe. / Nachär göh mir zäme a d Aare.*; Schwiiz-Check *I gange scho am sächsi am Morge. / Lüt mer hüt am Abe a, gäu!* | ❓ | – | Words mostly sourced; *Chömet ine, nachär, uf e Gurte, i ga / i gange* and the flow need a Bernese speaker. |
+
+### A2 units 9–12 and the A2 exams, Swiss Standard German (ch-std)
+
+| Form | Verdict | Source | Notes |
+| --- | --- | --- | --- |
+| `rezyklieren`, `der Kehricht`, `die Räbe`, `die Guggenmusik`, `der Röstigraben` | ✅ | DUDEN-W5 | |
+| `das Natel` next to *Handy*, `das E-Mail` | ✅ | DUDEN-W5 | *anläuten* avoided (veraltend). |
+| `die Bundesstadt` (Bern), `das GA`, `die Rösti`, `das Raclette` | ✅ / ❓ | general knowledge | *das / die Raclette* to tick. |
+| ch-std lines (Martin in A2.9 and A2.11, Nadine in A2.10 and A2.12) and the ch-std texts of `a2-mock-1` (Repair-Café Winterthur, Kaufhaus Seetor) | ❓ | – | Swiss spelling (*ss*) and Helvetisms (*Velo, Portemonnaie, Quartier*) to tick. |
+
+### Not found online (pass 8)
+
+No source was found for *wo* vs *wänn* in the sense of *als*, for the texting abbreviations *hdl / lg*, or
+for the Bernese *Bölletünne* and *furtrüere* (both removed from the content). berndeutsch.ch searches
+worked through `https://www.berndeutsch.ch/search?q=…`; the Idiotikon was not tried again.
+
 ## Still for a human native speaker
 
 1. **German native teacher:** every unit 1–9 (Standard German), especially the new grammar
@@ -421,6 +547,20 @@ perfect (University of Toronto) returned a browser check page; Duden's *Stift* (
    *sind / händ*, *em / de*) and the new lexicon entries; a Swiss Standard speaker for Nadine's and
    Martin's lines and the job-ad Helvetisms (Pensum, Lernende, Detailhandel); a Bernese speaker for the
    Bernese lines of A2.1–A2.3.
+
+8. **Pass 7 (v1.0):** a German teacher for A2.4–A2.8 (dative verbs and object order, two-way
+   prepositions and position verbs, comparison, reflexive verbs, *weil / dass / denn*, the readings); a
+   Zurich native for every ❓ line of pass 7, the five Swiss-lane dialogues, the guided-production gaps
+   (*mer*, *Tischli*, *gröösser*, *go*, *wil*) and the new lexicon entries; a Swiss Standard speaker for the
+   Helvetisms (*Gang, Gestell, Fauteuil, Fitness, Aktion, repetieren*) and the ch-std lines; a Bernese
+   speaker for the Bernese lines of A2.4–A2.8.
+
+9. **Pass 8 (v1.0):** a German teacher for A2.9–A2.12 (*wenn / als*, indirect questions, *deshalb /
+   trotzdem*, *zu* + infinitive, *würde / könnte*, indefinite pronouns, travel prepositions, the readings)
+   and for `a2-mock-1` (difficulty against the real Goethe A2 paper; the 4/8/8 speaking weighting is our
+   own); a Zurich native for every ❓ line of pass 8, the four Swiss-lane dialogues, the guided-production
+   gaps and `a2-schwiiz-1`; a Swiss Standard speaker for the ch-std lines and exam texts; a Bernese speaker
+   for the Bernese lines of A2.9–A2.12 and `a2-schwiiz-1` Lose Teil 2.
 
 ## Open format questions
 - A1 units 1, 3, 4, 5 and 6 use `transform` from `de` to `de` (du → Sie, word order, negation). The UI

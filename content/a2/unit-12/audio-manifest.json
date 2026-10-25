@@ -1,0 +1,2723 @@
+{
+  "unitId": "a2-u12",
+  "level": "A2",
+  "folder": "a2/unit-12",
+  "title": "Unterwegs in der Schweiz",
+  "delivery": {
+    "raw": "WAV or FLAC, 48 kHz, 24-bit, mono, one file per entry, named <file base>.wav",
+    "processed": [
+      "mp3 64 kbps mono 44.1 kHz",
+      "opus 32 kbps mono 48 kHz",
+      "EBU R128 -16 LUFS, true peak -1.5 dBTP"
+    ]
+  },
+  "entries": [
+    {
+      "file": "dialog-intro-01.mp3",
+      "kind": "dialogue-intro",
+      "text": "Nadine, meine Eltern kommen im Mai. Weißt du, wohin wir fahren könnten?",
+      "en": "Nadine, my parents are coming in May. Do you know where we could go?",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          0,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-01.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-02.mp3",
+      "kind": "dialogue-intro",
+      "text": "Wie wäre es mit Luzern? Ich bin letztes Jahr mit dem Schiff von Luzern nach Flüelen gefahren. Das war wunderschön.",
+      "en": "How about Lucerne? Last year I took the boat from Lucerne to Flüelen. It was wonderful.",
+      "variety": "ch-std",
+      "voice": "zh-f",
+      "speaker": "Nadine",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          1,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-02.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-03.mp3",
+      "kind": "dialogue-intro",
+      "text": "Gute Idee! Meine Mutter fährt gern Schiff. Und am zweiten Tag?",
+      "en": "Good idea! My mother loves boat trips. And on the second day?",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          2,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-03.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-04.mp3",
+      "kind": "dialogue-intro",
+      "text": "Dann fahrt ihr nach Bern. Die Altstadt ist super, und an der Aare kann man schön spazieren.",
+      "en": "Then you go to Bern. The old town is great, and you can go for a nice walk along the Aare.",
+      "variety": "ch-std",
+      "voice": "zh-f",
+      "speaker": "Nadine",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          3,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-04.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-05.mp3",
+      "kind": "dialogue-intro",
+      "text": "Ich war noch nie in Bern, aber es ist so nah. Ist Bern nicht die Hauptstadt?",
+      "en": "I've never been to Bern, but it's so close. Isn't Bern the capital?",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          4,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-05.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-06.mp3",
+      "kind": "dialogue-intro",
+      "text": "Fast! Offiziell ist Bern die Bundesstadt. Aber alle sagen Hauptstadt. Wenn es warm ist, musst du unbedingt in der Aare schwimmen.",
+      "en": "Almost! Officially Bern is the federal city. But everyone says capital. If it's warm, you absolutely must swim in the Aare.",
+      "variety": "ch-std",
+      "voice": "zh-f",
+      "speaker": "Nadine",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          5,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-06.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-07.mp3",
+      "kind": "dialogue-intro",
+      "text": "Im Mai? Ich glaube nicht, dass mein Vater das macht! Und der dritte Tag?",
+      "en": "In May? I don't think my father will do that! And the third day?",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          6,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-07.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-08.mp3",
+      "kind": "dialogue-intro",
+      "text": "Fahrt doch an den Genfersee, nach Lausanne. Dort spricht man Französisch – dann seht ihr den Röstigraben.",
+      "en": "Why not go to Lake Geneva, to Lausanne? They speak French there – then you'll see the \"Röstigraben\".",
+      "variety": "ch-std",
+      "voice": "zh-f",
+      "speaker": "Nadine",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          7,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-08.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-09.mp3",
+      "kind": "dialogue-intro",
+      "text": "Den Röstigraben? Was ist das?",
+      "en": "The Röstigraben? What's that?",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          8,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-09.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-10.mp3",
+      "kind": "dialogue-intro",
+      "text": "Die Grenze zwischen der Deutschschweiz und der Romandie. Kauft für drei Tage eine Tageskarte, wenn ihr kein Halbtax habt.",
+      "en": "The border between German-speaking and French-speaking Switzerland. Buy day passes for the three days if you don't have a Halbtax.",
+      "variety": "ch-std",
+      "voice": "zh-f",
+      "speaker": "Nadine",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          9,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-10.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-11.mp3",
+      "kind": "dialogue-intro",
+      "text": "Super, danke! Wollen wir nächste Woche zusammen den Fahrplan anschauen?",
+      "en": "Great, thanks! Shall we look at the timetable together next week?",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          10,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-11.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-12.mp3",
+      "kind": "dialogue-intro",
+      "text": "Gern. Am Dienstag habe ich Zeit. Treffen wir uns um zwölf hier in der Kantine?",
+      "en": "Sure. I'm free on Tuesday. Shall we meet at twelve here in the canteen?",
+      "variety": "ch-std",
+      "voice": "zh-f",
+      "speaker": "Nadine",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          11,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-12.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-01.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Hoi zäme! Händ ihr s Billett? Mir fahred am nüüni ab Gleis sächzäh.",
+      "en": "Hi everyone! Have you got your tickets? We leave at nine from platform sixteen.",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          0,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-01.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-02.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Ja. Und lueged: In Bärn säged d Lüüt nöd Grüezi, sondern Grüessech. Und Tschou statt Tschüss.",
+      "en": "Yes. And listen: in Bern people don't say Grüezi but Grüessech. And Tschou instead of Tschüss.",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          1,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-02.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-03.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Und z Basel?",
+      "en": "And in Basel?",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          2,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-03.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-04.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Det säged vill Lüüt Griezi – mit i. Und d Basler säged Kind, nöd Chind.",
+      "en": "There lots of people say Griezi – with an i. And people from Basel say Kind, not Chind.",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          3,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-04.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-05.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Lustig. Wo n ich s erscht Mal z Bärn gsii bin, han ich fascht nüt verstande.",
+      "en": "Funny. The first time I was in Bern, I understood almost nothing.",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          4,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-05.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-06.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Kei Angscht, mis Mami redt langsam. Lueg, mir sind scho z Bärn!",
+      "en": "Don't worry, my mum speaks slowly. Look, we're already in Bern!",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          5,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-06.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-07.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Grüessech mitenand! Syt dir guet aacho?",
+      "en": "Hello everyone! Did you arrive safely?",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "speaker": "Mami",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          6,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-07.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-08.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Grüezi! Ja, merci, de Zug isch pünktlich gsii.",
+      "en": "Hello! Yes, thanks, the train was on time.",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          7,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-08.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-09.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Chömet ine! I ha Kafi u Züpfe.",
+      "en": "Come in! I've got coffee and Zopf.",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "speaker": "Mami",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          8,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-09.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-10.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Nachär göh mir zäme a d Aare.",
+      "en": "Afterwards we'll all go down to the Aare together.",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "speaker": "Mami",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          9,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-10.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-11.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Merci, Mami, das isch lieb vo dir.",
+      "en": "Thanks, Mum, that's kind of you.",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          10,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-11.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kanton.mp3",
+      "kind": "vocab",
+      "text": "Kanton",
+      "en": "canton (Swiss state)",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kanton",
+        "pointer": [
+          0,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-kanton.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kanton-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Die Schweiz hat 26 Kantone.",
+      "en": "Switzerland has 26 cantons.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kanton",
+        "pointer": [
+          0,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-kanton-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kanton-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Kanton",
+      "en": "canton (Swiss state)",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kanton",
+        "pointer": [
+          0,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-kanton-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-hauptstadt.mp3",
+      "kind": "vocab",
+      "text": "Hauptstadt",
+      "en": "capital (city)",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "hauptstadt",
+        "pointer": [
+          1,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-hauptstadt.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-hauptstadt-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Bern ist die Hauptstadt der Schweiz – offiziell die Bundesstadt.",
+      "en": "Bern is the capital of Switzerland – officially the federal city.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "hauptstadt",
+        "pointer": [
+          1,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-hauptstadt-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-hauptstadt-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Hauptstadt",
+      "en": "capital (city)",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "hauptstadt",
+        "pointer": [
+          1,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-hauptstadt-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-grenze.mp3",
+      "kind": "vocab",
+      "text": "Grenze",
+      "en": "border",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "grenze",
+        "pointer": [
+          2,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-grenze.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-grenze-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Basel liegt an der Grenze zu Deutschland und Frankreich.",
+      "en": "Basel is on the border with Germany and France.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "grenze",
+        "pointer": [
+          2,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-grenze-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-grenze-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Gränze",
+      "en": "border",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "grenze",
+        "pointer": [
+          2,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-grenze-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-region.mp3",
+      "kind": "vocab",
+      "text": "Region",
+      "en": "region",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "region",
+        "pointer": [
+          3,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-region.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-region-ex.mp3",
+      "kind": "vocab-example",
+      "text": "In jeder Region spricht man einen anderen Dialekt.",
+      "en": "In every region people speak a different dialect.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "region",
+        "pointer": [
+          3,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-region-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-region-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Region",
+      "en": "region",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "region",
+        "pointer": [
+          3,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-region-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-roestigraben.mp3",
+      "kind": "vocab",
+      "text": "Röstigraben",
+      "en": "the \"Rösti ditch\" (language border between German- and French-speaking Switzerland)",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "roestigraben",
+        "pointer": [
+          4,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-roestigraben.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-roestigraben-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Freiburg liegt direkt am Röstigraben.",
+      "en": "Fribourg lies right on the Röstigraben.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "roestigraben",
+        "pointer": [
+          4,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-roestigraben-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-roestigraben-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Röschtigrabe",
+      "en": "the \"Rösti ditch\" (language border between German- and French-speaking Switzerland)",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "roestigraben",
+        "pointer": [
+          4,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-roestigraben-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-franzoesisch.mp3",
+      "kind": "vocab",
+      "text": "Französisch",
+      "en": "French (language)",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "franzoesisch",
+        "pointer": [
+          5,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-franzoesisch.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-franzoesisch-ex.mp3",
+      "kind": "vocab-example",
+      "text": "In Lausanne spricht man Französisch.",
+      "en": "In Lausanne people speak French.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "franzoesisch",
+        "pointer": [
+          5,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-franzoesisch-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-franzoesisch-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Französisch",
+      "en": "French (language)",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "franzoesisch",
+        "pointer": [
+          5,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-franzoesisch-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-italienisch.mp3",
+      "kind": "vocab",
+      "text": "Italienisch",
+      "en": "Italian (language)",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "italienisch",
+        "pointer": [
+          6,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-italienisch.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-italienisch-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Im Tessin spricht man Italienisch.",
+      "en": "In Ticino people speak Italian.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "italienisch",
+        "pointer": [
+          6,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-italienisch-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-italienisch-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Italiänisch",
+      "en": "Italian (language)",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "italienisch",
+        "pointer": [
+          6,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-italienisch-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-raetoromanisch.mp3",
+      "kind": "vocab",
+      "text": "Rätoromanisch",
+      "en": "Romansh (language)",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "raetoromanisch",
+        "pointer": [
+          7,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-raetoromanisch.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-raetoromanisch-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Rätoromanisch spricht man in Graubünden.",
+      "en": "Romansh is spoken in Graubünden.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "raetoromanisch",
+        "pointer": [
+          7,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-raetoromanisch-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-raetoromanisch-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Rätoromanisch / Romanisch",
+      "en": "Romansh (language)",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "raetoromanisch",
+        "pointer": [
+          7,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-raetoromanisch-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-zweisprachig.mp3",
+      "kind": "vocab",
+      "text": "zweisprachig",
+      "en": "bilingual",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "zweisprachig",
+        "pointer": [
+          8,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-zweisprachig.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-zweisprachig-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Biel ist eine zweisprachige Stadt.",
+      "en": "Biel is a bilingual town.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "zweisprachig",
+        "pointer": [
+          8,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-zweisprachig-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-zweisprachig-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "zweisprachig",
+      "en": "bilingual",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "zweisprachig",
+        "pointer": [
+          8,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-zweisprachig-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-altstadt.mp3",
+      "kind": "vocab",
+      "text": "Altstadt",
+      "en": "old town",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "altstadt",
+        "pointer": [
+          9,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-altstadt.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-altstadt-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Die Berner Altstadt hat viele Brunnen.",
+      "en": "Bern's old town has many fountains.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "altstadt",
+        "pointer": [
+          9,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-altstadt-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-altstadt-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Altstadt",
+      "en": "old town",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "altstadt",
+        "pointer": [
+          9,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-altstadt-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-brunnen.mp3",
+      "kind": "vocab",
+      "text": "Brunnen",
+      "en": "fountain, well",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "brunnen",
+        "pointer": [
+          10,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-brunnen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-brunnen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Aus dem Brunnen kann man Wasser trinken.",
+      "en": "You can drink water from the fountain.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "brunnen",
+        "pointer": [
+          10,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-brunnen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-brunnen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Brunne",
+      "en": "fountain, well",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "brunnen",
+        "pointer": [
+          10,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-brunnen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-rathaus.mp3",
+      "kind": "vocab",
+      "text": "Rathaus",
+      "en": "town hall",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "rathaus",
+        "pointer": [
+          11,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-rathaus.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-rathaus-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Das Rathaus ist gleich neben der Kirche.",
+      "en": "The town hall is right next to the church.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "rathaus",
+        "pointer": [
+          11,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-rathaus-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-rathaus-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Rathuus",
+      "en": "town hall",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "rathaus",
+        "pointer": [
+          11,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-rathaus-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-schiff.mp3",
+      "kind": "vocab",
+      "text": "Schiff",
+      "en": "boat, ship",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "schiff",
+        "pointer": [
+          12,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-schiff.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-schiff-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Wir sind mit dem Schiff nach Flüelen gefahren.",
+      "en": "We went to Flüelen by boat.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "schiff",
+        "pointer": [
+          12,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-schiff-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-schiff-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Schiff",
+      "en": "boat, ship",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "schiff",
+        "pointer": [
+          12,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-schiff-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-schifffahrt.mp3",
+      "kind": "vocab",
+      "text": "Schifffahrt",
+      "en": "boat trip",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "schifffahrt",
+        "pointer": [
+          13,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-schifffahrt.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-schifffahrt-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Eine Schifffahrt auf dem See dauert zwei Stunden.",
+      "en": "A boat trip on the lake takes two hours.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "schifffahrt",
+        "pointer": [
+          13,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-schifffahrt-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-schifffahrt-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Schiffahrt / Schifffahrt",
+      "en": "boat trip",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "schifffahrt",
+        "pointer": [
+          13,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-schifffahrt-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gletscher.mp3",
+      "kind": "vocab",
+      "text": "Gletscher",
+      "en": "glacier",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gletscher",
+        "pointer": [
+          14,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-gletscher.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gletscher-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Die Gletscher in den Alpen werden kleiner.",
+      "en": "The glaciers in the Alps are getting smaller.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gletscher",
+        "pointer": [
+          14,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-gletscher-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gletscher-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Gletscher",
+      "en": "glacier",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gletscher",
+        "pointer": [
+          14,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-gletscher-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-pass.mp3",
+      "kind": "vocab",
+      "text": "Pass",
+      "en": "(mountain) pass; also passport",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "pass",
+        "pointer": [
+          15,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-pass.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-pass-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Im Winter ist der Pass geschlossen.",
+      "en": "In winter the pass is closed.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "pass",
+        "pointer": [
+          15,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-pass-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-pass-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Pass",
+      "en": "(mountain) pass; also passport",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "pass",
+        "pointer": [
+          15,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-pass-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-baer.mp3",
+      "kind": "vocab",
+      "text": "Bär",
+      "en": "bear",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "baer",
+        "pointer": [
+          16,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-baer.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-baer-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Der Bär ist das Symbol von Bern.",
+      "en": "The bear is the symbol of Bern.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "baer",
+        "pointer": [
+          16,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-baer-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-baer-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Bär",
+      "en": "bear",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "baer",
+        "pointer": [
+          16,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-baer-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-ausflugsziel.mp3",
+      "kind": "vocab",
+      "text": "Ausflugsziel",
+      "en": "destination for a day trip",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "ausflugsziel",
+        "pointer": [
+          17,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-ausflugsziel.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-ausflugsziel-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Der Pilatus ist ein beliebtes Ausflugsziel.",
+      "en": "The Pilatus is a popular day-trip destination.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "ausflugsziel",
+        "pointer": [
+          17,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-ausflugsziel-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-ausflugsziel-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Uusflugsziil",
+      "en": "destination for a day trip",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "ausflugsziel",
+        "pointer": [
+          17,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-ausflugsziel-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-beruehmt.mp3",
+      "kind": "vocab",
+      "text": "berühmt",
+      "en": "famous",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "beruehmt",
+        "pointer": [
+          18,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-beruehmt.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-beruehmt-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Die Kapellbrücke in Luzern ist sehr berühmt.",
+      "en": "The Chapel Bridge in Lucerne is very famous.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "beruehmt",
+        "pointer": [
+          18,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-beruehmt-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-beruehmt-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "berüemt",
+      "en": "famous",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "beruehmt",
+        "pointer": [
+          18,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-beruehmt-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-beliebt.mp3",
+      "kind": "vocab",
+      "text": "beliebt",
+      "en": "popular",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "beliebt",
+        "pointer": [
+          19,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-beliebt.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-beliebt-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Zermatt ist bei Touristen sehr beliebt.",
+      "en": "Zermatt is very popular with tourists.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "beliebt",
+        "pointer": [
+          19,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-beliebt-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-beliebt-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "beliebt",
+      "en": "popular",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "beliebt",
+        "pointer": [
+          19,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-beliebt-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-spezialitaet.mp3",
+      "kind": "vocab",
+      "text": "Spezialität",
+      "en": "speciality",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "spezialitaet",
+        "pointer": [
+          20,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-spezialitaet.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-spezialitaet-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Rösti ist eine Spezialität aus der Deutschschweiz.",
+      "en": "Rösti is a speciality from German-speaking Switzerland.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "spezialitaet",
+        "pointer": [
+          20,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-spezialitaet-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-spezialitaet-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Spezialität",
+      "en": "speciality",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "spezialitaet",
+        "pointer": [
+          20,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-spezialitaet-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-roesti.mp3",
+      "kind": "vocab",
+      "text": "Rösti",
+      "en": "rösti (fried grated potatoes)",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "roesti",
+        "pointer": [
+          21,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-roesti.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-roesti-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Zum Mittagessen gibt es Rösti mit Spiegelei.",
+      "en": "For lunch there's rösti with a fried egg.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "roesti",
+        "pointer": [
+          21,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-roesti-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-roesti-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Röschti",
+      "en": "rösti (fried grated potatoes)",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "roesti",
+        "pointer": [
+          21,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-roesti-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-fondue.mp3",
+      "kind": "vocab",
+      "text": "Fondue",
+      "en": "fondue",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "fondue",
+        "pointer": [
+          22,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-fondue.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-fondue-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Im Winter essen wir gern Fondue.",
+      "en": "In winter we like to eat fondue.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "fondue",
+        "pointer": [
+          22,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-fondue-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-fondue-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Fondue",
+      "en": "fondue",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "fondue",
+        "pointer": [
+          22,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-fondue-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-raclette.mp3",
+      "kind": "vocab",
+      "text": "Raclette",
+      "en": "raclette (melted cheese with potatoes)",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "raclette",
+        "pointer": [
+          23,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-raclette.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-raclette-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Raclette kommt aus dem Wallis.",
+      "en": "Raclette comes from Valais.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "raclette",
+        "pointer": [
+          23,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-raclette-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-raclette-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Raclette",
+      "en": "raclette (melted cheese with potatoes)",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "raclette",
+        "pointer": [
+          23,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-raclette-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-tageskarte.mp3",
+      "kind": "vocab",
+      "text": "Tageskarte",
+      "en": "day pass, day ticket",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "tageskarte",
+        "pointer": [
+          24,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-tageskarte.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-tageskarte-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Mit der Tageskarte kann man einen Tag lang überall Zug fahren.",
+      "en": "With a day pass you can travel everywhere by train for a whole day.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "tageskarte",
+        "pointer": [
+          24,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-tageskarte-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-tageskarte-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Tageskarte",
+      "en": "day pass, day ticket",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "tageskarte",
+        "pointer": [
+          24,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-tageskarte-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-generalabonnement.mp3",
+      "kind": "vocab",
+      "text": "Generalabonnement",
+      "note": "GA",
+      "en": "Swiss travel pass for the whole network (GA)",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "generalabonnement",
+        "pointer": [
+          25,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-generalabonnement.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-generalabonnement-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Mit dem GA fährt Nadine jeden Tag nach Zürich.",
+      "en": "With her GA Nadine travels to Zurich every day.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "generalabonnement",
+        "pointer": [
+          25,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-generalabonnement-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-generalabonnement-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "s GA",
+      "en": "Swiss travel pass for the whole network (GA)",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "generalabonnement",
+        "pointer": [
+          25,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-generalabonnement-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-anschluss.mp3",
+      "kind": "vocab",
+      "text": "Anschluss",
+      "en": "(train) connection",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "anschluss",
+        "pointer": [
+          26,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-anschluss.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-anschluss-ex.mp3",
+      "kind": "vocab-example",
+      "text": "In Bern haben wir fünf Minuten für den Anschluss.",
+      "en": "In Bern we have five minutes for the connection.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "anschluss",
+        "pointer": [
+          26,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-anschluss-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-anschluss-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Aaschluss",
+      "en": "(train) connection",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "anschluss",
+        "pointer": [
+          26,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-anschluss-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-abfahrt.mp3",
+      "kind": "vocab",
+      "text": "Abfahrt",
+      "en": "departure",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "abfahrt",
+        "pointer": [
+          27,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-abfahrt.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-abfahrt-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Die Abfahrt ist um 9.02 Uhr auf Gleis 16.",
+      "en": "Departure is at 9.02 from platform 16.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "abfahrt",
+        "pointer": [
+          27,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-abfahrt-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-abfahrt-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Abfahrt",
+      "en": "departure",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "abfahrt",
+        "pointer": [
+          27,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-abfahrt-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-puenktlich.mp3",
+      "kind": "vocab",
+      "text": "pünktlich",
+      "en": "on time, punctual",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "puenktlich",
+        "pointer": [
+          28,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-puenktlich.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-puenktlich-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Der Zug ist pünktlich angekommen.",
+      "en": "The train arrived on time.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "puenktlich",
+        "pointer": [
+          28,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-puenktlich-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-puenktlich-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "pünktlich",
+      "en": "on time, punctual",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "puenktlich",
+        "pointer": [
+          28,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-puenktlich-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-unterwegs.mp3",
+      "kind": "vocab",
+      "text": "unterwegs",
+      "en": "on the way, out and about",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "unterwegs",
+        "pointer": [
+          29,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-unterwegs.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-unterwegs-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Wir sind den ganzen Tag unterwegs.",
+      "en": "We're out and about all day.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "unterwegs",
+        "pointer": [
+          29,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-unterwegs-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-unterwegs-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "unterwägs",
+      "en": "on the way, out and about",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "unterwegs",
+        "pointer": [
+          29,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-unterwegs-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-tagesausflug.mp3",
+      "kind": "vocab",
+      "text": "Tagesausflug",
+      "en": "day trip",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "tagesausflug",
+        "pointer": [
+          30,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-tagesausflug.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-tagesausflug-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Am Samstag machen wir einen Tagesausflug nach Bern.",
+      "en": "On Saturday we're taking a day trip to Bern.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "tagesausflug",
+        "pointer": [
+          30,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-tagesausflug-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-tagesausflug-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Tagesuusflug",
+      "en": "day trip",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "tagesausflug",
+        "pointer": [
+          30,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-tagesausflug-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-planen.mp3",
+      "kind": "vocab",
+      "text": "planen",
+      "en": "to plan",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "planen",
+        "pointer": [
+          31,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-planen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-planen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Wir planen eine Reise in die Schweiz.",
+      "en": "We're planning a trip to Switzerland.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "planen",
+        "pointer": [
+          31,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-planen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-planen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "plane",
+      "en": "to plan",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "planen",
+        "pointer": [
+          31,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-planen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-vorschlagen.mp3",
+      "kind": "vocab",
+      "text": "vorschlagen",
+      "en": "to suggest",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "vorschlagen",
+        "pointer": [
+          32,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-vorschlagen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-vorschlagen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich schlage vor, dass wir den Zug um neun nehmen.",
+      "en": "I suggest we take the nine o'clock train.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "vorschlagen",
+        "pointer": [
+          32,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-vorschlagen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-vorschlagen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "vorschlah",
+      "en": "to suggest",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "vorschlagen",
+        "pointer": [
+          32,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-vorschlagen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wie-waere-es-mit.mp3",
+      "kind": "vocab",
+      "text": "Wie wäre es mit …?",
+      "en": "How about …?",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wie-waere-es-mit",
+        "pointer": [
+          33,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-wie-waere-es-mit.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wie-waere-es-mit-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Wie wäre es mit einer Schifffahrt?",
+      "en": "How about a boat trip?",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wie-waere-es-mit",
+        "pointer": [
+          33,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-wie-waere-es-mit-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wie-waere-es-mit-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Wie wärs mit …?",
+      "en": "How about …?",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wie-waere-es-mit",
+        "pointer": [
+          33,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-wie-waere-es-mit-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-einverstanden.mp3",
+      "kind": "vocab",
+      "text": "einverstanden",
+      "en": "agreed, OK (with something)",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "einverstanden",
+        "pointer": [
+          34,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-einverstanden.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-einverstanden-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Um neun am Bahnhof? – Einverstanden!",
+      "en": "Nine o'clock at the station? – Agreed!",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "einverstanden",
+        "pointer": [
+          34,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-einverstanden-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-einverstanden-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "iiverstande",
+      "en": "agreed, OK (with something)",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "einverstanden",
+        "pointer": [
+          34,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-einverstanden-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gruessech.mp3",
+      "kind": "vocab",
+      "text": "Guten Tag!",
+      "note": "in Bern",
+      "en": "hello (polite Bernese greeting)",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gruessech",
+        "pointer": [
+          35,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-gruessech.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gruessech-ex.mp3",
+      "kind": "vocab-example",
+      "text": "In Bern sagt man oft Grüessech statt Grüezi.",
+      "en": "In Bern people often say Grüessech instead of Grüezi.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gruessech",
+        "pointer": [
+          35,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-gruessech-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gruessech-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Grüezi",
+      "en": "hello (polite Bernese greeting)",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gruessech",
+        "pointer": [
+          35,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-gruessech-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gruessech-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "Grüessech",
+      "note": "mitenand",
+      "en": "hello (polite Bernese greeting)",
+      "variety": "gsw-be",
+      "voice": "be-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gruessech",
+        "pointer": [
+          35,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-gruessech-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-statt.mp3",
+      "kind": "vocab",
+      "text": "statt",
+      "en": "instead of",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "statt",
+        "pointer": [
+          36,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-statt.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-statt-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Statt Rösti gibt es in Lausanne oft Fondue.",
+      "en": "Instead of rösti there's often fondue in Lausanne.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "statt",
+        "pointer": [
+          36,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-statt-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-statt-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "statt / anstatt",
+      "en": "instead of",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "statt",
+        "pointer": [
+          36,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-statt-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u12-mcq-listening-treffen.mp3",
+      "kind": "listening",
+      "text": "Nadine: Gern. Am Dienstag habe ich Zeit. Treffen wir uns um zwölf hier in der Kantine?",
+      "variety": "ch-std",
+      "voice": "zh-f",
+      "speaker": "Nadine",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u12-mcq-listening-treffen",
+        "pointer": [
+          25,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u12-mcq-listening-treffen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u12-dictation-schiff.mp3",
+      "kind": "dictation",
+      "text": "Letztes Jahr bin ich mit dem Schiff von Luzern nach Flüelen gefahren.",
+      "variety": "ch-std",
+      "voice": "zh-m",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u12-dictation-schiff",
+        "pointer": [
+          26,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u12-dictation-schiff.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u12-dictation-wenn.mp3",
+      "kind": "dictation",
+      "text": "Wenn es warm ist, schwimmen wir in der Aare.",
+      "variety": "ch-std",
+      "voice": "zh-f",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u12-dictation-wenn",
+        "pointer": [
+          27,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u12-dictation-wenn.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u12-speak-frame.mp3",
+      "kind": "speak",
+      "text": "Wollen wir am Samstag nach Luzern fahren? Wir können eine Schifffahrt machen und am Abend in der Altstadt essen.",
+      "variety": "ch-std",
+      "voice": "zh-m",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u12-speak-frame",
+        "pointer": [
+          28,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u12-speak-frame.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u12-speak-shadow-tom.mp3",
+      "kind": "speak",
+      "text": "Super, danke! Wollen wir nächste Woche zusammen den Fahrplan anschauen?",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u12-speak-shadow-tom",
+        "pointer": [
+          29,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u12-speak-shadow-tom.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u12-speak-shadow-nadine.mp3",
+      "kind": "speak",
+      "text": "Wie wäre es mit Luzern? Ich bin letztes Jahr mit dem Schiff von Luzern nach Flüelen gefahren.",
+      "variety": "ch-std",
+      "voice": "zh-m",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u12-speak-shadow-nadine",
+        "pointer": [
+          30,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u12-speak-shadow-nadine.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u12-speak-intonation.mp3",
+      "kind": "speak",
+      "text": "Gute Idee! Treffen wir uns um neun am Bahnhof.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u12-speak-intonation",
+        "pointer": [
+          31,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u12-speak-intonation.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u12-speak-pron-stress.mp3",
+      "kind": "speak",
+      "text": "Vierwaldstättersee, Tageskarte, Altstadt, Generalabonnement, Ausflugsziel.",
+      "variety": "ch-std",
+      "voice": "zh-m",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u12-speak-pron-stress",
+        "pointer": [
+          32,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u12-speak-pron-stress.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u12-ch-mcq-gleis.mp3",
+      "kind": "listening",
+      "text": "Reto: Hoi zäme! Händ ihr s Billett? Mir fahred am nüüni ab Gleis sächzäh.",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u12-ch-mcq-gleis",
+        "pointer": [
+          36,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u12-ch-mcq-gleis.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u12-ch-mcq-basel.mp3",
+      "kind": "listening",
+      "text": "Sandra: Det säged vill Lüüt Griezi – mit i. Und d Basler säged Kind, nöd Chind.",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u12-ch-mcq-basel",
+        "pointer": [
+          38,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u12-ch-mcq-basel.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u12-ch-be-mcq-aacho.mp3",
+      "kind": "listening",
+      "text": "Mami: Grüessech mitenand! Syt dir guet aacho?",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "speaker": "Mami",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u12-ch-be-mcq-aacho",
+        "pointer": [
+          44,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u12-ch-be-mcq-aacho.mp3",
+      "referenced": false
+    }
+  ]
+}

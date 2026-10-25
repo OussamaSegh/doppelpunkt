@@ -5,6 +5,9 @@ import { formatCode, generateCode } from '@doppelpunkt/license';
 import { allPacks, navTo, onboard } from '../fixtures';
 import { BILLING_ORIGIN, expect, testToken, test } from './billing';
 
+// The mock answers refused codes and restores with 4xx, which the browser logs as failed resources.
+test.use({ allowConsole: [/Failed to load resource: the server responded with a status of (404|409)/] });
+
 const a2 = () => {
   const p = allPacks().find((x) => x.level === 'A2');
   if (!p || p.units.length < 2) throw new Error('the e2e build needs at least two A2 units');
@@ -120,9 +123,11 @@ test('restore a purchase by email + purchase id, or by pasting a token', async (
   try {
     const p2 = await other.newPage();
     await onboard(p2);
-    await other.setOffline(true);
     await p2.getByRole('navigation', { name: 'Main' }).filter({ visible: true }).getByRole('link', { name: 'Settings' }).click();
     await p2.getByRole('link', { name: 'Unlock levels' }).click();
+    await expect(p2.getByRole('textbox', { name: 'Unlock token' })).toBeVisible();
+    // Adding a token needs no network.
+    await other.setOffline(true);
     await p2.getByRole('textbox', { name: 'Unlock token' }).fill(await testToken('level-a2'));
     await p2.getByRole('button', { name: 'Add token' }).click();
     await expect(p2.getByRole('status').filter({ hasText: 'A2 unlocked' })).toBeVisible();

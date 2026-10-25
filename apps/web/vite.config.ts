@@ -1,6 +1,6 @@
 import { readFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
-import { defineConfig, type UserConfig } from 'vite';
+import { defineConfig, loadEnv, type UserConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import tailwindcss from '@tailwindcss/vite';
 import { VitePWA } from 'vite-plugin-pwa';
@@ -37,14 +37,20 @@ export const E2E_COLLECTOR_URL = 'http://127.0.0.1:4329';
  * key (packages/license/src/testing.ts). Keep in sync with BILLING_ORIGIN in e2e/billing/billing.ts.
  */
 export const E2E_BILLING_URL = 'http://127.0.0.1:4339';
-/** TEST_PUBLIC_KEYS_SPEC from packages/license/src/testing.ts (not imported: vite.config runs before aliases). */
-const TEST_KEYS_SPEC = 'test:GuiNp1C5G_QgabPYBnp4c8UFd8gOz-3UPex1-Ap1GWw';
+/** TEST_PUBLIC_KEY from packages/license/src/testing.ts (not imported: vite.config runs before aliases). */
+const TEST_PUBLIC_KEY = 'GuiNp1C5G_QgabPYBnp4c8UFd8gOz-3UPex1-Ap1GWw';
+const TEST_KEYS_SPEC = `test:${TEST_PUBLIC_KEY}`;
 
-/** Payments are on only when both the billing URL and a public key are set (docs/PAYMENTS.md). */
-function checkBillingEnv(mode: string) {
-  const url = process.env.VITE_BILLING_URL?.trim();
-  const keys = process.env.VITE_LICENSE_PUBLIC_KEYS?.trim();
-  if (mode !== 'e2e-billing' && mode !== 'test' && /(^|,)\s*test:/.test(keys ?? '')) {
+/**
+ * Payments are on only when both the billing URL and a public key are set (docs/PAYMENTS.md).
+ * `env` must hold what Vite will bake in: process.env merged with the .env files of the mode (see
+ * the default export), so a key put in .env.production is checked too. Refuses the public TEST key
+ * (under any key id: its private key is in git) except in the e2e-billing and test modes.
+ */
+export function checkBillingEnv(mode: string, env: Record<string, string | undefined>) {
+  const url = env.VITE_BILLING_URL?.trim();
+  const keys = env.VITE_LICENSE_PUBLIC_KEYS?.trim();
+  if (mode !== 'e2e-billing' && mode !== 'test' && (/(^|,)\s*test:/.test(keys ?? '') || (keys ?? '').includes(TEST_PUBLIC_KEY))) {
     throw new Error('VITE_LICENSE_PUBLIC_KEYS contains the public TEST key ("test:..."). Its private key is in git; never trust it in a real build.');
   }
   if (!!url !== !!keys) {
@@ -130,6 +136,7 @@ export default defineConfig(({ mode }) => {
     process.env.VITE_BILLING_URL ??= E2E_BILLING_URL;
     process.env.VITE_LICENSE_PUBLIC_KEYS ??= TEST_KEYS_SPEC;
   }
-  checkBillingEnv(mode);
+  // Vite gives process.env precedence over the .env files; check the same merged view.
+  checkBillingEnv(mode, { ...loadEnv(mode, fileURLToPath(new URL('.', import.meta.url)), 'VITE_'), ...process.env });
   return config;
 });

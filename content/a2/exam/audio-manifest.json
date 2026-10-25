@@ -1,0 +1,772 @@
+{
+  "folder": "a2/exam",
+  "level": "A2",
+  "delivery": {
+    "raw": "WAV or FLAC, 48 kHz, 24-bit, mono, one file per entry, named <file base>.wav",
+    "processed": [
+      "mp3 64 kbps mono 44.1 kHz",
+      "opus 32 kbps mono 48 kHz",
+      "EBU R128 -16 LUFS, true peak -1.5 dBTP"
+    ]
+  },
+  "exams": [
+    {
+      "id": "a2-mock-1",
+      "title": "A2 Modelltest 1 (Goethe-Zertifikat A2 format)"
+    },
+    {
+      "id": "a2-schwiiz-1",
+      "title": "Schwiiz-Check A2: Züritüütsch und e chli Bärndütsch"
+    }
+  ],
+  "entries": [
+    {
+      "file": "stimulus-hoeren-1.mp3",
+      "kind": "exam-stimulus",
+      "text": "Sprecher: Text 1.\nFrau Graf: Guten Tag, Herr Okafor, hier ist Frau Graf von der Praxis Dr. Huber. Ihr Termin am Dienstag um 14.30 Uhr geht leider nicht, Frau Doktor Huber ist an diesem Tag nicht da. Können Sie am Donnerstag kommen, auch um 14.30 Uhr? Bitte rufen Sie uns kurz zurück. Danke und auf Wiederhören.\n\nSprecher: Text 2.\nSprecherin: Gleisänderung: Der Intercity nach Bern, Abfahrt 10.32 Uhr, fährt heute nicht auf Gleis 5, sondern auf Gleis 7. Der Zug hat etwa fünf Minuten Verspätung. Wir bitten um Entschuldigung.\n\nSprecher: Text 3.\nSprecher: Und jetzt das Wetter für die Region Zürich. Am Morgen gibt es noch Nebel, am Nachmittag scheint dann überall die Sonne, bei 18 Grad. Morgen wird es kühler, und es regnet den ganzen Tag.\n\nSprecher: Text 4.\nSprecherin: Liebe Kundinnen und Kunden, nur heute in unserer Gemüseabteilung: Schweizer Erdbeeren zum halben Preis! Das Kilo kostet nur 6 Franken. Das Angebot gilt bis 18 Uhr.\n\nSprecher: Text 5.\nSandra: Hoi Anna, hier ist Sandra. Der Film beginnt erst um 20.15 Uhr, nicht um 19.30 Uhr. Wir essen also nicht vorher im Restaurant. Treffen wir uns um 20 Uhr direkt vor dem Kino? Bis später!",
+      "en": "Fünf kurze Texte",
+      "variety": "ch-std",
+      "speaker": "Sprecher",
+      "source": {
+        "file": "a2-mock-1.yaml",
+        "id": "hoeren-1",
+        "pointer": [
+          "sections",
+          4,
+          "stimulus",
+          "audio"
+        ]
+      },
+      "exam": "a2-mock-1",
+      "path": "audio/stimulus-hoeren-1.mp3",
+      "voice": "zh-m",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-mock1-h1-termin.mp3",
+      "kind": "listening",
+      "text": "Frau Graf: Guten Tag, Herr Okafor, hier ist Frau Graf von der Praxis Dr. Huber. Ihr Termin am Dienstag um 14.30 Uhr geht leider nicht, Frau Doktor Huber ist an diesem Tag nicht da. Können Sie am Donnerstag kommen, auch um 14.30 Uhr? Bitte rufen Sie uns kurz zurück. Danke und auf Wiederhören.",
+      "variety": "ch-std",
+      "speaker": "Frau Graf",
+      "source": {
+        "file": "a2-mock-1.yaml",
+        "id": "a2-mock1-h1-termin",
+        "pointer": [
+          "sections",
+          4,
+          "exercises",
+          0,
+          "audio"
+        ]
+      },
+      "exam": "a2-mock-1",
+      "path": "audio/ex-a2-mock1-h1-termin.mp3",
+      "voice": "zh-f",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-mock1-h1-gleis.mp3",
+      "kind": "listening",
+      "text": "Sprecherin: Gleisänderung: Der Intercity nach Bern, Abfahrt 10.32 Uhr, fährt heute nicht auf Gleis 5, sondern auf Gleis 7. Der Zug hat etwa fünf Minuten Verspätung. Wir bitten um Entschuldigung.",
+      "variety": "ch-std",
+      "speaker": "Sprecherin",
+      "source": {
+        "file": "a2-mock-1.yaml",
+        "id": "a2-mock1-h1-gleis",
+        "pointer": [
+          "sections",
+          4,
+          "exercises",
+          1,
+          "audio"
+        ]
+      },
+      "exam": "a2-mock-1",
+      "path": "audio/ex-a2-mock1-h1-gleis.mp3",
+      "voice": "zh-f",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-mock1-h1-wetter.mp3",
+      "kind": "listening",
+      "text": "Sprecher: Und jetzt das Wetter für die Region Zürich. Am Morgen gibt es noch Nebel, am Nachmittag scheint dann überall die Sonne, bei 18 Grad. Morgen wird es kühler, und es regnet den ganzen Tag.",
+      "variety": "ch-std",
+      "speaker": "Sprecher",
+      "source": {
+        "file": "a2-mock-1.yaml",
+        "id": "a2-mock1-h1-wetter",
+        "pointer": [
+          "sections",
+          4,
+          "exercises",
+          2,
+          "audio"
+        ]
+      },
+      "exam": "a2-mock-1",
+      "path": "audio/ex-a2-mock1-h1-wetter.mp3",
+      "voice": "zh-m",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-mock1-h1-erdbeeren.mp3",
+      "kind": "listening",
+      "text": "Sprecherin: Liebe Kundinnen und Kunden, nur heute in unserer Gemüseabteilung: Schweizer Erdbeeren zum halben Preis! Das Kilo kostet nur 6 Franken. Das Angebot gilt bis 18 Uhr.",
+      "variety": "ch-std",
+      "speaker": "Sprecherin",
+      "source": {
+        "file": "a2-mock-1.yaml",
+        "id": "a2-mock1-h1-erdbeeren",
+        "pointer": [
+          "sections",
+          4,
+          "exercises",
+          3,
+          "audio"
+        ]
+      },
+      "exam": "a2-mock-1",
+      "path": "audio/ex-a2-mock1-h1-erdbeeren.mp3",
+      "voice": "zh-f",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-mock1-h1-kino.mp3",
+      "kind": "listening",
+      "text": "Sandra: Hoi Anna, hier ist Sandra. Der Film beginnt erst um 20.15 Uhr, nicht um 19.30 Uhr. Wir essen also nicht vorher im Restaurant. Treffen wir uns um 20 Uhr direkt vor dem Kino? Bis später!",
+      "variety": "ch-std",
+      "speaker": "Sandra",
+      "source": {
+        "file": "a2-mock-1.yaml",
+        "id": "a2-mock1-h1-kino",
+        "pointer": [
+          "sections",
+          4,
+          "exercises",
+          4,
+          "audio"
+        ]
+      },
+      "exam": "a2-mock-1",
+      "path": "audio/ex-a2-mock1-h1-kino.mp3",
+      "voice": "zh-f",
+      "referenced": false
+    },
+    {
+      "file": "stimulus-hoeren-2.mp3",
+      "kind": "exam-stimulus",
+      "text": "Paul: Hallo Nina! Wie war deine erste Woche in der neuen Wohnung?\nNina: Super, aber auch anstrengend! Am Montag wollte ich eigentlich kochen, aber die Küche war noch voll mit Kartons. Ich bin dann ins Möbelhaus gefahren und habe ein Regal gekauft.\nPaul: Und am Dienstag? Da hast du doch Volleyball, oder?\nNina: Normalerweise ja. Aber mein Rücken hat so wehgetan. Deshalb bin ich zum Arzt gegangen.\nPaul: Oh nein! Und am Mittwoch?\nNina: Am Mittwoch wollte ich schwimmen gehen, aber meine Kollegin Marta hatte Geburtstag. Wir haben im Büro mit Kuchen gefeiert, und am Abend waren wir noch zusammen essen.\nPaul: Schön! Und am Donnerstag hattest du Deutschkurs?\nNina: Nein, der Kurs war diese Woche am Mittwoch, und den habe ich verpasst. Am Donnerstag habe ich endlich die Wohnung geputzt.\nPaul: Und am Freitag waren wir zusammen im Kino.\nNina: Genau! Der Film war toll.",
+      "en": "Ninas Woche",
+      "variety": "de",
+      "speaker": "Paul",
+      "source": {
+        "file": "a2-mock-1.yaml",
+        "id": "hoeren-2",
+        "pointer": [
+          "sections",
+          5,
+          "stimulus",
+          "audio"
+        ]
+      },
+      "exam": "a2-mock-1",
+      "path": "audio/stimulus-hoeren-2.mp3",
+      "voice": "de-f",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-mock1-h2-montag.mp3",
+      "kind": "listening",
+      "text": "Nina: Super, aber auch anstrengend! Am Montag wollte ich eigentlich kochen, aber die Küche war noch voll mit Kartons. Ich bin dann ins Möbelhaus gefahren und habe ein Regal gekauft.",
+      "variety": "de",
+      "speaker": "Nina",
+      "source": {
+        "file": "a2-mock-1.yaml",
+        "id": "a2-mock1-h2-montag",
+        "pointer": [
+          "sections",
+          5,
+          "exercises",
+          0,
+          "audio"
+        ]
+      },
+      "exam": "a2-mock-1",
+      "path": "audio/ex-a2-mock1-h2-montag.mp3",
+      "voice": "de-m",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-mock1-h2-dienstag.mp3",
+      "kind": "listening",
+      "text": "Paul: Und am Dienstag? Da hast du doch Volleyball, oder?\nNina: Normalerweise ja. Aber mein Rücken hat so wehgetan. Deshalb bin ich zum Arzt gegangen.",
+      "variety": "de",
+      "speaker": "Paul",
+      "source": {
+        "file": "a2-mock-1.yaml",
+        "id": "a2-mock1-h2-dienstag",
+        "pointer": [
+          "sections",
+          5,
+          "exercises",
+          1,
+          "audio"
+        ]
+      },
+      "exam": "a2-mock-1",
+      "path": "audio/ex-a2-mock1-h2-dienstag.mp3",
+      "voice": "de-f",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-mock1-h2-mittwoch.mp3",
+      "kind": "listening",
+      "text": "Nina: Am Mittwoch wollte ich schwimmen gehen, aber meine Kollegin Marta hatte Geburtstag. Wir haben im Büro mit Kuchen gefeiert, und am Abend waren wir noch zusammen essen.",
+      "variety": "de",
+      "speaker": "Nina",
+      "source": {
+        "file": "a2-mock-1.yaml",
+        "id": "a2-mock1-h2-mittwoch",
+        "pointer": [
+          "sections",
+          5,
+          "exercises",
+          2,
+          "audio"
+        ]
+      },
+      "exam": "a2-mock-1",
+      "path": "audio/ex-a2-mock1-h2-mittwoch.mp3",
+      "voice": "de-m",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-mock1-h2-donnerstag.mp3",
+      "kind": "listening",
+      "text": "Paul: Schön! Und am Donnerstag hattest du Deutschkurs?\nNina: Nein, der Kurs war diese Woche am Mittwoch, und den habe ich verpasst. Am Donnerstag habe ich endlich die Wohnung geputzt.",
+      "variety": "de",
+      "speaker": "Paul",
+      "source": {
+        "file": "a2-mock-1.yaml",
+        "id": "a2-mock1-h2-donnerstag",
+        "pointer": [
+          "sections",
+          5,
+          "exercises",
+          3,
+          "audio"
+        ]
+      },
+      "exam": "a2-mock-1",
+      "path": "audio/ex-a2-mock1-h2-donnerstag.mp3",
+      "voice": "de-f",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-mock1-h2-freitag.mp3",
+      "kind": "listening",
+      "text": "Paul: Und am Freitag waren wir zusammen im Kino.\nNina: Genau! Der Film war toll.",
+      "variety": "de",
+      "speaker": "Paul",
+      "source": {
+        "file": "a2-mock-1.yaml",
+        "id": "a2-mock1-h2-freitag",
+        "pointer": [
+          "sections",
+          5,
+          "exercises",
+          4,
+          "audio"
+        ]
+      },
+      "exam": "a2-mock-1",
+      "path": "audio/ex-a2-mock1-h2-freitag.mp3",
+      "voice": "de-m",
+      "referenced": false
+    },
+    {
+      "file": "stimulus-hoeren-3.mp3",
+      "kind": "exam-stimulus",
+      "text": "Sprecher: Gespräch 1.\nVerkäuferin: Und, passt der blaue Pullover?\nFrau: Nein, leider ist er zu klein. Haben Sie ihn eine Nummer größer?\nVerkäuferin: In Blau leider nicht mehr. Aber in Grau haben wir ihn noch in Größe M.\nFrau: Grau ist auch schön. Dann nehme ich den grauen.\n\nSprecher: Gespräch 2.\nFrau: Du bist ja ganz nass! Fährst du nicht immer mit dem Velo zur Arbeit?\nMann: Doch, normalerweise schon. Aber heute regnet es so stark. Ich habe das Tram genommen, aber die Haltestelle ist weit weg.\n\nSprecher: Gespräch 3.\nKellner: Möchten Sie bestellen?\nFrau: Ja, ich hätte gern den Fisch mit Reis.\nKellner: Oh, das tut mir leid, der Fisch ist heute schon aus. Ich kann Ihnen die Rösti mit Gemüse empfehlen.\nFrau: Gut, dann nehme ich die Rösti. Und einen Salat dazu? Nein, doch nicht – nur die Rösti, bitte.\n\nSprecher: Gespräch 4.\nMann: Oh nein, der Zug um 14.08 Uhr ist gerade abgefahren!\nFrau: Kein Problem, der nächste fährt in einer halben Stunde, um 14.38 Uhr.\nMann: Dann trinken wir noch schnell einen Kaffee.\n\nSprecher: Gespräch 5.\nMann: Hast du meinen Schlüssel gesehen? In meiner Tasche ist er nicht.\nFrau: Liegt er nicht auf dem Tisch?\nMann: Nein, da habe ich schon geschaut.\nFrau: Ah, da ist er ja – neben dem Fernseher!",
+      "en": "Fünf kurze Gespräche",
+      "variety": "de",
+      "speaker": "Sprecher",
+      "source": {
+        "file": "a2-mock-1.yaml",
+        "id": "hoeren-3",
+        "pointer": [
+          "sections",
+          6,
+          "stimulus",
+          "audio"
+        ]
+      },
+      "exam": "a2-mock-1",
+      "path": "audio/stimulus-hoeren-3.mp3",
+      "voice": "de-m",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-mock1-h3-pullover.mp3",
+      "kind": "listening",
+      "text": "Verkäuferin: Und, passt der blaue Pullover?\nFrau: Nein, leider ist er zu klein. Haben Sie ihn eine Nummer größer?\nVerkäuferin: In Blau leider nicht mehr. Aber in Grau haben wir ihn noch in Größe M.\nFrau: Grau ist auch schön. Dann nehme ich den grauen.",
+      "variety": "de",
+      "speaker": "Verkäuferin",
+      "source": {
+        "file": "a2-mock-1.yaml",
+        "id": "a2-mock1-h3-pullover",
+        "pointer": [
+          "sections",
+          6,
+          "exercises",
+          0,
+          "audio"
+        ]
+      },
+      "exam": "a2-mock-1",
+      "path": "audio/ex-a2-mock1-h3-pullover.mp3",
+      "voice": "de-f",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-mock1-h3-tram.mp3",
+      "kind": "listening",
+      "text": "Frau: Du bist ja ganz nass! Fährst du nicht immer mit dem Velo zur Arbeit?\nMann: Doch, normalerweise schon. Aber heute regnet es so stark. Ich habe das Tram genommen, aber die Haltestelle ist weit weg.",
+      "variety": "ch-std",
+      "speaker": "Frau",
+      "source": {
+        "file": "a2-mock-1.yaml",
+        "id": "a2-mock1-h3-tram",
+        "pointer": [
+          "sections",
+          6,
+          "exercises",
+          1,
+          "audio"
+        ]
+      },
+      "exam": "a2-mock-1",
+      "path": "audio/ex-a2-mock1-h3-tram.mp3",
+      "voice": "zh-f",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-mock1-h3-essen.mp3",
+      "kind": "listening",
+      "text": "Kellner: Möchten Sie bestellen?\nFrau: Ja, ich hätte gern den Fisch mit Reis.\nKellner: Oh, das tut mir leid, der Fisch ist heute schon aus. Ich kann Ihnen die Rösti mit Gemüse empfehlen.\nFrau: Gut, dann nehme ich die Rösti. Und einen Salat dazu? Nein, doch nicht – nur die Rösti, bitte.",
+      "variety": "de",
+      "speaker": "Kellner",
+      "source": {
+        "file": "a2-mock-1.yaml",
+        "id": "a2-mock1-h3-essen",
+        "pointer": [
+          "sections",
+          6,
+          "exercises",
+          2,
+          "audio"
+        ]
+      },
+      "exam": "a2-mock-1",
+      "path": "audio/ex-a2-mock1-h3-essen.mp3",
+      "voice": "de-m",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-mock1-h3-zug.mp3",
+      "kind": "listening",
+      "text": "Mann: Oh nein, der Zug um 14.08 Uhr ist gerade abgefahren!\nFrau: Kein Problem, der nächste fährt in einer halben Stunde, um 14.38 Uhr.\nMann: Dann trinken wir noch schnell einen Kaffee.",
+      "variety": "de",
+      "speaker": "Mann",
+      "source": {
+        "file": "a2-mock-1.yaml",
+        "id": "a2-mock1-h3-zug",
+        "pointer": [
+          "sections",
+          6,
+          "exercises",
+          3,
+          "audio"
+        ]
+      },
+      "exam": "a2-mock-1",
+      "path": "audio/ex-a2-mock1-h3-zug.mp3",
+      "voice": "de-m",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-mock1-h3-schluessel.mp3",
+      "kind": "listening",
+      "text": "Mann: Hast du meinen Schlüssel gesehen? In meiner Tasche ist er nicht.\nFrau: Liegt er nicht auf dem Tisch?\nMann: Nein, da habe ich schon geschaut.\nFrau: Ah, da ist er ja – neben dem Fernseher!",
+      "variety": "de",
+      "speaker": "Mann",
+      "source": {
+        "file": "a2-mock-1.yaml",
+        "id": "a2-mock1-h3-schluessel",
+        "pointer": [
+          "sections",
+          6,
+          "exercises",
+          4,
+          "audio"
+        ]
+      },
+      "exam": "a2-mock-1",
+      "path": "audio/ex-a2-mock1-h3-schluessel.mp3",
+      "voice": "de-m",
+      "referenced": false
+    },
+    {
+      "file": "stimulus-hoeren-4.mp3",
+      "kind": "exam-stimulus",
+      "text": "Moderator: In unserer Sendung «Menschen und Berufe» ist heute Jasmin Frei bei uns. Frau Frei, Sie sind Zugbegleiterin. Wie lange machen Sie das schon?\nJasmin Frei: Seit zwölf Jahren. Vorher habe ich in einem Hotel an der Rezeption gearbeitet.\nModerator: Wie sieht ein normaler Arbeitstag aus?\nJasmin Frei: Das ist jeden Tag anders. Manchmal beginne ich schon um fünf Uhr am Morgen, manchmal arbeite ich bis Mitternacht. Ich kontrolliere die Billette, helfe den Fahrgästen und mache die Durchsagen.\nModerator: Welche Sprachen sprechen Sie bei der Arbeit?\nJasmin Frei: Deutsch, Französisch und Englisch. Italienisch kann ich leider nicht, aber ich lerne es gerade.\nModerator: Sind die Fahrgäste freundlich?\nJasmin Frei: Ja, die meisten sind sehr nett. Nur wenn ein Zug Verspätung hat, sind manche Leute nervös. Dann muss ich ruhig bleiben.\nModerator: Und in Ihrer Freizeit? Fahren Sie dann auch Zug?\nJasmin Frei: Ja, sehr gern sogar! Mit meiner Familie mache ich oft Ausflüge mit dem Zug, zum Beispiel ins Tessin.",
+      "en": "Radio-Interview: Menschen und Berufe",
+      "variety": "ch-std",
+      "speaker": "Moderator",
+      "source": {
+        "file": "a2-mock-1.yaml",
+        "id": "hoeren-4",
+        "pointer": [
+          "sections",
+          7,
+          "stimulus",
+          "audio"
+        ]
+      },
+      "exam": "a2-mock-1",
+      "path": "audio/stimulus-hoeren-4.mp3",
+      "voice": "zh-f",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-mock1-h4-seit.mp3",
+      "kind": "listening",
+      "text": "Moderator: Frau Frei, Sie sind Zugbegleiterin. Wie lange machen Sie das schon?\nJasmin Frei: Seit zwölf Jahren. Vorher habe ich in einem Hotel an der Rezeption gearbeitet.",
+      "variety": "ch-std",
+      "speaker": "Moderator",
+      "source": {
+        "file": "a2-mock-1.yaml",
+        "id": "a2-mock1-h4-seit",
+        "pointer": [
+          "sections",
+          7,
+          "exercises",
+          0,
+          "audio"
+        ]
+      },
+      "exam": "a2-mock-1",
+      "path": "audio/ex-a2-mock1-h4-seit.mp3",
+      "voice": "zh-m",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-mock1-h4-tag.mp3",
+      "kind": "listening",
+      "text": "Jasmin Frei: Das ist jeden Tag anders. Manchmal beginne ich schon um fünf Uhr am Morgen, manchmal arbeite ich bis Mitternacht. Ich kontrolliere die Billette, helfe den Fahrgästen und mache die Durchsagen.",
+      "variety": "ch-std",
+      "speaker": "Jasmin Frei",
+      "source": {
+        "file": "a2-mock-1.yaml",
+        "id": "a2-mock1-h4-tag",
+        "pointer": [
+          "sections",
+          7,
+          "exercises",
+          1,
+          "audio"
+        ]
+      },
+      "exam": "a2-mock-1",
+      "path": "audio/ex-a2-mock1-h4-tag.mp3",
+      "voice": "zh-f",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-mock1-h4-sprachen.mp3",
+      "kind": "listening",
+      "text": "Moderator: Welche Sprachen sprechen Sie bei der Arbeit?\nJasmin Frei: Deutsch, Französisch und Englisch. Italienisch kann ich leider nicht, aber ich lerne es gerade.",
+      "variety": "ch-std",
+      "speaker": "Moderator",
+      "source": {
+        "file": "a2-mock-1.yaml",
+        "id": "a2-mock1-h4-sprachen",
+        "pointer": [
+          "sections",
+          7,
+          "exercises",
+          2,
+          "audio"
+        ]
+      },
+      "exam": "a2-mock-1",
+      "path": "audio/ex-a2-mock1-h4-sprachen.mp3",
+      "voice": "zh-m",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-mock1-h4-fahrgaeste.mp3",
+      "kind": "listening",
+      "text": "Moderator: Sind die Fahrgäste freundlich?\nJasmin Frei: Ja, die meisten sind sehr nett. Nur wenn ein Zug Verspätung hat, sind manche Leute nervös. Dann muss ich ruhig bleiben.",
+      "variety": "ch-std",
+      "speaker": "Moderator",
+      "source": {
+        "file": "a2-mock-1.yaml",
+        "id": "a2-mock1-h4-fahrgaeste",
+        "pointer": [
+          "sections",
+          7,
+          "exercises",
+          3,
+          "audio"
+        ]
+      },
+      "exam": "a2-mock-1",
+      "path": "audio/ex-a2-mock1-h4-fahrgaeste.mp3",
+      "voice": "zh-f",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-mock1-h4-freizeit.mp3",
+      "kind": "listening",
+      "text": "Moderator: Und in Ihrer Freizeit? Fahren Sie dann auch Zug?\nJasmin Frei: Ja, sehr gern sogar! Mit meiner Familie mache ich oft Ausflüge mit dem Zug, zum Beispiel ins Tessin.",
+      "variety": "ch-std",
+      "speaker": "Moderator",
+      "source": {
+        "file": "a2-mock-1.yaml",
+        "id": "a2-mock1-h4-freizeit",
+        "pointer": [
+          "sections",
+          7,
+          "exercises",
+          4,
+          "audio"
+        ]
+      },
+      "exam": "a2-mock-1",
+      "path": "audio/ex-a2-mock1-h4-freizeit.mp3",
+      "voice": "zh-m",
+      "referenced": false
+    },
+    {
+      "file": "stimulus-lose-1.mp3",
+      "kind": "exam-stimulus",
+      "text": "Reto: Hoi Sandra, ich bis. Häsch churz Ziit?\nSandra: Hoi Reto! Ja, was isch?\nReto: Mir gönd doch am Samschtig uf Bärn. Weisch, wänn de Zug fahrt?\nSandra: Am halbi nüüni ab Züri HB, uf Gleis 16. Churz vor zää simmer z Bärn.\nReto: Und häsch s Billett scho gchauft?\nSandra: Ich ha es GA, drum bruuch ich keis. Aber du muesch dir e Tageskarte chaufe.\nReto: Ok, das mach ich hüt no. Söll ich öppis für dis Mami mitbringe?\nSandra: Wänn du wottsch, chasch Blueme mitbringe. Si hät Blueme mega gärn.\nReto: Guet. Und z Bärn – gömmer a d Aare?\nSandra: Wänn s Wätter schön isch, ja. Suscht gömmer is Museum.",
+      "en": "Es Telefon",
+      "variety": "gsw-zh",
+      "speaker": "Reto",
+      "source": {
+        "file": "a2-schwiiz-1.yaml",
+        "id": "lose-1",
+        "pointer": [
+          "sections",
+          0,
+          "stimulus",
+          "audio"
+        ]
+      },
+      "exam": "a2-schwiiz-1",
+      "path": "audio/stimulus-lose-1.mp3",
+      "voice": "zh-m",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-schwiiz1-l1-zug.mp3",
+      "kind": "listening",
+      "text": "Sandra: Am halbi nüüni ab Züri HB, uf Gleis 16. Churz vor zää simmer z Bärn.",
+      "variety": "gsw-zh",
+      "speaker": "Sandra",
+      "source": {
+        "file": "a2-schwiiz-1.yaml",
+        "id": "a2-schwiiz1-l1-zug",
+        "pointer": [
+          "sections",
+          0,
+          "exercises",
+          0,
+          "audio"
+        ]
+      },
+      "exam": "a2-schwiiz-1",
+      "path": "audio/ex-a2-schwiiz1-l1-zug.mp3",
+      "voice": "zh-f",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-schwiiz1-l1-billett.mp3",
+      "kind": "listening",
+      "text": "Sandra: Ich ha es GA, drum bruuch ich keis. Aber du muesch dir e Tageskarte chaufe.",
+      "variety": "gsw-zh",
+      "speaker": "Sandra",
+      "source": {
+        "file": "a2-schwiiz-1.yaml",
+        "id": "a2-schwiiz1-l1-billett",
+        "pointer": [
+          "sections",
+          0,
+          "exercises",
+          1,
+          "audio"
+        ]
+      },
+      "exam": "a2-schwiiz-1",
+      "path": "audio/ex-a2-schwiiz1-l1-billett.mp3",
+      "voice": "zh-f",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-schwiiz1-l1-tageskarte.mp3",
+      "kind": "listening",
+      "text": "Sandra: Aber du muesch dir e Tageskarte chaufe.\nReto: Ok, das mach ich hüt no.",
+      "variety": "gsw-zh",
+      "speaker": "Sandra",
+      "source": {
+        "file": "a2-schwiiz-1.yaml",
+        "id": "a2-schwiiz1-l1-tageskarte",
+        "pointer": [
+          "sections",
+          0,
+          "exercises",
+          2,
+          "audio"
+        ]
+      },
+      "exam": "a2-schwiiz-1",
+      "path": "audio/ex-a2-schwiiz1-l1-tageskarte.mp3",
+      "voice": "zh-f",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-schwiiz1-l1-geschenk.mp3",
+      "kind": "listening",
+      "text": "Reto: Söll ich öppis für dis Mami mitbringe?\nSandra: Wänn du wottsch, chasch Blueme mitbringe. Si hät Blueme mega gärn.",
+      "variety": "gsw-zh",
+      "speaker": "Reto",
+      "source": {
+        "file": "a2-schwiiz-1.yaml",
+        "id": "a2-schwiiz1-l1-geschenk",
+        "pointer": [
+          "sections",
+          0,
+          "exercises",
+          3,
+          "audio"
+        ]
+      },
+      "exam": "a2-schwiiz-1",
+      "path": "audio/ex-a2-schwiiz1-l1-geschenk.mp3",
+      "voice": "zh-m",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-schwiiz1-l1-wetter.mp3",
+      "kind": "listening",
+      "text": "Sandra: Wänn s Wätter schön isch, ja. Suscht gömmer is Museum.",
+      "variety": "gsw-zh",
+      "speaker": "Sandra",
+      "source": {
+        "file": "a2-schwiiz-1.yaml",
+        "id": "a2-schwiiz1-l1-wetter",
+        "pointer": [
+          "sections",
+          0,
+          "exercises",
+          4,
+          "audio"
+        ]
+      },
+      "exam": "a2-schwiiz-1",
+      "path": "audio/ex-a2-schwiiz1-l1-wetter.mp3",
+      "voice": "zh-f",
+      "referenced": false
+    },
+    {
+      "file": "stimulus-lose-2.mp3",
+      "kind": "exam-stimulus",
+      "text": "Sprecher: Nachricht 1.\nMami: Hoi Sandra! Am Mänti isch Zibelemärit. I gange scho am sächsi am Morge. Chunsch o?\n\nSprecher: Nachricht 2.\nMami: I ha der e Zibelezüpfe gchouft. Si isch no warm!\n\nSprecher: Nachricht 3.\nMami: Sandra, i ha der hüt zwöimau aaglütet. Lüt mer hüt am Abe a, gäu! Tschou!",
+      "en": "Drü Sprachnachrichte us Bärn",
+      "variety": "gsw-be",
+      "speaker": "Sprecher",
+      "source": {
+        "file": "a2-schwiiz-1.yaml",
+        "id": "lose-2",
+        "pointer": [
+          "sections",
+          1,
+          "stimulus",
+          "audio"
+        ]
+      },
+      "exam": "a2-schwiiz-1",
+      "path": "audio/stimulus-lose-2.mp3",
+      "voice": "be-m",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-schwiiz1-l2-maerit.mp3",
+      "kind": "listening",
+      "text": "Mami: Hoi Sandra! Am Mänti isch Zibelemärit. I gange scho am sächsi am Morge. Chunsch o?",
+      "variety": "gsw-be",
+      "speaker": "Mami",
+      "source": {
+        "file": "a2-schwiiz-1.yaml",
+        "id": "a2-schwiiz1-l2-maerit",
+        "pointer": [
+          "sections",
+          1,
+          "exercises",
+          0,
+          "audio"
+        ]
+      },
+      "exam": "a2-schwiiz-1",
+      "path": "audio/ex-a2-schwiiz1-l2-maerit.mp3",
+      "voice": "be-f",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-schwiiz1-l2-zuepfe.mp3",
+      "kind": "listening",
+      "text": "Mami: I ha der e Zibelezüpfe gchouft. Si isch no warm!",
+      "variety": "gsw-be",
+      "speaker": "Mami",
+      "source": {
+        "file": "a2-schwiiz-1.yaml",
+        "id": "a2-schwiiz1-l2-zuepfe",
+        "pointer": [
+          "sections",
+          1,
+          "exercises",
+          1,
+          "audio"
+        ]
+      },
+      "exam": "a2-schwiiz-1",
+      "path": "audio/ex-a2-schwiiz1-l2-zuepfe.mp3",
+      "voice": "be-f",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-schwiiz1-l2-aalute.mp3",
+      "kind": "listening",
+      "text": "Mami: Sandra, i ha der hüt zwöimau aaglütet. Lüt mer hüt am Abe a, gäu! Tschou!",
+      "variety": "gsw-be",
+      "speaker": "Mami",
+      "source": {
+        "file": "a2-schwiiz-1.yaml",
+        "id": "a2-schwiiz1-l2-aalute",
+        "pointer": [
+          "sections",
+          1,
+          "exercises",
+          2,
+          "audio"
+        ]
+      },
+      "exam": "a2-schwiiz-1",
+      "path": "audio/ex-a2-schwiiz1-l2-aalute.mp3",
+      "voice": "be-f",
+      "referenced": false
+    }
+  ]
+}

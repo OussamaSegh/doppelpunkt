@@ -48,6 +48,13 @@ describe('health and configuration', () => {
     expect(res.status).toBe(503);
   });
 
+  it('refuses the TEST private key under any key id unless ALLOW_TEST_KEY=1', async () => {
+    const res = await call(post('/v1/redeem', { code: generateCode('B1') }), { ...ENV, LICENSE_KEY_ID: 'prod2026', ALLOW_TEST_KEY: undefined });
+    expect(res.status).toBe(503);
+    const health = await bodyOf(await call(new Request('https://billing.example.org/v1/health', { headers: { origin: ORIGIN } }), { ...ENV, LICENSE_KEY_ID: 'prod2026', ALLOW_TEST_KEY: '0' }));
+    expect(health.configured.signing).toBe(false);
+  });
+
   it('rejects other origins', async () => {
     const res = await call(post('/v1/checkout', { sku: 'level-a2' }, { origin: 'https://evil.example' }));
     expect(res.status).toBe(403);
@@ -239,6 +246,14 @@ describe('POST /v1/redeem (book codes)', () => {
     expect((await call(post('/v1/redeem', { code: twice }))).status).toBe(409);
   });
 
+  it('a single-use code redeemed concurrently issues exactly one token', async () => {
+    const code = generateCode('B1');
+    await addCode(code);
+    const results = await Promise.all(Array.from({ length: 8 }, () => call(post('/v1/redeem', { code }))));
+    expect(results.map((r) => r.status).sort()).toEqual([200, 409, 409, 409, 409, 409, 409, 409]);
+    expect([...storage.purchases.values()].filter((p) => p.source === 'code')).toHaveLength(1);
+  });
+
   it('rejects typos before looking anything up, and unknown or revoked codes', async () => {
     const code = generateCode('B1');
     await addCode(code, { revoked: true });
@@ -249,6 +264,20 @@ describe('POST /v1/redeem (book codes)', () => {
     expect((await call(post('/v1/redeem', { code }))).status).toBe(404);
     expect((await call(post('/v1/redeem', { code: generateCode('B1') }))).status).toBe(404);
     expect((await call(post('/v1/redeem', { code: 42 }))).status).toBe(400);
+  });
+});
+
+describe('concurrent fulfilment', () => {
+  it('webhook, claim and restore racing for one session store one purchase and one token', async () => {
+    sessions.cs_test_a1b2c3d4e5f6 = session();
+    const [w, c, r] = await Promise.all([
+      webhook(completed()),
+      call(post('/v1/claim', { sessionId: 'cs_test_a1b2c3d4e5f6' })),
+      call(post('/v1/restore', { email: 'learner@example.org', reference: 'cs_test_a1b2c3d4e5f6' })),
+    ]);
+    expect([w.status, c.status, r.status]).toEqual([200, 200, 200]);
+    expect(storage.purchases.size).toBe(1);
+    expect((await bodyOf(c)).token).toBe((await bodyOf(r)).token);
   });
 });
 

@@ -173,59 +173,69 @@ items per unit and two or three lines from Sandra's mother in the Swiss-lane dia
 - **Swiss lane:** *schaffe*, Büez, Lehre / Lernende / Stifti (apprenticeship; s KV), Chef, Kolleg (also = friend), *streng* (= anstrengend, Duden: schweizerisch); short dative articles *em / de*, *eme / emene, ere / enere*, *bim* (beim), *mit em Velo*, *bi de Arbet*, *sit drü Jahr*; Znüni-Pause culture with a first *-li* (*es Käfeli*). Reading: a Swiss job ad with a Pensum (80–100 %) and Detailhandel. Intro dialogue with a ch-std colleague from Bern (Martin). Guided production: *em* or *de*. Bernese: *bi dr Büez, viu z tüe, hani, d Pouse, o mau*.
 - **Pronunciation:** z = ts (*Arbeitszeit, Teilzeit, zwölf*); W-question with a stressed short answer (*Seit wann …? – Seit ZWEI Jahren*); shadowing Tom and the Swiss Standard colleague.
 
-### A2.4 Geschenke und Einladungen – *Presents and invitations*
+### A2.4 Geschenke und Einladungen – *Presents and invitations* ✅ written
 - **Goal:** give and receive presents, and say what you like and what suits someone.
 - **Grammar:** verbs with dative (*helfen, gefallen, gehören, schmecken*); verbs with dative + accusative (*geben, schenken*); order of the objects.
 - **Vocabulary:** presents, parties, food at parties, compliments.
 - **Swiss lane:** *Das gfallt mer*; dative pronouns *mir / dir / em / ere*; *Das isch für dich*; *Merci, das wär doch nöd nötig gsii!*
+- **Pronunciation:** short and long ü (*Glückwunsch, für, natürlich*); rising yes/no question and falling enthusiastic answer (*Gefällt dir das Geschenk? – Ja, sehr!*); shadowing Tom and the Swiss Standard colleague (Nadine). Written with: dative verbs incl. *passen, stehen, danken, gratulieren*; invitation and thanks chunks; Swiss lane *mer / der / em / ere*, *ghöre*, *schmöcke* (false friend), Apéro, *Hüchlerbäse*; guided production *mer*; Bernese *gfaue, ds Gschänk, sech gfröit*.
 
-### A2.5 Umziehen und Einrichten – *Moving and furnishing*
+### A2.5 Umziehen und Einrichten – *Moving and furnishing* ✅ written
 - **Goal:** say where things are and where they go, and plan a move.
 - **Grammar:** two-way prepositions (*in, an, auf, über, unter, vor, hinter, neben, zwischen*): *Wo?* + dative, *Wohin?* + accusative; *stellen/stehen, legen/liegen, hängen*.
 - **Vocabulary:** furniture, the move, household objects.
 - **Swiss lane:** **-li diminutives**: Tischli, Hüsli, Chätzli, Bitzeli, Müsli. They are neuter and very frequent, and not always "small". Also *ufe / abe / ine / use* (direction).
+- **Pronunciation:** st / sp = scht / schp (*Stell den Stuhl, Spiegel*); falling Wohin? question with a stressed answer; shadowing Tom and Nadine. Written with: contractions *im / ins, am / ans*; Helvetisms *zügeln, Gang, Gestell, Estrich*; Swiss lane *-li* (Tischli, Chätzli, Müsli vs Müesli), *ufe / abe / ine / use, ane*, *i d Stube / i de Stube*; guided production *Tischli*; Bernese *zügle, Züglete, Möbu, Stüeli*.
 
-### A2.6 Vergleichen und Kaufen – *Comparing and buying*
+### A2.6 Vergleichen und Kaufen – *Comparing and buying* ✅ written
 - **Goal:** compare products and prices, and make a choice.
 - **Grammar:** comparative and superlative (*größer, am größten*; irregular *gut – besser – am besten*); *als* vs *wie*.
 - **Vocabulary:** shopping, electronics, quality, price, sales.
 - **Swiss lane:** *gröösser, am billigschte*; Aktion, Ausverkauf; *tüür / günschtig*; *das isch gäbig*.
+- **Pronunciation:** ö vs o (*größer, schöner, höher*); either-or question intonation; shadowing Tom and Martin. Written with: shopping chunks (advice, paying, exchanging); a special-offer flyer; Swiss lane *gröösser, am billigschte, z tüür, günschtig, gäbig, i de Aktion*, *als / wie / weder*; Occasion, Ausverkauf; guided production *gröösser*; Bernese *chöschtlech, aus* (= als).
 
-### A2.7 Gesund leben – *Living healthily*
+### A2.7 Gesund leben – *Living healthily* ✅ written
 - **Goal:** talk about routines, fitness and well-being, and give simple advice.
 - **Grammar:** reflexive verbs (*sich waschen, sich fühlen, sich freuen*); reflexive pronouns in the accusative; *sich* + dative with body parts (preview).
 - **Vocabulary:** sport, food, sleep, stress, the body.
 - **Swiss lane:** **go + infinitive**: *Ich gang go jogge*, *Mir gönd go poschte*; *sich fröie*; *müed, gstresst*.
+- **Pronunciation:** the ich-Laut (*mich, dich, sich, richtig*); friendly advice intonation (*Ruh dich doch mal aus!*); shadowing Tom and Nadine. Written with: simple advice (imperative + doch / mal, müssen, am besten); a magazine text with tips; Swiss lane *go jogge, gömmer go schwümme, Ich bi go jogge*, *Ich fröi mich*, *tönt guet* (Duden), *Pfnüsel*; guided production *go*; Bernese *müed, i fröie mi, tschogge*.
 
-### A2.8 Schule und Lernen – *School and learning*
+### A2.8 Schule und Lernen – *School and learning* ✅ written
 - **Goal:** talk about your education and give reasons.
 - **Grammar:** subordinate clauses with *weil, dass*; verb-final word order; *denn* vs *weil*.
 - **Vocabulary:** school, subjects, exams, languages, learning strategies.
 - **Swiss lane:** the Swiss school system (Kindergarte, Primar, Sek, Gymi, Lehre); *wil* (weil), *dass*; Matur (ch-std for Abitur).
+- **Pronunciation:** the glottal stop (*ich | arbeite | am | Abend*); main clause rising before a weil-clause; shadowing Tom and Martin. Written with: weil / dass with modal, separable and Perfekt verbs; subordinate clause first (verb – comma – verb); the Swiss school system (EDK: 11 compulsory years); Swiss lane *wil, dass, Chindsgi, Sek, Gymi, Gymiprüefig*; guided production *wil*; Bernese *wüu, Schuel, lehre* (= lernen), *Prüefig bestande*.
 
-### A2.9 Feste und Bräuche – *Customs and traditions*
+### A2.9 Feste und Bräuche – *Customs and traditions* ✅ written
 - **Goal:** describe a festival or tradition from your country and from Switzerland.
 - **Grammar:** *wenn* (repeated/present) vs *als* (single past event); *wenn* for conditions; ordinal numbers and dates (review).
 - **Vocabulary:** festivals, seasons, customs, food at festivals.
 - **Swiss lane:** Fasnacht, Räbeliechtli, Zibelemärit (Bern), Chlausjage; *wänn* in dialect is used for both *wenn* and *als*.
 
-### A2.10 Medien und Kommunikation – *Media and messaging*
+### A2.10 Medien und Kommunikation – *Media and messaging* ✅ written
 - **Goal:** talk about how you use media, write messages and short emails.
 - **Grammar:** indirect questions (*ob*, W-word + verb-final); connectors *deshalb, trotzdem, dann*; *zu* + infinitive (basic).
 - **Vocabulary:** phones, apps, the internet, emails, the news.
 - **Swiss lane:** how Swiss people **text** in dialect (WhatsApp spelling, abbreviations such as *hdl*, *ok, bis morn*); *Händ en schöne Abig*; recognising written dialect.
 
-### A2.11 Natur und Umwelt – *Nature and the environment*
+### A2.11 Natur und Umwelt – *Nature and the environment* ✅ written
 - **Goal:** talk about nature, weekends outdoors and recycling.
 - **Grammar:** polite requests with *würde* and *könnte* (as chunks); indefinite pronouns (*man, jemand, niemand*); review of the dative.
 - **Vocabulary:** landscape, animals, weather, recycling, rubbish.
 - **Swiss lane:** recycling rules (PET, Altglas, Güselsack, Grüngut); Bärg, See, wandere; *öpper, niemert, öppis, nüt*.
 
-### A2.12 Unterwegs in der Schweiz – *Around Switzerland* (A2 review)
+### A2.12 Unterwegs in der Schweiz – *Around Switzerland* (A2 review) ✅ written
 - **Goal:** plan and describe a trip in Switzerland; review of A2.
 - **Grammar:** review of Perfekt, dative, two-way prepositions and subordinate clauses.
 - **Vocabulary:** cantons, cities, the train, sights, regional food.
 - **Swiss lane:** first comparison of regional greetings and words (Zurich *Grüezi*, Bern *Grüessech*, Basel *Grüezi / Hoi*); listening to a short Bernese sample as a preview.
+
+### A2 mock exams ✅ written
+- `content/a2/exam/a2-mock-1.yaml`: A2 Modelltest 1 in the Goethe-Zertifikat A2 format (Lesen, Hören, Schreiben, Sprechen; 80 points, pass at 60 %).
+- `content/a2/exam/a2-schwiiz-1.yaml`: Schwiiz-Check A2, Doppelpunkt's own Swiss-lane check (Zurich German, Bernese recognition, one guided production gap; no official exam exists).
+- Format, scoring and sources: [EXAMS.md](EXAMS.md).
 
 ---
 

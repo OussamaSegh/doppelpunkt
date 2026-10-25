@@ -1,0 +1,677 @@
+# A2 unit 7 – Gesund leben
+
+# ---------- vocabulary ----------
+- id: a2-u07-match-health
+  type: match
+  skill: vocabulary
+  variety: de
+  prompt: Match the health words with English.
+  pairs:
+    - ["die Ernährung", "diet"]
+    - ["das Gemüse", "vegetables"]
+    - ["der Schlaf", "sleep"]
+    - ["der Rücken", "back"]
+    - ["der Schnupfen", "cold (runny nose)"]
+    - ["die Bewegung", "exercise"]
+  explanation: >-
+    Gemüse and Obst are uncountable (no plural). der Schnupfen is a runny nose; a heavier cold is eine
+    Erkältung (A1.11).
+
+- id: a2-u07-match-reflexive
+  type: match
+  skill: vocabulary
+  variety: de
+  prompt: Match the reflexive verbs with English.
+  pairs:
+    - ["sich ausruhen", "to rest"]
+    - ["sich beeilen", "to hurry"]
+    - ["sich erholen", "to recover"]
+    - ["sich anziehen", "to get dressed"]
+    - ["sich entspannen", "to relax"]
+    - ["sich treffen", "to meet"]
+  explanation: >-
+    In English these verbs have no 'myself', but in German the reflexive pronoun is part of the verb: Ich ruhe
+    mich aus. Beeil dich! Wir treffen uns.
+
+# ---------- grammar: reflexive pronouns ----------
+- id: a2-u07-mcq-mich
+  type: mcq
+  skill: grammar
+  variety: ch-std
+  grammar: [reflexive-verbs, reflexive-pronouns]
+  prompt: Choose the correct pronoun.
+  question: Jetzt fühle ich ___ viel fitter.
+  options: ["mich", "mir", "sich", "ich"]
+  answer: 0
+  rationales:
+    - "Correct. ich → mich."
+    - "mir is dative – only with another object (Ich wasche mir die Hände)."
+    - "sich is for er / sie / es / sie / Sie."
+    - "ich is already the subject."
+  explanation: >-
+    The reflexive pronoun matches the subject: ich → mich, du → dich, er / sie / es → sich, wir → uns, ihr →
+    euch, sie / Sie → sich. After inversion it follows the subject: Jetzt fühle ich mich …
+
+- id: a2-u07-gap-pronouns
+  type: gap
+  skill: grammar
+  variety: de
+  grammar: [reflexive-pronouns]
+  prompt: "Fill in the reflexive pronoun."
+  text: Du bewegst ___ zu wenig. Wir treffen ___ um sieben. Freut ihr ___ auf die Ferien?
+  answers: [["dich"], ["uns"], ["euch"]]
+  explanation: >-
+    du → dich, wir → uns, ihr → euch. Only the third person (and formal Sie) uses sich.
+
+- id: a2-u07-gap-sich
+  type: gap
+  skill: grammar
+  variety: de
+  grammar: [reflexive-pronouns]
+  prompt: "Fill in the reflexive pronoun."
+  text: Nadine ruht ___ am Wochenende aus. Fühlen Sie ___ besser, Frau Keller? Die Kinder ziehen ___ an.
+  answers: [["sich"], ["sich"], ["sich"]]
+  explanation: >-
+    er / sie / es, sie (plural) and formal Sie all take sich – always with a small s, even with formal Sie.
+
+- id: a2-u07-mcq-sie-sich
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [reflexive-pronouns, du-sie]
+  prompt: You ask your doctor's receptionist. Which is correct?
+  options: ["Fühlen Sie Sie besser?", "Fühlen Sie Sich besser?", "Fühlen Sie sich besser?", "Fühlen Sie Ihnen besser?"]
+  answer: 2
+  rationales:
+    - "The reflexive pronoun of Sie is sich, not Sie."
+    - "The reflexive sich is never capitalised."
+    - "Correct. Formal Sie → sich (small s)."
+    - "Ihnen is dative; fühlen needs the accusative reflexive."
+  explanation: >-
+    Formal Sie has the reflexive pronoun sich, written with a small s: Fühlen Sie sich besser? Ruhen Sie sich
+    aus!
+
+- id: a2-u07-mcq-perfekt
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [reflexive-verbs, perfekt-haben]
+  prompt: Choose the correct Perfekt.
+  question: In den Ferien ___ gut erholt.
+  options: ["bin ich mich", "habe mich ich", "bin ich", "habe ich mich"]
+  answer: 3
+  rationales:
+    - "Reflexive verbs take haben, not sein."
+    - "The subject comes before the pronoun."
+    - "Reflexive verbs take haben – and the pronoun mich is missing."
+    - "Correct. haben + subject + reflexive pronoun … participle."
+  explanation: >-
+    Reflexive verbs form the Perfekt with haben: Ich habe mich erholt. After inversion: In den Ferien habe ich
+    mich gut erholt (verb – subject – pronoun).
+
+- id: a2-u07-transform-perfekt
+  type: transform
+  skill: grammar
+  variety: de
+  grammar: [reflexive-verbs, perfekt-haben]
+  prompt: "Put the sentence into the Perfekt."
+  from: de
+  to: de
+  source: Wir treffen uns am See.
+  answers: ["Wir haben uns am See getroffen."]
+  explanation: >-
+    treffen is irregular: getroffen. Reflexive verbs take haben, and the pronoun uns stays after the
+    auxiliary: Wir haben uns … getroffen.
+
+- id: a2-u07-gap-separable
+  type: gap
+  skill: grammar
+  variety: ch-std
+  grammar: [reflexive-verbs, separable-verbs]
+  prompt: "Separable reflexive verbs: fill in the pronoun and the prefix."
+  text: Ich stehe um sechs auf und ziehe ___ ___. Am Sonntag ruhe ich mich ___.
+  answers: [["mich"], ["an"], ["aus"]]
+  explanation: >-
+    sich anziehen and sich ausruhen are separable: the prefix goes to the end, the pronoun stays after the
+    verb: Ich ziehe mich an. Ich ruhe mich aus.
+
+# ---------- grammar: reflexive verbs ----------
+- id: a2-u07-mcq-freuen-auf
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [reflexive-verbs]
+  prompt: "How do you say \"I'm looking forward to the weekend\"?"
+  options: ["Ich freue mich über das Wochenende.", "Ich freue mich auf das Wochenende.", "Ich freue auf das Wochenende.", "Ich bin froh auf das Wochenende."]
+  answer: 1
+  rationales:
+    - "sich freuen über = to be happy about something that has happened or is here."
+    - "Correct. sich freuen auf + accusative = to look forward to."
+    - "freuen needs the reflexive pronoun mich."
+    - "froh sein doesn't take auf."
+  explanation: >-
+    sich freuen auf (the future): Ich freue mich auf das Wochenende. sich freuen über (now / the past): Ich
+    freue mich über das Geschenk.
+
+- id: a2-u07-mcq-waschen
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [reflexive-verbs]
+  prompt: "Which sentence means \"I'm having a wash\"?"
+  options: ["Ich wasche.", "Ich wasche das Auto.", "Ich wasche mir.", "Ich wasche mich."]
+  answer: 3
+  rationales:
+    - "waschen needs an object."
+    - "That's washing the car."
+    - "mir needs another object (mir die Hände)."
+    - "Correct. You wash yourself: mich."
+  explanation: >-
+    waschen can have any object (das Auto, das Kind). When you wash yourself it is reflexive: Ich wasche mich.
+    With another object the pronoun becomes dative: Ich wasche mir die Hände.
+
+- id: a2-u07-match-situations
+  type: match
+  skill: grammar
+  variety: de
+  grammar: [reflexive-verbs, reflexive-pronouns]
+  prompt: Match the beginnings with the endings.
+  pairs:
+    - ["Nach dem Sport dusche ich", "mich."]
+    - ["Wie fühlst du", "dich heute?"]
+    - ["Am Samstag treffen wir", "uns im Park."]
+    - ["Der Zug fährt gleich – beeilt", "euch!"]
+  explanation: >-
+    Each pronoun matches its subject: ich – mich, du – dich, wir – uns, ihr – euch (the ihr imperative beeilt
+    euch!).
+
+- id: a2-u07-order-ausruhen
+  type: order
+  skill: grammar
+  variety: ch-std
+  grammar: [reflexive-verbs, reflexive-pronouns, separable-verbs]
+  prompt: Put the words in order.
+  tokens: ["Am", "Wochenende", "ruhe", "ich", "mich", "richtig", "aus"]
+  answers: ["Am Wochenende ruhe ich mich richtig aus.", "Ich ruhe mich am Wochenende richtig aus."]
+  explanation: >-
+    Verb in position 2, then subject, then the reflexive pronoun; the prefix aus goes to the end.
+
+- id: a2-u07-order-treffen
+  type: order
+  skill: grammar
+  variety: de
+  grammar: [reflexive-verbs, modal-koennen-wollen]
+  prompt: Put the words in order.
+  tokens: ["Wir", "können", "uns", "am", "Donnerstag", "treffen"]
+  answers: ["Wir können uns am Donnerstag treffen.", "Am Donnerstag können wir uns treffen."]
+  explanation: >-
+    With a modal verb the infinitive goes to the end; the reflexive pronoun stays near the front, after the
+    modal (and after the subject if it is inverted).
+
+- id: a2-u07-mcq-position
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [reflexive-pronouns]
+  prompt: Choose the correct word order.
+  options: ["Heute ich fühle mich gut.", "Heute fühle mich ich gut.", "Heute fühle ich mich gut.", "Heute mich fühle ich gut."]
+  answer: 2
+  rationales:
+    - "The verb must be in position 2."
+    - "A pronoun subject comes before the reflexive pronoun."
+    - "Correct. Verb – subject – reflexive pronoun."
+    - "The verb must be in position 2."
+  explanation: >-
+    After a time word the verb comes second, then the subject, then the reflexive pronoun: Heute fühle ich
+    mich gut.
+
+# ---------- grammar: sich + dative, advice ----------
+- id: a2-u07-gap-dative-body
+  type: gap
+  skill: grammar
+  variety: de
+  grammar: [reflexive-dative-body]
+  prompt: "Preview: fill in mir or mich."
+  text: Ich wasche ___. Dann putze ich ___ die Zähne und ziehe ___ eine Jacke an.
+  answers: [["mich"], ["mir"], ["mir"]]
+  explanation: >-
+    No other object → accusative mich. With another object (die Zähne, eine Jacke) the reflexive pronoun is
+    dative: mir.
+
+- id: a2-u07-translate-teeth
+  type: translate
+  skill: writing
+  variety: de
+  grammar: [reflexive-dative-body]
+  prompt: Translate into German.
+  source: I brush my teeth in the morning.
+  answers: ["Ich putze mir am Morgen die Zähne.", "Am Morgen putze ich mir die Zähne.", "Ich putze mir morgens die Zähne.", "Morgens putze ich mir die Zähne."]
+  explanation: >-
+    German says mir die Zähne (dative reflexive + the article), not meine Zähne. Time before the object: mir
+    am Morgen die Zähne.
+
+- id: a2-u07-gap-advice
+  type: gap
+  skill: grammar
+  variety: de
+  grammar: [giving-advice, imperative, reflexive-pronouns]
+  prompt: "Give advice to a friend (du): fill in the imperative and the pronoun."
+  text: Du bist so müde. ___ dich doch aus! Und morgen ___ du mehr schlafen.
+  answers: [["Ruh", "Ruhe"], ["musst"]]
+  explanation: >-
+    The du imperative of sich ausruhen: Ruh dich aus! (the pronoun stays). müssen for strong advice: Du musst
+    mehr schlafen.
+
+- id: a2-u07-mcq-advice
+  type: mcq
+  skill: speaking
+  variety: de
+  grammar: [giving-advice]
+  prompt: Your colleague can't sleep. Which piece of advice sounds friendly and natural?
+  options: ["Am besten legst du das Handy eine Stunde vor dem Schlafen weg.", "Du schläfst schlecht.", "Leg weg das Handy!", "Du musst nicht schlafen."]
+  answer: 0
+  rationales:
+    - "Correct. Am besten … is a friendly way to give advice."
+    - "This only states the problem."
+    - "The prefix weg goes to the end: Leg das Handy weg!"
+    - "This says the opposite."
+  explanation: >-
+    Am besten + verb + subject is a soft way to advise. Also: Leg das Handy doch weg! Du kannst auch Yoga
+    machen.
+
+- id: a2-u07-transform-imperative
+  type: transform
+  skill: grammar
+  variety: de
+  grammar: [giving-advice, imperative, reflexive-pronouns]
+  prompt: "Make it an imperative for a friend (du)."
+  from: de
+  to: de
+  source: Du musst dich beeilen.
+  answers: ["Beeil dich!", "Beeile dich!", "Beeil dich doch!"]
+  explanation: >-
+    du beeilst dich → Beeil dich! The verb comes first, -st and du disappear, the pronoun dich stays.
+
+- id: a2-u07-translate-rest
+  type: translate
+  skill: writing
+  variety: de
+  grammar: [giving-advice, reflexive-verbs]
+  prompt: Translate into German (informal).
+  source: You look tired. Have a rest!
+  answers: ["Du siehst müde aus. Ruh dich aus!", "Du siehst müde aus. Ruhe dich aus!", "Du siehst müde aus. Ruh dich doch aus!", "Du siehst müde aus. Ruh dich mal aus!"]
+  explanation: >-
+    aussehen (to look) is separable: du siehst … aus. Have a rest = Ruh dich aus! (sich ausruhen, imperative).
+
+# ---------- reading ----------
+- id: a2-u07-mcq-reading-move
+  type: mcq
+  skill: reading
+  variety: ch-std
+  prompt: Read the tips. What does tip 1 say?
+  options: ["Go to the gym every day.", "Cycle to work at least twice a week.", "Move for at least 30 minutes every day – a walk is fine too.", "Only sport in the gym helps against stress."]
+  answer: 2
+  explanation: >-
+    "Bewegen Sie sich jeden Tag – mindestens 30 Minuten. Sie müssen nicht ins Fitness gehen." Swiss Standard
+    says das Fitness for the gym.
+
+- id: a2-u07-mcq-reading-sleep
+  type: mcq
+  skill: reading
+  variety: ch-std
+  prompt: What should you do one hour before you go to sleep?
+  options: ["Drink a glass of water", "Put your phone away", "Go for a walk", "Eat some fruit"]
+  answer: 1
+  explanation: >-
+    "Legen Sie das Handy eine Stunde vor dem Schlafen weg." The glass of water is in tip 4 (every hour at
+    work).
+
+- id: a2-u07-translate-reading
+  type: translate
+  skill: reading
+  variety: ch-std
+  prompt: Translate into English.
+  source: Freuen Sie sich auch über kleine Dinge.
+  answers: ["Enjoy the little things too.", "Be happy about little things too.", "Enjoy small things too.", "Take pleasure in the little things too."]
+  explanation: >-
+    sich freuen über = to be happy about, to enjoy. A formal imperative: Freuen Sie sich! (verb first, Sie,
+    then sich).
+
+# ---------- listening ----------
+- id: a2-u07-mcq-listening-nadine
+  type: mcq
+  skill: listening
+  variety: de
+  prompt: Listen to the intro dialogue again. When does Nadine go jogging?
+  options: ["After work", "At the weekend", "At lunchtime", "In the morning before work"]
+  answer: 3
+  explanation: >-
+    "Am Morgen, vor der Arbeit. Ich stehe um sechs auf, ziehe mich an und jogge eine halbe Stunde am See."
+
+- id: a2-u07-mcq-listening-stress
+  type: mcq
+  skill: listening
+  variety: ch-std
+  grammar: [reflexive-verbs]
+  prompt: Listen to Nadine. What does she do against stress?
+  transcript: |-
+    Nadine: Am Wochenende ruhe ich mich richtig aus. Und am Abend schaue ich nicht mehr aufs Handy.
+  options: ["She does yoga in the evening.", "She rests properly at the weekend and doesn't look at her phone in the evening.", "She sleeps ten hours at the weekend.", "She switches off her phone at work."]
+  answer: 1
+  explanation: >-
+    ruhe ich mich aus = sich ausruhen (separable reflexive). aufs Handy = auf das Handy.
+
+- id: a2-u07-dictation-fuehlen
+  type: dictation
+  skill: listening
+  variety: de
+  grammar: [reflexive-pronouns]
+  prompt: Listen and write what you hear.
+  transcript: Fühlst du dich heute nicht gut?
+  explanation: >-
+    du → dich. In a question the pronoun follows the subject: Fühlst du dich …?
+
+- id: a2-u07-dictation-treffen
+  type: dictation
+  skill: listening
+  variety: de
+  grammar: [reflexive-verbs]
+  prompt: Listen and write what you hear.
+  transcript: Wir treffen uns am Donnerstag um halb sieben.
+  explanation: >-
+    sich treffen = to meet (each other): wir → uns. halb sieben = 6.30.
+
+# ---------- speaking ----------
+- id: a2-u07-speak-frame
+  type: speak
+  skill: speaking
+  variety: de
+  grammar: [reflexive-verbs, reflexive-pronouns]
+  prompt: "Read aloud, then describe your own morning."
+  target: Ich stehe um sieben auf, dusche mich und ziehe mich an. Dann frühstücke ich und beeile mich zum Bus.
+  explanation: >-
+    A routine with reflexive verbs: dusche mich, ziehe mich an, beeile mich. Swap in your own times and
+    habits.
+
+- id: a2-u07-speak-shadow-tom
+  type: speak
+  skill: speaking
+  variety: de
+  grammar: [reflexive-verbs]
+  prompt: "Shadowing: speak along with Tom's line from the intro dialogue, then say it alone."
+  target: Doch, aber ich bin total gestresst. Ich schlafe schlecht und bewege mich zu wenig.
+  explanation: >-
+    DOCH answers a negative question (Fühlst du dich nicht gut?). Stress toTAL geSTRESST and WE-nig. ich and
+    mich have the soft ich-sound. See the drill The ich-Laut (soft ch).
+
+- id: a2-u07-speak-shadow-nadine
+  type: speak
+  skill: speaking
+  variety: ch-std
+  grammar: [reflexive-verbs, separable-verbs]
+  prompt: "Shadowing: speak along with Nadine, then say it alone."
+  target: Am Morgen, vor der Arbeit. Ich stehe um sechs auf, ziehe mich an und jogge eine halbe Stunde am See.
+  explanation: >-
+    Swiss Standard German: the r is tapped and -er in der is not reduced; ch in mich and ich is the back sound
+    for many Swiss speakers. See the drill The Swiss Standard German accent.
+
+- id: a2-u07-speak-intonation
+  type: speak
+  skill: speaking
+  variety: de
+  grammar: [giving-advice]
+  prompt: "Intonation: friendly advice with doch falls gently; stress the verb prefix."
+  target: Ruh dich doch mal aus!
+  explanation: >-
+    In Ruh dich doch mal AUS! the stress is on the prefix aus, and the voice falls at the end. doch and mal
+    are unstressed and make it friendly, not an order.
+
+- id: a2-u07-speak-pron-ich
+  type: speak
+  skill: speaking
+  variety: de
+  grammar: [reflexive-pronouns]
+  prompt: "Pronunciation: the ich-Laut. Read aloud slowly."
+  target: Ich fühle mich richtig fit, und ich freue mich, dass sich alle so viel bewegen.
+  explanation: >-
+    ich, mich, sich, richtig: the soft ch after i (and e, ä, ö, ü, ei, eu) – smile and whisper the y of
+    yes. Don't say k or sh. See the drill The ich-Laut (soft ch).
+
+# ---------- roleplay and writing ----------
+- id: a2-u07-roleplay-lena
+  type: roleplay
+  skill: speaking
+  variety: de
+  grammar: [reflexive-verbs, reflexive-pronouns, giving-advice]
+  tutor: lena
+  prompt: "Roleplay with Lena: feeling stressed."
+  scenario: >-
+    Lena has been very stressed lately and sleeps badly. Ask her how she feels and what her day is like,
+    then give her two or three pieces of advice. Tell her what you do to relax.
+  goals:
+    - Ask how she feels with sich fühlen (Wie fühlst du dich?).
+    - Use at least three reflexive verbs with the right pronoun.
+    - Give advice with an imperative, müssen / können or am besten.
+    - Say what you do to relax (Ich entspanne mich beim …).
+  model: |
+    Du: Hallo Lena! Wie fühlst du dich?
+    Lena: Nicht so gut. Ich bin total gestresst und schlafe schlecht.
+    Du: Bewegst du dich genug?
+    Lena: Nein, ich sitze den ganzen Tag am Computer.
+    Du: Dann geh doch in der Mittagspause spazieren! Und am besten legst du am Abend das Handy weg.
+    Lena: Gute Idee. Und was machst du gegen Stress?
+    Du: Ich mache Yoga. Dabei entspanne ich mich gut. Am Wochenende treffe ich mich mit Freunden.
+    Lena: Das klingt gut. Ich freue mich schon aufs Wochenende!
+  explanation: >-
+    Reflexive verbs: fühlst du dich, bewegst du dich, entspanne ich mich, treffe ich mich, freue mich. Advice:
+    imperative with doch, am besten.
+
+- id: a2-u07-write-routine
+  type: write
+  skill: writing
+  variety: de
+  grammar: [reflexive-verbs, reflexive-pronouns, giving-advice, perfekt-haben]
+  prompt: Write about your healthy (or unhealthy) week.
+  task: >-
+    A friend asks how you keep fit. Write a message (6–8 sentences): describe your normal day, what you do for
+    sport, sleep and food, how you felt last week, and give your friend one tip.
+  minWords: 50
+  model: >-
+    Hallo Sam! Unter der Woche stehe ich um sieben auf, dusche mich und ziehe mich schnell an. Ich fahre mit
+    dem Velo zur Arbeit, so bewege ich mich jeden Tag ein bisschen. Am Mittwoch gehe ich ins Fitnessstudio.
+    Letzte Woche habe ich mich aber nicht gut gefühlt: Ich hatte einen Schnupfen und habe mich viel
+    ausgeruht. Jetzt esse ich mehr Gemüse und trinke viel Wasser. Mein Tipp für dich: Am besten triffst du dich
+    am Wochenende mit Freunden zum Wandern. Liebe Grüße, Alex
+  checklist:
+    - I use at least four reflexive verbs with the right pronoun (mich, dich, sich …).
+    - In questions and after inversion the pronoun comes after the subject (habe ich mich …).
+    - I use the Perfekt with haben for reflexive verbs (habe mich gefühlt).
+    - I give advice with an imperative, müssen, können or am besten.
+  explanation: >-
+    Reflexive verbs in the present (dusche mich), with separable prefixes (ziehe mich an), in the Perfekt
+    (habe mich ausgeruht), and advice with am besten.
+
+# ---------- Swiss Standard German ----------
+- id: a2-u07-chstd-match
+  type: match
+  skill: vocabulary
+  variety: ch-std
+  prompt: Match the Swiss Standard German words with the words used in Germany.
+  pairs:
+    - ["das Fitness", "das Fitnessstudio"]
+    - ["die Früchte", "das Obst"]
+    - ["Das tönt gut.", "Das klingt gut."]
+    - ["regelmässig", "regelmäßig"]
+  explanation: >-
+    tönen in the sense of klingen is Swiss (Duden: schweizerisch). Swiss shops and menus often say Früchte for
+    Obst, and a gym is often just das Fitness. Swiss spelling: ss for ß.
+
+# ---------- Swiss lane (gsw-zh) ----------
+- id: a2-u07-ch-mcq-muued
+  type: mcq
+  skill: listening
+  variety: gsw-zh
+  prompt: Listen to Reto. Why is he tired?
+  transcript: |-
+    Reto: Ich bi total gstresst. Im Kafi isch so vill los, und ich schlaf schlächt.
+  options: ["He has been jogging.", "He has a cold.", "He is stressed, it's busy at the café and he sleeps badly.", "He went out late last night."]
+  answer: 2
+  rationales:
+    - "Sandra suggests jogging later."
+    - "He doesn't mention being ill."
+    - "Correct. gstresst = gestresst, vill los = viel los, schlächt = schlecht."
+    - "He says nothing about going out."
+  explanation: >-
+    Ich bi total gstresst = Ich bin total gestresst. es isch vill los = es ist viel los (it's busy). ich schlaf
+    schlächt = ich schlafe schlecht.
+
+- id: a2-u07-ch-transform-go
+  type: transform
+  skill: reading
+  variety: gsw-zh
+  prompt: What does Sandra say? Write it in Standard German.
+  from: gsw-zh
+  to: de
+  source: Ich gang am Abig go jogge – chunnsch mit?
+  answers: ["Ich gehe am Abend joggen – kommst du mit?", "Ich gehe heute Abend joggen – kommst du mit?", "Ich gehe am Abend joggen. Kommst du mit?"]
+  explanation: >-
+    go + infinitive: Ich gang go jogge = Ich gehe joggen. Standard German has no word for go. chunnsch mit? =
+    kommst du mit? (the du is dropped).
+
+- id: a2-u07-ch-match-go
+  type: match
+  skill: vocabulary
+  variety: gsw-zh
+  prompt: Match the Zurich German phrases with Standard German.
+  pairs:
+    - ["Ich gang go jogge.", "Ich gehe joggen."]
+    - ["Mir gönd go poschte.", "Wir gehen einkaufen."]
+    - ["Gömmer go schwümme?", "Gehen wir schwimmen?"]
+    - ["Ich bi go jogge.", "Ich bin joggen gegangen."]
+  explanation: >-
+    go stands before the infinitive after gaa (gehen). In the past gange disappears: Ich bi go jogge. poschte =
+    einkaufen, gömmer = gehen wir.
+
+- id: a2-u07-ch-mcq-froei
+  type: mcq
+  skill: grammar
+  variety: gsw-zh
+  grammar: [reflexive-verbs]
+  prompt: "What is \"Ich fröi mich!\" in Standard German?"
+  options: ["Ich bin froh.", "Ich freue mich!", "Ich fühle mich gut.", "Ich ruhe mich aus."]
+  answer: 1
+  rationales:
+    - "Close in meaning, but fröie is the verb freuen."
+    - "Correct. sich fröie = sich freuen (eu → öi)."
+    - "That would be Ich füel mich guet."
+    - "That would be Ich ruebe mich uus / ich ruhe mich uus."
+  explanation: >-
+    Standard eu often becomes öi in Swiss German: freuen → fröie, neu → nöi (Bernese). The reflexive pronoun works as in Standard German: ich fröi mich.
+
+- id: a2-u07-ch-mcq-gommer
+  type: mcq
+  skill: listening
+  variety: gsw-zh
+  prompt: Listen to Sandra. What does she suggest instead of jogging?
+  transcript: |-
+    Sandra: Dänn gömmer halt go schwümme. Im Hallebad isch es schön warm.
+  options: ["Going for a walk", "Going to the gym", "Staying at home", "Going swimming at the indoor pool"]
+  answer: 3
+  rationales:
+    - "There is no walk in her suggestion."
+    - "She says Hallebad, not Fitness."
+    - "She suggests going out."
+    - "Correct. gömmer go schwümme = gehen wir schwimmen, s Hallebad = das Hallenbad."
+  explanation: >-
+    gömmer = gehen wir (gönd mir), go schwümme = schwimmen (go + infinitive), halt = then, just (a filler).
+
+- id: a2-u07-ch-gap-go
+  type: gap
+  skill: grammar
+  variety: gsw-zh
+  prompt: "Guided production: write the little word that Zurich German puts before the infinitive after gaa (gehen)."
+  text: Morn gönd mir zäme ___ poschte.
+  answers: [["go"]]
+  explanation: >-
+    go + infinitive: Mir gönd go poschte = Wir gehen einkaufen. Ich gang go jogge. go is never left out after
+    gaa when you go somewhere to do something.
+
+- id: a2-u07-ch-transform-de-gsw
+  type: transform
+  skill: vocabulary
+  variety: gsw-zh
+  prompt: "Recognition: how do you say this in Zurich German? (Common spellings are accepted.)"
+  from: de
+  to: gsw-zh
+  source: Ich bin müde.
+  answers: ["Ich bi müed.", "Ich bin müed."]
+  explanation: >-
+    bin → bi, müde → müed (Swiss üe diphthong, no final -e).
+
+- id: a2-u07-roleplay-reto
+  type: roleplay
+  skill: listening
+  variety: gsw-zh
+  grammar: [reflexive-verbs, giving-advice]
+  tutor: reto
+  prompt: "Listening roleplay with Reto: a sporty Saturday."
+  scenario: >-
+    Reto wants to get fit. He tells you in Zurich German what he plans for Saturday and asks you to come
+    along. You answer in Standard German and give him a tip.
+  goals:
+    - Understand go + infinitive (go jogge, go schwümme, go poschte).
+    - Understand müed, gstresst and Ich fröi mich.
+    - Answer, say what you do for your health and give a tip.
+  model: |
+    Reto: Am Samschtig gang ich zersch go jogge, und am Namittag gömmer go schwümme. Chunnsch mit?
+    Du: Gern! Aber joggen ist mir zu anstrengend. Ich komme nur schwimmen.
+    Reto: Kei Problem. Ich bi immer so müed am Morge …
+    Du: Dann geh doch am Abend früher ins Bett!
+    Reto: Guet. Und nachher gönd mir no go ässe.
+    Du: Super, ich freue mich!
+    Reto: Ich fröi mich au!
+  explanation: >-
+    Decoding: gang go jogge = gehe joggen, gömmer go schwümme = gehen wir schwimmen, gönd mir go ässe = gehen
+    wir essen, müed = müde, Ich fröi mich = Ich freue mich.
+
+# ---------- Bernese (gsw-be, recognition) ----------
+- id: a2-u07-ch-be-mcq-jogge
+  type: mcq
+  skill: listening
+  variety: gsw-be
+  prompt: Listen to Sandra. What did she do this morning?
+  transcript: |-
+    Sandra: E chli. I bi am Morge go jogge.
+  options: ["She went jogging.", "She went shopping.", "She slept in.", "She went to work early."]
+  answer: 0
+  explanation: >-
+    I bi … go jogge = Ich bin joggen gegangen (go + infinitive in the past). e chli = ein bisschen (answer to
+    bisch müed?). berndeutsch.ch has jogge / tschogge.
+
+- id: a2-u07-ch-be-transform
+  type: transform
+  skill: reading
+  variety: gsw-be
+  grammar: [reflexive-verbs]
+  prompt: What does Sandra's mother say? Write it in Standard German.
+  from: gsw-be
+  to: de
+  source: I fröie mi, dass es dir guet geit.
+  answers: ["Ich freue mich, dass es dir gut geht.", "Ich freue mich, dass es dir gutgeht."]
+  explanation: >-
+    i = ich, fröie mi = freue mich (berndeutsch.ch: fröie, sech), guet = gut, geit = geht. dass sends the verb
+    to the end, as in Standard German (unit 8).
+
+- id: a2-u07-ch-be-match
+  type: match
+  skill: vocabulary
+  variety: gsw-be
+  prompt: Match the Bernese words with Standard German.
+  pairs:
+    - ["müed", "müde"]
+    - ["fröie, sech", "sich freuen"]
+    - ["tschogge", "joggen"]
+    - ["e chli", "ein bisschen"]
+  explanation: >-
+    From berndeutsch.ch: müed (adj.), fröie, sech (PP. gfröit), tschogge / jogge (PP. tschogget; mir sy
+    tschogget). e chli = ein bisschen, also in Zurich.

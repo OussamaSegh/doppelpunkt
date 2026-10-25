@@ -257,6 +257,22 @@ curl https://doppelpunkt-collector.<you>.workers.dev/v1/health   # {"ok":true,..
 - Schema changes go into a new file `migrations/000N_*.sql` and are applied with
   `npx wrangler d1 migrations apply doppelpunkt-beta --remote` before deploying the Worker.
 
+## 5b. Optional payments (billing Worker)
+
+Without `VITE_BILLING_URL` every level is unlocked (the default, also for the GitHub Pages demo). To
+sell A2+ levels, deploy `services/billing` (Cloudflare Worker + D1 + Stripe) and build the app with
+`VITE_BILLING_URL` and `VITE_LICENSE_PUBLIC_KEYS`. Full setup, secrets, the D1 schema, book codes
+and the owner's checklist: [`docs/PAYMENTS.md`](PAYMENTS.md).
+
+```sh
+VITE_BILLING_URL=https://doppelpunkt-billing.<you>.workers.dev \
+VITE_LICENSE_PUBLIC_KEYS=k2026:<public key> npm run build
+```
+
+The static landing page is `apps/web/public/landing/index.html`, served at `<base>landing/` (on
+GitHub Pages `https://<owner>.github.io/<repo>/landing/`). It uses only relative links, so it works
+under any base path. Point a domain's root at it if you want the landing page first.
+
 ## 6. Checklist before a release
 
 - [ ] `npm run typecheck && npx vitest run && npm run content:lint && npm run audio:scripts -- --check`
@@ -264,6 +280,7 @@ curl https://doppelpunkt-collector.<you>.workers.dev/v1/health   # {"ok":true,..
 - [ ] Deployed preview over HTTPS: the app installs, works offline after the first visit, and plays audio
   (check one CDN URL in the browser's network panel when you use the CDN)
 - [ ] `docs/QA.md` run on the preview
+- [ ] Payment builds: `GET <billing>/v1/health` has every `configured` flag true, the legal pages have no placeholders left (docs/PAYMENTS.md)
 - [ ] Beta builds: `GET <collector>/v1/health` says `configured: true`, `ALLOWED_ORIGINS` lists the app's origin, `docs/PRIVACY.md` has a real contact
 
 

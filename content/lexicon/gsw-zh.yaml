@@ -373,3 +373,47 @@ entries:
   - { de: Pause, gswZh: Pause (Znünipause), gswBe: Pouse, en: break, pos: noun, notes: "berndeutsch.ch: Pouse f.", tags: [work, time] }
   - { de: seit, gswZh: sit (sit drü Jahr), en: "since, for (still going on)", pos: prep, tags: [prepositions, dative] }
   - { de: bei, gswZh: bi (bim = beim), en: "at, with", pos: prep, notes: "Dative articles: bi em → bim (m/n), bi de (f, plural).", tags: [prepositions, dative] }
+
+  # ----- presents and invitations (A2 unit 4) -----
+  - { de: gehören, gswZh: "ghöre (Wem ghört das?)", en: to belong (to), pos: verb, notes: "ghöre also means hören (to hear); the context tells you which.", tags: [verbs, dative] }
+  - { de: schenken, gswZh: "schänke (gschänkt)", gswBe: "schänke (gschänkt)", en: to give (as a present), pos: verb, notes: "berndeutsch.ch: schänke, PP. gschänkt.", tags: [verbs, celebrations] }
+  - { de: einladen, gswZh: "iilade (ich lad di ii)", en: to invite, pos: verb, tags: [verbs, celebrations, separable] }
+  - { de: Einladung, gswZh: Iiladig, en: invitation, pos: noun, notes: "Merci für d Iiladig! = Danke für die Einladung!", tags: [celebrations] }
+  - { de: Gast, gswZh: "Gascht (plural Gäscht)", en: guest, pos: noun, tags: [celebrations, people] }
+  - { de: Blumenstrauß, gswZh: Bluemestruuss / Hüchlerbäse (joking), chStd: Blumenstrauss, en: bunch of flowers, pos: noun, notes: "Hüchlerbäse ('hypocrite's broom') is a joking word for a bouquet (zuerich.com glossary).", tags: [celebrations] }
+  - { de: Aperitif, gswZh: Apéro, chStd: Apéro, en: drinks (and snacks) after work or before dinner, pos: noun, notes: "der Apéro (Duden: besonders schweizerisch); Apéro riche = with enough food to replace dinner.", tags: [celebrations, food, helvetism] }
+  - { de: "Das wäre doch nicht nötig gewesen!", gswZh: "Das wär doch nöd nötig gsii!", en: "You really shouldn't have!", pos: phrase, tags: [celebrations, phrases, politeness] }
+  - { de: riechen, gswZh: schmöcke, gswBe: schmöcke, en: to smell, pos: verb, notes: "False friend: schmöcke = riechen (berndeutsch.ch), not schmecken. For tasty food say: Das isch fein!", tags: [verbs, food, false-friend] }
+
+  # ----- moving and furnishing (A2 unit 5) -----
+  - { de: umziehen, gswZh: "zügle (züglet)", gswBe: "zügle (züglet)", chStd: zügeln, en: to move (house), pos: verb, notes: "Swiss zügeln (Wiktionary: Schweiz; spread from Bern and Fribourg). The move: d Züglete (berndeutsch.ch).", tags: [verbs, home, helvetism] }
+  - { de: Umzug, gswZh: Züglete / s Zügle, gswBe: Züglete, chStd: Umzug / Zügeln, en: move (to a new home), pos: noun, tags: [home, helvetism] }
+  - { de: Möbel, gswZh: Möbel, gswBe: "Möbu (small: Möbeli)", en: furniture, pos: noun, notes: "berndeutsch.ch: Möbel / Möbu n.", tags: [home] }
+  - { de: Stuhl, gswZh: "Stuehl (small: Stüeli)", gswBe: "Stuel (small: Stüeli)", en: chair, pos: noun, tags: [home] }
+  - { de: Tisch, gswZh: "Tisch (small: Tischli)", en: table, pos: noun, tags: [home] }
+  - { de: "-chen (Verkleinerung)", gswZh: "-li (s Tischli, s Hüsli, s Chätzli, es Bitzeli)", en: diminutive ending, pos: other, notes: "Every -li word is neuter; a, o, u, au usually take an umlaut (Huus → Hüsli, Chatz → Chätzli, Muus → Müsli). s Müsli = little mouse, s Müesli = muesli.", tags: [grammar, diminutive] }
+  - { de: hinein / herein, gswZh: ine, en: in (direction), pos: adv, notes: "Chumm ine! = Komm herein!", tags: [place] }
+  - { de: hinaus / heraus, gswZh: use, en: out (direction), pos: adv, tags: [place] }
+  - { de: wohin (hin), gswZh: "ane (Wo söll ich s ane stelle?)", en: (to) there, pos: adv, tags: [place, questions] }
+
+  # ----- comparing and buying (A2 unit 6) -----
+  - { de: günstig, gswZh: günschtig, en: "good value, inexpensive", pos: adj, tags: [adjectives, money] }
+  - { de: Angebot (Sonderangebot), gswZh: "Aktion (i de Aktion)", chStd: Aktion (in Aktion), en: special offer, pos: noun, notes: "Aktion is the everyday word on Swiss price tags (Duden lists the sense without a Swiss label).", tags: [shopping] }
+  - { de: gebraucht, gswZh: Occasion (es Occasionsvelo), chStd: Occasion, en: "used, second-hand", pos: adj, notes: "die Occasion = a used item (Duden: österreichisch, schweizerisch).", tags: [shopping, helvetism] }
+  - { de: als (Vergleich), gswZh: als / wie / weder, gswBe: aus, en: than, pos: conj, notes: "gröösser als / wie s blaue; weder is traditional (Alemannic Wikipedia: andersch weder …). Superlative -schte: am billigschte, am beschte.", tags: [grammar, comparison] }
+
+  # ----- living healthily (A2 unit 7) -----
+  - { de: sich freuen, gswZh: "sich fröie (ich fröi mich)", gswBe: "sech fröie (i fröie mi)", en: "to be glad, to look forward to", pos: verb, notes: "berndeutsch.ch: fröie, sech; PP. gfröit.", tags: [verbs, reflexive] }
+  - { de: joggen, gswZh: "jogge (ich gang go jogge)", gswBe: jogge / tschogge, en: to jog, pos: verb, notes: "berndeutsch.ch: tschogge, PP. tschogget (mir sy tschogget).", tags: [verbs, sport, go-infinitive] }
+  - { de: gestresst, gswZh: gstresst, en: stressed, pos: adj, tags: [health] }
+  - { de: Schnupfen, gswZh: Pfnüsel, en: cold (runny nose), pos: noun, notes: "zuerich.com glossary: Pfnüsel = Schnupfen.", tags: [health] }
+  - { de: klingen, gswZh: "töne (Das tönt guet!)", chStd: tönen, en: to sound, pos: verb, notes: "tönen = klingen is Swiss (Duden: schweizerisch).", tags: [verbs, helvetism] }
+
+  # ----- school and learning (A2 unit 8) -----
+  - { de: weil, gswZh: wil, gswBe: wüu, en: because, pos: conj, notes: "Verb at the end as in Standard German: …, wil er gärn Mänsche hilft. (Alemannic Wikipedia: wil; berndeutsch.ch: wüu.)", tags: [grammar, conjunctions] }
+  - { de: dass, gswZh: dass, en: that (conjunction), pos: conj, notes: "Ich find, dass das guet isch. (WP Swiss German: Ich weiss dass sie gaat go ässe.)", tags: [grammar, conjunctions] }
+  - { de: Schule, gswZh: Schuel, gswBe: Schuel, en: school, pos: noun, notes: "berndeutsch.ch: Schuel f.", tags: [school] }
+  - { de: Prüfung, gswZh: Prüefig, gswBe: Prüefig, en: exam, pos: noun, notes: "d Prüefig bestah (bestande) = die Prüfung bestehen (berndeutsch.ch: Er het d Prüefig bestande).", tags: [school] }
+  - { de: Kindergarten, gswZh: Chindsgi / Kindergarte, en: kindergarten, pos: noun, notes: "Two years from age 4, part of the eleven compulsory years (EDK).", tags: [school] }
+  - { de: Gymnasium, gswZh: Gymi / Kanti, gswBe: Gymer, chStd: Gymnasium / Kantonsschule, en: academic secondary school, pos: noun, notes: "Ends with the Matur (Duden: schweizerisch = Abitur). Zurich: Gymiprüefig = entrance exam.", tags: [school, switzerland] }
+  - { de: lernen, gswZh: lerne / lehre, gswBe: "lehre (glehrt)", en: to learn, pos: verb, notes: "berndeutsch.ch: lehre = 1. lernen, 2. lehren.", tags: [verbs, school] }

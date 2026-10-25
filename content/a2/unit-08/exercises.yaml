@@ -1,0 +1,675 @@
+# A2 unit 8 – Schule und Lernen
+
+# ---------- vocabulary ----------
+- id: a2-u08-match-school
+  type: match
+  skill: vocabulary
+  variety: de
+  prompt: Match the school words with English.
+  pairs:
+    - ["die Prüfung", "exam"]
+    - ["die Note", "mark, grade"]
+    - ["das Zeugnis", "school report"]
+    - ["das Fach", "subject"]
+    - ["die Hausaufgabe", "homework"]
+    - ["der Schüler", "pupil"]
+  explanation: >-
+    der Schüler goes to school; der Student goes to university. die Note is a mark – in Switzerland 6 is the
+    best and 1 the worst, in Germany it is the other way round.
+
+- id: a2-u08-match-learning
+  type: match
+  skill: vocabulary
+  variety: de
+  prompt: Match the learning verbs with English.
+  pairs:
+    - ["üben", "to practise"]
+    - ["wiederholen", "to revise"]
+    - ["bestehen", "to pass (an exam)"]
+    - ["erklären", "to explain"]
+    - ["studieren", "to study at university"]
+    - ["verstehen", "to understand"]
+  explanation: >-
+    lernen = to learn and to study for a test; studieren is only for university. bestehen (to pass) – the
+    opposite is nicht bestehen.
+
+# ---------- grammar: weil ----------
+- id: a2-u08-mcq-weil-end
+  type: mcq
+  skill: grammar
+  variety: ch-std
+  grammar: [weil-clause]
+  prompt: Choose the correct sentence.
+  options: ["Ich lerne jeden Abend, weil ich brauche das Zertifikat.", "Ich lerne jeden Abend, weil ich das Zertifikat brauche.", "Ich lerne jeden Abend, weil brauche ich das Zertifikat.", "Ich lerne jeden Abend weil ich das Zertifikat brauche."]
+  answer: 1
+  rationales:
+    - "You hear this in speech, but in writing the verb goes to the end after weil."
+    - "Correct. weil + subject … verb at the end."
+    - "The subject comes straight after weil, and the verb at the end."
+    - "The comma before weil is missing."
+  explanation: >-
+    weil starts a subordinate clause: the conjugated verb goes to the end, and a comma separates the clauses:
+    …, weil ich das Zertifikat brauche.
+
+- id: a2-u08-gap-weil
+  type: gap
+  skill: grammar
+  variety: de
+  grammar: [weil-clause]
+  prompt: "Put the verb in brackets at the end of the weil-clause."
+  text: Tom ist nervös, weil er morgen eine Prüfung ___ (haben). Ich lerne Deutsch, weil ich in Zürich ___ (arbeiten).
+  answers: [["hat"], ["arbeite"]]
+  explanation: >-
+    In a weil-clause the verb is conjugated as usual (er hat, ich arbeite), but it goes to the very end.
+
+- id: a2-u08-gap-weil-modal
+  type: gap
+  skill: grammar
+  variety: de
+  grammar: [weil-clause, separable-verbs]
+  prompt: "Complete the weil-clauses with the verbs in brackets."
+  text: Ich gehe nach Hause, weil ich noch lernen ___ (müssen). Ich bin müde, weil ich um sechs ___ (aufstehen).
+  answers: [["muss"], ["aufstehe"]]
+  explanation: >-
+    Modal verb: the infinitive comes first, the modal last (lernen muss). Separable verb: prefix and verb join
+    at the end (aufstehe).
+
+- id: a2-u08-mcq-weil-perfekt
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [weil-clause, perfekt-haben]
+  prompt: Choose the correct end of the sentence.
+  question: Ich habe die Prüfung bestanden, weil ich viel ___.
+  options: ["habe gelernt", "gelernt", "lerne habe", "gelernt habe"]
+  answer: 3
+  rationales:
+    - "In a weil-clause the auxiliary goes last, after the participle."
+    - "The auxiliary habe is missing."
+    - "Perfekt needs the participle gelernt."
+    - "Correct. Participle, then the auxiliary at the very end."
+  explanation: >-
+    Perfekt in a subordinate clause: …, weil ich viel gelernt habe. The conjugated verb (habe) always goes
+    last.
+
+- id: a2-u08-mcq-warum
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [weil-clause, denn-weil]
+  prompt: "Warum lernst du Deutsch? – Choose the best short answer."
+  options: ["Weil ich in der Schweiz wohne.", "Denn ich wohne in der Schweiz.", "Weil ich wohne in der Schweiz.", "Denn ich in der Schweiz wohne."]
+  answer: 0
+  rationales:
+    - "Correct. A short answer to Warum? starts with weil, verb at the end."
+    - "denn can't start an answer on its own."
+    - "After weil the verb goes to the end."
+    - "denn keeps normal word order – and can't start the answer."
+  explanation: >-
+    Warum? is answered with Weil … + verb at the end. denn only joins two main clauses inside one sentence.
+
+- id: a2-u08-transform-weil
+  type: transform
+  skill: grammar
+  variety: de
+  grammar: [weil-clause]
+  prompt: "Join the two sentences with weil."
+  from: de
+  to: de
+  source: Ich lerne am Abend. Ich arbeite am Tag.
+  answers: ["Ich lerne am Abend, weil ich am Tag arbeite.", "Weil ich am Tag arbeite, lerne ich am Abend."]
+  explanation: >-
+    The reason goes into the weil-clause with the verb at the end: weil ich am Tag arbeite. If it comes first,
+    the main verb follows the comma: Weil …, lerne ich …
+
+- id: a2-u08-gap-sek
+  type: gap
+  skill: grammar
+  variety: ch-std
+  grammar: [weil-clause]
+  prompt: "Put the verbs in brackets at the end."
+  text: Die meisten machen eine Lehre, weil sie Geld verdienen ___ (wollen). Martin hat eine Lehre gemacht, weil er gern praktisch ___ ___ (arbeiten, Perfekt).
+  answers: [["wollen"], ["gearbeitet"], ["hat"]]
+  explanation: >-
+    Modal at the very end (verdienen wollen), and in the Perfekt the auxiliary last (gearbeitet hat).
+
+# ---------- grammar: dass ----------
+- id: a2-u08-mcq-dass
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [dass-clause]
+  prompt: Choose the correct sentence.
+  options: ["Ich finde, dass Deutsch ist wichtig.", "Ich finde dass Deutsch wichtig ist.", "Ich finde, dass Deutsch wichtig ist.", "Ich finde, das Deutsch wichtig ist."]
+  answer: 2
+  rationales:
+    - "After dass the verb goes to the end."
+    - "German needs a comma before dass."
+    - "Correct. Comma, dass, verb at the end."
+    - "das (one s) is the article; the conjunction is dass."
+  explanation: >-
+    dass works like weil: comma, dass, subject, … verb at the end. Write the conjunction with double s.
+
+- id: a2-u08-gap-dass-das
+  type: gap
+  skill: grammar
+  variety: de
+  grammar: [dass-clause]
+  prompt: "Fill in das or dass."
+  text: Ich glaube, ___ ___ System gut ist. Ich hoffe, ___ ich die Prüfung bestehe.
+  answers: [["dass"], ["das"], ["dass"]]
+  explanation: >-
+    dass (double s) is the conjunction after glauben, hoffen, finden. das (one s) is the article: das System.
+
+- id: a2-u08-mcq-hoffe
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [dass-clause, separable-verbs]
+  prompt: Choose the correct end of the sentence.
+  question: Ich hoffe, dass du morgen ___.
+  options: ["kommst mit", "mit kommst", "mitkommen", "mitkommst"]
+  answer: 3
+  rationales:
+    - "At the end of a dass-clause the separable verb joins up again."
+    - "The prefix and verb are written as one word."
+    - "The verb must be conjugated (du → mitkommst)."
+    - "Correct. Separable verb at the end, as one word."
+  explanation: >-
+    In a subordinate clause a separable verb is not split: dass du mitkommst, weil ich früh aufstehe.
+
+- id: a2-u08-match-opinions
+  type: match
+  skill: grammar
+  variety: de
+  grammar: [dass-clause]
+  prompt: Match the beginnings with the endings.
+  pairs:
+    - ["Ich hoffe,", "dass ich die Prüfung bestehe."]
+    - ["Es ist wichtig,", "dass man jeden Tag übt."]
+    - ["Ich weiß,", "dass die Matur schwierig ist."]
+    - ["Martin glaubt,", "dass Tom gut Deutsch spricht."]
+  explanation: >-
+    All four dass-clauses end with the conjugated verb: bestehe, übt, ist, spricht.
+
+- id: a2-u08-order-dass
+  type: order
+  skill: grammar
+  variety: ch-std
+  grammar: [dass-clause]
+  prompt: Put the words in order.
+  tokens: ["Viele", "sagen,", "dass", "das", "System", "gut", "ist"]
+  answers: ["Viele sagen, dass das System gut ist."]
+  explanation: >-
+    Main clause (Viele sagen), comma, dass + subject (das System) + rest + verb at the end (ist).
+
+- id: a2-u08-order-weil-first
+  type: order
+  skill: grammar
+  variety: de
+  grammar: [weil-clause, subordinate-first]
+  prompt: "Put the words in order. Start with Weil."
+  tokens: ["Weil", "ich", "am", "Tag", "arbeite,", "lerne", "ich", "am", "Abend"]
+  answers: ["Weil ich am Tag arbeite, lerne ich am Abend."]
+  explanation: >-
+    The weil-clause is position 1, so the main verb (lerne) comes right after the comma: verb – comma – verb.
+
+- id: a2-u08-mcq-first
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [subordinate-first]
+  prompt: Choose the correct sentence.
+  options: ["Weil die Prüfung morgen ist, ich bin nervös.", "Weil die Prüfung morgen ist, bin ich nervös.", "Weil ist die Prüfung morgen, bin ich nervös.", "Weil die Prüfung ist morgen, ich bin nervös."]
+  answer: 1
+  rationales:
+    - "When the weil-clause comes first, the main verb must follow the comma."
+    - "Correct. Verb at the end of the weil-clause, then the main verb."
+    - "After weil the verb goes to the end."
+    - "Both verbs are in the wrong place."
+  explanation: >-
+    A subordinate clause in first position counts as one element, so the main clause starts with the verb:
+    Weil …, bin ich nervös.
+
+# ---------- grammar: denn or weil ----------
+- id: a2-u08-gap-denn-weil
+  type: gap
+  skill: grammar
+  variety: de
+  grammar: [denn-weil]
+  prompt: "Fill in denn or weil. Look at the verb position."
+  text: Ich bleibe zu Hause, ___ ich habe morgen eine Prüfung. Ich bleibe zu Hause, ___ ich morgen eine Prüfung habe.
+  answers: [["denn"], ["weil"]]
+  explanation: >-
+    denn + normal order (verb in position 2: ich habe …); weil + verb at the end (… habe).
+
+- id: a2-u08-transform-denn
+  type: transform
+  skill: grammar
+  variety: de
+  grammar: [denn-weil, weil-clause]
+  prompt: "Rewrite the sentence with weil instead of denn."
+  from: de
+  to: de
+  source: Luca macht eine Lehre, denn er möchte Geld verdienen.
+  answers: ["Luca macht eine Lehre, weil er Geld verdienen möchte."]
+  explanation: >-
+    With weil the conjugated verb (here the modal möchte) moves to the end: weil er Geld verdienen möchte.
+
+- id: a2-u08-translate-because
+  type: translate
+  skill: writing
+  variety: de
+  grammar: [weil-clause]
+  prompt: Translate into German. Use weil.
+  source: I'm learning German because I want to stay in Switzerland.
+  answers: ["Ich lerne Deutsch, weil ich in der Schweiz bleiben will.", "Ich lerne Deutsch, weil ich in der Schweiz bleiben möchte.", "Weil ich in der Schweiz bleiben will, lerne ich Deutsch.", "Weil ich in der Schweiz bleiben möchte, lerne ich Deutsch."]
+  explanation: >-
+    weil + modal: the infinitive (bleiben) and then the modal (will / möchte) at the end. in der Schweiz: die
+    Schweiz always has the article.
+
+- id: a2-u08-translate-think
+  type: translate
+  skill: writing
+  variety: de
+  grammar: [dass-clause]
+  prompt: Translate into German. Use dass.
+  source: I think that mistakes are normal.
+  answers: ["Ich finde, dass Fehler normal sind.", "Ich glaube, dass Fehler normal sind.", "Ich denke, dass Fehler normal sind.", "Ich meine, dass Fehler normal sind."]
+  explanation: >-
+    I think that … = Ich finde / glaube / denke, dass … + verb at the end (sind).
+
+- id: a2-u08-mcq-opinion
+  type: mcq
+  skill: speaking
+  variety: de
+  grammar: [dass-clause, weil-clause]
+  prompt: A classmate asks "Ist Deutsch schwierig?". Which answer gives an opinion and a reason correctly?
+  options: ["Ich finde, Deutsch ist schwierig, weil die Artikel ich nie weiß.", "Ich finde, dass Deutsch ist schwierig, weil viele Artikel.", "Ich finde, dass Deutsch schwierig ist, weil man viele Artikel lernen muss.", "Ich finde dass schwierig, denn die Artikel."]
+  answer: 2
+  rationales:
+    - "The first part is fine, but in the weil-clause the subject comes first and the verb last: weil ich die Artikel nie weiß."
+    - "After dass the verb goes to the end, and the weil-clause needs a verb."
+    - "Correct. dass + verb at the end, weil + modal at the end."
+    - "Both clauses are incomplete."
+  explanation: >-
+    Opinion: Ich finde, dass … ist. Reason: …, weil man … lernen muss. In both clauses the conjugated verb is
+    at the end.
+
+# ---------- reading ----------
+- id: a2-u08-mcq-reading-years
+  type: mcq
+  skill: reading
+  variety: ch-std
+  prompt: Read the text. How long is compulsory school in Switzerland?
+  options: ["Nine years", "Six years", "Twelve years", "Eleven years: kindergarten, primary school and Sek"]
+  answer: 3
+  explanation: >-
+    "Die obligatorische Schule dauert elf Jahre": 2 years Kindergarten + 6 years Primarschule + 3 years
+    Sekundarschule.
+
+- id: a2-u08-mcq-reading-why-lehre
+  type: mcq
+  skill: reading
+  variety: ch-std
+  grammar: [weil-clause]
+  prompt: Why do most young people do an apprenticeship, according to the text?
+  options: ["Because the Gymnasium is too expensive", "Because they want to learn a trade and earn money", "Because they can't get into university", "Because the Matur takes six years"]
+  answer: 1
+  explanation: >-
+    "…, weil sie einen Beruf lernen und Geld verdienen wollen." With two verbs, the modal wollen is at the end.
+
+- id: a2-u08-translate-reading
+  type: translate
+  skill: reading
+  variety: ch-std
+  prompt: Translate into English.
+  source: Auch nach einer Lehre kann man später noch studieren.
+  answers: ["Even after an apprenticeship you can still study later.", "Even after an apprenticeship you can go to university later.", "Even after an apprenticeship one can still study later."]
+  explanation: >-
+    auch here = even; man = you / one; noch = still. studieren = to study at university.
+
+# ---------- listening ----------
+- id: a2-u08-mcq-listening-exam
+  type: mcq
+  skill: listening
+  variety: de
+  prompt: Listen to the intro dialogue again. Why does Tom need the A2 certificate?
+  options: ["For a new job", "For university", "Because he wants to stay in Switzerland longer", "Because Martin told him to"]
+  answer: 2
+  explanation: >-
+    "Weil ich länger in der Schweiz bleiben will." The modal will goes to the end of the weil-clause.
+
+- id: a2-u08-mcq-listening-martin
+  type: mcq
+  skill: listening
+  variety: ch-std
+  grammar: [denn-weil]
+  prompt: Listen to Martin. Why did he do an apprenticeship?
+  transcript: |-
+    Martin: Nein, die meisten machen eine Lehre. Ich habe auch eine Lehre gemacht, denn ich habe gern praktisch gearbeitet.
+  options: ["Because he liked practical work", "Because he didn't get the Matur", "Because his parents wanted it", "Because it was cheaper"]
+  answer: 0
+  explanation: >-
+    denn ich habe gern praktisch gearbeitet: denn + normal word order (verb habe in position 2).
+
+- id: a2-u08-dictation-weil
+  type: dictation
+  skill: listening
+  variety: de
+  grammar: [weil-clause]
+  prompt: Listen and write what you hear.
+  transcript: Ich lerne jeden Abend, weil ich morgen eine Prüfung habe.
+  explanation: >-
+    Comma before weil, and the verb habe at the end.
+
+- id: a2-u08-dictation-dass
+  type: dictation
+  skill: listening
+  variety: de
+  grammar: [dass-clause]
+  prompt: Listen and write what you hear.
+  transcript: Ich glaube, dass das System hier sehr gut ist.
+  explanation: >-
+    dass (conjunction, double s) and das (article): dass das System … ist.
+
+# ---------- speaking ----------
+- id: a2-u08-speak-frame
+  type: speak
+  skill: speaking
+  variety: de
+  grammar: [weil-clause, dass-clause]
+  prompt: "Read aloud, then give your own reasons for learning German."
+  target: Ich lerne Deutsch, weil ich in Zürich arbeite. Ich finde, dass man hier ohne Deutsch nicht viel versteht.
+  explanation: >-
+    Two frames: …, weil ich … (verb at the end) and Ich finde, dass … (verb at the end). Replace the reasons
+    with your own.
+
+- id: a2-u08-speak-shadow-tom
+  type: speak
+  skill: speaking
+  variety: de
+  grammar: [weil-clause]
+  prompt: "Shadowing: speak along with Tom's line from the intro dialogue, then say it alone."
+  target: Interessant! Aber jetzt gehe ich nach Hause, weil ich noch die Verben wiederholen muss.
+  explanation: >-
+    Stress in-te-res-SANT and the end of the weil-clause: wie-der-HO-len muss. Make a small pause at the
+    comma before weil.
+
+- id: a2-u08-speak-shadow-martin
+  type: speak
+  skill: speaking
+  variety: ch-std
+  grammar: [weil-clause]
+  prompt: "Shadowing: speak along with Martin, then say it alone."
+  target: Zuerst zwei Jahre Kindergarten, dann sechs Jahre Primarschule und drei Jahre Sek.
+  explanation: >-
+    Swiss Standard German: the r in Primarschule and drei is tapped, and Kindergarten is stressed on KIN-.
+    See the drill The Swiss Standard German accent.
+
+- id: a2-u08-speak-intonation
+  type: speak
+  skill: speaking
+  variety: de
+  grammar: [weil-clause]
+  prompt: "Intonation: the main clause rises a little before the comma; the weil-clause falls at the end."
+  target: Ich bin müde, weil ich viel gelernt habe.
+  explanation: >-
+    Ich bin MÜ-de ↗ (the voice stays up – more is coming), weil ich VIEL gelernt habe ↘ (falls at the end).
+
+- id: a2-u08-speak-pron-glottal
+  type: speak
+  skill: speaking
+  variety: de
+  grammar: [weil-clause]
+  prompt: "Pronunciation: the glottal stop before vowels. Read aloud slowly."
+  target: Ich arbeite am Abend in Uster, aber ich übe immer am Ende eines Arbeitstags.
+  explanation: >-
+    German starts every vowel-initial word with a small catch in the throat: ich | arbeite | am | Abend | in |
+    Uster. Don't link the words as in English (no 'ich_arbeite'). See the drill The glottal stop (Knacklaut).
+
+# ---------- roleplay and writing ----------
+- id: a2-u08-roleplay-lena
+  type: roleplay
+  skill: speaking
+  variety: de
+  grammar: [weil-clause, dass-clause, denn-weil]
+  tutor: lena
+  prompt: "Roleplay with Lena: school and learning."
+  scenario: >-
+    Lena asks you about your school days and why you are learning German. Talk about your favourite subject,
+    your exams and your plans, and give reasons. Ask her what she thinks about learning languages.
+  goals:
+    - Talk about your school or studies in the Perfekt (Ich bin … zur Schule gegangen, ich habe … studiert).
+    - Give at least two reasons with weil (verb at the end).
+    - Say what you think with Ich finde / glaube, dass …
+    - Ask Lena for her opinion (Was meinst du?).
+  model: |
+    Lena: Warum lernst du eigentlich Deutsch?
+    Du: Weil ich in Zürich arbeite und weil meine Freunde hier Deutsch sprechen.
+    Lena: Und was war in der Schule dein Lieblingsfach?
+    Du: Geschichte, weil die Lehrerin sehr gut erklärt hat. Mathe war schwierig für mich.
+    Lena: Hast du studiert?
+    Du: Ja, ich habe in Leeds Biologie studiert. Was meinst du, ist Deutsch schwierig?
+    Lena: Ich glaube, dass Deutsch nicht so schwierig ist. Man muss nur jeden Tag üben.
+    Du: Ich hoffe, dass du recht hast!
+  explanation: >-
+    weil + verb at the end (arbeite, sprechen, erklärt hat); dass + verb at the end (ist, hast). Was meinst du?
+    asks for an opinion.
+
+- id: a2-u08-write-learning
+  type: write
+  skill: writing
+  variety: de
+  grammar: [weil-clause, dass-clause, perfekt-haben]
+  prompt: Write about your education and your German.
+  task: >-
+    Write a short text (6–8 sentences) for your German course's blog: where you went to school, what you
+    liked or didn't like and why, what you did after school, why you are learning German, and what you think
+    is the best way to learn a language.
+  minWords: 60
+  model: >-
+    Ich bin in Manchester zur Schule gegangen. Mein Lieblingsfach war Kunst, weil ich gern male. Mathe hat mir nicht
+    gefallen, denn ich habe die Lehrerin nie verstanden. Nach der Schule habe ich eine Ausbildung als Koch gemacht.
+    Jetzt lerne ich Deutsch, weil ich seit einem Jahr in Winterthur wohne und hier arbeiten möchte. Ich finde,
+    dass man jeden Tag ein bisschen üben muss. Am besten lernt man mit Freunden, weil man dann viel spricht. Ich
+    hoffe, dass ich im Juni die A2-Prüfung bestehe!
+  checklist:
+    - I give at least three reasons with weil, and the verb is at the end.
+    - I use dass at least twice (Ich finde / hoffe, dass …), with a comma before it.
+    - I use denn once, with normal word order.
+    - I use the Perfekt for my school days (bin … gegangen, habe … gemacht).
+    - Modal verbs in weil- and dass-clauses go last (… arbeiten möchte, … üben muss).
+  explanation: >-
+    A learner biography needs reasons and opinions: weil and dass with the verb at the end, denn with normal
+    word order, and the Perfekt for the past (hat mir nicht gefallen, A2.4).
+
+# ---------- Swiss Standard German ----------
+- id: a2-u08-chstd-match
+  type: match
+  skill: vocabulary
+  variety: ch-std
+  prompt: Match the Swiss school words with the words used in Germany.
+  pairs:
+    - ["die Matur", "das Abitur"]
+    - ["die Primarschule", "die Grundschule"]
+    - ["die Kantonsschule", "das Gymnasium"]
+    - ["repetieren", "wiederholen"]
+  explanation: >-
+    Matur and Primarschule are marked schweizerisch in Duden. A Kantonsschule (Kanti) is a cantonal
+    Gymnasium. repetieren is often heard in Switzerland for wiederholen (eine Klasse repetieren).
+
+# ---------- Swiss lane (gsw-zh) ----------
+- id: a2-u08-ch-mcq-gymi
+  type: mcq
+  skill: listening
+  variety: gsw-zh
+  prompt: Listen to Reto. What is his news?
+  transcript: |-
+    Reto: Min Neffe, de Luca, hät d Gymiprüefig bestande!
+  options: ["Luca has finished his apprenticeship.", "Luca has failed an exam.", "Luca has passed the Gymnasium entrance exam.", "Luca is starting kindergarten."]
+  answer: 2
+  rationales:
+    - "Lehr would be the apprenticeship."
+    - "bestande = bestanden (passed)."
+    - "Correct. d Gymiprüefig = the entrance exam for the Gymnasium."
+    - "Kindergarten would be de Chindsgi."
+  explanation: >-
+    min Neffe = mein Neffe, hät … bestande = hat … bestanden, d Prüefig = die Prüfung (-ung → -ig), s Gymi =
+    das Gymnasium.
+
+- id: a2-u08-ch-transform-wil
+  type: transform
+  skill: reading
+  variety: gsw-zh
+  grammar: [weil-clause]
+  prompt: What does Reto say? Write it in Standard German.
+  from: gsw-zh
+  to: de
+  source: Er wott Arzt werde, wil er gärn Mänsche hilft.
+  answers: ["Er will Arzt werden, weil er gern Menschen hilft.", "Er will Arzt werden, weil er gerne Menschen hilft.", "Er möchte Arzt werden, weil er gern Menschen hilft."]
+  explanation: >-
+    wott = will, werde = werden, wil = weil, gärn = gern, Mänsche = Menschen. The verb (hilft) goes to the end,
+    as in Standard German.
+
+- id: a2-u08-ch-match-school
+  type: match
+  skill: vocabulary
+  variety: gsw-zh
+  prompt: Match the Zurich school words with Standard German.
+  pairs:
+    - ["de Chindsgi", "der Kindergarten"]
+    - ["d Sek", "die Sekundarschule"]
+    - ["s Gymi", "das Gymnasium"]
+    - ["e Lehr", "eine Lehre"]
+    - ["d Prüefig", "die Prüfung"]
+  explanation: >-
+    Swiss pupils go Chindsgi → Primar → Sek → Lehr or Gymi (Matur). -ung becomes -ig: Prüefig, Wohnig.
+
+- id: a2-u08-ch-mcq-dass
+  type: mcq
+  skill: grammar
+  variety: gsw-zh
+  grammar: [dass-clause]
+  prompt: "What is \"Ich find, dass d Lehr e super Sach isch\" in Standard German?"
+  options: ["Ich finde, die Lehre ist super, und das ist eine Sache.", "Ich finde, dass die Lehre eine super Sache ist.", "Ich finde die Lehre, das ist super.", "Ich finde, dass die Lehre ist eine super Sache."]
+  answer: 1
+  rationales:
+    - "This adds an idea that isn't there."
+    - "Correct. dass + verb at the end, in dialect and in Standard German."
+    - "The dass-clause is missing."
+    - "After dass the verb goes to the end."
+  explanation: >-
+    Zurich German uses dass with the verb at the end, just like Standard German: …, dass d Lehr e super Sach
+    isch. isch = ist, e Sach = eine Sache.
+
+- id: a2-u08-ch-mcq-lehr
+  type: mcq
+  skill: listening
+  variety: gsw-zh
+  grammar: [weil-clause]
+  prompt: Listen to Reto. Why did he do an apprenticeship as a cook?
+  transcript: |-
+    Reto: Nei, nach de Sek han ich e Lehr als Koch gmacht, wil ich gärn choche.
+  options: ["Because his father is a cook", "Because he didn't pass the Gymi exam", "Because the Lehr was short", "Because he likes cooking"]
+  answer: 3
+  rationales:
+    - "He doesn't mention his father."
+    - "He doesn't say he failed anything."
+    - "He says nothing about the length."
+    - "Correct. wil ich gärn choche = weil ich gern koche."
+  explanation: >-
+    wil = weil, verb at the end: wil ich gärn choche. nach de Sek = nach der Sekundarschule.
+
+- id: a2-u08-ch-gap-wil
+  type: gap
+  skill: grammar
+  variety: gsw-zh
+  grammar: [weil-clause]
+  prompt: "Guided production: write the Zurich word for weil."
+  text: Ich lern Dütsch, ___ ich z Züri schaff.
+  answers: [["wil"]]
+  explanation: >-
+    weil = wil in Zurich German (Bernese wüu), and the verb goes to the end: wil ich z Züri schaff (= weil ich
+    in Zürich arbeite).
+
+- id: a2-u08-ch-transform-de-gsw
+  type: transform
+  skill: vocabulary
+  variety: gsw-zh
+  prompt: "Recognition: how do you say this in Zurich German? (Common spellings are accepted.)"
+  from: de
+  to: gsw-zh
+  source: Ich habe die Prüfung bestanden.
+  answers: ["Ich ha d Prüefig bestande.", "Ich han d Prüefig bestande.", "Ich ha d Prüefig bstande."]
+  explanation: >-
+    habe → ha, die → d, Prüfung → Prüefig, bestanden → bestande (participles in -e). berndeutsch.ch also lists
+    bstande.
+
+- id: a2-u08-roleplay-reto
+  type: roleplay
+  skill: listening
+  variety: gsw-zh
+  grammar: [weil-clause, dass-clause]
+  tutor: reto
+  prompt: "Listening roleplay with Reto: school days."
+  scenario: >-
+    Reto asks you in Zurich German about your school and why you are learning German. He tells you about his
+    Lehr. You answer in Standard German.
+  goals:
+    - Understand wil and dass with the verb at the end.
+    - Understand the school words Sek, Gymi, Lehr, Matur and Prüefig.
+    - Tell Reto about your school and give a reason with weil.
+  model: |
+    Reto: Wieso lernsch du eigentlich Dütsch?
+    Du: Weil ich hier arbeite und weil ich die Leute verstehen will.
+    Reto: Super! Und bisch du is Gymi gange?
+    Du: In England gibt es kein Gymi, aber ich habe das Abitur gemacht – die Matur.
+    Reto: Ich ha nach de Sek e Lehr gmacht, wil ich lieber schaff als lern.
+    Du: Ich finde, dass das eine gute Idee war.
+    Reto: Ich au! Und ich glaub, dass du d Prüefig bestahsch!
+  explanation: >-
+    Decoding: wieso = warum, lernsch = lernst, wil = weil, dass … bestahsch = dass du … bestehst
+    (verb at the end), lieber schaff als lern = lieber arbeite als lerne.
+
+# ---------- Bernese (gsw-be, recognition) ----------
+- id: a2-u08-ch-be-mcq-pruefig
+  type: mcq
+  skill: listening
+  variety: gsw-be
+  prompt: Listen to Sandra's mother. What is her news?
+  transcript: |-
+    Mami: Weisch was? Dr Jonas het d Prüefig bestande!
+  options: ["Jonas has passed his exam.", "Jonas has a new job.", "Jonas is moving to Bern.", "Jonas has failed his exam."]
+  answer: 0
+  explanation: >-
+    het … bestande = hat … bestanden (berndeutsch.ch: bestaa, PP. bestande, 'Er het d Prüefig bestande').
+    Weisch was? = Weißt du was? Bernese dr = der.
+
+- id: a2-u08-ch-be-transform
+  type: transform
+  skill: reading
+  variety: gsw-be
+  grammar: [weil-clause]
+  prompt: What does Sandra's mother say? Write it in Standard German.
+  from: gsw-be
+  to: de
+  source: Är macht e Lehr, wüu är lieber mit de Händ schaffet.
+  answers: ["Er macht eine Lehre, weil er lieber mit den Händen arbeitet.", "Er macht eine Ausbildung, weil er lieber mit den Händen arbeitet."]
+  explanation: >-
+    är = er, e Lehr = eine Lehre (berndeutsch.ch), wüu = weil (berndeutsch.ch; l → u), schaffet = arbeitet.
+    The verb is at the end of the wüu-clause.
+
+- id: a2-u08-ch-be-match
+  type: match
+  skill: vocabulary
+  variety: gsw-be
+  prompt: Match the Bernese words with Standard German.
+  pairs:
+    - ["wüu", "weil"]
+    - ["d Schuel", "die Schule"]
+    - ["lehre", "lernen"]
+    - ["dr Schüeler", "der Schüler"]
+  explanation: >-
+    From berndeutsch.ch: wüu (conj.), Schuel (f.), lehre (= 1. lernen, 2. lehren), Schüeler (m.). Note that
+    Bernese lehre usually means to learn.

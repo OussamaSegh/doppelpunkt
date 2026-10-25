@@ -1,0 +1,2766 @@
+{
+  "unitId": "a2-u09",
+  "level": "A2",
+  "folder": "a2/unit-09",
+  "title": "Feste und Bräuche",
+  "delivery": {
+    "raw": "WAV or FLAC, 48 kHz, 24-bit, mono, one file per entry, named <file base>.wav",
+    "processed": [
+      "mp3 64 kbps mono 44.1 kHz",
+      "opus 32 kbps mono 48 kHz",
+      "EBU R128 -16 LUFS, true peak -1.5 dBTP"
+    ]
+  },
+  "entries": [
+    {
+      "file": "dialog-intro-01.mp3",
+      "kind": "dialogue-intro",
+      "text": "Tom, am Montag bin ich nicht im Büro. Ich nehme frei.",
+      "en": "Tom, I'm not in the office on Monday. I'm taking the day off.",
+      "variety": "ch-std",
+      "voice": "zh-m",
+      "speaker": "Martin",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          0,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-01.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-02.mp3",
+      "kind": "dialogue-intro",
+      "text": "Ah, fährst du nach Bern?",
+      "en": "Ah, are you going to Bern?",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          1,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-02.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-03.mp3",
+      "kind": "dialogue-intro",
+      "text": "Ja, am Montag ist Zibelemärit. Das ist der Zwiebelmarkt in Bern, immer am vierten Montag im November.",
+      "en": "Yes, on Monday it's the Zibelemärit. That's the onion market in Bern, always on the fourth Monday in November.",
+      "variety": "ch-std",
+      "voice": "zh-m",
+      "speaker": "Martin",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          2,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-03.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-04.mp3",
+      "kind": "dialogue-intro",
+      "text": "Ein Markt nur für Zwiebeln?",
+      "en": "A market just for onions?",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          3,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-04.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-05.mp3",
+      "kind": "dialogue-intro",
+      "text": "Fast! Es gibt Zwiebelzöpfe, Zwiebelkuchen und Glühwein. Und am Nachmittag ist überall Konfetti.",
+      "en": "Almost! There are onion braids, onion tart and mulled wine. And in the afternoon there's confetti everywhere.",
+      "variety": "ch-std",
+      "voice": "zh-m",
+      "speaker": "Martin",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          4,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-05.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-06.mp3",
+      "kind": "dialogue-intro",
+      "text": "Lustig! Warst du als Kind auch schon dort?",
+      "en": "Fun! Did you go there as a child, too?",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          5,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-06.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-07.mp3",
+      "kind": "dialogue-intro",
+      "text": "Ja, als ich klein war, bin ich jedes Jahr mit meinem Grossvater hingegangen. Und immer wenn ich heute dort bin, denke ich an ihn.",
+      "en": "Yes, when I was little, I went there every year with my grandfather. And whenever I'm there today, I think of him.",
+      "variety": "ch-std",
+      "voice": "zh-m",
+      "speaker": "Martin",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          6,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-07.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-08.mp3",
+      "kind": "dialogue-intro",
+      "text": "Schön. Bei uns in England gibt es am 5. November die Bonfire Night, mit Feuer und Feuerwerk.",
+      "en": "Nice. Back home in England we have Bonfire Night on 5 November, with bonfires and fireworks.",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          7,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-08.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-09.mp3",
+      "kind": "dialogue-intro",
+      "text": "Und was habt ihr da gemacht?",
+      "en": "And what did you do then?",
+      "variety": "ch-std",
+      "voice": "zh-m",
+      "speaker": "Martin",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          8,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-09.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-10.mp3",
+      "kind": "dialogue-intro",
+      "text": "Als ich ein Kind war, haben wir mit den Nachbarn ein großes Feuer gemacht. Wenn es kalt war, haben wir Suppe gegessen.",
+      "en": "When I was a child, we made a big bonfire with the neighbours. When it was cold, we had soup.",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          9,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-10.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-11.mp3",
+      "kind": "dialogue-intro",
+      "text": "Das klingt gemütlich! Wenn du Lust hast, kannst du am Montag mitkommen.",
+      "en": "That sounds cosy! If you feel like it, you can come along on Monday.",
+      "variety": "ch-std",
+      "voice": "zh-m",
+      "speaker": "Martin",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          10,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-11.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-12.mp3",
+      "kind": "dialogue-intro",
+      "text": "Gern – wenn der Chef Ja sagt!",
+      "en": "I'd love to – if the boss says yes!",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          11,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-12.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-01.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Hoi Sandra! Was machsch du da mit dere Räbe?",
+      "en": "Hi Sandra! What are you doing there with that turnip?",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          0,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-01.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-02.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Ich schnitz es Räbeliechtli. Am Friitig isch de Räbeliechtli-Umzug im Quartier.",
+      "en": "I'm carving a turnip lantern. On Friday it's the lantern procession in the neighbourhood.",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          1,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-02.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-03.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Lässig! Wänn ich es Chind gsii bin, han ich au jedes Jahr eis gschnitzt.",
+      "en": "Cool! When I was a child, I carved one every year too.",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          2,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-03.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-04.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Und gaasch du au a d Fasnacht?",
+      "en": "And do you go to the carnival too?",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          3,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-04.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-05.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Klar! Im Februar gang ich wieder a d Fasnacht uf Luzern. Wänn d Guggemusige spiled, isch es mega luut.",
+      "en": "Of course! In February I'm going to the carnival in Lucerne again. When the carnival bands play, it's really loud.",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          4,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-05.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-06.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Ich gang lieber as Chlausjage. Häsch scho mal s Chlausjage z Küssnacht gseh?",
+      "en": "I prefer going to the Klausjagen. Have you ever seen the Klausjagen in Küssnacht?",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          5,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-06.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-07.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Nei, no nie. Wänn isch das?",
+      "en": "No, never. When is it?",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          6,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-07.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-08.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Am füfte Dezämber z Nacht, mit grosse Liechter und Glogge. Wänn du wottsch, chunnsch mit.",
+      "en": "On the fifth of December, at night, with big lanterns and bells. If you want, come along.",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          7,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-08.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-09.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Gärn!",
+      "en": "I'd love to!",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          8,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-09.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-10.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Sandra, am Mänti isch Zibelemärit. Chunsch o?",
+      "en": "Sandra, on Monday it's the onion market. Are you coming too?",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "speaker": "Mami",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          9,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-10.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-11.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Nei, i cha nid, i mues schaffe.",
+      "en": "No, I can't, I have to work.",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          10,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-11.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-12.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Schad! De choufen i dir e Zibelezüpfe.",
+      "en": "Pity! Then I'll buy you an onion braid.",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "speaker": "Mami",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          11,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-12.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-brauch.mp3",
+      "kind": "vocab",
+      "text": "Brauch",
+      "en": "custom, tradition",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "brauch",
+        "pointer": [
+          0,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-brauch.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-brauch-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Der Zibelemärit ist ein alter Brauch in Bern.",
+      "en": "The Zibelemärit is an old custom in Bern.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "brauch",
+        "pointer": [
+          0,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-brauch-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-brauch-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Bruuch",
+      "en": "custom, tradition",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "brauch",
+        "pointer": [
+          0,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-brauch-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-tradition.mp3",
+      "kind": "vocab",
+      "text": "Tradition",
+      "en": "tradition",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "tradition",
+        "pointer": [
+          1,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-tradition.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-tradition-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Bei uns ist Feuerwerk am 5. November eine Tradition.",
+      "en": "Fireworks on 5 November are a tradition where I come from.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "tradition",
+        "pointer": [
+          1,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-tradition-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-tradition-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Tradition",
+      "en": "tradition",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "tradition",
+        "pointer": [
+          1,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-tradition-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-umzug-parade.mp3",
+      "kind": "vocab",
+      "text": "Umzug",
+      "en": "procession, parade (also a house move)",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "umzug-parade",
+        "pointer": [
+          2,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-umzug-parade.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-umzug-parade-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Der Umzug beginnt um sechs Uhr am Bahnhof.",
+      "en": "The procession starts at six o'clock at the station.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "umzug-parade",
+        "pointer": [
+          2,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-umzug-parade-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-umzug-parade-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Umzug",
+      "en": "procession, parade (also a house move)",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "umzug-parade",
+        "pointer": [
+          2,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-umzug-parade-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kostuem.mp3",
+      "kind": "vocab",
+      "text": "Kostüm",
+      "en": "costume",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kostuem",
+        "pointer": [
+          3,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-kostuem.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kostuem-ex.mp3",
+      "kind": "vocab-example",
+      "text": "An der Fasnacht tragen viele Leute ein Kostüm.",
+      "en": "At carnival many people wear a costume.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kostuem",
+        "pointer": [
+          3,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-kostuem-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kostuem-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Choschtüm / Kostüm",
+      "en": "costume",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kostuem",
+        "pointer": [
+          3,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-kostuem-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-maske.mp3",
+      "kind": "vocab",
+      "text": "Maske",
+      "en": "mask",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "maske",
+        "pointer": [
+          4,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-maske.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-maske-ex.mp3",
+      "kind": "vocab-example",
+      "text": "In Basel tragen die Leute große Masken.",
+      "en": "In Basel people wear big masks.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "maske",
+        "pointer": [
+          4,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-maske-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-maske-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Maske / Larve",
+      "note": "Basel",
+      "en": "mask",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "maske",
+        "pointer": [
+          4,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-maske-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sich-verkleiden.mp3",
+      "kind": "vocab",
+      "text": "sich verkleiden",
+      "en": "to dress up (in a costume)",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sich-verkleiden",
+        "pointer": [
+          5,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-sich-verkleiden.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sich-verkleiden-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Als Kind habe ich mich jedes Jahr als Pirat verkleidet.",
+      "en": "As a child I dressed up as a pirate every year.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sich-verkleiden",
+        "pointer": [
+          5,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-sich-verkleiden-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sich-verkleiden-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "sich verchleide",
+      "en": "to dress up (in a costume)",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sich-verkleiden",
+        "pointer": [
+          5,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-sich-verkleiden-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-laterne.mp3",
+      "kind": "vocab",
+      "text": "Laterne",
+      "en": "lantern",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "laterne",
+        "pointer": [
+          6,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-laterne.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-laterne-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Die Kinder laufen mit ihren Laternen durch die Straßen.",
+      "en": "The children walk through the streets with their lanterns.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "laterne",
+        "pointer": [
+          6,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-laterne-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-laterne-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Laterne",
+      "en": "lantern",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "laterne",
+        "pointer": [
+          6,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-laterne-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-ruebe.mp3",
+      "kind": "vocab",
+      "text": "Rübe",
+      "en": "turnip",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "ruebe",
+        "pointer": [
+          7,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-ruebe.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-ruebe-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Im November schnitzen die Kinder Rüben.",
+      "en": "In November the children carve turnips.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "ruebe",
+        "pointer": [
+          7,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-ruebe-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-ruebe-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Räbe",
+      "note": "s Räbeliechtli",
+      "en": "turnip",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "ruebe",
+        "pointer": [
+          7,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-ruebe-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-schnitzen.mp3",
+      "kind": "vocab",
+      "text": "schnitzen",
+      "en": "to carve",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "schnitzen",
+        "pointer": [
+          8,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-schnitzen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-schnitzen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Hast du schon einmal eine Laterne geschnitzt?",
+      "en": "Have you ever carved a lantern?",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "schnitzen",
+        "pointer": [
+          8,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-schnitzen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-schnitzen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "schnitze",
+      "note": "gschnitzt",
+      "en": "to carve",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "schnitzen",
+        "pointer": [
+          8,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-schnitzen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-weihnachtsmarkt.mp3",
+      "kind": "vocab",
+      "text": "Weihnachtsmarkt",
+      "en": "Christmas market",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "weihnachtsmarkt",
+        "pointer": [
+          9,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-weihnachtsmarkt.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-weihnachtsmarkt-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Auf dem Weihnachtsmarkt trinken wir Glühwein.",
+      "en": "At the Christmas market we drink mulled wine.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "weihnachtsmarkt",
+        "pointer": [
+          9,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-weihnachtsmarkt-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-weihnachtsmarkt-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Wienachtsmärt",
+      "en": "Christmas market",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "weihnachtsmarkt",
+        "pointer": [
+          9,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-weihnachtsmarkt-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-adventskalender.mp3",
+      "kind": "vocab",
+      "text": "Adventskalender",
+      "en": "Advent calendar",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "adventskalender",
+        "pointer": [
+          10,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-adventskalender.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-adventskalender-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Jeden Tag im Dezember öffnen die Kinder ein Türchen im Adventskalender.",
+      "en": "Every day in December the children open a little door in the Advent calendar.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "adventskalender",
+        "pointer": [
+          10,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-adventskalender-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-adventskalender-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Adväntskaländer",
+      "en": "Advent calendar",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "adventskalender",
+        "pointer": [
+          10,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-adventskalender-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-christbaum.mp3",
+      "kind": "vocab",
+      "text": "Christbaum",
+      "en": "Christmas tree",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "christbaum",
+        "pointer": [
+          11,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-christbaum.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-christbaum-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Am 24. Dezember schmücken wir den Christbaum.",
+      "en": "On 24 December we decorate the Christmas tree.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "christbaum",
+        "pointer": [
+          11,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-christbaum-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-christbaum-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Chrischtbaum / Wienachtsbaum",
+      "en": "Christmas tree",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "christbaum",
+        "pointer": [
+          11,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-christbaum-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-schmuecken.mp3",
+      "kind": "vocab",
+      "text": "schmücken",
+      "en": "to decorate",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "schmuecken",
+        "pointer": [
+          12,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-schmuecken.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-schmuecken-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Wir haben das Wohnzimmer mit Kerzen geschmückt.",
+      "en": "We decorated the living room with candles.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "schmuecken",
+        "pointer": [
+          12,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-schmuecken-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-schmuecken-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "schmücke",
+      "en": "to decorate",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "schmuecken",
+        "pointer": [
+          12,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-schmuecken-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-lied.mp3",
+      "kind": "vocab",
+      "text": "Lied",
+      "en": "song",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "lied",
+        "pointer": [
+          13,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-lied.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-lied-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Beim Umzug singen die Kinder ein Lied.",
+      "en": "The children sing a song in the procession.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "lied",
+        "pointer": [
+          13,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-lied-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-lied-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Lied",
+      "note": "Plural Lieder",
+      "en": "song",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "lied",
+        "pointer": [
+          13,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-lied-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-osterhase.mp3",
+      "kind": "vocab",
+      "text": "Osterhase",
+      "en": "Easter bunny",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "osterhase",
+        "pointer": [
+          14,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-osterhase.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-osterhase-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Der Osterhase bringt die Eier.",
+      "en": "The Easter bunny brings the eggs.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "osterhase",
+        "pointer": [
+          14,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-osterhase-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-osterhase-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Oschterhaas",
+      "en": "Easter bunny",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "osterhase",
+        "pointer": [
+          14,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-osterhase-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-osterei.mp3",
+      "kind": "vocab",
+      "text": "Osterei",
+      "en": "Easter egg",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "osterei",
+        "pointer": [
+          15,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-osterei.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-osterei-ex.mp3",
+      "kind": "vocab-example",
+      "text": "An Ostern suchen die Kinder Ostereier im Garten.",
+      "en": "At Easter the children look for Easter eggs in the garden.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "osterei",
+        "pointer": [
+          15,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-osterei-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-osterei-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Oschterei",
+      "en": "Easter egg",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "osterei",
+        "pointer": [
+          15,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-osterei-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-faerben.mp3",
+      "kind": "vocab",
+      "text": "färben",
+      "en": "to dye, to colour",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "faerben",
+        "pointer": [
+          16,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-faerben.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-faerben-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Vor Ostern färben wir Eier.",
+      "en": "Before Easter we dye eggs.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "faerben",
+        "pointer": [
+          16,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-faerben-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-faerben-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "färbe",
+      "en": "to dye, to colour",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "faerben",
+        "pointer": [
+          16,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-faerben-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gluehwein.mp3",
+      "kind": "vocab",
+      "text": "Glühwein",
+      "en": "mulled wine",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gluehwein",
+        "pointer": [
+          17,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-gluehwein.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gluehwein-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Wenn es kalt ist, trinke ich gern einen Glühwein.",
+      "en": "When it's cold I like a mulled wine.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gluehwein",
+        "pointer": [
+          17,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-gluehwein-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gluehwein-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Glüewii",
+      "en": "mulled wine",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gluehwein",
+        "pointer": [
+          17,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-gluehwein-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-zwiebelkuchen.mp3",
+      "kind": "vocab",
+      "text": "Zwiebelkuchen",
+      "en": "onion tart",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "zwiebelkuchen",
+        "pointer": [
+          18,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-zwiebelkuchen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-zwiebelkuchen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Auf dem Zibelemärit essen viele Leute Zwiebelkuchen.",
+      "en": "At the onion market many people eat onion tart.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "zwiebelkuchen",
+        "pointer": [
+          18,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-zwiebelkuchen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-zwiebelkuchen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Zwieblechueche",
+      "en": "onion tart",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "zwiebelkuchen",
+        "pointer": [
+          18,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-zwiebelkuchen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-zwiebelkuchen-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "Zibelechueche",
+      "en": "onion tart",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "zwiebelkuchen",
+        "pointer": [
+          18,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-zwiebelkuchen-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-konfetti.mp3",
+      "kind": "vocab",
+      "text": "Konfetti",
+      "en": "confetti",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "konfetti",
+        "pointer": [
+          19,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-konfetti.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-konfetti-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Nach der Fasnacht ist überall Konfetti.",
+      "en": "After carnival there's confetti everywhere.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "konfetti",
+        "pointer": [
+          19,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-konfetti-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-konfetti-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Konfetti / Räppli",
+      "note": "Basel",
+      "en": "confetti",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "konfetti",
+        "pointer": [
+          19,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-konfetti-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-guggenmusik.mp3",
+      "kind": "vocab",
+      "text": "Guggenmusik",
+      "en": "carnival brass band (playing loud, deliberately off-key music)",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "guggenmusik",
+        "pointer": [
+          20,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-guggenmusik.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-guggenmusik-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Die Guggenmusik spielt sehr laut.",
+      "en": "The carnival band plays very loudly.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "guggenmusik",
+        "pointer": [
+          20,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-guggenmusik-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-guggenmusik-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Guggemusig",
+      "en": "carnival brass band (playing loud, deliberately off-key music)",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "guggenmusik",
+        "pointer": [
+          20,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-guggenmusik-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-glocke.mp3",
+      "kind": "vocab",
+      "text": "Glocke",
+      "en": "bell",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "glocke",
+        "pointer": [
+          21,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-glocke.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-glocke-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Beim Klausjagen hört man viele Glocken.",
+      "en": "At the Klausjagen you hear lots of bells.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "glocke",
+        "pointer": [
+          21,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-glocke-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-glocke-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Glogge / Trychle",
+      "note": "big cowbell",
+      "en": "bell",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "glocke",
+        "pointer": [
+          21,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-glocke-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-anzuenden.mp3",
+      "kind": "vocab",
+      "text": "anzünden",
+      "en": "to light (a candle, a fire)",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "anzuenden",
+        "pointer": [
+          22,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-anzuenden.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-anzuenden-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Am Abend zünden wir die Kerzen an.",
+      "en": "In the evening we light the candles.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "anzuenden",
+        "pointer": [
+          22,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-anzuenden-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-anzuenden-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "aazünde",
+      "note": "aazündt",
+      "en": "to light (a candle, a fire)",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "anzuenden",
+        "pointer": [
+          22,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-anzuenden-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-stattfinden.mp3",
+      "kind": "vocab",
+      "text": "stattfinden",
+      "en": "to take place",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "stattfinden",
+        "pointer": [
+          23,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-stattfinden.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-stattfinden-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Der Zibelemärit findet am vierten Montag im November statt.",
+      "en": "The onion market takes place on the fourth Monday in November.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "stattfinden",
+        "pointer": [
+          23,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-stattfinden-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-stattfinden-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "stattfinde",
+      "en": "to take place",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "stattfinden",
+        "pointer": [
+          23,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-stattfinden-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kindheit.mp3",
+      "kind": "vocab",
+      "text": "Kindheit",
+      "en": "childhood",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kindheit",
+        "pointer": [
+          24,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-kindheit.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kindheit-ex.mp3",
+      "kind": "vocab-example",
+      "text": "In meiner Kindheit haben wir an Weihnachten immer gesungen.",
+      "en": "In my childhood we always sang at Christmas.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kindheit",
+        "pointer": [
+          24,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-kindheit-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kindheit-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Chindheit",
+      "en": "childhood",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kindheit",
+        "pointer": [
+          24,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-kindheit-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-als-conj.mp3",
+      "kind": "vocab",
+      "text": "als",
+      "en": "when (one event or period in the past)",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "als-conj",
+        "pointer": [
+          25,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-als-conj.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-als-conj-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Als ich klein war, habe ich in Hamburg gewohnt.",
+      "en": "When I was little, I lived in Hamburg.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "als-conj",
+        "pointer": [
+          25,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-als-conj-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-als-conj-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "wänn / wo",
+      "note": "Wo n ich chlii gsii bin …",
+      "en": "when (one event or period in the past)",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "als-conj",
+        "pointer": [
+          25,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-als-conj-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wenn-conj.mp3",
+      "kind": "vocab",
+      "text": "wenn",
+      "en": "when(ever); if",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wenn-conj",
+        "pointer": [
+          26,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-wenn-conj.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wenn-conj-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Wenn du Zeit hast, komm mit!",
+      "en": "If you have time, come along!",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wenn-conj",
+        "pointer": [
+          26,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-wenn-conj-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wenn-conj-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "wänn",
+      "en": "when(ever); if",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wenn-conj",
+        "pointer": [
+          26,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-wenn-conj-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-jedes-mal.mp3",
+      "kind": "vocab",
+      "text": "jedes Mal",
+      "en": "every time",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "jedes-mal",
+        "pointer": [
+          27,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-jedes-mal.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-jedes-mal-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Jedes Mal, wenn ich in Bern bin, esse ich Zopf.",
+      "en": "Every time I'm in Bern I eat Zopf.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "jedes-mal",
+        "pointer": [
+          27,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-jedes-mal-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-jedes-mal-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "jedes Mal",
+      "en": "every time",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "jedes-mal",
+        "pointer": [
+          27,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-jedes-mal-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-damals.mp3",
+      "kind": "vocab",
+      "text": "damals",
+      "en": "back then, at that time",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "damals",
+        "pointer": [
+          28,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-damals.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-damals-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Damals hatten wir noch kein Auto.",
+      "en": "Back then we didn't have a car yet.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "damals",
+        "pointer": [
+          28,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-damals-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-damals-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "dozmal / damals",
+      "en": "back then, at that time",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "damals",
+        "pointer": [
+          28,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-damals-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-frueher.mp3",
+      "kind": "vocab",
+      "text": "früher",
+      "en": "in the past, formerly",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "frueher",
+        "pointer": [
+          29,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-frueher.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-frueher-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Früher haben die Leute die Laternen zu Hause geschnitzt.",
+      "en": "In the past people carved the lanterns at home.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "frueher",
+        "pointer": [
+          29,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-frueher-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-frueher-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "früener",
+      "en": "in the past, formerly",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "frueher",
+        "pointer": [
+          29,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-frueher-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-traditionell.mp3",
+      "kind": "vocab",
+      "text": "traditionell",
+      "en": "traditional(ly)",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "traditionell",
+        "pointer": [
+          30,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-traditionell.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-traditionell-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Traditionell isst man an Ostern Eier.",
+      "en": "Traditionally people eat eggs at Easter.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "traditionell",
+        "pointer": [
+          30,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-traditionell-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-traditionell-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "traditionell",
+      "en": "traditional(ly)",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "traditionell",
+        "pointer": [
+          30,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-traditionell-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-lustig.mp3",
+      "kind": "vocab",
+      "text": "lustig",
+      "en": "funny, fun",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "lustig",
+        "pointer": [
+          31,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-lustig.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-lustig-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Die Fasnacht ist laut und lustig.",
+      "en": "Carnival is loud and fun.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "lustig",
+        "pointer": [
+          31,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-lustig-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-lustig-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "luschtig / lustig",
+      "en": "funny, fun",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "lustig",
+        "pointer": [
+          31,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-lustig-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-typisch.mp3",
+      "kind": "vocab",
+      "text": "typisch",
+      "en": "typical",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "typisch",
+        "pointer": [
+          32,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-typisch.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-typisch-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Was ist ein typisches Fest in deinem Land?",
+      "en": "What's a typical festival in your country?",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "typisch",
+        "pointer": [
+          32,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-typisch-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-typisch-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "typisch",
+      "en": "typical",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "typisch",
+        "pointer": [
+          32,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-typisch-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-bunt.mp3",
+      "kind": "vocab",
+      "text": "bunt",
+      "en": "colourful",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "bunt",
+        "pointer": [
+          33,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-bunt.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-bunt-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Die Kostüme sind sehr bunt.",
+      "en": "The costumes are very colourful.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "bunt",
+        "pointer": [
+          33,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-bunt-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-bunt-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "bunt / farbig",
+      "en": "colourful",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "bunt",
+        "pointer": [
+          33,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-bunt-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-laerm.mp3",
+      "kind": "vocab",
+      "text": "Lärm",
+      "en": "noise",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "laerm",
+        "pointer": [
+          34,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-laerm.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-laerm-ex.mp3",
+      "kind": "vocab-example",
+      "text": "An Silvester gibt es viel Lärm.",
+      "en": "On New Year's Eve there's a lot of noise.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "laerm",
+        "pointer": [
+          34,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-laerm-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-laerm-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Lärm / Krach",
+      "en": "noise",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "laerm",
+        "pointer": [
+          34,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-laerm-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-jahreszeit.mp3",
+      "kind": "vocab",
+      "text": "Jahreszeit",
+      "en": "season",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "jahreszeit",
+        "pointer": [
+          35,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-jahreszeit.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-jahreszeit-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Der Herbst ist meine Lieblingsjahreszeit.",
+      "en": "Autumn is my favourite season.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "jahreszeit",
+        "pointer": [
+          35,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-jahreszeit-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-jahreszeit-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Jahresziit",
+      "en": "season",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "jahreszeit",
+        "pointer": [
+          35,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-jahreszeit-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-viertel-quartier.mp3",
+      "kind": "vocab",
+      "text": "Viertel",
+      "en": "neighbourhood, district",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "viertel-quartier",
+        "pointer": [
+          36,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-viertel-quartier.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-viertel-quartier-ex.mp3",
+      "kind": "vocab-example",
+      "text": "In unserem Viertel gibt es im November einen Umzug.",
+      "en": "In our neighbourhood there's a procession in November.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "viertel-quartier",
+        "pointer": [
+          36,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-viertel-quartier-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-viertel-quartier-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Quartier",
+      "en": "neighbourhood, district",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "viertel-quartier",
+        "pointer": [
+          36,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-viertel-quartier-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u09-mcq-listening-martin.mp3",
+      "kind": "listening",
+      "text": "Martin: Ja, als ich klein war, bin ich jedes Jahr mit meinem Grossvater hingegangen. Und immer wenn ich heute dort bin, denke ich an ihn.",
+      "variety": "ch-std",
+      "voice": "zh-m",
+      "speaker": "Martin",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u09-mcq-listening-martin",
+        "pointer": [
+          24,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u09-mcq-listening-martin.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u09-dictation-feuer.mp3",
+      "kind": "dictation",
+      "text": "Als ich ein Kind war, haben wir jedes Jahr ein großes Feuer gemacht.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u09-dictation-feuer",
+        "pointer": [
+          25,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u09-dictation-feuer.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u09-dictation-gluehwein.mp3",
+      "kind": "dictation",
+      "text": "Wenn es kalt ist, trinken wir auf dem Weihnachtsmarkt Glühwein.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u09-dictation-gluehwein",
+        "pointer": [
+          26,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u09-dictation-gluehwein.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u09-speak-frame.mp3",
+      "kind": "speak",
+      "text": "Bei uns gibt es im Dezember einen Weihnachtsmarkt. Als ich ein Kind war, bin ich jedes Jahr mit meiner Familie hingegangen.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u09-speak-frame",
+        "pointer": [
+          27,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u09-speak-frame.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u09-speak-shadow-tom.mp3",
+      "kind": "speak",
+      "text": "Als ich ein Kind war, haben wir mit den Nachbarn ein großes Feuer gemacht. Wenn es kalt war, haben wir Suppe gegessen.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u09-speak-shadow-tom",
+        "pointer": [
+          28,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u09-speak-shadow-tom.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u09-speak-shadow-martin.mp3",
+      "kind": "speak",
+      "text": "Ja, am Montag ist Zibelemärit. Das ist der Zwiebelmarkt in Bern, immer am vierten Montag im November.",
+      "variety": "ch-std",
+      "voice": "zh-m",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u09-speak-shadow-martin",
+        "pointer": [
+          29,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u09-speak-shadow-martin.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u09-speak-intonation.mp3",
+      "kind": "speak",
+      "text": "Es gibt Zwiebelzöpfe, Zwiebelkuchen und Glühwein.",
+      "variety": "ch-std",
+      "voice": "zh-f",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u09-speak-intonation",
+        "pointer": [
+          30,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u09-speak-intonation.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u09-speak-pron-glottal.mp3",
+      "kind": "speak",
+      "text": "An Ostern essen alle Eier, am Abend auch im alten Haus.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u09-speak-pron-glottal",
+        "pointer": [
+          31,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u09-speak-pron-glottal.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u09-ch-mcq-raebe.mp3",
+      "kind": "listening",
+      "text": "Sandra: Ich schnitz es Räbeliechtli. Am Friitig isch de Räbeliechtli-Umzug im Quartier.",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u09-ch-mcq-raebe",
+        "pointer": [
+          35,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u09-ch-mcq-raebe.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u09-ch-mcq-fasnacht.mp3",
+      "kind": "listening",
+      "text": "Reto: Klar! Im Februar gang ich wieder a d Fasnacht uf Luzern. Wänn d Guggemusige spiled, isch es mega luut.",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u09-ch-mcq-fasnacht",
+        "pointer": [
+          39,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u09-ch-mcq-fasnacht.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u09-ch-mcq-chlausjage.mp3",
+      "kind": "listening",
+      "text": "Sandra: Am füfte Dezämber z Nacht, mit grosse Liechter und Glogge. Wänn du wottsch, chunnsch mit.",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u09-ch-mcq-chlausjage",
+        "pointer": [
+          42,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u09-ch-mcq-chlausjage.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u09-ch-be-mcq-maerit.mp3",
+      "kind": "listening",
+      "text": "Mami: Sandra, am Mänti isch Zibelemärit. Chunsch o?",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "speaker": "Mami",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u09-ch-be-mcq-maerit",
+        "pointer": [
+          44,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u09-ch-be-mcq-maerit.mp3",
+      "referenced": false
+    }
+  ]
+}

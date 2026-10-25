@@ -1,0 +1,2765 @@
+{
+  "unitId": "a2-u07",
+  "level": "A2",
+  "folder": "a2/unit-07",
+  "title": "Gesund leben",
+  "delivery": {
+    "raw": "WAV or FLAC, 48 kHz, 24-bit, mono, one file per entry, named <file base>.wav",
+    "processed": [
+      "mp3 64 kbps mono 44.1 kHz",
+      "opus 32 kbps mono 48 kHz",
+      "EBU R128 -16 LUFS, true peak -1.5 dBTP"
+    ]
+  },
+  "entries": [
+    {
+      "file": "dialog-intro-01.mp3",
+      "kind": "dialogue-intro",
+      "text": "Tom, du siehst müde aus. Fühlst du dich nicht gut?",
+      "en": "Tom, you look tired. Aren't you feeling well?",
+      "variety": "ch-std",
+      "voice": "zh-f",
+      "speaker": "Nadine",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          0,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-01.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-02.mp3",
+      "kind": "dialogue-intro",
+      "text": "Doch, aber ich bin total gestresst. Ich schlafe schlecht und bewege mich zu wenig.",
+      "en": "I am, but I'm totally stressed. I sleep badly and I don't move enough.",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          1,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-02.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-03.mp3",
+      "kind": "dialogue-intro",
+      "text": "Das kenne ich. Früher habe ich mich auch nie bewegt. Jetzt gehe ich zweimal pro Woche joggen.",
+      "en": "I know that feeling. I never used to exercise either. Now I go jogging twice a week.",
+      "variety": "ch-std",
+      "voice": "zh-f",
+      "speaker": "Nadine",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          2,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-03.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-04.mp3",
+      "kind": "dialogue-intro",
+      "text": "Wirklich? Und wann? Nach der Arbeit bin ich immer so müde.",
+      "en": "Really? And when? After work I'm always so tired.",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          3,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-04.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-05.mp3",
+      "kind": "dialogue-intro",
+      "text": "Am Morgen, vor der Arbeit. Ich stehe um sechs auf, ziehe mich an und jogge eine halbe Stunde am See.",
+      "en": "In the morning, before work. I get up at six, get dressed and jog for half an hour by the lake.",
+      "variety": "ch-std",
+      "voice": "zh-f",
+      "speaker": "Nadine",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          4,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-05.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-06.mp3",
+      "kind": "dialogue-intro",
+      "text": "Um sechs? Um sechs wache ich nicht einmal auf!",
+      "en": "At six? At six I'm not even awake!",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          5,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-06.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-07.mp3",
+      "kind": "dialogue-intro",
+      "text": "Am Anfang war das schwer. Aber jetzt fühle ich mich viel fitter.",
+      "en": "At first it was hard. But now I feel much fitter.",
+      "variety": "ch-std",
+      "voice": "zh-f",
+      "speaker": "Nadine",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          6,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-07.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-08.mp3",
+      "kind": "dialogue-intro",
+      "text": "Und was machst du gegen Stress?",
+      "en": "And what do you do about stress?",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          7,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-08.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-09.mp3",
+      "kind": "dialogue-intro",
+      "text": "Am Wochenende ruhe ich mich richtig aus. Und am Abend schaue ich nicht mehr aufs Handy.",
+      "en": "At the weekend I have a proper rest. And in the evening I don't look at my phone any more.",
+      "variety": "ch-std",
+      "voice": "zh-f",
+      "speaker": "Nadine",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          8,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-09.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-10.mp3",
+      "kind": "dialogue-intro",
+      "text": "Gute Idee. Vielleicht melde ich mich im Fitnesscenter an.",
+      "en": "Good idea. Maybe I'll sign up at the gym.",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          9,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-10.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-11.mp3",
+      "kind": "dialogue-intro",
+      "text": "Oder du kommst am Donnerstag mit. Wir treffen uns um halb sieben beim Bahnhof.",
+      "en": "Or you come along on Thursday. We meet at half past six by the station.",
+      "variety": "ch-std",
+      "voice": "zh-f",
+      "speaker": "Nadine",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          10,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-11.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-12.mp3",
+      "kind": "dialogue-intro",
+      "text": "Um halb sieben am Morgen? Na gut … ich versuche es!",
+      "en": "At half past six in the morning? Oh well … I'll give it a try!",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          11,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-12.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-01.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Hoi Reto! Du gsehsch müed us. Was isch los?",
+      "en": "Hi Reto! You look tired. What's up?",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          0,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-01.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-02.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Ich bi total gstresst. Im Kafi isch so vill los, und ich schlaf schlächt.",
+      "en": "I'm totally stressed. There's so much going on at the café, and I'm sleeping badly.",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          1,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-02.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-03.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Du muesch di meh bewege. Ich gang am Abig go jogge – chunnsch mit?",
+      "en": "You need to move more. I go jogging in the evening – are you coming along?",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          2,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-03.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-04.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Jogge? Nei, das isch mer z streng.",
+      "en": "Jogging? No, that's too much effort for me.",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          3,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-04.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-05.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Dänn gömmer halt go schwümme. Im Hallebad isch es schön warm.",
+      "en": "Then let's go swimming instead. It's nice and warm in the indoor pool.",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          4,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-05.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-06.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Okay, das tönt guet. Ich fröi mich!",
+      "en": "OK, that sounds good. I'm looking forward to it!",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          5,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-06.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-07.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Und morn gönd mir zäme go poschte – öppis Gsunds fürs Znacht!",
+      "en": "And tomorrow we'll go shopping together – something healthy for dinner!",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          6,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-07.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-08.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Du bisch strenger als min Dokter!",
+      "en": "You're stricter than my doctor!",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          7,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-08.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-09.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Sandra, bisch müed?",
+      "en": "Sandra, are you tired?",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "speaker": "Mami",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          8,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-09.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-10.mp3",
+      "kind": "dialogue-swiss",
+      "text": "E chli. I bi am Morge go jogge.",
+      "en": "A bit. I went jogging this morning.",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          9,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-10.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-11.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Bravo! I fröie mi, dass es dir guet geit.",
+      "en": "Well done! I'm glad you're doing well.",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "speaker": "Mami",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          10,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-11.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sport.mp3",
+      "kind": "vocab",
+      "text": "Sport",
+      "en": "sport, exercise",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sport",
+        "pointer": [
+          0,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-sport.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sport-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich mache dreimal pro Woche Sport.",
+      "en": "I exercise three times a week.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sport",
+        "pointer": [
+          0,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-sport-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sport-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Sport",
+      "en": "sport, exercise",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sport",
+        "pointer": [
+          0,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-sport-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-joggen.mp3",
+      "kind": "vocab",
+      "text": "joggen",
+      "en": "to jog",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "joggen",
+        "pointer": [
+          1,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-joggen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-joggen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Nadine geht vor der Arbeit joggen.",
+      "en": "Nadine goes jogging before work.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "joggen",
+        "pointer": [
+          1,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-joggen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-joggen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "jogge",
+      "note": "ich gang go jogge",
+      "en": "to jog",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "joggen",
+        "pointer": [
+          1,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-joggen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-joggen-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "jogge / tschogge",
+      "en": "to jog",
+      "variety": "gsw-be",
+      "voice": "be-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "joggen",
+        "pointer": [
+          1,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-joggen-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-fitnesscenter.mp3",
+      "kind": "vocab",
+      "text": "Fitnessstudio",
+      "en": "gym",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "fitnesscenter",
+        "pointer": [
+          2,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-fitnesscenter.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-fitnesscenter-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Tom meldet sich im Fitnessstudio an.",
+      "en": "Tom signs up at the gym.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "fitnesscenter",
+        "pointer": [
+          2,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-fitnesscenter-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-fitnesscenter-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "s Fitness",
+      "note": "is Fitness gaa",
+      "en": "gym",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "fitnesscenter",
+        "pointer": [
+          2,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-fitnesscenter-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-yoga.mp3",
+      "kind": "vocab",
+      "text": "Yoga",
+      "en": "yoga",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "yoga",
+        "pointer": [
+          3,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-yoga.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-yoga-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Yoga hilft mir gegen Stress.",
+      "en": "Yoga helps me with stress.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "yoga",
+        "pointer": [
+          3,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-yoga-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-yoga-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Yoga",
+      "en": "yoga",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "yoga",
+        "pointer": [
+          3,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-yoga-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-bewegung.mp3",
+      "kind": "vocab",
+      "text": "Bewegung",
+      "en": "exercise, movement",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "bewegung",
+        "pointer": [
+          4,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-bewegung.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-bewegung-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Bewegung ist gesund.",
+      "en": "Exercise is healthy.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "bewegung",
+        "pointer": [
+          4,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-bewegung-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-bewegung-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Bewegig",
+      "en": "exercise, movement",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "bewegung",
+        "pointer": [
+          4,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-bewegung-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-stress.mp3",
+      "kind": "vocab",
+      "text": "Stress",
+      "en": "stress",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "stress",
+        "pointer": [
+          5,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-stress.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-stress-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Was machst du gegen Stress?",
+      "en": "What do you do about stress?",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "stress",
+        "pointer": [
+          5,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-stress-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-stress-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Stress",
+      "en": "stress",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "stress",
+        "pointer": [
+          5,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-stress-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gestresst.mp3",
+      "kind": "vocab",
+      "text": "gestresst",
+      "en": "stressed",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gestresst",
+        "pointer": [
+          6,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-gestresst.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gestresst-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich bin total gestresst.",
+      "en": "I'm totally stressed.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gestresst",
+        "pointer": [
+          6,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-gestresst-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gestresst-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "gstresst",
+      "en": "stressed",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gestresst",
+        "pointer": [
+          6,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-gestresst-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-muede.mp3",
+      "kind": "vocab",
+      "text": "müde",
+      "en": "tired",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "muede",
+        "pointer": [
+          7,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-muede.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-muede-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Nach der Arbeit bin ich immer so müde.",
+      "en": "After work I'm always so tired.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "muede",
+        "pointer": [
+          7,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-muede-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-muede-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "müed",
+      "en": "tired",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "muede",
+        "pointer": [
+          7,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-muede-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-muede-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "müed",
+      "en": "tired",
+      "variety": "gsw-be",
+      "voice": "be-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "muede",
+        "pointer": [
+          7,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-muede-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-schlaf.mp3",
+      "kind": "vocab",
+      "text": "Schlaf",
+      "en": "sleep",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "schlaf",
+        "pointer": [
+          8,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-schlaf.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-schlaf-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Guter Schlaf ist wichtig.",
+      "en": "Good sleep is important.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "schlaf",
+        "pointer": [
+          8,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-schlaf-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-schlaf-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Schlaf",
+      "en": "sleep",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "schlaf",
+        "pointer": [
+          8,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-schlaf-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-aufwachen.mp3",
+      "kind": "vocab",
+      "text": "aufwachen",
+      "en": "to wake up",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "aufwachen",
+        "pointer": [
+          9,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-aufwachen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-aufwachen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Um sechs wache ich nicht einmal auf!",
+      "en": "At six I'm not even awake!",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "aufwachen",
+        "pointer": [
+          9,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-aufwachen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-aufwachen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "verwache / uufwache",
+      "en": "to wake up",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "aufwachen",
+        "pointer": [
+          9,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-aufwachen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-ernaehrung.mp3",
+      "kind": "vocab",
+      "text": "Ernährung",
+      "en": "diet, nutrition",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "ernaehrung",
+        "pointer": [
+          10,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-ernaehrung.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-ernaehrung-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Eine gesunde Ernährung ist wichtig.",
+      "en": "A healthy diet is important.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "ernaehrung",
+        "pointer": [
+          10,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-ernaehrung-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-ernaehrung-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Ernährig",
+      "en": "diet, nutrition",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "ernaehrung",
+        "pointer": [
+          10,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-ernaehrung-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gemuese.mp3",
+      "kind": "vocab",
+      "text": "Gemüse",
+      "en": "vegetables",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gemuese",
+        "pointer": [
+          11,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-gemuese.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gemuese-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich esse jeden Tag viel Gemüse.",
+      "en": "I eat lots of vegetables every day.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gemuese",
+        "pointer": [
+          11,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-gemuese-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gemuese-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Gmües",
+      "en": "vegetables",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gemuese",
+        "pointer": [
+          11,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-gemuese-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-obst.mp3",
+      "kind": "vocab",
+      "text": "Obst",
+      "en": "fruit",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "obst",
+        "pointer": [
+          12,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-obst.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-obst-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Obst ist gesünder als Schokolade.",
+      "en": "Fruit is healthier than chocolate.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "obst",
+        "pointer": [
+          12,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-obst-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-obst-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Frücht / Obscht",
+      "en": "fruit",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "obst",
+        "pointer": [
+          12,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-obst-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-koerper.mp3",
+      "kind": "vocab",
+      "text": "Körper",
+      "en": "body",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "koerper",
+        "pointer": [
+          13,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-koerper.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-koerper-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Sport ist gut für den Körper.",
+      "en": "Sport is good for the body.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "koerper",
+        "pointer": [
+          13,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-koerper-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-koerper-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Körper",
+      "en": "body",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "koerper",
+        "pointer": [
+          13,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-koerper-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-ruecken.mp3",
+      "kind": "vocab",
+      "text": "Rücken",
+      "en": "back",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "ruecken",
+        "pointer": [
+          14,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-ruecken.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-ruecken-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Vom Sitzen tut mir der Rücken weh.",
+      "en": "My back hurts from sitting.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "ruecken",
+        "pointer": [
+          14,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-ruecken-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-ruecken-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Rugge",
+      "en": "back",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "ruecken",
+        "pointer": [
+          14,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-ruecken-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-zahn.mp3",
+      "kind": "vocab",
+      "text": "Zahn",
+      "en": "tooth",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "zahn",
+        "pointer": [
+          15,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-zahn.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-zahn-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich putze mir zweimal am Tag die Zähne.",
+      "en": "I brush my teeth twice a day.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "zahn",
+        "pointer": [
+          15,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-zahn-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-zahn-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Zaa / Zahn",
+      "note": "plural Zää",
+      "en": "tooth",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "zahn",
+        "pointer": [
+          15,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-zahn-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-schnupfen.mp3",
+      "kind": "vocab",
+      "text": "Schnupfen",
+      "en": "cold (runny nose)",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "schnupfen",
+        "pointer": [
+          16,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-schnupfen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-schnupfen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich habe einen Schnupfen.",
+      "en": "I've got a cold.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "schnupfen",
+        "pointer": [
+          16,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-schnupfen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-schnupfen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Pfnüsel",
+      "en": "cold (runny nose)",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "schnupfen",
+        "pointer": [
+          16,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-schnupfen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sich-fuehlen.mp3",
+      "kind": "vocab",
+      "text": "sich fühlen",
+      "en": "to feel",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sich-fuehlen",
+        "pointer": [
+          17,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-sich-fuehlen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sich-fuehlen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich fühle mich viel fitter.",
+      "en": "I feel much fitter.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sich-fuehlen",
+        "pointer": [
+          17,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-sich-fuehlen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sich-fuehlen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "sich füele",
+      "note": "ich füel mich",
+      "en": "to feel",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sich-fuehlen",
+        "pointer": [
+          17,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-sich-fuehlen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sich-freuen.mp3",
+      "kind": "vocab",
+      "text": "sich freuen",
+      "note": "auf / über",
+      "en": "to look forward to / to be happy about",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sich-freuen",
+        "pointer": [
+          18,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-sich-freuen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sich-freuen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich freue mich auf das Wochenende.",
+      "en": "I'm looking forward to the weekend.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sich-freuen",
+        "pointer": [
+          18,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-sich-freuen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sich-freuen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "sich fröie",
+      "note": "ich fröi mich",
+      "en": "to look forward to / to be happy about",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sich-freuen",
+        "pointer": [
+          18,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-sich-freuen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sich-freuen-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "sech fröie",
+      "note": "i fröie mi",
+      "en": "to look forward to / to be happy about",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sich-freuen",
+        "pointer": [
+          18,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-sich-freuen-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sich-bewegen.mp3",
+      "kind": "vocab",
+      "text": "sich bewegen",
+      "en": "to move, to exercise",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sich-bewegen",
+        "pointer": [
+          19,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-sich-bewegen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sich-bewegen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Du bewegst dich zu wenig.",
+      "en": "You don't move enough.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sich-bewegen",
+        "pointer": [
+          19,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-sich-bewegen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sich-bewegen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "sich bewege",
+      "en": "to move, to exercise",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sich-bewegen",
+        "pointer": [
+          19,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-sich-bewegen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sich-ausruhen.mp3",
+      "kind": "vocab",
+      "text": "sich ausruhen",
+      "en": "to rest",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sich-ausruhen",
+        "pointer": [
+          20,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-sich-ausruhen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sich-ausruhen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Am Wochenende ruhe ich mich aus.",
+      "en": "At the weekend I rest.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sich-ausruhen",
+        "pointer": [
+          20,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-sich-ausruhen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sich-ausruhen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "sich uusruebe / sich uusruhe",
+      "en": "to rest",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sich-ausruhen",
+        "pointer": [
+          20,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-sich-ausruhen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sich-entspannen.mp3",
+      "kind": "vocab",
+      "text": "sich entspannen",
+      "en": "to relax",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sich-entspannen",
+        "pointer": [
+          21,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-sich-entspannen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sich-entspannen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Beim Yoga entspanne ich mich.",
+      "en": "I relax when I do yoga.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sich-entspannen",
+        "pointer": [
+          21,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-sich-entspannen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sich-entspannen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "sich entspanne",
+      "en": "to relax",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sich-entspannen",
+        "pointer": [
+          21,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-sich-entspannen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sich-erholen.mp3",
+      "kind": "vocab",
+      "text": "sich erholen",
+      "en": "to recover, to get some rest",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sich-erholen",
+        "pointer": [
+          22,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-sich-erholen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sich-erholen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Hast du dich in den Ferien gut erholt?",
+      "en": "Did you have a good rest on holiday?",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sich-erholen",
+        "pointer": [
+          22,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-sich-erholen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sich-erholen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "sich erhole",
+      "en": "to recover, to get some rest",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sich-erholen",
+        "pointer": [
+          22,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-sich-erholen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sich-anziehen.mp3",
+      "kind": "vocab",
+      "text": "sich anziehen",
+      "en": "to get dressed",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sich-anziehen",
+        "pointer": [
+          23,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-sich-anziehen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sich-anziehen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich stehe auf und ziehe mich an.",
+      "en": "I get up and get dressed.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sich-anziehen",
+        "pointer": [
+          23,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-sich-anziehen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sich-anziehen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "sich aalegge",
+      "en": "to get dressed",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sich-anziehen",
+        "pointer": [
+          23,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-sich-anziehen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sich-waschen.mp3",
+      "kind": "vocab",
+      "text": "sich waschen",
+      "en": "to wash (oneself)",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sich-waschen",
+        "pointer": [
+          24,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-sich-waschen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sich-waschen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Wasch dir bitte die Hände!",
+      "en": "Please wash your hands!",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sich-waschen",
+        "pointer": [
+          24,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-sich-waschen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sich-waschen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "sich wäsche",
+      "en": "to wash (oneself)",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sich-waschen",
+        "pointer": [
+          24,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-sich-waschen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sich-duschen.mp3",
+      "kind": "vocab",
+      "text": "sich duschen",
+      "en": "to have a shower",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sich-duschen",
+        "pointer": [
+          25,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-sich-duschen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sich-duschen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Nach dem Joggen dusche ich mich.",
+      "en": "After jogging I have a shower.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sich-duschen",
+        "pointer": [
+          25,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-sich-duschen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sich-duschen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "dusche / sich dusche",
+      "en": "to have a shower",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sich-duschen",
+        "pointer": [
+          25,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-sich-duschen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sich-beeilen.mp3",
+      "kind": "vocab",
+      "text": "sich beeilen",
+      "en": "to hurry",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sich-beeilen",
+        "pointer": [
+          26,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-sich-beeilen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sich-beeilen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Beeil dich, der Zug fährt um sieben!",
+      "en": "Hurry up, the train leaves at seven!",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sich-beeilen",
+        "pointer": [
+          26,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-sich-beeilen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sich-beeilen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "pressiere / sich beeile",
+      "en": "to hurry",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sich-beeilen",
+        "pointer": [
+          26,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-sich-beeilen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sich-treffen.mp3",
+      "kind": "vocab",
+      "text": "sich treffen",
+      "en": "to meet (each other)",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sich-treffen",
+        "pointer": [
+          27,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-sich-treffen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sich-treffen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Wir treffen uns um halb sieben beim Bahnhof.",
+      "en": "We meet at half past six by the station.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sich-treffen",
+        "pointer": [
+          27,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-sich-treffen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sich-treffen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "sich träffe",
+      "note": "mir träffed öis",
+      "en": "to meet (each other)",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sich-treffen",
+        "pointer": [
+          27,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-sich-treffen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sich-anmelden.mp3",
+      "kind": "vocab",
+      "text": "sich anmelden",
+      "en": "to sign up, to register",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sich-anmelden",
+        "pointer": [
+          28,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-sich-anmelden.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sich-anmelden-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Vielleicht melde ich mich im Fitnessstudio an.",
+      "en": "Maybe I'll sign up at the gym.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sich-anmelden",
+        "pointer": [
+          28,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-sich-anmelden-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sich-anmelden-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "sich aamälde",
+      "en": "to sign up, to register",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sich-anmelden",
+        "pointer": [
+          28,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-sich-anmelden-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gesund.mp3",
+      "kind": "vocab",
+      "text": "gesund",
+      "en": "healthy",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gesund",
+        "pointer": [
+          29,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-gesund.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gesund-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Lachen ist gesund!",
+      "en": "Laughing is healthy!",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gesund",
+        "pointer": [
+          29,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-gesund-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gesund-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "gsund",
+      "note": "öppis Gsunds",
+      "en": "healthy",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gesund",
+        "pointer": [
+          29,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-gesund-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-ungesund.mp3",
+      "kind": "vocab",
+      "text": "ungesund",
+      "en": "unhealthy",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "ungesund",
+        "pointer": [
+          30,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-ungesund.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-ungesund-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Zu viel Zucker ist ungesund.",
+      "en": "Too much sugar is unhealthy.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "ungesund",
+        "pointer": [
+          30,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-ungesund-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-ungesund-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "ungsund",
+      "en": "unhealthy",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "ungesund",
+        "pointer": [
+          30,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-ungesund-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-fit.mp3",
+      "kind": "vocab",
+      "text": "fit",
+      "en": "fit",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "fit",
+        "pointer": [
+          31,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-fit.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-fit-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Jetzt fühle ich mich viel fitter.",
+      "en": "Now I feel much fitter.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "fit",
+        "pointer": [
+          31,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-fit-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-fit-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "fit",
+      "en": "fit",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "fit",
+        "pointer": [
+          31,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-fit-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-regelmaessig.mp3",
+      "kind": "vocab",
+      "text": "regelmäßig",
+      "en": "regularly",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "regelmaessig",
+        "pointer": [
+          32,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-regelmaessig.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-regelmaessig-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Essen Sie regelmäßig und gesund.",
+      "en": "Eat regularly and healthily.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "regelmaessig",
+        "pointer": [
+          32,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-regelmaessig-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-regelmaessig-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "regelmässig",
+      "en": "regularly",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "regelmaessig",
+        "pointer": [
+          32,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-regelmaessig-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-rauchen.mp3",
+      "kind": "vocab",
+      "text": "rauchen",
+      "en": "to smoke",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "rauchen",
+        "pointer": [
+          33,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-rauchen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-rauchen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich rauche seit zwei Jahren nicht mehr.",
+      "en": "I haven't smoked for two years.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "rauchen",
+        "pointer": [
+          33,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-rauchen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-rauchen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "rauche",
+      "en": "to smoke",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "rauchen",
+        "pointer": [
+          33,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-rauchen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-abnehmen.mp3",
+      "kind": "vocab",
+      "text": "abnehmen",
+      "en": "to lose weight",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "abnehmen",
+        "pointer": [
+          34,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-abnehmen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-abnehmen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich möchte drei Kilo abnehmen.",
+      "en": "I'd like to lose three kilos.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "abnehmen",
+        "pointer": [
+          34,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-abnehmen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-abnehmen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "abnäh",
+      "en": "to lose weight",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "abnehmen",
+        "pointer": [
+          34,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-abnehmen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-tipp.mp3",
+      "kind": "vocab",
+      "text": "Tipp",
+      "en": "tip, piece of advice",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "tipp",
+        "pointer": [
+          35,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-tipp.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-tipp-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Hast du einen Tipp gegen Stress?",
+      "en": "Do you have a tip for stress?",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "tipp",
+        "pointer": [
+          35,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-tipp-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-tipp-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Tipp",
+      "en": "tip, piece of advice",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "tipp",
+        "pointer": [
+          35,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-tipp-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-zaehne-putzen.mp3",
+      "kind": "vocab",
+      "text": "sich die Zähne putzen",
+      "en": "to brush one's teeth",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "zaehne-putzen",
+        "pointer": [
+          36,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-zaehne-putzen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-zaehne-putzen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich putze mir am Morgen und am Abend die Zähne.",
+      "en": "I brush my teeth in the morning and in the evening.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "zaehne-putzen",
+        "pointer": [
+          36,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-zaehne-putzen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-zaehne-putzen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "d Zää putze",
+      "en": "to brush one's teeth",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "zaehne-putzen",
+        "pointer": [
+          36,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-zaehne-putzen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u07-mcq-listening-stress.mp3",
+      "kind": "listening",
+      "text": "Nadine: Am Wochenende ruhe ich mich richtig aus. Und am Abend schaue ich nicht mehr aufs Handy.",
+      "variety": "ch-std",
+      "voice": "zh-f",
+      "speaker": "Nadine",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u07-mcq-listening-stress",
+        "pointer": [
+          25,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u07-mcq-listening-stress.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u07-dictation-fuehlen.mp3",
+      "kind": "dictation",
+      "text": "Fühlst du dich heute nicht gut?",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u07-dictation-fuehlen",
+        "pointer": [
+          26,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u07-dictation-fuehlen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u07-dictation-treffen.mp3",
+      "kind": "dictation",
+      "text": "Wir treffen uns am Donnerstag um halb sieben.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u07-dictation-treffen",
+        "pointer": [
+          27,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u07-dictation-treffen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u07-speak-frame.mp3",
+      "kind": "speak",
+      "text": "Ich stehe um sieben auf, dusche mich und ziehe mich an. Dann frühstücke ich und beeile mich zum Bus.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u07-speak-frame",
+        "pointer": [
+          28,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u07-speak-frame.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u07-speak-shadow-tom.mp3",
+      "kind": "speak",
+      "text": "Doch, aber ich bin total gestresst. Ich schlafe schlecht und bewege mich zu wenig.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u07-speak-shadow-tom",
+        "pointer": [
+          29,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u07-speak-shadow-tom.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u07-speak-shadow-nadine.mp3",
+      "kind": "speak",
+      "text": "Am Morgen, vor der Arbeit. Ich stehe um sechs auf, ziehe mich an und jogge eine halbe Stunde am See.",
+      "variety": "ch-std",
+      "voice": "zh-m",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u07-speak-shadow-nadine",
+        "pointer": [
+          30,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u07-speak-shadow-nadine.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u07-speak-intonation.mp3",
+      "kind": "speak",
+      "text": "Ruh dich doch mal aus!",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u07-speak-intonation",
+        "pointer": [
+          31,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u07-speak-intonation.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u07-speak-pron-ich.mp3",
+      "kind": "speak",
+      "text": "Ich fühle mich richtig fit, und ich freue mich, dass sich alle so viel bewegen.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u07-speak-pron-ich",
+        "pointer": [
+          32,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u07-speak-pron-ich.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u07-ch-mcq-muued.mp3",
+      "kind": "listening",
+      "text": "Reto: Ich bi total gstresst. Im Kafi isch so vill los, und ich schlaf schlächt.",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u07-ch-mcq-muued",
+        "pointer": [
+          36,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u07-ch-mcq-muued.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u07-ch-mcq-gommer.mp3",
+      "kind": "listening",
+      "text": "Sandra: Dänn gömmer halt go schwümme. Im Hallebad isch es schön warm.",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u07-ch-mcq-gommer",
+        "pointer": [
+          40,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u07-ch-mcq-gommer.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u07-ch-be-mcq-jogge.mp3",
+      "kind": "listening",
+      "text": "Sandra: E chli. I bi am Morge go jogge.",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u07-ch-be-mcq-jogge",
+        "pointer": [
+          44,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u07-ch-be-mcq-jogge.mp3",
+      "referenced": false
+    }
+  ]
+}
