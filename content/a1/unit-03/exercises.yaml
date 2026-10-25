@@ -529,12 +529,12 @@
   prompt: Match the Zurich German family words with Standard German.
   pairs:
     - ["d Muetter", "die Mutter"]
-    - ["de Brüeder", "der Bruder"]
+    - ["de Brueder", "der Bruder"]
     - ["d Schwöschter", "die Schwester"]
     - ["s Chind", "das Kind"]
     - ["d Gschwüschterti", "die Geschwister"]
   explanation: >-
-    Sound patterns you can reuse: u → ue (Mutter → Muetter, Bruder → Brüeder, gut → guet), k → ch
+    Sound patterns you can reuse: u → ue (Mutter → Muetter, Bruder → Brueder, gut → guet; the plural Brüder → Brüeder keeps the umlaut), k → ch
     (Kind → Chind), st → scht (Schwester → Schwöschter). Articles shrink: de, d, s.
 
 - id: a1-u03-ch-transform-schwoeschter
@@ -567,7 +567,7 @@
   skill: grammar
   variety: gsw-zh
   grammar: [possessives]
-  prompt: "Zurich German: min Brüeder, mini Schwöschter ... and for s Chind (neuter)?"
+  prompt: "Zurich German: min Brueder, mini Schwöschter ... and for s Chind (neuter)?"
   options: ["mis Chind", "min Chind", "mini Chind", "mein Chind"]
   answer: 0
   explanation: >-
@@ -599,13 +599,13 @@
     Reto shows you a photo of his family and talks about it in Zurich German. Ask him questions in Standard
     German and check that you understood.
   goals:
-    - Understand who is in the photo (Eltere, Brüeder, Chind).
+    - Understand who is in the photo (Eltere, Brueder, Chind).
     - Understand "Häsch du Gschwüschterti?" and answer.
     - Ask about one person with sein or ihr and understand the answer.
   model: |
     Reto: Lueg, das isch mini Familie. Das sind mini Eltere.
     Du: Schön! Und wer ist das?
-    Reto: Das isch min Brüeder, de Lukas. Er hät zwei Chind.
+    Reto: Das isch min Brueder, de Lukas. Er hät zwei Chind.
     Du: Wie heißen seine Kinder?
     Reto: De Noah und d Lina. Ich bi de Götti vom Noah.
     Du: Ah, du bist sein Pate! Wie alt ist er?

@@ -34,13 +34,13 @@ modal verbs, separable verbs, *nicht/kein*.
 - **Goal:** count to 100, understand prices in francs, order politely, and pay.
 - **Grammar:** gender (*der/die/das*) and indefinite articles; accusative with *ein → einen*; *möchte(n)*, *Ich hätte gern*, *nehmen* (e → i); numbers 0–100.
 - **Vocabulary:** café food and drink, money (Franken, Rappen), ordering and paying phrases.
-- **Swiss lane:** *Was dörfs sii?*, *Ich hett gern ...*; Kafi, Schale, Gipfeli, Weggli, Mineral, Stange; Zurich numbers (drü, föif, sächs, nüün, zää, zwänzg, füfzg); Swiss German has no separate accusative article (*en Kafi*); *zäme*, *Isch guet so*. Helvetisms: Gipfeli, Glace, Morgenessen, Poulet.
+- **Swiss lane:** *Was dörfs sii?*, *Ich hett gärn ...*; Kafi, Schale, Gipfeli, Weggli, Mineral, Stange; Zurich numbers (drü, föif, sächs, nüün, zää, zwänzg, füfzg); Swiss German has no separate accusative article (*en Kafi*); *zäme*, *Isch guet so*. Helvetisms: Gipfeli, Glace, Morgenessen, Poulet.
 
 ### A1.3 Meine Familie – *My family* ✅ written
 - **Goal:** talk about your family, say names and ages, and ask about other people's families.
 - **Grammar:** *haben*; possessive articles (*mein, dein, sein, ihr, unser, euer, Ihr*) in the nominative and the masculine accusative; plural nouns; age with *sein*.
 - **Vocabulary:** family members, marital status, pets, adjectives *alt, klein, groß, süß*.
-- **Swiss lane:** *ich ha, du häsch, er hät, mir händ*; *min/mini/mis*; Muetter, Brüeder, Schwöschter, Gschwüschterti, Chind; Götti / Gotte; *herzig*; plural verbs in *-ed*.
+- **Swiss lane:** *ich ha, du häsch, er hät, mir händ*; *min/mini/mis*; Muetter, Brueder, Schwöschter, Gschwüschterti, Chind; Götti / Gotte; *herzig*; plural verbs in *-ed*.
 
 ### A1.4 Mein Tag – *My day*
 - **Goal:** describe your daily routine, tell the time, and say when you do things.
@@ -284,7 +284,7 @@ Swiss lane: fluent everyday dialect, diglossia at work, dialect in the media, fi
 - **Goal:** report what others said and understand news reports.
 - **Grammar:** Konjunktiv I for indirect speech; Konjunktiv II as a substitute.
 - **Vocabulary:** news, politics, reports, quotes.
-- **Swiss lane:** SRF news in Standard vs talk and call-in shows in dialect; dialect reported speech (*Er hät gseit, er heg kei Ziit*).
+- **Swiss lane:** SRF news in Standard vs talk and call-in shows in dialect; dialect reported speech (*Er hät gseit, er heig kei Ziit*; Zurich Konjunktiv I *heig*, also heard as *heg*).
 
 ### B2.5 Wirtschaft und Konsum – *Economy and consumption*
 - **Goal:** discuss consumer behaviour, money and advertising.
