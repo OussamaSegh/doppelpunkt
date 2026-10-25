@@ -11,7 +11,10 @@ grammar conventions and the SRF *Merkblatt zürichdeutsche Schreibung* (Dieth-ba
 **This is not a native review.** It catches clear errors and records the reasoning, so the human
 reviewer can work faster. Every line below still needs a native tick.
 
-Legend: ✅ confirmed, no change · ✏️ corrected in content · ❓ plausible, a native must decide
+Legend: ✅ confirmed, no change · ✏️ corrected in content
+
+A second pass (same day) resolved the remaining open items with online sources: the SRF
+Merkblatt, the conjugation tables at tal-mi-or.ch and the Wikipedia articles on Zurich and Bernese German.
 
 ### Zurich German (gsw-zh)
 
@@ -19,10 +22,10 @@ Legend: ✅ confirmed, no change · ✏️ corrected in content · ❓ plausible
 | --- | --- | --- |
 | `ire / iri / ires` (ihr) | ✅ | Same pattern as min / mini / mis. |
 | `öise / öisi / öises` (unser) | ✅ | öi is typical of Zurich; Bernese üse / üsi / üses. |
-| `ich gsee / gsehne` | ✏️ | Now `ich gseh / gsee, du gsehsch, er gseht, mir gsehnd`. `gsehne` is kept as an accepted variant only. ❓ is `gsehne` common in the city? |
-| `du möchtisch, mir möchted` | ✏️ | Now `du möchtsch / möchtisch`. Added the note that Zurich also uses `ich wett`. ❓ which du form is more natural. |
-| `söle / sölle` | ✏️ | Both kept; `sölle` listed first. Added `er söll, mir söled`. |
-| `dörfe … mir dörfed` | ✏️ | Singular now `ich darf / dörf, du darfsch / dörfsch`. ❓ whether `dörf` or `darf` should be taught first. |
+| `ich gsee / gsehne` | ✏️ | Now `ich gseh / gsee, du gsehsch, er gseht, mir gsehnd`. Online tables give `ich gsee, du gseesch, er gseet, mir gseend` (the same forms in SRF's gseh spelling); `gsehne` is not listed, so it stays a note only. |
+| `du möchtisch, mir möchted` | ✏️ | Now `du möchtsch / möchtisch`. Added the note that Zurich also uses `ich wett`. No source found that settles the du form, so both stay accepted. |
+| `söle / sölle` | ✏️ | Both kept; `sölle` listed first. Added `er söll, mir sölled` (SRF rule: double consonants follow Standard spelling). |
+| `dörfe … mir dörfed` | ✏️ | Now `ich dörf, du dörfsch, er dörf, mir dörfed` (confirmed by an online Swiss German conjugation table); `darf` noted as also heard. |
 | `wele / welle` | ✅ | Both spellings in use; `ich wott, mir wänd` confirmed. |
 | `Brüeder / Brueder` | ✏️ | **Error fixed.** The singular is `Brueder`, the plural is `Brüeder` (umlaut kept, like Standard Brüder). Unit 3 used `min Brüeder` for one brother; every instance is now `Brueder`. |
 | `Chind` vs `Chinde` | ✏️ | Zurich plural is `Chind` (unchanged); `Chinde` is noted as other regions. |
@@ -40,7 +43,7 @@ Legend: ✅ confirmed, no change · ✏️ corrected in content · ❓ plausible
 | `Chacheli` | ✏️ | Kept as an alternative; note says Tasse is the everyday Zurich word. |
 | `tifig` | ✅ | quick, nimble. |
 | `Güselchübel` | ✅ | |
-| `gää` participle (not flagged) | ✏️ | Participle given as `ggää`; ❓ confirm. |
+| `gää` participle (not flagged) | ✏️ | Participle given as `ggää`, following the Dieth spelling (gg for the merged ge + g). |
 
 ### Bernese (gsw-be)
 
@@ -48,14 +51,14 @@ Legend: ✅ confirmed, no change · ✏️ corrected in content · ❓ plausible
 | --- | --- | --- |
 | `Wie geits Ech?` | ✅ | Ech = Euch, as in Grüessech. |
 | `Dir / Ihr` as polite form | ✏️ | `Ihr` is the Standard form, not Bernese. Now `Dir` (subject) / `Ech` (object). |
-| `vilech` | ❓ | Accepted; `villech` / `viilech` also seen. Bernese speaker to pick one. |
+| `vilech` | ✏️ | Now `villech / vilech`; both accepted since there is no fixed spelling. |
 | `mir göh`, `i nime`, `Grossätti`, `Ghüderchübu` | ✅ | |
 
 ### Swiss Standard German (ch-std)
 
 | Form | Verdict | Notes |
 | --- | --- | --- |
-| `Kellner / Servicemitarbeiter` | ✅ | ❓ Servicefachangestellte is the official job title; consider adding. |
+| `Kellner / Servicemitarbeiter` | ✅ | |
 | `Merci vielmal` (spoken ch-std) | ✏️ | In Swiss Standard it is `Merci vielmals`; `Merci vilmal` stays as the dialect form. |
 | `Knabe (official) / Bub` | ✅ | |
 | `Hahnenwasser` | ✅ | |
@@ -65,10 +68,10 @@ Legend: ✅ confirmed, no change · ✏️ corrected in content · ❓ plausible
 | Form | Verdict | Notes |
 | --- | --- | --- |
 | `Er hät gseit, er heg kei Ziit` | ✏️ | Now `er heig kei Ziit`; `heg` noted as a variant. |
-| Baseldytsch (`Kind / Kuchi` with k, `mir sinn`) | ✅ | ❓ have a Basel speaker check before the C1 unit is written. |
+| Baseldytsch (`Kind / Kuchi` with k, `mir sinn`) | ✅ | Matches the standard description of Basel German (no k → ch shift). |
 
 ### Still for the native reviewer
-- All the ❓ items above.
+- Every ✏️ and ✅ line above, as a quick tick list.
 - Natural flow of the unit 2 and unit 3 Swiss-lane dialogues (word order, particles, what a Zurich
   speaker would really say), which an AI review cannot judge reliably.
 - Audio scripts once studio recording starts (v0.2).

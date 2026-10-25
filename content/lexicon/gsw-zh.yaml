@@ -42,11 +42,11 @@ entries:
   - { de: können, gswZh: "chöne (ich chan, du chasch, er chan, mir chönd)", gswBe: "chönne (i cha, du chasch, mir chöi)", en: can, to be able to, pos: verb, tags: [verbs, modal] }
   - { de: müssen, gswZh: "müese (ich mues, du muesch, mir müend)", gswBe: "müesse (i mues, mir müesse)", en: must, to have to, pos: verb, tags: [verbs, modal] }
   - { de: wollen, gswZh: "wele / welle (ich wott, du wottsch, er wott, mir wänd)", gswBe: "wöue (i wott, mir wei)", en: to want, pos: verb, notes: "Wämmer ...? = Wollen wir ...? (Shall we ...?)", tags: [verbs, modal] }
-  - { de: dürfen, gswZh: "dörfe (ich darf / dörf, du darfsch / dörfsch, er darf / dörf, mir dörfed)", en: may, to be allowed to, pos: verb, notes: "Was dörfs sii? = Was darf es sein?", tags: [verbs, modal] }
-  - { de: sollen, gswZh: "sölle / söle (ich söll, du söllsch, er söll, mir söled)", en: should, to be supposed to, pos: verb, tags: [verbs, modal] }
+  - { de: dürfen, gswZh: "dörfe (ich dörf, du dörfsch, er dörf, mir dörfed; darf is also heard)", en: may, to be allowed to, pos: verb, notes: "Was dörfs sii? = Was darf es sein?", tags: [verbs, modal] }
+  - { de: sollen, gswZh: "sölle / söle (ich söll, du söllsch, er söll, mir sölled)", en: should, to be supposed to, pos: verb, tags: [verbs, modal] }
   - { de: möchten, gswZh: "möchte (ich möcht, du möchtsch / möchtisch, er möcht, mir möchted)", en: would like, pos: verb, notes: "Ordering usually uses Ich hett gärn ... or Ich nimm ... Zurich also says ich wett (= ich möchte / wollte).", tags: [verbs, modal] }
   - { de: wissen, gswZh: "wüsse (ich weiss, du weisch, er weiss, mir wüssed)", en: to know (a fact), pos: verb, tags: [verbs, irregular] }
-  - { de: sehen, gswZh: "gseh (ich gseh / gsee, du gsehsch, er gseht, mir gsehnd)", notes: "Some speakers say ich gsehne; accept it but teach ich gseh.", en: to see, pos: verb, tags: [verbs, irregular] }
+  - { de: sehen, gswZh: "gseh (ich gseh / gsee, du gsehsch, er gseht, mir gsehnd / gseend)", notes: "Spelled gseh / gsee; graders accept both. Some speakers say ich gsehne.", en: to see, pos: verb, tags: [verbs, irregular] }
   - { de: schauen, gswZh: luege, en: to look, to watch, pos: verb, notes: "Lueg emal! = Schau mal! TV luege = fernsehen.", tags: [verbs] }
   - { de: hören, gswZh: ghöre, en: to hear, pos: verb, tags: [verbs] }
   - { de: zuhören, gswZh: lose, en: to listen, pos: verb, notes: "Los emal! = Hör mal! Not related to Standard los.", tags: [verbs, false-friend] }
@@ -109,7 +109,7 @@ entries:
   - { de: ein bisschen, gswZh: es bitzeli / echli / chli, en: a little, pos: adv, tags: [quantity] }
   - { de: ungefähr, gswZh: öppe, en: about, approximately, pos: adv, notes: "öppe zäh Minute = ungefähr zehn Minuten.", tags: [quantity] }
   - { de: gern, gswZh: gärn, en: gladly, pos: adv, notes: "Gärn gscheh = You're welcome.", tags: [basics] }
-  - { de: vielleicht, gswZh: villicht, gswBe: vilech, en: maybe, pos: adv, tags: [basics] }
+  - { de: vielleicht, gswZh: villicht, gswBe: villech / vilech, en: maybe, pos: adv, tags: [basics] }
   - { de: zusammen, gswZh: zäme, en: together, pos: adv, tags: [basics] }
   - { de: so, gswZh: eso / so, en: so, like this, pos: adv, tags: [basics] }
   - { de: "nicht wahr? / oder?", gswZh: oder? / gäll? / gell?, en: "isn't it?, right?", pos: other, notes: "The Swiss tag question 'oder?' is everywhere: Schön, oder?", tags: [basics] }
