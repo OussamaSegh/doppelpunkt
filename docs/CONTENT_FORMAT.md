@@ -336,12 +336,12 @@ lives in `tools/` rather than `packages/content-schema`.
 
 ## 9. Pronunciation drills (content/pronunciation/<id>.yaml)
 
-One `PronunciationDrill` per file; the file name is the id (`ue-u.yaml` has `id: ue-u`).
+One `PronunciationDrill` per file; the file name is the id (`ue-u-i.yaml` has `id: ue-u-i`).
 
 ```yaml
-id: ue-u
-title: ü vs u
-ipa: [y, u]
+id: ue-u-i
+title: ü vs u and i
+ipa: [y, u, i]
 level: A1            # default A1
 variety: de          # de, ch-std, gsw-zh or gsw-be; default de
 explanation: >-
@@ -357,7 +357,7 @@ commonMistakes: ["*Mutter* for *Mütter*: the lips are not rounded."]
 ```
 
 Every pair word, word and sentence can take an `audio:` path relative to
-`content/pronunciation/<id>/` (for example `audio/pron-ue-u-pair-01-a.mp3`); `npm run audio:link`
+`content/pronunciation/<id>/` (for example `audio/pron-ue-u-i-pair-01-a.mp3`); `npm run audio:link`
 fills it. `npm run content:lint` checks: schema, file name = id, unique ids, the two words of a pair
 differ, no empty `text`/`en`, repeated pairs/words (warning), unknown fields (warning), missing audio
 files (warning), and that the speaking grader accepts each text read back verbatim. `content:build`

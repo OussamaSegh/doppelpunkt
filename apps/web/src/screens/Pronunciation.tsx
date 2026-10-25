@@ -120,7 +120,7 @@ function DrillList({ drills, empty, onReload }: { drills: PronunciationDrill[]; 
                   {d.ipa.length > 0 && <span className="block font-mono text-sm text-muted">{d.ipa.map((x) => `/${x}/`).join(' · ')}</span>}
                   <span className="block text-xs text-muted">
                     {d.level} · {d.pairs.length} pairs · {d.words.length} words
-                    {s ? ` · ${s.n} tries, ${Math.round((s.sum / s.n) * 100)}% avg` : ''}
+                    {s ? ` · ${s.n} ${s.n === 1 ? 'try' : 'tries'}, ${Math.round((s.sum / s.n) * 100)}% avg` : ''}
                   </span>
                 </Link>
               </li>

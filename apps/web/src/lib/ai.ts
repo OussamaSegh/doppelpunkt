@@ -106,7 +106,14 @@ export function trackedProvider(p: Provider, cap: number, purpose: UsageRow['pur
       }
     },
   });
-  return { ...p, chat, structured, stream, transcribe: p.transcribe?.bind(p) };
+  // Transcription has no token usage to log, but it costs money too: respect the spend cap.
+  const transcribe: Provider['transcribe'] = p.transcribe
+    ? async (audio, lang, opts) => {
+        await guard();
+        return p.transcribe!(audio, lang, opts);
+      }
+    : undefined;
+  return { ...p, chat, structured, stream, transcribe };
 }
 
 export type AiAvailability =

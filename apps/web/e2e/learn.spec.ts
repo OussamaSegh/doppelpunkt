@@ -11,6 +11,19 @@ test.describe('onboarding and learning', () => {
     await expect(page.getByRole('navigation', { name: 'Levels' }).getByRole('link', { name: 'A1' })).toHaveAttribute('aria-current', 'page');
   });
 
+  test('v0.3 units 7–9 are listed on Learn and open', async ({ page }) => {
+    const later = a1Pack().units.filter((u) => u.number >= 7 && u.number <= 9);
+    expect(later.map((u) => u.number)).toEqual([7, 8, 9]);
+    await onboard(page);
+    const list = page.getByRole('list', { name: 'A1 units' });
+    for (const u of later) await expect(list.getByRole('listitem').nth(u.number - 1)).toContainText(`Unit ${u.number}`);
+    for (const u of later) await expect(list.getByRole('listitem').nth(u.number - 1)).toContainText(u.title);
+    const u9 = later.at(-1)!;
+    await list.getByRole('link', { name: new RegExp(escapeRegExp(u9.title)) }).click();
+    await expect(page).toHaveURL(new RegExp(`/unit/${u9.id}/einstieg$`));
+    await expect(page.getByRole('heading', { level: 1, name: u9.title })).toBeVisible();
+  });
+
   test('a learner can walk through every step of unit 1', async ({ page }) => {
     const unit = unit1();
     await onboard(page);
