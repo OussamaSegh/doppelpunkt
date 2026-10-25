@@ -11,7 +11,9 @@
     "audio:process": "tsx src/audio-process.ts",
     "audio:link": "tsx src/audio-link.ts",
     "audio:upload": "tsx src/audio-upload.ts",
-    "typecheck": "tsc --noEmit -p ."
+    "typecheck": "tsc --noEmit -p .",
+    "beta:report": "tsx src/beta-report.ts",
+    "beta:fixture": "tsx src/beta-fixture.ts"
   },
   "dependencies": {
     "@doppelpunkt/content-schema": "0.4.0",

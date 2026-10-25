@@ -11,3 +11,4 @@ test-results/
 .env.*
 !.env.example
 apps/web/public/packs/
+beta/

@@ -2,6 +2,7 @@
 import type { CompiledUnit, Exercise } from '@doppelpunkt/content-schema';
 import { newCard, streak, weeklyMinutes } from '@doppelpunkt/engine';
 import { db, type ActivityRow, type AttemptRow } from '../db';
+import { noteAttempt } from './beta/stats';
 
 export async function recordAttempt(
   ex: Exercise,
@@ -22,6 +23,7 @@ export async function recordAttempt(
     ...(errorTypes?.length ? { errorTypes } : {}),
   };
   await db.attempts.add(row);
+  await noteAttempt(ex.id, row.score);
   await touchUnit(unit);
 }
 

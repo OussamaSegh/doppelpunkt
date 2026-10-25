@@ -1,3 +1,4 @@
+import { readFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
@@ -11,10 +12,15 @@ export const workspaceAliases = {
   '@doppelpunkt/content-schema': pkg('content-schema'),
   '@doppelpunkt/engine': pkg('engine'),
   '@doppelpunkt/ai': pkg('ai'),
+  '@doppelpunkt/beta-schema': pkg('beta-schema'),
 };
+
+/** App version for beta envelopes: the root package.json version. */
+const appVersion = (JSON.parse(readFileSync(new URL('../../package.json', import.meta.url), 'utf8')) as { version: string }).version;
 
 export default defineConfig({
   resolve: { alias: workspaceAliases },
+  define: { 'import.meta.env.VITE_APP_VERSION': JSON.stringify(appVersion) },
   build: {
     rollupOptions: {
       output: {

@@ -16,6 +16,7 @@ import { errorMessage, modelFor, monthSpend, monthTranscription, PROVIDERS } fro
 import { useSettings } from '../lib/hooks';
 import { useSession } from '../lib/session';
 import { applyTheme } from '../lib/theme';
+import { BetaSettings } from '../beta/BetaSettings';
 
 
 export function SettingsScreen() {
@@ -44,6 +45,9 @@ export function SettingsScreen() {
       </Section>
       <Section title="Your data" id="data">
         <DataTools />
+      </Section>
+      <Section title="Help improve Doppelpunkt (beta)" id="beta">
+        <BetaSettings settings={settings} />
       </Section>
     </div>
   );
@@ -413,6 +417,8 @@ function DataTools() {
   const doReset = async () => {
     if (!confirm('Delete all progress, settings and saved keys on this device? This cannot be undone.')) return;
     lockAll();
+    // Beta: ask the collector to forget this install before the id disappears with the data.
+    await import('../lib/beta/prefs').then((m) => m.setStatsOptIn(false)).catch(() => undefined);
     await resetAll();
     try {
       localStorage.removeItem('dp-theme');

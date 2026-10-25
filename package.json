@@ -15,6 +15,8 @@
     "audio:process": "npm run audio:process -w @doppelpunkt/tools --",
     "audio:link": "npm run audio:link -w @doppelpunkt/tools --",
     "audio:upload": "npm run audio:upload -w @doppelpunkt/tools --",
+    "beta:report": "npm run beta:report -w @doppelpunkt/tools --",
+    "beta:fixture": "npm run beta:fixture -w @doppelpunkt/tools --",
     "typecheck": "npm run typecheck --workspaces --if-present",
     "test": "vitest run",
     "test:e2e": "npm run test:e2e -w @doppelpunkt/web"

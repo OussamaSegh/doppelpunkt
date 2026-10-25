@@ -1,3 +1,4 @@
+import { lazy, Suspense } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { useLiveQuery } from 'dexie-react-hooks';
 import { LEVELS, type CompiledUnit, type Level } from '@doppelpunkt/content-schema';
@@ -8,6 +9,10 @@ import { EmptyState } from '../components/EmptyState';
 import { findPack, useContent } from '../content';
 import { db, todayKey, type AttemptRow, type UnitStatusRow } from '../db';
 import { useAttempts, useSettings } from '../lib/hooks';
+import { betaActive } from '../lib/beta/config';
+
+// Beta builds only; loaded on demand so it costs nothing in the initial bundle.
+const BetaIntroCard = lazy(() => import('../beta/BetaIntroCard').then((m) => ({ default: m.BetaIntroCard })));
 
 export function Learn() {
   return (
@@ -34,6 +39,11 @@ function LevelOverview() {
   return (
     <div className="space-y-5">
       <h1 className="sr-only">Learn {pack?.level ?? level}</h1>
+      {betaActive() && settings?.onboarded && !settings.beta?.introDone && (
+        <Suspense fallback={null}>
+          <BetaIntroCard beta={{ stats: false, crashes: false, ...settings.beta }} />
+        </Suspense>
+      )}
       <TodayCard />
       <nav aria-label="Levels" className="flex gap-2 overflow-x-auto pb-1">
         {LEVELS.map((l) =>
@@ -88,6 +98,15 @@ function LevelOverview() {
           </span>
           <span aria-hidden="true" className="text-accent">→</span>
         </Link>
+        {betaActive() && (
+          <Link to="/beta" className="card flex items-center justify-between gap-3 py-3 transition-colors hover:border-accent">
+            <span>
+              <span className="block font-semibold">Beta feedback</span>
+              <span className="block text-sm text-muted">What's new, how to report a problem, and your reports.</span>
+            </span>
+            <span aria-hidden="true" className="text-accent">→</span>
+          </Link>
+        )}
         <Link to="/pronunciation" className="card flex items-center justify-between gap-3 py-3 transition-colors hover:border-accent">
           <span>
             <span className="block font-semibold">Pronunciation drills</span>

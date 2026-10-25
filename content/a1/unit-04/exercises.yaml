@@ -546,7 +546,7 @@
   grammar: [telling-time]
   prompt: "Listen to Reto. Until when does he sleep?"
   transcript: |-
-    Reto: Ich schlaf bis am halbi achti.
+    Reto: Am sächsi? Ich schlaf normalerwiis bis am halbi achti!
   options: ["8.30", "8.00", "7.15", "7.30"]
   answer: 3
   explanation: >-
