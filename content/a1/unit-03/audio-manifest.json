@@ -1,0 +1,2943 @@
+{
+  "unitId": "a1-u03",
+  "level": "A1",
+  "folder": "a1/unit-03",
+  "title": "Meine Familie",
+  "delivery": {
+    "raw": "WAV or FLAC, 48 kHz, 24-bit, mono, one file per entry, named <file base>.wav",
+    "processed": [
+      "mp3 64 kbps mono 44.1 kHz",
+      "opus 32 kbps mono 48 kHz",
+      "EBU R128 -16 LUFS, true peak -1.5 dBTP"
+    ]
+  },
+  "entries": [
+    {
+      "file": "dialog-intro-01.mp3",
+      "kind": "dialogue-intro",
+      "text": "Ist das deine Familie?",
+      "en": "Is that your family?",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          0,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-01.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-02.mp3",
+      "kind": "dialogue-intro",
+      "text": "Ja, das sind meine Eltern. Mein Vater heißt Peter und meine Mutter heißt Sabine.",
+      "en": "Yes, these are my parents. My father is called Peter and my mother is called Sabine.",
+      "variety": "de",
+      "voice": "de-f",
+      "speaker": "Anna",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          1,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-02.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-03.mp3",
+      "kind": "dialogue-intro",
+      "text": "Und wer ist das?",
+      "en": "And who is that?",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          2,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-03.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-04.mp3",
+      "kind": "dialogue-intro",
+      "text": "Das ist mein Bruder Jonas. Er ist fünfundzwanzig Jahre alt.",
+      "en": "That's my brother Jonas. He is twenty-five years old.",
+      "variety": "de",
+      "voice": "de-f",
+      "speaker": "Anna",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          3,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-04.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-05.mp3",
+      "kind": "dialogue-intro",
+      "text": "Hast du auch eine Schwester?",
+      "en": "Do you have a sister too?",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          4,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-05.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-06.mp3",
+      "kind": "dialogue-intro",
+      "text": "Ja, ich habe zwei Schwestern, Lea und Sophie. Und du? Hast du Geschwister?",
+      "en": "Yes, I have two sisters, Lea and Sophie. And you? Do you have any brothers or sisters?",
+      "variety": "de",
+      "voice": "de-f",
+      "speaker": "Anna",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          5,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-06.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-07.mp3",
+      "kind": "dialogue-intro",
+      "text": "Ja, ich habe einen Bruder. Er wohnt in London. Er ist verheiratet und hat zwei Kinder.",
+      "en": "Yes, I have a brother. He lives in London. He's married and has two children.",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          6,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-07.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-08.mp3",
+      "kind": "dialogue-intro",
+      "text": "Oh, du bist Onkel! Wie heißen die Kinder?",
+      "en": "Oh, you're an uncle! What are the children called?",
+      "variety": "de",
+      "voice": "de-f",
+      "speaker": "Anna",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          7,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-08.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-09.mp3",
+      "kind": "dialogue-intro",
+      "text": "Mein Neffe heißt Oliver und meine Nichte heißt Emily. Sie sind vier und sieben.",
+      "en": "My nephew is called Oliver and my niece is called Emily. They are four and seven.",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          8,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-09.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-10.mp3",
+      "kind": "dialogue-intro",
+      "text": "Süß! Und deine Eltern?",
+      "en": "Sweet! And your parents?",
+      "variety": "de",
+      "voice": "de-f",
+      "speaker": "Anna",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          9,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-10.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-11.mp3",
+      "kind": "dialogue-intro",
+      "text": "Meine Eltern wohnen in Manchester. Sie haben einen Hund.",
+      "en": "My parents live in Manchester. They have a dog.",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          10,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-11.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-01.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Isch das dini Familie?",
+      "en": "Is that your family?",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          0,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-01.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-02.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Ja, das sind mini Eltere. Und das isch min Brueder, de Lukas.",
+      "en": "Yes, those are my parents. And that's my brother, Lukas.",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          1,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-02.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-03.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Und die chliine Chind?",
+      "en": "And the little children?",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          2,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-03.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-04.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Das sind sini Chind, de Noah und d Lina. Ich bi de Götti vom Noah.",
+      "en": "Those are his children, Noah and Lina. I'm Noah's godfather.",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          3,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-04.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-05.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Herzig!",
+      "en": "Cute!",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          4,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-05.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-06.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Und du? Häsch du Gschwüschterti?",
+      "en": "And you? Do you have brothers or sisters?",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          5,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-06.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-07.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Ja, ich ha e Schwöschter. Si wohnt z Bärn.",
+      "en": "Yes, I have a sister. She lives in Bern.",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          6,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-07.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-08.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Und dini Eltere?",
+      "en": "And your parents?",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          7,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-08.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-09.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Mis Mami und min Papi wohned au z Bärn. Und si händ en Hund.",
+      "en": "My mum and my dad live in Bern too. And they have a dog.",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          8,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-09.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-10.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Hoi zäme! I bi d Mia, d Schwöschter vo dr Sandra.",
+      "en": "Hi everyone! I'm Mia, Sandra's sister.",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "speaker": "Mia",
+      "voiceGuessed": true,
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          9,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-10.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-11.mp3",
+      "kind": "dialogue-swiss",
+      "text": "I ha zwöi Ching, dr Luca u d Nina.",
+      "en": "I have two children, Luca and Nina.",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "speaker": "Mia",
+      "voiceGuessed": true,
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          10,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-11.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-familie.mp3",
+      "kind": "vocab",
+      "text": "Familie",
+      "en": "family",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "familie",
+        "pointer": [
+          0,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-familie.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-familie-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Das ist meine Familie.",
+      "en": "This is my family.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "familie",
+        "pointer": [
+          0,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-familie-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-familie-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Familie",
+      "en": "family",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "familie",
+        "pointer": [
+          0,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-familie-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-eltern.mp3",
+      "kind": "vocab",
+      "text": "Eltern",
+      "en": "parents",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "eltern",
+        "pointer": [
+          1,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-eltern.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-eltern-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Meine Eltern wohnen in Manchester.",
+      "en": "My parents live in Manchester.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "eltern",
+        "pointer": [
+          1,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-eltern-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-eltern-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Eltere",
+      "en": "parents",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "eltern",
+        "pointer": [
+          1,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-eltern-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-mutter.mp3",
+      "kind": "vocab",
+      "text": "Mutter",
+      "en": "mother",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "mutter",
+        "pointer": [
+          2,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-mutter.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-mutter-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Meine Mutter heißt Sabine.",
+      "en": "My mother is called Sabine.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "mutter",
+        "pointer": [
+          2,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-mutter-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-mutter-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Muetter / Mami",
+      "note": "s Mami",
+      "en": "mother",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "mutter",
+        "pointer": [
+          2,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-mutter-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-vater.mp3",
+      "kind": "vocab",
+      "text": "Vater",
+      "en": "father",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "vater",
+        "pointer": [
+          3,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-vater.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-vater-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Mein Vater heißt Peter.",
+      "en": "My father is called Peter.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "vater",
+        "pointer": [
+          3,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-vater-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-vater-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Vater / Vatter / Papi",
+      "note": "de Papi",
+      "en": "father",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "vater",
+        "pointer": [
+          3,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-vater-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-bruder.mp3",
+      "kind": "vocab",
+      "text": "Bruder",
+      "en": "brother",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "bruder",
+        "pointer": [
+          4,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-bruder.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-bruder-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich habe einen Bruder.",
+      "en": "I have a brother.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "bruder",
+        "pointer": [
+          4,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-bruder-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-bruder-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Brueder",
+      "note": "plural Brüeder",
+      "en": "brother",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "bruder",
+        "pointer": [
+          4,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-bruder-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-bruder-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "Brueder",
+      "en": "brother",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "bruder",
+        "pointer": [
+          4,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-bruder-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-schwester.mp3",
+      "kind": "vocab",
+      "text": "Schwester",
+      "en": "sister",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "schwester",
+        "pointer": [
+          5,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-schwester.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-schwester-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Anna hat zwei Schwestern.",
+      "en": "Anna has two sisters.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "schwester",
+        "pointer": [
+          5,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-schwester-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-schwester-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Schwöschter / Schwester",
+      "en": "sister",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "schwester",
+        "pointer": [
+          5,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-schwester-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-schwester-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "Schwöschter",
+      "en": "sister",
+      "variety": "gsw-be",
+      "voice": "be-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "schwester",
+        "pointer": [
+          5,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-schwester-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-geschwister.mp3",
+      "kind": "vocab",
+      "text": "Geschwister",
+      "en": "siblings, brothers and sisters",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "geschwister",
+        "pointer": [
+          6,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-geschwister.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-geschwister-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Hast du Geschwister?",
+      "en": "Do you have any brothers or sisters?",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "geschwister",
+        "pointer": [
+          6,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-geschwister-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-geschwister-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Gschwüschterti / Gschwüschter",
+      "en": "siblings, brothers and sisters",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "geschwister",
+        "pointer": [
+          6,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-geschwister-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sohn.mp3",
+      "kind": "vocab",
+      "text": "Sohn",
+      "en": "son",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sohn",
+        "pointer": [
+          7,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-sohn.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sohn-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ihr Sohn heißt Noah.",
+      "en": "Her son is called Noah.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sohn",
+        "pointer": [
+          7,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-sohn-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sohn-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Sohn / Bueb",
+      "en": "son",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sohn",
+        "pointer": [
+          7,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-sohn-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-tochter.mp3",
+      "kind": "vocab",
+      "text": "Tochter",
+      "en": "daughter",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "tochter",
+        "pointer": [
+          8,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-tochter.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-tochter-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Meine Tochter ist sieben.",
+      "en": "My daughter is seven.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "tochter",
+        "pointer": [
+          8,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-tochter-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-tochter-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Tochter / Meitli",
+      "note": "girl",
+      "en": "daughter",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "tochter",
+        "pointer": [
+          8,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-tochter-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kind.mp3",
+      "kind": "vocab",
+      "text": "Kind",
+      "en": "child",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kind",
+        "pointer": [
+          9,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-kind.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kind-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Er ist verheiratet und hat zwei Kinder.",
+      "en": "He's married and has two children.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kind",
+        "pointer": [
+          9,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-kind-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kind-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Chind",
+      "note": "plural Chind / Chinde",
+      "en": "child",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kind",
+        "pointer": [
+          9,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-kind-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kind-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "Chind / Ching",
+      "en": "child",
+      "variety": "gsw-be",
+      "voice": "be-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kind",
+        "pointer": [
+          9,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-kind-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-junge.mp3",
+      "kind": "vocab",
+      "text": "Junge",
+      "en": "boy",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "junge",
+        "pointer": [
+          10,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-junge.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-junge-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Der Junge heißt Oliver.",
+      "en": "The boy is called Oliver.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "junge",
+        "pointer": [
+          10,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-junge-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-junge-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Bueb",
+      "note": "plural Buebe",
+      "en": "boy",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "junge",
+        "pointer": [
+          10,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-junge-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-junge-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "Bueb / Giel / Gieu",
+      "en": "boy",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "junge",
+        "pointer": [
+          10,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-junge-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-maedchen.mp3",
+      "kind": "vocab",
+      "text": "Mädchen",
+      "en": "girl",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "maedchen",
+        "pointer": [
+          11,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-maedchen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-maedchen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Das Mädchen heißt Emily.",
+      "en": "The girl is called Emily.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "maedchen",
+        "pointer": [
+          11,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-maedchen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-maedchen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Meitli",
+      "note": "es Meitli",
+      "en": "girl",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "maedchen",
+        "pointer": [
+          11,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-maedchen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-maedchen-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "Meitschi",
+      "en": "girl",
+      "variety": "gsw-be",
+      "voice": "be-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "maedchen",
+        "pointer": [
+          11,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-maedchen-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-grossmutter.mp3",
+      "kind": "vocab",
+      "text": "Großmutter",
+      "en": "grandmother",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "grossmutter",
+        "pointer": [
+          12,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-grossmutter.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-grossmutter-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Meine Großmutter ist achtzig.",
+      "en": "My grandmother is eighty.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "grossmutter",
+        "pointer": [
+          12,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-grossmutter-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-grossmutter-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Grossmuetter / Grosi / Grossmami",
+      "en": "grandmother",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "grossmutter",
+        "pointer": [
+          12,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-grossmutter-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-grossvater.mp3",
+      "kind": "vocab",
+      "text": "Großvater",
+      "en": "grandfather",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "grossvater",
+        "pointer": [
+          13,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-grossvater.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-grossvater-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Mein Großvater wohnt in Luzern.",
+      "en": "My grandfather lives in Lucerne.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "grossvater",
+        "pointer": [
+          13,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-grossvater-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-grossvater-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Grossvater / Grosspapi",
+      "en": "grandfather",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "grossvater",
+        "pointer": [
+          13,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-grossvater-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-grossvater-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "Grosätti / Grossätti / Grospapi",
+      "en": "grandfather",
+      "variety": "gsw-be",
+      "voice": "be-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "grossvater",
+        "pointer": [
+          13,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-grossvater-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-onkel.mp3",
+      "kind": "vocab",
+      "text": "Onkel",
+      "en": "uncle",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "onkel",
+        "pointer": [
+          14,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-onkel.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-onkel-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Oh, du bist Onkel!",
+      "en": "Oh, you're an uncle!",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "onkel",
+        "pointer": [
+          14,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-onkel-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-onkel-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Onkel / Unggle",
+      "en": "uncle",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "onkel",
+        "pointer": [
+          14,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-onkel-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-tante.mp3",
+      "kind": "vocab",
+      "text": "Tante",
+      "en": "aunt",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "tante",
+        "pointer": [
+          15,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-tante.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-tante-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Meine Tante wohnt in Basel.",
+      "en": "My aunt lives in Basel.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "tante",
+        "pointer": [
+          15,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-tante-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-tante-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Tante",
+      "en": "aunt",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "tante",
+        "pointer": [
+          15,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-tante-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-cousin.mp3",
+      "kind": "vocab",
+      "text": "Cousin",
+      "en": "cousin (male)",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "cousin",
+        "pointer": [
+          16,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-cousin.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-cousin-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Mein Cousin heißt Luca.",
+      "en": "My cousin is called Luca.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "cousin",
+        "pointer": [
+          16,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-cousin-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-cousin-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Cousin",
+      "en": "cousin (male)",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "cousin",
+        "pointer": [
+          16,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-cousin-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-cousine.mp3",
+      "kind": "vocab",
+      "text": "Cousine",
+      "en": "cousin (female)",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "cousine",
+        "pointer": [
+          17,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-cousine.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-cousine-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Meine Cousine wohnt in Wien.",
+      "en": "My cousin lives in Vienna.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "cousine",
+        "pointer": [
+          17,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-cousine-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-cousine-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Cousine",
+      "en": "cousin (female)",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "cousine",
+        "pointer": [
+          17,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-cousine-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-neffe.mp3",
+      "kind": "vocab",
+      "text": "Neffe",
+      "en": "nephew",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "neffe",
+        "pointer": [
+          18,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-neffe.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-neffe-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Mein Neffe heißt Oliver.",
+      "en": "My nephew is called Oliver.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "neffe",
+        "pointer": [
+          18,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-neffe-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-neffe-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Neffe",
+      "en": "nephew",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "neffe",
+        "pointer": [
+          18,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-neffe-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-nichte.mp3",
+      "kind": "vocab",
+      "text": "Nichte",
+      "en": "niece",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "nichte",
+        "pointer": [
+          19,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-nichte.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-nichte-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Meine Nichte ist sieben.",
+      "en": "My niece is seven.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "nichte",
+        "pointer": [
+          19,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-nichte-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-nichte-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Nichte",
+      "en": "niece",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "nichte",
+        "pointer": [
+          19,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-nichte-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-pate.mp3",
+      "kind": "vocab",
+      "text": "Pate",
+      "en": "godfather",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "pate",
+        "pointer": [
+          20,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-pate.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-pate-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich bin der Pate von Noah.",
+      "en": "I'm Noah's godfather.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "pate",
+        "pointer": [
+          20,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-pate-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-pate-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Götti",
+      "en": "godfather",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "pate",
+        "pointer": [
+          20,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-pate-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-patin.mp3",
+      "kind": "vocab",
+      "text": "Patin",
+      "en": "godmother",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "patin",
+        "pointer": [
+          21,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-patin.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-patin-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Meine Patin wohnt in Zug.",
+      "en": "My godmother lives in Zug.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "patin",
+        "pointer": [
+          21,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-patin-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-patin-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Gotte",
+      "en": "godmother",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "patin",
+        "pointer": [
+          21,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-patin-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-mann.mp3",
+      "kind": "vocab",
+      "text": "Mann",
+      "en": "man; husband",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "mann",
+        "pointer": [
+          22,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-mann.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-mann-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ihr Mann kommt aus Italien.",
+      "en": "Her husband comes from Italy.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "mann",
+        "pointer": [
+          22,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-mann-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-mann-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Maa",
+      "note": "plural Manne",
+      "en": "man; husband",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "mann",
+        "pointer": [
+          22,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-mann-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-mann-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "Ma",
+      "en": "man; husband",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "mann",
+        "pointer": [
+          22,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-mann-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-freund.mp3",
+      "kind": "vocab",
+      "text": "Freund",
+      "en": "(male) friend; boyfriend",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "freund",
+        "pointer": [
+          23,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-freund.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-freund-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Das ist mein Freund Paul.",
+      "en": "This is my friend / boyfriend Paul.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "freund",
+        "pointer": [
+          23,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-freund-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-freund-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Fründ / Kolleg",
+      "note": "friend, mate",
+      "en": "(male) friend; boyfriend",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "freund",
+        "pointer": [
+          23,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-freund-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-freundin.mp3",
+      "kind": "vocab",
+      "text": "Freundin",
+      "en": "(female) friend; girlfriend",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "freundin",
+        "pointer": [
+          24,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-freundin.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-freundin-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Meine Freundin heißt Lea.",
+      "en": "My friend / girlfriend is called Lea.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "freundin",
+        "pointer": [
+          24,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-freundin-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-freundin-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Fründin / Kollegin",
+      "note": "friend, mate",
+      "en": "(female) friend; girlfriend",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "freundin",
+        "pointer": [
+          24,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-freundin-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-hund.mp3",
+      "kind": "vocab",
+      "text": "Hund",
+      "en": "dog",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "hund",
+        "pointer": [
+          25,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-hund.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-hund-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Meine Eltern haben einen Hund.",
+      "en": "My parents have a dog.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "hund",
+        "pointer": [
+          25,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-hund-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-hund-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Hund",
+      "en": "dog",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "hund",
+        "pointer": [
+          25,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-hund-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-katze.mp3",
+      "kind": "vocab",
+      "text": "Katze",
+      "en": "cat",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "katze",
+        "pointer": [
+          26,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-katze.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-katze-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Wir haben auch eine Katze.",
+      "en": "We have a cat too.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "katze",
+        "pointer": [
+          26,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-katze-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-katze-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Chatz",
+      "note": "plural Chatze",
+      "en": "cat",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "katze",
+        "pointer": [
+          26,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-katze-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-jahr.mp3",
+      "kind": "vocab",
+      "text": "Jahr",
+      "en": "year",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "jahr",
+        "pointer": [
+          27,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-jahr.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-jahr-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Emma ist zwanzig Jahre alt.",
+      "en": "Emma is twenty years old.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "jahr",
+        "pointer": [
+          27,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-jahr-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-jahr-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Jahr",
+      "en": "year",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "jahr",
+        "pointer": [
+          27,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-jahr-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-haben.mp3",
+      "kind": "vocab",
+      "text": "haben",
+      "en": "to have",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "haben",
+        "pointer": [
+          28,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-haben.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-haben-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Hast du Geschwister?",
+      "en": "Do you have any brothers or sisters?",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "haben",
+        "pointer": [
+          28,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-haben-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-haben-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "ha",
+      "note": "ich ha, du häsch, er hät, mir händ",
+      "en": "to have",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "haben",
+        "pointer": [
+          28,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-haben-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-haben-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "ha",
+      "note": "i ha, du hesch, är het, mir hei",
+      "en": "to have",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "haben",
+        "pointer": [
+          28,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-haben-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wie-alt.mp3",
+      "kind": "vocab",
+      "text": "Wie alt bist du?",
+      "en": "How old are you?",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wie-alt",
+        "pointer": [
+          29,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-wie-alt.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wie-alt-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Wie alt bist du? – Ich bin dreißig.",
+      "en": "How old are you? – I'm thirty.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wie-alt",
+        "pointer": [
+          29,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-wie-alt-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wie-alt-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Wie alt bisch?",
+      "note": "du",
+      "en": "How old are you?",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wie-alt",
+        "pointer": [
+          29,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-wie-alt-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-verheiratet.mp3",
+      "kind": "vocab",
+      "text": "verheiratet",
+      "en": "married",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "verheiratet",
+        "pointer": [
+          30,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-verheiratet.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-verheiratet-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Mein Bruder ist verheiratet.",
+      "en": "My brother is married.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "verheiratet",
+        "pointer": [
+          30,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-verheiratet-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-verheiratet-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "ghürate / verhüratet",
+      "en": "married",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "verheiratet",
+        "pointer": [
+          30,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-verheiratet-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-ledig.mp3",
+      "kind": "vocab",
+      "text": "ledig",
+      "en": "single, unmarried",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "ledig",
+        "pointer": [
+          31,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-ledig.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-ledig-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Emma ist ledig.",
+      "en": "Emma is single.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "ledig",
+        "pointer": [
+          31,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-ledig-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-ledig-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "ledig",
+      "en": "single, unmarried",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "ledig",
+        "pointer": [
+          31,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-ledig-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-alt.mp3",
+      "kind": "vocab",
+      "text": "alt",
+      "en": "old",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "alt",
+        "pointer": [
+          32,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-alt.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-alt-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Mein Großvater ist sehr alt.",
+      "en": "My grandfather is very old.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "alt",
+        "pointer": [
+          32,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-alt-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-alt-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "alt",
+      "en": "old",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "alt",
+        "pointer": [
+          32,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-alt-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-klein.mp3",
+      "kind": "vocab",
+      "text": "klein",
+      "en": "small, little",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "klein",
+        "pointer": [
+          33,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-klein.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-klein-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Meine Familie ist klein.",
+      "en": "My family is small.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "klein",
+        "pointer": [
+          33,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-klein-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-klein-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "chlii / chli",
+      "note": "attributive chliin-, e.g. di chliine Chind",
+      "en": "small, little",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "klein",
+        "pointer": [
+          33,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-klein-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-klein-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "chly / chli",
+      "en": "small, little",
+      "variety": "gsw-be",
+      "voice": "be-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "klein",
+        "pointer": [
+          33,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-klein-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gross.mp3",
+      "kind": "vocab",
+      "text": "groß",
+      "en": "big, large; tall",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gross",
+        "pointer": [
+          34,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-gross.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gross-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Meine Familie ist groß.",
+      "en": "My family is big.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gross",
+        "pointer": [
+          34,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-gross-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gross-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "gross",
+      "en": "big, large; tall",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gross",
+        "pointer": [
+          34,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-gross-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-suess.mp3",
+      "kind": "vocab",
+      "text": "süß",
+      "en": "sweet; cute",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "suess",
+        "pointer": [
+          35,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-suess.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-suess-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Das Baby ist sehr süß!",
+      "en": "The baby is very cute!",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "suess",
+        "pointer": [
+          35,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-suess-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-suess-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "herzig / süess",
+      "note": "cute; sweet taste",
+      "en": "sweet; cute",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "suess",
+        "pointer": [
+          35,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-suess-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-mein.mp3",
+      "kind": "vocab",
+      "text": "mein / meine",
+      "en": "my",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "mein",
+        "pointer": [
+          36,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-mein.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-mein-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Das ist mein Vater und das ist meine Mutter.",
+      "en": "This is my father and this is my mother.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "mein",
+        "pointer": [
+          36,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-mein-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-mein-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "min / mini / mis",
+      "note": "m; f, pl; n",
+      "en": "my",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "mein",
+        "pointer": [
+          36,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-mein-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-dein.mp3",
+      "kind": "vocab",
+      "text": "dein / deine",
+      "en": "your (informal)",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "dein",
+        "pointer": [
+          37,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-dein.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-dein-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ist das deine Familie?",
+      "en": "Is that your family?",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "dein",
+        "pointer": [
+          37,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-dein-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-dein-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "din / dini / dis",
+      "note": "m; f, pl; n",
+      "en": "your (informal)",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "dein",
+        "pointer": [
+          37,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-dein-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sein-possessive.mp3",
+      "kind": "vocab",
+      "text": "sein / seine",
+      "en": "his; its",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sein-possessive",
+        "pointer": [
+          38,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-sein-possessive.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sein-possessive-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Tom und seine Schwester",
+      "en": "Tom and his sister",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sein-possessive",
+        "pointer": [
+          38,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-sein-possessive-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sein-possessive-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "sin / sini / sis",
+      "note": "m; f, pl; n",
+      "en": "his; its",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sein-possessive",
+        "pointer": [
+          38,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-sein-possessive-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-ihr-possessive.mp3",
+      "kind": "vocab",
+      "text": "ihr / ihre",
+      "en": "her; their",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "ihr-possessive",
+        "pointer": [
+          39,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-ihr-possessive.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-ihr-possessive-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Anna und ihr Bruder",
+      "en": "Anna and her brother",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "ihr-possessive",
+        "pointer": [
+          39,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-ihr-possessive-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-ihr-possessive-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "ire / iri / ires",
+      "note": "m; f, pl; n",
+      "en": "her; their",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "ihr-possessive",
+        "pointer": [
+          39,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-ihr-possessive-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-u03-dictation-eltern.mp3",
+      "kind": "dictation",
+      "text": "Das sind meine Eltern. Mein Vater heißt Peter.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a1-u03-dictation-eltern",
+        "pointer": [
+          25,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a1-u03-dictation-eltern.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-u03-dictation-geschwister.mp3",
+      "kind": "dictation",
+      "text": "Ich habe einen Bruder und zwei Schwestern.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a1-u03-dictation-geschwister",
+        "pointer": [
+          26,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a1-u03-dictation-geschwister.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-u03-dictation-grossmutter.mp3",
+      "kind": "dictation",
+      "text": "Meine Großmutter ist achtzig Jahre alt.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a1-u03-dictation-grossmutter",
+        "pointer": [
+          27,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a1-u03-dictation-grossmutter.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-u03-speak-family.mp3",
+      "kind": "speak",
+      "text": "Das ist meine Familie. Das sind meine Eltern, und das ist mein Bruder. Er ist zwanzig.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a1-u03-speak-family",
+        "pointer": [
+          30,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a1-u03-speak-family.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-u03-speak-umlaut.mp3",
+      "kind": "speak",
+      "text": "der Vater – die Väter, die Mutter – die Mütter, der Bruder – die Brüder, der Sohn – die Söhne",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a1-u03-speak-umlaut",
+        "pointer": [
+          31,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a1-u03-speak-umlaut.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-u03-ch-mcq-goetti.mp3",
+      "kind": "listening",
+      "text": "Ich bi de Götti vom Noah.",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a1-u03-ch-mcq-goetti",
+        "pointer": [
+          41,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a1-u03-ch-mcq-goetti.mp3",
+      "referenced": false
+    }
+  ]
+}

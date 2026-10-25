@@ -13,6 +13,11 @@ canDo:
   - I can use ein / eine / ein and einen after verbs like möchten and nehmen.
   - I can recognise Zurich café words (Kafi, Gipfeli, Weggli, Schale) and Zurich numbers.
 
+review:
+  notes:
+    - "Bernese: 'Merci viumau u schöne Tag!' and 'Was weit Dir trinke?' (the latter attested on de.wikipedia 'Berndeutsch' as 'Was weit'er trinke?')."
+    - "Zurich café dialogue: natural flow and the spelling Suscht vs Süscht."
+
 intro:
   scene: >-
     Tom and Anna go to Café Sonne near Zurich main station after class. A waitress comes to their table.
@@ -192,7 +197,7 @@ reading:
 swiss:
   scene: >-
     Saturday morning in a café in Zurich's old town. Reto and Sandra order. Listen for the café words
-    and the numbers – you don't need to say them yet.
+    and the numbers – you don't need to say them yet. Sandra thanks the waitress in her Bernese.
   dialogue:
     - speaker: Kellnerin
       text: Grüezi mitenand! Was dörfs sii?
@@ -234,6 +239,10 @@ swiss:
       text: Da sind füfzää. Isch guet so.
       en: Here's fifteen. Keep the change.
       variety: gsw-zh
+    - speaker: Sandra
+      text: Merci viumau u schöne Tag!
+      en: Thanks a lot and have a nice day!
+      variety: gsw-be
   notes:
     - >-
       **Was dörfs sii?** (= Was darf es sein?) is what Swiss waiters and shop staff say to take your order.
@@ -255,3 +264,7 @@ swiss:
     - >-
       **zäme** = *zusammen*; **Isch guet so** = *Stimmt so* (keep the change). In Switzerland service is
       included in the price; rounding up a little is friendly but not required.
+    - >-
+      **Bernese** at the café: **Merci viumau** (*vielen Dank*), **u** = *und*. A Bernese waiter asks
+      **Was weit Dir?** or **Was weit Dir trinke?** (= *Was wollen Sie (trinken)?*) – polite **Dir**
+      instead of Sie. Numbers: **zwöi** (2), **füf** (5; Zurich föif), **nün** (9).

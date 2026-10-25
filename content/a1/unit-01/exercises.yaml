@@ -7,13 +7,13 @@
   skill: vocabulary
   variety: de
   prompt: It is 9 a.m. You meet your new boss, Frau Meier, in the lift. What do you say?
-  options: ["Guten Morgen, Frau Meier!", "Tschüss, Frau Meier!", "Gute Nacht, Frau Meier!", "Hallo, du!"]
-  answer: 0
+  options: ["Tschüss, Frau Meier!", "Gute Nacht, Frau Meier!", "Guten Morgen, Frau Meier!", "Hallo, du!"]
+  answer: 2
   rationales:
-    - Correct. "Guten Morgen" is used until about 10–11 a.m. and is polite enough for a boss.
-    - Tschüss means "bye" – it closes a conversation, it doesn't open one.
-    - Gute Nacht is only said when someone goes to bed or very late at night.
-    - Hallo, du! is informal, and you would not say du to a new boss without being invited.
+    - "Tschüss means \"bye\" – it closes a conversation, it doesn't open one."
+    - "Gute Nacht is only said when someone goes to bed or very late at night."
+    - "Correct. \"Guten Morgen\" is used until about 10–11 a.m. and is polite enough for a boss."
+    - "Hallo, du! is informal, and you would not say du to a new boss without being invited."
   explanation: >-
     Greetings depend on the time of day and on formality. Guten Morgen (morning), Guten Tag (daytime,
     polite), Guten Abend (evening). Hallo is informal. Tschüss and Auf Wiedersehen are for leaving.
@@ -39,8 +39,8 @@
   skill: vocabulary
   variety: de
   prompt: Someone says "Danke!" to you. What is the usual answer?
-  options: ["Bitte!", "Danke!", "Hallo!", "Freut mich!"]
-  answer: 0
+  options: ["Danke!", "Bitte!", "Hallo!", "Freut mich!"]
+  answer: 1
   explanation: >-
     bitte has two jobs: "please" when you ask for something, and "you're welcome" as the answer to
     danke. "Danke – Bitte!" is the standard exchange. (In Switzerland you will also hear "Gärn gscheh".)
@@ -50,13 +50,13 @@
   skill: vocabulary
   variety: de
   prompt: Which question word means "where from"?
-  options: ["woher", "wo", "wer", "wie"]
-  answer: 0
+  options: ["wo", "wer", "wie", "woher"]
+  answer: 3
   rationales:
-    - Correct. wo + her = where from. Woher kommst du?
-    - wo = where (place). Wo wohnst du?
-    - wer = who. Watch out – it looks like English "where"!
-    - wie = how. Wie heißt du?
+    - "wo = where (place). Wo wohnst du?"
+    - "wer = who. Watch out – it looks like English \"where\"!"
+    - "wie = how. Wie heißt du?"
+    - "Correct. wo + her = where from. Woher kommst du?"
   explanation: >-
     German question words start with w-. wo (where), woher (where from), wer (who), wie (how), was (what).
     The trap for English speakers: German wer means who, not where.
@@ -72,10 +72,10 @@
   options: ["bist", "bin", "ist", "seid"]
   answer: 0
   rationales:
-    - Correct. du bist.
-    - bin goes with ich only.
-    - ist goes with er, sie, es.
-    - seid goes with ihr (you, several people).
+    - "Correct. du bist."
+    - "bin goes with ich only."
+    - "ist goes with er, sie, es."
+    - "seid goes with ihr (you, several people)."
   explanation: >-
     sein is irregular and each person has its own form: ich bin, du bist, er/sie/es ist, wir sind,
     ihr seid, sie/Sie sind. With du the form is always bist.
@@ -134,13 +134,13 @@
   variety: de
   grammar: [du-sie]
   prompt: At the station you ask an older stranger for their name. Which question fits?
-  options: ["Wie heißen Sie?", "Wie heißt du?", "Wie heißt ihr?", "Wie heißen sie?"]
-  answer: 0
+  options: ["Wie heißt du?", "Wie heißen Sie?", "Wie heißt ihr?", "Wie heißen sie?"]
+  answer: 1
   rationales:
-    - Correct. A stranger you don't know gets polite Sie (capital S) + verb in the -en form.
-    - du is for friends, children and classmates – too familiar here.
-    - ihr is for several people you say du to.
-    - With a small s this means "What are THEY called?"
+    - "du is for friends, children and classmates – too familiar here."
+    - "Correct. A stranger you don't know gets polite Sie (capital S) + verb in the -en form."
+    - "ihr is for several people you say du to."
+    - "With a small s this means \"What are THEY called?\""
   explanation: >-
     Use Sie with adults you don't know, officials and staff; use du with friends, family and children.
     Sie always takes the -en form of the verb (heißen, kommen, wohnen) and is always written with a capital S.
@@ -165,8 +165,8 @@
   variety: de
   grammar: [w-questions]
   prompt: The answer is "Ich komme aus Irland." What was the question?
-  options: ["Woher kommst du?", "Wo wohnst du?", "Wie heißt du?", "Wer bist du?"]
-  answer: 0
+  options: ["Wo wohnst du?", "Wie heißt du?", "Wer bist du?", "Woher kommst du?"]
+  answer: 3
   explanation: >-
     "aus + country" answers woher (where from). "in + place" answers wo (where): Wo wohnst du? – In Dublin.
     Choose the question word that fits the information in the answer.
@@ -242,8 +242,8 @@
   skill: reading
   variety: de
   prompt: "Read \"Hallo aus dem Deutschkurs!\". Where does Mia come from?"
-  options: ["Aus Italien", "Aus Kanada", "Aus Zürich", "Aus Winterthur"]
-  answer: 0
+  options: ["Aus Kanada", "Aus Zürich", "Aus Italien", "Aus Winterthur"]
+  answer: 2
   explanation: >-
     The text says "Ich komme aus Italien, aus Mailand." kommen aus + country tells you where someone is
     from; "Ich wohne jetzt in Zürich" tells you where she lives now. Paul is from Canada; Frau Keller is
@@ -265,8 +265,8 @@
   skill: reading
   variety: de
   prompt: "Read the text again. Which languages does Frau Keller speak?"
-  options: ["Deutsch und Schweizerdeutsch", "Italienisch und Englisch", "Nur Deutsch", "Englisch und Deutsch"]
-  answer: 0
+  options: ["Italienisch und Englisch", "Nur Deutsch", "Deutsch und Schweizerdeutsch", "Englisch und Deutsch"]
+  answer: 2
   explanation: >-
     "Sie spricht Deutsch und Schweizerdeutsch." sie here means she (verb spricht, singular).
     Italian and English are Mia's languages: "Ich spreche Italienisch und Englisch."
@@ -288,8 +288,8 @@
   skill: listening
   variety: de
   prompt: Listen to the intro dialogue again. Woher kommt Tom?
-  options: ["Aus England", "Aus Deutschland", "Aus der Schweiz", "Aus Kanada"]
-  answer: 0
+  options: ["Aus Deutschland", "Aus England", "Aus der Schweiz", "Aus Kanada"]
+  answer: 1
   explanation: >-
     Tom says "Ich komme aus England, aus Manchester." Anna is the one from Germany (Hamburg). Listen for
     the word after aus – it names the country or town of origin.
@@ -299,8 +299,8 @@
   skill: listening
   variety: de
   prompt: Listen to the intro dialogue again. Wo wohnt Anna?
-  options: ["In Zürich", "In Hamburg", "In Manchester", "In Bern"]
-  answer: 0
+  options: ["In Hamburg", "In Manchester", "In Bern", "In Zürich"]
+  answer: 3
   explanation: >-
     Anna comes from Hamburg but lives in Zurich: "Ich wohne in Zürich." wo + wohnen asks where someone
     lives now, not where they were born.
@@ -513,13 +513,13 @@
   skill: vocabulary
   variety: gsw-zh
   prompt: In a Zurich shop you greet one shop assistant you don't know. What do Zurich people say?
-  options: ["Grüezi!", "Grüezi mitenand!", "Hoi!", "Grüß Gott!"]
-  answer: 0
+  options: ["Grüezi mitenand!", "Grüezi!", "Hoi!", "Grüß Gott!"]
+  answer: 1
   rationales:
-    - Correct. Grüezi is the polite greeting to one person (Sie-level).
-    - Grüezi mitenand is for greeting a group.
-    - Hoi is for friends and people you say du to.
-    - Grüß Gott is Bavarian/Austrian; it is not used in Zurich.
+    - "Grüezi mitenand is for greeting a group."
+    - "Correct. Grüezi is the polite greeting to one person (Sie-level)."
+    - "Hoi is for friends and people you say du to."
+    - "Grüß Gott is Bavarian/Austrian; it is not used in Zurich."
   explanation: >-
     Zurich greetings: Grüezi (polite, one person), Grüezi mitenand (polite, a group), Hoi / Sali / Salü
     (informal). For goodbye: Uf Widerluege (polite) and Tschüss / Ciao (informal).
@@ -558,8 +558,8 @@
   variety: gsw-zh
   grammar: [w-questions]
   prompt: "In the Swiss lane dialogue, Sandra asks Reto: \"Vo wo chunnsch du?\". What does she want to know?"
-  options: ["Where he comes from", "Where he lives", "What his name is", "How he is"]
-  answer: 0
+  options: ["Where he lives", "What his name is", "How he is", "Where he comes from"]
+  answer: 3
   explanation: >-
     vo wo = woher (literally "from where"); chunnsch = kommst (German k often becomes ch in Swiss German,
     and the du-ending -st becomes -sch). So "Vo wo chunnsch du?" = "Woher kommst du?".
@@ -570,8 +570,8 @@
   variety: gsw-zh
   grammar: [du-sie]
   prompt: "Reto asks: \"Wämmer grad Duzis mache?\" What is he suggesting?"
-  options: ["To say du to each other", "To meet again later", "To have a coffee", "To speak Standard German"]
-  answer: 0
+  options: ["To meet again later", "To have a coffee", "To say du to each other", "To speak Standard German"]
+  answer: 2
   explanation: >-
     Duzis mache = to agree to use du (from duzen). Wämmer = wollen wir (shall we). Swiss people switch to
     du quickly, especially neighbours, colleagues and younger people – but the offer usually comes first.
@@ -616,3 +616,52 @@
   explanation: >-
     geht's → gaats / gahts (Zurich long a), gut → guet (the Swiss diphthong ue, as in Muetter, Bueb),
     danke → merci (very common) or danke. Swiss German has no fixed spelling, so several spellings are fine.
+
+# ---------- Bernese (gsw-be, recognition) ----------
+- id: a1-u01-ch-be-mcq-gruessech
+  type: mcq
+  skill: listening
+  variety: gsw-be
+  prompt: "In a shop in Bern the assistant greets you: \"Grüessech!\" What is the Zurich equivalent?"
+  options: ["Grüezi!", "Hoi!", "Tschou!", "Uf Widerluege!"]
+  answer: 0
+  rationales:
+    - "Correct. Grüessech is the polite Bernese greeting, like Zurich Grüezi."
+    - "Hoi is informal – for people you say du to."
+    - "Tschou means bye (and hi) among friends."
+    - "Uf Widerluege is goodbye."
+  explanation: >-
+    Grüessech comes from "(Gott) grüess Ech" – "God greet you (plural/polite)". Bernese uses Ech (= Euch)
+    as the polite form, so the greeting itself is polite. To a group: Grüessech mitenand.
+
+- id: a1-u01-ch-be-match-sein
+  type: match
+  skill: grammar
+  variety: gsw-be
+  grammar: [sein-present]
+  prompt: Match the Bernese phrases with Standard German.
+  pairs:
+    - ["i bi", "ich bin"]
+    - ["mir sy", "wir sind"]
+    - ["Tschou!", "Tschüss!"]
+    - ["Merci viumau!", "Vielen Dank!"]
+  explanation: >-
+    Bernese i = ich (Zurich ich), mir sy = wir sind (Zurich mir sind). viumau = vielmal: Bernese turns the
+    l in viel into u (viu).
+
+- id: a1-u01-ch-be-transform-sandra
+  type: transform
+  skill: reading
+  variety: gsw-be
+  grammar: [sein-present, regular-present]
+  prompt: What does Sandra say? Write it in Standard German.
+  from: gsw-be
+  to: de
+  source: Grüessech! I bi d Sandra u i chume us Bärn.
+  answers:
+    - "Guten Tag! Ich bin Sandra und ich komme aus Bern."
+    - "Guten Tag! Ich bin Sandra und komme aus Bern."
+    - "Hallo! Ich bin Sandra und ich komme aus Bern."
+  explanation: >-
+    i = ich, u = und, us = aus, Bärn = Bern. d Sandra: Swiss German puts an article before first names;
+    Standard German doesn't. chume = komme is the same in Bern and Zurich.

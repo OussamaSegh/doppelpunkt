@@ -16,6 +16,11 @@ const NAV: NavItem[] = [
   { to: '/settings', label: 'Settings', icon: 'M4 6h9m4 0h3M4 12h3m4 0h9M4 18h11m4 0h1M15 4v4M9 10v4M17 16v4' },
 ];
 
+/** Shown in the desktop sidebar only; on phones the Learn screen links to it, so the tab bar stays at five. */
+const MORE: NavItem[] = [
+  { to: '/grammar', label: 'Grammar', icon: 'M6 4h11a1 1 0 0 1 1 1v15H7a2 2 0 0 1-2-2V5a1 1 0 0 1 1-1zM5 18a2 2 0 0 1 2-2h11M9 8h5M9 11h4' },
+];
+
 const THEME_NEXT: Record<ThemePref, ThemePref> = { system: 'light', light: 'dark', dark: 'system' };
 const THEME_LABEL: Record<ThemePref, string> = { system: 'Theme: system', light: 'Theme: light', dark: 'Theme: dark' };
 
@@ -68,6 +73,14 @@ export function Layout() {
               <NavIcon d={n.icon} />
               {n.label}
               {n.to === '/review' && !!due && <DueBadge n={due} />}
+            </NavLink>
+          ))}
+        </nav>
+        <nav aria-label="Reference" className="mt-4 flex flex-col gap-1 border-t border-line pt-4">
+          {MORE.map((n) => (
+            <NavLink key={n.to} to={n.to} className={link}>
+              <NavIcon d={n.icon} />
+              {n.label}
             </NavLink>
           ))}
         </nav>

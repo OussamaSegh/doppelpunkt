@@ -65,7 +65,7 @@ export function zodIssues(file: string, err: z.ZodError, data: unknown): Issue[]
   }));
 }
 
-function readYaml(file: string, issues: Issue[], root: string): { ok: boolean; data: unknown } {
+export function readYaml(file: string, issues: Issue[], root: string): { ok: boolean; data: unknown } {
   const rel = relative(root, file) || file;
   if (!existsSync(file)) {
     issues.push({ severity: 'error', file: rel, message: 'file is missing' });

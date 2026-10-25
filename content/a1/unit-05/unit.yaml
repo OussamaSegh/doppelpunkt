@@ -1,0 +1,289 @@
+id: a1-u05
+level: A1
+number: 5
+title: Einkaufen
+titleEn: Grocery shopping
+goal: >-
+  By the end you can buy food at a market or in a supermarket, ask for quantities and prices, say what
+  you don't want or don't have, answer negative questions with doch, and follow a shopping conversation
+  in Zurich German.
+canDo:
+  - I can ask for food in quantities (ein Kilo Kartoffeln, 200 Gramm Käse, eine Flasche Wein).
+  - I can say what I don't want or don't have with nicht and kein.
+  - I can use the definite article in the accusative (Ich nehme den Käse.).
+  - I can answer yes/no questions with ja, nein and doch.
+  - I can recognise Swiss shopping words (poschte, Härdöpfel, Rüebli, Peperoni, Rahm, Säckli) and the Zurich nöd, kei and moll.
+
+review:
+  notes:
+    - "Zurich negative article: the unit teaches invariable 'kei' (kei Rahm, kei Eier) and mentions a neuter 'keis' / 'käs'. Which forms does a Zurich speaker use today?"
+    - "Market dialogue: 'leider kei Eier meh', 'Dänn nimm ich no Rahm', 'Wänd Sie es Säckli?', 'mir händ en Sack debii' – natural?"
+    - "Onion in Zurich: the vocab gives 'Zwieble / Bölle'. Bölle is listed as a Zurich word in online glossaries; is Zibele also Zurich or rather Bernese / central Swiss?"
+    - "Bernese lines: 'Chouf no Härdöpfu u Anke!' and 'Nei, Miuch hei mer gnue.' – natural? (choufe, Härdöpfu, Miuch and Anke are confirmed by berndeutsch.ch.)"
+    - "berndeutsch.ch notes that poschte is originally an eastern Swiss word, not basic Bernese (ychoufe, kömerle). Please confirm that the note's wording is fair."
+    - "Peperoni: Swiss plural and gender (die Peperoni, plural Peperoni) – confirm."
+
+intro:
+  scene: >-
+    Friday evening in a supermarket near Zurich Oerlikon. Anna and Tom are shopping for dinner.
+  dialogue:
+    - speaker: Anna
+      text: Tom, was brauchen wir für heute Abend?
+      en: Tom, what do we need for this evening?
+    - speaker: Tom
+      text: Wir brauchen Nudeln, Tomaten und eine Zwiebel. Haben wir noch Käse?
+      en: We need pasta, tomatoes and an onion. Do we still have cheese?
+    - speaker: Anna
+      text: Nein, wir haben keinen Käse mehr. Ich nehme den Käse hier.
+      en: No, we haven't got any cheese left. I'll take this cheese here.
+    - speaker: Tom
+      text: Und Fleisch? Das Hähnchen ist billig.
+      en: And meat? The chicken is cheap.
+    - speaker: Anna
+      text: Nein, kein Fleisch. Ich esse kein Fleisch. Ich bin Vegetarierin.
+      en: No, no meat. I don't eat meat. I'm a vegetarian.
+    - speaker: Tom
+      text: Ach ja, richtig! Und brauchen wir keinen Wein?
+      en: Oh yes, right! And don't we need any wine?
+    - speaker: Anna
+      text: Doch! Eine Flasche Rotwein. Der Wein hier ist nicht teuer.
+      en: Yes, we do! A bottle of red wine. The wine here isn't expensive.
+    - speaker: Tom
+      text: Und Obst? Ich kaufe ein Kilo Äpfel.
+      en: And fruit? I'll buy a kilo of apples.
+    - speaker: Anna
+      text: Ein Kilo ist viel. Ich nehme nur vier Äpfel. Die Bananen sind nicht frisch.
+      en: A kilo is a lot. I'll just take four apples. The bananas aren't fresh.
+    - speaker: Kassierer
+      text: Das macht dreiundzwanzig Franken vierzig. Brauchen Sie eine Tüte?
+      en: That's twenty-three francs forty. Do you need a bag?
+    - speaker: Anna
+      text: Nein, danke, keine Tüte.
+      en: No, thanks, no bag.
+
+grammar:
+  - id: nicht-kein
+    title: "Negation: nicht or kein?"
+    body: >-
+      German has two words for *not*:
+
+
+      - **kein** negates a **noun** that would have **ein** or **no article**: *Ich habe ein Ei.* → *Ich habe
+      **kein** Ei.* – *Ich esse Fleisch.* → *Ich esse **kein** Fleisch.* kein = *not a, not any, no*.
+
+      - **nicht** negates everything else: a verb, an adjective, an adverb, a name, or a noun with **der/die/das**
+      or a possessive: *Ich koche **nicht**.* – *Der Wein ist **nicht** teuer.* – *Ich nehme den Käse **nicht**.*
+
+
+      **kein** has the same endings as **ein** and **mein**: *kein Apfel, keine Banane, kein Ei*, plural
+      *keine Eier*, masculine accusative ***keinen** Käse*.
+
+
+      **Where does nicht go?** At the end of a simple sentence (*Ich koche heute **nicht***), but **before** an
+      adjective, an adverb of manner, a place or the separable prefix (*nicht teuer, nicht gern, nicht im
+      Supermarkt*, *Ich kaufe heute **nicht** ein*).
+
+
+      *kein ... mehr* = *not ... any more / none left*: *Wir haben keinen Käse mehr.*
+    tables:
+      - [["", "masculine", "feminine", "neuter", "plural"],
+         ["nominative", "kein Apfel", "keine Banane", "kein Ei", "keine Eier"],
+         ["accusative", "keinen Apfel", "keine Banane", "kein Ei", "keine Eier"]]
+      - [["Positive", "Negative", "Why"],
+         ["Ich habe ein Ei.", "Ich habe kein Ei.", "noun with ein → kein"],
+         ["Ich trinke Wein.", "Ich trinke keinen Wein.", "noun without article → kein"],
+         ["Der Käse ist frisch.", "Der Käse ist nicht frisch.", "adjective → nicht"],
+         ["Ich nehme den Käse.", "Ich nehme den Käse nicht.", "noun with den → nicht"],
+         ["Ich kaufe heute ein.", "Ich kaufe heute nicht ein.", "verb → nicht, before the prefix"]]
+    commonMistakes:
+      - "*Ich habe nicht ein Ei.* / *Ich habe nicht Eier.* → **Ich habe kein Ei. / keine Eier.** Before a noun with ein or no article, use kein."
+      - "*Ich esse nicht Fleisch.* → **Ich esse kein Fleisch.** English 'don't eat meat' has not; German uses kein."
+      - "*Ich habe keine Käse.* → **Ich habe keinen Käse.** der Käse is masculine; accusative keinen."
+      - "*Der Wein ist kein teuer.* → **Der Wein ist nicht teuer.** Adjectives take nicht."
+      - "*Ich nicht koche.* → **Ich koche nicht.** nicht comes after the verb."
+
+  - id: accusative-definite
+    title: "The definite article in the accusative: der → den"
+    body: >-
+      In unit 2 you learned *ein → einen* for masculine objects. The definite article works the same way:
+      only the **masculine** changes, **der → den**. Feminine *die*, neuter *das* and plural *die* stay the same.
+
+
+      *Der Käse ist frisch.* (subject) → *Ich nehme **den** Käse.* (object)
+
+
+      Verbs with an accusative object in this unit: *kaufen, nehmen, brauchen, suchen, haben, möchten*.
+      Questions: *Wen? / Was?* *Was nehmen Sie?* – *Den Apfelsaft, bitte.*
+
+
+      Because the article shows the role, German word order is flexible: *Den Käse nehme ich* still means
+      *I'll take the cheese*.
+    tables:
+      - [["", "masculine", "feminine", "neuter", "plural"],
+         ["nominative", "der Käse", "die Butter", "das Brot", "die Eier"],
+         ["accusative", "den Käse", "die Butter", "das Brot", "die Eier"],
+         ["acc. (ein / kein)", "einen / keinen Käse", "eine / keine Butter", "ein / kein Brot", "– / keine Eier"]]
+    commonMistakes:
+      - "*Ich nehme der Käse.* → **Ich nehme den Käse.** der Käse is the object of nehmen."
+      - "*Ich kaufe den Butter.* → **Ich kaufe die Butter.** die Butter is feminine; only masculine changes."
+      - "*Den Käse ist teuer.* → **Der Käse ist teuer.** After sein there is no object: the noun is nominative."
+      - "Don't forget the plural: *die Eier* stays **die Eier** in the accusative."
+
+  - id: ja-nein-doch
+    title: "ja, nein and doch"
+    body: >-
+      To a **positive** question, answer *ja* or *nein*. To a **negative** question (with *nicht* or *kein*),
+      German has a special word for *yes*: **doch**.
+
+
+      *Brauchen wir keinen Wein?* – ***Doch!*** (Yes, we do!) / ***Nein.*** (No, we don't.)
+
+
+      *Kommst du nicht?* – ***Doch**, ich komme!* (Yes, I am coming.)
+
+
+      English answers *yes* or *no* according to the facts and adds a short tag ("Yes, we do"). In German,
+      *ja* after a negative question is confusing – use **doch** to contradict the negative.
+    tables:
+      - [["Question", "Yes", "No"],
+         ["Brauchen wir Wein?", "Ja (, wir brauchen Wein).", "Nein (, wir brauchen keinen Wein)."],
+         ["Brauchen wir keinen Wein?", "Doch (, wir brauchen Wein)!", "Nein (, wir brauchen keinen Wein)."],
+         ["Ist der Käse nicht frisch?", "Doch, er ist frisch.", "Nein, er ist nicht frisch."]]
+    commonMistakes:
+      - "*Hast du keine Zeit? – Ja, ich habe Zeit.* → **Doch, ich habe Zeit.**"
+      - "Answering *Nein* when you mean yes: *Isst du kein Fleisch? – Nein.* means 'No, I don't eat meat.' If you do eat meat, say **Doch.**"
+
+  - id: quantities
+    title: "Quantities: ein Kilo Kartoffeln, eine Flasche Wein"
+    body: >-
+      German puts the quantity **directly before** the noun – there is no word for *of*:
+      *ein Kilo Kartoffeln, 200 Gramm Käse, eine Flasche Wein, ein Liter Saft, eine Packung Nudeln*.
+
+
+      Units of measurement (**Kilo, Gramm, Liter**) usually stay **singular** after numbers: *zwei Kilo,
+      500 Gramm, drei Liter*. Containers are normal nouns and take a plural: *zwei Flaschen, drei Packungen*.
+      **ein Stück** (a piece): *ein Stück Käse*, *zwei Stück Kuchen*.
+
+
+      The quantity carries the article: *Ich nehme **ein** Kilo Äpfel* (das Kilo); *Ich brauche **eine**
+      Flasche Wein* (die Flasche). *ein halbes Kilo* = 500 g; in Switzerland you'll also hear *ein Pfund*
+      for 500 g at the market.
+
+
+      Prices: *Was kostet ...? / Wie viel kostet ...?* – *Ein Kilo kostet vier Franken.* – *Das macht ...*
+    tables:
+      - [["Quantity", "Example", "Plural"],
+         ["das Kilo", "ein Kilo Kartoffeln", "zwei Kilo Kartoffeln"],
+         ["das Gramm", "hundert Gramm Käse", "500 Gramm Käse"],
+         ["der Liter", "ein Liter Saft", "zwei Liter Saft"],
+         ["die Flasche", "eine Flasche Wein", "zwei Flaschen Wein"],
+         ["die Packung", "eine Packung Nudeln", "drei Packungen Nudeln"],
+         ["das Stück", "ein Stück Käse", "zwei Stück Käse"]]
+    commonMistakes:
+      - "*ein Kilo von Kartoffeln* → **ein Kilo Kartoffeln.** No 'of' in German."
+      - "*zwei Kilos Äpfel* → **zwei Kilo Äpfel.** Units stay singular after numbers."
+      - "*eine Flasche von Wein* → **eine Flasche Wein.**"
+      - "*Ich nehme einen Kilo* → **Ich nehme ein Kilo.** das Kilo is neuter."
+
+reading:
+  title: "Samstag ist Markttag"
+  text: >-
+    Am Samstag kaufe ich immer auf dem Markt ein. Das Gemüse dort ist frisch und nicht teuer. Ich brauche
+    heute ein Kilo Kartoffeln, drei Karotten und eine Zwiebel. Tomaten kaufe ich nicht – sie sind im Moment
+    nicht gut. Dann gehe ich zum Käsestand. Die Verkäuferin fragt: "Möchten Sie den Bergkäse? Er ist sehr gut."
+    Ich nehme 300 Gramm. Fleisch kaufe ich nicht, ich esse nur Fisch. Aber ich habe keine Eier mehr, also
+    nehme ich sechs Eier. Brot gibt es auf dem Markt auch, aber das Brot hier ist teuer. Ich kaufe es im
+    Supermarkt. Zum Schluss nehme ich noch einen Liter Apfelsaft. Alles zusammen kostet 34 Franken.
+  en: >-
+    On Saturday I always go shopping at the market. The vegetables there are fresh and not expensive. Today I
+    need a kilo of potatoes, three carrots and an onion. I don't buy tomatoes – they're not good at the
+    moment. Then I go to the cheese stall. The saleswoman asks: "Would you like the mountain cheese? It's very
+    good." I take 300 grams. I don't buy meat; I only eat fish. But I haven't got any eggs left, so I take six
+    eggs. There's bread at the market too, but the bread here is expensive. I buy it in the supermarket.
+    Finally I take a litre of apple juice. Everything together costs 34 francs.
+
+swiss:
+  scene: >-
+    Saturday morning at a market stall in Zurich. Reto and Sandra are buying vegetables. Listen for
+    the Swiss food words, nöd and kei, and moll. Then Sandra's phone rings – her mother in Bern.
+  dialogue:
+    - speaker: Verkäuferin
+      text: Grüezi mitenand! Was dörfs sii?
+      en: Hello, both of you! What can I get you?
+      variety: gsw-zh
+    - speaker: Reto
+      text: Grüezi. Ich hett gärn es Kilo Härdöpfel und föif Rüebli.
+      en: Hello. I'd like a kilo of potatoes and five carrots.
+      variety: gsw-zh
+    - speaker: Verkäuferin
+      text: Gärn. Suscht no öppis? Mir händ hüt schöni Peperoni.
+      en: Certainly. Anything else? We have nice peppers today.
+      variety: gsw-zh
+    - speaker: Reto
+      text: Nei, merci, Peperoni äss ich nöd so gärn. Händ Sie no Eier?
+      en: No, thanks, I don't like peppers much. Do you still have eggs?
+      variety: gsw-zh
+    - speaker: Verkäuferin
+      text: Nei, leider kei Eier meh. Aber mir händ frische Rahm.
+      en: No, sorry, no eggs left. But we have fresh cream.
+      variety: gsw-zh
+    - speaker: Sandra
+      text: Reto, bruuchsch du kei Rahm für de Chueche?
+      en: Reto, don't you need cream for the cake?
+      variety: gsw-zh
+    - speaker: Reto
+      text: Moll, natürli! Dänn nimm ich no Rahm.
+      en: Yes, of course I do! Then I'll take some cream as well.
+      variety: gsw-zh
+    - speaker: Verkäuferin
+      text: Das macht zwölf Franke vierzg. Bar oder mit Twint?
+      en: That's twelve francs forty. Cash or with Twint?
+      variety: gsw-zh
+    - speaker: Reto
+      text: Mit Twint, bitte.
+      en: With Twint, please.
+      variety: gsw-zh
+    - speaker: Verkäuferin
+      text: Merci vilmal! Wänd Sie es Säckli?
+      en: Thank you very much! Would you like a bag?
+      variety: gsw-zh
+    - speaker: Sandra
+      text: Nei, merci, mir händ en Sack debii.
+      en: No, thanks, we've brought a bag.
+      variety: gsw-zh
+    - speaker: Mami
+      text: Hoi Sandra! Chouf no Härdöpfu u Anke!
+      en: Hi Sandra! Buy some potatoes and butter as well!
+      variety: gsw-be
+    - speaker: Sandra
+      text: Mach i, Mami. U Miuch?
+      en: Will do, Mum. And milk?
+      variety: gsw-be
+    - speaker: Mami
+      text: Nei, Miuch hei mer gnue.
+      en: No, we have enough milk.
+      variety: gsw-be
+  notes:
+    - >-
+      **poschte** = *einkaufen* (groceries): *Ich gang go poschte* = *Ich gehe einkaufen*. Most people shop
+      at the two big Swiss chains, **Migros** and **Coop**, or at the weekly market (**Märt**). Migros
+      traditionally sells no alcohol or tobacco in its supermarkets. Bernese speakers also say **ychoufe**.
+    - >-
+      **Swiss food words** (also in Swiss Standard German): **Härdöpfel** (*Kartoffel*; Standard Swiss
+      *Kartoffel*), **Rüebli** (*Karotte*), **Peperoni** (*Paprika* – the vegetable, not a sausage!),
+      **Rahm** (*Sahne*), **Poulet** (*Hähnchen*), **Teigwaren** (*Nudeln*). In dialect: **Anke** = *Butter*,
+      **Chäs** = *Käse*, **Öpfel** = *Äpfel*, **Bölle** = *Zwiebeln* (Zurich).
+    - >-
+      **nöd** = *nicht*: *Ich ässe nöd gärn Peperoni.* **kei** = *kein*, usually one form for every gender:
+      *kei Rahm, kei Milch, kei Eier* (a neuter *keis* is also heard). **meh** = *mehr*: *kei Eier meh* =
+      *keine Eier mehr*.
+    - >-
+      **moll** (also **momoll**) = *doch*. It contradicts a negative question: *Bruuchsch du kei Rahm? – Moll!*
+    - >-
+      **es Säckli** = a small (plastic or paper) bag. At Swiss tills plastic bags usually cost a few
+      Rappen, so many people bring their own. **Twint** is the Swiss payment app; *Bar oder mit Karte?* =
+      cash or card? In fast speech *äss ich* (esse ich) is often fused to *ässi*.
+    - >-
+      **Bernese** (Sandra's mother): l before a consonant or at the end of a word becomes **u**:
+      **Miuch** (*Milch*), **Härdöpfu** (*Härdöpfel*). **u** = *und*, **choufe** = *kaufen* (Zurich
+      *chaufe*), **hei mer** = *haben wir*, **gnue** = *genug*.

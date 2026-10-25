@@ -4,6 +4,7 @@ import { GermanText } from '../components/GermanText';
 import { AudioButton } from '../components/AudioButton';
 import { VarietyTag } from '../components/VarietyTag';
 import { audioUrl } from '../content';
+import { useCardKeys } from '../lib/keys';
 import { VARIETY_META } from '../lib/varieties';
 import { seededShuffle } from './shuffle';
 import { orderAnswer, type InputProps } from './types';
@@ -17,22 +18,42 @@ export function McqInput({ ex, disabled, onChange }: InputProps<'mcq'>) {
     setPicked(i);
     onChange(i);
   };
+  const box = useRef<HTMLDivElement>(null);
+  // Number keys pick the option shown at that position.
+  useCardKeys(
+    box,
+    (e) => {
+      if (e.ctrlKey || e.metaKey || !/^[1-9]$/.test(e.key)) return;
+      const i = order[Number(e.key) - 1];
+      if (i === undefined) return;
+      pick(i);
+      return true;
+    },
+    !disabled,
+  );
   return (
-    <div>
+    <div ref={box}>
       {ex.question && <GermanText text={ex.question} variety={ex.variety} className="mb-3 text-lg" />}
       <div role="radiogroup" aria-label="Options" className="grid gap-2">
-        {order.map((i) => (
+        {order.map((i, pos) => (
           <button
             key={i}
             type="button"
             role="radio"
             aria-checked={picked === i}
+            aria-keyshortcuts={pos < 9 ? String(pos + 1) : undefined}
+            data-kbd-option=""
             disabled={disabled}
             onClick={() => pick(i)}
-            className={`rounded-xl border px-4 py-3 text-left text-base transition-colors ${
+            className={`flex items-center gap-3 rounded-xl border px-4 py-3 text-left text-base transition-colors ${
               picked === i ? 'border-accent bg-accent-soft' : 'border-line bg-surface hover:bg-surface-2'
             }`}
           >
+            {pos < 9 && (
+              <kbd aria-hidden="true" className="hidden h-6 w-6 shrink-0 place-items-center rounded-md border border-line text-xs text-muted sm:grid">
+                {pos + 1}
+              </kbd>
+            )}
             <span lang={VARIETY_META[ex.variety].lang}>{ex.options[i]}</span>
           </button>
         ))}

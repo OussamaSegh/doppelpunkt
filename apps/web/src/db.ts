@@ -23,6 +23,24 @@ export type Settings = {
   relayUrl?: string;
   /** Monthly AI spend cap in USD; 0 disables AI calls. */
   monthlyCapUsd: number;
+  /** Vibrate on right / almost / wrong answers where the device supports it. */
+  haptics: boolean;
+  /** Last placement test result, if the learner took one. */
+  placement?: PlacementResult;
+};
+
+/** Saved outcome of the placement test (shown on Progress). */
+export type PlacementResult = {
+  at: string;
+  level: Level;
+  unit: number;
+  /** Mean score per tested level, lowest level first. */
+  perLevel: Array<{ level: Level; score: number; items: number }>;
+  answered: number;
+  total: number;
+  durationSec: number;
+  /** true when the learner stopped before the end, or the test stopped at a level below the pass mark. */
+  stoppedEarly: boolean;
 };
 
 export const DEFAULT_SETTINGS: Settings = {
@@ -35,6 +53,7 @@ export const DEFAULT_SETTINGS: Settings = {
   startUnit: 1,
   models: {},
   monthlyCapUsd: 5,
+  haptics: true,
 };
 
 export type AttemptRow = Attempt & { id?: number };

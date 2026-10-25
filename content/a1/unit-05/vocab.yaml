@@ -1,0 +1,405 @@
+# A1 unit 5 – Einkaufen
+
+# ---------- places and shopping ----------
+- id: supermarkt
+  de: Supermarkt
+  en: supermarket
+  pos: noun
+  gender: m
+  plural: Supermärkte
+  example: { de: "Ich kaufe im Supermarkt ein.", en: "I do my shopping in the supermarket." }
+  gswZh: Supermarkt / Lade (de Migros, de Coop)
+  tags: [shopping, places]
+
+- id: markt
+  de: Markt
+  en: market
+  pos: noun
+  gender: m
+  plural: Märkte
+  example: { de: "Am Samstag ist Markt.", en: "There's a market on Saturday." }
+  gswZh: Märt (de Wuchemärt = weekly market)
+  tags: [shopping, places]
+
+- id: kasse
+  de: Kasse
+  en: till, checkout
+  pos: noun
+  gender: f
+  plural: Kassen
+  example: { de: "Die Kasse ist hier.", en: "The checkout is here." }
+  gswZh: Kasse
+  tags: [shopping]
+
+- id: tuete
+  de: Tüte
+  en: (shopping) bag
+  pos: noun
+  gender: f
+  plural: Tüten
+  example: { de: "Brauchen Sie eine Tüte?", en: "Do you need a bag?" }
+  chStd: Sack / Säckli (der Sack, das Säckli)
+  gswZh: Säckli / Sack
+  tags: [shopping, helvetism]
+
+- id: preis
+  de: Preis
+  en: price
+  pos: noun
+  gender: m
+  plural: Preise
+  example: { de: "Der Preis ist gut.", en: "The price is good." }
+  gswZh: Priis
+  tags: [shopping, money]
+
+# ---------- vegetables and fruit ----------
+- id: gemuese
+  de: Gemüse
+  en: vegetables
+  pos: noun
+  gender: n
+  plural: "-"
+  example: { de: "Das Gemüse ist frisch.", en: "The vegetables are fresh." }
+  gswZh: Gmües
+  tags: [food, vegetables]
+
+- id: obst
+  de: Obst
+  en: fruit
+  pos: noun
+  gender: n
+  plural: "-"
+  example: { de: "Ich esse jeden Tag Obst.", en: "I eat fruit every day." }
+  chStd: Früchte (die Früchte) / Obst
+  gswZh: Frücht / Obscht
+  tags: [food, fruit, helvetism]
+
+- id: kartoffel
+  de: Kartoffel
+  en: potato
+  pos: noun
+  gender: f
+  plural: Kartoffeln
+  example: { de: "Ein Kilo Kartoffeln, bitte.", en: "A kilo of potatoes, please." }
+  gswZh: Härdöpfel / Erdöpfel (de Härdöpfel, plural Härdöpfel)
+  gswBe: Härdöpfu
+  tags: [food, vegetables]
+
+- id: karotte
+  de: Karotte
+  en: carrot
+  pos: noun
+  gender: f
+  plural: Karotten
+  example: { de: "Ich brauche drei Karotten.", en: "I need three carrots." }
+  chStd: Rüebli (das Rüebli, die Rüebli)
+  gswZh: Rüebli (s Rüebli)
+  tags: [food, vegetables, helvetism]
+
+- id: tomate
+  de: Tomate
+  en: tomato
+  pos: noun
+  gender: f
+  plural: Tomaten
+  example: { de: "Die Tomaten sind nicht gut.", en: "The tomatoes aren't good." }
+  gswZh: Tomate
+  tags: [food, vegetables]
+
+- id: zwiebel
+  de: Zwiebel
+  en: onion
+  pos: noun
+  gender: f
+  plural: Zwiebeln
+  example: { de: "Wir brauchen eine Zwiebel.", en: "We need an onion." }
+  gswZh: Zwieble / Bölle (de Bölle)
+  gswBe: Zibele
+  tags: [food, vegetables]
+
+- id: paprika
+  de: Paprika
+  en: (bell) pepper
+  pos: noun
+  gender: f
+  plural: Paprikas
+  example: { de: "Ich nehme eine Paprika.", en: "I'll take a pepper." }
+  chStd: Peperoni (die Peperoni, plural Peperoni)
+  gswZh: Peperoni
+  tags: [food, vegetables, helvetism, false-friend]
+
+- id: apfel
+  de: Apfel
+  en: apple
+  pos: noun
+  gender: m
+  plural: Äpfel
+  example: { de: "Ich kaufe ein Kilo Äpfel.", en: "I'm buying a kilo of apples." }
+  gswZh: Öpfel (plural Öpfel)
+  gswBe: Öpfu
+  tags: [food, fruit]
+
+- id: banane
+  de: Banane
+  en: banana
+  pos: noun
+  gender: f
+  plural: Bananen
+  example: { de: "Die Bananen sind nicht frisch.", en: "The bananas aren't fresh." }
+  gswZh: Banane
+  tags: [food, fruit]
+
+# ---------- other food ----------
+- id: brot
+  de: Brot
+  en: bread
+  pos: noun
+  gender: n
+  plural: Brote
+  example: { de: "Das Brot hier ist teuer.", en: "The bread here is expensive." }
+  gswZh: Brot
+  tags: [food]
+
+- id: butter
+  de: Butter
+  en: butter
+  pos: noun
+  gender: f
+  plural: "-"
+  example: { de: "Ich kaufe die Butter im Supermarkt.", en: "I buy the butter in the supermarket." }
+  gswZh: Anke (de Anke) / Butter
+  gswBe: Anke
+  tags: [food, dairy]
+
+- id: kaese
+  de: Käse
+  en: cheese
+  pos: noun
+  gender: m
+  plural: Käse
+  example: { de: "Ich nehme den Käse hier.", en: "I'll take this cheese." }
+  gswZh: Chäs (de Chäs)
+  tags: [food, dairy]
+
+- id: ei
+  de: Ei
+  en: egg
+  pos: noun
+  gender: n
+  plural: Eier
+  example: { de: "Wir haben keine Eier mehr.", en: "We haven't got any eggs left." }
+  gswZh: Ei (plural Eier)
+  tags: [food, dairy]
+
+- id: sahne
+  de: Sahne
+  en: cream
+  pos: noun
+  gender: f
+  plural: "-"
+  example: { de: "Brauchst du Sahne für den Kuchen?", en: "Do you need cream for the cake?" }
+  chStd: Rahm (der Rahm; Schlagrahm = whipped cream)
+  gswZh: Rahm / Nidle
+  gswBe: Nidle / Nydle
+  tags: [food, dairy, helvetism]
+
+- id: fleisch
+  de: Fleisch
+  en: meat
+  pos: noun
+  gender: n
+  plural: "-"
+  example: { de: "Anna isst kein Fleisch.", en: "Anna doesn't eat meat." }
+  gswZh: Fleisch
+  tags: [food, meat]
+
+- id: haehnchen
+  de: Hähnchen
+  en: chicken (as food)
+  pos: noun
+  gender: n
+  plural: Hähnchen
+  example: { de: "Das Hähnchen ist billig.", en: "The chicken is cheap." }
+  chStd: Poulet (das Poulet)
+  gswZh: Poulet
+  tags: [food, meat, helvetism]
+
+- id: nudel
+  de: Nudel
+  en: noodle; (plural) pasta
+  pos: noun
+  gender: f
+  plural: Nudeln
+  example: { de: "Wir brauchen eine Packung Nudeln.", en: "We need a packet of pasta." }
+  chStd: Teigwaren (plural only)
+  gswZh: Teigwaare / Nudle / Pasta
+  tags: [food, helvetism]
+
+- id: salz
+  de: Salz
+  en: salt
+  pos: noun
+  gender: n
+  plural: "-"
+  example: { de: "Haben wir noch Salz?", en: "Do we still have salt?" }
+  gswZh: Salz
+  tags: [food]
+
+- id: saft
+  de: Saft
+  en: juice
+  pos: noun
+  gender: m
+  plural: Säfte
+  example: { de: "Ich nehme einen Liter Apfelsaft.", en: "I'll take a litre of apple juice." }
+  gswZh: Saft (Öpfelsaft / Süessmoscht = apple juice)
+  tags: [food, drinks]
+
+- id: wein
+  de: Wein
+  en: wine
+  pos: noun
+  gender: m
+  plural: Weine
+  example: { de: "Eine Flasche Wein, bitte.", en: "A bottle of wine, please." }
+  gswZh: Wii (de Wii)
+  tags: [food, drinks]
+
+# ---------- quantities ----------
+- id: flasche
+  de: Flasche
+  en: bottle
+  pos: noun
+  gender: f
+  plural: Flaschen
+  example: { de: "Wir brauchen zwei Flaschen Wasser.", en: "We need two bottles of water." }
+  gswZh: Fläsche
+  tags: [quantities]
+
+- id: packung
+  de: Packung
+  en: packet, pack
+  pos: noun
+  gender: f
+  plural: Packungen
+  example: { de: "Eine Packung Nudeln kostet zwei Franken.", en: "A packet of pasta costs two francs." }
+  gswZh: Packig / Päckli
+  tags: [quantities]
+
+- id: kilo
+  de: Kilo
+  en: kilo
+  pos: noun
+  gender: n
+  plural: Kilo
+  example: { de: "Zwei Kilo Kartoffeln, bitte.", en: "Two kilos of potatoes, please." }
+  gswZh: Kilo
+  tags: [quantities]
+
+- id: gramm
+  de: Gramm
+  en: gram
+  pos: noun
+  gender: n
+  plural: Gramm
+  example: { de: "Ich nehme 200 Gramm Käse.", en: "I'll take 200 grams of cheese." }
+  gswZh: Gramm
+  tags: [quantities]
+
+- id: liter
+  de: Liter
+  en: litre
+  pos: noun
+  gender: m
+  plural: Liter
+  example: { de: "Ein Liter Milch kostet einen Franken sechzig.", en: "A litre of milk costs one franc sixty." }
+  gswZh: Liter (in Swiss usage also s Liter)
+  tags: [quantities]
+
+- id: stueck
+  de: Stück
+  en: piece
+  pos: noun
+  gender: n
+  plural: Stück
+  example: { de: "Ein Stück Käse, bitte.", en: "A piece of cheese, please." }
+  gswZh: Stück / es Stückli
+  tags: [quantities]
+
+# ---------- verbs and adjectives ----------
+- id: brauchen
+  de: brauchen
+  en: to need
+  pos: verb
+  example: { de: "Was brauchen wir für heute Abend?", en: "What do we need for this evening?" }
+  gswZh: bruuche (ich bruuch, du bruuchsch, er bruucht)
+  tags: [shopping]
+
+- id: kaufen
+  de: kaufen
+  en: to buy
+  pos: verb
+  example: { de: "Ich kaufe das Brot im Supermarkt.", en: "I buy the bread in the supermarket." }
+  gswZh: chaufe
+  gswBe: choufe (participle gchouft)
+  tags: [shopping]
+
+- id: suchen
+  de: suchen
+  en: to look for
+  pos: verb
+  example: { de: "Ich suche den Käse.", en: "I'm looking for the cheese." }
+  gswZh: sueche
+  tags: [shopping]
+
+- id: billig
+  de: billig
+  en: cheap
+  pos: adj
+  example: { de: "Das Obst ist billig.", en: "The fruit is cheap." }
+  chStd: billig / günstig
+  gswZh: billig / günschtig
+  tags: [shopping, money]
+
+- id: teuer
+  de: teuer
+  en: expensive
+  pos: adj
+  example: { de: "Der Wein ist nicht teuer.", en: "The wine isn't expensive." }
+  gswZh: tüür
+  tags: [shopping, money]
+
+- id: frisch
+  de: frisch
+  en: fresh
+  pos: adj
+  example: { de: "Die Eier sind frisch.", en: "The eggs are fresh." }
+  gswZh: frisch
+  tags: [food]
+
+# ---------- negation ----------
+- id: nicht
+  de: nicht
+  en: not
+  pos: adv
+  example: { de: "Der Käse ist nicht teuer.", en: "The cheese isn't expensive." }
+  gswZh: nöd / nid
+  gswBe: nid
+  tags: [negation]
+
+- id: kein
+  de: kein / keine
+  en: no, not a, not any
+  pos: pron
+  example: { de: "Ich habe kein Brot.", en: "I haven't got any bread." }
+  gswZh: kei (kei Ziit, kei Eier); neuter also keis
+  gswBe: ke / kei; neuter kes (Mach kes Ghei!)
+  tags: [negation]
+
+- id: doch
+  de: doch
+  en: yes (contradicting a negative question)
+  pos: other
+  example: { de: "Brauchen wir keinen Wein? – Doch!", en: "Don't we need wine? – Yes, we do!" }
+  gswZh: moll / momoll
+  tags: [negation]

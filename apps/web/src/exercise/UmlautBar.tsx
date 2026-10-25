@@ -15,9 +15,9 @@ export function UmlautBar({ target, onInsert }: { target: () => HTMLInputElement
     });
   };
   return (
-    <div className="mt-2 flex flex-wrap gap-1" aria-label="Insert special characters">
+    <div role="group" className="mt-2 flex flex-wrap gap-1" aria-label="Insert special characters">
       {CHARS.map((c) => (
-        <button key={c} type="button" className="h-8 w-8 rounded-lg border border-line bg-surface-2 text-sm" onMouseDown={(e) => e.preventDefault()} onClick={() => insert(c)} aria-label={`Insert ${c}`}>
+        <button key={c} type="button" className="h-9 w-9 rounded-lg border border-line bg-surface-2 text-sm hover:bg-surface" onMouseDown={(e) => e.preventDefault()} onClick={() => insert(c)} aria-label={c !== 'ß' && c === c.toUpperCase() ? `Insert capital ${c}` : `Insert ${c}`}>
           {c}
         </button>
       ))}

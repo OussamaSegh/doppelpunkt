@@ -4,7 +4,7 @@ import { useLiveQuery } from 'dexie-react-hooks';
 import { errorProfile, estimateSkills } from '@doppelpunkt/engine';
 import { SkillRadar, skillLabel } from '../components/SkillRadar';
 import { allUnits, useContent } from '../content';
-import { db } from '../db';
+import { db, type PlacementResult } from '../db';
 import { useAttempts, useSettings } from '../lib/hooks';
 import { studyStreak, weekMinutes } from '../lib/progress';
 
@@ -40,6 +40,8 @@ export function Progress() {
         <Stat label="This week" value={`${total} min`} />
         <Stat label="Exercises answered" value={String(attempts.length)} />
       </div>
+
+      <PlacementCard placement={settings?.placement} />
 
       <section className="card" aria-labelledby="week-title">
         <h2 id="week-title" className="mb-3 font-semibold">
@@ -145,6 +147,45 @@ export function Progress() {
         )}
       </section>
     </div>
+  );
+}
+
+function PlacementCard({ placement }: { placement?: PlacementResult }) {
+  return (
+    <section className="card space-y-2" aria-labelledby="placement-title">
+      <h2 id="placement-title" className="font-semibold">
+        Placement test
+      </h2>
+      {placement ? (
+        <>
+          <p className="text-sm">
+            Placed at <span className="font-semibold">{placement.level}, unit {placement.unit}</span> on{' '}
+            {new Date(placement.at).toLocaleDateString('en', { day: 'numeric', month: 'short', year: 'numeric' })}
+            {placement.stoppedEarly ? ' (ended early)' : ''}.
+          </p>
+          {placement.perLevel.length > 0 && (
+            <ul className="flex flex-wrap gap-2 text-sm" aria-label="Placement score per level">
+              {placement.perLevel.map((l) => (
+                <li key={l.level} className="chip bg-surface">
+                  <span className="font-semibold">{l.level}</span>&nbsp;{Math.round(l.score * 100)}%
+                </li>
+              ))}
+            </ul>
+          )}
+          <Link to="/placement" className="text-sm text-accent hover:underline">
+            Take the test again
+          </Link>
+        </>
+      ) : (
+        <p className="text-sm text-muted">
+          You haven't taken it.{' '}
+          <Link to="/placement" className="text-accent underline">
+            Take the placement test
+          </Link>{' '}
+          to find the right starting unit.
+        </p>
+      )}
+    </section>
   );
 }
 

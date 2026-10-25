@@ -1,7 +1,7 @@
-import { useState } from 'react';
+import { useState, type ReactNode } from 'react';
 import { Link } from 'react-router-dom';
 import { useLiveQuery } from 'dexie-react-hooks';
-import type { CompiledUnit, Exercise, LevelPack } from '@doppelpunkt/content-schema';
+import type { CompiledUnit, Exercise, GrammarPoint, LevelPack } from '@doppelpunkt/content-schema';
 import { unitProgress } from '@doppelpunkt/engine';
 import { GermanText } from '../../components/GermanText';
 import { Markdown } from '../../components/Markdown';
@@ -100,50 +100,64 @@ export function GrammatikStep({ unit }: { unit: CompiledUnit }) {
   return (
     <div className="space-y-4">
       {unit.grammar.map((g) => (
-        <section key={g.id} className="card space-y-3" aria-labelledby={`g-${g.id}`}>
-          <h2 id={`g-${g.id}`} className="text-lg font-semibold">
-            {g.title}
-          </h2>
-          <Markdown text={g.body} className="text-sm leading-relaxed" />
-          {g.tables.map((t, ti) => (
-            <div key={ti} className="overflow-x-auto">
-              <table className="w-full border-collapse text-sm">
-                <thead>
-                  <tr>
-                    {(t[0] ?? []).map((h, i) => (
-                      <th key={i} scope="col" className="border-b border-line px-2 py-1 text-left font-semibold">
-                        {h}
-                      </th>
-                    ))}
-                  </tr>
-                </thead>
-                <tbody lang="de">
-                  {t.slice(1).map((row, ri) => (
-                    <tr key={ri} className="odd:bg-surface-2">
-                      {row.map((c, ci) => (
-                        <td key={ci} className="px-2 py-1">
-                          {c}
-                        </td>
-                      ))}
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
-          ))}
-          {g.commonMistakes.length > 0 && (
-            <div className="rounded-xl bg-bad-soft p-3">
-              <p className="text-sm font-semibold text-bad">Common mistakes</p>
-              <ul className="list-disc pl-5 text-sm">
-                {g.commonMistakes.map((m, i) => (
-                  <li key={i}>{m}</li>
-                ))}
-              </ul>
-            </div>
-          )}
-        </section>
+        <GrammarPointCard key={g.id} point={g} />
       ))}
+      <p className="text-sm">
+        <Link to="/grammar" className="text-accent hover:underline">
+          Grammar reference: every grammar point →
+        </Link>
+      </p>
     </div>
+  );
+}
+
+/** One grammar point: title, Markdown body, tables and common mistakes. Shared with the grammar reference. */
+export function GrammarPointCard({ point: g, headingLevel = 2, children }: { point: GrammarPoint; headingLevel?: 1 | 2; children?: ReactNode }) {
+  const Heading = headingLevel === 1 ? 'h1' : 'h2';
+  return (
+    <section className="card space-y-3" aria-labelledby={`g-${g.id}`}>
+      <Heading id={`g-${g.id}`} className={headingLevel === 1 ? 'text-2xl font-bold' : 'text-lg font-semibold'}>
+        {g.title}
+      </Heading>
+      <Markdown text={g.body} className="text-sm leading-relaxed" />
+      {g.tables.map((t, ti) => (
+        <div key={ti} className="overflow-x-auto">
+          <table className="w-full border-collapse text-sm">
+            <thead>
+              <tr>
+                {(t[0] ?? []).map((h, i) => (
+                  <th key={i} scope="col" className="border-b border-line px-2 py-1 text-left font-semibold">
+                    {h}
+                  </th>
+                ))}
+              </tr>
+            </thead>
+            <tbody lang="de">
+              {t.slice(1).map((row, ri) => (
+                <tr key={ri} className="odd:bg-surface-2">
+                  {row.map((c, ci) => (
+                    <td key={ci} className="px-2 py-1">
+                      {c}
+                    </td>
+                  ))}
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      ))}
+      {g.commonMistakes.length > 0 && (
+        <div className="rounded-xl bg-bad-soft p-3">
+          <p className="text-sm font-semibold text-bad">Common mistakes</p>
+          <ul className="list-disc pl-5 text-sm">
+            {g.commonMistakes.map((m, i) => (
+              <li key={i}>{m}</li>
+            ))}
+          </ul>
+        </div>
+      )}
+      {children}
+    </section>
   );
 }
 
@@ -170,14 +184,63 @@ export function UebungenStep({ unit }: { unit: CompiledUnit }) {
   return <ExerciseRunner unit={unit} exercises={unit.exercises.filter((e) => !isSwiss(e))} label="Exercises" />;
 }
 
-export function SchwiizStep({ unit, dialect }: { unit: CompiledUnit; dialect: Dialect }) {
+const DIALECT_NAME: Record<Dialect, string> = { 'gsw-zh': 'Zurich German', 'gsw-be': 'Bernese German' };
+const otherDialect = (d: Dialect): Dialect => (d === 'gsw-zh' ? 'gsw-be' : 'gsw-zh');
+
+/**
+ * The learner's dialect for this unit's Swiss lane. Dialogue lines and exercises in the home dialect
+ * come first; when the unit has none, the lane falls back to the other dialect (Zurich for Bern).
+ */
+export function swissLane(unit: CompiledUnit, dialect: Dialect) {
+  const other = otherDialect(dialect);
+  const lines = unit.swiss.dialogue;
+  const hasHomeLines = lines.some((l) => l.variety === dialect);
+  const hasOtherLines = lines.some((l) => l.variety === other);
+  // Lines in neither dialect (narration, Swiss Standard German) always stay.
+  const dialogueDialect: Dialect = hasHomeLines || !hasOtherLines ? dialect : other;
+  const dialogue = lines.filter((l) => l.variety !== otherDialect(dialogueDialect));
+  const otherDialogue = hasHomeLines && hasOtherLines ? lines.filter((l) => l.variety !== dialect) : [];
   const swiss = unit.exercises.filter(isSwiss);
-  // Home dialect first; the other dialect stays available.
-  const ordered = [...swiss.filter((e) => e.variety === dialect), ...swiss.filter((e) => e.variety !== dialect)];
+  const home = swiss.filter((e) => e.variety === dialect);
+  const exercises = [...home, ...swiss.filter((e) => e.variety !== dialect)];
+  return {
+    dialogue,
+    otherDialogue,
+    exercises,
+    dialogueFallback: dialogueDialect !== dialect,
+    exerciseFallback: swiss.length > 0 && home.length === 0,
+  };
+}
+
+export function SchwiizStep({ unit, dialect }: { unit: CompiledUnit; dialect: Dialect }) {
+  const lane = swissLane(unit, dialect);
+  const [showOther, setShowOther] = useState(false);
+  const other = otherDialect(dialect);
+  const fallbackNote =
+    lane.dialogueFallback && lane.exerciseFallback
+      ? `This unit isn't written in ${DIALECT_NAME[dialect]} yet, so the Swiss lane uses ${DIALECT_NAME[other]}.`
+      : lane.dialogueFallback
+        ? `The dialogue isn't written in ${DIALECT_NAME[dialect]} yet; here it is in ${DIALECT_NAME[other]}.`
+        : lane.exerciseFallback
+          ? `No ${DIALECT_NAME[dialect]} exercises in this unit yet; these are in ${DIALECT_NAME[other]}.`
+          : undefined;
   return (
     <div className="space-y-5">
       <p className="text-muted">{unit.swiss.scene}</p>
-      <Dialogue unit={unit} lines={unit.swiss.dialogue} />
+      {fallbackNote && (
+        <p role="note" className="rounded-xl border border-swiss/30 bg-swiss-soft px-3 py-2 text-sm text-swiss-strong">
+          {fallbackNote} The differences are small, and you'll understand both.
+        </p>
+      )}
+      <Dialogue unit={unit} lines={lane.dialogue} />
+      {lane.otherDialogue.length > 0 && (
+        <div>
+          <button type="button" className="btn-ghost px-0 text-sm" aria-expanded={showOther} onClick={() => setShowOther(!showOther)}>
+            {showOther ? `Hide the ${DIALECT_NAME[other]} version` : `Show the ${DIALECT_NAME[other]} version`}
+          </button>
+          {showOther && <Dialogue unit={unit} lines={lane.otherDialogue} />}
+        </div>
+      )}
       <section className="card border-swiss/30" aria-labelledby="swiss-notes">
         <h2 id="swiss-notes" className="mb-2 font-semibold text-swiss-strong">
           Good to know in Switzerland
@@ -190,7 +253,7 @@ export function SchwiizStep({ unit, dialect }: { unit: CompiledUnit; dialect: Di
           ))}
         </ul>
       </section>
-      {ordered.length > 0 && <ExerciseRunner unit={unit} exercises={ordered} label="Swiss exercises" />}
+      {lane.exercises.length > 0 && <ExerciseRunner unit={unit} exercises={lane.exercises} label="Swiss exercises" />}
     </div>
   );
 }

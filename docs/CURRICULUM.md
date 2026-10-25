@@ -24,6 +24,9 @@ unit's points in its exercises.
 Grammar spine: present tense, *sein/haben*, verb-second word order, gender and articles, accusative,
 modal verbs, separable verbs, *nicht/kein*.
 
+Bernese at A1: each unit has 2–4 **recognition** items (`variety: gsw-be`) and a few Bernese lines in the
+Swiss-lane dialogue, usually Sandra (from Bern) talking to her family. Learners only listen and decode.
+
 ### A1.1 Grüezi und Hallo! – *Hello and hi!* ✅ written
 - **Goal:** greet people, introduce yourself, say where you come from and live, and ask the same.
 - **Grammar:** *sein* + personal pronouns; regular present tense (*wohnen, kommen, heißen*); *du* vs *Sie*; W-questions and verb second; yes/no questions with the verb first.
@@ -42,19 +45,19 @@ modal verbs, separable verbs, *nicht/kein*.
 - **Vocabulary:** family members, marital status, pets, adjectives *alt, klein, groß, süß*.
 - **Swiss lane:** *ich ha, du häsch, er hät, mir händ*; *min/mini/mis*; Muetter, Brueder, Schwöschter, Gschwüschterti, Chind; Götti / Gotte; *herzig*; plural verbs in *-ed*.
 
-### A1.4 Mein Tag – *My day*
+### A1.4 Mein Tag – *My day* ✅ written
 - **Goal:** describe your daily routine, tell the time, and say when you do things.
 - **Grammar:** stem-changing verbs (*fahren, schlafen, essen, lesen, sehen*); separable verbs I (*aufstehen, anfangen, einkaufen*); time prepositions *um, am, von ... bis*; inversion after time expressions (*Um sieben stehe ich auf*).
 - **Vocabulary:** daily routine, clock times, days of the week, parts of the day, meals.
 - **Swiss lane:** clock times (*halbi drü* = halb drei, *Viertel ab / Viertel vor*); Zmorge, Zmittag, Znacht, Znüni, Zvieri; *ich stah uf*; *am Morge, am Abig*.
 
-### A1.5 Einkaufen – *Grocery shopping*
+### A1.5 Einkaufen – *Grocery shopping* ✅ written
 - **Goal:** buy food, ask for quantities and prices, and say what you don't want.
 - **Grammar:** negation with *nicht* vs *kein*; definite accusative (*den*); *ja / nein / doch*; quantities (*ein Kilo, eine Flasche, 200 Gramm*).
 - **Vocabulary:** groceries, fruit and vegetables, packaging, weights, the supermarket.
 - **Swiss lane:** *poschte*, Migros/Coop culture, Härdöpfel, Rüebli, Peperoni, Rahm; *nöd* and *kei*; *moll* (= doch); *Säckli*; paying with Twint.
 
-### A1.6 Wohnen in der Schweiz – *Living in Switzerland*
+### A1.6 Wohnen in der Schweiz – *Living in Switzerland* ✅ written
 - **Goal:** describe your flat and your neighbourhood, and understand a simple flat ad.
 - **Grammar:** *es gibt* + accusative; predicative adjectives; definite articles in the accusative; location as fixed chunks (*in der Küche, im Wohnzimmer*).
 - **Vocabulary:** rooms, furniture, household appliances, the building, rent (Miete, Nebenkosten).

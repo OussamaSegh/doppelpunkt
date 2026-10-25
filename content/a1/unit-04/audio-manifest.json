@@ -1,0 +1,3106 @@
+{
+  "unitId": "a1-u04",
+  "level": "A1",
+  "folder": "a1/unit-04",
+  "title": "Mein Tag",
+  "delivery": {
+    "raw": "WAV or FLAC, 48 kHz, 24-bit, mono, one file per entry, named <file base>.wav",
+    "processed": [
+      "mp3 64 kbps mono 44.1 kHz",
+      "opus 32 kbps mono 48 kHz",
+      "EBU R128 -16 LUFS, true peak -1.5 dBTP"
+    ]
+  },
+  "entries": [
+    {
+      "file": "dialog-intro-01.mp3",
+      "kind": "dialogue-intro",
+      "text": "Hallo Tom! Wie spät ist es?",
+      "en": "Hi Tom! What time is it?",
+      "variety": "de",
+      "voice": "de-f",
+      "speaker": "Anna",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          0,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-01.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-02.mp3",
+      "kind": "dialogue-intro",
+      "text": "Es ist Viertel nach acht. Der Kurs fängt um halb neun an.",
+      "en": "It's quarter past eight. The course starts at half past eight.",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          1,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-02.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-03.mp3",
+      "kind": "dialogue-intro",
+      "text": "Gut. Wann stehst du am Morgen auf?",
+      "en": "Good. When do you get up in the morning?",
+      "variety": "de",
+      "voice": "de-f",
+      "speaker": "Anna",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          2,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-03.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-04.mp3",
+      "kind": "dialogue-intro",
+      "text": "Ich stehe um sechs Uhr auf. Dann frühstücke ich und lese die Zeitung.",
+      "en": "I get up at six o'clock. Then I have breakfast and read the newspaper.",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          3,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-04.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-05.mp3",
+      "kind": "dialogue-intro",
+      "text": "Um sechs? Das ist früh! Ich schlafe bis halb acht.",
+      "en": "At six? That's early! I sleep until half past seven.",
+      "variety": "de",
+      "voice": "de-f",
+      "speaker": "Anna",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          4,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-05.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-06.mp3",
+      "kind": "dialogue-intro",
+      "text": "Du schläfst lang! Was machst du am Nachmittag?",
+      "en": "You sleep a long time! What do you do in the afternoon?",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          5,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-06.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-07.mp3",
+      "kind": "dialogue-intro",
+      "text": "Von zwei bis sechs arbeite ich im Café. Am Abend kaufe ich ein und koche.",
+      "en": "From two to six I work in the café. In the evening I go shopping and cook.",
+      "variety": "de",
+      "voice": "de-f",
+      "speaker": "Anna",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          6,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-07.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-08.mp3",
+      "kind": "dialogue-intro",
+      "text": "Und am Wochenende?",
+      "en": "And at the weekend?",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          7,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-08.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-09.mp3",
+      "kind": "dialogue-intro",
+      "text": "Am Samstag schlafe ich lang, und am Sonntag sehe ich fern. Und du?",
+      "en": "On Saturday I sleep in, and on Sunday I watch TV. And you?",
+      "variety": "de",
+      "voice": "de-f",
+      "speaker": "Anna",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          8,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-09.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-10.mp3",
+      "kind": "dialogue-intro",
+      "text": "Am Sonntag fahre ich oft nach Luzern. Und am Abend lese ich.",
+      "en": "On Sunday I often go to Lucerne. And in the evening I read.",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          9,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-10.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-11.mp3",
+      "kind": "dialogue-intro",
+      "text": "Oh, es ist schon fünf vor halb neun! Komm, der Kurs fängt an!",
+      "en": "Oh, it's already twenty-five past eight! Come on, the course is starting!",
+      "variety": "de",
+      "voice": "de-f",
+      "speaker": "Anna",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          10,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-11.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-01.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Guete Morge, Sandra! Scho wach?",
+      "en": "Good morning, Sandra! Awake already?",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          0,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-01.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-02.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Morge! Ja, ich stah under de Wuche am sächsi uf.",
+      "en": "Morning! Yes, during the week I get up at six.",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          1,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-02.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-03.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Am sächsi? Ich schlaf normalerwiis bis am halbi achti!",
+      "en": "At six? I normally sleep until half past seven!",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          2,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-03.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-04.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Und wänn fangt dini Arbet aa?",
+      "en": "And when does your work start?",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          3,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-04.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-05.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Am nüüni. Am Morge nimm ich nur en Kafi, und am zäni gits es Znüni.",
+      "en": "At nine. In the morning I just have a coffee, and at ten there's a mid-morning snack.",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          4,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-05.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-06.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Ich bruuch am Morge en guete Zmorge. Wämmer hüt am Abig zäme znacht ässe?",
+      "en": "I need a proper breakfast in the morning. Shall we have dinner together this evening?",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          5,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-06.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-07.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Gärn! Aber ich schaffe bis am sächsi. Am Viertel ab sibni?",
+      "en": "Gladly! But I work until six. At quarter past seven?",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          6,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-07.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-08.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Guet, am Viertel ab sibni. Bis am Abig!",
+      "en": "Fine, at quarter past seven. See you this evening!",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          7,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-08.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-09.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Hoi Mami! Am Samschti bin i z Bärn.",
+      "en": "Hi Mum! On Saturday I'll be in Bern.",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          8,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-09.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-10.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Schön! Chunsch zum Zmorge?",
+      "en": "Lovely! Are you coming for breakfast?",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "speaker": "Mami",
+      "voiceGuessed": true,
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          9,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-10.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-11.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Ja, gärn! Tschou Mami!",
+      "en": "Yes, I'd love to! Bye, Mum!",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          10,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-11.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-aufstehen.mp3",
+      "kind": "vocab",
+      "text": "aufstehen",
+      "en": "to get up",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "aufstehen",
+        "pointer": [
+          0,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-aufstehen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-aufstehen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich stehe um sechs Uhr auf.",
+      "en": "I get up at six o'clock.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "aufstehen",
+        "pointer": [
+          0,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-aufstehen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-aufstehen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "ufstah",
+      "note": "ich stah uf / ich stand uf, du staasch uf, er staat uf, mir stönd uf",
+      "en": "to get up",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "aufstehen",
+        "pointer": [
+          0,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-aufstehen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-aufstehen-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "ufstah / ufsta",
+      "note": "participle ufgstange",
+      "en": "to get up",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "aufstehen",
+        "pointer": [
+          0,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-aufstehen-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-fruehstuecken.mp3",
+      "kind": "vocab",
+      "text": "frühstücken",
+      "en": "to have breakfast",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "fruehstuecken",
+        "pointer": [
+          1,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-fruehstuecken.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-fruehstuecken-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich frühstücke um sieben.",
+      "en": "I have breakfast at seven.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "fruehstuecken",
+        "pointer": [
+          1,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-fruehstuecken-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-fruehstuecken-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "zmorge ässe / zmörgele",
+      "en": "to have breakfast",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "fruehstuecken",
+        "pointer": [
+          1,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-fruehstuecken-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-anfangen.mp3",
+      "kind": "vocab",
+      "text": "anfangen",
+      "en": "to start, to begin",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "anfangen",
+        "pointer": [
+          2,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-anfangen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-anfangen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Der Kurs fängt um halb neun an.",
+      "en": "The course starts at half past eight.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "anfangen",
+        "pointer": [
+          2,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-anfangen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-anfangen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "aafange",
+      "note": "es fangt aa – no umlaut",
+      "en": "to start, to begin",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "anfangen",
+        "pointer": [
+          2,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-anfangen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-einkaufen.mp3",
+      "kind": "vocab",
+      "text": "einkaufen",
+      "en": "to go shopping, to shop",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "einkaufen",
+        "pointer": [
+          3,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-einkaufen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-einkaufen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Am Samstag kaufe ich ein.",
+      "en": "On Saturday I go shopping.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "einkaufen",
+        "pointer": [
+          3,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-einkaufen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-einkaufen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "poschte / iichaufe",
+      "en": "to go shopping, to shop",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "einkaufen",
+        "pointer": [
+          3,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-einkaufen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-einkaufen-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "ychoufe / poschte",
+      "en": "to go shopping, to shop",
+      "variety": "gsw-be",
+      "voice": "be-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "einkaufen",
+        "pointer": [
+          3,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-einkaufen-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-fernsehen.mp3",
+      "kind": "vocab",
+      "text": "fernsehen",
+      "en": "to watch TV",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "fernsehen",
+        "pointer": [
+          4,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-fernsehen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-fernsehen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Am Abend sieht Anna fern.",
+      "en": "In the evening Anna watches TV.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "fernsehen",
+        "pointer": [
+          4,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-fernsehen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-fernsehen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "TV luege / färnseh luege",
+      "en": "to watch TV",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "fernsehen",
+        "pointer": [
+          4,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-fernsehen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-arbeiten.mp3",
+      "kind": "vocab",
+      "text": "arbeiten",
+      "en": "to work",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "arbeiten",
+        "pointer": [
+          5,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-arbeiten.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-arbeiten-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Von neun bis fünf arbeite ich.",
+      "en": "I work from nine to five.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "arbeiten",
+        "pointer": [
+          5,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-arbeiten-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-arbeiten-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "schaffe",
+      "note": "ich schaff, du schaffsch, er schafft",
+      "en": "to work",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "arbeiten",
+        "pointer": [
+          5,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-arbeiten-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-schlafen.mp3",
+      "kind": "vocab",
+      "text": "schlafen",
+      "en": "to sleep",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "schlafen",
+        "pointer": [
+          6,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-schlafen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-schlafen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Am Sonntag schläft Tom lang.",
+      "en": "On Sunday Tom sleeps in.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "schlafen",
+        "pointer": [
+          6,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-schlafen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-schlafen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "schlafe",
+      "note": "er schlaft – no umlaut",
+      "en": "to sleep",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "schlafen",
+        "pointer": [
+          6,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-schlafen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-fahren.mp3",
+      "kind": "vocab",
+      "text": "fahren",
+      "en": "to go (by vehicle), to drive, to ride",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "fahren",
+        "pointer": [
+          7,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-fahren.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-fahren-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Fährst du am Wochenende nach Bern?",
+      "en": "Are you going to Bern at the weekend?",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "fahren",
+        "pointer": [
+          7,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-fahren-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-fahren-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "fahre",
+      "note": "er fahrt – no umlaut",
+      "en": "to go (by vehicle), to drive, to ride",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "fahren",
+        "pointer": [
+          7,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-fahren-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-essen.mp3",
+      "kind": "vocab",
+      "text": "essen",
+      "en": "to eat",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "essen",
+        "pointer": [
+          8,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-essen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-essen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Was isst du zum Frühstück?",
+      "en": "What do you have for breakfast?",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "essen",
+        "pointer": [
+          8,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-essen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-essen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "ässe",
+      "note": "ich iss, du issisch, er isst, mir ässed",
+      "en": "to eat",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "essen",
+        "pointer": [
+          8,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-essen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-lesen.mp3",
+      "kind": "vocab",
+      "text": "lesen",
+      "en": "to read",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "lesen",
+        "pointer": [
+          9,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-lesen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-lesen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Tom liest am Morgen die Zeitung.",
+      "en": "Tom reads the newspaper in the morning.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "lesen",
+        "pointer": [
+          9,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-lesen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-lesen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "läse",
+      "note": "ich lise, du lisisch, er list, mir läsed",
+      "en": "to read",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "lesen",
+        "pointer": [
+          9,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-lesen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sehen.mp3",
+      "kind": "vocab",
+      "text": "sehen",
+      "en": "to see",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sehen",
+        "pointer": [
+          10,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-sehen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sehen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Siehst du die Uhr?",
+      "en": "Can you see the clock?",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sehen",
+        "pointer": [
+          10,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-sehen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sehen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "gseh / gsee",
+      "note": "ich gseh, du gsehsch, er gseht, mir gsehnd",
+      "en": "to see",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sehen",
+        "pointer": [
+          10,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-sehen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gehen.mp3",
+      "kind": "vocab",
+      "text": "gehen",
+      "en": "to go (on foot), to walk",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gehen",
+        "pointer": [
+          11,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-gehen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gehen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Um halb zehn gehe ich schlafen.",
+      "en": "At half past nine I go to bed.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gehen",
+        "pointer": [
+          11,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-gehen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gehen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "gaa / gah",
+      "note": "ich gang, du gaasch, er gaat, mir gönd",
+      "en": "to go (on foot), to walk",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gehen",
+        "pointer": [
+          11,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-gehen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gehen-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "ga",
+      "note": "i gange, du geisch, är geit, mir göh",
+      "en": "to go (on foot), to walk",
+      "variety": "gsw-be",
+      "voice": "be-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gehen",
+        "pointer": [
+          11,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-gehen-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kochen.mp3",
+      "kind": "vocab",
+      "text": "kochen",
+      "en": "to cook",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kochen",
+        "pointer": [
+          12,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-kochen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kochen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Am Abend kocht Anna.",
+      "en": "In the evening Anna cooks.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kochen",
+        "pointer": [
+          12,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-kochen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kochen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "choche",
+      "en": "to cook",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kochen",
+        "pointer": [
+          12,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-kochen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-uhr.mp3",
+      "kind": "vocab",
+      "text": "Uhr",
+      "en": "clock, watch; o'clock",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "uhr",
+        "pointer": [
+          13,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-uhr.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-uhr-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Es ist acht Uhr.",
+      "en": "It's eight o'clock.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "uhr",
+        "pointer": [
+          13,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-uhr-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-uhr-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Uhr",
+      "note": "Wie spaat isch es? / Wievill Uhr isch es?",
+      "en": "clock, watch; o'clock",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "uhr",
+        "pointer": [
+          13,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-uhr-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-stunde.mp3",
+      "kind": "vocab",
+      "text": "Stunde",
+      "en": "hour",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "stunde",
+        "pointer": [
+          14,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-stunde.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-stunde-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Jonas schläft zwei Stunden.",
+      "en": "Jonas sleeps for two hours.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "stunde",
+        "pointer": [
+          14,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-stunde-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-stunde-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Stund",
+      "note": "plural Stunde",
+      "en": "hour",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "stunde",
+        "pointer": [
+          14,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-stunde-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-viertel.mp3",
+      "kind": "vocab",
+      "text": "Viertel",
+      "en": "quarter",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "viertel",
+        "pointer": [
+          15,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-viertel.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-viertel-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Es ist Viertel nach acht.",
+      "en": "It's quarter past eight.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "viertel",
+        "pointer": [
+          15,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-viertel-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-viertel-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Viertel",
+      "note": "Viertel ab = Viertel nach",
+      "en": "quarter",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "viertel",
+        "pointer": [
+          15,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-viertel-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-viertel-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "Viertel / Viertu",
+      "en": "quarter",
+      "variety": "gsw-be",
+      "voice": "be-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "viertel",
+        "pointer": [
+          15,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-viertel-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-halb.mp3",
+      "kind": "vocab",
+      "text": "halb",
+      "en": "half; (with clock times) half past the previous hour",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "halb",
+        "pointer": [
+          16,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-halb.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-halb-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Es ist halb neun.",
+      "en": "It's half past eight.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "halb",
+        "pointer": [
+          16,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-halb-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-halb-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "halb / halbi",
+      "note": "halbi nüüni = 8.30",
+      "en": "half; (with clock times) half past the previous hour",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "halb",
+        "pointer": [
+          16,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-halb-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-halb-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "haub",
+      "en": "half; (with clock times) half past the previous hour",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "halb",
+        "pointer": [
+          16,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-halb-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-spaet.mp3",
+      "kind": "vocab",
+      "text": "spät",
+      "en": "late",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "spaet",
+        "pointer": [
+          17,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-spaet.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-spaet-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Wie spät ist es?",
+      "en": "What time is it?",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "spaet",
+        "pointer": [
+          17,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-spaet-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-spaet-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "spaat",
+      "en": "late",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "spaet",
+        "pointer": [
+          17,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-spaet-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-frueh.mp3",
+      "kind": "vocab",
+      "text": "früh",
+      "en": "early",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "frueh",
+        "pointer": [
+          18,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-frueh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-frueh-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Um sechs? Das ist früh!",
+      "en": "At six? That's early!",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "frueh",
+        "pointer": [
+          18,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-frueh-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-frueh-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "früe / früeh",
+      "en": "early",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "frueh",
+        "pointer": [
+          18,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-frueh-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-frueh-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "früech",
+      "en": "early",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "frueh",
+        "pointer": [
+          18,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-frueh-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-heute.mp3",
+      "kind": "vocab",
+      "text": "heute",
+      "en": "today",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "heute",
+        "pointer": [
+          19,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-heute.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-heute-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Heute arbeite ich von zwei bis sechs.",
+      "en": "Today I work from two to six.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "heute",
+        "pointer": [
+          19,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-heute-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-heute-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "hüt",
+      "note": "hüt am Abig = heute Abend",
+      "en": "today",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "heute",
+        "pointer": [
+          19,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-heute-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-dann.mp3",
+      "kind": "vocab",
+      "text": "dann",
+      "en": "then",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "dann",
+        "pointer": [
+          20,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-dann.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-dann-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich stehe auf, dann frühstücke ich.",
+      "en": "I get up, then I have breakfast.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "dann",
+        "pointer": [
+          20,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-dann-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-dann-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "dänn",
+      "en": "then",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "dann",
+        "pointer": [
+          20,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-dann-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-dann-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "de",
+      "en": "then",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "dann",
+        "pointer": [
+          20,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-dann-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-morgen-tageszeit.mp3",
+      "kind": "vocab",
+      "text": "Morgen",
+      "en": "morning",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "morgen-tageszeit",
+        "pointer": [
+          21,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-morgen-tageszeit.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-morgen-tageszeit-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Am Morgen trinke ich einen Kaffee.",
+      "en": "In the morning I drink a coffee.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "morgen-tageszeit",
+        "pointer": [
+          21,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-morgen-tageszeit-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-morgen-tageszeit-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Morge",
+      "note": "am Morge",
+      "en": "morning",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "morgen-tageszeit",
+        "pointer": [
+          21,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-morgen-tageszeit-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-vormittag.mp3",
+      "kind": "vocab",
+      "text": "Vormittag",
+      "en": "(late) morning, before noon",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "vormittag",
+        "pointer": [
+          22,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-vormittag.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-vormittag-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Am Vormittag lerne ich Deutsch.",
+      "en": "In the morning I study German.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "vormittag",
+        "pointer": [
+          22,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-vormittag-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-vormittag-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Vormittag",
+      "en": "(late) morning, before noon",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "vormittag",
+        "pointer": [
+          22,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-vormittag-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-nachmittag.mp3",
+      "kind": "vocab",
+      "text": "Nachmittag",
+      "en": "afternoon",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "nachmittag",
+        "pointer": [
+          23,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-nachmittag.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-nachmittag-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Am Nachmittag arbeitet Anna im Café.",
+      "en": "In the afternoon Anna works in the café.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "nachmittag",
+        "pointer": [
+          23,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-nachmittag-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-nachmittag-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Namittag",
+      "en": "afternoon",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "nachmittag",
+        "pointer": [
+          23,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-nachmittag-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-abend.mp3",
+      "kind": "vocab",
+      "text": "Abend",
+      "en": "evening",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "abend",
+        "pointer": [
+          24,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-abend.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-abend-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Am Abend sehe ich fern.",
+      "en": "In the evening I watch TV.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "abend",
+        "pointer": [
+          24,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-abend-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-abend-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Abig",
+      "note": "am Abig",
+      "en": "evening",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "abend",
+        "pointer": [
+          24,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-abend-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-abend-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "Abe / Aabe",
+      "en": "evening",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "abend",
+        "pointer": [
+          24,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-abend-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-nacht.mp3",
+      "kind": "vocab",
+      "text": "Nacht",
+      "en": "night",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "nacht",
+        "pointer": [
+          25,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-nacht.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-nacht-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Jonas arbeitet in der Nacht.",
+      "en": "Jonas works at night.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "nacht",
+        "pointer": [
+          25,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-nacht-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-nacht-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Nacht",
+      "note": "znacht = at night",
+      "en": "night",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "nacht",
+        "pointer": [
+          25,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-nacht-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-tag.mp3",
+      "kind": "vocab",
+      "text": "Tag",
+      "en": "day",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "tag",
+        "pointer": [
+          26,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-tag.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-tag-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Mein Tag fängt früh an.",
+      "en": "My day starts early.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "tag",
+        "pointer": [
+          26,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-tag-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-tag-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Tag",
+      "en": "day",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "tag",
+        "pointer": [
+          26,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-tag-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-woche.mp3",
+      "kind": "vocab",
+      "text": "Woche",
+      "en": "week",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "woche",
+        "pointer": [
+          27,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-woche.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-woche-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Die Woche hat sieben Tage.",
+      "en": "The week has seven days.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "woche",
+        "pointer": [
+          27,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-woche-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-woche-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Wuche",
+      "note": "under de Wuche = during the week",
+      "en": "week",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "woche",
+        "pointer": [
+          27,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-woche-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wochenende.mp3",
+      "kind": "vocab",
+      "text": "Wochenende",
+      "en": "weekend",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wochenende",
+        "pointer": [
+          28,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-wochenende.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wochenende-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Am Wochenende schlafe ich lang.",
+      "en": "At the weekend I sleep in.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wochenende",
+        "pointer": [
+          28,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-wochenende-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wochenende-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Wuchenänd",
+      "en": "weekend",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wochenende",
+        "pointer": [
+          28,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-wochenende-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-montag.mp3",
+      "kind": "vocab",
+      "text": "Montag",
+      "en": "Monday",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "montag",
+        "pointer": [
+          29,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-montag.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-montag-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Am Montag fängt der Kurs an.",
+      "en": "The course starts on Monday.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "montag",
+        "pointer": [
+          29,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-montag-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-montag-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Mäntig",
+      "en": "Monday",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "montag",
+        "pointer": [
+          29,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-montag-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-montag-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "Mänti / Määndi",
+      "en": "Monday",
+      "variety": "gsw-be",
+      "voice": "be-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "montag",
+        "pointer": [
+          29,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-montag-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-dienstag.mp3",
+      "kind": "vocab",
+      "text": "Dienstag",
+      "en": "Tuesday",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "dienstag",
+        "pointer": [
+          30,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-dienstag.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-dienstag-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Am Dienstag arbeite ich bis sechs.",
+      "en": "On Tuesday I work until six.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "dienstag",
+        "pointer": [
+          30,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-dienstag-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-dienstag-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Ziischtig",
+      "en": "Tuesday",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "dienstag",
+        "pointer": [
+          30,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-dienstag-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-dienstag-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "Zyschtig / Zyschti",
+      "en": "Tuesday",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "dienstag",
+        "pointer": [
+          30,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-dienstag-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-mittwoch.mp3",
+      "kind": "vocab",
+      "text": "Mittwoch",
+      "en": "Wednesday",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "mittwoch",
+        "pointer": [
+          31,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-mittwoch.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-mittwoch-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Am Mittwoch kaufe ich ein.",
+      "en": "On Wednesday I go shopping.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "mittwoch",
+        "pointer": [
+          31,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-mittwoch-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-mittwoch-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Mittwuch",
+      "en": "Wednesday",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "mittwoch",
+        "pointer": [
+          31,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-mittwoch-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-mittwoch-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "Mittwuch",
+      "en": "Wednesday",
+      "variety": "gsw-be",
+      "voice": "be-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "mittwoch",
+        "pointer": [
+          31,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-mittwoch-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-donnerstag.mp3",
+      "kind": "vocab",
+      "text": "Donnerstag",
+      "en": "Thursday",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "donnerstag",
+        "pointer": [
+          32,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-donnerstag.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-donnerstag-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Am Donnerstag kocht Tom.",
+      "en": "On Thursday Tom cooks.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "donnerstag",
+        "pointer": [
+          32,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-donnerstag-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-donnerstag-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Donschtig",
+      "en": "Thursday",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "donnerstag",
+        "pointer": [
+          32,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-donnerstag-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-donnerstag-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "Donschtig / Donschti",
+      "en": "Thursday",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "donnerstag",
+        "pointer": [
+          32,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-donnerstag-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-freitag.mp3",
+      "kind": "vocab",
+      "text": "Freitag",
+      "en": "Friday",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "freitag",
+        "pointer": [
+          33,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-freitag.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-freitag-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Am Freitag fahre ich nach Basel.",
+      "en": "On Friday I'm going to Basel.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "freitag",
+        "pointer": [
+          33,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-freitag-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-freitag-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Friitig",
+      "en": "Friday",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "freitag",
+        "pointer": [
+          33,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-freitag-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-freitag-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "Frytig / Fryti",
+      "en": "Friday",
+      "variety": "gsw-be",
+      "voice": "be-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "freitag",
+        "pointer": [
+          33,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-freitag-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-samstag.mp3",
+      "kind": "vocab",
+      "text": "Samstag",
+      "en": "Saturday",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "samstag",
+        "pointer": [
+          34,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-samstag.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-samstag-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Am Samstag schläft Anna bis zehn.",
+      "en": "On Saturday Anna sleeps until ten.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "samstag",
+        "pointer": [
+          34,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-samstag-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-samstag-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Samschtig",
+      "en": "Saturday",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "samstag",
+        "pointer": [
+          34,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-samstag-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-samstag-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "Samschtig / Samschti",
+      "en": "Saturday",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "samstag",
+        "pointer": [
+          34,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-samstag-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sonntag.mp3",
+      "kind": "vocab",
+      "text": "Sonntag",
+      "en": "Sunday",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sonntag",
+        "pointer": [
+          35,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-sonntag.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sonntag-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Am Sonntag liest Tom.",
+      "en": "On Sunday Tom reads.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sonntag",
+        "pointer": [
+          35,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-sonntag-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sonntag-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Sunntig",
+      "en": "Sunday",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sonntag",
+        "pointer": [
+          35,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-sonntag-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sonntag-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "Sunntig / Sunnti",
+      "en": "Sunday",
+      "variety": "gsw-be",
+      "voice": "be-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sonntag",
+        "pointer": [
+          35,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-sonntag-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-mittagessen.mp3",
+      "kind": "vocab",
+      "text": "Mittagessen",
+      "en": "lunch",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "mittagessen",
+        "pointer": [
+          36,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-mittagessen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-mittagessen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Das Mittagessen ist um zwölf.",
+      "en": "Lunch is at twelve.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "mittagessen",
+        "pointer": [
+          36,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-mittagessen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-mittagessen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Zmittag",
+      "note": "de Zmittag",
+      "en": "lunch",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "mittagessen",
+        "pointer": [
+          36,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-mittagessen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-abendessen.mp3",
+      "kind": "vocab",
+      "text": "Abendessen",
+      "en": "dinner, supper",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "abendessen",
+        "pointer": [
+          37,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-abendessen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-abendessen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Das Abendessen kocht Anna.",
+      "en": "Anna cooks dinner.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "abendessen",
+        "pointer": [
+          37,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-abendessen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-abendessen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Znacht",
+      "note": "s Znacht",
+      "en": "dinner, supper",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "abendessen",
+        "pointer": [
+          37,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-abendessen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-abendessen-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "Znacht / Zaabe",
+      "note": "ds Zaabe",
+      "en": "dinner, supper",
+      "variety": "gsw-be",
+      "voice": "be-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "abendessen",
+        "pointer": [
+          37,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-abendessen-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-pause.mp3",
+      "kind": "vocab",
+      "text": "Pause",
+      "en": "break",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "pause",
+        "pointer": [
+          38,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-pause.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-pause-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Um zehn Uhr ist Pause.",
+      "en": "There's a break at ten o'clock.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "pause",
+        "pointer": [
+          38,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-pause-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-pause-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Pause / Znünipause",
+      "en": "break",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "pause",
+        "pointer": [
+          38,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-pause-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-zeitung.mp3",
+      "kind": "vocab",
+      "text": "Zeitung",
+      "en": "newspaper",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "zeitung",
+        "pointer": [
+          39,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-zeitung.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-zeitung-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Tom liest die Zeitung.",
+      "en": "Tom reads the newspaper.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "zeitung",
+        "pointer": [
+          39,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-zeitung-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-zeitung-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Ziitig",
+      "en": "newspaper",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "zeitung",
+        "pointer": [
+          39,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-zeitung-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-u04-mcq-official-time.mp3",
+      "kind": "listening",
+      "text": "Der Zug nach Bern fährt um zwanzig Uhr fünfundvierzig.",
+      "variety": "ch-std",
+      "voice": "zh-f",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a1-u04-mcq-official-time",
+        "pointer": [
+          17,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a1-u04-mcq-official-time.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-u04-dictation-aufstehen.mp3",
+      "kind": "dictation",
+      "text": "Ich stehe um sechs Uhr auf.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a1-u04-dictation-aufstehen",
+        "pointer": [
+          26,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a1-u04-dictation-aufstehen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-u04-dictation-kurs.mp3",
+      "kind": "dictation",
+      "text": "Der Kurs fängt um halb neun an.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a1-u04-dictation-kurs",
+        "pointer": [
+          27,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a1-u04-dictation-kurs.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-u04-dictation-sonntag.mp3",
+      "kind": "dictation",
+      "text": "Am Sonntag sieht Tom fern.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a1-u04-dictation-sonntag",
+        "pointer": [
+          28,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a1-u04-dictation-sonntag.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-u04-speak-routine.mp3",
+      "kind": "speak",
+      "text": "Um sieben Uhr stehe ich auf. Dann frühstücke ich. Um halb neun fängt mein Kurs an.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a1-u04-speak-routine",
+        "pointer": [
+          31,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a1-u04-speak-routine.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-u04-speak-stress.mp3",
+      "kind": "speak",
+      "text": "aufstehen – Ich stehe auf. anfangen – Es fängt an. einkaufen – Ich kaufe ein. fernsehen – Ich sehe fern.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a1-u04-speak-stress",
+        "pointer": [
+          32,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a1-u04-speak-stress.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-u04-ch-mcq-halbi.mp3",
+      "kind": "listening",
+      "text": "Ich schlaf bis am halbi achti.",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a1-u04-ch-mcq-halbi",
+        "pointer": [
+          38,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a1-u04-ch-mcq-halbi.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-u04-ch-be-mcq-zmorge.mp3",
+      "kind": "listening",
+      "text": "Chunsch zum Zmorge?",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a1-u04-ch-be-mcq-zmorge",
+        "pointer": [
+          47,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a1-u04-ch-be-mcq-zmorge.mp3",
+      "referenced": false
+    }
+  ]
+}

@@ -23,13 +23,13 @@
   variety: de
   grammar: [numbers]
   prompt: Which number is "sechzig"?
-  options: ["60", "16", "6", "66"]
-  answer: 0
+  options: ["16", "6", "60", "66"]
+  answer: 2
   rationales:
-    - Correct. -zig = tens, so sechzig = 60.
-    - 16 is sechzehn (-zehn = teen).
-    - 6 is sechs.
-    - 66 is sechsundsechzig.
+    - "16 is sechzehn (-zehn = teen)."
+    - "6 is sechs."
+    - "Correct. -zig = tens, so sechzig = 60."
+    - "66 is sechsundsechzig."
   explanation: >-
     -zehn means -teen (sechzehn = 16), -zig means -ty (sechzig = 60). sechs loses its final s in
     sechzehn and sechzig.
@@ -54,13 +54,13 @@
   skill: vocabulary
   variety: de
   prompt: You want to pay. What do you say to the waiter?
-  options: ["Ich möchte zahlen, bitte.", "Ich möchte zählen, bitte.", "Ich möchte kosten, bitte.", "Ich möchte trinken, bitte."]
-  answer: 0
+  options: ["Ich möchte zählen, bitte.", "Ich möchte zahlen, bitte.", "Ich möchte kosten, bitte.", "Ich möchte trinken, bitte."]
+  answer: 1
   rationales:
-    - Correct. zahlen = to pay.
-    - zählen (with ä) means to count – the waiter will be confused!
-    - kosten means to cost (or to taste); things cost, people don't.
-    - trinken = to drink.
+    - "zählen (with ä) means to count – the waiter will be confused!"
+    - "Correct. zahlen = to pay."
+    - "kosten means to cost (or to taste); things cost, people don't."
+    - "trinken = to drink."
   explanation: >-
     zahlen (pay) and zählen (count) differ only in the umlaut. Other ways to ask for the bill:
     Die Rechnung, bitte! / Wir möchten zahlen. / In Switzerland also: Zahlen, bitte!
@@ -136,8 +136,8 @@
   variety: de
   grammar: [accusative-indefinite]
   prompt: "Why is it \"Ich möchte ein Wasser\" and not \"einen Wasser\"?"
-  options: ["Because Wasser is neuter, and only masculine articles change in the accusative.", "Because water is uncountable.", "Because möchte never takes the accusative.", "Because Wasser starts with W."]
-  answer: 0
+  options: ["Because water is uncountable.", "Because Wasser is neuter, and only masculine articles change in the accusative.", "Because möchte never takes the accusative.", "Because Wasser starts with W."]
+  answer: 1
   explanation: >-
     In the accusative only der/ein (masculine) change, to den/einen. das Wasser is neuter, so ein stays ein.
     Note: in a café, "ein Wasser" naturally means "a (glass/bottle of) water".
@@ -222,13 +222,13 @@
   variety: de
   grammar: [numbers]
   prompt: How do you say 45 in German?
-  options: ["fünfundvierzig", "vierzigfünf", "vierundfünfzig", "fünfvierzig"]
-  answer: 0
+  options: ["vierzigfünf", "vierundfünfzig", "fünfvierzig", "fünfundvierzig"]
+  answer: 3
   rationales:
-    - Correct. 5 + und + 40, written as one word.
-    - English order doesn't work in German.
-    - That's 54 – the order is reversed.
-    - The und is missing.
+    - "English order doesn't work in German."
+    - "That's 54 – the order is reversed."
+    - "The und is missing."
+    - "Correct. 5 + und + 40, written as one word."
   explanation: >-
     Two-digit numbers from 21 to 99: ones + und + tens, one word. 45 = fünf-und-vierzig.
     Write it down in the order you hear it: first 5, then 4 in front of it.
@@ -272,8 +272,8 @@
   variety: de
   grammar: [numbers]
   prompt: Listen to the intro dialogue. How much do Tom and Anna pay?
-  options: ["17.80 Fr.", "70.80 Fr.", "7.80 Fr.", "18.70 Fr."]
-  answer: 0
+  options: ["70.80 Fr.", "7.80 Fr.", "17.80 Fr.", "18.70 Fr."]
+  answer: 2
   explanation: >-
     "Das macht siebzehn Franken achtzig." siebzehn = 17 (-zehn = teen), achtzig = 80 (-zig = tens).
     Don't confuse siebzehn (17) and siebzig (70).
@@ -294,8 +294,8 @@
   skill: listening
   variety: de
   prompt: "The waitress asks: \"Zusammen oder getrennt?\" What does she want to know?"
-  options: ["Whether you pay together or separately", "Whether you sit together or apart", "Whether you want milk or not", "Whether you eat here or take away"]
-  answer: 0
+  options: ["Whether you sit together or apart", "Whether you want milk or not", "Whether you pay together or separately", "Whether you eat here or take away"]
+  answer: 2
   explanation: >-
     When you ask for the bill in a German-speaking café, the waiter often asks if you pay together
     (zusammen) or separately (getrennt). Answer simply: "Zusammen, bitte." or "Getrennt, bitte."
@@ -307,8 +307,8 @@
   variety: de
   grammar: [numbers]
   prompt: "Read \"Im Café Sonne\". How much is an espresso?"
-  options: ["4.20 Fr.", "4.80 Fr.", "4.50 Fr.", "2.20 Fr."]
-  answer: 0
+  options: ["4.80 Fr.", "4.20 Fr.", "4.50 Fr.", "2.20 Fr."]
+  answer: 1
   explanation: >-
     On a Swiss menu, 4.20 Fr. is read "vier Franken zwanzig". 4.80 is the coffee, 4.50 the tea, 2.20 the
     Gipfeli. Swiss prices use a full stop; in Germany and Austria you'd see 4,20 €.
@@ -318,8 +318,8 @@
   skill: reading
   variety: de
   prompt: "According to the text, what is a Gipfeli?"
-  options: ["A croissant", "A bread roll", "A cake", "A coffee"]
-  answer: 0
+  options: ["A bread roll", "A cake", "A coffee", "A croissant"]
+  answer: 3
   explanation: >-
     "Ein Gipfeli ist ein Croissant – so sagt man in der Schweiz." Gipfeli is a Helvetism: Swiss
     Standard German uses it in writing too. The ending -li makes it neuter: das Gipfeli.
@@ -481,8 +481,8 @@
   skill: vocabulary
   variety: ch-std
   prompt: "A Zurich bakery sign reads \"Gipfeli 2.20\". What would a bakery in Germany call it?"
-  options: ["Croissant", "Brötchen", "Kuchen", "Keks"]
-  answer: 0
+  options: ["Brötchen", "Croissant", "Kuchen", "Keks"]
+  answer: 1
   explanation: >-
     Gipfeli is the Swiss word for croissant and is also used in Swiss Standard German (on menus, in
     newspapers). Many Swiss food words end in -li, which makes them neuter: das Gipfeli, das Weggli.
@@ -507,8 +507,8 @@
   skill: listening
   variety: gsw-zh
   prompt: "The waitress says: \"Grüezi mitenand! Was dörfs sii?\" What does she mean?"
-  options: ["What can I get you?", "Where are you from?", "Do you want to pay?", "Is everything all right?"]
-  answer: 0
+  options: ["Where are you from?", "Do you want to pay?", "Is everything all right?", "What can I get you?"]
+  answer: 3
   explanation: >-
     Was dörfs sii? = Was darf es sein? – the standard question in Swiss cafés and shops. Grüezi mitenand
     greets more than one person.
@@ -535,8 +535,8 @@
   variety: gsw-zh
   grammar: [numbers]
   prompt: "In the Swiss lane dialogue the waitress says: \"Das macht zwölf Franke füfzg.\" How much is it?"
-  options: ["12.50 Fr.", "12.15 Fr.", "20.50 Fr.", "15.12 Fr."]
-  answer: 0
+  options: ["12.15 Fr.", "20.50 Fr.", "12.50 Fr.", "15.12 Fr."]
+  answer: 2
   explanation: >-
     zwölf = 12, füfzg = fünfzig (50). Franke = Franken (Swiss German often drops the final -n).
     Reto pays with füfzää (15) and says "Isch guet so" – keep the change.
@@ -564,10 +564,10 @@
   options: ["Ich nehme einen Kaffee.", "Ich nehme ein Kaffee.", "Ich nehme eine Kaffee.", "Ich nimm einen Kaffee."]
   answer: 0
   rationales:
-    - Correct. nehme + accusative einen.
-    - Swiss German en has no accusative ending – but Standard German does. Don't copy this pattern into Hochdeutsch.
-    - Kaffee is masculine, not feminine.
-    - nimm is the Zurich ich-form (and the Standard imperative); the Standard ich-form is nehme.
+    - "Correct. nehme + accusative einen."
+    - "Swiss German en has no accusative ending – but Standard German does. Don't copy this pattern into Hochdeutsch."
+    - "Kaffee is masculine, not feminine."
+    - "nimm is the Zurich ich-form (and the Standard imperative); the Standard ich-form is nehme."
   explanation: >-
     A classic Swiss trap: Swiss German articles don't change in the accusative (en Kafi as subject and
     object), so Swiss speakers and learners living in Switzerland sometimes say "ein Kaffee" in Standard
@@ -591,8 +591,8 @@
   skill: vocabulary
   variety: gsw-zh
   prompt: "Sandra orders \"e Schale\". What does she get?"
-  options: ["A coffee with lots of milk", "A bowl of soup", "A glass of beer", "A cup of tea"]
-  answer: 0
+  options: ["A bowl of soup", "A glass of beer", "A coffee with lots of milk", "A cup of tea"]
+  answer: 2
   explanation: >-
     In Swiss cafés e Schale (eine Schale) is coffee with lots of milk – like a café au lait. A Kafi Crème
     is a normal coffee with a little cream, and e Stange is a small glass of draught beer.
@@ -626,3 +626,40 @@
     Decoding: dörfs sii = darf es sein; suscht no öppis = sonst noch etwas; wänd Sie = wollen Sie;
     grad = gleich/jetzt; sibe = sieben; drü Franke zrugg = drei Franken zurück. Numbers and prices are
     the hardest part to catch – ask "Wie viel, bitte?" if needed.
+
+# ---------- Bernese (gsw-be, recognition) ----------
+- id: a1-u02-ch-be-transform-weit
+  type: transform
+  skill: reading
+  variety: gsw-be
+  grammar: [moechte]
+  prompt: "A waiter in Bern asks you this. What does it mean in Standard German?"
+  from: gsw-be
+  to: de
+  source: Was weit Dir trinke?
+  answers: ["Was wollen Sie trinken?", "Was möchten Sie trinken?", "Was wollt ihr trinken?", "Was möchtet ihr trinken?"]
+  explanation: >-
+    weit = wollen (Bernese wöue: i wott, mir wei, dir weit). Dir is the Bernese polite form (literally Ihr),
+    used where Zurich says Sie: Was wänd Sie trinke? Politeness is the same – only the pronoun differs.
+
+- id: a1-u02-ch-be-mcq-fuef
+  type: mcq
+  skill: listening
+  variety: gsw-be
+  grammar: [numbers]
+  prompt: "In a Bernese café the waiter says: \"Das macht füf Franke.\" How much do you pay?"
+  options: ["15 francs", "5 francs", "50 francs", "4 francs"]
+  answer: 1
+  explanation: >-
+    Bernese füf = fünf (Zurich föif). 15 would be füfzäh, 50 füfzg. Franke = Franken.
+
+- id: a1-u02-ch-be-mcq-viumau
+  type: mcq
+  skill: vocabulary
+  variety: gsw-be
+  prompt: "At the end of the Swiss lane dialogue Sandra says \"Merci viumau!\". What does she mean?"
+  options: ["See you soon!", "That's too expensive!", "One more, please!", "Thank you very much!"]
+  answer: 3
+  explanation: >-
+    viumau = vielmal (many times): Bernese turns l before a consonant or at the end of a syllable into u.
+    Zurich says Merci vilmal.

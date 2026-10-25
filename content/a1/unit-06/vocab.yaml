@@ -1,0 +1,384 @@
+# A1 unit 6 – Wohnen in der Schweiz
+
+# ---------- the flat and the building ----------
+- id: wohnung
+  de: Wohnung
+  en: flat, apartment
+  pos: noun
+  gender: f
+  plural: Wohnungen
+  example: { de: "Die Wohnung ist schön hell.", en: "The flat is nice and bright." }
+  gswZh: Wohnig (d Wohnig)
+  gswBe: Wohnig
+  tags: [home]
+
+- id: haus
+  de: Haus
+  en: house; building
+  pos: noun
+  gender: n
+  plural: Häuser
+  example: { de: "Das Haus hat vier Wohnungen.", en: "The building has four flats." }
+  gswZh: Huus (plural Hüser)
+  tags: [home]
+
+- id: zimmer
+  de: Zimmer
+  en: room
+  pos: noun
+  gender: n
+  plural: Zimmer
+  example: { de: "Die Wohnung hat drei Zimmer.", en: "The flat has three rooms." }
+  chStd: Zimmer (a 3½-Zimmer-Wohnung counts bedrooms and living room)
+  gswZh: Zimmer
+  tags: [home, rooms]
+
+- id: kueche
+  de: Küche
+  en: kitchen
+  pos: noun
+  gender: f
+  plural: Küchen
+  example: { de: "Die Küche ist klein, aber modern.", en: "The kitchen is small, but modern." }
+  gswZh: Chuchi (d Chuchi)
+  gswBe: Chuchi
+  tags: [home, rooms]
+
+- id: wohnzimmer
+  de: Wohnzimmer
+  en: living room
+  pos: noun
+  gender: n
+  plural: Wohnzimmer
+  example: { de: "Das Sofa ist im Wohnzimmer.", en: "The sofa is in the living room." }
+  chStd: Wohnzimmer / Stube
+  gswZh: Stube (d Stube)
+  gswBe: Stube
+  tags: [home, rooms, helvetism]
+
+- id: schlafzimmer
+  de: Schlafzimmer
+  en: bedroom
+  pos: noun
+  gender: n
+  plural: Schlafzimmer
+  example: { de: "Das Schlafzimmer ist ruhig.", en: "The bedroom is quiet." }
+  gswZh: Schlafzimmer
+  tags: [home, rooms]
+
+- id: bad
+  de: Bad
+  en: bathroom
+  pos: noun
+  gender: n
+  plural: Bäder
+  example: { de: "Das Bad ist neu.", en: "The bathroom is new." }
+  chStd: Badezimmer / Bad
+  gswZh: Badzimmer / s Bad
+  tags: [home, rooms]
+
+- id: toilette
+  de: Toilette
+  en: toilet
+  pos: noun
+  gender: f
+  plural: Toiletten
+  example: { de: "Wo ist die Toilette?", en: "Where's the toilet?" }
+  chStd: WC (das WC)
+  gswZh: WC (s WC, said "Weezee")
+  tags: [home, rooms, helvetism]
+
+- id: balkon
+  de: Balkon
+  en: balcony
+  pos: noun
+  gender: m
+  plural: Balkone
+  example: { de: "Der Balkon ist groß.", en: "The balcony is big." }
+  gswZh: Balkon
+  tags: [home]
+
+- id: keller
+  de: Keller
+  en: basement, cellar
+  pos: noun
+  gender: m
+  plural: Keller
+  example: { de: "Die Waschküche ist im Keller.", en: "The laundry room is in the basement." }
+  gswZh: Chäller (de Chäller)
+  tags: [home]
+
+- id: dachboden
+  de: Dachboden
+  en: attic, loft
+  pos: noun
+  gender: m
+  plural: Dachböden
+  example: { de: "Der Dachboden ist dunkel.", en: "The attic is dark." }
+  chStd: Estrich (der Estrich)
+  gswZh: Estrich
+  tags: [home, helvetism]
+
+- id: waschkueche
+  de: Waschküche
+  en: (shared) laundry room
+  pos: noun
+  gender: f
+  plural: Waschküchen
+  example: { de: "Am Montag habe ich die Waschküche.", en: "On Monday I have the laundry room." }
+  gswZh: Waschchuchi
+  gswBe: Wöschchuchi (plural Wöschchuchine)
+  tags: [home, swiss-life]
+
+- id: treppe
+  de: Treppe
+  en: stairs, staircase
+  pos: noun
+  gender: f
+  plural: Treppen
+  example: { de: "Die Treppe ist hier.", en: "The stairs are here." }
+  gswZh: Stäge (d Stäge)
+  gswBe: Stäge
+  tags: [home]
+
+- id: aufzug
+  de: Aufzug
+  en: lift, elevator
+  pos: noun
+  gender: m
+  plural: Aufzüge
+  example: { de: "Gibt es einen Aufzug?", en: "Is there a lift?" }
+  chStd: Lift (der Lift)
+  gswZh: Lift
+  tags: [home, helvetism]
+
+- id: garten
+  de: Garten
+  en: garden
+  pos: noun
+  gender: m
+  plural: Gärten
+  example: { de: "Das Haus hat einen Garten.", en: "The house has a garden." }
+  gswZh: Garte
+  tags: [home]
+
+- id: fenster
+  de: Fenster
+  en: window
+  pos: noun
+  gender: n
+  plural: Fenster
+  example: { de: "Es gibt viele Fenster.", en: "There are lots of windows." }
+  gswZh: Feischter (s Feischter)
+  tags: [home]
+
+- id: tuer
+  de: Tür
+  en: door
+  pos: noun
+  gender: f
+  plural: Türen
+  example: { de: "Die Tür ist links.", en: "The door is on the left." }
+  gswZh: Tüür
+  tags: [home]
+
+# ---------- furniture and appliances ----------
+- id: tisch
+  de: Tisch
+  en: table
+  pos: noun
+  gender: m
+  plural: Tische
+  example: { de: "Der Tisch ist in der Küche.", en: "The table is in the kitchen." }
+  gswZh: Tisch
+  tags: [furniture]
+
+- id: stuhl
+  de: Stuhl
+  en: chair
+  pos: noun
+  gender: m
+  plural: Stühle
+  example: { de: "Wir brauchen vier Stühle.", en: "We need four chairs." }
+  gswZh: Stuel (plural Stüel)
+  tags: [furniture]
+
+- id: bett
+  de: Bett
+  en: bed
+  pos: noun
+  gender: n
+  plural: Betten
+  example: { de: "Das Bett ist im Schlafzimmer.", en: "The bed is in the bedroom." }
+  gswZh: Bett
+  tags: [furniture]
+
+- id: sofa
+  de: Sofa
+  en: sofa
+  pos: noun
+  gender: n
+  plural: Sofas
+  example: { de: "Das Sofa ist neu.", en: "The sofa is new." }
+  gswZh: Sofa / Couch
+  tags: [furniture]
+
+- id: schrank
+  de: Schrank
+  en: cupboard, wardrobe
+  pos: noun
+  gender: m
+  plural: Schränke
+  example: { de: "Der Schrank ist zu groß.", en: "The wardrobe is too big." }
+  gswZh: Chaschte (de Chaschte)
+  gswBe: Schaft
+  tags: [furniture]
+
+- id: kuehlschrank
+  de: Kühlschrank
+  en: fridge
+  pos: noun
+  gender: m
+  plural: Kühlschränke
+  example: { de: "Es gibt einen Kühlschrank.", en: "There's a fridge." }
+  gswZh: Chüelschrank
+  tags: [appliances]
+
+- id: herd
+  de: Herd
+  en: cooker, stove
+  pos: noun
+  gender: m
+  plural: Herde
+  example: { de: "Der Herd ist modern.", en: "The cooker is modern." }
+  chStd: Kochherd / Herd
+  gswZh: Herd / Chochherd
+  tags: [appliances, helvetism]
+
+- id: waschmaschine
+  de: Waschmaschine
+  en: washing machine
+  pos: noun
+  gender: f
+  plural: Waschmaschinen
+  example: { de: "In der Wohnung gibt es keine Waschmaschine.", en: "There's no washing machine in the flat." }
+  gswZh: Wöschmaschine / Waschmaschine
+  tags: [appliances]
+
+# ---------- renting ----------
+- id: miete
+  de: Miete
+  en: rent
+  pos: noun
+  gender: f
+  plural: Mieten
+  example: { de: "Die Miete ist 1650 Franken.", en: "The rent is 1,650 francs." }
+  chStd: Mietzins (der Mietzins) / Miete
+  gswZh: Miete / Ziis (colloquial)
+  tags: [renting, helvetism]
+
+- id: nebenkosten
+  de: Nebenkosten
+  en: utilities, service charges (heating, water ...)
+  pos: noun
+  pluralOnly: true
+  example: { de: "Die Nebenkosten sind 200 Franken.", en: "The utilities are 200 francs." }
+  gswZh: Nebechöschte
+  tags: [renting, plural-only]
+
+- id: nachbar
+  de: Nachbar
+  en: neighbour (male)
+  pos: noun
+  gender: m
+  plural: Nachbarn
+  example: { de: "Mein Nachbar heißt Reto.", en: "My neighbour is called Reto." }
+  gswZh: Nachber (de Nachber); die Nachbarin = d Nachberin
+  tags: [people, home]
+
+- id: muell
+  de: Müll
+  en: rubbish, trash
+  pos: noun
+  gender: m
+  plural: "-"
+  example: { de: "Wo ist der Müll?", en: "Where's the rubbish?" }
+  chStd: Kehricht (der Kehricht) / Abfall
+  gswZh: Güsel (de Güsel; Güselsack, Züri-Sack)
+  gswBe: Ghüder (dr Ghüder)
+  tags: [home, helvetism, swiss-life]
+
+- id: mieten
+  de: mieten
+  en: to rent
+  pos: verb
+  example: { de: "Ich miete eine Wohnung in Winterthur.", en: "I'm renting a flat in Winterthur." }
+  gswZh: miete
+  tags: [renting]
+
+- id: es-gibt
+  de: es gibt
+  en: there is, there are
+  pos: phrase
+  example: { de: "Im Keller gibt es eine Waschküche.", en: "There's a laundry room in the basement." }
+  gswZh: es git / es hät
+  gswBe: es git / es het
+  tags: [grammar]
+
+# ---------- adjectives ----------
+- id: hell
+  de: hell
+  en: bright, light
+  pos: adj
+  example: { de: "Das Wohnzimmer ist hell.", en: "The living room is bright." }
+  gswZh: hell
+  tags: [adjectives, home]
+
+- id: dunkel
+  de: dunkel
+  en: dark
+  pos: adj
+  example: { de: "Der Keller ist dunkel.", en: "The basement is dark." }
+  gswZh: dunkel / tunkel
+  tags: [adjectives, home]
+
+- id: ruhig
+  de: ruhig
+  en: quiet, calm
+  pos: adj
+  example: { de: "Das Schlafzimmer ist ruhig.", en: "The bedroom is quiet." }
+  gswZh: ruhig / ruig
+  tags: [adjectives, home]
+
+- id: laut
+  de: laut
+  en: loud, noisy
+  pos: adj
+  example: { de: "Das Café ist laut.", en: "The café is noisy." }
+  gswZh: lut
+  gswBe: lut
+  tags: [adjectives, home]
+
+- id: modern
+  de: modern
+  en: modern
+  pos: adj
+  example: { de: "Die Küche ist modern.", en: "The kitchen is modern." }
+  gswZh: modern
+  tags: [adjectives, home]
+
+- id: gemuetlich
+  de: gemütlich
+  en: cosy, comfortable
+  pos: adj
+  example: { de: "Das Wohnzimmer ist gemütlich.", en: "The living room is cosy." }
+  gswZh: gmüetlich
+  tags: [adjectives, home]
+
+- id: praktisch
+  de: praktisch
+  en: practical, handy
+  pos: adj
+  example: { de: "Die Küche ist sehr praktisch.", en: "The kitchen is very practical." }
+  gswZh: praktisch / gäbig
+  tags: [adjectives, home]

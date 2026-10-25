@@ -34,13 +34,16 @@ export const VocabItem = z.object({
   plural: z.string().optional(),
   /** Plural-only nouns (die Eltern, die Geschwister): no gender, `de` is the plural form. */
   pluralOnly: z.boolean().optional(),
-  example: z.object({ de: z.string(), en: z.string() }).optional(),
+  example: z.object({ de: z.string(), en: z.string(), audio }).optional(),
   /** Swiss Standard German variant (Helvetism), e.g. Velo for Fahrrad. */
   chStd: z.string().optional(),
   /** Zurich German form in Dieth-style spelling; alternatives separated by " / ". */
   gswZh: z.string().optional(),
   gswBe: z.string().optional(),
   audio,
+  /** Recording of the Zurich / Bernese form. */
+  gswZhAudio: audio,
+  gswBeAudio: audio,
   tags: z.array(z.string()).default([]),
 });
 export type VocabItem = z.infer<typeof VocabItem>;

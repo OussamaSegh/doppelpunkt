@@ -331,6 +331,18 @@ function LearningPrefs({ settings }: { settings: Settings }) {
           ))}
         </select>
       </div>
+      <label className="flex items-start gap-2 text-sm sm:col-span-2">
+        <input
+          type="checkbox"
+          className="mt-0.5 h-4 w-4"
+          checked={settings.haptics}
+          onChange={(e) => void updateSettings({ haptics: e.target.checked })}
+        />
+        <span>
+          Vibrate on right and wrong answers
+          <span className="block text-xs text-muted">On phones that support it. Off automatically when your system asks for reduced motion.</span>
+        </span>
+      </label>
     </div>
   );
 }

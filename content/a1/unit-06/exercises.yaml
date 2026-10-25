@@ -1,0 +1,608 @@
+# A1 unit 6 – Wohnen in der Schweiz
+
+# ---------- vocabulary ----------
+- id: a1-u06-match-rooms
+  type: match
+  skill: vocabulary
+  variety: de
+  prompt: Match the rooms with English.
+  pairs:
+    - ["die Küche", "kitchen"]
+    - ["das Wohnzimmer", "living room"]
+    - ["das Schlafzimmer", "bedroom"]
+    - ["das Bad", "bathroom"]
+    - ["der Keller", "basement"]
+  explanation: >-
+    Every compound with -zimmer is neuter (das Zimmer → das Wohnzimmer, das Schlafzimmer). die Küche is
+    feminine; der Keller is masculine.
+
+- id: a1-u06-match-furniture
+  type: match
+  skill: vocabulary
+  variety: de
+  prompt: In which room is it usually? Match.
+  pairs:
+    - ["das Bett", "das Schlafzimmer"]
+    - ["der Herd", "die Küche"]
+    - ["das Sofa", "das Wohnzimmer"]
+    - ["die Waschmaschine", "die Waschküche"]
+    - ["die Badewanne", "das Bad"]
+  explanation: >-
+    die Badewanne = bathtub. In Swiss rental flats the washing machine is often not in the flat but in the
+    shared Waschküche in the basement.
+
+- id: a1-u06-mcq-kuehlschrank
+  type: mcq
+  skill: vocabulary
+  variety: de
+  prompt: "Milch, Käse und Butter sind im ..."
+  options: ["Schrank", "Herd", "Kühlschrank", "Keller"]
+  answer: 2
+  explanation: >-
+    der Kühlschrank = cool + cupboard (kühl + Schrank) = fridge. der Herd = cooker. Compound nouns take the
+    gender of the last part: der Schrank → der Kühlschrank.
+
+- id: a1-u06-mcq-nebenkosten
+  type: mcq
+  skill: vocabulary
+  variety: de
+  prompt: "\"Miete 1500 Franken plus 180 Franken Nebenkosten.\" What are the Nebenkosten?"
+  options: ["The deposit", "Extra costs for heating, water and so on", "The price of the furniture", "The cost of parking"]
+  answer: 1
+  explanation: >-
+    die Nebenkosten (plural only) = utilities and service charges. neben = beside, die Kosten = costs.
+    Swiss ads write Mietzins for the rent.
+
+# ---------- grammar: es gibt ----------
+- id: a1-u06-gap-es-gibt
+  type: gap
+  skill: grammar
+  variety: de
+  grammar: [es-gibt, accusative-indefinite]
+  prompt: "Fill in einen, eine or ein. (der Balkon, die Küche, das Bad)"
+  text: In der Wohnung gibt es ___ Balkon, ___ Küche und ___ Bad.
+  answers: [["einen"], ["eine"], ["ein"]]
+  explanation: >-
+    es gibt takes the accusative, like haben: der Balkon → einen Balkon. Feminine and neuter don't change.
+
+- id: a1-u06-gap-es-gibt-kein
+  type: gap
+  skill: grammar
+  variety: de
+  grammar: [es-gibt, nicht-kein]
+  prompt: "Fill in keinen, keine or kein. (der Aufzug, die Waschmaschine, das Sofa)"
+  text: Es gibt ___ Aufzug, ___ Waschmaschine und ___ Sofa.
+  answers: [["keinen"], ["keine"], ["kein"]]
+  explanation: >-
+    Negative es gibt uses kein + accusative: keinen Aufzug (masculine), keine Waschmaschine, kein Sofa.
+
+- id: a1-u06-mcq-es-gibt
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [es-gibt]
+  prompt: "How do you say \"There are three rooms\"?"
+  options: ["Es geben drei Zimmer.", "Da sind drei Zimmer.", "Es ist drei Zimmer.", "Es gibt drei Zimmer."]
+  answer: 3
+  rationales:
+    - "es gibt never changes to geben – the subject is es."
+    - "Da sind ... points at something (\"there they are\"); for existence use es gibt."
+    - "es ist + plural is wrong; and German doesn't use sein for existence."
+    - "Correct. es gibt is the same for one or many things."
+  explanation: >-
+    English changes is/are; German es gibt stays the same: Es gibt einen Balkon. Es gibt drei Zimmer.
+
+- id: a1-u06-order-es-gibt
+  type: order
+  skill: grammar
+  variety: de
+  grammar: [es-gibt, location-chunks]
+  prompt: Start with "Im Keller".
+  tokens: ["Im", "Keller", "gibt", "es", "eine", "Waschküche"]
+  answers: ["Im Keller gibt es eine Waschküche.", "Es gibt eine Waschküche im Keller."]
+  explanation: >-
+    With a place in position 1, the verb gibt stays second and es moves after it: Im Keller gibt es ...
+    Starting with Es gibt is also correct.
+
+- id: a1-u06-transform-es-gibt
+  type: transform
+  skill: grammar
+  variety: de
+  grammar: [es-gibt]
+  prompt: Say the same thing with "es gibt".
+  from: de
+  to: de
+  source: Die Wohnung hat einen Garten.
+  answers: ["Es gibt einen Garten.", "Die Wohnung hat einen Garten.", "Es gibt einen Garten in der Wohnung.", "Bei der Wohnung gibt es einen Garten."]
+  explanation: >-
+    haben and es gibt both take the accusative, so einen Garten stays the same. es gibt states that
+    something exists; haben says what the flat has.
+
+# ---------- grammar: predicative adjectives ----------
+- id: a1-u06-mcq-adjective
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [predicative-adjectives]
+  prompt: Choose the correct form.
+  question: Die Küche ist ___, aber modern.
+  options: ["klein", "kleine", "kleines", "kleinen"]
+  answer: 0
+  rationales:
+    - "Correct. After sein the adjective has no ending."
+    - "Endings are only for adjectives before a noun (die kleine Küche)."
+    - "-es is an ending for neuter nouns before the noun."
+    - "-en is an ending before a noun, too."
+  explanation: >-
+    Adjectives after sein stay in their dictionary form, for every gender and in the plural:
+    Die Küche ist klein. Die Zimmer sind klein.
+
+- id: a1-u06-match-opposites
+  type: match
+  skill: grammar
+  variety: de
+  grammar: [predicative-adjectives]
+  prompt: Match the opposites.
+  pairs:
+    - ["hell", "dunkel"]
+    - ["ruhig", "laut"]
+    - ["groß", "klein"]
+    - ["billig", "teuer"]
+    - ["neu", "alt"]
+  explanation: >-
+    Learn adjectives in pairs. alt is the opposite of both neu (an old flat) and jung (an old person).
+    laut = loud, noisy; ruhig = quiet.
+
+- id: a1-u06-gap-adjectives
+  type: gap
+  skill: grammar
+  variety: de
+  grammar: [predicative-adjectives]
+  prompt: "Describe the flat with the opposite adjective. (The flat is the opposite of dark, noisy and old.)"
+  text: Die Wohnung ist ___, ___ und ___.
+  answers: [["hell"], ["ruhig"], ["neu", "modern"]]
+  explanation: >-
+    dunkel ↔ hell, laut ↔ ruhig, alt ↔ neu (or modern). No endings after sein.
+
+- id: a1-u06-transform-sind
+  type: transform
+  skill: grammar
+  variety: de
+  grammar: [predicative-adjectives, plural-nouns]
+  prompt: Put the sentence in the plural.
+  from: de
+  to: de
+  source: Das Zimmer ist hell.
+  answers: ["Die Zimmer sind hell."]
+  explanation: >-
+    das Zimmer → die Zimmer (no plural ending for -er nouns), ist → sind. The adjective hell doesn't change.
+
+# ---------- grammar: location chunks ----------
+- id: a1-u06-gap-im-in-der
+  type: gap
+  skill: grammar
+  variety: de
+  grammar: [location-chunks]
+  prompt: "Fill in im or in der. (die Küche, das Wohnzimmer, der Keller)"
+  text: Der Herd ist ___ Küche, das Sofa ist ___ Wohnzimmer und die Waschküche ist ___ Keller.
+  answers: [["in der"], ["im"], ["im"]]
+  explanation: >-
+    For location: feminine rooms → in der (in der Küche); masculine and neuter rooms → im (im Wohnzimmer,
+    im Keller). im = in dem.
+
+- id: a1-u06-mcq-im
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [location-chunks]
+  prompt: "\"Wo ist das Bett?\" – \"___ Schlafzimmer.\""
+  options: ["In der", "Im", "In die", "Am"]
+  answer: 1
+  rationales:
+    - "in der is for feminine rooms (in der Küche)."
+    - "Correct. das Schlafzimmer is neuter → im Schlafzimmer."
+    - "in die means into (a movement) and is for feminine nouns."
+    - "am is for days and times (am Montag), or \"at/on\" places like am See."
+  explanation: >-
+    Learn the location chunks: im Schlafzimmer, im Bad, im Keller, in der Küche, auf dem Balkon.
+
+- id: a1-u06-mcq-balkon
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [location-chunks]
+  prompt: Where is the table? Choose the correct phrase.
+  question: Der Tisch ist ___.
+  options: ["in dem Balkon", "im Balkon", "in der Balkon", "auf dem Balkon"]
+  answer: 3
+  explanation: >-
+    German uses auf for the balcony, as English uses on: auf dem Balkon. For rooms you use in: im
+    Wohnzimmer, in der Küche.
+
+# ---------- grammar: revision ----------
+- id: a1-u06-gap-accusative-revision
+  type: gap
+  skill: grammar
+  variety: de
+  grammar: [accusative-definite]
+  prompt: "Revision: fill in den, die or das. (der Tisch, die Lampe, das Sofa)"
+  text: Wir kaufen ___ Tisch, ___ Lampe und ___ Sofa.
+  answers: [["den"], ["die"], ["das"]]
+  explanation: >-
+    Unit 5 rule: in the accusative only der → den. die Lampe (lamp) and das Sofa stay the same.
+
+# ---------- reading ----------
+- id: a1-u06-mcq-reading-zimmer
+  type: mcq
+  skill: reading
+  variety: ch-std
+  prompt: "Read the flat ad. Which rooms does \"3½ Zimmer\" count?"
+  options: ["The kitchen, the bathroom and the bedrooms", "Three bedrooms and a balcony", "The living room, two bedrooms and the half room", "All rooms including the WC"]
+  answer: 2
+  explanation: >-
+    In Swiss ads the number counts the living room and bedrooms; kitchen, bathroom and WC are not counted.
+    The ½ is usually a large hall or dining area. Here: Wohnzimmer + zwei Schlafzimmer + ½.
+
+- id: a1-u06-mcq-reading-keller
+  type: mcq
+  skill: reading
+  variety: ch-std
+  grammar: [es-gibt, location-chunks]
+  prompt: What is in the basement?
+  options: ["A laundry room and a bike room", "A parking space", "A separate WC", "An attic"]
+  answer: 0
+  explanation: >-
+    "Im Keller gibt es eine Waschküche und einen Veloraum." der Veloraum = room for bikes (das Velo = bike
+    in Swiss German). Note einen: es gibt + accusative.
+
+- id: a1-u06-mcq-reading-parkplatz
+  type: mcq
+  skill: reading
+  variety: ch-std
+  grammar: [es-gibt, nicht-kein]
+  prompt: "Richtig oder falsch? \"Es gibt einen Parkplatz.\""
+  options: ["Falsch", "Richtig"]
+  answer: 0
+  explanation: >-
+    Falsch. "Einen Parkplatz gibt es nicht." The object einen Parkplatz comes first for emphasis and nicht
+    negates the whole sentence. More common would be: Es gibt keinen Parkplatz.
+
+- id: a1-u06-mcq-reading-cost
+  type: mcq
+  skill: reading
+  variety: ch-std
+  prompt: How much do you pay per month in total?
+  options: ["1'850 francs", "2'070 francs", "220 francs", "1'630 francs"]
+  answer: 1
+  explanation: >-
+    Mietzins 1'850 + Nebenkosten 220 = 2'070 Franken. Swiss numbers use an apostrophe as the thousands
+    separator.
+
+- id: a1-u06-translate-reading
+  type: translate
+  skill: reading
+  variety: ch-std
+  grammar: [predicative-adjectives]
+  prompt: Translate into English.
+  source: Die Küche ist neu und modern.
+  answers: ["The kitchen is new and modern."]
+  explanation: >-
+    Adjectives after sein have no ending in German and come after the verb – just like in English.
+
+# ---------- listening ----------
+- id: a1-u06-dictation-hell
+  type: dictation
+  skill: listening
+  variety: de
+  grammar: [predicative-adjectives]
+  prompt: Listen and write what you hear.
+  transcript: Die Wohnung ist schön hell.
+  explanation: >-
+    schön hell = nice and bright. Wohnung ends in -ung (feminine). No ending on hell after ist.
+
+- id: a1-u06-dictation-waschkueche
+  type: dictation
+  skill: listening
+  variety: de
+  grammar: [location-chunks]
+  prompt: Listen and write what you hear.
+  transcript: Die Waschküche ist im Keller.
+  explanation: >-
+    Waschküche = Wasch + Küche, one word with ü. im Keller = in the basement.
+
+- id: a1-u06-dictation-balkon
+  type: dictation
+  skill: listening
+  variety: de
+  grammar: [es-gibt]
+  prompt: Listen and write what you hear.
+  transcript: Es gibt einen Balkon, aber keinen Aufzug.
+  explanation: >-
+    Listen for -en twice: einen Balkon, keinen Aufzug – both masculine accusative after es gibt.
+
+- id: a1-u06-mcq-listening-waschmaschine
+  type: mcq
+  skill: listening
+  variety: de
+  grammar: [es-gibt]
+  prompt: Listen to the intro dialogue. Is there a washing machine in the flat?
+  options: ["Yes, it's in the kitchen.", "Yes, it's in the bathroom.", "No, there is no washing machine in the building.", "No, it's in the laundry room in the basement."]
+  answer: 3
+  explanation: >-
+    "In der Wohnung gibt es keine Waschmaschine. Die Waschküche ist im Keller." This is typical of Swiss
+    rental buildings.
+
+- id: a1-u06-mcq-listening-miete
+  type: mcq
+  skill: listening
+  variety: de
+  prompt: Listen to the intro dialogue again. What does Tom think of the rent?
+  options: ["It isn't cheap, but the flat is great.", "It's very cheap.", "It's too expensive, so he doesn't want the flat.", "He doesn't ask about the rent."]
+  answer: 0
+  explanation: >-
+    "Das ist nicht billig, aber die Wohnung ist toll!" aber contrasts the two ideas. toll = great.
+
+# ---------- speaking ----------
+- id: a1-u06-speak-flat
+  type: speak
+  skill: speaking
+  variety: de
+  grammar: [es-gibt, predicative-adjectives]
+  prompt: Read aloud, then describe your own flat in the same way.
+  target: Meine Wohnung hat drei Zimmer. Es gibt eine Küche, ein Bad und einen Balkon. Das Wohnzimmer ist hell und gemütlich.
+  explanation: >-
+    Three frames: Meine Wohnung hat ... / Es gibt + accusative / Das ... ist + adjective.
+
+- id: a1-u06-speak-ue
+  type: speak
+  skill: speaking
+  variety: de
+  prompt: "Pronunciation: ü and ch. Read aloud."
+  target: die Küche, der Kühlschrank, die Waschküche, gemütlich, die Tür
+  explanation: >-
+    ü: say "ee" with rounded lips. ch after ü and i is soft (like a whispered "y" in "yes"): Küche, gemütlich.
+    After a, o, u it's the harsh ch: Bach, doch.
+
+- id: a1-u06-roleplay-lena
+  type: roleplay
+  skill: speaking
+  variety: de
+  grammar: [es-gibt, predicative-adjectives, location-chunks]
+  tutor: lena
+  prompt: "Roleplay with Lena: describe your new flat."
+  scenario: >-
+    You have just moved into a new flat. Lena, your classmate, asks you about it. Use du.
+  goals:
+    - Say how many rooms there are and what there is (es gibt + einen/eine/ein).
+    - Say what there isn't (es gibt keinen/keine/kein).
+    - Describe at least two rooms with adjectives.
+    - Say where one thing is (im Keller, in der Küche).
+  model: |
+    Lena: Du hast eine neue Wohnung? Wie ist sie?
+    Du: Sie ist super! Es gibt drei Zimmer und einen Balkon.
+    Lena: Toll! Ist die Küche groß?
+    Du: Nein, sie ist klein, aber sehr praktisch.
+    Lena: Und gibt es einen Lift?
+    Du: Nein, es gibt keinen Lift. Die Wohnung ist im dritten Stock!
+    Lena: Und wo wäschst du?
+    Du: Die Waschküche ist im Keller. Am Montag habe ich die Waschküche.
+  explanation: >-
+    Useful frames: Es gibt ... / Es gibt keinen ... / Die Küche ist ..., aber ... / ... ist im Keller.
+    im dritten Stock = on the third floor (a chunk).
+
+# ---------- writing ----------
+- id: a1-u06-translate-lift
+  type: translate
+  skill: writing
+  variety: de
+  grammar: [es-gibt]
+  prompt: Translate into German.
+  source: Is there a lift?
+  answers: ["Gibt es einen Aufzug?", "Gibt es einen Lift?", "Gibt's einen Aufzug?", "Gibt's einen Lift?"]
+  explanation: >-
+    Yes/no question: Gibt es ...? + accusative. der Aufzug / der Lift → einen. In Switzerland, Lift is the
+    normal word.
+
+- id: a1-u06-translate-kitchen
+  type: translate
+  skill: writing
+  variety: de
+  grammar: [predicative-adjectives]
+  prompt: Translate into German.
+  source: The kitchen is small, but the living room is big.
+  answers: ["Die Küche ist klein, aber das Wohnzimmer ist groß.", "Die Küche ist klein, aber das Wohnzimmer ist gross."]
+  explanation: >-
+    aber doesn't change word order: subject + ist + adjective in both halves. Swiss spelling: gross.
+
+- id: a1-u06-write-flat
+  type: write
+  skill: writing
+  variety: de
+  grammar: [es-gibt, predicative-adjectives, location-chunks]
+  prompt: Write an email about your flat.
+  task: >-
+    Write an email (6–8 sentences) to a friend about your flat: how many rooms, what there is and isn't,
+    what the rooms are like, where the laundry room or the washing machine is, and what the rent is.
+  minWords: 45
+  model: >-
+    Liebe Kate, ich habe jetzt eine Wohnung in Zürich! Sie hat zwei Zimmer. Es gibt eine Küche, ein Bad und
+    einen Balkon. Die Küche ist klein, aber modern. Das Wohnzimmer ist hell und gemütlich. Es gibt keinen Lift,
+    und die Waschküche ist im Keller. Die Miete ist 1400 Franken, plus 150 Franken Nebenkosten. Viele Grüße, Tom
+  checklist:
+    - I use es gibt + einen / eine / ein (and keinen / keine / kein).
+    - Adjectives after sein have no ending (Die Küche ist klein).
+    - I use im / in der for places (im Keller, in der Küche).
+    - The verb is in position 2 in every statement.
+  explanation: >-
+    A flat description is a list built on es gibt and ist + adjective. Use aber to contrast (klein, aber
+    modern) – it makes the text sound natural.
+
+# ---------- Swiss Standard German ----------
+- id: a1-u06-chstd-match
+  type: match
+  skill: vocabulary
+  variety: ch-std
+  prompt: Match the Swiss Standard German words from flat ads with the German-German words.
+  pairs:
+    - ["der Mietzins", "die Miete"]
+    - ["der Lift", "der Aufzug"]
+    - ["der Estrich", "der Dachboden"]
+    - ["das WC", "die Toilette"]
+    - ["der Kehricht", "der Müll"]
+  explanation: >-
+    All five are normal Swiss Standard German, used in ads, contracts and house rules. Careful: in Germany
+    Estrich means the screed on a floor, not the attic.
+
+# ---------- Swiss lane (gsw-zh) ----------
+- id: a1-u06-ch-match-home
+  type: match
+  skill: vocabulary
+  variety: gsw-zh
+  prompt: Match the Zurich German home words with Standard German.
+  pairs:
+    - ["d Wohnig", "die Wohnung"]
+    - ["d Chuchi", "die Küche"]
+    - ["d Stube", "das Wohnzimmer"]
+    - ["d Stäge", "die Treppe"]
+    - ["de Chäller", "der Keller"]
+  explanation: >-
+    Patterns: -ung → -ig (Wohnig, Rächnig), k → ch (Chuchi, Chäller). d Stube is also used in Swiss Standard
+    German; d Stäge is related to Standard die Stiege (old-fashioned for stairs).
+
+- id: a1-u06-ch-mcq-waschtag
+  type: mcq
+  skill: listening
+  variety: gsw-zh
+  prompt: Listen to the Swiss lane dialogue. On which days can Sandra use the laundry room?
+  options: ["Monday and Sunday", "Monday and Thursday", "Tuesday and Thursday", "Every day except Sunday"]
+  answer: 1
+  explanation: >-
+    "Du häsch de Mäntig und de Donschtig." Mäntig = Montag, Donschtig = Donnerstag. On Sunday nobody washes:
+    "Am Sunntig wäscht niemert."
+
+- id: a1-u06-ch-mcq-gusel
+  type: mcq
+  skill: listening
+  variety: gsw-zh
+  prompt: "Reto says: \"Für de Güsel bruuchsch Züri-Säck.\" What is he explaining?"
+  options: ["You need bags for shopping.", "The rubbish is collected on Sunday.", "There is no rubbish collection.", "You need special official bags for rubbish."]
+  answer: 3
+  explanation: >-
+    de Güsel = der Müll; bruuchsch = brauchst du. In the city of Zurich household rubbish must go into the
+    prepaid Züri-Sack – the price of the bag pays for the collection.
+
+- id: a1-u06-ch-transform-es-git
+  type: transform
+  skill: reading
+  variety: gsw-zh
+  grammar: [es-gibt]
+  prompt: What does this mean in Standard German?
+  from: gsw-zh
+  to: de
+  source: Es git aber vill Regle!
+  answers: ["Es gibt aber viele Regeln!", "Aber es gibt viele Regeln!", "Es gibt aber viele Regeln."]
+  explanation: >-
+    es git = es gibt, vill = viel(e), Regle = Regeln. Zurich also says es hät for "there is/are (here)":
+    Es hät vill Lüüt = Es gibt viele Leute (hier).
+
+- id: a1-u06-ch-transform-chuchi
+  type: transform
+  skill: reading
+  variety: gsw-zh
+  grammar: [predicative-adjectives]
+  prompt: What does Sandra say in Standard German?
+  from: gsw-zh
+  to: de
+  source: D Wohnig isch hell und gmüetlich.
+  answers: ["Die Wohnung ist hell und gemütlich.", "Die Wohnung ist hell und gemütlich!"]
+  explanation: >-
+    d = die, Wohnig = Wohnung, isch = ist, gmüetlich = gemütlich (Swiss German drops the e in ge- and turns ü
+    into the glide üe).
+
+- id: a1-u06-ch-mcq-gaebig
+  type: mcq
+  skill: vocabulary
+  variety: gsw-zh
+  grammar: [predicative-adjectives]
+  prompt: "Sandra: \"D Chuchi isch mega gäbig.\" What does she think of the kitchen?"
+  options: ["It's very small.", "It's very old.", "It's really practical.", "It's too expensive."]
+  answer: 2
+  explanation: >-
+    gäbig = praktisch (handy, convenient); mega = very (informal, very common in Swiss German).
+
+- id: a1-u06-ch-transform-de-gsw
+  type: transform
+  skill: vocabulary
+  variety: gsw-zh
+  grammar: [predicative-adjectives]
+  prompt: "Recognition: how would Reto say this in Zurich German? (Common spellings are accepted.)"
+  from: de
+  to: gsw-zh
+  source: Die Küche ist klein.
+  answers: ["D Chuchi isch chlii.", "D Chuchi isch chli.", "D Chuchi isch klein.", "Die Chuchi isch chlii.", "D Chuchi isch chliin."]
+  explanation: >-
+    die → d, Küche → Chuchi, ist → isch, klein → chlii (k → ch, ei → ii). The same sound changes you saw in
+    Chind and Ziit.
+
+- id: a1-u06-roleplay-reto
+  type: roleplay
+  skill: listening
+  variety: gsw-zh
+  grammar: [es-gibt, location-chunks]
+  tutor: reto
+  prompt: "Listening roleplay with Reto: the house rules."
+  scenario: >-
+    You have just moved into Reto's building. He explains the laundry room and the rubbish in Zurich German.
+    Ask questions in Standard German and check what you understood.
+  goals:
+    - Understand where the laundry room is (une, im Chäller) and which day is yours.
+    - Understand the rubbish rule (Güsel, Züri-Sack).
+    - Ask one question with Gibt es ...? and understand the answer.
+  model: |
+    Reto: Grüezi! Sie sind neu da, oder? D Waschchuchi isch une im Chäller.
+    Du: Danke! Welcher Tag ist mein Tag?
+    Reto: Sie händ de Friitig. De Plan hanget a de Tüür.
+    Du: Freitag, gut. Gibt es auch einen Trockenraum?
+    Reto: Ja, es git en Tröchneraum näbed de Waschchuchi.
+    Du: Super. Und der Müll?
+    Reto: De Güsel chunnt in Züri-Sack. Die chaufed Sie im Lade.
+    Du: Alles klar, vielen Dank!
+  explanation: >-
+    Decoding: une = unten, hanget a de Tüür = hängt an der Tür, Tröchneraum = Trockenraum (drying room),
+    näbed = neben, chaufed Sie = kaufen Sie. Repeat key facts (Freitag, gut) to show you understood.
+
+# ---------- Bernese (gsw-be, recognition) ----------
+- id: a1-u06-ch-be-mcq-ghueder
+  type: mcq
+  skill: listening
+  variety: gsw-be
+  prompt: "Sandra's mother asks: \"U dr Ghüder?\" What is she asking about?"
+  options: ["The rubbish", "The rent", "The neighbours", "The kitchen"]
+  answer: 0
+  explanation: >-
+    dr Ghüder is the Bernese word for Müll (Zurich: de Güsel). u = und, dr = der. Bins are Ghüderchübu in Bern.
+
+- id: a1-u06-ch-be-transform-stube
+  type: transform
+  skill: reading
+  variety: gsw-be
+  grammar: [predicative-adjectives]
+  prompt: What does Sandra tell her mother? Write it in Standard German.
+  from: gsw-be
+  to: de
+  source: D Chuchi isch chly, aber d Stube isch gross u hell.
+  answers: ["Die Küche ist klein, aber das Wohnzimmer ist groß und hell.", "Die Küche ist klein, aber die Stube ist groß und hell.", "Die Küche ist klein, aber das Wohnzimmer ist gross und hell.", "Die Küche ist klein, aber die Stube ist gross und hell."]
+  explanation: >-
+    chly = klein (Bernese writes long i as y; Zurich chlii), u = und, d Stube = das Wohnzimmer. Chuchi is the
+    same in Bern and Zurich.
+
+- id: a1-u06-ch-be-mcq-woesch
+  type: mcq
+  skill: vocabulary
+  variety: gsw-be
+  prompt: "In a Bernese building the notice says \"Wöschchuchi\". What is it?"
+  options: ["The kitchen", "The cellar", "The laundry room", "The rubbish room"]
+  answer: 2
+  explanation: >-
+    d Wöschchuchi = die Waschküche. Bernese often has ö where Zurich has a (wösche / wäsche = waschen),
+    and l → u: aues = alles.

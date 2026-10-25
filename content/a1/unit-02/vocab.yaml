@@ -150,6 +150,7 @@
   plural: "-"
   example: { de: "Einen Tee mit Milch, bitte.", en: "A tea with milk, please." }
   gswZh: Milch
+  gswBe: Miuch
   tags: [cafe, drinks]
 
 - id: bier
@@ -213,7 +214,8 @@
   plural: Frühstücke
   example: { de: "Das Frühstück kostet zwölf Franken.", en: "Breakfast costs twelve francs." }
   chStd: Morgenessen / Frühstück
-  gswZh: Zmorge (de Zmorge, masculine)
+  gswZh: Zmorge (de Zmorge; s Zmorge is also heard)
+  gswBe: Zmorge (ds Zmorge, neuter)
   tags: [cafe, food, helvetism]
 
 - id: rechnung

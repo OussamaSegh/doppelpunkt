@@ -1,7 +1,7 @@
 {
   "name": "doppelpunkt",
   "private": true,
-  "version": "0.1.0",
+  "version": "0.2.0",
   "type": "module",
   "workspaces": ["apps/*", "packages/*", "services/*", "tools"],
   "engines": { "node": ">=20" },
@@ -10,6 +10,10 @@
     "build": "npm run content:build && npm run build -w @doppelpunkt/web",
     "content:lint": "npm run lint -w @doppelpunkt/tools",
     "content:build": "npm run build-packs -w @doppelpunkt/tools",
+    "content:report": "npm run report -w @doppelpunkt/tools",
+    "audio:scripts": "npm run audio:scripts -w @doppelpunkt/tools --",
+    "audio:process": "npm run audio:process -w @doppelpunkt/tools --",
+    "audio:link": "npm run audio:link -w @doppelpunkt/tools --",
     "typecheck": "npm run typecheck --workspaces --if-present",
     "test": "vitest run",
     "test:e2e": "npm run test:e2e -w @doppelpunkt/web"

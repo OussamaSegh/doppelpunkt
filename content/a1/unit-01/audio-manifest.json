@@ -1,0 +1,3116 @@
+{
+  "unitId": "a1-u01",
+  "level": "A1",
+  "folder": "a1/unit-01",
+  "title": "Grüezi und Hallo!",
+  "delivery": {
+    "raw": "WAV or FLAC, 48 kHz, 24-bit, mono, one file per entry, named <file base>.wav",
+    "processed": [
+      "mp3 64 kbps mono 44.1 kHz",
+      "opus 32 kbps mono 48 kHz",
+      "EBU R128 -16 LUFS, true peak -1.5 dBTP"
+    ]
+  },
+  "entries": [
+    {
+      "file": "dialog-intro-01.mp3",
+      "kind": "dialogue-intro",
+      "text": "Guten Morgen! Ich bin Frau Keller. Wie heißen Sie?",
+      "en": "Good morning! I'm Ms Keller. What's your name?",
+      "variety": "de",
+      "voice": "de-f",
+      "speaker": "Frau Keller",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          0,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-01.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-02.mp3",
+      "kind": "dialogue-intro",
+      "text": "Guten Morgen! Ich heiße Tom Baker.",
+      "en": "Good morning! My name is Tom Baker.",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          1,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-02.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-03.mp3",
+      "kind": "dialogue-intro",
+      "text": "Woher kommen Sie, Herr Baker?",
+      "en": "Where do you come from, Mr Baker?",
+      "variety": "de",
+      "voice": "de-f",
+      "speaker": "Frau Keller",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          2,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-03.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-04.mp3",
+      "kind": "dialogue-intro",
+      "text": "Ich komme aus England, aus Manchester.",
+      "en": "I come from England, from Manchester.",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          3,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-04.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-05.mp3",
+      "kind": "dialogue-intro",
+      "text": "Willkommen in Zürich! Und wer sind Sie?",
+      "en": "Welcome to Zurich! And who are you?",
+      "variety": "de",
+      "voice": "de-f",
+      "speaker": "Frau Keller",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          4,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-05.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-06.mp3",
+      "kind": "dialogue-intro",
+      "text": "Ich bin Anna. Ich komme aus Deutschland, aus Hamburg.",
+      "en": "I'm Anna. I come from Germany, from Hamburg.",
+      "variety": "de",
+      "voice": "de-f",
+      "speaker": "Anna",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          5,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-06.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-07.mp3",
+      "kind": "dialogue-intro",
+      "text": "Hallo Anna! Wo wohnst du?",
+      "en": "Hi Anna! Where do you live?",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          6,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-07.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-08.mp3",
+      "kind": "dialogue-intro",
+      "text": "Ich wohne in Zürich. Und du?",
+      "en": "I live in Zurich. And you?",
+      "variety": "de",
+      "voice": "de-f",
+      "speaker": "Anna",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          7,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-08.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-09.mp3",
+      "kind": "dialogue-intro",
+      "text": "Ich wohne auch in Zürich. Freut mich!",
+      "en": "I live in Zurich too. Nice to meet you!",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          8,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-09.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-10.mp3",
+      "kind": "dialogue-intro",
+      "text": "Freut mich auch! Sprichst du Deutsch?",
+      "en": "Nice to meet you too! Do you speak German?",
+      "variety": "de",
+      "voice": "de-f",
+      "speaker": "Anna",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          9,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-10.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-11.mp3",
+      "kind": "dialogue-intro",
+      "text": "Ein bisschen. Ich lerne Deutsch – und Schweizerdeutsch!",
+      "en": "A little. I'm learning German – and Swiss German!",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          10,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-11.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-01.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Grüezi! Sind Sie neu da?",
+      "en": "Hello! Are you new here?",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          0,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-01.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-02.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Grüezi! Ja, ich bi d Sandra.",
+      "en": "Hello! Yes, I'm Sandra.",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          1,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-02.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-03.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Sali Sandra, ich bi de Reto. Wämmer grad Duzis mache?",
+      "en": "Hi Sandra, I'm Reto. Shall we just say du to each other?",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          2,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-03.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-04.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Gärn! Hoi Reto. Vo wo chunnsch du?",
+      "en": "Gladly! Hi Reto. Where are you from?",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          3,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-04.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-05.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Ich bi vo Winterthur, aber ich wohne scho lang z Züri.",
+      "en": "I'm from Winterthur, but I've lived in Zurich for a long time.",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          4,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-05.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-06.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Ah, cool. Ich chume us Bärn.",
+      "en": "Ah, cool. I come from Bern.",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          5,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-06.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-07.mp3",
+      "kind": "dialogue-swiss",
+      "text": "E Bärnerin, schön! Wie gaats dir?",
+      "en": "A Bernese woman, nice! How are you?",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          6,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-07.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-08.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Guet, merci. Und dir?",
+      "en": "Fine, thanks. And you?",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          7,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-08.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-09.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Au guet, merci. Tschüss Sandra, bis spöter!",
+      "en": "Fine too, thanks. Bye Sandra, see you later!",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          8,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-09.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-10.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Hoi Mami! Ja, i bi guet acho. Aues guet!",
+      "en": "Hi Mum! Yes, I've arrived safely. All good!",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          9,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-10.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-11.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Schön! U d Nachbare?",
+      "en": "Lovely! And the neighbours?",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "speaker": "Mami",
+      "voiceGuessed": true,
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          10,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-11.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-12.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Nätt! Tschou Mami!",
+      "en": "Nice! Bye, Mum!",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          11,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-12.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-guten-morgen.mp3",
+      "kind": "vocab",
+      "text": "Guten Morgen!",
+      "en": "Good morning!",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "guten-morgen",
+        "pointer": [
+          0,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-guten-morgen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-guten-morgen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Guten Morgen, Frau Keller!",
+      "en": "Good morning, Ms Keller!",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "guten-morgen",
+        "pointer": [
+          0,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-guten-morgen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-guten-morgen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Guete Morge!",
+      "en": "Good morning!",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "guten-morgen",
+        "pointer": [
+          0,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-guten-morgen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-guten-morgen-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "Guete Morge!",
+      "en": "Good morning!",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "guten-morgen",
+        "pointer": [
+          0,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-guten-morgen-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-guten-tag.mp3",
+      "kind": "vocab",
+      "text": "Guten Tag!",
+      "en": "Hello! / Good day! (polite)",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "guten-tag",
+        "pointer": [
+          1,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-guten-tag.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-guten-tag-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Guten Tag, Herr Baker!",
+      "en": "Hello, Mr Baker!",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "guten-tag",
+        "pointer": [
+          1,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-guten-tag-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-guten-tag-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Grüezi! / Grüezi mitenand!",
+      "note": "to a group",
+      "en": "Hello! / Good day! (polite)",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "guten-tag",
+        "pointer": [
+          1,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-guten-tag-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-guten-tag-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "Grüessech! / Grüessech mitenand!",
+      "en": "Hello! / Good day! (polite)",
+      "variety": "gsw-be",
+      "voice": "be-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "guten-tag",
+        "pointer": [
+          1,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-guten-tag-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-guten-abend.mp3",
+      "kind": "vocab",
+      "text": "Guten Abend!",
+      "en": "Good evening!",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "guten-abend",
+        "pointer": [
+          2,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-guten-abend.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-guten-abend-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Guten Abend! Wie geht es Ihnen?",
+      "en": "Good evening! How are you?",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "guten-abend",
+        "pointer": [
+          2,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-guten-abend-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-guten-abend-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Guete Abig!",
+      "en": "Good evening!",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "guten-abend",
+        "pointer": [
+          2,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-guten-abend-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-guten-abend-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "Guete Abe!",
+      "en": "Good evening!",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "guten-abend",
+        "pointer": [
+          2,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-guten-abend-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-hallo.mp3",
+      "kind": "vocab",
+      "text": "Hallo!",
+      "en": "Hi! / Hello! (informal)",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "hallo",
+        "pointer": [
+          3,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-hallo.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-hallo-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Hallo Anna!",
+      "en": "Hi Anna!",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "hallo",
+        "pointer": [
+          3,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-hallo-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-hallo-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Hoi! / Sali! / Salü! / Hallo!",
+      "en": "Hi! / Hello! (informal)",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "hallo",
+        "pointer": [
+          3,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-hallo-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-hallo-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "Hoi! / Sali! / Salü!",
+      "en": "Hi! / Hello! (informal)",
+      "variety": "gsw-be",
+      "voice": "be-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "hallo",
+        "pointer": [
+          3,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-hallo-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-tschuess.mp3",
+      "kind": "vocab",
+      "text": "Tschüss!",
+      "en": "Bye!",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "tschuess",
+        "pointer": [
+          4,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-tschuess.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-tschuess-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Tschüss, bis morgen!",
+      "en": "Bye, see you tomorrow!",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "tschuess",
+        "pointer": [
+          4,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-tschuess-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-tschuess-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Tschüss! / Tschau! / Ciao! / Adie!",
+      "en": "Bye!",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "tschuess",
+        "pointer": [
+          4,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-tschuess-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-tschuess-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "Tschou! / Ciao! / Adie!",
+      "en": "Bye!",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "tschuess",
+        "pointer": [
+          4,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-tschuess-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-auf-wiedersehen.mp3",
+      "kind": "vocab",
+      "text": "Auf Wiedersehen!",
+      "en": "Goodbye! (polite)",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "auf-wiedersehen",
+        "pointer": [
+          5,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-auf-wiedersehen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-auf-wiedersehen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Auf Wiedersehen, Frau Keller!",
+      "en": "Goodbye, Ms Keller!",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "auf-wiedersehen",
+        "pointer": [
+          5,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-auf-wiedersehen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-auf-wiedersehen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Uf Widerluege! / Uf Wiederluege! / Adie!",
+      "en": "Goodbye! (polite)",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "auf-wiedersehen",
+        "pointer": [
+          5,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-auf-wiedersehen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-auf-wiedersehen-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "Uf Widerluege! / Adieu!",
+      "en": "Goodbye! (polite)",
+      "variety": "gsw-be",
+      "voice": "be-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "auf-wiedersehen",
+        "pointer": [
+          5,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-auf-wiedersehen-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wie-gehts.mp3",
+      "kind": "vocab",
+      "text": "Wie geht's?",
+      "en": "How are you? / How's it going? (informal)",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wie-gehts",
+        "pointer": [
+          6,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-wie-gehts.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wie-gehts-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Hallo Tom, wie geht's?",
+      "en": "Hi Tom, how's it going?",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wie-gehts",
+        "pointer": [
+          6,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-wie-gehts-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wie-gehts-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Wie gaats? / Wie gahts?",
+      "en": "How are you? / How's it going? (informal)",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wie-gehts",
+        "pointer": [
+          6,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-wie-gehts-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wie-gehts-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "Wie geits?",
+      "en": "How are you? / How's it going? (informal)",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wie-gehts",
+        "pointer": [
+          6,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-wie-gehts-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wie-geht-es-ihnen.mp3",
+      "kind": "vocab",
+      "text": "Wie geht es Ihnen?",
+      "en": "How are you? (polite)",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wie-geht-es-ihnen",
+        "pointer": [
+          7,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-wie-geht-es-ihnen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wie-geht-es-ihnen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Guten Tag, Frau Keller! Wie geht es Ihnen?",
+      "en": "Hello, Ms Keller! How are you?",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wie-geht-es-ihnen",
+        "pointer": [
+          7,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-wie-geht-es-ihnen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wie-geht-es-ihnen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Wie gaats Ine? / Wie gahts Ihne?",
+      "en": "How are you? (polite)",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wie-geht-es-ihnen",
+        "pointer": [
+          7,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-wie-geht-es-ihnen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wie-geht-es-ihnen-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "Wie geits Ech?",
+      "en": "How are you? (polite)",
+      "variety": "gsw-be",
+      "voice": "be-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wie-geht-es-ihnen",
+        "pointer": [
+          7,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-wie-geht-es-ihnen-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gut.mp3",
+      "kind": "vocab",
+      "text": "gut",
+      "en": "good, well",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gut",
+        "pointer": [
+          8,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-gut.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gut-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Danke, gut!",
+      "en": "Fine, thanks!",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gut",
+        "pointer": [
+          8,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-gut-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gut-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "guet",
+      "en": "good, well",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gut",
+        "pointer": [
+          8,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-gut-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-danke.mp3",
+      "kind": "vocab",
+      "text": "danke",
+      "en": "thank you, thanks",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "danke",
+        "pointer": [
+          9,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-danke.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-danke-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Gut, danke. Und dir?",
+      "en": "Fine, thanks. And you?",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "danke",
+        "pointer": [
+          9,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-danke-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-danke-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "merci / danke",
+      "en": "thank you, thanks",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "danke",
+        "pointer": [
+          9,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-danke-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-vielen-dank.mp3",
+      "kind": "vocab",
+      "text": "Vielen Dank!",
+      "en": "Thank you very much!",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "vielen-dank",
+        "pointer": [
+          10,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-vielen-dank.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-vielen-dank-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Vielen Dank, Frau Keller!",
+      "en": "Thank you very much, Ms Keller!",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "vielen-dank",
+        "pointer": [
+          10,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-vielen-dank-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-vielen-dank-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Merci vilmal! / Danke vilmal!",
+      "en": "Thank you very much!",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "vielen-dank",
+        "pointer": [
+          10,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-vielen-dank-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-vielen-dank-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "Merci viumau! / Danke viumau!",
+      "en": "Thank you very much!",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "vielen-dank",
+        "pointer": [
+          10,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-vielen-dank-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-bitte.mp3",
+      "kind": "vocab",
+      "text": "bitte",
+      "en": "please; you're welcome",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "bitte",
+        "pointer": [
+          11,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-bitte.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-bitte-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Danke! – Bitte!",
+      "en": "Thanks! – You're welcome!",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "bitte",
+        "pointer": [
+          11,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-bitte-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-bitte-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "bitte / gärn gscheh",
+      "note": "you're welcome",
+      "en": "please; you're welcome",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "bitte",
+        "pointer": [
+          11,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-bitte-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-ja.mp3",
+      "kind": "vocab",
+      "text": "ja",
+      "en": "yes",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "ja",
+        "pointer": [
+          12,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-ja.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-ja-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ja, ich bin Tom.",
+      "en": "Yes, I'm Tom.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "ja",
+        "pointer": [
+          12,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-ja-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-ja-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "ja / jo",
+      "en": "yes",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "ja",
+        "pointer": [
+          12,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-ja-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-nein.mp3",
+      "kind": "vocab",
+      "text": "nein",
+      "en": "no",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "nein",
+        "pointer": [
+          13,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-nein.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-nein-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Nein, ich komme aus England.",
+      "en": "No, I come from England.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "nein",
+        "pointer": [
+          13,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-nein-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-nein-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "nei",
+      "en": "no",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "nein",
+        "pointer": [
+          13,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-nein-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-entschuldigung.mp3",
+      "kind": "vocab",
+      "text": "Entschuldigung!",
+      "en": "Excuse me! / Sorry!",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "entschuldigung",
+        "pointer": [
+          14,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-entschuldigung.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-entschuldigung-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Entschuldigung, sind Sie Frau Keller?",
+      "en": "Excuse me, are you Ms Keller?",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "entschuldigung",
+        "pointer": [
+          14,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-entschuldigung-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-entschuldigung-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Exgüsi! / Entschuldigung!",
+      "en": "Excuse me! / Sorry!",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "entschuldigung",
+        "pointer": [
+          14,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-entschuldigung-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-freut-mich.mp3",
+      "kind": "vocab",
+      "text": "Freut mich!",
+      "en": "Nice to meet you!",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "freut-mich",
+        "pointer": [
+          15,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-freut-mich.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-freut-mich-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich heiße Anna. – Freut mich!",
+      "en": "I'm Anna. – Nice to meet you!",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "freut-mich",
+        "pointer": [
+          15,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-freut-mich-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-freut-mich-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Freut mi!",
+      "en": "Nice to meet you!",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "freut-mich",
+        "pointer": [
+          15,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-freut-mich-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-freut-mich-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "Fröit mi!",
+      "en": "Nice to meet you!",
+      "variety": "gsw-be",
+      "voice": "be-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "freut-mich",
+        "pointer": [
+          15,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-freut-mich-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-name.mp3",
+      "kind": "vocab",
+      "text": "Name",
+      "en": "name",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "name",
+        "pointer": [
+          16,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-name.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-name-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Mein Name ist Tom Baker.",
+      "en": "My name is Tom Baker.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "name",
+        "pointer": [
+          16,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-name-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-name-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Name",
+      "en": "name",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "name",
+        "pointer": [
+          16,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-name-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-vorname.mp3",
+      "kind": "vocab",
+      "text": "Vorname",
+      "en": "first name",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "vorname",
+        "pointer": [
+          17,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-vorname.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-vorname-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Mein Vorname ist Tom.",
+      "en": "My first name is Tom.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "vorname",
+        "pointer": [
+          17,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-vorname-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-heissen.mp3",
+      "kind": "vocab",
+      "text": "heißen",
+      "en": "to be called",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "heissen",
+        "pointer": [
+          18,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-heissen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-heissen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Wie heißt du? – Ich heiße Mia.",
+      "en": "What's your name? – My name is Mia.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "heissen",
+        "pointer": [
+          18,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-heissen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-heissen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "heisse",
+      "note": "ich heisse, du heissisch",
+      "en": "to be called",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "heissen",
+        "pointer": [
+          18,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-heissen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-heissen-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "heisse",
+      "note": "i heisse, du heissisch",
+      "en": "to be called",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "heissen",
+        "pointer": [
+          18,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-heissen-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kommen.mp3",
+      "kind": "vocab",
+      "text": "kommen",
+      "en": "to come",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kommen",
+        "pointer": [
+          19,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-kommen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kommen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich komme aus England.",
+      "en": "I come from England.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kommen",
+        "pointer": [
+          19,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-kommen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kommen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "cho",
+      "note": "ich chume, du chunnsch, er chunnt",
+      "en": "to come",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kommen",
+        "pointer": [
+          19,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-kommen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kommen-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "cho",
+      "note": "i chume, du chunsch, är chunnt",
+      "en": "to come",
+      "variety": "gsw-be",
+      "voice": "be-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kommen",
+        "pointer": [
+          19,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-kommen-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wohnen.mp3",
+      "kind": "vocab",
+      "text": "wohnen",
+      "en": "to live (reside)",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wohnen",
+        "pointer": [
+          20,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-wohnen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wohnen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Wir wohnen in Zürich.",
+      "en": "We live in Zurich.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wohnen",
+        "pointer": [
+          20,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-wohnen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wohnen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "wohne",
+      "note": "ich wohne, du wohnsch",
+      "en": "to live (reside)",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wohnen",
+        "pointer": [
+          20,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-wohnen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sein.mp3",
+      "kind": "vocab",
+      "text": "sein",
+      "en": "to be",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sein",
+        "pointer": [
+          21,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-sein.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sein-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich bin Tom. Das ist Anna.",
+      "en": "I'm Tom. This is Anna.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sein",
+        "pointer": [
+          21,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-sein-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sein-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "sii",
+      "note": "ich bi, du bisch, er isch, mir sind",
+      "en": "to be",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sein",
+        "pointer": [
+          21,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-sein-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sein-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "sy",
+      "note": "i bi, du bisch, är isch, mir sy",
+      "en": "to be",
+      "variety": "gsw-be",
+      "voice": "be-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sein",
+        "pointer": [
+          21,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-sein-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sprechen.mp3",
+      "kind": "vocab",
+      "text": "sprechen",
+      "en": "to speak",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sprechen",
+        "pointer": [
+          22,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-sprechen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sprechen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Sprichst du Englisch?",
+      "en": "Do you speak English?",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sprechen",
+        "pointer": [
+          22,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-sprechen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sprechen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "rede – spräche is rare",
+      "note": "ich red, du redsch",
+      "en": "to speak",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sprechen",
+        "pointer": [
+          22,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-sprechen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sprechen-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "rede",
+      "note": "i rede, du redsch",
+      "en": "to speak",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sprechen",
+        "pointer": [
+          22,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-sprechen-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-lernen.mp3",
+      "kind": "vocab",
+      "text": "lernen",
+      "en": "to learn, to study",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "lernen",
+        "pointer": [
+          23,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-lernen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-lernen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich lerne Deutsch.",
+      "en": "I'm learning German.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "lernen",
+        "pointer": [
+          23,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-lernen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-lernen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "lerne",
+      "en": "to learn, to study",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "lernen",
+        "pointer": [
+          23,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-lernen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-land.mp3",
+      "kind": "vocab",
+      "text": "Land",
+      "en": "country",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "land",
+        "pointer": [
+          24,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-land.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-land-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Aus welchem Land kommst du?",
+      "en": "Which country do you come from?",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "land",
+        "pointer": [
+          24,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-land-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-land-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Land",
+      "en": "country",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "land",
+        "pointer": [
+          24,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-land-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-stadt.mp3",
+      "kind": "vocab",
+      "text": "Stadt",
+      "en": "town, city",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "stadt",
+        "pointer": [
+          25,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-stadt.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-stadt-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Zürich ist eine Stadt in der Schweiz.",
+      "en": "Zurich is a city in Switzerland.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "stadt",
+        "pointer": [
+          25,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-stadt-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-stadt-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Stadt",
+      "en": "town, city",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "stadt",
+        "pointer": [
+          25,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-stadt-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-deutsch.mp3",
+      "kind": "vocab",
+      "text": "Deutsch",
+      "en": "German (language)",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "deutsch",
+        "pointer": [
+          26,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-deutsch.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-deutsch-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich lerne Deutsch.",
+      "en": "I'm learning German.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "deutsch",
+        "pointer": [
+          26,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-deutsch-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-deutsch-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Tüütsch / Düütsch / Dütsch",
+      "en": "German (language)",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "deutsch",
+        "pointer": [
+          26,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-deutsch-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-deutsch-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "Dütsch",
+      "en": "German (language)",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "deutsch",
+        "pointer": [
+          26,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-deutsch-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-englisch.mp3",
+      "kind": "vocab",
+      "text": "Englisch",
+      "en": "English (language)",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "englisch",
+        "pointer": [
+          27,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-englisch.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-englisch-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Sprechen Sie Englisch?",
+      "en": "Do you speak English?",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "englisch",
+        "pointer": [
+          27,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-englisch-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-englisch-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Änglisch",
+      "en": "English (language)",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "englisch",
+        "pointer": [
+          27,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-englisch-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-schweizerdeutsch.mp3",
+      "kind": "vocab",
+      "text": "Schweizerdeutsch",
+      "en": "Swiss German (the dialects)",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "schweizerdeutsch",
+        "pointer": [
+          28,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-schweizerdeutsch.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-schweizerdeutsch-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Frau Keller spricht Schweizerdeutsch.",
+      "en": "Ms Keller speaks Swiss German.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "schweizerdeutsch",
+        "pointer": [
+          28,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-schweizerdeutsch-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-schweizerdeutsch-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Schwiizertüütsch / Schwiizerdüütsch / Schwyzerdütsch",
+      "en": "Swiss German (the dialects)",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "schweizerdeutsch",
+        "pointer": [
+          28,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-schweizerdeutsch-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-schweizerdeutsch-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "Schwyzerdütsch / Bärndütsch",
+      "note": "Bernese",
+      "en": "Swiss German (the dialects)",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "schweizerdeutsch",
+        "pointer": [
+          28,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-schweizerdeutsch-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-schweiz.mp3",
+      "kind": "vocab",
+      "text": "Schweiz",
+      "en": "Switzerland",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "schweiz",
+        "pointer": [
+          29,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-schweiz.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-schweiz-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich wohne in der Schweiz.",
+      "en": "I live in Switzerland.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "schweiz",
+        "pointer": [
+          29,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-schweiz-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-schweiz-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "d Schwiiz / d Schwyz",
+      "en": "Switzerland",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "schweiz",
+        "pointer": [
+          29,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-schweiz-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-zuerich.mp3",
+      "kind": "vocab",
+      "text": "Zürich",
+      "en": "Zurich",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "zuerich",
+        "pointer": [
+          30,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-zuerich.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-zuerich-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Wohnst du in Zürich?",
+      "en": "Do you live in Zurich?",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "zuerich",
+        "pointer": [
+          30,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-zuerich-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-zuerich-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Züri",
+      "note": "in Zürich = z Züri",
+      "en": "Zurich",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "zuerich",
+        "pointer": [
+          30,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-zuerich-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-herr.mp3",
+      "kind": "vocab",
+      "text": "Herr",
+      "en": "Mr; gentleman",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "herr",
+        "pointer": [
+          31,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-herr.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-herr-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Guten Tag, Herr Baker!",
+      "en": "Hello, Mr Baker!",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "herr",
+        "pointer": [
+          31,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-herr-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-herr-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Herr",
+      "en": "Mr; gentleman",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "herr",
+        "pointer": [
+          31,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-herr-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-frau.mp3",
+      "kind": "vocab",
+      "text": "Frau",
+      "en": "Ms, Mrs; woman",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "frau",
+        "pointer": [
+          32,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-frau.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-frau-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Das ist Frau Keller.",
+      "en": "This is Ms Keller.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "frau",
+        "pointer": [
+          32,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-frau-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-frau-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Frau",
+      "en": "Ms, Mrs; woman",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "frau",
+        "pointer": [
+          32,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-frau-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wer.mp3",
+      "kind": "vocab",
+      "text": "wer",
+      "en": "who",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wer",
+        "pointer": [
+          33,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-wer.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wer-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Wer ist das?",
+      "en": "Who is that?",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wer",
+        "pointer": [
+          33,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-wer-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wer-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "wer",
+      "en": "who",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wer",
+        "pointer": [
+          33,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-wer-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wie.mp3",
+      "kind": "vocab",
+      "text": "wie",
+      "en": "how",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wie",
+        "pointer": [
+          34,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-wie.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wie-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Wie heißen Sie?",
+      "en": "What is your name? (literally: How are you called?)",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wie",
+        "pointer": [
+          34,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-wie-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wie-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "wie",
+      "en": "how",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wie",
+        "pointer": [
+          34,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-wie-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wo.mp3",
+      "kind": "vocab",
+      "text": "wo",
+      "en": "where",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wo",
+        "pointer": [
+          35,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-wo.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wo-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Wo wohnst du?",
+      "en": "Where do you live?",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wo",
+        "pointer": [
+          35,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-wo-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wo-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "wo",
+      "en": "where",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wo",
+        "pointer": [
+          35,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-wo-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-woher.mp3",
+      "kind": "vocab",
+      "text": "woher",
+      "en": "where from",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "woher",
+        "pointer": [
+          36,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-woher.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-woher-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Woher kommen Sie?",
+      "en": "Where do you come from?",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "woher",
+        "pointer": [
+          36,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-woher-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-woher-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "vo wo",
+      "en": "where from",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "woher",
+        "pointer": [
+          36,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-woher-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-was.mp3",
+      "kind": "vocab",
+      "text": "was",
+      "en": "what",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "was",
+        "pointer": [
+          37,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-was.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-was-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Was ist das?",
+      "en": "What is that?",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "was",
+        "pointer": [
+          37,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-was-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-was-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "was",
+      "en": "what",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "was",
+        "pointer": [
+          37,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-was-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-auch.mp3",
+      "kind": "vocab",
+      "text": "auch",
+      "en": "also, too",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "auch",
+        "pointer": [
+          38,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-auch.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-auch-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich wohne auch in Zürich.",
+      "en": "I live in Zurich too.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "auch",
+        "pointer": [
+          38,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-auch-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-auch-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "au",
+      "en": "also, too",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "auch",
+        "pointer": [
+          38,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-auch-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-aus.mp3",
+      "kind": "vocab",
+      "text": "aus",
+      "en": "from (origin); out of",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "aus",
+        "pointer": [
+          39,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-aus.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-aus-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Anna kommt aus Deutschland.",
+      "en": "Anna comes from Germany.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "aus",
+        "pointer": [
+          39,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-aus-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-aus-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "us / vo",
+      "note": "with towns",
+      "en": "from (origin); out of",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "aus",
+        "pointer": [
+          39,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-aus-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-u01-dictation-anna.mp3",
+      "kind": "dictation",
+      "text": "Guten Tag! Ich heiße Anna und ich komme aus Deutschland.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a1-u01-dictation-anna",
+        "pointer": [
+          23,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a1-u01-dictation-anna.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-u01-dictation-woher.mp3",
+      "kind": "dictation",
+      "text": "Woher kommen Sie, Herr Baker?",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a1-u01-dictation-woher",
+        "pointer": [
+          24,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a1-u01-dictation-woher.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-u01-dictation-wir.mp3",
+      "kind": "dictation",
+      "text": "Wir sind Tom und Anna. Wir wohnen auch in Zürich.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a1-u01-dictation-wir",
+        "pointer": [
+          25,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a1-u01-dictation-wir.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-u01-speak-intro.mp3",
+      "kind": "speak",
+      "text": "Guten Morgen! Ich heiße Tom. Ich komme aus England, und ich wohne in Zürich.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a1-u01-speak-intro",
+        "pointer": [
+          26,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a1-u01-speak-intro.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-u01-speak-questions.mp3",
+      "kind": "speak",
+      "text": "Wie heißen Sie? Woher kommen Sie? Wo wohnen Sie?",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a1-u01-speak-questions",
+        "pointer": [
+          27,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a1-u01-speak-questions.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-u01-speak-ei-ie.mp3",
+      "kind": "speak",
+      "text": "Ich heiße Lisa. Wie heißt sie? Sie heißt Lisa.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a1-u01-speak-ei-ie",
+        "pointer": [
+          28,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a1-u01-speak-ei-ie.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-u01-ch-mcq-vo-wo.mp3",
+      "kind": "listening",
+      "text": "Vo wo chunnsch du?",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a1-u01-ch-mcq-vo-wo",
+        "pointer": [
+          39,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a1-u01-ch-mcq-vo-wo.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-u01-ch-mcq-duzis.mp3",
+      "kind": "listening",
+      "text": "Wämmer grad Duzis mache?",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a1-u01-ch-mcq-duzis",
+        "pointer": [
+          40,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a1-u01-ch-mcq-duzis.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-u01-ch-be-mcq-gruessech.mp3",
+      "kind": "listening",
+      "text": "Grüessech!",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a1-u01-ch-be-mcq-gruessech",
+        "pointer": [
+          44,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a1-u01-ch-be-mcq-gruessech.mp3",
+      "referenced": false
+    }
+  ]
+}
