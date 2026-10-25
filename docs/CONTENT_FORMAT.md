@@ -267,6 +267,11 @@ Examples of each type:
 - **A1–A2:** Swiss items are about comprehension and recognition: gsw→de transforms, listening MCQs,
   matching, and recognition-level de→gsw transforms with many accepted spellings. Do not ask
   learners to produce free dialect before B1.
+- **A2 guided production:** from A2.1 each unit may add one `gap` item with `variety: gsw-zh` in which
+  the learner writes a single dialect form that the unit has just taught (a participle such as
+  *gmacht*, an auxiliary *sind / händ*, a dative article *em / de*). Give the Standard form or the choice
+  in the prompt ("Guided production: …"), list every common spelling, and keep the rest of the sentence
+  given. The id keeps the `-ch-` infix (`a2-u01-ch-gap-participles`).
 - **Bernese at A1–A2:** 2–4 recognition items per unit (`variety: gsw-be`: gsw-be → de transforms,
   listening MCQs, matching) and, where it fits, a few `gsw-be` dialogue lines. Use only forms you can
   source (for example berndeutsch.ch) and record the source in `docs/NATIVE_REVIEW.md`.

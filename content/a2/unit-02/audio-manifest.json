@@ -1,0 +1,2655 @@
+{
+  "unitId": "a2-u02",
+  "level": "A2",
+  "folder": "a2/unit-02",
+  "title": "Reisen und Ferien",
+  "delivery": {
+    "raw": "WAV or FLAC, 48 kHz, 24-bit, mono, one file per entry, named <file base>.wav",
+    "processed": [
+      "mp3 64 kbps mono 44.1 kHz",
+      "opus 32 kbps mono 48 kHz",
+      "EBU R128 -16 LUFS, true peak -1.5 dBTP"
+    ]
+  },
+  "entries": [
+    {
+      "file": "dialog-intro-01.mp3",
+      "kind": "dialogue-intro",
+      "text": "Hallo Tom! Du bist ja ganz braun! Wo bist du in den Ferien gewesen?",
+      "en": "Hi Tom! You're really tanned! Where were you on holiday?",
+      "variety": "ch-std",
+      "voice": "zh-f",
+      "speaker": "Nadine",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          0,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-01.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-02.mp3",
+      "kind": "dialogue-intro",
+      "text": "Ich war eine Woche im Tessin, in Lugano.",
+      "en": "I was in Ticino for a week, in Lugano.",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          1,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-02.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-03.mp3",
+      "kind": "dialogue-intro",
+      "text": "Schön! Bist du mit dem Zug gefahren?",
+      "en": "Lovely! Did you go by train?",
+      "variety": "ch-std",
+      "voice": "zh-f",
+      "speaker": "Nadine",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          2,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-03.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-04.mp3",
+      "kind": "dialogue-intro",
+      "text": "Ja, durch den Gotthard-Basistunnel. Die Reise hat nur zwei Stunden gedauert.",
+      "en": "Yes, through the Gotthard Base Tunnel. The journey only took two hours.",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          3,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-04.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-05.mp3",
+      "kind": "dialogue-intro",
+      "text": "Und wo hast du gewohnt?",
+      "en": "And where did you stay?",
+      "variety": "ch-std",
+      "voice": "zh-f",
+      "speaker": "Nadine",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          4,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-05.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-06.mp3",
+      "kind": "dialogue-intro",
+      "text": "In einem kleinen Hotel am See. Mein Zimmer hatte einen Balkon mit Aussicht auf den See.",
+      "en": "In a small hotel by the lake. My room had a balcony with a view of the lake.",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          5,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-06.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-07.mp3",
+      "kind": "dialogue-intro",
+      "text": "Und was hast du gemacht?",
+      "en": "And what did you do?",
+      "variety": "ch-std",
+      "voice": "zh-f",
+      "speaker": "Nadine",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          6,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-07.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-08.mp3",
+      "kind": "dialogue-intro",
+      "text": "Ich bin viel gewandert und jeden Tag im See geschwommen.",
+      "en": "I went hiking a lot and swam in the lake every day.",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          7,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-08.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-09.mp3",
+      "kind": "dialogue-intro",
+      "text": "War das Wasser nicht kalt?",
+      "en": "Wasn't the water cold?",
+      "variety": "ch-std",
+      "voice": "zh-f",
+      "speaker": "Nadine",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          8,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-09.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-10.mp3",
+      "kind": "dialogue-intro",
+      "text": "Doch, ein bisschen! Am Abend habe ich immer Risotto gegessen, und ich bin nie früh ins Bett gegangen.",
+      "en": "Yes, a bit! In the evening I always ate risotto, and I never went to bed early.",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          9,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-10.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-11.mp3",
+      "kind": "dialogue-intro",
+      "text": "Das klingt nach Ferien! Ich fahre im Dezember nach Graubünden, aber ich habe noch kein Hotel.",
+      "en": "That sounds like a holiday! I'm going to Graubünden in December, but I don't have a hotel yet.",
+      "variety": "ch-std",
+      "voice": "zh-f",
+      "speaker": "Nadine",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          10,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-11.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-12.mp3",
+      "kind": "dialogue-intro",
+      "text": "Ich habe mein Hotel online gebucht. Das war ganz einfach.",
+      "en": "I booked my hotel online. It was really easy.",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          11,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-12.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-01.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Hoi Reto! Du bisch ja ganz bruun! Wo bisch i de Ferie gsii?",
+      "en": "Hi Reto! You're really tanned! Where were you on holiday?",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          0,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-01.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-02.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Im Tessin! Mir sind mit em Zug is Tessin gfahre, mini Fründin und ich.",
+      "en": "In Ticino! We went to Ticino by train, my girlfriend and I.",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          1,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-02.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-03.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Und, wie isch es gsii?",
+      "en": "And how was it?",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          2,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-03.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-04.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Mega schön! Mir sind jede Tag gwanderet und im Lago Maggiore gschwumme.",
+      "en": "Really lovely! We went hiking every day and swam in Lake Maggiore.",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          3,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-04.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-05.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Und s Wätter?",
+      "en": "And the weather?",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          4,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-05.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-06.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Am Aafang hät s grägnet, aber dänn isch es heiss gsii.",
+      "en": "At the beginning it rained, but then it was hot.",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          5,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-06.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-07.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Wo händ ihr gwohnt?",
+      "en": "Where did you stay?",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          6,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-07.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-08.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Inere Ferienwohnig z Ascona. Und du? Gaasch du au no i d Ferie?",
+      "en": "In a holiday flat in Ascona. And you? Are you going on holiday too?",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          7,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-08.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-09.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Ja, im Dezämber gang ich uf Grindelwald go Ski fahre.",
+      "en": "Yes, in December I'm going skiing in Grindelwald.",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          8,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-09.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-10.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Grindelwald? Mir sy im Summer o z Grindelwald gsy. Es isch wunderschön gsy!",
+      "en": "Grindelwald? We were in Grindelwald too in the summer. It was wonderful!",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "speaker": "Mami",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          9,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-10.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-11.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Syt dir mit em Zug gfahre?",
+      "en": "Did you go by train?",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          10,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-11.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-12.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Nei, mit em Outo.",
+      "en": "No, by car.",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "speaker": "Mami",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          11,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-12.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-reise.mp3",
+      "kind": "vocab",
+      "text": "Reise",
+      "en": "journey, trip",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "reise",
+        "pointer": [
+          0,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-reise.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-reise-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Die Reise hat vier Stunden gedauert.",
+      "en": "The journey took four hours.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "reise",
+        "pointer": [
+          0,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-reise-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-reise-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Reis",
+      "en": "journey, trip",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "reise",
+        "pointer": [
+          0,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-reise-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-reisen.mp3",
+      "kind": "vocab",
+      "text": "reisen",
+      "en": "to travel",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "reisen",
+        "pointer": [
+          1,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-reisen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-reisen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Lena ist mit dem Zug durch die Schweiz gereist.",
+      "en": "Lena travelled through Switzerland by train.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "reisen",
+        "pointer": [
+          1,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-reisen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-reisen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "reise",
+      "en": "to travel",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "reisen",
+        "pointer": [
+          1,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-reisen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-ferien.mp3",
+      "kind": "vocab",
+      "text": "Ferien",
+      "en": "holidays, vacation",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "ferien",
+        "pointer": [
+          2,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-ferien.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-ferien-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Wo bist du in den Ferien gewesen?",
+      "en": "Where were you on holiday?",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "ferien",
+        "pointer": [
+          2,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-ferien-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-ferien-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Ferie",
+      "note": "i d Ferie gaa",
+      "en": "holidays, vacation",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "ferien",
+        "pointer": [
+          2,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-ferien-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-urlaub.mp3",
+      "kind": "vocab",
+      "text": "Urlaub",
+      "en": "holiday, leave (from work)",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "urlaub",
+        "pointer": [
+          3,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-urlaub.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-urlaub-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich habe zwei Wochen Urlaub.",
+      "en": "I have two weeks off.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "urlaub",
+        "pointer": [
+          3,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-urlaub-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-urlaub-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Ferie / Urlaub",
+      "en": "holiday, leave (from work)",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "urlaub",
+        "pointer": [
+          3,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-urlaub-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-fliegen.mp3",
+      "kind": "vocab",
+      "text": "fliegen",
+      "en": "to fly",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "fliegen",
+        "pointer": [
+          4,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-fliegen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-fliegen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Wir sind nach London geflogen.",
+      "en": "We flew to London.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "fliegen",
+        "pointer": [
+          4,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-fliegen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-fliegen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "flüüge",
+      "note": "gflooge",
+      "en": "to fly",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "fliegen",
+        "pointer": [
+          4,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-fliegen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-flughafen.mp3",
+      "kind": "vocab",
+      "text": "Flughafen",
+      "en": "airport",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "flughafen",
+        "pointer": [
+          5,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-flughafen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-flughafen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Der Flughafen Zürich ist in Kloten.",
+      "en": "Zurich airport is in Kloten.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "flughafen",
+        "pointer": [
+          5,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-flughafen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-flughafen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Flughafe",
+      "en": "airport",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "flughafen",
+        "pointer": [
+          5,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-flughafen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-flugzeug.mp3",
+      "kind": "vocab",
+      "text": "Flugzeug",
+      "en": "plane",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "flugzeug",
+        "pointer": [
+          6,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-flugzeug.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-flugzeug-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Das Flugzeug ist pünktlich gelandet.",
+      "en": "The plane landed on time.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "flugzeug",
+        "pointer": [
+          6,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-flugzeug-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-flugzeug-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Flugzüg",
+      "en": "plane",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "flugzeug",
+        "pointer": [
+          6,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-flugzeug-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-ankommen.mp3",
+      "kind": "vocab",
+      "text": "ankommen",
+      "en": "to arrive",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "ankommen",
+        "pointer": [
+          7,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-ankommen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-ankommen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Der Zug ist um acht Uhr in Lugano angekommen.",
+      "en": "The train arrived in Lugano at eight.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "ankommen",
+        "pointer": [
+          7,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-ankommen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-ankommen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "aacho",
+      "note": "ich chume aa, participle aacho",
+      "en": "to arrive",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "ankommen",
+        "pointer": [
+          7,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-ankommen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-ankunft.mp3",
+      "kind": "vocab",
+      "text": "Ankunft",
+      "en": "arrival",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "ankunft",
+        "pointer": [
+          8,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-ankunft.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-ankunft-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Die Ankunft in Lugano ist um 10.12 Uhr.",
+      "en": "Arrival in Lugano is at 10.12.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "ankunft",
+        "pointer": [
+          8,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-ankunft-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-ankunft-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Aakunft",
+      "en": "arrival",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "ankunft",
+        "pointer": [
+          8,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-ankunft-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gleis.mp3",
+      "kind": "vocab",
+      "text": "Gleis",
+      "en": "track, platform (number)",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gleis",
+        "pointer": [
+          9,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-gleis.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gleis-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Der Zug nach Lugano fährt auf Gleis acht.",
+      "en": "The train to Lugano leaves from platform eight.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gleis",
+        "pointer": [
+          9,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-gleis-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gleis-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Gleis",
+      "en": "track, platform (number)",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gleis",
+        "pointer": [
+          9,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-gleis-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-verspaetung.mp3",
+      "kind": "vocab",
+      "text": "Verspätung",
+      "en": "delay",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "verspaetung",
+        "pointer": [
+          10,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-verspaetung.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-verspaetung-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Der Zug hat zehn Minuten Verspätung.",
+      "en": "The train is ten minutes late.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "verspaetung",
+        "pointer": [
+          10,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-verspaetung-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-verspaetung-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Verspätig",
+      "en": "delay",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "verspaetung",
+        "pointer": [
+          10,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-verspaetung-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-einfach-retour.mp3",
+      "kind": "vocab",
+      "text": "einfach / hin und zurück",
+      "en": "single / return (ticket)",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "einfach-retour",
+        "pointer": [
+          11,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-einfach-retour.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-einfach-retour-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Eine Fahrkarte nach Hamburg, hin und zurück, bitte.",
+      "en": "A return ticket to Hamburg, please.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "einfach-retour",
+        "pointer": [
+          11,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-einfach-retour-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-einfach-retour-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "eifach / retour",
+      "en": "single / return (ticket)",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "einfach-retour",
+        "pointer": [
+          11,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-einfach-retour-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-koffer.mp3",
+      "kind": "vocab",
+      "text": "Koffer",
+      "en": "suitcase",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "koffer",
+        "pointer": [
+          12,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-koffer.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-koffer-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich habe meinen Koffer schon gepackt.",
+      "en": "I've already packed my suitcase.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "koffer",
+        "pointer": [
+          12,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-koffer-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-koffer-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Koffer",
+      "en": "suitcase",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "koffer",
+        "pointer": [
+          12,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-koffer-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gepaeck.mp3",
+      "kind": "vocab",
+      "text": "Gepäck",
+      "en": "luggage",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gepaeck",
+        "pointer": [
+          13,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-gepaeck.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gepaeck-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Wo ist dein Gepäck?",
+      "en": "Where is your luggage?",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gepaeck",
+        "pointer": [
+          13,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-gepaeck-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gepaeck-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Gepäck",
+      "en": "luggage",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gepaeck",
+        "pointer": [
+          13,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-gepaeck-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-packen.mp3",
+      "kind": "vocab",
+      "text": "packen",
+      "en": "to pack",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "packen",
+        "pointer": [
+          14,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-packen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-packen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Hast du den Koffer gepackt?",
+      "en": "Have you packed the suitcase?",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "packen",
+        "pointer": [
+          14,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-packen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-packen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "packe",
+      "note": "packt",
+      "en": "to pack",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "packen",
+        "pointer": [
+          14,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-packen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-hotel.mp3",
+      "kind": "vocab",
+      "text": "Hotel",
+      "en": "hotel",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "hotel",
+        "pointer": [
+          15,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-hotel.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-hotel-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Wir haben in einem Hotel am See gewohnt.",
+      "en": "We stayed in a hotel by the lake.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "hotel",
+        "pointer": [
+          15,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-hotel-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-hotel-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Hotel",
+      "en": "hotel",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "hotel",
+        "pointer": [
+          15,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-hotel-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-jugendherberge.mp3",
+      "kind": "vocab",
+      "text": "Jugendherberge",
+      "en": "youth hostel",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "jugendherberge",
+        "pointer": [
+          16,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-jugendherberge.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-jugendherberge-ex.mp3",
+      "kind": "vocab-example",
+      "text": "In Zermatt habe ich in einer Jugendherberge übernachtet.",
+      "en": "In Zermatt I stayed in a youth hostel.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "jugendherberge",
+        "pointer": [
+          16,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-jugendherberge-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-jugendherberge-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Jugi / Jugendherbärg",
+      "note": "colloquial",
+      "en": "youth hostel",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "jugendherberge",
+        "pointer": [
+          16,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-jugendherberge-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-ferienwohnung.mp3",
+      "kind": "vocab",
+      "text": "Ferienwohnung",
+      "en": "holiday flat",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "ferienwohnung",
+        "pointer": [
+          17,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-ferienwohnung.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-ferienwohnung-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Wir haben eine Ferienwohnung in Ascona gemietet.",
+      "en": "We rented a holiday flat in Ascona.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "ferienwohnung",
+        "pointer": [
+          17,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-ferienwohnung-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-ferienwohnung-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Ferienwohnig",
+      "en": "holiday flat",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "ferienwohnung",
+        "pointer": [
+          17,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-ferienwohnung-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-einzelzimmer.mp3",
+      "kind": "vocab",
+      "text": "Einzelzimmer",
+      "en": "single room",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "einzelzimmer",
+        "pointer": [
+          18,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-einzelzimmer.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-einzelzimmer-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ein Einzelzimmer kostet 120 Franken pro Nacht.",
+      "en": "A single room costs 120 francs a night.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "einzelzimmer",
+        "pointer": [
+          18,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-einzelzimmer-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-einzelzimmer-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Einzelzimmer",
+      "en": "single room",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "einzelzimmer",
+        "pointer": [
+          18,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-einzelzimmer-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-doppelzimmer.mp3",
+      "kind": "vocab",
+      "text": "Doppelzimmer",
+      "en": "double room",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "doppelzimmer",
+        "pointer": [
+          19,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-doppelzimmer.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-doppelzimmer-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Haben Sie noch ein Doppelzimmer frei?",
+      "en": "Do you still have a double room available?",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "doppelzimmer",
+        "pointer": [
+          19,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-doppelzimmer-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-doppelzimmer-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Doppelzimmer",
+      "en": "double room",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "doppelzimmer",
+        "pointer": [
+          19,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-doppelzimmer-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-uebernachtung.mp3",
+      "kind": "vocab",
+      "text": "Übernachtung",
+      "en": "overnight stay",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "uebernachtung",
+        "pointer": [
+          20,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-uebernachtung.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-uebernachtung-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Die Übernachtung mit Frühstück kostet 90 Franken.",
+      "en": "The night with breakfast costs 90 francs.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "uebernachtung",
+        "pointer": [
+          20,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-uebernachtung-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-uebernachtung-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Übernachtig",
+      "en": "overnight stay",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "uebernachtung",
+        "pointer": [
+          20,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-uebernachtung-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-rezeption.mp3",
+      "kind": "vocab",
+      "text": "Rezeption",
+      "en": "reception (desk)",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "rezeption",
+        "pointer": [
+          21,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-rezeption.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-rezeption-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Den Schlüssel bekommen Sie an der Rezeption.",
+      "en": "You get the key at reception.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "rezeption",
+        "pointer": [
+          21,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-rezeption-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-rezeption-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Rezeption",
+      "en": "reception (desk)",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "rezeption",
+        "pointer": [
+          21,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-rezeption-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-reservieren.mp3",
+      "kind": "vocab",
+      "text": "reservieren",
+      "en": "to reserve, to book",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "reservieren",
+        "pointer": [
+          22,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-reservieren.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-reservieren-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich möchte ein Doppelzimmer für zwei Nächte reservieren.",
+      "en": "I'd like to book a double room for two nights.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "reservieren",
+        "pointer": [
+          22,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-reservieren-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-reservieren-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "reserviere",
+      "en": "to reserve, to book",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "reservieren",
+        "pointer": [
+          22,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-reservieren-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-buchen.mp3",
+      "kind": "vocab",
+      "text": "buchen",
+      "en": "to book",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "buchen",
+        "pointer": [
+          23,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-buchen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-buchen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich habe das Hotel online gebucht.",
+      "en": "I booked the hotel online.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "buchen",
+        "pointer": [
+          23,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-buchen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-buchen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "bueche",
+      "note": "buecht",
+      "en": "to book",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "buchen",
+        "pointer": [
+          23,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-buchen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-strand.mp3",
+      "kind": "vocab",
+      "text": "Strand",
+      "en": "beach",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "strand",
+        "pointer": [
+          24,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-strand.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-strand-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Wir haben den ganzen Tag am Strand gelegen.",
+      "en": "We lay on the beach all day.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "strand",
+        "pointer": [
+          24,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-strand-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-strand-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Strand",
+      "en": "beach",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "strand",
+        "pointer": [
+          24,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-strand-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-meer.mp3",
+      "kind": "vocab",
+      "text": "Meer",
+      "en": "sea",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "meer",
+        "pointer": [
+          25,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-meer.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-meer-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Die Schweiz hat kein Meer, aber viele Seen.",
+      "en": "Switzerland has no sea, but lots of lakes.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "meer",
+        "pointer": [
+          25,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-meer-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-meer-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Meer",
+      "en": "sea",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "meer",
+        "pointer": [
+          25,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-meer-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-landschaft.mp3",
+      "kind": "vocab",
+      "text": "Landschaft",
+      "en": "landscape, scenery",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "landschaft",
+        "pointer": [
+          26,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-landschaft.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-landschaft-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Die Landschaft war wunderschön.",
+      "en": "The scenery was beautiful.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "landschaft",
+        "pointer": [
+          26,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-landschaft-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-landschaft-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Landschaft",
+      "en": "landscape, scenery",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "landschaft",
+        "pointer": [
+          26,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-landschaft-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-tal.mp3",
+      "kind": "vocab",
+      "text": "Tal",
+      "en": "valley",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "tal",
+        "pointer": [
+          27,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-tal.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-tal-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Der Zug fährt durch viele Täler.",
+      "en": "The train goes through lots of valleys.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "tal",
+        "pointer": [
+          27,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-tal-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-tal-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Tal",
+      "en": "valley",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "tal",
+        "pointer": [
+          27,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-tal-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-aussicht.mp3",
+      "kind": "vocab",
+      "text": "Aussicht",
+      "en": "view",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "aussicht",
+        "pointer": [
+          28,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-aussicht.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-aussicht-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Das Zimmer hat eine Aussicht auf den See.",
+      "en": "The room has a view of the lake.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "aussicht",
+        "pointer": [
+          28,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-aussicht-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-aussicht-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Uussicht",
+      "en": "view",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "aussicht",
+        "pointer": [
+          28,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-aussicht-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sehenswuerdigkeit.mp3",
+      "kind": "vocab",
+      "text": "Sehenswürdigkeit",
+      "en": "sight, place of interest",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sehenswuerdigkeit",
+        "pointer": [
+          29,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-sehenswuerdigkeit.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sehenswuerdigkeit-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Das Matterhorn ist eine berühmte Sehenswürdigkeit.",
+      "en": "The Matterhorn is a famous sight.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sehenswuerdigkeit",
+        "pointer": [
+          29,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-sehenswuerdigkeit-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sehenswuerdigkeit-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Sehenswürdigkeit",
+      "en": "sight, place of interest",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sehenswuerdigkeit",
+        "pointer": [
+          29,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-sehenswuerdigkeit-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-besichtigen.mp3",
+      "kind": "vocab",
+      "text": "besichtigen",
+      "en": "to visit, to see (a sight)",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "besichtigen",
+        "pointer": [
+          30,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-besichtigen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-besichtigen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "In Bern haben wir die Altstadt besichtigt.",
+      "en": "In Bern we visited the old town.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "besichtigen",
+        "pointer": [
+          30,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-besichtigen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-besichtigen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "aaluege / besichtige",
+      "en": "to visit, to see (a sight)",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "besichtigen",
+        "pointer": [
+          30,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-besichtigen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-seilbahn.mp3",
+      "kind": "vocab",
+      "text": "Seilbahn",
+      "en": "cable car",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "seilbahn",
+        "pointer": [
+          31,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-seilbahn.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-seilbahn-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Wir sind mit der Seilbahn auf den Berg gefahren.",
+      "en": "We went up the mountain by cable car.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "seilbahn",
+        "pointer": [
+          31,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-seilbahn-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-seilbahn-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Seilbahn / Bähnli",
+      "en": "cable car",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "seilbahn",
+        "pointer": [
+          31,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-seilbahn-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wanderung.mp3",
+      "kind": "vocab",
+      "text": "Wanderung",
+      "en": "hike",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wanderung",
+        "pointer": [
+          32,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-wanderung.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wanderung-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Die Wanderung hat fünf Stunden gedauert.",
+      "en": "The hike took five hours.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wanderung",
+        "pointer": [
+          32,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-wanderung-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wanderung-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Wanderig",
+      "en": "hike",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wanderung",
+        "pointer": [
+          32,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-wanderung-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-postkarte.mp3",
+      "kind": "vocab",
+      "text": "Postkarte",
+      "en": "postcard",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "postkarte",
+        "pointer": [
+          33,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-postkarte.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-postkarte-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich habe dir eine Postkarte geschrieben.",
+      "en": "I wrote you a postcard.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "postkarte",
+        "pointer": [
+          33,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-postkarte-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-postkarte-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Poschtcharte / Charte",
+      "en": "postcard",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "postkarte",
+        "pointer": [
+          33,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-postkarte-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-passieren.mp3",
+      "kind": "vocab",
+      "text": "passieren",
+      "en": "to happen",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "passieren",
+        "pointer": [
+          34,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-passieren.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-passieren-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Was ist passiert?",
+      "en": "What happened?",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "passieren",
+        "pointer": [
+          34,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-passieren-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-passieren-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "passiere",
+      "en": "to happen",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "passieren",
+        "pointer": [
+          34,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-passieren-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wunderschoen.mp3",
+      "kind": "vocab",
+      "text": "wunderschön",
+      "en": "beautiful, wonderful",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wunderschoen",
+        "pointer": [
+          35,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-wunderschoen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wunderschoen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Die Aussicht war wunderschön.",
+      "en": "The view was beautiful.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wunderschoen",
+        "pointer": [
+          35,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-wunderschoen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wunderschoen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "wunderschön",
+      "en": "beautiful, wonderful",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wunderschoen",
+        "pointer": [
+          35,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-wunderschoen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u02-mcq-listening-gleis.mp3",
+      "kind": "listening",
+      "text": "Sprecherin: Information zum Eurocity nach Lugano und Milano, Abfahrt 9.33 Uhr: Der Zug fährt heute auf Gleis acht, nicht auf Gleis neun.",
+      "variety": "ch-std",
+      "voice": "zh-f",
+      "speaker": "Sprecherin",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u02-mcq-listening-gleis",
+        "pointer": [
+          24,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u02-mcq-listening-gleis.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u02-dictation-angekommen.mp3",
+      "kind": "dictation",
+      "text": "Wir sind am Montag in Lugano angekommen.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u02-dictation-angekommen",
+        "pointer": [
+          25,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u02-dictation-angekommen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u02-dictation-war.mp3",
+      "kind": "dictation",
+      "text": "Letzten Sommer war ich zwei Wochen in Italien.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u02-dictation-war",
+        "pointer": [
+          26,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u02-dictation-war.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u02-speak-frame.mp3",
+      "kind": "speak",
+      "text": "Letzten Sommer bin ich nach Italien gefahren. Ich habe in einem Hotel am Meer gewohnt und bin jeden Tag geschwommen.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u02-speak-frame",
+        "pointer": [
+          27,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u02-speak-frame.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u02-speak-shadow-tom.mp3",
+      "kind": "speak",
+      "text": "Doch, ein bisschen! Am Abend habe ich immer Risotto gegessen, und ich bin nie früh ins Bett gegangen.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u02-speak-shadow-tom",
+        "pointer": [
+          28,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u02-speak-shadow-tom.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u02-speak-shadow-nadine.mp3",
+      "kind": "speak",
+      "text": "Hallo Tom! Du bist ja ganz braun! Wo bist du in den Ferien gewesen?",
+      "variety": "ch-std",
+      "voice": "zh-m",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u02-speak-shadow-nadine",
+        "pointer": [
+          29,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u02-speak-shadow-nadine.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u02-speak-intonation.mp3",
+      "kind": "speak",
+      "text": "Guten Tag! Haben Sie noch ein Doppelzimmer frei? Ist das Frühstück dabei?",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u02-speak-intonation",
+        "pointer": [
+          30,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u02-speak-intonation.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u02-speak-pron-w.mp3",
+      "kind": "speak",
+      "text": "Wir waren vier Wochen in den Ferien und sind viel gewandert.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u02-speak-pron-w",
+        "pointer": [
+          31,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u02-speak-pron-w.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u02-ch-mcq-wetter.mp3",
+      "kind": "listening",
+      "text": "Reto: Am Aafang hät s grägnet, aber dänn isch es heiss gsii.",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u02-ch-mcq-wetter",
+        "pointer": [
+          38,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u02-ch-mcq-wetter.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u02-ch-be-mcq-grindelwald.mp3",
+      "kind": "listening",
+      "text": "Mami: Grindelwald? Mir sy im Summer o z Grindelwald gsy. Es isch wunderschön gsy!",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "speaker": "Mami",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u02-ch-be-mcq-grindelwald",
+        "pointer": [
+          44,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u02-ch-be-mcq-grindelwald.mp3",
+      "referenced": false
+    }
+  ]
+}

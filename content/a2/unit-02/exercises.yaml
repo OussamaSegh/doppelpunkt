@@ -1,0 +1,695 @@
+# A2 unit 2 – Reisen und Ferien
+
+# ---------- vocabulary ----------
+- id: a2-u02-match-travel
+  type: match
+  skill: vocabulary
+  variety: de
+  prompt: Match the travel words with English.
+  pairs:
+    - ["der Koffer", "suitcase"]
+    - ["das Gepäck", "luggage"]
+    - ["der Flughafen", "airport"]
+    - ["die Verspätung", "delay"]
+    - ["die Aussicht", "view"]
+    - ["die Ankunft", "arrival"]
+  explanation: >-
+    Plurals: die Koffer (no change), die Flughäfen, die Verspätungen, die Aussichten, die Ankünfte. das
+    Gepäck has no plural – like luggage in English.
+
+- id: a2-u02-match-rooms
+  type: match
+  skill: vocabulary
+  variety: de
+  grammar: [travel-booking]
+  prompt: Match the accommodation words with English.
+  pairs:
+    - ["das Einzelzimmer", "single room"]
+    - ["das Doppelzimmer", "double room"]
+    - ["die Jugendherberge", "youth hostel"]
+    - ["die Ferienwohnung", "holiday flat"]
+    - ["die Übernachtung", "overnight stay"]
+  explanation: >-
+    Compounds take the gender of the last word: das Zimmer → das Einzelzimmer, die Wohnung → die
+    Ferienwohnung. Swiss young people call the youth hostel die Jugi.
+
+# ---------- grammar: sein or haben ----------
+- id: a2-u02-mcq-sind-gefahren
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [perfekt-sein]
+  prompt: Choose the correct auxiliary.
+  question: Wir ___ mit dem Zug nach Lugano gefahren.
+  options: ["haben", "hat", "sind", "seid"]
+  answer: 2
+  rationales:
+    - "Movement to a place takes sein."
+    - "Movement takes sein – and hat is not the wir form."
+    - "Correct. wir sind gefahren."
+    - "seid goes with ihr."
+  explanation: >-
+    fahren nach Lugano is movement from A to B, so the Perfekt uses sein: Wir sind … gefahren. English
+    always uses have – German doesn't.
+
+- id: a2-u02-gap-sein-haben
+  type: gap
+  skill: grammar
+  variety: de
+  grammar: [perfekt-sein, perfekt-haben]
+  prompt: "Fill in a form of sein or haben."
+  text: Ich ___ nach Zürich geflogen. Dort ___ ich ein Hotel gebucht. Am Abend ___ ich im Hotel geblieben.
+  answers: [["bin"], ["habe"], ["bin"]]
+  explanation: >-
+    fliegen (movement) → bin geflogen; buchen has an object (ein Hotel) → habe gebucht; bleiben always takes
+    sein → bin geblieben.
+
+- id: a2-u02-mcq-geblieben
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [perfekt-sein]
+  prompt: Choose the correct auxiliary.
+  question: Am Sonntag hat es geregnet. Wir ___ den ganzen Tag im Hotel geblieben.
+  options: ["sind", "haben", "hatten", "waren"]
+  answer: 0
+  rationales:
+    - "Correct. bleiben takes sein."
+    - "bleiben is one of the verbs with sein, although nothing moves."
+    - "hatten is the past of haben, not an auxiliary for the Perfekt here."
+    - "waren + participle would be a different tense (pluperfect) – not A2."
+  explanation: >-
+    sein, bleiben and passieren take sein in the Perfekt: Wir sind geblieben. Was ist passiert?
+
+- id: a2-u02-mcq-aufgestanden
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [perfekt-sein, participles-irregular]
+  prompt: Choose the correct sentence.
+  options: ["Ich habe um sechs Uhr aufgestanden.", "Ich bin um sechs Uhr aufgestanden.", "Ich bin um sechs Uhr aufgesteht.", "Ich bin um sechs Uhr gestanden auf."]
+  answer: 1
+  rationales:
+    - "aufstehen is a change of state: sein."
+    - "Correct. bin … aufgestanden."
+    - "stehen is irregular: gestanden."
+    - "The separable participle is one word at the end: aufgestanden."
+  explanation: >-
+    aufstehen (from lying to standing) is a change of state → sein. It is irregular and separable:
+    auf-ge-standen.
+
+- id: a2-u02-mcq-auto-gefahren
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [perfekt-sein, perfekt-haben]
+  prompt: "Careful! Choose the correct auxiliary."
+  question: Ich ___ das Auto meiner Schwester gefahren.
+  options: ["bin", "ist", "sind", "habe"]
+  answer: 3
+  rationales:
+    - "Here fahren has an object (das Auto): haben."
+    - "ist goes with er / sie / es."
+    - "sind goes with wir / sie."
+    - "Correct. With an accusative object fahren takes haben."
+  explanation: >-
+    fahren + an accusative object (das Auto) = to drive something → haben: Ich habe das Auto gefahren. fahren
+    to a place → sein: Ich bin nach Bern gefahren.
+
+- id: a2-u02-order-tessin
+  type: order
+  skill: grammar
+  variety: de
+  grammar: [perfekt-sein]
+  prompt: Put the words in order.
+  tokens: ["Wir", "sind", "mit", "dem", "Zug", "ins", "Tessin", "gefahren"]
+  answers: ["Wir sind mit dem Zug ins Tessin gefahren.", "Mit dem Zug sind wir ins Tessin gefahren.", "Ins Tessin sind wir mit dem Zug gefahren."]
+  explanation: >-
+    sind in position 2, gefahren at the end. How (mit dem Zug) usually comes before where to (ins Tessin):
+    the German order is time – manner – place.
+
+- id: a2-u02-order-angekommen
+  type: order
+  skill: grammar
+  variety: de
+  grammar: [perfekt-sein, participles-irregular]
+  prompt: "Put the words in order. (pünktlich = on time)"
+  tokens: ["Der", "Zug", "ist", "pünktlich", "in", "Lugano", "angekommen"]
+  answers: ["Der Zug ist pünktlich in Lugano angekommen.", "In Lugano ist der Zug pünktlich angekommen.", "Pünktlich ist der Zug in Lugano angekommen."]
+  explanation: >-
+    ankommen is separable and irregular: an-ge-kommen, and it takes sein (arrival = movement). The
+    participle closes the sentence.
+
+- id: a2-u02-transform-fliegen
+  type: transform
+  skill: grammar
+  variety: de
+  grammar: [perfekt-sein, participles-irregular]
+  prompt: "Put the sentence into the Perfekt."
+  from: de
+  to: de
+  source: Ich fliege nach London.
+  answers: ["Ich bin nach London geflogen."]
+  explanation: >-
+    fliegen: movement → sein; irregular participle with o: geflogen. fliege → bin … geflogen.
+
+# ---------- grammar: irregular participles ----------
+- id: a2-u02-gap-irregular
+  type: gap
+  skill: grammar
+  variety: de
+  grammar: [participles-irregular]
+  prompt: "Write the participles: schlafen – lesen – essen."
+  text: In den Ferien habe ich viel ___, viel ___ und gut ___.
+  answers: [["geschlafen"], ["gelesen"], ["gegessen"]]
+  explanation: >-
+    Irregular participles end in -en. These three keep the stem vowel: geschlafen, gelesen, gegessen (with an
+    extra g). All three take haben.
+
+- id: a2-u02-gap-irregular-vowel
+  type: gap
+  skill: grammar
+  variety: de
+  grammar: [participles-irregular, perfekt-sein]
+  prompt: "Write the participles: schwimmen – schreiben – trinken."
+  text: Wir sind im See ___. Ich habe drei Postkarten ___. Am Abend haben wir Wein ___.
+  answers: [["geschwommen"], ["geschrieben"], ["getrunken"]]
+  explanation: >-
+    The stem vowel changes: schwimmen → geschwommen (i → o), schreiben → geschrieben (ei → ie), trinken →
+    getrunken (i → u). Learn the participle with the verb.
+
+- id: a2-u02-match-participles
+  type: match
+  skill: grammar
+  variety: de
+  grammar: [participles-irregular]
+  prompt: Match the verbs with their participles.
+  pairs:
+    - ["fliegen", "geflogen"]
+    - ["bleiben", "geblieben"]
+    - ["gehen", "gegangen"]
+    - ["finden", "gefunden"]
+    - ["nehmen", "genommen"]
+    - ["bringen", "gebracht"]
+  explanation: >-
+    Vowel patterns: ie → o (geflogen), ei → ie (geblieben), i → u (gefunden), e → o (genommen). gehen →
+    gegangen is unique. bringen is a mixed verb: new vowel, but -t like a regular verb.
+
+# ---------- grammar: war and hatte ----------
+- id: a2-u02-gap-war-hatte
+  type: gap
+  skill: grammar
+  variety: de
+  grammar: [praeteritum-sein-haben]
+  prompt: "Fill in war, wart or hatten."
+  text: Das Wetter ___ super. Wir ___ ein Zimmer mit Balkon. Und ihr? ___ ihr auch am See?
+  answers: [["war"], ["hatten"], ["Wart", "wart"]]
+  explanation: >-
+    das Wetter → war (no ending for er/sie/es); wir → hatten; ihr → wart. With sein and haben the
+    Präteritum is the normal way to talk about the past.
+
+- id: a2-u02-mcq-warst
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [praeteritum-sein-haben]
+  prompt: Choose the correct form.
+  question: Wo ___ du in den Ferien?
+  options: ["warst", "war", "wart", "warte"]
+  answer: 0
+  rationales:
+    - "Correct. du warst."
+    - "war goes with ich and er / sie / es."
+    - "wart goes with ihr."
+    - "warte comes from warten (to wait)."
+  explanation: >-
+    sein in the Präteritum: ich war, du warst, er war, wir waren, ihr wart, sie waren. Wo warst du? is more
+    natural than Wo bist du gewesen? in Germany; in Switzerland you hear both.
+
+- id: a2-u02-transform-war
+  type: transform
+  skill: grammar
+  variety: de
+  grammar: [praeteritum-sein-haben]
+  prompt: "Say it with war or hatte instead of the Perfekt."
+  from: de
+  to: de
+  source: Wir sind in Bern gewesen und haben viel Spaß gehabt.
+  answers: ["Wir waren in Bern und hatten viel Spaß.", "Wir waren in Bern und hatten viel Spass."]
+  explanation: >-
+    sind … gewesen → waren, haben … gehabt → hatten. One word instead of two – that's why speakers prefer it
+    with sein and haben.
+
+# ---------- booking ----------
+- id: a2-u02-mcq-polite-room
+  type: mcq
+  skill: speaking
+  variety: de
+  grammar: [travel-booking]
+  prompt: You arrive at a hotel without a booking. What's the best way to ask for a room?
+  options: ["Ich will ein Zimmer.", "Gib mir ein Zimmer!", "Guten Tag! Haben Sie noch ein Doppelzimmer frei?", "Ein Zimmer ist frei?"]
+  answer: 2
+  rationales:
+    - "Grammatically fine, but ich will sounds demanding."
+    - "du and an imperative are rude to a receptionist."
+    - "Correct. A polite yes/no question with Sie."
+    - "A yes/no question starts with the verb: Ist ein Zimmer frei?"
+  explanation: >-
+    Haben Sie noch ein … frei? (Do you still have a … available?) is the standard question. Use Sie and the
+    verb first.
+
+- id: a2-u02-gap-booking
+  type: gap
+  skill: writing
+  variety: de
+  grammar: [travel-booking]
+  prompt: "Complete the booking request: Nächte – bis – Nacht."
+  text: Ich möchte ein Doppelzimmer für zwei ___ reservieren, vom 3. ___ 5. Mai. Was kostet die ___?
+  answers: [["Nächte"], ["bis", "bis zum"], ["Nacht"]]
+  explanation: >-
+    die Nacht → zwei Nächte (umlaut in the plural). vom … bis (zum) … for a period of dates. Was kostet die
+    Nacht? = How much is it per night?
+
+- id: a2-u02-translate-billett
+  type: translate
+  skill: writing
+  variety: ch-std
+  grammar: [travel-booking]
+  prompt: "Translate into Swiss Standard German (at a Swiss station)."
+  source: A return ticket to Lugano, please.
+  answers: ["Ein Billett nach Lugano, retour, bitte.", "Ein Billett nach Lugano retour, bitte.", "Einmal Lugano retour, bitte.", "Ein Retourbillett nach Lugano, bitte.", "Eine Fahrkarte nach Lugano, hin und zurück, bitte."]
+  explanation: >-
+    In Switzerland: das Billett and retour (return) or einfach (single). In Germany: eine Fahrkarte, hin und
+    zurück. nach for towns.
+
+- id: a2-u02-translate-zug
+  type: translate
+  skill: writing
+  variety: de
+  grammar: [perfekt-sein]
+  prompt: Translate into German.
+  source: We went to Italy by train.
+  answers: ["Wir sind mit dem Zug nach Italien gefahren.", "Mit dem Zug sind wir nach Italien gefahren.", "Wir sind mit der Bahn nach Italien gefahren."]
+  explanation: >-
+    went by train = sind mit dem Zug gefahren (not gegangen: gehen means on foot). Movement → sein.
+
+# ---------- reading ----------
+- id: a2-u02-mcq-reading-zermatt
+  type: mcq
+  skill: reading
+  variety: de
+  grammar: [praeteritum-sein-haben, participles-irregular]
+  prompt: Read "Mit dem Zug durch die Schweiz". Why was Lena lucky on Wednesday?
+  options: ["The hostel was free.", "The train was on time.", "The weather was perfect and she saw the Matterhorn.", "She met Anna and Tom."]
+  answer: 2
+  explanation: >-
+    "Am Mittwoch hatte ich Glück: Das Wetter war perfekt, und ich habe das Matterhorn gesehen!" Glück haben =
+    to be lucky; hatte and war are the Präteritum of haben and sein.
+
+- id: a2-u02-mcq-reading-sein-verbs
+  type: mcq
+  skill: reading
+  variety: de
+  grammar: [perfekt-sein]
+  prompt: In Lena's text, which of these verbs forms the Perfekt with sein?
+  options: ["fotografieren", "übernachten", "schreiben", "weiterfahren"]
+  answer: 3
+  rationales:
+    - "Ich habe viel fotografiert – haben."
+    - "Ich habe … übernachtet – haben (staying, not moving)."
+    - "Ich habe Postkarten geschrieben – haben."
+    - "Correct. Ich bin nach Lugano weitergefahren – movement."
+  explanation: >-
+    In the text, sein goes with reisen, ankommen, aufstehen, fahren, weiterfahren, schwimmen and fliegen –
+    all movement or change. übernachten (to stay the night) takes haben.
+
+- id: a2-u02-translate-reading
+  type: translate
+  skill: reading
+  variety: de
+  grammar: [perfekt-sein, praeteritum-sein-haben]
+  prompt: Translate into English.
+  source: Dort war es warm, und ich bin im See geschwommen.
+  answers: ["It was warm there, and I swam in the lake.", "There it was warm and I swam in the lake.", "It was warm there and I went swimming in the lake."]
+  explanation: >-
+    war = was (Präteritum of sein), bin … geschwommen = swam (Perfekt with sein: swimming is movement).
+
+# ---------- listening ----------
+- id: a2-u02-mcq-listening-where
+  type: mcq
+  skill: listening
+  variety: de
+  grammar: [praeteritum-sein-haben]
+  prompt: Listen to the intro dialogue again. Where was Tom, and for how long?
+  options: ["In Graubünden for two weeks", "In Lugano for a week", "In Locarno for a weekend", "In Lugano for two hours"]
+  answer: 1
+  explanation: >-
+    "Ich war eine Woche im Tessin, in Lugano." Two hours was the train journey through the Gotthard Base
+    Tunnel. das Tessin = Ticino, the Italian-speaking canton.
+
+- id: a2-u02-mcq-listening-gleis
+  type: mcq
+  skill: listening
+  variety: ch-std
+  grammar: [travel-booking]
+  prompt: You are at Zurich main station. Listen to the announcement. From which platform does the train to Lugano leave?
+  transcript: |-
+    Sprecherin: Information zum Eurocity nach Lugano und Milano, Abfahrt 9.33 Uhr: Der Zug fährt heute auf Gleis acht, nicht auf Gleis neun.
+  options: ["Platform 9", "Platform 33", "Platform 18", "Platform 8"]
+  answer: 3
+  explanation: >-
+    "Der Zug fährt heute auf Gleis acht, nicht auf Gleis neun." auf Gleis = from platform. 9.33 is the
+    departure time (Abfahrt).
+
+- id: a2-u02-dictation-angekommen
+  type: dictation
+  skill: listening
+  variety: de
+  grammar: [perfekt-sein, participles-irregular]
+  prompt: Listen and write what you hear.
+  transcript: Wir sind am Montag in Lugano angekommen.
+  explanation: >-
+    ankommen → sind … angekommen: sein for arrival, -ge- inside the separable participle.
+
+- id: a2-u02-dictation-war
+  type: dictation
+  skill: listening
+  variety: de
+  grammar: [praeteritum-sein-haben]
+  prompt: Listen and write what you hear.
+  transcript: Letzten Sommer war ich zwei Wochen in Italien.
+  explanation: >-
+    Letzten Sommer (der Sommer → letzten) in position 1, then war, then ich. war = the past of sein.
+
+# ---------- speaking ----------
+- id: a2-u02-speak-frame
+  type: speak
+  skill: speaking
+  variety: de
+  grammar: [perfekt-sein, perfekt-haben]
+  prompt: "Read aloud, then talk about your last holiday: where, how and what you did."
+  target: Letzten Sommer bin ich nach Italien gefahren. Ich habe in einem Hotel am Meer gewohnt und bin jeden Tag geschwommen.
+  explanation: >-
+    Two auxiliaries in one story: bin gefahren, bin geschwommen (movement) but habe gewohnt (staying). Stress
+    the participles: ge-FAH-ren, ge-WOHNT, ge-SCHWOM-men.
+
+- id: a2-u02-speak-shadow-tom
+  type: speak
+  skill: speaking
+  variety: de
+  grammar: [perfekt-sein, participles-irregular]
+  prompt: "Shadowing: speak along with Tom's line from the intro dialogue, then say it alone."
+  target: Doch, ein bisschen! Am Abend habe ich immer Risotto gegessen, und ich bin nie früh ins Bett gegangen.
+  explanation: >-
+    Doch! answers a negative question (War das Wasser nicht kalt?) – stress it. Then a calm, falling story
+    rhythm: ge-GES-sen, ge-GAN-gen.
+
+- id: a2-u02-speak-shadow-nadine
+  type: speak
+  skill: speaking
+  variety: ch-std
+  grammar: [perfekt-sein]
+  prompt: "Shadowing: speak along with Nadine, then say it alone."
+  target: Hallo Tom! Du bist ja ganz braun! Wo bist du in den Ferien gewesen?
+  explanation: >-
+    Swiss Standard German: Wo bist du … gewesen? (where Germans often say Wo warst du?), die Ferien, and
+    the r in braun and Ferien tapped at the front. See the drill The Swiss Standard German accent.
+
+- id: a2-u02-speak-intonation
+  type: speak
+  skill: speaking
+  variety: de
+  grammar: [travel-booking]
+  prompt: "Intonation: polite yes/no questions rise at the end."
+  target: Guten Tag! Haben Sie noch ein Doppelzimmer frei? Ist das Frühstück dabei?
+  explanation: >-
+    Both questions start with the verb and rise on the last stressed word: … DOP-pelzimmer FREI? … da-BEI?
+    A friendly rise sounds polite; a falling tone sounds like a demand.
+
+- id: a2-u02-speak-pron-w
+  type: speak
+  skill: speaking
+  variety: de
+  grammar: [perfekt-sein]
+  prompt: "Pronunciation: w, v and f. Read aloud slowly."
+  target: Wir waren vier Wochen in den Ferien und sind viel gewandert.
+  explanation: >-
+    German w is English v (wir, waren, Wochen, gewandert); German v is usually f (vier, viel); f is f
+    (Ferien). See the drill w, v and f.
+
+# ---------- roleplay and writing ----------
+- id: a2-u02-roleplay-lena
+  type: roleplay
+  skill: speaking
+  variety: de
+  grammar: [perfekt-sein, perfekt-haben, participles-irregular, praeteritum-sein-haben]
+  tutor: lena
+  prompt: "Roleplay with Lena: tell her about your last trip."
+  scenario: >-
+    Lena has just come back from her train trip through Switzerland and wants to hear about your last
+    holiday. Tell her where you went, how you travelled, where you stayed and what you did. Ask her one
+    question about her trip.
+  goals:
+    - Say where you went and how (Ich bin mit dem Zug / mit dem Flugzeug nach … gefahren / geflogen).
+    - Say where you stayed (Ich habe in einem Hotel / in einer Ferienwohnung gewohnt).
+    - Say what you did, with sein and haben (Ich bin gewandert, ich habe viel gesehen).
+    - Use war or hatte at least once (Das Wetter war …, Wir hatten Glück).
+  model: |
+    Lena: Und du? Wo warst du in den Ferien?
+    Du: Ich war im August in Spanien. Ich bin nach Barcelona geflogen.
+    Lena: Toll! Wo hast du gewohnt?
+    Du: In einer Ferienwohnung in der Altstadt. Ich bin jeden Tag an den Strand gegangen und im Meer geschwommen.
+    Lena: Und wie war das Wetter?
+    Du: Sehr heiß! Wir hatten jeden Tag Sonne. Und du? Hast du das Matterhorn gesehen?
+    Lena: Ja! Ich hatte Glück.
+  explanation: >-
+    A holiday story mixes the auxiliaries: bin geflogen / gegangen / geschwommen (movement), habe gewohnt /
+    gesehen; and war / hatte for the weather and luck.
+
+- id: a2-u02-write-postcard
+  type: write
+  skill: writing
+  variety: de
+  grammar: [perfekt-sein, perfekt-haben, participles-irregular, praeteritum-sein-haben]
+  prompt: Write a holiday postcard.
+  task: >-
+    Write a postcard (6–8 sentences) to a friend from your holiday – or about a past holiday. Say where you
+    are or were, how you travelled, where you are staying, what you have done (at least four things), and
+    how the weather was. End with a greeting.
+  minWords: 50
+  model: >-
+    Liebe Anna, viele Grüße aus Graubünden! Ich bin am Samstag mit dem Zug nach Scuol gefahren. Die Reise war
+    lang, aber die Landschaft war wunderschön. Ich wohne in einem kleinen Hotel mit Aussicht auf die Berge.
+    Am Sonntag bin ich mit der Seilbahn auf einen Berg gefahren und drei Stunden gewandert. Gestern habe ich
+    ein Museum besichtigt und viel gelesen. Das Wetter war leider nicht so gut: Es hat zwei Tage geregnet.
+    Bis bald! Dein Tom
+  checklist:
+    - I use sein with movement and change (bin gefahren, bin gewandert, bin aufgestanden) and haben with the rest.
+    - Irregular participles end in -en (gefahren, geschwommen, gesehen, gelesen).
+    - I use war / hatte for sein and haben in the past (Das Wetter war …).
+    - The participle is at the end of each sentence.
+    - I start with Liebe … / Lieber … and end with a greeting and my name.
+  explanation: >-
+    Postcards mix present (Ich wohne …) and past (Ich bin … gefahren). Check each Perfekt: does the verb
+    describe movement or change? Then sein.
+
+# ---------- Swiss Standard German ----------
+- id: a2-u02-chstd-mcq-gelegen
+  type: mcq
+  skill: grammar
+  variety: ch-std
+  grammar: [perfekt-sein]
+  prompt: "A Swiss colleague says: \"Ich bin den ganzen Tag am Strand gelegen.\" Is that correct Standard German?"
+  options: ["No – it's a dialect form.", "No – liegen always takes haben.", "Only in writing.", "Yes – in Switzerland, Austria and southern Germany liegen, sitzen and stehen take sein."]
+  answer: 3
+  rationales:
+    - "It is Standard German, not dialect."
+    - "Only in northern and central Germany."
+    - "It is used in speech and writing."
+    - "Correct. Duden lists sein for these verbs in southern German, Austrian and Swiss usage."
+  explanation: >-
+    Duden (sitzen): "Das Hilfsverb sein wird nur im Süddeutschen, Österreichischen und Schweizerischen
+    verwendet." So: Ich bin gelegen / gesessen / gestanden (CH) = Ich habe gelegen / gesessen / gestanden
+    (north). Both are correct.
+
+- id: a2-u02-chstd-match
+  type: match
+  skill: vocabulary
+  variety: ch-std
+  grammar: [travel-booking]
+  prompt: Match the Swiss Standard German words with the words used in Germany.
+  pairs:
+    - ["die Ferien", "der Urlaub"]
+    - ["das Billett", "die Fahrkarte"]
+    - ["retour", "hin und zurück"]
+  explanation: >-
+    In Switzerland you go in die Ferien (Urlaub is mostly leave from work), buy ein Billett and choose einfach
+    or retour. Germans understand all three.
+
+# ---------- Swiss lane (gsw-zh) ----------
+- id: a2-u02-ch-mcq-tessin
+  type: mcq
+  skill: listening
+  variety: gsw-zh
+  grammar: [perfekt-sein]
+  prompt: Listen to the Swiss lane dialogue. Where was Reto on holiday, and how did he get there?
+  options: ["In Ticino, by car", "In Grindelwald, by train", "In Ticino, by train", "In Italy, by plane"]
+  answer: 2
+  explanation: >-
+    "Mir sind mit em Zug is Tessin gfahre." is = ins, mit em Zug = mit dem Zug, gfahre = gefahren – with sind,
+    because travelling is movement. Grindelwald is Sandra's plan.
+
+- id: a2-u02-ch-transform-gfahre
+  type: transform
+  skill: reading
+  variety: gsw-zh
+  grammar: [perfekt-sein]
+  prompt: What does Reto say? Write it in Standard German.
+  from: gsw-zh
+  to: de
+  source: Mir sind mit em Zug is Tessin gfahre.
+  answers: ["Wir sind mit dem Zug ins Tessin gefahren.", "Mit dem Zug sind wir ins Tessin gefahren."]
+  explanation: >-
+    mir = wir (not me!), mit em = mit dem, is = ins, gfahre = gefahren. Same auxiliary and the same bracket
+    as in Standard German.
+
+- id: a2-u02-ch-mcq-wetter
+  type: mcq
+  skill: listening
+  variety: gsw-zh
+  prompt: Listen to Reto. What was the weather like?
+  transcript: |-
+    Reto: Am Aafang hät s grägnet, aber dänn isch es heiss gsii.
+  options: ["Hot at first, then rainy", "Rainy at first, then hot", "Rainy all the time", "Cold and windy"]
+  answer: 1
+  explanation: >-
+    Am Aafang = am Anfang (at the beginning), hät s grägnet = hat es geregnet, isch … gsii = war (no
+    Präteritum in dialect). dänn = dann.
+
+- id: a2-u02-ch-match-participles
+  type: match
+  skill: vocabulary
+  variety: gsw-zh
+  grammar: [participles-irregular]
+  prompt: Match the Zurich German participles with Standard German.
+  pairs:
+    - ["gfahre", "gefahren"]
+    - ["gschwumme", "geschwommen"]
+    - ["gwohnt", "gewohnt"]
+    - ["cho", "gekommen"]
+    - ["gange", "gegangen"]
+    - ["bliibe", "geblieben"]
+  explanation: >-
+    Irregular participles end in -e in Zurich German (gfahre, gschwumme, gange). cho and bliibe have no
+    ge- at all; gwohnt is regular, with g- for ge-.
+
+- id: a2-u02-ch-mcq-ferie
+  type: mcq
+  skill: grammar
+  variety: gsw-zh
+  grammar: [praeteritum-sein-haben]
+  prompt: "How does Sandra ask \"Wo warst du in den Ferien?\" in Zurich German?"
+  options: ["Wo bisch i de Ferie gsii?", "Wo warsch i de Ferie?", "Wo häsch i de Ferie gsii?", "Wo bisch i de Ferie gha?"]
+  answer: 0
+  rationales:
+    - "Correct. bisch … gsii = bist … gewesen = warst."
+    - "There is no war in Swiss German."
+    - "gsii goes with sii (bisch), not with ha."
+    - "gha = gehabt."
+  explanation: >-
+    Where Standard German uses war, Zurich German always uses the Perfekt: bisch … gsii. i de Ferie = in den
+    Ferien.
+
+- id: a2-u02-ch-gap-auxiliary
+  type: gap
+  skill: grammar
+  variety: gsw-zh
+  grammar: [perfekt-sein, perfekt-haben]
+  prompt: "Guided production: fill in sind (sein) or händ (haben)."
+  text: Mir ___ is Tessin gfahre. Mir ___ inere Ferienwohnig gwohnt.
+  answers: [["sind"], ["händ", "hend"]]
+  explanation: >-
+    The same choice as in Standard German: gfahre (movement) → mir sind; gwohnt (staying) → mir händ. sind
+    and händ are the Zurich plural forms of sii and ha.
+
+- id: a2-u02-ch-transform-de-gsw
+  type: transform
+  skill: vocabulary
+  variety: gsw-zh
+  grammar: [praeteritum-sein-haben]
+  prompt: "Recognition: how do you say this in Zurich German? (Common spellings are accepted.)"
+  from: de
+  to: gsw-zh
+  source: Wo warst du in den Ferien?
+  answers: ["Wo bisch i de Ferie gsii?", "Wo bisch du i de Ferie gsii?", "Wo bisch i de Ferie gsi?", "Wo bisch in de Ferie gsii?"]
+  explanation: >-
+    warst → bisch … gsii (no Präteritum). in den Ferien → i de Ferie: the -n disappears at the end of den and
+    Ferien.
+
+- id: a2-u02-roleplay-reto
+  type: roleplay
+  skill: listening
+  variety: gsw-zh
+  grammar: [perfekt-sein, perfekt-haben, praeteritum-sein-haben]
+  tutor: reto
+  prompt: "Listening roleplay with Reto: holiday photos."
+  scenario: >-
+    Reto shows you photos of his holiday in Ticino and talks about it in Zurich German. You answer in
+    Standard German. Understand where he went, how and what he did, and tell him about one trip of yours.
+  goals:
+    - Understand where and how Reto travelled (is Tessin gfahre, mit em Zug).
+    - Understand what he did and how the weather was (gwanderet, gschwumme, grägnet, heiss gsii).
+    - Tell Reto about one of your trips in the Perfekt.
+  model: |
+    Reto: Lueg, das isch Ascona. Mir sind mit em Zug is Tessin gfahre.
+    Du: Schön! Wie lange wart ihr dort?
+    Reto: Ä Wuche. Mir sind jede Tag gwanderet, und am Abig hämmer Risotto ggässe.
+    Du: Lecker! War das Wetter gut?
+    Reto: Am Aafang hät s grägnet, aber dänn isch es heiss gsii. Und du, wo bisch du gsii?
+    Du: Ich war in Grindelwald. Ich bin mit der Seilbahn auf den Berg gefahren.
+    Reto: Lässig!
+  explanation: >-
+    Decoding: sind … gfahre = sind … gefahren, gwanderet = gewandert, hämmer … ggässe = haben wir … gegessen,
+    grägnet = geregnet, isch … gsii = war. Ä Wuche = eine Woche.
+
+# ---------- Bernese (gsw-be, recognition) ----------
+- id: a2-u02-ch-be-mcq-grindelwald
+  type: mcq
+  skill: listening
+  variety: gsw-be
+  prompt: Listen to Sandra's mother. What does she say?
+  transcript: |-
+    Mami: Grindelwald? Mir sy im Summer o z Grindelwald gsy. Es isch wunderschön gsy!
+  options: ["They are going to Grindelwald next summer.", "They were in Grindelwald in the summer too, and it was wonderful.", "They have never been to Grindelwald.", "Grindelwald was too expensive in the summer."]
+  answer: 1
+  explanation: >-
+    mir sy … gsy = wir sind … gewesen / wir waren (berndeutsch.ch: sy, gsy), o = auch, z Grindelwald = in
+    Grindelwald. No Präteritum in Bernese either.
+
+- id: a2-u02-ch-be-transform
+  type: transform
+  skill: reading
+  variety: gsw-be
+  grammar: [perfekt-sein]
+  prompt: What does Sandra ask her mother? Write it in Standard German.
+  from: gsw-be
+  to: de
+  source: Syt dir mit em Zug gfahre?
+  answers: ["Seid ihr mit dem Zug gefahren?", "Seid ihr mit der Bahn gefahren?"]
+  explanation: >-
+    syt dir = seid ihr (berndeutsch.ch: dir syt), mit em = mit dem, gfahre = gefahren (berndeutsch.ch: fahre,
+    Partizip gfahre). Sandra talks to both parents, so ihr.
+
+- id: a2-u02-ch-be-match
+  type: match
+  skill: vocabulary
+  variety: gsw-be
+  prompt: Match the Bernese words with Standard German.
+  pairs:
+    - ["ds Outo", "das Auto"]
+    - ["dir syt", "ihr seid"]
+    - ["gfahre", "gefahren"]
+    - ["o", "auch"]
+  explanation: >-
+    ds Outo (n., berndeutsch.ch) shows Bernese ou for au. dir = ihr, syt = seid. Zurich says s Auto, ihr
+    sind and au.

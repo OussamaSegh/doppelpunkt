@@ -1,0 +1,340 @@
+id: a2-u02
+level: A2
+number: 2
+title: Reisen und Ferien
+titleEn: Travel and holidays
+goal: >-
+  By the end you can talk about a past trip – where you went, how you travelled, where you stayed and
+  what you did – using the Perfekt with sein for movement and change (Ich bin gefahren, Ich bin
+  aufgestanden), irregular participles (geflogen, geschwommen, geblieben) and war / hatte; you can book a
+  hotel room or a train ticket, and follow Zurich German holiday talk (Mir sind is Tessin gfahre. Wo bisch i
+  de Ferie gsii?).
+canDo:
+  - "I can tell someone about a past trip: where I went, how I travelled, where I stayed and what I did."
+  - I can choose sein or haben in the Perfekt (Ich bin nach Lugano gefahren. Ich habe ein Hotel gebucht.).
+  - I can use the most frequent irregular participles (gefahren, geflogen, gegangen, geblieben, geschwommen, gesehen, gegessen).
+  - I can use war and hatte for the past of sein and haben (Das Wetter war schön. Wir hatten Glück.).
+  - I can book a hotel room and buy a train ticket (Haben Sie noch ein Doppelzimmer frei? Ein Billett nach Lugano, retour.).
+  - I can recognise Swiss holiday talk in dialect (Wo bisch i de Ferie gsii? Mir sind is Tessin gfahre.).
+
+review:
+  notes:
+    - "Zurich participles without a sure source (please tick or correct): gfahre (Bern BD #16381), gschwumme (geschwommen; o → u before a nasal as in Sunne?), gwanderet, grägnet, gwohnt, gflooge / gfloge (geflogen), bliibe, gsee / gseh (SRF: gseh)."
+    - "'Mir sind mit em Zug is Tessin gfahre, mini Fründin und ich.' – is = ins (curriculum), mit em = mit dem; word order with the added subject natural?"
+    - "'Mir sind jede Tag gwanderet und im Lago Maggiore gschwumme.' – jede Tag (accusative of time) and gwanderet / gwandered spelling?"
+    - "'Am Aafang hät s grägnet, aber dänn isch es heiss gsii.' – natural?"
+    - "'Inere Ferienwohnig z Ascona.' – inere (in einer) as one word, Ferienwohnig?"
+    - "'Im Dezämber gang ich uf Grindelwald go Ski fahre.' – uf + place name for direction (uf Bern, uf Grindelwald): usual in Zurich, or nach Grindelwald?"
+    - "Swiss Standard: die Ferien (not Urlaub), das Billett, einfach / retour, the Swiss Perfekt with sein for stehen, sitzen, liegen (Duden: 'nur im Süddeutschen, Österreichischen und Schweizerischen', duden.de/konjugation/sitzen). Also: Swiss Standard speakers saying 'Ich bin in Lugano gewesen' where Germans say 'Ich war in Lugano' – please confirm the note."
+    - "Reto roleplay model: 'am Abig hämmer Risotto ggässe' – participle of ässe: ggässe / gässe? 'Ä Wuche' (eine Woche) spelling?"
+    - "Vocabulary gswZh forms without a source: Reis, reise, Ferie, Jugi, Ferienwohnig, Übernachtig, bueche, flüüge, Flughafe, Flugzüg, aacho, Uussicht, aaluege (besichtigen), Poschtcharte, Aakunft, Verspätig, eifach / retour, Wanderig, Seilbahn / Bähnli."
+    - "Bernese: 'Mir sy im Summer o z Grindelwald gsy. Es isch wunderschön gsy!' / 'Syt dir mit em Zug gfahre?' (dir syt BD #18248, gfahre BD #16381) / 'Nei, mit em Outo.' (Outo n. BD #46748) – sentence flow and 'o' (auch)?"
+
+intro:
+  scene: >-
+    Monday morning, first day back at work. Tom has just come back from a week in Ticino. His colleague
+    Nadine asks about his holiday in Swiss Standard German.
+  dialogue:
+    - speaker: Nadine
+      text: Hallo Tom! Du bist ja ganz braun! Wo bist du in den Ferien gewesen?
+      en: Hi Tom! You're really tanned! Where were you on holiday?
+      variety: ch-std
+    - speaker: Tom
+      text: Ich war eine Woche im Tessin, in Lugano.
+      en: I was in Ticino for a week, in Lugano.
+    - speaker: Nadine
+      text: Schön! Bist du mit dem Zug gefahren?
+      en: Lovely! Did you go by train?
+      variety: ch-std
+    - speaker: Tom
+      text: Ja, durch den Gotthard-Basistunnel. Die Reise hat nur zwei Stunden gedauert.
+      en: Yes, through the Gotthard Base Tunnel. The journey only took two hours.
+    - speaker: Nadine
+      text: Und wo hast du gewohnt?
+      en: And where did you stay?
+      variety: ch-std
+    - speaker: Tom
+      text: In einem kleinen Hotel am See. Mein Zimmer hatte einen Balkon mit Aussicht auf den See.
+      en: In a small hotel by the lake. My room had a balcony with a view of the lake.
+    - speaker: Nadine
+      text: Und was hast du gemacht?
+      en: And what did you do?
+      variety: ch-std
+    - speaker: Tom
+      text: Ich bin viel gewandert und jeden Tag im See geschwommen.
+      en: I went hiking a lot and swam in the lake every day.
+    - speaker: Nadine
+      text: War das Wasser nicht kalt?
+      en: Wasn't the water cold?
+      variety: ch-std
+    - speaker: Tom
+      text: Doch, ein bisschen! Am Abend habe ich immer Risotto gegessen, und ich bin nie früh ins Bett gegangen.
+      en: Yes, a bit! In the evening I always ate risotto, and I never went to bed early.
+    - speaker: Nadine
+      text: Das klingt nach Ferien! Ich fahre im Dezember nach Graubünden, aber ich habe noch kein Hotel.
+      en: That sounds like a holiday! I'm going to Graubünden in December, but I don't have a hotel yet.
+      variety: ch-std
+    - speaker: Tom
+      text: Ich habe mein Hotel online gebucht. Das war ganz einfach.
+      en: I booked my hotel online. It was really easy.
+
+grammar:
+  - id: perfekt-sein
+    title: "The Perfekt with sein: movement and change"
+    body: >-
+      A small group of verbs forms the Perfekt with **sein** instead of haben. They have **no accusative
+      object**, and they describe:
+
+
+      1. **movement from A to B:** *fahren, gehen, fliegen, kommen, laufen, reisen, wandern, schwimmen*:
+      *Ich **bin** nach Lugano **gefahren**. Wir **sind** im See **geschwommen**.*
+
+      2. **a change of state:** *aufstehen, einschlafen, aufwachen, werden*: *Ich **bin** um sechs Uhr
+      **aufgestanden**.*
+
+      3. three verbs to learn by heart: **sein** (*ich bin gewesen*), **bleiben** (*ich bin geblieben*),
+      **passieren** (*Was ist passiert?*).
+
+
+      Everything else takes **haben**: *Ich **habe** ein Hotel **gebucht**. Wir **haben** Risotto
+      **gegessen**.* With an object, even *fahren* takes haben: *Ich **habe** das Auto **gefahren**.*
+
+
+      **Swiss Standard German** (and southern Germany, Austria) also uses **sein** with *stehen, sitzen,
+      liegen*: *Ich **bin** am Strand **gelegen**.* In northern Germany: *Ich **habe** am Strand gelegen.*
+      Both are correct (Duden).
+    tables:
+      - [["sein + participle", "haben + participle"],
+         ["Ich bin nach Lugano gefahren.", "Ich habe ein Billett gekauft."],
+         ["Wir sind im See geschwommen.", "Wir haben im Hotel gewohnt."],
+         ["Er ist um sechs aufgestanden.", "Er hat lange geschlafen."],
+         ["Sie ist zu Hause geblieben.", "Sie hat zu Hause gearbeitet."],
+         ["Was ist passiert?", "Was hast du gemacht?"]]
+      - [["Person", "sein", "Example"],
+         ["ich", "bin", "Ich bin geflogen."],
+         ["du", "bist", "Bist du gefahren?"],
+         ["er / sie / es", "ist", "Sie ist angekommen."],
+         ["wir", "sind", "Wir sind gewandert."],
+         ["ihr", "seid", "Seid ihr geschwommen?"],
+         ["sie / Sie", "sind", "Sie sind geblieben."]]
+    commonMistakes:
+      - "*Ich habe nach Lugano gefahren.* → **Ich bin nach Lugano gefahren.** Movement to a place: sein."
+      - "*Wir haben zu Hause geblieben.* → **Wir sind zu Hause geblieben.** bleiben always takes sein, although nothing moves."
+      - "*Ich bin ein Zimmer gebucht.* → **Ich habe ein Zimmer gebucht.** An object (ein Zimmer) means haben."
+      - "*Ich bin gegangen nach Hause.* → **Ich bin nach Hause gegangen.** The participle closes the sentence."
+
+  - id: participles-irregular
+    title: "Irregular participles: ge- … -en"
+    body: >-
+      **Irregular** (strong) verbs form the participle with **ge- + stem + -en**, and the stem vowel often
+      changes. There is no rule you can trust: learn the participle with the verb, as English speakers learn
+      *swim – swam – swum*.
+
+
+      - **Same vowel:** *fahren → gefahren, schlafen → geschlafen, sehen → gesehen, lesen → gelesen, essen →
+        gegessen* (an extra g), *geben → gegeben*.
+
+      - **→ o:** *fliegen → geflogen, schwimmen → geschwommen, nehmen → genommen, kommen → gekommen*.
+
+      - **→ u:** *trinken → getrunken, finden → gefunden*.
+
+      - **ei → ie:** *bleiben → geblieben, schreiben → geschrieben*.
+
+      - **Big changes:** *gehen → gegangen, sein → gewesen, treffen → getroffen*.
+
+      - **Mixed verbs** change the vowel but end in -t: *bringen → gebracht, denken → gedacht, kennen →
+        gekannt, wissen → gewusst*.
+
+
+      Separable irregular verbs put -ge- in the middle as usual: *abfahren → abgefahren, ankommen →
+      angekommen, aufstehen → aufgestanden, umsteigen → umgestiegen*.
+    tables:
+      - [["Infinitive", "Participle", "Auxiliary"],
+         ["fahren", "gefahren", "sein (to a place) / haben (+ object)"],
+         ["fliegen", "geflogen", "sein"],
+         ["gehen", "gegangen", "sein"],
+         ["kommen / ankommen", "gekommen / angekommen", "sein"],
+         ["bleiben", "geblieben", "sein"],
+         ["schwimmen", "geschwommen", "sein"],
+         ["schlafen", "geschlafen", "haben"],
+         ["sehen", "gesehen", "haben"],
+         ["essen", "gegessen", "haben"],
+         ["trinken", "getrunken", "haben"],
+         ["schreiben", "geschrieben", "haben"],
+         ["bringen", "gebracht", "haben"]]
+    commonMistakes:
+      - "*Ich bin gegeht.* → **Ich bin gegangen.** gehen is irregular."
+      - "*Wir haben geschwimmt.* → **Wir sind geschwommen.** Irregular, and movement: sein."
+      - "*Ich habe das Matterhorn geseht.* → **Ich habe das Matterhorn gesehen.** Irregular participles end in -en."
+      - "*Der Zug ist angekommt.* → **Der Zug ist angekommen.**"
+
+  - id: praeteritum-sein-haben
+    title: "war and hatte: the past of sein and haben"
+    body: >-
+      For **sein** and **haben**, German speakers usually prefer the short past tense (**Präteritum**) to
+      the Perfekt: *Ich **war** in Lugano* sounds more natural than *Ich bin in Lugano gewesen*; *Wir **hatten**
+      Glück* more natural than *Wir haben Glück gehabt*. Both are correct. (In Switzerland you hear *Ich bin …
+      gewesen* more often – the dialect has no *war*.)
+
+
+      **war** and **hatte** have no ending for **ich** and **er/sie/es**, like the modal verbs: *ich war, er
+      war; ich hatte, sie hatte*.
+
+
+      Typical uses: *Wie **war** die Reise? – Sie **war** lang, aber schön. Das Wetter **war** super. Wir
+      **hatten** ein Zimmer mit Balkon. **Hattet** ihr Glück mit dem Wetter?*
+    tables:
+      - [["Person", "sein → war", "haben → hatte"],
+         ["ich", "war", "hatte"],
+         ["du", "warst", "hattest"],
+         ["er / sie / es", "war", "hatte"],
+         ["wir", "waren", "hatten"],
+         ["ihr", "wart", "hattet"],
+         ["sie / Sie", "waren", "hatten"]]
+    commonMistakes:
+      - "*Ich warte in Lugano.* → **Ich war in Lugano.** warten (to wait) is a different verb."
+      - "*Er hattet ein Zimmer.* → **Er hatte ein Zimmer.** No ending for er/sie/es."
+      - "*Wir waren ein Zimmer mit Balkon.* → **Wir hatten ein Zimmer mit Balkon.** to have = haben → hatten."
+
+  - id: travel-booking
+    title: "Booking a room and buying a ticket"
+    body: >-
+      **At the hotel:** *Guten Tag, **haben Sie noch ein Doppelzimmer frei**? – Für wie viele Nächte? – Für
+      **zwei Nächte**, **vom** dritten **bis zum** fünften Mai. – **Mit Frühstück?** – Ja, bitte. **Was kostet
+      die Nacht?*** Ask politely with *Ich möchte …* or *Ich hätte gern …*: *Ich möchte ein Einzelzimmer
+      reservieren.*
+
+
+      **At the station** (Swiss Standard German): ***Ein Billett nach Lugano, bitte. – Einfach oder retour?*
+      – Retour, zweite Klasse, mit Halbtax.** *Von welchem Gleis fährt der Zug?* In Germany: *eine Fahrkarte,
+      hin und zurück*.
+
+
+      **Online:** *buchen* (to book), *reservieren* (to reserve), *die Buchung* (booking), *die Bestätigung*
+      (confirmation).
+    tables:
+      - [["You want …", "You say"],
+         ["a room", "Haben Sie noch ein Zimmer frei?"],
+         ["to reserve", "Ich möchte ein Doppelzimmer für zwei Nächte reservieren."],
+         ["the price", "Was kostet die Nacht? / Was kostet das?"],
+         ["breakfast", "Ist das Frühstück dabei? / Mit Frühstück, bitte."],
+         ["a ticket (CH)", "Ein Billett nach Lugano, retour, bitte."],
+         ["a ticket (DE)", "Eine Fahrkarte nach Hamburg, hin und zurück, bitte."]]
+    commonMistakes:
+      - "*Ich will ein Zimmer.* sounds rude → **Ich möchte ein Zimmer reservieren.** / **Haben Sie noch ein Zimmer frei?**"
+      - "*für zwei Nachte* → **für zwei Nächte.** Plural with umlaut."
+      - "*Ein Billett zu Lugano* → **ein Billett nach Lugano.** nach for towns and countries."
+
+reading:
+  title: "Mit dem Zug durch die Schweiz"
+  text: >-
+    Hallo aus Hamburg! Letzte Woche bin ich mit dem Zug durch die Schweiz gereist. Am Montag bin ich in
+    Zürich angekommen und habe meine Freunde Anna und Tom besucht. Am Dienstag bin ich früh aufgestanden
+    und nach Zermatt gefahren. Die Reise hat fast vier Stunden gedauert, aber die Landschaft war
+    wunderschön.
+
+
+    In Zermatt habe ich in einer Jugendherberge übernachtet. Am Mittwoch hatte ich Glück: Das Wetter war
+    perfekt, und ich habe das Matterhorn gesehen! Am Donnerstag bin ich mit dem Glacier Express nach St.
+    Moritz gefahren – acht Stunden durch Täler und über Brücken. Ich habe viel fotografiert und Postkarten
+    geschrieben.
+
+
+    Am Freitag bin ich nach Lugano weitergefahren. Dort war es warm, und ich bin im See geschwommen. Am
+    Samstag bin ich nach Hause geflogen. Die Schweiz ist teuer, aber die Züge sind fast immer pünktlich!
+    Eure Lena
+  en: >-
+    Hello from Hamburg! Last week I travelled through Switzerland by train. On Monday I arrived in Zurich and
+    visited my friends Anna and Tom. On Tuesday I got up early and went to Zermatt. The journey took almost
+    four hours, but the scenery was beautiful.
+
+
+    In Zermatt I stayed the night in a youth hostel. On Wednesday I was lucky: the weather was perfect and I
+    saw the Matterhorn! On Thursday I took the Glacier Express to St. Moritz – eight hours through valleys
+    and over bridges. I took lots of photos and wrote postcards.
+
+
+    On Friday I travelled on to Lugano. It was warm there, and I swam in the lake. On Saturday I flew home.
+    Switzerland is expensive, but the trains are almost always on time! Love, Lena
+
+swiss:
+  scene: >-
+    Sunday evening on the balcony. Reto is back from his holiday in Ticino and Sandra asks about it. Listen
+    for gfahre, gwanderet and gsii – movement verbs take sii in dialect too. Then Sandra phones her mother
+    about her own trip to Grindelwald.
+  dialogue:
+    - speaker: Sandra
+      text: Hoi Reto! Du bisch ja ganz bruun! Wo bisch i de Ferie gsii?
+      en: Hi Reto! You're really tanned! Where were you on holiday?
+      variety: gsw-zh
+    - speaker: Reto
+      text: Im Tessin! Mir sind mit em Zug is Tessin gfahre, mini Fründin und ich.
+      en: In Ticino! We went to Ticino by train, my girlfriend and I.
+      variety: gsw-zh
+    - speaker: Sandra
+      text: Und, wie isch es gsii?
+      en: And how was it?
+      variety: gsw-zh
+    - speaker: Reto
+      text: Mega schön! Mir sind jede Tag gwanderet und im Lago Maggiore gschwumme.
+      en: Really lovely! We went hiking every day and swam in Lake Maggiore.
+      variety: gsw-zh
+    - speaker: Sandra
+      text: Und s Wätter?
+      en: And the weather?
+      variety: gsw-zh
+    - speaker: Reto
+      text: Am Aafang hät s grägnet, aber dänn isch es heiss gsii.
+      en: At the beginning it rained, but then it was hot.
+      variety: gsw-zh
+    - speaker: Sandra
+      text: Wo händ ihr gwohnt?
+      en: Where did you stay?
+      variety: gsw-zh
+    - speaker: Reto
+      text: Inere Ferienwohnig z Ascona. Und du? Gaasch du au no i d Ferie?
+      en: In a holiday flat in Ascona. And you? Are you going on holiday too?
+      variety: gsw-zh
+    - speaker: Sandra
+      text: Ja, im Dezämber gang ich uf Grindelwald go Ski fahre.
+      en: Yes, in December I'm going skiing in Grindelwald.
+      variety: gsw-zh
+    - speaker: Mami
+      text: Grindelwald? Mir sy im Summer o z Grindelwald gsy. Es isch wunderschön gsy!
+      en: Grindelwald? We were in Grindelwald too in the summer. It was wonderful!
+      variety: gsw-be
+    - speaker: Sandra
+      text: Syt dir mit em Zug gfahre?
+      en: Did you go by train?
+      variety: gsw-be
+    - speaker: Mami
+      text: Nei, mit em Outo.
+      en: No, by car.
+      variety: gsw-be
+  notes:
+    - >-
+      **sii for movement, in dialect too.** Swiss German follows the same sein / haben split as Standard
+      German: **Mir sind … gfahre** (wir sind gefahren), **Mir sind gwanderet**, **Ich bi gange**, **Si isch cho**
+      – but **Mir händ gwohnt**, **Es hät grägnet**. And since there is no Präteritum, *war* is always **gsii**:
+      **Wo bisch i de Ferie gsii?** = Wo warst du in den Ferien?
+    - >-
+      **Irregular participles end in -e:** *gfahre* (gefahren), *gschwumme* (geschwommen), *gsee / gseh*
+      (gesehen), *trunke* (getrunken), *bliibe* (geblieben), *cho* (gekommen), *gange* (gegangen). Regular ones
+      end in -t / -et as in unit 1: *gwohnt, gwanderet, grägnet*.
+    - >-
+      **Little place words:** **is Tessin** = ins Tessin, **i d Ferie** = in die Ferien, **z Ascona** = in Ascona
+      (z for "in a town"), **inere Ferienwohnig** = in einer Ferienwohnung. For "to a town" you also hear **uf**:
+      *uf Bärn, uf Grindelwald*.
+    - >-
+      **Swiss Standard German:** **die Ferien** (*Urlaub* is mostly leave from work or the army), **das
+      Billett**, **einfach oder retour?**, **das Halbtax** and **das GA**. Swiss Standard speakers also say *Ich
+      **bin** am Strand gelegen, Ich bin im Zug gesessen* – correct in Switzerland, southern Germany and Austria
+      (Duden).
+    - >-
+      **The Swiss rail network** is a national topic: dense, clean and famously punctual, with connections that
+      wait for each other at the hubs. The Gotthard Base Tunnel (2016) cut Zurich–Lugano to about two hours;
+      scenic lines such as the Glacier Express and the Bernina Express are tourist classics.
+    - >-
+      **Bernese** (Sandra's mother): **mir sy … gsy** (wir sind … gewesen), **dir syt** (ihr seid – all in
+      berndeutsch.ch, entry *sy*), **gfahre** (berndeutsch.ch *fahre*), **ds Outo** (n., das Auto), **o** =
+      auch. Bernese *ou* often stands where Zurich has *au*: *Outo – Auto*.

@@ -342,3 +342,34 @@ entries:
   - { de: Weihnachten, gswZh: Wienacht, en: Christmas, pos: noun, notes: "Schöni Wienacht! = Frohe Weihnachten!", tags: [celebrations, holidays] }
   - { de: Nikolaus, gswZh: Samichlaus, gswBe: Samichlous, chStd: Samichlaus, en: Saint Nicholas, pos: noun, notes: "6 December, with his helper Schmutzli (berndeutsch.ch; Duden: Samichlaus, schweizerisch).", tags: [celebrations, culture, helvetism] }
   - { de: Karneval, gswZh: Fasnacht, chStd: Fasnacht, en: carnival, pos: noun, tags: [celebrations, culture, helvetism] }
+
+  # ----- the past in dialect, weekend (A2 unit 1) -----
+  - { de: gewesen, gswZh: gsii, gswBe: gsy, en: been (participle of sein), pos: other, notes: "Swiss German has no Präteritum: Ich bi gsii = ich war / bin gewesen. Wie isch s Wuchenänd gsii? (berndeutsch.ch: gsy).", tags: [verbs, past] }
+  - { de: gehabt, gswZh: gha, gswBe: gha, en: had (participle of haben), pos: other, notes: "Ich ha kei Ziit gha = Ich hatte keine Zeit.", tags: [verbs, past] }
+  - { de: gemacht, gswZh: gmacht, en: "done, made (participle of machen)", pos: other, notes: "ge- → g- in Swiss participles: gmacht, gseit, gspilt.", tags: [verbs, past] }
+  - { de: aufräumen, gswZh: ufruume (ufgruumt), en: to tidy up, pos: verb, tags: [verbs, chores, separable] }
+  - { de: putzen, gswZh: putze (putzt), en: to clean, pos: verb, notes: "Participle putzt: before p, t, k the ge- disappears in the spelling (SRF writes kauft for gekauft).", tags: [verbs, chores] }
+  - { de: erzählen, gswZh: verzelle, en: to tell (a story), pos: verb, tags: [verbs] }
+  - { de: zuerst, gswZh: zersch, en: first, pos: adv, tags: [time, sequence] }
+  - { de: toll, gswZh: lässig / mega, en: "great, cool", pos: adj, tags: [describing] }
+  - { de: Hallenbad, gswZh: Hallebad, en: indoor pool, pos: noun, notes: "s Hallebad; Ich gang is Hallebad go schwümme.", tags: [leisure] }
+  - { de: schwimmen gehen, gswZh: go schwümme (ich gang go schwümme), en: to go swimming, pos: phrase, notes: "go + infinitive after gaa. Past: Ich bi go schwümme (the participle gange disappears; WP Swiss German: Sie isch cho ässe).", tags: [verbs, go-infinitive] }
+
+  # ----- travel (A2 unit 2) -----
+  - { de: Ferien, gswZh: Ferie, chStd: Ferien, en: holidays, pos: noun, notes: "i d Ferie gaa = in die Ferien gehen. Swiss Standard uses Ferien where Germany often says Urlaub.", tags: [travel, helvetism] }
+  - { de: Tessin, gswZh: s Tessin (is Tessin = ins Tessin), en: Ticino, pos: noun, tags: [travel, places] }
+  - { de: gefahren, gswZh: gfahre, gswBe: gfahre, en: "gone, driven (participle of fahren)", pos: other, notes: "Mir sind is Tessin gfahre (berndeutsch.ch: fahre, Partizip gfahre).", tags: [verbs, past] }
+  - { de: Ferienwohnung, gswZh: Ferienwohnig, en: holiday flat, pos: noun, tags: [travel, accommodation] }
+  - { de: Jugendherberge, gswZh: Jugi (colloquial), en: youth hostel, pos: noun, tags: [travel, accommodation] }
+  - { de: Anfang, gswZh: Aafang (am Aafang), en: beginning, pos: noun, tags: [time] }
+  - { de: regnen, gswZh: rägne (es hät grägnet), en: to rain, pos: verb, notes: "Colloquial: es schiffet (A1 unit 10).", tags: [weather, verbs] }
+
+  # ----- work (A2 unit 3) -----
+  - { de: Chef, gswZh: Chef / Chefin, en: boss, pos: noun, tags: [work] }
+  - { de: Kollege, gswZh: Kolleg / Kollegin, en: colleague, pos: noun, notes: "Also means friend (see Freund).", tags: [work, people] }
+  - { de: Lehre, gswZh: Lehr / Stifti (colloquial), gswBe: Lehr / Stifti, chStd: Lehre (der / die Lernende = apprentice), en: apprenticeship, pos: noun, notes: "berndeutsch.ch: Stifti f. (Lehrzeit, Berufslehre). s KV = the commercial apprenticeship.", tags: [work, education] }
+  - { de: Feierabend, gswZh: Fiirabig, en: end of the working day, pos: noun, tags: [work, time] }
+  - { de: anstrengend, gswZh: streng / aasträngend, chStd: streng, en: "tiring, hard", pos: adj, notes: "In Switzerland streng also means tiring (in Germany: strict).", tags: [work, describing, false-friend] }
+  - { de: Pause, gswZh: Pause (Znünipause), gswBe: Pouse, en: break, pos: noun, notes: "berndeutsch.ch: Pouse f.", tags: [work, time] }
+  - { de: seit, gswZh: sit (sit drü Jahr), en: "since, for (still going on)", pos: prep, tags: [prepositions, dative] }
+  - { de: bei, gswZh: bi (bim = beim), en: "at, with", pos: prep, notes: "Dative articles: bi em → bim (m/n), bi de (f, plural).", tags: [prepositions, dative] }

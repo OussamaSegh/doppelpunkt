@@ -17,10 +17,11 @@ export const workspaceAliases = {
 
 /** App version for beta envelopes: the root package.json version. */
 const appVersion = (JSON.parse(readFileSync(new URL('../../package.json', import.meta.url), 'utf8')) as { version: string }).version;
+// Exposed as import.meta.env.VITE_APP_VERSION (Vite picks up VITE_* variables from process.env).
+process.env.VITE_APP_VERSION ??= appVersion;
 
 export default defineConfig({
   resolve: { alias: workspaceAliases },
-  define: { 'import.meta.env.VITE_APP_VERSION': JSON.stringify(appVersion) },
   build: {
     rollupOptions: {
       output: {

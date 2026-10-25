@@ -1,0 +1,332 @@
+# A2 unit 1 – Wie war das Wochenende?
+
+# ---------- household chores ----------
+- id: aufraeumen
+  de: aufräumen
+  en: to tidy up
+  pos: verb
+  example: { de: "Am Samstag habe ich die Wohnung aufgeräumt.", en: "On Saturday I tidied the flat." }
+  gswZh: ufruume (ufgruumt)
+  tags: [chores, separable]
+
+- id: putzen
+  de: putzen
+  en: to clean
+  pos: verb
+  example: { de: "Tom hat das Bad geputzt.", en: "Tom cleaned the bathroom." }
+  gswZh: putze (putzt)
+  tags: [chores]
+
+- id: waschen
+  de: waschen
+  en: to wash
+  pos: verb
+  example: { de: "Ich habe gestern die Wäsche gewaschen.", en: "I did the laundry yesterday." }
+  gswZh: wäsche / wösche (gwäsche)
+  tags: [chores, irregular]
+
+- id: waesche
+  de: Wäsche
+  en: laundry, washing
+  pos: noun
+  gender: f
+  plural: "-"
+  example: { de: "Die Wäsche ist im Keller.", en: "The laundry is in the basement." }
+  gswZh: Wösch / Wäsch
+  tags: [chores]
+
+- id: staubsaugen
+  de: staubsaugen
+  en: to vacuum
+  pos: verb
+  example: { de: "Hast du schon gestaubsaugt?", en: "Have you vacuumed yet?" }
+  gswZh: staubsuuge
+  tags: [chores]
+
+- id: buegeln
+  de: bügeln
+  en: to iron
+  pos: verb
+  example: { de: "Ich habe drei Hemden gebügelt.", en: "I ironed three shirts." }
+  chStd: glätten (Ich habe die Hemden geglättet.)
+  gswZh: glette / glätte
+  tags: [chores, helvetism]
+
+- id: haushalt
+  de: Haushalt
+  en: household, housework
+  pos: noun
+  gender: m
+  plural: Haushalte
+  example: { de: "Am Wochenende mache ich den Haushalt.", en: "At the weekend I do the housework." }
+  gswZh: Huushalt
+  tags: [chores]
+
+# ---------- free time ----------
+- id: ausflug
+  de: Ausflug
+  en: trip, outing
+  pos: noun
+  gender: m
+  plural: Ausflüge
+  example: { de: "Wir haben einen Ausflug an den See gemacht.", en: "We made a trip to the lake." }
+  gswZh: Uusflug
+  tags: [weekend]
+
+- id: spaziergang
+  de: Spaziergang
+  en: walk
+  pos: noun
+  gender: m
+  plural: Spaziergänge
+  example: { de: "Am Sonntag haben wir einen Spaziergang gemacht.", en: "On Sunday we went for a walk." }
+  gswZh: Spaziergang (en Spaziergang mache)
+  tags: [weekend]
+
+- id: besuchen
+  de: besuchen
+  en: to visit
+  pos: verb
+  example: { de: "Nadine hat ihre Eltern besucht.", en: "Nadine visited her parents." }
+  gswZh: bsueche (bsuecht)
+  tags: [weekend, inseparable]
+
+- id: telefonieren
+  de: telefonieren
+  en: to talk on the phone
+  pos: verb
+  example: { de: "Ich habe mit meiner Mutter telefoniert.", en: "I talked to my mother on the phone." }
+  gswZh: telefoniere
+  tags: [weekend, ieren]
+
+- id: reden
+  de: reden
+  en: to talk
+  pos: verb
+  example: { de: "Wir haben eine Stunde geredet.", en: "We talked for an hour." }
+  gswZh: rede / schnurre (colloquial)
+  tags: [weekend]
+
+- id: lachen
+  de: lachen
+  en: to laugh
+  pos: verb
+  example: { de: "Wir haben viel gelacht.", en: "We laughed a lot." }
+  gswZh: lache
+  tags: [weekend]
+
+- id: hoeren
+  de: hören
+  en: to hear, to listen to
+  pos: verb
+  example: { de: "Gestern habe ich Musik gehört.", en: "Yesterday I listened to music." }
+  gswZh: "ghöre (hear) / lose (listen, Musig lose)"
+  tags: [weekend]
+
+- id: erzaehlen
+  de: erzählen
+  en: to tell (a story)
+  pos: verb
+  example: { de: "Sabine hat von ihrer Reise erzählt.", en: "Sabine told us about her trip." }
+  gswZh: verzelle
+  tags: [weekend, inseparable]
+
+- id: warten
+  de: warten
+  en: to wait
+  pos: verb
+  example: { de: "Ich habe zwanzig Minuten auf den Bus gewartet.", en: "I waited twenty minutes for the bus." }
+  gswZh: warte
+  tags: [weekend]
+
+- id: film
+  de: Film
+  en: film, movie
+  pos: noun
+  gender: m
+  plural: Filme
+  example: { de: "Am Abend haben wir einen Film geschaut.", en: "In the evening we watched a film." }
+  gswZh: Film
+  tags: [media]
+
+- id: serie
+  de: Serie
+  en: series (TV)
+  pos: noun
+  gender: f
+  plural: Serien
+  example: { de: "Ich habe den ganzen Sonntag eine Serie geschaut.", en: "I watched a series all Sunday." }
+  gswZh: Serie
+  tags: [media]
+
+- id: brunch
+  de: Brunch
+  en: brunch
+  pos: noun
+  gender: m
+  plural: Brunchs
+  example: { de: "Am Sonntag haben wir einen Brunch gemacht.", en: "On Sunday we had a brunch." }
+  gswZh: Brunch
+  tags: [food, weekend]
+
+- id: zopf
+  de: Zopf
+  en: plaited bread (Sunday loaf); plait
+  pos: noun
+  gender: m
+  plural: Zöpfe
+  example: { de: "Zum Frühstück gibt es am Sonntag Zopf.", en: "On Sundays there's plaited bread for breakfast." }
+  gswZh: Zopf (de Sunntigszopf)
+  tags: [food, switzerland]
+
+- id: grillen
+  de: grillen
+  en: to have a barbecue, to grill
+  pos: verb
+  example: { de: "Am Samstag haben wir im Garten gegrillt.", en: "On Saturday we had a barbecue in the garden." }
+  chStd: grillieren (Wir haben grilliert.)
+  gswZh: grilliere / brätle (over an open fire)
+  tags: [weekend, helvetism]
+
+- id: flohmarkt
+  de: Flohmarkt
+  en: flea market
+  pos: noun
+  gender: m
+  plural: Flohmärkte
+  example: { de: "Auf dem Flohmarkt habe ich eine Lampe gekauft.", en: "I bought a lamp at the flea market." }
+  gswZh: Flohmärt / Flohmarkt
+  tags: [weekend, shopping]
+
+- id: bestellen
+  de: bestellen
+  en: to order
+  pos: verb
+  example: { de: "Am Abend haben wir Pizza bestellt.", en: "In the evening we ordered pizza." }
+  gswZh: bstelle (bstellt)
+  tags: [weekend, inseparable]
+
+# ---------- time words ----------
+- id: gestern
+  de: gestern
+  en: yesterday
+  pos: adv
+  example: { de: "Gestern habe ich lange gearbeitet.", en: "Yesterday I worked late." }
+  gswZh: geschter
+  tags: [time, past]
+
+- id: vorgestern
+  de: vorgestern
+  en: the day before yesterday
+  pos: adv
+  example: { de: "Vorgestern hat es geregnet.", en: "It rained the day before yesterday." }
+  gswZh: vorgeschter
+  tags: [time, past]
+
+- id: letztes-wochenende
+  de: letztes Wochenende
+  en: last weekend
+  pos: phrase
+  example: { de: "Letztes Wochenende habe ich meine Schwester besucht.", en: "Last weekend I visited my sister." }
+  gswZh: s letscht Wuchenänd / letscht Wuchenänd
+  gswBe: ds letschte Wuchenänd
+  tags: [time, past]
+
+- id: letzte-woche
+  de: letzte Woche
+  en: last week
+  pos: phrase
+  example: { de: "Letzte Woche habe ich viel gearbeitet.", en: "Last week I worked a lot." }
+  gswZh: letscht Wuche
+  tags: [time, past]
+
+- id: vor-zeit
+  de: vor (+ time)
+  en: ago
+  pos: prep
+  example: { de: "Vor drei Tagen habe ich mit Reto telefoniert.", en: "Three days ago I talked to Reto on the phone." }
+  gswZh: vor (vor drei Täg)
+  tags: [time, past]
+
+- id: zuerst
+  de: zuerst
+  en: first, at first
+  pos: adv
+  example: { de: "Zuerst habe ich aufgeräumt, dann habe ich gekocht.", en: "First I tidied up, then I cooked." }
+  gswZh: zersch
+  tags: [time, sequence]
+
+- id: danach
+  de: danach
+  en: after that, afterwards
+  pos: adv
+  example: { de: "Danach haben wir Karten gespielt.", en: "After that we played cards." }
+  gswZh: nachher / nachane / dänn
+  tags: [time, sequence]
+
+- id: lange
+  de: lange
+  en: for a long time, long
+  pos: adv
+  example: { de: "Am Sonntag habe ich lange geschlafen.", en: "On Sunday I slept in." }
+  gswZh: lang
+  tags: [time]
+
+- id: schon
+  de: schon
+  en: already, yet (in questions)
+  pos: adv
+  example: { de: "Hast du schon eingekauft?", en: "Have you done the shopping yet?" }
+  gswZh: scho
+  tags: [time]
+
+- id: endlich
+  de: endlich
+  en: finally, at last
+  pos: adv
+  example: { de: "Endlich habe ich das Bad geputzt!", en: "At last I've cleaned the bathroom!" }
+  gswZh: ändlich
+  tags: [time]
+
+- id: nichts
+  de: nichts
+  en: nothing
+  pos: pron
+  example: { de: "Gestern Abend habe ich nichts gemacht.", en: "Last night I did nothing." }
+  gswZh: nüt
+  tags: [basics]
+
+# ---------- adjectives and chunks ----------
+- id: fleissig
+  de: fleißig
+  en: hard-working
+  pos: adj
+  example: { de: "Du warst aber fleißig!", en: "You've been busy!" }
+  chStd: fleissig
+  gswZh: flissig
+  tags: [describing]
+
+- id: langweilig
+  de: langweilig
+  en: boring
+  pos: adj
+  example: { de: "Der Film war langweilig.", en: "The film was boring." }
+  gswZh: langwiilig
+  tags: [describing]
+
+- id: anstrengend
+  de: anstrengend
+  en: tiring, exhausting
+  pos: adj
+  example: { de: "Die Woche war anstrengend.", en: "The week was tiring." }
+  gswZh: aasträngend
+  tags: [describing]
+
+- id: wie-war
+  de: Wie war …?
+  en: How was …?
+  pos: phrase
+  example: { de: "Wie war dein Wochenende? – Es war super!", en: "How was your weekend? – It was great!" }
+  gswZh: Wie isch … gsii? (Wie isch s Wuchenänd gsii?)
+  gswBe: Wie isch … gsy?
+  tags: [phrases, past]
