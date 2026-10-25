@@ -246,3 +246,48 @@ test.describe('microphone blocked', () => {
     await expect(recorder(page).getByRole('alert')).toHaveCount(0);
   });
 });
+
+test.describe('shadowing dialogues', () => {
+  test('Einstieg dialogue: shadow line by line at 0.75×–1.25×', async ({ page }) => {
+    await stubMedia(page, { recognition: false });
+    const unit = a1Pack().units[0]!;
+    const lines = unit.intro.dialogue;
+    await onboard(page);
+    await page.goto(`/unit/${unit.id}/einstieg`);
+    await page.getByRole('button', { name: 'Shadow the dialogue' }).click();
+    const panel = page.getByRole('region', { name: 'Shadowing' });
+    await expect(panel).toContainText(`Line 1 of ${lines.length}`);
+    await expect(panel).toContainText(lines[0]!.text);
+    await expect(panel.getByRole('radiogroup', { name: 'Speed' }).getByRole('radio')).toHaveText(['0.75×', '1×', '1.25×']);
+    await expect(panel.getByRole('button', { name: 'Listen, then speak' })).toBeVisible();
+    await expect(panel.getByRole('checkbox', { name: 'Loop this line' })).not.toBeChecked();
+    await panel.getByRole('button', { name: 'Next line →' }).click();
+    await expect(panel).toContainText(`Line 2 of ${lines.length}`);
+    await expect(panel).toContainText(lines[1]!.text);
+    await panel.getByRole('radio', { name: '1.25×' }).click();
+    await panel.getByRole('button', { name: /Play native \(synthetic voice\)/ }).click();
+    await expect.poll(async () => (await ttsCalls(page)).at(-1)).toMatchObject({ text: lines[1]!.text, rate: 1.25 });
+    await panel.getByRole('button', { name: 'Close' }).click();
+    await expect(panel).toHaveCount(0);
+  });
+
+  test('Swiss lane: Swiss German lines without recordings have no TTS voice, also when shadowing', async ({ page }) => {
+    await stubMedia(page, { recognition: false });
+    const unit = a1Pack().units[0]!;
+    const gsw = unit.swiss.dialogue.find((l) => l.variety === 'gsw-zh' && !l.audio);
+    expect(gsw, 'unit 1 has a Zurich German line without audio').toBeTruthy();
+    await onboard(page);
+    await page.goto(`/unit/${unit.id}/schwiiz`);
+    await expect(page.getByText(gsw!.text, { exact: true }).first()).toBeVisible();
+    await expect(page.getByRole('button', { name: `Listen: ${gsw!.text}`, exact: true })).toHaveCount(0);
+
+    await page.getByRole('button', { name: 'Shadow the dialogue' }).first().click();
+    const panel = page.getByRole('region', { name: 'Shadowing' });
+    const first = unit.swiss.dialogue[0]!;
+    if (first.variety === 'gsw-zh' || first.variety === 'gsw-be') {
+      await expect(panel.getByText('No recording yet')).toBeVisible();
+      await expect(panel.getByRole('button', { name: 'Listen, then speak' })).toHaveCount(0);
+    }
+    expect(await ttsCalls(page)).toEqual([]);
+  });
+});

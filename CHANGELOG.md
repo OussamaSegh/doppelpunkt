@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.3.0 "Stimme"
+
+- Recorder with live waveform, playback next to native audio, mic-permission help per platform
+- Recognition: browser speech recognition, then OpenAI/Gemini transcription, then self-rating
+- Speech-tolerant grading (numbers, fillers, split compounds) with "sounds to work on" hints
+- Shadowing at 0.75×/1×/1.25×, listen-then-speak, loop, line-by-line dialogue shadowing
+- Pronunciation screen with 16 drills, minimal-pair quiz and repeat-after-me
+- Content: A1 units 7–9, docs/PRONUNCIATION.md
+- Swiss German without a recording never falls back to a German synthetic voice
+- 311 unit tests, 106 e2e tests
+
 ## 0.2.0 "Erste Schritte"
 
 - Placement test with sections, adaptive stop and a plain-English result; result shown on Progress
