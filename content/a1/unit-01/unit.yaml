@@ -1,0 +1,236 @@
+id: a1-u01
+level: A1
+number: 1
+title: Grüezi und Hallo!
+titleEn: Hello and hi!
+goal: >-
+  By the end you can greet people, introduce yourself, say where you come from and where you live,
+  ask others the same questions, and recognise the most common Zurich German greetings.
+canDo:
+  - I can greet people and say goodbye, formally and informally.
+  - I can say my name, where I come from and where I live.
+  - I can ask someone their name, origin and place of residence (Wie? Woher? Wo?).
+  - I can choose between du and Sie.
+  - I can recognise Grüezi, Hoi, Sali, Merci and "Wie gaats?" when Swiss people say them.
+
+intro:
+  scene: >-
+    First morning of a German course in Zurich. The teacher, Frau Keller, greets the class.
+    Tom from Manchester sits next to Anna from Hamburg.
+  dialogue:
+    - speaker: Frau Keller
+      text: Guten Morgen! Ich bin Frau Keller. Wie heißen Sie?
+      en: Good morning! I'm Ms Keller. What's your name?
+    - speaker: Tom
+      text: Guten Morgen! Ich heiße Tom Baker.
+      en: Good morning! My name is Tom Baker.
+    - speaker: Frau Keller
+      text: Woher kommen Sie, Herr Baker?
+      en: Where do you come from, Mr Baker?
+    - speaker: Tom
+      text: Ich komme aus England, aus Manchester.
+      en: I come from England, from Manchester.
+    - speaker: Frau Keller
+      text: Willkommen in Zürich! Und wer sind Sie?
+      en: Welcome to Zurich! And who are you?
+    - speaker: Anna
+      text: Ich bin Anna. Ich komme aus Deutschland, aus Hamburg.
+      en: I'm Anna. I come from Germany, from Hamburg.
+    - speaker: Tom
+      text: Hallo Anna! Wo wohnst du?
+      en: Hi Anna! Where do you live?
+    - speaker: Anna
+      text: Ich wohne in Zürich. Und du?
+      en: I live in Zurich. And you?
+    - speaker: Tom
+      text: Ich wohne auch in Zürich. Freut mich!
+      en: I live in Zurich too. Nice to meet you!
+    - speaker: Anna
+      text: Freut mich auch! Sprichst du Deutsch?
+      en: Nice to meet you too! Do you speak German?
+    - speaker: Tom
+      text: Ein bisschen. Ich lerne Deutsch – und Schweizerdeutsch!
+      en: A little. I'm learning German – and Swiss German!
+
+grammar:
+  - id: sein-present
+    title: "sein (to be) and the personal pronouns"
+    body: >-
+      **sein** is the most important verb in German, and it is irregular, just like English *to be*.
+      Learn the six forms by heart together with the personal pronouns.
+
+
+      *Ich bin Tom. – Du bist Anna. – Frau Keller ist Lehrerin. – Wir sind im Deutschkurs.*
+
+
+      **sie** has three meanings: *she* (sie ist), *they* (sie sind) and, with a capital S, the polite
+      *you* (**Sie** sind). The verb form tells you which one is meant: *sie ist* = she is,
+      *sie sind* = they are, *Sie sind* = you are (polite).
+
+
+      With jobs and nationalities German uses **no article**: *Ich bin Lehrer.* (I am a teacher.)
+    tables:
+      - [["Pronoun", "sein", "English"],
+         ["ich", "bin", "I am"],
+         ["du", "bist", "you are (informal, one person)"],
+         ["er / sie / es", "ist", "he / she / it is"],
+         ["wir", "sind", "we are"],
+         ["ihr", "seid", "you are (informal, several people)"],
+         ["sie / Sie", "sind", "they are / you are (polite)"]]
+    commonMistakes:
+      - "*Ich bin ein Lehrer.* → **Ich bin Lehrer.** No article before a job or nationality."
+      - "*Du bin ...* → **Du bist ...** Every person has its own form; only wir, sie and Sie share *sind*."
+      - "Writing polite *sie* in lower case: *Woher kommen sie?* means 'Where do **they** come from?'. Polite you is **Sie**."
+      - "*Ihr sind* → **ihr seid**. (Careful: in Swiss German it really is *ihr sind* – but not in Standard German.)"
+
+  - id: regular-present
+    title: "Regular verbs in the present tense"
+    body: >-
+      Most German verbs are regular. Take the infinitive (**wohnen**, **kommen**, **lernen**), remove
+      **-en** to get the stem (**wohn-**), and add the ending for each person.
+
+
+      German has only one present tense: *Ich wohne in Zürich* means *I live* **and** *I am living*
+      in Zurich. There is no *do*-support: *Wohnst du in Basel?* = *Do you live in Basel?*
+
+
+      If the stem already ends in **-s, -ß, -z** (heiß-), the du-form only adds **-t**: *du heißt*.
+    tables:
+      - [["Person", "Ending", "wohnen", "heißen"],
+         ["ich", "-e", "wohne", "heiße"],
+         ["du", "-st", "wohnst", "heißt"],
+         ["er / sie / es", "-t", "wohnt", "heißt"],
+         ["wir", "-en", "wohnen", "heißen"],
+         ["ihr", "-t", "wohnt", "heißt"],
+         ["sie / Sie", "-en", "wohnen", "heißen"]]
+    commonMistakes:
+      - "*Ich wohnen in Zürich.* → **Ich wohne in Zürich.** The infinitive is not a conjugated form."
+      - "*Du heißst ...* → **Du heißt ...** No double s-sound: stem heiß- + t."
+      - "*Ich bin wohne in Zürich.* (from 'I am living') → **Ich wohne in Zürich.** German has no -ing form."
+      - "*Sprichst* and *spricht* are irregular (sprechen: ich spreche, du sprichst, er spricht). You will meet more such verbs in unit 4."
+
+  - id: du-sie
+    title: "du or Sie? Informal and polite you"
+    body: >-
+      German has two words for *you* when you talk to one person:
+
+
+      - **du** for friends, family, children, classmates, and generally among young people and colleagues
+        who have agreed on it.
+
+      - **Sie** (capital S, verb in the -en form) for adults you don't know, officials, shop staff, your
+        teacher or boss.
+
+
+      If you are not sure, start with **Sie** and wait for the other person to offer **du**
+      (*Wir können du sagen.*). In Switzerland this offer is called *Duzis mache*.
+      In Swiss workplaces and among people under about 40, **du** comes very quickly.
+    tables:
+      - [["", "informal", "polite"],
+         ["What's your name?", "Wie heißt du?", "Wie heißen Sie?"],
+         ["Where do you come from?", "Woher kommst du?", "Woher kommen Sie?"],
+         ["How are you?", "Wie geht's? / Wie geht es dir?", "Wie geht es Ihnen?"],
+         ["Goodbye", "Tschüss!", "Auf Wiedersehen!"]]
+    commonMistakes:
+      - "Mixing the two in one sentence: *Woher kommen du?* → **Woher kommst du?** or **Woher kommen Sie?**"
+      - "Using *du* with an official, a shop assistant or an older stranger. It can sound rude."
+
+  - id: w-questions
+    title: "W-questions and verb-second word order"
+    body: >-
+      Question words in German start with **w**: **wer** (who), **was** (what), **wie** (how),
+      **wo** (where), **woher** (where from).
+
+
+      In a W-question and in a normal statement the **conjugated verb is always in position 2**.
+      In a yes/no question the verb comes **first**.
+
+
+      *Wo **wohnst** du?* – *Ich **wohne** in Zürich.* – *In Zürich **wohne** ich.* – ***Wohnst** du in Zürich?*
+
+
+      Careful with false friends: German **wo** = *where*, German **wer** = *who*.
+    tables:
+      - [["Position 1", "Position 2 (verb)", "Rest"],
+         ["Woher", "kommst", "du?"],
+         ["Ich", "komme", "aus England."],
+         ["Aus England", "komme", "ich."],
+         ["—", "Kommst", "du aus England? (yes/no: verb first)"]]
+    commonMistakes:
+      - "*Woher du kommst?* → **Woher kommst du?** The verb follows the question word directly."
+      - "*Wer wohnst du?* → **Wo wohnst du?** wer = who, wo = where."
+      - "*Wie ist dein Name?* is fine, but *Wie heißt du?* is far more natural."
+
+reading:
+  title: "Hallo aus dem Deutschkurs!"
+  text: >-
+    Hallo! Ich heiße Mia Rossi. Ich komme aus Italien, aus Mailand. Ich wohne jetzt in Zürich.
+    Ich spreche Italienisch und Englisch. Ich lerne Deutsch, und ich lerne auch ein bisschen
+    Schweizerdeutsch. Das ist Paul. Paul kommt aus Kanada. Er wohnt auch in Zürich. Wir sind im
+    Deutschkurs bei Frau Keller. Frau Keller ist aus Winterthur. Sie spricht Deutsch und Schweizerdeutsch.
+    Und woher kommst du?
+  en: >-
+    Hi! My name is Mia Rossi. I come from Italy, from Milan. I live in Zurich now. I speak Italian and
+    English. I'm learning German, and I'm also learning a bit of Swiss German. This is Paul. Paul comes
+    from Canada. He lives in Zurich too. We are in Ms Keller's German course. Ms Keller is from
+    Winterthur. She speaks German and Swiss German. And where do you come from?
+
+swiss:
+  scene: >-
+    In the stairwell of an apartment building in Zurich. Reto meets his new neighbour Sandra,
+    who has just moved in from Bern. Listen first; read along; don't try to speak it yet.
+  dialogue:
+    - speaker: Reto
+      text: Grüezi! Sind Sie neu da?
+      en: Hello! Are you new here?
+      variety: gsw-zh
+    - speaker: Sandra
+      text: Grüezi! Ja, ich bi d Sandra.
+      en: Hello! Yes, I'm Sandra.
+      variety: gsw-zh
+    - speaker: Reto
+      text: Sali Sandra, ich bi de Reto. Wämmer grad Duzis mache?
+      en: Hi Sandra, I'm Reto. Shall we just say du to each other?
+      variety: gsw-zh
+    - speaker: Sandra
+      text: Gärn! Hoi Reto. Vo wo chunnsch du?
+      en: Gladly! Hi Reto. Where are you from?
+      variety: gsw-zh
+    - speaker: Reto
+      text: Ich bi vo Winterthur, aber ich wohne scho lang z Züri.
+      en: I'm from Winterthur, but I've lived in Zurich for a long time.
+      variety: gsw-zh
+    - speaker: Sandra
+      text: Ah, cool. Ich chume us Bärn.
+      en: Ah, cool. I come from Bern.
+      variety: gsw-zh
+    - speaker: Reto
+      text: E Bärnerin, schön! Wie gaats dir?
+      en: A Bernese woman, nice! How are you?
+      variety: gsw-zh
+    - speaker: Sandra
+      text: Guet, merci. Und dir?
+      en: Fine, thanks. And you?
+      variety: gsw-zh
+    - speaker: Reto
+      text: Au guet, merci. Tschüss Sandra, bis spöter!
+      en: Fine too, thanks. Bye Sandra, see you later!
+      variety: gsw-zh
+  notes:
+    - >-
+      **Grüezi** is the polite greeting to one person you say Sie to; to a group say **Grüezi mitenand**.
+      Friends say **Hoi**, **Sali** or **Salü**. *Grüß Gott* (southern Germany, Austria) is not used in Zurich.
+    - >-
+      **sein** in Zurich German: *ich bi, du bisch, er/si/es isch, mir sind, ihr sind, si sind*.
+      Swiss German has a single form for all three plural persons.
+    - >-
+      Swiss German puts an article before first names: **de Reto** (der Reto), **d Sandra** (die Sandra).
+      Standard written German does not: *Ich bin Sandra.*
+    - >-
+      **Vo wo chunnsch?** = *Woher kommst du?* Swiss German says *vo wo* (from where) instead of *woher*,
+      and a German **k** at the start of a word often becomes **ch**: *kommen → cho, ich chume, du chunnsch*.
+    - >-
+      **z Züri** = *in Zürich*. With town names Swiss German uses **z** for *in* and *to*: *z Bärn, z Basel*.
+    - >-
+      **Merci** (from French) is the everyday Swiss *danke*; **au** = *auch*; **gärn** = *gern*.
+      **Duzis mache** = agreeing to use *du*.

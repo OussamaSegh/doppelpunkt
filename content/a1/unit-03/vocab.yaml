@@ -1,0 +1,389 @@
+- id: familie
+  de: Familie
+  en: family
+  pos: noun
+  gender: f
+  plural: Familien
+  example: { de: "Das ist meine Familie.", en: "This is my family." }
+  gswZh: Familie
+  tags: [family]
+
+- id: eltern
+  de: Eltern
+  en: parents
+  pos: noun
+  pluralOnly: true
+  example: { de: "Meine Eltern wohnen in Manchester.", en: "My parents live in Manchester." }
+  gswZh: Eltere
+  tags: [family, plural-only]
+
+- id: mutter
+  de: Mutter
+  en: mother
+  pos: noun
+  gender: f
+  plural: Mütter
+  example: { de: "Meine Mutter heißt Sabine.", en: "My mother is called Sabine." }
+  gswZh: Muetter / Mami (s Mami)
+  tags: [family]
+
+- id: vater
+  de: Vater
+  en: father
+  pos: noun
+  gender: m
+  plural: Väter
+  example: { de: "Mein Vater heißt Peter.", en: "My father is called Peter." }
+  gswZh: Vater / Vatter / Papi (de Papi)
+  tags: [family]
+
+- id: bruder
+  de: Bruder
+  en: brother
+  pos: noun
+  gender: m
+  plural: Brüder
+  example: { de: "Ich habe einen Bruder.", en: "I have a brother." }
+  gswZh: Brüeder / Brueder
+  gswBe: Brueder
+  tags: [family]
+
+- id: schwester
+  de: Schwester
+  en: sister
+  pos: noun
+  gender: f
+  plural: Schwestern
+  example: { de: "Anna hat zwei Schwestern.", en: "Anna has two sisters." }
+  gswZh: Schwöschter / Schwester
+  gswBe: Schwöschter
+  tags: [family]
+
+- id: geschwister
+  de: Geschwister
+  en: siblings, brothers and sisters
+  pos: noun
+  pluralOnly: true
+  example: { de: "Hast du Geschwister?", en: "Do you have any brothers or sisters?" }
+  gswZh: Gschwüschterti / Gschwüschter
+  tags: [family, plural-only]
+
+- id: sohn
+  de: Sohn
+  en: son
+  pos: noun
+  gender: m
+  plural: Söhne
+  example: { de: "Ihr Sohn heißt Noah.", en: "Her son is called Noah." }
+  gswZh: Sohn / Bueb
+  tags: [family]
+
+- id: tochter
+  de: Tochter
+  en: daughter
+  pos: noun
+  gender: f
+  plural: Töchter
+  example: { de: "Meine Tochter ist sieben.", en: "My daughter is seven." }
+  gswZh: Tochter / Meitli (girl)
+  tags: [family]
+
+- id: kind
+  de: Kind
+  en: child
+  pos: noun
+  gender: n
+  plural: Kinder
+  example: { de: "Er ist verheiratet und hat zwei Kinder.", en: "He's married and has two children." }
+  gswZh: Chind (plural Chind / Chinde)
+  gswBe: Chind
+  tags: [family]
+
+- id: junge
+  de: Junge
+  en: boy
+  pos: noun
+  gender: m
+  plural: Jungen
+  example: { de: "Der Junge heißt Oliver.", en: "The boy is called Oliver." }
+  chStd: Knabe (official) / Bub
+  gswZh: Bueb (plural Buebe)
+  gswBe: Bueb / Giel
+  tags: [family, helvetism]
+
+- id: maedchen
+  de: Mädchen
+  en: girl
+  pos: noun
+  gender: n
+  plural: Mädchen
+  example: { de: "Das Mädchen heißt Emily.", en: "The girl is called Emily." }
+  gswZh: Meitli (es Meitli)
+  gswBe: Meitschi
+  tags: [family]
+
+- id: grossmutter
+  de: Großmutter
+  en: grandmother
+  pos: noun
+  gender: f
+  plural: Großmütter
+  example: { de: "Meine Großmutter ist achtzig.", en: "My grandmother is eighty." }
+  chStd: Grossmutter
+  gswZh: Grossmuetter / Grosi / Grossmami
+  tags: [family]
+
+- id: grossvater
+  de: Großvater
+  en: grandfather
+  pos: noun
+  gender: m
+  plural: Großväter
+  example: { de: "Mein Großvater wohnt in Luzern.", en: "My grandfather lives in Lucerne." }
+  chStd: Grossvater
+  gswZh: Grossvater / Grosspapi
+  gswBe: Grossätti / Grosspapi
+  tags: [family]
+
+- id: onkel
+  de: Onkel
+  en: uncle
+  pos: noun
+  gender: m
+  plural: Onkel
+  example: { de: "Oh, du bist Onkel!", en: "Oh, you're an uncle!" }
+  gswZh: Onkel / Unggle
+  tags: [family]
+
+- id: tante
+  de: Tante
+  en: aunt
+  pos: noun
+  gender: f
+  plural: Tanten
+  example: { de: "Meine Tante wohnt in Basel.", en: "My aunt lives in Basel." }
+  gswZh: Tante
+  tags: [family]
+
+- id: cousin
+  de: Cousin
+  en: cousin (male)
+  pos: noun
+  gender: m
+  plural: Cousins
+  example: { de: "Mein Cousin heißt Luca.", en: "My cousin is called Luca." }
+  gswZh: Cousin
+  tags: [family]
+
+- id: cousine
+  de: Cousine
+  en: cousin (female)
+  pos: noun
+  gender: f
+  plural: Cousinen
+  example: { de: "Meine Cousine wohnt in Wien.", en: "My cousin lives in Vienna." }
+  gswZh: Cousine
+  tags: [family]
+
+- id: neffe
+  de: Neffe
+  en: nephew
+  pos: noun
+  gender: m
+  plural: Neffen
+  example: { de: "Mein Neffe heißt Oliver.", en: "My nephew is called Oliver." }
+  gswZh: Neffe
+  tags: [family]
+
+- id: nichte
+  de: Nichte
+  en: niece
+  pos: noun
+  gender: f
+  plural: Nichten
+  example: { de: "Meine Nichte ist sieben.", en: "My niece is seven." }
+  gswZh: Nichte
+  tags: [family]
+
+- id: pate
+  de: Pate
+  en: godfather
+  pos: noun
+  gender: m
+  plural: Paten
+  example: { de: "Ich bin der Pate von Noah.", en: "I'm Noah's godfather." }
+  chStd: Götti
+  gswZh: Götti
+  tags: [family, helvetism]
+
+- id: patin
+  de: Patin
+  en: godmother
+  pos: noun
+  gender: f
+  plural: Patinnen
+  example: { de: "Meine Patin wohnt in Zug.", en: "My godmother lives in Zug." }
+  chStd: Gotte
+  gswZh: Gotte
+  tags: [family, helvetism]
+
+- id: mann
+  de: Mann
+  en: man; husband
+  pos: noun
+  gender: m
+  plural: Männer
+  example: { de: "Ihr Mann kommt aus Italien.", en: "Her husband comes from Italy." }
+  gswZh: Maa (plural Manne)
+  gswBe: Ma
+  tags: [family]
+
+- id: freund
+  de: Freund
+  en: (male) friend; boyfriend
+  pos: noun
+  gender: m
+  plural: Freunde
+  example: { de: "Das ist mein Freund Paul.", en: "This is my friend / boyfriend Paul." }
+  gswZh: Fründ / Kolleg (friend, mate)
+  tags: [family, people]
+
+- id: freundin
+  de: Freundin
+  en: (female) friend; girlfriend
+  pos: noun
+  gender: f
+  plural: Freundinnen
+  example: { de: "Meine Freundin heißt Lea.", en: "My friend / girlfriend is called Lea." }
+  gswZh: Fründin / Kollegin (friend, mate)
+  tags: [family, people]
+
+- id: hund
+  de: Hund
+  en: dog
+  pos: noun
+  gender: m
+  plural: Hunde
+  example: { de: "Meine Eltern haben einen Hund.", en: "My parents have a dog." }
+  gswZh: Hund
+  tags: [pets]
+
+- id: katze
+  de: Katze
+  en: cat
+  pos: noun
+  gender: f
+  plural: Katzen
+  example: { de: "Wir haben auch eine Katze.", en: "We have a cat too." }
+  gswZh: Chatz (plural Chatze)
+  tags: [pets]
+
+- id: jahr
+  de: Jahr
+  en: year
+  pos: noun
+  gender: n
+  plural: Jahre
+  example: { de: "Emma ist zwanzig Jahre alt.", en: "Emma is twenty years old." }
+  gswZh: Jahr
+  tags: [age]
+
+- id: haben
+  de: haben
+  en: to have
+  pos: verb
+  example: { de: "Hast du Geschwister?", en: "Do you have any brothers or sisters?" }
+  gswZh: ha (ich ha, du häsch, er hät, mir händ)
+  gswBe: ha (i ha, du hesch, är het, mir hei)
+  tags: [basics]
+
+- id: wie-alt
+  de: Wie alt bist du?
+  en: How old are you?
+  pos: phrase
+  example: { de: "Wie alt bist du? – Ich bin dreißig.", en: "How old are you? – I'm thirty." }
+  gswZh: Wie alt bisch (du)?
+  tags: [age]
+
+- id: verheiratet
+  de: verheiratet
+  en: married
+  pos: adj
+  example: { de: "Mein Bruder ist verheiratet.", en: "My brother is married." }
+  gswZh: ghürate / verhüratet
+  tags: [family]
+
+- id: ledig
+  de: ledig
+  en: single, unmarried
+  pos: adj
+  example: { de: "Emma ist ledig.", en: "Emma is single." }
+  gswZh: ledig
+  tags: [family]
+
+- id: alt
+  de: alt
+  en: old
+  pos: adj
+  example: { de: "Mein Großvater ist sehr alt.", en: "My grandfather is very old." }
+  gswZh: alt
+  tags: [age]
+
+- id: klein
+  de: klein
+  en: small, little
+  pos: adj
+  example: { de: "Meine Familie ist klein.", en: "My family is small." }
+  gswZh: chlii / chli (attributive chliin-, e.g. di chliine Chind)
+  gswBe: chly / chli
+  tags: [family]
+
+- id: gross
+  de: groß
+  en: big, large; tall
+  pos: adj
+  example: { de: "Meine Familie ist groß.", en: "My family is big." }
+  chStd: gross
+  gswZh: gross
+  tags: [family]
+
+- id: suess
+  de: süß
+  en: sweet; cute
+  pos: adj
+  example: { de: "Das Baby ist sehr süß!", en: "The baby is very cute!" }
+  chStd: herzig (cute); süss (sweet taste)
+  gswZh: herzig (cute) / süess (sweet taste)
+  tags: [family, helvetism]
+
+- id: mein
+  de: mein / meine
+  en: my
+  pos: pron
+  example: { de: "Das ist mein Vater und das ist meine Mutter.", en: "This is my father and this is my mother." }
+  gswZh: min (m) / mini (f, pl) / mis (n)
+  tags: [possessives]
+
+- id: dein
+  de: dein / deine
+  en: your (informal)
+  pos: pron
+  example: { de: "Ist das deine Familie?", en: "Is that your family?" }
+  gswZh: din (m) / dini (f, pl) / dis (n)
+  tags: [possessives]
+
+- id: sein-possessive
+  de: sein / seine
+  en: his; its
+  pos: pron
+  example: { de: "Tom und seine Schwester", en: "Tom and his sister" }
+  gswZh: sin (m) / sini (f, pl) / sis (n)
+  tags: [possessives]
+
+- id: ihr-possessive
+  de: ihr / ihre
+  en: her; their
+  pos: pron
+  example: { de: "Anna und ihr Bruder", en: "Anna and her brother" }
+  gswZh: ire (m) / iri (f, pl) / ires (n)
+  tags: [possessives]

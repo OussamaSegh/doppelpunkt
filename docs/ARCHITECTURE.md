@@ -77,3 +77,18 @@ function encryptKey(apiKey: string, passphrase: string): Promise<string>; // AES
 function decryptKey(payload: string, passphrase: string): Promise<string>;
 function estimateCost(provider: ProviderId, model: string, usage: Usage): number; // USD, approximate
 ```
+
+## Implemented extensions (v0.1)
+
+The packages implement the contract above plus additive extras; the source is the reference
+(`packages/*/src/index.ts`). Notable ones:
+
+- engine: `GradeResult.parts` (per gap/pair) and `needsAi`; write/roleplay return `needsAi` instead of
+  throwing; `errorProfile` items carry `kind: 'grammar' | 'error'` with weighted counts; `streak`,
+  `weeklyMinutes`; `placementItems` returns items tagged with `level` and `unitId`.
+- Placement rule: a level passes at ≥70%, walking up from A1. Nobody passes → A1 unit 1. Highest
+  passed level ≥90% → next level unit 1. Otherwise unit = 1 + ⌊(score − 0.7) / 0.2 × 12⌋ in that level.
+- ai: `Provider.model`, `onUsage` on streams, `temperature`, `AiError` kinds (`cors` suggests the relay),
+  `generatePractice` (closed types only, ids `ai-…`), `TUTOR_INFO`, `PROVIDER_LABELS`, `PROVIDER_KEY_URLS`.
+  Writing scores are 0–5 per criterion.
+- Content: `pluralOnly: true` for plural-only nouns, `plural: "-"` for nouns without a plural.

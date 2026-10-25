@@ -1,0 +1,628 @@
+# A1 unit 2 – Im Café
+
+# ---------- vocabulary ----------
+- id: a1-u02-match-numbers
+  type: match
+  skill: vocabulary
+  variety: de
+  grammar: [numbers]
+  prompt: Match the numbers with the words.
+  pairs:
+    - ["3", "drei"]
+    - ["7", "sieben"]
+    - ["12", "zwölf"]
+    - ["21", "einundzwanzig"]
+    - ["50", "fünfzig"]
+  explanation: >-
+    1–12 have their own words. From 21 on, German says the ones first: einundzwanzig = one-and-twenty.
+    Tens end in -zig (zwanzig, fünfzig), except dreißig.
+
+- id: a1-u02-mcq-sechzehn
+  type: mcq
+  skill: vocabulary
+  variety: de
+  grammar: [numbers]
+  prompt: Which number is "sechzig"?
+  options: ["60", "16", "6", "66"]
+  answer: 0
+  rationales:
+    - Correct. -zig = tens, so sechzig = 60.
+    - 16 is sechzehn (-zehn = teen).
+    - 6 is sechs.
+    - 66 is sechsundsechzig.
+  explanation: >-
+    -zehn means -teen (sechzehn = 16), -zig means -ty (sechzig = 60). sechs loses its final s in
+    sechzehn and sechzig.
+
+- id: a1-u02-match-cafe
+  type: match
+  skill: vocabulary
+  variety: de
+  prompt: Match the café words with their English meaning.
+  pairs:
+    - ["die Rechnung", "the bill"]
+    - ["das Brötchen", "the bread roll"]
+    - ["der Kuchen", "the cake"]
+    - ["das Frühstück", "breakfast"]
+    - ["die Kellnerin", "the waitress"]
+  explanation: >-
+    Learn each noun with its article. Clues: -ung is always feminine (die Rechnung), -chen is always
+    neuter (das Brötchen), -in makes a female person and is feminine (die Kellnerin).
+
+- id: a1-u02-mcq-zahlen
+  type: mcq
+  skill: vocabulary
+  variety: de
+  prompt: You want to pay. What do you say to the waiter?
+  options: ["Ich möchte zahlen, bitte.", "Ich möchte zählen, bitte.", "Ich möchte kosten, bitte.", "Ich möchte trinken, bitte."]
+  answer: 0
+  rationales:
+    - Correct. zahlen = to pay.
+    - zählen (with ä) means to count – the waiter will be confused!
+    - kosten means to cost (or to taste); things cost, people don't.
+    - trinken = to drink.
+  explanation: >-
+    zahlen (pay) and zählen (count) differ only in the umlaut. Other ways to ask for the bill:
+    Die Rechnung, bitte! / Wir möchten zahlen. / In Switzerland also: Zahlen, bitte!
+
+# ---------- grammar ----------
+- id: a1-u02-match-gender
+  type: match
+  skill: grammar
+  variety: de
+  grammar: [gender-articles]
+  prompt: Match each noun with its article.
+  pairs:
+    - ["Tee", "der"]
+    - ["Milch", "die"]
+    - ["Wasser", "das"]
+  explanation: >-
+    der Tee (m), die Milch (f), das Wasser (n). There is no reliable rule for drinks – this is why the
+    vocabulary list always shows the gender. Say the article out loud every time you learn a noun.
+
+- id: a1-u02-mcq-gender-rechnung
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [gender-articles]
+  prompt: "Rechnung ends in -ung. Which article does it take?"
+  options: ["die", "der", "das"]
+  answer: 0
+  explanation: >-
+    Nouns ending in -ung are always feminine: die Rechnung, die Wohnung, die Zeitung. This is one of the
+    few 100% reliable gender rules – and a useful one, because there are hundreds of -ung nouns.
+
+- id: a1-u02-gap-accusative
+  type: gap
+  skill: grammar
+  variety: de
+  grammar: [accusative-indefinite, moechte]
+  prompt: Fill in ein, eine or einen.
+  text: Ich möchte ___ Kaffee, ___ Schokolade und ___ Wasser.
+  answers: [["einen"], ["eine"], ["ein"]]
+  explanation: >-
+    After möchte the noun is a direct object (accusative). Only the masculine article changes:
+    der Kaffee → einen Kaffee. Feminine stays eine (die Schokolade → eine Schokolade), neuter stays
+    ein (das Wasser → ein Wasser).
+
+- id: a1-u02-gap-nom-acc
+  type: gap
+  skill: grammar
+  variety: de
+  grammar: [accusative-indefinite]
+  prompt: Nominative or accusative? Fill in ein or einen.
+  text: Das ist ___ Apfelkuchen. Ich nehme ___ Apfelkuchen.
+  answers: [["ein"], ["einen"]]
+  explanation: >-
+    After sein (Das ist ...) you use the nominative: ein Apfelkuchen. After nehmen the cake is the
+    object, so masculine ein becomes einen. Test: can you ask "what do I take?" → it's an object.
+
+- id: a1-u02-mcq-einen-tee
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [accusative-indefinite]
+  prompt: Choose the correct article.
+  question: Ich nehme ___ Tee.
+  options: ["einen", "ein", "eine", "einer"]
+  answer: 0
+  explanation: >-
+    der Tee is masculine and is the object of nehmen, so it takes the accusative: einen Tee.
+    ein would be nominative (Das ist ein Tee); eine is feminine.
+
+- id: a1-u02-mcq-ein-wasser
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [accusative-indefinite]
+  prompt: "Why is it \"Ich möchte ein Wasser\" and not \"einen Wasser\"?"
+  options: ["Because Wasser is neuter, and only masculine articles change in the accusative.", "Because water is uncountable.", "Because möchte never takes the accusative.", "Because Wasser starts with W."]
+  answer: 0
+  explanation: >-
+    In the accusative only der/ein (masculine) change, to den/einen. das Wasser is neuter, so ein stays ein.
+    Note: in a café, "ein Wasser" naturally means "a (glass/bottle of) water".
+
+- id: a1-u02-gap-moechte
+  type: gap
+  skill: grammar
+  variety: de
+  grammar: [moechte]
+  prompt: Fill in the correct form of möchten.
+  text: Was ___ du? – Ich ___ ein Wasser. – Und ihr? – Wir ___ zwei Kaffee.
+  answers: [["möchtest", "moechtest"], ["möchte", "moechte"], ["möchten", "moechten"]]
+  explanation: >-
+    möchten: ich möchte, du möchtest, er/sie/es möchte, wir möchten, ihr möchtet, sie/Sie möchten.
+    ich and er/sie/es share the same form without -t. When ordering, "zwei Kaffee" (without -s) is
+    normal: you mean two cups.
+
+- id: a1-u02-transform-polite
+  type: transform
+  skill: grammar
+  variety: de
+  grammar: [moechte]
+  prompt: "\"Ich will ...\" sounds demanding. Make the order polite."
+  from: de
+  to: de
+  source: Ich will einen Kaffee.
+  answers: ["Ich möchte einen Kaffee.", "Ich hätte gern einen Kaffee.", "Ich möchte bitte einen Kaffee.", "Ich hätte gern einen Kaffee, bitte.", "Ich möchte einen Kaffee, bitte."]
+  explanation: >-
+    Replace will with möchte (would like) or use Ich hätte gern ... (I would like to have). The object
+    stays in the accusative (einen Kaffee). Adding bitte makes it even friendlier.
+
+- id: a1-u02-gap-nehmen
+  type: gap
+  skill: grammar
+  variety: de
+  grammar: [moechte, accusative-indefinite]
+  prompt: Fill in the correct form of nehmen.
+  text: Ich ___ einen Tee. Was ___ du? – Ich ___ ein Bier.
+  answers: [["nehme"], ["nimmst"], ["nehme"]]
+  explanation: >-
+    nehmen changes its vowel e → i in the du- and er/sie/es-forms: du nimmst, er nimmt (also the h
+    disappears and the m doubles). ich nehme, wir nehmen are regular.
+
+- id: a1-u02-order-moechte
+  type: order
+  skill: grammar
+  variety: de
+  grammar: [moechte, accusative-indefinite]
+  prompt: Put the words in order.
+  tokens: ["möchte", "einen", "Ich", "Kaffee", "bitte"]
+  answers: ["Ich möchte einen Kaffee, bitte.", "Ich möchte bitte einen Kaffee."]
+  explanation: >-
+    Verb in position 2: Ich möchte ... bitte can go at the end (after a comma) or after the verb.
+    The article and noun stay together: einen Kaffee.
+
+- id: a1-u02-order-zahlen
+  type: order
+  skill: grammar
+  variety: de
+  grammar: [moechte]
+  prompt: Put the words in order.
+  tokens: ["zahlen", "möchten", "Wir", "jetzt"]
+  answers: ["Wir möchten jetzt zahlen.", "Jetzt möchten wir zahlen."]
+  explanation: >-
+    möchten + infinitive: the conjugated verb (möchten) is in position 2 and the infinitive (zahlen)
+    goes to the very end. This "verb bracket" is typical of German.
+
+- id: a1-u02-order-kosten
+  type: order
+  skill: grammar
+  variety: de
+  prompt: Make a question.
+  tokens: ["kostet", "Was", "Kuchen", "der"]
+  answers: ["Was kostet der Kuchen?"]
+  explanation: >-
+    W-question: question word (Was), verb (kostet), subject (der Kuchen). "Was kostet ...?" literally
+    "What costs ...?" = How much is ...? You can also say "Wie viel kostet der Kuchen?".
+
+- id: a1-u02-mcq-45
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [numbers]
+  prompt: How do you say 45 in German?
+  options: ["fünfundvierzig", "vierzigfünf", "vierundfünfzig", "fünfvierzig"]
+  answer: 0
+  rationales:
+    - Correct. 5 + und + 40, written as one word.
+    - English order doesn't work in German.
+    - That's 54 – the order is reversed.
+    - The und is missing.
+  explanation: >-
+    Two-digit numbers from 21 to 99: ones + und + tens, one word. 45 = fünf-und-vierzig.
+    Write it down in the order you hear it: first 5, then 4 in front of it.
+
+# ---------- listening ----------
+- id: a1-u02-dictation-order
+  type: dictation
+  skill: listening
+  variety: de
+  prompt: Listen and write what you hear.
+  transcript: Ein Kaffee und ein Croissant, bitte.
+  explanation: >-
+    When you order with just the nouns (no verb), you use the nominative: ein Kaffee. With a verb
+    (Ich möchte ...) it would be einen Kaffee. Croissant is pronounced the French way.
+
+- id: a1-u02-dictation-price
+  type: dictation
+  skill: listening
+  variety: de
+  grammar: [numbers]
+  prompt: Listen and write what you hear. Write the numbers as words.
+  transcript: Das macht siebzehn Franken achtzig.
+  explanation: >-
+    Prices: francs first, then the Rappen, without und. siebzehn has no -en- (not siebenzehn).
+    In writing you'd see 17.80 Fr. or CHF 17.80.
+
+- id: a1-u02-dictation-milch
+  type: dictation
+  skill: listening
+  variety: de
+  grammar: [moechte, accusative-indefinite]
+  prompt: Listen and write what you hear.
+  transcript: Ich möchte einen Tee mit Milch.
+  explanation: >-
+    Listen for the -en in einen: it tells you the noun is masculine and an object. The ch in Milch is
+    the soft "ich"-sound.
+
+- id: a1-u02-mcq-listening-total
+  type: mcq
+  skill: listening
+  variety: de
+  grammar: [numbers]
+  prompt: Listen to the intro dialogue. How much do Tom and Anna pay?
+  options: ["17.80 Fr.", "70.80 Fr.", "7.80 Fr.", "18.70 Fr."]
+  answer: 0
+  explanation: >-
+    "Das macht siebzehn Franken achtzig." siebzehn = 17 (-zehn = teen), achtzig = 80 (-zig = tens).
+    Don't confuse siebzehn (17) and siebzig (70).
+
+- id: a1-u02-mcq-listening-anna
+  type: mcq
+  skill: listening
+  variety: de
+  prompt: Listen to the intro dialogue. What does Anna order?
+  options: ["A tea and a croissant", "A coffee and a cake", "A water and a croissant", "A tea and a cake"]
+  answer: 0
+  explanation: >-
+    Anna says: "Und ich nehme einen Tee und ein Croissant." The coffee and the cake are Tom's. Listen
+    for the speaker and the verb (nehme, möchte, hätte gern) that introduces each order.
+
+- id: a1-u02-mcq-listening-getrennt
+  type: mcq
+  skill: listening
+  variety: de
+  prompt: "The waitress asks: \"Zusammen oder getrennt?\" What does she want to know?"
+  options: ["Whether you pay together or separately", "Whether you sit together or apart", "Whether you want milk or not", "Whether you eat here or take away"]
+  answer: 0
+  explanation: >-
+    When you ask for the bill in a German-speaking café, the waiter often asks if you pay together
+    (zusammen) or separately (getrennt). Answer simply: "Zusammen, bitte." or "Getrennt, bitte."
+
+# ---------- reading ----------
+- id: a1-u02-mcq-reading-espresso
+  type: mcq
+  skill: reading
+  variety: de
+  grammar: [numbers]
+  prompt: "Read \"Im Café Sonne\". How much is an espresso?"
+  options: ["4.20 Fr.", "4.80 Fr.", "4.50 Fr.", "2.20 Fr."]
+  answer: 0
+  explanation: >-
+    On a Swiss menu, 4.20 Fr. is read "vier Franken zwanzig". 4.80 is the coffee, 4.50 the tea, 2.20 the
+    Gipfeli. Swiss prices use a full stop; in Germany and Austria you'd see 4,20 €.
+
+- id: a1-u02-mcq-reading-gipfeli
+  type: mcq
+  skill: reading
+  variety: de
+  prompt: "According to the text, what is a Gipfeli?"
+  options: ["A croissant", "A bread roll", "A cake", "A coffee"]
+  answer: 0
+  explanation: >-
+    "Ein Gipfeli ist ein Croissant – so sagt man in der Schweiz." Gipfeli is a Helvetism: Swiss
+    Standard German uses it in writing too. The ending -li makes it neuter: das Gipfeli.
+
+- id: a1-u02-mcq-reading-pay
+  type: mcq
+  skill: reading
+  variety: de
+  prompt: "Read the text again. Richtig oder falsch? \"Tom zahlt sieben Franken mit Karte.\""
+  options: ["Richtig", "Falsch"]
+  answer: 0
+  explanation: >-
+    Richtig. 4.80 + 2.20 = 7.00: "Das macht zusammen sieben Franken. Tom zahlt mit Karte." mit Karte
+    zahlen = to pay by card; bar zahlen = to pay cash.
+
+- id: a1-u02-translate-reading
+  type: translate
+  skill: reading
+  variety: de
+  prompt: Translate into English.
+  source: Der Kaffee kostet vier Franken achtzig.
+  answers: ["The coffee costs four francs eighty.", "The coffee is four francs eighty.", "The coffee costs 4.80 francs.", "The coffee costs CHF 4.80."]
+  explanation: >-
+    kosten = to cost. Prices are read as "francs + Rappen", without und: vier Franken achtzig = 4.80.
+
+# ---------- speaking ----------
+- id: a1-u02-speak-order
+  type: speak
+  skill: speaking
+  variety: de
+  grammar: [moechte, accusative-indefinite]
+  prompt: Read the order aloud, then order something else from the menu.
+  target: Guten Tag! Ich hätte gern einen Kaffee und ein Croissant, bitte.
+  explanation: >-
+    Ich hätte gern + accusative is the friendliest way to order. ä in hätte sounds like e in "bet".
+    Stress the nouns: einen KAFfee (in Germany) or einen KafFEE (common in Switzerland and Austria).
+
+- id: a1-u02-speak-umlaut
+  type: speak
+  skill: speaking
+  variety: de
+  grammar: [numbers]
+  prompt: "Pronunciation: ü and ö. Say \"ee\" with rounded lips for ü, \"e\" with rounded lips for ö."
+  target: fünf, fünfzehn, fünfzig. Zwölf Franken fünfzig, bitte.
+  explanation: >-
+    ü = the tongue of "ee" + the lips of "oo"; ö = the tongue of "e" + the lips of "o". fünf and zwölf
+    are numbers you'll use every day, so practise them until they feel natural.
+
+- id: a1-u02-speak-prices
+  type: speak
+  skill: speaking
+  variety: de
+  grammar: [numbers]
+  prompt: "Read the prices aloud: 4.80 / 17.50 / 23.90 / 99.–"
+  target: vier Franken achtzig, siebzehn Franken fünfzig, dreiundzwanzig Franken neunzig, neunundneunzig Franken
+  explanation: >-
+    Franken first, then the Rappen. Two-digit numbers: ones-und-tens (dreiundzwanzig). A dash (99.–)
+    means a round price with no Rappen.
+
+- id: a1-u02-roleplay-cafe
+  type: roleplay
+  skill: speaking
+  variety: de
+  grammar: [moechte, accusative-indefinite, numbers]
+  tutor: lena
+  prompt: "Roleplay with Lena: order in a café and pay."
+  scenario: >-
+    You are in a café in Zurich. Lena is the waitress. Order a drink and something to eat, ask what it
+    costs, and pay. Use Sie with her.
+  goals:
+    - Order a drink and something to eat with möchte or hätte gern.
+    - Answer "Sonst noch etwas?".
+    - Ask for the bill and say whether you pay together or separately.
+    - Understand the price and pay.
+  model: |
+    Lena: Guten Tag! Was möchten Sie?
+    Du: Guten Tag! Ich hätte gern einen Tee und ein Gipfeli, bitte.
+    Lena: Gern. Sonst noch etwas?
+    Du: Ja, ein Wasser, bitte. Was kostet das?
+    Lena: Das macht zehn Franken siebzig.
+    Du: Hier sind elf Franken. Stimmt so.
+    Lena: Vielen Dank! Einen schönen Tag noch!
+    Du: Danke, Ihnen auch. Auf Wiedersehen!
+  explanation: >-
+    Café German is very formulaic: Was möchten Sie? → Ich hätte gern / Ich möchte + einen/eine/ein ...;
+    Sonst noch etwas? → Nein, danke / Ja, ...; Die Rechnung, bitte / Ich möchte zahlen → Zusammen oder
+    getrennt? → Das macht ... → Stimmt so.
+
+# ---------- writing ----------
+- id: a1-u02-translate-order
+  type: translate
+  skill: writing
+  variety: de
+  grammar: [moechte, accusative-indefinite]
+  prompt: Translate into German.
+  source: I'd like a tea and a croissant, please.
+  answers:
+    - Ich möchte einen Tee und ein Croissant, bitte.
+    - Ich hätte gern einen Tee und ein Croissant, bitte.
+    - Ich möchte bitte einen Tee und ein Croissant.
+    - Ich hätte gerne einen Tee und ein Croissant, bitte.
+    - Ich möchte einen Tee und ein Gipfeli, bitte.
+    - Ich hätte gern einen Tee und ein Gipfeli, bitte.
+  explanation: >-
+    der Tee is masculine → einen Tee in the accusative; das Croissant is neuter → ein Croissant.
+    gern and gerne are both correct.
+
+- id: a1-u02-translate-kostet
+  type: translate
+  skill: writing
+  variety: de
+  prompt: Translate into German.
+  source: How much is the coffee?
+  answers: ["Was kostet der Kaffee?", "Wie viel kostet der Kaffee?", "Wieviel kostet der Kaffee?"]
+  explanation: >-
+    "How much is ...?" = Was kostet ...? or Wie viel kostet ...? The coffee is the subject here, so it is
+    nominative: der Kaffee (not den).
+
+- id: a1-u02-translate-zahlen
+  type: translate
+  skill: writing
+  variety: de
+  grammar: [moechte]
+  prompt: Translate into German.
+  source: We would like to pay, please.
+  answers: ["Wir möchten zahlen, bitte.", "Wir möchten bitte zahlen.", "Wir möchten bezahlen, bitte.", "Wir möchten bitte bezahlen.", "Wir würden gern zahlen."]
+  explanation: >-
+    möchten + infinitive at the end. zahlen and bezahlen both mean to pay. Watch the umlaut: zählen = count.
+
+- id: a1-u02-write-order
+  type: write
+  skill: writing
+  variety: de
+  grammar: [moechte, accusative-indefinite, numbers]
+  prompt: Write a short order message.
+  task: >-
+    Your team orders breakfast from the café downstairs. Write a short message to the café (4–6 sentences):
+    greet them, order for three people (each something to drink and something to eat), ask what it costs
+    and say how you want to pay.
+  minWords: 30
+  model: >-
+    Guten Morgen! Wir sind drei Personen. Ich möchte einen Kaffee und ein Gipfeli. Anna nimmt einen Tee
+    und ein Brötchen. Paul hätte gern eine Schokolade und ein Stück Kuchen. Was kostet das zusammen?
+    Wir zahlen mit Karte. Vielen Dank!
+  checklist:
+    - I greet the café and thank them at the end.
+    - I use möchte, nehme/nimmt or hätte gern for each order.
+    - Masculine nouns after these verbs take einen (einen Kaffee, einen Tee).
+    - Feminine and neuter nouns keep eine / ein.
+    - I ask about the price (Was kostet ...?).
+    - All nouns have a capital letter.
+  explanation: >-
+    Each order is one short clause with the verb in position 2 and the object in the accusative.
+    For other people use the er/sie form: Anna nimmt, Paul möchte, Paul hätte gern.
+
+# ---------- Swiss Standard German ----------
+- id: a1-u02-chstd-gipfeli
+  type: mcq
+  skill: vocabulary
+  variety: ch-std
+  prompt: "A Zurich bakery sign reads \"Gipfeli 2.20\". What would a bakery in Germany call it?"
+  options: ["Croissant", "Brötchen", "Kuchen", "Keks"]
+  answer: 0
+  explanation: >-
+    Gipfeli is the Swiss word for croissant and is also used in Swiss Standard German (on menus, in
+    newspapers). Many Swiss food words end in -li, which makes them neuter: das Gipfeli, das Weggli.
+
+- id: a1-u02-chstd-match
+  type: match
+  skill: vocabulary
+  variety: ch-std
+  prompt: Match the Swiss Standard German words with the words used in Germany.
+  pairs:
+    - ["das Gipfeli", "das Croissant"]
+    - ["die Glace", "das Eis"]
+    - ["das Morgenessen", "das Frühstück"]
+    - ["das Poulet", "das Hähnchen"]
+  explanation: >-
+    These are Helvetisms: correct Standard German in Switzerland, written in menus and newspapers.
+    Glace and Poulet come from French. Note that the gender can differ: die Glace but das Eis.
+
+# ---------- Swiss lane (gsw-zh) ----------
+- id: a1-u02-ch-mcq-doerfs
+  type: mcq
+  skill: listening
+  variety: gsw-zh
+  prompt: "The waitress says: \"Grüezi mitenand! Was dörfs sii?\" What does she mean?"
+  options: ["What can I get you?", "Where are you from?", "Do you want to pay?", "Is everything all right?"]
+  answer: 0
+  explanation: >-
+    Was dörfs sii? = Was darf es sein? – the standard question in Swiss cafés and shops. Grüezi mitenand
+    greets more than one person.
+
+- id: a1-u02-ch-match-numbers
+  type: match
+  skill: vocabulary
+  variety: gsw-zh
+  grammar: [numbers]
+  prompt: Match the Zurich German numbers with Standard German.
+  pairs:
+    - ["drü", "drei"]
+    - ["föif", "fünf"]
+    - ["sächs", "sechs"]
+    - ["nüün", "neun"]
+    - ["zwänzg", "zwanzig"]
+  explanation: >-
+    Patterns: ei → ü (drei → drü), e → ä (sechs → sächs), -zig → -zg (zwanzig → zwänzg, füfzg).
+    Zurich says föif for 5, but the vowel changes in füfzää (15) and füfzg (50).
+
+- id: a1-u02-ch-mcq-price
+  type: mcq
+  skill: listening
+  variety: gsw-zh
+  grammar: [numbers]
+  prompt: "In the Swiss lane dialogue the waitress says: \"Das macht zwölf Franke füfzg.\" How much is it?"
+  options: ["12.50 Fr.", "12.15 Fr.", "20.50 Fr.", "15.12 Fr."]
+  answer: 0
+  explanation: >-
+    zwölf = 12, füfzg = fünfzig (50). Franke = Franken (Swiss German often drops the final -n).
+    Reto pays with füfzää (15) and says "Isch guet so" – keep the change.
+
+- id: a1-u02-ch-transform-hett-gern
+  type: transform
+  skill: reading
+  variety: gsw-zh
+  grammar: [moechte, accusative-indefinite]
+  prompt: What does this mean in Standard German?
+  from: gsw-zh
+  to: de
+  source: Ich hett gern en Kafi und es Gipfeli.
+  answers: ["Ich hätte gern einen Kaffee und ein Croissant.", "Ich hätte gern einen Kaffee und ein Gipfeli.", "Ich hätte gerne einen Kaffee und ein Croissant.", "Ich hätte gerne einen Kaffee und ein Gipfeli."]
+  explanation: >-
+    hett = hätte, en = ein/einen, es = ein (neuter), Kafi = Kaffee. Swiss German en Kafi has no
+    accusative ending, but Standard German needs einen Kaffee after hätte gern.
+
+- id: a1-u02-ch-mcq-accusative
+  type: mcq
+  skill: grammar
+  variety: gsw-zh
+  grammar: [accusative-indefinite]
+  prompt: "Zurich: \"Ich nimm en Kafi.\" How do you say it in Standard German?"
+  options: ["Ich nehme einen Kaffee.", "Ich nehme ein Kaffee.", "Ich nehme eine Kaffee.", "Ich nimm einen Kaffee."]
+  answer: 0
+  rationales:
+    - Correct. nehme + accusative einen.
+    - Swiss German en has no accusative ending – but Standard German does. Don't copy this pattern into Hochdeutsch.
+    - Kaffee is masculine, not feminine.
+    - nimm is the Zurich ich-form (and the Standard imperative); the Standard ich-form is nehme.
+  explanation: >-
+    A classic Swiss trap: Swiss German articles don't change in the accusative (en Kafi as subject and
+    object), so Swiss speakers and learners living in Switzerland sometimes say "ein Kaffee" in Standard
+    German. In Hochdeutsch the masculine object is einen Kaffee.
+
+- id: a1-u02-ch-transform-zaeme
+  type: transform
+  skill: vocabulary
+  variety: gsw-zh
+  prompt: "Recognition: how would the Zurich waitress ask this? (Common spellings are accepted.)"
+  from: de
+  to: gsw-zh
+  source: Zusammen oder getrennt?
+  answers: ["Zäme oder separat?", "Zäme oder getrännt?", "Zäme oder separaat?"]
+  explanation: >-
+    zusammen → zäme. For "separately" Swiss speakers usually say separat (from French) or getrännt.
+    zäme is one of the most frequent Swiss words: mir gönd zäme = we go together.
+
+- id: a1-u02-ch-mcq-schale
+  type: mcq
+  skill: vocabulary
+  variety: gsw-zh
+  prompt: "Sandra orders \"e Schale\". What does she get?"
+  options: ["A coffee with lots of milk", "A bowl of soup", "A glass of beer", "A cup of tea"]
+  answer: 0
+  explanation: >-
+    In Swiss cafés e Schale (eine Schale) is coffee with lots of milk – like a café au lait. A Kafi Crème
+    is a normal coffee with a little cream, and e Stange is a small glass of draught beer.
+
+- id: a1-u02-roleplay-reto
+  type: roleplay
+  skill: listening
+  variety: gsw-zh
+  grammar: [moechte, numbers]
+  tutor: reto
+  prompt: "Listening roleplay with Reto: he's the waiter in a Zurich café."
+  scenario: >-
+    Reto works in a café in Zurich and speaks Zurich German. You answer in Standard German. Understand
+    his questions and the price.
+  goals:
+    - Understand "Was dörfs sii?" and order something.
+    - Understand "Suscht no öppis?" and answer.
+    - Understand "Zäme oder separat?" and the price in dialect.
+  model: |
+    Reto: Grüezi! Was dörfs sii?
+    Du: Guten Tag! Ich hätte gern einen Kaffee, bitte.
+    Reto: En Kafi Crème? Gärn. Suscht no öppis?
+    Du: Ja, ein Gipfeli, bitte.
+    Reto: Es Gipfeli, guet. … So, bitte schön. Wänd Sie grad zahle?
+    Du: Ja, gern.
+    Reto: Das macht sibe Franke.
+    Du: Hier sind zehn Franken.
+    Reto: Merci vilmal! Drü Franke zrugg. En schöne Tag no!
+    Du: Danke, auf Wiedersehen!
+  explanation: >-
+    Decoding: dörfs sii = darf es sein; suscht no öppis = sonst noch etwas; wänd Sie = wollen Sie;
+    grad = gleich/jetzt; sibe = sieben; drü Franke zrugg = drei Franken zurück. Numbers and prices are
+    the hardest part to catch – ask "Wie viel, bitte?" if needed.
