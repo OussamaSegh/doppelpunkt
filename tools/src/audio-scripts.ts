@@ -7,11 +7,12 @@ import { fileURLToPath } from 'node:url';
 import { buildManifest, renderScript, type AudioManifest } from './audio';
 import { formatIssues, repoRoot, unitFolder } from './lint';
 import { loadContent } from './load';
+import { buildPronunciationManifest, drillFiles, loadDrills, PRONUNCIATION_DIR, renderPronunciationScript, type PronunciationManifest } from './pronunciation';
 
 export const MANIFEST_FILE = 'audio-manifest.json';
 export const SCRIPT_FILE = 'audio-script.md';
 
-export type ScriptsResult = { ok: boolean; manifests: AudioManifest[]; changed: string[]; log: string };
+export type ScriptsResult = { ok: boolean; manifests: AudioManifest[]; pronunciation?: PronunciationManifest; changed: string[]; log: string };
 
 export function exportScripts(contentDir: string, opts: { root?: string; check?: boolean } = {}): ScriptsResult {
   const root = opts.root ?? process.cwd();
@@ -22,27 +23,45 @@ export function exportScripts(contentDir: string, opts: { root?: string; check?:
   }
   const manifests: AudioManifest[] = [];
   const changed: string[] = [];
-  for (const lu of loaded.units) {
-    const m = buildManifest(lu.unit, unitFolder(lu));
-    manifests.push(m);
-    const files: Array<[string, string]> = [
-      [join(lu.dir, MANIFEST_FILE), JSON.stringify(m, null, 2) + '\n'],
-      [join(lu.dir, SCRIPT_FILE), renderScript(m)],
-    ];
+  const emit = (files: Array<[string, string]>) => {
     for (const [path, body] of files) {
       const same = existsSync(path) && readFileSync(path, 'utf8') === body;
       if (same) continue;
       changed.push(relative(root, path) || path);
       if (!opts.check) writeFileSync(path, body);
     }
+  };
+  for (const lu of loaded.units) {
+    const m = buildManifest(lu.unit, unitFolder(lu));
+    manifests.push(m);
+    emit([
+      [join(lu.dir, MANIFEST_FILE), JSON.stringify(m, null, 2) + '\n'],
+      [join(lu.dir, SCRIPT_FILE), renderScript(m)],
+    ]);
     const linked = m.entries.filter((e) => e.referenced).length;
     log.push(`${m.folder}: ${m.entries.length} recording(s), ${linked} linked`);
+  }
+
+  // Pronunciation drills: one manifest and script for content/pronunciation/ (only when drill files exist).
+  let pronunciation: PronunciationManifest | undefined;
+  if (drillFiles(contentDir).length) {
+    const pron = loadDrills(contentDir, root);
+    if (pron.issues.some((i) => i.severity === 'error')) {
+      log.push(formatIssues(pron.issues.filter((i) => i.severity === 'error')), '\nDrills with errors are skipped. Run npm run content:lint.');
+    }
+    pronunciation = buildPronunciationManifest(pron.drills);
+    const dir = join(contentDir, PRONUNCIATION_DIR);
+    emit([
+      [join(dir, MANIFEST_FILE), JSON.stringify(pronunciation, null, 2) + '\n'],
+      [join(dir, SCRIPT_FILE), renderPronunciationScript(pronunciation)],
+    ]);
+    log.push(`${PRONUNCIATION_DIR}: ${pronunciation.drills.length} drill(s), ${pronunciation.entries.length} recording(s), ${pronunciation.entries.filter((e) => e.referenced).length} linked`);
   }
   if (opts.check && changed.length) log.push(`\nOut of date (run npm run audio:scripts):\n  ${changed.join('\n  ')}`);
   else if (changed.length) log.push(`\nwrote ${changed.length} file(s)`);
   const total = manifests.reduce((n, m) => n + m.entries.length, 0);
   log.push(`${manifests.length} unit(s), ${total} recording(s) in total`);
-  return { ok: !(opts.check && changed.length), manifests, changed, log: log.join('\n') };
+  return { ok: !(opts.check && changed.length), manifests, ...(pronunciation ? { pronunciation } : {}), changed, log: log.join('\n') };
 }
 
 export function main(argv = process.argv.slice(2)): number {

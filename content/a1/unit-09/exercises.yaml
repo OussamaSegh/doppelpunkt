@@ -1,0 +1,610 @@
+# A1 unit 9 – Termine und Verabredungen
+
+# ---------- vocabulary ----------
+- id: a1-u09-match-phone-verbs
+  type: match
+  skill: vocabulary
+  variety: de
+  prompt: Match the verbs with English.
+  pairs:
+    - ["anrufen", "to phone"]
+    - ["absagen", "to cancel"]
+    - ["verschieben", "to postpone"]
+    - ["vorbeikommen", "to drop by"]
+    - ["mitbringen", "to bring along"]
+  explanation: >-
+    Four of them are separable (an-, ab-, vorbei-, mit-): Ich rufe an, ich sage ab, ich komme vorbei, ich
+    bringe mit. verschieben is not: ver- never splits.
+
+- id: a1-u09-mcq-month-order
+  type: mcq
+  skill: vocabulary
+  variety: de
+  prompt: "Nach dem Juni kommt der ..."
+  options: ["Mai", "August", "Juli", "September"]
+  answer: 2
+  explanation: >-
+    Juni (June) → Juli (July). Say them clearly: JU-ni, JU-li. On the phone, many Germans say Juno for Juni
+    and Julei for Juli to avoid confusion.
+
+- id: a1-u09-mcq-termin
+  type: mcq
+  skill: vocabulary
+  variety: de
+  prompt: "\"Ich habe am Freitag einen Termin beim Friseur.\" What does it mean?"
+  options: ["I have a hair appointment on Friday.", "I work at the hairdresser's on Friday.", "My hairdresser is coming on Friday.", "I'm meeting a friend on Friday."]
+  answer: 0
+  explanation: >-
+    der Termin = appointment (official or professional). A private meeting with a friend is eine Verabredung.
+    In Switzerland the hairdresser is der Coiffeur.
+
+- id: a1-u09-match-ordinals
+  type: match
+  skill: vocabulary
+  variety: de
+  grammar: [dates-ordinals]
+  prompt: Match the written dates with how you say them.
+  pairs:
+    - ["1. Mai", "der erste Mai"]
+    - ["3. Mai", "der dritte Mai"]
+    - ["7. Mai", "der siebte Mai"]
+    - ["12. Mai", "der zwölfte Mai"]
+    - ["20. Mai", "der zwanzigste Mai"]
+  explanation: >-
+    The full stop after the number marks an ordinal. 1–19 add -te (erste, dritte and siebte are irregular),
+    from 20 add -ste: zwanzigste.
+
+# ---------- grammar: separable verbs ----------
+- id: a1-u09-gap-separable
+  type: gap
+  skill: grammar
+  variety: de
+  grammar: [separable-verbs-modal]
+  prompt: "Fill in the verb and the prefix. (anrufen, vorbeikommen)"
+  text: "Ich ___ dich morgen ___. Kommst du heute Abend ___?"
+  answers: [["rufe"], ["an"], ["vorbei"]]
+  explanation: >-
+    In a statement or question the separable verb splits: the verb is in position 2 (or 1), the prefix goes
+    to the end: Ich rufe ... an. Kommst du ... vorbei?
+
+- id: a1-u09-gap-separable-modal
+  type: gap
+  skill: grammar
+  variety: de
+  grammar: [separable-verbs-modal, modal-muessen-duerfen]
+  prompt: "Fill in absagen or mitbringen as one word."
+  text: "Ich muss den Termin leider ___. Soll ich einen Kuchen ___?"
+  answers: [["absagen"], ["mitbringen"]]
+  explanation: >-
+    With a modal verb (muss, soll), the separable verb is an infinitive at the end and stays in one piece:
+    absagen, mitbringen.
+
+- id: a1-u09-mcq-separable
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [separable-verbs-modal]
+  prompt: Which sentence is correct?
+  options: ["Ich anrufe dich heute.", "Ich rufe an dich heute.", "Ich rufe heute an dich.", "Ich rufe dich heute an."]
+  answer: 3
+  rationales:
+    - "The prefix can't stay on the verb in position 2."
+    - "The object (dich) comes before the prefix."
+    - "an goes to the very end of the sentence."
+    - "Correct. Verb second, everything else in the middle, the prefix at the end."
+  explanation: >-
+    Separable verbs make a bracket like modal verbs: rufe ... an. Objects and time words go inside the
+    bracket.
+
+- id: a1-u09-mcq-verschieben
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [separable-verbs-modal]
+  prompt: Choose the correct sentence.
+  options: ["Wir schieben den Termin ver.", "Wir verschieben den Termin.", "Wir verschieben den Termin ver.", "Wir schieben ver den Termin."]
+  answer: 1
+  explanation: >-
+    ver- is an inseparable prefix: it never splits and it is never stressed (ver-SCHIE-ben). Separable
+    prefixes like an-, ab-, mit- are stressed and split.
+
+- id: a1-u09-order-modal-separable
+  type: order
+  skill: grammar
+  variety: de
+  grammar: [separable-verbs-modal, modal-koennen-wollen]
+  prompt: Make a yes/no question.
+  tokens: ["du", "morgen", "Kannst", "vorbeikommen"]
+  answers: ["Kannst du morgen vorbeikommen?"]
+  explanation: >-
+    Modal verb first, subject second, time word in the middle, the whole separable infinitive at the end.
+
+- id: a1-u09-order-separable-statement
+  type: order
+  skill: grammar
+  variety: de
+  grammar: [separable-verbs-modal, time-inversion]
+  prompt: Start with "Heute Abend".
+  tokens: ["Heute", "Abend", "rufe", "ich", "dich", "an"]
+  answers: ["Heute Abend rufe ich dich an."]
+  explanation: >-
+    Time phrase in position 1, verb second, subject third (unit 4). The prefix an closes the sentence.
+
+- id: a1-u09-transform-modal-separable
+  type: transform
+  skill: grammar
+  variety: de
+  grammar: [separable-verbs-modal, modal-muessen-duerfen]
+  prompt: "Add the modal verb in brackets: Ich sage die Party ab. (müssen)"
+  from: de
+  to: de
+  source: Ich sage die Party ab.
+  answers: ["Ich muss die Party absagen."]
+  explanation: >-
+    muss takes position 2; sage ... ab becomes one infinitive at the end: absagen.
+
+# ---------- grammar: sollen ----------
+- id: a1-u09-gap-sollen
+  type: gap
+  skill: grammar
+  variety: de
+  grammar: [sollen]
+  prompt: Fill in the correct form of sollen.
+  text: "Der Arzt sagt, ich ___ viel schlafen. ___ ich dich morgen anrufen? Ihr ___ nichts kaufen."
+  answers: [["soll"], ["Soll"], ["sollt"]]
+  explanation: >-
+    sollen: ich soll, ihr sollt. ich and er/sie/es have no ending. Soll ich ...? is an offer: Shall I ...?
+
+- id: a1-u09-mcq-soll-ich
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [sollen]
+  prompt: "\"Soll ich etwas mitbringen?\" What is Tom doing?"
+  options: ["He's saying he must bring something.", "He's refusing to bring something.", "He's offering to bring something.", "He's asking someone to bring something."]
+  answer: 2
+  explanation: >-
+    Soll ich ...? = Shall I ...? – an offer. The typical answers: Ja, gern! / Nein, danke, du musst nichts
+    mitbringen.
+
+- id: a1-u09-transform-sollen
+  type: transform
+  skill: grammar
+  variety: de
+  grammar: [sollen, separable-verbs-modal]
+  prompt: "Lena tells you: \"Bring bitte Wein mit!\" Tell another friend what Lena wants. Start with \"Ich soll ...\"."
+  from: de
+  to: de
+  source: Bring bitte Wein mit!
+  answers: ["Ich soll Wein mitbringen.", "Ich soll bitte Wein mitbringen."]
+  explanation: >-
+    sollen reports an instruction from someone else: Lena says "Bring Wein mit!" → Ich soll Wein mitbringen.
+    The separable verb becomes one infinitive at the end.
+
+# ---------- grammar: dates ----------
+- id: a1-u09-gap-dates
+  type: gap
+  skill: grammar
+  variety: de
+  grammar: [dates-ordinals]
+  prompt: "Write the ordinal numbers in words. (3. – 12.)"
+  text: Heute ist der ___ Mai. Mein Termin ist am ___ Juni.
+  answers: [["dritte"], ["zwölften"]]
+  explanation: >-
+    der + -e: der dritte Mai. am + -en: am zwölften Juni. dritte is irregular; zwölf + -te = zwölfte.
+
+- id: a1-u09-mcq-am-erster-august
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [dates-ordinals]
+  prompt: "How do you say \"on 1 August\" (the Swiss national day)?"
+  options: ["am eins August", "am ersten August", "im ersten August", "am erste August"]
+  answer: 1
+  rationales:
+    - "Dates need ordinal numbers."
+    - "Correct. am + ordinal + -en."
+    - "im is for a month alone (im August)."
+    - "After am the ending is -en."
+  explanation: >-
+    am ersten August. erste is irregular (like first). On 1 August the Swiss celebrate their national day
+    with bonfires and fireworks.
+
+- id: a1-u09-mcq-im-am
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [dates-ordinals]
+  prompt: Choose the correct preposition.
+  question: Mein Geburtstag ist ___ Juli, ___ siebten Juli.
+  options: ["am – im", "im – im", "am – am", "im – am"]
+  answer: 3
+  explanation: >-
+    im + month alone (im Juli), am + date (am siebten Juli). Both are contractions: im = in dem, am = an dem.
+
+- id: a1-u09-translate-birthday
+  type: translate
+  skill: writing
+  variety: de
+  grammar: [dates-ordinals]
+  prompt: Translate into German.
+  source: My birthday is on the fourth of July.
+  answers: ["Mein Geburtstag ist am vierten Juli.", "Mein Geburtstag ist am 4. Juli.", "Ich habe am vierten Juli Geburtstag.", "Ich habe am 4. Juli Geburtstag."]
+  explanation: >-
+    am + ordinal + -en: am vierten Juli. Germans also say Ich habe am ... Geburtstag (I have my birthday on
+    ...).
+
+# ---------- grammar: time words ----------
+- id: a1-u09-mcq-uebermorgen
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [time-adverbs]
+  prompt: "Heute ist Montag. Wann ist übermorgen?"
+  options: ["Am Sonntag", "Am Dienstag", "Am Donnerstag", "Am Mittwoch"]
+  answer: 3
+  explanation: >-
+    morgen = tomorrow (Dienstag), übermorgen = the day after tomorrow (Mittwoch). gestern = yesterday
+    (Sonntag).
+
+- id: a1-u09-gap-time-words
+  type: gap
+  skill: grammar
+  variety: de
+  grammar: [time-adverbs, time-inversion]
+  prompt: "Fill in: tomorrow – next (week)."
+  text: ___ habe ich keine Zeit, aber ___ Woche kann ich.
+  answers: [["Morgen"], ["nächste"]]
+  explanation: >-
+    morgen in position 1 is written with a capital only because it starts the sentence – it's still the
+    adverb tomorrow. die Woche → nächste Woche. After Morgen, the verb habe comes second.
+
+# ---------- reading ----------
+- id: a1-u09-mcq-reading-when
+  type: mcq
+  skill: reading
+  variety: ch-std
+  grammar: [dates-ordinals]
+  prompt: Read the invitation. When and where is the party?
+  options: ["On Sunday 22 June at the Hubers' flat", "On Saturday 21 June in the garden", "On Saturday 14 June in the garden", "On Friday 21 June in the café"]
+  answer: 1
+  explanation: >-
+    "Am Samstag, 21. Juni, machen wir im Garten ein Sommerfest." Sunday 22 June is the rain date; 14 June is
+    the deadline for answering.
+
+- id: a1-u09-mcq-reading-bring
+  type: mcq
+  skill: reading
+  variety: ch-std
+  grammar: [sollen, separable-verbs-modal]
+  prompt: What should the neighbours bring?
+  options: ["Drinks for the barbecue", "Nothing, but a salad or a cake is welcome", "Meat for the grill", "Money for the drinks"]
+  answer: 1
+  explanation: >-
+    "Ihr sollt nichts kaufen, aber ihr könnt gern einen Salat oder einen Kuchen mitbringen." The Hubers take
+    care of (sorgen für) the barbecue and drinks.
+
+- id: a1-u09-translate-reading
+  type: translate
+  skill: reading
+  variety: ch-std
+  grammar: [separable-verbs-modal, imperative]
+  prompt: Translate into English.
+  source: Ruft uns an oder schreibt eine Nachricht.
+  answers: ["Call us or write a message.", "Phone us or send a message.", "Call us or send a message.", "Phone us or write a message."]
+  explanation: >-
+    Two ihr-imperatives (unit 8): Ruft ... an! Schreibt! The prefix an goes to the end, after the object uns.
+
+# ---------- listening ----------
+- id: a1-u09-dictation-termin
+  type: dictation
+  skill: listening
+  variety: de
+  grammar: [separable-verbs-modal]
+  prompt: Listen and write what you hear.
+  transcript: Ich muss den Termin leider absagen.
+  explanation: >-
+    absagen is one word at the end (after muss). leider = unfortunately, the polite softener.
+
+- id: a1-u09-dictation-date
+  type: dictation
+  skill: listening
+  variety: de
+  grammar: [dates-ordinals]
+  prompt: Listen and write what you hear. Write the date in words.
+  transcript: Der Termin ist am zweiten Mai um zehn Uhr.
+  explanation: >-
+    am zweiten Mai: am + ordinal + -en. You may also write am 2. Mai – with a full stop after the number.
+
+- id: a1-u09-mcq-listening-new-date
+  type: mcq
+  skill: listening
+  variety: ch-std
+  grammar: [dates-ordinals]
+  prompt: Listen to the intro dialogue again. When is Tom's new appointment?
+  options: ["Tuesday 3 May at nine", "Wednesday 11 May at 9.30", "Wednesday 11 May at 10.30", "Thursday 12 May at 9.30"]
+  answer: 1
+  explanation: >-
+    "Geht es am elften Mai um halb zehn? Das ist ein Mittwoch." halb zehn = 9.30 (half to ten – unit 4).
+
+# ---------- speaking ----------
+- id: a1-u09-speak-phone
+  type: speak
+  skill: speaking
+  variety: de
+  grammar: [moechte]
+  prompt: "On the phone: read aloud, then call (in your head) your hairdresser or doctor."
+  target: Guten Tag, hier ist Tom Baker. Ich möchte gern einen Termin machen.
+  explanation: >-
+    On the phone, introduce yourself with Hier ist ... (not Ich bin ...). einen Termin machen = to make an
+    appointment.
+
+- id: a1-u09-speak-shadow-tom
+  type: speak
+  skill: speaking
+  variety: de
+  grammar: [separable-verbs-modal]
+  prompt: "Shadowing: speak along with Tom's line from the intro dialogue, then say it alone."
+  target: Ich muss den Termin leider absagen. Ich muss am Dienstag arbeiten.
+  explanation: >-
+    Stress the separable prefix: AB-sagen. leider is slightly slower and lower – it sounds apologetic.
+
+- id: a1-u09-speak-shadow-graf
+  type: speak
+  skill: speaking
+  variety: ch-std
+  grammar: [dates-ordinals]
+  prompt: "Shadowing: speak along with Frau Graf, then say it alone."
+  target: Geht es am elften Mai um halb zehn? Das ist ein Mittwoch.
+  explanation: >-
+    Listen to the Swiss Standard accent: a clear, tapped r and the ach-sound in Mittwoch's ch. am elften has
+    no glottal stop in Swiss speech – the words run together (a-melften).
+
+- id: a1-u09-speak-dates
+  type: speak
+  skill: speaking
+  variety: de
+  grammar: [dates-ordinals]
+  prompt: "Say the dates aloud: 1.1., 3.3., 7.7., 20.10."
+  target: am ersten Januar, am dritten März, am siebten Juli, am zwanzigsten Oktober
+  explanation: >-
+    am + ordinal + -en. Watch the irregular ones: ersten, dritten, siebten; from 20 it's -sten: zwanzigsten.
+
+- id: a1-u09-speak-pron-stress
+  type: speak
+  skill: speaking
+  variety: de
+  grammar: [separable-verbs-modal]
+  prompt: "Pronunciation: separable prefixes are stressed, ver- and be- are not. Read aloud."
+  target: anrufen, absagen, vorbeikommen, mitbringen – verschieben, besuchen, verstehen
+  explanation: >-
+    AN-rufen, AB-sagen, vor-BEI-kommen, MIT-bringen – but ver-SCHIE-ben, be-SU-chen, ver-STE-hen. vorbei- is
+    stressed on its second syllable. See the drill on word stress.
+
+- id: a1-u09-roleplay-lena
+  type: roleplay
+  skill: speaking
+  variety: de
+  grammar: [separable-verbs-modal, sollen, dates-ordinals, time-adverbs]
+  tutor: lena
+  prompt: "Roleplay with Lena: find a date for dinner."
+  scenario: >-
+    Lena phones you. She wants to invite you for dinner. You can't on the day she suggests. Find another
+    date, agree on a time and offer to bring something. Use du.
+  goals:
+    - Answer the phone and greet Lena.
+    - Say you can't on her day and why (Ich muss ...).
+    - Suggest another day or date (übermorgen, am ... ten).
+    - Offer to bring something (Soll ich ... mitbringen?).
+    - Agree and say goodbye (Bis ...!).
+  model: |
+    Lena: Hallo, hier ist Lena! Ich koche am Freitag. Kommst du vorbei?
+    Du: Hallo Lena! Am Freitag kann ich leider nicht, ich muss arbeiten.
+    Lena: Schade. Und am Samstag?
+    Du: Am Samstag passt es. Um wie viel Uhr?
+    Lena: Um sieben?
+    Du: Super. Soll ich etwas mitbringen?
+    Lena: Ja, gern einen Salat!
+    Du: Gut, mache ich. Bis Samstag!
+  explanation: >-
+    Useful frames: Am ... kann ich leider nicht. Am ... passt es. Soll ich ... mitbringen? Bis Samstag! /
+    Bis bald!
+
+# ---------- writing ----------
+- id: a1-u09-translate-call-back
+  type: translate
+  skill: writing
+  variety: de
+  grammar: [separable-verbs-modal, time-adverbs]
+  prompt: Translate into German (informal).
+  source: I'll call you tomorrow.
+  answers: ["Ich rufe dich morgen an.", "Morgen rufe ich dich an.", "Ich rufe dich morgen zurück.", "Ich ruf dich morgen an."]
+  explanation: >-
+    German uses the present tense for plans: Ich rufe dich morgen an (I'll call you tomorrow). The prefix an
+    goes to the end.
+
+- id: a1-u09-write-email
+  type: write
+  skill: writing
+  variety: de
+  grammar: [separable-verbs-modal, sollen, dates-ordinals, time-adverbs]
+  prompt: Write a short email to move an appointment.
+  task: >-
+    You have an appointment with your German teacher, Frau Keller, on 14 May at 10 o'clock, but you can't
+    come. Write an email (5–7 sentences): say which appointment it is, that you must cancel it and why,
+    suggest two new dates, and ask whether you should bring anything.
+  minWords: 40
+  model: >-
+    Liebe Frau Keller, ich habe am vierzehnten Mai um zehn Uhr einen Termin bei Ihnen. Ich muss den Termin
+    leider absagen, ich muss an dem Tag arbeiten. Können wir den Termin verschieben? Am sechzehnten Mai oder
+    am zwanzigsten Mai habe ich Zeit, am Vormittag oder am Nachmittag. Soll ich meine Hausaufgaben
+    mitbringen? Viele Grüße, Tom Baker
+  checklist:
+    - I write dates with am + ordinal + -en (am vierzehnten Mai) or as numbers with a full stop (am 14. Mai).
+    - With a modal verb, the separable verb is one word at the end (absagen).
+    - I use Soll ich ...? for my offer.
+    - I start and end the email politely (Liebe Frau ..., Viele Grüße).
+  explanation: >-
+    A formal email uses Sie / Ihnen and a polite frame. The core sentences are the unit patterns: Ich muss
+    den Termin leider absagen. Können wir ... verschieben? Soll ich ... mitbringen?
+
+# ---------- Swiss Standard German ----------
+- id: a1-u09-chstd-match
+  type: match
+  skill: vocabulary
+  variety: ch-std
+  prompt: Match the Swiss Standard German words with the German-German words.
+  pairs:
+    - ["der Coiffeur", "der Friseur"]
+    - ["das Natel", "das Handy"]
+    - ["die Agenda", "der Terminkalender"]
+    - ["das Nachtessen", "das Abendessen"]
+  explanation: >-
+    der Coiffeur and die Agenda come from French. das Natel was a Swiss brand name; today most people say
+    Handy, but Natel is still understood everywhere.
+
+# ---------- Swiss lane (gsw-zh) ----------
+- id: a1-u09-ch-match-time
+  type: match
+  skill: vocabulary
+  variety: gsw-zh
+  grammar: [time-adverbs]
+  prompt: Match the Zurich German words with Standard German.
+  pairs:
+    - ["morn", "morgen"]
+    - ["übermorn", "übermorgen"]
+    - ["hüt", "heute"]
+    - ["spöter", "später"]
+    - ["abgmacht", "abgemacht"]
+  explanation: >-
+    morn = tomorrow, but am Morge = in the morning – the same trap as in Standard German. abgmacht = agreed,
+    it's a deal (no e in ge-).
+
+- id: a1-u09-ch-mcq-when
+  type: mcq
+  skill: listening
+  variety: gsw-zh
+  grammar: [time-adverbs]
+  prompt: Listen to the Swiss lane dialogue. When will Sandra go to Reto's?
+  options: ["Tomorrow at six", "Today at seven", "The day after tomorrow at seven", "Tomorrow at seven"]
+  answer: 2
+  explanation: >-
+    "Morn chan ich nöd ... Übermorn gaht s." – "Am sibni?" übermorn = übermorgen, am sibni = um sieben (unit 4).
+
+- id: a1-u09-ch-transform-ziit
+  type: transform
+  skill: reading
+  variety: gsw-zh
+  grammar: [time-adverbs]
+  prompt: What does Reto ask? Write it in Standard German.
+  from: gsw-zh
+  to: de
+  source: Häsch morn Ziit?
+  answers: ["Hast du morgen Zeit?", "Hast du Zeit morgen?"]
+  explanation: >-
+    häsch = hast du (du is often dropped after the verb), morn = morgen, Ziit = Zeit (ei → ii).
+
+- id: a1-u09-ch-transform-aaluete
+  type: transform
+  skill: reading
+  variety: gsw-zh
+  grammar: [separable-verbs-modal]
+  prompt: What does Sandra promise? Write it in Standard German.
+  from: gsw-zh
+  to: de
+  source: Ich lüüt dir morn no aa.
+  answers: ["Ich rufe dich morgen noch an.", "Ich rufe dich morgen an.", "Morgen rufe ich dich noch an."]
+  explanation: >-
+    aalüüte = anrufen, separable as in Standard German (lüüt ... aa). Zurich uses the dative dir, Standard
+    German the accusative dich: Ich rufe dich an.
+
+- id: a1-u09-ch-mcq-soell
+  type: mcq
+  skill: listening
+  variety: gsw-zh
+  grammar: [sollen]
+  prompt: "Sandra asks: \"Söll ich öppis mitbringe?\" What does Reto want her to bring?"
+  options: ["A bottle of wine", "Nothing at all", "A cake", "Some bread"]
+  answer: 0
+  explanation: >-
+    "Nei, nüt. Oder doch – e Fläsche Wii!" söll ich = soll ich, öppis = etwas, nüt = nichts, Wii = Wein.
+
+- id: a1-u09-ch-transform-de-gsw
+  type: transform
+  skill: vocabulary
+  variety: gsw-zh
+  grammar: [time-adverbs]
+  prompt: "Recognition: how do you say this in Zurich German? (Common spellings are accepted.)"
+  from: de
+  to: gsw-zh
+  source: Bis morgen!
+  answers: ["Bis morn!", "Bis morn.", "Bis moorn!"]
+  explanation: >-
+    morgen → morn. A very common goodbye, together with Bis spöter! and Bis bald!
+
+- id: a1-u09-roleplay-reto
+  type: roleplay
+  skill: listening
+  variety: gsw-zh
+  grammar: [time-adverbs, separable-verbs-modal, sollen]
+  tutor: reto
+  prompt: "Listening roleplay with Reto: a phone call."
+  scenario: >-
+    Your phone rings – it's Reto. He wants to meet up. He speaks Zurich German; you answer in Standard
+    German. Find a day that works, agree on a time and offer to bring something.
+  goals:
+    - Answer the phone with your name and understand who is calling.
+    - Understand Häsch morn / übermorn Ziit? and answer.
+    - Agree on a day and time and offer to bring something (Soll ich ...?).
+  model: |
+    Du: Baker.
+    Reto: Hoi, da isch de Reto! Häsch morn Ziit? Mir mached es Fondue.
+    Du: Morgen kann ich leider nicht. Geht es übermorgen?
+    Reto: Übermorn? Ja, das gaht. Am halbi achti?
+    Du: Um halb acht, super. Soll ich etwas mitbringen?
+    Reto: Nei, nüt. Du muesch nur Hunger mitbringe!
+    Du: Gut, bis übermorgen!
+  explanation: >-
+    Decoding: mir mached = wir machen, gaht = geht, am halbi achti = um halb acht (unit 4), muesch nur Hunger
+    mitbringe = you only need to bring an appetite.
+
+# ---------- Bernese (gsw-be, recognition) ----------
+- id: a1-u09-ch-be-mcq-birthday
+  type: mcq
+  skill: listening
+  variety: gsw-be
+  grammar: [dates-ordinals]
+  prompt: "Sandra's mother: \"Am vierte Juli het dr Ätti Geburtstag.\" Whose birthday is it, and when?"
+  options: ["Sandra's mother's, on 14 July", "Sandra's grandfather's, on 4 July", "Sandra's father's, on 4 July", "Sandra's father's, on 4 June"]
+  answer: 2
+  explanation: >-
+    dr Ätti = der Vater (Papa) in Bernese; het = hat; am vierte Juli = am vierten Juli. The dialect drops the
+    final -n of the ordinal.
+
+- id: a1-u09-ch-be-transform-luet
+  type: transform
+  skill: reading
+  variety: gsw-be
+  grammar: [imperative, separable-verbs-modal]
+  prompt: What does Sandra's mother ask? Write it in Standard German (du).
+  from: gsw-be
+  to: de
+  source: Lüt mer de aa!
+  answers: ["Ruf mich dann an!", "Ruf mich dann an.", "Ruf mich an!", "Rufe mich dann an!"]
+  explanation: >-
+    aalüte = anrufen (berndeutsch.ch), du-imperative: Lüt ... aa! = Ruf ... an! mer = mir (dative in dialect,
+    mich in Standard German), de = dann.
+
+- id: a1-u09-ch-be-match
+  type: match
+  skill: vocabulary
+  variety: gsw-be
+  prompt: Match the Bernese words with Standard German.
+  pairs:
+    - ["morn", "morgen"]
+    - ["Zyt", "Zeit"]
+    - ["het", "hat"]
+    - ["aalüte", "anrufen"]
+  explanation: >-
+    Bernese writes the long or short i as y (Zyt; Zurich Ziit) and says het for hat (Zurich hät). morn and
+    aalüte are the same in Bern and Zurich.

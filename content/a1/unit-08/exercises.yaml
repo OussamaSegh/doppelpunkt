@@ -1,0 +1,616 @@
+# A1 unit 8 – Unterwegs in der Stadt
+
+# ---------- vocabulary ----------
+- id: a1-u08-match-transport
+  type: match
+  skill: vocabulary
+  variety: de
+  prompt: Match the transport words with English.
+  pairs:
+    - ["der Zug", "train"]
+    - ["die Haltestelle", "stop"]
+    - ["der Fahrplan", "timetable"]
+    - ["der Bahnsteig", "platform"]
+    - ["die Fahrkarte", "ticket"]
+  explanation: >-
+    In Switzerland you will mostly hear das Billett for die Fahrkarte and der Perron (or das Gleis) for der
+    Bahnsteig. der Fahrplan = fahren + der Plan.
+
+- id: a1-u08-match-directions
+  type: match
+  skill: vocabulary
+  variety: de
+  grammar: [directions-chunks]
+  prompt: Match the directions.
+  pairs:
+    - ["geradeaus", "straight on"]
+    - ["links", "on the left"]
+    - ["rechts", "on the right"]
+    - ["an der Ampel", "at the traffic lights"]
+    - ["über die Brücke", "over the bridge"]
+  explanation: >-
+    Directions often come as chunks: an der Ampel rechts, über die Brücke, dann geradeaus. Learn them whole.
+
+- id: a1-u08-mcq-umsteigen
+  type: mcq
+  skill: vocabulary
+  variety: de
+  prompt: "\"Sie müssen am Bahnhof umsteigen.\" What do you have to do at the station?"
+  options: ["Buy a ticket", "Change to another train or tram", "Get off and walk", "Wait for the next train"]
+  answer: 1
+  explanation: >-
+    umsteigen = to change. The family: einsteigen (get on), aussteigen (get off), umsteigen (change). All
+    three are separable: Steigen Sie um!
+
+# ---------- grammar: imperative ----------
+- id: a1-u08-gap-imperative-sie
+  type: gap
+  skill: grammar
+  variety: de
+  grammar: [imperative]
+  prompt: "Give directions politely (Sie). Use gehen, nehmen and aussteigen."
+  text: "___ Sie geradeaus, ___ Sie dann den Bus und ___ Sie am Bahnhof aus."
+  answers: [["Gehen"], ["nehmen"], ["steigen"]]
+  explanation: >-
+    The Sie-imperative is the infinitive + Sie, verb first. With a separable verb the prefix goes to the end:
+    Steigen Sie ... aus.
+
+- id: a1-u08-gap-imperative-du
+  type: gap
+  skill: grammar
+  variety: de
+  grammar: [imperative]
+  prompt: "Now tell a friend (du). Use gehen, nehmen and fahren."
+  text: "___ geradeaus, ___ das Tram oder ___ mit dem Velo!"
+  answers: [["Geh", "Gehe"], ["nimm"], ["fahr", "fahre"]]
+  explanation: >-
+    du gehst → Geh! du nimmst → Nimm! (e → i stays). du fährst → Fahr! (a → ä goes). The du-imperative has
+    no du and no -st.
+
+- id: a1-u08-mcq-imperative-nimm
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [imperative]
+  prompt: Choose the correct du-imperative of nehmen.
+  question: ___ bitte den Bus Nummer 31!
+  options: ["Nehme", "Nimmst", "Nimm", "Nehmt"]
+  answer: 2
+  rationales:
+    - "nehme is the ich-form. nehmen changes e → i in the du-form, and the imperative keeps it."
+    - "nimmst is the statement (du nimmst). Drop -st for the imperative."
+    - "Correct. du nimmst → Nimm!"
+    - "Nehmt! is for ihr (several friends)."
+  explanation: >-
+    Verbs with e → i (nehmen, essen, lesen, sehen) keep the i: Nimm! Iss! Lies! Sieh mal!
+
+- id: a1-u08-transform-imperative
+  type: transform
+  skill: grammar
+  variety: de
+  grammar: [imperative]
+  prompt: "Turn the statement into a polite instruction (Sie)."
+  from: de
+  to: de
+  source: Sie steigen am Bahnhof um.
+  answers: ["Steigen Sie am Bahnhof um!", "Steigen Sie am Bahnhof um.", "Bitte steigen Sie am Bahnhof um!", "Steigen Sie bitte am Bahnhof um!"]
+  explanation: >-
+    Statement: Sie steigen um. Instruction: the verb moves to position 1 – Steigen Sie um! The prefix um
+    stays at the end.
+
+- id: a1-u08-transform-ihr
+  type: transform
+  skill: grammar
+  variety: de
+  grammar: [imperative]
+  prompt: "Tell two friends (ihr) the same thing."
+  from: de
+  to: de
+  source: Kommt ihr mit?
+  answers: ["Kommt mit!", "Kommt mit.", "Kommt doch mit!", "Kommt bitte mit!"]
+  explanation: >-
+    The ihr-imperative is the ihr-form without ihr: ihr kommt mit → Kommt mit! The prefix mit stays at the
+    end.
+
+# ---------- grammar: müssen / dürfen ----------
+- id: a1-u08-gap-muessen-duerfen
+  type: gap
+  skill: grammar
+  variety: de
+  grammar: [modal-muessen-duerfen]
+  prompt: Fill in the correct form of müssen or dürfen.
+  text: "Du ___ ein Billett kaufen. Ohne Billett ___ man nicht fahren. Wir ___ am Bahnhof umsteigen."
+  answers: [["musst"], ["darf"], ["müssen"]]
+  explanation: >-
+    müssen: du musst, wir müssen. dürfen: man darf (like er/sie/es – no ending). A ticket is necessary
+    (müssen); travelling without one isn't allowed (nicht dürfen).
+
+- id: a1-u08-mcq-nicht-muessen
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [modal-muessen-duerfen]
+  prompt: "\"Sie müssen nicht umsteigen.\" What does it mean?"
+  options: ["You mustn't change.", "You can't change.", "You don't want to change.", "You don't have to change."]
+  answer: 3
+  rationales:
+    - "\"Mustn't\" is nicht dürfen: Sie dürfen nicht umsteigen."
+    - "\"Can't\" is nicht können."
+    - "\"Don't want to\" is nicht wollen."
+    - "Correct. nicht müssen = it isn't necessary."
+  explanation: >-
+    The trap: nicht müssen = don't have to; nicht dürfen = mustn't. English "must not" is never nicht müssen.
+
+- id: a1-u08-mcq-mustnt
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [modal-muessen-duerfen]
+  prompt: "A sign in the park. How do you say \"You mustn't cycle here\"?"
+  options: ["Hier muss man nicht Velo fahren.", "Hier darf man nicht Velo fahren.", "Hier will man nicht Velo fahren.", "Hier kann man Velo fahren."]
+  answer: 1
+  explanation: >-
+    Rules and bans use man + dürfen: Hier darf man nicht ... (mustn't). Hier muss man nicht ... would mean
+    "you don't have to cycle here".
+
+- id: a1-u08-order-muessen
+  type: order
+  skill: grammar
+  variety: de
+  grammar: [modal-muessen-duerfen, separable-verbs]
+  prompt: Put the words in order.
+  tokens: ["Ich", "muss", "am", "Bahnhof", "umsteigen"]
+  answers: ["Ich muss am Bahnhof umsteigen.", "Am Bahnhof muss ich umsteigen."]
+  explanation: >-
+    With a modal verb, the separable verb stays together as one infinitive at the end: umsteigen (not
+    *steige ... um*).
+
+- id: a1-u08-transform-darf
+  type: transform
+  skill: grammar
+  variety: de
+  grammar: [modal-muessen-duerfen]
+  prompt: "Add the modal verb in brackets: Man parkt hier nicht. (dürfen)"
+  from: de
+  to: de
+  source: Man parkt hier nicht.
+  answers: ["Man darf hier nicht parken.", "Hier darf man nicht parken."]
+  explanation: >-
+    darf takes position 2 and the ending (man darf), parken goes to the end. nicht stays before the
+    infinitive.
+
+- id: a1-u08-match-modal-meaning
+  type: match
+  skill: grammar
+  variety: de
+  grammar: [modal-muessen-duerfen, modal-koennen-wollen]
+  prompt: Match the German with the English meaning.
+  pairs:
+    - ["Ich muss gehen.", "I have to go."]
+    - ["Ich muss nicht gehen.", "I don't have to go."]
+    - ["Ich darf nicht gehen.", "I'm not allowed to go."]
+    - ["Ich kann nicht gehen.", "I can't go."]
+    - ["Ich will nicht gehen.", "I don't want to go."]
+  explanation: >-
+    Four modal verbs, four meanings. Note the pair muss nicht (not necessary) vs darf nicht (forbidden).
+
+# ---------- grammar: directions chunks ----------
+- id: a1-u08-gap-zum-zur
+  type: gap
+  skill: grammar
+  variety: de
+  grammar: [directions-chunks]
+  prompt: "Fill in zum or zur. (der Bahnhof, die Post, das Museum)"
+  text: Wie komme ich ___ Bahnhof, ___ Post und ___ Museum?
+  answers: [["zum"], ["zur"], ["zum"]]
+  explanation: >-
+    zum = zu dem (masculine and neuter), zur = zu der (feminine). der Bahnhof, das Museum → zum; die Post →
+    zur.
+
+- id: a1-u08-mcq-mit-dem
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [directions-chunks]
+  prompt: Choose the correct phrase.
+  question: Ich fahre ___ zur Arbeit.
+  options: ["mit Bus", "mit der Bus", "im Bus", "mit dem Bus"]
+  answer: 3
+  explanation: >-
+    "By bus" = mit dem Bus – the article is needed. Also: mit dem Tram, mit dem Zug, mit der S-Bahn. On foot =
+    zu Fuß.
+
+- id: a1-u08-gap-ordinals
+  type: gap
+  skill: grammar
+  variety: de
+  grammar: [directions-chunks]
+  prompt: "Fill in the ordinal numbers. (1st – 3rd)"
+  text: Nehmen Sie die ___ Straße links und steigen Sie an der ___ Haltestelle aus.
+  answers: [["erste"], ["dritten"]]
+  explanation: >-
+    erste and dritte are irregular (like English first, third). After an der the ending is -en: an der
+    dritten Haltestelle – learn it as a chunk for now.
+
+# ---------- revision ----------
+- id: a1-u08-gap-koennen-revision
+  type: gap
+  skill: grammar
+  variety: de
+  grammar: [modal-koennen-wollen]
+  prompt: "Revision (unit 7): fill in kann or will. (kaputt = broken, unbedingt = absolutely)"
+  text: Ich ___ heute nicht Velo fahren, mein Velo ist kaputt. Aber ich ___ unbedingt zum Zoo!
+  answers: [["kann"], ["will"]]
+  explanation: >-
+    kann = am able to (the bike is broken – kaputt), will = want to. unbedingt = absolutely. With a direction
+    (zum Zoo), the verb of motion can be left out: Ich will zum Zoo.
+
+# ---------- reading ----------
+- id: a1-u08-mcq-reading-billett
+  type: mcq
+  skill: reading
+  variety: ch-std
+  grammar: [modal-muessen-duerfen]
+  prompt: Read "Unterwegs in Zürich". When do you buy the ticket?
+  options: ["On the tram, from the driver", "After the journey", "Only at the station", "Before the journey"]
+  answer: 3
+  explanation: >-
+    "Kaufen Sie das Billett vor der Fahrt." vor = before. You mustn't travel without a ticket (dürfen nicht).
+
+- id: a1-u08-mcq-reading-ga
+  type: mcq
+  skill: reading
+  variety: ch-std
+  grammar: [modal-muessen-duerfen]
+  prompt: What is true about the GA?
+  options: ["You pay half the price.", "You need it for the tram.", "You never have to buy a ticket.", "You must buy it at the station."]
+  answer: 2
+  explanation: >-
+    "Mit dem GA müssen Sie nie ein Billett kaufen." nie = never. The Halbtax is the half-price card.
+
+- id: a1-u08-mcq-reading-trottoir
+  type: mcq
+  skill: reading
+  variety: ch-std
+  grammar: [modal-muessen-duerfen]
+  prompt: "Richtig oder falsch? \"Man darf auf dem Trottoir Velo fahren.\""
+  options: ["Falsch", "Richtig"]
+  answer: 0
+  explanation: >-
+    Falsch. "Auf dem Trottoir dürfen Sie nicht Velo fahren." das Trottoir = der Bürgersteig. Cyclists use the
+    road or the Velostreifen (bike lane).
+
+# ---------- listening ----------
+- id: a1-u08-dictation-zoo
+  type: dictation
+  skill: listening
+  variety: de
+  grammar: [directions-chunks]
+  prompt: Listen and write what you hear.
+  transcript: Wie komme ich zum Zoo?
+  explanation: >-
+    zum = zu dem; der Zoo. The question starts with a W-word, so komme is in position 2.
+
+- id: a1-u08-dictation-geradeaus
+  type: dictation
+  skill: listening
+  variety: de
+  grammar: [imperative, directions-chunks]
+  prompt: Listen and write what you hear.
+  transcript: Gehen Sie geradeaus und dann die zweite Straße rechts.
+  explanation: >-
+    geradeaus is one word. Gehen Sie = Sie-imperative. die zweite Straße = the second street.
+
+- id: a1-u08-mcq-listening-tram
+  type: mcq
+  skill: listening
+  variety: ch-std
+  prompt: Listen to the intro dialogue. Which tram goes to the zoo?
+  options: ["Number four", "Number two", "Number six", "Number nine"]
+  answer: 2
+  explanation: >-
+    "Nehmen Sie am besten das Tram Nummer sechs." In Switzerland it's das Tram (neuter).
+
+# ---------- speaking ----------
+- id: a1-u08-speak-ask-way
+  type: speak
+  skill: speaking
+  variety: de
+  grammar: [directions-chunks]
+  prompt: Read aloud, then ask the way to two other places (zum Museum, zur Post).
+  target: Entschuldigung, wie komme ich zum Bahnhof? Ist das weit?
+  explanation: >-
+    Entschuldigung is the polite opener. Stress the place: zum BAHN-hof. In compounds the first part is
+    stressed (see the drill on word stress).
+
+- id: a1-u08-speak-directions
+  type: speak
+  skill: speaking
+  variety: de
+  grammar: [imperative, directions-chunks]
+  prompt: Give directions. Read aloud, then explain the way from your home to the next stop.
+  target: Gehen Sie geradeaus, dann die erste Straße links. Die Haltestelle ist an der Ampel.
+  explanation: >-
+    The Sie-imperative is verb first: GEH-en Sie. Pause slightly after each step – directions are easier to
+    follow in short chunks.
+
+- id: a1-u08-speak-shadow-passantin
+  type: speak
+  skill: speaking
+  variety: ch-std
+  grammar: [modal-muessen-duerfen]
+  prompt: "Shadowing: speak along with the woman from the intro dialogue, then say it alone."
+  target: Nein, Sie müssen nicht umsteigen. Das Tram fährt direkt zum Zoo.
+  explanation: >-
+    Listen to her Swiss Standard accent: the back ch in nicht and a clearly pronounced r. You can copy it or
+    use a German accent – both are correct (see the drill on the Swiss Standard accent).
+
+- id: a1-u08-speak-shadow-tom
+  type: speak
+  skill: speaking
+  variety: de
+  prompt: "Shadowing: speak along with Tom's questions, then ask them alone."
+  target: Muss ich umsteigen? Wie lange dauert die Fahrt?
+  explanation: >-
+    The yes/no question (Muss ich ...?) rises at the end; the W-question (Wie lange ...?) falls. muss has a
+    short u without umlaut – don't say müss: ich muss, but wir müssen.
+
+- id: a1-u08-speak-pron-z-st
+  type: speak
+  skill: speaking
+  variety: de
+  prompt: "Pronunciation: z = ts, and st/sp at the start = scht/schp. Read aloud."
+  target: Der Zug nach Zürich steht auf Bahnsteig zwei. Die Straßenbahn fährt um zehn.
+  explanation: >-
+    z is always ts: Zug, Zürich, zwei, zehn. st at the start of a word or stem is scht: steht, Straße,
+    Bahn-steig. See the drills z and pf, and s, sch, st and sp.
+
+- id: a1-u08-roleplay-lena
+  type: roleplay
+  skill: speaking
+  variety: de
+  grammar: [imperative, modal-muessen-duerfen, directions-chunks]
+  tutor: lena
+  prompt: "Roleplay with Lena: explain the way to your flat."
+  scenario: >-
+    Lena wants to visit you for the first time. She's at the main station. Explain how she gets to your flat
+    by tram or bus and on foot. Use du.
+  goals:
+    - Say which tram or bus she has to take (Nimm ...!) and where she gets off (Steig ... aus!).
+    - Say whether she has to change (musst / musst nicht umsteigen).
+    - Give two walking directions (geradeaus, links, rechts, die erste Straße ...).
+    - Warn her about one rule (Du darfst nicht ...).
+  model: |
+    Lena: Ich bin am Bahnhof. Wie komme ich zu dir?
+    Du: Nimm das Tram Nummer zehn. Du musst nicht umsteigen.
+    Lena: Und wo steige ich aus?
+    Du: Steig an der dritten Haltestelle aus. Dann geh geradeaus und die zweite Straße rechts.
+    Lena: Brauche ich ein Billett?
+    Du: Ja, du darfst nicht ohne Billett fahren! Kauf es am Automaten.
+    Lena: Alles klar. Bis gleich!
+  explanation: >-
+    Useful frames: Nimm ...! Steig ... aus! Geh ...! Du musst (nicht) ... Du darfst nicht ... The
+    du-imperative has no du.
+
+# ---------- writing ----------
+- id: a1-u08-translate-by-tram
+  type: translate
+  skill: writing
+  variety: de
+  grammar: [directions-chunks]
+  prompt: Translate into German.
+  source: I go to work by tram.
+  answers: ["Ich fahre mit dem Tram zur Arbeit.", "Ich fahre mit der Straßenbahn zur Arbeit.", "Ich fahre mit der Strassenbahn zur Arbeit.", "Zur Arbeit fahre ich mit dem Tram.", "Ich fahre mit dem Tram ins Büro."]
+  explanation: >-
+    Vehicles use fahren (not gehen) + mit dem / der. In Switzerland das Tram, in Germany die Straßenbahn (or die
+    Tram). zur Arbeit = to work.
+
+- id: a1-u08-translate-mustnt
+  type: translate
+  skill: writing
+  variety: de
+  grammar: [modal-muessen-duerfen]
+  prompt: Translate into German (polite).
+  source: You mustn't park here.
+  answers: ["Sie dürfen hier nicht parken.", "Hier dürfen Sie nicht parken.", "Sie dürfen hier nicht parkieren.", "Hier dürfen Sie nicht parkieren."]
+  explanation: >-
+    mustn't = nicht dürfen. Swiss Standard German says parkieren. Never *Sie müssen hier nicht parken* – that
+    means "you don't have to park here".
+
+- id: a1-u08-write-directions
+  type: write
+  skill: writing
+  variety: de
+  grammar: [imperative, modal-muessen-duerfen, directions-chunks]
+  prompt: Write a message with directions to a party at your flat.
+  task: >-
+    A friend is coming to your party and arrives by train. Write a message (6–8 sentences): which tram or bus
+    to take, whether to change, where to get off, how to walk from the stop, and one rule (ticket, bike,
+    parking).
+  minWords: 45
+  model: >-
+    Hallo Mia! Du kommst am Samstag um acht am Bahnhof an. Nimm dann das Tram Nummer elf. Du musst nicht
+    umsteigen. Steig an der vierten Haltestelle aus. Geh dann geradeaus bis zur Ampel und dort links. Meine
+    Wohnung ist im zweiten Haus rechts. Kauf das Billett am Automaten, ohne Billett darfst du nicht fahren!
+    Bis Samstag, Tom
+  checklist:
+    - I use the du-imperative without du (Nimm! Steig ... aus! Geh!).
+    - I use müssen / nicht müssen and dürfen correctly.
+    - I use mit dem / zum / zur and an ordinal number (die erste, an der dritten ...).
+    - Separable prefixes are at the end (Steig ... aus).
+  explanation: >-
+    Directions are a chain of imperatives. Separable verbs split in the imperative (Steig an der vierten
+    Haltestelle aus), and dann links up the steps.
+
+# ---------- Swiss Standard German ----------
+- id: a1-u08-chstd-match
+  type: match
+  skill: vocabulary
+  variety: ch-std
+  prompt: Match the Swiss Standard German transport words with the German-German words.
+  pairs:
+    - ["das Tram", "die Straßenbahn"]
+    - ["das Velo", "das Fahrrad"]
+    - ["das Billett", "die Fahrkarte"]
+    - ["der Perron", "der Bahnsteig"]
+    - ["das Trottoir", "der Bürgersteig"]
+  explanation: >-
+    These Helvetisms are standard in Switzerland – on signs, in announcements and in the news. Many come from
+    French (billet, perron, trottoir), and Swiss speakers stress them on the first syllable: BIL-lett.
+
+- id: a1-u08-chstd-mcq-halbtax
+  type: mcq
+  skill: reading
+  variety: ch-std
+  prompt: "At the ticket machine: \"Halbtax: Ja / Nein\". What is the machine asking?"
+  options: ["Whether you want a return ticket", "Whether you have a half-fare card", "Whether you travel first class", "Whether you want to pay half now"]
+  answer: 1
+  explanation: >-
+    das Halbtax (Halbtax-Abo) is the Swiss half-fare card: with it most tickets cost half. The GA
+    (Generalabonnement) is a travelcard for the whole country.
+
+# ---------- Swiss lane (gsw-zh) ----------
+- id: a1-u08-ch-match-directions
+  type: match
+  skill: vocabulary
+  variety: gsw-zh
+  grammar: [directions-chunks, imperative]
+  prompt: Match the Zurich German phrases with Standard German.
+  pairs:
+    - ["Lueg emal!", "Schau mal!"]
+    - ["grad us", "geradeaus"]
+    - ["rächts", "rechts"]
+    - ["Nimm s Tram!", "Nimm die Straßenbahn!"]
+    - ["det", "dort"]
+  explanation: >-
+    luege = schauen; grad us = geradeaus; rächts with ä for the open e. s Tram = das Tram (neuter). det =
+    dort.
+
+- id: a1-u08-ch-mcq-umstiige
+  type: mcq
+  skill: listening
+  variety: gsw-zh
+  grammar: [modal-muessen-duerfen]
+  prompt: "Listen to the Swiss lane dialogue. Reto says: \"Du muesch nöd umstiige.\" What does he mean?"
+  options: ["You mustn't change.", "You can't get on.", "You have to change twice.", "You don't have to change."]
+  answer: 3
+  explanation: >-
+    muesch = musst, nöd = nicht, umstiige = umsteigen (ei → ii). nöd müese = nicht müssen = don't have to –
+    the same trap as in Standard German.
+
+- id: a1-u08-ch-mcq-trottoir
+  type: mcq
+  skill: listening
+  variety: gsw-zh
+  grammar: [modal-muessen-duerfen]
+  prompt: "Reto: \"Uf em Trottoir dörfsch nöd Velo fahre!\" What is he warning Sandra about?"
+  options: ["She mustn't cycle on the pavement.", "She doesn't have to take the bike.", "She can't park her bike here.", "She must wear a helmet."]
+  answer: 0
+  explanation: >-
+    dörfsch nöd = darfst nicht (mustn't). uf em Trottoir = auf dem Bürgersteig. Velo fahre = Rad fahren.
+
+- id: a1-u08-ch-transform-halbtax
+  type: transform
+  skill: reading
+  variety: gsw-zh
+  prompt: What does Sandra say in Standard German?
+  from: gsw-zh
+  to: de
+  source: Nei, aber ich ha es Halbtax.
+  answers: ["Nein, aber ich habe ein Halbtax.", "Nein, aber ich habe das Halbtax.", "Nein, aber ich habe ein Halbtax-Abo."]
+  explanation: >-
+    nei = nein, ich ha = ich habe, es = ein (neuter, unit 2: en Kafi, es Halbtax). das Halbtax is the half-fare
+    card.
+
+- id: a1-u08-ch-transform-grad-us
+  type: transform
+  skill: reading
+  variety: gsw-zh
+  grammar: [imperative, directions-chunks]
+  prompt: What does Reto tell Sandra? Write it in Standard German (du).
+  from: gsw-zh
+  to: de
+  source: Fahr grad us und dänn bi de Ampel rächts.
+  answers: ["Fahr geradeaus und dann an der Ampel rechts.", "Fahre geradeaus und dann an der Ampel rechts.", "Fahr geradeaus und dann bei der Ampel rechts.", "Fahre geradeaus und dann bei der Ampel rechts."]
+  explanation: >-
+    Fahr! is the du-imperative in both varieties. grad us = geradeaus, dänn = dann, bi de = bei der, rächts =
+    rechts. Standard German usually says an der Ampel.
+
+- id: a1-u08-ch-transform-de-gsw
+  type: transform
+  skill: vocabulary
+  variety: gsw-zh
+  grammar: [imperative]
+  prompt: "Recognition: how would Reto say this in Zurich German? (Common spellings are accepted.)"
+  from: de
+  to: gsw-zh
+  source: Schau mal, dort ist die Haltestelle.
+  answers: ["Lueg emal, det isch d Haltestell.", "Lueg emal, det isch d Haltestelle.", "Lueg mal, det isch d Haltestell.", "Lueg emol, det isch d Haltestell."]
+  explanation: >-
+    schau mal → lueg emal, dort → det, ist → isch, die → d, Haltestelle → Haltestell (the final -e drops).
+
+- id: a1-u08-roleplay-reto
+  type: roleplay
+  skill: listening
+  variety: gsw-zh
+  grammar: [imperative, directions-chunks, modal-muessen-duerfen]
+  tutor: reto
+  prompt: "Listening roleplay with Reto: the way to the lake."
+  scenario: >-
+    You meet Reto at Zurich main station and ask him how to get to the lake. He answers in Zurich German.
+    Ask in Standard German and repeat the key information to check you understood.
+  goals:
+    - Understand which tram to take (Nimm s Tram ...) and whether you have to change.
+    - Understand at least two directions (grad us, links, rächts).
+    - Repeat the way in Standard German to check.
+  model: |
+    Du: Entschuldigung, wie komme ich zum See?
+    Reto: Zum See? Nimm s Tram Nummer elf. Du muesch nöd umstiige.
+    Du: Nummer elf, ohne Umsteigen. Und wo steige ich aus?
+    Reto: Bim Bellevue. Det gasch grad us, und dänn gsehsch de See scho.
+    Du: Am Bellevue aussteigen, dann geradeaus. Danke!
+    Reto: Gärn gscheh! Und vergiss s Billett nöd!
+  explanation: >-
+    Decoding: bim = beim, gasch = gehst du, gsehsch = siehst du, scho = schon, vergiss ... nöd = vergiss ...
+    nicht (vergessen = to forget). Repeating the key facts is a great strategy for checking.
+
+# ---------- Bernese (gsw-be, recognition) ----------
+- id: a1-u08-ch-be-mcq-pass-uf
+  type: mcq
+  skill: listening
+  variety: gsw-be
+  grammar: [imperative]
+  prompt: "Sandra's mother says: \"Pass uf, gäu!\" What does she mean?"
+  options: ["Hurry up!", "Be careful, won't you!", "Get off here!", "Call me later!"]
+  answer: 1
+  explanation: >-
+    Pass uf! = Pass auf! (imperative of aufpassen, to be careful). gäu is the Bernese tag question (Zurich
+    gäll, Standard nicht wahr?).
+
+- id: a1-u08-ch-be-transform-stadt
+  type: transform
+  skill: reading
+  variety: gsw-be
+  grammar: [directions-chunks]
+  prompt: What does Sandra say? Write it in Standard German.
+  from: gsw-be
+  to: de
+  source: Im Tram! I fahre i d Stadt.
+  answers: ["In der Straßenbahn! Ich fahre in die Stadt.", "Im Tram! Ich fahre in die Stadt.", "In der Strassenbahn! Ich fahre in die Stadt."]
+  explanation: >-
+    i = ich (Bernese), i d Stadt = in die Stadt. Im Tram is the same in Bern and Zurich: ds Tram is neuter in
+    Switzerland.
+
+- id: a1-u08-ch-be-match
+  type: match
+  skill: vocabulary
+  variety: gsw-be
+  prompt: Match the Bernese words with Standard German.
+  pairs:
+    - ["linggs", "links"]
+    - ["ds Velo", "das Fahrrad"]
+    - ["gäu?", "nicht wahr?"]
+    - ["Tschou!", "Tschüss!"]
+  explanation: >-
+    Bernese linggs has ng where Zurich says links; ds is the Bernese neuter article (Zurich s). gäu shows the
+    Bernese l → u (Zurich gäll).

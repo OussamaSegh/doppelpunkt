@@ -1,0 +1,55 @@
+id: s-sch-st-sp
+title: s, sch, st and sp
+ipa: ["z", "s", "ʃ", "ʃt", "ʃp"]
+level: A1
+variety: de
+explanation: >-
+  **s** before a vowel at the start of a word or syllable is voiced [z], like English *zoo*: *sieben,
+  sagen, Sonntag, lesen*. At the end and before consonants it is [s]: *das, Haus, ist*. **ss** and
+  **ß** are always [s] (*Wasser, groß*).
+
+
+  **sch** = English *sh* [ʃ], with the lips more rounded and pushed forward: *Schweiz, schön, Tisch,
+  Tasche*.
+
+
+  **st and sp at the start of a word or stem** are said **scht** and **schp**: *Stadt, Straße, Stunde,
+  sprechen, Sport, Spaß*. This also works after a prefix, because the stem starts there:
+  *ver-stehen, auf-stehen, Bahn-steig, aus-sprechen*. Everywhere else, st and sp are plain [st], [sp]:
+  *ist, Fenster, Gast, Wespe, Wurst*.
+tips:
+  - "Ask: does the word or stem begin with st/sp? Then say scht/schp. *Fenster* – no (in the middle) → st."
+  - "Round your lips for sch more than in English *she*."
+  - "Voice the first s in *sieben* and *Sonntag* – it buzzes like a bee."
+pairs:
+  - [{ text: "sein", en: to be }, { text: "Schein", en: banknote; light }]
+  - [{ text: "sieben", en: seven }, { text: "schieben", en: to push }]
+  - [{ text: "Satz", en: sentence }, { text: "Schatz", en: treasure; darling }]
+  - [{ text: "Sie", en: you (polite) }, { text: "Ski", en: ski }]
+  - [{ text: "Tasse", en: cup }, { text: "Tasche", en: bag }]
+  - [{ text: "Bus", en: bus }, { text: "Busch", en: bush }]
+words:
+  - { text: "sieben", en: seven }
+  - { text: "Sonntag", en: Sunday }
+  - { text: "Schweiz", en: Switzerland }
+  - { text: "schön", en: beautiful }
+  - { text: "Tisch", en: table }
+  - { text: "Stadt", en: city }
+  - { text: "Straße", en: street }
+  - { text: "Stunde", en: hour }
+  - { text: "sprechen", en: to speak }
+  - { text: "Sport", en: sport }
+  - { text: "Spaß", en: fun }
+  - { text: "verstehen", en: to understand }
+  - { text: "aufstehen", en: to get up }
+  - { text: "Fenster", en: window }
+  - { text: "ist", en: is }
+sentences:
+  - { text: "Ich spreche ein bisschen Deutsch.", en: I speak a little German. }
+  - { text: "Um sieben stehe ich auf.", en: I get up at seven. }
+  - { text: "Sport macht Spaß!", en: "Sport is fun!" }
+  - { text: "Die Schweiz ist schön.", en: Switzerland is beautiful. }
+commonMistakes:
+  - "*Stadt* with English st: at the start of a word, st is scht."
+  - "*Fenschter*: in the middle of a word, st stays st in Standard German. (In Swiss German it's *Feischter* – that's dialect.)"
+  - "Unvoiced s in *sieben* (*see-ben* with a hiss): before a vowel at the start, s buzzes."

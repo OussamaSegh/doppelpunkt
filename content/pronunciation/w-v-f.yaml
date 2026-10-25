@@ -1,0 +1,60 @@
+id: w-v-f
+title: w, v and f
+ipa: ["v", "f"]
+level: A1
+variety: de
+explanation: >-
+  Two simple rules, and one trap.
+
+
+  **German w = English v** [v]: the lower lip touches the upper teeth and the sound is voiced. *wir,
+  was, wo, Wasser, Woche, Wein, warm*. English *w* (round lips, no teeth) doesn't exist in German:
+  *Wein* is not *wine*.
+
+
+  **German v = English f** [f] in native German words: *Vater, viel, vier, von, vor, Vogel*, and the
+  prefixes *ver-* and *vor-* (*verstehen, Vorname*). So *vier* (four) and *für* (for) start with the
+  same sound.
+
+
+  **The trap:** in many **loanwords**, v is a [v] again: *Video, Vase, Klavier, Universität, November*.
+  When in doubt: short, old, everyday words → f; Latin, French or English words → v.
+
+
+  Also: **qu** = [kv]: *Quittung* is *kvittung*.
+tips:
+  - "For w, bite your lower lip lightly and hum: *vvv*. Your lips must not round."
+  - "Read v as f in the words you learn first: Vater, viel, vier, von, verstehen."
+  - "Learn the loanwords with v = [v] as a small list: Video, Klavier, November, Vase."
+pairs:
+  - [{ text: "Wein", en: wine }, { text: "fein", en: fine }]
+  - [{ text: "wir", en: we }, { text: "vier", en: four }]
+  - [{ text: "Wort", en: word }, { text: "fort", en: away }]
+  - [{ text: "Wand", en: wall }, { text: "fand", en: found }]
+  - [{ text: "Wetter", en: weather }, { text: "Vetter", en: cousin (male) }]
+  - [{ text: "was", en: what }, { text: "Fass", en: barrel }]
+  - [{ text: "warm", en: warm }, { text: "Farm", en: farm }]
+words:
+  - { text: "wir", en: we }
+  - { text: "was", en: what }
+  - { text: "wo", en: where }
+  - { text: "Wasser", en: water }
+  - { text: "Woche", en: week }
+  - { text: "Wein", en: wine }
+  - { text: "warm", en: warm }
+  - { text: "Vater", en: father }
+  - { text: "viel", en: a lot }
+  - { text: "vier", en: four }
+  - { text: "von", en: "from, of" }
+  - { text: "verstehen", en: to understand }
+  - { text: "Video", en: video }
+  - { text: "Klavier", en: piano }
+sentences:
+  - { text: "Wo ist mein Vater?", en: "Where is my father?" }
+  - { text: "Wir trinken viel Wasser.", en: We drink a lot of water. }
+  - { text: "Am Wochenende spielt mein Vater Klavier.", en: At the weekend my father plays the piano. }
+  - { text: "Im Winter ist das Wetter nicht warm.", en: "In winter the weather isn't warm." }
+commonMistakes:
+  - "English w in *Wasser* (*wasser* with round lips): touch the upper teeth with the lower lip."
+  - "*Vater* with a v sound: native words with v start with f."
+  - "*Klavier* with f: loanwords keep v."

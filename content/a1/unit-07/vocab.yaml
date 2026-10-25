@@ -1,0 +1,370 @@
+# A1 unit 7 – Freizeit und Hobbys
+
+# ---------- free time ----------
+- id: freizeit
+  de: Freizeit
+  en: free time, leisure
+  pos: noun
+  gender: f
+  plural: "-"
+  example: { de: "Was machst du gern in der Freizeit?", en: "What do you like doing in your free time?" }
+  gswZh: Freiziit (d Freiziit)
+  tags: [leisure]
+
+- id: hobby
+  de: Hobby
+  en: hobby
+  pos: noun
+  gender: n
+  plural: Hobbys
+  example: { de: "Mein Hobby ist Musik.", en: "My hobby is music." }
+  gswZh: Hobby (s Hobby)
+  tags: [leisure]
+
+- id: sport
+  de: Sport
+  en: sport, exercise
+  pos: noun
+  gender: m
+  plural: "-"
+  example: { de: "Sport macht Spaß.", en: "Sport is fun." }
+  gswZh: Sport
+  tags: [leisure, sport]
+
+- id: spielen
+  de: spielen
+  en: to play
+  pos: verb
+  example: { de: "Ich spiele gern Fußball.", en: "I like playing football." }
+  gswZh: spile (ich spil, du spilsch, mir spiled)
+  tags: [leisure, verbs]
+
+- id: schwimmen
+  de: schwimmen
+  en: to swim
+  pos: verb
+  example: { de: "Im Sommer schwimmen wir im See.", en: "In summer we swim in the lake." }
+  gswZh: schwümme
+  gswBe: schwümme (participle gschwumme)
+  tags: [leisure, sport, verbs]
+
+- id: wandern
+  de: wandern
+  en: to hike, to go walking
+  pos: verb
+  example: { de: "Am Sonntag wandern wir.", en: "On Sunday we're going hiking." }
+  gswZh: wandere
+  tags: [leisure, sport, verbs]
+
+- id: tanzen
+  de: tanzen
+  en: to dance
+  pos: verb
+  example: { de: "Tanzt du gern?", en: "Do you like dancing?" }
+  gswZh: tanze
+  tags: [leisure, verbs]
+
+- id: singen
+  de: singen
+  en: to sing
+  pos: verb
+  example: { de: "Ich kann nicht gut singen.", en: "I can't sing well." }
+  gswZh: singe
+  tags: [leisure, music, verbs]
+
+- id: reisen
+  de: reisen
+  en: to travel
+  pos: verb
+  example: { de: "Wir reisen gern.", en: "We like travelling." }
+  gswZh: reise
+  tags: [leisure, verbs]
+
+- id: ski-fahren
+  de: Ski fahren
+  en: to ski
+  pos: phrase
+  example: { de: "Im Winter fahre ich Ski.", en: "In winter I go skiing." }
+  gswZh: Ski fahre
+  tags: [leisure, sport, separable]
+
+- id: rad-fahren
+  de: Rad fahren
+  en: to cycle, to ride a bike
+  pos: phrase
+  example: { de: "Ich fahre gern Rad.", en: "I like cycling." }
+  chStd: Velo fahren
+  gswZh: Velo fahre
+  gswBe: Velo fahre / velööle (to cycle about)
+  tags: [leisure, sport, helvetism]
+
+- id: jassen
+  de: jassen
+  en: to play Jass (the Swiss card game)
+  pos: verb
+  example: { de: "Am Freitag jassen wir im Café.", en: "On Friday we play Jass at the café." }
+  chStd: jassen
+  gswZh: jasse (de Jass)
+  tags: [leisure, helvetism, culture]
+
+- id: fussball
+  de: Fußball
+  en: football, soccer
+  pos: noun
+  gender: m
+  plural: Fußbälle
+  example: { de: "Tom spielt am Samstag Fußball.", en: "Tom plays football on Saturday." }
+  chStd: Fussball
+  gswZh: Fuessball / tschutte (to play football, colloquial)
+  tags: [leisure, sport]
+
+- id: musik
+  de: Musik
+  en: music
+  pos: noun
+  gender: f
+  plural: "-"
+  example: { de: "Ich höre gern Musik.", en: "I like listening to music." }
+  gswZh: Musig
+  tags: [leisure, music]
+
+- id: gitarre
+  de: Gitarre
+  en: guitar
+  pos: noun
+  gender: f
+  plural: Gitarren
+  example: { de: "Spielst du Gitarre?", en: "Do you play the guitar?" }
+  gswZh: Gitarre
+  tags: [leisure, music]
+
+- id: klavier
+  de: Klavier
+  en: piano
+  pos: noun
+  gender: n
+  plural: Klaviere
+  example: { de: "Mein Sohn spielt Klavier.", en: "My son plays the piano." }
+  gswZh: Klavier
+  tags: [leisure, music]
+
+- id: kino
+  de: Kino
+  en: cinema
+  pos: noun
+  gender: n
+  plural: Kinos
+  example: { de: "Wir gehen ins Kino.", en: "We're going to the cinema." }
+  gswZh: Kino (is Kino = ins Kino)
+  tags: [leisure]
+
+- id: konzert
+  de: Konzert
+  en: concert
+  pos: noun
+  gender: n
+  plural: Konzerte
+  example: { de: "Das Konzert ist am Freitag.", en: "The concert is on Friday." }
+  gswZh: Konzärt
+  tags: [leisure, music]
+
+- id: berg
+  de: Berg
+  en: mountain
+  pos: noun
+  gender: m
+  plural: Berge
+  example: { de: "Im Herbst wandere ich in den Bergen.", en: "In autumn I go hiking in the mountains." }
+  gswZh: Bärg
+  tags: [nature]
+
+- id: see
+  de: See
+  en: lake
+  pos: noun
+  gender: m
+  plural: Seen
+  example: { de: "Der See ist im Sommer warm.", en: "The lake is warm in summer." }
+  gswZh: See
+  tags: [nature]
+
+# ---------- seasons and weather ----------
+- id: fruehling
+  de: Frühling
+  en: spring
+  pos: noun
+  gender: m
+  plural: Frühlinge
+  example: { de: "Im Frühling ist es oft schön.", en: "In spring it's often nice." }
+  gswZh: Früelig
+  tags: [seasons]
+
+- id: sommer
+  de: Sommer
+  en: summer
+  pos: noun
+  gender: m
+  plural: Sommer
+  example: { de: "Im Sommer ist es heiß.", en: "In summer it's hot." }
+  gswZh: Summer
+  tags: [seasons]
+
+- id: herbst
+  de: Herbst
+  en: autumn, fall
+  pos: noun
+  gender: m
+  plural: Herbste
+  example: { de: "Im Herbst wandert Anna am liebsten.", en: "Anna likes hiking best in autumn." }
+  gswZh: Herbscht
+  tags: [seasons]
+
+- id: winter
+  de: Winter
+  en: winter
+  pos: noun
+  gender: m
+  plural: Winter
+  example: { de: "Im Winter fahren wir Ski.", en: "In winter we go skiing." }
+  gswZh: Winter
+  tags: [seasons]
+
+- id: wetter
+  de: Wetter
+  en: weather
+  pos: noun
+  gender: n
+  plural: "-"
+  example: { de: "Wie ist das Wetter heute?", en: "What's the weather like today?" }
+  gswZh: Wätter (s Wätter)
+  tags: [weather]
+
+- id: sonne
+  de: Sonne
+  en: sun
+  pos: noun
+  gender: f
+  plural: Sonnen
+  example: { de: "Die Sonne scheint.", en: "The sun is shining." }
+  gswZh: Sunne (d Sunne schiint)
+  tags: [weather]
+
+- id: regen
+  de: Regen
+  en: rain
+  pos: noun
+  gender: m
+  plural: "-"
+  example: { de: "Ich mag keinen Regen.", en: "I don't like rain." }
+  gswZh: Räge
+  tags: [weather]
+
+- id: schnee
+  de: Schnee
+  en: snow
+  pos: noun
+  gender: m
+  plural: "-"
+  example: { de: "Im Winter gibt es in den Bergen viel Schnee.", en: "In winter there's a lot of snow in the mountains." }
+  gswZh: Schnee
+  tags: [weather]
+
+- id: es-regnet
+  de: es regnet
+  en: it's raining
+  pos: phrase
+  example: { de: "Heute regnet es.", en: "It's raining today." }
+  gswZh: es rägnet / es schiffet (it's pouring, colloquial)
+  tags: [weather]
+
+- id: es-schneit
+  de: es schneit
+  en: it's snowing
+  pos: phrase
+  example: { de: "Im Winter schneit es oft.", en: "It often snows in winter." }
+  gswZh: es schneit
+  tags: [weather]
+
+- id: warm
+  de: warm
+  en: warm
+  pos: adj
+  example: { de: "Im Sommer ist der See warm.", en: "In summer the lake is warm." }
+  gswZh: warm
+  tags: [weather, adjectives]
+
+- id: kalt
+  de: kalt
+  en: cold
+  pos: adj
+  example: { de: "Im Winter ist es kalt.", en: "It's cold in winter." }
+  gswZh: chalt
+  gswBe: chaut
+  tags: [weather, adjectives]
+
+# ---------- modal verbs and preferences ----------
+- id: koennen
+  de: können
+  en: can, to be able to
+  pos: verb
+  example: { de: "Kannst du schwimmen?", en: "Can you swim?" }
+  gswZh: chöne (ich chan, du chasch, er chan, mir chönd)
+  gswBe: chönne (i cha, du chasch, mir chöi)
+  tags: [modal, verbs]
+
+- id: wollen
+  de: wollen
+  en: to want (to)
+  pos: verb
+  example: { de: "Ich will Ski fahren lernen.", en: "I want to learn to ski." }
+  gswZh: wele / welle (ich wott, du wottsch, er wott, mir wänd)
+  gswBe: wöue (i wott, mir wei)
+  tags: [modal, verbs, false-friend]
+
+- id: gern
+  de: gern / gerne
+  en: gladly; (verb +) gern = to like doing
+  pos: adv
+  example: { de: "Ich tanze gern.", en: "I like dancing." }
+  gswZh: gärn
+  tags: [preferences]
+
+- id: lieber
+  de: lieber
+  en: rather, preferably
+  pos: adv
+  example: { de: "Ich trinke lieber Tee.", en: "I prefer tea." }
+  gswZh: lieber
+  tags: [preferences]
+
+- id: am-liebsten
+  de: am liebsten
+  en: best of all, most of all
+  pos: phrase
+  example: { de: "Am liebsten schwimme ich.", en: "Best of all I like swimming." }
+  gswZh: am liebschte
+  tags: [preferences]
+
+- id: oft
+  de: oft
+  en: often
+  pos: adv
+  example: { de: "Ich gehe oft ins Kino.", en: "I often go to the cinema." }
+  gswZh: oft / hüüfig
+  tags: [frequency]
+
+- id: manchmal
+  de: manchmal
+  en: sometimes
+  pos: adv
+  example: { de: "Manchmal spiele ich Gitarre.", en: "Sometimes I play the guitar." }
+  gswZh: mängisch
+  tags: [frequency]
+
+- id: nie
+  de: nie
+  en: never
+  pos: adv
+  example: { de: "Ich tanze nie.", en: "I never dance." }
+  gswZh: nie
+  tags: [frequency]

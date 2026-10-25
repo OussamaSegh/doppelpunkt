@@ -38,11 +38,12 @@ export async function playUrl(url: string, rate = 1): Promise<boolean> {
     audio.playbackRate = rate;
     // Keep the pitch natural when slowed down (default in most browsers, explicit for Safari).
     (audio as HTMLAudioElement & { preservesPitch?: boolean }).preservesPitch = true;
-    await audio.play();
-    return await new Promise<boolean>((resolve) => {
+    const ended = new Promise<boolean>((resolve) => {
       audio.onended = () => resolve(true);
       audio.onerror = () => resolve(false);
     });
+    await audio.play();
+    return await ended;
   } catch {
     return false;
   }

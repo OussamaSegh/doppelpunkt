@@ -8,6 +8,7 @@ import { fileURLToPath } from 'node:url';
 import { buildManifest, isRemote } from './audio';
 import { formatIssues, repoRoot, unitFolder } from './lint';
 import { loadContent } from './load';
+import { buildPronunciationManifest, loadDrills } from './pronunciation';
 import { setYamlString } from './yaml-edit';
 
 export type LinkChange = { file: string; pointer: Array<string | number>; from?: string; to: string };
@@ -20,19 +21,29 @@ export function linkAudio(contentDir: string, opts: { root?: string; dryRun?: bo
   const skipped: string[] = [];
   const log: string[] = [];
   let ok = true;
-  if (loaded.issues.some((i) => i.severity === 'error')) {
-    log.push(formatIssues(loaded.issues.filter((i) => i.severity === 'error')), '\nUnits with errors are skipped.');
-  }
-  for (const lu of loaded.units) {
+  const pron = loadDrills(contentDir, root);
+  const errors = [...loaded.issues, ...pron.issues].filter((i) => i.severity === 'error');
+  if (errors.length) log.push(formatIssues(errors), '\nUnits and drills with errors are skipped.');
+  // One group per folder: entries, the folder audio paths are relative to, and the YAML file each fills.
+  type Slot = { path: string; referenced: boolean; current?: string; pointer: Array<string | number> | null; base: string; yaml: string; label: string };
+  const groups: Slot[][] = loaded.units.map((lu) => {
     const m = buildManifest(lu.unit, unitFolder(lu));
+    return m.entries.map((e) => ({ ...e, pointer: e.source.pointer, base: lu.dir, yaml: join(lu.dir, e.source.file), label: `${m.folder}/${e.source.file}` }));
+  });
+  const entries = buildPronunciationManifest(pron.drills).entries;
+  for (const d of pron.drills) {
+    const label = relative(root, d.file) || d.file;
+    groups.push(entries.filter((e) => e.drill === d.drill.id).map((e) => ({ ...e, pointer: e.source.pointer, base: d.dir, yaml: d.file, label })));
+  }
+  for (const entries of groups) {
     const byFile = new Map<string, LinkChange[]>();
-    for (const e of m.entries) {
-      if (!e.source.pointer || e.referenced || !existsSync(join(lu.dir, e.path))) continue;
-      if (e.current && !opts.force && (isRemote(e.current) || existsSync(join(lu.dir, e.current)))) {
-        skipped.push(`${m.folder}/${e.source.file} ${e.source.pointer.join('.')}: keeps ${e.current} (use --force to replace with ${e.path})`);
+    for (const e of entries) {
+      if (!e.pointer || e.referenced || !existsSync(join(e.base, e.path))) continue;
+      if (e.current && !opts.force && (isRemote(e.current) || existsSync(join(e.base, e.current)))) {
+        skipped.push(`${e.label} ${e.pointer.join('.')}: keeps ${e.current} (use --force to replace with ${e.path})`);
         continue;
       }
-      const c: LinkChange = { file: join(lu.dir, e.source.file), pointer: e.source.pointer, to: e.path, ...(e.current ? { from: e.current } : {}) };
+      const c: LinkChange = { file: e.yaml, pointer: e.pointer, to: e.path, ...(e.current ? { from: e.current } : {}) };
       byFile.set(c.file, [...(byFile.get(c.file) ?? []), c]);
     }
     for (const [file, list] of byFile) {

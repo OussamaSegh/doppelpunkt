@@ -1,0 +1,57 @@
+id: oe-o-e
+title: ö vs o and e
+ipa: ["øː", "œ", "oː", "ɔ", "eː", "ɛ"]
+level: A1
+variety: de
+explanation: >-
+  **ö** is the partner of ü: a front vowel with rounded lips. English speakers tend to say *o* (lips
+  round, tongue back) or *e* (tongue front, lips spread), and both change words: *schon* (already) vs
+  *schön* (beautiful), *kennen* (to know) vs *können* (can).
+
+
+  **Long ö** [øː] (*schön, hören, Öl*): say German long **e** – the vowel in English *hey* but pure,
+  without the glide to *ee* – and hold it. Keep the tongue there and round your lips as for *oh*.
+
+
+  **Short ö** [œ] (*können, zwölf, Töchter*): start from the *e* in English *bed* and round your lips.
+
+
+  British speakers: the vowel in *bird, her, fur* is close to ö – now round your lips and push them
+  forward. American speakers: drop the *r* colour completely. Spelling: *ö*, or *oe* when you can't type
+  it (*Koeln*).
+tips:
+  - "Think *e* with an *o* mouth: tongue for e, lips for o."
+  - "For ö the lips are round and pushed forward, as if you were blowing out a candle; the tongue stays forward."
+  - "Long ö is tense and steady. Don't let it slide into a diphthong (*schön* is not *shown*)."
+pairs:
+  - [{ text: "schon", en: already }, { text: "schön", en: "beautiful, nice" }]
+  - [{ text: "Ofen", en: oven }, { text: "Öfen", en: ovens }]
+  - [{ text: "Tochter", en: daughter }, { text: "Töchter", en: daughters }]
+  - [{ text: "konnte", en: could (was able to) }, { text: "könnte", en: could (would be able to) }]
+  - [{ text: "lesen", en: to read }, { text: "lösen", en: to solve }]
+  - [{ text: "kennen", en: to know (a person) }, { text: "können", en: "can, to be able to" }]
+  - [{ text: "Sehne", en: tendon }, { text: "Söhne", en: sons }]
+  - [{ text: "Bogen", en: "arch, bow" }, { text: "Bögen", en: "arches, sheets of paper" }]
+words:
+  - { text: "schön", en: "beautiful, nice" }
+  - { text: "hören", en: to hear }
+  - { text: "möchte", en: would like }
+  - { text: "können", en: can }
+  - { text: "zwölf", en: twelve }
+  - { text: "Brötchen", en: bread roll }
+  - { text: "Töchter", en: daughters }
+  - { text: "Söhne", en: sons }
+  - { text: "Österreich", en: Austria }
+  - { text: "Öl", en: oil }
+  - { text: "Köln", en: Cologne }
+  - { text: "Möbel", en: furniture }
+sentences:
+  - { text: "Ich möchte zwölf Brötchen, bitte.", en: "I'd like twelve rolls, please." }
+  - { text: "Das ist aber schön!", en: "That's really nice!" }
+  - { text: "Können Sie mich hören?", en: "Can you hear me?" }
+  - { text: "Meine Töchter wohnen in Köln.", en: My daughters live in Cologne. }
+commonMistakes:
+  - "*schon* for *schön*: the tongue went back to o. Keep it forward as for e."
+  - "*kennen* for *können*: the lips stayed spread. Round them."
+  - "*shown* for *schön*: English *o* glides to *w*. German ö is one steady sound."
+  - "American *r* colour (*shurn*): there is no r in ö."

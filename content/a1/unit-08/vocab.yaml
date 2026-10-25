@@ -1,0 +1,368 @@
+# A1 unit 8 – Unterwegs in der Stadt
+
+# ---------- places in town ----------
+- id: bahnhof
+  de: Bahnhof
+  en: (railway) station
+  pos: noun
+  gender: m
+  plural: Bahnhöfe
+  example: { de: "Wie komme ich zum Bahnhof?", en: "How do I get to the station?" }
+  gswZh: Bahnhof
+  tags: [town, transport]
+
+- id: haltestelle
+  de: Haltestelle
+  en: stop (bus, tram)
+  pos: noun
+  gender: f
+  plural: Haltestellen
+  example: { de: "Die Haltestelle ist gleich da.", en: "The stop is right there." }
+  gswZh: Haltestell (d Haltestell)
+  tags: [town, transport]
+
+- id: strasse
+  de: Straße
+  en: street, road
+  pos: noun
+  gender: f
+  plural: Straßen
+  example: { de: "Nehmen Sie die zweite Straße links.", en: "Take the second street on the left." }
+  chStd: Strasse
+  gswZh: Strass (d Strass)
+  tags: [town, directions]
+
+- id: ampel
+  de: Ampel
+  en: traffic lights
+  pos: noun
+  gender: f
+  plural: Ampeln
+  example: { de: "An der Ampel gehen Sie rechts.", en: "Turn right at the traffic lights." }
+  chStd: Ampel / Lichtsignal
+  gswZh: Ampel / Liechtsignal
+  tags: [town, directions]
+
+- id: kreuzung
+  de: Kreuzung
+  en: crossroads, junction
+  pos: noun
+  gender: f
+  plural: Kreuzungen
+  example: { de: "Fahren Sie bis zur Kreuzung.", en: "Drive as far as the junction." }
+  gswZh: Chrüüzig
+  tags: [town, directions]
+
+- id: platz
+  de: Platz
+  en: square; seat, space
+  pos: noun
+  gender: m
+  plural: Plätze
+  example: { de: "Das Café ist am Platz.", en: "The café is on the square." }
+  gswZh: Platz
+  tags: [town]
+
+- id: bruecke
+  de: Brücke
+  en: bridge
+  pos: noun
+  gender: f
+  plural: Brücken
+  example: { de: "Gehen Sie über die Brücke.", en: "Go over the bridge." }
+  gswZh: Brugg (d Brugg)
+  tags: [town, directions]
+
+- id: post
+  de: Post
+  en: post office
+  pos: noun
+  gender: f
+  plural: "-"
+  example: { de: "Wie komme ich zur Post?", en: "How do I get to the post office?" }
+  gswZh: Poscht
+  tags: [town]
+
+- id: bank
+  de: Bank
+  en: bank; bench
+  pos: noun
+  gender: f
+  plural: Banken (bank) / Bänke (bench)
+  example: { de: "Die Bank ist neben der Post.", en: "The bank is next to the post office." }
+  gswZh: Bank
+  tags: [town]
+
+- id: museum
+  de: Museum
+  en: museum
+  pos: noun
+  gender: n
+  plural: Museen
+  example: { de: "Das Museum ist am Montag zu.", en: "The museum is closed on Mondays." }
+  gswZh: Museum
+  tags: [town, leisure]
+
+- id: zoo
+  de: Zoo
+  en: zoo
+  pos: noun
+  gender: m
+  plural: Zoos
+  example: { de: "Das Tram fährt direkt zum Zoo.", en: "The tram goes straight to the zoo." }
+  gswZh: Zoo
+  tags: [town, leisure]
+
+# ---------- transport ----------
+- id: bus
+  de: Bus
+  en: bus
+  pos: noun
+  gender: m
+  plural: Busse
+  example: { de: "Ich fahre mit dem Bus.", en: "I go by bus." }
+  gswZh: Bus
+  tags: [transport]
+
+- id: strassenbahn
+  de: Straßenbahn
+  en: tram
+  pos: noun
+  gender: f
+  plural: Straßenbahnen
+  example: { de: "Die Straßenbahn kommt gleich.", en: "The tram is coming in a moment." }
+  chStd: Tram (das Tram)
+  gswZh: Tram (s Tram)
+  gswBe: Tram (ds Tram; little tram ds Trämli)
+  tags: [transport, helvetism]
+
+- id: zug
+  de: Zug
+  en: train
+  pos: noun
+  gender: m
+  plural: Züge
+  example: { de: "Der Zug fährt um zehn ab.", en: "The train leaves at ten." }
+  gswZh: Zug
+  tags: [transport]
+
+- id: s-bahn
+  de: S-Bahn
+  en: suburban train
+  pos: noun
+  gender: f
+  plural: S-Bahnen
+  example: { de: "Mit der S-Bahn fahre ich nach Winterthur.", en: "I take the S-Bahn to Winterthur." }
+  gswZh: S-Bahn
+  tags: [transport]
+
+- id: fahrrad
+  de: Fahrrad
+  en: bicycle
+  pos: noun
+  gender: n
+  plural: Fahrräder
+  example: { de: "Ich fahre mit dem Fahrrad zur Arbeit.", en: "I cycle to work." }
+  chStd: Velo (das Velo)
+  gswZh: Velo (s Velo)
+  gswBe: Velo (ds Velo)
+  tags: [transport, helvetism]
+
+- id: fahrkarte
+  de: Fahrkarte
+  en: ticket
+  pos: noun
+  gender: f
+  plural: Fahrkarten
+  example: { de: "Wo kann ich eine Fahrkarte kaufen?", en: "Where can I buy a ticket?" }
+  chStd: Billett (das Billett)
+  gswZh: Billett / Billet (s Billett)
+  tags: [transport, helvetism]
+
+- id: halbtax
+  de: Halbtax
+  en: Swiss half-fare travel card
+  pos: noun
+  gender: n
+  plural: "-"
+  example: { de: "Mit dem Halbtax bezahle ich nur die Hälfte.", en: "With the half-fare card I only pay half." }
+  chStd: Halbtax / Halbtax-Abo
+  gswZh: Halbtax (s Halbtax)
+  tags: [transport, helvetism, culture]
+
+- id: bahnsteig
+  de: Bahnsteig
+  en: platform
+  pos: noun
+  gender: m
+  plural: Bahnsteige
+  example: { de: "Der Zug fährt auf Bahnsteig drei ab.", en: "The train leaves from platform three." }
+  chStd: Perron (der Perron) / Gleis
+  gswZh: Perron
+  tags: [transport, helvetism]
+
+- id: buergersteig
+  de: Bürgersteig
+  en: pavement, sidewalk
+  pos: noun
+  gender: m
+  plural: Bürgersteige
+  example: { de: "Auf dem Bürgersteig darf man nicht Rad fahren.", en: "You mustn't cycle on the pavement." }
+  chStd: Trottoir (das Trottoir)
+  gswZh: Trottoir
+  tags: [transport, helvetism]
+
+- id: automat
+  de: Automat
+  en: (ticket) machine
+  pos: noun
+  gender: m
+  plural: Automaten
+  example: { de: "Das Billett kaufen Sie am Automaten.", en: "You buy the ticket at the machine." }
+  gswZh: Automat
+  tags: [transport]
+
+- id: fahrplan
+  de: Fahrplan
+  en: timetable
+  pos: noun
+  gender: m
+  plural: Fahrpläne
+  example: { de: "Schau mal auf den Fahrplan!", en: "Have a look at the timetable!" }
+  gswZh: Fahrplan
+  tags: [transport]
+
+- id: minute
+  de: Minute
+  en: minute
+  pos: noun
+  gender: f
+  plural: Minuten
+  example: { de: "Die Fahrt dauert zwanzig Minuten.", en: "The journey takes twenty minutes." }
+  gswZh: Minute (plural Minute)
+  tags: [time]
+
+# ---------- verbs ----------
+- id: einsteigen
+  de: einsteigen
+  en: to get on (a bus, train)
+  pos: verb
+  example: { de: "Im Tram steigen Sie vorne ein.", en: "On the tram you get on at the front." }
+  gswZh: iistiige
+  tags: [transport, separable]
+
+- id: aussteigen
+  de: aussteigen
+  en: to get off
+  pos: verb
+  example: { de: "Steigen Sie an der dritten Haltestelle aus.", en: "Get off at the third stop." }
+  gswZh: uusstiige
+  tags: [transport, separable]
+
+- id: umsteigen
+  de: umsteigen
+  en: to change (trains, buses)
+  pos: verb
+  example: { de: "Muss ich umsteigen?", en: "Do I have to change?" }
+  gswZh: umstiige
+  tags: [transport, separable]
+
+- id: abfahren
+  de: abfahren
+  en: to leave, to depart
+  pos: verb
+  example: { de: "Der Bus fährt um acht ab.", en: "The bus leaves at eight." }
+  gswZh: abfahre (de Zug fahrt ab)
+  tags: [transport, separable, stem-change]
+
+- id: dauern
+  de: dauern
+  en: to take (time), to last
+  pos: verb
+  example: { de: "Wie lange dauert die Fahrt?", en: "How long does the journey take?" }
+  gswZh: duure
+  tags: [time, verbs]
+
+- id: muessen
+  de: müssen
+  en: must, to have to
+  pos: verb
+  example: { de: "Ich muss am Bahnhof umsteigen.", en: "I have to change at the station." }
+  gswZh: müese (ich mues, du muesch, mir müend)
+  gswBe: müesse (i mues, mir müesse)
+  tags: [modal, verbs]
+
+- id: duerfen
+  de: dürfen
+  en: may, to be allowed to
+  pos: verb
+  example: { de: "Hier darf man nicht parken.", en: "You mustn't park here." }
+  gswZh: dörfe (ich dörf, du dörfsch, mir dörfed; darf is also heard)
+  tags: [modal, verbs]
+
+# ---------- directions ----------
+- id: links
+  de: links
+  en: (on the) left
+  pos: adv
+  example: { de: "Die Post ist links.", en: "The post office is on the left." }
+  gswZh: links
+  gswBe: linggs
+  tags: [directions]
+
+- id: rechts
+  de: rechts
+  en: (on the) right
+  pos: adv
+  example: { de: "Gehen Sie hier rechts.", en: "Turn right here." }
+  gswZh: rächts
+  tags: [directions]
+
+- id: geradeaus
+  de: geradeaus
+  en: straight on
+  pos: adv
+  example: { de: "Geh immer geradeaus!", en: "Keep going straight on!" }
+  gswZh: grad us / graduus
+  tags: [directions]
+
+- id: weit
+  de: weit
+  en: far
+  pos: adj
+  example: { de: "Ist der Zoo weit?", en: "Is the zoo far?" }
+  gswZh: wiit
+  tags: [directions]
+
+- id: nah
+  de: nah
+  en: near, close
+  pos: adj
+  example: { de: "Der Bahnhof ist ganz nah.", en: "The station is very close." }
+  gswZh: nööch
+  tags: [directions]
+
+- id: zu-fuss
+  de: zu Fuß
+  en: on foot
+  pos: phrase
+  example: { de: "Ich gehe zu Fuß.", en: "I walk." }
+  chStd: zu Fuss
+  gswZh: zu Fuess (laufe = to walk)
+  tags: [transport, directions]
+
+- id: wie-komme-ich
+  de: Wie komme ich zum / zur ...?
+  en: How do I get to ...?
+  pos: phrase
+  example: { de: "Entschuldigung, wie komme ich zum Zoo?", en: "Excuse me, how do I get to the zoo?" }
+  gswZh: Wie chum ich zum / zur ...?
+  tags: [directions, phrases]
+
+- id: erste-zweite-dritte
+  de: erste, zweite, dritte
+  en: first, second, third
+  pos: num
+  example: { de: "Nehmen Sie die erste Straße links.", en: "Take the first street on the left." }
+  gswZh: erscht, zweit, dritt (di erscht Strass)
+  tags: [numbers, directions]

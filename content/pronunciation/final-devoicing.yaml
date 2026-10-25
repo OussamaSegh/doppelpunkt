@@ -1,0 +1,60 @@
+id: final-devoicing
+title: Final devoicing (Auslautverhärtung)
+ipa: ["p", "t", "k", "s", "f"]
+level: A1
+variety: de
+explanation: >-
+  At the **end of a word or syllable**, German **b, d, g, s, v** lose their voice and sound like
+  **p, t, k, s, f**: *Tag* [taːk], *Hund* [hʊnt], *halb* [halp], *Haus* [haʊ̯s], *aktiv* [akˈtiːf]. This is
+  called *Auslautverhärtung* ("final hardening").
+
+
+  English keeps the difference: *dog* and *dock*, *bad* and *bat* sound different. German doesn't:
+  *Rad* (wheel) and *Rat* (advice) sound the same, and so do *seid* (you are) and *seit* (since).
+
+
+  When an ending is added, the consonant starts the next syllable and gets its voice back: *Tag* [k] –
+  *Ta-ge* [g], *Hund* [t] – *Hun-de* [d], *Haus* [s] – *Häu-ser* [z]. So the spelling shows the family of
+  the word, and the plural or a verb form shows you the "real" consonant.
+
+
+  Also inside words before a consonant: *Abendessen* (*Abent-*), *Freundin* (*Freunt-*), *gibt*
+  (*gipt*). Speakers in southern Germany, Austria and Switzerland make these final sounds weaker
+  (lenis), but they are never voiced like English *d* in *dog*.
+tips:
+  - "Whisper the last consonant: *Hund* ends like English *hunt*, *Tag* like *talk* without the l."
+  - "Check the plural: if the consonant is voiced in *Tage*, it is devoiced in *Tag*."
+  - "Don't add a little vowel after the consonant (*Tag-uh*). Just stop."
+pairs:
+  - [{ text: "Tag", en: day }, { text: "Tage", en: days }]
+  - [{ text: "Hund", en: dog }, { text: "Hunde", en: dogs }]
+  - [{ text: "Kind", en: child }, { text: "Kinder", en: children }]
+  - [{ text: "Zug", en: train }, { text: "Züge", en: trains }]
+  - [{ text: "Haus", en: house }, { text: "Häuser", en: houses }]
+  - [{ text: "lieb", en: "kind, dear" }, { text: "lieben", en: to love }]
+  - [{ text: "Rad", en: wheel; bike }, { text: "Rat", en: advice }]
+  - [{ text: "seid", en: (you) are }, { text: "seit", en: since }]
+words:
+  - { text: "Tag", en: day }
+  - { text: "Montag", en: Monday }
+  - { text: "Abend", en: evening }
+  - { text: "und", en: and }
+  - { text: "Hund", en: dog }
+  - { text: "Kind", en: child }
+  - { text: "Freund", en: friend }
+  - { text: "Geld", en: money }
+  - { text: "Bad", en: bathroom }
+  - { text: "Zug", en: train }
+  - { text: "halb", en: half }
+  - { text: "gibt", en: gives; there is }
+  - { text: "lieb", en: "kind, dear" }
+  - { text: "Haus", en: house }
+sentences:
+  - { text: "Guten Tag und guten Abend!", en: "Good day and good evening!" }
+  - { text: "Mein Kind hat einen Hund.", en: My child has a dog. }
+  - { text: "Am Montag fahre ich mit dem Zug.", en: On Monday I go by train. }
+  - { text: "Mein Freund hat kein Geld.", en: My friend has no money. }
+commonMistakes:
+  - "*Hund* with a voiced English d: it sounds foreign. End it like *hunt*."
+  - "*Tag* with a voiced g (*tahg*): German says *tahk*."
+  - "Devoicing in the plural too (*Tache* or *Hunte*): when a vowel follows, the consonant is voiced again: *Tage, Hunde*."

@@ -1,0 +1,64 @@
+id: gsw-ch-gg-kch
+title: "Swiss German ch, gg and kch"
+ipa: ["x", "χ", "k", "kx"]
+level: A1
+variety: gsw-zh
+explanation: >-
+  This is a **listening and imitation** drill: at A1 you don't need to speak dialect, but hearing these
+  sounds clearly makes Zurich German much easier to understand.
+
+
+  **1. ch everywhere – and always the back sound.** Where Standard German has **k** at the start of a
+  word, Zurich German usually has **ch**: *Kind → Chind, Küche → Chuchi, kommen → cho, Käse → Chäs,
+  kalt → chalt, klein → chlii, Kopf → Chopf, Kirche → Chile*. And Swiss German has **no ich-Laut**: ch is
+  the rasping ach-sound [x] or even further back [χ] after *every* vowel – *ich, nicht* (*nöd*),
+  *Chuchichäschtli* (kitchen cupboard, the famous tongue-twister). Make it at the back of the mouth,
+  like Scottish *loch*, with plenty of air.
+
+
+  **2. gg = a k without a puff.** English p, t, k come with a puff of air (put your hand in front of
+  your mouth and say *cat*). Swiss German p, t, k are **unaspirated** – no puff. The spelling **gg**
+  shows this "hard but breathless" k: *Schoggi* (chocolate), *Schnägg* (snail), *Rugge* (back), *Glogge*
+  (bell). It sounds a little like English *k* in *sky* (after s there is no puff in English either).
+
+
+  **3. kch for k in Standard spelling.** Where a word keeps **k** or **ck** in Swiss spelling, many
+  speakers say an affricate **kch** [kx] – k with the ch rasp straight after it: *Sack, Zucker*, and
+  loanwords such as *Kafi, Kino*. The SRF spelling guide uses this rule: write k/ck when you say kch,
+  ch when you say ch, and gg when you say gg.
+tips:
+  - "For ch, start from *k*, open a gap at the back and push air through. Swiss ch is stronger and further back than German ach."
+  - "Hand test for gg: say *Schoggi* with your hand in front of your mouth – you should feel almost no puff."
+  - "kch: say *k* and let it rasp: *Sa-kch*. It is one consonant, not *k* + vowel."
+  - "Never use the soft German ich-Laut in dialect: *ich* in Zurich German has the back ch."
+pairs:
+  - [{ text: "Sach", en: thing (Sache) }, { text: "Sack", en: bag (Sack) }]
+  - [{ text: "Chind", en: child (Kind) }, { text: "Kino", en: cinema (Kino) }]
+  - [{ text: "Chäs", en: cheese (Käse) }, { text: "Kafi", en: coffee (Kaffee) }]
+  - [{ text: "Chuchi", en: kitchen (Küche) }, { text: "Zucker", en: sugar (Zucker) }]
+words:
+  - { text: "Chind", en: child (Kind) }
+  - { text: "Chuchi", en: kitchen (Küche) }
+  - { text: "Chäs", en: cheese (Käse) }
+  - { text: "chalt", en: cold (kalt) }
+  - { text: "chlii", en: small (klein) }
+  - { text: "Chopf", en: head (Kopf) }
+  - { text: "cho", en: to come (kommen) }
+  - { text: "Chile", en: church (Kirche) }
+  - { text: "ich", en: I }
+  - { text: "Chuchichäschtli", en: kitchen cupboard (Küchenkästchen) }
+  - { text: "Schoggi", en: chocolate (Schokolade) }
+  - { text: "Schnägg", en: snail (Schnecke) }
+  - { text: "Rugge", en: back (Rücken) }
+  - { text: "Zucker", en: sugar (Zucker) }
+  - { text: "Kafi", en: coffee (Kaffee) }
+sentences:
+  - { text: "S Chind isch i de Chuchi.", en: The child is in the kitchen. }
+  - { text: "Ich chume grad.", en: "I'm coming right away." }
+  - { text: "Es isch chalt hüt.", en: "It's cold today." }
+  - { text: "Ich hett gärn en Kafi und e Schoggi.", en: "I'd like a coffee and a chocolate." }
+commonMistakes:
+  - "*Kind* with a German or English k in a dialect sentence: in Zurich German it's *Chind* with a rasping ch."
+  - "A soft German ich-Laut in *ich* or *nicht*: Swiss ch is always the back sound."
+  - "*Schoggi* with an English puffed k (*Shock-ee*): gg has no puff of air."
+  - "Saying ch as *h* (*Hind*) – too weak. Swiss ch has friction you can clearly hear."

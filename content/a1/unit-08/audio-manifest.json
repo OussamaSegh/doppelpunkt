@@ -1,0 +1,2875 @@
+{
+  "unitId": "a1-u08",
+  "level": "A1",
+  "folder": "a1/unit-08",
+  "title": "Unterwegs in der Stadt",
+  "delivery": {
+    "raw": "WAV or FLAC, 48 kHz, 24-bit, mono, one file per entry, named <file base>.wav",
+    "processed": [
+      "mp3 64 kbps mono 44.1 kHz",
+      "opus 32 kbps mono 48 kHz",
+      "EBU R128 -16 LUFS, true peak -1.5 dBTP"
+    ]
+  },
+  "entries": [
+    {
+      "file": "dialog-intro-01.mp3",
+      "kind": "dialogue-intro",
+      "text": "Entschuldigung, wie komme ich zum Zoo?",
+      "en": "Excuse me, how do I get to the zoo?",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          0,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-01.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-02.mp3",
+      "kind": "dialogue-intro",
+      "text": "Zum Zoo? Das ist zu weit zu Fuss. Nehmen Sie am besten das Tram Nummer sechs.",
+      "en": "To the zoo? It's too far to walk. Your best bet is the number six tram.",
+      "variety": "ch-std",
+      "voice": "zh-f",
+      "speaker": "Passantin",
+      "voiceGuessed": true,
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          1,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-02.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-03.mp3",
+      "kind": "dialogue-intro",
+      "text": "Und wo ist die Haltestelle?",
+      "en": "And where's the stop?",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          2,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-03.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-04.mp3",
+      "kind": "dialogue-intro",
+      "text": "Gehen Sie hier geradeaus und dann die zweite Strasse rechts. Die Haltestelle ist gleich da.",
+      "en": "Go straight on here and then take the second street on the right. The stop is right there.",
+      "variety": "ch-std",
+      "voice": "zh-f",
+      "speaker": "Passantin",
+      "voiceGuessed": true,
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          3,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-04.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-05.mp3",
+      "kind": "dialogue-intro",
+      "text": "Muss ich umsteigen?",
+      "en": "Do I have to change?",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          4,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-05.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-06.mp3",
+      "kind": "dialogue-intro",
+      "text": "Nein, Sie müssen nicht umsteigen. Das Tram fährt direkt zum Zoo.",
+      "en": "No, you don't have to change. The tram goes straight to the zoo.",
+      "variety": "ch-std",
+      "voice": "zh-f",
+      "speaker": "Passantin",
+      "voiceGuessed": true,
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          5,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-06.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-07.mp3",
+      "kind": "dialogue-intro",
+      "text": "Super. Und wo kann ich eine Fahrkarte kaufen?",
+      "en": "Great. And where can I buy a ticket?",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          6,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-07.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-08.mp3",
+      "kind": "dialogue-intro",
+      "text": "Ein Billett? Am Automaten an der Haltestelle oder mit der App. Ohne Billett dürfen Sie nicht fahren!",
+      "en": "A ticket? From the machine at the stop or with the app. You're not allowed to travel without a ticket!",
+      "variety": "ch-std",
+      "voice": "zh-f",
+      "speaker": "Passantin",
+      "voiceGuessed": true,
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          7,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-08.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-09.mp3",
+      "kind": "dialogue-intro",
+      "text": "Klar. Wie lange dauert die Fahrt?",
+      "en": "Of course. How long does the journey take?",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          8,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-09.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-10.mp3",
+      "kind": "dialogue-intro",
+      "text": "Etwa zwanzig Minuten. Steigen Sie bei der Endstation aus.",
+      "en": "About twenty minutes. Get off at the last stop.",
+      "variety": "ch-std",
+      "voice": "zh-f",
+      "speaker": "Passantin",
+      "voiceGuessed": true,
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          9,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-10.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-11.mp3",
+      "kind": "dialogue-intro",
+      "text": "Vielen Dank!",
+      "en": "Thank you very much!",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          10,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-11.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-12.mp3",
+      "kind": "dialogue-intro",
+      "text": "Gern geschehen. Viel Spass im Zoo!",
+      "en": "You're welcome. Have fun at the zoo!",
+      "variety": "ch-std",
+      "voice": "zh-f",
+      "speaker": "Passantin",
+      "voiceGuessed": true,
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          11,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-12.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-01.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Reto, wie chum ich zum Bellevue?",
+      "en": "Reto, how do I get to Bellevue?",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          0,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-01.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-02.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Lueg emal, det isch d Haltestell. Nimm s Tram Nummer vier.",
+      "en": "Look, there's the stop. Take the number four tram.",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          1,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-02.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-03.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Mues ich umstiige?",
+      "en": "Do I have to change?",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          2,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-03.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-04.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Nei, du muesch nöd umstiige. Häsch es Billett?",
+      "en": "No, you don't have to change. Have you got a ticket?",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          3,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-04.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-05.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Nei, aber ich ha es Halbtax.",
+      "en": "No, but I have a half-fare card.",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          4,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-05.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-06.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Dänn chaufsch es Billett am Automat. Oder nimm s Velo!",
+      "en": "Then you buy a ticket at the machine. Or take the bike!",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          5,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-06.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-07.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Mit em Velo? Wie fahr ich?",
+      "en": "By bike? Which way do I go?",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          6,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-07.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-08.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Fahr grad us und dänn bi de Ampel rächts. Aber uf em Trottoir dörfsch nöd Velo fahre!",
+      "en": "Ride straight on and then turn right at the lights. But you mustn't cycle on the pavement!",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          7,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-08.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-09.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Klar. Ich nimm glaub lieber s Tram.",
+      "en": "Sure. I think I'd rather take the tram.",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          8,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-09.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-10.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Sandra, wo bisch?",
+      "en": "Sandra, where are you?",
+      "variety": "gsw-be",
+      "voice": "be-m",
+      "speaker": "Mami",
+      "voiceGuessed": true,
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          9,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-10.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-11.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Im Tram! I fahre i d Stadt.",
+      "en": "On the tram! I'm going into town.",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          10,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-11.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-12.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Pass uf, gäu!",
+      "en": "Be careful, won't you!",
+      "variety": "gsw-be",
+      "voice": "be-m",
+      "speaker": "Mami",
+      "voiceGuessed": true,
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          11,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-12.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-13.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Jaja, Mami. Tschou!",
+      "en": "Yes, yes, Mum. Bye!",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          12,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-13.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-bahnhof.mp3",
+      "kind": "vocab",
+      "text": "Bahnhof",
+      "en": "(railway) station",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "bahnhof",
+        "pointer": [
+          0,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-bahnhof.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-bahnhof-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Wie komme ich zum Bahnhof?",
+      "en": "How do I get to the station?",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "bahnhof",
+        "pointer": [
+          0,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-bahnhof-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-bahnhof-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Bahnhof",
+      "en": "(railway) station",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "bahnhof",
+        "pointer": [
+          0,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-bahnhof-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-haltestelle.mp3",
+      "kind": "vocab",
+      "text": "Haltestelle",
+      "en": "stop (bus, tram)",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "haltestelle",
+        "pointer": [
+          1,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-haltestelle.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-haltestelle-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Die Haltestelle ist gleich da.",
+      "en": "The stop is right there.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "haltestelle",
+        "pointer": [
+          1,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-haltestelle-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-haltestelle-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Haltestell",
+      "note": "d Haltestell",
+      "en": "stop (bus, tram)",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "haltestelle",
+        "pointer": [
+          1,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-haltestelle-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-strasse.mp3",
+      "kind": "vocab",
+      "text": "Straße",
+      "en": "street, road",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "strasse",
+        "pointer": [
+          2,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-strasse.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-strasse-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Nehmen Sie die zweite Straße links.",
+      "en": "Take the second street on the left.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "strasse",
+        "pointer": [
+          2,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-strasse-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-strasse-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Strass",
+      "note": "d Strass",
+      "en": "street, road",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "strasse",
+        "pointer": [
+          2,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-strasse-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-ampel.mp3",
+      "kind": "vocab",
+      "text": "Ampel",
+      "en": "traffic lights",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "ampel",
+        "pointer": [
+          3,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-ampel.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-ampel-ex.mp3",
+      "kind": "vocab-example",
+      "text": "An der Ampel gehen Sie rechts.",
+      "en": "Turn right at the traffic lights.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "ampel",
+        "pointer": [
+          3,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-ampel-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-ampel-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Ampel / Liechtsignal",
+      "en": "traffic lights",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "ampel",
+        "pointer": [
+          3,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-ampel-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kreuzung.mp3",
+      "kind": "vocab",
+      "text": "Kreuzung",
+      "en": "crossroads, junction",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kreuzung",
+        "pointer": [
+          4,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-kreuzung.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kreuzung-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Fahren Sie bis zur Kreuzung.",
+      "en": "Drive as far as the junction.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kreuzung",
+        "pointer": [
+          4,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-kreuzung-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kreuzung-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Chrüüzig",
+      "en": "crossroads, junction",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kreuzung",
+        "pointer": [
+          4,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-kreuzung-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-platz.mp3",
+      "kind": "vocab",
+      "text": "Platz",
+      "en": "square; seat, space",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "platz",
+        "pointer": [
+          5,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-platz.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-platz-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Das Café ist am Platz.",
+      "en": "The café is on the square.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "platz",
+        "pointer": [
+          5,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-platz-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-platz-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Platz",
+      "en": "square; seat, space",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "platz",
+        "pointer": [
+          5,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-platz-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-bruecke.mp3",
+      "kind": "vocab",
+      "text": "Brücke",
+      "en": "bridge",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "bruecke",
+        "pointer": [
+          6,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-bruecke.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-bruecke-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Gehen Sie über die Brücke.",
+      "en": "Go over the bridge.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "bruecke",
+        "pointer": [
+          6,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-bruecke-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-bruecke-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Brugg",
+      "note": "d Brugg",
+      "en": "bridge",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "bruecke",
+        "pointer": [
+          6,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-bruecke-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-post.mp3",
+      "kind": "vocab",
+      "text": "Post",
+      "en": "post office",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "post",
+        "pointer": [
+          7,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-post.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-post-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Wie komme ich zur Post?",
+      "en": "How do I get to the post office?",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "post",
+        "pointer": [
+          7,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-post-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-post-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Poscht",
+      "en": "post office",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "post",
+        "pointer": [
+          7,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-post-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-bank.mp3",
+      "kind": "vocab",
+      "text": "Bank",
+      "en": "bank; bench",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "bank",
+        "pointer": [
+          8,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-bank.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-bank-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Die Bank ist neben der Post.",
+      "en": "The bank is next to the post office.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "bank",
+        "pointer": [
+          8,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-bank-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-bank-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Bank",
+      "en": "bank; bench",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "bank",
+        "pointer": [
+          8,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-bank-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-museum.mp3",
+      "kind": "vocab",
+      "text": "Museum",
+      "en": "museum",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "museum",
+        "pointer": [
+          9,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-museum.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-museum-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Das Museum ist am Montag zu.",
+      "en": "The museum is closed on Mondays.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "museum",
+        "pointer": [
+          9,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-museum-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-museum-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Museum",
+      "en": "museum",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "museum",
+        "pointer": [
+          9,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-museum-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-zoo.mp3",
+      "kind": "vocab",
+      "text": "Zoo",
+      "en": "zoo",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "zoo",
+        "pointer": [
+          10,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-zoo.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-zoo-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Das Tram fährt direkt zum Zoo.",
+      "en": "The tram goes straight to the zoo.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "zoo",
+        "pointer": [
+          10,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-zoo-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-zoo-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Zoo",
+      "en": "zoo",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "zoo",
+        "pointer": [
+          10,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-zoo-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-bus.mp3",
+      "kind": "vocab",
+      "text": "Bus",
+      "en": "bus",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "bus",
+        "pointer": [
+          11,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-bus.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-bus-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich fahre mit dem Bus.",
+      "en": "I go by bus.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "bus",
+        "pointer": [
+          11,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-bus-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-bus-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Bus",
+      "en": "bus",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "bus",
+        "pointer": [
+          11,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-bus-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-strassenbahn.mp3",
+      "kind": "vocab",
+      "text": "Straßenbahn",
+      "en": "tram",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "strassenbahn",
+        "pointer": [
+          12,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-strassenbahn.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-strassenbahn-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Die Straßenbahn kommt gleich.",
+      "en": "The tram is coming in a moment.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "strassenbahn",
+        "pointer": [
+          12,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-strassenbahn-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-strassenbahn-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Tram",
+      "note": "s Tram",
+      "en": "tram",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "strassenbahn",
+        "pointer": [
+          12,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-strassenbahn-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-strassenbahn-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "Tram",
+      "note": "ds Tram; little tram ds Trämli",
+      "en": "tram",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "strassenbahn",
+        "pointer": [
+          12,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-strassenbahn-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-zug.mp3",
+      "kind": "vocab",
+      "text": "Zug",
+      "en": "train",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "zug",
+        "pointer": [
+          13,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-zug.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-zug-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Der Zug fährt um zehn ab.",
+      "en": "The train leaves at ten.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "zug",
+        "pointer": [
+          13,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-zug-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-zug-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Zug",
+      "en": "train",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "zug",
+        "pointer": [
+          13,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-zug-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-s-bahn.mp3",
+      "kind": "vocab",
+      "text": "S-Bahn",
+      "en": "suburban train",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "s-bahn",
+        "pointer": [
+          14,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-s-bahn.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-s-bahn-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Mit der S-Bahn fahre ich nach Winterthur.",
+      "en": "I take the S-Bahn to Winterthur.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "s-bahn",
+        "pointer": [
+          14,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-s-bahn-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-s-bahn-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "S-Bahn",
+      "en": "suburban train",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "s-bahn",
+        "pointer": [
+          14,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-s-bahn-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-fahrrad.mp3",
+      "kind": "vocab",
+      "text": "Fahrrad",
+      "en": "bicycle",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "fahrrad",
+        "pointer": [
+          15,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-fahrrad.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-fahrrad-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich fahre mit dem Fahrrad zur Arbeit.",
+      "en": "I cycle to work.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "fahrrad",
+        "pointer": [
+          15,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-fahrrad-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-fahrrad-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Velo",
+      "note": "s Velo",
+      "en": "bicycle",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "fahrrad",
+        "pointer": [
+          15,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-fahrrad-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-fahrrad-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "Velo",
+      "note": "ds Velo",
+      "en": "bicycle",
+      "variety": "gsw-be",
+      "voice": "be-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "fahrrad",
+        "pointer": [
+          15,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-fahrrad-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-fahrkarte.mp3",
+      "kind": "vocab",
+      "text": "Fahrkarte",
+      "en": "ticket",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "fahrkarte",
+        "pointer": [
+          16,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-fahrkarte.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-fahrkarte-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Wo kann ich eine Fahrkarte kaufen?",
+      "en": "Where can I buy a ticket?",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "fahrkarte",
+        "pointer": [
+          16,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-fahrkarte-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-fahrkarte-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Billett / Billet",
+      "note": "s Billett",
+      "en": "ticket",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "fahrkarte",
+        "pointer": [
+          16,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-fahrkarte-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-halbtax.mp3",
+      "kind": "vocab",
+      "text": "Halbtax",
+      "en": "Swiss half-fare travel card",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "halbtax",
+        "pointer": [
+          17,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-halbtax.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-halbtax-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Mit dem Halbtax bezahle ich nur die Hälfte.",
+      "en": "With the half-fare card I only pay half.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "halbtax",
+        "pointer": [
+          17,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-halbtax-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-halbtax-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Halbtax",
+      "note": "s Halbtax",
+      "en": "Swiss half-fare travel card",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "halbtax",
+        "pointer": [
+          17,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-halbtax-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-bahnsteig.mp3",
+      "kind": "vocab",
+      "text": "Bahnsteig",
+      "en": "platform",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "bahnsteig",
+        "pointer": [
+          18,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-bahnsteig.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-bahnsteig-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Der Zug fährt auf Bahnsteig drei ab.",
+      "en": "The train leaves from platform three.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "bahnsteig",
+        "pointer": [
+          18,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-bahnsteig-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-bahnsteig-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Perron",
+      "en": "platform",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "bahnsteig",
+        "pointer": [
+          18,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-bahnsteig-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-buergersteig.mp3",
+      "kind": "vocab",
+      "text": "Bürgersteig",
+      "en": "pavement, sidewalk",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "buergersteig",
+        "pointer": [
+          19,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-buergersteig.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-buergersteig-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Auf dem Bürgersteig darf man nicht Rad fahren.",
+      "en": "You mustn't cycle on the pavement.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "buergersteig",
+        "pointer": [
+          19,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-buergersteig-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-buergersteig-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Trottoir",
+      "en": "pavement, sidewalk",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "buergersteig",
+        "pointer": [
+          19,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-buergersteig-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-automat.mp3",
+      "kind": "vocab",
+      "text": "Automat",
+      "en": "(ticket) machine",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "automat",
+        "pointer": [
+          20,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-automat.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-automat-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Das Billett kaufen Sie am Automaten.",
+      "en": "You buy the ticket at the machine.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "automat",
+        "pointer": [
+          20,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-automat-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-automat-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Automat",
+      "en": "(ticket) machine",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "automat",
+        "pointer": [
+          20,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-automat-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-fahrplan.mp3",
+      "kind": "vocab",
+      "text": "Fahrplan",
+      "en": "timetable",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "fahrplan",
+        "pointer": [
+          21,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-fahrplan.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-fahrplan-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Schau mal auf den Fahrplan!",
+      "en": "Have a look at the timetable!",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "fahrplan",
+        "pointer": [
+          21,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-fahrplan-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-fahrplan-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Fahrplan",
+      "en": "timetable",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "fahrplan",
+        "pointer": [
+          21,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-fahrplan-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-minute.mp3",
+      "kind": "vocab",
+      "text": "Minute",
+      "en": "minute",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "minute",
+        "pointer": [
+          22,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-minute.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-minute-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Die Fahrt dauert zwanzig Minuten.",
+      "en": "The journey takes twenty minutes.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "minute",
+        "pointer": [
+          22,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-minute-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-minute-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Minute",
+      "note": "plural Minute",
+      "en": "minute",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "minute",
+        "pointer": [
+          22,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-minute-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-einsteigen.mp3",
+      "kind": "vocab",
+      "text": "einsteigen",
+      "en": "to get on (a bus, train)",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "einsteigen",
+        "pointer": [
+          23,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-einsteigen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-einsteigen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Im Tram steigen Sie vorne ein.",
+      "en": "On the tram you get on at the front.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "einsteigen",
+        "pointer": [
+          23,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-einsteigen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-einsteigen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "iistiige",
+      "en": "to get on (a bus, train)",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "einsteigen",
+        "pointer": [
+          23,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-einsteigen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-aussteigen.mp3",
+      "kind": "vocab",
+      "text": "aussteigen",
+      "en": "to get off",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "aussteigen",
+        "pointer": [
+          24,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-aussteigen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-aussteigen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Steigen Sie an der dritten Haltestelle aus.",
+      "en": "Get off at the third stop.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "aussteigen",
+        "pointer": [
+          24,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-aussteigen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-aussteigen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "uusstiige",
+      "en": "to get off",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "aussteigen",
+        "pointer": [
+          24,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-aussteigen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-umsteigen.mp3",
+      "kind": "vocab",
+      "text": "umsteigen",
+      "en": "to change (trains, buses)",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "umsteigen",
+        "pointer": [
+          25,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-umsteigen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-umsteigen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Muss ich umsteigen?",
+      "en": "Do I have to change?",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "umsteigen",
+        "pointer": [
+          25,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-umsteigen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-umsteigen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "umstiige",
+      "en": "to change (trains, buses)",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "umsteigen",
+        "pointer": [
+          25,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-umsteigen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-abfahren.mp3",
+      "kind": "vocab",
+      "text": "abfahren",
+      "en": "to leave, to depart",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "abfahren",
+        "pointer": [
+          26,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-abfahren.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-abfahren-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Der Bus fährt um acht ab.",
+      "en": "The bus leaves at eight.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "abfahren",
+        "pointer": [
+          26,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-abfahren-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-abfahren-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "abfahre",
+      "note": "de Zug fahrt ab",
+      "en": "to leave, to depart",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "abfahren",
+        "pointer": [
+          26,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-abfahren-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-dauern.mp3",
+      "kind": "vocab",
+      "text": "dauern",
+      "en": "to take (time), to last",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "dauern",
+        "pointer": [
+          27,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-dauern.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-dauern-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Wie lange dauert die Fahrt?",
+      "en": "How long does the journey take?",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "dauern",
+        "pointer": [
+          27,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-dauern-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-dauern-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "duure",
+      "en": "to take (time), to last",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "dauern",
+        "pointer": [
+          27,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-dauern-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-muessen.mp3",
+      "kind": "vocab",
+      "text": "müssen",
+      "en": "must, to have to",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "muessen",
+        "pointer": [
+          28,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-muessen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-muessen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich muss am Bahnhof umsteigen.",
+      "en": "I have to change at the station.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "muessen",
+        "pointer": [
+          28,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-muessen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-muessen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "müese",
+      "note": "ich mues, du muesch, mir müend",
+      "en": "must, to have to",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "muessen",
+        "pointer": [
+          28,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-muessen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-muessen-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "müesse",
+      "note": "i mues, mir müesse",
+      "en": "must, to have to",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "muessen",
+        "pointer": [
+          28,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-muessen-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-duerfen.mp3",
+      "kind": "vocab",
+      "text": "dürfen",
+      "en": "may, to be allowed to",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "duerfen",
+        "pointer": [
+          29,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-duerfen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-duerfen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Hier darf man nicht parken.",
+      "en": "You mustn't park here.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "duerfen",
+        "pointer": [
+          29,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-duerfen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-duerfen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "dörfe",
+      "note": "ich dörf, du dörfsch, mir dörfed; darf is also heard",
+      "en": "may, to be allowed to",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "duerfen",
+        "pointer": [
+          29,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-duerfen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-links.mp3",
+      "kind": "vocab",
+      "text": "links",
+      "en": "(on the) left",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "links",
+        "pointer": [
+          30,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-links.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-links-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Die Post ist links.",
+      "en": "The post office is on the left.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "links",
+        "pointer": [
+          30,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-links-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-links-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "links",
+      "en": "(on the) left",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "links",
+        "pointer": [
+          30,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-links-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-links-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "linggs",
+      "en": "(on the) left",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "links",
+        "pointer": [
+          30,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-links-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-rechts.mp3",
+      "kind": "vocab",
+      "text": "rechts",
+      "en": "(on the) right",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "rechts",
+        "pointer": [
+          31,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-rechts.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-rechts-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Gehen Sie hier rechts.",
+      "en": "Turn right here.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "rechts",
+        "pointer": [
+          31,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-rechts-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-rechts-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "rächts",
+      "en": "(on the) right",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "rechts",
+        "pointer": [
+          31,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-rechts-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-geradeaus.mp3",
+      "kind": "vocab",
+      "text": "geradeaus",
+      "en": "straight on",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "geradeaus",
+        "pointer": [
+          32,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-geradeaus.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-geradeaus-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Geh immer geradeaus!",
+      "en": "Keep going straight on!",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "geradeaus",
+        "pointer": [
+          32,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-geradeaus-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-geradeaus-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "grad us / graduus",
+      "en": "straight on",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "geradeaus",
+        "pointer": [
+          32,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-geradeaus-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-weit.mp3",
+      "kind": "vocab",
+      "text": "weit",
+      "en": "far",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "weit",
+        "pointer": [
+          33,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-weit.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-weit-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ist der Zoo weit?",
+      "en": "Is the zoo far?",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "weit",
+        "pointer": [
+          33,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-weit-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-weit-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "wiit",
+      "en": "far",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "weit",
+        "pointer": [
+          33,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-weit-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-nah.mp3",
+      "kind": "vocab",
+      "text": "nah",
+      "en": "near, close",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "nah",
+        "pointer": [
+          34,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-nah.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-nah-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Der Bahnhof ist ganz nah.",
+      "en": "The station is very close.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "nah",
+        "pointer": [
+          34,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-nah-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-nah-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "nööch",
+      "en": "near, close",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "nah",
+        "pointer": [
+          34,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-nah-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-zu-fuss.mp3",
+      "kind": "vocab",
+      "text": "zu Fuß",
+      "en": "on foot",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "zu-fuss",
+        "pointer": [
+          35,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-zu-fuss.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-zu-fuss-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich gehe zu Fuß.",
+      "en": "I walk.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "zu-fuss",
+        "pointer": [
+          35,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-zu-fuss-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-zu-fuss-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "zu Fuess",
+      "note": "laufe = to walk",
+      "en": "on foot",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "zu-fuss",
+        "pointer": [
+          35,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-zu-fuss-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wie-komme-ich.mp3",
+      "kind": "vocab",
+      "text": "Wie komme ich zum / zur ...?",
+      "en": "How do I get to ...?",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wie-komme-ich",
+        "pointer": [
+          36,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-wie-komme-ich.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wie-komme-ich-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Entschuldigung, wie komme ich zum Zoo?",
+      "en": "Excuse me, how do I get to the zoo?",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wie-komme-ich",
+        "pointer": [
+          36,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-wie-komme-ich-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wie-komme-ich-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Wie chum ich zum / zur ...?",
+      "en": "How do I get to ...?",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wie-komme-ich",
+        "pointer": [
+          36,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-wie-komme-ich-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-erste-zweite-dritte.mp3",
+      "kind": "vocab",
+      "text": "erste, zweite, dritte",
+      "en": "first, second, third",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "erste-zweite-dritte",
+        "pointer": [
+          37,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-erste-zweite-dritte.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-erste-zweite-dritte-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Nehmen Sie die erste Straße links.",
+      "en": "Take the first street on the left.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "erste-zweite-dritte",
+        "pointer": [
+          37,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-erste-zweite-dritte-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-erste-zweite-dritte-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "erscht, zweit, dritt",
+      "note": "di erscht Strass",
+      "en": "first, second, third",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "erste-zweite-dritte",
+        "pointer": [
+          37,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-erste-zweite-dritte-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-u08-dictation-zoo.mp3",
+      "kind": "dictation",
+      "text": "Wie komme ich zum Zoo?",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a1-u08-dictation-zoo",
+        "pointer": [
+          21,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a1-u08-dictation-zoo.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-u08-dictation-geradeaus.mp3",
+      "kind": "dictation",
+      "text": "Gehen Sie geradeaus und dann die zweite Straße rechts.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a1-u08-dictation-geradeaus",
+        "pointer": [
+          22,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a1-u08-dictation-geradeaus.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-u08-speak-ask-way.mp3",
+      "kind": "speak",
+      "text": "Entschuldigung, wie komme ich zum Bahnhof? Ist das weit?",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a1-u08-speak-ask-way",
+        "pointer": [
+          24,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a1-u08-speak-ask-way.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-u08-speak-directions.mp3",
+      "kind": "speak",
+      "text": "Gehen Sie geradeaus, dann die erste Straße links. Die Haltestelle ist an der Ampel.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a1-u08-speak-directions",
+        "pointer": [
+          25,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a1-u08-speak-directions.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-u08-speak-shadow-passantin.mp3",
+      "kind": "speak",
+      "text": "Nein, Sie müssen nicht umsteigen. Das Tram fährt direkt zum Zoo.",
+      "variety": "ch-std",
+      "voice": "zh-f",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a1-u08-speak-shadow-passantin",
+        "pointer": [
+          26,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a1-u08-speak-shadow-passantin.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-u08-speak-shadow-tom.mp3",
+      "kind": "speak",
+      "text": "Muss ich umsteigen? Wie lange dauert die Fahrt?",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a1-u08-speak-shadow-tom",
+        "pointer": [
+          27,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a1-u08-speak-shadow-tom.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-u08-speak-pron-z-st.mp3",
+      "kind": "speak",
+      "text": "Der Zug nach Zürich steht auf Bahnsteig zwei. Die Straßenbahn fährt um zehn.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a1-u08-speak-pron-z-st",
+        "pointer": [
+          28,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a1-u08-speak-pron-z-st.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-u08-ch-mcq-umstiige.mp3",
+      "kind": "listening",
+      "text": "Du muesch nöd umstiige.",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a1-u08-ch-mcq-umstiige",
+        "pointer": [
+          36,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a1-u08-ch-mcq-umstiige.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-u08-ch-mcq-trottoir.mp3",
+      "kind": "listening",
+      "text": "Uf em Trottoir dörfsch nöd Velo fahre!",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a1-u08-ch-mcq-trottoir",
+        "pointer": [
+          37,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a1-u08-ch-mcq-trottoir.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-u08-ch-be-mcq-pass-uf.mp3",
+      "kind": "listening",
+      "text": "Pass uf, gäu!",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a1-u08-ch-be-mcq-pass-uf",
+        "pointer": [
+          42,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a1-u08-ch-be-mcq-pass-uf.mp3",
+      "referenced": false
+    }
+  ]
+}

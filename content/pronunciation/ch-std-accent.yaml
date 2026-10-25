@@ -1,0 +1,74 @@
+id: ch-std-accent
+title: The Swiss Standard German accent
+ipa: ["x", "r", "ʔ", "æ"]
+level: A2
+variety: ch-std
+explanation: >-
+  When Swiss people speak Standard German – on the news, at school, in train announcements, with you –
+  they speak **Swiss Standard German**. It is correct Standard German with its own accent, just as
+  Scottish English is correct English. You don't have to copy it, but you need to **recognise** it.
+  Typical features:
+
+
+  - **ch is the back sound everywhere**: *ich, nicht, Milch* with the ach-sound, because Swiss dialects
+  have no ich-Laut.
+
+  - **-ig is -ik**: *richtig, zwanzig* end in a k-sound (also usual in southern Germany and Austria).
+
+  - **r is pronounced**, often as a tapped or rolled tip r, and **-er is not vocalised**: *Vater, Lehrer*
+  end with an audible r, not with *uh*.
+
+  - **No final devoicing in the same way**: Swiss speakers keep weak (lenis) and strong (fortis)
+  consonants apart at the end of words, so *Rad* and *Rat*, or *seid* and *seit*, can sound different.
+
+  - **No glottal stop**: words are linked (*am Abend* sounds like *a-mabend*, *erinnern* like
+  *e-rinnern*).
+
+  - **p, t, k without a puff of air**, and in many speakers **k as kch** (*Kind* with a slight rasp).
+
+  - **ä is very open**, close to the *a* in English *cat*: *Käse, Mädchen*.
+
+  - **First-syllable stress in French loanwords**: *BIL-lett* (Germany: *bil-JETT*), *PER-ron*, *TROT-toir*,
+  *MER-ci*, *FON-due*.
+
+  - Long vowels can sound **long and steady**, and the overall rhythm is calmer.
+
+
+  If you live in Switzerland, a light Swiss Standard accent is perfectly natural for you too. Choose one
+  model and be consistent.
+tips:
+  - "Listen to the news on Swiss radio and on German radio and notice ich, -er and the r."
+  - "If you copy the Swiss accent, copy it consistently: back ch, tip r, no glottal stop."
+  - "Helvetisms often carry Swiss stress: Billett, Perron, Trottoir – stress the first syllable when you use the Swiss word."
+pairs:
+  - [{ text: "Rad", en: "wheel; bike" }, { text: "Rat", en: advice }]
+  - [{ text: "seid", en: (you) are }, { text: "seit", en: since }]
+  - [{ text: "Bund", en: federation }, { text: "bunt", en: colourful }]
+  - [{ text: "Tod", en: death }, { text: "tot", en: dead }]
+  - [{ text: "wird", en: becomes }, { text: "Wirt", en: innkeeper }]
+words:
+  - { text: "ich", en: I }
+  - { text: "nicht", en: not }
+  - { text: "Milch", en: milk }
+  - { text: "richtig", en: correct }
+  - { text: "zwanzig", en: twenty }
+  - { text: "Kind", en: child }
+  - { text: "Käse", en: cheese }
+  - { text: "Vater", en: father }
+  - { text: "Lehrer", en: teacher }
+  - { text: "Abend", en: evening }
+  - { text: "Billett", en: ticket }
+  - { text: "Perron", en: (railway) platform }
+  - { text: "Trottoir", en: pavement }
+  - { text: "Velo", en: bicycle }
+  - { text: "merci", en: thank you }
+sentences:
+  - { text: "Ich habe heute leider keine Zeit.", en: "Unfortunately I don't have time today." }
+  - { text: "Das Billett kostet zwanzig Franken.", en: The ticket costs twenty francs. }
+  - { text: "Der Zug nach Bern fährt auf Perron drei.", en: The train to Bern leaves from platform three. }
+  - { text: "Merci vielmals, das ist sehr nett.", en: "Thanks a lot, that's very kind." }
+  - { text: "Am Abend fahre ich mit dem Velo nach Hause.", en: In the evening I ride my bike home. }
+commonMistakes:
+  - "Thinking Swiss Standard German is \"wrong\" German: it is a standard variety with its own norms."
+  - "Mixing accents in one sentence (Swiss back ch, then a German uvular r and vocalised -er): pick one model."
+  - "Stressing Billett on the second syllable while using the Swiss word: in Switzerland it is *BIL-lett*."

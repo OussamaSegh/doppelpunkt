@@ -5,6 +5,7 @@ import { fileURLToPath } from 'node:url';
 import { SKILLS, type ExerciseType, type Skill } from '@doppelpunkt/content-schema';
 import { addCoverage, buildManifest, coverage, formatCoverage, type Coverage } from './audio';
 import { formatIssues, isV1, lintContent, repoRoot, repoVersion, unitFolder } from './lint';
+import { drillCoverage } from './pronunciation';
 
 export type ReportRow = {
   unitId: string;
@@ -22,7 +23,9 @@ export type ReportRow = {
   types: Partial<Record<ExerciseType, number>>;
 };
 
-export type Report = { rows: ReportRow[]; total: Omit<ReportRow, 'unitId' | 'folder' | 'title' | 'review'> & { reviewed: number }; errors: number; log: string };
+export type DrillRow = { id: string; title: string; level: string; variety: string; pairs: number; words: number; sentences: number; audio: Coverage };
+
+export type Report = { rows: ReportRow[]; drills: DrillRow[]; total: Omit<ReportRow, 'unitId' | 'folder' | 'title' | 'review'> & { reviewed: number }; errors: number; log: string };
 
 export function buildReport(contentDir: string, root = process.cwd()): Report {
   const lint = lintContent(contentDir, root, { strictReview: false });
@@ -63,8 +66,13 @@ export function buildReport(contentDir: string, root = process.cwd()): Report {
     for (const s of SKILLS) total.skills[s] += r.skills[s];
     for (const [t, n] of Object.entries(r.types) as Array<[ExerciseType, number]>) total.types[t] = (total.types[t] ?? 0) + n;
   }
+  const drills: DrillRow[] = lint.drills.map(({ drill: d, ...ld }) => ({
+    id: d.id, title: d.title, level: d.level, variety: d.variety,
+    pairs: d.pairs.length, words: d.words.length, sentences: d.sentences.length,
+    audio: drillCoverage({ ...ld, drill: d }),
+  }));
   const log = lint.errors ? formatIssues(lint.issues.filter((i) => i.severity === 'error')) + '\nUnits with errors are not in the report.\n' : '';
-  return { rows, total, errors: lint.errors, log };
+  return { rows, drills, total, errors: lint.errors, log };
 }
 
 const SKILL_ABBR: Record<Skill, string> = { reading: 'read', listening: 'listen', speaking: 'speak', writing: 'write', vocabulary: 'vocab', grammar: 'gram' };
@@ -89,19 +97,29 @@ export function formatReport(r: Report, version = '0.0.0'): string {
     body.push(['total', String(t.exercises), ...SKILLS.map((s) => String(t.skills[s])), String(t.swiss), String(t.vocab),
       `${t.reviewed}/${r.rows.length} signed off`, formatCoverage(t.audio), types(t.types)]);
   }
+  let pron = '';
+  if (r.drills.length) {
+    const drillBody = r.drills.map((d) => [d.id, d.level, d.variety, String(d.pairs), String(d.words), String(d.sentences), formatCoverage(d.audio), d.title]);
+    if (r.drills.length > 1) {
+      const sum = (k: 'pairs' | 'words' | 'sentences') => String(r.drills.reduce((n, d) => n + d[k], 0));
+      const audio = r.drills.reduce((c, d) => addCoverage(c, d.audio), { recorded: 0, total: 0 });
+      drillBody.push(['total', '', '', sum('pairs'), sum('words'), sum('sentences'), formatCoverage(audio), `${r.drills.length} drills`]);
+    }
+    pron = '\n\nPronunciation drills\n' + table(['drill', 'level', 'variety', 'pairs', 'words', 'sentences', 'audio', 'title'], drillBody);
+  }
   const notes = [
     '',
     `audio: recorded/needed recordings (manifest entries, see npm run audio:scripts and docs/AUDIO.md).`,
     `review: sign-off by a German (de) and a Swiss (ch) native reviewer; ${isV1(version) ? 'required' : 'required from v1.0'}.`,
   ];
-  return r.log + table(head, body) + '\n' + notes.join('\n');
+  return r.log + table(head, body) + pron + '\n' + notes.join('\n');
 }
 
 export function main(argv = process.argv.slice(2)): number {
   const i = argv.indexOf('--content');
   const contentDir = resolve(i >= 0 && argv[i + 1] ? argv[i + 1]! : join(repoRoot, 'content'));
   const r = buildReport(contentDir, repoRoot);
-  console.log(argv.includes('--json') ? JSON.stringify({ rows: r.rows, total: r.total }, null, 2) : formatReport(r, repoVersion()));
+  console.log(argv.includes('--json') ? JSON.stringify({ rows: r.rows, drills: r.drills, total: r.total }, null, 2) : formatReport(r, repoVersion()));
   return r.errors ? 1 : 0;
 }
 

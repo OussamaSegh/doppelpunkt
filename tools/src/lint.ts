@@ -8,6 +8,7 @@ import { grade, normalize, sentenceKey, type Answer } from '@doppelpunkt/engine'
 import { addCoverage, audioRefs, buildManifest, coverage, formatCoverage, isRemote, type Coverage } from './audio';
 import { lintLexicons } from './lexicon';
 import { loadContent, UNIT_FILES, type Issue, type LoadedUnit } from './load';
+import { lintDrills, loadDrills, type LoadedDrill } from './pronunciation';
 
 export type ReviewStatus = { unitId: string; de: boolean; ch: boolean };
 export type LintResult = {
@@ -19,6 +20,10 @@ export type LintResult = {
   /** Recorded audio slots over all slots that have a YAML audio field (see audio.ts). */
   audio: Coverage;
   review: ReviewStatus[];
+  /** Pronunciation drills that loaded (content/pronunciation/*.yaml), sorted by id. */
+  drills: LoadedDrill[];
+  /** Audio coverage of the drills (every pair word, word and sentence is a slot). */
+  drillAudio: Coverage;
   /** Summary lines printed after the issues (never fail the lint). */
   info: string[];
 };
@@ -181,7 +186,13 @@ export function lintContent(contentDir: string, root = process.cwd(), opts: Lint
   const lexicon = lintLexicons(contentDir, root);
   issues.push(...lexicon.issues);
 
+  const pron = loadDrills(contentDir, root);
+  const drillLint = lintDrills(pron.drills, root);
+  issues.push(...pron.issues, ...drillLint.issues);
+  const drills = [...pron.drills].sort((a, b) => a.drill.id.localeCompare(b.drill.id));
+
   const info: string[] = [`audio coverage: ${formatCoverage(audio)}`];
+  if (drills.length || pron.issues.length) info.push(`pronunciation: ${drills.length} drill(s), audio coverage ${formatCoverage(drillLint.audio)}`);
   if (lexicon.files) info.push(`lexicon: ${lexicon.entries} entr${lexicon.entries === 1 ? 'y' : 'ies'} in ${lexicon.files} file(s)`);
   if (review.length) {
     const done = review.filter((r) => r.de && r.ch).length;
@@ -194,7 +205,7 @@ export function lintContent(contentDir: string, root = process.cwd(), opts: Lint
   }
 
   const errors = issues.filter((i) => i.severity === 'error').length;
-  return { issues, errors, warnings: issues.length - errors, units: loaded.units, levels: loaded.levels, audio, review, info };
+  return { issues, errors, warnings: issues.length - errors, units: loaded.units, levels: loaded.levels, audio, review, drills, drillAudio: drillLint.audio, info };
 }
 
 export function formatIssues(issues: Issue[]): string {

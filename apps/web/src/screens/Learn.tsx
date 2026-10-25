@@ -76,6 +76,13 @@ function LevelOverview() {
           </span>
           <span aria-hidden="true" className="text-accent">→</span>
         </Link>
+        <Link to="/pronunciation" className="card flex items-center justify-between gap-3 py-3 transition-colors hover:border-accent">
+          <span>
+            <span className="block font-semibold">Pronunciation drills</span>
+            <span className="block text-sm text-muted">ü and ö, ich- and ach-Laut, the German r, Swiss ch and more.</span>
+          </span>
+          <span aria-hidden="true" className="text-accent">→</span>
+        </Link>
         </>
       )}
     </div>

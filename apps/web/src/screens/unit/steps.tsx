@@ -8,6 +8,7 @@ import { Markdown } from '../../components/Markdown';
 import { ProgressBar } from '../../components/ProgressBar';
 import { SwissForms, VocabWord } from '../../components/VocabWord';
 import { AudioButton } from '../../components/AudioButton';
+import { ShadowPanel } from '../../components/ShadowPanel';
 import { audioUrl } from '../../content';
 import { db, type Dialect } from '../../db';
 import { useAttempts, useUnitStatus } from '../../lib/hooks';
@@ -18,12 +19,26 @@ type DialogueLine = CompiledUnit['intro']['dialogue'][number];
 
 function Dialogue({ unit, lines }: { unit: CompiledUnit; lines: DialogueLine[] }) {
   const [showEn, setShowEn] = useState(false);
+  const [shadow, setShadow] = useState(false);
   return (
     <div className="space-y-3">
-      <label className="flex items-center gap-2 text-sm text-muted">
-        <input type="checkbox" checked={showEn} onChange={(e) => setShowEn(e.target.checked)} className="h-4 w-4" />
-        Show English
-      </label>
+      <div className="flex flex-wrap items-center justify-between gap-2">
+        <label className="flex items-center gap-2 text-sm text-muted">
+          <input type="checkbox" checked={showEn} onChange={(e) => setShowEn(e.target.checked)} className="h-4 w-4" />
+          Show English
+        </label>
+        {lines.length > 0 && (
+          <button type="button" className="btn-ghost px-2 text-sm" aria-expanded={shadow} onClick={() => setShadow(!shadow)}>
+            {shadow ? 'Hide shadowing' : 'Shadow the dialogue'}
+          </button>
+        )}
+      </div>
+      {shadow && (
+        <ShadowPanel
+          lines={lines.map((l) => ({ speaker: l.speaker, text: l.text, en: l.en, variety: l.variety, url: l.audio ? audioUrl(unit, l.audio) : undefined }))}
+          onClose={() => setShadow(false)}
+        />
+      )}
       <ol className="space-y-3">
         {lines.map((l, i) => (
           <li key={i} className="card py-3">

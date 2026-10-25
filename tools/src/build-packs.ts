@@ -5,10 +5,11 @@
 import { copyFileSync, existsSync, mkdirSync, readdirSync, readFileSync, rmSync, statSync, writeFileSync } from 'node:fs';
 import { dirname, join, normalize, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { LEVELS, LevelPack, PackIndex, type Level } from '@doppelpunkt/content-schema';
+import { LEVELS, LevelPack, PackIndex, PronunciationPack, type Level } from '@doppelpunkt/content-schema';
 import { audioRefs, formatCoverage, isRemote } from './audio';
 import { formatIssues, isV1, lintContent, repoRoot } from './lint';
 import { UNIT_FILES, type LoadedUnit } from './load';
+import { drillItems, PRONUNCIATION_DIR, type LoadedDrill } from './pronunciation';
 
 export type BuildOptions = {
   contentDir: string;
@@ -50,17 +51,59 @@ export function copyAudio(units: LoadedUnit[], outDir: string): string[] {
   return [...copied].map((p) => p.slice(outDir.length + 1)).sort();
 }
 
-function sourceTime(units: LoadedUnit[]): string {
-  const epoch = process.env.SOURCE_DATE_EPOCH;
-  if (epoch && /^\d+$/.test(epoch)) return new Date(Number(epoch) * 1000).toISOString();
-  let newest = 0;
-  for (const u of units) {
-    for (const f of Object.values(UNIT_FILES)) {
-      const p = join(u.dir, f);
-      if (existsSync(p)) newest = Math.max(newest, Math.floor(statSync(p).mtimeMs / 1000) * 1000);
+/**
+ * Copy the audio referenced by pronunciation drills (and .opus siblings) to
+ * <outDir>/audio/pronunciation/<id>/<path>. Call after copyAudio (which clears the audio folder).
+ */
+export function copyDrillAudio(drills: LoadedDrill[], outDir: string): string[] {
+  const copied = new Set<string>();
+  for (const ld of drills) {
+    const base = join(outDir, 'audio', PRONUNCIATION_DIR, ld.drill.id);
+    for (const { item } of drillItems(ld.drill)) {
+      if (!item.audio || isRemote(item.audio)) continue;
+      const rel = normalize(item.audio);
+      if (rel.startsWith('..')) continue;
+      for (const v of new Set([rel, rel.replace(/\.[a-z0-9]+$/i, '.opus')])) {
+        const src = join(ld.dir, v);
+        const dest = join(base, v);
+        if (!existsSync(src) || copied.has(dest)) continue;
+        mkdirSync(dirname(dest), { recursive: true });
+        copyFileSync(src, dest);
+        copied.add(dest);
+      }
     }
   }
+  return [...copied].map((p) => p.slice(outDir.length + 1)).sort();
+}
+
+const mtime = (p: string) => (existsSync(p) ? Math.floor(statSync(p).mtimeMs / 1000) * 1000 : 0);
+
+function epochTime(): string | undefined {
+  const epoch = process.env.SOURCE_DATE_EPOCH;
+  return epoch && /^\d+$/.test(epoch) ? new Date(Number(epoch) * 1000).toISOString() : undefined;
+}
+
+function sourceTime(units: LoadedUnit[]): string {
+  const fixed = epochTime();
+  if (fixed) return fixed;
+  let newest = 0;
+  for (const u of units) {
+    for (const f of Object.values(UNIT_FILES)) newest = Math.max(newest, mtime(join(u.dir, f)));
+  }
   return new Date(newest).toISOString();
+}
+
+/** builtAt of the pronunciation pack: SOURCE_DATE_EPOCH or the newest drill file (epoch 0 when there are none). */
+function drillTime(drills: LoadedDrill[]): string {
+  return epochTime() ?? new Date(drills.reduce((n, d) => Math.max(n, mtime(d.file)), 0)).toISOString();
+}
+
+export const PRONUNCIATION_PACK = 'pronunciation.json';
+
+/** The pronunciation pack: drills sorted by id, keys in schema order. */
+export function pronunciationPack(drills: LoadedDrill[], version: string, builtAt?: string): PronunciationPack {
+  const sorted = [...drills].sort((a, b) => a.drill.id.localeCompare(b.drill.id));
+  return PronunciationPack.parse({ version, builtAt: builtAt ?? drillTime(sorted), drills: sorted.map((d) => d.drill) });
 }
 
 export function buildPacks(opts: BuildOptions): BuildResult {
@@ -95,8 +138,13 @@ export function buildPacks(opts: BuildOptions): BuildResult {
     if (m && !levels.includes(m[1]!.toUpperCase() as Level)) rmSync(join(opts.outDir, name));
   }
 
-  const audio = copyAudio(lint.units, opts.outDir);
-  log.push(`audio: ${audio.length} file(s) copied; audio coverage: ${formatCoverage(lint.audio)}`);
+  const pron = pronunciationPack(lint.drills, opts.version, opts.builtAt);
+  writeFileSync(join(opts.outDir, PRONUNCIATION_PACK), JSON.stringify(pron) + '\n');
+  written.push(PRONUNCIATION_PACK);
+  log.push(`${PRONUNCIATION_PACK}: ${pron.drills.length} drill(s), ${pron.drills.reduce((n, d) => n + d.pairs.length, 0)} minimal pair(s)`);
+
+  const audio = [...copyAudio(lint.units, opts.outDir), ...copyDrillAudio(lint.drills, opts.outDir)];
+  log.push(`audio: ${audio.length} file(s) copied; audio coverage: ${formatCoverage(lint.audio)}; pronunciation audio: ${formatCoverage(lint.drillAudio)}`);
 
   const parsedIndex = PackIndex.parse(index);
   writeFileSync(join(opts.outDir, 'index.json'), JSON.stringify(parsedIndex, null, 2) + '\n');

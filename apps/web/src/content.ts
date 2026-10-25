@@ -65,14 +65,16 @@ export async function loadPacks(fetchImpl: typeof fetch = fetch): Promise<Conten
 /**
  * Re-requests the index and every listed pack so the service worker's runtime cache holds them.
  * On the very first visit the packs load before the worker controls the page, so without this the
- * app would have no lessons offline until the next online visit.
+ * app would have no lessons (or pronunciation drills) offline until the next online visit.
  */
 export async function warmPackCache(fetchImpl: typeof fetch = fetch): Promise<void> {
   try {
     const raw = await fetchJson(`${packsBase()}index.json`, fetchImpl);
     const index = PackIndex.safeParse(raw);
     if (!index.success) return;
-    await Promise.all(index.data.packs.map((entry) => fetchImpl(`${packsBase()}${entry.file}`).catch(() => undefined)));
+    // The pronunciation pack is always built (possibly with no drills), so it can be warmed too.
+    const files = [...index.data.packs.map((entry) => entry.file), 'pronunciation.json'];
+    await Promise.all(files.map((file) => fetchImpl(`${packsBase()}${file}`).catch(() => undefined)));
   } catch {
     // Offline or not served: nothing to warm.
   }

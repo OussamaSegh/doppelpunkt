@@ -86,7 +86,14 @@ export function LevelMeter({ stream, className = '' }: { stream?: MediaStream; c
   return (
     <div className={`space-y-1 ${className}`}>
       <canvas ref={canvasRef} aria-hidden="true" className="h-12 w-full rounded-lg bg-swiss-soft text-swiss" />
-      <div role="meter" aria-label="Microphone level" aria-valuemin={0} aria-valuemax={100} aria-valuenow={0} className="h-1.5 overflow-hidden rounded-full bg-surface-2">
+      <div
+        role="meter"
+        aria-label="Microphone level"
+        aria-valuemin={0}
+        aria-valuemax={100}
+        aria-valuenow={0}
+        className="h-1.5 overflow-hidden rounded-full bg-surface-2"
+      >
         <span ref={barRef} className="block h-full w-0 bg-swiss transition-[width] duration-75" />
       </div>
     </div>
