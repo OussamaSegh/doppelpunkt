@@ -3,6 +3,7 @@ import Dexie, { type EntityTable } from 'dexie';
 import type { Level } from '@doppelpunkt/content-schema';
 import type { Attempt, CardState } from '@doppelpunkt/engine';
 import type { ProviderId } from '@doppelpunkt/ai';
+import type { BetaEnvelope, FeedbackReport } from '@doppelpunkt/beta-schema';
 
 export type Dialect = 'gsw-zh' | 'gsw-be';
 export type ThemePref = 'system' | 'light' | 'dark';
@@ -27,7 +28,31 @@ export type Settings = {
   haptics: boolean;
   /** Last placement test result, if the learner took one. */
   placement?: PlacementResult;
+  /** Beta programme choices (v0.5). Missing means everything off. */
+  beta?: BetaPrefs;
 };
+
+/**
+ * Opt-ins for the beta collector. All off by default. Feedback reports need no switch: each one is
+ * sent only when the learner presses Send on it.
+ */
+export type BetaPrefs = {
+  /** Anonymous per-item statistics, uploaded at most once a day. */
+  stats: boolean;
+  /** Scrubbed crash reports. */
+  crashes: boolean;
+  /** The one-time "Help improve Doppelpunkt" card after onboarding was answered or dismissed. */
+  introDone?: boolean;
+  /** Random 32-hex id, only while stats are on; rotated after 90 days. */
+  installId?: string;
+  installIdAt?: string;
+  /** Local day (YYYY-MM-DD) of the last stats upload. */
+  lastStatsDay?: string;
+  /** Install ids whose POST /v1/forget has not reached the collector yet. */
+  pendingForget?: string[];
+};
+
+export const DEFAULT_BETA: BetaPrefs = { stats: false, crashes: false };
 
 /** Saved outcome of the placement test (shown on Progress). */
 export type PlacementResult = {
@@ -157,6 +182,37 @@ export type ExamResultRow = {
 /** Seconds of active study per local day (YYYY-MM-DD). */
 export type ActivityRow = { day: string; seconds: number };
 
+/** A beta envelope waiting to be sent to the collector. Sent rows are deleted. */
+export type OutboxRow = {
+  id?: number;
+  kind: BetaEnvelope['kind'];
+  body: BetaEnvelope;
+  createdAt: string;
+  /** Failed send attempts so far. */
+  tries: number;
+};
+
+/** A feedback report the learner made, kept on the device for "My reports". */
+export type ReportRow = {
+  id?: number;
+  report: FeedbackReport;
+  /** Outbox row while it waits to be sent. */
+  outboxId?: number;
+  status: 'queued' | 'sent' | 'failed';
+  sentAt?: string;
+  error?: string;
+};
+
+/** Per-item counts since the last stats upload (only while the learner opted in). */
+export type ItemStatRow = {
+  itemId: string;
+  attempts: number;
+  /** First-try scores in [0, 0.5), [0.5, 0.8), [0.8, 1]. */
+  buckets: [number, number, number];
+  /** Unrounded seconds; rounded to 5 s when uploaded. */
+  seconds: number;
+};
+
 export class DoppelpunktDB extends Dexie {
   settings!: EntityTable<Settings, 'key'>;
   attempts!: EntityTable<AttemptRow, 'id'>;
@@ -167,6 +223,9 @@ export class DoppelpunktDB extends Dexie {
   writingSubmissions!: EntityTable<WritingSubmissionRow, 'id'>;
   activity!: EntityTable<ActivityRow, 'day'>;
   examResults!: EntityTable<ExamResultRow, 'id'>;
+  outbox!: EntityTable<OutboxRow, 'id'>;
+  reports!: EntityTable<ReportRow, 'id'>;
+  itemStats!: EntityTable<ItemStatRow, 'itemId'>;
 
   constructor(name = 'doppelpunkt') {
     super(name);
@@ -182,6 +241,8 @@ export class DoppelpunktDB extends Dexie {
     });
     // v0.4: mock exam results.
     this.version(2).stores({ examResults: '++id, examId, level, at' });
+    // v0.5: beta outbox, the learner's own feedback reports, item statistics since the last upload.
+    this.version(3).stores({ outbox: '++id, kind, createdAt', reports: '++id, outboxId, status', itemStats: 'itemId' });
   }
 }
 
@@ -226,6 +287,12 @@ export type ProgressExport = {
 export async function exportProgress(): Promise<ProgressExport> {
   const tables = {} as Record<ExportTable, unknown[]>;
   for (const t of EXPORT_TABLES) tables[t] = await db.table(t).toArray();
+  // The beta install id identifies this device to the collector; it doesn't travel with a backup.
+  tables.settings = (tables.settings as Settings[]).map((row) => {
+    if (!row.beta) return row;
+    const { installId: _id, installIdAt: _at, pendingForget: _pf, ...beta } = row.beta;
+    return { ...row, beta };
+  });
   return { app: 'doppelpunkt', format: 1, exportedAt: new Date().toISOString(), tables };
 }
 

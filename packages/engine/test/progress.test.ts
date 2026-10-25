@@ -105,3 +105,15 @@ describe('streak and weekly minutes', () => {
     expect(w.reduce((s, d) => s + d.minutes, 0)).toBe(22);
   });
 });
+
+describe('estimateSkills with skipped levels', () => {
+  it('does not cap a learner placed in A2 at A1', () => {
+    const at = '2026-10-01T10:00:00.000Z';
+    const attempts = Array.from({ length: 20 }, (_, i) => ({
+      exerciseId: `a2-x${i}`, unitId: 'a2-u01', level: 'A2' as const, skill: 'reading' as const,
+      variety: 'de' as const, score: 0.5, grammar: [], at,
+    }));
+    const reading = estimateSkills(attempts).find((e) => e.skill === 'reading')!;
+    expect(reading.band.startsWith('A2')).toBe(true);
+  });
+});

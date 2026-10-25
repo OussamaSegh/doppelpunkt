@@ -1,0 +1,2770 @@
+{
+  "unitId": "a2-u03",
+  "level": "A2",
+  "folder": "a2/unit-03",
+  "title": "Arbeit und Beruf",
+  "delivery": {
+    "raw": "WAV or FLAC, 48 kHz, 24-bit, mono, one file per entry, named <file base>.wav",
+    "processed": [
+      "mp3 64 kbps mono 44.1 kHz",
+      "opus 32 kbps mono 48 kHz",
+      "EBU R128 -16 LUFS, true peak -1.5 dBTP"
+    ]
+  },
+  "entries": [
+    {
+      "file": "dialog-intro-01.mp3",
+      "kind": "dialogue-intro",
+      "text": "Hallo, du bist sicher Martin! Ich bin Tom. Willkommen im Team!",
+      "en": "Hi, you must be Martin! I'm Tom. Welcome to the team!",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          0,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-01.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-02.mp3",
+      "kind": "dialogue-intro",
+      "text": "Hallo Tom, danke! Heute ist mein erster Tag. Ich bin ein bisschen nervös.",
+      "en": "Hi Tom, thanks! It's my first day today. I'm a bit nervous.",
+      "variety": "ch-std",
+      "voice": "zh-m",
+      "speaker": "Martin",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          1,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-02.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-03.mp3",
+      "kind": "dialogue-intro",
+      "text": "Kein Problem. Hier ist dein Platz. Du arbeitest mit mir und mit Nadine zusammen.",
+      "en": "No problem. This is your desk. You'll be working with me and with Nadine.",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          2,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-03.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-04.mp3",
+      "kind": "dialogue-intro",
+      "text": "Super. Was machst du hier genau?",
+      "en": "Great. What exactly do you do here?",
+      "variety": "ch-std",
+      "voice": "zh-m",
+      "speaker": "Martin",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          3,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-04.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-05.mp3",
+      "kind": "dialogue-intro",
+      "text": "Ich bin Informatiker. Ich arbeite seit zwei Jahren bei der Firma. Und du? Was hast du vorher gemacht?",
+      "en": "I'm an IT specialist. I've been working for the company for two years. And you? What did you do before?",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          4,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-05.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-06.mp3",
+      "kind": "dialogue-intro",
+      "text": "Ich habe eine Lehre als Kaufmann gemacht, bei einer Bank in Bern. Danach habe ich drei Jahre bei der Post gearbeitet.",
+      "en": "I did an apprenticeship as a business administrator at a bank in Bern. After that I worked at the Post Office for three years.",
+      "variety": "ch-std",
+      "voice": "zh-m",
+      "speaker": "Martin",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          5,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-06.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-07.mp3",
+      "kind": "dialogue-intro",
+      "text": "Und seit wann wohnst du in Zürich?",
+      "en": "And how long have you been living in Zurich?",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          6,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-07.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-08.mp3",
+      "kind": "dialogue-intro",
+      "text": "Seit einem Monat. Ich fahre mit dem Velo zur Arbeit – nur zehn Minuten.",
+      "en": "For a month. I cycle to work – only ten minutes.",
+      "variety": "ch-std",
+      "voice": "zh-m",
+      "speaker": "Martin",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          7,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-08.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-09.mp3",
+      "kind": "dialogue-intro",
+      "text": "Super! Um zehn machen wir immer eine Pause und trinken einen Kaffee mit den Kollegen.",
+      "en": "Great! At ten we always take a break and have a coffee with the colleagues.",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          8,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-09.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-10.mp3",
+      "kind": "dialogue-intro",
+      "text": "Ah, das Znüni! Das gibt es auch hier?",
+      "en": "Ah, the morning break! You have that here too?",
+      "variety": "ch-std",
+      "voice": "zh-m",
+      "speaker": "Martin",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          9,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-10.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-11.mp3",
+      "kind": "dialogue-intro",
+      "text": "Klar! Und um zwölf essen wir zusammen in der Kantine. Komm, jetzt gehen wir zum Chef. Er möchte dir Hallo sagen.",
+      "en": "Of course! And at twelve we eat together in the canteen. Come on, now we'll go to the boss. He wants to say hello to you.",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          10,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-11.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-12.mp3",
+      "kind": "dialogue-intro",
+      "text": "Okay, gern!",
+      "en": "OK, sure!",
+      "variety": "ch-std",
+      "voice": "zh-m",
+      "speaker": "Martin",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          11,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-12.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-01.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Hoi Reto! Häsch grad Pause?",
+      "en": "Hi Reto! Are you on your break?",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          0,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-01.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-02.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Ja, Znünipause, zäh Minute. Wottsch es Käfeli?",
+      "en": "Yes, my morning break, ten minutes. Would you like a coffee?",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          1,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-02.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-03.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Gärn. Sit wänn schaffsch du eigentlich im Kafi?",
+      "en": "I'd love one. How long have you actually been working at the café?",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          2,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-03.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-04.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Sit drü Jahr. Vorher han ich e Lehr als Koch gmacht, imene Hotel z Luzern.",
+      "en": "For three years. Before that I did an apprenticeship as a cook, in a hotel in Lucerne.",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          3,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-04.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-05.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Und gfallt dir d Büez?",
+      "en": "And do you like the work?",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          4,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-05.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-06.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Ja, mega. De Chef isch nett, und d Kollege sind super. Und du? Wie isch es im Spital?",
+      "en": "Yes, a lot. The boss is nice and the colleagues are great. And you? How is it at the hospital?",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          5,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-06.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-07.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Streng! Ich ha vill Nachtdienscht. Aber ich schaff gärn mit de Patiente.",
+      "en": "Tough! I have lots of night shifts. But I like working with the patients.",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          6,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-07.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-08.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Wie chunnsch du zur Arbet? Mit em Tram?",
+      "en": "How do you get to work? By tram?",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          7,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-08.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-09.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Nei, mit em Velo. Zäh Minute vo de Wohnig bis zum Spital.",
+      "en": "No, by bike. Ten minutes from the flat to the hospital.",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          8,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-09.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-10.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Sandra, wie geit's bi dr Büez?",
+      "en": "Sandra, how's work?",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "speaker": "Mami",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          9,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-10.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-11.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Guet, aber i ha viu z tüe. Morn hani frei.",
+      "en": "Good, but I have a lot to do. Tomorrow I'm off.",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          10,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-11.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-12.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Schön! Mach de o mau e Pouse, gäu!",
+      "en": "Good! Make sure you take a break too, won't you!",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "speaker": "Mami",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          11,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-12.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-beruf.mp3",
+      "kind": "vocab",
+      "text": "Beruf",
+      "en": "job, profession",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "beruf",
+        "pointer": [
+          0,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-beruf.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-beruf-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Was sind Sie von Beruf?",
+      "en": "What do you do for a living?",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "beruf",
+        "pointer": [
+          0,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-beruf-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-beruf-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Bruef",
+      "en": "job, profession",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "beruf",
+        "pointer": [
+          0,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-beruf-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-arbeit.mp3",
+      "kind": "vocab",
+      "text": "Arbeit",
+      "en": "work",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "arbeit",
+        "pointer": [
+          1,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-arbeit.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-arbeit-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich fahre mit dem Bus zur Arbeit.",
+      "en": "I go to work by bus.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "arbeit",
+        "pointer": [
+          1,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-arbeit-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-arbeit-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Arbet / Büez",
+      "note": "colloquial",
+      "en": "work",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "arbeit",
+        "pointer": [
+          1,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-arbeit-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-arbeit-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "Büez",
+      "note": "d Büez",
+      "en": "work",
+      "variety": "gsw-be",
+      "voice": "be-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "arbeit",
+        "pointer": [
+          1,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-arbeit-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-informatiker.mp3",
+      "kind": "vocab",
+      "text": "Informatiker / Informatikerin",
+      "en": "IT specialist, computer scientist",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "informatiker",
+        "pointer": [
+          2,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-informatiker.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-informatiker-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Tom ist Informatiker.",
+      "en": "Tom is an IT specialist.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "informatiker",
+        "pointer": [
+          2,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-informatiker-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-informatiker-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Informatiker / Informatikerin",
+      "en": "IT specialist, computer scientist",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "informatiker",
+        "pointer": [
+          2,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-informatiker-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kaufmann.mp3",
+      "kind": "vocab",
+      "text": "Kaufmann / Kauffrau",
+      "en": "business administrator, commercial employee",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kaufmann",
+        "pointer": [
+          3,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-kaufmann.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kaufmann-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Martin hat eine Lehre als Kaufmann gemacht.",
+      "en": "Martin did an apprenticeship as a business administrator.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kaufmann",
+        "pointer": [
+          3,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-kaufmann-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kaufmann-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Kaufmaa / Kauffrau",
+      "note": "s KV mache",
+      "en": "business administrator, commercial employee",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kaufmann",
+        "pointer": [
+          3,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-kaufmann-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-verkaeufer.mp3",
+      "kind": "vocab",
+      "text": "Verkäufer / Verkäuferin",
+      "en": "sales assistant",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "verkaeufer",
+        "pointer": [
+          4,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-verkaeufer.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-verkaeufer-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Die Bäckerei sucht eine Verkäuferin.",
+      "en": "The bakery is looking for a sales assistant.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "verkaeufer",
+        "pointer": [
+          4,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-verkaeufer-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-verkaeufer-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Verchäufer / Verchäuferin",
+      "en": "sales assistant",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "verkaeufer",
+        "pointer": [
+          4,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-verkaeufer-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-koch.mp3",
+      "kind": "vocab",
+      "text": "Koch / Köchin",
+      "en": "cook, chef",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "koch",
+        "pointer": [
+          5,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-koch.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-koch-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Reto hat eine Lehre als Koch gemacht.",
+      "en": "Reto did an apprenticeship as a cook.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "koch",
+        "pointer": [
+          5,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-koch-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-koch-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Koch / Köchin",
+      "en": "cook, chef",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "koch",
+        "pointer": [
+          5,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-koch-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-pflegefachfrau.mp3",
+      "kind": "vocab",
+      "text": "Pflegefachfrau / Pflegefachmann",
+      "en": "nurse",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "pflegefachfrau",
+        "pointer": [
+          6,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-pflegefachfrau.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-pflegefachfrau-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Sandra ist Pflegefachfrau im Spital.",
+      "en": "Sandra is a nurse at the hospital.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "pflegefachfrau",
+        "pointer": [
+          6,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-pflegefachfrau-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-pflegefachfrau-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Pflegfachfrau / Pflegfachmaa",
+      "en": "nurse",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "pflegefachfrau",
+        "pointer": [
+          6,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-pflegefachfrau-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-lehrer.mp3",
+      "kind": "vocab",
+      "text": "Lehrer / Lehrerin",
+      "en": "teacher",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "lehrer",
+        "pointer": [
+          7,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-lehrer.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-lehrer-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Frau Keller ist Lehrerin.",
+      "en": "Frau Keller is a teacher.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "lehrer",
+        "pointer": [
+          7,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-lehrer-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-lehrer-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Lehrer / Lehreri",
+      "en": "teacher",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "lehrer",
+        "pointer": [
+          7,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-lehrer-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-firma.mp3",
+      "kind": "vocab",
+      "text": "Firma",
+      "en": "company, firm",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "firma",
+        "pointer": [
+          8,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-firma.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-firma-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich arbeite seit zwei Jahren bei der Firma.",
+      "en": "I've been working for the company for two years.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "firma",
+        "pointer": [
+          8,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-firma-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-firma-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Firma",
+      "en": "company, firm",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "firma",
+        "pointer": [
+          8,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-firma-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-buero.mp3",
+      "kind": "vocab",
+      "text": "Büro",
+      "en": "office",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "buero",
+        "pointer": [
+          9,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-buero.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-buero-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Mein Büro ist im dritten Stock.",
+      "en": "My office is on the third floor.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "buero",
+        "pointer": [
+          9,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-buero-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-buero-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Büro",
+      "en": "office",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "buero",
+        "pointer": [
+          9,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-buero-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-chef.mp3",
+      "kind": "vocab",
+      "text": "Chef / Chefin",
+      "en": "boss",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "chef",
+        "pointer": [
+          10,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-chef.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-chef-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich gehe zum Chef.",
+      "en": "I'm going to the boss.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "chef",
+        "pointer": [
+          10,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-chef-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-chef-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Chef / Chefin",
+      "en": "boss",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "chef",
+        "pointer": [
+          10,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-chef-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kollege.mp3",
+      "kind": "vocab",
+      "text": "Kollege / Kollegin",
+      "en": "colleague",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kollege",
+        "pointer": [
+          11,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-kollege.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kollege-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Um zehn trinke ich einen Kaffee mit den Kollegen.",
+      "en": "At ten I have a coffee with my colleagues.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kollege",
+        "pointer": [
+          11,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-kollege-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kollege-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Kolleg / Kollegin",
+      "note": "also = friend",
+      "en": "colleague",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kollege",
+        "pointer": [
+          11,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-kollege-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-mitarbeiter.mp3",
+      "kind": "vocab",
+      "text": "Mitarbeiter / Mitarbeiterin",
+      "en": "employee, member of staff",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "mitarbeiter",
+        "pointer": [
+          12,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-mitarbeiter.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-mitarbeiter-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Die Firma hat fünfzig Mitarbeiter.",
+      "en": "The company has fifty employees.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "mitarbeiter",
+        "pointer": [
+          12,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-mitarbeiter-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-mitarbeiter-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Mitarbeiter / Mitarbeiterin",
+      "en": "employee, member of staff",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "mitarbeiter",
+        "pointer": [
+          12,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-mitarbeiter-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-team.mp3",
+      "kind": "vocab",
+      "text": "Team",
+      "en": "team",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "team",
+        "pointer": [
+          13,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-team.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-team-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Willkommen im Team!",
+      "en": "Welcome to the team!",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "team",
+        "pointer": [
+          13,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-team-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-team-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Team",
+      "en": "team",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "team",
+        "pointer": [
+          13,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-team-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kantine.mp3",
+      "kind": "vocab",
+      "text": "Kantine",
+      "en": "canteen",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kantine",
+        "pointer": [
+          14,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-kantine.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kantine-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Um zwölf essen wir in der Kantine.",
+      "en": "At twelve we eat in the canteen.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kantine",
+        "pointer": [
+          14,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-kantine-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kantine-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Kantine",
+      "en": "canteen",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kantine",
+        "pointer": [
+          14,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-kantine-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sitzung.mp3",
+      "kind": "vocab",
+      "text": "Sitzung",
+      "en": "meeting",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sitzung",
+        "pointer": [
+          15,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-sitzung.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sitzung-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Am Montag haben wir eine Sitzung mit dem Chef.",
+      "en": "On Monday we have a meeting with the boss.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sitzung",
+        "pointer": [
+          15,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-sitzung-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sitzung-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Sitzig",
+      "en": "meeting",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sitzung",
+        "pointer": [
+          15,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-sitzung-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kunde.mp3",
+      "kind": "vocab",
+      "text": "Kunde / Kundin",
+      "en": "customer, client",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kunde",
+        "pointer": [
+          16,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-kunde.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kunde-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich spreche jeden Tag mit vielen Kunden.",
+      "en": "I talk to lots of customers every day.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kunde",
+        "pointer": [
+          16,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-kunde-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kunde-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Kund / Kundin",
+      "en": "customer, client",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kunde",
+        "pointer": [
+          16,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-kunde-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-homeoffice.mp3",
+      "kind": "vocab",
+      "text": "Homeoffice",
+      "en": "working from home",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "homeoffice",
+        "pointer": [
+          17,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-homeoffice.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-homeoffice-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Am Freitag arbeite ich im Homeoffice.",
+      "en": "On Fridays I work from home.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "homeoffice",
+        "pointer": [
+          17,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-homeoffice-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-homeoffice-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Homeoffice",
+      "en": "working from home",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "homeoffice",
+        "pointer": [
+          17,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-homeoffice-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-lehre.mp3",
+      "kind": "vocab",
+      "text": "Lehre",
+      "en": "apprenticeship",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "lehre",
+        "pointer": [
+          18,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-lehre.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-lehre-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Nach der Schule habe ich eine Lehre gemacht.",
+      "en": "After school I did an apprenticeship.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "lehre",
+        "pointer": [
+          18,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-lehre-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-lehre-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Lehr / Stifti",
+      "note": "colloquial",
+      "en": "apprenticeship",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "lehre",
+        "pointer": [
+          18,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-lehre-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-lehre-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "Lehr / Stifti",
+      "en": "apprenticeship",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "lehre",
+        "pointer": [
+          18,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-lehre-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-lernende.mp3",
+      "kind": "vocab",
+      "text": "Lehrling / Auszubildende",
+      "en": "apprentice, trainee",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "lernende",
+        "pointer": [
+          19,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-lernende.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-lernende-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Unsere Firma hat drei Lehrlinge.",
+      "en": "Our company has three apprentices.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "lernende",
+        "pointer": [
+          19,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-lernende-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-lernende-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Lehrling / Stift",
+      "note": "colloquial",
+      "en": "apprentice, trainee",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "lernende",
+        "pointer": [
+          19,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-lernende-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-ausbildung.mp3",
+      "kind": "vocab",
+      "text": "Ausbildung",
+      "en": "training, education",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "ausbildung",
+        "pointer": [
+          20,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-ausbildung.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-ausbildung-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Die Ausbildung dauert drei Jahre.",
+      "en": "The training takes three years.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "ausbildung",
+        "pointer": [
+          20,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-ausbildung-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-ausbildung-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Uusbildig",
+      "en": "training, education",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "ausbildung",
+        "pointer": [
+          20,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-ausbildung-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-stelle.mp3",
+      "kind": "vocab",
+      "text": "Stelle",
+      "en": "job, position",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "stelle",
+        "pointer": [
+          21,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-stelle.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-stelle-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich suche eine neue Stelle.",
+      "en": "I'm looking for a new job.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "stelle",
+        "pointer": [
+          21,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-stelle-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-stelle-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Stell",
+      "en": "job, position",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "stelle",
+        "pointer": [
+          21,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-stelle-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-stelleninserat.mp3",
+      "kind": "vocab",
+      "text": "Stellenanzeige",
+      "en": "job ad",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "stelleninserat",
+        "pointer": [
+          22,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-stelleninserat.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-stelleninserat-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich habe die Stellenanzeige in der Zeitung gelesen.",
+      "en": "I read the job ad in the newspaper.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "stelleninserat",
+        "pointer": [
+          22,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-stelleninserat-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-stelleninserat-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Inserat / Stelleninserat",
+      "en": "job ad",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "stelleninserat",
+        "pointer": [
+          22,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-stelleninserat-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-bewerbung.mp3",
+      "kind": "vocab",
+      "text": "Bewerbung",
+      "en": "(job) application",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "bewerbung",
+        "pointer": [
+          23,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-bewerbung.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-bewerbung-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Schicken Sie Ihre Bewerbung per E-Mail.",
+      "en": "Send your application by email.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "bewerbung",
+        "pointer": [
+          23,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-bewerbung-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-bewerbung-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Bewerbig",
+      "en": "(job) application",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "bewerbung",
+        "pointer": [
+          23,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-bewerbung-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-lebenslauf.mp3",
+      "kind": "vocab",
+      "text": "Lebenslauf",
+      "en": "CV, résumé",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "lebenslauf",
+        "pointer": [
+          24,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-lebenslauf.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-lebenslauf-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich habe meinen Lebenslauf geschrieben.",
+      "en": "I've written my CV.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "lebenslauf",
+        "pointer": [
+          24,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-lebenslauf-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-lebenslauf-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Läbeslauf",
+      "en": "CV, résumé",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "lebenslauf",
+        "pointer": [
+          24,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-lebenslauf-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-arbeitszeit.mp3",
+      "kind": "vocab",
+      "text": "Arbeitszeit",
+      "en": "working hours",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "arbeitszeit",
+        "pointer": [
+          25,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-arbeitszeit.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-arbeitszeit-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Meine Arbeitszeit ist von acht bis fünf.",
+      "en": "My working hours are from eight to five.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "arbeitszeit",
+        "pointer": [
+          25,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-arbeitszeit-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-arbeitszeit-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Arbetsziit",
+      "en": "working hours",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "arbeitszeit",
+        "pointer": [
+          25,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-arbeitszeit-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-teilzeit.mp3",
+      "kind": "vocab",
+      "text": "Teilzeit",
+      "en": "part-time",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "teilzeit",
+        "pointer": [
+          26,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-teilzeit.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-teilzeit-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Anna arbeitet Teilzeit, 60 Prozent.",
+      "en": "Anna works part-time, 60 per cent.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "teilzeit",
+        "pointer": [
+          26,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-teilzeit-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-teilzeit-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Teilziit",
+      "en": "part-time",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "teilzeit",
+        "pointer": [
+          26,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-teilzeit-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-schicht.mp3",
+      "kind": "vocab",
+      "text": "Schicht",
+      "en": "shift",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "schicht",
+        "pointer": [
+          27,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-schicht.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-schicht-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Diese Woche habe ich die Nachtschicht.",
+      "en": "This week I'm on the night shift.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "schicht",
+        "pointer": [
+          27,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-schicht-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-schicht-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Schicht / Dienscht",
+      "note": "Nachtdienscht",
+      "en": "shift",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "schicht",
+        "pointer": [
+          27,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-schicht-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-feierabend.mp3",
+      "kind": "vocab",
+      "text": "Feierabend",
+      "en": "end of the working day, time off after work",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "feierabend",
+        "pointer": [
+          28,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-feierabend.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-feierabend-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Um fünf habe ich Feierabend.",
+      "en": "I finish work at five.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "feierabend",
+        "pointer": [
+          28,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-feierabend-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-feierabend-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Fiirabig",
+      "en": "end of the working day, time off after work",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "feierabend",
+        "pointer": [
+          28,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-feierabend-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-lohn.mp3",
+      "kind": "vocab",
+      "text": "Lohn",
+      "en": "wage, pay",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "lohn",
+        "pointer": [
+          29,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-lohn.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-lohn-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Die Firma bezahlt einen guten Lohn.",
+      "en": "The company pays a good wage.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "lohn",
+        "pointer": [
+          29,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-lohn-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-lohn-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Lohn",
+      "en": "wage, pay",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "lohn",
+        "pointer": [
+          29,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-lohn-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-verdienen.mp3",
+      "kind": "vocab",
+      "text": "verdienen",
+      "en": "to earn",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "verdienen",
+        "pointer": [
+          30,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-verdienen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-verdienen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Wie viel verdient ein Koch in der Schweiz?",
+      "en": "How much does a cook earn in Switzerland?",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "verdienen",
+        "pointer": [
+          30,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-verdienen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-verdienen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "verdiene",
+      "en": "to earn",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "verdienen",
+        "pointer": [
+          30,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-verdienen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-selbststaendig.mp3",
+      "kind": "vocab",
+      "text": "selbstständig",
+      "en": "self-employed; independent",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "selbststaendig",
+        "pointer": [
+          31,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-selbststaendig.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-selbststaendig-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Meine Schwester ist selbstständig. Sie hat ein Café.",
+      "en": "My sister is self-employed. She has a café.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "selbststaendig",
+        "pointer": [
+          31,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-selbststaendig-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-selbststaendig-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "sälbständig",
+      "en": "self-employed; independent",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "selbststaendig",
+        "pointer": [
+          31,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-selbststaendig-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-streng.mp3",
+      "kind": "vocab",
+      "text": "streng",
+      "en": "strict; (Switzerland) tough, hard work",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "streng",
+        "pointer": [
+          32,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-streng.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-streng-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Der Chef ist streng.",
+      "en": "The boss is strict.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "streng",
+        "pointer": [
+          32,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-streng-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-streng-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "sträng / streng",
+      "note": "= anstrengend",
+      "en": "strict; (Switzerland) tough, hard work",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "streng",
+        "pointer": [
+          32,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-streng-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-bei.mp3",
+      "kind": "vocab",
+      "text": "bei",
+      "en": "at (a company, someone's place), near",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "bei",
+        "pointer": [
+          33,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-bei.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-bei-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich arbeite bei einer Bank.",
+      "en": "I work for a bank.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "bei",
+        "pointer": [
+          33,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-bei-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-bei-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "bi",
+      "note": "bim = beim",
+      "en": "at (a company, someone's place), near",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "bei",
+        "pointer": [
+          33,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-bei-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-mit.mp3",
+      "kind": "vocab",
+      "text": "mit",
+      "en": "with; by (transport)",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "mit",
+        "pointer": [
+          34,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-mit.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-mit-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich fahre mit dem Tram zur Arbeit.",
+      "en": "I go to work by tram.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "mit",
+        "pointer": [
+          34,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-mit-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-mit-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "mit",
+      "note": "mit em Velo",
+      "en": "with; by (transport)",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "mit",
+        "pointer": [
+          34,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-mit-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-seit.mp3",
+      "kind": "vocab",
+      "text": "seit",
+      "en": "since, for (still going on)",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "seit",
+        "pointer": [
+          35,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-seit.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-seit-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich wohne seit einem Jahr in Zürich.",
+      "en": "I've been living in Zurich for a year.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "seit",
+        "pointer": [
+          35,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-seit-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-seit-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "sit",
+      "note": "sit drü Jahr",
+      "en": "since, for (still going on)",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "seit",
+        "pointer": [
+          35,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-seit-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-von.mp3",
+      "kind": "vocab",
+      "text": "von",
+      "en": "from, of",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "von",
+        "pointer": [
+          36,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-von.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-von-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich arbeite von Montag bis Freitag.",
+      "en": "I work from Monday to Friday.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "von",
+        "pointer": [
+          36,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-von-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-von-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "vo",
+      "note": "vom",
+      "en": "from, of",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "von",
+        "pointer": [
+          36,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-von-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u03-mcq-listening-marco.mp3",
+      "kind": "listening",
+      "text": "Martin: Ich habe eine Lehre als Kaufmann gemacht, bei einer Bank in Bern. Danach habe ich drei Jahre bei der Post gearbeitet.",
+      "variety": "ch-std",
+      "voice": "zh-m",
+      "speaker": "Martin",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u03-mcq-listening-marco",
+        "pointer": [
+          25,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u03-mcq-listening-marco.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u03-dictation-firma.mp3",
+      "kind": "dictation",
+      "text": "Ich arbeite seit zwei Jahren bei einer Firma in Zürich.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u03-dictation-firma",
+        "pointer": [
+          26,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u03-dictation-firma.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u03-dictation-kantine.mp3",
+      "kind": "dictation",
+      "text": "Um zwölf essen wir mit den Kollegen in der Kantine.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u03-dictation-kantine",
+        "pointer": [
+          27,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u03-dictation-kantine.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u03-speak-frame.mp3",
+      "kind": "speak",
+      "text": "Ich bin Informatiker. Ich arbeite seit zwei Jahren bei einer Firma in Zürich. Ich fahre mit dem Zug zur Arbeit.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u03-speak-frame",
+        "pointer": [
+          28,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u03-speak-frame.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u03-speak-shadow-tom.mp3",
+      "kind": "speak",
+      "text": "Klar! Und um zwölf essen wir zusammen in der Kantine. Komm, jetzt gehen wir zum Chef. Er möchte dir Hallo sagen.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u03-speak-shadow-tom",
+        "pointer": [
+          29,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u03-speak-shadow-tom.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u03-speak-shadow-marco.mp3",
+      "kind": "speak",
+      "text": "Ich habe eine Lehre als Kaufmann gemacht, bei einer Bank in Bern.",
+      "variety": "ch-std",
+      "voice": "zh-m",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u03-speak-shadow-marco",
+        "pointer": [
+          30,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u03-speak-shadow-marco.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u03-speak-intonation.mp3",
+      "kind": "speak",
+      "text": "Seit wann arbeitest du hier? – Seit zwei Jahren.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u03-speak-intonation",
+        "pointer": [
+          31,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u03-speak-intonation.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u03-speak-pron-z.mp3",
+      "kind": "speak",
+      "text": "Meine Arbeitszeit ist Teilzeit, zwanzig Stunden, von zehn bis zwölf, zum Glück im Zentrum.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u03-speak-pron-z",
+        "pointer": [
+          32,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u03-speak-pron-z.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u03-ch-mcq-sit-waenn.mp3",
+      "kind": "listening",
+      "text": "Sandra: Gärn. Sit wänn schaffsch du eigentlich im Kafi?",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u03-ch-mcq-sit-waenn",
+        "pointer": [
+          36,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u03-ch-mcq-sit-waenn.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u03-ch-mcq-kaefeli.mp3",
+      "kind": "listening",
+      "text": "Reto: Ja, Znünipause, zäh Minute. Wottsch es Käfeli?",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u03-ch-mcq-kaefeli",
+        "pointer": [
+          40,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u03-ch-mcq-kaefeli.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u03-ch-be-mcq-bueez.mp3",
+      "kind": "listening",
+      "text": "Mami: Sandra, wie geit's bi dr Büez?",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "speaker": "Mami",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u03-ch-be-mcq-bueez",
+        "pointer": [
+          44,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u03-ch-be-mcq-bueez.mp3",
+      "referenced": false
+    }
+  ]
+}

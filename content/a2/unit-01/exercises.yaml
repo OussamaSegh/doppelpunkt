@@ -1,0 +1,705 @@
+# A2 unit 1 – Wie war das Wochenende?
+
+# ---------- vocabulary ----------
+- id: a2-u01-match-chores
+  type: match
+  skill: vocabulary
+  variety: de
+  prompt: Match the household chores with English.
+  pairs:
+    - ["aufräumen", "to tidy up"]
+    - ["putzen", "to clean"]
+    - ["die Wäsche waschen", "to do the laundry"]
+    - ["staubsaugen", "to vacuum"]
+    - ["bügeln", "to iron"]
+  explanation: >-
+    Perfekt: aufgeräumt (separable: ge- in the middle), geputzt, gewaschen (irregular), gestaubsaugt, gebügelt.
+    In Switzerland bügeln is usually glätten (Ich habe die Hemden geglättet).
+
+- id: a2-u01-match-time
+  type: match
+  skill: vocabulary
+  variety: de
+  grammar: [past-time-markers]
+  prompt: Match the time expressions with English.
+  pairs:
+    - ["gestern", "yesterday"]
+    - ["vorgestern", "the day before yesterday"]
+    - ["letzte Woche", "last week"]
+    - ["vor drei Tagen", "three days ago"]
+    - ["gestern Abend", "last night"]
+    - ["letztes Wochenende", "last weekend"]
+  explanation: >-
+    vor + a time = ago, and vor comes first: vor drei Tagen (Tag → Tagen after vor). letzte / letztes /
+    letzten follows the gender: die Woche, das Wochenende, der Samstag.
+
+- id: a2-u01-mcq-ausflug
+  type: mcq
+  skill: vocabulary
+  variety: de
+  grammar: [perfekt-haben]
+  prompt: Choose the right word.
+  question: Am Sonntag haben wir einen ___ an den Zürichsee gemacht.
+  options: ["Haushalt", "Flohmarkt", "Ausflug", "Spaziergänge"]
+  answer: 2
+  rationales:
+    - "Der Haushalt is the housework – you don't make it to a lake."
+    - "A flea market is a place, not something you make to a lake."
+    - "Correct. einen Ausflug machen = to go on a trip."
+    - "Plural – but einen needs a masculine singular noun."
+  explanation: >-
+    einen Ausflug machen (to go on an outing) and einen Spaziergang machen (to go for a walk) are fixed
+    chunks with machen – and machen takes haben: Wir haben einen Ausflug gemacht.
+
+# ---------- grammar: Perfekt with haben ----------
+- id: a2-u01-mcq-haben-form
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [perfekt-haben]
+  prompt: Choose the correct form of haben.
+  question: Was ___ du am Wochenende gemacht?
+  options: ["hat", "habe", "hast", "haben"]
+  answer: 2
+  rationales:
+    - "hat goes with er / sie / es."
+    - "habe goes with ich."
+    - "Correct. du hast."
+    - "haben goes with wir, sie and Sie."
+  explanation: >-
+    In the Perfekt, haben is the conjugated verb, so it changes with the person: ich habe, du hast, er hat,
+    wir haben, ihr habt, sie haben. The participle gemacht never changes.
+
+- id: a2-u01-gap-regular
+  type: gap
+  skill: grammar
+  variety: de
+  grammar: [perfekt-haben, participles-regular]
+  prompt: "Write the participles: spielen – kochen – hören."
+  text: Gestern habe ich Fußball ___. Am Abend haben wir zusammen ___ und Musik ___.
+  answers: [["gespielt"], ["gekocht"], ["gehört"]]
+  explanation: >-
+    Regular verbs: ge- + stem + -t. spiel-en → ge-spiel-t, koch-en → ge-koch-t, hör-en → ge-hör-t. The
+    participle goes to the end of its clause.
+
+- id: a2-u01-gap-et
+  type: gap
+  skill: grammar
+  variety: de
+  grammar: [participles-regular]
+  prompt: "Write the participles: arbeiten – warten – regnen."
+  text: Tom hat am Samstag lange ___. Ich habe eine halbe Stunde auf den Bus ___. Am Sonntag hat es ___.
+  answers: [["gearbeitet"], ["gewartet"], ["geregnet"]]
+  explanation: >-
+    When the stem ends in -t, -d or a cluster like -gn, add -et so you can say it: gearbeitet, gewartet,
+    geredet, geregnet. *gearbeitt* is not possible.
+
+- id: a2-u01-mcq-ieren
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [participles-regular]
+  prompt: Choose the correct participle.
+  question: Ich habe gestern mit meiner Mutter ___.
+  options: ["telefoniert", "getelefoniert", "telefonierte", "telefonieren"]
+  answer: 0
+  rationales:
+    - "Correct. -ieren verbs take no ge-: telefoniert."
+    - "A typical mistake: -ieren verbs never take ge-."
+    - "That's the Präteritum, not a participle."
+    - "That's the infinitive."
+  explanation: >-
+    Verbs ending in -ieren form the participle without ge-: telefonieren → telefoniert, fotografieren →
+    fotografiert, grillieren → grilliert. The stress is on -IE-, not on the first syllable.
+
+- id: a2-u01-mcq-besucht
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [participles-regular]
+  prompt: Choose the correct participle.
+  question: Am Sonntag hat Nadine ihre Eltern ___.
+  options: ["gebesucht", "besuchen", "besucht", "gesucht"]
+  answer: 2
+  rationales:
+    - "be- is an inseparable prefix: no ge-."
+    - "That's the infinitive."
+    - "Correct. besuchen → besucht."
+    - "gesucht comes from suchen (to look for) – a different verb."
+  explanation: >-
+    Inseparable prefixes (be-, ver-, er-, ent-, ge-, zer-) block ge-: besucht, bezahlt, bestellt, erzählt,
+    verkauft. The first syllable is not stressed: be-SUCHT.
+
+- id: a2-u01-order-perfekt
+  type: order
+  skill: grammar
+  variety: de
+  grammar: [perfekt-haben]
+  prompt: Put the words in order.
+  tokens: ["Ich", "habe", "am", "Samstag", "die", "Wohnung", "geputzt"]
+  answers: ["Ich habe am Samstag die Wohnung geputzt.", "Am Samstag habe ich die Wohnung geputzt."]
+  explanation: >-
+    habe in position 2, the participle geputzt at the very end. Time (am Samstag) usually comes before the
+    object (die Wohnung) – time before place and thing.
+
+- id: a2-u01-order-time-first
+  type: order
+  skill: grammar
+  variety: de
+  grammar: [perfekt-haben, past-time-markers]
+  prompt: Start with "Gestern".
+  tokens: ["Gestern", "habe", "ich", "mit", "Anna", "gekocht"]
+  answers: ["Gestern habe ich mit Anna gekocht."]
+  explanation: >-
+    Gestern takes position 1, so habe stays in position 2 and the subject ich moves behind it. The
+    participle closes the sentence.
+
+- id: a2-u01-order-question
+  type: order
+  skill: grammar
+  variety: de
+  grammar: [perfekt-haben]
+  prompt: Make a question.
+  tokens: ["Was", "habt", "ihr", "am", "Wochenende", "gemacht"]
+  answers: ["Was habt ihr am Wochenende gemacht?"]
+  explanation: >-
+    W-question: question word first, habt in position 2, participle at the end. ihr habt (you, plural).
+
+- id: a2-u01-transform-kaufen
+  type: transform
+  skill: grammar
+  variety: de
+  grammar: [perfekt-haben, participles-regular]
+  prompt: "Put the sentence into the Perfekt."
+  from: de
+  to: de
+  source: Ich kaufe auf dem Markt Gemüse.
+  answers: ["Ich habe auf dem Markt Gemüse gekauft.", "Auf dem Markt habe ich Gemüse gekauft."]
+  explanation: >-
+    kaufe → habe … gekauft. The conjugated verb becomes haben (position 2) and kaufen becomes the participle
+    gekauft at the end.
+
+- id: a2-u01-mcq-word-order
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [perfekt-haben]
+  prompt: Which sentence is correct?
+  options: ["Ich habe gekocht am Abend.", "Ich habe am Abend gekocht.", "Ich gekocht habe am Abend.", "Am Abend ich habe gekocht."]
+  answer: 1
+  rationales:
+    - "The participle must be at the very end."
+    - "Correct. haben second, participle last."
+    - "The conjugated verb habe must be in position 2."
+    - "Only one element before habe: Am Abend habe ich gekocht."
+  explanation: >-
+    The Perfekt is a bracket: habe … gekocht. Everything else (am Abend, objects, nicht) goes inside it.
+
+# ---------- grammar: separable verbs ----------
+- id: a2-u01-gap-separable
+  type: gap
+  skill: grammar
+  variety: de
+  grammar: [participles-separable]
+  prompt: "Write the participles: aufräumen – einkaufen – abholen."
+  text: Zuerst habe ich die Küche ___. Dann habe ich im Supermarkt ___. Am Abend hat Tom Anna am Bahnhof ___.
+  answers: [["aufgeräumt"], ["eingekauft"], ["abgeholt"]]
+  explanation: >-
+    Separable verbs put -ge- between the prefix and the verb and write it as one word: auf-ge-räumt,
+    ein-ge-kauft, ab-ge-holt. The stress stays on the prefix: AUF-geräumt.
+
+- id: a2-u01-transform-aufraeumen
+  type: transform
+  skill: grammar
+  variety: de
+  grammar: [participles-separable, perfekt-haben]
+  prompt: "Put the sentence into the Perfekt."
+  from: de
+  to: de
+  source: Anna räumt das Wohnzimmer auf.
+  answers: ["Anna hat das Wohnzimmer aufgeräumt."]
+  explanation: >-
+    räumt … auf → hat … aufgeräumt. In the present the prefix stands alone at the end; in the Perfekt it
+    joins the participle: auf-ge-räumt.
+
+# ---------- grammar: time words ----------
+- id: a2-u01-gap-time
+  type: gap
+  skill: grammar
+  variety: de
+  grammar: [past-time-markers]
+  prompt: "Fill in: letztes – vor – Woche."
+  text: ___ Wochenende habe ich meine Eltern besucht. ___ zwei Tagen habe ich mit Nadine telefoniert. Letzte ___ habe ich viel gearbeitet.
+  answers: [["Letztes", "letztes"], ["Vor", "vor"], ["Woche"]]
+  explanation: >-
+    das Wochenende → letztes Wochenende; die Woche → letzte Woche. vor + time = ago, and it comes first:
+    vor zwei Tagen. After each time word in position 1, habe comes next.
+
+- id: a2-u01-mcq-ago
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [past-time-markers]
+  prompt: "How do you say \"three days ago\"?"
+  options: ["vor drei Tagen", "drei Tage vor", "seit drei Tagen", "in drei Tagen"]
+  answer: 0
+  rationales:
+    - "Correct. vor drei Tagen."
+    - "Word-for-word English: vor comes first in German."
+    - "seit = since / for (still going on) – unit 3."
+    - "in drei Tagen = in three days (future)."
+  explanation: >-
+    ago = vor + time, before the noun: vor drei Tagen, vor einer Woche, vor zwei Jahren. Watch the ending:
+    Tag → Tagen, Jahr → Jahren (dative plural, unit 3).
+
+- id: a2-u01-transform-sequence
+  type: transform
+  skill: writing
+  variety: de
+  grammar: [past-time-markers, perfekt-haben]
+  prompt: "Join the two sentences with \"Zuerst …, dann …\"."
+  from: de
+  to: de
+  source: Ich habe gefrühstückt. Ich habe die Zeitung gelesen.
+  answers: ["Zuerst habe ich gefrühstückt, dann habe ich die Zeitung gelesen.", "Zuerst habe ich gefrühstückt und dann habe ich die Zeitung gelesen.", "Zuerst habe ich gefrühstückt, dann die Zeitung gelesen."]
+  explanation: >-
+    Zuerst and dann each take position 1, so habe ich follows: Zuerst habe ich …, dann habe ich … You can
+    leave out the second habe ich: dann die Zeitung gelesen.
+
+- id: a2-u01-translate-cleaned
+  type: translate
+  skill: writing
+  variety: de
+  grammar: [perfekt-haben, past-time-markers]
+  prompt: Translate into German.
+  source: Yesterday I cleaned the flat.
+  answers: ["Gestern habe ich die Wohnung geputzt.", "Ich habe gestern die Wohnung geputzt.", "Gestern habe ich die Wohnung sauber gemacht.", "Ich habe gestern die Wohnung sauber gemacht."]
+  explanation: >-
+    English simple past = German Perfekt: habe … geputzt. With gestern first, the verb comes next: Gestern
+    habe ich …
+
+- id: a2-u01-translate-what-did-you-do
+  type: translate
+  skill: writing
+  variety: de
+  grammar: [perfekt-haben]
+  prompt: Translate into German (informal).
+  source: What did you do at the weekend?
+  answers: ["Was hast du am Wochenende gemacht?", "Was hast du am Wochenende so gemacht?", "Was hast du übers Wochenende gemacht?"]
+  explanation: >-
+    did you do = hast du … gemacht. German has no do-support: the question is formed with haben + participle.
+    am Wochenende = at the weekend.
+
+# ---------- reading ----------
+- id: a2-u01-mcq-reading-saturday
+  type: mcq
+  skill: reading
+  variety: de
+  grammar: [perfekt-haben, participles-separable]
+  prompt: Read "Mein Wochenende in Zürich". What did Anna and Tom do on Saturday morning after breakfast?
+  options: ["They visited friends.", "They tidied the flat and went to the market.", "They watched football.", "They ordered pizza."]
+  answer: 1
+  rationales:
+    - "That was on Saturday evening."
+    - "Correct. aufgeräumt und auf dem Markt eingekauft."
+    - "Tom watched football on Sunday."
+    - "They ordered pizza on Sunday evening."
+  explanation: >-
+    "Dann haben Tom und ich die Wohnung aufgeräumt und auf dem Markt eingekauft." Two separable participles:
+    aufgeräumt, eingekauft.
+
+- id: a2-u01-mcq-reading-sunday
+  type: mcq
+  skill: reading
+  variety: de
+  prompt: Why did Anna and Tom stay at home on Sunday?
+  options: ["They were tired.", "Tom was ill.", "It rained all day.", "They had to clean."]
+  answer: 2
+  explanation: >-
+    "Am Sonntag hat es den ganzen Tag geregnet." regnen takes haben: es hat geregnet (stem in -n after g →
+    -et). den ganzen Tag = all day.
+
+- id: a2-u01-translate-reading
+  type: translate
+  skill: reading
+  variety: de
+  grammar: [perfekt-haben, participles-regular]
+  prompt: Translate into English.
+  source: Wir haben zusammen gekocht, gelacht und bis Mitternacht Karten gespielt.
+  answers: ["We cooked together, laughed and played cards until midnight.", "We cooked, laughed and played cards together until midnight.", "We have cooked together, laughed and played cards until midnight."]
+  explanation: >-
+    One haben carries three participles: gekocht, gelacht, gespielt. English uses the simple past here
+    (we cooked), German the Perfekt.
+
+# ---------- listening ----------
+- id: a2-u01-mcq-listening-nadine
+  type: mcq
+  skill: listening
+  variety: ch-std
+  grammar: [perfekt-haben]
+  prompt: Listen to the intro dialogue again. What did Nadine do on Saturday?
+  options: ["She visited her parents.", "She played cards.", "She did nothing.", "She worked."]
+  answer: 3
+  rationales:
+    - "She visited her parents on Sunday."
+    - "Tom played cards."
+    - "That was yesterday evening (Sunday)."
+    - "Correct. Ich habe am Samstag gearbeitet – leider."
+  explanation: >-
+    "Ich habe am Samstag gearbeitet – leider." arbeiten → gearbeitet (stem in -t, so -et). Sunday: "Aber am
+    Sonntag habe ich meine Eltern in Winterthur besucht."
+
+- id: a2-u01-mcq-listening-tom
+  type: mcq
+  skill: listening
+  variety: de
+  grammar: [participles-separable, past-time-markers]
+  prompt: Listen to Tom. What did he do first on Saturday?
+  transcript: |-
+    Tom: Am Samstag habe ich zuerst die Wohnung aufgeräumt und dann eingekauft.
+  options: ["He went shopping.", "He tidied the flat.", "He cooked with friends.", "He played Uno."]
+  answer: 1
+  explanation: >-
+    zuerst = first: zuerst … aufgeräumt, dann eingekauft. Two separable participles, both with -ge- in the
+    middle.
+
+- id: a2-u01-mcq-listening-grilliert
+  type: mcq
+  skill: listening
+  variety: ch-std
+  grammar: [participles-regular]
+  prompt: Listen to the intro dialogue again. What did Nadine's father do on Sunday?
+  options: ["He went for a walk alone.", "He cooked fondue.", "He had a barbecue.", "He phoned Nadine's sister."]
+  answer: 2
+  explanation: >-
+    "… und mein Vater hat grilliert." grillieren is the Swiss Standard word for grillen; like all -ieren verbs
+    it has no ge-: grilliert (Germany: gegrillt).
+
+- id: a2-u01-dictation-eltern
+  type: dictation
+  skill: listening
+  variety: de
+  grammar: [perfekt-haben, participles-regular]
+  prompt: Listen and write what you hear.
+  transcript: Am Sonntag habe ich meine Eltern besucht.
+  explanation: >-
+    besucht has no ge- (inseparable be-). The participle is the last word.
+
+- id: a2-u01-dictation-gestern
+  type: dictation
+  skill: listening
+  variety: de
+  grammar: [perfekt-haben, past-time-markers]
+  prompt: Listen and write what you hear.
+  transcript: Was habt ihr gestern Abend gemacht?
+  explanation: >-
+    ihr habt … gemacht. gestern Abend = last night. Listen for the -t at the end of habt and gemacht.
+
+# ---------- speaking ----------
+- id: a2-u01-speak-frame
+  type: speak
+  skill: speaking
+  variety: de
+  grammar: [perfekt-haben, participles-separable, past-time-markers]
+  prompt: "Read aloud, then say three things you did last weekend."
+  target: Am Samstag habe ich eingekauft. Am Abend habe ich mit Freunden gekocht. Am Sonntag habe ich lange geschlafen.
+  explanation: >-
+    Three times the same bracket: time + habe + ich … participle. Stress the participle: EIN-gekauft,
+    ge-KOCHT, ge-SCHLA-fen.
+
+- id: a2-u01-speak-shadow-tom
+  type: speak
+  skill: speaking
+  variety: de
+  grammar: [perfekt-haben, participles-regular]
+  prompt: "Shadowing: speak along with Tom's line from the intro dialogue, then say it alone."
+  target: Am Abend haben Anna und ich mit Freunden gekocht. Danach haben wir bis Mitternacht Karten gespielt.
+  explanation: >-
+    Keep the participles short and crisp: ge-KOCHT, ge-SPIELT. The ch in gekocht is the back ach-sound,
+    the -ch- in Mitternacht too. See the drill The ach-Laut (back ch).
+
+- id: a2-u01-speak-shadow-nadine
+  type: speak
+  skill: speaking
+  variety: ch-std
+  grammar: [perfekt-haben, participles-regular]
+  prompt: "Shadowing: speak along with Nadine, then say it alone."
+  target: Ich habe am Samstag gearbeitet – leider. Aber am Sonntag habe ich meine Eltern in Winterthur besucht.
+  explanation: >-
+    Swiss Standard German: ge-arbeitet flows without a glottal stop before -arbeitet, the r in gearbeitet
+    and Eltern is tapped, and the t in Samstag is not aspirated. See the drill The Swiss Standard German
+    accent.
+
+- id: a2-u01-speak-intonation
+  type: speak
+  skill: speaking
+  variety: de
+  grammar: [past-time-markers]
+  prompt: "Intonation: a W-question falls, an enthusiastic answer starts high."
+  target: Wie war dein Wochenende? – Es war super!
+  explanation: >-
+    Wie WAR dein WO-chenende? falls at the end, because it is a W-question. Es war SU-per! starts high on
+    SU and falls. A rising tone on the question would sound surprised.
+
+- id: a2-u01-speak-pron-participles
+  type: speak
+  skill: speaking
+  variety: de
+  grammar: [participles-regular]
+  prompt: "Pronunciation: unstressed ge-, the ach-sound and final devoicing. Read aloud slowly."
+  target: Am Tag haben wir gekocht und gelacht, und am Abend haben wir Karten gespielt.
+  explanation: >-
+    ge- is short and unstressed (gə). gekocht and gelacht have the back ach-sound. Tag ends in a k-sound and
+    Abend in a t-sound (final devoicing). See the drills The ach-Laut (back ch) and Final devoicing
+    (Auslautverhärtung).
+
+# ---------- roleplay and writing ----------
+- id: a2-u01-roleplay-lena
+  type: roleplay
+  skill: speaking
+  variety: de
+  grammar: [perfekt-haben, participles-regular, participles-separable, past-time-markers]
+  tutor: lena
+  prompt: "Roleplay with Lena: Monday morning – how was your weekend?"
+  scenario: >-
+    It's Monday. Lena asks about your weekend. Tell her at least three things you did, in order, and ask
+    her about her weekend. Use du and the Perfekt.
+  goals:
+    - Say at least three things you did, with the Perfekt (Ich habe … gemacht / eingekauft / telefoniert).
+    - Put them in order with zuerst, dann, danach.
+    - Say how it was (Es war super / langweilig / anstrengend).
+    - Ask Lena what she did (Und du? Was hast du gemacht?).
+  model: |
+    Lena: Hallo! Wie war dein Wochenende?
+    Du: Gut, danke! Am Samstag habe ich zuerst eingekauft. Danach habe ich die Wohnung geputzt.
+    Lena: Oh, fleißig! Und am Sonntag?
+    Du: Am Sonntag habe ich lange geschlafen und mit meiner Schwester telefoniert. Es war gemütlich. Und du? Was hast du gemacht?
+    Lena: Ich habe einen Ausflug an den See gemacht.
+    Du: Schön! Hast du auch gegrillt?
+    Lena: Ja, mit Freunden. Es war super!
+  explanation: >-
+    The Perfekt is the conversation tense: habe … eingekauft, habe … geputzt, habe … telefoniert. Time words
+    in position 1 push ich behind habe: Am Samstag habe ich …
+
+- id: a2-u01-write-message
+  type: write
+  skill: writing
+  variety: de
+  grammar: [perfekt-haben, participles-regular, participles-separable, past-time-markers]
+  prompt: Write a message about your weekend.
+  task: >-
+    Write a message to a friend (6–8 sentences) about last weekend. Say what you did on Saturday and on
+    Sunday, put the events in order (zuerst, dann, danach), say how it was, and ask your friend about their
+    weekend.
+  minWords: 50
+  model: >-
+    Hallo Lena, wie geht's? Letztes Wochenende war super! Am Samstag habe ich zuerst ausgeschlafen und dann
+    auf dem Flohmarkt eine alte Lampe gekauft. Danach habe ich meine Wohnung aufgeräumt. Am Abend haben Tom
+    und ich im Garten gegrillt und viel gelacht. Am Sonntag hat es geregnet. Ich habe mit meinen Eltern
+    telefoniert und eine Serie geschaut. Das war gemütlich, aber ein bisschen langweilig. Und du? Was hast
+    du am Wochenende gemacht? Liebe Grüße, Sarah
+  checklist:
+    - I use haben + participle, and the participle is at the end of each sentence.
+    - Regular participles end in -t (gekauft, gespielt), stems in -t/-d in -et (gearbeitet, geredet).
+    - Separable verbs have -ge- in the middle (eingekauft, aufgeräumt); -ieren verbs and be-/er-/ver- verbs have no ge-.
+    - After zuerst, dann, danach, am Samstag the verb habe comes next (Dann habe ich …).
+    - I start with a greeting and end with a question and Liebe Grüße.
+  explanation: >-
+    A weekend message is pure Perfekt: one haben in position 2, the participle at the end. Vary the start
+    of your sentences with time words – they make the story easy to follow.
+
+# ---------- Swiss Standard German ----------
+- id: a2-u01-chstd-match
+  type: match
+  skill: vocabulary
+  variety: ch-std
+  prompt: Match the Swiss Standard German words with the words used in Germany.
+  pairs:
+    - ["grillieren", "grillen"]
+    - ["glätten", "bügeln"]
+    - ["die Velotour", "die Fahrradtour"]
+    - ["fleissig", "fleißig"]
+  explanation: >-
+    grillieren is Swiss Standard German (Duden: schweizerisch); glätten for bügeln is Swiss and close to
+    dialect (Duden: schweizerisch mundartnah). The Perfekt follows the normal rules: hat grilliert (-ieren, no
+    ge-), hat geglättet. Swiss spelling never uses ß: fleissig.
+
+# ---------- Swiss lane (gsw-zh) ----------
+- id: a2-u01-ch-mcq-gsii
+  type: mcq
+  skill: listening
+  variety: gsw-zh
+  grammar: [past-time-markers]
+  prompt: Listen to Reto. What does he want to know?
+  transcript: |-
+    Reto: Hoi Sandra! Wie isch s Wuchenänd gsii?
+  options: ["Where Sandra is going this weekend", "How Sandra's weekend was", "Whether Sandra is free at the weekend", "What Sandra is doing today"]
+  answer: 1
+  rationales:
+    - "That would need a present or future verb, not gsii."
+    - "Correct. Wie isch … gsii? = Wie war …?"
+    - "Ziit (time) or frei is not mentioned."
+    - "hüt (today) is not in the question."
+  explanation: >-
+    Swiss German has no Präteritum: Wie war das Wochenende? is Wie isch s Wuchenänd gsii? – literally How
+    has the weekend been? gsii = gewesen.
+
+- id: a2-u01-ch-mcq-no-praeteritum
+  type: mcq
+  skill: grammar
+  variety: gsw-zh
+  grammar: [perfekt-haben]
+  prompt: "How does a Zurich speaker say \"Ich war in Bern\"?"
+  options: ["Ich war z Bärn.", "Ich ha z Bärn gsii.", "Ich bi z Bärn gha.", "Ich bi z Bärn gsii."]
+  answer: 3
+  rationales:
+    - "There is no war in Swiss German."
+    - "sii (sein) takes bi (sein), not ha."
+    - "gha = gehabt (had)."
+    - "Correct. ich bi gsii = ich bin gewesen / ich war."
+  explanation: >-
+    Every past in Swiss German is a Perfekt, also for sein: ich bi gsii (ich war), du bisch gsii, mir sind
+    gsii. Like Standard German, sein takes sein: ich bin gewesen.
+
+- id: a2-u01-ch-transform-gschaffet
+  type: transform
+  skill: reading
+  variety: gsw-zh
+  grammar: [perfekt-haben, participles-regular]
+  prompt: What does Reto say? Write it in Standard German.
+  from: gsw-zh
+  to: de
+  source: Ich ha leider de ganz Samschtig gschaffet.
+  answers: ["Ich habe leider den ganzen Samstag gearbeitet.", "Leider habe ich den ganzen Samstag gearbeitet.", "Ich habe den ganzen Samstag leider gearbeitet."]
+  explanation: >-
+    ha = habe, de ganz Samschtig = den ganzen Samstag, gschaffet = gearbeitet (schaffe = arbeiten). The
+    bracket is the same as in Standard German: ha … gschaffet.
+
+- id: a2-u01-ch-match-participles
+  type: match
+  skill: vocabulary
+  variety: gsw-zh
+  grammar: [participles-regular]
+  prompt: Match the Zurich German participles with Standard German.
+  pairs:
+    - ["gmacht", "gemacht"]
+    - ["gseit", "gesagt"]
+    - ["gsii", "gewesen"]
+    - ["gha", "gehabt"]
+    - ["putzt", "geputzt"]
+    - ["uusgschlafe", "ausgeschlafen"]
+  explanation: >-
+    ge- shrinks to g- (gmacht, gseit, gsii, gha); before p, t, k it disappears in the spelling (putzt,
+    kauft). Irregular participles end in -e: uusgschlafe, gfahre, cho.
+
+- id: a2-u01-ch-mcq-go-poschte
+  type: mcq
+  skill: listening
+  variety: gsw-zh
+  prompt: Listen to Reto. What is he going to do today?
+  transcript: |-
+    Reto: Hüt gang ich no go poschte. Chunnsch mit?
+  options: ["Do the shopping", "Go to the post office", "Go swimming", "Go to work"]
+  answer: 0
+  rationales:
+    - "Correct. go poschte = einkaufen gehen."
+    - "A trap: poschte has nothing to do with die Post. It means einkaufen."
+    - "Swimming was on Sunday (go schwümme)."
+    - "schaffe would be work."
+  explanation: >-
+    gang … go poschte = gehe einkaufen. With gaa (gehen) Swiss German adds a small go before the infinitive:
+    Ich gang go poschte, Ich gang go schwümme. Chunnsch mit? = Kommst du mit?
+
+- id: a2-u01-ch-gap-participles
+  type: gap
+  skill: grammar
+  variety: gsw-zh
+  grammar: [participles-regular, perfekt-haben]
+  prompt: "Guided production: write the Zurich participles of mache (machen) and schaffe (arbeiten)."
+  text: Was häsch am Wuchenänd ___? – Ich ha de ganz Samschtig ___.
+  answers: [["gmacht"], ["gschaffet", "gschafft"]]
+  explanation: >-
+    mache → gmacht (ge- shrinks to g-), schaffe → gschaffet (like gearbeitet, with -et). Your first Swiss
+    German participles – the rest of the sentence is given.
+
+- id: a2-u01-ch-transform-de-gsw
+  type: transform
+  skill: vocabulary
+  variety: gsw-zh
+  grammar: [past-time-markers]
+  prompt: "Recognition: how do you say this in Zurich German? (Common spellings are accepted.)"
+  from: de
+  to: gsw-zh
+  source: Wie war das Wochenende?
+  answers: ["Wie isch s Wuchenänd gsii?", "Wie isch s Wuchenänd gsi?", "Wie isch es Wuchenänd gsii?", "Wie isch s Wochenend gsii?", "Wie isch s Weekend gsii?", "Wie isch s Wuchenend gsii?"]
+  explanation: >-
+    No war in dialect: Wie isch … gsii? (literally Wie ist … gewesen?). s Wuchenänd, or the English loan s
+    Weekend, which you hear just as often.
+
+- id: a2-u01-roleplay-reto
+  type: roleplay
+  skill: listening
+  variety: gsw-zh
+  grammar: [perfekt-haben, participles-regular, past-time-markers]
+  tutor: reto
+  prompt: "Listening roleplay with Reto: Monday at the letterboxes."
+  scenario: >-
+    Reto asks about your weekend in Zurich German and tells you about his. You answer in Standard German.
+    Understand his questions and what he did, and tell him two things you did.
+  goals:
+    - Understand Wie isch s Wuchenänd gsii? and Was häsch gmacht?
+    - Understand what Reto did (gschaffet, putzt, go schwümme).
+    - Tell Reto two things you did, in the Perfekt.
+  model: |
+    Reto: Hoi! Wie isch s Wuchenänd gsii?
+    Du: Hallo Reto! Gut, danke. Ich habe einen Ausflug auf den Uetliberg gemacht.
+    Reto: Lässig! Und am Sunntig, was häsch dänn gmacht?
+    Du: Am Sonntag habe ich die Wohnung geputzt und gekocht. Und du?
+    Reto: Ich ha de ganz Samschtig gschaffet, und am Sunntig bin ich go schwümme.
+    Du: Oh, du hast am Samstag gearbeitet? Schade!
+    Reto: Ja, aber s Hallebad isch super gsii.
+  explanation: >-
+    Decoding: Wie isch … gsii? = Wie war …?, Was häsch gmacht? = Was hast du gemacht?, gschaffet = gearbeitet,
+    bin go schwümme = bin schwimmen gegangen. Answering in Standard German is normal in Zurich.
+
+# ---------- Bernese (gsw-be, recognition) ----------
+- id: a2-u01-ch-be-mcq-gsy
+  type: mcq
+  skill: listening
+  variety: gsw-be
+  prompt: Listen to Sandra on the phone to her mother. What does she say about the weekend?
+  transcript: |-
+    Sandra: Ja, merci! Ds Wuchenänd isch mega schön gsy.
+  options: ["It is going to be really nice.", "It was really nice.", "It was too short.", "She hasn't had a weekend."]
+  answer: 1
+  explanation: >-
+    isch … gsy = ist gewesen / war: Bernese gsy is Zurich gsii (berndeutsch.ch: gsy, Partizip von sy). ds
+    Wuchenänd = das Wochenende. Bernese, too, has no Präteritum.
+
+- id: a2-u01-ch-be-transform
+  type: transform
+  skill: reading
+  variety: gsw-be
+  grammar: [perfekt-haben]
+  prompt: What does Sandra's mother ask? Write it in Standard German.
+  from: gsw-be
+  to: de
+  source: Bisch guet hei cho?
+  answers: ["Bist du gut nach Hause gekommen?", "Bist du gut heimgekommen?", "Bist du gut zu Hause angekommen?"]
+  explanation: >-
+    bisch = bist du, hei = heim / nach Hause, cho = gekommen (the same participle as in Zurich). Movement
+    verbs take sein – in dialect too (unit 2).
+
+- id: a2-u01-ch-be-match
+  type: match
+  skill: vocabulary
+  variety: gsw-be
+  prompt: Match the Bernese words with Standard German.
+  pairs:
+    - ["gsy", "gewesen"]
+    - ["ds Wuchenänd", "das Wochenende"]
+    - ["Das fröit mi.", "Das freut mich."]
+    - ["mir sy", "wir sind"]
+  explanation: >-
+    All in berndeutsch.ch (gsy, sy, Wuchenänd, fröie). Bernese uses y where Zurich has ii (gsy – gsii, mir
+    sy – mir sind) and öi for eu (fröie).

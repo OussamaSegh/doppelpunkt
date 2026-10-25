@@ -105,20 +105,26 @@ sections:
 
   - id: lose-2
     skill: listening
-    title: "Lose, Teil 2: Zwei Sprachnachrichte"
+    title: "Lose, Teil 2: Vier Sprachnachrichte"
     minutes: 5
     instructions: >-
-      **Teil 2.** You hear two voice messages (Sprachnachrichten). Are the statements right or wrong? Read
-      each transcript once, then answer.
+      **Teil 2.** You hear four short voice messages (Sprachnachrichten): two from Reto to Sandra, two from
+      Nadine to her friends. Is each statement right or wrong? Read each transcript once, then answer.
     stimulus:
-      title: Zwei Sprachnachrichte
+      title: Vier Sprachnachrichte
       variety: gsw-zh
       text: |
         Sprecher: Nachricht 1.
-        Reto: Hoi Sandra, ich bi no im Büro. Ich chume hüt erscht am halbi achti hei. Chasch du no poschte? Mir bruuched Milch und Brot. Merci!
+        Reto: Hoi Sandra, ich bi no im Büro. Ich chume hüt erscht am halbi achti hei. Bis spöter!
 
         Sprecher: Nachricht 2.
-        Nadine: Hoi zäme! Mis Geburi-Fäscht isch am Friitig, nöd am Samschtig. Am achti bi mir. Bringed ihr bitte öppis z trinke mit? Ich freu mich!
+        Reto: Sandra, no öppis: Chasch du no poschte? Mir bruuched Milch und Brot. Merci!
+
+        Sprecher: Nachricht 3.
+        Nadine: Hoi zäme! Mis Geburi-Fäscht isch am Friitig, nöd am Samschtig. Am achti bi mir.
+
+        Sprecher: Nachricht 4.
+        Nadine: No öppis: Bringed ihr bitte öppis z trinke mit? Ich freu mich!
     points: [1, 1, 1, 1]
     exercises:
       - id: a1-schwiiz1-l2-reto-zeit
@@ -128,36 +134,38 @@ sections:
         grammar: [telling-time]
         prompt: "Nachricht 1 – listen: richtig oder falsch?"
         transcript: |-
-          Reto: Hoi Sandra, ich bi no im Büro. Ich chume hüt erscht am halbi achti hei. Chasch du no poschte? Mir bruuched Milch und Brot. Merci!
+          Reto: Hoi Sandra, ich bi no im Büro. Ich chume hüt erscht am halbi achti hei. Bis spöter!
         question: Reto kommt heute um 19.30 Uhr nach Hause.
         options: ["Richtig", "Falsch"]
         answer: 0
         rationales: ["Correct: am halbi achti = 19.30.", "halbi achti is half past seven, 19.30."]
         explanation: >-
-          am halbi achti = um halb acht = 19.30 (unit 4). erscht = erst (only, not before), hei = nach Hause.
+          am halbi achti = um halb acht = 19.30 (unit 4). erscht = erst (only, not before), hei = nach Hause,
+          Bis spöter! = Bis später!
 
       - id: a1-schwiiz1-l2-reto-poschte
         type: mcq
         skill: listening
         variety: gsw-zh
-        prompt: "Nachricht 1 – listen: richtig oder falsch?"
+        prompt: "Nachricht 2 – listen: richtig oder falsch?"
         transcript: |-
-          Reto: Hoi Sandra, ich bi no im Büro. Ich chume hüt erscht am halbi achti hei. Chasch du no poschte? Mir bruuched Milch und Brot. Merci!
+          Reto: Sandra, no öppis: Chasch du no poschte? Mir bruuched Milch und Brot. Merci!
         question: Sandra soll Milch und Käse kaufen.
         options: ["Richtig", "Falsch"]
         answer: 1
         rationales: ["Milch und Brot – no cheese.", "Correct: milk and bread, not cheese."]
         explanation: >-
-          Mir bruuched Milch und Brot – milk and bread, no cheese (Chäs). poschte = einkaufen (unit 5).
+          Mir bruuched Milch und Brot – milk and bread, no cheese (Chäs). poschte = einkaufen (unit 5), no öppis =
+          noch etwas (one more thing).
 
       - id: a1-schwiiz1-l2-nadine-tag
         type: mcq
         skill: listening
         variety: gsw-zh
         grammar: [nicht-kein]
-        prompt: "Nachricht 2 – listen: richtig oder falsch?"
+        prompt: "Nachricht 3 – listen: richtig oder falsch?"
         transcript: |-
-          Nadine: Hoi zäme! Mis Geburi-Fäscht isch am Friitig, nöd am Samschtig. Am achti bi mir. Bringed ihr bitte öppis z trinke mit? Ich freu mich!
+          Nadine: Hoi zäme! Mis Geburi-Fäscht isch am Friitig, nöd am Samschtig. Am achti bi mir.
         question: Nadines Fest ist am Samstag.
         options: ["Richtig", "Falsch"]
         answer: 1
@@ -170,9 +178,9 @@ sections:
         skill: listening
         variety: gsw-zh
         grammar: [separable-verbs-modal]
-        prompt: "Nachricht 2 – listen: richtig oder falsch?"
+        prompt: "Nachricht 4 – listen: richtig oder falsch?"
         transcript: |-
-          Nadine: Hoi zäme! Mis Geburi-Fäscht isch am Friitig, nöd am Samschtig. Am achti bi mir. Bringed ihr bitte öppis z trinke mit? Ich freu mich!
+          Nadine: No öppis: Bringed ihr bitte öppis z trinke mit? Ich freu mich!
         question: Die Gäste sollen etwas zu trinken mitbringen.
         options: ["Richtig", "Falsch"]
         answer: 0

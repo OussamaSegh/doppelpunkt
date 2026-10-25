@@ -1,3 +1,4 @@
+import { lazy, Suspense } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { useLiveQuery } from 'dexie-react-hooks';
 import { LEVELS, type CompiledUnit, type Level } from '@doppelpunkt/content-schema';
@@ -8,6 +9,11 @@ import { EmptyState } from '../components/EmptyState';
 import { findPack, useContent } from '../content';
 import { db, todayKey, type AttemptRow, type UnitStatusRow } from '../db';
 import { useAttempts, useSettings } from '../lib/hooks';
+import { betaActive } from '../lib/beta/config';
+import { UNITS_PER_LEVEL } from '../lib/cando';
+
+// Beta builds only; loaded on demand so it costs nothing in the initial bundle.
+const BetaIntroCard = lazy(() => import('../beta/BetaIntroCard').then((m) => ({ default: m.BetaIntroCard })));
 
 export function Learn() {
   return (
@@ -15,6 +21,11 @@ export function Learn() {
       <LevelOverview />
     </ContentGate>
   );
+}
+
+/** A level whose pack has fewer units than the syllabus (12): shown as a usable preview. */
+export function isPreview(pack: { units: unknown[] }): boolean {
+  return pack.units.length < UNITS_PER_LEVEL;
 }
 
 function isLevel(v: string | undefined): v is Level {
@@ -34,6 +45,11 @@ function LevelOverview() {
   return (
     <div className="space-y-5">
       <h1 className="sr-only">Learn {pack?.level ?? level}</h1>
+      {betaActive() && settings?.onboarded && !settings.beta?.introDone && (
+        <Suspense fallback={null}>
+          <BetaIntroCard beta={{ stats: false, crashes: false, ...settings.beta }} />
+        </Suspense>
+      )}
       <TodayCard />
       <nav aria-label="Levels" className="flex gap-2 overflow-x-auto pb-1">
         {LEVELS.map((l) =>
@@ -45,6 +61,7 @@ function LevelOverview() {
               className={`chip font-semibold ${pack?.level === l ? 'border-accent bg-accent text-white dark:text-ink' : 'bg-surface'}`}
             >
               {l}
+              {isPreview(packs.find((p) => p.level === l)!) && <span className="ml-1 text-[10px] font-medium uppercase tracking-wide">preview</span>}
             </Link>
           ) : (
             <span key={l} className="chip cursor-not-allowed text-muted opacity-60" title="Coming soon" aria-disabled="true">
@@ -58,6 +75,14 @@ function LevelOverview() {
         <EmptyState title={`${level} is not available yet`}>Lessons for this level are still being written.</EmptyState>
       ) : (
         <>
+        {isPreview(pack) && (
+          <p className="rounded-xl bg-accent-soft px-3 py-2 text-sm text-accent" role="note">
+            <span className="font-semibold">
+              Preview — {pack.units.length} of {UNITS_PER_LEVEL} units
+            </span>
+            . More {pack.level} units are on the way; these are ready to use.
+          </p>
+        )}
         <ol className="space-y-3" aria-label={`${pack.level} units`}>
           {pack.units.map((u) => (
             <li key={u.id}>
@@ -88,6 +113,15 @@ function LevelOverview() {
           </span>
           <span aria-hidden="true" className="text-accent">→</span>
         </Link>
+        {betaActive() && (
+          <Link to="/beta" className="card flex items-center justify-between gap-3 py-3 transition-colors hover:border-accent">
+            <span>
+              <span className="block font-semibold">Beta feedback</span>
+              <span className="block text-sm text-muted">What's new, how to report a problem, and your reports.</span>
+            </span>
+            <span aria-hidden="true" className="text-accent">→</span>
+          </Link>
+        )}
         <Link to="/pronunciation" className="card flex items-center justify-between gap-3 py-3 transition-colors hover:border-accent">
           <span>
             <span className="block font-semibold">Pronunciation drills</span>

@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.5.0 "Beta"
+
+- Beta features, active only in builds with `VITE_COLLECTOR_URL` and all opt-in: "Report a problem",
+  anonymous item statistics, crash reports; /beta and /privacy screens
+- `services/collector`: Cloudflare Worker + D1 that never stores IPs, names or keys; retention clean-up
+- `npm run beta:report` / `beta:fixture` for weekly item triage and retention
+- A2 units 1–3 as "A2 preview"; skill bands no longer capped for learners placed above A1
+- 479 unit tests, 136 e2e tests (regular + beta build)
+
 ## 0.4.0 "A1 komplett"
 
 - A1 units 10–12: all 12 A1 units written

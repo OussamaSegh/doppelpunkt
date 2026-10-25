@@ -29,11 +29,24 @@ export const test = base.extend<Fixtures>({
 
 export { expect };
 
+/** The build under test: dist, or dist-beta for the beta suite (set by playwright.beta.config.ts). */
+const DIST = process.env.E2E_DIST ?? 'dist';
+const readPackFile = (file: string): unknown => JSON.parse(readFileSync(fileURLToPath(new URL(`../${DIST}/packs/${file}`, import.meta.url)), 'utf8'));
+
 /** The A1 pack exactly as the app serves it (from the production build). */
 let cached: LevelPack | undefined;
 export function a1Pack(): LevelPack {
-  cached ??= JSON.parse(readFileSync(fileURLToPath(new URL('../dist/packs/a1.json', import.meta.url)), 'utf8')) as LevelPack;
+  cached ??= readPackFile('a1.json') as LevelPack;
   return cached;
+}
+
+/** Every level pack the build serves (packs/index.json), lowest level first. */
+let cachedAll: LevelPack[] | undefined;
+export function allPacks(): LevelPack[] {
+  cachedAll ??= (readPackFile('index.json') as { packs: Array<{ file: string }> }).packs
+    .map((p) => readPackFile(p.file) as LevelPack)
+    .sort((a, b) => a.level.localeCompare(b.level));
+  return cachedAll;
 }
 
 export function unit1(): CompiledUnit {
@@ -121,13 +134,14 @@ export function orderTokens(tokens: string[], solution: string): string[] {
 
 export const escapeRegExp = (t: string) => t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 
-/** Every exercise in the A1 pack by id. */
+/** Every exercise in the installed packs (A1, A2 …) by id. */
 export function exerciseById(id: string): Exercise {
-  for (const u of a1Pack().units) {
-    const ex = u.exercises.find((e) => e.id === id);
-    if (ex) return ex;
-  }
-  throw new Error(`exercise ${id} not in the A1 pack`);
+  for (const p of allPacks())
+    for (const u of p.units) {
+      const ex = u.exercises.find((e) => e.id === id);
+      if (ex) return ex;
+    }
+  throw new Error(`exercise ${id} not in any pack`);
 }
 
 /** Id of the exercise currently shown (the card's heading id is `ex-<id>-prompt`). */

@@ -538,7 +538,7 @@
   skill: listening
   variety: gsw-zh
   grammar: [numbers]
-  prompt: "In the Swiss lane dialogue the waitress tells you the price. How much is it?"
+  prompt: "Listen to the waitress in the Swiss lane dialogue. How much is the bill?"
   transcript: |-
     Kellnerin: Das macht zwölf Franke füfzg.
   options: ["12.15 Fr.", "20.50 Fr.", "12.50 Fr.", "15.12 Fr."]

@@ -1,0 +1,2846 @@
+{
+  "unitId": "a2-u01",
+  "level": "A2",
+  "folder": "a2/unit-01",
+  "title": "Wie war das Wochenende?",
+  "delivery": {
+    "raw": "WAV or FLAC, 48 kHz, 24-bit, mono, one file per entry, named <file base>.wav",
+    "processed": [
+      "mp3 64 kbps mono 44.1 kHz",
+      "opus 32 kbps mono 48 kHz",
+      "EBU R128 -16 LUFS, true peak -1.5 dBTP"
+    ]
+  },
+  "entries": [
+    {
+      "file": "dialog-intro-01.mp3",
+      "kind": "dialogue-intro",
+      "text": "Guten Morgen, Tom! Wie war dein Wochenende?",
+      "en": "Good morning, Tom! How was your weekend?",
+      "variety": "ch-std",
+      "voice": "zh-f",
+      "speaker": "Nadine",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          0,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-01.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-02.mp3",
+      "kind": "dialogue-intro",
+      "text": "Hallo Nadine! Es war super. Am Samstag habe ich zuerst die Wohnung aufgeräumt und dann eingekauft.",
+      "en": "Hi Nadine! It was great. On Saturday I tidied the flat first and then went shopping.",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          1,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-02.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-03.mp3",
+      "kind": "dialogue-intro",
+      "text": "Oh, wie fleissig! Und am Abend?",
+      "en": "Oh, how hard-working! And in the evening?",
+      "variety": "ch-std",
+      "voice": "zh-f",
+      "speaker": "Nadine",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          2,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-03.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-04.mp3",
+      "kind": "dialogue-intro",
+      "text": "Am Abend haben Anna und ich mit Freunden gekocht. Danach haben wir bis Mitternacht Karten gespielt.",
+      "en": "In the evening Anna and I cooked with friends. After that we played cards until midnight.",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          3,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-04.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-05.mp3",
+      "kind": "dialogue-intro",
+      "text": "Schön! Habt ihr gejasst?",
+      "en": "Nice! Did you play Jass?",
+      "variety": "ch-std",
+      "voice": "zh-f",
+      "speaker": "Nadine",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          4,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-05.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-06.mp3",
+      "kind": "dialogue-intro",
+      "text": "Nein, Jassen kann ich noch nicht. Wir haben Uno gespielt. Und du? Was hast du gemacht?",
+      "en": "No, I can't play Jass yet. We played Uno. And you? What did you do?",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          5,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-06.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-07.mp3",
+      "kind": "dialogue-intro",
+      "text": "Ich habe am Samstag gearbeitet – leider. Aber am Sonntag habe ich meine Eltern in Winterthur besucht.",
+      "en": "I worked on Saturday – unfortunately. But on Sunday I visited my parents in Winterthur.",
+      "variety": "ch-std",
+      "voice": "zh-f",
+      "speaker": "Nadine",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          6,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-07.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-08.mp3",
+      "kind": "dialogue-intro",
+      "text": "Und, wie war es?",
+      "en": "And how was it?",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          7,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-08.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-09.mp3",
+      "kind": "dialogue-intro",
+      "text": "Sehr gemütlich. Wir haben einen Spaziergang gemacht, und mein Vater hat grilliert.",
+      "en": "Very cosy. We went for a walk, and my father had a barbecue.",
+      "variety": "ch-std",
+      "voice": "zh-f",
+      "speaker": "Nadine",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          8,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-09.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-10.mp3",
+      "kind": "dialogue-intro",
+      "text": "Und gestern Abend?",
+      "en": "And yesterday evening?",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          9,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-10.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-11.mp3",
+      "kind": "dialogue-intro",
+      "text": "Gestern Abend habe ich gar nichts gemacht. Ich habe nur Musik gehört und mit meiner Schwester telefoniert.",
+      "en": "Yesterday evening I did nothing at all. I just listened to music and phoned my sister.",
+      "variety": "ch-std",
+      "voice": "zh-f",
+      "speaker": "Nadine",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          10,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-11.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-12.mp3",
+      "kind": "dialogue-intro",
+      "text": "Das klingt perfekt!",
+      "en": "That sounds perfect!",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          11,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-12.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-01.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Hoi Sandra! Wie isch s Wuchenänd gsii?",
+      "en": "Hi Sandra! How was the weekend?",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          0,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-01.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-02.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Mega schön! Ich bi z Bärn gsii, bi de Eltere.",
+      "en": "Really nice! I was in Bern, at my parents'.",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          1,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-02.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-03.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Und, was häsch gmacht?",
+      "en": "And what did you do?",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          2,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-03.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-04.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Mir händ e Velotour gmacht, und am Abig hämmer gjasst.",
+      "en": "We went on a bike ride, and in the evening we played Jass.",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          3,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-04.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-05.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Lässig! Ich ha leider de ganz Samschtig gschaffet.",
+      "en": "Cool! Unfortunately I worked the whole of Saturday.",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          4,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-05.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-06.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Oh nei! Und am Sunntig?",
+      "en": "Oh no! And on Sunday?",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          5,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-06.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-07.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Am Sunntig han ich uusgschlafe und d Wohnig putzt. Dänn bin ich is Hallebad go schwümme.",
+      "en": "On Sunday I had a lie-in and cleaned the flat. Then I went swimming at the indoor pool.",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          6,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-07.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-08.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Und hüt?",
+      "en": "And today?",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          7,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-08.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-09.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Hüt gang ich no go poschte. Chunnsch mit?",
+      "en": "Today I'm still going to do the shopping. Are you coming along?",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          8,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-09.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-10.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Gärn!",
+      "en": "I'd love to!",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          9,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-10.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-11.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Hoi Sandra! Bisch guet hei cho?",
+      "en": "Hi Sandra! Did you get home all right?",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "speaker": "Mami",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          10,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-11.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-12.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Ja, merci! Ds Wuchenänd isch mega schön gsy.",
+      "en": "Yes, thanks! The weekend was really nice.",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          11,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-12.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-13.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Das fröit mi! Tschou!",
+      "en": "I'm glad! Bye!",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "speaker": "Mami",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          12,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-13.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-aufraeumen.mp3",
+      "kind": "vocab",
+      "text": "aufräumen",
+      "en": "to tidy up",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "aufraeumen",
+        "pointer": [
+          0,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-aufraeumen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-aufraeumen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Am Samstag habe ich die Wohnung aufgeräumt.",
+      "en": "On Saturday I tidied the flat.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "aufraeumen",
+        "pointer": [
+          0,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-aufraeumen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-aufraeumen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "ufruume",
+      "note": "ufgruumt",
+      "en": "to tidy up",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "aufraeumen",
+        "pointer": [
+          0,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-aufraeumen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-putzen.mp3",
+      "kind": "vocab",
+      "text": "putzen",
+      "en": "to clean",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "putzen",
+        "pointer": [
+          1,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-putzen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-putzen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Tom hat das Bad geputzt.",
+      "en": "Tom cleaned the bathroom.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "putzen",
+        "pointer": [
+          1,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-putzen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-putzen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "putze",
+      "note": "putzt",
+      "en": "to clean",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "putzen",
+        "pointer": [
+          1,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-putzen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-waschen.mp3",
+      "kind": "vocab",
+      "text": "waschen",
+      "en": "to wash",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "waschen",
+        "pointer": [
+          2,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-waschen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-waschen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich habe gestern die Wäsche gewaschen.",
+      "en": "I did the laundry yesterday.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "waschen",
+        "pointer": [
+          2,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-waschen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-waschen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "wäsche / wösche",
+      "note": "gwäsche",
+      "en": "to wash",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "waschen",
+        "pointer": [
+          2,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-waschen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-waesche.mp3",
+      "kind": "vocab",
+      "text": "Wäsche",
+      "en": "laundry, washing",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "waesche",
+        "pointer": [
+          3,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-waesche.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-waesche-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Die Wäsche ist im Keller.",
+      "en": "The laundry is in the basement.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "waesche",
+        "pointer": [
+          3,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-waesche-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-waesche-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Wösch / Wäsch",
+      "en": "laundry, washing",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "waesche",
+        "pointer": [
+          3,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-waesche-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-staubsaugen.mp3",
+      "kind": "vocab",
+      "text": "staubsaugen",
+      "en": "to vacuum",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "staubsaugen",
+        "pointer": [
+          4,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-staubsaugen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-staubsaugen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Hast du schon gestaubsaugt?",
+      "en": "Have you vacuumed yet?",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "staubsaugen",
+        "pointer": [
+          4,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-staubsaugen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-staubsaugen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "staubsuuge",
+      "en": "to vacuum",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "staubsaugen",
+        "pointer": [
+          4,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-staubsaugen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-buegeln.mp3",
+      "kind": "vocab",
+      "text": "bügeln",
+      "en": "to iron",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "buegeln",
+        "pointer": [
+          5,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-buegeln.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-buegeln-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich habe drei Hemden gebügelt.",
+      "en": "I ironed three shirts.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "buegeln",
+        "pointer": [
+          5,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-buegeln-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-buegeln-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "glette / glätte",
+      "en": "to iron",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "buegeln",
+        "pointer": [
+          5,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-buegeln-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-haushalt.mp3",
+      "kind": "vocab",
+      "text": "Haushalt",
+      "en": "household, housework",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "haushalt",
+        "pointer": [
+          6,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-haushalt.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-haushalt-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Am Wochenende mache ich den Haushalt.",
+      "en": "At the weekend I do the housework.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "haushalt",
+        "pointer": [
+          6,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-haushalt-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-haushalt-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Huushalt",
+      "en": "household, housework",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "haushalt",
+        "pointer": [
+          6,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-haushalt-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-ausflug.mp3",
+      "kind": "vocab",
+      "text": "Ausflug",
+      "en": "trip, outing",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "ausflug",
+        "pointer": [
+          7,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-ausflug.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-ausflug-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Wir haben einen Ausflug an den See gemacht.",
+      "en": "We made a trip to the lake.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "ausflug",
+        "pointer": [
+          7,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-ausflug-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-ausflug-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Uusflug",
+      "en": "trip, outing",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "ausflug",
+        "pointer": [
+          7,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-ausflug-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-spaziergang.mp3",
+      "kind": "vocab",
+      "text": "Spaziergang",
+      "en": "walk",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "spaziergang",
+        "pointer": [
+          8,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-spaziergang.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-spaziergang-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Am Sonntag haben wir einen Spaziergang gemacht.",
+      "en": "On Sunday we went for a walk.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "spaziergang",
+        "pointer": [
+          8,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-spaziergang-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-spaziergang-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Spaziergang",
+      "note": "en Spaziergang mache",
+      "en": "walk",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "spaziergang",
+        "pointer": [
+          8,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-spaziergang-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-besuchen.mp3",
+      "kind": "vocab",
+      "text": "besuchen",
+      "en": "to visit",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "besuchen",
+        "pointer": [
+          9,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-besuchen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-besuchen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Nadine hat ihre Eltern besucht.",
+      "en": "Nadine visited her parents.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "besuchen",
+        "pointer": [
+          9,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-besuchen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-besuchen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "bsueche",
+      "note": "bsuecht",
+      "en": "to visit",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "besuchen",
+        "pointer": [
+          9,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-besuchen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-telefonieren.mp3",
+      "kind": "vocab",
+      "text": "telefonieren",
+      "en": "to talk on the phone",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "telefonieren",
+        "pointer": [
+          10,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-telefonieren.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-telefonieren-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich habe mit meiner Mutter telefoniert.",
+      "en": "I talked to my mother on the phone.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "telefonieren",
+        "pointer": [
+          10,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-telefonieren-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-telefonieren-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "telefoniere",
+      "en": "to talk on the phone",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "telefonieren",
+        "pointer": [
+          10,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-telefonieren-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-reden.mp3",
+      "kind": "vocab",
+      "text": "reden",
+      "en": "to talk",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "reden",
+        "pointer": [
+          11,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-reden.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-reden-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Wir haben eine Stunde geredet.",
+      "en": "We talked for an hour.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "reden",
+        "pointer": [
+          11,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-reden-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-reden-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "rede / schnurre",
+      "note": "colloquial",
+      "en": "to talk",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "reden",
+        "pointer": [
+          11,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-reden-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-lachen.mp3",
+      "kind": "vocab",
+      "text": "lachen",
+      "en": "to laugh",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "lachen",
+        "pointer": [
+          12,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-lachen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-lachen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Wir haben viel gelacht.",
+      "en": "We laughed a lot.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "lachen",
+        "pointer": [
+          12,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-lachen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-lachen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "lache",
+      "en": "to laugh",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "lachen",
+        "pointer": [
+          12,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-lachen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-hoeren.mp3",
+      "kind": "vocab",
+      "text": "hören",
+      "en": "to hear, to listen to",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "hoeren",
+        "pointer": [
+          13,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-hoeren.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-hoeren-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Gestern habe ich Musik gehört.",
+      "en": "Yesterday I listened to music.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "hoeren",
+        "pointer": [
+          13,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-hoeren-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-hoeren-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "ghöre / lose",
+      "note": "hear; listen, Musig lose",
+      "en": "to hear, to listen to",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "hoeren",
+        "pointer": [
+          13,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-hoeren-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-erzaehlen.mp3",
+      "kind": "vocab",
+      "text": "erzählen",
+      "en": "to tell (a story)",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "erzaehlen",
+        "pointer": [
+          14,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-erzaehlen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-erzaehlen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Sabine hat von ihrer Reise erzählt.",
+      "en": "Sabine told us about her trip.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "erzaehlen",
+        "pointer": [
+          14,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-erzaehlen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-erzaehlen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "verzelle",
+      "en": "to tell (a story)",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "erzaehlen",
+        "pointer": [
+          14,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-erzaehlen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-warten.mp3",
+      "kind": "vocab",
+      "text": "warten",
+      "en": "to wait",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "warten",
+        "pointer": [
+          15,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-warten.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-warten-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich habe zwanzig Minuten auf den Bus gewartet.",
+      "en": "I waited twenty minutes for the bus.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "warten",
+        "pointer": [
+          15,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-warten-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-warten-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "warte",
+      "en": "to wait",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "warten",
+        "pointer": [
+          15,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-warten-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-film.mp3",
+      "kind": "vocab",
+      "text": "Film",
+      "en": "film, movie",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "film",
+        "pointer": [
+          16,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-film.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-film-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Am Abend haben wir einen Film geschaut.",
+      "en": "In the evening we watched a film.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "film",
+        "pointer": [
+          16,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-film-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-film-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Film",
+      "en": "film, movie",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "film",
+        "pointer": [
+          16,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-film-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-serie.mp3",
+      "kind": "vocab",
+      "text": "Serie",
+      "en": "series (TV)",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "serie",
+        "pointer": [
+          17,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-serie.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-serie-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich habe den ganzen Sonntag eine Serie geschaut.",
+      "en": "I watched a series all Sunday.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "serie",
+        "pointer": [
+          17,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-serie-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-serie-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Serie",
+      "en": "series (TV)",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "serie",
+        "pointer": [
+          17,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-serie-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-brunch.mp3",
+      "kind": "vocab",
+      "text": "Brunch",
+      "en": "brunch",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "brunch",
+        "pointer": [
+          18,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-brunch.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-brunch-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Am Sonntag haben wir einen Brunch gemacht.",
+      "en": "On Sunday we had a brunch.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "brunch",
+        "pointer": [
+          18,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-brunch-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-brunch-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Brunch",
+      "en": "brunch",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "brunch",
+        "pointer": [
+          18,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-brunch-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-zopf.mp3",
+      "kind": "vocab",
+      "text": "Zopf",
+      "en": "plaited bread (Sunday loaf); plait",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "zopf",
+        "pointer": [
+          19,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-zopf.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-zopf-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Zum Frühstück gibt es am Sonntag Zopf.",
+      "en": "On Sundays there's plaited bread for breakfast.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "zopf",
+        "pointer": [
+          19,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-zopf-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-zopf-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Zopf",
+      "note": "de Sunntigszopf",
+      "en": "plaited bread (Sunday loaf); plait",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "zopf",
+        "pointer": [
+          19,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-zopf-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-grillen.mp3",
+      "kind": "vocab",
+      "text": "grillen",
+      "en": "to have a barbecue, to grill",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "grillen",
+        "pointer": [
+          20,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-grillen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-grillen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Am Samstag haben wir im Garten gegrillt.",
+      "en": "On Saturday we had a barbecue in the garden.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "grillen",
+        "pointer": [
+          20,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-grillen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-grillen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "grilliere / brätle",
+      "note": "over an open fire",
+      "en": "to have a barbecue, to grill",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "grillen",
+        "pointer": [
+          20,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-grillen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-flohmarkt.mp3",
+      "kind": "vocab",
+      "text": "Flohmarkt",
+      "en": "flea market",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "flohmarkt",
+        "pointer": [
+          21,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-flohmarkt.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-flohmarkt-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Auf dem Flohmarkt habe ich eine Lampe gekauft.",
+      "en": "I bought a lamp at the flea market.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "flohmarkt",
+        "pointer": [
+          21,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-flohmarkt-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-flohmarkt-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Flohmärt / Flohmarkt",
+      "en": "flea market",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "flohmarkt",
+        "pointer": [
+          21,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-flohmarkt-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-bestellen.mp3",
+      "kind": "vocab",
+      "text": "bestellen",
+      "en": "to order",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "bestellen",
+        "pointer": [
+          22,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-bestellen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-bestellen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Am Abend haben wir Pizza bestellt.",
+      "en": "In the evening we ordered pizza.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "bestellen",
+        "pointer": [
+          22,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-bestellen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-bestellen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "bstelle",
+      "note": "bstellt",
+      "en": "to order",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "bestellen",
+        "pointer": [
+          22,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-bestellen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gestern.mp3",
+      "kind": "vocab",
+      "text": "gestern",
+      "en": "yesterday",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gestern",
+        "pointer": [
+          23,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-gestern.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gestern-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Gestern habe ich lange gearbeitet.",
+      "en": "Yesterday I worked late.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gestern",
+        "pointer": [
+          23,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-gestern-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gestern-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "geschter",
+      "en": "yesterday",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gestern",
+        "pointer": [
+          23,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-gestern-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-vorgestern.mp3",
+      "kind": "vocab",
+      "text": "vorgestern",
+      "en": "the day before yesterday",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "vorgestern",
+        "pointer": [
+          24,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-vorgestern.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-vorgestern-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Vorgestern hat es geregnet.",
+      "en": "It rained the day before yesterday.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "vorgestern",
+        "pointer": [
+          24,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-vorgestern-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-vorgestern-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "vorgeschter",
+      "en": "the day before yesterday",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "vorgestern",
+        "pointer": [
+          24,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-vorgestern-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-letztes-wochenende.mp3",
+      "kind": "vocab",
+      "text": "letztes Wochenende",
+      "en": "last weekend",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "letztes-wochenende",
+        "pointer": [
+          25,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-letztes-wochenende.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-letztes-wochenende-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Letztes Wochenende habe ich meine Schwester besucht.",
+      "en": "Last weekend I visited my sister.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "letztes-wochenende",
+        "pointer": [
+          25,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-letztes-wochenende-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-letztes-wochenende-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "s letscht Wuchenänd / letscht Wuchenänd",
+      "en": "last weekend",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "letztes-wochenende",
+        "pointer": [
+          25,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-letztes-wochenende-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-letztes-wochenende-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "ds letschte Wuchenänd",
+      "en": "last weekend",
+      "variety": "gsw-be",
+      "voice": "be-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "letztes-wochenende",
+        "pointer": [
+          25,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-letztes-wochenende-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-letzte-woche.mp3",
+      "kind": "vocab",
+      "text": "letzte Woche",
+      "en": "last week",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "letzte-woche",
+        "pointer": [
+          26,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-letzte-woche.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-letzte-woche-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Letzte Woche habe ich viel gearbeitet.",
+      "en": "Last week I worked a lot.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "letzte-woche",
+        "pointer": [
+          26,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-letzte-woche-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-letzte-woche-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "letscht Wuche",
+      "en": "last week",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "letzte-woche",
+        "pointer": [
+          26,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-letzte-woche-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-vor-zeit.mp3",
+      "kind": "vocab",
+      "text": "vor",
+      "note": "+ time",
+      "en": "ago",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "vor-zeit",
+        "pointer": [
+          27,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-vor-zeit.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-vor-zeit-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Vor drei Tagen habe ich mit Reto telefoniert.",
+      "en": "Three days ago I talked to Reto on the phone.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "vor-zeit",
+        "pointer": [
+          27,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-vor-zeit-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-vor-zeit-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "vor",
+      "note": "vor drei Täg",
+      "en": "ago",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "vor-zeit",
+        "pointer": [
+          27,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-vor-zeit-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-zuerst.mp3",
+      "kind": "vocab",
+      "text": "zuerst",
+      "en": "first, at first",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "zuerst",
+        "pointer": [
+          28,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-zuerst.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-zuerst-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Zuerst habe ich aufgeräumt, dann habe ich gekocht.",
+      "en": "First I tidied up, then I cooked.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "zuerst",
+        "pointer": [
+          28,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-zuerst-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-zuerst-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "zersch",
+      "en": "first, at first",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "zuerst",
+        "pointer": [
+          28,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-zuerst-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-danach.mp3",
+      "kind": "vocab",
+      "text": "danach",
+      "en": "after that, afterwards",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "danach",
+        "pointer": [
+          29,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-danach.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-danach-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Danach haben wir Karten gespielt.",
+      "en": "After that we played cards.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "danach",
+        "pointer": [
+          29,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-danach-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-danach-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "nachher / nachane / dänn",
+      "en": "after that, afterwards",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "danach",
+        "pointer": [
+          29,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-danach-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-lange.mp3",
+      "kind": "vocab",
+      "text": "lange",
+      "en": "for a long time, long",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "lange",
+        "pointer": [
+          30,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-lange.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-lange-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Am Sonntag habe ich lange geschlafen.",
+      "en": "On Sunday I slept in.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "lange",
+        "pointer": [
+          30,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-lange-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-lange-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "lang",
+      "en": "for a long time, long",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "lange",
+        "pointer": [
+          30,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-lange-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-schon.mp3",
+      "kind": "vocab",
+      "text": "schon",
+      "en": "already, yet (in questions)",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "schon",
+        "pointer": [
+          31,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-schon.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-schon-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Hast du schon eingekauft?",
+      "en": "Have you done the shopping yet?",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "schon",
+        "pointer": [
+          31,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-schon-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-schon-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "scho",
+      "en": "already, yet (in questions)",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "schon",
+        "pointer": [
+          31,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-schon-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-endlich.mp3",
+      "kind": "vocab",
+      "text": "endlich",
+      "en": "finally, at last",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "endlich",
+        "pointer": [
+          32,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-endlich.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-endlich-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Endlich habe ich das Bad geputzt!",
+      "en": "At last I've cleaned the bathroom!",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "endlich",
+        "pointer": [
+          32,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-endlich-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-endlich-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "ändlich",
+      "en": "finally, at last",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "endlich",
+        "pointer": [
+          32,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-endlich-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-nichts.mp3",
+      "kind": "vocab",
+      "text": "nichts",
+      "en": "nothing",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "nichts",
+        "pointer": [
+          33,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-nichts.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-nichts-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Gestern Abend habe ich nichts gemacht.",
+      "en": "Last night I did nothing.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "nichts",
+        "pointer": [
+          33,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-nichts-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-nichts-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "nüt",
+      "en": "nothing",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "nichts",
+        "pointer": [
+          33,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-nichts-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-fleissig.mp3",
+      "kind": "vocab",
+      "text": "fleißig",
+      "en": "hard-working",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "fleissig",
+        "pointer": [
+          34,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-fleissig.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-fleissig-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Du warst aber fleißig!",
+      "en": "You've been busy!",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "fleissig",
+        "pointer": [
+          34,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-fleissig-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-fleissig-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "flissig",
+      "en": "hard-working",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "fleissig",
+        "pointer": [
+          34,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-fleissig-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-langweilig.mp3",
+      "kind": "vocab",
+      "text": "langweilig",
+      "en": "boring",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "langweilig",
+        "pointer": [
+          35,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-langweilig.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-langweilig-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Der Film war langweilig.",
+      "en": "The film was boring.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "langweilig",
+        "pointer": [
+          35,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-langweilig-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-langweilig-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "langwiilig",
+      "en": "boring",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "langweilig",
+        "pointer": [
+          35,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-langweilig-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-anstrengend.mp3",
+      "kind": "vocab",
+      "text": "anstrengend",
+      "en": "tiring, exhausting",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "anstrengend",
+        "pointer": [
+          36,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-anstrengend.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-anstrengend-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Die Woche war anstrengend.",
+      "en": "The week was tiring.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "anstrengend",
+        "pointer": [
+          36,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-anstrengend-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-anstrengend-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "aasträngend",
+      "en": "tiring, exhausting",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "anstrengend",
+        "pointer": [
+          36,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-anstrengend-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wie-war.mp3",
+      "kind": "vocab",
+      "text": "Wie war …?",
+      "en": "How was …?",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wie-war",
+        "pointer": [
+          37,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-wie-war.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wie-war-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Wie war dein Wochenende? – Es war super!",
+      "en": "How was your weekend? – It was great!",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wie-war",
+        "pointer": [
+          37,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-wie-war-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wie-war-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Wie isch … gsii?",
+      "note": "Wie isch s Wuchenänd gsii?",
+      "en": "How was …?",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wie-war",
+        "pointer": [
+          37,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-wie-war-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wie-war-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "Wie isch … gsy?",
+      "en": "How was …?",
+      "variety": "gsw-be",
+      "voice": "be-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wie-war",
+        "pointer": [
+          37,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-wie-war-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u01-mcq-listening-tom.mp3",
+      "kind": "listening",
+      "text": "Tom: Am Samstag habe ich zuerst die Wohnung aufgeräumt und dann eingekauft.",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u01-mcq-listening-tom",
+        "pointer": [
+          24,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u01-mcq-listening-tom.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u01-dictation-eltern.mp3",
+      "kind": "dictation",
+      "text": "Am Sonntag habe ich meine Eltern besucht.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u01-dictation-eltern",
+        "pointer": [
+          26,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u01-dictation-eltern.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u01-dictation-gestern.mp3",
+      "kind": "dictation",
+      "text": "Was habt ihr gestern Abend gemacht?",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u01-dictation-gestern",
+        "pointer": [
+          27,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u01-dictation-gestern.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u01-speak-frame.mp3",
+      "kind": "speak",
+      "text": "Am Samstag habe ich eingekauft. Am Abend habe ich mit Freunden gekocht. Am Sonntag habe ich lange geschlafen.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u01-speak-frame",
+        "pointer": [
+          28,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u01-speak-frame.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u01-speak-shadow-tom.mp3",
+      "kind": "speak",
+      "text": "Am Abend haben Anna und ich mit Freunden gekocht. Danach haben wir bis Mitternacht Karten gespielt.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u01-speak-shadow-tom",
+        "pointer": [
+          29,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u01-speak-shadow-tom.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u01-speak-shadow-nadine.mp3",
+      "kind": "speak",
+      "text": "Ich habe am Samstag gearbeitet – leider. Aber am Sonntag habe ich meine Eltern in Winterthur besucht.",
+      "variety": "ch-std",
+      "voice": "zh-m",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u01-speak-shadow-nadine",
+        "pointer": [
+          30,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u01-speak-shadow-nadine.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u01-speak-intonation.mp3",
+      "kind": "speak",
+      "text": "Wie war dein Wochenende? – Es war super!",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u01-speak-intonation",
+        "pointer": [
+          31,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u01-speak-intonation.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u01-speak-pron-participles.mp3",
+      "kind": "speak",
+      "text": "Am Tag haben wir gekocht und gelacht, und am Abend haben wir Karten gespielt.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u01-speak-pron-participles",
+        "pointer": [
+          32,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u01-speak-pron-participles.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u01-ch-mcq-gsii.mp3",
+      "kind": "listening",
+      "text": "Reto: Hoi Sandra! Wie isch s Wuchenänd gsii?",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u01-ch-mcq-gsii",
+        "pointer": [
+          36,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u01-ch-mcq-gsii.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u01-ch-mcq-go-poschte.mp3",
+      "kind": "listening",
+      "text": "Reto: Hüt gang ich no go poschte. Chunnsch mit?",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u01-ch-mcq-go-poschte",
+        "pointer": [
+          40,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u01-ch-mcq-go-poschte.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a2-u01-ch-be-mcq-gsy.mp3",
+      "kind": "listening",
+      "text": "Sandra: Ja, merci! Ds Wuchenänd isch mega schön gsy.",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a2-u01-ch-be-mcq-gsy",
+        "pointer": [
+          44,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a2-u01-ch-be-mcq-gsy.mp3",
+      "referenced": false
+    }
+  ]
+}

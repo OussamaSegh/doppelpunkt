@@ -203,5 +203,5 @@ Total: 166 file(s), 0 done.
 | `ex-a1-u04-dictation-sonntag.mp3` | de-m | de |  | Am Sonntag sieht Tom fern. |  |  |
 | `ex-a1-u04-speak-routine.mp3` | de-f | de |  | Um sieben Uhr stehe ich auf. Dann frühstücke ich. Um halb neun fängt mein Kurs an. |  |  |
 | `ex-a1-u04-speak-stress.mp3` | de-m | de |  | aufstehen – Ich stehe auf. anfangen – Es fängt an. einkaufen – Ich kaufe ein. fernsehen – Ich sehe fern. |  |  |
-| `ex-a1-u04-ch-mcq-halbi.mp3` | zh-m | gsw-zh | Reto | Reto: Ich schlaf bis am halbi achti. |  |  |
+| `ex-a1-u04-ch-mcq-halbi.mp3` | zh-m | gsw-zh | Reto | Reto: Am sächsi? Ich schlaf normalerwiis bis am halbi achti! |  |  |
 | `ex-a1-u04-ch-be-mcq-zmorge.mp3` | be-f | gsw-be | Mami | Mami: Chunsch zum Zmorge? |  |  |

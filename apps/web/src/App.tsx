@@ -1,6 +1,7 @@
 import { lazy, Suspense, useEffect, type ComponentType } from 'react';
 import { createBrowserRouter, Navigate, Outlet, RouterProvider, useLocation } from 'react-router-dom';
 import { Layout } from './components/Layout';
+import { ErrorBoundary, RouteError } from './components/ErrorBoundary';
 import { useSettings } from './lib/hooks';
 import { applyTheme, watchSystemTheme } from './lib/theme';
 import { Onboarding } from './screens/Onboarding';
@@ -34,6 +35,8 @@ const SettingsScreen = lazyScreen(() => import('./screens/Settings'), 'SettingsS
 const Grammar = lazyScreen(() => import('./screens/Grammar'), 'Grammar');
 const Pronunciation = lazyScreen(() => import('./screens/Pronunciation'), 'Pronunciation');
 const Exam = lazyScreen(() => import('./screens/Exam'), 'Exam');
+const Beta = lazyScreen(() => import('./screens/Beta'), 'Beta');
+const Privacy = lazyScreen(() => import('./screens/Privacy'), 'Privacy');
 
 /** Keeps the theme in sync and sends new learners to onboarding. */
 function Root() {
@@ -63,6 +66,7 @@ const router = createBrowserRouter(
   [
     {
       element: <Root />,
+      errorElement: <RouteError />,
       children: [
         { path: '/welcome', element: <Onboarding /> },
         {
@@ -84,6 +88,8 @@ const router = createBrowserRouter(
             { path: '/tutor', element: <Tutor /> },
             { path: '/progress', element: <Progress /> },
             { path: '/settings', element: <SettingsScreen /> },
+            { path: '/beta', element: <Beta /> },
+            { path: '/privacy', element: <Privacy /> },
             { path: '*', element: <NotFound /> },
           ],
         },
@@ -94,5 +100,9 @@ const router = createBrowserRouter(
 );
 
 export function App() {
-  return <RouterProvider router={router} />;
+  return (
+    <ErrorBoundary>
+      <RouterProvider router={router} />
+    </ErrorBoundary>
+  );
 }

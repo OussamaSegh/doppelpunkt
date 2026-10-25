@@ -273,7 +273,7 @@ sections:
         Lena: Hallo Tom, hier ist Lena. Du, morgen um sieben kann ich leider nicht, ich muss arbeiten. Geht es um acht? Ruf mich bitte an. Tschüss!
 
         Sprecher: Nachricht 2.
-        Praxis: Guten Tag, Frau Costa, hier ist die Praxis Dr. Huber. Ihr Termin am Donnerstag geht leider nicht. Können Sie am Freitag um Viertel nach neun kommen? Bitte rufen Sie uns zurück. Die Nummer ist 0 44 3 21 54 76. Auf Wiederhören!
+        Frau Graf: Guten Tag, Frau Costa, hier ist die Praxis Dr. Huber. Ihr Termin am Donnerstag geht leider nicht. Können Sie am Freitag um Viertel nach neun kommen? Bitte rufen Sie uns zurück. Die Nummer ist 0 44 3 21 54 76. Auf Wiederhören!
 
         Sprecher: Nachricht 3.
         Marco: Hallo Sandra, hier ist Marco. Ich bin im Supermarkt. Milch habe ich schon. Brauchen wir noch Eier für den Kuchen? Schreib mir bitte schnell eine Nachricht!
@@ -307,7 +307,7 @@ sections:
         grammar: [separable-verbs-modal, imperative]
         prompt: "Nachricht 2 – listen and choose the right answer."
         transcript: |-
-          Praxis: Guten Tag, Frau Costa, hier ist die Praxis Dr. Huber. Ihr Termin am Donnerstag geht leider nicht. Können Sie am Freitag um Viertel nach neun kommen? Bitte rufen Sie uns zurück. Die Nummer ist 0 44 3 21 54 76. Auf Wiederhören!
+          Frau Graf: Guten Tag, Frau Costa, hier ist die Praxis Dr. Huber. Ihr Termin am Donnerstag geht leider nicht. Können Sie am Freitag um Viertel nach neun kommen? Bitte rufen Sie uns zurück. Die Nummer ist 0 44 3 21 54 76. Auf Wiederhören!
         question: Was soll Frau Costa machen?
         options: ["Am Donnerstag kommen", "Die Praxis anrufen", "Ein Rezept holen"]
         answer: 1

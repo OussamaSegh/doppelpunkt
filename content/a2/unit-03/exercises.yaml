@@ -1,0 +1,687 @@
+# A2 unit 3 – Arbeit und Beruf
+
+# ---------- vocabulary ----------
+- id: a2-u03-match-jobs
+  type: match
+  skill: vocabulary
+  variety: de
+  prompt: Match the jobs with English.
+  pairs:
+    - ["der Informatiker", "IT specialist"]
+    - ["die Köchin", "cook (woman)"]
+    - ["die Verkäuferin", "sales assistant (woman)"]
+    - ["der Kaufmann", "business administrator"]
+    - ["die Pflegefachfrau", "nurse (woman)"]
+    - ["der Lehrling", "apprentice"]
+  explanation: >-
+    Most jobs have a feminine form in -in: der Koch → die Köchin, der Verkäufer → die Verkäuferin.
+    Kaufmann → Kauffrau, Pflegefachfrau → Pflegefachmann change the second word instead.
+
+- id: a2-u03-match-workplace
+  type: match
+  skill: vocabulary
+  variety: de
+  prompt: Match the work words with English.
+  pairs:
+    - ["die Kantine", "canteen"]
+    - ["der Lohn", "wage"]
+    - ["der Feierabend", "end of the working day"]
+    - ["die Sitzung", "meeting"]
+    - ["der Lebenslauf", "CV"]
+    - ["die Bewerbung", "application"]
+  explanation: >-
+    Feierabend is a key German word: Um fünf habe ich Feierabend (I finish at five). Schönen Feierabend! is
+    what colleagues say when they leave.
+
+# ---------- grammar: dative articles ----------
+- id: a2-u03-mcq-mit-dem
+  type: mcq
+  skill: grammar
+  variety: ch-std
+  grammar: [dative-articles, dative-prepositions]
+  prompt: Choose the correct article.
+  question: Ich fahre mit ___ Velo zur Arbeit.
+  options: ["das", "dem", "den", "der"]
+  answer: 1
+  rationales:
+    - "That's the nominative / accusative. mit takes the dative."
+    - "Correct. das Velo → mit dem Velo."
+    - "den is accusative masculine or dative plural."
+    - "der is dative feminine – but Velo is neuter."
+  explanation: >-
+    mit always takes the dative. Neuter (and masculine) dative: dem. das Velo → mit dem Velo, das Tram → mit
+    dem Tram, der Bus → mit dem Bus.
+
+- id: a2-u03-gap-dative-articles
+  type: gap
+  skill: grammar
+  variety: de
+  grammar: [dative-articles, dative-prepositions]
+  prompt: "Fill in the dative article: dem – der – den."
+  text: Ich arbeite bei ___ Post. Ich fahre mit ___ Bus zur Arbeit. Um zehn trinke ich Kaffee mit ___ Kollegen.
+  answers: [["der"], ["dem"], ["den"]]
+  explanation: >-
+    die Post → bei der Post (feminine), der Bus → mit dem Bus (masculine), die Kollegen → mit den Kollegen
+    (plural, the noun ends in -n).
+
+- id: a2-u03-gap-indefinite
+  type: gap
+  skill: grammar
+  variety: de
+  grammar: [dative-articles, seit-present]
+  prompt: "Fill in einer or einem."
+  text: Martin hat bei ___ Bank gearbeitet. Er wohnt seit ___ Monat in Zürich. Tom arbeitet in ___ Büro in Oerlikon.
+  answers: [["einer"], ["einem"], ["einem"]]
+  explanation: >-
+    die Bank → bei einer Bank; der Monat → seit einem Monat; das Büro → in einem Büro. The dative endings of ein
+    match der / dem: -er (f), -em (m, n).
+
+- id: a2-u03-mcq-kindern
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [dative-articles]
+  prompt: Choose the correct form.
+  question: Am Wochenende spiele ich mit den ___.
+  options: ["Kind", "Kinder", "Kindern", "Kinden"]
+  answer: 2
+  rationales:
+    - "After den we need the plural."
+    - "Plural, but the dative plural adds -n."
+    - "Correct. Dative plural: den Kindern."
+    - "The plural is Kinder, + -n: Kindern."
+  explanation: >-
+    In the dative plural the noun adds -n: die Kinder → mit den Kindern, die Freunde → mit den Freunden.
+    Plurals that end in -n or -s don't change: mit den Kollegen, mit den Autos.
+
+- id: a2-u03-mcq-meinem
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [dative-articles, possessives]
+  prompt: Choose the correct form.
+  question: Ich wohne zurzeit bei ___ Bruder.
+  options: ["mein", "meinen", "meiner", "meinem"]
+  answer: 3
+  rationales:
+    - "Nominative – bei needs the dative."
+    - "Accusative masculine – bei needs the dative."
+    - "meiner is feminine (meiner Schwester)."
+    - "Correct. der Bruder → bei meinem Bruder."
+  explanation: >-
+    Possessives take the endings of ein: bei einem → bei meinem Bruder, bei einer → bei meiner Schwester, bei
+    meinen Eltern (plural). zurzeit = at the moment.
+
+- id: a2-u03-transform-zum
+  type: transform
+  skill: grammar
+  variety: de
+  grammar: [dative-prepositions, dative-articles]
+  prompt: "Join the preposition and the article (use the short form)."
+  from: de
+  to: de
+  source: Ich gehe zu + der Chef.
+  answers: ["Ich gehe zum Chef."]
+  explanation: >-
+    zu + dative: der Chef → dem Chef, and zu dem contracts to zum. In the same way zu der → zur (zur Arbeit),
+    bei dem → beim, von dem → vom.
+
+# ---------- grammar: dative prepositions ----------
+- id: a2-u03-gap-prepositions
+  type: gap
+  skill: grammar
+  variety: ch-std
+  grammar: [dative-prepositions, seit-present]
+  prompt: "Fill in aus, seit or mit."
+  text: Martin kommt ___ Bern. Er wohnt ___ einem Monat in Zürich. Er fährt ___ dem Velo zur Arbeit.
+  answers: [["aus"], ["seit"], ["mit"]]
+  explanation: >-
+    aus = from (origin), seit = for / since (still going on, with the present), mit = by (transport). All
+    three take the dative: seit einem Monat, mit dem Velo.
+
+- id: a2-u03-mcq-nach-hause
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [dative-prepositions]
+  prompt: Choose the right word.
+  question: Um fünf habe ich Feierabend, dann fahre ich ___ Hause.
+  options: ["zu", "nach", "bei", "in"]
+  answer: 1
+  rationales:
+    - "zu Hause = at home (no movement)."
+    - "Correct. nach Hause = (going) home."
+    - "bei is not used with Hause."
+    - "in is not used with Hause."
+  explanation: >-
+    A fixed pair: nach Hause (going home, movement) – zu Hause (at home, location). Ich fahre nach Hause. Ich
+    bin zu Hause.
+
+- id: a2-u03-mcq-zum-arzt
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [dative-prepositions]
+  prompt: Choose the right preposition.
+  question: Ich habe Fieber. Ich gehe heute ___ Arzt.
+  options: ["nach", "bei", "zu", "zum"]
+  answer: 3
+  rationales:
+    - "nach is for towns and countries."
+    - "beim Arzt = at the doctor's (location), not going there."
+    - "zu needs the article: zu dem → zum."
+    - "Correct. zu dem Arzt → zum Arzt."
+  explanation: >-
+    Going to a person or a place: zu + dative, usually contracted: zum Arzt, zum Chef, zur Post. Being there:
+    beim Arzt, bei der Post.
+
+- id: a2-u03-match-contractions
+  type: match
+  skill: grammar
+  variety: de
+  grammar: [dative-prepositions]
+  prompt: Match the long forms with the contractions.
+  pairs:
+    - ["bei dem", "beim"]
+    - ["von dem", "vom"]
+    - ["zu dem", "zum"]
+    - ["zu der", "zur"]
+  explanation: >-
+    Only dem and der (feminine) contract, and only with these prepositions. In everyday German the long
+    forms sound wrong: zum Chef, zur Arbeit, beim Arzt, vom Büro.
+
+- id: a2-u03-order-velo
+  type: order
+  skill: grammar
+  variety: ch-std
+  grammar: [dative-prepositions]
+  prompt: Put the words in order.
+  tokens: ["Ich", "fahre", "jeden", "Tag", "mit", "dem", "Velo", "zur", "Arbeit"]
+  answers: ["Ich fahre jeden Tag mit dem Velo zur Arbeit.", "Jeden Tag fahre ich mit dem Velo zur Arbeit."]
+  explanation: >-
+    Time – manner – place: jeden Tag (when), mit dem Velo (how), zur Arbeit (where to). The verb stays in
+    position 2.
+
+- id: a2-u03-order-seit
+  type: order
+  skill: grammar
+  variety: de
+  grammar: [seit-present, dative-prepositions]
+  prompt: Put the words in order.
+  tokens: ["Nadine", "arbeitet", "seit", "fünf", "Jahren", "bei", "einer", "Bank"]
+  answers: ["Nadine arbeitet seit fünf Jahren bei einer Bank.", "Seit fünf Jahren arbeitet Nadine bei einer Bank."]
+  explanation: >-
+    seit + present tense: arbeitet, not hat gearbeitet. Two dative phrases: seit fünf Jahren (plural + -n), bei
+    einer Bank (feminine).
+
+# ---------- grammar: seit + present ----------
+- id: a2-u03-mcq-seit-present
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [seit-present]
+  prompt: "How do you say \"I have been working here for two years\"?"
+  options: ["Ich arbeite seit zwei Jahren hier.", "Ich habe hier seit zwei Jahren gearbeitet.", "Ich arbeite für zwei Jahre hier.", "Ich bin hier seit zwei Jahre."]
+  answer: 0
+  rationales:
+    - "Correct. Still true → present tense + seit."
+    - "A word-for-word translation of the English tense: German uses the present."
+    - "für + time is for plans: I'm working here for two years (then I leave)."
+    - "seit needs the dative plural: seit zwei Jahren – and the verb arbeite is missing."
+  explanation: >-
+    When something started in the past and is still going on, German uses the present tense with seit:
+    Ich arbeite seit zwei Jahren hier. Seit wann …? = How long …?
+
+- id: a2-u03-gap-seit-vor
+  type: gap
+  skill: grammar
+  variety: de
+  grammar: [seit-present, past-time-markers]
+  prompt: "Fill in seit or vor."
+  text: Ich arbeite ___ drei Jahren bei der Firma. ___ zwei Wochen habe ich einen neuen Kollegen kennengelernt. ___ wann wohnst du in Zürich?
+  answers: [["seit"], ["Vor", "vor"], ["Seit", "seit"]]
+  explanation: >-
+    seit + present: still going on (arbeite, wohnst). vor + Perfekt: a finished moment in the past, ago (habe
+    … kennengelernt). Both take the dative: seit drei Jahren, vor zwei Wochen.
+
+- id: a2-u03-translate-seit
+  type: translate
+  skill: writing
+  variety: de
+  grammar: [seit-present]
+  prompt: Translate into German.
+  source: I have lived in Zurich for a year.
+  answers: ["Ich wohne seit einem Jahr in Zürich.", "Seit einem Jahr wohne ich in Zürich.", "Ich lebe seit einem Jahr in Zürich.", "Seit einem Jahr lebe ich in Zürich."]
+  explanation: >-
+    have lived … for a year (still true) = present tense + seit einem Jahr (dative: das Jahr → einem Jahr).
+
+# ---------- grammar: dative pronouns ----------
+- id: a2-u03-gap-pronouns
+  type: gap
+  skill: grammar
+  variety: de
+  grammar: [dative-pronouns]
+  prompt: "Fill in the dative pronoun of ich, du and er."
+  text: Kommst du mit ___ in die Kantine? – Ja, gern, ich komme mit ___. Und Martin? – Ich spreche später mit ___.
+  answers: [["mir"], ["dir"], ["ihm"]]
+  explanation: >-
+    mit + dative: ich → mir, du → dir, er → ihm. Not mit mich / mit dich – those are accusative forms.
+
+- id: a2-u03-mcq-ihnen
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [dative-pronouns, du-sie]
+  prompt: You meet your new boss, Frau Steiner. What do you ask?
+  options: ["Wie geht es Sie, Frau Steiner?", "Wie geht es dir, Frau Steiner?", "Wie geht es ihr, Frau Steiner?", "Wie geht es Ihnen, Frau Steiner?"]
+  answer: 3
+  rationales:
+    - "Sie is nominative / accusative; es geht needs the dative."
+    - "dir is the du form – too informal for a new boss."
+    - "ihr = her: you'd be asking about another woman."
+    - "Correct. Formal dative: Ihnen."
+  explanation: >-
+    Wie geht es Ihnen? (formal) / Wie geht es dir? (informal): the person is in the dative. Ihnen with a
+    capital I is formal you; ihnen = them.
+
+- id: a2-u03-transform-ihnen
+  type: transform
+  skill: grammar
+  variety: de
+  grammar: [dative-pronouns]
+  prompt: "Replace the names with a pronoun."
+  from: de
+  to: de
+  source: Ich arbeite gern mit Nadine und Martin.
+  answers: ["Ich arbeite gern mit ihnen."]
+  explanation: >-
+    Nadine und Martin = sie (they); after mit the dative plural pronoun is ihnen (small i: not the formal
+    Ihnen).
+
+- id: a2-u03-translate-help
+  type: translate
+  skill: writing
+  variety: de
+  grammar: [dative-pronouns]
+  prompt: Translate into German (informal).
+  source: Can you help me?
+  answers: ["Kannst du mir helfen?", "Kannst du mir bitte helfen?", "Kannst du mir mal helfen?"]
+  explanation: >-
+    helfen takes the dative: jemandem helfen → Kannst du mir helfen? (not mich). Verbs with the dative are
+    unit 4; learn this one as a chunk now.
+
+# ---------- reading ----------
+- id: a2-u03-mcq-reading-job
+  type: mcq
+  skill: reading
+  variety: ch-std
+  prompt: "Read the job ad. What does the person do in this job?"
+  options: ["Sell bread and cakes and work at the till", "Bake bread at night", "Deliver bread to restaurants", "Manage the bakery's accounts"]
+  answer: 0
+  explanation: >-
+    "Sie beraten unsere Kundinnen und Kunden, verkaufen Brot, Gipfeli und Kuchen und arbeiten an der Kasse."
+    The baking (Backstube) is only help in the mornings.
+
+- id: a2-u03-mcq-reading-pensum
+  type: mcq
+  skill: reading
+  variety: ch-std
+  prompt: What does "80–100 %" in the title of the ad mean?
+  options: ["The pay rises by 80–100 francs.", "You need 80–100 % in your exams.", "The bakery has a sale.", "The job is part-time or full-time: 80 to 100 per cent of a full week."]
+  answer: 3
+  explanation: >-
+    Swiss job ads give the workload (das Pensum) as a percentage of a full-time job: 100 % = Vollzeit (about
+    40–42 hours a week), 80 % = four days.
+
+- id: a2-u03-translate-reading
+  type: translate
+  skill: reading
+  variety: ch-std
+  prompt: Translate into English.
+  source: Wir bieten ein freundliches Team, einen guten Lohn und fünf Wochen Ferien.
+  answers: ["We offer a friendly team, a good wage and five weeks' holiday.", "We offer a friendly team, a good salary and five weeks of holiday.", "We offer a friendly team, good pay and five weeks of vacation."]
+  explanation: >-
+    bieten = to offer. einen guten Lohn: der Lohn, accusative after bieten. Ferien = holidays (Swiss Standard
+    for Urlaub).
+
+# ---------- listening ----------
+- id: a2-u03-mcq-listening-tom
+  type: mcq
+  skill: listening
+  variety: de
+  grammar: [seit-present]
+  prompt: Listen to the intro dialogue again. How long has Tom been working for the company?
+  options: ["For a month", "For three years", "For two years", "Since Monday"]
+  answer: 2
+  explanation: >-
+    "Ich arbeite seit zwei Jahren bei der Firma." seit + present tense. Three years is how long Martin
+    worked at the Post Office; a month is how long Martin has lived in Zurich.
+
+- id: a2-u03-mcq-listening-marco
+  type: mcq
+  skill: listening
+  variety: ch-std
+  grammar: [dative-prepositions, perfekt-haben]
+  prompt: Listen to Martin. What did he do before this job?
+  transcript: |-
+    Martin: Ich habe eine Lehre als Kaufmann gemacht, bei einer Bank in Bern. Danach habe ich drei Jahre bei der Post gearbeitet.
+  options: ["He studied in Bern.", "He worked in a bakery.", "He did an apprenticeship at a bank, then worked at the Post Office.", "He was an IT specialist at the Post Office."]
+  answer: 2
+  explanation: >-
+    bei einer Bank, bei der Post: bei + dative for the employer. drei Jahre … gearbeitet (finished) has no
+    seit.
+
+- id: a2-u03-dictation-firma
+  type: dictation
+  skill: listening
+  variety: de
+  grammar: [seit-present, dative-articles]
+  prompt: Listen and write what you hear.
+  transcript: Ich arbeite seit zwei Jahren bei einer Firma in Zürich.
+  explanation: >-
+    seit zwei Jahren (dative plural -n), bei einer Firma (feminine dative). The verb is in the present.
+
+- id: a2-u03-dictation-kantine
+  type: dictation
+  skill: listening
+  variety: de
+  grammar: [dative-articles]
+  prompt: Listen and write what you hear.
+  transcript: Um zwölf essen wir mit den Kollegen in der Kantine.
+  explanation: >-
+    mit den Kollegen (dative plural), in der Kantine (here in + dative = where: unit 5).
+
+# ---------- speaking ----------
+- id: a2-u03-speak-frame
+  type: speak
+  skill: speaking
+  variety: de
+  grammar: [seit-present, dative-prepositions]
+  prompt: "Read aloud, then talk about your own job (or your studies)."
+  target: Ich bin Informatiker. Ich arbeite seit zwei Jahren bei einer Firma in Zürich. Ich fahre mit dem Zug zur Arbeit.
+  explanation: >-
+    Three frames for any job: Ich bin … (no article), Ich arbeite seit … bei …, Ich fahre mit dem … zur Arbeit.
+
+- id: a2-u03-speak-shadow-tom
+  type: speak
+  skill: speaking
+  variety: de
+  grammar: [dative-pronouns, dative-prepositions]
+  prompt: "Shadowing: speak along with Tom's line from the intro dialogue, then say it alone."
+  target: Klar! Und um zwölf essen wir zusammen in der Kantine. Komm, jetzt gehen wir zum Chef. Er möchte dir Hallo sagen.
+  explanation: >-
+    Friendly and quick: stress KLAR, ZWÖLF, KAN-tine, CHEF. The z in zwölf, zusammen and zum is ts. See the
+    drill z [ts] and pf.
+
+- id: a2-u03-speak-shadow-marco
+  type: speak
+  skill: speaking
+  variety: ch-std
+  grammar: [dative-prepositions, perfekt-haben]
+  prompt: "Shadowing: speak along with Martin, then say it alone."
+  target: Ich habe eine Lehre als Kaufmann gemacht, bei einer Bank in Bern.
+  explanation: >-
+    Swiss Standard German: the ch in gemacht is the back ach-sound, the r in Lehre and Bern is tapped, and
+    -er in einer is not reduced to a. See the drill The Swiss Standard German accent.
+
+- id: a2-u03-speak-intonation
+  type: speak
+  skill: speaking
+  variety: de
+  grammar: [seit-present]
+  prompt: "Intonation: a W-question falls; the short answer stresses the new information."
+  target: Seit wann arbeitest du hier? – Seit zwei Jahren.
+  explanation: >-
+    Seit WANN arbeitest du hier? falls at the end. In the answer the number is new: seit ZWEI Jahren.
+
+- id: a2-u03-speak-pron-z
+  type: speak
+  skill: speaking
+  variety: de
+  grammar: [dative-prepositions]
+  prompt: "Pronunciation: z = ts. Read aloud slowly."
+  target: Meine Arbeitszeit ist Teilzeit, zwanzig Stunden, von zehn bis zwölf, zum Glück im Zentrum.
+  explanation: >-
+    Every z is ts: Arbeitszeit, Teilzeit, zwanzig, zehn, zwölf, zum, Zentrum. The ts- in Arbeitszeit comes
+    from s + z. See the drill z [ts] and pf.
+
+# ---------- roleplay and writing ----------
+- id: a2-u03-roleplay-lena
+  type: roleplay
+  skill: speaking
+  variety: de
+  grammar: [dative-prepositions, dative-articles, seit-present, dative-pronouns]
+  tutor: lena
+  prompt: "Roleplay with Lena: talking about work."
+  scenario: >-
+    Lena wants to know about your job (or your studies). Tell her what you do, where and since when, how you
+    get there and what your day looks like. Ask her about her job too.
+  goals:
+    - Say your job without an article (Ich bin …) and where you work (bei …).
+    - Say since when with seit + present (Ich arbeite seit … ).
+    - Say how you get to work (mit dem Bus / Velo / Zug) and with whom you work (mit …).
+    - Ask Lena a question about her job (Was machst du? Seit wann …?).
+  model: |
+    Lena: Was machst du eigentlich beruflich?
+    Du: Ich bin Verkäuferin. Ich arbeite in einer Buchhandlung in Winterthur.
+    Lena: Seit wann?
+    Du: Seit einem Jahr. Vorher habe ich in einem Café gearbeitet.
+    Lena: Und wie kommst du zur Arbeit?
+    Du: Mit dem Zug, das dauert zwanzig Minuten. Und du? Was machst du?
+    Lena: Ich bin Lehrerin. Ich arbeite mit Kindern.
+    Du: Schön! Gefällt dir die Arbeit?
+    Lena: Ja, sehr!
+  explanation: >-
+    Dative everywhere: in einer Buchhandlung, seit einem Jahr, in einem Café, mit dem Zug, zur Arbeit, mit
+    Kindern. seit + present: Ich arbeite seit …
+
+- id: a2-u03-write-job
+  type: write
+  skill: writing
+  variety: de
+  grammar: [dative-prepositions, dative-articles, seit-present, perfekt-haben]
+  prompt: Describe your job.
+  task: >-
+    Write a short text (6–8 sentences) for your company's newsletter: "Neu im Team". Say your name and job,
+    where you worked before, since when you have worked here, how you get to work, what you do in a normal day
+    and with whom you work.
+  minWords: 50
+  model: >-
+    Hallo zusammen! Ich heiße Priya Shah und bin Informatikerin. Ich komme aus London. Vorher habe ich vier
+    Jahre bei einer Bank gearbeitet. Seit Januar arbeite ich hier im Team von Tom und Nadine. Ich fahre jeden
+    Tag mit dem Tram zur Arbeit. Am Morgen habe ich oft eine Sitzung mit dem Chef, und am Nachmittag
+    programmiere ich mit den Kollegen. Am Mittag esse ich gern mit euch in der Kantine. Ich freue mich auf die
+    Arbeit mit euch!
+  checklist:
+    - I say my job without an article (Ich bin Informatikerin).
+    - I use seit + present for my current job and the Perfekt for my old job.
+    - After mit, bei, von, zu, aus and seit I use the dative (mit dem Tram, bei einer Bank, mit den Kollegen).
+    - I use zum / zur, beim, vom where the article contracts.
+    - Each sentence has the verb in position 2.
+  explanation: >-
+    A work profile uses all three A2 tools of the unit: seit + present (Seit Januar arbeite ich hier), the
+    dative after prepositions, and the Perfekt for what you did before.
+
+# ---------- Swiss Standard German ----------
+- id: a2-u03-chstd-match
+  type: match
+  skill: vocabulary
+  variety: ch-std
+  prompt: Match the Swiss Standard German words with the words used in Germany.
+  pairs:
+    - ["der Lernende", "der Auszubildende"]
+    - ["das Stelleninserat", "die Stellenanzeige"]
+    - ["der Detailhandel", "der Einzelhandel"]
+    - ["streng (Die Woche war streng.)", "anstrengend"]
+  explanation: >-
+    Swiss companies train Lernende (official word; colloquially Lehrlinge), and job ads are Inserate. In
+    Switzerland streng also means tiring; in Germany it means strict.
+
+# ---------- Swiss lane (gsw-zh) ----------
+- id: a2-u03-ch-mcq-sit-waenn
+  type: mcq
+  skill: listening
+  variety: gsw-zh
+  grammar: [seit-present]
+  prompt: Listen to Sandra. What does she want to know?
+  transcript: |-
+    Sandra: Gärn. Sit wänn schaffsch du eigentlich im Kafi?
+  options: ["When Reto finishes work today", "How long Reto has been working at the café", "Whether Reto likes coffee", "Where the café is"]
+  answer: 1
+  rationales:
+    - "That would be Wänn häsch Fiirabig?"
+    - "Correct. Sit wänn …? = Seit wann …?"
+    - "Kafi here is the café, not the drink."
+    - "Wo would ask where."
+  explanation: >-
+    sit wänn = seit wann, schaffsch = arbeitest (schaffe = arbeiten), im Kafi = im Café. Present tense with
+    sit, as in Standard German.
+
+- id: a2-u03-ch-transform-lehr
+  type: transform
+  skill: reading
+  variety: gsw-zh
+  grammar: [perfekt-haben]
+  prompt: What does Reto say? Write it in Standard German.
+  from: gsw-zh
+  to: de
+  source: Vorher han ich e Lehr als Koch gmacht.
+  answers: ["Vorher habe ich eine Lehre als Koch gemacht.", "Davor habe ich eine Lehre als Koch gemacht.", "Vorher habe ich eine Ausbildung als Koch gemacht."]
+  explanation: >-
+    han ich = habe ich (han before a vowel / after an inverted verb), e Lehr = eine Lehre, gmacht = gemacht.
+    No article before the job: als Koch.
+
+- id: a2-u03-ch-match-work
+  type: match
+  skill: vocabulary
+  variety: gsw-zh
+  prompt: Match the Zurich German work words with Standard German.
+  pairs:
+    - ["schaffe", "arbeiten"]
+    - ["d Büez", "die Arbeit"]
+    - ["streng", "anstrengend"]
+    - ["de Fiirabig", "der Feierabend"]
+    - ["e Lehr", "eine Lehre"]
+  explanation: >-
+    schaffe is the everyday verb for work (arbeite is understood but sounds formal); Büez is colloquial.
+    streng = tiring, not strict. Fiirabig: ei → ii, -end → -ig.
+
+- id: a2-u03-ch-mcq-mit-em
+  type: mcq
+  skill: grammar
+  variety: gsw-zh
+  grammar: [dative-articles]
+  prompt: "What is \"mit em Velo\" in Standard German?"
+  options: ["mit einem Velo", "mit den Velos", "mit dem Velo", "mit ihm Velo"]
+  answer: 2
+  rationales:
+    - "The indefinite form would be mit emene / eme Velo."
+    - "Plural would be mit de Velos."
+    - "Correct. em = dem (masculine and neuter dative)."
+    - "em is the article here, not the pronoun."
+  explanation: >-
+    The Zurich dative article is short: em for dem (mit em Velo, bi em Chef → bim Chef), de for der
+    (feminine) and den (plural): bi de Arbet, mit de Kollege.
+
+- id: a2-u03-ch-mcq-kaefeli
+  type: mcq
+  skill: listening
+  variety: gsw-zh
+  prompt: Listen to Reto. What does he offer Sandra?
+  transcript: |-
+    Reto: Ja, Znünipause, zäh Minute. Wottsch es Käfeli?
+  options: ["A coffee", "A croissant", "A day off", "A small cake"]
+  answer: 0
+  explanation: >-
+    es Käfeli = ein Kaffee, a friendly diminutive of Kafi with -li (neuter, like s Gipfeli). It doesn't have
+    to be a small coffee – -li often just sounds friendly. Znünipause = the morning break.
+
+- id: a2-u03-ch-gap-dative
+  type: gap
+  skill: grammar
+  variety: gsw-zh
+  grammar: [dative-articles, dative-prepositions]
+  prompt: "Guided production: fill in the Zurich dative article em (dem) or de (der)."
+  text: Ich chume mit ___ Velo. Ich bi no bi ___ Arbet.
+  answers: [["em"], ["de"]]
+  explanation: >-
+    das Velo → mit em Velo (neuter: em), die Arbet → bi de Arbet (feminine: de). Two short articles cover the
+    whole dative in Zurich German: em and de.
+
+- id: a2-u03-ch-transform-de-gsw
+  type: transform
+  skill: vocabulary
+  variety: gsw-zh
+  prompt: "Recognition: how do you say this in Zurich German? (Common spellings are accepted.)"
+  from: de
+  to: gsw-zh
+  source: Ich arbeite gern.
+  answers: ["Ich schaffe gärn.", "Ich schaff gärn.", "Ich schaffe gern.", "Ich schaff gern."]
+  explanation: >-
+    arbeiten → schaffe, gern → gärn. The first person often drops the -e: ich schaff.
+
+- id: a2-u03-roleplay-reto
+  type: roleplay
+  skill: listening
+  variety: gsw-zh
+  grammar: [seit-present, dative-prepositions, perfekt-haben]
+  tutor: reto
+  prompt: "Listening roleplay with Reto: Znüni break at the café."
+  scenario: >-
+    You drop in at Reto's café during his Znüni break. He asks about your job in Zurich German and tells you
+    about his. You answer in Standard German.
+  goals:
+    - Understand Was schaffsch du? and Sit wänn …?
+    - Understand Reto's answers (sit drü Jahr, e Lehr als Koch, de Chef, d Kollege).
+    - Tell Reto your job, since when and how you get to work.
+  model: |
+    Reto: Hoi! Wottsch es Käfeli? Und was schaffsch du eigentlich?
+    Du: Gern, danke! Ich bin Lehrerin. Ich arbeite an einer Schule in Oerlikon.
+    Reto: Ah, lässig! Sit wänn?
+    Du: Seit einem Jahr. Und du? Seit wann arbeitest du hier?
+    Reto: Sit drü Jahr. Vorher han ich e Lehr als Koch gmacht.
+    Du: Und wie ist dein Chef?
+    Reto: De Chef isch nett, und d Kollege sind super.
+  explanation: >-
+    Decoding: schaffsch = arbeitest, sit wänn = seit wann, sit drü Jahr = seit drei Jahren, e Lehr = eine
+    Lehre, d Kollege = die Kollegen.
+
+# ---------- Bernese (gsw-be, recognition) ----------
+- id: a2-u03-ch-be-mcq-bueez
+  type: mcq
+  skill: listening
+  variety: gsw-be
+  prompt: Listen to Sandra's mother. What does she ask?
+  transcript: |-
+    Mami: Sandra, wie geit's bi dr Büez?
+  options: ["Where Sandra works", "How work is going", "When Sandra finishes work", "Whether Sandra has a new job"]
+  answer: 1
+  explanation: >-
+    Wie geit's? = Wie geht's?, bi dr Büez = bei der Arbeit (berndeutsch.ch: Büez f.). Bernese dr is the
+    feminine dative article, Zurich de.
+
+- id: a2-u03-ch-be-transform
+  type: transform
+  skill: reading
+  variety: gsw-be
+  prompt: What does Sandra answer? Write it in Standard German.
+  from: gsw-be
+  to: de
+  source: I ha viu z tüe. Morn hani frei.
+  answers: ["Ich habe viel zu tun. Morgen habe ich frei.", "Ich habe viel zu tun. Morgen hab ich frei."]
+  explanation: >-
+    i = ich, viu = viel (l → u in Bernese), z tüe = zu tun, morn = morgen, hani = habe ich.
+
+- id: a2-u03-ch-be-match
+  type: match
+  skill: vocabulary
+  variety: gsw-be
+  prompt: Match the Bernese words with Standard German.
+  pairs:
+    - ["d Pouse", "die Pause"]
+    - ["schaffe", "arbeiten"]
+    - ["viu", "viel"]
+    - ["d Stifti", "die Lehre"]
+  explanation: >-
+    From berndeutsch.ch: Pouse (f.), schaffe (participle gschaffet), Stifti (f., apprenticeship). viu shows
+    the Bernese l → u (Miuch, aues).

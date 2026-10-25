@@ -93,3 +93,35 @@ describe('A1 complete milestone', () => {
     expect(levelMilestone(p, [], list, false)).toMatchObject({ canDoDone: 1, canDoTotal: 24, hasExam: false });
   });
 });
+
+describe('A1 complete with a partial A2 pack installed', () => {
+  const a2Units = [1, 2, 3].map((n) =>
+    CompiledUnit.parse({
+      ...fixtureUnit,
+      id: `a2-u0${n}`,
+      level: 'A2',
+      number: n,
+      exercises: fixtureUnit.exercises.map((e) => ({ ...e, id: e.id.replace('a1-u01', `a2-u0${n}`) })),
+    }),
+  );
+  const a2 = { level: 'A2', version: 't', builtAt: '', units: a2Units, exams: [] } as unknown as LevelPack;
+  const a1Done = units.map((u) => status(u.id, true));
+
+  it('A1 complete needs only the A1 units and the A1 exam; A2 progress does not count', () => {
+    const p = pack();
+    // Nothing done in A2.
+    expect(levelMilestone(p, a1Done, canDoChecklist(p, [], a1Done), true)).toMatchObject({ units: 12, unitsDone: 12, complete: true });
+    // A2 units done do not stand in for missing A1 units.
+    const mixed = [...a1Done.slice(3), ...a2Units.map((u) => status(u.id, true))];
+    expect(levelMilestone(p, mixed, canDoChecklist(p, [], mixed), true)).toMatchObject({ unitsDone: 9, complete: false });
+  });
+
+  it('a preview level (3 of 12 units) is never complete, and its checklist lists only its own units', () => {
+    const done = a2Units.map((u) => status(u.id, true));
+    const all = [...a1Done, ...done];
+    const list = canDoChecklist(a2, a2Units.flatMap(allRight), all);
+    expect(list.map((u) => u.unit.id)).toEqual(['a2-u01', 'a2-u02', 'a2-u03']);
+    expect(list.every((u) => u.check.passed)).toBe(true);
+    expect(levelMilestone(a2, all, list, true)).toMatchObject({ units: 3, unitsDone: 3, allUnitsDone: false, complete: false, canDoDone: 6, canDoTotal: 6 });
+  });
+});

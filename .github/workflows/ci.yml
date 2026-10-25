@@ -48,6 +48,14 @@ jobs:
       - name: Performance budget (initial JS < 200 KB gzip)
         run: npm run budget -w @doppelpunkt/web
 
+      # Beta variant for e2e/beta (playwright.beta.config.ts): VITE_COLLECTOR_URL points at a mock
+      # collector the specs serve with page.route. Same budget as the regular build.
+      - name: Build the beta variant (dist-beta)
+        run: npm run build:e2e-beta -w @doppelpunkt/web
+
+      - name: Performance budget, beta variant
+        run: npm run budget -w @doppelpunkt/web -- --dist dist-beta
+
       - name: Cache Playwright browsers
         uses: actions/cache@v4
         with:
@@ -57,7 +65,7 @@ jobs:
       - name: Install Playwright Chromium
         run: npx playwright install --with-deps chromium
 
-      - name: End-to-end tests
+      - name: End-to-end tests (regular build, then the beta build)
         run: npm run test:e2e
 
       - name: Upload Playwright report
@@ -68,4 +76,6 @@ jobs:
           path: |
             apps/web/playwright-report/
             apps/web/test-results/
+            apps/web/playwright-report-beta/
+            apps/web/test-results-beta/
           retention-days: 14

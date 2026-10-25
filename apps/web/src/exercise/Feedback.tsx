@@ -3,6 +3,7 @@ import type { CompiledUnit, Exercise } from '@doppelpunkt/content-schema';
 import { diffWords, type GradeResult } from '@doppelpunkt/engine';
 import { explain } from '@doppelpunkt/ai';
 import { DiffView } from '../components/DiffView';
+import { ReportProblem } from '../components/ReportProblem';
 import { GermanText } from '../components/GermanText';
 import { aiUnavailableMessage, errorMessage, useAi } from '../lib/ai';
 import { resultTone, type ResultTone } from '../lib/feedback';
@@ -76,6 +77,7 @@ export function Feedback({ ex, unit, result, answer }: { ex: Exercise; unit: Com
         )}
       </div>
       <WhyButton ex={ex} unit={unit} answer={answer} />
+      <ReportProblem target={{ itemId: ex.id, unitId: unit.id, answer }} />
     </section>
   );
 }

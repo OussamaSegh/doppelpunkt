@@ -1,0 +1,345 @@
+# A2 unit 2 – Reisen und Ferien
+
+# ---------- travelling ----------
+- id: reise
+  de: Reise
+  en: journey, trip
+  pos: noun
+  gender: f
+  plural: Reisen
+  example: { de: "Die Reise hat vier Stunden gedauert.", en: "The journey took four hours." }
+  gswZh: Reis
+  tags: [travel]
+
+- id: reisen
+  de: reisen
+  en: to travel
+  pos: verb
+  example: { de: "Lena ist mit dem Zug durch die Schweiz gereist.", en: "Lena travelled through Switzerland by train." }
+  gswZh: reise
+  tags: [travel, sein]
+
+- id: ferien
+  de: Ferien
+  en: holidays, vacation
+  pos: noun
+  pluralOnly: true
+  example: { de: "Wo bist du in den Ferien gewesen?", en: "Where were you on holiday?" }
+  gswZh: Ferie (i d Ferie gaa)
+  tags: [travel, helvetism]
+
+- id: urlaub
+  de: Urlaub
+  en: holiday, leave (from work)
+  pos: noun
+  gender: m
+  plural: Urlaube
+  example: { de: "Ich habe zwei Wochen Urlaub.", en: "I have two weeks off." }
+  chStd: Ferien (Urlaub mostly = leave from work or the army)
+  gswZh: Ferie / Urlaub
+  tags: [travel]
+
+- id: fliegen
+  de: fliegen
+  en: to fly
+  pos: verb
+  example: { de: "Wir sind nach London geflogen.", en: "We flew to London." }
+  gswZh: flüüge (gflooge)
+  tags: [travel, irregular, sein]
+
+- id: flughafen
+  de: Flughafen
+  en: airport
+  pos: noun
+  gender: m
+  plural: Flughäfen
+  example: { de: "Der Flughafen Zürich ist in Kloten.", en: "Zurich airport is in Kloten." }
+  gswZh: Flughafe
+  tags: [travel]
+
+- id: flugzeug
+  de: Flugzeug
+  en: plane
+  pos: noun
+  gender: n
+  plural: Flugzeuge
+  example: { de: "Das Flugzeug ist pünktlich gelandet.", en: "The plane landed on time." }
+  gswZh: Flugzüg
+  tags: [travel]
+
+- id: ankommen
+  de: ankommen
+  en: to arrive
+  pos: verb
+  example: { de: "Der Zug ist um acht Uhr in Lugano angekommen.", en: "The train arrived in Lugano at eight." }
+  gswZh: "aacho (ich chume aa, participle aacho)"
+  tags: [travel, separable, irregular, sein]
+
+- id: ankunft
+  de: Ankunft
+  en: arrival
+  pos: noun
+  gender: f
+  plural: Ankünfte
+  example: { de: "Die Ankunft in Lugano ist um 10.12 Uhr.", en: "Arrival in Lugano is at 10.12." }
+  gswZh: Aakunft
+  tags: [travel, station]
+
+- id: gleis
+  de: Gleis
+  en: track, platform (number)
+  pos: noun
+  gender: n
+  plural: Gleise
+  example: { de: "Der Zug nach Lugano fährt auf Gleis acht.", en: "The train to Lugano leaves from platform eight." }
+  gswZh: Gleis
+  tags: [travel, station]
+
+- id: verspaetung
+  de: Verspätung
+  en: delay
+  pos: noun
+  gender: f
+  plural: Verspätungen
+  example: { de: "Der Zug hat zehn Minuten Verspätung.", en: "The train is ten minutes late." }
+  gswZh: Verspätig
+  tags: [travel, station]
+
+- id: einfach-retour
+  de: einfach / hin und zurück
+  en: single / return (ticket)
+  pos: phrase
+  example: { de: "Eine Fahrkarte nach Hamburg, hin und zurück, bitte.", en: "A return ticket to Hamburg, please." }
+  chStd: einfach / retour (Ein Billett nach Lugano, retour.)
+  gswZh: eifach / retour
+  tags: [travel, station, helvetism]
+
+- id: koffer
+  de: Koffer
+  en: suitcase
+  pos: noun
+  gender: m
+  plural: Koffer
+  example: { de: "Ich habe meinen Koffer schon gepackt.", en: "I've already packed my suitcase." }
+  gswZh: Koffer
+  tags: [travel]
+
+- id: gepaeck
+  de: Gepäck
+  en: luggage
+  pos: noun
+  gender: n
+  plural: "-"
+  example: { de: "Wo ist dein Gepäck?", en: "Where is your luggage?" }
+  gswZh: Gepäck
+  tags: [travel]
+
+- id: packen
+  de: packen
+  en: to pack
+  pos: verb
+  example: { de: "Hast du den Koffer gepackt?", en: "Have you packed the suitcase?" }
+  gswZh: packe (packt)
+  tags: [travel]
+
+# ---------- accommodation ----------
+- id: hotel
+  de: Hotel
+  en: hotel
+  pos: noun
+  gender: n
+  plural: Hotels
+  example: { de: "Wir haben in einem Hotel am See gewohnt.", en: "We stayed in a hotel by the lake." }
+  gswZh: Hotel
+  tags: [accommodation]
+
+- id: jugendherberge
+  de: Jugendherberge
+  en: youth hostel
+  pos: noun
+  gender: f
+  plural: Jugendherbergen
+  example: { de: "In Zermatt habe ich in einer Jugendherberge übernachtet.", en: "In Zermatt I stayed in a youth hostel." }
+  gswZh: Jugi (colloquial) / Jugendherbärg
+  tags: [accommodation]
+
+- id: ferienwohnung
+  de: Ferienwohnung
+  en: holiday flat
+  pos: noun
+  gender: f
+  plural: Ferienwohnungen
+  example: { de: "Wir haben eine Ferienwohnung in Ascona gemietet.", en: "We rented a holiday flat in Ascona." }
+  gswZh: Ferienwohnig
+  tags: [accommodation]
+
+- id: einzelzimmer
+  de: Einzelzimmer
+  en: single room
+  pos: noun
+  gender: n
+  plural: Einzelzimmer
+  example: { de: "Ein Einzelzimmer kostet 120 Franken pro Nacht.", en: "A single room costs 120 francs a night." }
+  gswZh: Einzelzimmer
+  tags: [accommodation]
+
+- id: doppelzimmer
+  de: Doppelzimmer
+  en: double room
+  pos: noun
+  gender: n
+  plural: Doppelzimmer
+  example: { de: "Haben Sie noch ein Doppelzimmer frei?", en: "Do you still have a double room available?" }
+  gswZh: Doppelzimmer
+  tags: [accommodation]
+
+- id: uebernachtung
+  de: Übernachtung
+  en: overnight stay
+  pos: noun
+  gender: f
+  plural: Übernachtungen
+  example: { de: "Die Übernachtung mit Frühstück kostet 90 Franken.", en: "The night with breakfast costs 90 francs." }
+  gswZh: Übernachtig
+  tags: [accommodation]
+
+- id: rezeption
+  de: Rezeption
+  en: reception (desk)
+  pos: noun
+  gender: f
+  plural: Rezeptionen
+  example: { de: "Den Schlüssel bekommen Sie an der Rezeption.", en: "You get the key at reception." }
+  gswZh: Rezeption
+  tags: [accommodation]
+
+- id: reservieren
+  de: reservieren
+  en: to reserve, to book
+  pos: verb
+  example: { de: "Ich möchte ein Doppelzimmer für zwei Nächte reservieren.", en: "I'd like to book a double room for two nights." }
+  gswZh: reserviere
+  tags: [accommodation, ieren]
+
+- id: buchen
+  de: buchen
+  en: to book
+  pos: verb
+  example: { de: "Ich habe das Hotel online gebucht.", en: "I booked the hotel online." }
+  gswZh: bueche (buecht)
+  tags: [accommodation]
+
+# ---------- places and sights ----------
+- id: strand
+  de: Strand
+  en: beach
+  pos: noun
+  gender: m
+  plural: Strände
+  example: { de: "Wir haben den ganzen Tag am Strand gelegen.", en: "We lay on the beach all day." }
+  gswZh: Strand
+  tags: [places]
+
+- id: meer
+  de: Meer
+  en: sea
+  pos: noun
+  gender: n
+  plural: Meere
+  example: { de: "Die Schweiz hat kein Meer, aber viele Seen.", en: "Switzerland has no sea, but lots of lakes." }
+  gswZh: Meer
+  tags: [places]
+
+- id: landschaft
+  de: Landschaft
+  en: landscape, scenery
+  pos: noun
+  gender: f
+  plural: Landschaften
+  example: { de: "Die Landschaft war wunderschön.", en: "The scenery was beautiful." }
+  gswZh: Landschaft
+  tags: [places]
+
+- id: tal
+  de: Tal
+  en: valley
+  pos: noun
+  gender: n
+  plural: Täler
+  example: { de: "Der Zug fährt durch viele Täler.", en: "The train goes through lots of valleys." }
+  gswZh: Tal
+  tags: [places]
+
+- id: aussicht
+  de: Aussicht
+  en: view
+  pos: noun
+  gender: f
+  plural: Aussichten
+  example: { de: "Das Zimmer hat eine Aussicht auf den See.", en: "The room has a view of the lake." }
+  gswZh: Uussicht
+  tags: [places]
+
+- id: sehenswuerdigkeit
+  de: Sehenswürdigkeit
+  en: sight, place of interest
+  pos: noun
+  gender: f
+  plural: Sehenswürdigkeiten
+  example: { de: "Das Matterhorn ist eine berühmte Sehenswürdigkeit.", en: "The Matterhorn is a famous sight." }
+  gswZh: Sehenswürdigkeit
+  tags: [places]
+
+- id: besichtigen
+  de: besichtigen
+  en: to visit, to see (a sight)
+  pos: verb
+  example: { de: "In Bern haben wir die Altstadt besichtigt.", en: "In Bern we visited the old town." }
+  gswZh: aaluege / besichtige
+  tags: [places, inseparable]
+
+- id: seilbahn
+  de: Seilbahn
+  en: cable car
+  pos: noun
+  gender: f
+  plural: Seilbahnen
+  example: { de: "Wir sind mit der Seilbahn auf den Berg gefahren.", en: "We went up the mountain by cable car." }
+  gswZh: Seilbahn / Bähnli
+  tags: [places, switzerland]
+
+- id: wanderung
+  de: Wanderung
+  en: hike
+  pos: noun
+  gender: f
+  plural: Wanderungen
+  example: { de: "Die Wanderung hat fünf Stunden gedauert.", en: "The hike took five hours." }
+  gswZh: Wanderig
+  tags: [places]
+
+- id: postkarte
+  de: Postkarte
+  en: postcard
+  pos: noun
+  gender: f
+  plural: Postkarten
+  example: { de: "Ich habe dir eine Postkarte geschrieben.", en: "I wrote you a postcard." }
+  gswZh: Poschtcharte / Charte
+  tags: [travel]
+
+- id: passieren
+  de: passieren
+  en: to happen
+  pos: verb
+  example: { de: "Was ist passiert?", en: "What happened?" }
+  gswZh: passiere
+  tags: [verbs, sein, ieren]
+
+- id: wunderschoen
+  de: wunderschön
+  en: beautiful, wonderful
+  pos: adj
+  example: { de: "Die Aussicht war wunderschön.", en: "The view was beautiful." }
+  gswZh: wunderschön
+  tags: [describing]

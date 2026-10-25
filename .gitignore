@@ -1,13 +1,18 @@
 node_modules/
 dist/
+dist-beta/
 build/
 .vite/
 coverage/
 playwright-report/
+playwright-report-beta/
 test-results/
+test-results-beta/
 *.log
 .DS_Store
 .env
 .env.*
 !.env.example
 apps/web/public/packs/
+# Beta exports and reports (raw collector data; see docs/BETA.md). Root only: apps/web/src/beta is code.
+/beta/

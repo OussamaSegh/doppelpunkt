@@ -4,6 +4,7 @@ import { useLiveQuery } from 'dexie-react-hooks';
 import { db, updateSettings, type ThemePref } from '../db';
 import { useActivityTimer, useSettings } from '../lib/hooks';
 import { applyTheme } from '../lib/theme';
+import { betaActive } from '../lib/beta/config';
 import { Logo } from './Logo';
 
 type NavItem = { to: string; label: string; icon: string };
@@ -23,6 +24,9 @@ const MORE: NavItem[] = [
   { to: '/pronunciation', label: 'Pronunciation', icon: 'M12 3a3 3 0 0 0-3 3v6a3 3 0 0 0 6 0V6a3 3 0 0 0-3-3zM5 11a7 7 0 0 0 14 0M12 18v3M8 21h8' },
   { to: '/exam', label: 'Mock exams', icon: 'M7 3h7l4 4v14H7zM14 3v4h4M10 12h5M10 16h5' },
 ];
+
+/** Beta builds only. */
+const BETA_NAV: NavItem = { to: '/beta', label: 'Beta feedback', icon: 'M5 21V4M5 4h11l-2 4 2 4H5' };
 
 const THEME_NEXT: Record<ThemePref, ThemePref> = { system: 'light', light: 'dark', dark: 'system' };
 const THEME_LABEL: Record<ThemePref, string> = { system: 'Theme: system', light: 'Theme: light', dark: 'Theme: dark' };
@@ -62,6 +66,8 @@ const TITLES: Record<string, string> = {
   progress: 'Progress',
   settings: 'Settings',
   placement: 'Placement test',
+  beta: 'Beta',
+  privacy: 'Privacy',
 };
 
 /**
@@ -115,7 +121,7 @@ export function Layout() {
           ))}
         </nav>
         <nav aria-label="Reference" className="mt-4 flex flex-col gap-1 border-t border-line pt-4">
-          {MORE.map((n) => (
+          {[...MORE, ...(betaActive() ? [BETA_NAV] : [])].map((n) => (
             <NavLink key={n.to} to={n.to} className={link}>
               <NavIcon d={n.icon} />
               {n.label}

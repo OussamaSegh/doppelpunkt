@@ -74,7 +74,7 @@ export function explainPlacement(
     out.push(
       `You passed ${top.level} with ${pct(top.score)}. Between ${pass} and ${mastered} you skip ahead in proportion — the closer to ${mastered}, the further in — which puts you at unit ${placed.unit}${
         unitsPerLevel[top.level] ? ` of ${unitsPerLevel[top.level]}` : ''
-      }.`,
+      }${(unitsPerLevel[top.level] ?? 12) < 12 ? ` (the ${top.level} units available so far; ${top.level} is a preview)` : ''}.`,
     );
   }
   if (failed) {

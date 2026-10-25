@@ -146,23 +146,32 @@ numbers and dates (8, 9), time expressions (4, 9).
 Grammar spine: Perfekt, dative, two-way prepositions, comparatives, *weil/dass/wenn*, reflexive verbs.
 Swiss lane: introduces the absence of the Präteritum, *go* + infinitive, *-li* diminutives.
 
-### A2.1 Wie war das Wochenende? – *How was the weekend?*
-- **Goal:** tell what you did at the weekend.
-- **Grammar:** Perfekt with *haben*; regular participles (*ge-...-t*); participles of separable verbs (*eingekauft*); time markers (*gestern, letztes Wochenende*).
-- **Vocabulary:** weekend activities, household chores, time expressions for the past.
-- **Swiss lane:** **Swiss German has no Präteritum.** Every past is Perfekt: *ich ha gmacht, ich bi gsii, ich ha gha*. Participles without *e*: *gmacht, gchauft, gseit*.
+Swiss lane at A2: still mostly **recognition** (gsw → de transforms, listening MCQs, matching, de → gsw
+transforms with many accepted spellings), plus **guided production** from A2.1: one short gap per unit where
+the learner writes a single dialect form from a given model (a participle, an auxiliary, a dative article).
+No free dialect writing or speaking before B1; `speak` items stay `de` / `ch-std`. Bernese: 3 recognition
+items per unit and two or three lines from Sandra's mother in the Swiss-lane dialogue, as in A1.
 
-### A2.2 Reisen und Ferien – *Travel and holidays*
+### A2.1 Wie war das Wochenende? – *How was the weekend?* ✅ written
+- **Goal:** tell what you did at the weekend, in order, and ask others.
+- **Grammar:** Perfekt with *haben* (bracket: *habe … gemacht*); regular participles (*ge-...-t*, *-et* after t/d, no *ge-* for *-ieren* and inseparable *be-/er-/ver-*); participles of separable verbs (*eingekauft, aufgeräumt*); time markers (*gestern, vorgestern, letztes Wochenende, letzte Woche, vor drei Tagen, zuerst, dann, danach*); *Wie war …?* as a chunk. Five irregular participles (*gegessen, getrunken, geschlafen, gesehen, gelesen*) as words only.
+- **Vocabulary:** weekend activities, household chores (*aufräumen, putzen, Wäsche waschen, staubsaugen, bügeln*), time expressions for the past, *Zopf, Brunch, Flohmarkt*.
+- **Swiss lane:** **Swiss German has no Präteritum.** Every past is Perfekt: *Wie isch s Wuchenänd gsii?, ich bi gsii, ich ha gha, ich ha gschaffet*. Participles without *e*: *gmacht, gseit, gspilt*; ge- swallowed before p/t/k (*putzt, kauft*, also written *gchauft*); irregular in *-e* (*uusgschlafe, gfahre, cho, gange*); *han ich*, *hämmer*. Preview of *go* + infinitive: *Ich gang go poschte*, *Ich bi go schwümme*. First guided production: two participles in a gap (*gmacht, gschaffet*). Intro dialogue with a ch-std colleague (Nadine: *fleissig, grilliert*). Helvetisms: *grillieren, glätten* (bügeln), *Velotour*. Bernese: *gsy, ds Wuchenänd, Bisch guet hei cho?, Das fröit mi*.
+- **Pronunciation:** unstressed *ge-*, ach-Laut in *gekocht / gelacht*, final devoicing (*Tag, Abend*); falling W-question *Wie war dein Wochenende?*; shadowing Tom and the Swiss Standard colleague.
+
+### A2.2 Reisen und Ferien – *Travel and holidays* ✅ written
 - **Goal:** talk about past trips, and book a room or a ticket.
-- **Grammar:** Perfekt with *sein* (motion and change); irregular participles; Präteritum of *sein* and *haben* (*war, hatte*).
-- **Vocabulary:** travel, accommodation, holidays, landscapes.
-- **Swiss lane:** Ferien (ch-std for Urlaub); *Mir sind is Tessin gfahre*; *gsii* instead of *war*; the Swiss rail network as a topic.
+- **Grammar:** Perfekt with *sein* (movement A → B, change of state, *sein / bleiben / passieren*; *fahren* + object takes *haben*); irregular participles (*ge-...-en*, vowel groups, mixed verbs *gebracht*; separable *angekommen, aufgestanden*); Präteritum of *sein* and *haben* (*war, hatte*) as the normal past of these two verbs; booking chunks (*Haben Sie noch ein Doppelzimmer frei?, für zwei Nächte, vom … bis …, Was kostet die Nacht?*). Swiss Standard *ich bin gelegen / gesessen / gestanden* (Duden).
+- **Vocabulary:** travel, accommodation (*Einzelzimmer, Jugendherberge, Ferienwohnung, Übernachtung*), the station (*Gleis, Verspätung, Ankunft, einfach / retour*), landscapes and sights.
+- **Swiss lane:** Ferien (ch-std for Urlaub); *Mir sind is Tessin gfahre*; *Wo bisch i de Ferie gsii?* (*gsii* instead of *war*); sein/haben split in dialect (*mir sind gfahre / gwanderet*, *mir händ gwohnt*, *es hät grägnet*); *z Ascona, uf Grindelwald, inere Ferienwohnig*; guided production: choose *sind* or *händ*. The Swiss rail network as a topic (Gotthard Base Tunnel, Glacier Express, punctuality, Billett, Halbtax, GA). Intro dialogue with a ch-std colleague. Bernese: *mir sy … gsy, dir syt, gfahre, ds Outo, o* (auch).
+- **Pronunciation:** w / v / f (*wir waren vier Wochen …*); rising polite yes/no questions at the hotel; shadowing Tom and the Swiss Standard colleague.
 
-### A2.3 Arbeit und Beruf – *Work and jobs*
-- **Goal:** describe your job and workplace, and understand a job ad.
-- **Grammar:** the dative: articles and endings; prepositions with the dative (*mit, bei, von, zu, nach, aus, seit*); dative pronouns.
-- **Vocabulary:** jobs, the workplace, working hours, colleagues.
-- **Swiss lane:** *schaffe*, Büez, Lehre / Lehrling (apprenticeship), Chef, Kolleg; *bim* (beim), *am* / *im* contractions; Znüni-Pause culture.
+### A2.3 Arbeit und Beruf – *Work and jobs* ✅ written
+- **Goal:** describe your job and workplace, say since when you have worked there, and understand a job ad.
+- **Grammar:** the dative: articles and endings (*dem / der / dem / den + -n*, *einem / einer*, possessives); prepositions with the dative (*aus, bei, mit, nach, seit, von, zu*; *beim, vom, zum, zur*; *nach Hause / zu Hause*); dative pronouns after prepositions (*mit mir, bei dir, zu ihm, mit Ihnen*); *seit* + present tense (*Ich arbeite seit zwei Jahren hier*) vs *vor* + Perfekt. Jobs without an article (review). *helfen* + dative as a chunk (verbs with the dative are A2.4).
+- **Vocabulary:** jobs, the workplace, working hours (*Teilzeit, Schicht, Feierabend*), pay, training and the job hunt (*Lehre, Stelle, Bewerbung, Lebenslauf*).
+- **Swiss lane:** *schaffe*, Büez, Lehre / Lernende / Stifti (apprenticeship; s KV), Chef, Kolleg (also = friend), *streng* (= anstrengend, Duden: schweizerisch); short dative articles *em / de*, *eme / emene, ere / enere*, *bim* (beim), *mit em Velo*, *bi de Arbet*, *sit drü Jahr*; Znüni-Pause culture with a first *-li* (*es Käfeli*). Reading: a Swiss job ad with a Pensum (80–100 %) and Detailhandel. Intro dialogue with a ch-std colleague from Bern (Martin). Guided production: *em* or *de*. Bernese: *bi dr Büez, viu z tüe, hani, d Pouse, o mau*.
+- **Pronunciation:** z = ts (*Arbeitszeit, Teilzeit, zwölf*); W-question with a stressed short answer (*Seit wann …? – Seit ZWEI Jahren*); shadowing Tom and the Swiss Standard colleague.
 
 ### A2.4 Geschenke und Einladungen – *Presents and invitations*
 - **Goal:** give and receive presents, and say what you like and what suits someone.

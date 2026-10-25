@@ -1,5 +1,6 @@
+import { readFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
-import { defineConfig } from 'vite';
+import { defineConfig, type UserConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import tailwindcss from '@tailwindcss/vite';
 import { VitePWA } from 'vite-plugin-pwa';
@@ -11,9 +12,22 @@ export const workspaceAliases = {
   '@doppelpunkt/content-schema': pkg('content-schema'),
   '@doppelpunkt/engine': pkg('engine'),
   '@doppelpunkt/ai': pkg('ai'),
+  '@doppelpunkt/beta-schema': pkg('beta-schema'),
 };
 
-export default defineConfig({
+/** App version for beta envelopes: the root package.json version. */
+const appVersion = (JSON.parse(readFileSync(new URL('../../package.json', import.meta.url), 'utf8')) as { version: string }).version;
+// Exposed as import.meta.env.VITE_APP_VERSION (Vite picks up VITE_* variables from process.env).
+process.env.VITE_APP_VERSION ??= appVersion;
+
+/**
+ * `vite build --mode e2e-beta` (npm run build:e2e-beta) builds the beta variant for the Playwright beta
+ * suite (playwright.beta.config.ts) into dist-beta, pointing at a mock collector that the specs serve
+ * with page.route. Keep in sync with COLLECTOR_ORIGIN in e2e/beta/collector.ts.
+ */
+export const E2E_COLLECTOR_URL = 'http://127.0.0.1:4329';
+
+const config: UserConfig = {
   resolve: { alias: workspaceAliases },
   build: {
     rollupOptions: {
@@ -60,7 +74,7 @@ export default defineConfig({
         // Take control of the page on first install, so the first visit's requests are cached too.
         clientsClaim: true,
         navigateFallback: 'index.html',
-        navigateFallbackDenylist: [/^\/packs\//],
+        navigateFallbackDenylist: [/\/packs\//],
         runtimeCaching: [
           {
             urlPattern: ({ url }) => url.pathname.includes('/packs/') && url.pathname.endsWith('.json'),
@@ -82,4 +96,9 @@ export default defineConfig({
       },
     }),
   ],
+};
+
+export default defineConfig(({ mode }) => {
+  if (mode === 'e2e-beta') process.env.VITE_COLLECTOR_URL ??= E2E_COLLECTOR_URL;
+  return config;
 });

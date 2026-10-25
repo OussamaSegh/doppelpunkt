@@ -1,0 +1,37 @@
+name = "doppelpunkt-collector"
+main = "src/index.ts"
+compatibility_date = "2025-06-01"
+workers_dev = true
+
+# Don't keep request logs: they would contain IP addresses. The worker itself never logs.
+[observability]
+enabled = false
+
+[vars]
+# Comma-separated allowed origins, e.g. "https://doppelpunkt.example.org,http://localhost:5173".
+# Empty = any origin. Requests without an Origin header (tools, curl) are always served.
+ALLOWED_ORIGINS = ""
+# Requests per client per hour on /v1/ingest and /v1/forget.
+RATE_LIMIT_PER_HOUR = "120"
+
+# Secrets (never in this file):
+#   npx wrangler secret put INSTALL_SECRET   # hashes install ids; keep it stable, or retention restarts
+#   npx wrangler secret put RATE_SALT        # salts the short-lived rate-limit key
+#   npx wrangler secret put EXPORT_TOKEN     # bearer token for GET /v1/export; unset = export disabled
+# For `wrangler dev`, copy .dev.vars.example to .dev.vars.
+
+[[d1_databases]]
+binding = "DB"
+database_name = "doppelpunkt-beta"
+# Replace with the id printed by `npx wrangler d1 create doppelpunkt-beta`.
+database_id = "00000000-0000-0000-0000-000000000000"
+migrations_dir = "migrations"
+
+# Optional: share the rate limit between isolates. Without it, each isolate counts in memory.
+# [[kv_namespaces]]
+# binding = "RATE_LIMIT_KV"
+# id = "<id from npx wrangler kv namespace create RATE_LIMIT_KV>"
+
+# Retention policy (src/collector.ts purge): daily at 03:17 UTC.
+[triggers]
+crons = ["17 3 * * *"]

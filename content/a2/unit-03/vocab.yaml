@@ -1,0 +1,369 @@
+# A2 unit 3 – Arbeit und Beruf
+
+# ---------- jobs ----------
+- id: beruf
+  de: Beruf
+  en: job, profession
+  pos: noun
+  gender: m
+  plural: Berufe
+  example: { de: "Was sind Sie von Beruf?", en: "What do you do for a living?" }
+  gswZh: Bruef
+  tags: [work]
+
+- id: arbeit
+  de: Arbeit
+  en: work
+  pos: noun
+  gender: f
+  plural: Arbeiten
+  example: { de: "Ich fahre mit dem Bus zur Arbeit.", en: "I go to work by bus." }
+  gswZh: Arbet / Büez (colloquial)
+  gswBe: Büez (d Büez)
+  tags: [work]
+
+- id: informatiker
+  de: Informatiker / Informatikerin
+  en: IT specialist, computer scientist
+  pos: noun
+  gender: m
+  plural: Informatiker / Informatikerinnen
+  example: { de: "Tom ist Informatiker.", en: "Tom is an IT specialist." }
+  gswZh: Informatiker / Informatikerin
+  tags: [work, jobs]
+
+- id: kaufmann
+  de: Kaufmann / Kauffrau
+  en: business administrator, commercial employee
+  pos: noun
+  gender: m
+  plural: Kaufleute
+  example: { de: "Martin hat eine Lehre als Kaufmann gemacht.", en: "Martin did an apprenticeship as a business administrator." }
+  chStd: Kaufmann EFZ / Kauffrau EFZ (s KV = the commercial apprenticeship)
+  gswZh: Kaufmaa / Kauffrau (s KV mache)
+  tags: [work, jobs, helvetism]
+
+- id: verkaeufer
+  de: Verkäufer / Verkäuferin
+  en: sales assistant
+  pos: noun
+  gender: m
+  plural: Verkäufer / Verkäuferinnen
+  example: { de: "Die Bäckerei sucht eine Verkäuferin.", en: "The bakery is looking for a sales assistant." }
+  gswZh: Verchäufer / Verchäuferin
+  tags: [work, jobs]
+
+- id: koch
+  de: Koch / Köchin
+  en: cook, chef
+  pos: noun
+  gender: m
+  plural: Köche / Köchinnen
+  example: { de: "Reto hat eine Lehre als Koch gemacht.", en: "Reto did an apprenticeship as a cook." }
+  gswZh: Koch / Köchin
+  tags: [work, jobs]
+
+- id: pflegefachfrau
+  de: Pflegefachfrau / Pflegefachmann
+  en: nurse
+  pos: noun
+  gender: f
+  plural: Pflegefachfrauen / Pflegefachmänner
+  example: { de: "Sandra ist Pflegefachfrau im Spital.", en: "Sandra is a nurse at the hospital." }
+  gswZh: Pflegfachfrau / Pflegfachmaa
+  tags: [work, jobs]
+
+- id: lehrer
+  de: Lehrer / Lehrerin
+  en: teacher
+  pos: noun
+  gender: m
+  plural: Lehrer / Lehrerinnen
+  example: { de: "Frau Keller ist Lehrerin.", en: "Frau Keller is a teacher." }
+  gswZh: Lehrer / Lehreri
+  tags: [work, jobs]
+
+# ---------- the workplace ----------
+- id: firma
+  de: Firma
+  en: company, firm
+  pos: noun
+  gender: f
+  plural: Firmen
+  example: { de: "Ich arbeite seit zwei Jahren bei der Firma.", en: "I've been working for the company for two years." }
+  gswZh: Firma
+  tags: [work, workplace]
+
+- id: buero
+  de: Büro
+  en: office
+  pos: noun
+  gender: n
+  plural: Büros
+  example: { de: "Mein Büro ist im dritten Stock.", en: "My office is on the third floor." }
+  gswZh: Büro
+  tags: [work, workplace]
+
+- id: chef
+  de: Chef / Chefin
+  en: boss
+  pos: noun
+  gender: m
+  plural: Chefs / Chefinnen
+  example: { de: "Ich gehe zum Chef.", en: "I'm going to the boss." }
+  gswZh: Chef / Chefin
+  tags: [work, workplace]
+
+- id: kollege
+  de: Kollege / Kollegin
+  en: colleague
+  pos: noun
+  gender: m
+  plural: Kollegen / Kolleginnen
+  example: { de: "Um zehn trinke ich einen Kaffee mit den Kollegen.", en: "At ten I have a coffee with my colleagues." }
+  gswZh: Kolleg / Kollegin (also = friend)
+  tags: [work, workplace]
+
+- id: mitarbeiter
+  de: Mitarbeiter / Mitarbeiterin
+  en: employee, member of staff
+  pos: noun
+  gender: m
+  plural: Mitarbeiter / Mitarbeiterinnen
+  example: { de: "Die Firma hat fünfzig Mitarbeiter.", en: "The company has fifty employees." }
+  gswZh: Mitarbeiter / Mitarbeiterin
+  tags: [work, workplace]
+
+- id: team
+  de: Team
+  en: team
+  pos: noun
+  gender: n
+  plural: Teams
+  example: { de: "Willkommen im Team!", en: "Welcome to the team!" }
+  gswZh: Team
+  tags: [work, workplace]
+
+- id: kantine
+  de: Kantine
+  en: canteen
+  pos: noun
+  gender: f
+  plural: Kantinen
+  example: { de: "Um zwölf essen wir in der Kantine.", en: "At twelve we eat in the canteen." }
+  gswZh: Kantine
+  tags: [work, workplace]
+
+- id: sitzung
+  de: Sitzung
+  en: meeting
+  pos: noun
+  gender: f
+  plural: Sitzungen
+  example: { de: "Am Montag haben wir eine Sitzung mit dem Chef.", en: "On Monday we have a meeting with the boss." }
+  gswZh: Sitzig
+  tags: [work, workplace]
+
+- id: kunde
+  de: Kunde / Kundin
+  en: customer, client
+  pos: noun
+  gender: m
+  plural: Kunden / Kundinnen
+  example: { de: "Ich spreche jeden Tag mit vielen Kunden.", en: "I talk to lots of customers every day." }
+  gswZh: Kund / Kundin
+  tags: [work, workplace]
+
+- id: homeoffice
+  de: Homeoffice
+  en: working from home
+  pos: noun
+  gender: n
+  plural: "-"
+  example: { de: "Am Freitag arbeite ich im Homeoffice.", en: "On Fridays I work from home." }
+  gswZh: Homeoffice
+  tags: [work, workplace]
+
+# ---------- training and the job hunt ----------
+- id: lehre
+  de: Lehre
+  en: apprenticeship
+  pos: noun
+  gender: f
+  plural: Lehren
+  example: { de: "Nach der Schule habe ich eine Lehre gemacht.", en: "After school I did an apprenticeship." }
+  gswZh: Lehr / Stifti (colloquial)
+  gswBe: Lehr / Stifti
+  tags: [work, education, switzerland]
+
+- id: lernende
+  de: Lehrling / Auszubildende
+  en: apprentice, trainee
+  pos: noun
+  gender: m
+  plural: Lehrlinge / Auszubildenden
+  example: { de: "Unsere Firma hat drei Lehrlinge.", en: "Our company has three apprentices." }
+  chStd: der / die Lernende (official), der Lehrling
+  gswZh: Lehrling / Stift (colloquial)
+  tags: [work, education, helvetism]
+
+- id: ausbildung
+  de: Ausbildung
+  en: training, education
+  pos: noun
+  gender: f
+  plural: Ausbildungen
+  example: { de: "Die Ausbildung dauert drei Jahre.", en: "The training takes three years." }
+  gswZh: Uusbildig
+  tags: [work, education]
+
+- id: stelle
+  de: Stelle
+  en: job, position
+  pos: noun
+  gender: f
+  plural: Stellen
+  example: { de: "Ich suche eine neue Stelle.", en: "I'm looking for a new job." }
+  gswZh: Stell
+  tags: [work, jobhunt]
+
+- id: stelleninserat
+  de: Stellenanzeige
+  en: job ad
+  pos: noun
+  gender: f
+  plural: Stellenanzeigen
+  example: { de: "Ich habe die Stellenanzeige in der Zeitung gelesen.", en: "I read the job ad in the newspaper." }
+  chStd: das Stelleninserat (Inserat)
+  gswZh: Inserat / Stelleninserat
+  tags: [work, jobhunt, helvetism]
+
+- id: bewerbung
+  de: Bewerbung
+  en: (job) application
+  pos: noun
+  gender: f
+  plural: Bewerbungen
+  example: { de: "Schicken Sie Ihre Bewerbung per E-Mail.", en: "Send your application by email." }
+  gswZh: Bewerbig
+  tags: [work, jobhunt]
+
+- id: lebenslauf
+  de: Lebenslauf
+  en: CV, résumé
+  pos: noun
+  gender: m
+  plural: Lebensläufe
+  example: { de: "Ich habe meinen Lebenslauf geschrieben.", en: "I've written my CV." }
+  gswZh: Läbeslauf
+  tags: [work, jobhunt]
+
+# ---------- working time and pay ----------
+- id: arbeitszeit
+  de: Arbeitszeit
+  en: working hours
+  pos: noun
+  gender: f
+  plural: Arbeitszeiten
+  example: { de: "Meine Arbeitszeit ist von acht bis fünf.", en: "My working hours are from eight to five." }
+  gswZh: Arbetsziit
+  tags: [work, time]
+
+- id: teilzeit
+  de: Teilzeit
+  en: part-time
+  pos: noun
+  gender: f
+  plural: "-"
+  example: { de: "Anna arbeitet Teilzeit, 60 Prozent.", en: "Anna works part-time, 60 per cent." }
+  chStd: "das Pensum (ein Pensum von 60 %)"
+  gswZh: Teilziit
+  tags: [work, time, helvetism]
+
+- id: schicht
+  de: Schicht
+  en: shift
+  pos: noun
+  gender: f
+  plural: Schichten
+  example: { de: "Diese Woche habe ich die Nachtschicht.", en: "This week I'm on the night shift." }
+  gswZh: Schicht / Dienscht (Nachtdienscht)
+  tags: [work, time]
+
+- id: feierabend
+  de: Feierabend
+  en: end of the working day, time off after work
+  pos: noun
+  gender: m
+  plural: Feierabende
+  example: { de: "Um fünf habe ich Feierabend.", en: "I finish work at five." }
+  gswZh: Fiirabig
+  tags: [work, time]
+
+- id: lohn
+  de: Lohn
+  en: wage, pay
+  pos: noun
+  gender: m
+  plural: Löhne
+  example: { de: "Die Firma bezahlt einen guten Lohn.", en: "The company pays a good wage." }
+  gswZh: Lohn
+  tags: [work, money]
+
+- id: verdienen
+  de: verdienen
+  en: to earn
+  pos: verb
+  example: { de: "Wie viel verdient ein Koch in der Schweiz?", en: "How much does a cook earn in Switzerland?" }
+  gswZh: verdiene
+  tags: [work, money, inseparable]
+
+- id: selbststaendig
+  de: selbstständig
+  en: self-employed; independent
+  pos: adj
+  example: { de: "Meine Schwester ist selbstständig. Sie hat ein Café.", en: "My sister is self-employed. She has a café." }
+  gswZh: sälbständig
+  tags: [work]
+
+- id: streng
+  de: streng
+  en: strict; (Switzerland) tough, hard work
+  pos: adj
+  example: { de: "Der Chef ist streng.", en: "The boss is strict." }
+  chStd: streng = anstrengend (Die Woche war streng.)
+  gswZh: sträng / streng (= anstrengend)
+  tags: [work, describing, helvetism]
+
+# ---------- dative prepositions ----------
+- id: bei
+  de: bei
+  en: at (a company, someone's place), near
+  pos: prep
+  example: { de: "Ich arbeite bei einer Bank.", en: "I work for a bank." }
+  gswZh: bi (bim = beim)
+  tags: [prepositions, dative]
+
+- id: mit
+  de: mit
+  en: with; by (transport)
+  pos: prep
+  example: { de: "Ich fahre mit dem Tram zur Arbeit.", en: "I go to work by tram." }
+  gswZh: mit (mit em Velo)
+  tags: [prepositions, dative]
+
+- id: seit
+  de: seit
+  en: since, for (still going on)
+  pos: prep
+  example: { de: "Ich wohne seit einem Jahr in Zürich.", en: "I've been living in Zurich for a year." }
+  gswZh: sit (sit drü Jahr)
+  tags: [prepositions, dative]
+
+- id: von
+  de: von
+  en: from, of
+  pos: prep
+  example: { de: "Ich arbeite von Montag bis Freitag.", en: "I work from Monday to Friday." }
+  gswZh: vo (vom)
+  tags: [prepositions, dative]

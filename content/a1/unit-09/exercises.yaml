@@ -523,7 +523,7 @@
   skill: listening
   variety: gsw-zh
   grammar: [sollen]
-  prompt: "Sandra asks whether she should bring something. What does Reto want her to bring?"
+  prompt: "Listen to Sandra and Reto. What does Reto want her to bring?"
   transcript: |-
     Sandra: Gärn! Söll ich öppis mitbringe?
     Reto: Nei, nüt. Oder doch – e Fläsche Wii!

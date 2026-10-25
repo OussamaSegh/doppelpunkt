@@ -115,7 +115,7 @@ Doppelpunkt's own test of the Swiss lane: at A1 the lane teaches recognition onl
 listening and reading only (20 minutes, 21 points, pass at 60 %):
 
 - *Lose, Teil 1*: a conversation in a Zurich bakery, 5 × a/b/c/d (prices, numbers, Twint, days).
-- *Lose, Teil 2*: two voice messages, 4 × richtig/falsch (times with *am halbi achti*, *nöd*).
+- *Lose, Teil 2*: four short voice messages (one per item), 4 × richtig/falsch (times with *am halbi achti*, *nöd*).
 - *Läse, Teil 1*: a group chat written in dialect (Swiss people text in dialect), 4 × mcq + 1 gsw → de
   transform.
 - *Läse, Teil 2*: a 5-pair matching item (1 point per pair) and two gsw → de transforms.

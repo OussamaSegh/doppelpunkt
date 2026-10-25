@@ -287,7 +287,7 @@
     {
       "file": "stimulus-hoeren-3.mp3",
       "kind": "exam-stimulus",
-      "text": "Sprecher: Nachricht 1.\nLena: Hallo Tom, hier ist Lena. Du, morgen um sieben kann ich leider nicht, ich muss arbeiten. Geht es um acht? Ruf mich bitte an. Tschüss!\n\nSprecher: Nachricht 2.\nPraxis: Guten Tag, Frau Costa, hier ist die Praxis Dr. Huber. Ihr Termin am Donnerstag geht leider nicht. Können Sie am Freitag um Viertel nach neun kommen? Bitte rufen Sie uns zurück. Die Nummer ist 0 44 3 21 54 76. Auf Wiederhören!\n\nSprecher: Nachricht 3.\nMarco: Hallo Sandra, hier ist Marco. Ich bin im Supermarkt. Milch habe ich schon. Brauchen wir noch Eier für den Kuchen? Schreib mir bitte schnell eine Nachricht!\n\nSprecher: Nachricht 4.\nFrau Keller: Guten Tag, hier ist Frau Keller von der Sprachschule. Eine Information zum neuen Kurs: Der Kurs beginnt nicht am dritten September, er beginnt am zehnten September. Der Kurs ist am Montag und am Mittwoch. Vielen Dank und auf Wiederhören.\n\nSprecher: Nachricht 5.\nNadine: Hallo, hier ist Nadine! Meine Party ist am Samstag um acht bei mir. Essen und Getränke haben wir genug, aber bringst du bitte Musik mit? Bis Samstag!",
+      "text": "Sprecher: Nachricht 1.\nLena: Hallo Tom, hier ist Lena. Du, morgen um sieben kann ich leider nicht, ich muss arbeiten. Geht es um acht? Ruf mich bitte an. Tschüss!\n\nSprecher: Nachricht 2.\nFrau Graf: Guten Tag, Frau Costa, hier ist die Praxis Dr. Huber. Ihr Termin am Donnerstag geht leider nicht. Können Sie am Freitag um Viertel nach neun kommen? Bitte rufen Sie uns zurück. Die Nummer ist 0 44 3 21 54 76. Auf Wiederhören!\n\nSprecher: Nachricht 3.\nMarco: Hallo Sandra, hier ist Marco. Ich bin im Supermarkt. Milch habe ich schon. Brauchen wir noch Eier für den Kuchen? Schreib mir bitte schnell eine Nachricht!\n\nSprecher: Nachricht 4.\nFrau Keller: Guten Tag, hier ist Frau Keller von der Sprachschule. Eine Information zum neuen Kurs: Der Kurs beginnt nicht am dritten September, er beginnt am zehnten September. Der Kurs ist am Montag und am Mittwoch. Vielen Dank und auf Wiederhören.\n\nSprecher: Nachricht 5.\nNadine: Hallo, hier ist Nadine! Meine Party ist am Samstag um acht bei mir. Essen und Getränke haben wir genug, aber bringst du bitte Musik mit? Bis Samstag!",
       "en": "Fünf Nachrichten",
       "variety": "de",
       "speaker": "Sprecher",
@@ -331,9 +331,9 @@
     {
       "file": "ex-a1-mock1-h3-praxis.mp3",
       "kind": "listening",
-      "text": "Praxis: Guten Tag, Frau Costa, hier ist die Praxis Dr. Huber. Ihr Termin am Donnerstag geht leider nicht. Können Sie am Freitag um Viertel nach neun kommen? Bitte rufen Sie uns zurück. Die Nummer ist 0 44 3 21 54 76. Auf Wiederhören!",
+      "text": "Frau Graf: Guten Tag, Frau Costa, hier ist die Praxis Dr. Huber. Ihr Termin am Donnerstag geht leider nicht. Können Sie am Freitag um Viertel nach neun kommen? Bitte rufen Sie uns zurück. Die Nummer ist 0 44 3 21 54 76. Auf Wiederhören!",
       "variety": "de",
-      "speaker": "Praxis",
+      "speaker": "Frau Graf",
       "source": {
         "file": "a1-mock-1.yaml",
         "id": "a1-mock1-h3-praxis",
@@ -551,8 +551,8 @@
     {
       "file": "stimulus-lose-2.mp3",
       "kind": "exam-stimulus",
-      "text": "Sprecher: Nachricht 1.\nReto: Hoi Sandra, ich bi no im Büro. Ich chume hüt erscht am halbi achti hei. Chasch du no poschte? Mir bruuched Milch und Brot. Merci!\n\nSprecher: Nachricht 2.\nNadine: Hoi zäme! Mis Geburi-Fäscht isch am Friitig, nöd am Samschtig. Am achti bi mir. Bringed ihr bitte öppis z trinke mit? Ich freu mich!",
-      "en": "Zwei Sprachnachrichte",
+      "text": "Sprecher: Nachricht 1.\nReto: Hoi Sandra, ich bi no im Büro. Ich chume hüt erscht am halbi achti hei. Bis spöter!\n\nSprecher: Nachricht 2.\nReto: Sandra, no öppis: Chasch du no poschte? Mir bruuched Milch und Brot. Merci!\n\nSprecher: Nachricht 3.\nNadine: Hoi zäme! Mis Geburi-Fäscht isch am Friitig, nöd am Samschtig. Am achti bi mir.\n\nSprecher: Nachricht 4.\nNadine: No öppis: Bringed ihr bitte öppis z trinke mit? Ich freu mich!",
+      "en": "Vier Sprachnachrichte",
       "variety": "gsw-zh",
       "speaker": "Sprecher",
       "source": {
@@ -573,7 +573,7 @@
     {
       "file": "ex-a1-schwiiz1-l2-reto-zeit.mp3",
       "kind": "listening",
-      "text": "Reto: Hoi Sandra, ich bi no im Büro. Ich chume hüt erscht am halbi achti hei. Chasch du no poschte? Mir bruuched Milch und Brot. Merci!",
+      "text": "Reto: Hoi Sandra, ich bi no im Büro. Ich chume hüt erscht am halbi achti hei. Bis spöter!",
       "variety": "gsw-zh",
       "speaker": "Reto",
       "source": {
@@ -595,7 +595,7 @@
     {
       "file": "ex-a1-schwiiz1-l2-reto-poschte.mp3",
       "kind": "listening",
-      "text": "Reto: Hoi Sandra, ich bi no im Büro. Ich chume hüt erscht am halbi achti hei. Chasch du no poschte? Mir bruuched Milch und Brot. Merci!",
+      "text": "Reto: Sandra, no öppis: Chasch du no poschte? Mir bruuched Milch und Brot. Merci!",
       "variety": "gsw-zh",
       "speaker": "Reto",
       "source": {
@@ -617,7 +617,7 @@
     {
       "file": "ex-a1-schwiiz1-l2-nadine-tag.mp3",
       "kind": "listening",
-      "text": "Nadine: Hoi zäme! Mis Geburi-Fäscht isch am Friitig, nöd am Samschtig. Am achti bi mir. Bringed ihr bitte öppis z trinke mit? Ich freu mich!",
+      "text": "Nadine: Hoi zäme! Mis Geburi-Fäscht isch am Friitig, nöd am Samschtig. Am achti bi mir.",
       "variety": "gsw-zh",
       "speaker": "Nadine",
       "source": {
@@ -639,7 +639,7 @@
     {
       "file": "ex-a1-schwiiz1-l2-nadine-trinken.mp3",
       "kind": "listening",
-      "text": "Nadine: Hoi zäme! Mis Geburi-Fäscht isch am Friitig, nöd am Samschtig. Am achti bi mir. Bringed ihr bitte öppis z trinke mit? Ich freu mich!",
+      "text": "Nadine: No öppis: Bringed ihr bitte öppis z trinke mit? Ich freu mich!",
       "variety": "gsw-zh",
       "speaker": "Nadine",
       "source": {

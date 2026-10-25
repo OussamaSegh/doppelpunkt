@@ -6,6 +6,7 @@ import type { Exercise, LevelPack, MockExam } from '@doppelpunkt/content-schema'
 import type { GradeResult } from '@doppelpunkt/engine';
 import type { WritingFeedback } from '@doppelpunkt/ai';
 import { DiffView } from '../../components/DiffView';
+import { ReportProblem } from '../../components/ReportProblem';
 import { GermanText } from '../../components/GermanText';
 import { VarietyTag } from '../../components/VarietyTag';
 import type { ExamItemResult, ExamResultRow } from '../../db';
@@ -165,7 +166,7 @@ export function ExamResults({ exam, row, pack, onRetake }: { exam: MockExam; row
             <ol className="space-y-3">
               {s.exercises.map((ex, i) => (
                 <li key={ex.id}>
-                  <ReviewItem ex={ex} n={i + 1} item={items.get(ex.id)} />
+                  <ReviewItem ex={ex} n={i + 1} item={items.get(ex.id)} examId={exam.id} />
                 </li>
               ))}
             </ol>
@@ -176,7 +177,7 @@ export function ExamResults({ exam, row, pack, onRetake }: { exam: MockExam; row
   );
 }
 
-function ReviewItem({ ex, n, item }: { ex: Exercise; n: number; item?: ExamItemResult }) {
+function ReviewItem({ ex, n, item, examId }: { ex: Exercise; n: number; item?: ExamItemResult; examId: string }) {
   const result = item?.result as GradeResult | undefined;
   const feedback = item?.feedback as WritingFeedback | undefined;
   const full = !!item && item.points >= item.max;
@@ -256,6 +257,7 @@ function ReviewItem({ ex, n, item }: { ex: Exercise; n: number; item?: ExamItemR
           </ul>
         )}
       </div>
+      <ReportProblem target={{ itemId: ex.id, unitId: `exam-${examId}`, answer: item?.answer }} />
     </article>
   );
 }

@@ -1,14 +1,15 @@
 # Deploying Doppelpunkt
 
 Doppelpunkt is a static PWA. The production build is a folder of HTML, JS, CSS and JSON
-(`apps/web/dist/`), and any static host can serve it. There is no backend. Learners' progress
+(`apps/web/dist/`), and any static host can serve it. No backend is required. Learners' progress
 stays in their browser (IndexedDB), and their AI keys go only to the provider they choose, or to
-the optional relay. Two parts are optional:
+the optional relay. Three parts are optional:
 
 | Part | Needed when | Where |
 | --- | --- | --- |
 | Audio CDN (R2 / S3) | The recordings make the site too heavy for the static host, or you want audio cached at the edge | `npm run audio:upload`, `AUDIO_*` env vars |
 | AI relay (Cloudflare Worker) | A provider or network blocks direct browser calls (CORS) | `services/relay/` |
+| Beta collector (Cloudflare Worker + D1) | You run the closed beta and want opt-in feedback, item statistics and crash reports | `services/collector/` |
 
 ## 1. Build
 
@@ -216,10 +217,59 @@ Learners then paste the Worker URL under **Settings → AI → Relay URL**. The 
 request, through the relay, so only use a relay you run yourself or trust. Details, including
 the header allowlist, are in `services/relay/README.md`.
 
-## 5. Checklist before a release
+## 5. The optional beta collector
+
+The v0.5 beta can send opt-in feedback reports, per-item counters and crash reports to a collector:
+a Cloudflare Worker with a D1 database (`services/collector/`). A build without a collector URL sends
+nothing and the beta switches explain that they are not active. What is stored and for how long is
+in `docs/PRIVACY.md`; the endpoints are in `services/collector/README.md`.
+
+```sh
+cd services/collector
+npx wrangler login
+npx wrangler d1 create doppelpunkt-beta --location weur   # EU location; paste database_id into wrangler.toml
+npx wrangler d1 migrations apply doppelpunkt-beta --remote
+openssl rand -hex 32 | npx wrangler secret put INSTALL_SECRET
+openssl rand -hex 32 | npx wrangler secret put RATE_SALT
+openssl rand -hex 32 | npx wrangler secret put EXPORT_TOKEN
+npx wrangler deploy --var ALLOWED_ORIGINS:"https://doppelpunkt.example.org"
+curl https://doppelpunkt-collector.<you>.workers.dev/v1/health   # {"ok":true,...,"configured":true}
+```
+
+| Setting | Kind | Meaning |
+| --- | --- | --- |
+| `DB` | D1 binding | the database; schema in `migrations/` |
+| `INSTALL_SECRET` | secret, required | keys the hash of install ids. Keep it stable: a new one makes every install a new cohort |
+| `RATE_SALT` | secret, required | salts the daily rate-limit key (an HMAC of IP + day, never stored) |
+| `EXPORT_TOKEN` | secret | bearer token for `GET /v1/export`; unset = export disabled |
+| `ALLOWED_ORIGINS` | var | comma-separated app origins; empty = any |
+| `RATE_LIMIT_PER_HOUR` | var | requests per client per hour, default 120 |
+| `RATE_LIMIT_KV` | KV binding, optional | shares the rate limit between isolates |
+
+- The cron trigger in `wrangler.toml` runs the retention policy daily (crashes 90 days, feedback
+  1 year, installs 120 days after the last upload). Keep `[observability] enabled = false` and
+  don't add Logpush: request logs would contain IP addresses.
+- Point the app at it at build time: `VITE_COLLECTOR_URL=https://doppelpunkt-collector.<you>.workers.dev npm run build`
+  (https only; `http://localhost` is allowed for local testing).
+- Fill in the contact placeholders in `docs/PRIVACY.md` before inviting testers.
+- Item report: `curl -H "Authorization: Bearer $EXPORT_TOKEN" <collector>/v1/export > export.json`,
+  then `npm run beta:report -- --in export.json` from the repo root. Add `?since=YYYY-MM-DD` to limit feedback, crashes and stats.
+- Schema changes go into a new file `migrations/000N_*.sql` and are applied with
+  `npx wrangler d1 migrations apply doppelpunkt-beta --remote` before deploying the Worker.
+
+## 6. Checklist before a release
 
 - [ ] `npm run typecheck && npx vitest run && npm run content:lint && npm run audio:scripts -- --check`
 - [ ] With a CDN: `npm run audio:upload` finished with 0 failed, then the build used the same `AUDIO_PUBLIC_BASE`
 - [ ] Deployed preview over HTTPS: the app installs, works offline after the first visit, and plays audio
   (check one CDN URL in the browser's network panel when you use the CDN)
 - [ ] `docs/QA.md` run on the preview
+- [ ] Beta builds: `GET <collector>/v1/health` says `configured: true`, `ALLOWED_ORIGINS` lists the app's origin, `docs/PRIVACY.md` has a real contact
+
+
+## GitHub Pages (free test deployment)
+
+`.github/workflows/pages.yml` builds the app on every push to `main` and publishes it to
+https://oussamasegh.github.io/doppelpunkt/ (base path `/<repo>/`, `404.html` as SPA fallback).
+One-time setup by a repo admin: **Settings → Pages → Build and deployment → Source: GitHub Actions**.
+The Pages build has no collector, so beta features are off there.

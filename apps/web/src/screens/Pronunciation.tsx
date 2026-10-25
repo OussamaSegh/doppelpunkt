@@ -7,6 +7,7 @@ import { GermanText } from '../components/GermanText';
 import { Markdown } from '../components/Markdown';
 import { SpeakCheck } from '../components/SpeakCheck';
 import { VarietyTag } from '../components/VarietyTag';
+import { ReportProblem } from '../components/ReportProblem';
 import { useAttempts } from '../lib/hooks';
 import {
   discriminationQuiz,
@@ -298,6 +299,7 @@ function RepeatStepper({
   step: number;
   setStep: (n: number) => void;
 }) {
+  const pronVersion = usePronunciation((s) => s.version);
   const cur = items[step];
   if (!cur) return null;
   const ex = drillSpeakExercise(drill, cur.kind, cur.index, cur.item);
@@ -330,6 +332,7 @@ function RepeatStepper({
         ]}
         onGraded={(o) => recordDrillAttempt(drill, ex.id, o.score)}
       />
+      <ReportProblem key={`report-${ex.id}`} target={{ itemId: ex.id, unitId: drillUnitId(drill), contentVersion: pronVersion }} />
     </div>
   );
 }

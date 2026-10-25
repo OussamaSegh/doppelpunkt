@@ -40,6 +40,18 @@ describe('placement explanation', () => {
     expect(mid[0]).toMatch(/passed A1 with 80%.*unit 7 of 12/);
     expect(mid[1]).toMatch(/On A2 you scored 30%, below the 70% pass mark/);
     expect(explainPlacement([{ level: 'A1', score: 1, items: 5 }], { level: 'A1', unit: 2 }, { A1: 2 })[0]).toMatch(/A2 lessons aren't available yet.*last A1 unit \(unit 2\)/);
+    // A2 is a preview (3 of 12 units): the proportional placement says so.
+    const partial = { A1: 12, A2: 3 };
+    const inA2 = explainPlacement(
+      [
+        { level: 'A1', score: 1, items: 15 },
+        { level: 'A2', score: 0.75, items: 15 },
+      ],
+      { level: 'A2', unit: 3 },
+      partial,
+    );
+    expect(inA2.join(' ')).toMatch(/passed A2 with 75%.*unit 3 of 3 \(the A2 units available so far; A2 is a preview\)/);
+    expect(explainPlacement([{ level: 'A1', score: 0.8, items: 15 }], { level: 'A1', unit: 7 }, partial)[0]).toMatch(/unit 7 of 12\.$/);
   });
 
   it('scores levels and stops counting after the first level below the pass mark', () => {

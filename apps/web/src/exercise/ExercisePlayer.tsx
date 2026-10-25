@@ -1,7 +1,9 @@
-import { useCallback, useRef, useState, type ComponentType } from 'react';
+import { useCallback, useEffect, useRef, useState, type ComponentType } from 'react';
 import type { CompiledUnit, Exercise } from '@doppelpunkt/content-schema';
 import { grade, type Answer, type GradeResult } from '@doppelpunkt/engine';
 import { VarietyTag } from '../components/VarietyTag';
+import { ReportProblem } from '../components/ReportProblem';
+import { markShown } from '../lib/beta/stats';
 import { recordAttempt } from '../lib/progress';
 import { errorMessage } from '../lib/ai';
 import { haptic, resultTone, toneOfScore } from '../lib/feedback';
@@ -74,6 +76,8 @@ export function ExercisePlayer({ exercise, unit, record = true, showFeedback = t
     },
     [onDone, showFeedback, hapticsOn],
   );
+  // Item statistics (beta, opt-in) measure time from when the item is shown.
+  useEffect(() => markShown(exercise.id), [exercise.id]);
   useCardKeys(ref, (e) => {
     if (e.key !== 'Enter' || !finished || !onNext) return;
     onNext();
@@ -89,9 +93,15 @@ export function ExercisePlayer({ exercise, unit, record = true, showFeedback = t
         {exercise.prompt}
       </h3>
       <Body key={exercise.id} exercise={exercise} unit={unit} record={record} showFeedback={showFeedback} onDone={done} />
+      {/* Closed types offer it inside their Feedback panel (with the answer). */}
+      {finished && showFeedback && OPEN_TYPES.has(exercise.type) && (
+        <ReportProblem key={`report-${exercise.id}`} target={{ itemId: exercise.id, unitId: unit.id }} className="mt-3" />
+      )}
     </article>
   );
 }
+
+const OPEN_TYPES = new Set<Exercise['type']>(['write', 'speak', 'roleplay']);
 
 type BodyProps = Required<Pick<Props, 'exercise' | 'unit' | 'record' | 'showFeedback'>> & { onDone: (o: ExerciseOutcome) => void };
 

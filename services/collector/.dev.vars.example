@@ -1,0 +1,4 @@
+# Local secrets for `npx wrangler dev`. Copy to .dev.vars (git-ignored). Never use these values in production.
+INSTALL_SECRET="dev-install-secret"
+RATE_SALT="dev-rate-salt"
+EXPORT_TOKEN="dev-export-token"

@@ -94,12 +94,15 @@ TTS-less), native-speaker review of content still pending, no accounts.
 
 ## v0.5 "Beta"
 
-- Closed beta with 50 learners; in-app feedback form per exercise ("this is wrong / unclear")
-- Privacy-friendly, opt-in analytics on item difficulty (no personal data, aggregated)
-- Item statistics report in `tools/` to find bad exercises
-- Crash reporting (opt-in)
+- [ ] Closed beta with 50 learners (needs recruiting and a deployed collector; guide in `docs/BETA.md`)
+- [x] In-app "Report a problem" on exercises, exam review and drills, with exact preview
+- [x] Privacy-friendly, opt-in item statistics (aggregated, no personal data; `docs/PRIVACY.md`)
+- [x] Collector service (`services/collector`, Cloudflare Worker + D1) with retention clean-up
+- [x] Item statistics report in `tools/` (`npm run beta:report`, synthetic `beta:fixture`)
+- [x] Crash reporting (opt-in, scrubbed on device and server)
+- [x] Head start on v1.0: A2 units 1–3 (shown as "A2 preview")
 
-**Exit:** 4-week retention ≥ 35% in the beta; < 1% of items flagged as wrong after fixes.
+**Exit:** 4-week retention ≥ 35% in the beta; < 1% of items flagged as wrong after fixes (measured with `beta:report`).
 
 ## v1.0 "Ankommen" (public launch)
 

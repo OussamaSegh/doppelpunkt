@@ -1,0 +1,329 @@
+id: a2-u01
+level: A2
+number: 1
+title: Wie war das Wochenende?
+titleEn: How was the weekend?
+goal: >-
+  By the end you can tell someone what you did at the weekend – chores, trips, time with friends –
+  using the Perfekt with haben, regular participles (gemacht, gekauft, telefoniert) and participles of
+  separable verbs (eingekauft, aufgeräumt), put the events in order with time words (gestern, letztes
+  Wochenende, vor zwei Tagen, zuerst, danach), and understand that Swiss German tells every past story in
+  the Perfekt (Ich ha gschaffet. Ich bi z Bärn gsii.).
+canDo:
+  - I can say what I did at the weekend and ask others (Was hast du am Wochenende gemacht? Ich habe eingekauft.).
+  - I can form the Perfekt with haben and put the participle at the end of the sentence.
+  - I can form regular participles, also of -ieren verbs (telefoniert), inseparable verbs (besucht) and separable verbs (eingekauft).
+  - I can place events in time with gestern, vorgestern, letztes Wochenende, vor drei Tagen, zuerst, dann, danach.
+  - I can write a short message about my weekend to a friend.
+  - I can recognise the Swiss German past (Wie isch s Wuchenänd gsii? Ich ha gschaffet.) and the pattern Ich gang go poschte.
+
+review:
+  notes:
+    - "Participles without a sure source (please tick or correct): gschaffet (Bern: BD #20118 gschaffet), gspilt, gluegt, gjasst, putzt (SRF writes kauft for gekauft, so putzt for geputzt), uusgschlafe, ufgruumt, iikauft / iigchauft, poschtet, bsuecht, verzellt, telefoniert, gwartet."
+    - "'Wie isch s Wuchenänd gsii?' – natural Zurich, also 'Wie isch dis Wuchenänd gsii?' / 's Weekend'?"
+    - "'Ich bi z Bärn gsii, bi de Eltere.' – bi de Eltere (dative plural de) natural?"
+    - "'Mir händ e Velotour gmacht, und am Abig hämmer gjasst.' – hämmer (= händ mir) as the inverted form, like gömmer (unit A1.7)?"
+    - "'Am Sunntig han ich uusgschlafe und d Wohnig putzt.' – han ich (before a vowel / inverted) vs ha-n-ich; uusgschlafe spelling."
+    - "'Dänn bin ich is Hallebad go schwümme.' – Perfekt of gaa + go + infinitive without gange (WP-SG: 'Sie isch cho ässe'). Is 'bin ich ... go schwümme' the usual form, or 'bin ich ... go schwümme gsii' / 'gange'?"
+    - "'Hüt gang ich no go poschte. Chunnsch mit?' – go + infinitive (lexicon, WP-SG 'Ich gang jetzt go ässe')."
+    - "Swiss Standard: 'Mein Vater hat grilliert.' (Duden: grillieren, schweizerisch) and glätten = bügeln (Duden: schweizerisch mundartnah) – is glätten fine in a colleague's Swiss Standard German, or only in dialect (glette)?"
+    - "Vocabulary gswZh forms without a source: ufruume, staubsuuge, Wösch / Wäsch, glette / glätte, Huushalt, Uusflug, bsueche, verzelle, schnurre, ghöre / lose, brätle, vorgeschter, letscht Wuche, zersch, nachane, ändlich, flissig, langwiilig, aasträngend, nüt."
+    - "Bernese: 'Bisch guet hei cho?' (hei cho = heimgekommen), 'Ds Wuchenänd isch mega schön gsy.' (Wuchenänd BD #54519, gsy BD #12165), 'Das fröit mi!' (fröie BD #12017) – sentence flow?"
+
+intro:
+  scene: >-
+    Monday morning at the coffee machine in Tom's office in Zurich. His colleague Nadine, from Winterthur,
+    asks about his weekend. She speaks Swiss Standard German with him.
+  dialogue:
+    - speaker: Nadine
+      text: Guten Morgen, Tom! Wie war dein Wochenende?
+      en: Good morning, Tom! How was your weekend?
+      variety: ch-std
+    - speaker: Tom
+      text: Hallo Nadine! Es war super. Am Samstag habe ich zuerst die Wohnung aufgeräumt und dann eingekauft.
+      en: Hi Nadine! It was great. On Saturday I tidied the flat first and then went shopping.
+    - speaker: Nadine
+      text: Oh, wie fleissig! Und am Abend?
+      en: Oh, how hard-working! And in the evening?
+      variety: ch-std
+    - speaker: Tom
+      text: Am Abend haben Anna und ich mit Freunden gekocht. Danach haben wir bis Mitternacht Karten gespielt.
+      en: In the evening Anna and I cooked with friends. After that we played cards until midnight.
+    - speaker: Nadine
+      text: Schön! Habt ihr gejasst?
+      en: Nice! Did you play Jass?
+      variety: ch-std
+    - speaker: Tom
+      text: Nein, Jassen kann ich noch nicht. Wir haben Uno gespielt. Und du? Was hast du gemacht?
+      en: No, I can't play Jass yet. We played Uno. And you? What did you do?
+    - speaker: Nadine
+      text: Ich habe am Samstag gearbeitet – leider. Aber am Sonntag habe ich meine Eltern in Winterthur besucht.
+      en: I worked on Saturday – unfortunately. But on Sunday I visited my parents in Winterthur.
+      variety: ch-std
+    - speaker: Tom
+      text: Und, wie war es?
+      en: And how was it?
+    - speaker: Nadine
+      text: Sehr gemütlich. Wir haben einen Spaziergang gemacht, und mein Vater hat grilliert.
+      en: Very cosy. We went for a walk, and my father had a barbecue.
+      variety: ch-std
+    - speaker: Tom
+      text: Und gestern Abend?
+      en: And yesterday evening?
+    - speaker: Nadine
+      text: Gestern Abend habe ich gar nichts gemacht. Ich habe nur Musik gehört und mit meiner Schwester telefoniert.
+      en: Yesterday evening I did nothing at all. I just listened to music and phoned my sister.
+      variety: ch-std
+    - speaker: Tom
+      text: Das klingt perfekt!
+      en: That sounds perfect!
+
+grammar:
+  - id: perfekt-haben
+    title: "The Perfekt with haben: talking about the past"
+    body: >-
+      In spoken German you tell almost every past event in the **Perfekt**: a form of **haben** in
+      position 2 and the **participle** (Partizip II) at the **end** of the sentence. It is the same
+      sentence bracket as with modal verbs (A1.7): *Ich **habe** am Samstag die Wohnung **aufgeräumt**.*
+
+
+      One German Perfekt covers several English tenses: *Ich habe gekocht* = I cooked / I have cooked / I
+      did cook. Use it for *yesterday*, *last week* and *at the weekend* – where English needs the simple
+      past.
+
+
+      Most verbs take **haben** – all verbs with an object (*kaufen, machen, besuchen, putzen*) and many
+      without (*arbeiten, telefonieren, lachen*). Verbs of movement and change take *sein* – that is unit 2.
+      **Questions** work as usual: *Was **hast** du **gemacht**? **Hast** du schon **gegessen**?*
+
+
+      A few frequent irregular participles appear in this unit as words to learn: *gegessen, getrunken,
+      geschlafen, gesehen, gelesen*. The full system follows in unit 2.
+    tables:
+      - [["Position 1", "haben (position 2)", "Middle", "Participle (end)"],
+         ["Ich", "habe", "am Samstag die Wohnung", "aufgeräumt."],
+         ["Am Abend", "haben", "wir mit Freunden", "gekocht."],
+         ["Nadine", "hat", "am Sonntag ihre Eltern", "besucht."],
+         ["Was", "hast", "du am Wochenende", "gemacht?"],
+         ["Habt", "ihr", "gestern Karten", "gespielt?"]]
+      - [["Person", "haben", "Example"],
+         ["ich", "habe", "Ich habe gekocht."],
+         ["du", "hast", "Du hast gearbeitet."],
+         ["er / sie / es", "hat", "Sie hat telefoniert."],
+         ["wir", "haben", "Wir haben gespielt."],
+         ["ihr", "habt", "Ihr habt eingekauft."],
+         ["sie / Sie", "haben", "Sie haben gelacht."]]
+    commonMistakes:
+      - "*Ich habe gekocht am Abend.* → **Ich habe am Abend gekocht.** The participle closes the sentence."
+      - "*Gestern ich habe gearbeitet.* → **Gestern habe ich gearbeitet.** Verb second: only one element before habe."
+      - "*Ich kochte gestern.* sounds like a written story → **Ich habe gestern gekocht.** In conversation, use the Perfekt."
+      - "*Ich bin gekocht.* → **Ich habe gekocht.** Cooking is not a movement: haben."
+
+  - id: participles-regular
+    title: "Regular participles: ge- … -t"
+    body: >-
+      **Regular** (weak) verbs form the participle with **ge- + stem + -t**: *machen → **ge**mach**t**, kaufen →
+      gekauft, spielen → gespielt, putzen → geputzt, hören → gehört*.
+
+
+      - Stem ending in **-t / -d** or a consonant cluster such as *-gn*: add **-et** so you can say it:
+        *arbeiten → gearbeit**et**, warten → gewartet, reden → geredet, regnen → geregnet, kosten → gekostet*.
+
+      - Verbs in **-ieren** take **no ge-**: *telefonieren → **telefoniert**, fotografieren → fotografiert,
+        grillieren → grilliert, reparieren → repariert*.
+
+      - Verbs with an **inseparable** prefix (**be-, ver-, er-, ent-, ge-, zer-**) take **no ge-** either:
+        *besuchen → **besucht**, bezahlen → bezahlt, erzählen → erzählt, verkaufen → verkauft*.
+
+
+      Rule of thumb: if the first syllable is **stressed**, the verb takes ge- (*MA-chen → gemacht*); if the
+      stress is later, it doesn't (*be-SU-chen → besucht, te-le-fo-NIE-ren → telefoniert*).
+    tables:
+      - [["Infinitive", "Participle", "Pattern"],
+         ["machen", "gemacht", "ge- … -t"],
+         ["kaufen", "gekauft", "ge- … -t"],
+         ["arbeiten", "gearbeitet", "ge- … -et (stem in -t)"],
+         ["reden", "geredet", "ge- … -et (stem in -d)"],
+         ["telefonieren", "telefoniert", "-ieren: no ge-"],
+         ["besuchen", "besucht", "be-: no ge-"],
+         ["erzählen", "erzählt", "er-: no ge-"]]
+    commonMistakes:
+      - "*Ich habe getelefoniert.* → **Ich habe telefoniert.** -ieren verbs never take ge-."
+      - "*Wir haben unsere Freunde gebesucht.* → **Wir haben unsere Freunde besucht.** be- is inseparable: no ge-."
+      - "*Ich habe gearbeitt / gearbeit.* → **Ich habe gearbeitet.** After -t add -et."
+      - "*Ich habe gemachen.* → **Ich habe gemacht.** Regular verbs end in -t, not -en."
+
+  - id: participles-separable
+    title: "Participles of separable verbs: ein-ge-kauft"
+    body: >-
+      With a **separable** verb (A1.4, A1.9), **-ge-** goes **between** the prefix and the verb, and the
+      whole participle is written as **one word**: *einkaufen → ein**ge**kauft, aufräumen → auf**ge**räumt,
+      abholen → ab**ge**holt, aufmachen → auf**ge**macht*.
+
+
+      The prefix keeps the stress: *EIN-ge-kauft, AUF-ge-räumt*. Separable verbs in -ieren keep the rule
+      *no ge-*: *ausprobieren → ausprobiert*.
+
+
+      Irregular separable verbs follow the same pattern with their own participle: *anrufen → angerufen,
+      einladen → eingeladen, fernsehen → ferngesehen, ausschlafen → ausgeschlafen* – learn them as words for
+      now.
+    tables:
+      - [["Infinitive", "Present", "Perfekt"],
+         ["einkaufen", "Ich kaufe ein.", "Ich habe eingekauft."],
+         ["aufräumen", "Ich räume auf.", "Ich habe aufgeräumt."],
+         ["abholen", "Ich hole dich ab.", "Ich habe dich abgeholt."],
+         ["aufmachen", "Ich mache das Fenster auf.", "Ich habe das Fenster aufgemacht."],
+         ["ausprobieren", "Ich probiere es aus.", "Ich habe es ausprobiert."],
+         ["anrufen (irregular)", "Ich rufe an.", "Ich habe angerufen."]]
+    commonMistakes:
+      - "*Ich habe geeinkauft.* → **Ich habe eingekauft.** ge- goes inside, after the prefix."
+      - "*Ich habe auf geräumt.* → **Ich habe aufgeräumt.** One word."
+      - "*Ich habe gekauft ein.* → **Ich habe eingekauft.** In the Perfekt the prefix does not go to the end on its own."
+
+  - id: past-time-markers
+    title: "Time words for the past"
+    body: >-
+      **gestern** (yesterday), **vorgestern** (the day before yesterday), **gestern Abend** (last night /
+      yesterday evening), **letzte Woche** (last week), **letztes Wochenende**, **letzten Samstag** (the ending
+      follows the gender: *die Woche → letzte, das Wochenende → letztes, der Samstag → letzten*), **am
+      Wochenende**, **vor zwei Tagen** (two days **ago** – *vor* comes **before** the time).
+
+
+      To tell a story in order: **zuerst** (first), **dann** (then), **danach** (after that), **später**,
+      **am Ende** (in the end). A time word in position 1 pushes the subject behind *haben*: ***Zuerst habe
+      ich** aufgeräumt, **dann habe ich** eingekauft.*
+
+
+      **Wie war …?** (How was …?) is a fixed question: *Wie war das Wochenende? – Es war super / schön /
+      langweilig.* (*war* is the past of *sein* – unit 2.)
+    tables:
+      - [["English", "German", "Note"],
+         ["yesterday", "gestern", ""],
+         ["last night", "gestern Abend", "not letzte Nacht unless you mean the night"],
+         ["last week", "letzte Woche", "die Woche"],
+         ["last weekend", "letztes Wochenende", "das Wochenende"],
+         ["last Saturday", "letzten Samstag", "der Samstag"],
+         ["three days ago", "vor drei Tagen", "vor + dative plural -n"]]
+    commonMistakes:
+      - "*Drei Tage vor habe ich …* → **Vor drei Tagen habe ich …** *vor* comes first, and Tag → Tagen."
+      - "*Ich habe letzte Woche gearbeitet für drei Tage.* → **Ich habe letzte Woche drei Tage gearbeitet.** Durations need no für."
+      - "*Seit zwei Tagen habe ich gekocht.* → **Vor zwei Tagen habe ich gekocht.** *seit* = since/for (still going on, unit 3); *vor* = ago."
+
+reading:
+  title: "Mein Wochenende in Zürich"
+  text: >-
+    Hallo zusammen! Letztes Wochenende war sehr schön. Am Samstagmorgen habe ich lange gefrühstückt. Dann
+    haben Tom und ich die Wohnung aufgeräumt und auf dem Markt eingekauft: Gemüse, Käse und Blumen. Am
+    Nachmittag habe ich mit meiner Mutter in Hamburg telefoniert. Wir haben eine Stunde geredet!
+
+
+    Am Abend haben wir Freunde besucht. Wir haben zusammen gekocht, gelacht und bis Mitternacht Karten
+    gespielt. Unsere Freundin Sabine hat viel von ihrer Reise nach Island erzählt.
+
+
+    Am Sonntag hat es den ganzen Tag geregnet. Wir waren zu Hause. Ich habe ein Buch gelesen,
+    und Tom hat Fußball im Fernsehen geschaut. Am Abend haben wir Pizza bestellt. Das war gemütlich, aber
+    ein bisschen langweilig. Und ihr? Was habt ihr gemacht? Schreibt mir! Eure Anna
+  en: >-
+    Hi everyone! Last weekend was very nice. On Saturday morning I had a long breakfast. Then Tom and I
+    tidied the flat and shopped at the market: vegetables, cheese and flowers. In the afternoon I phoned my
+    mother in Hamburg. We talked for an hour!
+
+
+    In the evening we visited friends. We cooked together, laughed and played cards until midnight. Our
+    friend Sabine told us a lot about her trip to Iceland.
+
+
+    On Sunday it rained all day. We were at home. I read a book and Tom watched football on TV. In the
+    evening we ordered pizza. That was cosy, but a bit boring. And you? What did you do? Write to me!
+    Love, Anna
+
+swiss:
+  scene: >-
+    Monday evening at the letterboxes of their building in Zurich. Reto asks Sandra about her weekend in
+    Bern. Listen for gsii, gmacht and gschaffet – and notice that nobody ever says war or hatte. Then
+    Sandra's mother calls from Bern.
+  dialogue:
+    - speaker: Reto
+      text: Hoi Sandra! Wie isch s Wuchenänd gsii?
+      en: Hi Sandra! How was the weekend?
+      variety: gsw-zh
+    - speaker: Sandra
+      text: Mega schön! Ich bi z Bärn gsii, bi de Eltere.
+      en: Really nice! I was in Bern, at my parents'.
+      variety: gsw-zh
+    - speaker: Reto
+      text: Und, was häsch gmacht?
+      en: And what did you do?
+      variety: gsw-zh
+    - speaker: Sandra
+      text: Mir händ e Velotour gmacht, und am Abig hämmer gjasst.
+      en: We went on a bike ride, and in the evening we played Jass.
+      variety: gsw-zh
+    - speaker: Reto
+      text: Lässig! Ich ha leider de ganz Samschtig gschaffet.
+      en: Cool! Unfortunately I worked the whole of Saturday.
+      variety: gsw-zh
+    - speaker: Sandra
+      text: Oh nei! Und am Sunntig?
+      en: Oh no! And on Sunday?
+      variety: gsw-zh
+    - speaker: Reto
+      text: Am Sunntig han ich uusgschlafe und d Wohnig putzt. Dänn bin ich is Hallebad go schwümme.
+      en: On Sunday I had a lie-in and cleaned the flat. Then I went swimming at the indoor pool.
+      variety: gsw-zh
+    - speaker: Sandra
+      text: Und hüt?
+      en: And today?
+      variety: gsw-zh
+    - speaker: Reto
+      text: Hüt gang ich no go poschte. Chunnsch mit?
+      en: Today I'm still going to do the shopping. Are you coming along?
+      variety: gsw-zh
+    - speaker: Sandra
+      text: Gärn!
+      en: I'd love to!
+      variety: gsw-zh
+    - speaker: Mami
+      text: Hoi Sandra! Bisch guet hei cho?
+      en: Hi Sandra! Did you get home all right?
+      variety: gsw-be
+    - speaker: Sandra
+      text: Ja, merci! Ds Wuchenänd isch mega schön gsy.
+      en: Yes, thanks! The weekend was really nice.
+      variety: gsw-be
+    - speaker: Mami
+      text: Das fröit mi! Tschou!
+      en: I'm glad! Bye!
+      variety: gsw-be
+  notes:
+    - >-
+      **Swiss German has no Präteritum.** There is no *war*, *hatte* or *ging* in dialect: every past event is
+      told in the Perfekt, even *sein* and *haben*: **Wie isch s Wuchenänd gsii?** (= Wie war das
+      Wochenende?), **Ich bi z Bärn gsii** (= Ich war in Bern), **Ich ha kei Ziit gha** (= Ich hatte keine
+      Zeit). If you know the Perfekt, you already know the Swiss past tense.
+    - >-
+      **Participles: ge- shrinks to g-.** *gemacht → **gmacht**, gesagt → **gseit**, gespielt → **gspilt**,
+      gearbeitet → **gschaffet** (schaffe = arbeiten), gewesen → **gsii**, gehabt → **gha***. Before p, t, k
+      the g- melts into the consonant: *geputzt → **putzt**, gekauft → **kauft*** (SRF's spelling guide writes
+      *kauft*; in text messages you often see *gchauft*). Irregular participles end in **-e**, not -en:
+      *gschlafe, uusgschlafe, gfahre, cho* (gekommen), *gange* (gegangen).
+    - >-
+      **The bracket is the same as in Standard German:** *Ich **ha** leider de ganz Samschtig **gschaffet**.*
+      Before a vowel and after an inverted verb, *ha* often becomes **han**: *Am Sunntig **han ich**
+      uusgschlafe.* **hämmer** = händ mir (haben wir), like *gömmer* = gönd mir (A1.7).
+    - >-
+      **go + infinitive (preview of A2.7):** with *gaa* (gehen) Swiss German adds a little **go** before the
+      infinitive: **Ich gang go poschte** = Ich gehe einkaufen. In the past the participle of *gaa* simply
+      disappears: **Ich bi go schwümme** = Ich bin schwimmen gegangen (Wikipedia, *Swiss German*: *Sie isch cho
+      ässe*).
+    - >-
+      **Useful words:** *s Wuchenänd* (also *s Weekend*), *lässig* (cool), *mega* (very), *de ganz Samschtig*
+      (the whole of Saturday), *bi de Eltere* (at my parents'), *zersch* (zuerst), *dänn* (dann), *s
+      Hallebad* (indoor pool), *e Velotour* (Swiss Standard *die Velotour*).
+    - >-
+      **Bernese** (Sandra's mother): **gsy** = gsii (berndeutsch.ch: *gsy*, Partizip von *sy*), **ds
+      Wuchenänd** (n., berndeutsch.ch), **Bisch guet hei cho?** = Bist du gut nach Hause gekommen?, **Das
+      fröit mi** = Das freut mich (*fröie, sech*, berndeutsch.ch). Bernese also tells everything in the
+      Perfekt: *mir sy gsy, mir hei gha*.

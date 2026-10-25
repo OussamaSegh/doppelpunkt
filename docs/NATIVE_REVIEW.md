@@ -32,6 +32,9 @@ Legend: ✅ confirmed, no change · ✏️ corrected in content · ❓ no source
 | DUDEN-W2 | Duden online entries *schiffen* (https://www.duden.de/rechtschreibung/schiffen: 'salopp' = to rain heavily, also to urinate), *Finken* (https://www.duden.de/rechtschreibung/Finken: schweizerisch mundartlich, warm slipper), *Jupe* (https://www.duden.de/rechtschreibung/Jupe: schweizerisch, meist der Jupe), *Leibchen* (https://www.duden.de/rechtschreibung/Leibchen: österreichisch, schweizerisch = vest, sports shirt), *Samichlaus* (https://www.duden.de/rechtschreibung/Samichlaus: schweizerisch, m.), *Spital* (https://www.duden.de/rechtschreibung/Spital: das, schweizerisch auch der) |
 | NS | Newly Swissed, *Swiss German words to understand the Swiss* (Bise, Föhn, En Guete, Proscht): https://www.newlyswissed.com/swiss-german-words-to-understand-the-swiss/ – popular source, supporting evidence only |
 | ZH-T | Zürich Tourismus, *Wer ist der «Böögg»?* (Sechseläuten, Böögg lit at 18:00, quick explosion = good summer): https://www.zuerich.com/de/besuchen/sechselaeuten/wer-ist-der-boeoegg |
+| ALS-ZH | Alemannic Wikipedia, *Zürichdeutsch* (written in Zurich German): https://als.wikipedia.org/wiki/Zürichdeutsch – participles *gsii, choo, ttroffe, gredt*, *go* + infinitive (*es Wiili go trinke*), dative *em, ere, bim*, diminutives (*Margriitli*) |
+| DUDEN-K | Duden online, conjugation of *sitzen*: https://www.duden.de/konjugation/sitzen – "Das Hilfsverb *sein* wird nur im Süddeutschen, Österreichischen und Schweizerischen verwendet." |
+| DUDEN-W3 | Duden online entries *streng* (https://www.duden.de/rechtschreibung/streng: sense 6 'anstrengend', besonders süddeutsch, schweizerisch), *Detailhandel* (https://www.duden.de/rechtschreibung/Detailhandel: schweizerisch = Einzelhandel), *retour* (https://www.duden.de/rechtschreibung/retour: landschaftlich, österreichisch, schweizerisch), *glätten* (https://www.duden.de/rechtschreibung/glaetten: 'bügeln', schweizerisch mundartnah), *grillieren* (https://www.duden.de/rechtschreibung/grillieren: schweizerisch) |
 | AI | No fetchable source found; the form follows teaching practice and Dieth conventions. **Needs a native.** |
 
 The Schweizerisches Idiotikon (idiotikon.ch), Wiktionary and quizlet/ch-de.ch pages could not be
@@ -317,6 +320,76 @@ Zurich colour words, *Halsweh*, *Gueti Besserig*, *Es guets Nöis*, *Wienacht*, 
 berndeutsch.ch has no entry for *chaut*, *Chopfweh*, *gratuliere* wishes or *Vill Glück*. The Goethe
 *Testbeschreibung A1* PDF was not readable from the review environment.
 
+## Pass 6 (2026-10-25): A2 units 1–3 and the v0.4 QA follow-ups (v0.5)
+
+New content: `content/a2/unit-01` to `unit-03` (Perfekt with haben and sein, irregular participles,
+war / hatte, booking, the dative), 25 new lexicon entries, and fixes to A1 listening items and the
+Schwiiz-Check. Each unit's `review.notes` repeats its open questions.
+
+### A2 units 1–3, Zurich German (gsw-zh)
+
+| Form | Verdict | Source | Notes |
+| --- | --- | --- | --- |
+| No Präteritum in dialect; every past is Perfekt (*Wie isch s Wuchenänd gsii?*, *ich bi gsii*, *ich ha gha*) | ✅ | WP-SG ("There is no preterite indicative"), ALS-ZH (text written entirely in Perfekt), lexicon | Core of the A2 Swiss lane. |
+| `gsii` (gewesen), `cho` (gekommen), `gange` (gegangen) | ✅ | ALS-ZH (*gsii, choo*), SRF (*gange / ggange*), lexicon | ALS-ZH writes long vowels doubled (*choo*); the course keeps lexicon *cho*. |
+| ge- → g- (*gmacht, gseit, gspilt, gschaffet*); ge- swallowed before p/t/k (*putzt, kauft*) | ✅ / ❓ | SRF (*gekauft → kauft*, not *gchauft*; *gebracht → bracht*), ALS-ZH (*gredt, ttroffe*), BD #20118 (*gschaffet*, Bern) | The notes give SRF's *kauft* and mention texting spelling *gchauft*. *putzt, gspilt, gjasst, gluegt* follow the pattern: native tick. |
+| Irregular participles in -e: `uusgschlafe, gfahre, gschwumme, bliibe, trunke, gsee / gseh` | ✅ / ❓ | SRF (*gseh*), BD #16381 (*gfahre*, Bern) | *gschwumme* (o → u before a nasal) and *uusgschlafe* spelling unverified. |
+| `go` + infinitive: *Ich gang go poschte*; past *Ich bi go schwümme* (no *gange*) | ✅ / ❓ | WP-SG (*Ich gang jetzt go ässe*; *Sie isch cho ässe*), ALS-ZH (*es Wiili go trinke*), lexicon | The past *bin ich … go schwümme* is modelled on WP-SG *isch cho ässe*: please confirm it is the usual Zurich form. |
+| `han ich` (inverted / before a vowel), `hämmer` (= händ mir) | ✅ / ❓ | SRF (*Ich han es Meitli …*) | *hämmer* by analogy with *gömmer* (A1.7). |
+| `is Tessin`, `i d Ferie`, `z Ascona`, `inere Ferienwohnig`, `uf Grindelwald` (direction) | ✅ / ❓ | curriculum (*is Tessin*), AI | *uf* + place name for direction and *inere* as one word: native tick. |
+| `mir sind gfahre / gwanderet`, `mir händ gwohnt`, `es hät grägnet` (sein/haben split) | ✅ / ❓ | WP-SG (auxiliaries *sii* / *haa* depending on the verb) | Participle spellings *gwanderet, grägnet* unverified. |
+| Dative articles `em` (m/n), `de` (f, plural), `eme / emene`, `ere / enere`, `bim, vom, zum` | ✅ / ❓ | WP-SG (*vomene Profässer*, *em Profässer sis Buech*), ALS-ZH (*in ere Spraach*, *bim Schriiben*, *em Dani*) | Feminine and plural *de* (*bi de Arbet, mit de Patiente*) not attested in a fetched source. |
+| `sit` (seit) + present, `Sit drü Jahr` (no plural ending) | ❓ | AI | |
+| `schaffe`, `Büez`, `Chef`, `Kolleg` (also friend), `Fiirabig` | ✅ / ❓ | lexicon, BD #11719 (*Büez* f., Bern), BD #20118 (*schaffe*) | Zurich *Büez* assumed equal to Bern; *Fiirabig* spelling to tick. |
+| `streng` = anstrengend | ✅ | DUDEN-W3 (*streng*, sense 6: besonders süddeutsch, schweizerisch) | Taught as a Swiss Standard and dialect false friend. |
+| `es Käfeli` (-li preview) | ❓ | ALS-ZH (diminutives *Margriitli, Zältli*) | *Käfeli* vs *Kafeli*. |
+| `e Lehr`, `Stifti`, `Stift`, `s KV` | ✅ / ❓ | BD #19726 (*Stifti* f., Lehrzeit, Berufslehre) | *s KV* and *de Stift* from general knowledge. |
+| Swiss-lane dialogues and Reto roleplays of A2.1–A2.3 | ❓ | – | Natural flow can only be judged by a native. |
+
+### A2 units 1–3, Bernese (gsw-be)
+
+| Form | Verdict | Source | Notes |
+| --- | --- | --- | --- |
+| `gsy` (gewesen), `mir sy`, `dir syt` | ✅ | BD #12165 (*gsy*), BD #18248 (*sy*: i bi, du bisch, er isch, mir sy, dir syt) | |
+| `gha` | ✅ | BD (*aaha*, PP. *aagha*; phrase *i ha … gha*) | |
+| `ds Wuchenänd`, `schöns Wuchenänd` | ✅ | BD #54519 (*Wuchenändi* n., spelling *Wuchenänd*), BD #54002 | |
+| `fröie, sech` (*Das fröit mi*) | ✅ | BD #12017 (PP. *gfröit*) | Sentence *Das fröit mi!* ❓. |
+| `gfahre` | ✅ | BD #16381 | |
+| `ds Outo` | ✅ | BD #46748 (n.) | |
+| `d Büez`, `schaffe`, `d Pouse`, `d Stifti` | ✅ | BD #11719, #20118, #24127, #19726 | |
+| `itz / jitz` (jetzt) | ✅ | BD #17325 | In the lexicon note only. |
+| `viu`, `gäu`, `Tschou` | ✅ | WP-BE, WP-BE-EN, BD #12136 | |
+| `hei cho`, `o` (auch), `i ha viu z tüe`, `hani`, `o mau`, `bi dr Büez`, `mit em` | ❓ | – | Not found on BD. |
+| Dialogue lines: A2.1 *Hoi Sandra! Bisch guet hei cho? / Ja, merci! Ds Wuchenänd isch mega schön gsy. / Das fröit mi! Tschou!*; A2.2 *Grindelwald? Mir sy im Summer o z Grindelwald gsy. Es isch wunderschön gsy! / Syt dir mit em Zug gfahre? / Nei, mit em Outo.*; A2.3 *Sandra, wie geit's bi dr Büez? / Guet, aber i ha viu z tüe. Morn hani frei. / Schön! Mach de o mau e Pouse, gäu!* | ❓ | – | Words mostly sourced; sentence flow needs a Bernese speaker. |
+
+### A2 units 1–3, Swiss Standard German (ch-std)
+
+| Form | Verdict | Source | Notes |
+| --- | --- | --- | --- |
+| `grillieren` | ✅ | DUDEN-W3 (schweizerisch) | Nadine: *Mein Vater hat grilliert.* |
+| `glätten` = bügeln | ✅ / ❓ | DUDEN-W3 (schweizerisch mundartnah) | Duden calls it close to dialect: is it fine in a vocab `chStd` field? |
+| `retour` (ticket), `einfach` | ✅ | DUDEN-W3 (*retour*: österreichisch, schweizerisch) | |
+| `ich bin gelegen / gesessen / gestanden` | ✅ | DUDEN-K | Taught as correct Swiss (and southern) Standard German. |
+| `Detailhandel` | ✅ | DUDEN-W3 (schweizerisch = Einzelhandel) | In the job ad. |
+| `die Ferien` vs `Urlaub` (leave), `das Billett`, `das Halbtax`, `das GA` | ✅ / ❓ | DUDEN-W (*Billett*), AI | The *Urlaub* = leave from work / army note needs a tick. |
+| `der / die Lernende`, `das Stelleninserat`, `das Pensum (80–100 %)`, `die Sitzung`, `der Lohn` | ❓ | AI | Standard Swiss job-ad vocabulary; please tick. "About two thirds of young people do a Lehre": please check against SBFI figures. |
+| Swiss Standard speakers saying *Ich bin … gewesen* where Germans say *Ich war …* | ❓ | AI | Note in A2.2, grammar point *war / hatte*. |
+| ch-std dialogue lines (Nadine in A2.1 and A2.2, Martin in A2.3) | ❓ | – | E.g. *Oh, wie fleissig!*, *Du bist ja ganz braun! Wo bist du in den Ferien gewesen?*, *Ah, das Znüni! Das gibt es auch hier?* |
+
+### A1 follow-ups from the v0.4 QA note
+
+| Item | Verdict | Notes |
+| --- | --- | --- |
+| The 32 unit listening items with a `transcript` (units 1–12) | ✅ / ✏️ | Every transcript line was checked against the unit's dialogues: all speaker labels match the dialogue speaker and variety (*Mami* is the label of Sandra's mother in every Bernese dialogue line, so it stays; *Verkäuferin* in A1.1 Bern and A1.5 market, *Kellnerin* in A1.2, *Kellner* in the A1.2 Bern item, *Sprecherin* for the A1.4 station announcement are correct roles with the right voice gender). ✏️ `a1-u04-ch-mcq-halbi`: the transcript now quotes Reto's dialogue line exactly (*Am sächsi? Ich schlaf normalerwiis bis am halbi achti!*) so the dialogue recording can be reused. ✏️ `a1-u02-ch-mcq-price`: the prompt said "the waitress tells you the price" – she tells Reto and Sandra, and Reto pays 15 with the tip; now "How much is the bill?". ✏️ `a1-u09-ch-mcq-soell`: the prompt paraphrased the first line and had no "Listen"; now "Listen to Sandra and Reto. What does Reto want her to bring?" |
+| `a1-mock-1` speaker label *Praxis* (a practice can't speak) | ✏️ | Now *Frau Graf*, the receptionist of Praxis Dr. Huber from A1.9 (same female voice). *Sprecher / Sprecherin* (narrator, announcements), *Frau / Mann*, *Verchäuferin* (dialect spelling in a gsw-zh stimulus) stay. |
+| `a1-schwiiz-1`, *Lose, Teil 2*: two pairs of items shared one voicemail transcript each | ✏️ | Split into **four** short voice messages, one per item (Reto 1: coming home at *halbi achti*; Reto 2: *no öppis: Chasch du no poschte?*; Nadine 1: party *am Friitig, nöd am Samschtig*; Nadine 2: *Bringed ihr bitte öppis z trinke mit?*). Each item now has its own transcript and recording; `docs/EXAMS.md` updated. New forms to tick: *Bis spöter!*, *no öppis* (noch etwas). |
+
+### Not found online (pass 6)
+
+Zurich participles *gspilt, gluegt, gjasst, gwanderet, grägnet, gschwumme*, the feminine dative *de*, *sit*,
+*Fiirabig*, *Käfeli*; Bernese *hei cho*, *hani*, *o mau*, *z tüe*. The Nederveen paper on the Swiss double
+perfect (University of Toronto) returned a browser check page; Duden's *Stift* (Lehrling) page failed.
+
 ## Still for a human native speaker
 
 1. **German native teacher:** every unit 1–9 (Standard German), especially the new grammar
@@ -342,6 +415,13 @@ berndeutsch.ch has no entry for *chaut*, *Chopfweh*, *gratuliere* wishes or *Vil
    lines and Helvetism notes (Arztzeugnis, Drogerie, Leibchen); a Bernese speaker for the Bernese
    lines of units 10–12 and the register of *Gring*.
 
+7. **Pass 6 (v0.5):** a German teacher for A2.1–A2.3 (Perfekt, sein/haben choice, irregular
+   participles, the dative tables, *seit* + present, readings, the job ad); a Zurich native for every ❓
+   line of pass 6, the three Swiss-lane dialogues, the guided-production gaps (*gmacht / gschaffet*,
+   *sind / händ*, *em / de*) and the new lexicon entries; a Swiss Standard speaker for Nadine's and
+   Martin's lines and the job-ad Helvetisms (Pensum, Lernende, Detailhandel); a Bernese speaker for the
+   Bernese lines of A2.1–A2.3.
+
 ## Open format questions
 - A1 units 1, 3, 4, 5 and 6 use `transform` from `de` to `de` (du → Sie, word order, negation). The UI
   labels it "Rewrite in Hochdeutsch".
@@ -353,3 +433,7 @@ berndeutsch.ch has no entry for *chaut*, *Chopfweh*, *gratuliere* wishes or *Vil
 - Swiss pronunciation drills (`gsw-ch-gg-kch`, `gsw-vowels`) are A1 listening-and-imitation drills,
   ahead of active dialect speaking at B1. Their pairs contrast dialect words only; the Standard German
   word is given in the gloss.
+- A2 adds one **guided-production** `gsw-zh` gap per unit (a single dialect form, Standard form or choice
+  given in the prompt). It sits between A1 recognition and B1 active dialect; see `docs/CONTENT_FORMAT.md`.
+- New speakers stay in the audio cast list where possible (`Nadine`, `Martin`, `Mami`, `Sprecherin`), so
+  `audio:scripts` needs no guessed voices for A2.1–A2.3.

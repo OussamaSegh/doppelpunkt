@@ -3,10 +3,11 @@
 import { create } from 'zustand';
 import { PronunciationPack, type Exercise, type PronunciationDrill, type Skill } from '@doppelpunkt/content-schema';
 import { db, type AttemptRow } from '../db';
+import { noteAttempt } from './beta/stats';
 import { drillUnitId as engineDrillUnitId, minimalPairQuiz, type MinimalPairItem } from '@doppelpunkt/engine';
 
 export type PronStatus = 'idle' | 'loading' | 'ready' | 'empty' | 'error';
-type PronState = { status: PronStatus; drills: PronunciationDrill[]; error?: string };
+type PronState = { status: PronStatus; drills: PronunciationDrill[]; error?: string; version?: string };
 
 const packsBase = (): string => `${import.meta.env.BASE_URL ?? '/'}packs/`;
 
@@ -30,7 +31,7 @@ export async function loadPronunciation(fetchImpl: typeof fetch = fetch): Promis
   if (!parsed.success) {
     return { status: 'error', drills: [], error: `pronunciation.json failed validation: ${parsed.error.issues[0]?.message ?? ''}` };
   }
-  return { status: parsed.data.drills.length ? 'ready' : 'empty', drills: parsed.data.drills };
+  return { status: parsed.data.drills.length ? 'ready' : 'empty', drills: parsed.data.drills, version: parsed.data.version };
 }
 
 type PronStore = PronState & { load: (fetchImpl?: typeof fetch) => Promise<void>; setDrills: (d: PronunciationDrill[]) => void };
@@ -96,4 +97,5 @@ export async function recordDrillAttempt(drill: PronunciationDrill, exerciseId: 
     at: new Date().toISOString(),
   };
   await db.attempts.add(row);
+  await noteAttempt(exerciseId, row.score);
 }
