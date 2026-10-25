@@ -8,17 +8,19 @@ audio pipeline; see [v0.2 "Erste Schritte"](#v02-erste-schritte) below. v0.3 add
 recognition with a provider fallback, shadowing, pronunciation drills and A1 units 7–9; see
 [v0.3 "Stimme"](#v03-stimme) for the new coverage and the speaking device checklist. v0.4 adds A1 units
 10–12, the timed mock exams, the can-do checklist and "A1 complete" milestone, the accessibility audit and
-the performance budget; see [v0.4 "A1 komplett"](#v04-a1-komplett).
+the performance budget; see [v0.4 "A1 komplett"](#v04-a1-komplett). v0.5 adds the closed-beta
+programme (opt-in feedback reports, item statistics and crash reports, the collector in
+`services/collector`) and A2 units 1–3 as a preview; see [v0.5 "Beta"](#v05-beta).
 
 ## Test strategy
 
 | Layer | Tool | Where | What it covers |
 |---|---|---|---|
 | Types | `tsc --noEmit` per workspace | every `package.json` has `typecheck` | the whole monorepo, including e2e specs and configs |
-| Unit | Vitest (`vitest.config.ts` projects) | `packages/*/test`, `services/relay/test`, `tools/test`, `apps/web/src/**/*.test.tsx` | graders and German normalisation, FSRS, skill estimates, placement, AI adapters (mocked fetch), structured output, key vault, relay, linter and pack builder, exercise player (jsdom + fake IndexedDB) |
+| Unit | Vitest (`vitest.config.ts` projects) | `packages/*/test`, `services/{relay,collector}/test`, `tools/test`, `apps/web/src/**/*.test.tsx` | graders and German normalisation, FSRS, skill estimates, placement, AI adapters (mocked fetch), structured output, key vault, relay, linter and pack builder, exercise player (jsdom + fake IndexedDB); v0.5: beta outbox, scrubber, stats, crash reports, the collector (memory storage and D1 SQL on `node:sqlite`), and the app ↔ collector contract test |
 | Content | `npm run content:lint` | `content/` | schema, ids, variety tags, every exercise has a solution and an explanation, warnings for style; the lexicon (`content/lexicon/*.yaml`) against its schema |
 | Generated files | `npm run audio:scripts -- --check` | `content/<level>/unit-NN/audio-*` | the audio manifests and recording scripts match the YAML (exits 1 when stale) |
-| End to end | Playwright, Chromium | `apps/web/e2e/*.spec.ts` | the production build served by `vite preview` on port 4319, desktop Chrome and a Pixel 7 viewport |
+| End to end | Playwright, Chromium | `apps/web/e2e/*.spec.ts`, `apps/web/e2e/beta/*.spec.ts` | the production build served by `vite preview` on port 4319, desktop Chrome and a Pixel 7 viewport; the beta build (`dist-beta`, `VITE_COLLECTOR_URL` set) on port 4320 with a mocked collector, desktop Chrome (`playwright.beta.config.ts`) |
 | Manual | checklist below | real devices | install, offline, microphone, TTS, look and feel in both themes |
 
 Principles:
@@ -37,9 +39,10 @@ Principles:
   the UI is missing an accessible name — fix the UI, not the test.
 - **No console errors.** An auto fixture (`e2e/fixtures.ts`) fails any test that logs `console.error` or
   throws an uncaught exception. A test can allow specific messages with `test.use({ allowConsole: [...] })`
-  (only the offline test does, for failed network requests).
+  (the offline tests for failed network requests, and the beta crash tests). Pass **one** RegExp
+  (`[/a|b/]`): `test.use` reads an array of two RegExps as `[value, options]`.
 
-### E2e suite (61 tests × 2 projects = 122)
+### E2e suite (63 tests × 2 projects = 126, plus 10 on the beta build)
 
 v0.1 specs (14 tests):
 
@@ -59,6 +62,10 @@ test in `learn.spec.ts` (units 7–9).
 v0.4 specs (8 tests, plus a longer offline test) — see the v0.4 section: `exam.spec.ts` (3), `cando.spec.ts` (2),
 `listening.spec.ts` (2), one more test in `learn.spec.ts` (units 10–12); `pwa.spec.ts` offline test extended.
 
+v0.5 specs (2 tests, plus 10 on the beta build) — see the v0.5 section: `no-beta.spec.ts` (1), one more test
+in `learn.spec.ts` (A2 preview); `placement.spec.ts` and `grammar.spec.ts` read every installed pack;
+`beta/beta.spec.ts` (7) and `beta/telemetry.spec.ts` (3) run against `dist-beta` (`playwright.beta.config.ts`).
+
 ## How to run
 
 ```bash
@@ -69,7 +76,8 @@ npm run content:lint       # content linter (units and lexicon)
 npm run audio:scripts -- --check   # generated audio manifests/scripts are up to date
 npm run build              # content packs + production build of the web app
 npm run budget -w @doppelpunkt/web   # initial JS < 200 KB gzip (after build)
-npm run test:e2e           # Playwright (Chromium, desktop + Pixel 7)
+npm run test:e2e           # Playwright: regular build (desktop + Pixel 7), then the beta build
+npm run test:e2e:beta -w @doppelpunkt/web   # only the beta-build suite (e2e/beta)
 ```
 
 E2e details:
@@ -78,15 +86,22 @@ E2e details:
   somewhere else, point `PLAYWRIGHT_BROWSERS_PATH` at it.
 - Locally the config builds first if `apps/web/dist` is missing (set `E2E_BUILD=1` to force a rebuild);
   otherwise it serves the existing build, so **run `npm run build` after changing app code**. In CI
-  (`CI=true`) it never builds — the workflow's build step does.
+  (`CI=true`) it never builds — the workflow's build step does. The beta config does the same with
+  `apps/web/dist-beta` (`npm run build:e2e-beta -w @doppelpunkt/web`, which needs the packs from
+  `npm run content:build`).
+- `npm run test:e2e` runs the two configs one after the other; extra arguments only reach the second.
+  For one spec call Playwright directly from `apps/web`: `npx playwright test e2e/ai.spec.ts` or
+  `npx playwright test -c playwright.beta.config.ts e2e/beta/beta.spec.ts`. Beta reports and traces go to
+  `playwright-report-beta/` and `test-results-beta/`.
 - One spec or project: `npm run test:e2e -- e2e/ai.spec.ts --project=mobile`. Debug: `-- --ui` or `--headed`.
 - Reports: `apps/web/playwright-report/index.html`; traces and screenshots of failures in `apps/web/test-results/`.
 - Flakiness check before merging test changes: `npm run test:e2e -- --repeat-each=4`.
 
 CI (`.github/workflows/ci.yml`) runs on every push to `main` and every pull request with Node 22:
 `npm ci` → typecheck → unit tests → content lint (units + lexicon) → audio manifests up to date
-(`npm run audio:scripts -- --check`) → build → performance budget → install Chromium → e2e, and uploads the
-Playwright report and test results when something fails.
+(`npm run audio:scripts -- --check`) → build → performance budget → beta build (`dist-beta`) and its budget →
+install Chromium → e2e (regular, then beta), and uploads the Playwright reports and test results when
+something fails.
 
 ## Manual device checklist
 
@@ -328,6 +343,10 @@ locked or the tab in the background (the clock is faked), AI marking of exam wri
 
 ### Fixed during QA (v0.4)
 
+(Closed in v0.5: the two `a1-schwiiz1-l2-*` items that shared one voicemail transcript now each have their
+own message — the language expert split it into Reto's two and Nadine's two voicemails, so every listening
+item has a distinct recording.)
+
 | Issue | Fix |
 |---|---|
 | Listening became reading: every `a1-mock-1` / `a1-schwiiz-1` listening item, and 32 Swiss / Standard listening items in units 1–12, quoted what is said in the `prompt`, and both the exam and the unit player show the prompt. | The words moved to the new `transcript` field (with speaker labels) and prompts became short questions (`content/a1/exam/*.yaml`, `content/a1/unit-*/exercises.yaml`). The unit player and exam items play the transcript (recording, else TTS for de / ch-std; gsw without a recording is shown as text, "No recording yet — read instead") and reveal it only in the feedback ("What you heard") or the exam review ("Transcript") — `apps/web/src/exercise/Listen.tsx`. |
@@ -337,6 +356,120 @@ locked or the tab in the background (the clock is faked), AI marking of exam wri
 | Audio manifests: the new `transcript` field was not a recording source, and narrator / generic labels (Sprecher, Mann, Mami …) got guessed voices (e.g. "Mann" read by a female voice). | `exerciseText` uses `transcript` (`ex-<id>`), the first speaker label picks the voice; cast list extended (`tools/src/audio.ts`); scripts regenerated. |
 | No lint for listening items that show their text or have nothing to play. | `listeningRules` (`tools/src/rules.ts`), used by unit and exam lint: warns when a listening item quotes text in its prompt, or has no audio, transcript or stimulus (units: a prompt naming the dialogue counts). |
 | Pages whose only content is an empty state had no `<h1>` (Review with an empty deck / all caught up, Tutor without a key, unit / grammar point / drill not found, drills failed to load) — against 1.3.1 in `ACCESSIBILITY.md`. | `EmptyState headingLevel={1}` on those screens. |
+
+## v0.5 "Beta"
+
+Exit criteria (ROADMAP): closed beta with 50 learners; in-app feedback per exercise; privacy-friendly
+opt-in item statistics; the item report in `tools/`; opt-in crash reports. The measurable exits
+(4-week retention ≥ 35 %, < 1 % of items flagged as wrong after fixes) need the real beta — nothing here
+measures them. A2 is installed as a **preview** (units 1–3 of 12).
+
+### New automated coverage
+
+Beta-build suite (`apps/web/playwright.beta.config.ts`, 10 tests, desktop Chrome). `npm run build:e2e-beta`
+builds the app with `vite build --mode e2e-beta` into `apps/web/dist-beta`, with `VITE_COLLECTOR_URL =
+http://127.0.0.1:4329` (nothing listens there). Each test gets a fresh **mock collector**
+(`e2e/beta/collector.ts`): `context.route` answers `/v1/ingest`, `/v1/forget` and `/v1/health` with CORS
+headers, records every request and validates every envelope with `BetaEnvelope` from
+`@doppelpunkt/beta-schema` — an invalid envelope, or one with fields the schema would strip, fails the
+test. A request the route misses goes to a closed port and fails the test through the console-error
+fixture. Service workers are blocked so that the route sees everything.
+
+| Spec | Tests |
+|---|---|
+| `beta/beta.spec.ts` | **consent:** the intro card "Help improve Doppelpunkt (beta)" after onboarding, both opt-ins unchecked, "Not now" closes it for good (gone after reload, `introDone` stored, no install id), Settings shows the same two switches unchecked, an unhandled rejection is not reported, and **zero requests** reach the collector across start-up syncs; **Report a problem:** after Check on unit 1's first mcq, reason chips, comment and "Include my answer" update the preview, Enter on a reason stays in the form, Send → the request body is **exactly** `[preview]` (parsed and raw), "Sent. Thank you!", My reports lists it as Sent; **offline:** with the device offline Send says "Saved. Will send when you're online.", the outbox and My reports hold it, no request; back online the `online` event sends it once; **413 split:** 6 small reports + 1 oversized one queued offline, the mock answers 413 above 3 small envelopes' size → requests `7:413, 4:413, 2:200, 2:200, 3:413, 2:200, 1:413`, the 6 arrive in order, the big one is "Not accepted … (HTTP 413)"; **/beta** (what's new, how to report, outbox and opt-in state, My reports; linked from Learn) and **/privacy** (learner notice without the operator notes, link to the Settings section) |
+| `beta/telemetry.spec.ts` | **item statistics:** opt in on the intro card → a 32-hex install id; one real answer + 449 seeded aggregates, offline, then online → exactly one upload: three `StatsBatch` envelopes of **200, 200 and 50 items**, `day` = today (date only, no time anywhere in the body), only the contract's keys, seconds rounded to 5, the real item `{ attempts: 1, buckets: [0, 0, 1] }`; local counts cleared, `lastStatsDay` = today; more practice and a reload the same day upload nothing; **opt-out** in Settings → `POST /v1/forget { installId }` with the same id, the id, pending ids and local counts deleted, the id line gone from Settings; opting in again makes a new id; **crash reports:** a fake `sk-ant-` key saved in Settings, crash opt-in, an uncaught error whose message and stack carry the key, an email address and a URL with the key in the query → the `CrashReport` has `[key]`, `[email]`, the URL's origin only, the bundle file name with line:column, and **no** `sk-ant-` / `sk-…` / 32+ character token anywhere; a corrupt placement result in IndexedDB breaks `/progress` while rendering → the friendly "Something went wrong" screen (Reload, Go to Learn) and a second crash report for `/progress`; with crash reports off (the default) the same errors send nothing |
+
+Regular build (both projects):
+
+| Spec | Tests |
+|---|---|
+| `no-beta.spec.ts` | no `VITE_COLLECTOR_URL`: no intro card, no "Beta feedback" link, no "Report a problem" after Check, Settings and `/beta` / `/privacy` say the programme is not active, and **no request leaves the app's origin** (also past the 3 s start-up sync) |
+| `learn.spec.ts` (+1) | the A2 level chip reads "A2 preview"; `/learn/A2` shows "Preview — 3 of 12 units. More A2 units are on the way; these are ready to use.", lists the 3 units and opens unit 1; A1 has no preview note |
+| `placement.spec.ts`, `grammar.spec.ts` (updated) | read every installed pack (`allPacks()` in `e2e/fixtures.ts`): two sections (A1, A2); all answers right → mastered both → the last A2 unit, "You passed A1 (100%), A2 (100%)", and Learn shows the A2 preview; the grammar reference lists A1 and A2 |
+
+Unit tests:
+
+- `src/lib/beta/collector.contract.test.ts` drives the **real collector** (`services/collector/src/http.ts`
+  `handle()` with `MemoryStorage`) through a fetch bridge from the app's real code: `submitReport`,
+  `noteAttempt` + `maybeUploadStats` (450 items → 3 batches, all accepted, cohort in the export, the raw
+  install id nowhere on the server), `setStatsOptIn(false)` → `/v1/forget` removes the install,
+  `reportCrash` (scrubbed by the app, unchanged by the collector), a full outbox (200 long reports + 20
+  long crashes) in requests ≤ 60 KB with no 413, CORS for the allowed origin, 403 for another. It also
+  pins the limits: app 50 envelopes / 60 KB ≤ collector 50 / 64 KB.
+- Learn with a partial pack (`src/screens/Learn.test.tsx`), can-do and "A1 complete" with an A2 preview
+  installed (`src/lib/cando.test.ts`), the placement explanation for a preview level
+  (`src/screens/Placement.test.tsx`), `placeLearner` / `placementItems` with `{ A1: 12, A2: 3 }`
+  (`packages/engine/test/placement.test.ts`), the report form is not a nested `<form>` (`src/beta/beta.test.tsx`).
+
+Budget: 175.8 KB gzip initial JS for both `dist` and `dist-beta` (the beta code loads on demand).
+
+### Privacy checks performed
+
+Against `docs/PRIVACY.md`, on the beta build with the mock collector (automated above) and by reading the code:
+
+- [x] Nothing is sent before an opt-in or a report: zero collector requests after onboarding, start-up
+  syncs, navigation and an uncaught error (`beta.spec.ts`); the regular build talks to no other origin.
+- [x] Both switches start off; the feedback preview is byte-for-byte the request body; the answer is
+  included only when ticked; reports carry no install id (exact key list checked).
+- [x] Item statistics: day-only date, counts only (key lists checked per batch and item), ≤ 200 items per
+  batch, at most one upload per day; the install id exists only while statistics are on.
+- [x] Opt-out sends `/v1/forget` with the current id and deletes the id, pending ids and local counts;
+  on the collector the install row goes and the uploaded counts stay unlinked (contract test). Reset
+  everything in Settings calls the same opt-out first (code).
+- [x] Crash reports: keys (`sk-ant-`, `sk-`, `xai-`, `AIza…`, Bearer, named secrets, any 32+ character
+  token), emails, URL paths and queries, long numbers are removed on the device (e2e + `scrub.test.ts`);
+  routes lose their query; the collector scrubs again. With crash reports off nothing is queued.
+- [x] `credentials: 'omit'` on every collector request (no cookies); the collector stores no IP (only a
+  daily HMAC rate-limit key, in memory or KV with a one-hour TTL) and never the raw install id (HMAC under
+  `INSTALL_SECRET`) — code review of `services/collector/src/http.ts` and `collector.ts`, plus the contract test.
+- [ ] Real deployment: request logs off (`[observability] enabled = false`, no Logpush) — manual, below.
+
+### Manual checks for v0.5
+
+**Real collector deploy smoke test** (staging Worker + D1, before inviting testers; `docs/DEPLOY.md` §5)
+
+- [ ] `GET /v1/health` → `{"ok":true,…,"configured":true}`; `wrangler.toml` has `[observability] enabled = false`;
+  no Logpush job; D1 in an EU location.
+- [ ] Beta build with `VITE_COLLECTOR_URL=https://…workers.dev`, deployed to its own origin (listed in
+  `ALLOWED_ORIGINS`); the public build (without the URL) sends nothing (DevTools → Network).
+- [ ] From another origin `POST /v1/ingest` is refused (403); without `Authorization` `GET /v1/export` is 401.
+- [ ] On a phone: report one exercise as wrong (preview = what DevTools shows as the request), switch
+  statistics and crash reports on, do ten exercises, wait a day or change the device date, reopen → one
+  stats upload; export with the token and run `npm run beta:report -- --in export.json`: the report and the
+  item counts appear, the export has a cohort and no install id.
+- [ ] Switch statistics off → `/v1/forget` 200; the retention table in the next export no longer counts that install.
+- [ ] Airplane mode: send a report → "Saved. Will send when you're online."; back online → sent (also
+  after closing and reopening the app).
+- [ ] Rate limit: 121 quick requests from one client within an hour → 429 with `Retry-After`; the app's
+  outbox waits and retries later.
+- [ ] The cron trigger runs (Cloudflare dashboard → Worker → Triggers) and old rows disappear (seed a crash
+  with `receivedAt` older than 90 days in a staging D1).
+- [ ] Fill in the contact placeholders in `docs/PRIVACY.md`.
+
+**iOS Safari and Android Chrome beta builds** (installed PWA and in the browser, both themes)
+
+- [ ] The intro card appears once after onboarding (both switches off) and never again after "Not now" or "Done".
+- [ ] "Report a problem" on an exercise, an exam review item and a pronunciation drill: chips, comment,
+  "Include my answer", the preview scrolls, Send; the on-screen keyboard doesn't cover Send; VoiceOver /
+  TalkBack read the form's name, the reason radios and the "Sent" status.
+- [ ] Offline report on iOS: the app in the background or closed before going online — the report
+  is sent on the next launch (iOS has no background sync; it goes out when the app is opened).
+- [ ] Crash screen: looks right in both themes, Reload works in the installed app (standalone, no browser
+  reload button).
+- [ ] `/beta` and `/privacy` readable at 200 % text size; links to Settings jump to the beta section.
+- [ ] Settings → statistics on shows "Your random beta id: xxxxxxxx…", off removes it.
+- [ ] Learn: "A2 preview" chip and "Preview — 3 of 12 units"; A2 units open and can be done offline.
+
+### Fixed during QA (v0.5)
+
+| Issue | Fix |
+|---|---|
+| **The beta code was not in git.** The root `.gitignore` entry `beta/` (meant for exported beta data) also matched `apps/web/src/beta/` and `apps/web/src/lib/beta/`: 19 files (the report form, toggles, intro card, settings, outbox, scrubber, stats, crash reporting and their tests) were untracked, so a clean checkout and CI could not build. | Anchored to the repo root: `/beta/` (`.gitignore`). The files now show up as new files to commit. |
+| "Report a problem" → **Send navigated away** (`?…-reason=unclear`) and nothing was sent: the report form is rendered inside the exercise's own `<form>` (the Feedback panel), and the nested form submitted natively. Also, Enter on a reason chip went to the exercise card's shortcut and moved to the next item. | The report form is a `role="form"` container with a `type="button"` Send, and keeps its key presses (`apps/web/src/beta/ReportForm.tsx`); unit test asserts no nested form, e2e presses Enter on a reason. |
+| A2 units 1–3 broke the placement and grammar specs (they assumed A1 only) and Learn didn't say that A2 is incomplete. | Learn marks a level with fewer than 12 units "preview" and shows "Preview — n of 12 units" (`src/screens/Learn.tsx`); the placement explanation says when the level is a preview (`src/lib/placement.ts`); specs read every installed pack (`allPacks()`). |
+| The collector's HTTP handler lived in the Worker entry with Cloudflare types, so no other workspace could test against it. | `services/collector/src/http.ts` (no Cloudflare types; `index.ts` re-exports it), `KvRateLimiter` takes a minimal KV interface. |
+| `docs/BETA.md` smoke test said "all three beta switches"; there are two (reports need no switch). | Wording fixed. |
 
 ## Found issues and known gaps
 
@@ -363,13 +496,28 @@ locked or the tab in the background (the clock is faked), AI marking of exam wri
 
 ### Known gaps / open issues
 
+v0.5:
+
+- **Skill bands for learners placed above A1** (engine): `estimateSkills` walks up from A1 and stops at the
+  first level without attempts, so a learner placed in A2 who only does A2 exercises shows **A1** on the
+  radar, and the item statistics carry `band: "A1"` for them — skewing the per-band difficulty in the beta
+  report. Needs an engine decision (e.g. treat levels below the placement result as secure, or pass the
+  placement into the estimate).
+- With the A2 preview the placement test has two sections; a learner who masters both is placed at A2
+  unit 3 (the last installed one). Expected for a preview, but the 80 %-within-one-unit study should
+  compare against A1 placements only until A2 is complete.
+- The beta e2e suite runs on desktop Chrome only, with service workers blocked (so the route sees every
+  request). The outbox with a service worker in control, iOS/WebKit and real `keepalive` behaviour on page
+  close are manual.
+- The collector is exercised through its handler (contract test) and the D1 SQL through `node:sqlite`;
+  `wrangler dev` / a real deploy is manual (checklist above). No load test.
+- The feedback report's `at` is fixed when the form opens (so the preview matches), not when Send is pressed.
+
 v0.4:
 
 - **No recorded audio** (units 0/1880, exams 0/29, drills 0/504): the roadmap item "all A1 audio recorded
   and reviewed" is open. Standard German listening relies on device TTS; Swiss German listening items and
   the Schwiiz-Check are read, not heard, until recordings exist.
-- Two items that ask about the same voicemail (`a1-schwiiz1-l2-*`) have identical transcripts and get two
-  manifest entries: record once, copy the file.
 - The exam clock is faked in e2e; behaviour with a locked screen / background tab is manual only.
 - Lighthouse LCP on 4G, screen readers, zoom and forced colours are manual (checklist above); no numbers
   recorded yet.
@@ -393,8 +541,8 @@ Earlier:
   content (unit-tested in `SwissLane.test.tsx`). No recorded audio yet (audio coverage 0/968; TTS only, Swiss
   lane has none). Native-speaker review pending for all six units (`NATIVE_REVIEW.md`; the lint prints the
   review sign-off summary).
-- **Placement:** only A1 is installed, so the e2e run has one section and the adaptive stop between levels
-  is covered by unit tests only. The roadmap exit criterion (80% within one unit of a teacher's assessment)
+- **Placement:** the e2e run has two sections (A1, A2 preview) but always passes A1, so the adaptive stop
+  between levels is covered by unit tests only. The roadmap exit criterion (80% within one unit of a teacher's assessment)
   needs a study with real learners; nothing here measures it.
 - **E2e not covered yet:** match / dictation / translate / transform answers graded in the browser
   (inputs checked, grading unit-tested in jsdom), write / role-play flows, export/import, reset, theme

@@ -1,8 +1,8 @@
 import type { Page } from '@playwright/test';
 import { exercisesFor, grammarIndex, searchGrammar } from '../src/lib/grammar';
-import { a1Pack, expect, onboard, test } from './fixtures';
+import { allPacks, expect, onboard, test } from './fixtures';
 
-const entries = () => grammarIndex([a1Pack()]);
+const entries = () => grammarIndex(allPacks());
 
 /** Desktop: the "Reference" sidebar; phones: the card on Learn (the tab bar stays at five). */
 async function openGrammar(page: Page) {
@@ -19,10 +19,13 @@ test.describe('grammar reference', () => {
     await onboard(page);
     await openGrammar(page);
     await expect(page.getByRole('search').getByRole('status')).toHaveText(`${all.length} grammar points`);
-    const a1 = page.getByRole('region', { name: 'A1' });
-    for (const u of a1Pack().units) {
-      const list = a1.getByRole('list', { name: `Unit ${u.number} grammar` });
-      await expect(list.getByRole('link')).toHaveText(u.grammar.map((g) => g.title));
+    // Every installed level (A1, and the A2 preview) has its own region.
+    for (const pack of allPacks()) {
+      const region = page.getByRole('region', { name: pack.level, exact: true });
+      for (const u of pack.units) {
+        const list = region.getByRole('list', { name: `Unit ${u.number} grammar` });
+        await expect(list.getByRole('link')).toHaveText(u.grammar.map((g) => g.title));
+      }
     }
   });
 

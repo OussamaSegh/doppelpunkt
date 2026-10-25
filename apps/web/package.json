@@ -1,6 +1,6 @@
 {
   "name": "@doppelpunkt/web",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "private": true,
   "type": "module",
   "scripts": {
@@ -9,19 +9,21 @@
     "preview": "vite preview",
     "budget": "node scripts/check-budget.mjs",
     "typecheck": "tsc --noEmit -p .",
-    "test:e2e": "playwright test"
+    "build:e2e-beta": "vite build --mode e2e-beta --outDir dist-beta",
+    "test:e2e": "playwright test && playwright test -c playwright.beta.config.ts",
+    "test:e2e:beta": "playwright test -c playwright.beta.config.ts"
   },
   "dependencies": {
-    "@doppelpunkt/ai": "0.4.0",
-    "@doppelpunkt/content-schema": "0.4.0",
-    "@doppelpunkt/engine": "0.4.0",
+    "@doppelpunkt/ai": "0.5.0",
+    "@doppelpunkt/content-schema": "0.5.0",
+    "@doppelpunkt/engine": "0.5.0",
     "dexie": "^4.0.11",
     "dexie-react-hooks": "^1.1.7",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-router-dom": "^7.6.0",
     "zustand": "^5.0.5",
-    "@doppelpunkt/beta-schema": "0.4.0"
+    "@doppelpunkt/beta-schema": "0.5.0"
   },
   "devDependencies": {
     "@playwright/test": "1.63.0",

@@ -54,4 +54,21 @@ describe('placeLearner', () => {
     expect(placeLearner([{ level: 'A1', score: 1 }], { A1: 3 })).toEqual({ level: 'A1', unit: 3 });
     expect(placeLearner([{ level: 'C2', score: 1 }, { level: 'A1', score: 1 }])).toEqual({ level: 'C2', unit: 12 });
   });
+  it('with a partial A2 pack (A2 units 1–3 only): A1 placement is unchanged, A2 placement stays inside the installed units', () => {
+    const units = { A1: 12, A2: 3 };
+    expect(placeLearner([{ level: 'A1', score: 0.8 }, { level: 'A2', score: 0.2 }], units)).toEqual({ level: 'A1', unit: 7 });
+    expect(placeLearner([{ level: 'A1', score: 0.95 }, { level: 'A2', score: 0.3 }], units)).toEqual({ level: 'A2', unit: 1 });
+    expect(placeLearner([{ level: 'A1', score: 1 }, { level: 'A2', score: 0.75 }], units)).toEqual({ level: 'A2', unit: 3 });
+    // A2 mastered but B1 not installed: the last installed A2 unit.
+    expect(placeLearner([{ level: 'A1', score: 1 }, { level: 'A2', score: 1 }], units)).toEqual({ level: 'A2', unit: 3 });
+  });
+});
+
+describe('placementItems with a partial A2 pack', () => {
+  it('splits the test over A1 and A2 even when A2 has few units', () => {
+    const items = placementItems([pack('A1', 30), pack('A2', 9)], 30);
+    expect(items.filter((i) => i.level === 'A1')).toHaveLength(15);
+    expect(items.filter((i) => i.level === 'A2')).toHaveLength(9);
+    expect(items.findIndex((i) => i.level === 'A2')).toBe(15);
+  });
 });

@@ -265,3 +265,11 @@ curl https://doppelpunkt-collector.<you>.workers.dev/v1/health   # {"ok":true,..
   (check one CDN URL in the browser's network panel when you use the CDN)
 - [ ] `docs/QA.md` run on the preview
 - [ ] Beta builds: `GET <collector>/v1/health` says `configured: true`, `ALLOWED_ORIGINS` lists the app's origin, `docs/PRIVACY.md` has a real contact
+
+
+## GitHub Pages (free test deployment)
+
+`.github/workflows/pages.yml` builds the app on every push to `main` and publishes it to
+https://oussamasegh.github.io/doppelpunkt/ (base path `/<repo>/`, `404.html` as SPA fallback).
+One-time setup by a repo admin: **Settings → Pages → Build and deployment → Source: GitHub Actions**.
+The Pages build has no collector, so beta features are off there.

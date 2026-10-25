@@ -25,9 +25,15 @@ export class MemoryRateLimiter implements RateLimiter {
   }
 }
 
+/** The part of a Workers KV namespace the limiter uses. */
+export interface KvLike {
+  get(key: string): Promise<string | null>;
+  put(key: string, value: string, options: { expirationTtl: number }): Promise<void>;
+}
+
 /** Optional KV-backed counter, shared between isolates (eventually consistent, so still approximate). */
 export class KvRateLimiter implements RateLimiter {
-  constructor(private readonly kv: KVNamespace) {}
+  constructor(private readonly kv: KvLike) {}
 
   async hit(key: string, limit: number, windowMs: number, now: number): Promise<boolean> {
     const k = `rl:${key}:${Math.floor(now / windowMs)}`;

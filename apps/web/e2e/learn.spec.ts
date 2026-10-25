@@ -1,4 +1,4 @@
-import { a1Pack, escapeRegExp, expect, firstOfType, onboard, orderTokens, result, test, uebungen, unit1 } from './fixtures';
+import { a1Pack, allPacks, escapeRegExp, expect, firstOfType, onboard, orderTokens, result, test, uebungen, unit1 } from './fixtures';
 
 test.describe('onboarding and learning', () => {
   test('onboarding leads to Learn with the A1 units', async ({ page }) => {
@@ -38,6 +38,25 @@ test.describe('onboarding and learning', () => {
     await list.getByRole('link', { name: new RegExp(escapeRegExp(u12.title)) }).click();
     await expect(page).toHaveURL(new RegExp(`/unit/${u12.id}/einstieg$`));
     await expect(page.getByRole('heading', { level: 1, name: u12.title })).toBeVisible();
+  });
+
+  test('v0.5 A2 preview: "Preview — n of 12 units", the A2 units open; A1 has no preview note', async ({ page }) => {
+    const a2 = allPacks().find((p) => p.level === 'A2');
+    expect(a2, 'the build ships an A2 pack').toBeTruthy();
+    expect(a2!.units.length).toBeLessThan(12);
+    await onboard(page);
+    await expect(page.getByText(/Preview —/)).toHaveCount(0);
+    const levels = page.getByRole('navigation', { name: 'Levels' });
+    await levels.getByRole('link', { name: 'A2 preview' }).click();
+    await expect(page).toHaveURL(/\/learn\/A2$/);
+    await expect(page.getByRole('note')).toHaveText(`Preview — ${a2!.units.length} of 12 units. More A2 units are on the way; these are ready to use.`);
+    const list = page.getByRole('list', { name: 'A2 units' });
+    await expect(list.getByRole('listitem')).toHaveCount(a2!.units.length);
+    const first = a2!.units[0]!;
+    await expect(list.getByRole('listitem').first()).toContainText(`A2 · Unit ${first.number}`);
+    await list.getByRole('link', { name: new RegExp(escapeRegExp(first.title)) }).click();
+    await expect(page).toHaveURL(new RegExp(`/unit/${first.id}/einstieg$`));
+    await expect(page.getByRole('heading', { level: 1, name: first.title })).toBeVisible();
   });
 
   test('a learner can walk through every step of unit 1', async ({ page }) => {

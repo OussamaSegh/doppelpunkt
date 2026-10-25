@@ -79,7 +79,7 @@ by design.
    The URL must be `https` (plain `http` only for `localhost`). Deploy `apps/web/dist/` to its own
    origin, for example `beta.doppelpunkt.example.org` (`docs/DEPLOY.md`), so that the public build
    never talks to the collector.
-3. **Smoke test.** On one phone: switch on all three beta switches, do a few exercises, report one
+3. **Smoke test.** On one phone: switch on both beta switches (statistics, crash reports), do a few exercises, report one
    as wrong, then export (next section) and run `beta:report`. The item and the report must appear.
    Then switch statistics off and check the install is forgotten (`/v1/forget`).
 4. **Dry run of the reports** with synthetic data, so that the team knows what to expect:

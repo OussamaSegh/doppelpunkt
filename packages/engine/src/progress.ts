@@ -43,10 +43,17 @@ function bandFor(attempts: Attempt[], now: number): string {
     byLevel.set(a.level, acc);
   }
   // Walk up the levels: each secure level adds 1; the first insecure level adds a fraction and stops.
+  // A level with no attempts below the highest attempted one counts as secure: the learner
+  // skipped it (placement put them higher), so it must not cap the band.
+  let highest = -1;
+  LEVELS.forEach((l, i) => { if ((byLevel.get(l)?.w ?? 0) > 0) highest = i; });
   let value = 0;
   for (let i = 0; i < LEVELS.length; i++) {
     const acc = byLevel.get(LEVELS[i]!);
-    if (!acc || acc.w === 0) break;
+    if (!acc || acc.w === 0) {
+      if (i < highest) { value = i + 1; continue; }
+      break;
+    }
     const mastery = acc.s / acc.w;
     if (mastery >= MASTERY_THRESHOLD) value = i + 1;
     else {

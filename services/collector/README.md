@@ -83,6 +83,9 @@ npx wrangler dev                       # http://localhost:8787
 npx vitest run services/collector      # from the repo root
 ```
 
-The logic (`src/collector.ts`) talks to a `Storage` interface (`src/storage.ts`). The tests use the
-in-memory implementation; `test/storage-d1.test.ts` also runs the real migration and the D1 SQL on
-SQLite through `node:sqlite` (skipped on Node versions without it).
+The logic (`src/collector.ts`) talks to a `Storage` interface (`src/storage.ts`). The HTTP routes are in
+`src/http.ts` (no Cloudflare types, so other workspaces can drive `handle()`); `src/index.ts` is the Worker
+entry (D1, optional KV, cron). The tests use the in-memory implementation; `test/storage-d1.test.ts` also
+runs the real migration and the D1 SQL on SQLite through `node:sqlite` (skipped on Node versions without
+it). `apps/web/src/lib/beta/collector.contract.test.ts` sends the app's real envelopes through `handle()`
+to check that both sides agree.

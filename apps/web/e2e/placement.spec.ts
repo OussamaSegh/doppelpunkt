@@ -1,22 +1,28 @@
-import { a1Pack, answerCorrectly, answerMcqWrong, exerciseById, expect, navTo, onboard, pressOnPage, shownExerciseId, test } from './fixtures';
+import { a1Pack, allPacks, answerCorrectly, answerMcqWrong, exerciseById, expect, navTo, onboard, pressOnPage, shownExerciseId, test } from './fixtures';
 
-// The placement test runs on the real A1 pack. Only A1 is installed, so there is one section and the
-// adaptive stop between levels cannot trigger here (it is covered by src/screens/Placement.test.tsx).
+// The placement test runs on the real packs: one section per installed level (A1, and since v0.5 the
+// A2 preview with units 1–3). The adaptive stop after a failed level is covered by
+// src/screens/Placement.test.tsx; here every answer is right or the test is stopped inside A1.
+const levels = () => allPacks().map((p) => p.level);
+/** Where a learner who answers everything right ends up: the last unit of the highest installed level. */
+const topPack = () => allPacks()[allPacks().length - 1]!;
+const lastUnit = () => topPack().units[topPack().units.length - 1]!;
 
 test.describe('placement test', () => {
   test('intro: sections, length and the rules are explained before starting', async ({ page }) => {
     await onboard(page, { start: 'placement' });
     const intro = page.getByRole('region', { name: 'Placement test' });
     await expect(intro.getByRole('heading', { level: 1, name: 'Placement test' })).toBeVisible();
-    await expect(intro).toContainText(/\d+ questions in 1 section \(A1\), about \d+ minutes\./);
+    const n = levels().length;
+    await expect(intro).toContainText(new RegExp(`\\d+ questions in ${n} sections? \\(${levels().join(', ')}\\), about \\d+ minutes\\.`));
     await expect(intro).toContainText('If a level is clearly too hard, the test ends there.');
     await expect(intro).toContainText("You won't see the answers during the test");
     await page.getByRole('button', { name: 'Start the test' }).click();
 
     const sections = page.getByRole('list', { name: 'Sections' });
-    await expect(sections.getByRole('listitem')).toHaveText(['A1']);
+    await expect(sections.getByRole('listitem')).toHaveText(levels());
     await expect(sections.getByRole('listitem').first()).toHaveAttribute('aria-current', 'step');
-    await expect(page.getByText(/^Section 1 of 1: A1 · question 1 of \d+$/)).toBeVisible();
+    await expect(page.getByText(new RegExp(`^Section 1 of ${levels().length}: A1 · question 1 of \\d+$`))).toBeVisible();
     await expect(page.getByRole('progressbar', { name: 'Placement progress' })).toBeVisible();
     // Next stays disabled until the question is answered.
     await expect(page.getByRole('button', { name: 'Next', exact: true })).toBeDisabled();
@@ -67,10 +73,10 @@ test.describe('placement test', () => {
     await expect(card.getByRole('link', { name: 'Take the test again' })).toBeVisible();
   });
 
-  test('all answers right: placed at the last A1 unit, can start there or from unit 1 instead', async ({ page }) => {
+  test('all answers right: placed at the last unit of the highest level, can start there or from unit 1 instead', async ({ page }) => {
     test.setTimeout(120_000);
-    const units = a1Pack().units;
-    const last = units[units.length - 1]!;
+    const last = lastUnit();
+    const top = topPack().level;
     await onboard(page, { start: 'placement' });
     await page.getByRole('button', { name: 'Start the test' }).click();
 
@@ -87,13 +93,15 @@ test.describe('placement test', () => {
     }
 
     const res = page.getByRole('region', { name: /Your starting point/ });
-    await expect(res.getByRole('heading', { level: 1 })).toHaveText(`Your starting point: A1, unit ${last.number}`);
+    await expect(res.getByRole('heading', { level: 1 })).toHaveText(`Your starting point: ${top}, unit ${last.number}`);
     await expect(res).toContainText(last.title);
-    await expect(res).toContainText(`You scored 100% on A1, which means you've mastered it.`);
+    await expect(res).toContainText(`You scored 100% on ${top}, which means you've mastered it.`);
+    if (levels().length > 1) await expect(res).toContainText(`You passed ${levels().map((l) => `${l} (100%)`).join(', ')}.`);
     await expect(res).toContainText(`${total} of ${total} questions answered.`);
     await expect(res).not.toContainText('ended early');
-    const row = res.getByRole('table', { name: 'Score per level' }).getByRole('row').nth(1);
-    await expect(row.getByRole('cell')).toHaveText(['A1', String(total), '100%', 'mastered']);
+    const rows = res.getByRole('table', { name: 'Score per level' }).getByRole('row');
+    await expect(rows).toHaveCount(levels().length + 1);
+    for (const [i, l] of levels().entries()) await expect(rows.nth(i + 1).getByRole('cell')).toHaveText([l, /^\d+$/, '100%', 'mastered']);
     await page.getByRole('button', { name: 'Start here' }).click();
     await expect(page).toHaveURL(new RegExp(`/unit/${last.id}(/einstieg)?$`));
     await expect(page.getByRole('heading', { level: 1, name: last.title })).toBeVisible();
@@ -101,20 +109,21 @@ test.describe('placement test', () => {
     // The result card on Progress.
     await navTo(page, 'Progress');
     const card = page.getByRole('region', { name: 'Placement test' });
-    await expect(card).toContainText(`Placed at A1, unit ${last.number}`);
-    await expect(card.getByRole('list', { name: 'Placement score per level' })).toHaveText(/A1\s*100%/);
+    await expect(card).toContainText(`Placed at ${top}, unit ${last.number}`);
+    await expect(card.getByRole('list', { name: 'Placement score per level' })).toHaveText(new RegExp(levels().map((l) => `${l}\\s*100%`).join('\\s*')));
 
-    // Learn suggests the placed unit.
+    // Learn opens the placed level and suggests the placed unit; a partial level says it is a preview.
     await navTo(page, 'Learn');
-    const items = page.getByRole('list', { name: 'A1 units' }).getByRole('listitem');
+    if (topPack().units.length < 12) await expect(page.getByText(`Preview — ${topPack().units.length} of 12 units`)).toBeVisible();
+    const items = page.getByRole('list', { name: `${top} units` }).getByRole('listitem');
     await expect(items.filter({ hasText: 'Start here' })).toHaveCount(1);
     await expect(items.filter({ hasText: 'Start here' })).toContainText(last.title);
   });
 
   test('keyboard only (Enter checks, Enter moves on), then "Start from A1 unit 1 instead"', async ({ page }) => {
     test.setTimeout(120_000);
-    const units = a1Pack().units;
-    const last = units[units.length - 1]!;
+    const last = lastUnit();
+    const top = topPack().level;
     await onboard(page, { start: 'placement' });
     await page.getByRole('button', { name: 'Start the test' }).click();
     const counter = page.getByText(/^\d+ \/ \d+$/);
@@ -127,7 +136,7 @@ test.describe('placement test', () => {
       await expect(page.getByRole('status').filter({ hasText: 'Answer saved.' })).toBeVisible();
       await pressOnPage(page, 'Enter');
     }
-    await expect(page.getByRole('heading', { level: 1, name: `Your starting point: A1, unit ${last.number}` })).toBeVisible();
+    await expect(page.getByRole('heading', { level: 1, name: `Your starting point: ${top}, unit ${last.number}` })).toBeVisible();
 
     await page.getByRole('button', { name: 'Start from A1 unit 1 instead' }).click();
     await expect(page).toHaveURL(/\/learn\/A1$/);
@@ -137,6 +146,6 @@ test.describe('placement test', () => {
 
     // The placement result itself is kept.
     await navTo(page, 'Progress');
-    await expect(page.getByRole('region', { name: 'Placement test' })).toContainText(`Placed at A1, unit ${last.number}`);
+    await expect(page.getByRole('region', { name: 'Placement test' })).toContainText(`Placed at ${top}, unit ${last.number}`);
   });
 });

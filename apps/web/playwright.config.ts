@@ -16,6 +16,8 @@ const command = needsBuild ? `npm --prefix ../.. run build && ${preview}` : prev
 
 export default defineConfig({
   testDir: './e2e',
+  // The beta-build specs run against dist-beta (VITE_COLLECTOR_URL set): playwright.beta.config.ts.
+  testIgnore: ['beta/**'],
   fullyParallel: true,
   forbidOnly: CI,
   retries: CI ? 1 : 0,
