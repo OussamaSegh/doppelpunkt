@@ -24,6 +24,11 @@ Legend: ✅ confirmed, no change · ✏️ corrected in content · ❓ no source
 | DUDEN | Duden online, *Zmittag* (gender and regional label): https://www.duden.de/synonyme/Zmittag; verbformen.com *Zmorge*: https://www.verbformen.com/declension/nouns/Zmorge.htm |
 | GLOSS | Zurich glossary "Zurich dialect for beginners" (vi.to, Front Conference Zurich): https://vi.to/hubs/front-conference-zurich-2023/pages/zurich-dialect-for-beginners – a popular glossary, used only as supporting evidence |
 | GFL | gamesforlanguage.com, *Swiss German lessons in Gstaad* (Bernese Oberland words): https://www.gamesforlanguage.com/blog/post/2014-02-language-lessons-in-gstaad-1 |
+| WP-SG | Wikipedia, *Swiss German* (phonology): https://en.wikipedia.org/wiki/Swiss_German |
+| WP-SHD | Wikipedia, *Schweizer Hochdeutsch* (de, section on pronunciation): https://de.wikipedia.org/wiki/Schweizer_Hochdeutsch |
+| WP-SGP | Wikipedia, *Standard German phonology*: https://en.wikipedia.org/wiki/Standard_German_phonology |
+| WP-BE-EN | Wikipedia, *Bernese German* (en): https://en.wikipedia.org/wiki/Bernese_German |
+| DUDEN-W | Duden online entries *Perron* (https://www.duden.de/rechtschreibung/Perron), *Billett* (https://www.duden.de/rechtschreibung/Billett), *Trottoir* (https://www.duden.de/rechtschreibung/Trottoir), *jassen* (https://www.duden.de/rechtschreibung/jassen) |
 | AI | No fetchable source found; the form follows teaching practice and Dieth conventions. **Needs a native.** |
 
 The Schweizerisches Idiotikon (idiotikon.ch), Wiktionary and quizlet/ch-de.ch pages could not be
@@ -155,9 +160,96 @@ New content was drafted with the sources above. Each unit's `review.notes` repea
 | Dialogue lines: u1 *i bi guet acho, Aues guet!, U d Nachbare?, Nätt!*; u2 *Merci viumau u schöne Tag!*; u3 *I bi d Mia, d Schwöschter vo dr Sandra. I ha zwöi Ching, dr Luca u d Nina.*; u4 *Am Samschti bin i z Bärn. Chunsch zum Zmorge?*; u5 *Chouf no Härdöpfu u Anke! Mach i, Mami. U Miuch? Nei, Miuch hei mer gnue.*; u6 *U, wie isch d Wohnig? D Chuchi isch chly, aber d Stube isch gross u hell. U dr Ghüder? Dä chunnt i Züri-Sack. Aues klar!* | ❓ | – | Words are sourced; sentence flow needs a Bernese speaker. |
 | `wösche` (waschen, in an explanation) | ❓ | BD (entry *Wösch*) | The noun is attested; the verb form is not. |
 
+## Pass 4 (2026-10-25): pronunciation drills and A1 units 7–9 (v0.3)
+
+New content: 16 pronunciation drills in `content/pronunciation/` and A1 units 7–9. Each unit's
+`review.notes` repeats its open questions. Online sources were checked for the phonetics and for the
+Swiss forms below; everything marked AI still needs a native.
+
+### Pronunciation drills (phonetics claims)
+
+| Claim | Verdict | Source | Notes |
+| --- | --- | --- | --- |
+| ich-Laut [ç] after front vowels, consonants and in -chen; ach-Laut [x] after a, o, u, au | ✅ | WP-SGP | Used in `ich-laut`, `ach-laut`. |
+| -ig as [ɪç] in Germany, [ɪk]-like in the south, Austria and Switzerland | ✅ | WP-SGP | Both accepted; stated in `ich-laut` and `ch-std-accent`. |
+| -er vocalised to [ɐ] everywhere except Switzerland | ✅ | WP-SGP | `r-and-er`, `ch-std-accent`. |
+| Final devoicing in Germany; Swiss keep fortis/lenis apart at the end of words | ✅ | WP-SGP, WP-SG | `final-devoicing`, `ch-std-accent` (*Rad / Rat*). |
+| Glottal stop before vowel-initial stems; absent in Swiss Standard German (*e-rinnern*) | ✅ | WP-SGP, WP-SHD | `glottal-stop`, `ch-std-accent`. |
+| Swiss dialects have no ich-Laut; Swiss speakers use the ach-Laut in Standard German too | ✅ | WP-SG, WP-ZH, WP-SHD | `gsw-ch-gg-kch`, `ch-std-accent`. |
+| Swiss p, t, k unaspirated | ✅ | WP-SG, WP-ZH | `gsw-ch-gg-kch`, `ch-std-accent`. |
+| Zurich k-affricate [kx] in loanwords (*Kampf*); SRF spelling: k/ck for kch, ch for ch, gg for gg (*Schoggi, Schnägg*) | ✅ | WP-ZH, SRF | Applied to *Sack, Zucker, Kafi, Kino* in `gsw-ch-gg-kch`: ❓ that these words really have kch for most Zurich speakers. |
+| Diphthongs iə, uə, yə (*lieb, guet, müed*); long ii, uu, üü for Standard ei, au, eu | ✅ | WP-SG, SRF | `gsw-vowels`. |
+| Bernese shortens high vowels (*Zyt, Lüt*) | ✅ | WP-BE-EN | Note in `gsw-vowels`. |
+| Swiss first-syllable stress on French loans: *Billett* [ˈbilɛt], *Perron* [ˈpɛrɔ̃], *Trottoir* [ˈtrɔtvaːɐ̯], *Fondue*, *merci* | ✅ | DUDEN-W, WP-SHD, WP-SG | `ch-std-accent`, unit 8 notes. |
+| Very open ä in Swiss Standard German | ✅ | WP-SHD | `ch-std-accent`. |
+| k as kch in Swiss Standard German "in many speakers" | ❓ | – | A study on k-affrication in Swiss Standard German exists (University of Vienna, *Welchen Einfluss nimmt der Bildungsgrad auf die k-Affrizierung im Schweizer Standard?*) but the page was down and the Hove paper on sonar.ch was blocked. Please confirm the wording. |
+| Zurich minimal pairs `Wii / wie`, `Muus / mues`, `Füür / für`, `nüün / nüt`, `Chue / Chüe`, `Fuess / Füess` | ❓ | AI | `Brueder / Brüeder` is SRF-sourced; the others follow the SRF patterns. Please confirm that they contrast as described. |
+| Zurich near pairs `Sach / Sack`, `Chind / Kino`, `Chäs / Kafi`, `Chuchi / Zucker`; gg words `Rugge`, `Schnägg`, `Schoggi` | ❓ | SRF (Schnägg, Schoggi) | `Rugge` and the kch reading of the loanwords need a native. |
+
+### Units 7–9, Zurich German (gsw-zh)
+
+| Form | Verdict | Source | Notes |
+| --- | --- | --- | --- |
+| `chöne` (ich chan, du chasch, mir chönd), `wele` (ich wott, du wottsch, mir wänd), `müese`, `dörfe`, `sölle` | ✅ | lexicon (pass 1–2), TMO | Reused from the lexicon. |
+| `schwümme` | ✅ | SRF | SRF example (*schwimmen → schwümme*). |
+| `Sunne`, `Summer`, `Sunntig` (o → u before nasals) | ✅ | SRF (*Sunne*) | `Summer` by the same pattern: ❓ tick only. |
+| `gärn` | ✅ | GLOSS | GLOSS writes *gèèrn*. |
+| `mega`, `lässig` | ✅ / ✅ | lexicon, GLOSS | |
+| `Badi` | ✅ | GLOSS | |
+| `ich schwümm gärn`, `ich fahr Ski` (1st person without -e) | ❓ | AI | |
+| `gömmer` (= gönd mir), `is Kino` | ❓ | AI | |
+| `uf de Üetliberg`, `Hoffentli`, `Wätter`, `Freiziit`, `Musig`, `Konzärt`, `Bärg`, `Räge`, `Herbscht`, `Früelig`, `mängisch`, `hüüfig` | ❓ | AI | `mängisch` is attested for Bern (WP-BE-EN); Zurich use assumed. |
+| `jasse`, Jass suits *Schälle, Schilte, Rose, Eichle*, *Schieber* | ✅ / ❓ | DUDEN-W (*jassen*) | Suits and game name from general knowledge: please confirm. |
+| `Lueg emal!`, `Nimm s Tram!`, `Gang grad us!`, `Fahr ... rächts`, `det`, `bi de Ampel` | ❓ | lexicon (*Lueg emal*) | Other imperatives and *bi de Ampel* unverified. |
+| `umstiige`, `iistiige`, `uusstiige` | ❓ | AI | Pattern ei → ii (SRF *schriibe*). |
+| `es Halbtax`, `es Billett`, `es Tram` | ✅ / ❓ | lexicon (*Tram* n.), DUDEN-W (*Billett* n.) | Gender of *Halbtax* (n.) unverified. |
+| `der Perron` (Swiss) | ✏️ | DUDEN-W | Duden: der, also das. Unit 8 says *der Perron*; ❓ which is more common in Zurich. |
+| `Häsch morn Ziit?`, `morn`, `übermorn`, `Ich lüüt dir aa` | ✅ | lexicon | *aalüüte* + dative is in the lexicon (pass 1). |
+| `Chunnsch bi mir verbii?`, `Söll ich öppis mitbringe?`, `abgmacht`, `e Fläsche Wii`, `Gaht s?` | ❓ | AI | |
+| Phone greeting with the surname only (*Marti.*) | ❓ | AI | Widely described; please confirm the note. |
+| `Uf Widerlose!` | ❓ | AI | From *lose* = to listen (lexicon). |
+| Months `Auguscht, Septämber, Novämber, Dezämber`; dates `am vierte Juli` | ❓ | AI | |
+| Swiss-lane dialogues of units 7–9 | ❓ | – | Natural flow can only be judged by a native. |
+
+### Units 7–9, Swiss Standard German (ch-std)
+
+| Form | Verdict | Source | Notes |
+| --- | --- | --- | --- |
+| `Velo fahren`, `das Tram`, `das Billett`, `das Trottoir`, `parkieren`, `grillieren` | ✅ | DUDEN-W, lexicon | |
+| `der Perron` | ✅ | DUDEN-W | Duden marks it *schweizerisch*. |
+| `die Badi` (written ch-std) | ❓ | GLOSS | Common in Swiss Standard, also in writing? |
+| `der Match` (masculine) | ❓ | AI | |
+| `Halbtax`, `GA` | ✅ | AI | Swiss rail products; prices deliberately not given. |
+| `der Coiffeur`, `die Agenda`, `das Natel`, `das Nachtessen` | ✅ | lexicon, AI | |
+| ch-std dialogue lines (passer-by in unit 8, receptionist in unit 9) | ❓ | – | E.g. *Nehmen Sie am besten das Tram Nummer sechs*, *Praxis Dr. Huber, Graf, guten Tag*. |
+
+### Units 7–9, Bernese (gsw-be)
+
+| Form | Verdict | Source | Notes |
+| --- | --- | --- | --- |
+| `schwümme`, `Aareschwumm` | ✅ | BD #18205, BD #54468 | |
+| `mir wei`, `i cha`, `mir chöi`, `i wott` | ✅ | WP-BE, lexicon | |
+| `linggs` | ✅ | BD #19385 | |
+| `ds Tram` (n., diminutive Trämli) | ✅ | BD #51755 | |
+| `ds Velo` (n.), `velööle` | ✅ | BD #13085, BD #18944 | |
+| `aalüte` (participle aaglütet) | ✅ | BD #17260 | |
+| `morn` | ✅ | BD #19854 | |
+| `Zyt` | ✅ | BD #18925 (*Morn um di glychi Zyt*), WP-BE-EN | |
+| `gäu` | ✅ | WP-BE-EN | |
+| `Tschou` | ✅ | BD #12136 | |
+| `het`, `dr Ätti` | ✅ | WP-BE, lexicon | |
+| `bau` (bald) | ❓ | – | l-vocalisation pattern only. |
+| Dialogue lines: u7 *Am Sunntig wei mir i dr Aare schwümme. / Oh, schad! Am Sunntig cha i nid. Aber am Samschti chume i gärn hei.*; u8 *Sandra, wo bisch? / Im Tram! I fahre i d Stadt. / Pass uf, gäu! / Jaja, Mami. Tschou!*; u9 *Am vierte Juli het dr Ätti Geburtstag. Chunsch? / Klar, i chume! / Super. Lüt mer de aa, gäu!* | ❓ | – | Words are sourced; sentence flow and *Lüt mer de aa* need a Bernese speaker. |
+
+### Not found online
+
+*tschutte* (Duden page failed to load), *Halbtax* (Duden page failed), Zurich direction phrases (*grad
+us*, *bi de Ampel*), Zurich months, *Uf Widerlose*. The University of Vienna page on k-affrication was
+in maintenance and sonar.ch (Hove, *Schweizer Hochdeutsch*) was blocked from the review environment.
+
 ## Still for a human native speaker
 
-1. **German native teacher:** every unit 1–6 (Standard German), especially the new grammar
+1. **German native teacher:** every unit 1–9 (Standard German), especially the new grammar
    explanations (stem-changing verbs, separable verbs, telling the time, nicht/kein, doch, es gibt,
    location chunks) and the readings.
 2. **Zurich native:** every ✏️, ✅ and ❓ line above as a tick list; the six Swiss-lane dialogues;
@@ -168,7 +260,11 @@ New content was drafted with the sources above. Each unit's `review.notes` repea
    - `du möchtsch / möchtisch`; `Waschchuchi`, `Huusornig`, `früe`.
 3. **Bernese native:** every Bernese dialogue line listed above, and `vilech / villech`, `mir göh`,
    `i nime`, `ke / kei`, `wösche`.
-4. **Audio scripts** once studio recording starts (v0.2). The audio scripts in `content/a1/unit-0N/`
+4. **Pass 4 (v0.3):** a German phonetics teacher for the 13 Standard drills (pairs, words, the
+   explanations of mouth positions); a Zurich native for `gsw-ch-gg-kch` and `gsw-vowels` (every pair
+   and word) and every ❓ line of units 7–9; a Swiss Standard speaker for `ch-std-accent` and the ch-std
+   dialogue lines; a Bernese speaker for the Bernese lines of units 7–9.
+5. **Audio scripts** once studio recording starts (v0.2). The audio scripts in `content/a1/unit-0N/`
    must be regenerated after these content changes (for example, Grossätti → Grosätti in unit 3).
 
 ## Open format questions
@@ -177,3 +273,8 @@ New content was drafted with the sources above. Each unit's `review.notes` repea
 - Listening MCQs refer to the dialogues until studio audio exists (v0.2).
 - Bernese items use the infix `-ch-be-` in their ids (`a1-u04-ch-be-match-days`). They are recognition
   items at A1, ahead of the B1 Bernese option in the curriculum, and are kept to 3 per unit.
+- Units 8 and 9 tag Swiss speakers who speak Standard German (passer-by, receptionist) as `ch-std`
+  dialogue lines inside the `de` intro dialogue, with Swiss spelling (*zu Fuss, Strasse*).
+- Swiss pronunciation drills (`gsw-ch-gg-kch`, `gsw-vowels`) are A1 listening-and-imitation drills,
+  ahead of active dialect speaking at B1. Their pairs contrast dialect words only; the Standard German
+  word is given in the gloss.

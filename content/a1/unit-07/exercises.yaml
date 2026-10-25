@@ -1,0 +1,611 @@
+# A1 unit 7 – Freizeit und Hobbys
+
+# ---------- vocabulary ----------
+- id: a1-u07-match-hobbies
+  type: match
+  skill: vocabulary
+  variety: de
+  prompt: Match the activities with English.
+  pairs:
+    - ["schwimmen", "to swim"]
+    - ["wandern", "to hike"]
+    - ["tanzen", "to dance"]
+    - ["singen", "to sing"]
+    - ["reisen", "to travel"]
+  explanation: >-
+    All five are regular verbs: ich schwimme, du tanzt, er reist. Careful: wandern is hiking or walking in
+    the countryside – not "wandering around".
+
+- id: a1-u07-match-seasons
+  type: match
+  skill: vocabulary
+  variety: de
+  prompt: Match the seasons and the weather words.
+  pairs:
+    - ["der Frühling", "spring"]
+    - ["der Sommer", "summer"]
+    - ["der Herbst", "autumn"]
+    - ["der Winter", "winter"]
+    - ["der Schnee", "snow"]
+  explanation: >-
+    All four seasons are masculine (der), and so are der Regen and der Schnee. In summer = im Sommer.
+
+- id: a1-u07-mcq-instrument
+  type: mcq
+  skill: vocabulary
+  variety: de
+  prompt: Which one is a musical instrument?
+  options: ["das Kino", "der See", "das Klavier", "der Herbst"]
+  answer: 2
+  explanation: >-
+    das Klavier = piano. German says Klavier spielen, Gitarre spielen – without an article, as for sports:
+    Fußball spielen.
+
+- id: a1-u07-mcq-season
+  type: mcq
+  skill: vocabulary
+  variety: de
+  grammar: [weather-es]
+  prompt: "Es ist kalt und es schneit. Welche Jahreszeit ist es? (die Jahreszeit = season)"
+  options: ["Sommer", "Frühling", "Herbst", "Winter"]
+  answer: 3
+  explanation: >-
+    es schneit = it's snowing, so it's winter. Weather verbs use es: es schneit, es regnet.
+
+- id: a1-u07-mcq-frequency
+  type: mcq
+  skill: vocabulary
+  variety: de
+  prompt: "Tom swims every day. Anna swims once or twice a month. Lena never swims. What does Anna say?"
+  options: ["Ich schwimme oft.", "Ich schwimme manchmal.", "Ich schwimme nie.", "Ich schwimme jeden Tag."]
+  answer: 1
+  explanation: >-
+    manchmal = sometimes. The scale: immer (always) – oft (often) – manchmal (sometimes) – nie (never). Like
+    gern, these words come after the verb: Ich schwimme manchmal.
+
+# ---------- grammar: gern / lieber / am liebsten ----------
+- id: a1-u07-gap-gern-lieber
+  type: gap
+  skill: grammar
+  variety: de
+  grammar: [gern-lieber]
+  prompt: "Fill in gern, lieber or liebsten. (like – prefer – like best)"
+  text: Ich trinke ___ Kaffee, ___ Tee, aber am ___ trinke ich Wasser.
+  answers: [["gern", "gerne"], ["lieber"], ["liebsten"]]
+  explanation: >-
+    gern – lieber – am liebsten is the scale of liking (like – prefer – like best). They are irregular:
+    there is no *gerner*.
+
+- id: a1-u07-mcq-gern-position
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [gern-lieber]
+  prompt: Which sentence is correct?
+  options: ["Ich gern spiele Gitarre.", "Gern ich spiele Gitarre.", "Ich spiele gern Gitarre.", "Ich spiele Gitarre gern ich."]
+  answer: 2
+  rationales:
+    - "The verb must be in position 2: Ich spiele ..."
+    - "If gern is in position 1, the verb comes next: Gern spiele ich Gitarre."
+    - "Correct. Verb second, then gern."
+    - "The subject can't come at the end."
+  explanation: >-
+    gern is an adverb that follows the conjugated verb: Ich spiele gern Gitarre. English puts "like" before
+    the activity; German puts gern after the verb.
+
+- id: a1-u07-order-gern
+  type: order
+  skill: grammar
+  variety: de
+  grammar: [gern-lieber, time-inversion]
+  prompt: Put the words in order.
+  tokens: ["wandern", "Im", "gern", "Herbst", "wir"]
+  answers: ["Im Herbst wandern wir gern.", "Wir wandern im Herbst gern.", "Wir wandern gern im Herbst."]
+  explanation: >-
+    With Im Herbst in position 1, the verb wandern stays second and wir comes third (unit 4: time
+    inversion). Starting with wir is also correct.
+
+- id: a1-u07-transform-lieber
+  type: transform
+  skill: grammar
+  variety: de
+  grammar: [gern-lieber]
+  prompt: "Anna doesn't like football – she prefers tennis. Rewrite with nicht gern and lieber."
+  from: de
+  to: de
+  source: Anna spielt gern Fußball.
+  answers: ["Anna spielt nicht gern Fußball, sie spielt lieber Tennis.", "Anna spielt nicht gern Fußball. Sie spielt lieber Tennis.", "Anna spielt nicht gern Fussball, sie spielt lieber Tennis.", "Anna spielt nicht gern Fußball, lieber spielt sie Tennis.", "Anna spielt nicht gerne Fußball, sie spielt lieber Tennis."]
+  explanation: >-
+    nicht gern = doesn't like doing. lieber = prefers. Both stand right after the verb: spielt nicht gern,
+    spielt lieber.
+
+- id: a1-u07-translate-not-like
+  type: translate
+  skill: writing
+  variety: de
+  grammar: [gern-lieber]
+  prompt: Translate into German.
+  source: I don't like dancing.
+  answers: ["Ich tanze nicht gern.", "Ich tanze nicht gerne."]
+  explanation: >-
+    "I (don't) like + -ing" = verb + (nicht) gern. Not *Ich mag nicht tanzen* – that's possible, but much
+    less natural.
+
+# ---------- grammar: können / wollen ----------
+- id: a1-u07-gap-koennen
+  type: gap
+  skill: grammar
+  variety: de
+  grammar: [modal-koennen-wollen]
+  prompt: Fill in the correct form of können.
+  text: "___ du schwimmen? – Ja, ich ___ gut schwimmen. Aber mein Bruder ___ nicht schwimmen."
+  answers: [["Kannst"], ["kann"], ["kann"]]
+  explanation: >-
+    können: ich kann, du kannst, er kann. ich and er have the same form with no ending – typical of all
+    modal verbs.
+
+- id: a1-u07-gap-wollen
+  type: gap
+  skill: grammar
+  variety: de
+  grammar: [modal-koennen-wollen]
+  prompt: Fill in the correct form of wollen.
+  text: "Wir ___ ins Kino gehen. ___ ihr mitkommen? – Nein, Tom ___ lieber wandern."
+  answers: [["wollen"], ["Wollt"], ["will"]]
+  explanation: >-
+    wollen: wir wollen, ihr wollt, er will. The singular has a vowel change (i): ich will, du willst, er will.
+
+- id: a1-u07-mcq-kann
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [modal-koennen-wollen]
+  prompt: Choose the correct form.
+  question: Lena ___ sehr gut singen.
+  options: ["kannt", "können", "kann", "kannst"]
+  answer: 2
+  rationales:
+    - "Modal verbs have no -t with er/sie/es."
+    - "können is the infinitive, or the form for wir/sie."
+    - "Correct. sie kann."
+    - "kannst goes with du."
+  explanation: >-
+    For modal verbs, ich and er/sie/es are the same and have no ending: ich kann, sie kann.
+
+- id: a1-u07-mcq-will-false-friend
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [modal-koennen-wollen]
+  prompt: "\"Ich will einen Kaffee.\" What does it mean?"
+  options: ["I want a coffee.", "I will have a coffee tomorrow.", "I'll make a coffee.", "I drink coffee."]
+  answer: 0
+  explanation: >-
+    False friend: ich will = I want. It sounds a bit direct when ordering – say Ich möchte einen Kaffee or
+    Ich hätte gern einen Kaffee (unit 2).
+
+- id: a1-u07-order-bracket
+  type: order
+  skill: grammar
+  variety: de
+  grammar: [modal-koennen-wollen]
+  prompt: Put the words in order.
+  tokens: ["Ich", "nicht", "kann", "fahren", "Ski"]
+  answers: ["Ich kann nicht Ski fahren.", "Ski fahren kann ich nicht."]
+  explanation: >-
+    The sentence bracket: kann in position 2, the infinitive (Ski) fahren at the end, nicht before it.
+
+- id: a1-u07-order-question
+  type: order
+  skill: grammar
+  variety: de
+  grammar: [modal-koennen-wollen]
+  prompt: Make a yes/no question.
+  tokens: ["du", "Gitarre", "Kannst", "spielen"]
+  answers: ["Kannst du Gitarre spielen?"]
+  explanation: >-
+    Yes/no questions start with the conjugated verb (here the modal). The infinitive still closes the
+    sentence: Kannst du ... spielen?
+
+- id: a1-u07-transform-modal
+  type: transform
+  skill: grammar
+  variety: de
+  grammar: [modal-koennen-wollen]
+  prompt: "Add the modal verb in brackets: Ich spiele Klavier. (können)"
+  from: de
+  to: de
+  source: Ich spiele Klavier.
+  answers: ["Ich kann Klavier spielen."]
+  explanation: >-
+    The modal verb takes the person ending and position 2 (kann); spielen moves to the end in the
+    infinitive.
+
+# ---------- grammar: weather ----------
+- id: a1-u07-gap-weather
+  type: gap
+  skill: grammar
+  variety: de
+  grammar: [weather-es]
+  prompt: "Fill in the gaps. (it snows – cold)"
+  text: Im Winter ___ es oft und es ist ___.
+  answers: [["schneit"], ["kalt"]]
+  explanation: >-
+    Im Winter is in position 1, so the verb schneit comes before es. kalt has no ending after ist.
+
+- id: a1-u07-mcq-es-regnet
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [weather-es]
+  prompt: "How do you say \"It's raining\"?"
+  options: ["Es ist Regen.", "Es regen.", "Das regnet.", "Es regnet."]
+  answer: 3
+  explanation: >-
+    regnen is a verb: es regnet (like er arbeitet, with -et after the n). der Regen is the noun.
+
+# ---------- reading ----------
+- id: a1-u07-mcq-reading-marco
+  type: mcq
+  skill: reading
+  variety: ch-std
+  grammar: [gern-lieber]
+  prompt: Read "Freizeit in Zürich". What does Marco like doing best in summer?
+  options: ["Playing the guitar", "Swimming in the lake", "Skiing", "Going to concerts"]
+  answer: 1
+  explanation: >-
+    "Im Sommer schwimme ich am liebsten im See." am liebsten = best of all. In winter the water is too cold,
+    so he skis.
+
+- id: a1-u07-mcq-reading-aylin
+  type: mcq
+  skill: reading
+  variety: ch-std
+  grammar: [modal-koennen-wollen]
+  prompt: "Richtig oder falsch? \"Aylin kann sehr gut singen.\""
+  options: ["Richtig", "Falsch"]
+  answer: 1
+  explanation: >-
+    Falsch. "Ich kann nicht gut singen, aber ich will es lernen." She can't sing well, but she wants to
+    learn.
+
+- id: a1-u07-translate-reading
+  type: translate
+  skill: reading
+  variety: ch-std
+  grammar: [gern-lieber]
+  prompt: Translate into English.
+  source: Sport mache ich nicht gern. Ich fahre lieber Velo.
+  answers: ["I don't like doing sport. I prefer cycling.", "I don't like sport. I prefer cycling.", "I don't like doing sport. I'd rather ride my bike.", "I don't like doing sport. I prefer riding my bike."]
+  explanation: >-
+    The object Sport is in position 1 for emphasis; the verb mache stays second. Velo fahren is the Swiss
+    word for Rad fahren (cycling). lieber = prefer.
+
+# ---------- listening ----------
+- id: a1-u07-dictation-gitarre
+  type: dictation
+  skill: listening
+  variety: de
+  grammar: [gern-lieber]
+  prompt: Listen and write what you hear.
+  transcript: Ich spiele gern Gitarre.
+  explanation: >-
+    Gitarre is a noun, so it has a capital letter, and it ends in -e (die Gitarre). gern comes right after
+    the verb.
+
+- id: a1-u07-dictation-ski
+  type: dictation
+  skill: listening
+  variety: de
+  grammar: [modal-koennen-wollen]
+  prompt: Listen and write what you hear.
+  transcript: Kannst du Ski fahren?
+  explanation: >-
+    Ski fahren is two words, Ski with a capital letter. Listen for the -st in kannst – it shows du.
+
+- id: a1-u07-mcq-listening-kino
+  type: mcq
+  skill: listening
+  variety: de
+  grammar: [gern-lieber]
+  prompt: Listen to the intro dialogue again. What will they do if it rains on Sunday?
+  options: ["Go hiking anyway", "Go swimming", "Stay at home", "Go to the cinema"]
+  answer: 3
+  explanation: >-
+    "Dann gehen wir lieber ins Kino." lieber = rather. ins Kino = to the cinema (a chunk).
+
+# ---------- speaking ----------
+- id: a1-u07-speak-hobbies
+  type: speak
+  skill: speaking
+  variety: de
+  grammar: [gern-lieber]
+  prompt: Read aloud, then talk about your own hobbies in the same way.
+  target: Ich spiele gern Fußball und ich schwimme gern. Am liebsten wandere ich im Herbst.
+  explanation: >-
+    Three frames: Ich + verb + gern / Am liebsten + verb + ich. Stress gern and am liebsten – they carry the
+    meaning.
+
+- id: a1-u07-speak-shadow-anna
+  type: speak
+  skill: speaking
+  variety: de
+  grammar: [modal-koennen-wollen]
+  prompt: "Shadowing: listen to Anna's line from the intro dialogue and speak along with her, then say it alone."
+  target: Ja, ich kann sehr gut Ski fahren. Im Winter fahre ich fast jedes Wochenende.
+  explanation: >-
+    Shadowing = speaking at the same time as the recording. Copy the rhythm: the stress falls on SKI, WIN-ter
+    and WO-chen-en-de. The modal kann is short and light.
+
+- id: a1-u07-speak-shadow-tom
+  type: speak
+  skill: speaking
+  variety: de
+  grammar: [modal-koennen-wollen]
+  prompt: "Shadowing: speak along with Tom's line, then say it alone."
+  target: Ich kann leider nicht Ski fahren. Aber ich will es lernen!
+  explanation: >-
+    leider = unfortunately – a polite softener. In the second sentence, stress WILL and LER-nen; the
+    infinitive at the end is where the meaning lands.
+
+- id: a1-u07-speak-questions
+  type: speak
+  skill: speaking
+  variety: de
+  grammar: [modal-koennen-wollen]
+  prompt: "Intonation: yes/no questions go up at the end. Read aloud."
+  target: Kannst du schwimmen? Willst du mitkommen? Spielst du gern Gitarre?
+  explanation: >-
+    Questions that start with the verb rise at the end (schwim-MEN ↗). W-questions (Was machst du?) usually
+    fall.
+
+- id: a1-u07-speak-pron-ue-ch
+  type: speak
+  skill: speaking
+  variety: de
+  prompt: "Pronunciation: ü and the two ch sounds. Read aloud slowly, then faster."
+  target: Im Frühling mache ich am liebsten Musik. Am Wochenende koche ich auch.
+  explanation: >-
+    ü in Frühling: say ee with rounded lips. ch after i and e is soft (ich – the ich-Laut); after a, o, u it
+    is the back rasp (mache, Wochenende, koche, auch – the ach-Laut). See the pronunciation drills ü vs u and
+    i, ich-Laut and ach-Laut.
+
+- id: a1-u07-roleplay-lena
+  type: roleplay
+  skill: speaking
+  variety: de
+  grammar: [gern-lieber, modal-koennen-wollen, weather-es]
+  tutor: lena
+  prompt: "Roleplay with Lena: plan your weekend."
+  scenario: >-
+    Lena, your classmate, wants to do something with you at the weekend. Talk about what you like doing,
+    what you can and can't do, and agree on a plan. Use du.
+  goals:
+    - Say two things you like doing (gern) and one you don't like doing (nicht gern).
+    - Say one thing you can and one thing you can't do (können).
+    - Say what you want to do on Saturday or Sunday (wollen).
+    - Agree on a plan B if it rains (lieber).
+  model: |
+    Lena: Hallo! Was machst du gern am Wochenende?
+    Du: Ich wandere gern und ich gehe gern ins Kino. Ich tanze nicht gern.
+    Lena: Kannst du Ski fahren?
+    Du: Nein, ich kann nicht Ski fahren, aber ich kann gut schwimmen.
+    Lena: Was willst du am Samstag machen?
+    Du: Ich will wandern. Kommst du mit?
+    Lena: Gern! Aber vielleicht regnet es.
+    Du: Dann gehen wir lieber ins Kino.
+  explanation: >-
+    Useful frames: Ich ... gern / nicht gern. Ich kann (nicht) ... + infinitive. Ich will ... + infinitive.
+    Dann ... lieber ... for plan B.
+
+# ---------- writing ----------
+- id: a1-u07-translate-piano
+  type: translate
+  skill: writing
+  variety: de
+  grammar: [modal-koennen-wollen]
+  prompt: Translate into German (informal).
+  source: Can you play the piano?
+  answers: ["Kannst du Klavier spielen?", "Spielst du Klavier?"]
+  explanation: >-
+    Kannst du ... spielen? – the modal first, the infinitive last. No article before instruments: Klavier
+    spielen.
+
+- id: a1-u07-write-profile
+  type: write
+  skill: writing
+  variety: de
+  grammar: [gern-lieber, modal-koennen-wollen, weather-es]
+  prompt: Write a post for a language-exchange app.
+  task: >-
+    Write 6–8 sentences about your free time: what you like and don't like doing, what you like doing best,
+    one thing you can do well, one thing you want to learn, and what you do in summer and in winter.
+  minWords: 45
+  model: >-
+    Hallo! Ich heiße Kate und ich wohne in Basel. In meiner Freizeit lese ich gern und ich höre gern Musik.
+    Sport mache ich nicht so gern, aber ich wandere gern. Am liebsten koche ich mit Freunden. Ich kann gut
+    Gitarre spielen. Ich will Ski fahren lernen! Im Sommer schwimme ich im Rhein, und im Winter gehe ich oft
+    ins Kino. Und du?
+  checklist:
+    - I use gern / nicht gern after the verb, and am liebsten at least once.
+    - With können and wollen, the infinitive is at the end.
+    - I use im Sommer / im Winter, with the verb in position 2 after it.
+    - Every statement has the verb in position 2.
+  explanation: >-
+    A good profile mixes the three patterns of this unit: gern / lieber / am liebsten, the modal bracket
+    (Ich kann ... spielen), and season + verb + subject (Im Winter gehe ich ...).
+
+# ---------- Swiss Standard German ----------
+- id: a1-u07-chstd-match
+  type: match
+  skill: vocabulary
+  variety: ch-std
+  prompt: Match the Swiss Standard German words with the German-German words.
+  pairs:
+    - ["Velo fahren", "Rad fahren"]
+    - ["die Badi", "das Freibad"]
+    - ["grillieren", "grillen"]
+    - ["der Match", "das Spiel"]
+  explanation: >-
+    All four are normal in Switzerland, also in writing. die Badi (short for Badeanstalt) is the public
+    open-air pool or lake bath. Swiss Standard says der Match (masculine); in Germany it's das Match or das
+    Spiel.
+
+# ---------- Swiss lane (gsw-zh) ----------
+- id: a1-u07-ch-match-modals
+  type: match
+  skill: vocabulary
+  variety: gsw-zh
+  grammar: [modal-koennen-wollen]
+  prompt: Match the Zurich German modal verbs with Standard German.
+  pairs:
+    - ["ich chan", "ich kann"]
+    - ["du chasch", "du kannst"]
+    - ["ich wott", "ich will"]
+    - ["mir wänd", "wir wollen"]
+    - ["mir chönd", "wir können"]
+  explanation: >-
+    chöne: ich chan, du chasch, mir chönd (k → ch). wele: ich wott, du wottsch, mir wänd – a completely
+    different stem from will. mir = wir.
+
+- id: a1-u07-ch-mcq-regen
+  type: mcq
+  skill: listening
+  variety: gsw-zh
+  prompt: "Listen to the Swiss lane dialogue. Sandra asks: \"Und wänn s rägnet?\" What does Reto suggest?"
+  options: ["Going to the cinema", "Playing Jass", "Hiking anyway", "Going swimming"]
+  answer: 0
+  explanation: >-
+    "Dänn gömmer is Kino." dänn = dann, gömmer = gehen wir, is Kino = ins Kino. wänn s rägnet = wenn es
+    regnet.
+
+- id: a1-u07-ch-mcq-jass
+  type: mcq
+  skill: listening
+  variety: gsw-zh
+  prompt: "Reto: \"Am Friitig jassed mir im Kafi. Wottsch au cho?\" What is he doing?"
+  options: ["Asking Sandra to cook on Friday", "Telling Sandra the café is closed", "Inviting Sandra to play cards on Friday", "Asking Sandra for a coffee"]
+  answer: 2
+  explanation: >-
+    jasse = to play Jass, the Swiss card game. im Kafi = in the café (es Kafi, neuter); Wottsch au cho? =
+    Willst du auch kommen?
+
+- id: a1-u07-ch-transform-chasch
+  type: transform
+  skill: reading
+  variety: gsw-zh
+  grammar: [modal-koennen-wollen]
+  prompt: What does this mean in Standard German?
+  from: gsw-zh
+  to: de
+  source: Chasch du jasse?
+  answers: ["Kannst du jassen?", "Kannst du Jass spielen?"]
+  explanation: >-
+    chasch = kannst (k → ch), jasse = jassen. Swiss German drops the final -n of infinitives: schwümme,
+    wandere, jasse.
+
+- id: a1-u07-ch-transform-gaern
+  type: transform
+  skill: reading
+  variety: gsw-zh
+  grammar: [gern-lieber]
+  prompt: What does Sandra say in Standard German?
+  from: gsw-zh
+  to: de
+  source: Ich gang gärn is Kino.
+  answers: ["Ich gehe gern ins Kino.", "Ich gehe gerne ins Kino."]
+  explanation: >-
+    ich gang = ich gehe, gärn = gern, is Kino = ins Kino. gärn has the same position as gern: right after the
+    verb.
+
+- id: a1-u07-ch-mcq-mega
+  type: mcq
+  skill: vocabulary
+  variety: gsw-zh
+  prompt: "Sandra answers Reto's plan with \"Mega!\". What does she mean?"
+  options: ["She's annoyed.", "She doesn't understand.", "She wants something bigger.", "She thinks it's great."]
+  answer: 3
+  explanation: >-
+    mega = super, great; as an adverb it means "very": mega guet, mega schön. It's informal and everywhere in
+    Swiss German, especially among younger people.
+
+- id: a1-u07-ch-transform-de-gsw
+  type: transform
+  skill: vocabulary
+  variety: gsw-zh
+  grammar: [modal-koennen-wollen]
+  prompt: "Recognition: how would Reto say this in Zurich German? (Common spellings are accepted.)"
+  from: de
+  to: gsw-zh
+  source: Ich kann nicht schwimmen.
+  answers: ["Ich chan nöd schwümme.", "Ich cha nöd schwümme.", "Ich chan nid schwümme.", "Ich chan nöd schwimme."]
+  explanation: >-
+    kann → chan (k → ch), nicht → nöd, schwimmen → schwümme (Swiss ü, no final -n). The word order is the
+    same as in Standard German.
+
+- id: a1-u07-roleplay-reto
+  type: roleplay
+  skill: listening
+  variety: gsw-zh
+  grammar: [modal-koennen-wollen, gern-lieber]
+  tutor: reto
+  prompt: "Listening roleplay with Reto: weekend plans."
+  scenario: >-
+    Reto invites you to do something at the weekend. He speaks Zurich German; you answer in Standard
+    German. Find out what he suggests, when, and say what you can and want to do.
+  goals:
+    - Understand what Reto likes doing (gärn) and what he suggests.
+    - Understand chasch / wottsch questions and answer them.
+    - Say what you can't do and suggest something else (lieber).
+  model: |
+    Reto: Hoi! Was machsch du gärn am Wuchenänd?
+    Du: Ich wandere gern und ich lese gern.
+    Reto: Mega! Am Sunntig gang ich uf de Üetliberg. Wottsch au cho?
+    Du: Ja, gern! Um wie viel Uhr?
+    Reto: Am nüüni. Und am Abig jassed mir. Chasch du jasse?
+    Du: Nein, ich kann nicht jassen. Ich gehe lieber ins Kino.
+    Reto: Kei Problem, dänn gömmer zäme is Kino!
+  explanation: >-
+    Decoding: machsch = machst, Wuchenänd = Wochenende, gang = gehe, wottsch = willst, am nüüni = um neun, am
+    Abig = am Abend, kei Problem = kein Problem, zäme = zusammen.
+
+# ---------- Bernese (gsw-be, recognition) ----------
+- id: a1-u07-ch-be-mcq-aare
+  type: mcq
+  skill: listening
+  variety: gsw-be
+  prompt: "Sandra's mother: \"Am Sunntig wei mir i dr Aare schwümme.\" What's the plan?"
+  options: ["To go swimming in the river on Sunday", "To go hiking on Sunday", "To have breakfast on Saturday", "To go skiing in the mountains"]
+  answer: 0
+  explanation: >-
+    mir wei = wir wollen (Zurich: mir wänd), i dr Aare = in der Aare, Bern's river. Swimming down the Aare in
+    summer is a Bernese tradition (der Aareschwumm).
+
+- id: a1-u07-ch-be-transform-cha
+  type: transform
+  skill: reading
+  variety: gsw-be
+  grammar: [modal-koennen-wollen]
+  prompt: What does Sandra tell her mother? Write it in Standard German.
+  from: gsw-be
+  to: de
+  source: Am Sunntig cha i nid.
+  answers: ["Am Sonntag kann ich nicht.", "Ich kann am Sonntag nicht."]
+  explanation: >-
+    cha = kann (Bernese i cha, Zurich ich chan), i = ich, nid = nicht (Zurich nöd). Sunntig = Sonntag in both
+    dialects.
+
+- id: a1-u07-ch-be-match-modals
+  type: match
+  skill: vocabulary
+  variety: gsw-be
+  grammar: [modal-koennen-wollen]
+  prompt: Match the Bernese forms with Standard German.
+  pairs:
+    - ["i cha", "ich kann"]
+    - ["mir chöi", "wir können"]
+    - ["i wott", "ich will"]
+    - ["mir wei", "wir wollen"]
+  explanation: >-
+    Bernese plural forms are short: mir chöi, mir wei (Zurich mir chönd, mir wänd). i wott is the same as
+    Zurich ich wott.

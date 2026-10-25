@@ -14,6 +14,7 @@ import { Progress } from './screens/Progress';
 import { SettingsScreen } from './screens/Settings';
 import { NotFound } from './screens/NotFound';
 import { Grammar } from './screens/Grammar';
+import { Pronunciation } from './screens/Pronunciation';
 
 /** Loads content once, keeps the theme in sync and sends new learners to onboarding. */
 function Root() {
@@ -62,6 +63,8 @@ const router = createBrowserRouter(
             { path: '/unit/:unitId/:step', element: <UnitView /> },
             { path: '/grammar', element: <Grammar /> },
             { path: '/grammar/:unitId/:grammarId', element: <Grammar /> },
+            { path: '/pronunciation', element: <Pronunciation /> },
+            { path: '/pronunciation/:drillId', element: <Pronunciation /> },
             { path: '/review', element: <Review /> },
             { path: '/tutor', element: <Tutor /> },
             { path: '/progress', element: <Progress /> },

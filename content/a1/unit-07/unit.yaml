@@ -1,0 +1,266 @@
+id: a1-u07
+level: A1
+number: 7
+title: Freizeit und Hobbys
+titleEn: Free time and hobbies
+goal: >-
+  By the end you can talk about your hobbies and what you like doing, say what you prefer and like best,
+  say what you can and want to do with können and wollen, talk about the seasons and the weather, and
+  follow a Zurich German conversation about weekend plans.
+canDo:
+  - I can say what I like and don't like doing with gern and nicht gern (Ich schwimme gern.).
+  - I can compare preferences with lieber and am liebsten (Ich trinke lieber Tee. Am liebsten wandere ich.).
+  - I can say what I can and want to do with können and wollen, with the infinitive at the end (Ich kann nicht Ski fahren.).
+  - I can talk about the seasons and simple weather (Im Winter schneit es. Es ist kalt.).
+  - I can recognise the Zurich modal verbs (ich chan, ich wott, mir wänd) and hobby words (schwümme, wandere, jasse, gärn, mega).
+
+review:
+  notes:
+    - "Zurich 1st person singular 'ich schwümm gärn' (no -e) and 'ich fahr Ski' – natural, or 'ich schwümme'?"
+    - "'Am Sunntig wandered mir uf de Üetliberg.' – natural phrasing? (uf de Üetliberg = auf den Uetliberg)."
+    - "'Dänn gömmer is Kino.' – is gömmer the usual Zurich contraction of 'gönd mir'?"
+    - "'I de Freiziit' – spelling Freiziit (ei → ii) confirmed by the pattern Zeit → Ziit (SRF Merkblatt), but please tick."
+    - "'Hoffentli isch s Wätter schön!' – Wätter and Hoffentli spellings?"
+    - "Bernese lines: 'Am Sunntig wei mir i dr Aare schwümme.' / 'Am Sunntig cha i nid. Aber am Samschti chume i gärn hei.' – natural? (schwümme and Aareschwumm are on berndeutsch.ch; 'mir wei' is from Wikipedia Berndeutsch / lexicon)."
+    - "Jass culture note: 'Schieber' as the most common game, Swiss cards with Schälle, Schilte, Rose, Eichle. Please confirm the suit names and spelling."
+    - "Swiss Standard 'der Match' (masculine) vs German 'das Match': please confirm for the ch-std match item."
+    - "Zurich 'spile' (spielen) with short i, and 'Früelig' (Frühling): spellings?"
+    - "Vocabulary gswZh forms without a source (please tick or correct): Musig (Musik), Konzärt, oft / hüüfig, Fuessball / tschutte, Herbscht, Bärg, Summer, Räge, es schiffet, am liebschte, mängisch."
+
+intro:
+  scene: >-
+    Break time at the language school in Zurich. Anna and Tom are drinking coffee and talking about the
+    weekend.
+  dialogue:
+    - speaker: Anna
+      text: Tom, was machst du am Wochenende gern?
+      en: Tom, what do you like doing at the weekend?
+    - speaker: Tom
+      text: Ich spiele gern Fußball, und ich schwimme gern. Und du?
+      en: I like playing football, and I like swimming. And you?
+    - speaker: Anna
+      text: Ich wandere gern. Am liebsten wandere ich im Herbst.
+      en: I like hiking. Best of all I like hiking in autumn.
+    - speaker: Tom
+      text: Und im Winter? Kannst du Ski fahren?
+      en: And in winter? Can you ski?
+    - speaker: Anna
+      text: Ja, ich kann sehr gut Ski fahren. Im Winter fahre ich fast jedes Wochenende.
+      en: Yes, I can ski very well. In winter I go almost every weekend.
+    - speaker: Tom
+      text: Ich kann leider nicht Ski fahren. Aber ich will es lernen!
+      en: Unfortunately I can't ski. But I want to learn!
+    - speaker: Anna
+      text: Super! Am Samstag will ich wandern. Kommst du mit?
+      en: Great! On Saturday I want to go hiking. Are you coming along?
+    - speaker: Tom
+      text: Am Samstag kann ich nicht, da spiele ich Fußball. Aber am Sonntag kann ich.
+      en: I can't on Saturday, I'm playing football then. But on Sunday I can.
+    - speaker: Anna
+      text: Gut, dann am Sonntag! Aber am Sonntag regnet es vielleicht.
+      en: Good, Sunday then! But it might rain on Sunday.
+    - speaker: Tom
+      text: Dann gehen wir lieber ins Kino.
+      en: Then we'd rather go to the cinema.
+    - speaker: Anna
+      text: Gute Idee! Ich gehe sehr gern ins Kino.
+      en: Good idea! I really like going to the cinema.
+
+grammar:
+  - id: gern-lieber
+    title: "gern, lieber, am liebsten: what you like doing"
+    body: >-
+      English says *I like swimming*. German uses the verb + **gern** (or **gerne**): *Ich schwimme
+      **gern**.* = I like swimming. gern is an adverb: it doesn't change, and it comes **after the verb**
+      (and after a short object): *Ich spiele **gern** Fußball. Spielst du **gern** Gitarre?*
+
+
+      - **nicht gern** = don't like doing: *Ich tanze **nicht gern**.*
+
+      - **lieber** = prefer, would rather: *Ich trinke **lieber** Tee.* (I prefer tea.)
+
+      - **am liebsten** = like best: ***Am liebsten** wandere ich.* With am liebsten in position 1, the verb
+      stays second and the subject comes after it.
+
+
+      For **things** (not activities) you can say **Ich mag** + noun: *Ich mag Musik. Magst du Jazz?*
+      (mögen: ich mag, du magst, er/sie mag) – learn it as a chunk for now.
+    tables:
+      - [["", "German", "English"],
+         ["gern", "Ich schwimme gern.", "I like swimming."],
+         ["nicht gern", "Ich schwimme nicht gern.", "I don't like swimming."],
+         ["lieber", "Ich wandere lieber.", "I prefer hiking."],
+         ["am liebsten", "Am liebsten fahre ich Ski.", "Best of all I like skiing."]]
+    commonMistakes:
+      - "*Ich gern schwimme.* → **Ich schwimme gern.** The verb is in position 2; gern comes after it."
+      - "*Ich mag schwimmen.* is possible, but for activities German usually says **Ich schwimme gern.**"
+      - "*Ich spiele mehr gern Tennis.* → **Ich spiele lieber Tennis.** lieber is the comparative of gern."
+      - "*Am liebsten ich wandere.* → **Am liebsten wandere ich.** Verb second."
+
+  - id: modal-koennen-wollen
+    title: "können and wollen: the sentence bracket"
+    body: >-
+      **können** = can, be able to. **wollen** = want to. Both are **modal verbs**, and both are irregular
+      in the singular: *ich kann, ich will*. Like all modal verbs, **ich** and **er/sie/es** have the same
+      form and no ending: *ich kann – er kann, ich will – sie will*.
+
+
+      **The sentence bracket:** the modal verb takes position 2 and the second verb goes to the **end** of
+      the sentence in the **infinitive**: *Ich **kann** sehr gut Ski **fahren**. Wir **wollen** am Samstag
+      **wandern**.* Everything else goes in the middle. In questions the modal is first: ***Kannst** du
+      schwimmen?*
+
+
+      **nicht** usually comes before the infinitive: *Ich kann **nicht** schwimmen.*
+
+
+      **False friend:** *ich will* means *I want*, not *I will*! *Ich will einen Kaffee* = I want a
+      coffee. Politer: *Ich möchte einen Kaffee.*
+    tables:
+      - [["", "können", "wollen"],
+         ["ich", "kann", "will"],
+         ["du", "kannst", "willst"],
+         ["er / sie / es", "kann", "will"],
+         ["wir", "können", "wollen"],
+         ["ihr", "könnt", "wollt"],
+         ["sie / Sie", "können", "wollen"]]
+      - [["Position 1", "Position 2 (modal)", "Middle", "End (infinitive)"],
+         ["Ich", "kann", "sehr gut", "Ski fahren."],
+         ["Am Samstag", "will", "ich", "wandern."],
+         ["Tom", "kann", "nicht", "schwimmen."]]
+    commonMistakes:
+      - "*Ich kann schwimmen gut.* → **Ich kann gut schwimmen.** The infinitive closes the sentence."
+      - "*Ich will schwimme.* → **Ich will schwimmen.** After a modal verb, use the infinitive."
+      - "*Er kannt.* / *Er willt.* → **Er kann. Er will.** No -t for er/sie/es with modal verbs."
+      - "*Ich will morgen kommen* does **not** mean *I will come tomorrow*: it means *I want to come*."
+
+  - id: weather-es
+    title: "The weather and the seasons: es regnet, im Sommer"
+    body: >-
+      Weather verbs use **es** as the subject, just as English uses *it*: ***Es regnet.*** (It's raining.)
+      ***Es schneit.*** (It's snowing.) With an adjective: ***Es ist** kalt / warm / heiß / sonnig.*
+      Question: ***Wie ist das Wetter?***
+
+
+      The seasons are all **masculine**: *der Frühling, der Sommer, der Herbst, der Winter*. "In summer" is
+      ***im** Sommer* (im = in dem), like the months later in unit 9.
+
+
+      With a time word in position 1, **es** moves after the verb: ***Im Winter schneit es** oft. **Heute
+      ist es** warm.*
+    tables:
+      - [["Weather", "German", "Swiss German (Zurich)"],
+         ["It's raining.", "Es regnet.", "Es rägnet."],
+         ["It's snowing.", "Es schneit.", "Es schneit."],
+         ["It's cold.", "Es ist kalt.", "Es isch chalt."],
+         ["The sun is shining.", "Die Sonne scheint.", "D Sunne schiint."]]
+    commonMistakes:
+      - "*Es ist regnen.* → **Es regnet.** regnen is a normal verb: es regnet."
+      - "*In Sommer* → **im Sommer.** Seasons take im."
+      - "*Im Winter es schneit.* → **Im Winter schneit es.** Verb second."
+      - "*Ich bin kalt.* → **Mir ist kalt.** (I feel cold.) Learn it as a chunk; *Ich bin kalt* sounds like your personality is cold!"
+
+reading:
+  title: "Freizeit in Zürich: drei Leute, drei Hobbys"
+  text: >-
+    Marco, 34: Ich spiele gern Gitarre und ich gehe oft ins Konzert. Im Sommer schwimme ich am liebsten im
+    See. Im Winter ist das Wasser zu kalt, dann fahre ich Ski.
+
+
+    Aylin, 27: Ich tanze sehr gern, am Freitag und am Samstag. Ich kann nicht gut singen, aber ich will es
+    lernen. Sport mache ich nicht gern. Ich fahre lieber Velo.
+
+
+    Jürg, 61: Am Wochenende jasse ich mit meinen Freunden im Café. Jassen ist ein Kartenspiel und in der
+    Schweiz sehr beliebt. Im Herbst wandere ich gern in den Bergen. Und wenn es regnet? Dann lese ich ein
+    Buch.
+  en: >-
+    Marco, 34: I like playing the guitar and I often go to concerts. In summer I like swimming in the lake
+    best. In winter the water is too cold, so I go skiing.
+
+
+    Aylin, 27: I really like dancing, on Fridays and Saturdays. I can't sing well, but I want to learn. I
+    don't like doing sport. I prefer cycling.
+
+
+    Jürg, 61: At the weekend I play Jass with my friends in a café. Jass is a card game and very popular in
+    Switzerland. In autumn I like hiking in the mountains. And when it rains? Then I read a book.
+
+swiss:
+  scene: >-
+    Thursday evening on the balcony. Reto asks Sandra about her free time and invites her to his Jass evening.
+    Listen for chasch, wott, gärn and mega. Then Sandra's mother calls from Bern with a plan for Sunday.
+  dialogue:
+    - speaker: Reto
+      text: Du, Sandra, was machsch du gärn i de Freiziit?
+      en: Hey Sandra, what do you like doing in your free time?
+      variety: gsw-zh
+    - speaker: Sandra
+      text: Ich wandere gärn. Und du?
+      en: I like hiking. And you?
+      variety: gsw-zh
+    - speaker: Reto
+      text: Ich schwümm gärn, und im Winter fahr ich Ski. Chasch du jasse?
+      en: I like swimming, and in winter I ski. Can you play Jass?
+      variety: gsw-zh
+    - speaker: Sandra
+      text: Nei, ich chan nöd jasse. Isch das schwirig?
+      en: No, I can't play Jass. Is it difficult?
+      variety: gsw-zh
+    - speaker: Reto
+      text: Nei, gar nöd! Am Friitig jassed mir im Kafi. Wottsch au cho?
+      en: No, not at all! On Friday we're playing Jass at the café. Do you want to come too?
+      variety: gsw-zh
+    - speaker: Sandra
+      text: Ja, gärn! Und am Sunntig?
+      en: Yes, I'd love to! And on Sunday?
+      variety: gsw-zh
+    - speaker: Reto
+      text: Am Sunntig wandered mir uf de Üetliberg. Hoffentli isch s Wätter schön!
+      en: On Sunday we're hiking up the Uetliberg. Hopefully the weather will be nice!
+      variety: gsw-zh
+    - speaker: Sandra
+      text: Und wänn s rägnet?
+      en: And if it rains?
+      variety: gsw-zh
+    - speaker: Reto
+      text: Dänn gömmer is Kino.
+      en: Then we'll go to the cinema.
+      variety: gsw-zh
+    - speaker: Sandra
+      text: Mega! Ich gang gärn is Kino.
+      en: Great! I like going to the cinema.
+      variety: gsw-zh
+    - speaker: Mami
+      text: Hoi Sandra! Am Sunntig wei mir i dr Aare schwümme.
+      en: Hi Sandra! On Sunday we want to swim in the Aare.
+      variety: gsw-be
+    - speaker: Sandra
+      text: Oh, schad! Am Sunntig cha i nid. Aber am Samschti chume i gärn hei.
+      en: Oh, what a pity! I can't on Sunday. But I'd love to come home on Saturday.
+      variety: gsw-be
+  notes:
+    - >-
+      **Modal verbs in Zurich German**: **chöne** (können): *ich chan, du chasch, er chan, mir chönd*; **wele /
+      welle** (wollen): *ich wott, du wottsch, er wott, mir wänd*. Notice: *wott* looks nothing like *will*.
+      *Wottsch au cho?* = Willst du auch kommen? The infinitive goes to the end, as in Standard German.
+    - >-
+      **gärn** = gern (the open e is written ä): *Ich wandere gärn.* **mega** = sehr, super (informal, very
+      common): *mega guet, mega schön, Mega!* (Great!). **gar nöd** = gar nicht (not at all).
+    - >-
+      **Hobby words**: *schwümme* (schwimmen – ü, and the m is doubled as in Standard spelling), *wandere*,
+      *Ski fahre*, *jasse*, *tschutte* (colloquial: play football), *is Kino gaa* (ins Kino gehen). In summer
+      everybody goes to the **Badi** (public open-air pool or lake bath); in Bern people swim in the river
+      **Aare** and let the current carry them (*Aareschwumm*).
+    - >-
+      **Jass** is Switzerland's national card game, played with 36 Swiss cards (suits *Schälle, Schilte, Rose,
+      Eichle*) or French cards. The most common variant is the *Schieber*. *Jasse* = to play Jass; Swiss
+      Standard German says *jassen*. Jass evenings in cafés, clubs and families are a social institution.
+    - >-
+      **Weather and seasons**: *s Wätter, d Sunne, de Räge, es rägnet, es schneit, es isch chalt / heiss*,
+      *im Summer, im Winter*. Notice o → u before m and n: *Sommer → Summer, Sonne → Sunne, Sonntag →
+      Sunntig*.
+    - >-
+      **Bernese** (Sandra's mother): **mir wei** = wir wollen (Zurich *mir wänd*), **i dr Aare** = in der Aare,
+      **cha i nid** = kann ich nicht (Bernese *i cha*, *nid*; Zurich *ich chan*, *nöd*), **Samschti** = Samstag,
+      **hei** = nach Hause. *schad* = schade.

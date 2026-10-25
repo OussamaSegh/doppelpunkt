@@ -1,0 +1,61 @@
+id: ue-u-i
+title: ü vs u and i
+ipa: ["yː", "ʏ", "uː", "ʊ", "iː", "ɪ"]
+level: A1
+variety: de
+explanation: >-
+  English has no **ü**, so English speakers replace it with *oo* (u) or *ee* (i) – and both change the
+  meaning: *Mutter* (mother) vs *Mütter* (mothers), *Tier* (animal) vs *Tür* (door).
+
+
+  **How to make it:** say a long English *ee* as in *see* and hold it. Keep your tongue exactly where it
+  is – high and at the front, the tip touching your lower teeth – and now round and push your lips
+  forward as if you were going to say *oo* or whistle. That is a long **ü** [yː]: *Tür, für, müde, früh*.
+
+
+  The **short ü** [ʏ] (before two consonants: *fünf, Glück, Müll*) starts from the *i* in English *sit*,
+  again with rounded lips. It is shorter and a little more relaxed.
+
+
+  Compare: for **u** [uː] the tongue pulls *back* (as in *food*); for **i** [iː] the lips are *spread*
+  (as in *see*). **ü** combines the front tongue of *i* with the round lips of *u*. Spelling: *ü*, and
+  *y* in some loanwords (*Typ, Physik*). If you can't type ü, write *ue* (*Zuerich*).
+tips:
+  - "Mirror test: say *ee*, then round your lips without moving your tongue. If your tongue slides back, you are saying *oo*."
+  - "Put a finger on your lips: for ü they push forward, for i they stay flat."
+  - "Never put a *y* glide in front: *Tür* is not *tyoor* (as in English *tutor*). Start the ü sound straight away."
+  - "French *tu* and *rue* have the same sound – if you speak some French, use it."
+pairs:
+  - [{ text: "Mutter", en: mother }, { text: "Mütter", en: mothers }]
+  - [{ text: "Bruder", en: brother }, { text: "Brüder", en: brothers }]
+  - [{ text: "fuhr", en: drove }, { text: "für", en: for }]
+  - [{ text: "Tour", en: tour }, { text: "Tür", en: door }]
+  - [{ text: "Tier", en: animal }, { text: "Tür", en: door }]
+  - [{ text: "vier", en: four }, { text: "für", en: for }]
+  - [{ text: "spielen", en: to play }, { text: "spülen", en: "to rinse, to do the dishes" }]
+  - [{ text: "Kissen", en: "cushion, pillow" }, { text: "küssen", en: to kiss }]
+words:
+  - { text: "Tür", en: door }
+  - { text: "für", en: for }
+  - { text: "über", en: "over, about" }
+  - { text: "müde", en: tired }
+  - { text: "früh", en: early }
+  - { text: "Küche", en: kitchen }
+  - { text: "Kühlschrank", en: fridge }
+  - { text: "Frühstück", en: breakfast }
+  - { text: "Gemüse", en: vegetables }
+  - { text: "fünf", en: five }
+  - { text: "Glück", en: "luck, happiness" }
+  - { text: "natürlich", en: of course }
+  - { text: "Tschüss", en: bye }
+  - { text: "Zürich", en: Zurich }
+sentences:
+  - { text: "Ich bin müde. Es ist noch früh.", en: "I'm tired. It's still early." }
+  - { text: "Das Gemüse ist im Kühlschrank.", en: The vegetables are in the fridge. }
+  - { text: "Die Küche hat eine Tür zum Balkon.", en: The kitchen has a door to the balcony. }
+  - { text: "Tschüss und viele Grüße aus Zürich!", en: "Bye and best wishes from Zurich!" }
+commonMistakes:
+  - "*Mutter* for *Mütter*: the tongue went back. Keep it forward as for *ee* and only round the lips."
+  - "*Tier* for *Tür*: the lips stayed flat. Round and push them forward."
+  - "*tyoor* for *Tür*: English adds a *y* before *oo* (as in *music*). German ü has no glide."
+  - "Short ü said long: *fünf* is short and crisp, *für* is long."

@@ -1,0 +1,2955 @@
+{
+  "unitId": "a1-u07",
+  "level": "A1",
+  "folder": "a1/unit-07",
+  "title": "Freizeit und Hobbys",
+  "delivery": {
+    "raw": "WAV or FLAC, 48 kHz, 24-bit, mono, one file per entry, named <file base>.wav",
+    "processed": [
+      "mp3 64 kbps mono 44.1 kHz",
+      "opus 32 kbps mono 48 kHz",
+      "EBU R128 -16 LUFS, true peak -1.5 dBTP"
+    ]
+  },
+  "entries": [
+    {
+      "file": "dialog-intro-01.mp3",
+      "kind": "dialogue-intro",
+      "text": "Tom, was machst du am Wochenende gern?",
+      "en": "Tom, what do you like doing at the weekend?",
+      "variety": "de",
+      "voice": "de-f",
+      "speaker": "Anna",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          0,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-01.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-02.mp3",
+      "kind": "dialogue-intro",
+      "text": "Ich spiele gern Fußball, und ich schwimme gern. Und du?",
+      "en": "I like playing football, and I like swimming. And you?",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          1,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-02.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-03.mp3",
+      "kind": "dialogue-intro",
+      "text": "Ich wandere gern. Am liebsten wandere ich im Herbst.",
+      "en": "I like hiking. Best of all I like hiking in autumn.",
+      "variety": "de",
+      "voice": "de-f",
+      "speaker": "Anna",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          2,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-03.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-04.mp3",
+      "kind": "dialogue-intro",
+      "text": "Und im Winter? Kannst du Ski fahren?",
+      "en": "And in winter? Can you ski?",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          3,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-04.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-05.mp3",
+      "kind": "dialogue-intro",
+      "text": "Ja, ich kann sehr gut Ski fahren. Im Winter fahre ich fast jedes Wochenende.",
+      "en": "Yes, I can ski very well. In winter I go almost every weekend.",
+      "variety": "de",
+      "voice": "de-f",
+      "speaker": "Anna",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          4,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-05.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-06.mp3",
+      "kind": "dialogue-intro",
+      "text": "Ich kann leider nicht Ski fahren. Aber ich will es lernen!",
+      "en": "Unfortunately I can't ski. But I want to learn!",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          5,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-06.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-07.mp3",
+      "kind": "dialogue-intro",
+      "text": "Super! Am Samstag will ich wandern. Kommst du mit?",
+      "en": "Great! On Saturday I want to go hiking. Are you coming along?",
+      "variety": "de",
+      "voice": "de-f",
+      "speaker": "Anna",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          6,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-07.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-08.mp3",
+      "kind": "dialogue-intro",
+      "text": "Am Samstag kann ich nicht, da spiele ich Fußball. Aber am Sonntag kann ich.",
+      "en": "I can't on Saturday, I'm playing football then. But on Sunday I can.",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          7,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-08.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-09.mp3",
+      "kind": "dialogue-intro",
+      "text": "Gut, dann am Sonntag! Aber am Sonntag regnet es vielleicht.",
+      "en": "Good, Sunday then! But it might rain on Sunday.",
+      "variety": "de",
+      "voice": "de-f",
+      "speaker": "Anna",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          8,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-09.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-10.mp3",
+      "kind": "dialogue-intro",
+      "text": "Dann gehen wir lieber ins Kino.",
+      "en": "Then we'd rather go to the cinema.",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          9,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-10.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-11.mp3",
+      "kind": "dialogue-intro",
+      "text": "Gute Idee! Ich gehe sehr gern ins Kino.",
+      "en": "Good idea! I really like going to the cinema.",
+      "variety": "de",
+      "voice": "de-f",
+      "speaker": "Anna",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          10,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-11.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-01.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Du, Sandra, was machsch du gärn i de Freiziit?",
+      "en": "Hey Sandra, what do you like doing in your free time?",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          0,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-01.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-02.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Ich wandere gärn. Und du?",
+      "en": "I like hiking. And you?",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          1,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-02.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-03.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Ich schwümm gärn, und im Winter fahr ich Ski. Chasch du jasse?",
+      "en": "I like swimming, and in winter I ski. Can you play Jass?",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          2,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-03.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-04.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Nei, ich chan nöd jasse. Isch das schwirig?",
+      "en": "No, I can't play Jass. Is it difficult?",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          3,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-04.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-05.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Nei, gar nöd! Am Friitig jassed mir im Kafi. Wottsch au cho?",
+      "en": "No, not at all! On Friday we're playing Jass at the café. Do you want to come too?",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          4,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-05.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-06.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Ja, gärn! Und am Sunntig?",
+      "en": "Yes, I'd love to! And on Sunday?",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          5,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-06.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-07.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Am Sunntig wandered mir uf de Üetliberg. Hoffentli isch s Wätter schön!",
+      "en": "On Sunday we're hiking up the Uetliberg. Hopefully the weather will be nice!",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          6,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-07.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-08.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Und wänn s rägnet?",
+      "en": "And if it rains?",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          7,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-08.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-09.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Dänn gömmer is Kino.",
+      "en": "Then we'll go to the cinema.",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          8,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-09.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-10.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Mega! Ich gang gärn is Kino.",
+      "en": "Great! I like going to the cinema.",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          9,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-10.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-11.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Hoi Sandra! Am Sunntig wei mir i dr Aare schwümme.",
+      "en": "Hi Sandra! On Sunday we want to swim in the Aare.",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "speaker": "Mami",
+      "voiceGuessed": true,
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          10,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-11.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-12.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Oh, schad! Am Sunntig cha i nid. Aber am Samschti chume i gärn hei.",
+      "en": "Oh, what a pity! I can't on Sunday. But I'd love to come home on Saturday.",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          11,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-12.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-freizeit.mp3",
+      "kind": "vocab",
+      "text": "Freizeit",
+      "en": "free time, leisure",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "freizeit",
+        "pointer": [
+          0,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-freizeit.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-freizeit-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Was machst du gern in der Freizeit?",
+      "en": "What do you like doing in your free time?",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "freizeit",
+        "pointer": [
+          0,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-freizeit-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-freizeit-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Freiziit",
+      "note": "d Freiziit",
+      "en": "free time, leisure",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "freizeit",
+        "pointer": [
+          0,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-freizeit-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-hobby.mp3",
+      "kind": "vocab",
+      "text": "Hobby",
+      "en": "hobby",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "hobby",
+        "pointer": [
+          1,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-hobby.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-hobby-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Mein Hobby ist Musik.",
+      "en": "My hobby is music.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "hobby",
+        "pointer": [
+          1,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-hobby-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-hobby-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Hobby",
+      "note": "s Hobby",
+      "en": "hobby",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "hobby",
+        "pointer": [
+          1,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-hobby-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sport.mp3",
+      "kind": "vocab",
+      "text": "Sport",
+      "en": "sport, exercise",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sport",
+        "pointer": [
+          2,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-sport.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sport-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Sport macht Spaß.",
+      "en": "Sport is fun.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sport",
+        "pointer": [
+          2,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-sport-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sport-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Sport",
+      "en": "sport, exercise",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sport",
+        "pointer": [
+          2,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-sport-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-spielen.mp3",
+      "kind": "vocab",
+      "text": "spielen",
+      "en": "to play",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "spielen",
+        "pointer": [
+          3,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-spielen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-spielen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich spiele gern Fußball.",
+      "en": "I like playing football.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "spielen",
+        "pointer": [
+          3,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-spielen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-spielen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "spile",
+      "note": "ich spil, du spilsch, mir spiled",
+      "en": "to play",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "spielen",
+        "pointer": [
+          3,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-spielen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-schwimmen.mp3",
+      "kind": "vocab",
+      "text": "schwimmen",
+      "en": "to swim",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "schwimmen",
+        "pointer": [
+          4,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-schwimmen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-schwimmen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Im Sommer schwimmen wir im See.",
+      "en": "In summer we swim in the lake.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "schwimmen",
+        "pointer": [
+          4,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-schwimmen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-schwimmen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "schwümme",
+      "en": "to swim",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "schwimmen",
+        "pointer": [
+          4,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-schwimmen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-schwimmen-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "schwümme",
+      "note": "participle gschwumme",
+      "en": "to swim",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "schwimmen",
+        "pointer": [
+          4,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-schwimmen-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wandern.mp3",
+      "kind": "vocab",
+      "text": "wandern",
+      "en": "to hike, to go walking",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wandern",
+        "pointer": [
+          5,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-wandern.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wandern-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Am Sonntag wandern wir.",
+      "en": "On Sunday we're going hiking.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wandern",
+        "pointer": [
+          5,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-wandern-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wandern-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "wandere",
+      "en": "to hike, to go walking",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wandern",
+        "pointer": [
+          5,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-wandern-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-tanzen.mp3",
+      "kind": "vocab",
+      "text": "tanzen",
+      "en": "to dance",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "tanzen",
+        "pointer": [
+          6,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-tanzen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-tanzen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Tanzt du gern?",
+      "en": "Do you like dancing?",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "tanzen",
+        "pointer": [
+          6,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-tanzen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-tanzen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "tanze",
+      "en": "to dance",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "tanzen",
+        "pointer": [
+          6,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-tanzen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-singen.mp3",
+      "kind": "vocab",
+      "text": "singen",
+      "en": "to sing",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "singen",
+        "pointer": [
+          7,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-singen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-singen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich kann nicht gut singen.",
+      "en": "I can't sing well.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "singen",
+        "pointer": [
+          7,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-singen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-singen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "singe",
+      "en": "to sing",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "singen",
+        "pointer": [
+          7,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-singen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-reisen.mp3",
+      "kind": "vocab",
+      "text": "reisen",
+      "en": "to travel",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "reisen",
+        "pointer": [
+          8,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-reisen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-reisen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Wir reisen gern.",
+      "en": "We like travelling.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "reisen",
+        "pointer": [
+          8,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-reisen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-reisen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "reise",
+      "en": "to travel",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "reisen",
+        "pointer": [
+          8,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-reisen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-ski-fahren.mp3",
+      "kind": "vocab",
+      "text": "Ski fahren",
+      "en": "to ski",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "ski-fahren",
+        "pointer": [
+          9,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-ski-fahren.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-ski-fahren-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Im Winter fahre ich Ski.",
+      "en": "In winter I go skiing.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "ski-fahren",
+        "pointer": [
+          9,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-ski-fahren-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-ski-fahren-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Ski fahre",
+      "en": "to ski",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "ski-fahren",
+        "pointer": [
+          9,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-ski-fahren-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-rad-fahren.mp3",
+      "kind": "vocab",
+      "text": "Rad fahren",
+      "en": "to cycle, to ride a bike",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "rad-fahren",
+        "pointer": [
+          10,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-rad-fahren.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-rad-fahren-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich fahre gern Rad.",
+      "en": "I like cycling.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "rad-fahren",
+        "pointer": [
+          10,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-rad-fahren-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-rad-fahren-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Velo fahre",
+      "en": "to cycle, to ride a bike",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "rad-fahren",
+        "pointer": [
+          10,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-rad-fahren-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-rad-fahren-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "Velo fahre / velööle",
+      "note": "to cycle about",
+      "en": "to cycle, to ride a bike",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "rad-fahren",
+        "pointer": [
+          10,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-rad-fahren-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-jassen.mp3",
+      "kind": "vocab",
+      "text": "jassen",
+      "en": "to play Jass (the Swiss card game)",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "jassen",
+        "pointer": [
+          11,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-jassen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-jassen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Am Freitag jassen wir im Café.",
+      "en": "On Friday we play Jass at the café.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "jassen",
+        "pointer": [
+          11,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-jassen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-jassen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "jasse",
+      "note": "de Jass",
+      "en": "to play Jass (the Swiss card game)",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "jassen",
+        "pointer": [
+          11,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-jassen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-fussball.mp3",
+      "kind": "vocab",
+      "text": "Fußball",
+      "en": "football, soccer",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "fussball",
+        "pointer": [
+          12,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-fussball.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-fussball-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Tom spielt am Samstag Fußball.",
+      "en": "Tom plays football on Saturday.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "fussball",
+        "pointer": [
+          12,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-fussball-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-fussball-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Fuessball / tschutte",
+      "note": "to play football, colloquial",
+      "en": "football, soccer",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "fussball",
+        "pointer": [
+          12,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-fussball-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-musik.mp3",
+      "kind": "vocab",
+      "text": "Musik",
+      "en": "music",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "musik",
+        "pointer": [
+          13,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-musik.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-musik-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich höre gern Musik.",
+      "en": "I like listening to music.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "musik",
+        "pointer": [
+          13,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-musik-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-musik-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Musig",
+      "en": "music",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "musik",
+        "pointer": [
+          13,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-musik-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gitarre.mp3",
+      "kind": "vocab",
+      "text": "Gitarre",
+      "en": "guitar",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gitarre",
+        "pointer": [
+          14,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-gitarre.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gitarre-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Spielst du Gitarre?",
+      "en": "Do you play the guitar?",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gitarre",
+        "pointer": [
+          14,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-gitarre-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gitarre-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Gitarre",
+      "en": "guitar",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gitarre",
+        "pointer": [
+          14,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-gitarre-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-klavier.mp3",
+      "kind": "vocab",
+      "text": "Klavier",
+      "en": "piano",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "klavier",
+        "pointer": [
+          15,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-klavier.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-klavier-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Mein Sohn spielt Klavier.",
+      "en": "My son plays the piano.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "klavier",
+        "pointer": [
+          15,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-klavier-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-klavier-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Klavier",
+      "en": "piano",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "klavier",
+        "pointer": [
+          15,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-klavier-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kino.mp3",
+      "kind": "vocab",
+      "text": "Kino",
+      "en": "cinema",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kino",
+        "pointer": [
+          16,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-kino.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kino-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Wir gehen ins Kino.",
+      "en": "We're going to the cinema.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kino",
+        "pointer": [
+          16,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-kino-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kino-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Kino",
+      "note": "is Kino = ins Kino",
+      "en": "cinema",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kino",
+        "pointer": [
+          16,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-kino-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-konzert.mp3",
+      "kind": "vocab",
+      "text": "Konzert",
+      "en": "concert",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "konzert",
+        "pointer": [
+          17,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-konzert.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-konzert-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Das Konzert ist am Freitag.",
+      "en": "The concert is on Friday.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "konzert",
+        "pointer": [
+          17,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-konzert-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-konzert-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Konzärt",
+      "en": "concert",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "konzert",
+        "pointer": [
+          17,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-konzert-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-berg.mp3",
+      "kind": "vocab",
+      "text": "Berg",
+      "en": "mountain",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "berg",
+        "pointer": [
+          18,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-berg.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-berg-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Im Herbst wandere ich in den Bergen.",
+      "en": "In autumn I go hiking in the mountains.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "berg",
+        "pointer": [
+          18,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-berg-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-berg-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Bärg",
+      "en": "mountain",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "berg",
+        "pointer": [
+          18,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-berg-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-see.mp3",
+      "kind": "vocab",
+      "text": "See",
+      "en": "lake",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "see",
+        "pointer": [
+          19,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-see.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-see-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Der See ist im Sommer warm.",
+      "en": "The lake is warm in summer.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "see",
+        "pointer": [
+          19,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-see-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-see-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "See",
+      "en": "lake",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "see",
+        "pointer": [
+          19,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-see-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-fruehling.mp3",
+      "kind": "vocab",
+      "text": "Frühling",
+      "en": "spring",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "fruehling",
+        "pointer": [
+          20,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-fruehling.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-fruehling-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Im Frühling ist es oft schön.",
+      "en": "In spring it's often nice.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "fruehling",
+        "pointer": [
+          20,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-fruehling-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-fruehling-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Früelig",
+      "en": "spring",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "fruehling",
+        "pointer": [
+          20,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-fruehling-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sommer.mp3",
+      "kind": "vocab",
+      "text": "Sommer",
+      "en": "summer",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sommer",
+        "pointer": [
+          21,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-sommer.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sommer-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Im Sommer ist es heiß.",
+      "en": "In summer it's hot.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sommer",
+        "pointer": [
+          21,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-sommer-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sommer-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Summer",
+      "en": "summer",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sommer",
+        "pointer": [
+          21,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-sommer-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-herbst.mp3",
+      "kind": "vocab",
+      "text": "Herbst",
+      "en": "autumn, fall",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "herbst",
+        "pointer": [
+          22,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-herbst.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-herbst-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Im Herbst wandert Anna am liebsten.",
+      "en": "Anna likes hiking best in autumn.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "herbst",
+        "pointer": [
+          22,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-herbst-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-herbst-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Herbscht",
+      "en": "autumn, fall",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "herbst",
+        "pointer": [
+          22,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-herbst-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-winter.mp3",
+      "kind": "vocab",
+      "text": "Winter",
+      "en": "winter",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "winter",
+        "pointer": [
+          23,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-winter.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-winter-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Im Winter fahren wir Ski.",
+      "en": "In winter we go skiing.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "winter",
+        "pointer": [
+          23,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-winter-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-winter-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Winter",
+      "en": "winter",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "winter",
+        "pointer": [
+          23,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-winter-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wetter.mp3",
+      "kind": "vocab",
+      "text": "Wetter",
+      "en": "weather",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wetter",
+        "pointer": [
+          24,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-wetter.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wetter-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Wie ist das Wetter heute?",
+      "en": "What's the weather like today?",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wetter",
+        "pointer": [
+          24,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-wetter-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wetter-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Wätter",
+      "note": "s Wätter",
+      "en": "weather",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wetter",
+        "pointer": [
+          24,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-wetter-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sonne.mp3",
+      "kind": "vocab",
+      "text": "Sonne",
+      "en": "sun",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sonne",
+        "pointer": [
+          25,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-sonne.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sonne-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Die Sonne scheint.",
+      "en": "The sun is shining.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sonne",
+        "pointer": [
+          25,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-sonne-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sonne-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Sunne",
+      "note": "d Sunne schiint",
+      "en": "sun",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sonne",
+        "pointer": [
+          25,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-sonne-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-regen.mp3",
+      "kind": "vocab",
+      "text": "Regen",
+      "en": "rain",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "regen",
+        "pointer": [
+          26,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-regen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-regen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich mag keinen Regen.",
+      "en": "I don't like rain.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "regen",
+        "pointer": [
+          26,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-regen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-regen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Räge",
+      "en": "rain",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "regen",
+        "pointer": [
+          26,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-regen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-schnee.mp3",
+      "kind": "vocab",
+      "text": "Schnee",
+      "en": "snow",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "schnee",
+        "pointer": [
+          27,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-schnee.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-schnee-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Im Winter gibt es in den Bergen viel Schnee.",
+      "en": "In winter there's a lot of snow in the mountains.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "schnee",
+        "pointer": [
+          27,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-schnee-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-schnee-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Schnee",
+      "en": "snow",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "schnee",
+        "pointer": [
+          27,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-schnee-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-es-regnet.mp3",
+      "kind": "vocab",
+      "text": "es regnet",
+      "en": "it's raining",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "es-regnet",
+        "pointer": [
+          28,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-es-regnet.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-es-regnet-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Heute regnet es.",
+      "en": "It's raining today.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "es-regnet",
+        "pointer": [
+          28,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-es-regnet-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-es-regnet-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "es rägnet / es schiffet",
+      "note": "it's pouring, colloquial",
+      "en": "it's raining",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "es-regnet",
+        "pointer": [
+          28,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-es-regnet-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-es-schneit.mp3",
+      "kind": "vocab",
+      "text": "es schneit",
+      "en": "it's snowing",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "es-schneit",
+        "pointer": [
+          29,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-es-schneit.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-es-schneit-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Im Winter schneit es oft.",
+      "en": "It often snows in winter.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "es-schneit",
+        "pointer": [
+          29,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-es-schneit-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-es-schneit-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "es schneit",
+      "en": "it's snowing",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "es-schneit",
+        "pointer": [
+          29,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-es-schneit-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-warm.mp3",
+      "kind": "vocab",
+      "text": "warm",
+      "en": "warm",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "warm",
+        "pointer": [
+          30,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-warm.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-warm-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Im Sommer ist der See warm.",
+      "en": "In summer the lake is warm.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "warm",
+        "pointer": [
+          30,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-warm-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-warm-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "warm",
+      "en": "warm",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "warm",
+        "pointer": [
+          30,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-warm-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kalt.mp3",
+      "kind": "vocab",
+      "text": "kalt",
+      "en": "cold",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kalt",
+        "pointer": [
+          31,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-kalt.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kalt-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Im Winter ist es kalt.",
+      "en": "It's cold in winter.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kalt",
+        "pointer": [
+          31,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-kalt-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kalt-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "chalt",
+      "en": "cold",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kalt",
+        "pointer": [
+          31,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-kalt-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kalt-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "chaut",
+      "en": "cold",
+      "variety": "gsw-be",
+      "voice": "be-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kalt",
+        "pointer": [
+          31,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-kalt-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-koennen.mp3",
+      "kind": "vocab",
+      "text": "können",
+      "en": "can, to be able to",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "koennen",
+        "pointer": [
+          32,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-koennen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-koennen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Kannst du schwimmen?",
+      "en": "Can you swim?",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "koennen",
+        "pointer": [
+          32,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-koennen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-koennen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "chöne",
+      "note": "ich chan, du chasch, er chan, mir chönd",
+      "en": "can, to be able to",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "koennen",
+        "pointer": [
+          32,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-koennen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-koennen-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "chönne",
+      "note": "i cha, du chasch, mir chöi",
+      "en": "can, to be able to",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "koennen",
+        "pointer": [
+          32,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-koennen-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wollen.mp3",
+      "kind": "vocab",
+      "text": "wollen",
+      "en": "to want (to)",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wollen",
+        "pointer": [
+          33,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-wollen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wollen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich will Ski fahren lernen.",
+      "en": "I want to learn to ski.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wollen",
+        "pointer": [
+          33,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-wollen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wollen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "wele / welle",
+      "note": "ich wott, du wottsch, er wott, mir wänd",
+      "en": "to want (to)",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wollen",
+        "pointer": [
+          33,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-wollen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wollen-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "wöue",
+      "note": "i wott, mir wei",
+      "en": "to want (to)",
+      "variety": "gsw-be",
+      "voice": "be-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wollen",
+        "pointer": [
+          33,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-wollen-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gern.mp3",
+      "kind": "vocab",
+      "text": "gern / gerne",
+      "en": "gladly; (verb +) gern = to like doing",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gern",
+        "pointer": [
+          34,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-gern.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gern-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich tanze gern.",
+      "en": "I like dancing.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gern",
+        "pointer": [
+          34,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-gern-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gern-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "gärn",
+      "en": "gladly; (verb +) gern = to like doing",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gern",
+        "pointer": [
+          34,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-gern-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-lieber.mp3",
+      "kind": "vocab",
+      "text": "lieber",
+      "en": "rather, preferably",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "lieber",
+        "pointer": [
+          35,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-lieber.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-lieber-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich trinke lieber Tee.",
+      "en": "I prefer tea.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "lieber",
+        "pointer": [
+          35,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-lieber-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-lieber-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "lieber",
+      "en": "rather, preferably",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "lieber",
+        "pointer": [
+          35,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-lieber-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-am-liebsten.mp3",
+      "kind": "vocab",
+      "text": "am liebsten",
+      "en": "best of all, most of all",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "am-liebsten",
+        "pointer": [
+          36,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-am-liebsten.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-am-liebsten-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Am liebsten schwimme ich.",
+      "en": "Best of all I like swimming.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "am-liebsten",
+        "pointer": [
+          36,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-am-liebsten-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-am-liebsten-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "am liebschte",
+      "en": "best of all, most of all",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "am-liebsten",
+        "pointer": [
+          36,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-am-liebsten-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-oft.mp3",
+      "kind": "vocab",
+      "text": "oft",
+      "en": "often",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "oft",
+        "pointer": [
+          37,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-oft.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-oft-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich gehe oft ins Kino.",
+      "en": "I often go to the cinema.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "oft",
+        "pointer": [
+          37,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-oft-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-oft-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "oft / hüüfig",
+      "en": "often",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "oft",
+        "pointer": [
+          37,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-oft-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-manchmal.mp3",
+      "kind": "vocab",
+      "text": "manchmal",
+      "en": "sometimes",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "manchmal",
+        "pointer": [
+          38,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-manchmal.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-manchmal-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Manchmal spiele ich Gitarre.",
+      "en": "Sometimes I play the guitar.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "manchmal",
+        "pointer": [
+          38,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-manchmal-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-manchmal-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "mängisch",
+      "en": "sometimes",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "manchmal",
+        "pointer": [
+          38,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-manchmal-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-nie.mp3",
+      "kind": "vocab",
+      "text": "nie",
+      "en": "never",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "nie",
+        "pointer": [
+          39,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-nie.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-nie-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich tanze nie.",
+      "en": "I never dance.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "nie",
+        "pointer": [
+          39,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-nie-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-nie-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "nie",
+      "en": "never",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "nie",
+        "pointer": [
+          39,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-nie-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-u07-dictation-gitarre.mp3",
+      "kind": "dictation",
+      "text": "Ich spiele gern Gitarre.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a1-u07-dictation-gitarre",
+        "pointer": [
+          22,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a1-u07-dictation-gitarre.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-u07-dictation-ski.mp3",
+      "kind": "dictation",
+      "text": "Kannst du Ski fahren?",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a1-u07-dictation-ski",
+        "pointer": [
+          23,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a1-u07-dictation-ski.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-u07-speak-hobbies.mp3",
+      "kind": "speak",
+      "text": "Ich spiele gern Fußball und ich schwimme gern. Am liebsten wandere ich im Herbst.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a1-u07-speak-hobbies",
+        "pointer": [
+          25,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a1-u07-speak-hobbies.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-u07-speak-shadow-anna.mp3",
+      "kind": "speak",
+      "text": "Ja, ich kann sehr gut Ski fahren. Im Winter fahre ich fast jedes Wochenende.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a1-u07-speak-shadow-anna",
+        "pointer": [
+          26,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a1-u07-speak-shadow-anna.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-u07-speak-shadow-tom.mp3",
+      "kind": "speak",
+      "text": "Ich kann leider nicht Ski fahren. Aber ich will es lernen!",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a1-u07-speak-shadow-tom",
+        "pointer": [
+          27,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a1-u07-speak-shadow-tom.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-u07-speak-questions.mp3",
+      "kind": "speak",
+      "text": "Kannst du schwimmen? Willst du mitkommen? Spielst du gern Gitarre?",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a1-u07-speak-questions",
+        "pointer": [
+          28,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a1-u07-speak-questions.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-u07-speak-pron-ue-ch.mp3",
+      "kind": "speak",
+      "text": "Im Frühling mache ich am liebsten Musik. Am Wochenende koche ich auch.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a1-u07-speak-pron-ue-ch",
+        "pointer": [
+          29,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a1-u07-speak-pron-ue-ch.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-u07-ch-mcq-regen.mp3",
+      "kind": "listening",
+      "text": "Und wänn s rägnet?",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a1-u07-ch-mcq-regen",
+        "pointer": [
+          35,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a1-u07-ch-mcq-regen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-u07-ch-mcq-jass.mp3",
+      "kind": "listening",
+      "text": "Am Friitig jassed mir im Kafi. Wottsch au cho?",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a1-u07-ch-mcq-jass",
+        "pointer": [
+          36,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a1-u07-ch-mcq-jass.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-u07-ch-be-mcq-aare.mp3",
+      "kind": "listening",
+      "text": "Am Sunntig wei mir i dr Aare schwümme.",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a1-u07-ch-be-mcq-aare",
+        "pointer": [
+          42,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a1-u07-ch-be-mcq-aare.mp3",
+      "referenced": false
+    }
+  ]
+}

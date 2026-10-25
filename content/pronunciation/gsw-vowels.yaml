@@ -1,0 +1,64 @@
+id: gsw-vowels
+title: "Swiss German long vowels and ie, ue, üe"
+ipa: ["iə̯", "uə̯", "yə̯", "iː", "uː", "yː"]
+level: A1
+variety: gsw-zh
+explanation: >-
+  A **listening and imitation** drill for two features that make Swiss German sound so different.
+
+
+  **1. ie, ue, üe are real diphthongs.** In Standard German *ie* is just a long *ee*. In Swiss German you
+  hear **both** letters: the vowel glides into a short *uh* (schwa). *lieb* = *lee-ub*, *guet* (gut) =
+  *goo-ut*, *müed* (müde) = *mü-ud*, *Muetter, Brueder, Chue* (cow). Standard German long *u* and *ü*
+  often correspond to Swiss *ue* and *üe*: *gut → guet, Bruder → Brueder, Brüder → Brüeder, müde → müed*.
+  The first part is stressed and the *e* is short and light.
+
+
+  **2. Long ii, uu, üü where Standard German has ei, au, eu.** Swiss German kept the old long vowels:
+  *Zeit → Ziit, Wein → Wii, Haus → Huus, Leute → Lüüt, neun → nüün*. The doubled letter means
+  **long**, nothing else: *Huus* is a long *oo*, not *ow*. Long and short also change meaning: *Füür*
+  (fire, long) vs *für* (for, short).
+
+
+  In Swiss German, vowel length works independently of the consonants – a long vowel can stand before
+  a double consonant, so trust the doubled vowel letters in Dieth spelling. (Bernese often shortens
+  them: *Zyt, Lüt*.)
+tips:
+  - "ie, ue, üe: say the first vowel, then let your jaw drop slightly for a quick *uh*: *gu-et*."
+  - "Doubled vowels: hold them. *Ziit* is twice as long as *isch*."
+  - "Don't read Swiss *ie* like Standard German: *lieb* in Zurich has two sounds, *lieb* in Hamburg one."
+  - "Map the patterns: Standard ei → ii, au → uu, eu → üü; Standard long u, ü → ue, üe."
+pairs:
+  - [{ text: "Brueder", en: brother }, { text: "Brüeder", en: brothers }]
+  - [{ text: "Chue", en: cow }, { text: "Chüe", en: cows }]
+  - [{ text: "Fuess", en: foot }, { text: "Füess", en: feet }]
+  - [{ text: "Wii", en: wine }, { text: "wie", en: how }]
+  - [{ text: "Muus", en: mouse }, { text: "mues", en: must (I must) }]
+  - [{ text: "Füür", en: fire }, { text: "für", en: for }]
+  - [{ text: "nüün", en: nine }, { text: "nüt", en: nothing }]
+words:
+  - { text: "lieb", en: "kind, dear (lieb)" }
+  - { text: "guet", en: good (gut) }
+  - { text: "müed", en: tired (müde) }
+  - { text: "Muetter", en: mother (Mutter) }
+  - { text: "Brueder", en: brother (Bruder) }
+  - { text: "Chueche", en: cake (Kuchen) }
+  - { text: "Ziit", en: time (Zeit) }
+  - { text: "Wii", en: wine (Wein) }
+  - { text: "Huus", en: house (Haus) }
+  - { text: "Lüüt", en: people (Leute) }
+  - { text: "nüün", en: nine (neun) }
+  - { text: "zää", en: ten (zehn) }
+  - { text: "schriibe", en: to write (schreiben) }
+  - { text: "tüür", en: expensive (teuer) }
+sentences:
+  - { text: "Ich bi müed.", en: "I'm tired." }
+  - { text: "D Muetter isch lieb.", en: Mother is kind. }
+  - { text: "Mir händ kei Ziit.", en: "We don't have time." }
+  - { text: "Das isch mega guet!", en: "That's really good!" }
+  - { text: "Im Huus wohned vill Lüüt.", en: A lot of people live in the house. }
+commonMistakes:
+  - "*guet* said like Standard *gut* (one long u): you must hear the glide *gu-et*."
+  - "*Huus* said *house* (*ow*): it's a long *oo*."
+  - "*Ziit* said *Zeit*: Swiss German keeps the long *ii*."
+  - "Two full syllables in *guet* (*gu-ETT*): the e is a short, unstressed *uh*."

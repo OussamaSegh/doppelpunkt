@@ -17,6 +17,8 @@ content/
       audio/           # optional, added when recorded (audio fields stay omitted until then)
   lexicon/
     gsw-zh.yaml        # Standard German → Zurich German core lexicon (with Bernese where different)
+  pronunciation/
+    ue-u-i.yaml        # one PronunciationDrill per file, file name = id (section 9, docs/PRONUNCIATION.md)
 ```
 
 - Unit folders are `unit-NN` with two digits. The unit `id` is `<level>-u<NN>`, for example `a1-u01`.
@@ -271,6 +273,16 @@ Examples of each type:
   listening-oriented at A1–A2).
 - For listening MCQs on the dialogues (no audio yet), refer to the dialogue in the prompt ("Listen to
   the intro dialogue again").
+- **Speaking (from v0.3, units 7+):** at least **5 `speak` items** per unit: a read-aloud frame the
+  learner then personalises, **shadowing** of 1–2 dialogue lines (prompt starts with "Shadowing:";
+  the `target` is the exact dialogue line, with the line's variety), an intonation item, and a
+  pronunciation item that applies a drill to the unit's words. Name the drill in the explanation
+  ("See the drill ü vs u and i") so the app can link to it. At A1–A2 `speak` items are `de` or
+  `ch-std`, never `gsw-*`.
+- **Swiss Standard lines in dialogues:** a speaker who is Swiss but speaks Standard German (a
+  passer-by, a receptionist) gets `variety: ch-std` and Swiss spelling (`ss`, Billett, Tram).
+- **Vary the position of the correct MCQ option** (the linter warns when every answer is 0); aim for
+  a roughly even spread over the unit.
 
 ## 7. Style rules
 
@@ -322,7 +334,63 @@ one of noun, verb, adj, adv, prep, conj, pron, num, phrase, other) and no duplic
 (same `de` and `pos`). The lexicon is reference data, not part of the content contract, so its schema
 lives in `tools/` rather than `packages/content-schema`.
 
-## 9. Review
+## 9. Pronunciation drills (content/pronunciation/<id>.yaml)
+
+One `PronunciationDrill` per file; the file name is the id (`ue-u-i.yaml` has `id: ue-u-i`).
+
+```yaml
+id: ue-u-i
+title: ü vs u and i
+ipa: [y, u, i]
+level: A1            # default A1
+variety: de          # de, ch-std, gsw-zh or gsw-be; default de
+explanation: >-
+  Say **ee** and round your lips as if for *oo*.
+tips: ["Keep the tongue forward."]
+pairs:               # minimal pairs [a, b]; the two words must differ
+  - [{ text: Mütter, en: mothers }, { text: Mutter, en: mother }]
+words:               # at least one
+  - { text: fünf, en: five }
+sentences:
+  - { text: Die Tür ist grün., en: The door is green. }
+commonMistakes: ["*Mutter* for *Mütter*: the lips are not rounded."]
+```
+
+Every pair word, word and sentence can take an `audio:` path relative to
+`content/pronunciation/<id>/` (for example `audio/pron-ue-u-i-pair-01-a.mp3`); `npm run audio:link`
+fills it. `npm run content:lint` checks: schema, file name = id, unique ids, the two words of a pair
+differ, no empty `text`/`en`, repeated pairs/words (warning), unknown fields (warning), missing audio
+files (warning), and that the speaking grader accepts each text read back verbatim. `content:build`
+compiles all drills into `apps/web/public/packs/pronunciation.json` (`PronunciationPack`, an empty
+pack when there are none). Drill attempts are stored with unit id `pron-<id>`.
+
+### Writing drills
+
+- **One sound or contrast per drill.** The syllabus and the list of planned drills are in
+  `docs/PRONUNCIATION.md`; check it before adding a drill, and add the new id there.
+- **`explanation`** (Markdown, English): how to make the sound, starting from the nearest English
+  sound and saying exactly what changes (tongue, lips, voice, length); the spelling rules that go
+  with it; and the trap for English speakers. Mention Swiss Standard or regional variants that are
+  also correct, so the learner isn't marked down for them.
+- **`ipa`**: the symbols involved, without slashes or brackets (`["yː", "ʏ"]`).
+- **`tips`**: 3–4 short, physical tips (mirror, hand in front of the mouth, start from an English
+  word).
+- **`pairs`**: 6–10 minimal pairs where the language has them; the wrong sound must give a different
+  word. Glosses are short; mark stress in the gloss when stress is the point (`to get up
+  (AUF-stehen)`), never with capitals in `text` (the TTS and the grader read `text`). Near pairs are
+  fine where true pairs don't exist (Swiss k-sounds, glottal stop) – say so in the explanation. Give
+  at least one pair: the listening quiz needs it.
+- **`words`**: 10–15, mostly from the A1 vocabulary. **`sentences`**: 3–5 short, natural sentences
+  that use the sound several times. Quote every `text` and every `en` that contains `,` `?` `:` `!`
+  or `'` in flow mappings.
+- **`commonMistakes`**: 3–4, in the form `*wrong* for *right*: what went wrong`.
+- **Variety:** a `de` drill contains no Helvetisms and no dialect; a `ch-std` drill uses Swiss
+  spelling; a `gsw-zh` drill is a **listening and imitation** drill until B1 (say so in the first
+  sentence), uses lexicon spellings, and puts the Standard German word in the gloss
+  (`en: child (Kind)`) rather than in `text`.
+- **Level:** `A1` for sounds that change words; `A2` for fluency features and accents to recognise.
+
+## 10. Review
 
 Content ships as *draft* until it has passed native review (see `docs/ROADMAP.md`): two German
 reviewers per level, and one Zurich reviewer for every `gsw-zh` line. In the PR description,

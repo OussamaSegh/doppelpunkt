@@ -4,7 +4,9 @@ This is how we check Doppelpunkt before a release. The v0.1 exit criteria are in
 [`ROADMAP.md`](ROADMAP.md): CI green (typecheck, unit tests, content lint, build, e2e), the app
 installs on Android Chrome and iOS Safari, and a learner can finish A1 unit 1 offline without an API key.
 v0.2 adds the placement test, the exercise-player polish, the grammar reference, the Bern lane and the
-audio pipeline; see [v0.2 "Erste Schritte"](#v02-erste-schritte) below.
+audio pipeline; see [v0.2 "Erste Schritte"](#v02-erste-schritte) below. v0.3 adds recording, speech
+recognition with a provider fallback, shadowing, pronunciation drills and A1 units 7–9; see
+[v0.3 "Stimme"](#v03-stimme) for the new coverage and the speaking device checklist.
 
 ## Test strategy
 
@@ -20,7 +22,12 @@ audio pipeline; see [v0.2 "Erste Schritte"](#v02-erste-schritte) below.
 Principles:
 
 - **AI is mocked, never called.** Unit tests stub `fetch`; e2e tests intercept
-  `https://api.anthropic.com/**` with `page.route` and answer with a canned SSE stream. No test needs a key or network.
+  `https://api.anthropic.com/**` (canned SSE stream) and `https://api.openai.com/v1/audio/transcriptions`
+  (canned JSON) with `page.route`. No test needs a key or network.
+- **Media is faked, never real.** Speaking specs use Chromium's fake microphone
+  (`--use-fake-device-for-media-stream`, permission granted) so MediaRecorder records a real beep, and
+  `e2e/media.ts` replaces browser speech recognition (removed, or a fake that "hears" a given text) and
+  `speechSynthesis.speak` (counted in `window.__ttsCalls`, ended at once).
 - **Tests read the real content.** E2e specs load `apps/web/dist/packs/a1.json` and pick exercises by type,
   so content edits (new items, re-ordering) don't break them. They only assume that unit 1 has at least
   one mcq, gap and order exercise and a Zurich German Swiss lane.
@@ -30,7 +37,7 @@ Principles:
   throws an uncaught exception. A test can allow specific messages with `test.use({ allowConsole: [...] })`
   (only the offline test does, for failed network requests).
 
-### E2e suite (36 tests × 2 projects = 72)
+### E2e suite (53 tests × 2 projects = 106)
 
 v0.1 specs (14 tests):
 
@@ -43,6 +50,9 @@ v0.1 specs (14 tests):
 
 v0.2 specs (22 tests) — see the v0.2 section for details: `placement.spec.ts` (4), `player.spec.ts` (10),
 `grammar.spec.ts` (4), `bern.spec.ts` (4).
+
+v0.3 specs (17 tests) — see the v0.3 section: `pronunciation.spec.ts` (6), `speaking.spec.ts` (10), one more
+test in `learn.spec.ts` (units 7–9).
 
 ## How to run
 
@@ -152,6 +162,95 @@ duplicate headwords are reported; the lexicon is part of `content:lint`).
 - [ ] Grammar reference on a phone: reached from the Learn card; search works with the phone keyboard
   (no umlaut needed: "mochte" finds möchte).
 
+## v0.3 "Stimme"
+
+Exit criterion (ROADMAP): speaking exercises usable on iOS Safari, Android Chrome and desktop; recognition
+fallback tested. The automated part runs in Chromium only (desktop + Pixel 7); everything that needs a real
+microphone, a real recogniser or a real voice is in the device checklist below.
+
+### New automated coverage
+
+Helpers: `e2e/media.ts` — `stubMedia(page, { recognition, getUserMediaError, micPermission })`,
+`ttsCalls(page)`, `storedAttempts(page)` (attempt rows from IndexedDB) and `fakeMic` (launch args and the
+microphone permission). `speaking.spec.ts` sets the fake-device launch args for the whole file (Playwright
+can't change launch options per describe block). Specs pick content through the app's own code
+(`discriminationQuiz`, `grade`, `resultTone`, `micFixSteps`) so content edits don't break them.
+
+| Spec | Tests |
+|---|---|
+| `pronunciation.spec.ts` | list of all 16 drills (titles, pair/word counts), reached from the desktop "Reference" sidebar or the Learn card on phones, opens a drill and back; drill view (explanation, tips, minimal pairs, quiz section, repeat-after-me stepper with Previous/Next, "Practise" on a word jumps the stepper, speeds 0.75×/1×/1.25×); "Which did you hear?" plays the word (TTS stub), right then wrong answer ("Not quite: it was …"), both stored as **listening** attempts (score 1 and 0) under `pron-<id>`, the list counts speaking tries only; repeat after me: self-rating "Good" → "Self-rated", "Try again", stored as **speaking**, the list shows "1 try, 100% avg", Progress radar + Speaking row; Swiss drill without recordings: "No recording yet" on every pair side, the quiz and the native column, no listen/"Listen, then speak" buttons, self-rating works, **zero** `speechSynthesis.speak` calls; unknown drill → "Drill not found" |
+| `speaking.spec.ts` | fake mic, no recognition, no key: Record → timer → Stop → "Record again", "Your recording" `<audio>` with a decodable `blob:` source, "Play native (synthetic voice)" speaks the target in de-DE at 1×, only self-rating offered, "Sounded right" stores a speaking attempt and the Progress radar/table shows Speaking; fake browser recognition (de-DE): transcript filled, "Recognised by your browser (de-DE)", the learner corrects it ("corrected by you"), Check → tone from the engine, word-by-word diff with "(missing)", "Sounds to work on" with the ü hint, attempt score = engine score; ch-std item recognises in **de-CH**; shadowing mode on a speak item: speed 0.75× → "Listen, then speak" plays the TTS at 0.75 and starts recording; **recognition fallback**: no browser recognition + saved OpenAI key → "Transcribe with OpenAI" → mocked `/v1/audio/transcriptions` (one request, `Bearer` key, multipart with `audio.webm` and `gpt-4o-transcribe`) → "Transcribed by OpenAI" → Richtig!; getUserMedia `NotAllowedError` → "Microphone access is blocked", the platform's fix steps (`micFixSteps` for the UA: desktop or Android), Record still enabled, self-rating still works; Permissions API "denied" shows the steps before recording; "prompt" shows the first-use note; dialogue shadowing on Einstieg (Line n of N, speeds, loop toggle, native at 1.25×, Close); Swiss lane: Zurich German lines without audio have no listen button, shadowing shows "No recording yet", zero TTS calls |
+| `learn.spec.ts` (+1) | units 7, 8 and 9 are listed on Learn with their titles; unit 9 opens on Einstieg |
+
+Unit tests from the feature teams (jsdom with `src/test/media.ts` doubles): `Recorder.test.tsx` (max length,
+re-record, permission states, level meter, ShadowPanel), `SpeakTask.test.tsx` (browser → provider → self
+path), `Pronunciation.test.tsx`; engine `gradeSpeech` / `minimalPairQuiz`; provider `transcribe` in
+`packages/ai/test/providers.test.ts`; `tools/test/pronunciation.test.ts` (drill lint, pack, audio manifest).
+
+Not automated: Gemini transcription in the browser (unit-tested only), real Chromium/Safari recognition,
+WebKit (iOS) and Firefox, real TTS voices and rates, mp4 recordings (Chromium records webm).
+
+### Manual device checklist: speaking
+
+Over HTTPS (or `localhost`). For every platform use one unit speak item (Übungen), one Standard German
+drill (e.g. *ü vs u and i*) and one Swiss drill (*Swiss German ch, gg and kch*). Tick both themes once.
+
+**Permission prompt, deny, fix** (every platform)
+
+- [ ] First Record: the browser asks for the microphone; the "Your browser will ask…" note was shown before.
+- [ ] Deny → red "Microphone access is blocked for this site." with this platform's steps; the steps are
+  correct for the browser in front of you; self-rating still works; nothing else breaks.
+- [ ] Follow the steps, reload → Record works without a new prompt (or with one, then allowed).
+- [ ] No microphone / microphone in use by a call → the "No microphone was found" / "in use" text.
+
+**Recording and playback**
+
+- [ ] Waveform moves while speaking, flat when silent; the timer counts to the max and recording stops by itself.
+- [ ] "Your recording" plays back, at normal pitch and with sound (not silent, not chipmunk); "Record again" replaces it.
+- [ ] iOS Safari / macOS Safari record **audio/mp4** (m4a) and play it back; Chrome, Edge, Firefox, Android
+  record **webm/opus** and play it back. (In Safari devtools: the `<audio>` source is a `blob:` of type audio/mp4.)
+- [ ] Native playback: "Play native (synthetic voice)" for Standard German; Swiss German without recordings
+  says "No recording yet" and **never** speaks with a German voice (also in the Swiss lane dialogue).
+
+**Recognition**
+
+- [ ] Chrome desktop, Edge, Android Chrome: browser recognition fills "What we heard" while speaking;
+  Standard German items show **de-DE**, Swiss Standard German (`ch-std`) items **de-CH**; the status line says
+  "Recognised by your browser (…)". Correcting the text adds "corrected by you".
+- [ ] Swiss German (gsw) drill: the note explains recognition only knows Standard German.
+- [ ] Safari (iOS 14.5+ / macOS): `webkitSpeechRecognition` works or is absent — either way there is a path:
+  transcript, provider transcription or self-rating. On iOS the installed PWA may lack recognition — check the fallback text.
+- [ ] Firefox: no recognition → "Your browser can't recognise speech…" and self-rating.
+- [ ] **Provider fallback** with a real OpenAI key and with a real Gemini key: "Transcribe with …" → text
+  comes back, "Transcribed by OpenAI/Gemini", Check grades it; a Swiss item gets Dieth-style text. The cost
+  meter and spend cap: with the monthly cap reached, transcription is refused with the cap message.
+- [ ] Grading: say a ü word as u (Küche → Kuche) → "Sounds to work on: ü sound"; a perfect take → Richtig!.
+
+**Shadowing and TTS rates**
+
+- [ ] Speak item → "Shadowing mode"; dialogue → "Shadow the dialogue": 0.75×, 1× and 1.25× are audibly
+  different and keep a natural pitch (Safari: `preservesPitch`); "Listen, then speak" starts recording when
+  the model ends; "Loop this line" repeats until "Stop loop".
+- [ ] TTS uses a German voice (de-DE; de-CH where installed for ch-std); nothing crashes without German voices.
+
+**Installed PWA and offline**
+
+- [ ] iOS: Add to Home Screen, open standalone, the microphone works there too (separate permission:
+  Settings → Doppelpunkt / Safari → Microphone). Android: installed app, same checks.
+- [ ] Airplane mode after one visit: /pronunciation lists all 16 drills and opens one; quiz and
+  repeat-after-me work (TTS where the OS voice is offline); recording and self-rating work offline; the
+  transcribe button fails with a clear error (no network) and self-rating still works.
+- [ ] Progress: drill and unit speaking attempts move the Speaking axis of the skill radar; the quiz moves Listening.
+
+### Fixed during QA (v0.3)
+
+| Issue | Fix |
+|---|---|
+| Swiss German dialogue lines (and Swiss solutions) without a recording had a listen button that read the dialect with a German TTS voice — against the rule "TTS for Standard German only" the Recorder and drills follow. | `GermanText` shows the TTS listen button only for Standard German varieties; Swiss German needs a recording URL (`apps/web/src/components/GermanText.tsx`). |
+| Provider transcription bypassed the monthly spend cap (the tracked provider passed `transcribe` straight through). | `trackedProvider` checks the cap before transcribing (`apps/web/src/lib/ai.ts`). |
+| Drill list said "1 tries". | "1 try" / "n tries" (`apps/web/src/screens/Pronunciation.tsx`). |
+| `docs/CONTENT_FORMAT.md` §9 and `tools/src/pronunciation.ts` used the drill id `ue-u`; the real drill is `ue-u-i`. | Examples and comments say `ue-u-i` (`pron-ue-u-i-pair-01-a.mp3`). |
+
 ## Found issues and known gaps
 
 ### Fixed during QA (v0.2)
@@ -177,6 +276,20 @@ duplicate headwords are reported; the lexicon is part of `content:lint`).
 
 ### Known gaps / open issues
 
+v0.3:
+
+- **Speech grading accepts umlaut-less number words** (`funf`, `zwolf`, `funfzig` are listed spellings in
+  `packages/engine/src/numbers.ts` for typing without umlauts), so a recogniser hearing *funf* gives full
+  credit and no ü hint — e.g. `a1-u02-speak-umlaut` ("fünf, fünfzehn, fünfzig. Zwölf …") can't catch u-for-ü.
+  Needs an engine decision (strict umlauts for speech).
+- Transcription spend is not logged (no token usage); only the cap is enforced. The cost meter ignores it.
+- No recorded audio yet: pronunciation audio 0/504, units 0/1429. Swiss drills have no quiz and no native
+  model until recordings land; Standard German relies on TTS.
+- E2e covers Chromium only: webm recordings, faked recognition, stubbed TTS. iOS/WebKit, mp4, real
+  recognisers and Gemini transcription in the browser are manual.
+
+Earlier:
+
 - **Content:** every A1 unit (1–6) now has Bernese items, so the Bern fallback note can't be seen with real
   content (unit-tested in `SwissLane.test.tsx`). No recorded audio yet (audio coverage 0/968; TTS only, Swiss
   lane has none). Native-speaker review pending for all six units (`NATIVE_REVIEW.md`; the lint prints the
@@ -185,11 +298,12 @@ duplicate headwords are reported; the lexicon is part of `content:lint`).
   is covered by unit tests only. The roadmap exit criterion (80% within one unit of a teacher's assessment)
   needs a study with real learners; nothing here measures it.
 - **E2e not covered yet:** match / dictation / translate / transform answers graded in the browser
-  (inputs checked, grading unit-tested in jsdom), speak / write / role-play flows, export/import, reset, theme
+  (inputs checked, grading unit-tested in jsdom), write / role-play flows, export/import, reset, theme
   switching, other AI providers in the browser, relay mode, spend-cap enforcement in the UI, the "Why?" button,
   Ctrl/Cmd+Enter in textareas, the audio tools against real recordings (unit-tested with ffmpeg when present).
-- **Not automatable here:** real install prompts, iOS Safari (WebKit is not in the CI matrix), microphone
-  permission and speech recognition, TTS voices — see the manual checklist.
+- **Not automatable here:** real install prompts, iOS Safari (WebKit is not in the CI matrix), the real
+  permission prompt, real speech recognition and TTS voices — see the manual checklists (Chromium's fake
+  microphone covers recording since v0.3).
 - The e2e Anthropic mock returns the whole SSE body at once; it checks that deltas are assembled, not timing.
 - The tutor-with-key test blocks service workers so `page.route` sees the provider request; provider calls are
   not routed through the worker in the app either (cross-origin, no matching Workbox route).

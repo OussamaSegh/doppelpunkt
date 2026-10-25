@@ -1,0 +1,63 @@
+id: ei-ie-eu
+title: ei vs ie, and eu/äu
+ipa: ["aɪ̯", "iː", "ɔʏ̯", "aʊ̯"]
+level: A1
+variety: de
+explanation: >-
+  German has three diphthongs (two vowels in one syllable), and one spelling that looks like a diphthong
+  but isn't.
+
+
+  - **ei** (also *ai*) = English *eye* [aɪ̯]: *mein, drei, heißen, Zeit, Wein, Mai*.
+
+  - **ie** = English *ee* [iː], one long vowel: *Bier, vier, sieben, wie, lieb*.
+
+  - **eu** and **äu** = English *oy* in *boy* [ɔʏ̯]: *neu, neun, heute, Leute, Häuser*.
+
+  - **au** = English *ow* in *how* [aʊ̯]: *Haus, auch, Frau*.
+
+
+  **The trick for ei and ie:** say the English name of the **second** letter. *ei* → "i" → *eye*. *ie* →
+  "e" → *ee*. So *Wein* is *vine*-like, *Wien* (Vienna) is *veen*.
+
+
+  Mixing them up changes words: *leider* (unfortunately) vs *Lieder* (songs), *Reise* (journey) vs *Riese*
+  (giant), and *neun* (nine) vs *nein* (no).
+tips:
+  - "The second letter rule: ei sounds like the English letter i, ie like the English letter e."
+  - "eu/äu: start with an open o as in *hot*, glide to a short ü. English *oy* is close enough."
+  - "au/äu belong together: Haus – Häuser, Maus – Mäuse."
+pairs:
+  - [{ text: "Wein", en: wine }, { text: "Wien", en: Vienna }]
+  - [{ text: "leider", en: unfortunately }, { text: "Lieder", en: songs }]
+  - [{ text: "Reise", en: journey }, { text: "Riese", en: giant }]
+  - [{ text: "bleiben", en: to stay }, { text: "blieben", en: stayed }]
+  - [{ text: "heiß", en: hot }, { text: "hieß", en: was called }]
+  - [{ text: "neun", en: nine }, { text: "nein", en: no }]
+  - [{ text: "Eule", en: owl }, { text: "Eile", en: hurry }]
+  - [{ text: "Haus", en: house }, { text: "Häuser", en: houses }]
+words:
+  - { text: "mein", en: my }
+  - { text: "drei", en: three }
+  - { text: "heißen", en: to be called }
+  - { text: "Zeit", en: time }
+  - { text: "Bier", en: beer }
+  - { text: "vier", en: four }
+  - { text: "sieben", en: seven }
+  - { text: "wie", en: how }
+  - { text: "neu", en: new }
+  - { text: "neun", en: nine }
+  - { text: "heute", en: today }
+  - { text: "Leute", en: people }
+  - { text: "Häuser", en: houses }
+  - { text: "auch", en: also }
+  - { text: "Frau", en: woman }
+sentences:
+  - { text: "Ich habe leider keine Zeit.", en: "Unfortunately I don't have time." }
+  - { text: "Die Leute sind heute sehr nett.", en: The people are very nice today. }
+  - { text: "Neun? Nein, vier!", en: "Nine? No, four!" }
+  - { text: "Wie heißt deine Freundin?", en: "What's your friend's name?" }
+commonMistakes:
+  - "*Wien* for *Wein* (or the other way round): use the second-letter rule."
+  - "*nein* for *neun*: eu is *oy*, not *eye*. Nine and no are a classic mix-up at the till."
+  - "*Bier* said as *bee-er* with two syllables: ie is one long vowel; the r is a light *uh* glide."

@@ -1,0 +1,305 @@
+id: a1-u08
+level: A1
+number: 8
+title: Unterwegs in der Stadt
+titleEn: Getting around town
+goal: >-
+  By the end you can ask for and understand directions, use the tram, bus and train, buy a ticket, give
+  instructions with the imperative, say what you must and mustn't do with müssen and dürfen, and follow a
+  Zurich German conversation about getting across town.
+canDo:
+  - I can ask the way (Wie komme ich zum Bahnhof?) and understand simple directions (geradeaus, die zweite Straße links).
+  - I can give instructions and directions with the imperative (Nehmen Sie das Tram! Geh geradeaus!).
+  - I can say what I have to, don't have to and mustn't do with müssen and dürfen.
+  - I can say how I get somewhere (mit dem Bus, mit dem Tram, zu Fuß) and buy a ticket.
+  - I can recognise the Swiss transport words (Tram, Velo, Billett, Perron, Trottoir, Halbtax) and Zurich directions (Lueg emal!, grad us, links, rächts).
+
+review:
+  notes:
+    - "Zurich imperatives 'Nimm s Tram!', 'Gang grad us!', 'Lueg emal!', 'Fahr ...!' – natural forms?"
+    - "'Du muesch nöd umstiige.' – umstiige spelling (ei → ii as in schriibe)?"
+    - "'bi de Ampel rächts' – is 'bi de Ampel' (bei der Ampel) natural, or would Zurich say 'bim Liechtsignal' / 'a de Ampel'?"
+    - "'Uf em Trottoir dörfsch nöd Velo fahre.' – dörfsch vs darfsch (lexicon lists dörfe and notes 'darf' as also heard)."
+    - "'Wie chum ich zum Bellevue?' – 1st person 'ich chum' (vs 'ich chume' in the lexicon). Which is more usual in a question?"
+    - "Bernese lines: 'Sandra, wo bisch?', 'Im Tram! I fahre i d Stadt.', 'Pass uf, gäu!', 'Jaja, Mami. Tschou!' – natural? (gäu from Wikipedia Berndeutsch; Tschou BD #12136; Tram n. BD #51755)."
+    - "Gender of Perron in Switzerland: the unit says der Perron (Duden: der, also das). Which is more common in Zurich?"
+    - "Halbtax and GA explanations (prices not given on purpose). Please confirm 'Halbtax' is neuter (das Halbtax) in common use."
+    - "ch-std passer-by lines use 'das Tram' and 'Billett'. Is 'Nehmen Sie am besten das Tram Nummer sechs' natural Swiss Standard German?"
+    - "Vocabulary gswZh forms without a source (please tick or correct): Strass, Chrüüzig, Brugg (Brücke), Poscht, Liechtsignal, iistiige, uusstiige, duure, wiit, nööch, grad us / graduus, erscht / zweit / dritt."
+
+intro:
+  scene: >-
+    Saturday morning at Zurich main station. Tom wants to go to the zoo and asks a woman for the way. She
+    answers in Swiss Standard German.
+  dialogue:
+    - speaker: Tom
+      text: Entschuldigung, wie komme ich zum Zoo?
+      en: Excuse me, how do I get to the zoo?
+    - speaker: Passantin
+      text: Zum Zoo? Das ist zu weit zu Fuss. Nehmen Sie am besten das Tram Nummer sechs.
+      en: To the zoo? It's too far to walk. Your best bet is the number six tram.
+      variety: ch-std
+    - speaker: Tom
+      text: Und wo ist die Haltestelle?
+      en: And where's the stop?
+    - speaker: Passantin
+      text: Gehen Sie hier geradeaus und dann die zweite Strasse rechts. Die Haltestelle ist gleich da.
+      en: Go straight on here and then take the second street on the right. The stop is right there.
+      variety: ch-std
+    - speaker: Tom
+      text: Muss ich umsteigen?
+      en: Do I have to change?
+    - speaker: Passantin
+      text: Nein, Sie müssen nicht umsteigen. Das Tram fährt direkt zum Zoo.
+      en: No, you don't have to change. The tram goes straight to the zoo.
+      variety: ch-std
+    - speaker: Tom
+      text: Super. Und wo kann ich eine Fahrkarte kaufen?
+      en: Great. And where can I buy a ticket?
+    - speaker: Passantin
+      text: Ein Billett? Am Automaten an der Haltestelle oder mit der App. Ohne Billett dürfen Sie nicht fahren!
+      en: A ticket? From the machine at the stop or with the app. You're not allowed to travel without a ticket!
+      variety: ch-std
+    - speaker: Tom
+      text: Klar. Wie lange dauert die Fahrt?
+      en: Of course. How long does the journey take?
+    - speaker: Passantin
+      text: Etwa zwanzig Minuten. Steigen Sie bei der Endstation aus.
+      en: About twenty minutes. Get off at the last stop.
+      variety: ch-std
+    - speaker: Tom
+      text: Vielen Dank!
+      en: Thank you very much!
+    - speaker: Passantin
+      text: Gern geschehen. Viel Spass im Zoo!
+      en: You're welcome. Have fun at the zoo!
+      variety: ch-std
+
+grammar:
+  - id: imperative
+    title: "The imperative: Nehmen Sie ...! Geh ...! Kommt ...!"
+    body: >-
+      The imperative gives instructions, directions and advice. There are three forms, one for each way of
+      saying *you*:
+
+
+      - **Sie** (polite): infinitive + **Sie**, verb first: ***Gehen Sie** geradeaus! **Nehmen Sie** das Tram!*
+
+      - **du**: the du-form **without -st** and **without du**: *du gehst → **Geh!** du kommst → **Komm!***
+      Verbs with **e → i** keep the i: *du nimmst → **Nimm!** du liest → **Lies!*** But verbs with **a → ä**
+      lose the umlaut: *du fährst → **Fahr!** du schläfst → **Schlaf!***
+
+      - **ihr**: the ihr-form without *ihr*: *ihr geht → **Geht!** ihr nehmt → **Nehmt!***
+
+
+      Separable verbs send the prefix to the end: ***Steigen Sie** am Bahnhof **um**! **Steig** hier **aus**!*
+      Add **bitte** or **mal** to sound friendly: *Nimm **bitte** das Tram. Schau **mal**!* The verb **sein** is
+      irregular: *Sei pünktlich! Seid ruhig! Seien Sie so nett!*
+    tables:
+      - [["Infinitive", "Sie", "du", "ihr"],
+         ["gehen", "Gehen Sie!", "Geh!", "Geht!"],
+         ["nehmen", "Nehmen Sie!", "Nimm!", "Nehmt!"],
+         ["fahren", "Fahren Sie!", "Fahr!", "Fahrt!"],
+         ["aussteigen", "Steigen Sie aus!", "Steig aus!", "Steigt aus!"],
+         ["sein", "Seien Sie ...!", "Sei ...!", "Seid ...!"]]
+    commonMistakes:
+      - "*Du geh geradeaus!* → **Geh geradeaus!** The du-imperative has no du."
+      - "*Nehme das Tram!* → **Nimm das Tram!** e → i verbs keep the i in the du-imperative."
+      - "*Fähr links!* → **Fahr links!** a → ä verbs lose the umlaut in the imperative."
+      - "*Sie gehen geradeaus!* is a statement (You're going straight on). For an instruction, the verb comes first: **Gehen Sie geradeaus!**"
+
+  - id: modal-muessen-duerfen
+    title: "müssen and dürfen: have to, don't have to, mustn't"
+    body: >-
+      **müssen** = must, have to. **dürfen** = may, be allowed to. They work like *können* and *wollen*
+      (unit 7): irregular singular, no ending for *ich* and *er/sie/es*, the infinitive at the end:
+      *Ich **muss** am Bahnhof **umsteigen**. Hier **darf** man nicht **parken**.*
+
+
+      **The big trap:** the negatives don't match English.
+
+      - **nicht müssen** = *don't have to* (it's not necessary): *Sie **müssen nicht** umsteigen.* (You
+      don't have to change.)
+
+      - **nicht dürfen** = *mustn't* (it's not allowed): *Sie **dürfen nicht** ohne Billett fahren.* (You
+      mustn't travel without a ticket.)
+
+
+      So English *must not* is German **nicht dürfen**, never *nicht müssen*. **man** (one, people in
+      general) is very common on signs and in rules: *Hier **darf man** nicht rauchen.* (rauchen = to smoke)
+    tables:
+      - [["", "müssen", "dürfen"],
+         ["ich", "muss", "darf"],
+         ["du", "musst", "darfst"],
+         ["er / sie / es / man", "muss", "darf"],
+         ["wir", "müssen", "dürfen"],
+         ["ihr", "müsst", "dürft"],
+         ["sie / Sie", "müssen", "dürfen"]]
+      - [["English", "German"],
+         ["You must change.", "Sie müssen umsteigen."],
+         ["You don't have to change.", "Sie müssen nicht umsteigen."],
+         ["You may use the bike lane.", "Sie dürfen den Velostreifen benutzen."],
+         ["You mustn't park here.", "Sie dürfen hier nicht parken."]]
+    commonMistakes:
+      - "*Sie müssen nicht hier parken* for *You mustn't park here.* → **Sie dürfen hier nicht parken.** nicht müssen means *don't have to*."
+      - "*Ich muss umsteigen am Bahnhof.* → **Ich muss am Bahnhof umsteigen.** The infinitive goes to the very end."
+      - "*Er musst / er darft* → **er muss, er darf.** No ending for er/sie/es."
+      - "*Ich müsse* → **ich muss.** The singular has u, not ü."
+
+  - id: directions-chunks
+    title: "Getting around: mit dem Bus, zum Bahnhof, die zweite Straße links"
+    body: >-
+      Learn these as **chunks** – the grammar behind them (the dative) comes in A2.
+
+
+      **How you travel – mit + dem / der:** *mit **dem** Bus, mit **dem** Tram, mit **dem** Zug, mit **dem**
+      Velo / Rad, mit **der** S-Bahn*. But on foot = **zu Fuß** (Swiss spelling *zu Fuss*).
+
+
+      **Where to – zum / zur:** *Wie komme ich **zum** Bahnhof / **zum** Zoo / **zum** Museum?* (der/das →
+      zum) – *Wie komme ich **zur** Post / **zur** Haltestelle?* (die → zur)
+
+
+      **Directions:** *geradeaus* (straight on), *links* (left), *rechts* (right), *an der Ampel* (at the
+      traffic lights), *über die Brücke* (over the bridge).
+
+
+      **Ordinal numbers** for streets and stops: *die **erste** Straße links, die **zweite** Straße rechts,
+      die **dritte** Haltestelle*. Ordinals are adjectives: 1–19 add **-te** (*zweite, vierte, fünfte*),
+      except **erste, dritte, siebte**; from 20 they add **-ste** (*zwanzigste*) – more in unit 9.
+    tables:
+      - [["Question", "Answer"],
+         ["Wie komme ich zum Bahnhof?", "Gehen Sie geradeaus und dann die erste Straße links."],
+         ["Wie komme ich zur Post?", "Nehmen Sie den Bus. Steigen Sie an der dritten Haltestelle aus."],
+         ["Wie fährst du zur Arbeit?", "Mit dem Velo. / Mit dem Tram. / Ich gehe zu Fuß."]]
+      - [["1st", "2nd", "3rd", "4th", "5th", "6th", "7th", "8th"],
+         ["erste", "zweite", "dritte", "vierte", "fünfte", "sechste", "siebte", "achte"]]
+    commonMistakes:
+      - "*mit Bus* → **mit dem Bus.** German needs the article here."
+      - "*Ich gehe mit Fuß.* → **Ich gehe zu Fuß.** A fixed expression."
+      - "*Wie komme ich zu der Bahnhof?* → **zum Bahnhof.** zum = zu dem (masculine and neuter), zur = zu der (feminine)."
+      - "*die zweit Straße* → **die zweite Straße.** Ordinals are adjectives and need an ending."
+
+reading:
+  title: "Unterwegs in Zürich: Tipps für Neue"
+  text: >-
+    Willkommen in Zürich! Hier sind fünf Tipps für Tram, Bus und Zug.
+
+
+    1. Kaufen Sie das Billett vor der Fahrt, am Automaten oder mit der App. Ohne Billett dürfen Sie nicht
+    fahren, und die Kontrolle kostet viel Geld.
+
+
+    2. Mit dem Halbtax bezahlen Sie nur die Hälfte. Mit dem GA müssen Sie nie ein Billett kaufen.
+
+
+    3. Im Tram steigen Sie vorne und hinten ein. Drücken Sie den Knopf an der Tür.
+
+
+    4. Am Bahnhof fahren die Züge vom Perron ab. Schauen Sie auf den Fahrplan: Die Züge sind pünktlich!
+
+
+    5. Fahren Sie gern Velo? Dann fahren Sie auf der Strasse oder auf dem Velostreifen. Auf dem Trottoir
+    dürfen Sie nicht Velo fahren.
+  en: >-
+    Welcome to Zurich! Here are five tips for the tram, the bus and the train.
+
+
+    1. Buy your ticket before the journey, from the machine or with the app. You mustn't travel without a
+    ticket, and a ticket check costs a lot of money.
+
+
+    2. With the Halbtax (half-fare card) you only pay half. With the GA (travelcard) you never have to buy a
+    ticket.
+
+
+    3. On the tram you get on at the front and at the back. Press the button on the door.
+
+
+    4. At the station the trains leave from the platform. Look at the timetable: the trains are punctual!
+
+
+    5. Do you like cycling? Then ride on the road or in the bike lane. You mustn't cycle on the pavement.
+
+swiss:
+  scene: >-
+    Sandra wants to meet a friend at Bellevue, a big tram stop by the lake. Reto explains how to get there.
+    Listen for Lueg emal!, the imperatives and muesch / dörfsch. Later her mother calls while she is on the
+    tram.
+  dialogue:
+    - speaker: Sandra
+      text: Reto, wie chum ich zum Bellevue?
+      en: Reto, how do I get to Bellevue?
+      variety: gsw-zh
+    - speaker: Reto
+      text: Lueg emal, det isch d Haltestell. Nimm s Tram Nummer vier.
+      en: Look, there's the stop. Take the number four tram.
+      variety: gsw-zh
+    - speaker: Sandra
+      text: Mues ich umstiige?
+      en: Do I have to change?
+      variety: gsw-zh
+    - speaker: Reto
+      text: Nei, du muesch nöd umstiige. Häsch es Billett?
+      en: No, you don't have to change. Have you got a ticket?
+      variety: gsw-zh
+    - speaker: Sandra
+      text: Nei, aber ich ha es Halbtax.
+      en: No, but I have a half-fare card.
+      variety: gsw-zh
+    - speaker: Reto
+      text: Dänn chaufsch es Billett am Automat. Oder nimm s Velo!
+      en: Then you buy a ticket at the machine. Or take the bike!
+      variety: gsw-zh
+    - speaker: Sandra
+      text: Mit em Velo? Wie fahr ich?
+      en: By bike? Which way do I go?
+      variety: gsw-zh
+    - speaker: Reto
+      text: Fahr grad us und dänn bi de Ampel rächts. Aber uf em Trottoir dörfsch nöd Velo fahre!
+      en: Ride straight on and then turn right at the lights. But you mustn't cycle on the pavement!
+      variety: gsw-zh
+    - speaker: Sandra
+      text: Klar. Ich nimm glaub lieber s Tram.
+      en: Sure. I think I'd rather take the tram.
+      variety: gsw-zh
+    - speaker: Mami
+      text: Sandra, wo bisch?
+      en: Sandra, where are you?
+      variety: gsw-be
+    - speaker: Sandra
+      text: Im Tram! I fahre i d Stadt.
+      en: On the tram! I'm going into town.
+      variety: gsw-be
+    - speaker: Mami
+      text: Pass uf, gäu!
+      en: Be careful, won't you!
+      variety: gsw-be
+    - speaker: Sandra
+      text: Jaja, Mami. Tschou!
+      en: Yes, yes, Mum. Bye!
+      variety: gsw-be
+  notes:
+    - >-
+      **Transport Helvetisms** (Swiss Standard German and dialect): **das Tram** (neuter in Switzerland, *die
+      Straßenbahn* in Germany), **das Velo** (*Fahrrad*), **das Billett** (*Fahrkarte*), **der Perron**
+      (*Bahnsteig*; Duden: der, also das), **das Trottoir** (*Bürgersteig*). Swiss speakers stress them on the first syllable:
+      *BIL-lett, PER-ron, TROT-toir*.
+    - >-
+      **Halbtax** and **GA**: most Swiss adults who use public transport have a *Halbtax* (half-fare card for
+      a yearly fee) – or a *GA* (*Generalabonnement*, a travelcard for the whole country). *Ich ha es Halbtax*
+      is a very common sentence at the ticket machine.
+    - >-
+      **Imperatives in Zurich German**: **Lueg emal!** (*Schau mal!*), **Nimm s Tram!** (*Nimm die
+      Straßenbahn!*), **Gang grad us!** (*Geh geradeaus!*), **Fahr links / rächts!** *grad us* = geradeaus,
+      *rächts* = rechts (ä for the open e).
+    - >-
+      **müese and dörfe**: *ich mues, du muesch, mir müend* (müssen); *ich dörf, du dörfsch, mir dörfed*
+      (dürfen; *darf* is also heard). The trap is the same as in Standard German: *du muesch nöd* = you don't
+      have to; *du dörfsch nöd* = you mustn't.
+    - >-
+      **Little words**: *det* = dort, *d Haltestell* = die Haltestelle, *mit em Velo* = mit dem Velo, *uf em
+      Trottoir* = auf dem Trottoir, *bi de Ampel* = bei der Ampel, *glaub* = glaube ich (I think).
+    - >-
+      **Bernese** (Sandra and her mother): **wo bisch?** = wo bist du?, **i fahre i d Stadt** = ich fahre in die
+      Stadt, **Pass uf!** = Pass auf! (imperative), **gäu** = nicht wahr? (Zurich *gäll*), **Tschou** = tschüss.

@@ -270,3 +270,40 @@ entries:
   - { de: Schönen Abend!, gswZh: En schöne Abig!, gswBe: E schöne Abe!, en: Have a nice evening!, pos: phrase, tags: [phrases, greetings] }
   - { de: Viele Grüße, gswZh: Liebi Grüess / En liebe Gruess, en: Best wishes (in messages), pos: phrase, tags: [phrases, writing] }
   - { de: "Wollen wir du sagen?", gswZh: "Wämmer Duzis mache?", en: "Shall we use du?", pos: phrase, notes: "Duzis mache = agree to use du.", tags: [phrases, politeness] }
+
+  # ----- free time, weather (A1 unit 7) -----
+  - { de: Freizeit, gswZh: Freiziit, en: free time, pos: noun, tags: [leisure] }
+  - { de: spielen, gswZh: "spile (ich spil, du spilsch, mir spiled)", en: to play, pos: verb, tags: [verbs, leisure] }
+  - { de: schwimmen, gswZh: schwümme, gswBe: "schwümme (participle gschwumme)", en: to swim, pos: verb, notes: "Badi = public open-air pool or lake bath. Bernese Aareschwumm = swimming down the river Aare (berndeutsch.ch).", tags: [verbs, leisure] }
+  - { de: wandern, gswZh: wandere, en: to hike, pos: verb, tags: [verbs, leisure] }
+  - { de: jassen, gswZh: jasse, chStd: jassen, en: to play Jass (Swiss card game), pos: verb, notes: "de Jass; the most common variant is the Schieber.", tags: [verbs, leisure, culture, helvetism] }
+  - { de: Fußball spielen, gswZh: Fuessball spile / tschutte (colloquial), en: to play football, pos: phrase, tags: [leisure, sport] }
+  - { de: Musik, gswZh: Musig, en: music, pos: noun, tags: [leisure] }
+  - { de: Berg, gswZh: Bärg, en: mountain, pos: noun, tags: [nature] }
+  - { de: Wetter, gswZh: Wätter, en: weather, pos: noun, tags: [weather] }
+  - { de: Sommer, gswZh: Summer, en: summer, pos: noun, notes: "o → u before m and n: Summer, Sunne, Sunntig.", tags: [weather, seasons] }
+  - { de: Sonne, gswZh: Sunne, en: sun, pos: noun, tags: [weather] }
+  - { de: Regen, gswZh: Räge, en: rain, pos: noun, notes: "es rägnet = es regnet; es schiffet = it's pouring (colloquial).", tags: [weather] }
+  - { de: manchmal, gswZh: mängisch, en: sometimes, pos: adv, tags: [time, frequency] }
+  - { de: am liebsten, gswZh: am liebschte, en: best of all, pos: phrase, tags: [preferences] }
+  - { de: "super!", gswZh: "mega! / lässig!", en: "great!", pos: other, notes: "mega is also an intensifier: mega guet = sehr gut. lässig = cool, great (vi.to glossary).", tags: [basics, register] }
+
+  # ----- getting around (A1 unit 8) -----
+  - { de: geradeaus, gswZh: grad us / graduus, en: straight on, pos: adv, tags: [place, directions] }
+  - { de: links, gswZh: links, gswBe: linggs, en: left, pos: adv, notes: "berndeutsch.ch: linggs.", tags: [place, directions] }
+  - { de: rechts, gswZh: rächts, en: right, pos: adv, tags: [place, directions] }
+  - { de: Haltestelle, gswZh: Haltestell, en: (tram / bus) stop, pos: noun, tags: [transport] }
+  - { de: umsteigen, gswZh: umstiige, en: to change (trains), pos: verb, notes: "Also iistiige (einsteigen), uusstiige (aussteigen).", tags: [verbs, transport, separable] }
+  - { de: Bahnsteig, gswZh: Perron, chStd: Perron / Gleis, en: platform, pos: noun, notes: "Swiss stress on the first syllable: PER-ron (Duden).", tags: [transport, helvetism] }
+  - { de: Halbtax, gswZh: Halbtax, chStd: Halbtax, en: half-fare travel card, pos: noun, notes: "s Halbtax; the GA (Generalabonnement) is the national travelcard.", tags: [transport, helvetism, culture] }
+  - { de: "Schau mal!", gswZh: "Lueg emal!", en: "Look!", pos: phrase, tags: [phrases] }
+  - { de: "Pass auf!", gswZh: "Pass uf!", en: "Be careful!", pos: phrase, tags: [phrases] }
+
+  # ----- appointments (A1 unit 9) -----
+  - { de: vorbeikommen, gswZh: "verbii cho (chunnsch verbii?)", en: to drop by, pos: verb, tags: [verbs, separable] }
+  - { de: mitbringen, gswZh: mitbringe, en: to bring along, pos: verb, notes: "Söll ich öppis mitbringe? = Soll ich etwas mitbringen?", tags: [verbs, separable] }
+  - { de: abgemacht, gswZh: abgmacht, en: "agreed, it's a deal", pos: other, tags: [phrases] }
+  - { de: Friseur, gswZh: Coiffeur, chStd: Coiffeur / Coiffeuse, en: hairdresser, pos: noun, tags: [helvetism] }
+  - { de: Terminkalender, gswZh: Agenda, chStd: Agenda, en: "diary, calendar", pos: noun, tags: [helvetism] }
+  - { de: Auf Wiederhören!, gswZh: Uf Widerlose! / Tschüss!, en: Goodbye! (on the phone), pos: phrase, tags: [phrases, phone] }
+  - { de: nächste Woche, gswZh: nächscht Wuche, en: next week, pos: phrase, tags: [time] }

@@ -1,0 +1,53 @@
+id: z-pf
+title: z [ts] and pf
+ipa: ["ts", "pf"]
+level: A1
+variety: de
+explanation: >-
+  **German z is always ts** [ts] – at the start, in the middle and at the end: *zehn, zwei, Zeit,
+  Zimmer, Zug, Zürich, Pizza*. Also **tz** (*jetzt, Platz, Katze*) and often **t in -tion**
+  (*Information* = *Informa-tsion*). English speakers say a buzzing [z], so *Zoll* (customs) sounds
+  like *soll* (should). Think of the end of English *cats* or *pizza*, and put it at the **start** of
+  the word.
+
+
+  **pf** is p and f together, at the same time: close your lips for p, then open them only a little so
+  the air hisses out as f, with your lower lip still near the upper teeth: *Apfel, Kopf, Pfeffer,
+  Topf, Pfund*. Don't drop the p (*Fund* is a find, *Pfund* is a pound) and don't drop the f (*Panne*
+  is a breakdown, *Pfanne* is a pan).
+tips:
+  - "Say *cats* slowly, then cut off the *ca*: *ts*. Now say *ts-ehn* → *zehn*."
+  - "For pf, say *p* with your lips and let it melt straight into *f*. The two sounds should take the time of one."
+  - "s at the start of a word before a vowel is [z] (*sieben*), but z is never [z]."
+pairs:
+  - [{ text: "Zahl", en: number }, { text: "Saal", en: hall }]
+  - [{ text: "Zoll", en: customs }, { text: "soll", en: should }]
+  - [{ text: "zieht", en: pulls }, { text: "sieht", en: sees }]
+  - [{ text: "Pfund", en: pound }, { text: "Fund", en: find }]
+  - [{ text: "Pflug", en: plough }, { text: "Flug", en: flight }]
+  - [{ text: "Pfanne", en: pan }, { text: "Panne", en: breakdown }]
+  - [{ text: "Pfad", en: path }, { text: "fad", en: bland }]
+words:
+  - { text: "zehn", en: ten }
+  - { text: "zwei", en: two }
+  - { text: "zwanzig", en: twenty }
+  - { text: "Zeit", en: time }
+  - { text: "Zimmer", en: room }
+  - { text: "Zug", en: train }
+  - { text: "Zürich", en: Zurich }
+  - { text: "jetzt", en: now }
+  - { text: "Katze", en: cat }
+  - { text: "Information", en: information }
+  - { text: "Apfel", en: apple }
+  - { text: "Kopf", en: head }
+  - { text: "Pfeffer", en: pepper }
+  - { text: "Topf", en: pot }
+sentences:
+  - { text: "Ich habe jetzt keine Zeit.", en: "I don't have time now." }
+  - { text: "Der Zug nach Zürich fährt um zehn.", en: The train to Zurich leaves at ten. }
+  - { text: "Zwei Äpfel, bitte.", en: "Two apples, please." }
+  - { text: "Salz und Pfeffer sind in der Küche.", en: Salt and pepper are in the kitchen. }
+commonMistakes:
+  - "*Zoo* with English z (buzzing): German z starts with a t – *tsoo*."
+  - "*Fund* for *Pfund* or *Ferd* for *Pferd*: keep the p."
+  - "*Apfel* with a separate p and f (*Ap-fel*): pf is one sound."

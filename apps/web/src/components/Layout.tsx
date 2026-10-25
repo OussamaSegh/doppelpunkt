@@ -19,6 +19,7 @@ const NAV: NavItem[] = [
 /** Shown in the desktop sidebar only; on phones the Learn screen links to it, so the tab bar stays at five. */
 const MORE: NavItem[] = [
   { to: '/grammar', label: 'Grammar', icon: 'M6 4h11a1 1 0 0 1 1 1v15H7a2 2 0 0 1-2-2V5a1 1 0 0 1 1-1zM5 18a2 2 0 0 1 2-2h11M9 8h5M9 11h4' },
+  { to: '/pronunciation', label: 'Pronunciation', icon: 'M12 3a3 3 0 0 0-3 3v6a3 3 0 0 0 6 0V6a3 3 0 0 0-3-3zM5 11a7 7 0 0 0 14 0M12 18v3M8 21h8' },
 ];
 
 const THEME_NEXT: Record<ThemePref, ThemePref> = { system: 'light', light: 'dark', dark: 'system' };

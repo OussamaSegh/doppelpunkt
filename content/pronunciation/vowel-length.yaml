@@ -1,0 +1,61 @@
+id: vowel-length
+title: Long and short vowels
+ipa: ["aː", "a", "eː", "ɛ", "iː", "ɪ", "oː", "ɔ", "uː", "ʊ"]
+level: A1
+variety: de
+explanation: >-
+  In German, vowel length changes meaning: *Staat* (state) – *Stadt* (city), *Miete* (rent) – *Mitte*
+  (middle), *Ofen* (oven) – *offen* (open). Long vowels are also **tense** (the mouth is tighter), short
+  vowels are **lax** and clipped.
+
+
+  **The spelling tells you the length:**
+
+  - **short** before a double consonant or two consonants: *Mann, Bett, kommen, Butter, Wasser*; before
+  *ck* and *tz*: *Zucker, jetzt*.
+
+  - **long** with a doubled vowel (*Tee, Boot, Staat*), with a silent **h** (*Bahn, Uhr, Sohn, wohnen*),
+  with **ie** (*Miete, viel*), and usually at the end of a syllable (*Ta-ge, le-sen*).
+
+
+  **The trap for English speakers:** English long vowels glide. *Tee* is not *tay*, *so* is not *sow*.
+  Hold German long e and o steady, like a note on a piano. And don't swallow short vowels into *uh*:
+  *Butter* has a clear short u.
+tips:
+  - "Clap the rhythm: long vowels take about twice as long as short ones – *Staaat* vs *Stat*."
+  - "For a long e or o, keep your jaw still until the sound stops. No glide."
+  - "A double consonant in the spelling is a signal: the vowel before it is short and the consonant is not said twice."
+pairs:
+  - [{ text: "Staat", en: state }, { text: "Stadt", en: city }]
+  - [{ text: "Miete", en: rent }, { text: "Mitte", en: middle }]
+  - [{ text: "Ofen", en: oven }, { text: "offen", en: open }]
+  - [{ text: "Beet", en: flower bed }, { text: "Bett", en: bed }]
+  - [{ text: "Hüte", en: hats }, { text: "Hütte", en: "hut, cabin" }]
+  - [{ text: "bieten", en: to offer }, { text: "bitten", en: to ask (for) }]
+  - [{ text: "fühlen", en: to feel }, { text: "füllen", en: to fill }]
+  - [{ text: "wen", en: whom }, { text: "wenn", en: "if, when" }]
+words:
+  - { text: "Tee", en: tea }
+  - { text: "Kaffee", en: coffee }
+  - { text: "Bahnhof", en: station }
+  - { text: "Zahl", en: number }
+  - { text: "Uhr", en: "clock, o'clock" }
+  - { text: "Sohn", en: son }
+  - { text: "viel", en: a lot }
+  - { text: "wohnen", en: to live (reside) }
+  - { text: "Stadt", en: city }
+  - { text: "Bett", en: bed }
+  - { text: "Mann", en: man }
+  - { text: "Butter", en: butter }
+  - { text: "Wasser", en: water }
+  - { text: "kommen", en: to come }
+sentences:
+  - { text: "Die Miete ist hoch, aber die Wohnung ist in der Mitte der Stadt.", en: "The rent is high, but the flat is in the middle of the city." }
+  - { text: "Mein Sohn trinkt Tee, mein Mann trinkt Kaffee.", en: "My son drinks tea, my husband drinks coffee." }
+  - { text: "Das Bett ist im Schlafzimmer.", en: The bed is in the bedroom. }
+  - { text: "Wir wohnen in der Stadt.", en: We live in the city. }
+commonMistakes:
+  - "*Stadt* said long (*Staat*): the dt makes the a short."
+  - "*Tee* said *tay*: keep the e pure, no glide to ee."
+  - "*Miete* said short (*Mitte*): ie is always long."
+  - "Double consonants said twice (*Wass-ser*): the double letter only marks the short vowel."

@@ -1,0 +1,51 @@
+id: glottal-stop
+title: The glottal stop (Knacklaut)
+ipa: ["ʔ"]
+level: A2
+variety: de
+explanation: >-
+  In German from Germany, a word or stem that starts with a **vowel** usually begins with a tiny catch
+  in the throat, the **glottal stop** [ʔ] or *Knacklaut*. You already make it in English *uh-oh*. It keeps
+  words apart: *am | Abend*, *ein | Ei*, *ich | esse*, and also inside words after a prefix:
+  *ver|abreden, be|antworten, Spiegel|ei*.
+
+
+  English does the opposite and links words: *an apple* sounds like *a napple*. If you link in German,
+  *am Abend* becomes *a-mabend*, which is understandable but sounds foreign, and the word boundary
+  disappears: *verreisen* (to go travelling) and *vereisen* (to ice over) differ only by the
+  glottal stop and the r.
+
+
+  The glottal stop is **soft** – not a cough. In fast speech it is often weaker, and in **Swiss Standard
+  German and Swiss dialects** it is usually absent: Swiss speakers link words (*e-rinnern* for
+  *er|innern*). Both are correct; this drill trains the Germany style, and helps you hear word
+  boundaries in Swiss speech.
+tips:
+  - "Say *uh-oh*: the little stop in the middle is the glottal stop. Put it before every vowel-initial word: *am ʔAbend*."
+  - "Keep it light. It is a short break in the voice, not a cough."
+  - "Practise with prefixes: ver | ab | re | den – the stop comes before the stem *ab-*."
+pairs:
+  - [{ text: "vereisen", en: to ice over }, { text: "verreisen", en: to go travelling }]
+  - [{ text: "Ihr Eis", en: your ice cream }, { text: "Ihr Reis", en: your rice }]
+words:
+  - { text: "am Abend", en: in the evening }
+  - { text: "um acht", en: at eight }
+  - { text: "ein Ei", en: an egg }
+  - { text: "ein Apfel", en: an apple }
+  - { text: "mein Onkel", en: my uncle }
+  - { text: "ich arbeite", en: I work }
+  - { text: "er isst", en: he eats }
+  - { text: "wir essen", en: we eat }
+  - { text: "die Uhr", en: the clock }
+  - { text: "verabreden", en: to arrange (to meet) }
+  - { text: "beantworten", en: to answer }
+  - { text: "Spiegelei", en: fried egg }
+sentences:
+  - { text: "Am Abend esse ich ein Ei.", en: In the evening I eat an egg. }
+  - { text: "Um acht Uhr arbeite ich.", en: "At eight o'clock I'm working." }
+  - { text: "Mein Onkel isst einen Apfel.", en: My uncle is eating an apple. }
+  - { text: "Am Abend gehen wir aus.", en: In the evening we go out. }
+commonMistakes:
+  - "*a-mabend* for *am Abend*: English-style linking. Make a light break before the vowel."
+  - "A hard cough before every vowel: it's a soft catch, almost a pause."
+  - "A glottal stop in the middle of a stem (*Theʔater*) or before every syllable: only before a word or stem that starts with a vowel."

@@ -1,0 +1,361 @@
+# A1 unit 9 – Termine und Verabredungen
+
+# ---------- appointments and plans ----------
+- id: termin
+  de: Termin
+  en: appointment
+  pos: noun
+  gender: m
+  plural: Termine
+  example: { de: "Ich habe am Dienstag einen Termin.", en: "I have an appointment on Tuesday." }
+  gswZh: Termin
+  tags: [appointments]
+
+- id: verabredung
+  de: Verabredung
+  en: date, arrangement to meet
+  pos: noun
+  gender: f
+  plural: Verabredungen
+  example: { de: "Ich habe heute Abend eine Verabredung.", en: "I'm meeting someone this evening." }
+  chStd: Verabredung / Abmachung
+  gswZh: Abmachig
+  tags: [appointments]
+
+- id: einladung
+  de: Einladung
+  en: invitation
+  pos: noun
+  gender: f
+  plural: Einladungen
+  example: { de: "Danke für die Einladung!", en: "Thanks for the invitation!" }
+  gswZh: Iiladig
+  tags: [appointments, invitations]
+
+- id: fest
+  de: Fest
+  en: party, celebration
+  pos: noun
+  gender: n
+  plural: Feste
+  example: { de: "Das Fest beginnt um vier.", en: "The party starts at four." }
+  gswZh: Fäscht (s Fäscht)
+  tags: [invitations]
+
+- id: geburtstag
+  de: Geburtstag
+  en: birthday
+  pos: noun
+  gender: m
+  plural: Geburtstage
+  example: { de: "Mein Geburtstag ist am vierten Juli.", en: "My birthday is on the fourth of July." }
+  gswZh: Geburtstag / Geburi (colloquial)
+  tags: [invitations, dates]
+
+- id: arzt
+  de: Arzt / Ärztin
+  en: doctor
+  pos: noun
+  gender: m
+  plural: Ärzte
+  example: { de: "Ich habe morgen einen Termin beim Arzt.", en: "I have a doctor's appointment tomorrow." }
+  gswZh: Dokter / Arzt
+  tags: [appointments, health]
+
+- id: praxis
+  de: Praxis
+  en: (doctor's) practice, surgery
+  pos: noun
+  gender: f
+  plural: Praxen
+  example: { de: "Die Praxis ist am Mittwoch zu.", en: "The practice is closed on Wednesday." }
+  gswZh: Praxis
+  tags: [appointments, health]
+
+- id: friseur
+  de: Friseur / Friseurin
+  en: hairdresser
+  pos: noun
+  gender: m
+  plural: Friseure
+  example: { de: "Am Freitag gehe ich zum Friseur.", en: "On Friday I'm going to the hairdresser's." }
+  chStd: Coiffeur / Coiffeuse
+  gswZh: Coiffeur
+  tags: [appointments, helvetism]
+
+- id: telefon
+  de: Telefon
+  en: telephone
+  pos: noun
+  gender: n
+  plural: Telefone
+  example: { de: "Das Telefon klingelt.", en: "The phone is ringing." }
+  gswZh: Telefon
+  tags: [phone]
+
+- id: handy
+  de: Handy
+  en: mobile phone
+  pos: noun
+  gender: n
+  plural: Handys
+  example: { de: "Hast du meine Handynummer?", en: "Have you got my mobile number?" }
+  chStd: Handy / Natel
+  gswZh: Handy / Natel (dated)
+  tags: [phone, helvetism]
+
+- id: datum
+  de: Datum
+  en: date (calendar)
+  pos: noun
+  gender: n
+  plural: Daten
+  example: { de: "Welches Datum ist heute?", en: "What's the date today?" }
+  gswZh: Datum
+  tags: [dates]
+
+# ---------- verbs ----------
+- id: anrufen
+  de: anrufen
+  en: to phone, to call
+  pos: verb
+  example: { de: "Ich rufe dich morgen an.", en: "I'll phone you tomorrow." }
+  gswZh: aalüüte / aalüte (ich lüüt dir aa)
+  gswBe: aalüte (participle aaglütet)
+  tags: [phone, separable]
+
+- id: zurueckrufen
+  de: zurückrufen
+  en: to call back
+  pos: verb
+  example: { de: "Kannst du mich später zurückrufen?", en: "Can you call me back later?" }
+  gswZh: zruggrüefe / zrugglüüte
+  tags: [phone, separable]
+
+- id: vorbeikommen
+  de: vorbeikommen
+  en: to drop by, to come round
+  pos: verb
+  example: { de: "Kommst du heute Abend vorbei?", en: "Are you coming round this evening?" }
+  gswZh: verbii cho (chunnsch verbii?)
+  tags: [appointments, separable]
+
+- id: absagen
+  de: absagen
+  en: to cancel
+  pos: verb
+  example: { de: "Ich muss den Termin leider absagen.", en: "Unfortunately I have to cancel the appointment." }
+  gswZh: absäge
+  tags: [appointments, separable]
+
+- id: verschieben
+  de: verschieben
+  en: to postpone, to move (an appointment)
+  pos: verb
+  example: { de: "Können wir den Termin verschieben?", en: "Can we move the appointment?" }
+  gswZh: verschiebe
+  tags: [appointments]
+
+- id: mitbringen
+  de: mitbringen
+  en: to bring (along)
+  pos: verb
+  example: { de: "Ich bringe einen Kuchen mit.", en: "I'll bring a cake." }
+  gswZh: mitbringe
+  tags: [invitations, separable]
+
+- id: einladen
+  de: einladen
+  en: to invite
+  pos: verb
+  example: { de: "Ich lade dich zum Essen ein.", en: "I'm inviting you for a meal." }
+  gswZh: iilade (er ladt ii)
+  tags: [invitations, separable, stem-change]
+
+- id: passen
+  de: passen
+  en: to suit, to be convenient
+  pos: verb
+  example: { de: "Passt dir Freitag? – Ja, das passt.", en: "Does Friday suit you? – Yes, that's fine." }
+  gswZh: passe (Das passt mer.)
+  tags: [appointments]
+
+- id: sollen
+  de: sollen
+  en: to be supposed to; shall (Soll ich ...?)
+  pos: verb
+  example: { de: "Soll ich etwas mitbringen?", en: "Shall I bring anything?" }
+  gswZh: sölle / söle (ich söll, du söllsch, mir sölled)
+  tags: [modal, verbs]
+
+# ---------- time words ----------
+- id: morgen
+  de: morgen
+  en: tomorrow
+  pos: adv
+  example: { de: "Morgen habe ich keine Zeit.", en: "I'm not free tomorrow." }
+  gswZh: morn (am Morge = in the morning)
+  gswBe: morn
+  tags: [time]
+
+- id: uebermorgen
+  de: übermorgen
+  en: the day after tomorrow
+  pos: adv
+  example: { de: "Übermorgen geht es.", en: "The day after tomorrow is fine." }
+  gswZh: übermorn
+  tags: [time]
+
+- id: naechste-woche
+  de: nächste Woche
+  en: next week
+  pos: phrase
+  example: { de: "Nächste Woche kann ich am Vormittag.", en: "Next week I can do mornings." }
+  gswZh: nächscht Wuche
+  tags: [time]
+
+- id: bald
+  de: bald
+  en: soon
+  pos: adv
+  example: { de: "Bis bald!", en: "See you soon!" }
+  gswZh: bald
+  gswBe: bau
+  tags: [time]
+
+- id: spaeter
+  de: später
+  en: later
+  pos: adv
+  example: { de: "Ich rufe dich später an.", en: "I'll call you later." }
+  gswZh: spöter
+  tags: [time]
+
+- id: auf-wiederhoeren
+  de: Auf Wiederhören!
+  en: Goodbye! (on the phone)
+  pos: phrase
+  example: { de: "Vielen Dank und auf Wiederhören!", en: "Thank you very much and goodbye!" }
+  gswZh: Uf Widerlose! / Tschüss!
+  tags: [phone, phrases]
+
+# ---------- months ----------
+- id: januar
+  de: Januar
+  en: January
+  pos: noun
+  gender: m
+  plural: Januare
+  example: { de: "Im Januar ist es kalt.", en: "It's cold in January." }
+  gswZh: Januar
+  tags: [months]
+
+- id: februar
+  de: Februar
+  en: February
+  pos: noun
+  gender: m
+  plural: Februare
+  example: { de: "Im Februar fahre ich Ski.", en: "In February I go skiing." }
+  gswZh: Februar
+  tags: [months]
+
+- id: maerz
+  de: März
+  en: March
+  pos: noun
+  gender: m
+  plural: Märze
+  example: { de: "Am dritten März habe ich Geburtstag.", en: "My birthday is on the third of March." }
+  gswZh: März
+  tags: [months]
+
+- id: april
+  de: April
+  en: April
+  pos: noun
+  gender: m
+  plural: Aprile
+  example: { de: "Im April regnet es oft.", en: "It often rains in April." }
+  gswZh: April
+  tags: [months]
+
+- id: mai
+  de: Mai
+  en: May
+  pos: noun
+  gender: m
+  plural: Maie
+  example: { de: "Der Termin ist am elften Mai.", en: "The appointment is on the eleventh of May." }
+  gswZh: Mai
+  tags: [months]
+
+- id: juni
+  de: Juni
+  en: June
+  pos: noun
+  gender: m
+  plural: Junis
+  example: { de: "Das Fest ist am 21. Juni.", en: "The party is on 21 June." }
+  gswZh: Juni
+  tags: [months]
+
+- id: juli
+  de: Juli
+  en: July
+  pos: noun
+  gender: m
+  plural: Julis
+  example: { de: "Im Juli schwimmen wir im See.", en: "In July we swim in the lake." }
+  gswZh: Juli
+  tags: [months]
+
+- id: august
+  de: August
+  en: August
+  pos: noun
+  gender: m
+  plural: Auguste
+  example: { de: "Der erste August ist der Schweizer Nationalfeiertag.", en: "The first of August is the Swiss national day." }
+  gswZh: Auguscht
+  tags: [months, culture]
+
+- id: september
+  de: September
+  en: September
+  pos: noun
+  gender: m
+  plural: September
+  example: { de: "Im September beginnt der Kurs.", en: "The course starts in September." }
+  gswZh: Septämber
+  tags: [months]
+
+- id: oktober
+  de: Oktober
+  en: October
+  pos: noun
+  gender: m
+  plural: Oktober
+  example: { de: "Im Oktober wandern wir gern.", en: "We like hiking in October." }
+  gswZh: Oktober
+  tags: [months]
+
+- id: november
+  de: November
+  en: November
+  pos: noun
+  gender: m
+  plural: November
+  example: { de: "Im November ist es oft kalt.", en: "It's often cold in November." }
+  gswZh: Novämber
+  tags: [months]
+
+- id: dezember
+  de: Dezember
+  en: December
+  pos: noun
+  gender: m
+  plural: Dezember
+  example: { de: "Am 31. Dezember machen wir ein Fest.", en: "On 31 December we're having a party." }
+  gswZh: Dezämber
+  tags: [months]

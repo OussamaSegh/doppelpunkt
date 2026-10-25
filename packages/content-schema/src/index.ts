@@ -228,3 +228,39 @@ export const PackIndex = z.object({
   packs: z.array(z.object({ level: Level, version: z.string(), file: z.string(), units: z.number().int() })),
 });
 export type PackIndex = z.infer<typeof PackIndex>;
+
+/**
+ * Pronunciation drill (content/pronunciation/<id>.yaml). One sound or contrast per drill:
+ * the learner hears and repeats minimal pairs, then words and a sentence, and the speaking
+ * grader compares the transcript with the target.
+ */
+export const PronunciationDrill = z.object({
+  id,
+  /** e.g. "ü vs u", "ich-Laut vs ach-Laut", "Swiss ch". */
+  title: z.string(),
+  /** IPA symbols involved, e.g. ["y", "u"]. */
+  ipa: z.array(z.string()).default([]),
+  level: Level.default('A1'),
+  variety: Variety.default('de'),
+  /** Markdown in English: how to make the sound, compared with English. */
+  explanation: z.string().min(1),
+  tips: z.array(z.string()).default([]),
+  /** Minimal pairs [a, b] with English glosses, e.g. [["Mütter", "mothers"], ["Mutter", "mother"]]. */
+  pairs: z.array(z.tuple([
+    z.object({ text: z.string(), en: z.string(), audio }),
+    z.object({ text: z.string(), en: z.string(), audio }),
+  ])).default([]),
+  words: z.array(z.object({ text: z.string(), en: z.string(), audio })).min(1),
+  sentences: z.array(z.object({ text: z.string(), en: z.string(), audio })).default([]),
+  /** Typical mistakes of English speakers, shown as feedback. */
+  commonMistakes: z.array(z.string()).default([]),
+});
+export type PronunciationDrill = z.infer<typeof PronunciationDrill>;
+
+/** Served at /packs/pronunciation.json. */
+export const PronunciationPack = z.object({
+  version: z.string(),
+  builtAt: z.string(),
+  drills: z.array(PronunciationDrill),
+});
+export type PronunciationPack = z.infer<typeof PronunciationPack>;

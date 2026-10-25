@@ -13,7 +13,8 @@ export async function recordAttempt(
     exerciseId: ex.id,
     unitId: unit.id,
     level: unit.level,
-    skill: ex.skill,
+    // Speaking items always count as speaking (so they feed the radar), whatever the item's tag.
+    skill: ex.type === 'speak' ? 'speaking' : ex.skill,
     variety: ex.variety,
     score: Math.max(0, Math.min(1, score)),
     grammar: ex.grammar,

@@ -1,0 +1,316 @@
+id: a1-u09
+level: A1
+number: 9
+title: Termine und Verabredungen
+titleEn: Appointments and plans
+goal: >-
+  By the end you can make, change and cancel an appointment, also on the phone, give and understand dates,
+  say what you are supposed to do with sollen, use separable verbs with and without modal verbs, and follow
+  a Zurich German phone call making plans.
+canDo:
+  - I can make, move and cancel an appointment on the phone (Ich muss den Termin leider absagen.).
+  - I can say and understand dates with ordinal numbers (am dritten Mai, der 1. August).
+  - I can use separable verbs, also with a modal verb (Ich rufe dich an. Kannst du morgen vorbeikommen?).
+  - I can use sollen for instructions and offers (Ich soll Wein mitbringen. Soll ich dich anrufen?).
+  - I can recognise Zurich phone phrases and time words (Häsch morn Ziit?, Ich lüüt dir aa, übermorn, abgmacht).
+
+review:
+  notes:
+    - "Phone greeting: the unit says Swiss people often answer with just their surname ('Marti.') or 'Praxis Dr. Huber, Graf'. Please confirm the description."
+    - "'Chunnsch bi mir verbii?' – verbii cho for vorbeikommen: spelling verbii / vorbii?"
+    - "'Söll ich öppis mitbringe?' – söll ich vs sött ich (would Zurich speakers prefer the conditional sött here)?"
+    - "'Guet, abgmacht! Ich lüüt dir morn no aa.' – natural? (aalüüte + dative dir is in the lexicon)."
+    - "'e Fläsche Wii' – Fläsche spelling (open e → ä)?"
+    - "Zurich months: Auguscht, Septämber, Novämber, Dezämber; the other months as in Standard German – please confirm, and whether Jänner is ever used in Zurich (I assume not)."
+    - "Zurich dates 'am vierte Juli', 'am erschte Auguscht' – ordinal endings in dialect?"
+    - "Bernese lines: 'Am vierte Juli het dr Ätti Geburtstag. Chunsch?', 'Klar, i chume!', 'Super. Lüt mer de aa, gäu!' – natural? (aalüte BD #17260, morn BD #19854, Zyt BD #18925)."
+    - "Phone goodbye in Zurich German: 'Uf Widerlose!' (from lose = to listen) – still common, or mostly 'Tschüss / Ade'?"
+    - "Swiss Standard 'die Agenda' (diary, calendar) and 'der Coiffeur' – both fine for A1 recognition?"
+    - "Vocabulary gswZh forms without a source (please tick or correct): Abmachig, Iiladig, Dokter, zruggrüefe / zrugglüüte, absäge, iilade (er ladt ii), nächscht Wuche, Uf Widerlose; Bernese bau (bald)."
+
+intro:
+  scene: >-
+    Monday morning. Tom has a doctor's appointment on Tuesday, but he has to work. He phones the practice.
+    The receptionist answers in Swiss Standard German.
+  dialogue:
+    - speaker: Frau Graf
+      text: Praxis Dr. Huber, Graf, guten Tag.
+      en: Dr Huber's practice, Graf speaking, good morning.
+      variety: ch-std
+    - speaker: Tom
+      text: Guten Tag, hier ist Tom Baker. Ich habe am Dienstag um neun einen Termin.
+      en: Hello, this is Tom Baker. I have an appointment on Tuesday at nine.
+    - speaker: Frau Graf
+      text: "Ja, Herr Baker, ich sehe es: Dienstag, der dritte Mai, um neun Uhr."
+      en: "Yes, Mr Baker, I can see it: Tuesday the third of May, at nine o'clock."
+      variety: ch-std
+    - speaker: Tom
+      text: Ich muss den Termin leider absagen. Ich muss am Dienstag arbeiten.
+      en: Unfortunately I have to cancel the appointment. I have to work on Tuesday.
+    - speaker: Frau Graf
+      text: Kein Problem. Möchten Sie einen neuen Termin? Wann haben Sie Zeit?
+      en: No problem. Would you like a new appointment? When are you free?
+      variety: ch-std
+    - speaker: Tom
+      text: Nächste Woche, am Vormittag.
+      en: Next week, in the morning.
+    - speaker: Frau Graf
+      text: Geht es am elften Mai um halb zehn? Das ist ein Mittwoch.
+      en: Is the eleventh of May at half past nine all right? That's a Wednesday.
+      variety: ch-std
+    - speaker: Tom
+      text: Am elften Mai? Ja, das passt. Soll ich etwas mitbringen?
+      en: The eleventh of May? Yes, that suits me. Should I bring anything?
+    - speaker: Frau Graf
+      text: Ja, bringen Sie bitte Ihre Krankenkassenkarte mit.
+      en: Yes, please bring your health insurance card.
+      variety: ch-std
+    - speaker: Tom
+      text: Gut, mache ich. Vielen Dank und auf Wiederhören!
+      en: Fine, I will. Thank you very much and goodbye!
+    - speaker: Frau Graf
+      text: Auf Wiederhören, Herr Baker!
+      en: Goodbye, Mr Baker!
+      variety: ch-std
+
+grammar:
+  - id: separable-verbs-modal
+    title: "Separable verbs II: anrufen, vorbeikommen, absagen – also with modal verbs"
+    body: >-
+      You know the pattern from unit 4: in a normal sentence the **prefix goes to the end**:
+      *Ich **rufe** dich morgen **an**. Lena **kommt** heute Abend **vorbei**. Wir **sagen** die Party **ab**.*
+
+
+      **With a modal verb** (können, wollen, müssen, dürfen, sollen, möchte) the separable verb is an
+      infinitive at the end – and then it is written as **one word** again: *Ich **muss** den Termin
+      **absagen**. **Kannst** du morgen **vorbeikommen**? Ich **möchte** dich **anrufen**.*
+
+
+      Separable prefixes are **stressed** (*AN-rufen, VOR-bei-kommen, AB-sagen, MIT-bringen*). Inseparable
+      prefixes (*be-, ver-, er-*) are not stressed and **never** split: *Ich **verschiebe** den Termin. Ich
+      **besuche** dich.*
+    tables:
+      - [["Verb", "Statement", "With a modal verb"],
+         ["anrufen (to phone)", "Ich rufe dich an.", "Ich will dich anrufen."],
+         ["vorbeikommen (to drop by)", "Kommst du vorbei?", "Kannst du vorbeikommen?"],
+         ["absagen (to cancel)", "Ich sage den Termin ab.", "Ich muss den Termin absagen."],
+         ["mitbringen (to bring along)", "Er bringt Wein mit.", "Er soll Wein mitbringen."],
+         ["verschieben (to postpone) – not separable", "Ich verschiebe den Termin.", "Ich möchte den Termin verschieben."]]
+    commonMistakes:
+      - "*Ich anrufe dich.* → **Ich rufe dich an.** The prefix goes to the end."
+      - "*Ich muss den Termin ab sagen.* / *Ich muss ab den Termin sagen.* → **Ich muss den Termin absagen.** With a modal, it's one word at the end."
+      - "*Ich schiebe den Termin ver.* → **Ich verschiebe den Termin.** ver- never splits."
+      - "*Ich rufe an dich.* → **Ich rufe dich an.** The object comes before the prefix."
+
+  - id: sollen
+    title: "sollen: supposed to – and Soll ich ...? (Shall I ...?)"
+    body: >-
+      **sollen** expresses an instruction or a wish **from someone else**: *Der Arzt sagt, ich **soll** viel
+      schlafen.* (The doctor says I'm supposed to sleep a lot.) *Du **sollst** Frau Graf anrufen.* (You're to
+      phone Frau Graf – she asked.)
+
+
+      In a question with **ich** or **wir**, it is an **offer** or asks for advice: ***Soll ich** dich
+      anrufen?* (Shall I phone you?) ***Sollen wir** am Freitag ins Kino gehen?* (Shall we go to the cinema
+      on Friday?)
+
+
+      **möchte** (unit 2) is your own polite wish: *Ich **möchte** einen Termin.* Compare: *Ich möchte Wein
+      mitbringen* (I'd like to) – *Ich soll Wein mitbringen* (I've been asked to).
+
+
+      sollen follows the modal pattern: *ich soll, er soll* (no ending), infinitive at the end.
+    tables:
+      - [["", "sollen", "möchte"],
+         ["ich", "soll", "möchte"],
+         ["du", "sollst", "möchtest"],
+         ["er / sie / es", "soll", "möchte"],
+         ["wir", "sollen", "möchten"],
+         ["ihr", "sollt", "möchtet"],
+         ["sie / Sie", "sollen", "möchten"]]
+    commonMistakes:
+      - "*I should* (my own idea, advice) is often *ich sollte* – that's A2. At A1, use **sollen** for instructions from others and **Soll ich ...?** for offers."
+      - "*Ich soll mitbringen Wein.* → **Ich soll Wein mitbringen.** Infinitive at the end."
+      - "*Er sollt* → **er soll.** No ending for er/sie/es."
+      - "*Shall I* is not *Schall ich*: it's **Soll ich ...?**"
+
+  - id: dates-ordinals
+    title: "Dates: der dritte Mai, am dritten Mai"
+    body: >-
+      German dates use **ordinal numbers**. Written with a full stop: *3. Mai* = *der dritte Mai*, *3.5.* =
+      the 3rd of May (day first, then month).
+
+
+      **Forming ordinals:** 1–19 add **-te**: *zweite, vierte, fünfte, zehnte, zwölfte*. Irregular: **erste,
+      dritte, siebte** (also *achte* with one t). From 20 add **-ste**: *zwanzigste, einundzwanzigste,
+      dreißigste*.
+
+
+      **Two key patterns:**
+
+      - **What's the date?** – *Der Wievielte ist heute?* / *Welches Datum ist heute?* → *Heute ist **der**
+      dritt**e** Mai.* (der + -e)
+
+      - **On a date** – ***am** dritt**en** Mai, **am** ersten August, **am** 21. Juni (einundzwanzigsten)*.
+      (am + -en)
+
+
+      Months are masculine: **im** Mai (in May), but **am** 3. Mai (on 3 May). In Switzerland, the national
+      day is *der 1. August* (*der erste August*).
+    tables:
+      - [["Date", "Heute ist ...", "Am ..."],
+         ["1.1.", "der erste Januar", "am ersten Januar"],
+         ["3.5.", "der dritte Mai", "am dritten Mai"],
+         ["7.7.", "der siebte Juli", "am siebten Juli"],
+         ["20.10.", "der zwanzigste Oktober", "am zwanzigsten Oktober"],
+         ["31.12.", "der einunddreißigste Dezember", "am einunddreißigsten Dezember"]]
+      - [["Months", "", "", ""],
+         ["Januar", "Februar", "März", "April"],
+         ["Mai", "Juni", "Juli", "August"],
+         ["September", "Oktober", "November", "Dezember"]]
+    commonMistakes:
+      - "*am drei Mai* → **am dritten Mai.** Dates need the ordinal."
+      - "*am dritte Mai* → **am dritten Mai.** After am the ending is -en."
+      - "*im dritten Mai* → **am dritten Mai.** im is for the month alone (im Mai)."
+      - "*5/3* for 3 May: Germans and Swiss write **3.5.** – day first."
+
+  - id: time-adverbs
+    title: "Time words: heute, morgen, übermorgen, nächste Woche"
+    body: >-
+      Useful time words for plans: **heute** (today), **morgen** (tomorrow), **übermorgen** (the day after
+      tomorrow), **gestern** (yesterday), **bald** (soon), **später** (later), **jetzt** (now), **nächste
+      Woche** (next week), **heute Abend** (this evening), **morgen früh** (tomorrow morning).
+
+
+      Careful: **morgen** (small m) = tomorrow; **der Morgen** = the morning (*am Morgen*). *morgen früh* =
+      tomorrow morning – not *morgen Morgen*.
+
+
+      Time words are often in **position 1**, then the verb follows and the subject comes third (unit 4):
+      ***Morgen** habe ich keine Zeit. **Nächste Woche** kann ich.*
+    tables:
+      - [["Yesterday", "Today", "Tomorrow", "The day after tomorrow"],
+         ["gestern", "heute", "morgen", "übermorgen"],
+         ["gestern Abend", "heute Abend", "morgen Abend", "übermorgen Abend"]]
+    commonMistakes:
+      - "*Morgen Morgen* → **morgen früh** (tomorrow morning)."
+      - "*Ich habe morgen keine Zeit* is fine; *Morgen ich habe keine Zeit* is not: **Morgen habe ich keine Zeit.**"
+      - "*nächstes Woche* → **nächste Woche** (die Woche). *nächsten Monat* / *nächstes Jahr* change with the gender."
+
+reading:
+  title: "Einladung zum Sommerfest"
+  text: >-
+    Liebe Nachbarinnen und Nachbarn
+
+
+    Am Samstag, 21. Juni, machen wir im Garten ein Sommerfest. Das Fest beginnt um 16 Uhr. Kommt vorbei, mit
+    Kindern und Freunden! Für Grill und Getränke sorgen wir. Ihr sollt nichts kaufen, aber ihr könnt gern
+    einen Salat oder einen Kuchen mitbringen.
+
+
+    Bitte sagt bis zum 14. Juni Bescheid: Ruft uns an (079 123 45 67) oder schreibt eine Nachricht. Und wenn
+    es regnet? Dann verschieben wir das Fest auf Sonntag, 22. Juni.
+
+
+    Wir freuen uns!
+
+    Familie Huber, 3. Stock
+  en: >-
+    Dear neighbours
+
+
+    On Saturday, 21 June, we are having a summer party in the garden. The party starts at 4 p.m. Drop by, with
+    children and friends! We'll take care of the barbecue and drinks. You don't need to buy anything, but
+    you're welcome to bring a salad or a cake.
+
+
+    Please let us know by 14 June: phone us (079 123 45 67) or send a message. And if it rains? Then we'll
+    move the party to Sunday, 22 June.
+
+
+    We look forward to seeing you!
+
+    The Huber family, 3rd floor
+
+swiss:
+  scene: >-
+    Sandra's phone rings. It's Reto – he wants to invite her for dinner. Listen for morn, übermorn, Ziit and
+    aalüüte. Afterwards Sandra's mother calls from Bern about a birthday.
+  dialogue:
+    - speaker: Sandra
+      text: Marti.
+      en: Marti (Sandra answers with her surname).
+      variety: gsw-zh
+    - speaker: Reto
+      text: Hoi Sandra, da isch de Reto. Häsch morn Ziit?
+      en: Hi Sandra, it's Reto. Are you free tomorrow?
+      variety: gsw-zh
+    - speaker: Sandra
+      text: Morn? Nei, morn chan ich nöd, ich mues schaffe.
+      en: Tomorrow? No, I can't tomorrow, I have to work.
+      variety: gsw-zh
+    - speaker: Reto
+      text: Und übermorn?
+      en: And the day after tomorrow?
+      variety: gsw-zh
+    - speaker: Sandra
+      text: Übermorn gaht s. Wänn?
+      en: The day after tomorrow is fine. When?
+      variety: gsw-zh
+    - speaker: Reto
+      text: Am sibni? Chunnsch bi mir verbii? Ich choche.
+      en: At seven? Will you drop by at my place? I'm cooking.
+      variety: gsw-zh
+    - speaker: Sandra
+      text: Gärn! Söll ich öppis mitbringe?
+      en: I'd love to! Shall I bring anything?
+      variety: gsw-zh
+    - speaker: Reto
+      text: Nei, nüt. Oder doch – e Fläsche Wii!
+      en: No, nothing. Or actually – a bottle of wine!
+      variety: gsw-zh
+    - speaker: Sandra
+      text: Guet, abgmacht! Ich lüüt dir morn no aa.
+      en: Good, it's a deal! I'll give you a call tomorrow.
+      variety: gsw-zh
+    - speaker: Reto
+      text: Super. Tschüss, bis übermorn!
+      en: Great. Bye, see you the day after tomorrow!
+      variety: gsw-zh
+    - speaker: Mami
+      text: Sandra, am vierte Juli het dr Ätti Geburtstag. Chunsch?
+      en: Sandra, Dad's birthday is on the fourth of July. Are you coming?
+      variety: gsw-be
+    - speaker: Sandra
+      text: Klar, i chume!
+      en: Of course I'm coming!
+      variety: gsw-be
+    - speaker: Mami
+      text: Super. Lüt mer de aa, gäu!
+      en: Great. Give me a call then, won't you!
+      variety: gsw-be
+  notes:
+    - >-
+      **On the phone**: many Swiss people answer with just their **surname** (*Marti.*), and businesses with
+      the company and the surname (*Praxis Dr. Huber, Graf*). Say your name first when you call: *Grüezi, da
+      isch ... / Guten Tag, hier ist ...*. On the phone, *Auf Wiedersehen* becomes **Auf Wiederhören**
+      (dialect *Uf Widerlose* is also heard).
+    - >-
+      **aalüüte** = anrufen: *Ich lüüt dir aa.* Notice the **dative** *dir* – Standard German says *Ich rufe
+      dich an* (accusative). Also *telefoniere*. The mobile phone is *s Handy*; older people still say *s
+      Natel* (originally a Swiss brand name).
+    - >-
+      **Time words**: *hüt* (heute), **morn** (morgen), **übermorn** (übermorgen), *geschter* (gestern), *spöter*
+      (später), *nächscht Wuche* (nächste Woche). Careful: *morn* = tomorrow, but *am Morge* = in the morning.
+    - >-
+      **Making plans**: *Häsch Ziit?* (Hast du Zeit?), *Wänn?* (Wann?), *Gaht s?* / *Gaht s bi dir?* (Geht es? –
+      Does it suit you?), *Chunnsch verbii?* (Kommst du vorbei?), *Söll ich öppis mitbringe?* (Soll ich etwas
+      mitbringen?), **abgmacht** (agreed, it's a deal).
+    - >-
+      **Months and dates** are close to Standard German: *im Mai, im Juli*, but *Auguscht, Septämber,
+      Novämber, Dezämber* (st → scht, e → ä). Dates: *am vierte Juli, am erschte Auguscht* – the 1 August is
+      the Swiss national day.
+    - >-
+      **Bernese** (Sandra's mother): **het** = hat (Zurich *hät*), **dr Ätti** = der Vater (Papa), **chunsch?** =
+      kommst du?, **i chume** = ich komme, **Lüt mer de aa!** = Ruf mich dann an! (aalüte, as in Zurich). *gäu*
+      = nicht wahr?

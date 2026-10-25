@@ -17,6 +17,10 @@ Key to each unit: **Goal** (communicative can-do), **Grammar**, **Vocabulary** (
 **Swiss lane** (dialect and Helvetism focus). Grammar is cumulative: each unit revises the previous
 unit's points in its exercises.
 
+**Pronunciation** runs alongside the units as separate drills (`content/pronunciation/`), with at
+least five `speak` items per unit from A1.7 on (read-aloud, shadowing of dialogue lines, intonation,
+drill practice). The pronunciation syllabus per level is in [PRONUNCIATION.md](PRONUNCIATION.md).
+
 ---
 
 ## A1 – Ankommen (arriving)
@@ -63,23 +67,26 @@ Swiss-lane dialogue, usually Sandra (from Bern) talking to her family. Learners 
 - **Vocabulary:** rooms, furniture, household appliances, the building, rent (Miete, Nebenkosten).
 - **Swiss lane:** Wohnig, Chuchi, Stube, Stäge; the shared *Waschküche* and its rules; Güsel / Güselsack; the Swiss "3½-Zimmer-Wohnung" (ch-std room counting).
 
-### A1.7 Freizeit und Hobbys – *Free time and hobbies*
-- **Goal:** talk about hobbies and preferences, and say what you can and want to do.
-- **Grammar:** *gern / lieber / am liebsten*; modal verbs *können, wollen* (sentence bracket); verb + *gern*.
-- **Vocabulary:** hobbies, sports, music, seasons, basic weather.
-- **Swiss lane:** *chöne* (*ich chan*), *wele* (*ich wott, mir wänd*); *mega*; schwümme, wandere, Ski fahre, jasse (the Swiss card game Jass); *gärn*.
+### A1.7 Freizeit und Hobbys – *Free time and hobbies* ✅ written
+- **Goal:** talk about hobbies and preferences, say what you can and want to do, and talk about the seasons and the weather.
+- **Grammar:** *gern / lieber / am liebsten* (verb + *gern*; *Ich mag* + noun as a chunk); modal verbs *können, wollen* and the sentence bracket (*Ich kann nicht Ski fahren*); *ich will* ≠ *I will*; weather with *es* (*es regnet, es ist kalt*) and *im Sommer*.
+- **Vocabulary:** hobbies, sports, music, the cinema, seasons, basic weather, frequency (*oft, manchmal, nie*).
+- **Swiss lane:** *chöne* (*ich chan, du chasch, mir chönd*), *wele* (*ich wott, du wottsch, mir wänd*); *mega*, *gärn*, *gar nöd*; schwümme, wandere, Ski fahre, jasse (the Swiss card game Jass), *is Kino*, *gömmer*; the Badi; *Summer, Sunne, Wätter*. Bernese: *mir wei, i cha, mir chöi*, swimming in the Aare. Helvetisms: Velo fahren, Badi, grillieren, der Match.
+- **Pronunciation:** ü (*Frühling*), ich-/ach-Laut, w/v; yes/no question intonation; shadowing of the intro dialogue.
 
-### A1.8 Unterwegs in der Stadt – *Getting around town*
+### A1.8 Unterwegs in der Stadt – *Getting around town* ✅ written
 - **Goal:** ask for and understand directions, use public transport, and buy a ticket.
-- **Grammar:** imperative (*du, ihr, Sie*); modal verbs *müssen, dürfen*; *mit dem Bus / mit dem Tram* as a chunk; ordinal numbers for directions (*die zweite Straße*).
-- **Vocabulary:** places in town, transport, directions, tickets and timetables.
-- **Swiss lane:** es Tram, Velo, Billett, Trottoir, Perron (ch-std for Bahnsteig), Halbtax, GA; *Lueg emal!*; *grad us* (straight on), *links / rächts*.
+- **Grammar:** imperative (*Sie, du, ihr*; *Nimm!*, *Fahr!*, separable *Steig aus!*); modal verbs *müssen, dürfen* (*nicht müssen* = don't have to vs *nicht dürfen* = mustn't; *man darf*); *mit dem Bus / mit dem Tram*, *zum / zur*, *zu Fuß* as chunks; ordinal numbers for directions (*die zweite Straße, an der dritten Haltestelle*).
+- **Vocabulary:** places in town, transport, directions, tickets and timetables, *einsteigen / aussteigen / umsteigen*.
+- **Swiss lane:** es Tram, Velo, Billett, Trottoir, Perron (ch-std for Bahnsteig), Halbtax, GA; *Lueg emal!*, *Nimm s Tram!*, *grad us* (straight on), *links / rächts*; *du muesch nöd* vs *du dörfsch nöd*. The intro dialogue's passer-by speaks Swiss Standard German (ch-std lines). Bernese: *Pass uf, gäu!*, *linggs*, *ds Tram*.
+- **Pronunciation:** z = ts, st/sp = scht/schp, compound stress (*BAHN-hof*); shadowing a Swiss Standard speaker.
 
-### A1.9 Termine und Verabredungen – *Appointments and plans*
+### A1.9 Termine und Verabredungen – *Appointments and plans* ✅ written
 - **Goal:** make, change and cancel an appointment, also on the phone, and give the date.
-- **Grammar:** separable verbs II (*anrufen, vorbeikommen, absagen*); *möchte, sollen*; dates with ordinal numbers (*am dritten Mai*); time adverbs.
-- **Vocabulary:** months, dates, the phone, the doctor's and hairdresser's appointment, invitations.
-- **Swiss lane:** *aalüüte* (*Ich lüüt dir aa*); *Wänn häsch Ziit?*; *morn, übermorn*; the phone greeting with your surname; Natel/Handy.
+- **Grammar:** separable verbs II (*anrufen, vorbeikommen, absagen, mitbringen*), also with modal verbs (*Ich muss den Termin absagen*); inseparable *verschieben*; *sollen* (instructions from others, *Soll ich ...?* offers) vs *möchte*; dates with ordinal numbers (*der dritte Mai, am dritten Mai*); time adverbs (*morgen, übermorgen, nächste Woche, morgen früh*).
+- **Vocabulary:** months, dates, the phone (*Auf Wiederhören*), the doctor's and hairdresser's appointment, invitations.
+- **Swiss lane:** *aalüüte* (*Ich lüüt dir aa* – dative); *Häsch morn Ziit?*; *morn, übermorn*; *verbii cho*, *Söll ich öppis mitbringe?*, *abgmacht*; the phone greeting with your surname; Natel/Handy, Coiffeur, Agenda; months (*Auguscht, Septämber*), 1 August. Bernese: *het, dr Ätti, Lüt mer aa!*
+- **Pronunciation:** stress of separable vs inseparable prefixes (*AN-rufen* vs *ver-SCHIE-ben*), dates aloud; shadowing a Swiss Standard receptionist.
 
 ### A1.10 Kleidung und Wetter – *Clothes and weather*
 - **Goal:** buy clothes, talk about size, colour and price, and describe the weather.

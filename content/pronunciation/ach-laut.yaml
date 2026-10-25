@@ -1,0 +1,57 @@
+id: ach-laut
+title: The ach-Laut (back ch)
+ipa: ["x", "χ"]
+level: A1
+variety: de
+explanation: >-
+  After **a, o, u** and **au**, German ch is the **ach-Laut** [x]: *acht, Nacht, doch, Woche, Buch,
+  Kuchen, auch, Bauch*. Scottish English has it in *loch*; Spanish *j* (*José*) is similar.
+
+
+  **How to make it:** say *k* and notice where the back of your tongue touches the soft palate. Now
+  don't let it touch – leave a narrow gap and push air through it, a steady rasp. If it rattles a
+  little further back in the throat, that's fine too ([χ]).
+
+
+  The two ch sounds swap when the vowel changes. Listen to singular and plural: *Buch* (ach-Laut) –
+  *Bücher* (ich-Laut), *Nacht* – *Nächte*, *Tochter* – *Töchter*. The vowel **before** ch decides.
+
+
+  **The trap:** English speakers say *k*. *Nacht* (night) then becomes *nackt* (naked)!
+tips:
+  - "Start from *k*, then open a tiny gap and let the air rasp through."
+  - "Gargle lightly without water – the same place, but no voice."
+  - "Look at the vowel before ch: a, o, u, au → ach-Laut; everything else → ich-Laut."
+pairs:
+  - [{ text: "Buch", en: book }, { text: "Bücher", en: books }]
+  - [{ text: "Nacht", en: night }, { text: "Nächte", en: nights }]
+  - [{ text: "Tochter", en: daughter }, { text: "Töchter", en: daughters }]
+  - [{ text: "Koch", en: cook }, { text: "Köche", en: cooks }]
+  - [{ text: "Dach", en: roof }, { text: "Dächer", en: roofs }]
+  - [{ text: "Bach", en: stream }, { text: "Bäche", en: streams }]
+  - [{ text: "Nacht", en: night }, { text: "nackt", en: naked }]
+  - [{ text: "lachen", en: to laugh }, { text: "Laken", en: (bed) sheet }]
+words:
+  - { text: "acht", en: eight }
+  - { text: "auch", en: also }
+  - { text: "doch", en: yes (contradicting) }
+  - { text: "noch", en: "still, yet" }
+  - { text: "Buch", en: book }
+  - { text: "Kuchen", en: cake }
+  - { text: "Woche", en: week }
+  - { text: "Nacht", en: night }
+  - { text: "kochen", en: to cook }
+  - { text: "machen", en: "to make, to do" }
+  - { text: "lachen", en: to laugh }
+  - { text: "Bauch", en: belly }
+  - { text: "Sprache", en: language }
+  - { text: "Tochter", en: daughter }
+sentences:
+  - { text: "Ich lese auch noch ein Buch.", en: "I'm also reading a book." }
+  - { text: "Meine Tochter kocht heute.", en: "My daughter is cooking today." }
+  - { text: "Gute Nacht! Bis nächste Woche.", en: "Good night! See you next week." }
+  - { text: "Was machst du am Wochenende?", en: "What are you doing at the weekend?" }
+commonMistakes:
+  - "*Nackt* for *Nacht*: the tongue closed completely. Leave a gap and let the air flow."
+  - "A weak *h* (*Nah-t*): the rasp is too soft. Push more air through a narrower gap."
+  - "The soft ich-Laut after a, o, u (*Buch* like *Büch*): after back vowels the ch moves back too."

@@ -213,9 +213,11 @@ describe('speak', () => {
   it('compares a transcript word by word', () => {
     expect(grade(s, 'ich hätte gern einen kaffee bitte')).toMatchObject({ correct: true, score: 1 });
     const r = grade(s, 'ich hatte gern einen kaffee');
-    expect(r.score).toBeCloseTo(4 / 6);
+    // 4 words right, "hatte" for "hätte" earns half credit (ä sound), "bitte" is missing.
+    expect(r.score).toBeCloseTo(4.5 / 6);
     expect(r.correct).toBe(false);
     expect(r.feedback[0]).toMatch(/“hätte”/);
+    expect(r.hints?.map((h) => h.id)).toEqual(['ae']);
   });
   it('passes at 80 % recognised words', () => {
     expect(grade(s, 'ich hätte gern einen kaffee').correct).toBe(true);

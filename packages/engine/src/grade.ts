@@ -2,6 +2,7 @@
 import type { Exercise, Variety } from '@doppelpunkt/content-schema';
 import { diffTokens, lcsPairs, lcsRatio, type DiffToken } from './diff';
 import { gswFold, levenshtein, sentenceKey, tokenize, wordKey, type Token } from './normalize';
+import { gradeSpeech, type PronunciationHint } from './speech';
 
 export type { DiffToken } from './diff';
 
@@ -18,6 +19,8 @@ export type GradeResult = {
   parts?: boolean[];
   /** true when the deterministic grader cannot judge this answer (write, roleplay, unknown translation). */
   needsAi?: boolean;
+  /** Speaking: pronunciation issues typical for English speakers, with the affected words. */
+  hints?: PronunciationHint[];
 };
 
 /** mcq: option index · gap: string[] (one per gap; a string is accepted for single-gap items) ·
@@ -28,8 +31,7 @@ export type Answer = number | string | string[] | Array<[string, string]>;
 export const CASE_SCORE = 0.5;
 /** Score given for a near miss (edit distance ≤ 1 per word; an adjacent swap counts as 1). */
 export const ALMOST_SCORE = 0.7;
-/** Minimum share of recognised words for a speaking item to count as correct. */
-export const SPEAK_PASS = 0.8;
+export { SPEAK_PASS } from './speech';
 
 const isGsw = (v: Variety) => v === 'gsw-zh' || v === 'gsw-be';
 
@@ -366,19 +368,7 @@ function gradeSentence(
 }
 
 function gradeSpeak(ex: Of<'speak'>, answer: Answer): GradeResult {
-  const actual = asString(answer);
-  const exp = wordTokens(ex.target, ex.variety, true);
-  const act = wordTokens(actual, ex.variety, true);
-  const diff = diffTokens(exp, act);
-  const matched = diff.filter((d) => d.kind === 'same').length;
-  const score = exp.length ? matched / exp.length : 0;
-  const correct = score >= SPEAK_PASS;
-  const missed = diff.filter((d) => d.kind === 'missing' || d.kind === 'wrong').map((d) => quote(d.expected ?? d.text));
-  const feedback: string[] = [];
-  if (!actual.trim()) feedback.push('We did not hear anything. Check your microphone and try again.');
-  else if (missed.length === 0) feedback.push('Every word was recognised.');
-  else feedback.push(`${correct ? 'Good! ' : ''}Practise these words again: ${missed.slice(0, 5).join(', ')}.`);
-  return { correct, score, feedback, expected: ex.target, diff };
+  return gradeSpeech(ex.target, asString(answer), { variety: ex.variety });
 }
 
 /** true for exercise types that can only be judged by AI (or a self-check); with a result, also for unknown translations. */

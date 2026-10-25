@@ -1,5 +1,5 @@
 {
-  "name": "@doppelpunkt/relay", "version": "0.2.0", "private": true, "type": "module",
+  "name": "@doppelpunkt/relay", "version": "0.3.0", "private": true, "type": "module",
   "main": "src/index.ts", "scripts": { "typecheck": "tsc --noEmit -p ." },
   "devDependencies": { "@cloudflare/workers-types": "^4.20250601.0" }
 }

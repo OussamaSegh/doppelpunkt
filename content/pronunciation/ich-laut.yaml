@@ -1,0 +1,61 @@
+id: ich-laut
+title: The ich-Laut (soft ch)
+ipa: ["ç"]
+level: A1
+variety: de
+explanation: >-
+  German **ch** has two sounds. This drill is the soft one, the **ich-Laut** [ç]. It comes after
+  **i, e, ä, ö, ü, ei, eu, äu**, after **l, n, r**, in the diminutive **-chen**, and (in Germany) in the
+  ending **-ig**: *ich, nicht, sprechen, Küche, leicht, euch, Milch, München, durch, Mädchen, zwanzig*.
+
+
+  **How to make it:** say the *h* at the start of English *huge* or *hue* and stretch it: *hhhuge*. That
+  hiss is the ich-Laut. Another way: say *yes* and whisper the *y* hard, without voice. The middle of
+  the tongue is close to the hard palate, the tip rests behind the lower teeth, and the lips are
+  **not** rounded.
+
+
+  It is **not** *sh* (lips rounded, tongue tip up: *misch* means "mix!") and **not** *k* (a full stop
+  of the air: *Teig*, dough). The air never stops.
+
+
+  In southern Germany, Austria and Switzerland **-ig** is said with a [k]-like sound: *zwanzig* =
+  *zwanzik*. That is also correct Standard German. Swiss speakers often use the back ach-Laut
+  everywhere – see the drills on Swiss ch and on the Swiss Standard accent.
+tips:
+  - "Start from *huge*: hold the first sound – that is the ich-Laut."
+  - "Smile slightly. If your lips round, it turns into *sh*."
+  - "*ich* rhymes with nothing in English. Don't say *ish* or *ick*; say *i* + whispered *y*."
+pairs:
+  - [{ text: "mich", en: me }, { text: "misch", en: "mix!" }]
+  - [{ text: "Kirche", en: church }, { text: "Kirsche", en: cherry }]
+  - [{ text: "Teich", en: pond }, { text: "Teig", en: dough }]
+  - [{ text: "Fichte", en: spruce }, { text: "fischte", en: fished }]
+  - [{ text: "Bücher", en: books }, { text: "Büsche", en: bushes }]
+  - [{ text: "Gerücht", en: rumour }, { text: "gerückt", en: moved (a little) }]
+words:
+  - { text: "ich", en: I }
+  - { text: "nicht", en: not }
+  - { text: "mich", en: me }
+  - { text: "Milch", en: milk }
+  - { text: "Küche", en: kitchen }
+  - { text: "Mädchen", en: girl }
+  - { text: "Brötchen", en: bread roll }
+  - { text: "sprechen", en: to speak }
+  - { text: "leicht", en: "easy, light" }
+  - { text: "euch", en: you (plural) }
+  - { text: "München", en: Munich }
+  - { text: "Kirche", en: church }
+  - { text: "richtig", en: correct }
+  - { text: "zwanzig", en: twenty }
+  - { text: "möchte", en: would like }
+sentences:
+  - { text: "Ich spreche nicht viel Deutsch.", en: "I don't speak much German." }
+  - { text: "Ich möchte bitte ein Brötchen und Milch.", en: "I'd like a roll and milk, please." }
+  - { text: "Ist das richtig?", en: "Is that right?" }
+  - { text: "Das Mädchen ist zwölf.", en: The girl is twelve. }
+commonMistakes:
+  - "*ish* for *ich*: the lips rounded and the tongue tip rose. Keep the lips spread, tip down."
+  - "*ick* for *ich*: the air stopped. Keep it flowing like a hiss."
+  - "The harsh ach-Laut after i or e (*ich* with a throat sound): this sounds Swiss. In Germany it's the soft hiss."
+  - "*Mädchen* with English *ch* as in *church*: -chen is always the soft hiss."

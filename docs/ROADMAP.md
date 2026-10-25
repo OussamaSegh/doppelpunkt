@@ -70,16 +70,20 @@ TTS-less), native-speaker review of content still pending, no accounts.
 
 **Goal:** speaking practice that works on every phone.
 
-- Recording with waveform, playback next to native audio
-- Speech recognition: Web Speech API where available, provider transcription (OpenAI, Gemini) as fallback
-- Pronunciation drills: ü/ö, ich-/ach-Laut, r, final devoicing, vowel length; Swiss "ch" and "gg"
-- Shadowing mode with adjustable speed (0.75×–1.25×)
-- Speaking scores feed the skill radar
-- Content: A1 units 7–9
+- [x] Recording with waveform, playback next to native audio, mic-permission help per platform
+- [x] Speech recognition: Web Speech API where available, provider transcription (OpenAI, Gemini) as fallback, self-rating last
+- [x] Pronunciation drills (16): ü/ö, ich-/ach-Laut, r, final devoicing, vowel length, w/v/f, z/pf, stress; Swiss "ch", "gg", vowels
+- [x] Shadowing mode with adjustable speed (0.75×–1.25×), line by line on dialogues
+- [x] Speaking scores feed the skill radar (including the Swiss band)
+- [x] Content: A1 units 7–9
+- [ ] Manual device pass on iOS Safari / Android Chrome (checklist in `docs/QA.md`)
 
 **Exit:** speaking exercises usable on iOS Safari, Android Chrome and desktop; recognition fallback tested.
 
 ## v0.4 "A1 komplett"
+
+Carried over from v0.3: speech grading should flag umlaut-less number words (funf → fünf);
+log transcription cost in the cost meter.
 
 - A1 units 10–12, all A1 audio recorded and reviewed
 - A1 mock exam (original items in Goethe/telc/ÖSD format: Hören, Lesen, Schreiben, Sprechen), timed, with solutions

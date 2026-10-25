@@ -6,8 +6,9 @@ import { tokenize, type NormalizeOptions, type Token } from './normalize';
  * - missing: an expected word the learner left out; `text` is the expected word
  * - extra:   a word the learner added; `text` is the learner's word
  * - wrong:   the learner wrote `text` where `expected` was due
+ * `hint` (speaking only): the pronunciation issue that explains a `wrong` word (see gradeSpeech).
  */
-export type DiffToken = { text: string; kind: 'same' | 'missing' | 'extra' | 'wrong'; expected?: string };
+export type DiffToken = { text: string; kind: 'same' | 'missing' | 'extra' | 'wrong'; expected?: string; hint?: string };
 
 /** Longest-common-subsequence alignment over token keys. Returns index pairs. */
 export function lcsPairs(a: string[], b: string[]): Array<[number, number]> {

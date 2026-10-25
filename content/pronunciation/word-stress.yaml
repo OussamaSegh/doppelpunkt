@@ -1,0 +1,63 @@
+id: word-stress
+title: Word stress in compounds and verbs
+ipa: ["ˈ"]
+level: A1
+variety: de
+explanation: >-
+  German stress is mostly predictable. Stressed syllables are louder, longer and higher; unstressed
+  ones are short, and *e* in them becomes a quick schwa (*ha-ben*).
+
+
+  1. **Native words: first syllable.** *AR-bei-ten, KAU-fen, MUT-ter, SCHWEI-zer.*
+
+  2. **Compounds: the first part.** The first word carries the main stress, the rest is weaker:
+  *BAHN-hof, KÜHL-schrank, WOHN-zim-mer, FRÜH-stück, HAUS-tür, GE-burts-tag.* English often does the same
+  (*BUS stop*), but German compounds can be long – keep the stress at the front.
+
+  3. **Separable prefixes are stressed** (*AUF-ste-hen, AN-ru-fen, EIN-kau-fen*);
+  **inseparable prefixes** (*be-, ver-, er-, ge-, ent-, zer-*) are **never** stressed: *ver-STE-hen,
+  be-KOM-men, ver-KAU-fen, ge-HÖ-ren*.
+
+  4. **Loanwords** often stress the last syllable: *Bü-RO, Ca-FÉ, Mu-SIK, Stu-DENT, In-for-ma-TION,
+  Ho-TEL*. Watch *Kaffee* (in Germany *KAF-fee*) vs *Café* (*ca-FÉ*), and *Musik* (*mu-SIK*) vs *Musiker*
+  (*MU-si-ker*).
+
+
+  Swiss speakers tend to put the stress on the first syllable even in French loanwords
+  (*BÜ-ro, BIL-lett*) – see the drill on the Swiss Standard accent.
+tips:
+  - "Tap the table on the stressed syllable while you say the word."
+  - "In compounds, say the first part loud and the rest quietly: *KÜHL-schrank*, not *kühl-SCHRANK*."
+  - "Separable = stressed and can move (*Ich stehe AUF*); inseparable = unstressed and stays (*Ich verSTEHE*)."
+pairs:
+  - [{ text: "aufstehen", en: "to get up (AUF-stehen)" }, { text: "verstehen", en: "to understand (ver-STEH-en)" }]
+  - [{ text: "ankommen", en: "to arrive (AN-kommen)" }, { text: "bekommen", en: "to get (be-KOMM-en)" }]
+  - [{ text: "einkaufen", en: "to shop (EIN-kaufen)" }, { text: "verkaufen", en: "to sell (ver-KAUF-en)" }]
+  - [{ text: "aufhören", en: "to stop (AUF-hören)" }, { text: "gehören", en: "to belong (ge-HÖR-en)" }]
+  - [{ text: "Kaffee", en: "coffee (KAF-fee in Germany)" }, { text: "Café", en: "café (ca-FÉ)" }]
+  - [{ text: "Musik", en: "music (mu-SIK)" }, { text: "Musiker", en: "musician (MU-siker)" }]
+words:
+  - { text: "Bahnhof", en: "station (BAHN-hof)" }
+  - { text: "Kühlschrank", en: "fridge (KÜHL-schrank)" }
+  - { text: "Wohnzimmer", en: "living room (WOHN-zimmer)" }
+  - { text: "Frühstück", en: "breakfast (FRÜH-stück)" }
+  - { text: "Haustür", en: "front door (HAUS-tür)" }
+  - { text: "Geburtstag", en: "birthday (ge-BURTS-tag)" }
+  - { text: "Wochenende", en: "weekend (WO-chen-ende)" }
+  - { text: "Büro", en: "office (bü-RO)" }
+  - { text: "Hotel", en: "hotel (ho-TEL)" }
+  - { text: "Information", en: "information (in-for-ma-TION)" }
+  - { text: "anrufen", en: "to phone (AN-rufen)" }
+  - { text: "besuchen", en: "to visit (be-SU-chen)" }
+  - { text: "Arbeit", en: "work (AR-beit)" }
+  - { text: "Supermarkt", en: "supermarket (SU-per-markt)" }
+sentences:
+  - { text: "Der Bahnhof ist neben dem Supermarkt.", en: The station is next to the supermarket. }
+  - { text: "Ich stehe um sieben auf und rufe dann meine Mutter an.", en: I get up at seven and then phone my mother. }
+  - { text: "Verstehen Sie mich?", en: "Do you understand me?" }
+  - { text: "Am Wochenende besuche ich meine Familie.", en: At the weekend I visit my family. }
+commonMistakes:
+  - "*kühl-SCHRANK*: the stress on the last part of a compound sounds foreign. Stress the first part."
+  - "*VER-stehen*: inseparable prefixes are never stressed."
+  - "*auf-STE-hen*: separable prefixes always are."
+  - "*GE-burtstag*: ge- here is an unstressed prefix; the stress is on *-burts-*."

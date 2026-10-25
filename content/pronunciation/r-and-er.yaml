@@ -1,0 +1,65 @@
+id: r-and-er
+title: German r and the vocalised -er
+ipa: ["ʁ", "r", "ɐ", "ɐ̯"]
+level: A1
+variety: de
+explanation: >-
+  German has two kinds of r, depending on where it stands.
+
+
+  **1. Consonant r** – at the start of a word or syllable, and after a consonant: *rot, Reis, Rechnung,
+  drei, Frau, Brot, groß*. Most speakers in Germany use a **uvular r** [ʁ]: the back of the tongue rises
+  towards the uvula (the little thing hanging at the back of your mouth) and the air makes a soft rasp
+  – like the ach-Laut, but with voice, or a very gentle gargle. A **rolled tip r** [r] (Bavaria, Austria,
+  Switzerland) is also correct Standard German. Only the English r – the tongue tip curled back – sounds
+  foreign.
+
+
+  **2. Vocalised r** – after a vowel at the end of a syllable the r turns into a vowel. The ending **-er**
+  becomes [ɐ], a short, relaxed *uh* like the *a* in English *sofa* or British *butter*: *Vater, Mutter,
+  Lehrer, aber, Zimmer*. After a long vowel, r becomes a light glide [ɐ̯]: *Uhr* (*oo-uh*), *vier*
+  (*fee-uh*), *Bier, hier, mehr*.
+
+
+  Good news for British speakers: non-rhotic English already does this – German *Butter* sounds almost
+  like British *butter*. American speakers: drop the r colour in *-er*.
+tips:
+  - "Say *ach*, then add voice: that is close to the uvular r. Keep it soft – it is not a strong gargle."
+  - "For -er, open your mouth a little and relax: *Va-tuh*, not *Va-ter* with a hard r and not *Va-tah* with a big a."
+  - "Never curl the tongue tip back (English *red*). If you can't do the uvular r yet, a tapped tip r is fine."
+  - "Listen to -e vs -er: *bitte* ends in a schwa (like *a* in *about*), *bitter* in the more open [ɐ]."
+pairs:
+  - [{ text: "bitte", en: please }, { text: "bitter", en: bitter }]
+  - [{ text: "gute", en: good (e.g. die gute Idee) }, { text: "guter", en: good (e.g. ein guter Tag) }]
+  - [{ text: "diese", en: this (feminine) }, { text: "dieser", en: this (masculine) }]
+  - [{ text: "eine", en: a (feminine) }, { text: "einer", en: one (masculine) }]
+  - [{ text: "Lehre", en: apprenticeship }, { text: "Lehrer", en: teacher }]
+  - [{ text: "Rand", en: edge }, { text: "Land", en: country }]
+  - [{ text: "Reise", en: journey }, { text: "leise", en: quiet }]
+  - [{ text: "rot", en: red }, { text: "Lot", en: plumb line }]
+words:
+  - { text: "rot", en: red }
+  - { text: "Reis", en: rice }
+  - { text: "Rechnung", en: bill }
+  - { text: "drei", en: three }
+  - { text: "Frau", en: woman }
+  - { text: "Brot", en: bread }
+  - { text: "groß", en: big }
+  - { text: "richtig", en: correct }
+  - { text: "Uhr", en: clock }
+  - { text: "vier", en: four }
+  - { text: "hier", en: here }
+  - { text: "Vater", en: father }
+  - { text: "Mutter", en: mother }
+  - { text: "Lehrer", en: teacher }
+  - { text: "aber", en: but }
+sentences:
+  - { text: "Die Rechnung, bitte!", en: "The bill, please!" }
+  - { text: "Mein Bruder ist Lehrer.", en: My brother is a teacher. }
+  - { text: "Um vier Uhr bin ich hier.", en: "I'll be here at four o'clock." }
+  - { text: "Meine Mutter und mein Vater wohnen in Bremen.", en: My mother and my father live in Bremen. }
+commonMistakes:
+  - "English r (tongue tip curled back) in *rot* or *drei*: move the r to the back of the mouth, or tap the tip once."
+  - "A hard r at the end (*Vaterrr*, *vierrr*): after a vowel the r becomes a vowel."
+  - "*Vatah* with a big open a: -er is a short, relaxed *uh*."
+  - "Dropping the r after a consonant (*Fau* for *Frau*, *dei* for *drei*): here it is a consonant."

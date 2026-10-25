@@ -52,6 +52,22 @@ What gets an entry:
 | Speaking model | `ex-<exercise id>.mp3` | `target` | `exercises[i].audio` |
 | Listening stimulus | `ex-<exercise id>.mp3` | the quoted text in the prompt | `exercises[i].audio` |
 
+Pronunciation drills (`content/pronunciation/<id>.yaml`) share one manifest and script,
+`content/pronunciation/audio-manifest.json` and `audio-script.md`, in drill-id order:
+
+| Kind | File name | Text | YAML field filled by `audio:link` |
+| --- | --- | --- | --- |
+| Minimal pair word | `pron-<id>-pair-NN-a.mp3`, `pron-<id>-pair-NN-b.mp3` | `pairs[i][0/1].text` | `pairs[i][0/1].audio` |
+| Drill word | `pron-<id>-word-NN.mp3` | `words[i].text` | `words[i].audio` |
+| Drill sentence | `pron-<id>-sentence-NN.mp3` | `sentences[i].text` | `sentences[i].audio` |
+
+Both words of a pair use the same voice (so only the sound changes); pairs, words and sentences
+alternate voices, picked from the drill's `variety`. Processed files go to
+`content/pronunciation/<id>/audio/`; the YAML path is `audio/<file>` (relative to
+`content/pronunciation/<id>/`), and `content:build` copies them to
+`apps/web/public/packs/audio/pronunciation/<id>/audio/`. For `audio:process`, drill files have
+unique names, so a flat folder works; `--unit pronunciation/<id>` also works.
+
 Listening items whose prompt says "Listen to the intro dialogue" reuse the dialogue recordings and get
 no entry of their own. Roleplays are generated live and are not recorded.
 

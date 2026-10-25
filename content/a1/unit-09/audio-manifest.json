@@ -1,0 +1,2807 @@
+{
+  "unitId": "a1-u09",
+  "level": "A1",
+  "folder": "a1/unit-09",
+  "title": "Termine und Verabredungen",
+  "delivery": {
+    "raw": "WAV or FLAC, 48 kHz, 24-bit, mono, one file per entry, named <file base>.wav",
+    "processed": [
+      "mp3 64 kbps mono 44.1 kHz",
+      "opus 32 kbps mono 48 kHz",
+      "EBU R128 -16 LUFS, true peak -1.5 dBTP"
+    ]
+  },
+  "entries": [
+    {
+      "file": "dialog-intro-01.mp3",
+      "kind": "dialogue-intro",
+      "text": "Praxis Dr. Huber, Graf, guten Tag.",
+      "en": "Dr Huber's practice, Graf speaking, good morning.",
+      "variety": "ch-std",
+      "voice": "zh-f",
+      "speaker": "Frau Graf",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          0,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-01.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-02.mp3",
+      "kind": "dialogue-intro",
+      "text": "Guten Tag, hier ist Tom Baker. Ich habe am Dienstag um neun einen Termin.",
+      "en": "Hello, this is Tom Baker. I have an appointment on Tuesday at nine.",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          1,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-02.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-03.mp3",
+      "kind": "dialogue-intro",
+      "text": "Ja, Herr Baker, ich sehe es: Dienstag, der dritte Mai, um neun Uhr.",
+      "en": "Yes, Mr Baker, I can see it: Tuesday the third of May, at nine o'clock.",
+      "variety": "ch-std",
+      "voice": "zh-f",
+      "speaker": "Frau Graf",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          2,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-03.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-04.mp3",
+      "kind": "dialogue-intro",
+      "text": "Ich muss den Termin leider absagen. Ich muss am Dienstag arbeiten.",
+      "en": "Unfortunately I have to cancel the appointment. I have to work on Tuesday.",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          3,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-04.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-05.mp3",
+      "kind": "dialogue-intro",
+      "text": "Kein Problem. Möchten Sie einen neuen Termin? Wann haben Sie Zeit?",
+      "en": "No problem. Would you like a new appointment? When are you free?",
+      "variety": "ch-std",
+      "voice": "zh-f",
+      "speaker": "Frau Graf",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          4,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-05.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-06.mp3",
+      "kind": "dialogue-intro",
+      "text": "Nächste Woche, am Vormittag.",
+      "en": "Next week, in the morning.",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          5,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-06.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-07.mp3",
+      "kind": "dialogue-intro",
+      "text": "Geht es am elften Mai um halb zehn? Das ist ein Mittwoch.",
+      "en": "Is the eleventh of May at half past nine all right? That's a Wednesday.",
+      "variety": "ch-std",
+      "voice": "zh-f",
+      "speaker": "Frau Graf",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          6,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-07.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-08.mp3",
+      "kind": "dialogue-intro",
+      "text": "Am elften Mai? Ja, das passt. Soll ich etwas mitbringen?",
+      "en": "The eleventh of May? Yes, that suits me. Should I bring anything?",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          7,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-08.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-09.mp3",
+      "kind": "dialogue-intro",
+      "text": "Ja, bringen Sie bitte Ihre Krankenkassenkarte mit.",
+      "en": "Yes, please bring your health insurance card.",
+      "variety": "ch-std",
+      "voice": "zh-f",
+      "speaker": "Frau Graf",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          8,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-09.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-10.mp3",
+      "kind": "dialogue-intro",
+      "text": "Gut, mache ich. Vielen Dank und auf Wiederhören!",
+      "en": "Fine, I will. Thank you very much and goodbye!",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          9,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-10.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-11.mp3",
+      "kind": "dialogue-intro",
+      "text": "Auf Wiederhören, Herr Baker!",
+      "en": "Goodbye, Mr Baker!",
+      "variety": "ch-std",
+      "voice": "zh-f",
+      "speaker": "Frau Graf",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          10,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-11.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-01.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Marti.",
+      "en": "Marti (Sandra answers with her surname).",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          0,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-01.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-02.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Hoi Sandra, da isch de Reto. Häsch morn Ziit?",
+      "en": "Hi Sandra, it's Reto. Are you free tomorrow?",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          1,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-02.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-03.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Morn? Nei, morn chan ich nöd, ich mues schaffe.",
+      "en": "Tomorrow? No, I can't tomorrow, I have to work.",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          2,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-03.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-04.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Und übermorn?",
+      "en": "And the day after tomorrow?",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          3,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-04.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-05.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Übermorn gaht s. Wänn?",
+      "en": "The day after tomorrow is fine. When?",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          4,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-05.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-06.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Am sibni? Chunnsch bi mir verbii? Ich choche.",
+      "en": "At seven? Will you drop by at my place? I'm cooking.",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          5,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-06.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-07.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Gärn! Söll ich öppis mitbringe?",
+      "en": "I'd love to! Shall I bring anything?",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          6,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-07.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-08.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Nei, nüt. Oder doch – e Fläsche Wii!",
+      "en": "No, nothing. Or actually – a bottle of wine!",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          7,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-08.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-09.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Guet, abgmacht! Ich lüüt dir morn no aa.",
+      "en": "Good, it's a deal! I'll give you a call tomorrow.",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          8,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-09.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-10.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Super. Tschüss, bis übermorn!",
+      "en": "Great. Bye, see you the day after tomorrow!",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          9,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-10.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-11.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Sandra, am vierte Juli het dr Ätti Geburtstag. Chunsch?",
+      "en": "Sandra, Dad's birthday is on the fourth of July. Are you coming?",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "speaker": "Mami",
+      "voiceGuessed": true,
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          10,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-11.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-12.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Klar, i chume!",
+      "en": "Of course I'm coming!",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          11,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-12.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-13.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Super. Lüt mer de aa, gäu!",
+      "en": "Great. Give me a call then, won't you!",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "speaker": "Mami",
+      "voiceGuessed": true,
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          12,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-13.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-termin.mp3",
+      "kind": "vocab",
+      "text": "Termin",
+      "en": "appointment",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "termin",
+        "pointer": [
+          0,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-termin.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-termin-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich habe am Dienstag einen Termin.",
+      "en": "I have an appointment on Tuesday.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "termin",
+        "pointer": [
+          0,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-termin-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-termin-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Termin",
+      "en": "appointment",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "termin",
+        "pointer": [
+          0,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-termin-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-verabredung.mp3",
+      "kind": "vocab",
+      "text": "Verabredung",
+      "en": "date, arrangement to meet",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "verabredung",
+        "pointer": [
+          1,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-verabredung.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-verabredung-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich habe heute Abend eine Verabredung.",
+      "en": "I'm meeting someone this evening.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "verabredung",
+        "pointer": [
+          1,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-verabredung-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-verabredung-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Abmachig",
+      "en": "date, arrangement to meet",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "verabredung",
+        "pointer": [
+          1,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-verabredung-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-einladung.mp3",
+      "kind": "vocab",
+      "text": "Einladung",
+      "en": "invitation",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "einladung",
+        "pointer": [
+          2,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-einladung.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-einladung-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Danke für die Einladung!",
+      "en": "Thanks for the invitation!",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "einladung",
+        "pointer": [
+          2,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-einladung-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-einladung-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Iiladig",
+      "en": "invitation",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "einladung",
+        "pointer": [
+          2,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-einladung-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-fest.mp3",
+      "kind": "vocab",
+      "text": "Fest",
+      "en": "party, celebration",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "fest",
+        "pointer": [
+          3,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-fest.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-fest-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Das Fest beginnt um vier.",
+      "en": "The party starts at four.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "fest",
+        "pointer": [
+          3,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-fest-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-fest-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Fäscht",
+      "note": "s Fäscht",
+      "en": "party, celebration",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "fest",
+        "pointer": [
+          3,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-fest-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-geburtstag.mp3",
+      "kind": "vocab",
+      "text": "Geburtstag",
+      "en": "birthday",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "geburtstag",
+        "pointer": [
+          4,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-geburtstag.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-geburtstag-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Mein Geburtstag ist am vierten Juli.",
+      "en": "My birthday is on the fourth of July.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "geburtstag",
+        "pointer": [
+          4,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-geburtstag-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-geburtstag-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Geburtstag / Geburi",
+      "note": "colloquial",
+      "en": "birthday",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "geburtstag",
+        "pointer": [
+          4,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-geburtstag-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-arzt.mp3",
+      "kind": "vocab",
+      "text": "Arzt / Ärztin",
+      "en": "doctor",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "arzt",
+        "pointer": [
+          5,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-arzt.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-arzt-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich habe morgen einen Termin beim Arzt.",
+      "en": "I have a doctor's appointment tomorrow.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "arzt",
+        "pointer": [
+          5,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-arzt-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-arzt-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Dokter / Arzt",
+      "en": "doctor",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "arzt",
+        "pointer": [
+          5,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-arzt-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-praxis.mp3",
+      "kind": "vocab",
+      "text": "Praxis",
+      "en": "(doctor's) practice, surgery",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "praxis",
+        "pointer": [
+          6,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-praxis.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-praxis-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Die Praxis ist am Mittwoch zu.",
+      "en": "The practice is closed on Wednesday.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "praxis",
+        "pointer": [
+          6,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-praxis-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-praxis-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Praxis",
+      "en": "(doctor's) practice, surgery",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "praxis",
+        "pointer": [
+          6,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-praxis-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-friseur.mp3",
+      "kind": "vocab",
+      "text": "Friseur / Friseurin",
+      "en": "hairdresser",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "friseur",
+        "pointer": [
+          7,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-friseur.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-friseur-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Am Freitag gehe ich zum Friseur.",
+      "en": "On Friday I'm going to the hairdresser's.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "friseur",
+        "pointer": [
+          7,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-friseur-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-friseur-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Coiffeur",
+      "en": "hairdresser",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "friseur",
+        "pointer": [
+          7,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-friseur-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-telefon.mp3",
+      "kind": "vocab",
+      "text": "Telefon",
+      "en": "telephone",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "telefon",
+        "pointer": [
+          8,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-telefon.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-telefon-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Das Telefon klingelt.",
+      "en": "The phone is ringing.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "telefon",
+        "pointer": [
+          8,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-telefon-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-telefon-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Telefon",
+      "en": "telephone",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "telefon",
+        "pointer": [
+          8,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-telefon-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-handy.mp3",
+      "kind": "vocab",
+      "text": "Handy",
+      "en": "mobile phone",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "handy",
+        "pointer": [
+          9,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-handy.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-handy-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Hast du meine Handynummer?",
+      "en": "Have you got my mobile number?",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "handy",
+        "pointer": [
+          9,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-handy-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-handy-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Handy / Natel",
+      "note": "dated",
+      "en": "mobile phone",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "handy",
+        "pointer": [
+          9,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-handy-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-datum.mp3",
+      "kind": "vocab",
+      "text": "Datum",
+      "en": "date (calendar)",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "datum",
+        "pointer": [
+          10,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-datum.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-datum-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Welches Datum ist heute?",
+      "en": "What's the date today?",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "datum",
+        "pointer": [
+          10,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-datum-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-datum-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Datum",
+      "en": "date (calendar)",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "datum",
+        "pointer": [
+          10,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-datum-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-anrufen.mp3",
+      "kind": "vocab",
+      "text": "anrufen",
+      "en": "to phone, to call",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "anrufen",
+        "pointer": [
+          11,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-anrufen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-anrufen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich rufe dich morgen an.",
+      "en": "I'll phone you tomorrow.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "anrufen",
+        "pointer": [
+          11,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-anrufen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-anrufen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "aalüüte / aalüte",
+      "note": "ich lüüt dir aa",
+      "en": "to phone, to call",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "anrufen",
+        "pointer": [
+          11,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-anrufen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-anrufen-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "aalüte",
+      "note": "participle aaglütet",
+      "en": "to phone, to call",
+      "variety": "gsw-be",
+      "voice": "be-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "anrufen",
+        "pointer": [
+          11,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-anrufen-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-zurueckrufen.mp3",
+      "kind": "vocab",
+      "text": "zurückrufen",
+      "en": "to call back",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "zurueckrufen",
+        "pointer": [
+          12,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-zurueckrufen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-zurueckrufen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Kannst du mich später zurückrufen?",
+      "en": "Can you call me back later?",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "zurueckrufen",
+        "pointer": [
+          12,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-zurueckrufen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-zurueckrufen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "zruggrüefe / zrugglüüte",
+      "en": "to call back",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "zurueckrufen",
+        "pointer": [
+          12,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-zurueckrufen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-vorbeikommen.mp3",
+      "kind": "vocab",
+      "text": "vorbeikommen",
+      "en": "to drop by, to come round",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "vorbeikommen",
+        "pointer": [
+          13,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-vorbeikommen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-vorbeikommen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Kommst du heute Abend vorbei?",
+      "en": "Are you coming round this evening?",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "vorbeikommen",
+        "pointer": [
+          13,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-vorbeikommen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-vorbeikommen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "verbii cho",
+      "note": "chunnsch verbii?",
+      "en": "to drop by, to come round",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "vorbeikommen",
+        "pointer": [
+          13,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-vorbeikommen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-absagen.mp3",
+      "kind": "vocab",
+      "text": "absagen",
+      "en": "to cancel",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "absagen",
+        "pointer": [
+          14,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-absagen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-absagen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich muss den Termin leider absagen.",
+      "en": "Unfortunately I have to cancel the appointment.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "absagen",
+        "pointer": [
+          14,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-absagen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-absagen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "absäge",
+      "en": "to cancel",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "absagen",
+        "pointer": [
+          14,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-absagen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-verschieben.mp3",
+      "kind": "vocab",
+      "text": "verschieben",
+      "en": "to postpone, to move (an appointment)",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "verschieben",
+        "pointer": [
+          15,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-verschieben.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-verschieben-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Können wir den Termin verschieben?",
+      "en": "Can we move the appointment?",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "verschieben",
+        "pointer": [
+          15,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-verschieben-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-verschieben-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "verschiebe",
+      "en": "to postpone, to move (an appointment)",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "verschieben",
+        "pointer": [
+          15,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-verschieben-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-mitbringen.mp3",
+      "kind": "vocab",
+      "text": "mitbringen",
+      "en": "to bring (along)",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "mitbringen",
+        "pointer": [
+          16,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-mitbringen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-mitbringen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich bringe einen Kuchen mit.",
+      "en": "I'll bring a cake.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "mitbringen",
+        "pointer": [
+          16,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-mitbringen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-mitbringen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "mitbringe",
+      "en": "to bring (along)",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "mitbringen",
+        "pointer": [
+          16,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-mitbringen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-einladen.mp3",
+      "kind": "vocab",
+      "text": "einladen",
+      "en": "to invite",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "einladen",
+        "pointer": [
+          17,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-einladen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-einladen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich lade dich zum Essen ein.",
+      "en": "I'm inviting you for a meal.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "einladen",
+        "pointer": [
+          17,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-einladen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-einladen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "iilade",
+      "note": "er ladt ii",
+      "en": "to invite",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "einladen",
+        "pointer": [
+          17,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-einladen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-passen.mp3",
+      "kind": "vocab",
+      "text": "passen",
+      "en": "to suit, to be convenient",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "passen",
+        "pointer": [
+          18,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-passen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-passen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Passt dir Freitag? – Ja, das passt.",
+      "en": "Does Friday suit you? – Yes, that's fine.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "passen",
+        "pointer": [
+          18,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-passen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-passen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "passe",
+      "note": "Das passt mer.",
+      "en": "to suit, to be convenient",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "passen",
+        "pointer": [
+          18,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-passen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sollen.mp3",
+      "kind": "vocab",
+      "text": "sollen",
+      "en": "to be supposed to; shall (Soll ich ...?)",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sollen",
+        "pointer": [
+          19,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-sollen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sollen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Soll ich etwas mitbringen?",
+      "en": "Shall I bring anything?",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sollen",
+        "pointer": [
+          19,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-sollen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sollen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "sölle / söle",
+      "note": "ich söll, du söllsch, mir sölled",
+      "en": "to be supposed to; shall (Soll ich ...?)",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sollen",
+        "pointer": [
+          19,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-sollen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-morgen.mp3",
+      "kind": "vocab",
+      "text": "morgen",
+      "en": "tomorrow",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "morgen",
+        "pointer": [
+          20,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-morgen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-morgen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Morgen habe ich keine Zeit.",
+      "en": "I'm not free tomorrow.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "morgen",
+        "pointer": [
+          20,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-morgen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-morgen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "morn",
+      "note": "am Morge = in the morning",
+      "en": "tomorrow",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "morgen",
+        "pointer": [
+          20,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-morgen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-morgen-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "morn",
+      "en": "tomorrow",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "morgen",
+        "pointer": [
+          20,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-morgen-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-uebermorgen.mp3",
+      "kind": "vocab",
+      "text": "übermorgen",
+      "en": "the day after tomorrow",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "uebermorgen",
+        "pointer": [
+          21,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-uebermorgen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-uebermorgen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Übermorgen geht es.",
+      "en": "The day after tomorrow is fine.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "uebermorgen",
+        "pointer": [
+          21,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-uebermorgen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-uebermorgen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "übermorn",
+      "en": "the day after tomorrow",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "uebermorgen",
+        "pointer": [
+          21,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-uebermorgen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-naechste-woche.mp3",
+      "kind": "vocab",
+      "text": "nächste Woche",
+      "en": "next week",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "naechste-woche",
+        "pointer": [
+          22,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-naechste-woche.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-naechste-woche-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Nächste Woche kann ich am Vormittag.",
+      "en": "Next week I can do mornings.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "naechste-woche",
+        "pointer": [
+          22,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-naechste-woche-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-naechste-woche-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "nächscht Wuche",
+      "en": "next week",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "naechste-woche",
+        "pointer": [
+          22,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-naechste-woche-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-bald.mp3",
+      "kind": "vocab",
+      "text": "bald",
+      "en": "soon",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "bald",
+        "pointer": [
+          23,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-bald.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-bald-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Bis bald!",
+      "en": "See you soon!",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "bald",
+        "pointer": [
+          23,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-bald-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-bald-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "bald",
+      "en": "soon",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "bald",
+        "pointer": [
+          23,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-bald-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-bald-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "bau",
+      "en": "soon",
+      "variety": "gsw-be",
+      "voice": "be-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "bald",
+        "pointer": [
+          23,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-bald-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-spaeter.mp3",
+      "kind": "vocab",
+      "text": "später",
+      "en": "later",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "spaeter",
+        "pointer": [
+          24,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-spaeter.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-spaeter-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich rufe dich später an.",
+      "en": "I'll call you later.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "spaeter",
+        "pointer": [
+          24,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-spaeter-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-spaeter-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "spöter",
+      "en": "later",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "spaeter",
+        "pointer": [
+          24,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-spaeter-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-auf-wiederhoeren.mp3",
+      "kind": "vocab",
+      "text": "Auf Wiederhören!",
+      "en": "Goodbye! (on the phone)",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "auf-wiederhoeren",
+        "pointer": [
+          25,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-auf-wiederhoeren.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-auf-wiederhoeren-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Vielen Dank und auf Wiederhören!",
+      "en": "Thank you very much and goodbye!",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "auf-wiederhoeren",
+        "pointer": [
+          25,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-auf-wiederhoeren-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-auf-wiederhoeren-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Uf Widerlose! / Tschüss!",
+      "en": "Goodbye! (on the phone)",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "auf-wiederhoeren",
+        "pointer": [
+          25,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-auf-wiederhoeren-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-januar.mp3",
+      "kind": "vocab",
+      "text": "Januar",
+      "en": "January",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "januar",
+        "pointer": [
+          26,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-januar.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-januar-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Im Januar ist es kalt.",
+      "en": "It's cold in January.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "januar",
+        "pointer": [
+          26,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-januar-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-januar-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Januar",
+      "en": "January",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "januar",
+        "pointer": [
+          26,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-januar-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-februar.mp3",
+      "kind": "vocab",
+      "text": "Februar",
+      "en": "February",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "februar",
+        "pointer": [
+          27,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-februar.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-februar-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Im Februar fahre ich Ski.",
+      "en": "In February I go skiing.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "februar",
+        "pointer": [
+          27,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-februar-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-februar-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Februar",
+      "en": "February",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "februar",
+        "pointer": [
+          27,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-februar-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-maerz.mp3",
+      "kind": "vocab",
+      "text": "März",
+      "en": "March",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "maerz",
+        "pointer": [
+          28,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-maerz.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-maerz-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Am dritten März habe ich Geburtstag.",
+      "en": "My birthday is on the third of March.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "maerz",
+        "pointer": [
+          28,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-maerz-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-maerz-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "März",
+      "en": "March",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "maerz",
+        "pointer": [
+          28,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-maerz-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-april.mp3",
+      "kind": "vocab",
+      "text": "April",
+      "en": "April",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "april",
+        "pointer": [
+          29,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-april.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-april-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Im April regnet es oft.",
+      "en": "It often rains in April.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "april",
+        "pointer": [
+          29,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-april-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-april-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "April",
+      "en": "April",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "april",
+        "pointer": [
+          29,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-april-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-mai.mp3",
+      "kind": "vocab",
+      "text": "Mai",
+      "en": "May",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "mai",
+        "pointer": [
+          30,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-mai.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-mai-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Der Termin ist am elften Mai.",
+      "en": "The appointment is on the eleventh of May.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "mai",
+        "pointer": [
+          30,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-mai-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-mai-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Mai",
+      "en": "May",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "mai",
+        "pointer": [
+          30,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-mai-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-juni.mp3",
+      "kind": "vocab",
+      "text": "Juni",
+      "en": "June",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "juni",
+        "pointer": [
+          31,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-juni.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-juni-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Das Fest ist am 21. Juni.",
+      "en": "The party is on 21 June.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "juni",
+        "pointer": [
+          31,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-juni-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-juni-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Juni",
+      "en": "June",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "juni",
+        "pointer": [
+          31,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-juni-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-juli.mp3",
+      "kind": "vocab",
+      "text": "Juli",
+      "en": "July",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "juli",
+        "pointer": [
+          32,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-juli.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-juli-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Im Juli schwimmen wir im See.",
+      "en": "In July we swim in the lake.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "juli",
+        "pointer": [
+          32,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-juli-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-juli-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Juli",
+      "en": "July",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "juli",
+        "pointer": [
+          32,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-juli-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-august.mp3",
+      "kind": "vocab",
+      "text": "August",
+      "en": "August",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "august",
+        "pointer": [
+          33,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-august.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-august-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Der erste August ist der Schweizer Nationalfeiertag.",
+      "en": "The first of August is the Swiss national day.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "august",
+        "pointer": [
+          33,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-august-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-august-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Auguscht",
+      "en": "August",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "august",
+        "pointer": [
+          33,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-august-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-september.mp3",
+      "kind": "vocab",
+      "text": "September",
+      "en": "September",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "september",
+        "pointer": [
+          34,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-september.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-september-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Im September beginnt der Kurs.",
+      "en": "The course starts in September.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "september",
+        "pointer": [
+          34,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-september-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-september-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Septämber",
+      "en": "September",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "september",
+        "pointer": [
+          34,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-september-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-oktober.mp3",
+      "kind": "vocab",
+      "text": "Oktober",
+      "en": "October",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "oktober",
+        "pointer": [
+          35,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-oktober.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-oktober-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Im Oktober wandern wir gern.",
+      "en": "We like hiking in October.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "oktober",
+        "pointer": [
+          35,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-oktober-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-oktober-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Oktober",
+      "en": "October",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "oktober",
+        "pointer": [
+          35,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-oktober-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-november.mp3",
+      "kind": "vocab",
+      "text": "November",
+      "en": "November",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "november",
+        "pointer": [
+          36,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-november.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-november-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Im November ist es oft kalt.",
+      "en": "It's often cold in November.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "november",
+        "pointer": [
+          36,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-november-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-november-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Novämber",
+      "en": "November",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "november",
+        "pointer": [
+          36,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-november-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-dezember.mp3",
+      "kind": "vocab",
+      "text": "Dezember",
+      "en": "December",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "dezember",
+        "pointer": [
+          37,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-dezember.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-dezember-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Am 31. Dezember machen wir ein Fest.",
+      "en": "On 31 December we're having a party.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "dezember",
+        "pointer": [
+          37,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-dezember-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-dezember-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Dezämber",
+      "en": "December",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "dezember",
+        "pointer": [
+          37,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-dezember-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-u09-dictation-termin.mp3",
+      "kind": "dictation",
+      "text": "Ich muss den Termin leider absagen.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a1-u09-dictation-termin",
+        "pointer": [
+          23,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a1-u09-dictation-termin.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-u09-dictation-date.mp3",
+      "kind": "dictation",
+      "text": "Der Termin ist am zweiten Mai um zehn Uhr.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a1-u09-dictation-date",
+        "pointer": [
+          24,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a1-u09-dictation-date.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-u09-speak-phone.mp3",
+      "kind": "speak",
+      "text": "Guten Tag, hier ist Tom Baker. Ich möchte gern einen Termin machen.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a1-u09-speak-phone",
+        "pointer": [
+          26,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a1-u09-speak-phone.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-u09-speak-shadow-tom.mp3",
+      "kind": "speak",
+      "text": "Ich muss den Termin leider absagen. Ich muss am Dienstag arbeiten.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a1-u09-speak-shadow-tom",
+        "pointer": [
+          27,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a1-u09-speak-shadow-tom.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-u09-speak-shadow-graf.mp3",
+      "kind": "speak",
+      "text": "Geht es am elften Mai um halb zehn? Das ist ein Mittwoch.",
+      "variety": "ch-std",
+      "voice": "zh-f",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a1-u09-speak-shadow-graf",
+        "pointer": [
+          28,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a1-u09-speak-shadow-graf.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-u09-speak-dates.mp3",
+      "kind": "speak",
+      "text": "am ersten Januar, am dritten März, am siebten Juli, am zwanzigsten Oktober",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a1-u09-speak-dates",
+        "pointer": [
+          29,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a1-u09-speak-dates.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-u09-speak-pron-stress.mp3",
+      "kind": "speak",
+      "text": "anrufen, absagen, vorbeikommen, mitbringen – verschieben, besuchen, verstehen",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a1-u09-speak-pron-stress",
+        "pointer": [
+          30,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a1-u09-speak-pron-stress.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-u09-ch-mcq-soell.mp3",
+      "kind": "listening",
+      "text": "Söll ich öppis mitbringe?",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a1-u09-ch-mcq-soell",
+        "pointer": [
+          39,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a1-u09-ch-mcq-soell.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-u09-ch-be-mcq-birthday.mp3",
+      "kind": "listening",
+      "text": "Am vierte Juli het dr Ätti Geburtstag.",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a1-u09-ch-be-mcq-birthday",
+        "pointer": [
+          42,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a1-u09-ch-be-mcq-birthday.mp3",
+      "referenced": false
+    }
+  ]
+}

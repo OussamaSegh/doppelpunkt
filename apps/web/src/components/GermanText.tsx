@@ -7,7 +7,7 @@ import { AudioButton } from './AudioButton';
 type Props = {
   text: string;
   variety: Variety;
-  /** Shows a listen button (recording URL or TTS). */
+  /** Shows a listen button (recording URL, or TTS for Standard German only). */
   audio?: boolean | string;
   className?: string;
   children?: ReactNode;
@@ -16,6 +16,9 @@ type Props = {
 
 /** A German sentence with its variety tag and the right lang attribute for screen readers. */
 export function GermanText({ text, variety, audio, className = '', children, as: Tag = 'p' }: Props) {
+  // TTS voices only speak Standard German: Swiss German gets a listen button only with a recording.
+  const url = typeof audio === 'string' ? audio : undefined;
+  const listen = !!audio && (!!url || (variety !== 'gsw-zh' && variety !== 'gsw-be'));
   return (
     <Tag className={`flex items-start gap-2 ${className}`}>
       <VarietyTag variety={variety} className="mt-1" />
@@ -23,7 +26,7 @@ export function GermanText({ text, variety, audio, className = '', children, as:
         {text}
         {children}
       </span>
-      {audio && <AudioButton text={text} variety={variety} url={typeof audio === 'string' ? audio : undefined} />}
+      {listen && <AudioButton text={text} variety={variety} url={url} />}
     </Tag>
   );
 }
