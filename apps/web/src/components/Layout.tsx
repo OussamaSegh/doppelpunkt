@@ -1,4 +1,5 @@
-import { NavLink, Outlet } from 'react-router-dom';
+import { useEffect, useRef, type RefObject } from 'react';
+import { NavLink, Outlet, useLocation } from 'react-router-dom';
 import { useLiveQuery } from 'dexie-react-hooks';
 import { db, updateSettings, type ThemePref } from '../db';
 import { useActivityTimer, useSettings } from '../lib/hooks';
@@ -20,6 +21,7 @@ const NAV: NavItem[] = [
 const MORE: NavItem[] = [
   { to: '/grammar', label: 'Grammar', icon: 'M6 4h11a1 1 0 0 1 1 1v15H7a2 2 0 0 1-2-2V5a1 1 0 0 1 1-1zM5 18a2 2 0 0 1 2-2h11M9 8h5M9 11h4' },
   { to: '/pronunciation', label: 'Pronunciation', icon: 'M12 3a3 3 0 0 0-3 3v6a3 3 0 0 0 6 0V6a3 3 0 0 0-3-3zM5 11a7 7 0 0 0 14 0M12 18v3M8 21h8' },
+  { to: '/exam', label: 'Mock exams', icon: 'M7 3h7l4 4v14H7zM14 3v4h4M10 12h5M10 16h5' },
 ];
 
 const THEME_NEXT: Record<ThemePref, ThemePref> = { system: 'light', light: 'dark', dark: 'system' };
@@ -49,8 +51,43 @@ export function ThemeToggle() {
   );
 }
 
+const TITLES: Record<string, string> = {
+  learn: 'Learn',
+  unit: 'Unit',
+  grammar: 'Grammar',
+  pronunciation: 'Pronunciation',
+  exam: 'Mock exam',
+  review: 'Review',
+  tutor: 'Tutor',
+  progress: 'Progress',
+  settings: 'Settings',
+  placement: 'Placement test',
+};
+
+/**
+ * Per-route document title (WCAG 2.4.2), and after a navigation that removed the focused element,
+ * focus goes to <main> so keyboard and screen-reader users start at the new content (2.4.3).
+ */
+function useRouteA11y(main: RefObject<HTMLElement | null>) {
+  const { pathname } = useLocation();
+  const first = useRef(true);
+  useEffect(() => {
+    const seg = pathname.split('/').filter(Boolean)[0] ?? 'learn';
+    const name = TITLES[seg];
+    document.title = name ? `${name} · Doppelpunkt` : 'Doppelpunkt';
+    if (first.current) {
+      first.current = false;
+      return;
+    }
+    const active = document.activeElement;
+    if (!active || active === document.body || !active.isConnected) main.current?.focus({ preventScroll: true });
+  }, [pathname, main]);
+}
+
 export function Layout() {
   useActivityTimer();
+  const main = useRef<HTMLElement>(null);
+  useRouteA11y(main);
   const due = useLiveQuery(() => db.cards.where('due').belowOrEqual(new Date().toISOString()).count(), []);
 
   const link = ({ isActive }: { isActive: boolean }) =>
@@ -98,7 +135,7 @@ export function Layout() {
           </div>
           <ThemeToggle />
         </header>
-        <main id="main" className="mx-auto w-full max-w-3xl flex-1 px-4 pb-28 pt-4 md:pb-10 md:pt-8">
+        <main id="main" ref={main} tabIndex={-1} className="mx-auto w-full max-w-3xl flex-1 px-4 pb-28 pt-4 md:pb-10 md:pt-8">
           <Outlet />
         </main>
       </div>
@@ -124,7 +161,7 @@ export function Layout() {
 function DueBadge({ n, floating = false }: { n: number; floating?: boolean }) {
   return (
     <span
-      className={`rounded-full bg-swiss px-1.5 text-[10px] font-bold text-white ${floating ? 'absolute -right-2 -top-1' : 'ml-auto'}`}
+      className={`rounded-full bg-swiss px-1.5 text-[10px] font-bold text-white dark:text-ink ${floating ? 'absolute -right-2 -top-1' : 'ml-auto'}`}
       aria-label={`${n} cards due`}
     >
       {n > 99 ? '99+' : n}

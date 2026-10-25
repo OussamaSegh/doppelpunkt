@@ -1,0 +1,313 @@
+# Doppelpunkt Schwiiz-Check A1 – the Swiss track's own practice test (Zurich German recognition).
+# There is no official exam for Swiss German; this test only checks what units 1–12 teach in the
+# Swiss lane: understanding spoken and written Zurich German at A1 (recognition, answers in Standard
+# German or by choice). Format notes: docs/EXAMS.md.
+id: a1-schwiiz-1
+level: A1
+title: "Schwiiz-Check A1: Züritüütsch verstaa"
+format: generic
+passMark: 0.6
+sections:
+  - id: lose-1
+    skill: listening
+    title: "Lose, Teil 1: In der Bäckerei"
+    minutes: 6
+    instructions: >-
+      **Doppelpunkt's own Swiss-track check – there is no official Swiss German exam.** It tests what the
+      Swiss lane of units 1–12 teaches: recognising Zurich German. You never have to answer in dialect.
+
+
+      **Teil 1.** You hear a conversation in a Zurich bakery on a Saturday morning. Choose the right answer.
+      Until the dialect recording exists, read the transcript once, at normal speed, then answer without
+      looking back.
+    stimulus:
+      title: In der Bäckerei
+      variety: gsw-zh
+      text: |
+        Verchäuferin: Grüezi mitenand! Was dörfs sii?
+        Herr Frei: Grüezi. Ich hett gärn drü Gipfeli und es Bürli.
+        Verchäuferin: Gärn. Suscht no öppis?
+        Herr Frei: Ja, en Kafi Crème, bitte. Zum Mitnää.
+        Verchäuferin: Das macht zää Franke füfzg.
+        Herr Frei: Ich zahl mit Twint.
+        Verchäuferin: Guet. Merci vilmal und en schöne Samschtig!
+        Herr Frei: Merci, gliichfalls! Uf Widerluege!
+    points: [1, 1, 1, 1, 1]
+    exercises:
+      - id: a1-schwiiz1-l1-gipfeli
+        type: mcq
+        skill: listening
+        variety: gsw-zh
+        grammar: [numbers]
+        prompt: "How many Gipfeli (croissants) does Herr Frei buy?"
+        transcript: |-
+          Herr Frei: Ich hett gärn drü Gipfeli und es Bürli.
+        options: ["Two", "Three", "Five", "Ten"]
+        answer: 1
+        rationales: ["zwei would be two; he says drü.", "Correct: drü = drei.", "föif = fünf is not mentioned.", "zää is part of the price."]
+        explanation: >-
+          drü = drei (unit 2). Zurich numbers: eis, zwei, drü, vier, föif, sächs ... zää.
+
+      - id: a1-schwiiz1-l1-kafi
+        type: mcq
+        skill: listening
+        variety: gsw-zh
+        prompt: "What does he order to drink?"
+        transcript: |-
+          Herr Frei: Ja, en Kafi Crème, bitte. Zum Mitnää.
+        options: ["A beer", "A tea", "A coffee with cream, to take away", "A mineral water"]
+        answer: 2
+        rationales: ["Bier is not mentioned.", "He orders a Kafi, not a Tee.", "Correct: en Kafi Crème, zum Mitnää.", "Mineral is not mentioned."]
+        explanation: >-
+          en Kafi Crème = a coffee with cream, the classic Swiss café order. Zum Mitnää = zum Mitnehmen (to take
+          away).
+
+      - id: a1-schwiiz1-l1-preis
+        type: mcq
+        skill: listening
+        variety: gsw-zh
+        grammar: [numbers]
+        prompt: "How much does he pay?"
+        transcript: |-
+          Verchäuferin: Das macht zää Franke füfzg.
+        options: ["CHF 10.50", "CHF 15.50", "CHF 3.50", "CHF 10.15"]
+        answer: 0
+        rationales: ["Correct: zää Franke füfzg.", "füfzää would be 15.", "drü would be 3.", "füfzg is 50, not 15."]
+        explanation: >-
+          zää Franke füfzg = 10 Franken 50. zää = zehn, füfzg = fünfzig (Rappen). Swiss prices often leave out
+          the word Rappen.
+
+      - id: a1-schwiiz1-l1-zahlen
+        type: mcq
+        skill: listening
+        variety: gsw-zh
+        prompt: "How does he pay?"
+        transcript: |-
+          Herr Frei: Ich zahl mit Twint.
+        options: ["In cash", "By card", "He doesn't pay.", "With Twint (the Swiss payment app)"]
+        answer: 3
+        rationales: ["He doesn't pay cash.", "Twint is an app, not a card.", "He does pay.", "Correct: Ich zahl mit Twint."]
+        explanation: >-
+          Ich zahl mit Twint. Twint is the Swiss mobile payment app (unit 5).
+
+      - id: a1-schwiiz1-l1-tag
+        type: mcq
+        skill: listening
+        variety: gsw-zh
+        prompt: "What day is it?"
+        transcript: |-
+          Verchäuferin: Guet. Merci vilmal und en schöne Samschtig!
+        options: ["Friday", "Saturday", "Sunday", "Monday"]
+        answer: 1
+        rationales: ["Friitig would be Friday.", "Correct: en schöne Samschtig.", "Sunntig would be Sunday.", "Mäntig would be Monday."]
+        explanation: >-
+          En schöne Samschtig! = Einen schönen Samstag! Gliichfalls = gleichfalls (you too).
+
+  - id: lose-2
+    skill: listening
+    title: "Lose, Teil 2: Zwei Sprachnachrichte"
+    minutes: 5
+    instructions: >-
+      **Teil 2.** You hear two voice messages (Sprachnachrichten). Are the statements right or wrong? Read
+      each transcript once, then answer.
+    stimulus:
+      title: Zwei Sprachnachrichte
+      variety: gsw-zh
+      text: |
+        Sprecher: Nachricht 1.
+        Reto: Hoi Sandra, ich bi no im Büro. Ich chume hüt erscht am halbi achti hei. Chasch du no poschte? Mir bruuched Milch und Brot. Merci!
+
+        Sprecher: Nachricht 2.
+        Nadine: Hoi zäme! Mis Geburi-Fäscht isch am Friitig, nöd am Samschtig. Am achti bi mir. Bringed ihr bitte öppis z trinke mit? Ich freu mich!
+    points: [1, 1, 1, 1]
+    exercises:
+      - id: a1-schwiiz1-l2-reto-zeit
+        type: mcq
+        skill: listening
+        variety: gsw-zh
+        grammar: [telling-time]
+        prompt: "Nachricht 1 – listen: richtig oder falsch?"
+        transcript: |-
+          Reto: Hoi Sandra, ich bi no im Büro. Ich chume hüt erscht am halbi achti hei. Chasch du no poschte? Mir bruuched Milch und Brot. Merci!
+        question: Reto kommt heute um 19.30 Uhr nach Hause.
+        options: ["Richtig", "Falsch"]
+        answer: 0
+        rationales: ["Correct: am halbi achti = 19.30.", "halbi achti is half past seven, 19.30."]
+        explanation: >-
+          am halbi achti = um halb acht = 19.30 (unit 4). erscht = erst (only, not before), hei = nach Hause.
+
+      - id: a1-schwiiz1-l2-reto-poschte
+        type: mcq
+        skill: listening
+        variety: gsw-zh
+        prompt: "Nachricht 1 – listen: richtig oder falsch?"
+        transcript: |-
+          Reto: Hoi Sandra, ich bi no im Büro. Ich chume hüt erscht am halbi achti hei. Chasch du no poschte? Mir bruuched Milch und Brot. Merci!
+        question: Sandra soll Milch und Käse kaufen.
+        options: ["Richtig", "Falsch"]
+        answer: 1
+        rationales: ["Milch und Brot – no cheese.", "Correct: milk and bread, not cheese."]
+        explanation: >-
+          Mir bruuched Milch und Brot – milk and bread, no cheese (Chäs). poschte = einkaufen (unit 5).
+
+      - id: a1-schwiiz1-l2-nadine-tag
+        type: mcq
+        skill: listening
+        variety: gsw-zh
+        grammar: [nicht-kein]
+        prompt: "Nachricht 2 – listen: richtig oder falsch?"
+        transcript: |-
+          Nadine: Hoi zäme! Mis Geburi-Fäscht isch am Friitig, nöd am Samschtig. Am achti bi mir. Bringed ihr bitte öppis z trinke mit? Ich freu mich!
+        question: Nadines Fest ist am Samstag.
+        options: ["Richtig", "Falsch"]
+        answer: 1
+        rationales: ["nöd am Samschtig – it's on Friday.", "Correct: am Friitig, not Saturday."]
+        explanation: >-
+          am Friitig, nöd am Samschtig = am Freitag, nicht am Samstag. Geburi-Fäscht = Geburtstagsfest (unit 12).
+
+      - id: a1-schwiiz1-l2-nadine-trinken
+        type: mcq
+        skill: listening
+        variety: gsw-zh
+        grammar: [separable-verbs-modal]
+        prompt: "Nachricht 2 – listen: richtig oder falsch?"
+        transcript: |-
+          Nadine: Hoi zäme! Mis Geburi-Fäscht isch am Friitig, nöd am Samschtig. Am achti bi mir. Bringed ihr bitte öppis z trinke mit? Ich freu mich!
+        question: Die Gäste sollen etwas zu trinken mitbringen.
+        options: ["Richtig", "Falsch"]
+        answer: 0
+        rationales: ["Correct: Bringed ihr bitte öppis z trinke mit?", "She asks the guests to bring drinks."]
+        explanation: >-
+          Bringed ihr bitte öppis z trinke mit? = Bringt ihr bitte etwas zu trinken mit? Zurich plural verbs end in
+          -ed.
+
+  - id: laese-1
+    skill: reading
+    title: "Läse, Teil 1: En Gruppechat"
+    minutes: 5
+    instructions: >-
+      **Teil 1.** Swiss people often text in dialect. Read the group chat and answer the questions.
+    stimulus:
+      title: "Gruppechat «Badi-Gang»"
+      variety: gsw-zh
+      text: |
+        Reto: Hoi zäme! Gömmer morn i d Badi?
+        Sandra: Morn chan ich nöd, ich mues schaffe. Übermorn?
+        Marco: Übermorn isch guet. Aber es rägnet, oder?
+        Reto: Nei, s Wätter isch mega schön, 28 Grad!
+        Sandra: Super! Wänn?
+        Reto: Am zwei bi de Badi Mythenquai?
+        Marco: Abgmacht! Ich bring en Ball mit.
+        Sandra: Und ich bring Glace für alli!
+    points: [1, 1, 1, 1, 1]
+    exercises:
+      - id: a1-schwiiz1-r1-wann
+        type: mcq
+        skill: reading
+        variety: gsw-zh
+        grammar: [time-adverbs]
+        prompt: When do they go to the Badi (outdoor pool)?
+        options: ["Today", "Tomorrow", "The day after tomorrow", "Next week"]
+        answer: 2
+        rationales: ["Hüt (today) is not mentioned.", "Sandra can't go morn.", "Correct: übermorn.", "Next week is not mentioned."]
+        explanation: >-
+          Sandra can't go morn (tomorrow); they agree on übermorn = übermorgen (unit 9).
+
+      - id: a1-schwiiz1-r1-sandra
+        type: transform
+        skill: reading
+        variety: gsw-zh
+        grammar: [modal-koennen-wollen, modal-muessen-duerfen]
+        prompt: What does Sandra write? Write it in Standard German.
+        from: gsw-zh
+        to: de
+        source: Morn chan ich nöd, ich mues schaffe.
+        answers: ["Morgen kann ich nicht, ich muss arbeiten.", "Morgen kann ich nicht. Ich muss arbeiten.", "Ich kann morgen nicht, ich muss arbeiten."]
+        explanation: >-
+          morn = morgen, chan = kann, nöd = nicht, mues = muss, schaffe = arbeiten. Verb second after morn, as in
+          Standard German.
+
+      - id: a1-schwiiz1-r1-wetter
+        type: mcq
+        skill: reading
+        variety: gsw-zh
+        grammar: [weather-forecast]
+        prompt: What's the weather going to be like?
+        options: ["Rainy and cool", "Very nice, 28 degrees", "Cloudy, 18 degrees", "Stormy"]
+        answer: 1
+        rationales: ["Reto says it's not raining.", "Correct: mega schön, 28 Grad.", "28, not 18 degrees.", "No storm is mentioned."]
+        explanation: >-
+          s Wätter isch mega schön = das Wetter ist sehr schön. Marco asks about rain (es rägnet), but Reto says no.
+
+      - id: a1-schwiiz1-r1-zeit
+        type: mcq
+        skill: reading
+        variety: gsw-zh
+        grammar: [telling-time]
+        prompt: At what time do they meet?
+        options: ["At 12 noon", "At 2 p.m.", "At 7 p.m.", "At 10 a.m."]
+        answer: 1
+        rationales: ["Noon would be am zwölfi.", "Correct: am zwei = um zwei.", "Seven would be am sibni.", "Ten would be am zäni."]
+        explanation: >-
+          Am zwei = um zwei (Zurich uses am for clock times, unit 4). bi de Badi = bei der Badi.
+
+      - id: a1-schwiiz1-r1-glace
+        type: mcq
+        skill: reading
+        variety: gsw-zh
+        prompt: What is Sandra bringing?
+        options: ["A ball", "Drinks", "Croissants", "Ice cream for everyone"]
+        answer: 3
+        rationales: ["Marco brings the ball.", "Drinks are not mentioned.", "Gipfeli are from the bakery dialogue.", "Correct: Glace für alli."]
+        explanation: >-
+          Glace = Eis (ice cream), a Helvetism (unit 2); für alli = für alle. Marco brings the ball.
+
+  - id: laese-2
+    skill: reading
+    title: "Läse, Teil 2: Wörter und Sätze"
+    minutes: 4
+    instructions: >-
+      **Teil 2.** Match the Zurich German words with Standard German, then write two sentences in Standard
+      German. Common spellings and word orders are accepted.
+    points: [5, 1, 1]
+    exercises:
+      - id: a1-schwiiz1-r2-match
+        type: match
+        skill: vocabulary
+        variety: gsw-zh
+        prompt: Match the Zurich German words with Standard German.
+        pairs:
+          - ["poschte", "einkaufen"]
+          - ["d Chuchi", "die Küche"]
+          - ["s Velo", "das Fahrrad"]
+          - ["de Znacht", "das Abendessen"]
+          - ["chalt", "kalt"]
+        explanation: >-
+          poschte (unit 5), Chuchi (unit 6), Velo (unit 8, also Swiss Standard German), Znacht (unit 4), chalt
+          (unit 10). One point per pair.
+
+      - id: a1-schwiiz1-r2-doerfs
+        type: transform
+        skill: reading
+        variety: gsw-zh
+        grammar: [modal-muessen-duerfen]
+        prompt: What does the waiter ask? Write it in Standard German.
+        from: gsw-zh
+        to: de
+        source: Was dörfs sii?
+        answers: ["Was darf es sein?", "Was darf's sein?", "Was darf es sein"]
+        explanation: >-
+          dörfs = darf es, sii = sein (unit 2). The standard question from a waiter or shop assistant.
+
+      - id: a1-schwiiz1-r2-wandere
+        type: transform
+        skill: reading
+        variety: gsw-zh
+        grammar: [regular-present, time-inversion]
+        prompt: Write it in Standard German.
+        from: gsw-zh
+        to: de
+        source: Mir gönd am Sunntig wandere.
+        answers: ["Wir gehen am Sonntag wandern.", "Am Sonntag gehen wir wandern."]
+        explanation: >-
+          mir = wir (not me!), gönd = gehen, Sunntig = Sonntag, wandere = wandern (unit 7).

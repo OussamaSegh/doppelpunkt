@@ -1,7 +1,7 @@
 {
   "name": "doppelpunkt",
   "private": true,
-  "version": "0.3.0",
+  "version": "0.4.0",
   "type": "module",
   "workspaces": ["apps/*", "packages/*", "services/*", "tools"],
   "engines": { "node": ">=20" },
@@ -14,6 +14,7 @@
     "audio:scripts": "npm run audio:scripts -w @doppelpunkt/tools --",
     "audio:process": "npm run audio:process -w @doppelpunkt/tools --",
     "audio:link": "npm run audio:link -w @doppelpunkt/tools --",
+    "audio:upload": "npm run audio:upload -w @doppelpunkt/tools --",
     "typecheck": "npm run typecheck --workspaces --if-present",
     "test": "vitest run",
     "test:e2e": "npm run test:e2e -w @doppelpunkt/web"

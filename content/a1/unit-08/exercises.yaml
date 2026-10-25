@@ -491,7 +491,9 @@
   skill: listening
   variety: gsw-zh
   grammar: [modal-muessen-duerfen]
-  prompt: "Listen to the Swiss lane dialogue. Reto says: \"Du muesch nöd umstiige.\" What does he mean?"
+  prompt: "Listen to Reto in the Swiss lane dialogue. What does he mean?"
+  transcript: |-
+    Reto: Du muesch nöd umstiige.
   options: ["You mustn't change.", "You can't get on.", "You have to change twice.", "You don't have to change."]
   answer: 3
   explanation: >-
@@ -503,7 +505,9 @@
   skill: listening
   variety: gsw-zh
   grammar: [modal-muessen-duerfen]
-  prompt: "Reto: \"Uf em Trottoir dörfsch nöd Velo fahre!\" What is he warning Sandra about?"
+  prompt: "Listen to Reto. What is he warning Sandra about?"
+  transcript: |-
+    Reto: Uf em Trottoir dörfsch nöd Velo fahre!
   options: ["She mustn't cycle on the pavement.", "She doesn't have to take the bike.", "She can't park her bike here.", "She must wear a helmet."]
   answer: 0
   explanation: >-
@@ -580,7 +584,9 @@
   skill: listening
   variety: gsw-be
   grammar: [imperative]
-  prompt: "Sandra's mother says: \"Pass uf, gäu!\" What does she mean?"
+  prompt: "Listen to Sandra's mother. What does she mean?"
+  transcript: |-
+    Mami: Pass uf, gäu!
   options: ["Hurry up!", "Be careful, won't you!", "Get off here!", "Call me later!"]
   answer: 1
   explanation: >-

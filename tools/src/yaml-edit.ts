@@ -63,12 +63,20 @@ export function setYamlString(src: string, pointer: Array<string | number>, valu
       return k?.range && v?.range && !src.slice(k.range[0], v.range[1]).includes('\n') && !/^[|>]/.test(src.slice(v.range[0], v.range[1]));
     });
     const anchor = single[single.length - 1];
-    if (!anchor) throw new Error(`no single-line entry to anchor the new key at ${pointer.join('.')}`);
-    const k = (anchor.key as { range: [number, number, number] }).range;
-    const v = (anchor.value as { range: [number, number, number] }).range;
-    const eol = src.indexOf('\n', v[1]);
-    const at = eol < 0 ? src.length : eol;
-    out = src.slice(0, at) + `\n${' '.repeat(lineCol(src, k[0]))}${key}: ${lit}` + src.slice(at);
+    const first = pairs[0]?.key as { range?: [number, number, number] } | null | undefined;
+    if (anchor) {
+      const k = (anchor.key as { range: [number, number, number] }).range;
+      const v = (anchor.value as { range: [number, number, number] }).range;
+      const eol = src.indexOf('\n', v[1]);
+      const at = eol < 0 ? src.length : eol;
+      out = src.slice(0, at) + `\n${' '.repeat(lineCol(src, k[0]))}${key}: ${lit}` + src.slice(at);
+    } else if (first?.range) {
+      // Only multi-line entries (e.g. `text: |` block scalars): put the new key first.
+      const at = first.range[0];
+      out = src.slice(0, at) + `${key}: ${lit}\n${' '.repeat(lineCol(src, at))}` + src.slice(at);
+    } else {
+      throw new Error(`no entry to anchor the new key at ${pointer.join('.')}`);
+    }
   }
 
   const check = parseDocument(out);

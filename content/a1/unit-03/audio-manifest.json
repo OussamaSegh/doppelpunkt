@@ -420,7 +420,6 @@
       "variety": "gsw-be",
       "voice": "be-f",
       "speaker": "Mia",
-      "voiceGuessed": true,
       "source": {
         "file": "unit.yaml",
         "pointer": [
@@ -441,7 +440,6 @@
       "variety": "gsw-be",
       "voice": "be-f",
       "speaker": "Mia",
-      "voiceGuessed": true,
       "source": {
         "file": "unit.yaml",
         "pointer": [
@@ -2924,7 +2922,7 @@
     {
       "file": "ex-a1-u03-ch-mcq-goetti.mp3",
       "kind": "listening",
-      "text": "Ich bi de Götti vom Noah.",
+      "text": "Reto: Ich bi de Götti vom Noah.",
       "variety": "gsw-zh",
       "voice": "zh-m",
       "speaker": "Reto",

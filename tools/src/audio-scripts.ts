@@ -5,6 +5,7 @@ import { existsSync, readFileSync, writeFileSync } from 'node:fs';
 import { join, relative, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { buildManifest, renderScript, type AudioManifest } from './audio';
+import { buildExamManifest, EXAM_DIR, loadExams, renderExamScript, type ExamAudioManifest } from './exam';
 import { formatIssues, repoRoot, unitFolder } from './lint';
 import { loadContent } from './load';
 import { buildPronunciationManifest, drillFiles, loadDrills, PRONUNCIATION_DIR, renderPronunciationScript, type PronunciationManifest } from './pronunciation';
@@ -12,7 +13,7 @@ import { buildPronunciationManifest, drillFiles, loadDrills, PRONUNCIATION_DIR, 
 export const MANIFEST_FILE = 'audio-manifest.json';
 export const SCRIPT_FILE = 'audio-script.md';
 
-export type ScriptsResult = { ok: boolean; manifests: AudioManifest[]; pronunciation?: PronunciationManifest; changed: string[]; log: string };
+export type ScriptsResult = { ok: boolean; manifests: AudioManifest[]; pronunciation?: PronunciationManifest; exams: ExamAudioManifest[]; changed: string[]; log: string };
 
 export function exportScripts(contentDir: string, opts: { root?: string; check?: boolean } = {}): ScriptsResult {
   const root = opts.root ?? process.cwd();
@@ -57,11 +58,27 @@ export function exportScripts(contentDir: string, opts: { root?: string; check?:
     ]);
     log.push(`${PRONUNCIATION_DIR}: ${pronunciation.drills.length} drill(s), ${pronunciation.entries.length} recording(s), ${pronunciation.entries.filter((e) => e.referenced).length} linked`);
   }
+  // Mock exams: one manifest and script per level in content/<level>/exam/ (only when exam files exist).
+  const exams: ExamAudioManifest[] = [];
+  const ex = loadExams(contentDir, root);
+  if (ex.issues.some((i) => i.severity === 'error')) {
+    log.push(formatIssues(ex.issues.filter((i) => i.severity === 'error')), '\nExams with errors are skipped. Run npm run content:lint.');
+  }
+  for (const level of [...new Set(ex.exams.map((e) => e.level))]) {
+    const m = buildExamManifest(level, ex.exams);
+    exams.push(m);
+    const dir = join(contentDir, level.toLowerCase(), EXAM_DIR);
+    emit([
+      [join(dir, MANIFEST_FILE), JSON.stringify(m, null, 2) + '\n'],
+      [join(dir, SCRIPT_FILE), renderExamScript(m)],
+    ]);
+    log.push(`${m.folder}: ${m.exams.length} exam(s), ${m.entries.length} recording(s), ${m.entries.filter((e) => e.referenced).length} linked`);
+  }
   if (opts.check && changed.length) log.push(`\nOut of date (run npm run audio:scripts):\n  ${changed.join('\n  ')}`);
   else if (changed.length) log.push(`\nwrote ${changed.length} file(s)`);
   const total = manifests.reduce((n, m) => n + m.entries.length, 0);
   log.push(`${manifests.length} unit(s), ${total} recording(s) in total`);
-  return { ok: !(opts.check && changed.length), manifests, ...(pronunciation ? { pronunciation } : {}), changed, log: log.join('\n') };
+  return { ok: !(opts.check && changed.length), manifests, ...(pronunciation ? { pronunciation } : {}), exams, changed, log: log.join('\n') };
 }
 
 export function main(argv = process.argv.slice(2)): number {

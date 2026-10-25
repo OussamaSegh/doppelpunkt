@@ -19,7 +19,14 @@ raw/<level>/unit-NN/*.wav ──audio:process──▶ content/<level>/unit-NN/a
                                                    │
                                    content:build   ▼
                apps/web/public/packs/audio/<level>/<unitId>/audio/*.{mp3,opus}
+                                                   │
+               audio:upload (optional, see DEPLOY.md)
+                     bucket: <level>/<unitId>/audio/<name>.<hash>.{mp3,opus}; content:build with
+                     AUDIO_PUBLIC_BASE writes those URLs into the packs instead of copying
 ```
+
+Mock exams (`content/<level>/exam/<id>.yaml`) and pronunciation drills go through the same steps
+(see the tables in section 2).
 
 | Command | What it does | Needs ffmpeg |
 | --- | --- | --- |
@@ -28,7 +35,8 @@ raw/<level>/unit-NN/*.wav ──audio:process──▶ content/<level>/unit-NN/a
 | `npm run audio:link [-- --dry-run \| --force]` | Writes the `audio:` field for every manifest entry whose processed file exists. Keeps comments and formatting. | no |
 | `npm run content:lint` | Warns about `audio:` fields pointing to missing files; prints `audio coverage: X/Y`. | no |
 | `npm run content:report` | Per-unit table including audio coverage. | no |
-| `npm run content:build` | Copies referenced audio (and the `.opus` sibling) next to the packs. | no |
+| `npm run content:build` | Copies referenced audio (and the `.opus` sibling) next to the packs, or, with `AUDIO_PUBLIC_BASE` set, points the packs to the CDN. | no |
+| `npm run audio:upload [-- --dry-run]` | Uploads referenced audio (mp3 + opus) to an R2 / S3 bucket under content-hashed names; skips unchanged files. Dry run unless the `AUDIO_*` variables are set (see `DEPLOY.md`). | no |
 
 ffmpeg is optional for the repository: lint, tests and build never need it. Set `FFMPEG=/path/to/ffmpeg`
 if it is not on your `PATH`.
@@ -50,7 +58,7 @@ What gets an entry:
 | Bernese German word | `vocab-<id>-be.mp3` | `gswBe` | `vocab[i].gswBeAudio` |
 | Dictation | `ex-<exercise id>.mp3` | `transcript` | `exercises[i].audio` |
 | Speaking model | `ex-<exercise id>.mp3` | `target` | `exercises[i].audio` |
-| Listening stimulus | `ex-<exercise id>.mp3` | the quoted text in the prompt | `exercises[i].audio` |
+| Listening stimulus | `ex-<exercise id>.mp3` | `transcript` (older items: the quoted text in the prompt) | `exercises[i].audio` |
 
 Pronunciation drills (`content/pronunciation/<id>.yaml`) share one manifest and script,
 `content/pronunciation/audio-manifest.json` and `audio-script.md`, in drill-id order:
@@ -68,8 +76,26 @@ alternate voices, picked from the drill's `variety`. Processed files go to
 `apps/web/public/packs/audio/pronunciation/<id>/audio/`. For `audio:process`, drill files have
 unique names, so a flat folder works; `--unit pronunciation/<id>` also works.
 
+Mock exams (`content/<level>/exam/<id>.yaml`) share one manifest and script per level,
+`content/<level>/exam/audio-manifest.json` and `audio-script.md`, in exam-id order:
+
+| Kind | File name | Text | YAML field filled by `audio:link` |
+| --- | --- | --- | --- |
+| Listening section stimulus | `stimulus-<section id>.mp3` | `stimulus.text` of a `listening` section | `sections[i].stimulus.audio` |
+| Dictation, speaking model, listening item | `ex-<exercise id>.mp3` | as for units (`transcript`, `target`) | `sections[i].exercises[j].audio` |
+
+A stimulus that starts with a speaker label (`Anna: …`) gets that speaker's voice; the speaker
+labels are a change of voice, not read aloud. Reading and writing stimuli are not recorded.
+Processed files go to `content/<level>/exam/<id>/audio/`; the YAML path is `audio/<file>` (relative to
+`content/<level>/exam/<id>/`), and `content:build` copies them to
+`apps/web/public/packs/audio/<level>/<exam id>/audio/` (the exam id takes the place of the unit id, so
+exam ids must differ from unit ids; lint checks this). For `audio:process`, put raw exam files in
+`raw/<level>/exam/<id>/` or pass `--unit a1/exam/<id>`; stimulus names repeat across exams.
+
 Listening items whose prompt says "Listen to the intro dialogue" reuse the dialogue recordings and get
-no entry of their own. Roleplays are generated live and are not recorded.
+no entry of their own. The first speaker label of a `transcript` picks the voice; read the labels only
+as a change of voice. Two items with the same transcript (e.g. two questions on one voicemail) get two
+entries: record once and copy the file. Roleplays are generated live and are not recorded.
 
 Each manifest entry has: `file`, `path` (the value for the YAML field), `kind`, `text`, `note`
 (parenthesised reading hints such as "(to a group)" moved out of the text), `en`, `variety`, `voice`,
@@ -177,5 +203,5 @@ build copies the `.opus` sibling next to it so the app can prefer Opus where sup
   (`review.ch`) checks Zurich and Bernese recordings and every `ch-std` item. See `NATIVE_REVIEW.md`.
 - A unit's audio is done when `npm run content:report` shows full coverage for it and both reviewers
   have listened.
-- Ship: `npm run content:build` copies the files into `apps/web/public/packs/audio/`. CDN upload is a
-  later step (see ROADMAP).
+- Ship: `npm run content:build` copies the files into `apps/web/public/packs/audio/`. For a CDN, run
+  `npm run audio:upload` and build with `AUDIO_PUBLIC_BASE` (see `DEPLOY.md`, section 3).

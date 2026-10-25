@@ -77,7 +77,15 @@ export function ChatPanel({ provider, system, opener, onTurn, onCost, placeholde
 
   return (
     <div className="flex flex-col gap-3">
-      <div className="max-h-[55dvh] min-h-48 space-y-3 overflow-y-auto rounded-2xl border border-line bg-surface-2 p-3" aria-live="polite" aria-label="Conversation">
+      {/* role=log is polite; aria-busy while streaming so screen readers read the finished reply once, not every chunk. */}
+      <div
+        className="max-h-[55dvh] min-h-48 space-y-3 overflow-y-auto rounded-2xl border border-line bg-surface-2 p-3"
+        role="log"
+        aria-live="polite"
+        aria-busy={busy}
+        aria-label="Conversation"
+        tabIndex={0}
+      >
         {visible.length === 0 && <p className="text-sm text-muted">Say hallo to start.</p>}
         {visible.map((m, i) => (
           <div key={i} className={`flex ${m.role === 'user' ? 'justify-end' : 'justify-start'}`}>

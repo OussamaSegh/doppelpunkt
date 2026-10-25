@@ -35,7 +35,7 @@ export function Pronunciation() {
   }
   if (status === 'error') {
     return (
-      <EmptyState
+      <EmptyState headingLevel={1}
         title="Pronunciation drills could not be loaded"
         action={
           <button className="btn-primary" onClick={() => void load()}>
@@ -52,7 +52,7 @@ export function Pronunciation() {
     const drill = drills.find((d) => d.id === drillId);
     if (!drill) {
       return (
-        <EmptyState
+        <EmptyState headingLevel={1}
           title="Drill not found"
           action={
             <Link className="btn-primary" to="/pronunciation">

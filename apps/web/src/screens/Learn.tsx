@@ -33,6 +33,7 @@ function LevelOverview() {
 
   return (
     <div className="space-y-5">
+      <h1 className="sr-only">Learn {pack?.level ?? level}</h1>
       <TodayCard />
       <nav aria-label="Levels" className="flex gap-2 overflow-x-auto pb-1">
         {LEVELS.map((l) =>
@@ -69,6 +70,17 @@ function LevelOverview() {
             </li>
           ))}
         </ol>
+        {pack.exams.length > 0 && (
+          <Link to="/exam" className="card flex items-center justify-between gap-3 border-gold/50 py-3 transition-colors hover:border-accent">
+            <span>
+              <span className="block font-semibold">{pack.level} mock exam</span>
+              <span className="block text-sm text-muted">
+                Timed practice in the exam format: <span lang="de">Hören, Lesen, Schreiben, Sprechen</span>.
+              </span>
+            </span>
+            <span aria-hidden="true" className="text-accent">→</span>
+          </Link>
+        )}
         <Link to="/grammar" className="card flex items-center justify-between gap-3 py-3 transition-colors hover:border-accent">
           <span>
             <span className="block font-semibold">Grammar reference</span>

@@ -249,7 +249,9 @@
   skill: listening
   variety: ch-std
   grammar: [telling-time]
-  prompt: "At Zurich station you hear: \"Der Zug nach Bern fährt um zwanzig Uhr fünfundvierzig.\" When does the train leave?"
+  prompt: "At Zurich station you hear an announcement. When does the train leave?"
+  transcript: |-
+    Sprecherin: Der Zug nach Bern fährt um zwanzig Uhr fünfundvierzig.
   options: ["20.15", "19.45", "21.45", "20.45"]
   answer: 3
   explanation: >-
@@ -542,7 +544,9 @@
   skill: listening
   variety: gsw-zh
   grammar: [telling-time]
-  prompt: "Reto says: \"Ich schlaf bis am halbi achti.\" Until when does he sleep?"
+  prompt: "Listen to Reto. Until when does he sleep?"
+  transcript: |-
+    Reto: Ich schlaf bis am halbi achti.
   options: ["8.30", "8.00", "7.15", "7.30"]
   answer: 3
   explanation: >-
@@ -679,7 +683,9 @@
   type: mcq
   skill: listening
   variety: gsw-be
-  prompt: "Sandra's mother asks: \"Chunsch zum Zmorge?\" What is she inviting Sandra to?"
+  prompt: "Listen to Sandra's mother. What is she inviting Sandra to?"
+  transcript: |-
+    Mami: Chunsch zum Zmorge?
   options: ["Dinner", "A walk", "Breakfast", "A party"]
   answer: 2
   explanation: >-

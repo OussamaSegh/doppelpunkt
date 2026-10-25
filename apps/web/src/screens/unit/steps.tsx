@@ -24,7 +24,7 @@ function Dialogue({ unit, lines }: { unit: CompiledUnit; lines: DialogueLine[] }
     <div className="space-y-3">
       <div className="flex flex-wrap items-center justify-between gap-2">
         <label className="flex items-center gap-2 text-sm text-muted">
-          <input type="checkbox" checked={showEn} onChange={(e) => setShowEn(e.target.checked)} className="h-4 w-4" />
+          <input type="checkbox" checked={showEn} onChange={(e) => setShowEn(e.target.checked)} className="h-5 w-5" />
           Show English
         </label>
         {lines.length > 0 && (
@@ -288,7 +288,7 @@ export function CheckStep({ unit, pack }: { unit: CompiledUnit; pack?: LevelPack
           <label key={i} className="flex items-start gap-2 text-sm">
             <input
               type="checkbox"
-              className="mt-1 h-4 w-4"
+              className="mt-0.5 h-5 w-5 shrink-0"
               checked={status?.canDo[i] ?? false}
               onChange={(e) => void setCanDo(unit, i, e.target.checked)}
             />

@@ -281,3 +281,23 @@ export function micFixSteps(platform: Platform = detectPlatform()): string[] {
       ];
   }
 }
+
+// ---------------------------------------------------------------------------------------------
+// Recording length (for the transcription cost meter)
+
+// Recordings know how long they are; the recorder notes it here so the cost meter needn't decode audio.
+const audioSeconds = new WeakMap<Blob, number>();
+
+export function noteAudioSeconds(audio: Blob, seconds: number): void {
+  if (Number.isFinite(seconds) && seconds > 0) audioSeconds.set(audio, seconds);
+}
+
+/**
+ * Length of a recording in seconds: what the recorder noted, otherwise an estimate from the file
+ * size at ~48 kbit/s (Opus/AAC speech; a low bitrate estimates long, so the meter errs on the high side).
+ */
+export function audioSecondsOf(audio: Blob): { seconds: number; estimated: boolean } {
+  const noted = audioSeconds.get(audio);
+  if (noted !== undefined) return { seconds: noted, estimated: false };
+  return { seconds: Math.max(1, audio.size / 6000), estimated: true };
+}

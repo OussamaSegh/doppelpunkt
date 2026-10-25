@@ -6,7 +6,9 @@ installs on Android Chrome and iOS Safari, and a learner can finish A1 unit 1 of
 v0.2 adds the placement test, the exercise-player polish, the grammar reference, the Bern lane and the
 audio pipeline; see [v0.2 "Erste Schritte"](#v02-erste-schritte) below. v0.3 adds recording, speech
 recognition with a provider fallback, shadowing, pronunciation drills and A1 units 7–9; see
-[v0.3 "Stimme"](#v03-stimme) for the new coverage and the speaking device checklist.
+[v0.3 "Stimme"](#v03-stimme) for the new coverage and the speaking device checklist. v0.4 adds A1 units
+10–12, the timed mock exams, the can-do checklist and "A1 complete" milestone, the accessibility audit and
+the performance budget; see [v0.4 "A1 komplett"](#v04-a1-komplett).
 
 ## Test strategy
 
@@ -37,7 +39,7 @@ Principles:
   throws an uncaught exception. A test can allow specific messages with `test.use({ allowConsole: [...] })`
   (only the offline test does, for failed network requests).
 
-### E2e suite (53 tests × 2 projects = 106)
+### E2e suite (61 tests × 2 projects = 122)
 
 v0.1 specs (14 tests):
 
@@ -54,6 +56,9 @@ v0.2 specs (22 tests) — see the v0.2 section for details: `placement.spec.ts` 
 v0.3 specs (17 tests) — see the v0.3 section: `pronunciation.spec.ts` (6), `speaking.spec.ts` (10), one more
 test in `learn.spec.ts` (units 7–9).
 
+v0.4 specs (8 tests, plus a longer offline test) — see the v0.4 section: `exam.spec.ts` (3), `cando.spec.ts` (2),
+`listening.spec.ts` (2), one more test in `learn.spec.ts` (units 10–12); `pwa.spec.ts` offline test extended.
+
 ## How to run
 
 ```bash
@@ -63,6 +68,7 @@ npx vitest run             # all unit tests (same as npm test)
 npm run content:lint       # content linter (units and lexicon)
 npm run audio:scripts -- --check   # generated audio manifests/scripts are up to date
 npm run build              # content packs + production build of the web app
+npm run budget -w @doppelpunkt/web   # initial JS < 200 KB gzip (after build)
 npm run test:e2e           # Playwright (Chromium, desktop + Pixel 7)
 ```
 
@@ -79,7 +85,7 @@ E2e details:
 
 CI (`.github/workflows/ci.yml`) runs on every push to `main` and every pull request with Node 22:
 `npm ci` → typecheck → unit tests → content lint (units + lexicon) → audio manifests up to date
-(`npm run audio:scripts -- --check`) → build → install Chromium → e2e, and uploads the
+(`npm run audio:scripts -- --check`) → build → performance budget → install Chromium → e2e, and uploads the
 Playwright report and test results when something fails.
 
 ## Manual device checklist
@@ -251,6 +257,87 @@ drill (e.g. *ü vs u and i*) and one Swiss drill (*Swiss German ch, gg and kch*)
 | Drill list said "1 tries". | "1 try" / "n tries" (`apps/web/src/screens/Pronunciation.tsx`). |
 | `docs/CONTENT_FORMAT.md` §9 and `tools/src/pronunciation.ts` used the drill id `ue-u`; the real drill is `ue-u-i`. | Examples and comments say `ue-u-i` (`pron-ue-u-i-pair-01-a.mp3`). |
 
+## v0.4 "A1 komplett"
+
+Exit criteria (ROADMAP): A1 units 10–12; an A1 mock exam (Hören, Lesen, Schreiben, Sprechen), timed, with
+solutions; the A1 can-do checklist; WCAG 2.2 AA audit; < 200 KB initial JS and LCP < 2.5 s on 4G. Audio
+recording ("all A1 audio recorded and reviewed") is **not** met: coverage is 0 % (see known gaps).
+
+### New automated coverage
+
+| Spec | Tests |
+|---|---|
+| `exam.spec.ts` | Learn card "A1 mock exam" → `/exam` lists `a1-mock-1` (Goethe format, pass mark) and `a1-schwiiz-1` with Start links; **full run of `a1-mock-1` with `page.clock`**: intro table (11 sections) and the "practice, not an official certificate" note, focus on each section heading, the countdown starts at the section's minutes, listening items show **no transcript text** (neither on screen nor in button names) and "Play item 1" speaks the item transcript in de-DE **without speaker labels**, answers give no Check button, no "Richtig!/Not quite" and no explanation, the clock counts down after a fast-forward, **Pause** hides the items and the clock does not move while 2 minutes pass, Resume, the section **times out** and the exam moves on with the "Time is up for … moved on to …" banner, every other section answered → "Next section" / "Finish the exam", **self-check marking** of the writing and all role-plays (checklist → "Save my score" → "scored by you"), results "Bestanden — passed", the per-section table (11 rows + total, exactly one "(time ran out)"), "(paused 2:0x)", the review shows the item's **transcript**, solution and explanation, the writing "Model answer", then Progress: the A1 mock exam card (latest points, passed, one chip per section), "A1 mock exam passed" on the milestone, "Review the answers" reopens the saved result; **`a1-schwiiz-1`**: Zurich German items say "No recording yet — read instead", show the transcript, have no Play button; every section skipped via the "not answered yet" confirmation → "Nicht bestanden", 4-row table, **zero TTS calls** |
+| `listening.spec.ts` | a unit listening mcq with a Standard German transcript: transcript not on screen, "The transcript is shown after you answer", Play speaks it (de-DE / de-CH for ch-std) at 1× and "slower" at 0.75×, after Check the result shows "What you heard" with the transcript; a Zurich German listening item: "No recording yet — read instead" with the transcript, no Play button, no TTS |
+| `cando.spec.ts` | seeded IndexedDB: unit 1 done with every exercise right → "Check passed", all its can-do boxes ticked and disabled ("Ticked because you passed the unit check."); unit 2's first statement ticked by hand on Progress, counted in "Can-do statements: n of N", kept after reload and shown on the unit's Check step; all 12 units done → "Units marked as done: 12 of 12" / "A1 mock exam not passed yet", then a passed `a1-mock-1` result → "A1 complete" with "Herzlichen Glückwunsch!" |
+| `learn.spec.ts` (+1) | units 10, 11 and 12 are listed (12 units in all) and unit 12 opens on Einstieg |
+| `pwa.spec.ts` (extended) | offline after the first visit: the lazy screens `/exam`, `/progress`, `/review`, `/grammar`, `/pronunciation`, `/settings` load from the precache; Learn → mock exam card → `a1-mock-1` → Start shows the running timer offline |
+
+Also: `npm run budget -w @doppelpunkt/web` runs in CI after the build (173.8 KB gzip initial JS of 200 KB at
+the time of writing). Unit tests: `src/exercise/Listen.test.tsx` (play without showing, reveal after Check,
+gsw "read instead" without TTS, device without TTS, speaker labels stripped), `tools/test/lint.test.ts` and
+`tools/test/exam.test.ts` (listening lint), `tools/test/audio.test.ts` (transcript → `ex-<id>` recording,
+voice from the first speaker label).
+
+Not automated: real TTS voices and audio files (none recorded yet), real time passing with the screen
+locked or the tab in the background (the clock is faked), AI marking of exam writing in the browser
+(unit-tested), screen readers, zoom, forced colours, Lighthouse.
+
+### Manual checks for v0.4
+
+**Exam timing on phones** (iOS Safari and Android Chrome, installed PWA and in the browser)
+
+- [ ] Start `a1-mock-1`, lock the screen for 2 minutes in a section, unlock: the clock shows ~2 minutes
+  less (it measures wall time, not ticks) and still counts; nothing was lost.
+- [ ] Same with the app in the background (switch to another app) for longer than the section's time:
+  on return the section has ended, the "Time is up" banner is shown and the answers given are in the results.
+- [ ] Pause, lock the screen for 5 minutes, unlock, Resume: the clock did not move; the results show the pause.
+- [ ] Reloading or closing the tab mid-exam asks for confirmation (beforeunload); iOS may not show it —
+  note what happens.
+- [ ] Listening items: Play / Slower read the item (TTS) without the speaker names; the transcript only
+  appears in the review; the Swiss check shows "No recording yet — read instead".
+- [ ] The sticky section header with the timer does not cover inputs when the on-screen keyboard is open.
+
+**Screen readers**
+
+- [ ] VoiceOver (iOS Safari) and TalkBack (Android Chrome): the section heading is read at the start of
+  each section ("Section n of 11: …"); the timer is not announced every second, only at 5 and 1 minute(s)
+  left; Pause/Resume are announced; "Play item n" buttons do not read the transcript; results heading is
+  focused and the verdict read once.
+- [ ] VoiceOver (macOS) / NVDA (Windows): the same, plus the per-section results table is read with
+  row/column headers and the review items are navigable by heading (h3 section, h4 item).
+- [ ] Can-do checklist on Progress: each unit is a group with its title; auto-ticked boxes are announced
+  as checked and dimmed with "Ticked because you passed the unit check".
+
+**Zoom and forced colours**
+
+- [ ] 200 % browser zoom (desktop) and 400 % (1280 px wide → 320 CSS px): Learn, a unit exercise, the exam
+  intro, a running section (timer still visible, no horizontal scrolling except the results table), results
+  and Progress.
+- [ ] Text spacing override (WCAG 1.4.12 bookmarklet): nothing clipped in the exam cards and option buttons.
+- [ ] Windows High Contrast / forced colours (Edge): option buttons, the selected option, checkboxes,
+  focus rings, the timer's low-time state and the VarietyTag chips (gold = Standard, red = Swiss) stay
+  visible; information is never carried by colour alone (passed/failed also in words).
+- [ ] Both themes (light/dark) on the exam, results and the milestone card.
+
+**Performance**
+
+- [ ] Lighthouse (mobile, simulated slow 4G, Moto G Power) on the deployed preview: `/learn` first visit
+  LCP < 2.5 s, TBT < 200 ms, CLS < 0.1; record the numbers here. Repeat for `/exam/a1-mock-1`.
+- [ ] Second visit from the service worker (Lighthouse "warm" or WebPageTest repeat view) is faster than the first.
+
+### Fixed during QA (v0.4)
+
+| Issue | Fix |
+|---|---|
+| Listening became reading: every `a1-mock-1` / `a1-schwiiz-1` listening item, and 32 Swiss / Standard listening items in units 1–12, quoted what is said in the `prompt`, and both the exam and the unit player show the prompt. | The words moved to the new `transcript` field (with speaker labels) and prompts became short questions (`content/a1/exam/*.yaml`, `content/a1/unit-*/exercises.yaml`). The unit player and exam items play the transcript (recording, else TTS for de / ch-std; gsw without a recording is shown as text, "No recording yet — read instead") and reveal it only in the feedback ("What you heard") or the exam review ("Transcript") — `apps/web/src/exercise/Listen.tsx`. |
+| TTS read the speaker labels aloud ("Sprecher: Gespräch 1. Frau: …") for exam stimuli. | `spokenText` strips `Name:` at the start of each line before speaking (stimulus and items). |
+| A Swiss German listening recording that fails to load would have fallen back to a German TTS voice. | Listening items use `playNative`, which never speaks gsw with TTS. |
+| `a1-u12-match-letters` was tagged `listening` but nothing is heard (it matches written letter names). | Tagged `vocabulary`. |
+| Audio manifests: the new `transcript` field was not a recording source, and narrator / generic labels (Sprecher, Mann, Mami …) got guessed voices (e.g. "Mann" read by a female voice). | `exerciseText` uses `transcript` (`ex-<id>`), the first speaker label picks the voice; cast list extended (`tools/src/audio.ts`); scripts regenerated. |
+| No lint for listening items that show their text or have nothing to play. | `listeningRules` (`tools/src/rules.ts`), used by unit and exam lint: warns when a listening item quotes text in its prompt, or has no audio, transcript or stimulus (units: a prompt naming the dialogue counts). |
+| Pages whose only content is an empty state had no `<h1>` (Review with an empty deck / all caught up, Tutor without a key, unit / grammar point / drill not found, drills failed to load) — against 1.3.1 in `ACCESSIBILITY.md`. | `EmptyState headingLevel={1}` on those screens. |
+
 ## Found issues and known gaps
 
 ### Fixed during QA (v0.2)
@@ -275,6 +362,18 @@ drill (e.g. *ü vs u and i*) and one Swiss drill (*Swiss German ch, gg and kch*)
 | Missing accessible names: the word-order containers and the provider cards in Settings could not be found by role. | `role="group"` + names on "Your sentence" / "Words" and on each provider card (labelled by its heading). |
 
 ### Known gaps / open issues
+
+v0.4:
+
+- **No recorded audio** (units 0/1880, exams 0/29, drills 0/504): the roadmap item "all A1 audio recorded
+  and reviewed" is open. Standard German listening relies on device TTS; Swiss German listening items and
+  the Schwiiz-Check are read, not heard, until recordings exist.
+- Two items that ask about the same voicemail (`a1-schwiiz1-l2-*`) have identical transcripts and get two
+  manifest entries: record once, copy the file.
+- The exam clock is faked in e2e; behaviour with a locked screen / background tab is manual only.
+- Lighthouse LCP on 4G, screen readers, zoom and forced colours are manual (checklist above); no numbers
+  recorded yet.
+- Native review sign-off: 0/12 units.
 
 v0.3:
 

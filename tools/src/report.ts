@@ -6,6 +6,7 @@ import { SKILLS, type ExerciseType, type Skill } from '@doppelpunkt/content-sche
 import { addCoverage, buildManifest, coverage, formatCoverage, type Coverage } from './audio';
 import { formatIssues, isV1, lintContent, repoRoot, repoVersion, unitFolder } from './lint';
 import { drillCoverage } from './pronunciation';
+import { examSummary, type ExamSummary } from './exam';
 
 export type ReportRow = {
   unitId: string;
@@ -25,7 +26,9 @@ export type ReportRow = {
 
 export type DrillRow = { id: string; title: string; level: string; variety: string; pairs: number; words: number; sentences: number; audio: Coverage };
 
-export type Report = { rows: ReportRow[]; drills: DrillRow[]; total: Omit<ReportRow, 'unitId' | 'folder' | 'title' | 'review'> & { reviewed: number }; errors: number; log: string };
+export type ExamRow = ExamSummary;
+
+export type Report = { rows: ReportRow[]; drills: DrillRow[]; exams: ExamRow[]; total: Omit<ReportRow, 'unitId' | 'folder' | 'title' | 'review'> & { reviewed: number }; errors: number; log: string };
 
 export function buildReport(contentDir: string, root = process.cwd()): Report {
   const lint = lintContent(contentDir, root, { strictReview: false });
@@ -71,8 +74,9 @@ export function buildReport(contentDir: string, root = process.cwd()): Report {
     pairs: d.pairs.length, words: d.words.length, sentences: d.sentences.length,
     audio: drillCoverage({ ...ld, drill: d }),
   }));
+  const exams: ExamRow[] = lint.exams.map(examSummary);
   const log = lint.errors ? formatIssues(lint.issues.filter((i) => i.severity === 'error')) + '\nUnits with errors are not in the report.\n' : '';
-  return { rows, drills, total, errors: lint.errors, log };
+  return { rows, drills, exams, total, errors: lint.errors, log };
 }
 
 const SKILL_ABBR: Record<Skill, string> = { reading: 'read', listening: 'listen', speaking: 'speak', writing: 'write', vocabulary: 'vocab', grammar: 'gram' };
@@ -107,19 +111,30 @@ export function formatReport(r: Report, version = '0.0.0'): string {
     }
     pron = '\n\nPronunciation drills\n' + table(['drill', 'level', 'variety', 'pairs', 'words', 'sentences', 'audio', 'title'], drillBody);
   }
+  let exams = '';
+  if (r.exams.length) {
+    const SK: Record<string, string> = { listening: 'H', reading: 'L', writing: 'S', speaking: 'Sp' };
+    const examBody = r.exams.map((x) => [
+      x.id, x.level, x.format, String(x.sections), String(x.items), String(x.points), `${Math.round(x.passMark * 100)}%`,
+      `${x.written}+${x.speaking}`, formatCoverage(x.audio),
+      x.skills.map((s) => `${SK[s.skill] ?? s.skill} ${s.items}/${s.points}p`).join(', '),
+    ]);
+    exams = '\n\nMock exams\n' + table(['exam', 'level', 'format', 'sections', 'items', 'points', 'pass', 'minutes', 'audio', 'sections (items/points)'], examBody);
+  }
   const notes = [
     '',
     `audio: recorded/needed recordings (manifest entries, see npm run audio:scripts and docs/AUDIO.md).`,
     `review: sign-off by a German (de) and a Swiss (ch) native reviewer; ${isV1(version) ? 'required' : 'required from v1.0'}.`,
   ];
-  return r.log + table(head, body) + pron + '\n' + notes.join('\n');
+  if (r.exams.length) notes.push('exams: minutes = written papers (Hören + Lesen + Schreiben) + speaking; sections H = Hören, L = Lesen, S = Schreiben, Sp = Sprechen.');
+  return r.log + table(head, body) + pron + exams + '\n' + notes.join('\n');
 }
 
 export function main(argv = process.argv.slice(2)): number {
   const i = argv.indexOf('--content');
   const contentDir = resolve(i >= 0 && argv[i + 1] ? argv[i + 1]! : join(repoRoot, 'content'));
   const r = buildReport(contentDir, repoRoot);
-  console.log(argv.includes('--json') ? JSON.stringify({ rows: r.rows, drills: r.drills, total: r.total }, null, 2) : formatReport(r, repoVersion()));
+  console.log(argv.includes('--json') ? JSON.stringify({ rows: r.rows, drills: r.drills, exams: r.exams, total: r.total }, null, 2) : formatReport(r, repoVersion()));
   return r.errors ? 1 : 0;
 }
 

@@ -1,0 +1,2775 @@
+{
+  "unitId": "a1-u12",
+  "level": "A1",
+  "folder": "a1/unit-12",
+  "title": "Feste und Feiern",
+  "delivery": {
+    "raw": "WAV or FLAC, 48 kHz, 24-bit, mono, one file per entry, named <file base>.wav",
+    "processed": [
+      "mp3 64 kbps mono 44.1 kHz",
+      "opus 32 kbps mono 48 kHz",
+      "EBU R128 -16 LUFS, true peak -1.5 dBTP"
+    ]
+  },
+  "entries": [
+    {
+      "file": "dialog-intro-01.mp3",
+      "kind": "dialogue-intro",
+      "text": "Tom, am Samstag feiere ich meinen Geburtstag. Ich werde dreissig! Kommst du auch?",
+      "en": "Tom, I'm celebrating my birthday on Saturday. I'm turning thirty! Are you coming too?",
+      "variety": "ch-std",
+      "voice": "zh-f",
+      "speaker": "Nadine",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          0,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-01.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-02.mp3",
+      "kind": "dialogue-intro",
+      "text": "Herzlichen Glückwunsch! Wann ist die Party?",
+      "en": "Happy birthday! When is the party?",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          1,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-02.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-03.mp3",
+      "kind": "dialogue-intro",
+      "text": "Am Samstag um acht, bei mir zu Hause.",
+      "en": "On Saturday at eight, at my place.",
+      "variety": "ch-std",
+      "voice": "zh-f",
+      "speaker": "Nadine",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          2,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-03.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-04.mp3",
+      "kind": "dialogue-intro",
+      "text": "Ja, ich komme gern! Soll ich etwas mitbringen?",
+      "en": "Yes, I'd love to come! Shall I bring anything?",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          3,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-04.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-05.mp3",
+      "kind": "dialogue-intro",
+      "text": "Nein, du musst nichts mitbringen. Es gibt genug Essen und Getränke.",
+      "en": "No, you don't have to bring anything. There's enough food and drink.",
+      "variety": "ch-std",
+      "voice": "zh-f",
+      "speaker": "Nadine",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          4,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-05.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-06.mp3",
+      "kind": "dialogue-intro",
+      "text": "Kommt Lena auch?",
+      "en": "Is Lena coming too?",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          5,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-06.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-07.mp3",
+      "kind": "dialogue-intro",
+      "text": "Ich lade sie ein, aber sie kann leider nicht. Sie ist am Wochenende in Berlin.",
+      "en": "I'm inviting her, but unfortunately she can't come. She's in Berlin at the weekend.",
+      "variety": "ch-std",
+      "voice": "zh-f",
+      "speaker": "Nadine",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          6,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-07.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-08.mp3",
+      "kind": "dialogue-intro",
+      "text": "Schade! Tanzen wir auch?",
+      "en": "What a pity! Are we going to dance too?",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          7,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-08.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-09.mp3",
+      "kind": "dialogue-intro",
+      "text": "Natürlich! Und um Mitternacht gibt es eine Torte mit dreissig Kerzen.",
+      "en": "Of course! And at midnight there's a cake with thirty candles.",
+      "variety": "ch-std",
+      "voice": "zh-f",
+      "speaker": "Nadine",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          8,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-09.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-10.mp3",
+      "kind": "dialogue-intro",
+      "text": "Super, ich freue mich! Bis Samstag!",
+      "en": "Great, I'm looking forward to it! See you on Saturday!",
+      "variety": "de",
+      "voice": "de-m",
+      "speaker": "Tom",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          9,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-10.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-intro-11.mp3",
+      "kind": "dialogue-intro",
+      "text": "Ich mich auch. Bis Samstag!",
+      "en": "Me too. See you on Saturday!",
+      "variety": "ch-std",
+      "voice": "zh-f",
+      "speaker": "Nadine",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "intro",
+          "dialogue",
+          10,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-intro-11.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-01.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Hoi Reto! Vill Glück zum Geburtstag!",
+      "en": "Hi Reto! Happy birthday!",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          0,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-01.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-02.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Merci vilmal! Chumm ine!",
+      "en": "Thanks a lot! Come in!",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          1,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-02.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-03.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Da, es Gschänk für dich.",
+      "en": "Here, a present for you.",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          2,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-03.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-04.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Oh, merci! Was isch es?",
+      "en": "Oh, thank you! What is it?",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          3,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-04.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-05.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Mach s uf!",
+      "en": "Open it!",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          4,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-05.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-06.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Schoggi! Mega, merci! Wottsch öppis trinke? Es Bier?",
+      "en": "Chocolate! Great, thanks! Do you want something to drink? A beer?",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          5,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-06.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-07.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Gärn. Proscht, Reto!",
+      "en": "I'd love one. Cheers, Reto!",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          6,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-07.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-08.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Proscht! Und jetzt gits Fondue. En Guete mitenand!",
+      "en": "Cheers! And now there's fondue. Enjoy your meal, everyone!",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          7,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-08.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-09.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Sandra, ds Fescht für e Ätti isch am Sunntig. Bringsch es Gschänk?",
+      "en": "Sandra, the party for Dad is on Sunday. Will you bring a present?",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "speaker": "Mami",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          8,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-09.mp3",
+      "referenced": false
+    },
+    {
+      "file": "dialog-swiss-10.mp3",
+      "kind": "dialogue-swiss",
+      "text": "Klar, Mami! Mir gratuliere ihm zäme.",
+      "en": "Of course, Mum! We'll congratulate him together.",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "speaker": "Sandra",
+      "source": {
+        "file": "unit.yaml",
+        "pointer": [
+          "swiss",
+          "dialogue",
+          9,
+          "audio"
+        ]
+      },
+      "path": "audio/dialog-swiss-10.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-party.mp3",
+      "kind": "vocab",
+      "text": "Party",
+      "en": "party",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "party",
+        "pointer": [
+          0,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-party.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-party-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Die Party beginnt um acht.",
+      "en": "The party starts at eight.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "party",
+        "pointer": [
+          0,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-party-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-party-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Party / Fäscht",
+      "en": "party",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "party",
+        "pointer": [
+          0,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-party-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-feier.mp3",
+      "kind": "vocab",
+      "text": "Feier",
+      "en": "celebration",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "feier",
+        "pointer": [
+          1,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-feier.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-feier-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Die Feier ist im Garten.",
+      "en": "The celebration is in the garden.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "feier",
+        "pointer": [
+          1,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-feier-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-feier-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Fiir",
+      "en": "celebration",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "feier",
+        "pointer": [
+          1,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-feier-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-feier-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "Fyr",
+      "note": "d Geburtstagsfyr",
+      "en": "celebration",
+      "variety": "gsw-be",
+      "voice": "be-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "feier",
+        "pointer": [
+          1,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-feier-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-feiern.mp3",
+      "kind": "vocab",
+      "text": "feiern",
+      "en": "to celebrate",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "feiern",
+        "pointer": [
+          2,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-feiern.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-feiern-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Am Samstag feiere ich meinen Geburtstag.",
+      "en": "On Saturday I'm celebrating my birthday.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "feiern",
+        "pointer": [
+          2,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-feiern-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-feiern-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "fiire",
+      "en": "to celebrate",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "feiern",
+        "pointer": [
+          2,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-feiern-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-geschenk.mp3",
+      "kind": "vocab",
+      "text": "Geschenk",
+      "en": "present, gift",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "geschenk",
+        "pointer": [
+          3,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-geschenk.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-geschenk-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Das Geschenk ist für dich.",
+      "en": "The present is for you.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "geschenk",
+        "pointer": [
+          3,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-geschenk-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-geschenk-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Gschänk",
+      "en": "present, gift",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "geschenk",
+        "pointer": [
+          3,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-geschenk-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-geschenk-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "Gschänk",
+      "note": "ds Gschänk",
+      "en": "present, gift",
+      "variety": "gsw-be",
+      "voice": "be-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "geschenk",
+        "pointer": [
+          3,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-geschenk-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-schenken.mp3",
+      "kind": "vocab",
+      "text": "schenken",
+      "en": "to give (as a present)",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "schenken",
+        "pointer": [
+          4,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-schenken.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-schenken-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich schenke Reto Blumen.",
+      "en": "I'm giving Reto flowers.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "schenken",
+        "pointer": [
+          4,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-schenken-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-schenken-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "schänke",
+      "en": "to give (as a present)",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "schenken",
+        "pointer": [
+          4,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-schenken-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-glueckwunsch.mp3",
+      "kind": "vocab",
+      "text": "Glückwunsch",
+      "en": "congratulations, good wishes",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "glueckwunsch",
+        "pointer": [
+          5,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-glueckwunsch.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-glueckwunsch-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Vielen Dank für die Glückwünsche!",
+      "en": "Thank you very much for the good wishes!",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "glueckwunsch",
+        "pointer": [
+          5,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-glueckwunsch-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-glueckwunsch-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Glückwunsch",
+      "en": "congratulations, good wishes",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "glueckwunsch",
+        "pointer": [
+          5,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-glueckwunsch-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gratulieren.mp3",
+      "kind": "vocab",
+      "text": "gratulieren",
+      "en": "to congratulate",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gratulieren",
+        "pointer": [
+          6,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-gratulieren.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gratulieren-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Wir gratulieren dir zum Geburtstag!",
+      "en": "We wish you a happy birthday!",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gratulieren",
+        "pointer": [
+          6,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-gratulieren-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gratulieren-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "gratuliere",
+      "en": "to congratulate",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gratulieren",
+        "pointer": [
+          6,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-gratulieren-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gratulieren-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "gratuliere",
+      "en": "to congratulate",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gratulieren",
+        "pointer": [
+          6,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-gratulieren-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-herzlichen-glueckwunsch.mp3",
+      "kind": "vocab",
+      "text": "Herzlichen Glückwunsch!",
+      "en": "Congratulations! / Happy birthday!",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "herzlichen-glueckwunsch",
+        "pointer": [
+          7,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-herzlichen-glueckwunsch.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-herzlichen-glueckwunsch-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Herzlichen Glückwunsch zum Geburtstag!",
+      "en": "Happy birthday!",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "herzlichen-glueckwunsch",
+        "pointer": [
+          7,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-herzlichen-glueckwunsch-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-herzlichen-glueckwunsch-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Härzliche Glückwunsch! / Vill Glück zum Geburtstag!",
+      "en": "Congratulations! / Happy birthday!",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "herzlichen-glueckwunsch",
+        "pointer": [
+          7,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-herzlichen-glueckwunsch-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-alles-gute.mp3",
+      "kind": "vocab",
+      "text": "Alles Gute!",
+      "en": "All the best!",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "alles-gute",
+        "pointer": [
+          8,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-alles-gute.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-alles-gute-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Alles Gute zum Geburtstag!",
+      "en": "All the best for your birthday!",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "alles-gute",
+        "pointer": [
+          8,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-alles-gute-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-alles-gute-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Alles Gueti!",
+      "en": "All the best!",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "alles-gute",
+        "pointer": [
+          8,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-alles-gute-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-frohe-weihnachten.mp3",
+      "kind": "vocab",
+      "text": "Frohe Weihnachten!",
+      "en": "Merry Christmas!",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "frohe-weihnachten",
+        "pointer": [
+          9,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-frohe-weihnachten.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-frohe-weihnachten-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Frohe Weihnachten und ein gutes neues Jahr!",
+      "en": "Merry Christmas and a happy New Year!",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "frohe-weihnachten",
+        "pointer": [
+          9,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-frohe-weihnachten-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-frohe-weihnachten-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Schöni Wienacht! / Frohi Wienacht!",
+      "en": "Merry Christmas!",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "frohe-weihnachten",
+        "pointer": [
+          9,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-frohe-weihnachten-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gutes-neues-jahr.mp3",
+      "kind": "vocab",
+      "text": "Ein gutes neues Jahr!",
+      "en": "Happy New Year!",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gutes-neues-jahr",
+        "pointer": [
+          10,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-gutes-neues-jahr.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gutes-neues-jahr-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Um Mitternacht sagen alle: Ein gutes neues Jahr!",
+      "en": "At midnight everyone says: Happy New Year!",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gutes-neues-jahr",
+        "pointer": [
+          10,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-gutes-neues-jahr-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gutes-neues-jahr-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Es guets Nöis!",
+      "en": "Happy New Year!",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gutes-neues-jahr",
+        "pointer": [
+          10,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-gutes-neues-jahr-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-guten-appetit.mp3",
+      "kind": "vocab",
+      "text": "Guten Appetit!",
+      "en": "Enjoy your meal!",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "guten-appetit",
+        "pointer": [
+          11,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-guten-appetit.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-guten-appetit-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Das Essen ist fertig. Guten Appetit!",
+      "en": "The food is ready. Enjoy your meal!",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "guten-appetit",
+        "pointer": [
+          11,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-guten-appetit-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-guten-appetit-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "En Guete!",
+      "en": "Enjoy your meal!",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "guten-appetit",
+        "pointer": [
+          11,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-guten-appetit-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-prost.mp3",
+      "kind": "vocab",
+      "text": "Prost!",
+      "en": "Cheers!",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "prost",
+        "pointer": [
+          12,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-prost.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-prost-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Prost! Auf dich!",
+      "en": "Cheers! To you!",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "prost",
+        "pointer": [
+          12,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-prost-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-prost-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Proscht! / Zum Wohl!",
+      "en": "Cheers!",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "prost",
+        "pointer": [
+          12,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-prost-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-viel-spass.mp3",
+      "kind": "vocab",
+      "text": "Viel Spaß!",
+      "en": "Have fun!",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "viel-spass",
+        "pointer": [
+          13,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-viel-spass.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-viel-spass-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Viel Spaß auf der Party!",
+      "en": "Have fun at the party!",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "viel-spass",
+        "pointer": [
+          13,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-viel-spass-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-viel-spass-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Vill Spass! / Vill Plausch!",
+      "en": "Have fun!",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "viel-spass",
+        "pointer": [
+          13,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-viel-spass-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sich-freuen.mp3",
+      "kind": "vocab",
+      "text": "sich freuen",
+      "en": "to be happy; to look forward to it (ich freue mich)",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sich-freuen",
+        "pointer": [
+          14,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-sich-freuen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sich-freuen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Du kommst? Super, ich freue mich!",
+      "en": "You're coming? Great, I'm looking forward to it!",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sich-freuen",
+        "pointer": [
+          14,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-sich-freuen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-sich-freuen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "sich freue",
+      "note": "ich freu mich",
+      "en": "to be happy; to look forward to it (ich freue mich)",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "sich-freuen",
+        "pointer": [
+          14,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-sich-freuen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-zusagen.mp3",
+      "kind": "vocab",
+      "text": "zusagen",
+      "en": "to accept (an invitation)",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "zusagen",
+        "pointer": [
+          15,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-zusagen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-zusagen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich sage gern zu!",
+      "en": "I'm happy to accept!",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "zusagen",
+        "pointer": [
+          15,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-zusagen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-zusagen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "zuesäge",
+      "en": "to accept (an invitation)",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "zusagen",
+        "pointer": [
+          15,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-zusagen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gast.mp3",
+      "kind": "vocab",
+      "text": "Gast",
+      "en": "guest",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gast",
+        "pointer": [
+          16,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-gast.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gast-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Wir haben zwanzig Gäste.",
+      "en": "We have twenty guests.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gast",
+        "pointer": [
+          16,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-gast-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-gast-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Gascht",
+      "note": "plural Gäscht",
+      "en": "guest",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "gast",
+        "pointer": [
+          16,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-gast-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kerze.mp3",
+      "kind": "vocab",
+      "text": "Kerze",
+      "en": "candle",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kerze",
+        "pointer": [
+          17,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-kerze.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kerze-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Die Torte hat dreißig Kerzen.",
+      "en": "The cake has thirty candles.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kerze",
+        "pointer": [
+          17,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-kerze-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-kerze-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Cherze",
+      "en": "candle",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "kerze",
+        "pointer": [
+          17,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-kerze-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-torte.mp3",
+      "kind": "vocab",
+      "text": "Torte",
+      "en": "(layer) cake, gateau",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "torte",
+        "pointer": [
+          18,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-torte.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-torte-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Um Mitternacht gibt es eine Torte.",
+      "en": "At midnight there's a cake.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "torte",
+        "pointer": [
+          18,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-torte-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-torte-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Turte",
+      "en": "(layer) cake, gateau",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "torte",
+        "pointer": [
+          18,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-torte-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-blume.mp3",
+      "kind": "vocab",
+      "text": "Blume",
+      "en": "flower",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "blume",
+        "pointer": [
+          19,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-blume.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-blume-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Ich bringe Blumen mit.",
+      "en": "I'll bring flowers.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "blume",
+        "pointer": [
+          19,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-blume-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-blume-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Blueme",
+      "en": "flower",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "blume",
+        "pointer": [
+          19,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-blume-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-schokolade.mp3",
+      "kind": "vocab",
+      "text": "Schokolade",
+      "en": "chocolate",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "schokolade",
+        "pointer": [
+          20,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-schokolade.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-schokolade-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Schweizer Schokolade ist ein gutes Geschenk.",
+      "en": "Swiss chocolate is a good present.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "schokolade",
+        "pointer": [
+          20,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-schokolade-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-schokolade-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Schoggi",
+      "en": "chocolate",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "schokolade",
+        "pointer": [
+          20,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-schokolade-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-ueberraschung.mp3",
+      "kind": "vocab",
+      "text": "Überraschung",
+      "en": "surprise",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "ueberraschung",
+        "pointer": [
+          21,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-ueberraschung.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-ueberraschung-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Die Party ist eine Überraschung!",
+      "en": "The party is a surprise!",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "ueberraschung",
+        "pointer": [
+          21,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-ueberraschung-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-ueberraschung-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Überraschig",
+      "en": "surprise",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "ueberraschung",
+        "pointer": [
+          21,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-ueberraschung-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-feiertag.mp3",
+      "kind": "vocab",
+      "text": "Feiertag",
+      "en": "public holiday",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "feiertag",
+        "pointer": [
+          22,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-feiertag.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-feiertag-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Am Montag ist ein Feiertag, die Geschäfte sind zu.",
+      "en": "Monday is a public holiday, the shops are closed.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "feiertag",
+        "pointer": [
+          22,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-feiertag-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-feiertag-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Fiirtig",
+      "en": "public holiday",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "feiertag",
+        "pointer": [
+          22,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-feiertag-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-nationalfeiertag.mp3",
+      "kind": "vocab",
+      "text": "Nationalfeiertag",
+      "en": "national day",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "nationalfeiertag",
+        "pointer": [
+          23,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-nationalfeiertag.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-nationalfeiertag-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Der Schweizer Nationalfeiertag ist am 1. August.",
+      "en": "The Swiss national day is on 1 August.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "nationalfeiertag",
+        "pointer": [
+          23,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-nationalfeiertag-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-nationalfeiertag-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Nationalfiirtig / de erscht Auguscht",
+      "en": "national day",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "nationalfeiertag",
+        "pointer": [
+          23,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-nationalfeiertag-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-feuerwerk.mp3",
+      "kind": "vocab",
+      "text": "Feuerwerk",
+      "en": "fireworks",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "feuerwerk",
+        "pointer": [
+          24,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-feuerwerk.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-feuerwerk-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Am 1. August gibt es ein Feuerwerk.",
+      "en": "There are fireworks on 1 August.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "feuerwerk",
+        "pointer": [
+          24,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-feuerwerk-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-feuerwerk-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Füürwerch / Fürwerk",
+      "en": "fireworks",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "feuerwerk",
+        "pointer": [
+          24,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-feuerwerk-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-weihnachten.mp3",
+      "kind": "vocab",
+      "text": "Weihnachten",
+      "en": "Christmas",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "weihnachten",
+        "pointer": [
+          25,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-weihnachten.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-weihnachten-ex.mp3",
+      "kind": "vocab-example",
+      "text": "An Weihnachten bin ich bei meinen Eltern.",
+      "en": "At Christmas I'm at my parents'.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "weihnachten",
+        "pointer": [
+          25,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-weihnachten-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-weihnachten-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Wienacht",
+      "en": "Christmas",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "weihnachten",
+        "pointer": [
+          25,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-weihnachten-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-ostern.mp3",
+      "kind": "vocab",
+      "text": "Ostern",
+      "en": "Easter",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "ostern",
+        "pointer": [
+          26,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-ostern.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-ostern-ex.mp3",
+      "kind": "vocab-example",
+      "text": "An Ostern suchen die Kinder Eier.",
+      "en": "At Easter the children look for eggs.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "ostern",
+        "pointer": [
+          26,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-ostern-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-ostern-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Oschtere",
+      "en": "Easter",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "ostern",
+        "pointer": [
+          26,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-ostern-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-silvester.mp3",
+      "kind": "vocab",
+      "text": "Silvester",
+      "en": "New Year's Eve",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "silvester",
+        "pointer": [
+          27,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-silvester.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-silvester-ex.mp3",
+      "kind": "vocab-example",
+      "text": "An Silvester feiern wir mit Freunden.",
+      "en": "On New Year's Eve we celebrate with friends.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "silvester",
+        "pointer": [
+          27,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-silvester-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-silvester-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Silväschter",
+      "en": "New Year's Eve",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "silvester",
+        "pointer": [
+          27,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-silvester-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-silvester-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "Silveschter",
+      "en": "New Year's Eve",
+      "variety": "gsw-be",
+      "voice": "be-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "silvester",
+        "pointer": [
+          27,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-silvester-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-neujahr.mp3",
+      "kind": "vocab",
+      "text": "Neujahr",
+      "en": "New Year's Day",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "neujahr",
+        "pointer": [
+          28,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-neujahr.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-neujahr-ex.mp3",
+      "kind": "vocab-example",
+      "text": "An Neujahr schlafe ich lange.",
+      "en": "On New Year's Day I sleep in.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "neujahr",
+        "pointer": [
+          28,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-neujahr-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-neujahr-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Neujahr / Nüüjahr",
+      "en": "New Year's Day",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "neujahr",
+        "pointer": [
+          28,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-neujahr-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-hochzeit.mp3",
+      "kind": "vocab",
+      "text": "Hochzeit",
+      "en": "wedding",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "hochzeit",
+        "pointer": [
+          29,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-hochzeit.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-hochzeit-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Herzlichen Glückwunsch zur Hochzeit!",
+      "en": "Congratulations on your wedding!",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "hochzeit",
+        "pointer": [
+          29,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-hochzeit-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-hochzeit-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Hochziit",
+      "en": "wedding",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "hochzeit",
+        "pointer": [
+          29,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-hochzeit-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-nikolaus.mp3",
+      "kind": "vocab",
+      "text": "Nikolaus",
+      "en": "Saint Nicholas (6 December)",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "nikolaus",
+        "pointer": [
+          30,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-nikolaus.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-nikolaus-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Am 6. Dezember kommt der Nikolaus.",
+      "en": "Saint Nicholas comes on 6 December.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "nikolaus",
+        "pointer": [
+          30,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-nikolaus-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-nikolaus-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Samichlaus",
+      "en": "Saint Nicholas (6 December)",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "nikolaus",
+        "pointer": [
+          30,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-nikolaus-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-nikolaus-be.mp3",
+      "kind": "vocab-gsw-be",
+      "text": "Samichlous",
+      "en": "Saint Nicholas (6 December)",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "nikolaus",
+        "pointer": [
+          30,
+          "gswBeAudio"
+        ]
+      },
+      "path": "audio/vocab-nikolaus-be.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-karneval.mp3",
+      "kind": "vocab",
+      "text": "Karneval",
+      "en": "carnival",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "karneval",
+        "pointer": [
+          31,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-karneval.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-karneval-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Im Februar ist in Köln Karneval.",
+      "en": "In February it's carnival in Cologne.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "karneval",
+        "pointer": [
+          31,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-karneval-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-karneval-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Fasnacht",
+      "en": "carnival",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "karneval",
+        "pointer": [
+          31,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-karneval-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-formular.mp3",
+      "kind": "vocab",
+      "text": "Formular",
+      "en": "form",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "formular",
+        "pointer": [
+          32,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-formular.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-formular-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Füllen Sie bitte das Formular aus.",
+      "en": "Please fill in the form.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "formular",
+        "pointer": [
+          32,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-formular-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-formular-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Formular",
+      "en": "form",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "formular",
+        "pointer": [
+          32,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-formular-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-geburtsdatum.mp3",
+      "kind": "vocab",
+      "text": "Geburtsdatum",
+      "en": "date of birth",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "geburtsdatum",
+        "pointer": [
+          33,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-geburtsdatum.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-geburtsdatum-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Mein Geburtsdatum ist der 14. März 1995.",
+      "en": "My date of birth is 14 March 1995.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "geburtsdatum",
+        "pointer": [
+          33,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-geburtsdatum-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-geburtsdatum-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Geburtsdatum",
+      "en": "date of birth",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "geburtsdatum",
+        "pointer": [
+          33,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-geburtsdatum-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-buchstabieren.mp3",
+      "kind": "vocab",
+      "text": "buchstabieren",
+      "en": "to spell",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "buchstabieren",
+        "pointer": [
+          34,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-buchstabieren.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-buchstabieren-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Können Sie Ihren Namen bitte buchstabieren?",
+      "en": "Can you spell your name, please?",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "buchstabieren",
+        "pointer": [
+          34,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-buchstabieren-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-buchstabieren-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "buechstabiere",
+      "en": "to spell",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "buchstabieren",
+        "pointer": [
+          34,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-buchstabieren-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wiederholen.mp3",
+      "kind": "vocab",
+      "text": "wiederholen",
+      "en": "to repeat",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wiederholen",
+        "pointer": [
+          35,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-wiederholen.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wiederholen-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Können Sie das bitte wiederholen?",
+      "en": "Could you repeat that, please?",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wiederholen",
+        "pointer": [
+          35,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-wiederholen-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wiederholen-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "widerhole",
+      "en": "to repeat",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wiederholen",
+        "pointer": [
+          35,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-wiederholen-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-langsam.mp3",
+      "kind": "vocab",
+      "text": "langsam",
+      "en": "slow, slowly",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "langsam",
+        "pointer": [
+          36,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-langsam.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-langsam-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Bitte sprechen Sie langsam!",
+      "en": "Please speak slowly!",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "langsam",
+        "pointer": [
+          36,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-langsam-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-langsam-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "langsam",
+      "en": "slow, slowly",
+      "variety": "gsw-zh",
+      "voice": "zh-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "langsam",
+        "pointer": [
+          36,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-langsam-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wie-bitte.mp3",
+      "kind": "vocab",
+      "text": "Wie bitte?",
+      "en": "Pardon? Sorry?",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wie-bitte",
+        "pointer": [
+          37,
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-wie-bitte.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wie-bitte-ex.mp3",
+      "kind": "vocab-example",
+      "text": "Wie bitte? Ich verstehe das nicht.",
+      "en": "Pardon? I don't understand.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wie-bitte",
+        "pointer": [
+          37,
+          "example",
+          "audio"
+        ]
+      },
+      "path": "audio/vocab-wie-bitte-ex.mp3",
+      "referenced": false
+    },
+    {
+      "file": "vocab-wie-bitte-zh.mp3",
+      "kind": "vocab-gsw-zh",
+      "text": "Wie bitte? / Was häsch gseit?",
+      "en": "Pardon? Sorry?",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "source": {
+        "file": "vocab.yaml",
+        "id": "wie-bitte",
+        "pointer": [
+          37,
+          "gswZhAudio"
+        ]
+      },
+      "path": "audio/vocab-wie-bitte-zh.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-u12-dictation-spelling.mp3",
+      "kind": "dictation",
+      "text": "Mein Name ist Baker. Ich buchstabiere B-A-K-E-R.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a1-u12-dictation-spelling",
+        "pointer": [
+          22,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a1-u12-dictation-spelling.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-u12-dictation-invitation.mp3",
+      "kind": "dictation",
+      "text": "Ich lade dich am Freitag zum Essen ein.",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a1-u12-dictation-invitation",
+        "pointer": [
+          28,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a1-u12-dictation-invitation.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-u12-speak-invite.mp3",
+      "kind": "speak",
+      "text": "Ich feiere am Samstag meinen Geburtstag. Kommst du auch? Die Party beginnt um acht.",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a1-u12-speak-invite",
+        "pointer": [
+          29,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a1-u12-speak-invite.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-u12-speak-shadow-tom.mp3",
+      "kind": "speak",
+      "text": "Ja, ich komme gern! Soll ich etwas mitbringen?",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a1-u12-speak-shadow-tom",
+        "pointer": [
+          30,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a1-u12-speak-shadow-tom.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-u12-speak-shadow-nadine.mp3",
+      "kind": "speak",
+      "text": "Nein, du musst nichts mitbringen. Es gibt genug Essen und Getränke.",
+      "variety": "ch-std",
+      "voice": "zh-f",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a1-u12-speak-shadow-nadine",
+        "pointer": [
+          31,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a1-u12-speak-shadow-nadine.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-u12-speak-intonation-wishes.mp3",
+      "kind": "speak",
+      "text": "Herzlichen Glückwunsch zum Geburtstag! Alles Gute!",
+      "variety": "de",
+      "voice": "de-m",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a1-u12-speak-intonation-wishes",
+        "pointer": [
+          32,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a1-u12-speak-intonation-wishes.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-u12-speak-pron-review.mp3",
+      "kind": "speak",
+      "text": "Fünf Gäste feiern zwölf Stunden – Frohe Weihnachten und schöne Grüße aus Zürich!",
+      "variety": "de",
+      "voice": "de-f",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a1-u12-speak-pron-review",
+        "pointer": [
+          33,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a1-u12-speak-pron-review.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-u12-ch-mcq-en-guete.mp3",
+      "kind": "listening",
+      "text": "Reto: Und jetzt gits Fondue. En Guete mitenand!",
+      "variety": "gsw-zh",
+      "voice": "zh-m",
+      "speaker": "Reto",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a1-u12-ch-mcq-en-guete",
+        "pointer": [
+          41,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a1-u12-ch-mcq-en-guete.mp3",
+      "referenced": false
+    },
+    {
+      "file": "ex-a1-u12-ch-be-mcq-fescht.mp3",
+      "kind": "listening",
+      "text": "Mami: Sandra, ds Fescht für e Ätti isch am Sunntig. Bringsch es Gschänk?",
+      "variety": "gsw-be",
+      "voice": "be-f",
+      "speaker": "Mami",
+      "source": {
+        "file": "exercises.yaml",
+        "id": "a1-u12-ch-be-mcq-fescht",
+        "pointer": [
+          44,
+          "audio"
+        ]
+      },
+      "path": "audio/ex-a1-u12-ch-be-mcq-fescht.mp3",
+      "referenced": false
+    }
+  ]
+}

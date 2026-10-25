@@ -7,6 +7,7 @@ import {
   micFixSteps,
   micPermission,
   nativeSource,
+  noteAudioSeconds,
   playNative,
   startRecording,
   type MicErrorKind,
@@ -37,6 +38,8 @@ type Props = {
   shadowing?: boolean;
   /** Use browser speech recognition while recording (default true). */
   recognize?: boolean;
+  /** Show the native model next to "you" (default true; off in the mock exam). */
+  showNative?: boolean;
   onStart?: () => void;
   onInterim?: (text: string) => void;
   onRecorded?: (r: RecorderResult) => void;
@@ -64,7 +67,7 @@ const fmt = (ms: number) => `0:${String(Math.floor(ms / 1000)).padStart(2, '0')}
  * playback of "you" next to "native". Optional shadowing: play the native model at 0.75×–1.25×,
  * then record automatically, and loop the line.
  */
-export function Recorder({ text, variety, nativeUrl, maxSeconds, shadowing = false, recognize = true, onStart, onInterim, onRecorded }: Props) {
+export function Recorder({ text, variety, nativeUrl, maxSeconds, shadowing = false, recognize = true, showNative = true, onStart, onInterim, onRecorded }: Props) {
   const max = (maxSeconds ?? defaultMaxSeconds(text)) * 1000;
   const supported = canRecord() || canRecognize();
   const native = nativeSource(variety, nativeUrl);
@@ -83,6 +86,7 @@ export function Recorder({ text, variety, nativeUrl, maxSeconds, shadowing = fal
   const recRef = useRef<Recording | undefined>(undefined);
   const timers = useRef<{ tick?: ReturnType<typeof setInterval>; stop?: ReturnType<typeof setTimeout>; loop?: ReturnType<typeof setTimeout> }>({});
   const mounted = useRef(true);
+  const startedAt = useRef(0);
   const loopRef = useRef(false);
   const shadowRun = useRef(false);
   const stopRef = useRef<() => Promise<void>>(async () => undefined);
@@ -121,6 +125,7 @@ export function Recorder({ text, variety, nativeUrl, maxSeconds, shadowing = fal
       setElapsed(0);
       setPhase('recording');
       const t0 = Date.now();
+      startedAt.current = t0;
       timers.current.tick = setInterval(() => setElapsed(Date.now() - t0), 200);
       timers.current.stop = setTimeout(() => void stopRef.current(), max);
     } catch (e) {
@@ -139,7 +144,9 @@ export function Recorder({ text, variety, nativeUrl, maxSeconds, shadowing = fal
     recRef.current = undefined;
     clearTimers();
     setPhase('stopping');
+    const seconds = (Date.now() - startedAt.current) / 1000;
     const out = await r.stop();
+    if (out.audio) noteAudioSeconds(out.audio, seconds);
     if (!mounted.current) return;
     setRec(undefined);
     setPhase('idle');
@@ -191,7 +198,7 @@ export function Recorder({ text, variety, nativeUrl, maxSeconds, shadowing = fal
         <p role="note" className="rounded-xl border border-line bg-surface-2 px-3 py-2 text-sm">
           Recording isn't available in this browser. Listen, say the sentence aloud, then rate yourself.
         </p>
-        <NativeButton native={native} text={text} variety={variety} url={nativeUrl} speed={speed} />
+        {showNative && <NativeButton native={native} text={text} variety={variety} url={nativeUrl} speed={speed} />}
       </div>
     );
   }
@@ -236,7 +243,7 @@ export function Recorder({ text, variety, nativeUrl, maxSeconds, shadowing = fal
             ))}
           </div>
           <label className="flex items-center gap-2 text-sm">
-            <input type="checkbox" className="h-4 w-4" checked={loop} onChange={(e) => (e.target.checked ? setLoop(true) : stopLoop())} />
+            <input type="checkbox" className="h-5 w-5" checked={loop} onChange={(e) => (e.target.checked ? setLoop(true) : stopLoop())} />
             Loop this line
           </label>
         </fieldset>
@@ -245,7 +252,7 @@ export function Recorder({ text, variety, nativeUrl, maxSeconds, shadowing = fal
       <div className="flex flex-wrap items-center gap-2">
         {recording ? (
           <button type="button" className="btn-primary bg-swiss" onClick={() => void stop()}>
-            <span aria-hidden="true" className="h-2.5 w-2.5 animate-pulse rounded-full bg-white" /> Stop recording
+            <span aria-hidden="true" className="h-2.5 w-2.5 animate-pulse rounded-full bg-white motion-reduce:animate-none" /> Stop recording
           </button>
         ) : (
           <>
@@ -285,7 +292,7 @@ export function Recorder({ text, variety, nativeUrl, maxSeconds, shadowing = fal
         </p>
       )}
 
-      <div className="grid gap-2 sm:grid-cols-2">
+      <div className={`grid gap-2 ${showNative ? 'sm:grid-cols-2' : ''}`}>
         <div className="rounded-xl border border-line p-2">
           <p className="mb-1 text-xs font-semibold uppercase tracking-wide text-muted">You</p>
           {playback ? (
@@ -296,10 +303,12 @@ export function Recorder({ text, variety, nativeUrl, maxSeconds, shadowing = fal
             <p className="text-sm text-muted">{hasTake ? 'No audio was captured (recognition only).' : 'Not recorded yet.'}</p>
           )}
         </div>
-        <div className="rounded-xl border border-line p-2">
-          <p className="mb-1 text-xs font-semibold uppercase tracking-wide text-muted">Native</p>
-          <NativeButton native={native} text={text} variety={variety} url={nativeUrl} speed={speed} />
-        </div>
+        {showNative && (
+          <div className="rounded-xl border border-line p-2">
+            <p className="mb-1 text-xs font-semibold uppercase tracking-wide text-muted">Native</p>
+            <NativeButton native={native} text={text} variety={variety} url={nativeUrl} speed={speed} />
+          </div>
+        )}
       </div>
     </div>
   );

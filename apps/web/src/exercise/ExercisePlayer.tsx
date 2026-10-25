@@ -7,7 +7,9 @@ import { errorMessage } from '../lib/ai';
 import { haptic, resultTone, toneOfScore } from '../lib/feedback';
 import { useSettings } from '../lib/hooks';
 import { useCardKeys } from '../lib/keys';
+import { audioUrl } from '../content';
 import { Feedback } from './Feedback';
+import { ListenPanel, listeningTranscript } from './Listen';
 import { DictationInput, GapInput, MatchInput, McqInput, OrderInput, TransformInput, TranslateInput } from './inputs';
 import { RolePlayTask } from './RolePlayTask';
 import { SpeakTask } from './SpeakTask';
@@ -16,10 +18,11 @@ import { answerText, type ExerciseOutcome, type InputProps } from './types';
 
 export type { ExerciseOutcome } from './types';
 
-type ClosedType = 'mcq' | 'gap' | 'order' | 'match' | 'dictation' | 'translate' | 'transform';
-type ClosedExercise = Extract<Exercise, { type: ClosedType }>;
+export type ClosedType = 'mcq' | 'gap' | 'order' | 'match' | 'dictation' | 'translate' | 'transform';
+export type ClosedExercise = Extract<Exercise, { type: ClosedType }>;
 
-const INPUTS: { [K in ClosedType]: ComponentType<InputProps<K>> } = {
+/** The answer input for each closed type (also used by the mock exam, which grades at the end). */
+export const INPUTS: { [K in ClosedType]: ComponentType<InputProps<K>> } = {
   mcq: McqInput,
   gap: GapInput,
   order: OrderInput,
@@ -29,7 +32,7 @@ const INPUTS: { [K in ClosedType]: ComponentType<InputProps<K>> } = {
   transform: TransformInput,
 };
 
-const TYPE_LABEL: Record<Exercise['type'], string> = {
+export const TYPE_LABEL: Record<Exercise['type'], string> = {
   mcq: 'Multiple choice',
   gap: 'Fill the gaps',
   order: 'Word order',
@@ -123,6 +126,7 @@ function ClosedPlayer({
   const [error, setError] = useState<string>();
   const Input = INPUTS[ex.type] as ComponentType<InputProps<ClosedType>>;
   const form = useRef<HTMLFormElement>(null);
+  const transcript = listeningTranscript(ex);
 
   const check = async () => {
     if (answer === undefined || result) return;
@@ -153,6 +157,7 @@ function ClosedPlayer({
         void check();
       }}
     >
+      {transcript && !result && <ListenPanel text={transcript} variety={ex.variety} url={ex.audio ? audioUrl(unit, ex.audio) : undefined} id={ex.id} />}
       <Input ex={ex} unit={unit} disabled={!!result} onChange={setAnswer} />
       {!result && (
         <button type="submit" className="btn-primary mt-4 w-full sm:w-auto" disabled={answer === undefined}>

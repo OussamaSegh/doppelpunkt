@@ -19,6 +19,8 @@ content/
     gsw-zh.yaml        # Standard German → Zurich German core lexicon (with Bernese where different)
   pronunciation/
     ue-u-i.yaml        # one PronunciationDrill per file, file name = id (section 9, docs/PRONUNCIATION.md)
+  a1/exam/
+    a1-mock-1.yaml     # one MockExam per file, file name = id (section 10, docs/EXAMS.md)
 ```
 
 - Unit folders are `unit-NN` with two digits. The unit `id` is `<level>-u<NN>`, for example `a1-u01`.
@@ -157,6 +159,7 @@ Every exercise has these common fields:
 | `explanation` | yes      | English; **teaches the rule** (see section 7) |
 | `grammar`     | no       | grammar point ids the item practises (feeds the error profile) |
 | `audio`       | no       | leave it out until the file exists |
+| `transcript`  | no       | what the learner **hears** in a listening item, one speaker turn per line (`Reto: Grüezi!`); read by TTS (`de`, `ch-std`) or recorded, shown only after answering / in the exam review. Required in `dictation` (graded) |
 
 Examples of each type:
 
@@ -273,6 +276,26 @@ Examples of each type:
   listening-oriented at A1–A2).
 - For listening MCQs on the dialogues (no audio yet), refer to the dialogue in the prompt ("Listen to
   the intro dialogue again").
+- **Never quote what is said in a listening prompt.** The prompt is shown on screen, so
+  `prompt: 'Reto says: "Ich bi müed." What does he mean?'` is a reading item. Put the words in
+  `transcript` (with speaker labels) and keep a short question in the prompt:
+
+  ```yaml
+  - id: a1-u11-ch-mcq-mued
+    type: mcq
+    skill: listening
+    variety: gsw-zh
+    prompt: Listen to Reto. How does he feel?
+    transcript: |-
+      Reto: Ich bi hüt so müed.
+    options: [...]
+  ```
+
+  The app plays the transcript (recording, else TTS for `de` / `ch-std`) and shows it only with the
+  feedback. A `gsw-*` transcript without a recording is shown as text with "No recording yet — read
+  instead". Speaker labels (`Name:` at the start of a line) are not read aloud. `content:lint` warns
+  when a listening item quotes text in its prompt, or has no `audio`, no `transcript` and no stimulus
+  (in a unit: a prompt that names the dialogue; in an exam: the section `stimulus`).
 - **Speaking (from v0.3, units 7+):** at least **5 `speak` items** per unit: a read-aloud frame the
   learner then personalises, **shadowing** of 1–2 dialogue lines (prompt starts with "Shadowing:";
   the `target` is the exact dialogue line, with the line's variety), an intonation item, and a
@@ -390,7 +413,61 @@ pack when there are none). Drill attempts are stored with unit id `pron-<id>`.
   (`en: child (Kind)`) rather than in `text`.
 - **Level:** `A1` for sounds that change words; `A2` for fluency features and accents to recognise.
 
-## 10. Review
+## 10. Mock exams (content/<level>/exam/<id>.yaml)
+
+One `MockExam` per file; the file name is the id, and the id must not clash with a unit id. How
+exams are designed, the official formats they follow and the sources are in `docs/EXAMS.md`.
+
+```yaml
+id: a1-mock-1
+level: A1
+title: "A1 Modelltest 1 (Start Deutsch 1 format)"
+format: goethe                 # goethe | telc | osd | generic (orientation only)
+passMark: 0.6                  # fraction of all points
+sections:                      # one section per exam part (Teil)
+  - id: hoeren-1
+    skill: listening           # listening | reading | writing | speaking
+    title: "Hören, Teil 1"
+    minutes: 7
+    instructions: >-           # Markdown: German rubric line in italics, then English
+      **Hören, Teil 1.** *Sie hören sechs kurze Gespräche ...* You hear six short conversations ...
+    stimulus:                  # optional shared text or transcript for all items of the section
+      title: Sechs kurze Gespräche
+      variety: de
+      text: |
+        Sprecher: Gespräch 1.
+        Frau: Entschuldigung, wo finde ich hier die Milch?
+    points: [1, 1, 1, 1, 1, 1] # one entry per exercise; default 1 each
+    exercises:                 # ordinary exercises (section 6); ids unique across units and exams
+      - id: a1-mock1-h1-milch
+        type: mcq
+        skill: listening
+        variety: de
+        prompt: Gespräch 1 – listen and choose the right answer.
+        transcript: |-             # this item's part of the stimulus: played, shown only in the review
+          Frau: Entschuldigung, wo finde ich hier die Milch?
+          Mann: Die Milch? Gehen Sie geradeaus, dann hinten links, beim Käse.
+        question: Wo ist die Milch?
+        options: ["Vorne rechts", "Hinten links", "Bei der Kasse"]
+        answer: 1
+        explanation: >-
+          "Gehen Sie geradeaus, dann hinten links, beim Käse." ...
+```
+
+- **Original items only** (rule 8): follow the official task type and timing, never a publisher's
+  text or item. The first section's instructions say that the test is Doppelpunkt's own practice
+  test, not an official exam.
+- **Prefix exercise ids** with the exam id without its hyphens before the number (`a1-mock1-...`,
+  `a1-schwiiz1-...`) and the part (`h1`, `l2`, `s1`, `sp3`).
+- Richtig/falsch items are `mcq` with `options: ["Richtig", "Falsch"]`; "which ad?" items use
+  `["Anzeige a", "Anzeige b"]` with both ads in the stimulus.
+- Speaking sections contain `speak` or `roleplay` items, writing sections `gap` (forms) and `write`.
+  For free speaking use `roleplay` (scored by AI or self-assessment); a `speak` item is compared with
+  its `target`, so use it only for fixed texts.
+- A `gsw-*` listening stimulus has no TTS: tell learners in the instructions to read it once and
+  answer without looking back until the recording exists.
+
+## 11. Review
 
 Content ships as *draft* until it has passed native review (see `docs/ROADMAP.md`): two German
 reviewers per level, and one Zurich reviewer for every `gsw-zh` line. In the PR description,

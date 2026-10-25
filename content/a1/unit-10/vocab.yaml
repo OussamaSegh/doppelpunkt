@@ -1,0 +1,378 @@
+# A1 unit 10 – Kleidung und Wetter
+
+# ---------- clothes ----------
+- id: kleidung
+  de: Kleidung
+  en: clothes, clothing
+  pos: noun
+  gender: f
+  plural: "-"
+  example: { de: "Die Kleidung hier ist nicht teuer.", en: "The clothes here aren't expensive." }
+  gswZh: Chleider (plural)
+  tags: [clothes]
+
+- id: hose
+  de: Hose
+  en: trousers, pants
+  pos: noun
+  gender: f
+  plural: Hosen
+  example: { de: "Die Hose ist zu lang.", en: "The trousers are too long." }
+  gswZh: Hose (d Hose)
+  tags: [clothes]
+
+- id: jeans
+  de: Jeans
+  en: jeans
+  pos: noun
+  gender: f
+  plural: Jeans
+  example: { de: "Meine Jeans ist blau.", en: "My jeans are blue." }
+  tags: [clothes]
+
+- id: hemd
+  de: Hemd
+  en: shirt
+  pos: noun
+  gender: n
+  plural: Hemden
+  example: { de: "Das Hemd ist weiß.", en: "The shirt is white." }
+  gswZh: Hemp / Hemd
+  tags: [clothes]
+
+- id: t-shirt
+  de: T-Shirt
+  en: T-shirt
+  pos: noun
+  gender: n
+  plural: T-Shirts
+  example: { de: "Im Sommer trage ich ein T-Shirt.", en: "In summer I wear a T-shirt." }
+  chStd: T-Shirt / Leibchen
+  tags: [clothes, helvetism]
+
+- id: pullover
+  de: Pullover
+  en: jumper, sweater
+  pos: noun
+  gender: m
+  plural: Pullover
+  example: { de: "Der Pullover ist warm.", en: "The jumper is warm." }
+  chStd: Pullover / Pulli
+  gswZh: Pulli / Lismer (knitted)
+  gswBe: Lismer / Puli
+  tags: [clothes, helvetism]
+
+- id: jacke
+  de: Jacke
+  en: jacket
+  pos: noun
+  gender: f
+  plural: Jacken
+  example: { de: "Ich suche eine Jacke.", en: "I'm looking for a jacket." }
+  gswZh: Jagge / Jacke (s Jäggli = small or light jacket)
+  gswBe: Jagge (d Rägejagge = rain jacket)
+  tags: [clothes]
+
+- id: mantel
+  de: Mantel
+  en: coat
+  pos: noun
+  gender: m
+  plural: Mäntel
+  example: { de: "Der Mantel ist grau.", en: "The coat is grey." }
+  gswZh: Mantel
+  tags: [clothes]
+
+- id: kleid
+  de: Kleid
+  en: dress
+  pos: noun
+  gender: n
+  plural: Kleider
+  example: { de: "Das Kleid ist grün.", en: "The dress is green." }
+  gswZh: Chleid
+  tags: [clothes]
+
+- id: rock
+  de: Rock
+  en: skirt
+  pos: noun
+  gender: m
+  plural: Röcke
+  example: { de: "Der Rock ist zu kurz.", en: "The skirt is too short." }
+  chStd: Jupe (der Jupe)
+  gswZh: Jupe / Rock
+  tags: [clothes, helvetism]
+
+- id: schuh
+  de: Schuh
+  en: shoe
+  pos: noun
+  gender: m
+  plural: Schuhe
+  example: { de: "Die Schuhe sind schwarz.", en: "The shoes are black." }
+  gswZh: Schue (plural Schue)
+  tags: [clothes]
+
+- id: hausschuh
+  de: Hausschuh
+  en: slipper
+  pos: noun
+  gender: m
+  plural: Hausschuhe
+  example: { de: "Zu Hause trage ich Hausschuhe.", en: "At home I wear slippers." }
+  chStd: Finken (der Finken)
+  gswZh: Finke (plural Finke)
+  gswBe: Finke
+  tags: [clothes, helvetism]
+
+- id: socke
+  de: Socke
+  en: sock
+  pos: noun
+  gender: f
+  plural: Socken
+  example: { de: "Ich brauche Socken.", en: "I need socks." }
+  gswZh: Socke
+  tags: [clothes]
+
+- id: muetze
+  de: Mütze
+  en: woolly hat, cap
+  pos: noun
+  gender: f
+  plural: Mützen
+  example: { de: "Nimm eine Mütze mit, es ist kalt!", en: "Take a hat, it's cold!" }
+  chStd: Mütze / Kappe
+  gswZh: Mütze / Chappe
+  tags: [clothes]
+
+- id: schal
+  de: Schal
+  en: scarf
+  pos: noun
+  gender: m
+  plural: Schals
+  example: { de: "Diesen Schal nehme ich auch.", en: "I'll take this scarf too." }
+  gswZh: Schal
+  tags: [clothes]
+
+- id: groesse
+  de: Größe
+  en: size
+  pos: noun
+  gender: f
+  plural: Größen
+  example: { de: "Welche Größe haben Sie?", en: "What size are you?" }
+  chStd: Grösse
+  gswZh: Grössi
+  tags: [shopping]
+
+- id: farbe
+  de: Farbe
+  en: colour
+  pos: noun
+  gender: f
+  plural: Farben
+  example: { de: "Welche Farbe möchten Sie?", en: "Which colour would you like?" }
+  gswZh: Farb
+  tags: [colours]
+
+- id: kabine
+  de: Umkleidekabine
+  en: changing room, fitting room
+  pos: noun
+  gender: f
+  plural: Umkleidekabinen
+  example: { de: "Die Umkleidekabine ist dort hinten.", en: "The changing room is over there at the back." }
+  chStd: Kabine / Umkleidekabine
+  gswZh: Kabine
+  tags: [shopping]
+
+# ---------- colours ----------
+- id: rot
+  de: rot
+  en: red
+  pos: adj
+  example: { de: "Die Mütze ist rot.", en: "The hat is red." }
+  gswZh: rot
+  tags: [colours]
+
+- id: blau
+  de: blau
+  en: blue
+  pos: adj
+  example: { de: "Ich möchte die Jacke in Blau.", en: "I'd like the jacket in blue." }
+  gswZh: blau
+  tags: [colours]
+
+- id: gruen
+  de: grün
+  en: green
+  pos: adj
+  example: { de: "Im Frühling ist alles grün.", en: "In spring everything is green." }
+  gswZh: grüen
+  tags: [colours]
+
+- id: gelb
+  de: gelb
+  en: yellow
+  pos: adj
+  example: { de: "Die Sonne ist gelb.", en: "The sun is yellow." }
+  gswZh: gäl / gääl
+  tags: [colours]
+
+- id: schwarz
+  de: schwarz
+  en: black
+  pos: adj
+  example: { de: "Die Schuhe sind schwarz.", en: "The shoes are black." }
+  gswZh: schwarz
+  tags: [colours]
+
+- id: weiss
+  de: weiß
+  en: white
+  pos: adj
+  example: { de: "Der Schnee ist weiß.", en: "The snow is white." }
+  chStd: weiss
+  gswZh: wiiss
+  tags: [colours]
+
+- id: grau
+  de: grau
+  en: grey
+  pos: adj
+  example: { de: "Heute ist der Himmel grau.", en: "Today the sky is grey." }
+  gswZh: grau
+  tags: [colours]
+
+- id: braun
+  de: braun
+  en: brown
+  pos: adj
+  example: { de: "Die Hose ist braun.", en: "The trousers are brown." }
+  gswZh: bruun
+  tags: [colours]
+
+# ---------- verbs and little words ----------
+- id: anprobieren
+  de: anprobieren
+  en: to try on
+  pos: verb
+  example: { de: "Kann ich die Jacke anprobieren?", en: "Can I try the jacket on?" }
+  gswZh: aaprobiere
+  tags: [shopping, separable]
+
+- id: tragen
+  de: tragen
+  en: to wear; to carry
+  pos: verb
+  example: { de: "Er trägt heute einen Mantel.", en: "He's wearing a coat today." }
+  gswZh: träge
+  tags: [clothes, stem-change]
+
+- id: stehen-kleidung
+  de: stehen (Das steht dir.)
+  en: to suit (someone)
+  pos: verb
+  example: { de: "Die Farbe steht dir gut!", en: "That colour suits you!" }
+  gswZh: "stah (Das staht dir guet!)"
+  tags: [clothes, phrases]
+
+- id: welcher
+  de: welcher / welche / welches
+  en: which
+  pos: pron
+  example: { de: "Welcher Pullover ist warm?", en: "Which jumper is warm?" }
+  tags: [questions]
+
+- id: dieser
+  de: dieser / diese / dieses
+  en: this (one), these
+  pos: pron
+  example: { de: "Diese Jacke ist schön.", en: "This jacket is nice." }
+  tags: [pronouns]
+
+- id: zu-adj
+  de: zu (+ adjective)
+  en: too (zu groß = too big)
+  pos: adv
+  example: { de: "Die Schuhe sind zu klein.", en: "The shoes are too small." }
+  gswZh: z / zu (z gross)
+  tags: [shopping]
+
+# ---------- weather ----------
+- id: wind
+  de: Wind
+  en: wind
+  pos: noun
+  gender: m
+  plural: Winde
+  example: { de: "Am Abend kommt Wind.", en: "In the evening the wind picks up." }
+  chStd: Wind / Bise (cold north-east wind) / Föhn (warm south wind)
+  gswZh: Wind / d Bise / de Föhn
+  tags: [weather, helvetism]
+
+- id: wolke
+  de: Wolke
+  en: cloud
+  pos: noun
+  gender: f
+  plural: Wolken
+  example: { de: "Heute gibt es viele Wolken.", en: "There are a lot of clouds today." }
+  gswZh: Wulche
+  tags: [weather]
+
+- id: gewitter
+  de: Gewitter
+  en: thunderstorm
+  pos: noun
+  gender: n
+  plural: Gewitter
+  example: { de: "Am Nachmittag gibt es ein Gewitter.", en: "There will be a thunderstorm in the afternoon." }
+  gswZh: Gwitter
+  tags: [weather]
+
+- id: grad
+  de: Grad
+  en: degree (temperature)
+  pos: noun
+  gender: m
+  plural: Grad
+  example: { de: "Heute sind es zwanzig Grad.", en: "It's twenty degrees today." }
+  gswZh: Grad
+  tags: [weather, numbers]
+
+- id: sonnig
+  de: sonnig
+  en: sunny
+  pos: adj
+  example: { de: "Am Samstag ist es sonnig.", en: "It's sunny on Saturday." }
+  gswZh: sunnig
+  tags: [weather]
+
+- id: windig
+  de: windig
+  en: windy
+  pos: adj
+  example: { de: "In den Bergen ist es windig.", en: "It's windy in the mountains." }
+  gswZh: windig
+  tags: [weather]
+
+- id: bewoelkt
+  de: bewölkt
+  en: cloudy
+  pos: adj
+  example: { de: "Am Sonntag ist es bewölkt.", en: "It's cloudy on Sunday." }
+  gswZh: bewölkt / wulchig
+  tags: [weather]
+
+- id: heiss
+  de: heiß
+  en: hot
+  pos: adj
+  example: { de: "Im Juli ist es oft heiß.", en: "It's often hot in July." }
+  chStd: heiss
+  gswZh: heiss
+  tags: [weather]

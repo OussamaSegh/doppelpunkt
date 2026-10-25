@@ -29,6 +29,9 @@ Legend: ✅ confirmed, no change · ✏️ corrected in content · ❓ no source
 | WP-SGP | Wikipedia, *Standard German phonology*: https://en.wikipedia.org/wiki/Standard_German_phonology |
 | WP-BE-EN | Wikipedia, *Bernese German* (en): https://en.wikipedia.org/wiki/Bernese_German |
 | DUDEN-W | Duden online entries *Perron* (https://www.duden.de/rechtschreibung/Perron), *Billett* (https://www.duden.de/rechtschreibung/Billett), *Trottoir* (https://www.duden.de/rechtschreibung/Trottoir), *jassen* (https://www.duden.de/rechtschreibung/jassen) |
+| DUDEN-W2 | Duden online entries *schiffen* (https://www.duden.de/rechtschreibung/schiffen: 'salopp' = to rain heavily, also to urinate), *Finken* (https://www.duden.de/rechtschreibung/Finken: schweizerisch mundartlich, warm slipper), *Jupe* (https://www.duden.de/rechtschreibung/Jupe: schweizerisch, meist der Jupe), *Leibchen* (https://www.duden.de/rechtschreibung/Leibchen: österreichisch, schweizerisch = vest, sports shirt), *Samichlaus* (https://www.duden.de/rechtschreibung/Samichlaus: schweizerisch, m.), *Spital* (https://www.duden.de/rechtschreibung/Spital: das, schweizerisch auch der) |
+| NS | Newly Swissed, *Swiss German words to understand the Swiss* (Bise, Föhn, En Guete, Proscht): https://www.newlyswissed.com/swiss-german-words-to-understand-the-swiss/ – popular source, supporting evidence only |
+| ZH-T | Zürich Tourismus, *Wer ist der «Böögg»?* (Sechseläuten, Böögg lit at 18:00, quick explosion = good summer): https://www.zuerich.com/de/besuchen/sechselaeuten/wer-ist-der-boeoegg |
 | AI | No fetchable source found; the form follows teaching practice and Dieth conventions. **Needs a native.** |
 
 The Schweizerisches Idiotikon (idiotikon.ch), Wiktionary and quizlet/ch-de.ch pages could not be
@@ -247,6 +250,73 @@ Swiss forms below; everything marked AI still needs a native.
 us*, *bi de Ampel*), Zurich months, *Uf Widerlose*. The University of Vienna page on k-affrication was
 in maintenance and sonar.ch (Hove, *Schweizer Hochdeutsch*) was blocked from the review environment.
 
+## Pass 5 (2026-10-25): A1 units 10–12 and the A1 mock exams (v0.4)
+
+New content: units 10–12, `content/a1/exam/a1-mock-1.yaml` (Goethe Start Deutsch 1 format) and
+`content/a1/exam/a1-schwiiz-1.yaml` (Swiss track check), and 29 new lexicon entries. Each unit's
+`review.notes` repeats its open questions. Exam format sources are in `docs/EXAMS.md`.
+
+### Units 10–12, Zurich German (gsw-zh)
+
+| Form | Verdict | Source | Notes |
+| --- | --- | --- | --- |
+| `chalt`, `heiss`, `tüür`, `Chopf`, `Buuch`, `chrank`, `müed`, `Gsundheit!`, `En Guete!`, `Proscht!`, `Fäscht`, `Geburi`, `Glace` | ✅ | lexicon (passes 1–3), NS (*En Guete, Proscht*) | Reused from the lexicon. |
+| `es schiffet` (it's pouring) | ✅ / ❓ | DUDEN-W2 (*schiffen*), lexicon note | Duden labels German *schiffen* 'salopp' and gives *to urinate* as well. Unit 10 teaches it with a register note and *es rägnet* as the neutral word. ❓ Is it fine for A1 in Zurich? |
+| `d Bise`, `de Föhn` | ✅ | NS | Also Swiss Standard German. |
+| `Finke` (slippers, m., plural unchanged) | ✅ | DUDEN-W2 (*Finken*), BD #11591 | Duden: schweizerisch mundartlich. Same in Zurich assumed. |
+| `Jagge`, `Jäggli`, `Rägejagge` | ✅ / ❓ | BD #11157 (*Jagge* f.), BD #54895 (*Rägejagge*) | Bernese forms attested; Zurich *Jagge* and the diminutive *Jäggli* assumed. |
+| `Lismer`, `Pulli` | ✅ | BD #13182 (*Lismer* m.), BD #28013 (*Puli*) | |
+| `Das staht dir guet!`, `Die isch mer z gross`, `Under em Sofa`, `Nimm mini! Si hanget im Gang.` | ❓ | AI | |
+| `Ich nimm en / si / s` (accusative pronouns) | ❓ | AI | Only in notes and the roleplay. |
+| Colours `grüen, gäl / gääl, wiiss, bruun` | ❓ | AI | ei → ii and au → uu patterns (SRF). |
+| `Chleid`, `Schue`, `Hemp / Hemd`, `Chappe`, `Wulche`, `Gwitter`, `sunnig`, `Grössi` | ❓ | AI | |
+| `Chopfweh`, `Halsweh`, `Buuchweh`, `Zaaweh` | ✅ / ❓ | lexicon (*Chopf, Buuch*), curriculum | -weh compounds are the normal Swiss pattern; spelling of *Halsweh, Zaaweh* to tick. |
+| `Gang zum Dokter!`, `Bliib im Bett!`, `Gueti Besserig!`, `Hatschi!`, `achtedriissg` | ❓ | AI | *gang* imperative as in unit 8. |
+| `Was fählt Ine?`, `Händ Sie au Fieber?`, `nämed Sie`, `trinked Sie`, `drüümal`, `Apiteegg` | ❓ | AI | Unit 11 Reto roleplay and vocabulary. |
+| `Vill Glück zum Geburtstag!`, `Alles Gueti zum Geburi!`, `Härzliche Glückwunsch!` | ✅ / ❓ | curriculum, AI | *Vill Glück zum Geburtstag* is in the curriculum; the others to tick. |
+| `s Gschänk`, `Mach s uf!`, `Chumm ine!`, `Wottsch öppis trinke?`, `gits`, `mitenand` | ✅ / ❓ | BD #55070 (*Gschänk* n., Bern), lexicon (*wott*, *Grüezi mitenand*) | Zurich *Gschänk* assumed equal to Bern. |
+| `Samichlaus`, `Schmutzli` | ✅ | DUDEN-W2, BD #56714 (*Schmutzli*) | |
+| `Sechseläuten` / `Sächsilüüte`, `Böögg` | ✅ | ZH-T | Date given only as "a Monday in April"; lighting at 6 p.m. |
+| `Wienacht`, `Oschtere`, `Silväschter`, `Es guets Nöis!`, `Schöni Wienacht!`, `fiire`, `Fiir`, `Fiirtig`, `Füürwerch / Fürwerk`, `Buurezmorge`, `as Fürwerk` | ❓ | AI | |
+| Swiss-lane dialogues and Reto roleplays of units 10–12 | ❓ | – | Natural flow can only be judged by a native. |
+
+### Units 10–12, Swiss Standard German (ch-std)
+
+| Form | Verdict | Source | Notes |
+| --- | --- | --- | --- |
+| `der Jupe`, `die Finken`, `das Leibchen`, `der Pulli`, `die Grösse` | ✅ | DUDEN-W2 | *Leibchen*: Duden = vest / sports shirt (Austrian and Swiss). |
+| `das Spital` (also `der Spital`) | ✅ | DUDEN-W2, lexicon | |
+| `das Arztzeugnis`, `die Krankenkasse`, `die Drogerie` vs `die Apotheke`, emergency number 144 | ❓ | AI | Well known, but please tick the explanations. |
+| `Kopfweh`, `Bauchweh` as everyday Swiss Standard | ❓ | AI | |
+| `der Samichlaus`, `die Fasnacht`, `der Nationalfeiertag`, `die Schoggi` | ✅ / ❓ | DUDEN-W2 (*Samichlaus*) | *Fasnacht* and *Schoggi* from general knowledge. |
+| ch-std dialogue lines (shop assistant u10, Dr Huber u11, Nadine u12) | ❓ | – | E.g. *Die steht Ihnen gut!*, *Was fehlt Ihnen?*, *Ich werde dreissig!* |
+
+### Units 10–12, Bernese (gsw-be)
+
+| Form | Verdict | Source | Notes |
+| --- | --- | --- | --- |
+| `chaut` | ✅ | lexicon, WP-BE (l-vocalisation) | No BD headword found under *kalt*. |
+| `Lismer`, `Finke`, `Jagge`, `Rägejagge`, `Puli` | ✅ | BD #13182, #11591, #11157, #54895, #28013 | |
+| `verchelte, sech` (`i bi vercheltet`, `ercheltet`) | ✅ | BD #45414 | Example *I bi scho sit e re Wuche ercheltet.* |
+| `Gring` (head), `Gringweh` (headache) | ✅ | BD #10643, BD #10817 | BD: coarse but affectionate – the unit says so. ❓ suitable for learners? |
+| `ds Fescht`, `ds Gschänk`, `gratuliere`, `Silveschter`, `Samichlous`, `Schmutzli` | ✅ | BD #51848, #55070, #53603, #12647, #12148, #56714 | |
+| `Geburtstagsfyr` | ✅ | BD #41124 | In vocabulary (*Fyr*); not used in dialogue. |
+| Dialogue lines: u10 *Sandra, nimm e Lismer mit! Hüt isch es chaut z Bärn. / Ja, Mami, i ha dr Lismer scho.*; u11 *Sandra, bisch vercheltet? Du tönsch so komisch. / Nei, Mami, dr Reto isch chrank. Är het Gringweh.*; u12 *Sandra, ds Fescht für e Ätti isch am Sunntig. Bringsch es Gschänk? / Klar, Mami! Mir gratuliere ihm zäme.* | ❓ | – | Words sourced; *du tönsch*, *für e Ätti* and the sentence flow need a Bernese speaker. |
+
+### Mock exams
+
+| Item | Verdict | Source | Notes |
+| --- | --- | --- | --- |
+| `a1-mock-1` format (parts, item counts, timing, points, pass mark) | ✅ | GI-INFO, GI-UEB, GI-DB, TELC (see docs/EXAMS.md) | Items and texts are original. |
+| `a1-mock-1` level of difficulty and A1 vocabulary | ❓ | – | Needs a German teacher / exam trainer. Words outside units 1–12 used in stimuli: *Zahnarztpraxis, Durchsage, Angebot, Kundinnen und Kunden, Matte, Sporthalle, Anmeldung, Velobörse, aus zweiter Hand, Kreditkarte, Koch, Sekretariat* – all typical of A1 exam texts; please confirm they are acceptable. |
+| `a1-schwiiz-1` Zurich forms: *Zum Mitnää, gliichfalls, zää Franke füfzg, erscht, hei, Chasch du no poschte?, Bringed ihr ... mit?, Gömmer morn i d Badi?, Am zwei bi de Badi Mythenquai, für alli* | ❓ | AI, lexicon | Please tick or correct. |
+
+### Not found online (pass 5)
+
+Zurich colour words, *Halsweh*, *Gueti Besserig*, *Es guets Nöis*, *Wienacht*, Zurich *Jäggli*.
+berndeutsch.ch has no entry for *chaut*, *Chopfweh*, *gratuliere* wishes or *Vill Glück*. The Goethe
+*Testbeschreibung A1* PDF was not readable from the review environment.
+
 ## Still for a human native speaker
 
 1. **German native teacher:** every unit 1–9 (Standard German), especially the new grammar
@@ -266,6 +336,11 @@ in maintenance and sonar.ch (Hove, *Schweizer Hochdeutsch*) was blocked from the
    dialogue lines; a Bernese speaker for the Bernese lines of units 7–9.
 5. **Audio scripts** once studio recording starts (v0.2). The audio scripts in `content/a1/unit-0N/`
    must be regenerated after these content changes (for example, Grossätti → Grosätti in unit 3).
+6. **Pass 5 (v0.4):** a German teacher for units 10–12 and `a1-mock-1` (also its level of
+   difficulty against the real Start Deutsch 1); a Zurich native for every ❓ line of pass 5, the
+   three Swiss-lane dialogues and `a1-schwiiz-1`; a Swiss Standard speaker for the ch-std dialogue
+   lines and Helvetism notes (Arztzeugnis, Drogerie, Leibchen); a Bernese speaker for the Bernese
+   lines of units 10–12 and the register of *Gring*.
 
 ## Open format questions
 - A1 units 1, 3, 4, 5 and 6 use `transform` from `de` to `de` (du → Sie, word order, negation). The UI

@@ -3,12 +3,15 @@
 import { existsSync, readFileSync } from 'node:fs';
 import { join, relative, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { SKILLS, type Exercise, type Level } from '@doppelpunkt/content-schema';
-import { grade, normalize, sentenceKey, type Answer } from '@doppelpunkt/engine';
+import { SKILLS, type Level } from '@doppelpunkt/content-schema';
 import { addCoverage, audioRefs, buildManifest, coverage, formatCoverage, isRemote, type Coverage } from './audio';
+import { lintExams, loadExams, type LoadedExam } from './exam';
 import { lintLexicons } from './lexicon';
 import { loadContent, UNIT_FILES, type Issue, type LoadedUnit } from './load';
 import { lintDrills, loadDrills, type LoadedDrill } from './pronunciation';
+import { exerciseRules, listeningRules } from './rules';
+
+export { countGaps } from './rules';
 
 export type ReviewStatus = { unitId: string; de: boolean; ch: boolean };
 export type LintResult = {
@@ -24,6 +27,10 @@ export type LintResult = {
   drills: LoadedDrill[];
   /** Audio coverage of the drills (every pair word, word and sentence is a slot). */
   drillAudio: Coverage;
+  /** Mock exams that loaded (content/<level>/exam/*.yaml), sorted by level and id. */
+  exams: LoadedExam[];
+  /** Audio coverage of the exams (listening stimuli and recorded items). */
+  examAudio: Coverage;
   /** Summary lines printed after the issues (never fail the lint). */
   info: string[];
 };
@@ -35,86 +42,6 @@ export type LintOptions = {
 
 /** Folder of a unit relative to content/, e.g. "a1/unit-01". */
 export const unitFolder = (lu: Pick<LoadedUnit, 'level' | 'number'>) => `${lu.level.toLowerCase()}/unit-${String(lu.number).padStart(2, '0')}`;
-
-/** Count of gap markers. A gap is exactly three underscores. */
-export function countGaps(text: string): number {
-  return (text.match(/___/g) ?? []).length;
-}
-
-const words = (s: string) => sentenceKey(s).split(' ').filter(Boolean).sort().join(' ');
-
-/** Answers that the grader must accept for an exercise (self-check of the stored solution). */
-function modelAnswers(ex: Exercise): Answer[] {
-  switch (ex.type) {
-    case 'mcq': return [ex.answer];
-    case 'gap': return [ex.answers.map((a) => a[0] ?? '')];
-    case 'order': return ex.answers;
-    case 'match': return [ex.pairs];
-    case 'dictation': return [ex.transcript];
-    case 'translate':
-    case 'transform': return ex.answers;
-    case 'speak': return [ex.target];
-    case 'write':
-    case 'roleplay': return [];
-  }
-}
-
-function exerciseRules(ex: Exercise, where: string, file: string, push: (s: Issue['severity'], f: string, m: string) => void) {
-  const at = `${where} (id: ${ex.id})`;
-  switch (ex.type) {
-    case 'gap': {
-      const n = countGaps(ex.text);
-      if (/_{4,}/.test(ex.text)) push('error', file, `${at}: write gaps as exactly three underscores (___)`);
-      if (n !== ex.answers.length) push('error', file, `${at}: text has ${n} gap(s) (___) but answers has ${ex.answers.length} entr${ex.answers.length === 1 ? 'y' : 'ies'}`);
-      ex.answers.forEach((a, i) => {
-        if (a.some((s) => !s.trim())) push('error', file, `${at}: answers[${i}] contains an empty string`);
-      });
-      break;
-    }
-    case 'mcq':
-      if (ex.answer >= ex.options.length) push('error', file, `${at}: answer index ${ex.answer} is out of range (${ex.options.length} options, indexes 0-${ex.options.length - 1})`);
-      if (ex.rationales && ex.rationales.length !== ex.options.length) push('warning', file, `${at}: rationales has ${ex.rationales.length} entries but there are ${ex.options.length} options`);
-      if (new Set(ex.options.map((o) => normalize(o, { caseSensitive: true }))).size !== ex.options.length) push('error', file, `${at}: options contain duplicates`);
-      break;
-    case 'order': {
-      const expected = words(ex.tokens.join(' '));
-      ex.answers.forEach((a, i) => {
-        if (words(a) !== expected) push('error', file, `${at}: answers[${i}] "${a}" does not use exactly the tokens [${ex.tokens.join(' | ')}]`);
-      });
-      break;
-    }
-    case 'match': {
-      const left = ex.pairs.map(([l]) => sentenceKey(l));
-      const right = ex.pairs.map(([, r]) => sentenceKey(r));
-      if (new Set(left).size !== left.length) push('error', file, `${at}: left-hand items must be unique`);
-      if (new Set(right).size !== right.length) push('error', file, `${at}: right-hand items must be unique`);
-      break;
-    }
-    case 'transform':
-    case 'translate':
-    case 'dictation':
-    case 'speak':
-    case 'write':
-    case 'roleplay':
-      break;
-  }
-  if ('answers' in ex && Array.isArray(ex.answers) && ex.type !== 'gap') {
-    (ex.answers as string[]).forEach((a, i) => {
-      if (!a.trim()) push('error', file, `${at}: answers[${i}] is empty`);
-    });
-  }
-  // The stored solution must be accepted by the grader.
-  for (const ans of modelAnswers(ex)) {
-    let res;
-    try {
-      res = grade(ex, ans);
-    } catch (e) {
-      push('error', file, `${at}: grader crashed on the model answer: ${(e as Error).message}`);
-      continue;
-    }
-    if (!res.correct) push('error', file, `${at}: the grader rejects the model answer ${JSON.stringify(ans)} (score ${res.score.toFixed(2)})`);
-  }
-}
 
 /** Lint everything under `contentDir`. `root` is used for relative paths in messages. */
 export function lintContent(contentDir: string, root = process.cwd(), opts: LintOptions = {}): LintResult {
@@ -148,6 +75,8 @@ export function lintContent(contentDir: string, root = process.cwd(), opts: Lint
 
       u.exercises.forEach((ex, i) => {
         exerciseRules(ex, `[${i}]`, f(UNIT_FILES.exercises), push);
+        // In a unit, "Listen to the intro / Swiss lane dialogue" items play the unit's dialogue.
+        listeningRules(ex, /\bdialogue\b/i.test(ex.prompt), `[${i}]`, f(UNIT_FILES.exercises), push);
         for (const g of ex.grammar) {
           if (!knownGrammar.has(g)) push('warning', f(UNIT_FILES.exercises), `[${i}] (id: ${ex.id}): grammar "${g}" is not defined in any unit`);
         }
@@ -191,7 +120,13 @@ export function lintContent(contentDir: string, root = process.cwd(), opts: Lint
   issues.push(...pron.issues, ...drillLint.issues);
   const drills = [...pron.drills].sort((a, b) => a.drill.id.localeCompare(b.drill.id));
 
+  const ex = loadExams(contentDir, root);
+  const examLint = lintExams(ex.exams, loaded.units, knownGrammar, root);
+  issues.push(...ex.issues, ...examLint.issues);
+  const exams = [...ex.exams].sort((a, b) => a.level.localeCompare(b.level) || a.exam.id.localeCompare(b.exam.id));
+
   const info: string[] = [`audio coverage: ${formatCoverage(audio)}`];
+  if (exams.length || ex.issues.length) info.push(`exams: ${exams.length} mock exam(s), audio coverage ${formatCoverage(examLint.audio)}`);
   if (drills.length || pron.issues.length) info.push(`pronunciation: ${drills.length} drill(s), audio coverage ${formatCoverage(drillLint.audio)}`);
   if (lexicon.files) info.push(`lexicon: ${lexicon.entries} entr${lexicon.entries === 1 ? 'y' : 'ies'} in ${lexicon.files} file(s)`);
   if (review.length) {
@@ -205,7 +140,7 @@ export function lintContent(contentDir: string, root = process.cwd(), opts: Lint
   }
 
   const errors = issues.filter((i) => i.severity === 'error').length;
-  return { issues, errors, warnings: issues.length - errors, units: loaded.units, levels: loaded.levels, audio, review, drills, drillAudio: drillLint.audio, info };
+  return { issues, errors, warnings: issues.length - errors, units: loaded.units, levels: loaded.levels, audio, review, drills, drillAudio: drillLint.audio, exams, examAudio: examLint.audio, info };
 }
 
 export function formatIssues(issues: Issue[]): string {

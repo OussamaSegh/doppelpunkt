@@ -1,0 +1,293 @@
+id: a1-u10
+level: A1
+number: 10
+title: Kleidung und Wetter
+titleEn: Clothes and weather
+goal: >-
+  By the end you can buy clothes in a shop, talk about size, colour and price, replace nouns with
+  pronouns (Ich nehme ihn.), point things out with welcher and dieser, say what is too big or too
+  expensive, understand a simple weather forecast, and follow Zurich German small talk about clothes
+  and the weather.
+canDo:
+  - I can ask for clothes in a shop and talk about size, colour and price (Haben Sie die Jacke auch in Größe L?).
+  - I can replace people and things with accusative pronouns (Der Mantel? Ich nehme ihn. Ich rufe dich an.).
+  - I can ask and point with welcher and dieser (Welche Farbe? Diese Jacke hier.).
+  - I can say what is wrong with something using zu + adjective (Die Hose ist zu lang.).
+  - I can understand a simple weather forecast with degrees, sun, rain, wind and clouds.
+  - I can recognise Zurich weather and clothes words (chalt, es schiffet, Jagge, Finke, tüür, Das staht dir guet).
+
+review:
+  notes:
+    - "'Lueg emal, es schiffet!' – schiffe = to pour with rain (colloquial). Duden labels German *schiffen* 'salopp' and also gives the meaning 'to pee'. Is the rain meaning harmless enough in Zurich to teach at A1, with a register note?"
+    - "'Jagge' (f.) for Jacke and the diminutive 'Jäggli' in Zurich – spelling Jagge / Jacke? (Bernese Jagge f. is in berndeutsch.ch #11157.)"
+    - "'Rägejagge' – Bernese form is attested (BD #54895); same in Zurich?"
+    - "'Das staht dir guet!' – staht / staat / stoht? (stah = stehen, Dieth)."
+    - "'Die isch mer z gross.' – mer (dative mir) and z (zu) before an adjective: natural?"
+    - "'Ich nimm en.' – en as the Zurich accusative of er (ihn)? Also 'ich nimm si' (die Jacke), 'ich nimm s' (das Hemd)."
+    - "Colours: rot, blau, grüen, gäl, schwarz, wiiss, grau, bruun – please confirm gäl vs gääl and wiiss."
+    - "'Finke' (m., plural unchanged) for Hausschuhe: Duden labels Finken 'schweizerisch mundartlich'; BD #11591 for Bern. Same in Zurich? Is 'Finken' also fine in written Swiss Standard German?"
+    - "Swiss Standard: der Pulli, der Jupe (Duden: meist der, schweizerisch), das Leibchen (Duden: schweizerisch = Unterhemd, Trikot), die Bise, der Föhn – fine for A1 recognition?"
+    - "'Kappe' as ch-std / 'Chappe' in Zurich for a cap or woolly hat (Mütze) – is Mütze also normal in Switzerland?"
+    - "Bernese lines: 'Sandra, nimm e Lismer mit! Hüt isch es chaut z Bärn.' / 'Ja, Mami, i ha dr Lismer scho.' / 'U d Rägejagge?' (Lismer BD #13182, Rägejagge BD #54895, chaut from the lexicon) – natural?"
+    - "Vocabulary gswZh forms without a source (please tick or correct): Chleid, Hose, Schue, Socke, Mantel, Schal, Wulche, Wind, sunnig, windig, bewölkt, Gwitter, Grad, aaprobiere, träge (er treit?), Grössi."
+
+intro:
+  scene: >-
+    A cold Saturday in November. Tom needs a warm jacket and goes to a clothes shop in Zurich.
+    The shop assistant speaks Swiss Standard German.
+  dialogue:
+    - speaker: Verkäuferin
+      text: Guten Tag! Kann ich Ihnen helfen?
+      en: Hello! Can I help you?
+      variety: ch-std
+    - speaker: Tom
+      text: Ja, gern. Ich suche eine Jacke. Es ist jetzt so kalt!
+      en: Yes, please. I'm looking for a jacket. It's so cold now!
+    - speaker: Verkäuferin
+      text: Welche Farbe möchten Sie?
+      en: Which colour would you like?
+      variety: ch-std
+    - speaker: Tom
+      text: Blau oder schwarz.
+      en: Blue or black.
+    - speaker: Verkäuferin
+      text: Wie finden Sie diese Jacke hier? Sie ist sehr warm.
+      en: What do you think of this jacket here? It's very warm.
+      variety: ch-std
+    - speaker: Tom
+      text: Schön! Kann ich sie anprobieren? Welche Größe ist das?
+      en: Nice! Can I try it on? What size is it?
+    - speaker: Verkäuferin
+      text: Das ist Grösse M. Die Kabine ist dort hinten.
+      en: That's size M. The changing room is at the back over there.
+      variety: ch-std
+    - speaker: Tom
+      text: Hm, die Jacke ist zu klein. Haben Sie sie auch in L?
+      en: Hm, the jacket is too small. Do you have it in L too?
+    - speaker: Verkäuferin
+      text: Ja, hier ist sie in L. Oh, die steht Ihnen gut!
+      en: Yes, here it is in L. Oh, it suits you!
+      variety: ch-std
+    - speaker: Tom
+      text: Danke! Sie passt perfekt. Was kostet sie?
+      en: Thanks! It fits perfectly. How much is it?
+    - speaker: Verkäuferin
+      text: Sie kostet neunundachtzig Franken.
+      en: It costs eighty-nine francs.
+      variety: ch-std
+    - speaker: Tom
+      text: Gut, ich nehme sie. Und diesen Schal nehme ich auch. Morgen schneit es!
+      en: Good, I'll take it. And I'll take this scarf too. It's going to snow tomorrow!
+
+grammar:
+  - id: accusative-pronouns
+    title: "Personal pronouns in the accusative: mich, dich, ihn, sie, es"
+    body: >-
+      When a person or thing is the **object** of the verb, the pronoun changes: *Ich sehe **dich**.*
+      (I see you.) *Kannst du **mich** anrufen?* (Can you call me?)
+
+
+      For things, the pronoun follows the **gender of the noun**, not "it": *der Mantel → Ich nehme
+      **ihn**.* (I'll take it.) *die Jacke → Ich probiere **sie** an.* *das Hemd → Ich kaufe **es**.*
+      Plural: *die Schuhe → Ich nehme **sie**.*
+
+
+      Only **er → ihn** looks really new; it matches the article: *der → den, er → ihn*. *sie, es, sie, Sie*
+      stay the same. The pronoun stands **early** in the sentence, before time words and before *nicht*:
+      *Ich kaufe **ihn** heute nicht.*
+    tables:
+      - [["Nominative", "Accusative", "Example"],
+         ["ich", "mich", "Besuchst du mich?"],
+         ["du", "dich", "Ich rufe dich an."],
+         ["er (der Mantel)", "ihn", "Ich nehme ihn."],
+         ["sie (die Jacke)", "sie", "Ich probiere sie an."],
+         ["es (das Hemd)", "es", "Ich kaufe es."],
+         ["wir", "uns", "Besucht ihr uns?"],
+         ["ihr", "euch", "Ich sehe euch morgen."],
+         ["sie (plural) / Sie", "sie / Sie", "Ich nehme sie. Kann ich Sie anrufen?"]]
+    commonMistakes:
+      - "*Der Mantel ist schön. Ich nehme es.* → **Ich nehme ihn.** der Mantel is masculine, so *it* is ihn."
+      - "*Ich nehme er.* → **Ich nehme ihn.** After nehmen you need the accusative."
+      - "*Ich rufe an dich.* → **Ich rufe dich an.** The pronoun goes before the prefix."
+      - "*Kannst du mir anrufen?* → **Kannst du mich anrufen?** In Standard German anrufen takes the accusative (Swiss German says *mir* – see the Swiss lane in unit 9)."
+
+  - id: welcher-dieser
+    title: "welcher? and dieser: which? – this one"
+    body: >-
+      **welch-** (which?) and **dies-** (this, these) take the **same endings as der / die / das**:
+      der → welch**er** / dies**er**, die → welch**e** / dies**e**, das → welch**es** / dies**es**, plural die →
+      welch**e** / dies**e**.
+
+
+      In the **accusative**, only the masculine changes, as always: *den → welch**en** / dies**en***:
+      ***Welchen** Pullover nimmst du? – **Diesen** hier.*
+
+
+      *dies-* can stand alone when the noun is clear: *Welche Jacke? – **Diese**.* Add *hier* or *da* when
+      you point: *diese hier*.
+    tables:
+      - [["", "der (m)", "die (f)", "das (n)", "die (plural)"],
+         ["Nominative", "welcher / dieser", "welche / diese", "welches / dieses", "welche / diese"],
+         ["Accusative", "welchen / diesen", "welche / diese", "welches / dieses", "welche / diese"]]
+    commonMistakes:
+      - "*Welche Pullover nimmst du?* (one pullover) → **Welchen Pullover nimmst du?** der Pullover, accusative: welchen."
+      - "*Ich nehme dieser Rock.* → **Ich nehme diesen Rock.** Object of nehmen, masculine: diesen."
+      - "*Dieses Jacke* → **diese Jacke.** -es is only for das-words (dieses Hemd)."
+
+  - id: colours-zu-adjective
+    title: "Colours, adjectives after sein, and zu (too)"
+    body: >-
+      After **sein**, adjectives and colours have **no ending** (unit 6): *Die Jacke **ist** blau. Die Schuhe
+      **sind** schwarz.*
+
+
+      **zu** + adjective = *too*: *Die Hose ist **zu** lang. Der Mantel ist **zu** teuer.* Compare **sehr**
+      (very): *sehr schön* is good news, *zu klein* is a problem.
+
+
+      Two shop chunks with **passen** (to fit) and **stehen** (to suit): *Die Jacke **passt** (mir).* (It
+      fits.) *Das **steht** dir / Ihnen gut!* (That suits you!) Learn *mir, dir, Ihnen* here as part of the
+      chunk – the dative comes in A2.
+
+
+      Colours: *rot, blau, grün, gelb, schwarz, weiß, grau, braun*. Ask ***Welche Farbe** hat ...?* or
+      *In **welcher Farbe**?* (chunk). Sizes: *Welche **Größe** haben Sie? – Größe M / 38 / 42.*
+    tables:
+      - [["Colour", "English", "Example"],
+         ["rot", "red", "Die Mütze ist rot."],
+         ["blau", "blue", "Die Jeans ist blau."],
+         ["grün", "green", "Das Kleid ist grün."],
+         ["gelb", "yellow", "Der Pulli ist gelb."],
+         ["schwarz", "black", "Die Schuhe sind schwarz."],
+         ["weiß", "white", "Das Hemd ist weiß."],
+         ["grau", "grey", "Der Mantel ist grau."],
+         ["braun", "brown", "Die Hose ist braun."]]
+    commonMistakes:
+      - "*Die Jacke ist blaue.* → **Die Jacke ist blau.** No ending after sein."
+      - "*Die Hose ist auch lang* (meaning too long) → **Die Hose ist zu lang.** auch = also, zu = too."
+      - "*Das passt dich gut.* → **Das steht dir gut.** stehen = to suit (colour, style); passen = to fit (size). Both take dir/mir."
+
+  - id: weather-forecast
+    title: "The weather forecast: sonnig, bewölkt, 20 Grad"
+    body: >-
+      You know *es regnet, es schneit, es ist kalt* (unit 7). For a forecast, add adjectives with **-ig**
+      from nouns: *die Sonne → **sonnig**, der Wind → **windig***, and **bewölkt** (cloudy, from *die
+      Wolke*).
+
+
+      **Temperatures:** *Es sind zwanzig **Grad**.* (It's 20 degrees.) *minus fünf Grad* (−5 °C). *Wie viel
+      Grad sind es?* Grad has no plural ending: *zwei Grad, zwanzig Grad*.
+
+
+      Forecasts use the **present tense** for the future and put the time first: ***Morgen** ist es
+      sonnig. **Am Sonntag** regnet es.*
+    tables:
+      - [["Noun", "Adjective / verb", "Sentence"],
+         ["die Sonne", "sonnig", "Es ist sonnig."],
+         ["der Wind", "windig", "Es ist windig."],
+         ["die Wolke", "bewölkt", "Es ist bewölkt."],
+         ["der Regen", "regnen", "Es regnet."],
+         ["der Schnee", "schneien", "Es schneit."],
+         ["das Gewitter", "–", "Es gibt ein Gewitter."]]
+    commonMistakes:
+      - "*Es ist 20 Grade.* → **Es sind 20 Grad.** No plural ending; many speakers say *Es sind ...*."
+      - "*Es ist Sonne.* → **Es ist sonnig.** / **Die Sonne scheint.**"
+      - "*Morgen es regnet.* → **Morgen regnet es.** Verb second after a time word."
+
+reading:
+  title: "Das Wetter am Wochenende"
+  text: >-
+    Am Samstag ist es in der ganzen Schweiz sonnig. In Zürich und Bern sind es am Nachmittag 14 Grad,
+    im Tessin sogar 19 Grad. In den Bergen ist es kalt: Auf 2000 Metern sind es nur zwei Grad, und am
+    Abend kommt Wind.
+
+
+    Am Sonntag ist es bewölkt. Am Morgen regnet es in Basel und Zürich, am Nachmittag gibt es im Tessin
+    vielleicht ein Gewitter. In den Alpen schneit es über 1500 Metern. Es sind nur acht bis zehn Grad.
+
+
+    Unser Tipp: Am Samstag können Sie wandern – aber nehmen Sie eine warme Jacke und eine Mütze mit! Am
+    Sonntag brauchen Sie einen Regenschirm.
+  en: >-
+    On Saturday it's sunny all over Switzerland. In Zurich and Bern it's 14 degrees in the afternoon, in
+    Ticino even 19 degrees. In the mountains it's cold: at 2,000 metres it's only two degrees, and in the
+    evening the wind picks up.
+
+
+    On Sunday it's cloudy. In the morning it rains in Basel and Zurich, in the afternoon there may be a
+    thunderstorm in Ticino. In the Alps it snows above 1,500 metres. It's only eight to ten degrees.
+
+
+    Our tip: on Saturday you can go hiking – but take a warm jacket and a hat! On Sunday you'll need an
+    umbrella.
+
+swiss:
+  scene: >-
+    Monday morning in Sandra and Reto's shared flat in Zurich. Sandra wants to leave for work, but it's
+    pouring with rain. Listen for chalt, es schiffet, Jagge and Finke. Then Sandra's mother calls from
+    Bern.
+  dialogue:
+    - speaker: Reto
+      text: Lueg emal use, es schiffet!
+      en: Look outside, it's pouring!
+      variety: gsw-zh
+    - speaker: Sandra
+      text: Oh nei! Und ich ha kei Rägejagge.
+      en: Oh no! And I haven't got a rain jacket.
+      variety: gsw-zh
+    - speaker: Reto
+      text: Nimm mini! Si hanget im Gang.
+      en: Take mine! It's hanging in the hall.
+      variety: gsw-zh
+    - speaker: Sandra
+      text: Die isch mer aber z gross.
+      en: But it's too big for me.
+      variety: gsw-zh
+    - speaker: Reto
+      text: Egal, si isch warm. Hüt isch es mega chalt, nur drü Grad.
+      en: Never mind, it's warm. It's really cold today, only three degrees.
+      variety: gsw-zh
+    - speaker: Sandra
+      text: Guet, ich nimm si. Merci! Und wo sind mini Finke?
+      en: OK, I'll take it. Thanks! And where are my slippers?
+      variety: gsw-zh
+    - speaker: Reto
+      text: Under em Sofa. Und dis neue Jäggli staht dir übrigens guet!
+      en: Under the sofa. And by the way, your new little jacket suits you!
+      variety: gsw-zh
+    - speaker: Sandra
+      text: Merci! Aber es isch tüür gsii.
+      en: Thanks! But it was expensive.
+      variety: gsw-zh
+    - speaker: Mami
+      text: Sandra, nimm e Lismer mit! Hüt isch es chaut z Bärn.
+      en: Sandra, take a jumper! It's cold in Bern today.
+      variety: gsw-be
+    - speaker: Sandra
+      text: Ja, Mami, i ha dr Lismer scho.
+      en: Yes, Mum, I've already got the jumper.
+      variety: gsw-be
+  notes:
+    - >-
+      **chalt** (kalt) and **heiss** (heiß) – Swiss German has no ß. *Es isch mega chalt* = it's really
+      cold. Bernese says **chaut**: the l becomes a vowel (*alt → aut, Milch → Miuch*).
+    - >-
+      **Es schiffet!** = it's pouring with rain. It's colloquial and a bit cheeky (in German slang *schiffen*
+      also means *to pee*), so say *es rägnet* in polite company. The cold north-east wind is **d Bise**,
+      the warm, dry wind from the south is **de Föhn** (also the word for a hairdryer) – both are normal
+      words in Swiss Standard German too.
+    - >-
+      **Clothes:** *d Jagge* (Jacke) and the diminutive **s Jäggli** (a light or small jacket – you'll meet
+      *-li* properly in A2), **d Finke** (slippers – Swiss homes are shoe-free, and guests often get Finke),
+      **de Lismer** / **de Pulli** (jumper), *s Chleid*, *d Hose*, *d Schue*. In Swiss Standard German a
+      skirt is often **der Jupe** and a vest or sports shirt **das Leibchen**.
+    - >-
+      **Das staht dir guet!** = Das steht dir gut! (stah = stehen). *Die isch mer z gross* = Die ist mir zu
+      groß. Notice **z** for *zu* and **mer** for *mir*.
+    - >-
+      **tüür** = teuer, *billig* is the same. *Es isch tüür gsii* = it was expensive – Swiss German uses
+      the Perfekt (*isch gsii*) for the past; you learn it in A2.
+    - >-
+      **Bernese** (Sandra's mother): **e Lismer** (a knitted jumper, berndeutsch.ch), **chaut** (kalt), **z
+      Bärn** (in Bern), **i ha** (ich habe), **dr** (der). The Bernese rain jacket is **d Rägejagge** – the
+      same word as in Zurich.

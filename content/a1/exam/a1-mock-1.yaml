@@ -1,0 +1,873 @@
+# Doppelpunkt A1 Modelltest 1 – original items in the format of Goethe-Zertifikat A1: Start Deutsch 1
+# (also telc Deutsch A1). Format sources and scoring notes: docs/EXAMS.md. No item, text or audio script
+# is copied or adapted from a publisher; only the task types, timing and point structure follow the
+# public exam descriptions. Vocabulary and grammar: A1 units 1–12.
+id: a1-mock-1
+level: A1
+title: "A1 Modelltest 1 (Start Deutsch 1 format)"
+format: goethe
+passMark: 0.6
+sections:
+  # ===================================================================== HÖREN (20 min, 15 points)
+  - id: hoeren-1
+    skill: listening
+    title: "Hören, Teil 1"
+    minutes: 7
+    instructions: >-
+      **Doppelpunkt practice test – not an official exam.** It follows the format of Goethe-Zertifikat A1:
+      Start Deutsch 1; all texts and items are our own.
+
+
+      **Hören, Teil 1.** *Sie hören sechs kurze Gespräche. Zu jedem Gespräch gibt es eine Frage. Wählen Sie
+      a, b oder c.* You hear six short conversations. Choose the right answer for each one. In the real
+      exam you hear each conversation **twice**.
+    stimulus:
+      title: Sechs kurze Gespräche
+      variety: de
+      text: |
+        Sprecher: Gespräch 1.
+        Frau: Entschuldigung, wo finde ich hier die Milch?
+        Mann: Die Milch? Gehen Sie geradeaus, dann hinten links, beim Käse.
+        Frau: Hinten links. Vielen Dank!
+
+        Sprecher: Gespräch 2.
+        Mann: Hallo, ich habe eine Frage. Wann beginnt der Deutschkurs am Montag?
+        Frau: Um halb sieben am Abend.
+        Mann: Um halb sieben, also 18.30 Uhr?
+        Frau: Ja, genau. Und er ist bis 20 Uhr.
+
+        Sprecher: Gespräch 3.
+        Frau: So, was möchtest du trinken? Einen Kaffee?
+        Mann: Nein, danke, heute keinen Kaffee. Ich nehme einen Tee mit Milch.
+        Frau: Gut, und ich nehme ein Wasser.
+
+        Sprecher: Gespräch 4.
+        Mann: Entschuldigung, kostet die Jacke hier 79 Euro?
+        Frau: Normal ja, aber heute kostet sie nur 59 Euro.
+        Mann: 59 Euro? Super, dann nehme ich sie.
+
+        Sprecher: Gespräch 5.
+        Frau: Und, wie ist deine neue Wohnung?
+        Mann: Sehr schön! Sie hat drei Zimmer und einen Balkon. Aber sie hat keinen Garten.
+        Frau: Und wo ist sie?
+        Mann: In der Gartenstraße, Nummer 8.
+
+        Sprecher: Gespräch 6.
+        Frau: Zahnarztpraxis Dr. Wolf, guten Tag.
+        Mann: Guten Tag, hier ist Peter Klein. Ich habe Zahnschmerzen. Kann ich heute kommen?
+        Frau: Heute geht es leider nicht. Morgen um zehn Uhr?
+        Mann: Morgen um zehn, ja, das passt. Danke!
+    points: [1, 1, 1, 1, 1, 1]
+    exercises:
+      - id: a1-mock1-h1-milch
+        type: mcq
+        skill: listening
+        variety: de
+        grammar: [directions-chunks]
+        prompt: "Gespräch 1 – listen and choose the right answer."
+        transcript: |-
+          Frau: Entschuldigung, wo finde ich hier die Milch?
+          Mann: Die Milch? Gehen Sie geradeaus, dann hinten links, beim Käse.
+          Frau: Hinten links. Vielen Dank!
+        question: Wo ist die Milch?
+        options: ["Vorne rechts", "Hinten links", "Bei der Kasse"]
+        answer: 1
+        rationales: ["Vorne (at the front) is not mentioned.", "Correct: hinten links, beim Käse.", "Die Kasse is not mentioned; the milk is near the cheese."]
+        explanation: >-
+          "Gehen Sie geradeaus, dann hinten links, beim Käse." Distractors use other place words; listen for
+          the direction words (links / rechts, vorne / hinten).
+
+      - id: a1-mock1-h1-kurs
+        type: mcq
+        skill: listening
+        variety: de
+        grammar: [telling-time]
+        prompt: "Gespräch 2 – listen and choose the right answer."
+        transcript: |-
+          Mann: Hallo, ich habe eine Frage. Wann beginnt der Deutschkurs am Montag?
+          Frau: Um halb sieben am Abend.
+          Mann: Um halb sieben, also 18.30 Uhr?
+          Frau: Ja, genau. Und er ist bis 20 Uhr.
+        question: Wann beginnt der Kurs?
+        options: ["Um 18.30 Uhr", "Um 17.30 Uhr", "Um 20 Uhr"]
+        answer: 0
+        rationales: ["Correct: halb sieben = 18.30 Uhr.", "17.30 would be halb sechs.", "20 Uhr is when the course ends."]
+        explanation: >-
+          halb sieben = 6.30, half TO seven (unit 4); the man repeats it as 18.30 Uhr. 20 Uhr is the end of the
+          course.
+
+      - id: a1-mock1-h1-trinken
+        type: mcq
+        skill: listening
+        variety: de
+        grammar: [nicht-kein, accusative-indefinite]
+        prompt: "Gespräch 3 – listen and choose the right answer."
+        transcript: |-
+          Frau: So, was möchtest du trinken? Einen Kaffee?
+          Mann: Nein, danke, heute keinen Kaffee. Ich nehme einen Tee mit Milch.
+          Frau: Gut, und ich nehme ein Wasser.
+        question: Was trinkt der Mann?
+        options: ["Einen Kaffee", "Ein Wasser", "Einen Tee mit Milch"]
+        answer: 2
+        rationales: ["He says heute keinen Kaffee.", "The woman orders the water.", "Correct: Ich nehme einen Tee mit Milch."]
+        explanation: >-
+          "Heute keinen Kaffee. Ich nehme einen Tee mit Milch." The woman orders the water. kein negates the
+          coffee – a typical distractor.
+
+      - id: a1-mock1-h1-jacke
+        type: mcq
+        skill: listening
+        variety: de
+        grammar: [numbers]
+        prompt: "Gespräch 4 – listen and choose the right answer."
+        transcript: |-
+          Mann: Entschuldigung, kostet die Jacke hier 79 Euro?
+          Frau: Normal ja, aber heute kostet sie nur 59 Euro.
+          Mann: 59 Euro? Super, dann nehme ich sie.
+        question: Wie viel kostet die Jacke heute?
+        options: ["79 Euro", "59 Euro", "95 Euro"]
+        answer: 1
+        rationales: ["79 Euro is the normal price.", "Correct: heute nur 59 Euro.", "95 is 59 the wrong way round."]
+        explanation: >-
+          "Normal ja (79), aber heute kostet sie nur 59 Euro." neunundfünfzig: the ones come first. 95 sounds
+          like 59 read backwards – a number trap.
+
+      - id: a1-mock1-h1-wohnung
+        type: mcq
+        skill: listening
+        variety: de
+        grammar: [es-gibt, nicht-kein]
+        prompt: "Gespräch 5 – listen and choose the right answer."
+        transcript: |-
+          Frau: Und, wie ist deine neue Wohnung?
+          Mann: Sehr schön! Sie hat drei Zimmer und einen Balkon. Aber sie hat keinen Garten.
+          Frau: Und wo ist sie?
+          Mann: In der Gartenstraße, Nummer 8.
+        question: Was hat die Wohnung?
+        options: ["Zwei Zimmer und einen Garten", "Drei Zimmer und einen Garten", "Drei Zimmer und einen Balkon"]
+        answer: 2
+        rationales: ["Three rooms, and no garden.", "sie hat keinen Garten – Gartenstraße is only the street.", "Correct: drei Zimmer und einen Balkon."]
+        explanation: >-
+          "Sie hat drei Zimmer und einen Balkon. Aber sie hat keinen Garten." The street name Gartenstraße is a
+          trap for the word Garten.
+
+      - id: a1-mock1-h1-termin
+        type: mcq
+        skill: listening
+        variety: de
+        grammar: [time-adverbs, telling-time]
+        prompt: "Gespräch 6 – listen and choose the right answer."
+        transcript: |-
+          Frau: Zahnarztpraxis Dr. Wolf, guten Tag.
+          Mann: Guten Tag, hier ist Peter Klein. Ich habe Zahnschmerzen. Kann ich heute kommen?
+          Frau: Heute geht es leider nicht. Morgen um zehn Uhr?
+          Mann: Morgen um zehn, ja, das passt. Danke!
+        question: Wann hat Herr Klein den Termin?
+        options: ["Morgen um zehn Uhr", "Heute um zehn Uhr", "Morgen um zwei Uhr"]
+        answer: 0
+        rationales: ["Correct: Morgen um zehn – das passt.", "Heute geht es leider nicht.", "zehn, not zwei."]
+        explanation: >-
+          "Heute geht es leider nicht. Morgen um zehn Uhr?" – "Ja, das passt." Heute is mentioned but rejected.
+
+  - id: hoeren-2
+    skill: listening
+    title: "Hören, Teil 2"
+    minutes: 5
+    instructions: >-
+      **Hören, Teil 2.** *Sie hören vier Durchsagen. Sind die Sätze richtig oder falsch?* You hear four
+      announcements (station, supermarket, language school, radio). Is each statement right or wrong? In the
+      real exam you hear each announcement **only once**.
+    stimulus:
+      title: Vier Durchsagen
+      variety: ch-std
+      text: |
+        Sprecher: Durchsage 1.
+        Sprecherin: Information am Gleis 7: Der Zug nach Bern fährt heute zehn Minuten später ab. Neue Abfahrt: 14.42 Uhr.
+
+        Sprecher: Durchsage 2.
+        Sprecher: Liebe Kundinnen und Kunden, heute im Angebot: ein Kilo Tomaten für nur zwei Franken fünfzig. Unser Supermarkt schliesst heute um 20 Uhr.
+
+        Sprecher: Durchsage 3.
+        Sprecherin: Information für die Kursteilnehmer: Der Deutschkurs A1 ist heute nicht im Zimmer 12. Der Kurs ist heute im Zimmer 21, im zweiten Stock.
+
+        Sprecher: Durchsage 4.
+        Sprecher: Und jetzt das Wetter für morgen: In der ganzen Schweiz ist es sonnig und warm, bis 24 Grad. Am Abend gibt es in den Bergen vielleicht ein Gewitter.
+    points: [1, 1, 1, 1]
+    exercises:
+      - id: a1-mock1-h2-zug
+        type: mcq
+        skill: listening
+        variety: ch-std
+        grammar: [telling-time]
+        prompt: "Durchsage 1 – listen: richtig oder falsch?"
+        transcript: |-
+          Sprecherin: Information am Gleis 7: Der Zug nach Bern fährt heute zehn Minuten später ab. Neue Abfahrt: 14.42 Uhr.
+        question: Der Zug nach Bern fährt um 14.32 Uhr ab.
+        options: ["Richtig", "Falsch"]
+        answer: 1
+        rationales: ["The train leaves ten minutes later, at 14.42.", "Correct: the new time is 14.42, not 14.32."]
+        explanation: >-
+          The train leaves ten minutes later: "Neue Abfahrt: 14.42 Uhr." 14.32 would be the old time.
+
+      - id: a1-mock1-h2-supermarkt
+        type: mcq
+        skill: listening
+        variety: ch-std
+        grammar: [telling-time]
+        prompt: "Durchsage 2 – listen: richtig oder falsch?"
+        transcript: |-
+          Sprecher: Liebe Kundinnen und Kunden, heute im Angebot: ein Kilo Tomaten für nur zwei Franken fünfzig. Unser Supermarkt schliesst heute um 20 Uhr.
+        question: Der Supermarkt ist heute bis 20 Uhr offen.
+        options: ["Richtig", "Falsch"]
+        answer: 0
+        rationales: ["Correct: it closes at 20 Uhr, so it's open until then.", "schliesst um 20 Uhr = open until 20 Uhr."]
+        explanation: >-
+          "Unser Supermarkt schliesst heute um 20 Uhr" – so it is open until 8 p.m. (offen = open, schliessen =
+          to close).
+
+      - id: a1-mock1-h2-zimmer
+        type: mcq
+        skill: listening
+        variety: ch-std
+        grammar: [nicht-kein]
+        prompt: "Durchsage 3 – listen: richtig oder falsch?"
+        transcript: |-
+          Sprecherin: Information für die Kursteilnehmer: Der Deutschkurs A1 ist heute nicht im Zimmer 12. Der Kurs ist heute im Zimmer 21, im zweiten Stock.
+        question: Der Kurs ist heute im Zimmer 12.
+        options: ["Richtig", "Falsch"]
+        answer: 1
+        rationales: ["nicht im Zimmer 12 – the course is in room 21.", "Correct: today it's room 21."]
+        explanation: >-
+          "Der Deutschkurs A1 ist heute nicht im Zimmer 12 ... im Zimmer 21." Listen for nicht – and don't mix up
+          zwölf and einundzwanzig.
+
+      - id: a1-mock1-h2-wetter
+        type: mcq
+        skill: listening
+        variety: ch-std
+        grammar: [weather-forecast]
+        prompt: "Durchsage 4 – listen: richtig oder falsch?"
+        transcript: |-
+          Sprecher: Und jetzt das Wetter für morgen: In der ganzen Schweiz ist es sonnig und warm, bis 24 Grad. Am Abend gibt es in den Bergen vielleicht ein Gewitter.
+        question: Morgen ist das Wetter schön.
+        options: ["Richtig", "Falsch"]
+        answer: 0
+        rationales: ["Correct: sonnig und warm, bis 24 Grad.", "The thunderstorm is only possible in the mountains in the evening."]
+        explanation: >-
+          "Sonnig und warm, bis 24 Grad" = schönes Wetter. The possible thunderstorm is only in the mountains in
+          the evening.
+
+  - id: hoeren-3
+    skill: listening
+    title: "Hören, Teil 3"
+    minutes: 8
+    instructions: >-
+      **Hören, Teil 3.** *Sie hören fünf Nachrichten auf dem Anrufbeantworter. Wählen Sie a, b oder c.* You
+      hear five voicemail messages. Choose the right answer for each one. In the real exam you hear each
+      message **twice**.
+    stimulus:
+      title: Fünf Nachrichten
+      variety: de
+      text: |
+        Sprecher: Nachricht 1.
+        Lena: Hallo Tom, hier ist Lena. Du, morgen um sieben kann ich leider nicht, ich muss arbeiten. Geht es um acht? Ruf mich bitte an. Tschüss!
+
+        Sprecher: Nachricht 2.
+        Praxis: Guten Tag, Frau Costa, hier ist die Praxis Dr. Huber. Ihr Termin am Donnerstag geht leider nicht. Können Sie am Freitag um Viertel nach neun kommen? Bitte rufen Sie uns zurück. Die Nummer ist 0 44 3 21 54 76. Auf Wiederhören!
+
+        Sprecher: Nachricht 3.
+        Marco: Hallo Sandra, hier ist Marco. Ich bin im Supermarkt. Milch habe ich schon. Brauchen wir noch Eier für den Kuchen? Schreib mir bitte schnell eine Nachricht!
+
+        Sprecher: Nachricht 4.
+        Frau Keller: Guten Tag, hier ist Frau Keller von der Sprachschule. Eine Information zum neuen Kurs: Der Kurs beginnt nicht am dritten September, er beginnt am zehnten September. Der Kurs ist am Montag und am Mittwoch. Vielen Dank und auf Wiederhören.
+
+        Sprecher: Nachricht 5.
+        Nadine: Hallo, hier ist Nadine! Meine Party ist am Samstag um acht bei mir. Essen und Getränke haben wir genug, aber bringst du bitte Musik mit? Bis Samstag!
+    points: [1, 1, 1, 1, 1]
+    exercises:
+      - id: a1-mock1-h3-lena
+        type: mcq
+        skill: listening
+        variety: de
+        grammar: [telling-time, modal-koennen-wollen]
+        prompt: "Nachricht 1 – listen and choose the right answer."
+        transcript: |-
+          Lena: Hallo Tom, hier ist Lena. Du, morgen um sieben kann ich leider nicht, ich muss arbeiten. Geht es um acht? Ruf mich bitte an. Tschüss!
+        question: Wann möchte Lena Tom treffen?
+        options: ["Um sieben", "Um neun", "Um acht"]
+        answer: 2
+        rationales: ["Lena can't at seven.", "Nine is not mentioned.", "Correct: Geht es um acht?"]
+        explanation: >-
+          "Morgen um sieben kann ich leider nicht ... Geht es um acht?" Seven is mentioned, but Lena can't then.
+
+      - id: a1-mock1-h3-praxis
+        type: mcq
+        skill: listening
+        variety: de
+        grammar: [separable-verbs-modal, imperative]
+        prompt: "Nachricht 2 – listen and choose the right answer."
+        transcript: |-
+          Praxis: Guten Tag, Frau Costa, hier ist die Praxis Dr. Huber. Ihr Termin am Donnerstag geht leider nicht. Können Sie am Freitag um Viertel nach neun kommen? Bitte rufen Sie uns zurück. Die Nummer ist 0 44 3 21 54 76. Auf Wiederhören!
+        question: Was soll Frau Costa machen?
+        options: ["Am Donnerstag kommen", "Die Praxis anrufen", "Ein Rezept holen"]
+        answer: 1
+        rationales: ["The Thursday appointment doesn't work.", "Correct: Bitte rufen Sie uns zurück.", "No prescription is mentioned."]
+        explanation: >-
+          "Bitte rufen Sie uns zurück." zurückrufen = to call back. The Thursday appointment is cancelled.
+
+      - id: a1-mock1-h3-marco
+        type: mcq
+        skill: listening
+        variety: de
+        grammar: [haben-present]
+        prompt: "Nachricht 3 – listen and choose the right answer."
+        transcript: |-
+          Marco: Hallo Sandra, hier ist Marco. Ich bin im Supermarkt. Milch habe ich schon. Brauchen wir noch Eier für den Kuchen? Schreib mir bitte schnell eine Nachricht!
+        question: Was hat Marco schon?
+        options: ["Milch", "Eier", "Einen Kuchen"]
+        answer: 0
+        rationales: ["Correct: Milch habe ich schon.", "He asks whether they still need eggs.", "The cake is still to be made."]
+        explanation: >-
+          "Milch habe ich schon. Brauchen wir noch Eier?" The eggs are a question, the cake is still to be made.
+
+      - id: a1-mock1-h3-kurs
+        type: mcq
+        skill: listening
+        variety: de
+        grammar: [dates-ordinals]
+        prompt: "Nachricht 4 – listen and choose the right answer."
+        transcript: |-
+          Frau Keller: Guten Tag, hier ist Frau Keller von der Sprachschule. Eine Information zum neuen Kurs: Der Kurs beginnt nicht am dritten September, er beginnt am zehnten September. Der Kurs ist am Montag und am Mittwoch. Vielen Dank und auf Wiederhören.
+        question: Wann beginnt der neue Kurs?
+        options: ["Am 3. September", "Am 13. September", "Am 10. September"]
+        answer: 2
+        rationales: ["nicht am dritten September.", "13 is not mentioned.", "Correct: am zehnten September."]
+        explanation: >-
+          "Nicht am dritten September, er beginnt am zehnten September." am + ordinal + -en (unit 9).
+
+      - id: a1-mock1-h3-nadine
+        type: mcq
+        skill: listening
+        variety: de
+        grammar: [separable-verbs-modal]
+        prompt: "Nachricht 5 – listen and choose the right answer."
+        transcript: |-
+          Nadine: Hallo, hier ist Nadine! Meine Party ist am Samstag um acht bei mir. Essen und Getränke haben wir genug, aber bringst du bitte Musik mit? Bis Samstag!
+        question: Was soll der Freund mitbringen?
+        options: ["Getränke", "Musik", "Essen"]
+        answer: 1
+        rationales: ["Getränke haben wir genug.", "Correct: bringst du bitte Musik mit?", "Essen haben wir genug."]
+        explanation: >-
+          "Essen und Getränke haben wir genug, aber bringst du bitte Musik mit?" aber introduces the real
+          request.
+
+  # ===================================================================== LESEN (25 min, 15 points)
+  - id: lesen-1
+    skill: reading
+    title: "Lesen, Teil 1"
+    minutes: 8
+    instructions: >-
+      **Lesen, Teil 1.** *Lesen Sie die zwei Texte. Sind die Sätze richtig oder falsch?* Read the two texts:
+      an email and a notice from a sports club. Is each statement right or wrong?
+    stimulus:
+      title: "Text A: E-Mail – Text B: Aushang"
+      variety: de
+      text: |
+        Text A
+
+        Liebe Julia,
+
+        wie geht es dir? Ich wohne jetzt in Freiburg! Meine Wohnung ist klein, aber hell, und sie hat einen Balkon. Ich arbeite in einem Hotel im Zentrum. Am Wochenende muss ich oft arbeiten, aber am Montag und am Dienstag habe ich frei. Kommst du mich im Juli besuchen? Hier gibt es viele Cafés, und wir können im Schwarzwald wandern.
+
+        Viele Grüße
+        Ana
+
+        Text B
+
+        Sportverein Freiburg-Süd
+        NEU: Yoga für Anfänger!
+        Jeden Donnerstag von 18 bis 19 Uhr in der Sporthalle an der Schulstraße.
+        10 Abende kosten 80 Euro.
+        Bitte bringen Sie eine Matte und etwas zu trinken mit.
+        Anmeldung bei Frau Brunner: Telefon 0761 45 67 89.
+    points: [1, 1, 1, 1, 1]
+    exercises:
+      - id: a1-mock1-l1-wohnt
+        type: mcq
+        skill: reading
+        variety: de
+        grammar: [regular-present]
+        prompt: Text A
+        question: Ana wohnt jetzt in Freiburg.
+        options: ["Richtig", "Falsch"]
+        answer: 0
+        rationales: ["Correct: Ich wohne jetzt in Freiburg.", "The text says she lives in Freiburg now."]
+        explanation: >-
+          "Ich wohne jetzt in Freiburg!" jetzt = now.
+
+      - id: a1-mock1-l1-wochenende
+        type: mcq
+        skill: reading
+        variety: de
+        grammar: [modal-muessen-duerfen]
+        prompt: Text A
+        question: Ana hat am Wochenende frei.
+        options: ["Richtig", "Falsch"]
+        answer: 1
+        rationales: ["She often has to work at the weekend.", "Correct: she is free on Monday and Tuesday."]
+        explanation: >-
+          "Am Wochenende muss ich oft arbeiten, aber am Montag und am Dienstag habe ich frei."
+
+      - id: a1-mock1-l1-besuch
+        type: mcq
+        skill: reading
+        variety: de
+        grammar: [w-questions]
+        prompt: Text A
+        question: Ana lädt Julia im Juli ein.
+        options: ["Richtig", "Falsch"]
+        answer: 0
+        rationales: ["Correct: Kommst du mich im Juli besuchen? is an invitation.", "Ana asks Julia to visit – that is an invitation."]
+        explanation: >-
+          "Kommst du mich im Juli besuchen?" is an invitation: Ana invites Julia to visit her in July.
+
+      - id: a1-mock1-l1-yoga-zeit
+        type: mcq
+        skill: reading
+        variety: de
+        grammar: [telling-time]
+        prompt: Text B
+        question: Der Yogakurs ist am Abend.
+        options: ["Richtig", "Falsch"]
+        answer: 0
+        rationales: ["Correct: 18 to 19 Uhr is in the evening.", "18–19 Uhr is not the morning or afternoon."]
+        explanation: >-
+          "Jeden Donnerstag von 18 bis 19 Uhr" – 6 to 7 p.m. is the evening (am Abend).
+
+      - id: a1-mock1-l1-matte
+        type: mcq
+        skill: reading
+        variety: de
+        grammar: [modal-muessen-duerfen, separable-verbs]
+        prompt: Text B
+        question: Man muss keine Matte mitbringen.
+        options: ["Richtig", "Falsch"]
+        answer: 1
+        rationales: ["Bitte bringen Sie eine Matte mit – you do need one.", "Correct: you have to bring a mat."]
+        explanation: >-
+          "Bitte bringen Sie eine Matte und etwas zu trinken mit." You do have to bring a mat.
+
+  - id: lesen-2
+    skill: reading
+    title: "Lesen, Teil 2"
+    minutes: 9
+    instructions: >-
+      **Lesen, Teil 2.** *Lesen Sie die Situationen und die Anzeigen. Wo finden Sie die Information? Wählen
+      Sie a oder b.* For each situation there are two ads or web entries. Which one helps you?
+    stimulus:
+      title: Anzeigen
+      variety: ch-std
+      text: |
+        Situation 1 – Sie möchten am Sonntag frühstücken gehen.
+        a) Café Rosengarten: Montag bis Samstag 7 bis 18 Uhr. Sonntag geschlossen.
+        b) Restaurant Seeblick: Sonntags-Brunch von 9 bis 14 Uhr, 39 Franken pro Person.
+
+        Situation 2 – Sie suchen eine Wohnung mit Balkon für Ihre Familie mit zwei Kindern.
+        a) 4½-Zimmer-Wohnung mit Balkon, ruhig, nahe Schule und Spielplatz. Mietzins Fr. 2400.– inkl. Nebenkosten.
+        b) 1-Zimmer-Studio im Zentrum, ohne Balkon, ideal für Studenten. Fr. 1100.–
+
+        Situation 3 – Sie möchten ein Velo kaufen, aber Sie haben nicht viel Geld.
+        a) Velobörse im Schulhaus: Velos aus zweiter Hand ab 80 Franken. Samstag, 9 bis 12 Uhr.
+        b) Sport Huber: neue E-Bikes ab 2900 Franken. Jetzt im Angebot!
+
+        Situation 4 – Es ist Sonntag. Sie sind krank und brauchen ein Medikament.
+        a) Apotheke am Platz: Montag bis Freitag 8 bis 18.30 Uhr, Samstag 8 bis 16 Uhr.
+        b) Notfall-Apotheke Zürich: 24 Stunden offen, auch am Sonntag. Telefon 0800 33 66 55.
+
+        Situation 5 – Sie möchten Deutsch lernen. Sie arbeiten von Montag bis Freitag am Tag.
+        a) Sprachschule Lingua: Deutsch A1 am Morgen, Montag bis Freitag, 9 bis 12 Uhr.
+        b) Volkshochschule: Deutsch A1, Dienstag und Donnerstag, 19 bis 21 Uhr.
+    points: [1, 1, 1, 1, 1]
+    exercises:
+      - id: a1-mock1-l2-fruehstueck
+        type: mcq
+        skill: reading
+        variety: ch-std
+        prompt: Situation 1
+        question: Sie möchten am Sonntag frühstücken gehen.
+        options: ["Anzeige a", "Anzeige b"]
+        answer: 1
+        rationales: ["The café is closed on Sunday.", "Correct: Sonntags-Brunch."]
+        explanation: >-
+          The café is closed on Sunday ("Sonntag geschlossen"); the restaurant has a Sunday brunch.
+
+      - id: a1-mock1-l2-wohnung
+        type: mcq
+        skill: reading
+        variety: ch-std
+        grammar: [es-gibt]
+        prompt: Situation 2
+        question: Sie suchen eine Wohnung mit Balkon für Ihre Familie.
+        options: ["Anzeige a", "Anzeige b"]
+        answer: 0
+        rationales: ["Correct: 4½ rooms with a balcony, near a school.", "A one-room studio without a balcony."]
+        explanation: >-
+          a has 4½ rooms, a balcony and a school nearby; b is a one-room studio without a balcony (ohne = without).
+          Mietzins is the Swiss word for rent (unit 6).
+
+      - id: a1-mock1-l2-velo
+        type: mcq
+        skill: reading
+        variety: ch-std
+        prompt: Situation 3
+        question: Sie möchten ein Velo kaufen, aber Sie haben nicht viel Geld.
+        options: ["Anzeige a", "Anzeige b"]
+        answer: 0
+        rationales: ["Correct: second-hand bikes from 80 francs.", "New e-bikes from 2900 francs are expensive."]
+        explanation: >-
+          Second-hand bikes (aus zweiter Hand) from 80 francs are cheaper than new e-bikes from 2900 francs. das
+          Velo = das Fahrrad (Swiss).
+
+      - id: a1-mock1-l2-apotheke
+        type: mcq
+        skill: reading
+        variety: ch-std
+        prompt: Situation 4
+        question: Es ist Sonntag. Sie brauchen ein Medikament.
+        options: ["Anzeige a", "Anzeige b"]
+        answer: 1
+        rationales: ["Open Monday to Saturday only.", "Correct: 24 hours, also on Sunday."]
+        explanation: >-
+          The pharmacy in a is closed on Sundays (it lists only Monday to Saturday). The emergency pharmacy is open
+          24 hours, also on Sunday.
+
+      - id: a1-mock1-l2-kurs
+        type: mcq
+        skill: reading
+        variety: ch-std
+        grammar: [telling-time]
+        prompt: Situation 5
+        question: Sie möchten Deutsch lernen und arbeiten am Tag.
+        options: ["Anzeige a", "Anzeige b"]
+        answer: 1
+        rationales: ["Morning classes – but you work during the day.", "Correct: evening classes, 19 to 21 Uhr."]
+        explanation: >-
+          You work during the day, so you need an evening course: 19 to 21 Uhr on Tuesday and Thursday.
+
+  - id: lesen-3
+    skill: reading
+    title: "Lesen, Teil 3"
+    minutes: 8
+    instructions: >-
+      **Lesen, Teil 3.** *Lesen Sie die Schilder und Informationen. Sind die Sätze richtig oder falsch?* Read
+      the signs and notices. Is each statement right or wrong?
+    stimulus:
+      title: Schilder und Informationen
+      variety: ch-std
+      text: |
+        Schild 1 – an der Tür eines Geschäfts:
+        Liebe Kundinnen und Kunden, wir machen Ferien! Vom 15. bis 29. Juli ist das Geschäft geschlossen. Ab 30. Juli sind wir wieder für Sie da.
+
+        Schild 2 – an der Tür einer Arztpraxis:
+        Praxis Dr. Keller: Heute, Freitag, ist die Praxis ab 12 Uhr geschlossen. Im Notfall rufen Sie bitte 144 an.
+
+        Schild 3 – am Bahnhof:
+        Billette bitte am Automaten oder in der App kaufen. Im Zug gibt es keine Billette.
+
+        Schild 4 – in der Waschküche:
+        Waschzeiten: Montag bis Samstag, 7 bis 22 Uhr. Am Sonntag bitte nicht waschen!
+
+        Schild 5 – in der Sprachschule:
+        Das Sekretariat ist jetzt im 2. Stock, Zimmer 204. Öffnungszeiten: Montag bis Freitag, 8 bis 17 Uhr.
+    points: [1, 1, 1, 1, 1]
+    exercises:
+      - id: a1-mock1-l3-ferien
+        type: mcq
+        skill: reading
+        variety: ch-std
+        grammar: [dates-ordinals]
+        prompt: Schild 1
+        question: Am 20. Juli kann man in diesem Geschäft einkaufen.
+        options: ["Richtig", "Falsch"]
+        answer: 1
+        rationales: ["The shop is closed from 15 to 29 July.", "Correct: 20 July is during the holidays."]
+        explanation: >-
+          The shop is closed from 15 to 29 July; 20 July is in between. Ferien = holidays (Swiss: Ferien, Germany
+          also Urlaub).
+
+      - id: a1-mock1-l3-praxis
+        type: mcq
+        skill: reading
+        variety: ch-std
+        grammar: [time-adverbs]
+        prompt: Schild 2
+        question: Am Freitagnachmittag ist die Praxis zu.
+        options: ["Richtig", "Falsch"]
+        answer: 0
+        rationales: ["Correct: closed from 12 Uhr on Friday.", "ab 12 Uhr geschlossen – so the afternoon is closed."]
+        explanation: >-
+          "Ab 12 Uhr geschlossen" – from noon, so in the afternoon it is closed (zu = geschlossen).
+
+      - id: a1-mock1-l3-billett
+        type: mcq
+        skill: reading
+        variety: ch-std
+        grammar: [nicht-kein]
+        prompt: Schild 3
+        question: Man kann das Billett im Zug kaufen.
+        options: ["Richtig", "Falsch"]
+        answer: 1
+        rationales: ["Im Zug gibt es keine Billette.", "Correct: buy it at the machine or in the app."]
+        explanation: >-
+          "Im Zug gibt es keine Billette." Buy at the machine (Automat) or in the app. Billett = Fahrkarte
+          (Swiss, unit 8).
+
+      - id: a1-mock1-l3-waschen
+        type: mcq
+        skill: reading
+        variety: ch-std
+        grammar: [modal-muessen-duerfen]
+        prompt: Schild 4
+        question: Am Samstag um 20 Uhr darf man waschen.
+        options: ["Richtig", "Falsch"]
+        answer: 0
+        rationales: ["Correct: Saturday 7–22 Uhr is allowed.", "Only Sunday is not allowed."]
+        explanation: >-
+          Monday to Saturday 7 a.m. to 10 p.m. – 8 p.m. on Saturday is fine. Only Sunday is not allowed.
+
+      - id: a1-mock1-l3-sekretariat
+        type: mcq
+        skill: reading
+        variety: ch-std
+        grammar: [dates-ordinals]
+        prompt: Schild 5
+        question: Das Sekretariat ist im ersten Stock.
+        options: ["Richtig", "Falsch"]
+        answer: 1
+        rationales: ["It's im 2. Stock, the second floor.", "Correct: the second floor, not the first."]
+        explanation: >-
+          "Im 2. Stock" = im zweiten Stock (second floor). The room number 204 also starts with 2.
+
+  # ===================================================================== SCHREIBEN (20 min, 15 points)
+  - id: schreiben-1
+    skill: writing
+    title: "Schreiben, Teil 1"
+    minutes: 8
+    instructions: >-
+      **Schreiben, Teil 1.** *Ihr Freund Kenji möchte einen Deutschkurs machen. Er braucht Ihre Hilfe.
+      Lesen Sie den Text und ergänzen Sie das Formular.* Fill in the five missing details of the
+      registration form from the text. 1 point per correct entry.
+    stimulus:
+      title: Kenji und der Deutschkurs
+      variety: ch-std
+      text: >-
+        Mein Freund Kenji Sato kommt aus Japan. Er ist 28 Jahre alt und wohnt jetzt in Bern, an der
+        Länggassstrasse 15, 3012 Bern. Er ist Koch und arbeitet in einem Restaurant. Am Tag muss er arbeiten,
+        darum möchte er den Deutschkurs am Abend machen. Er bezahlt den Kurs mit der Kreditkarte.
+    points: [5]
+    exercises:
+      - id: a1-mock1-s1-formular
+        type: gap
+        skill: writing
+        variety: ch-std
+        grammar: [spelling-repair]
+        prompt: "Anmeldung Deutschkurs A1 – fill in the form for Kenji."
+        text: "Name: Kenji Sato / Land: ___ / Alter: ___ / PLZ und Wohnort: ___ / Beruf: ___ / Kurszeit (Vormittag oder Abend): ___"
+        answers:
+          - ["Japan"]
+          - ["28", "28 Jahre", "achtundzwanzig", "28 Jahre alt"]
+          - ["3012 Bern", "Bern 3012", "Bern", "3012"]
+          - ["Koch"]
+          - ["Abend", "am Abend", "abends"]
+        explanation: >-
+          Copy the facts exactly from the text: aus Japan, 28 Jahre alt, 3012 Bern, Koch, am Abend. In forms,
+          single words are enough – no full sentences. PLZ = Postleitzahl (postcode).
+
+  - id: schreiben-2
+    skill: writing
+    title: "Schreiben, Teil 2"
+    minutes: 12
+    instructions: >-
+      **Schreiben, Teil 2.** *Schreiben Sie eine kurze Nachricht (circa 30 Wörter). Schreiben Sie zu allen
+      drei Punkten.* Write about 30 words and cover all three points. Up to 3 points per content point
+      and 1 point for a suitable greeting and closing (10 in total).
+    points: [10]
+    exercises:
+      - id: a1-mock1-s2-nachricht
+        type: write
+        skill: writing
+        variety: de
+        grammar: [modal-koennen-wollen, separable-verbs-modal, review-word-order]
+        prompt: Write a message to your friend Nina.
+        task: >-
+          Sie möchten am Wochenende mit Ihrer Freundin Nina wandern gehen. Schreiben Sie Nina eine Nachricht:
+          (1) Wann und wohin möchten Sie gehen? (2) Was soll Nina mitbringen? (3) Fragen Sie: Hat sie Zeit?
+        minWords: 25
+        model: >-
+          Liebe Nina, ich möchte am Sonntag mit dir wandern gehen. Wir können auf den Üetliberg gehen. Bring
+          bitte Wasser und eine Jacke mit, es ist kalt. Hast du am Sonntag Zeit? Ruf mich bitte an! Viele Grüße,
+          Sarah
+        checklist:
+          - "Point 1: I say when (am Sonntag) and where (auf den Berg / an den See) we go."
+          - "Point 2: I say what Nina should bring (Bring bitte ... mit! / Du sollst ... mitbringen.)."
+          - "Point 3: I ask whether she has time (Hast du am ... Zeit?)."
+          - I start with Liebe Nina / Hallo Nina and end with Viele Grüße / Liebe Grüße and my name.
+          - The verb is in position 2 in statements and first in yes/no questions.
+        explanation: >-
+          Scoring follows the exam idea: each content point earns full, half or no marks (3 / 1.5 / 0), plus 1 for
+          greeting and closing. Short, correct sentences beat long, wrong ones. Typical frames: Ich möchte am ...
+          wandern gehen. Bring bitte ... mit! Hast du Zeit?
+
+  # ===================================================================== SPRECHEN (15 min, 15 points)
+  - id: sprechen-1
+    skill: speaking
+    title: "Sprechen, Teil 1"
+    minutes: 4
+    instructions: >-
+      **Sprechen, Teil 1: Sich vorstellen.** *Stellen Sie sich vor.* Introduce yourself with the key words,
+      then spell your name and say a number. In the real exam this is a group exam with two examiners; here
+      Frau Keller is the examiner. Scored 0–3 by the AI tutor or by you with the checklist (goals).
+    points: [3]
+    exercises:
+      - id: a1-mock1-sp1-vorstellen
+        type: roleplay
+        skill: speaking
+        variety: de
+        tutor: keller
+        grammar: [sein-present, regular-present, haben-present, spelling-repair]
+        prompt: "Stellen Sie sich vor: Name? – Alter? – Land? – Wohnort? – Sprachen? – Beruf? – Hobby?"
+        scenario: >-
+          Frau Keller is the examiner. Introduce yourself with the seven key words (Name, Alter, Land, Wohnort,
+          Sprachen, Beruf, Hobby). Then she asks you to spell your surname and to say your phone number or your
+          house number.
+        goals:
+          - Give all seven pieces of information in short, correct sentences.
+          - Spell your surname with German letter names.
+          - Say a number clearly (telephone or house number).
+        model: |
+          Frau Keller: Bitte stellen Sie sich vor.
+          Du: Ich heiße Sarah Miller. Ich bin 34 Jahre alt. Ich komme aus Kanada und wohne jetzt in Zürich. Ich spreche Englisch, Französisch und ein bisschen Deutsch. Ich bin Ingenieurin. Mein Hobby ist Wandern.
+          Frau Keller: Danke. Wie schreibt man Ihren Familiennamen?
+          Du: M-I-L-L-E-R.
+          Frau Keller: Und wie ist Ihre Telefonnummer?
+          Du: 079 456 23 81.
+        explanation: >-
+          One key word, one sentence: Ich heiße ... Ich bin ... Jahre alt. Ich komme aus ... Ich wohne in ... Ich
+          spreche ... Ich bin ... (no article before the job). Mein Hobby ist ... / Ich ... gern. Spell with German
+          letters: I = ee, E = ay.
+
+  - id: sprechen-2
+    skill: speaking
+    title: "Sprechen, Teil 2"
+    minutes: 5
+    instructions: >-
+      **Sprechen, Teil 2: Informationen erfragen und geben.** *Fragen Sie und antworten Sie.* You get a topic
+      and a word card. Ask your partner a question with the word, then answer your partner's question. Each
+      task is scored 0–3.
+    points: [3, 3]
+    exercises:
+      - id: a1-mock1-sp2-essen
+        type: roleplay
+        skill: speaking
+        variety: de
+        tutor: lena
+        grammar: [w-questions, gern-lieber]
+        prompt: "Thema: Essen und Trinken. Your cards: Frühstück – Lieblingsessen"
+        scenario: >-
+          Lena is your exam partner. The topic is Essen und Trinken. Ask her one question with the word
+          Frühstück, then answer her question. Then ask a question with Lieblingsessen and answer hers.
+        goals:
+          - Ask a correct question with each card word (W-question or yes/no question).
+          - Answer Lena's questions in a full sentence.
+        model: |
+          Du: Was essen Sie zum Frühstück?
+          Lena: Ich esse Brot mit Butter und trinke Kaffee. Und Sie? Trinken Sie gern Tee?
+          Du: Ja, ich trinke gern Tee, am liebsten mit Milch.
+          Du: Was ist Ihr Lieblingsessen?
+          Lena: Pizza! Und was kochen Sie gern?
+          Du: Ich koche gern Pasta mit Tomaten.
+        explanation: >-
+          The card word must be in your question: Was essen Sie zum Frühstück? / Frühstücken Sie am Morgen? In
+          the exam partners usually say Sie; du is fine if the examiner allows it.
+
+      - id: a1-mock1-sp2-freizeit
+        type: roleplay
+        skill: speaking
+        variety: de
+        tutor: lena
+        grammar: [w-questions, modal-koennen-wollen, time-inversion]
+        prompt: "Thema: Freizeit. Your cards: Wochenende – Sport"
+        scenario: >-
+          Lena is your exam partner. The topic is Freizeit. Ask her one question with Wochenende and one with
+          Sport, and answer her two questions.
+        goals:
+          - Ask a correct question with each card word.
+          - Answer Lena's questions in a full sentence.
+        model: |
+          Du: Was machen Sie am Wochenende?
+          Lena: Am Wochenende gehe ich oft wandern. Und Sie? Was machen Sie am Abend?
+          Du: Am Abend lese ich oder ich sehe fern.
+          Du: Machen Sie gern Sport?
+          Lena: Ja, ich schwimme gern. Können Sie Ski fahren?
+          Du: Nein, ich kann nicht Ski fahren, aber ich fahre gern Velo.
+        explanation: >-
+          After a time word the verb comes second: Am Wochenende gehe ich ... Modal verbs send the infinitive to
+          the end: Ich kann nicht Ski fahren.
+
+  - id: sprechen-3
+    skill: speaking
+    title: "Sprechen, Teil 3"
+    minutes: 6
+    instructions: >-
+      **Sprechen, Teil 3: Bitten formulieren und darauf reagieren.** *Bitten Sie Ihren Partner um etwas und
+      reagieren Sie.* You get two cards (in the real exam: pictures). Make a polite request for each card,
+      and react to your partner's requests. Each task is scored 0–3.
+    points: [3, 3]
+    exercises:
+      - id: a1-mock1-sp3-fenster
+        type: roleplay
+        skill: speaking
+        variety: de
+        tutor: lena
+        grammar: [modal-koennen-wollen, imperative, separable-verbs-modal]
+        prompt: "Your cards: [a window] – [a glass of water]"
+        scenario: >-
+          It is warm in the room. Ask Lena politely to open the window, and ask for a glass of water. Then react
+          to her request (she asks you for a pen).
+        goals:
+          - Make two polite requests (Können Sie bitte ...? / ..., bitte.).
+          - React to Lena's request (Ja, gern. Hier, bitte. / Tut mir leid, ...).
+        model: |
+          Du: Können Sie bitte das Fenster aufmachen? Es ist so warm.
+          Lena: Ja, natürlich.
+          Du: Und ich möchte bitte ein Glas Wasser.
+          Lena: Hier, bitte. Haben Sie einen Kugelschreiber für mich?
+          Du: Ja, hier, bitte.
+        explanation: >-
+          Polite requests: Können Sie bitte ... + infinitive at the end? Ich möchte bitte ... / Ich hätte gern ...
+          Or a Sie-imperative with bitte: Machen Sie bitte das Fenster auf! Reactions: Ja, gern. Hier, bitte. Tut mir
+          leid, ich habe keinen ...
+
+      - id: a1-mock1-sp3-telefon
+        type: roleplay
+        skill: speaking
+        variety: de
+        tutor: lena
+        grammar: [modal-koennen-wollen, spelling-repair, imperative]
+        prompt: "Your cards: [a telephone number] – [a person speaking fast]"
+        scenario: >-
+          Ask Lena for her telephone number. She speaks very fast, so ask her to repeat it slowly. Then react to
+          her request (she asks you to call her tomorrow).
+        goals:
+          - Ask for the phone number politely.
+          - Ask Lena to repeat or speak more slowly.
+          - React to her request.
+        model: |
+          Du: Wie ist bitte Ihre Telefonnummer?
+          Lena: Null-sieben-neun-drei-vier-fünf-sechs-null-eins-zwei.
+          Du: Wie bitte? Können Sie das bitte langsam wiederholen?
+          Lena: Gern: 079 345 60 12. Rufen Sie mich bitte morgen an!
+          Du: Ja, gern. Ich rufe Sie morgen an.
+        explanation: >-
+          Asking for help is a task in itself here: Wie bitte? Können Sie das bitte wiederholen? Bitte langsam!
+          Answer requests with Ja, gern / Natürlich / Kein Problem.

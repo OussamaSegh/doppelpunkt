@@ -59,6 +59,11 @@ const base = {
   /** Grammar point ids this item practises; feeds the error profile. */
   grammar: z.array(z.string()).default([]),
   audio,
+  /**
+   * What the learner hears in a listening item (one speaker label per line). Read aloud by
+   * TTS / recorded as audio, and shown only after answering (or in the exam review).
+   */
+  transcript: z.string().optional(),
 };
 
 export const MultipleChoice = z.object({
@@ -220,6 +225,8 @@ export const LevelPack = z.object({
   version: z.string(),
   builtAt: z.string(),
   units: z.array(CompiledUnit),
+  /** Mock exams for the level (v0.4+). */
+  exams: z.array(z.lazy(() => MockExam)).default([]),
 });
 export type LevelPack = z.infer<typeof LevelPack>;
 
@@ -264,3 +271,35 @@ export const PronunciationPack = z.object({
   drills: z.array(PronunciationDrill),
 });
 export type PronunciationPack = z.infer<typeof PronunciationPack>;
+
+/**
+ * Mock exam (content/<level>/exam/<id>.yaml): original items in the format of the
+ * Goethe / telc / ÖSD papers for that level. Never copy publishers' items.
+ */
+export const ExamSection = z.object({
+  id,
+  /** Hören, Lesen, Schreiben, Sprechen. */
+  skill: z.enum(['listening', 'reading', 'writing', 'speaking']),
+  title: z.string(),
+  minutes: z.number().int().positive(),
+  /** Markdown instructions in English (with the German rubric line as in real papers). */
+  instructions: z.string(),
+  /** Optional shared stimulus (text or transcript) for the section's items. */
+  stimulus: z.object({ title: z.string().optional(), text: z.string(), variety: Variety.default('de'), audio }).optional(),
+  exercises: z.array(Exercise).min(1),
+  /** Points per exercise; defaults to 1 each. Open tasks are scored 0–maxPoints by AI or self-assessment. */
+  points: z.array(z.number().nonnegative()).optional(),
+});
+export type ExamSection = z.infer<typeof ExamSection>;
+
+export const MockExam = z.object({
+  id,
+  level: Level,
+  title: z.string(),
+  /** Which exam family the format follows, for orientation only. */
+  format: z.enum(['goethe', 'telc', 'osd', 'generic']).default('generic'),
+  /** Fraction of total points needed to pass, e.g. 0.6. */
+  passMark: z.number().min(0).max(1).default(0.6),
+  sections: z.array(ExamSection).min(1),
+});
+export type MockExam = z.infer<typeof MockExam>;

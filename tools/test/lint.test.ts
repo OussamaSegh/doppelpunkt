@@ -125,6 +125,24 @@ describe('lint rules', () => {
     expect(warns).toMatch(/audio file audio\/missing\.mp3 does not exist yet/);
     expect(warns).not.toMatch(/here\.mp3/);
   });
+  it('warns when a listening item shows what is said or has nothing to hear', () => {
+    const lis = (id: string, over: Record<string, unknown>) => ({ prompt: 'Listen.', explanation: 'Because.', id, type: 'mcq', skill: 'listening', options: ['a', 'b'], answer: 1, ...over });
+    writeUnit(f, 'A1', 1, {
+      exercises: [
+        ...exercises('a1-u1'),
+        lis('a1-u1-quote', { prompt: 'Reto says: "Grüezi!" What does he mean?' }),
+        lis('a1-u1-silent', { prompt: 'What does he mean?' }),
+        lis('a1-u1-ok-transcript', { prompt: 'Listen to Reto. What does he mean?', transcript: 'Reto: Grüezi!' }),
+        lis('a1-u1-ok-dialogue', { prompt: 'Listen to the intro dialogue. Who is Tom?' }),
+        lis('a1-u1-ok-audio', { prompt: 'What does he mean?', audio: 'https://cdn.example/x.mp3' }),
+      ],
+    });
+    const warns = messages(lintContent(f.content, f.root), 'warning');
+    expect(warns.filter((w) => /listening item/.test(w))).toEqual([
+      'content/a1/unit-01/exercises.yaml [7] (id: a1-u1-quote): listening item quotes what is said in its prompt (shown on screen); move it to transcript: and keep a short question',
+      'content/a1/unit-01/exercises.yaml [8] (id: a1-u1-silent): listening item has no audio, no transcript and no stimulus; there is nothing to hear',
+    ]);
+  });
   it('counts gaps', () => {
     expect(countGaps('a ___ b ___')).toBe(2);
     expect(countGaps('none')).toBe(0);

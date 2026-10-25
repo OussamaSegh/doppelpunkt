@@ -523,7 +523,10 @@
   skill: listening
   variety: gsw-zh
   grammar: [sollen]
-  prompt: "Sandra asks: \"Söll ich öppis mitbringe?\" What does Reto want her to bring?"
+  prompt: "Sandra asks whether she should bring something. What does Reto want her to bring?"
+  transcript: |-
+    Sandra: Gärn! Söll ich öppis mitbringe?
+    Reto: Nei, nüt. Oder doch – e Fläsche Wii!
   options: ["A bottle of wine", "Nothing at all", "A cake", "Some bread"]
   answer: 0
   explanation: >-
@@ -574,7 +577,9 @@
   skill: listening
   variety: gsw-be
   grammar: [dates-ordinals]
-  prompt: "Sandra's mother: \"Am vierte Juli het dr Ätti Geburtstag.\" Whose birthday is it, and when?"
+  prompt: "Listen to Sandra's mother. Whose birthday is it, and when?"
+  transcript: |-
+    Mami: Am vierte Juli het dr Ätti Geburtstag.
   options: ["Sandra's mother's, on 14 July", "Sandra's grandfather's, on 4 July", "Sandra's father's, on 4 July", "Sandra's father's, on 4 June"]
   answer: 2
   explanation: >-

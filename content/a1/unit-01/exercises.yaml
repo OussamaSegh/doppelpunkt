@@ -557,7 +557,9 @@
   skill: listening
   variety: gsw-zh
   grammar: [w-questions]
-  prompt: "In the Swiss lane dialogue, Sandra asks Reto: \"Vo wo chunnsch du?\". What does she want to know?"
+  prompt: "In the Swiss lane dialogue, Sandra asks Reto a question. What does she want to know?"
+  transcript: |-
+    Sandra: Vo wo chunnsch du?
   options: ["Where he lives", "What his name is", "How he is", "Where he comes from"]
   answer: 3
   explanation: >-
@@ -569,7 +571,9 @@
   skill: listening
   variety: gsw-zh
   grammar: [du-sie]
-  prompt: "Reto asks: \"Wämmer grad Duzis mache?\" What is he suggesting?"
+  prompt: "Listen to Reto. What is he suggesting?"
+  transcript: |-
+    Reto: Wämmer grad Duzis mache?
   options: ["To meet again later", "To have a coffee", "To say du to each other", "To speak Standard German"]
   answer: 2
   explanation: >-
@@ -622,7 +626,9 @@
   type: mcq
   skill: listening
   variety: gsw-be
-  prompt: "In a shop in Bern the assistant greets you: \"Grüessech!\" What is the Zurich equivalent?"
+  prompt: "In a shop in Bern the assistant greets you. What is the Zurich equivalent?"
+  transcript: |-
+    Verkäuferin: Grüessech!
   options: ["Grüezi!", "Hoi!", "Tschou!", "Uf Widerluege!"]
   answer: 0
   rationales:

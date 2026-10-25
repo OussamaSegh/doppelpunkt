@@ -420,7 +420,6 @@
       "variety": "gsw-be",
       "voice": "be-f",
       "speaker": "Mami",
-      "voiceGuessed": true,
       "source": {
         "file": "unit.yaml",
         "pointer": [
@@ -2967,9 +2966,10 @@
     {
       "file": "ex-a1-u04-mcq-official-time.mp3",
       "kind": "listening",
-      "text": "Der Zug nach Bern fährt um zwanzig Uhr fünfundvierzig.",
+      "text": "Sprecherin: Der Zug nach Bern fährt um zwanzig Uhr fünfundvierzig.",
       "variety": "ch-std",
       "voice": "zh-f",
+      "speaker": "Sprecherin",
       "source": {
         "file": "exercises.yaml",
         "id": "a1-u04-mcq-official-time",
@@ -3069,7 +3069,7 @@
     {
       "file": "ex-a1-u04-ch-mcq-halbi.mp3",
       "kind": "listening",
-      "text": "Ich schlaf bis am halbi achti.",
+      "text": "Reto: Ich schlaf bis am halbi achti.",
       "variety": "gsw-zh",
       "voice": "zh-m",
       "speaker": "Reto",
@@ -3087,10 +3087,10 @@
     {
       "file": "ex-a1-u04-ch-be-mcq-zmorge.mp3",
       "kind": "listening",
-      "text": "Chunsch zum Zmorge?",
+      "text": "Mami: Chunsch zum Zmorge?",
       "variety": "gsw-be",
       "voice": "be-f",
-      "speaker": "Sandra",
+      "speaker": "Mami",
       "source": {
         "file": "exercises.yaml",
         "id": "a1-u04-ch-be-mcq-zmorge",

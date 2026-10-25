@@ -472,7 +472,10 @@
   type: mcq
   skill: listening
   variety: gsw-zh
-  prompt: "Listen to the Swiss lane dialogue. Sandra asks: \"Und wänn s rägnet?\" What does Reto suggest?"
+  prompt: "Listen to the Swiss lane dialogue. Sandra asks what they do if it rains. What does Reto suggest?"
+  transcript: |-
+    Sandra: Und wänn s rägnet?
+    Reto: Dänn gömmer is Kino.
   options: ["Going to the cinema", "Playing Jass", "Hiking anyway", "Going swimming"]
   answer: 0
   explanation: >-
@@ -483,7 +486,9 @@
   type: mcq
   skill: listening
   variety: gsw-zh
-  prompt: "Reto: \"Am Friitig jassed mir im Kafi. Wottsch au cho?\" What is he doing?"
+  prompt: "Listen to Reto. What is he doing?"
+  transcript: |-
+    Reto: Am Friitig jassed mir im Kafi. Wottsch au cho?
   options: ["Asking Sandra to cook on Friday", "Telling Sandra the café is closed", "Inviting Sandra to play cards on Friday", "Asking Sandra for a coffee"]
   answer: 2
   explanation: >-
@@ -574,7 +579,9 @@
   type: mcq
   skill: listening
   variety: gsw-be
-  prompt: "Sandra's mother: \"Am Sunntig wei mir i dr Aare schwümme.\" What's the plan?"
+  prompt: "Listen to Sandra's mother. What's the plan?"
+  transcript: |-
+    Mami: Am Sunntig wei mir i dr Aare schwümme.
   options: ["To go swimming in the river on Sunday", "To go hiking on Sunday", "To have breakfast on Saturday", "To go skiing in the mountains"]
   answer: 0
   explanation: >-

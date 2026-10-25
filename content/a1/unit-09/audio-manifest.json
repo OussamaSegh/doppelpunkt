@@ -440,7 +440,6 @@
       "variety": "gsw-be",
       "voice": "be-f",
       "speaker": "Mami",
-      "voiceGuessed": true,
       "source": {
         "file": "unit.yaml",
         "pointer": [
@@ -481,7 +480,6 @@
       "variety": "gsw-be",
       "voice": "be-f",
       "speaker": "Mami",
-      "voiceGuessed": true,
       "source": {
         "file": "unit.yaml",
         "pointer": [
@@ -2770,7 +2768,7 @@
     {
       "file": "ex-a1-u09-ch-mcq-soell.mp3",
       "kind": "listening",
-      "text": "Söll ich öppis mitbringe?",
+      "text": "Sandra: Gärn! Söll ich öppis mitbringe?\nReto: Nei, nüt. Oder doch – e Fläsche Wii!",
       "variety": "gsw-zh",
       "voice": "zh-f",
       "speaker": "Sandra",
@@ -2788,10 +2786,10 @@
     {
       "file": "ex-a1-u09-ch-be-mcq-birthday.mp3",
       "kind": "listening",
-      "text": "Am vierte Juli het dr Ätti Geburtstag.",
+      "text": "Mami: Am vierte Juli het dr Ätti Geburtstag.",
       "variety": "gsw-be",
       "voice": "be-f",
-      "speaker": "Sandra",
+      "speaker": "Mami",
       "source": {
         "file": "exercises.yaml",
         "id": "a1-u09-ch-be-mcq-birthday",

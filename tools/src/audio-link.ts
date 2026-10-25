@@ -6,6 +6,7 @@ import { existsSync, readFileSync, writeFileSync } from 'node:fs';
 import { join, relative, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { buildManifest, isRemote } from './audio';
+import { buildExamManifest, loadExams } from './exam';
 import { formatIssues, repoRoot, unitFolder } from './lint';
 import { loadContent } from './load';
 import { buildPronunciationManifest, loadDrills } from './pronunciation';
@@ -22,8 +23,9 @@ export function linkAudio(contentDir: string, opts: { root?: string; dryRun?: bo
   const log: string[] = [];
   let ok = true;
   const pron = loadDrills(contentDir, root);
-  const errors = [...loaded.issues, ...pron.issues].filter((i) => i.severity === 'error');
-  if (errors.length) log.push(formatIssues(errors), '\nUnits and drills with errors are skipped.');
+  const ex = loadExams(contentDir, root);
+  const errors = [...loaded.issues, ...pron.issues, ...ex.issues].filter((i) => i.severity === 'error');
+  if (errors.length) log.push(formatIssues(errors), '\nUnits, drills and exams with errors are skipped.');
   // One group per folder: entries, the folder audio paths are relative to, and the YAML file each fills.
   type Slot = { path: string; referenced: boolean; current?: string; pointer: Array<string | number> | null; base: string; yaml: string; label: string };
   const groups: Slot[][] = loaded.units.map((lu) => {
@@ -34,6 +36,10 @@ export function linkAudio(contentDir: string, opts: { root?: string; dryRun?: bo
   for (const d of pron.drills) {
     const label = relative(root, d.file) || d.file;
     groups.push(entries.filter((e) => e.drill === d.drill.id).map((e) => ({ ...e, pointer: e.source.pointer, base: d.dir, yaml: d.file, label })));
+  }
+  for (const le of ex.exams) {
+    const label = relative(root, le.file) || le.file;
+    groups.push(buildExamManifest(le.level, [le]).entries.map((e) => ({ ...e, pointer: e.source.pointer, base: le.dir, yaml: le.file, label })));
   }
   for (const entries of groups) {
     const byFile = new Map<string, LinkChange[]>();

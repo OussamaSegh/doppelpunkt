@@ -24,7 +24,7 @@ function GrammarScreen() {
     const entry = entries.find((e) => e.unit.id === unitId && e.point.id === grammarId);
     if (!entry) {
       return (
-        <EmptyState title="Grammar point not found" action={<Link className="btn-primary" to="/grammar">All grammar</Link>}>
+        <EmptyState headingLevel={1} title="Grammar point not found" action={<Link className="btn-primary" to="/grammar">All grammar</Link>}>
           This grammar point isn't in the installed lessons.
         </EmptyState>
       );

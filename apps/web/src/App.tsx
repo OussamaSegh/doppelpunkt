@@ -1,31 +1,44 @@
-import { useEffect } from 'react';
+import { lazy, Suspense, useEffect, type ComponentType } from 'react';
 import { createBrowserRouter, Navigate, Outlet, RouterProvider, useLocation } from 'react-router-dom';
 import { Layout } from './components/Layout';
-import { useContent } from './content';
 import { useSettings } from './lib/hooks';
 import { applyTheme, watchSystemTheme } from './lib/theme';
 import { Onboarding } from './screens/Onboarding';
-import { Placement } from './screens/Placement';
 import { Learn } from './screens/Learn';
-import { UnitView } from './screens/UnitView';
-import { Review } from './screens/Review';
-import { Tutor } from './screens/Tutor';
-import { Progress } from './screens/Progress';
-import { SettingsScreen } from './screens/Settings';
 import { NotFound } from './screens/NotFound';
-import { Grammar } from './screens/Grammar';
-import { Pronunciation } from './screens/Pronunciation';
 
-/** Loads content once, keeps the theme in sync and sends new learners to onboarding. */
+/** Code-splits a screen with a named export (keeps the initial bundle small; see scripts/check-budget.mjs). */
+function lazyScreen<M>(load: () => Promise<M>, name: keyof M): ComponentType {
+  const Lazy = lazy(async () => ({ default: (await load())[name] as ComponentType }));
+  return function Screen() {
+    return (
+      <Suspense
+        fallback={
+          <p role="status" className="p-6 text-center text-muted">
+            Loading…
+          </p>
+        }
+      >
+        <Lazy />
+      </Suspense>
+    );
+  };
+}
+
+const Placement = lazyScreen(() => import('./screens/Placement'), 'Placement');
+const UnitView = lazyScreen(() => import('./screens/UnitView'), 'UnitView');
+const Review = lazyScreen(() => import('./screens/Review'), 'Review');
+const Tutor = lazyScreen(() => import('./screens/Tutor'), 'Tutor');
+const Progress = lazyScreen(() => import('./screens/Progress'), 'Progress');
+const SettingsScreen = lazyScreen(() => import('./screens/Settings'), 'SettingsScreen');
+const Grammar = lazyScreen(() => import('./screens/Grammar'), 'Grammar');
+const Pronunciation = lazyScreen(() => import('./screens/Pronunciation'), 'Pronunciation');
+const Exam = lazyScreen(() => import('./screens/Exam'), 'Exam');
+
+/** Keeps the theme in sync and sends new learners to onboarding. */
 function Root() {
   const settings = useSettings();
-  const load = useContent((s) => s.load);
-  const status = useContent((s) => s.status);
   const location = useLocation();
-
-  useEffect(() => {
-    if (status === 'idle') void load();
-  }, [status, load]);
 
   const theme = settings?.theme;
   useEffect(() => {
@@ -65,6 +78,8 @@ const router = createBrowserRouter(
             { path: '/grammar/:unitId/:grammarId', element: <Grammar /> },
             { path: '/pronunciation', element: <Pronunciation /> },
             { path: '/pronunciation/:drillId', element: <Pronunciation /> },
+            { path: '/exam', element: <Exam /> },
+            { path: '/exam/:examId', element: <Exam /> },
             { path: '/review', element: <Review /> },
             { path: '/tutor', element: <Tutor /> },
             { path: '/progress', element: <Progress /> },

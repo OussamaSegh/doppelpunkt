@@ -1,9 +1,10 @@
 import type { ReactNode } from 'react';
-import { useContent } from '../content';
+import { useContent, useEnsureContent } from '../content';
 import { EmptyState } from './EmptyState';
 
 /** Renders children once packs are loaded; otherwise a loading, empty or error state. */
 export function ContentGate({ children }: { children: ReactNode }) {
+  useEnsureContent();
   const { status, error, warnings, load } = useContent();
   if (status === 'idle' || status === 'loading') {
     return (

@@ -86,8 +86,10 @@ export type UsageRow = {
   inputTokens: number;
   outputTokens: number;
   costUsd: number;
-  purpose: 'explain' | 'writing' | 'tutor' | 'roleplay' | 'other';
+  purpose: 'explain' | 'writing' | 'tutor' | 'roleplay' | 'transcription' | 'other';
   estimated: boolean;
+  /** Seconds of audio sent for transcription (purpose "transcription"); priced per minute, not per token. */
+  audioSeconds?: number;
 };
 
 export type WritingSubmissionRow = {
@@ -103,6 +105,55 @@ export type WritingSubmissionRow = {
   score: number;
 };
 
+/** How an exam item got its points. */
+export type ExamItemMethod = 'auto' | 'ai' | 'self' | 'unanswered';
+
+/** One item of a finished mock exam, enough to show the full review again later. */
+export type ExamItemResult = {
+  exerciseId: string;
+  sectionId: string;
+  points: number;
+  max: number;
+  /** 0..1 */
+  score: number;
+  method: ExamItemMethod;
+  /** The learner's answer as text (closed items: readable form; open items: their text or transcript). */
+  answer?: string;
+  /** Engine GradeResult for closed and speaking items (solution, diff, hints). */
+  result?: unknown;
+  /** AI writing feedback (WritingFeedback) when graded by a provider. */
+  feedback?: unknown;
+  /** Self-assessment ticks, same order as the checklist / goals. */
+  selfCheck?: boolean[];
+};
+
+export type ExamSectionResult = {
+  sectionId: string;
+  points: number;
+  max: number;
+  /** Seconds spent in the section (pauses excluded). */
+  usedSec: number;
+  /** true when the countdown ran out and the exam moved on by itself. */
+  timedOut: boolean;
+};
+
+/** A finished mock exam attempt. */
+export type ExamResultRow = {
+  id?: number;
+  examId: string;
+  level: Level;
+  at: string;
+  points: number;
+  max: number;
+  passMark: number;
+  passed: boolean;
+  /** Active time over all sections (pauses excluded). */
+  durationSec: number;
+  pausedSec: number;
+  sections: ExamSectionResult[];
+  items: ExamItemResult[];
+};
+
 /** Seconds of active study per local day (YYYY-MM-DD). */
 export type ActivityRow = { day: string; seconds: number };
 
@@ -115,6 +166,7 @@ export class DoppelpunktDB extends Dexie {
   usage!: EntityTable<UsageRow, 'id'>;
   writingSubmissions!: EntityTable<WritingSubmissionRow, 'id'>;
   activity!: EntityTable<ActivityRow, 'day'>;
+  examResults!: EntityTable<ExamResultRow, 'id'>;
 
   constructor(name = 'doppelpunkt') {
     super(name);
@@ -128,6 +180,8 @@ export class DoppelpunktDB extends Dexie {
       writingSubmissions: '++id, exerciseId, unitId, at',
       activity: 'day',
     });
+    // v0.4: mock exam results.
+    this.version(2).stores({ examResults: '++id, examId, level, at' });
   }
 }
 
@@ -158,7 +212,7 @@ export async function addActivity(seconds: number, d = new Date()): Promise<void
   });
 }
 
-const EXPORT_TABLES = ['settings', 'attempts', 'cards', 'unitStatus', 'usage', 'writingSubmissions', 'activity'] as const;
+const EXPORT_TABLES = ['settings', 'attempts', 'cards', 'unitStatus', 'usage', 'writingSubmissions', 'activity', 'examResults'] as const;
 type ExportTable = (typeof EXPORT_TABLES)[number];
 
 export type ProgressExport = {

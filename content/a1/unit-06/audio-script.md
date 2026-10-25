@@ -51,9 +51,9 @@ Total: 156 file(s), 0 done.
 | `dialog-swiss-08.mp3` | zh-f | gsw-zh | Sandra | Es git aber vill Regle! | There are a lot of rules, though! |  |
 | `dialog-swiss-09.mp3` | zh-m | gsw-zh | Reto | Tja, das isch d Schwiiz! Aber d Wohnig isch schön, oder? | Well, that's Switzerland! But the flat is nice, isn't it? |  |
 | `dialog-swiss-10.mp3` | zh-f | gsw-zh | Sandra | Ja, si isch hell und gmüetlich. Und d Chuchi isch mega gäbig. | Yes, it's bright and cosy. And the kitchen is really practical. |  |
-| `dialog-swiss-11.mp3` | be-f (?) | gsw-be | Mami | Hoi Sandra! U, wie isch d Wohnig? | Hi Sandra! So, how's the flat? |  |
+| `dialog-swiss-11.mp3` | be-f | gsw-be | Mami | Hoi Sandra! U, wie isch d Wohnig? | Hi Sandra! So, how's the flat? |  |
 | `dialog-swiss-12.mp3` | be-f | gsw-be | Sandra | Schön! D Chuchi isch chly, aber d Stube isch gross u hell. | Lovely! The kitchen is small, but the living room is big and bright. |  |
-| `dialog-swiss-13.mp3` | be-f (?) | gsw-be | Mami | U dr Ghüder? | And the rubbish? |  |
+| `dialog-swiss-13.mp3` | be-f | gsw-be | Mami | U dr Ghüder? | And the rubbish? |  |
 | `dialog-swiss-14.mp3` | be-f | gsw-be | Sandra | Dä chunnt i Züri-Sack. Aues klar! | It goes into a Züri-Sack. All sorted! |  |
 
 ## Vocabulary
@@ -193,5 +193,5 @@ Total: 156 file(s), 0 done.
 | `ex-a1-u06-dictation-balkon.mp3` | de-f | de |  | Es gibt einen Balkon, aber keinen Aufzug. |  |  |
 | `ex-a1-u06-speak-flat.mp3` | de-m | de |  | Meine Wohnung hat drei Zimmer. Es gibt eine Küche, ein Bad und einen Balkon. Das Wohnzimmer ist hell und gemütlich. |  |  |
 | `ex-a1-u06-speak-ue.mp3` | de-f | de |  | die Küche, der Kühlschrank, die Waschküche, gemütlich, die Tür |  |  |
-| `ex-a1-u06-ch-mcq-gusel.mp3` | zh-m | gsw-zh | Reto | Für de Güsel bruuchsch Züri-Säck. |  |  |
-| `ex-a1-u06-ch-be-mcq-ghueder.mp3` | be-f | gsw-be | Sandra | U dr Ghüder? |  |  |
+| `ex-a1-u06-ch-mcq-gusel.mp3` | zh-m | gsw-zh | Reto | Reto: Für de Güsel bruuchsch Züri-Säck. |  |  |
+| `ex-a1-u06-ch-be-mcq-ghueder.mp3` | be-f | gsw-be | Mami | Mami: U dr Ghüder? |  |  |

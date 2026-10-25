@@ -88,23 +88,56 @@ Swiss-lane dialogue, usually Sandra (from Bern) talking to her family. Learners 
 - **Swiss lane:** *aalüüte* (*Ich lüüt dir aa* – dative); *Häsch morn Ziit?*; *morn, übermorn*; *verbii cho*, *Söll ich öppis mitbringe?*, *abgmacht*; the phone greeting with your surname; Natel/Handy, Coiffeur, Agenda; months (*Auguscht, Septämber*), 1 August. Bernese: *het, dr Ätti, Lüt mer aa!*
 - **Pronunciation:** stress of separable vs inseparable prefixes (*AN-rufen* vs *ver-SCHIE-ben*), dates aloud; shadowing a Swiss Standard receptionist.
 
-### A1.10 Kleidung und Wetter – *Clothes and weather*
+### A1.10 Kleidung und Wetter – *Clothes and weather* ✅ written
 - **Goal:** buy clothes, talk about size, colour and price, and describe the weather.
-- **Grammar:** personal pronouns in the accusative (*mich, dich, ihn, sie, es, uns, euch*); *welch- / dies-*; colours; adjectives after *sein*; *zu* + adjective (*zu groß*).
+- **Grammar:** personal pronouns in the accusative (*mich, dich, ihn, sie, es, uns, euch*); *welch- / dies-*; colours; adjectives after *sein*; *zu* + adjective (*zu groß*); *passen / stehen* + *mir, dir, Ihnen* as chunks; the weather forecast (*sonnig, windig, bewölkt, 20 Grad*).
 - **Vocabulary:** clothes, colours, sizes, weather, seasons.
-- **Swiss lane:** *chalt / heiss*; *Es schiffet* (it's pouring); Jäggli, Finke (slippers), Pulli; *Das staht dir guet*; *tüür*.
+- **Swiss lane:** *chalt / heiss*; *Es schiffet* (it's pouring; colloquial); Jagge / Jäggli, Finke (slippers), Pulli / Lismer; *Das staht dir guet*; *tüür*; *z gross*. Swiss Standard: Grösse, der Jupe, die Finken, das Leibchen, die Bise, der Föhn. Intro dialogue with a ch-std shop assistant. Bernese: *chaut*, *e Lismer*, *z Bärn*, Rägejagge.
+- **Pronunciation:** ö vs o (*Größe, Röcke – groß, Rock*); question intonation (yes/no vs W-question); contrast intonation with *aber*; shadowing the Swiss shop assistant.
 
-### A1.11 Gesundheit – *Health*
+### A1.11 Gesundheit – *Health* ✅ written
 - **Goal:** say what hurts, make a doctor's appointment, and understand simple instructions at the pharmacy.
-- **Grammar:** modal verbs review (*müssen, dürfen, sollen*); imperative in instructions; *weh tun* and *Ich habe ...schmerzen* as chunks.
+- **Grammar:** modal verbs review (*müssen, dürfen, sollen*; *nicht müssen* vs *nicht dürfen*; reporting the doctor with *sollen*); imperative in instructions (*Nehmen Sie ...! Nimm ...! Bleib im Bett!*, *dreimal täglich*, *nach dem Essen*); *weh tun* and *Ich habe ...schmerzen* as chunks; *Ich bin erkältet* vs *Mir ist kalt*.
 - **Vocabulary:** body parts, illnesses, the pharmacy, the doctor's practice.
-- **Swiss lane:** *Ich ha Chopfweh / Buuchweh*; Spital (ch-std), Apotheke, *Gsundheit!*; Krankenkasse as a word to recognise; *müed, chrank*.
+- **Swiss lane:** *Ich ha Chopfweh / Buuchweh / Halsweh*; *chrank, müed, gsund*; *Gang zum Dokter!*; *Gsundheit!*, *Gueti Besserig!*; Swiss Standard: Spital, Arztzeugnis, Krankenkasse, Apotheke vs Drogerie, Notfall 144. Intro dialogue with a ch-std doctor. Bernese: *bisch vercheltet?*, *Gringweh* (dr Gring = head).
+- **Pronunciation:** ach-Laut vs ich-Laut (*Bauch, Buch – ich, täglich*); pf (*Kopf*); warm falling intonation for wishes; shadowing the Swiss doctor.
 
-### A1.12 Feste und Feiern – *Celebrations* (A1 review)
-- **Goal:** invite, accept or decline, and congratulate people; review of A1.
-- **Grammar:** review of verb second, the sentence bracket (modal and separable verbs), *nicht/kein*, accusative and questions.
-- **Vocabulary:** birthdays, holidays, invitations, presents, wishes.
-- **Swiss lane:** Geburi, Fäscht, *Vill Glück zum Geburtstag!*; 1. August (national day), Samichlaus (6 December), Sechseläuten (Zurich); *En Guete!*, *Proscht!*
+### A1.12 Feste und Feiern – *Celebrations* (A1 review) ✅ written
+- **Goal:** invite, accept or decline, and congratulate people; fill in a form, spell your name and ask people to repeat; review of A1.
+- **Grammar:** review of verb second, verb first, W-questions and the sentence bracket (modal and separable verbs); *nicht/kein* and the accusative (*den, einen, keinen, meinen, ihn*); inviting, accepting, declining and congratulating (*Herzlichen Glückwunsch zum / zur ...*, *Ich freue mich*); forms, the alphabet and repair phrases (*Wie bitte? Können Sie das bitte wiederholen?*).
+- **Vocabulary:** birthdays, holidays, invitations, presents, wishes, forms.
+- **Swiss lane:** Geburi, Fäscht, Gschänk, *Vill Glück zum Geburtstag!*; 1. August (national day), Samichlaus (6 December), Sechseläuten and the Böögg (Zurich), Fasnacht; *En Guete!*, *Proscht!*, *Es guets Nöis!*. Intro dialogue with a ch-std colleague. Bernese: *ds Fescht*, *ds Gschänk*, *gratuliere*, *Samichlous*.
+- **Pronunciation:** review of all A1 drills (ü, ö, ach-Laut, z, vocalised -er); wishes intonation; shadowing a Swiss Standard speaker.
+
+### A1 mock exams ✅ written
+- `content/a1/exam/a1-mock-1.yaml`: A1 Modelltest 1 in the Goethe-Zertifikat A1: Start Deutsch 1 format (Hören, Lesen, Schreiben, Sprechen; 60 points, pass at 60 %).
+- `content/a1/exam/a1-schwiiz-1.yaml`: Schwiiz-Check A1, Doppelpunkt's own Zurich German recognition check (no official exam exists).
+- Format, scoring and sources: [EXAMS.md](EXAMS.md).
+
+### A1 can-do coverage (CEFR)
+
+The `canDo` statements of units 1–12 together cover the CEFR A1 descriptors (Council of Europe,
+global scale and self-assessment grid, https://rm.coe.int/168045b15e). Mapping:
+
+| CEFR A1 descriptor (paraphrased) | Covered by (unit: can-do) |
+| --- | --- |
+| **Global:** understand and use familiar everyday expressions and very basic phrases for concrete needs | 1 greetings; 2 ordering and paying; 5 buying food in quantities; 8 tickets and directions; 10 buying clothes; 11 at the doctor's and pharmacy |
+| **Global:** introduce yourself and others | 1 name, origin, residence; 3 family members |
+| **Global:** ask and answer questions about personal details (where you live, people you know, things you have) | 1 Wie? Woher? Wo?; 3 haben, ages, possessives; 6 my flat, es gibt |
+| **Global:** interact simply if the other person talks slowly and clearly and is prepared to help | 12 Wie bitte? / Können Sie das bitte wiederholen?; 9 phone calls; 1 du vs Sie |
+| **Listening:** recognise familiar words and very basic phrases about yourself, family and immediate surroundings | 1–12 listening items on the intro dialogues; 2 numbers and prices; 4 clock times; 9 dates; 10 a weather forecast |
+| **Reading:** understand familiar names, words and very simple sentences, e.g. on notices, posters, catalogues | 6 a Swiss flat ad; 8 timetables and signs; 9 an invitation; 10 a weather forecast; 11 a pharmacy notice and a medicine label; 12 a text on Swiss festivals |
+| **Spoken interaction:** ask and answer simple questions in areas of immediate need or on very familiar topics | 2 ordering; 5 shopping, ja / nein / doch; 7 likes and abilities; 8 asking the way; 9 making and moving appointments; 10 size, colour, price; 11 what hurts; 12 inviting, accepting, declining |
+| **Spoken production:** use simple phrases and sentences to describe where you live and people you know | 3 my family; 4 my day; 6 my flat and neighbourhood; 7 my hobbies |
+| **Writing:** fill in forms with personal details (name, nationality, address) | 12 forms and spelling (and *Schreiben Teil 1* of the mock exam) |
+| **Writing:** write a short, simple postcard or message (e.g. holiday greetings) | 12 short invitations, cards and messages; 1 a profile; 9 moving an appointment by email; 10 a message about weather and clothes; 11 a sick note to the teacher |
+| **Writing:** write simple isolated phrases and sentences | every unit's translate and write items |
+
+Grammar (CEFR A1 linguistic range for German, as in the Goethe / telc A1 syllabus): present tense
+and *sein / haben* (1, 3), verb position (1, 4, 12), articles and gender (2), accusative (2, 5, 10,
+12), negation (5, 12), possessives (3), plurals (3), modal verbs (2, 7, 8, 9, 11), separable verbs
+(4, 9), imperative (8, 11), personal pronouns in the accusative (10), *welch- / dies-* (10), ordinal
+numbers and dates (8, 9), time expressions (4, 9).
 
 ---
 

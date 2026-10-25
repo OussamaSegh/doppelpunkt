@@ -4,7 +4,8 @@
 // fault, so the comparison tolerates them:
 // - case and punctuation, ß/ss, ae/oe/ue for ä/ö/ü;
 // - numbers written as digits or words ("drei" / "3", "einundzwanzig" / "21", "1 Kaffee" for
-//   "einen Kaffee");
+//   "einen Kaffee"); an umlaut-less number word ("funf" for "fünf", "zwolf") gets near credit
+//   and the ü / ö hint, because the recogniser heard u / o;
 // - filler words (äh, ähm, hm) that are not in the target;
 // - compounds split or joined ("Kaffee Tasse" / "Kaffeetasse", "Kaffee-Tasse").
 // Words that differ by a sound English speakers typically get wrong (ü said as u, ch as k,
@@ -197,11 +198,30 @@ export function pronunciationIssues(expected: string, heard: string, variety: Va
   return null;
 }
 
+/**
+ * Umlaut issues when `heard` is the umlaut-less spelling of `expected` (fünf → funf, zwölf → zwolf,
+ * fünfzig → funfzig). ae/oe/ue spellings (fuenf) and digits are recogniser style, not a mistake.
+ */
+function lostUmlauts(expected: string, heard: string): PronunciationIssue[] | null {
+  if (/^\d+$/.test(heard) || expandUmlauts(expected) === heard) return null;
+  const count = (s: string, re: RegExp) => (s.match(re) ?? []).length;
+  const out: PronunciationIssue[] = [];
+  for (const [id, u, alt] of [['ue', /ü/g, /ü|ue/g], ['oe', /ö/g, /ö|oe/g], ['ae', /ä/g, /ä|ae/g]] as const) {
+    if (count(expected, u) > count(heard, alt)) out.push(id);
+  }
+  return out.length ? out : null;
+}
+
 type Match = { kind: 'exact' } | { kind: 'near'; issues: PronunciationIssue[] } | { kind: 'similar' } | null;
 
 function matchWords(e: Tok, a: Tok, variety: Variety): Match {
   const swiss = isGsw(variety);
-  if (e.key === a.key) return { kind: 'exact' };
+  if (e.key === a.key) {
+    // Number words: the recogniser spells them with umlauts when it heard them ("fünf"); an
+    // umlaut-less spelling ("funf", "zwolf") usually means the vowel came out as u / o.
+    const lost = /^\d+$/.test(e.key) ? lostUmlauts(e.raw, a.raw) : null;
+    return lost ? { kind: 'near', issues: lost } : { kind: 'exact' };
+  }
   if ((a.key === '1' && isOneWord(e.raw, swiss)) || (e.key === '1' && isOneWord(a.raw, swiss))) return { kind: 'exact' };
   const issues = pronunciationIssues(e.raw, a.raw, variety);
   if (issues) return { kind: 'near', issues };

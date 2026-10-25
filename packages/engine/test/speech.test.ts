@@ -80,8 +80,36 @@ describe('gradeSpeech: ASR artefacts', () => {
     expect(r.diff![0]).toEqual({ text: 'grune', kind: 'wrong', expected: 'Grüne', hint: 'ue' });
     expect(r.feedback.some((f) => /ü sound: we heard “grune” for “Grüne”/.test(f))).toBe(true);
   });
-  it('accepts umlaut-less number words (fünf / funf) as ASR spelling', () => {
-    expect(gradeSpeech('Fünf Brötchen', 'funf Brötchen').score).toBe(1);
+  it('flags umlaut-less number words (funf for fünf) with the ü / ö hint and near credit', () => {
+    const r = gradeSpeech('Fünf Brötchen', 'funf Brötchen');
+    expect(r.score).toBeCloseTo((1 + SPEECH_NEAR_CREDIT) / 2);
+    expect(ids(r)).toEqual(['ue']);
+    expect(r.hints![0]!.words).toEqual([{ expected: 'Fünf', heard: 'funf' }]);
+    expect(r.diff![0]).toEqual({ text: 'funf', kind: 'wrong', expected: 'Fünf', hint: 'ue' });
+    const z = gradeSpeech('Ich bin zwölf.', 'ich bin zwolf');
+    expect(ids(z)).toEqual(['oe']);
+    expect(z.score).toBeCloseTo((2 + SPEECH_NEAR_CREDIT) / 3);
+    expect(ids(gradeSpeech('fünfzig Franken', 'funfzig Franken'))).toEqual(['ue']);
+    expect(ids(gradeSpeech('fünfundfünfzig', 'fünfundfunfzig'))).toEqual(['ue']);
+    expect(ids(gradeSpeech('fünfzehn', 'funfzehn'))).toEqual(['ue']);
+  });
+  it('still accepts digits and ae/oe/ue spellings of number words', () => {
+    for (const heard of ['5 Brötchen', 'fünf Brötchen', 'fuenf Brötchen']) {
+      const r = gradeSpeech('Fünf Brötchen', heard);
+      expect(r.score).toBe(1);
+      expect(r.hints).toBeUndefined();
+    }
+    expect(gradeSpeech('zwölf', '12').score).toBe(1);
+    expect(gradeSpeech('5 Brötchen', 'funf Brötchen').score).toBe(1);
+  });
+  it('flags umlaut-less Swiss number words too', () => {
+    const r = gradeSpeech('drü Kafi', 'dru Kafi', { variety: 'gsw-zh' });
+    expect(ids(r)).toEqual(['ue']);
+    expect(r.score).toBeCloseTo((1 + SPEECH_NEAR_CREDIT) / 2);
+  });
+  it('keeps typed-number tolerance in the other graders unchanged', () => {
+    const d = grade(ex({ type: 'dictation', transcript: 'Ich habe fünf Äpfel.' }), 'Ich habe fuenf Äpfel.');
+    expect(d.correct).toBe(true);
   });
   it('still passes a long sentence with one umlaut-less word', () => {
     const r = gradeSpeech('Ich möchte heute Abend ins Kino gehen.', 'ich mochte heute abend ins kino gehen');

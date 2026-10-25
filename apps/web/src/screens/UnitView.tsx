@@ -48,7 +48,7 @@ function UnitScreen() {
 
   if (!unit) {
     return (
-      <EmptyState title="Unit not found" action={<Link className="btn-primary" to="/learn">Back to Learn</Link>}>
+      <EmptyState headingLevel={1} title="Unit not found" action={<Link className="btn-primary" to="/learn">Back to Learn</Link>}>
         "{unitId}" isn't in the installed lessons.
       </EmptyState>
     );
@@ -111,7 +111,7 @@ function UnitScreen() {
                   className={`chip whitespace-nowrap ${
                     active
                       ? s.swiss
-                        ? 'border-swiss bg-swiss text-white'
+                        ? 'border-swiss bg-swiss text-white dark:text-ink'
                         : 'border-ink bg-ink text-white dark:border-accent dark:bg-accent dark:text-ink'
                       : s.swiss
                         ? 'border-swiss/40 text-swiss-strong'

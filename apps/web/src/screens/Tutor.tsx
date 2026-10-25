@@ -4,7 +4,7 @@ import { useLiveQuery } from 'dexie-react-hooks';
 import { PROVIDER_LABELS, TUTOR_INFO, tutorSystemPrompt, type ProviderId, type TutorId } from '@doppelpunkt/ai';
 import { ChatPanel } from '../components/ChatPanel';
 import { EmptyState } from '../components/EmptyState';
-import { allUnits, useContent } from '../content';
+import { allUnits, useContent, useEnsureContent } from '../content';
 import { aiUnavailableMessage, monthSpend, PROVIDERS, useAi } from '../lib/ai';
 import { useSettings } from '../lib/hooks';
 import { useSession } from '../lib/session';
@@ -14,6 +14,7 @@ const TUTORS: TutorId[] = ['lena', 'keller', 'reto', 'explainer'];
 export function Tutor() {
   const settings = useSettings();
   const keys = useSession((s) => s.keys);
+  useEnsureContent();
   const packs = useContent((s) => s.packs);
   const unlocked = PROVIDERS.filter((p) => keys[p]);
   const [tutor, setTutor] = useState<TutorId>('lena');
@@ -31,7 +32,7 @@ export function Tutor() {
 
   if (ai.status !== 'ready') {
     return (
-      <EmptyState title="Talk with a tutor" action={<Link className="btn-primary" to="/settings">Open Settings</Link>}>
+      <EmptyState headingLevel={1} title="Talk with a tutor" action={<Link className="btn-primary" to="/settings">Open Settings</Link>}>
         {aiUnavailableMessage(ai)} Tutors use your own AI key; messages go straight from this device to the provider.
       </EmptyState>
     );
@@ -104,7 +105,7 @@ export function Tutor() {
 function CostMeter({ session, month, cap }: { session: number; month: number; cap: number }) {
   const pct = cap > 0 ? Math.min(1, month / cap) : 1;
   return (
-    <div className="card flex flex-wrap items-center gap-x-6 gap-y-2 py-3 text-sm" aria-label="AI cost">
+    <div className="card flex flex-wrap items-center gap-x-6 gap-y-2 py-3 text-sm" role="group" aria-label="AI cost">
       <span>
         This chat: <strong className="tabular-nums">${session.toFixed(4)}</strong>
       </span>
