@@ -68,6 +68,10 @@ const TITLES: Record<string, string> = {
   placement: 'Placement test',
   beta: 'Beta',
   privacy: 'Privacy',
+  terms: 'Terms of use',
+  imprint: 'Imprint',
+  about: 'About',
+  unlock: 'Unlock',
 };
 
 /**

@@ -1,0 +1,337 @@
+# A2 unit 4 – Geschenke und Einladungen
+
+# ---------- presents ----------
+- id: geschenk
+  de: Geschenk
+  en: present, gift
+  pos: noun
+  gender: n
+  plural: Geschenke
+  example: { de: "Das Geschenk ist für dich.", en: "The present is for you." }
+  gswZh: Gschänk (es Gschänk; small = es Gschänkli)
+  gswBe: Gschänk (ds Gschänk)
+  tags: [presents]
+
+- id: schenken
+  de: schenken
+  en: to give (as a present)
+  pos: verb
+  example: { de: "Was schenken wir Nadine?", en: "What shall we give Nadine?" }
+  gswZh: schänke (gschänkt)
+  gswBe: schänke (gschänkt)
+  tags: [presents, dative-accusative]
+
+- id: geben
+  de: geben
+  en: to give
+  pos: verb
+  example: { de: "Kannst du mir bitte das Glas geben?", en: "Can you pass me the glass, please?" }
+  gswZh: gää (ich gib, du gisch, er git; ggää)
+  tags: [presents, dative-accusative, irregular]
+
+- id: bringen
+  de: bringen
+  en: to bring, to take (to someone)
+  pos: verb
+  example: { de: "Ich bringe ihr den Schirm später.", en: "I'll take her the umbrella later." }
+  gswZh: bringe (bracht)
+  tags: [presents, dative-accusative]
+
+- id: mitbringen
+  de: mitbringen
+  en: to bring (along)
+  pos: verb
+  example: { de: "Soll ich etwas mitbringen?", en: "Shall I bring anything?" }
+  gswZh: mitbringe (mitbracht)
+  tags: [presents, dative-accusative, separable]
+
+- id: schicken
+  de: schicken
+  en: to send
+  pos: verb
+  example: { de: "Nadine hat uns eine Einladung geschickt.", en: "Nadine sent us an invitation." }
+  gswZh: schicke
+  tags: [presents, dative-accusative]
+
+- id: zeigen
+  de: zeigen
+  en: to show
+  pos: verb
+  example: { de: "Komm, ich zeige dir die Wohnung.", en: "Come on, I'll show you the flat." }
+  gswZh: zeige (ich zeig der …)
+  tags: [dative-accusative]
+
+- id: auspacken
+  de: auspacken
+  en: to unwrap, to unpack
+  pos: verb
+  example: { de: "Nadine packt das Geschenk sofort aus.", en: "Nadine unwraps the present straight away." }
+  gswZh: uuspacke / ufmache
+  tags: [presents, separable]
+
+- id: blumenstrauss
+  de: Blumenstrauß
+  en: bunch of flowers, bouquet
+  pos: noun
+  gender: m
+  plural: Blumensträuße
+  example: { de: "Ich bringe meiner Gastgeberin einen Blumenstrauß mit.", en: "I'm bringing my hostess a bunch of flowers." }
+  chStd: der Blumenstrauss
+  gswZh: Bluemestruuss / Hüchlerbäse (joking)
+  tags: [presents, helvetism]
+
+- id: blume
+  de: Blume
+  en: flower
+  pos: noun
+  gender: f
+  plural: Blumen
+  example: { de: "Gefallen dir die Blumen?", en: "Do you like the flowers?" }
+  gswZh: Blueme
+  gswBe: Blueme (small = Blüemli)
+  tags: [presents]
+
+- id: wein
+  de: Wein
+  en: wine
+  pos: noun
+  gender: m
+  plural: Weine
+  example: { de: "Wir bringen eine Flasche Wein mit.", en: "We'll bring a bottle of wine." }
+  gswZh: Wii
+  tags: [presents, drinks]
+
+- id: kerze
+  de: Kerze
+  en: candle
+  pos: noun
+  gender: f
+  plural: Kerzen
+  example: { de: "Auf dem Kuchen sind dreißig Kerzen.", en: "There are thirty candles on the cake." }
+  gswZh: Cherze
+  tags: [presents, party]
+
+- id: gutschein
+  de: Gutschein
+  en: voucher, gift card
+  pos: noun
+  gender: m
+  plural: Gutscheine
+  example: { de: "Wir schenken ihm einen Gutschein für das Kino.", en: "We're giving him a cinema voucher." }
+  gswZh: Guetschiin / Gutschein
+  tags: [presents]
+
+- id: schal
+  de: Schal
+  en: scarf
+  pos: noun
+  gender: m
+  plural: Schals
+  example: { de: "Der Schal steht dir gut.", en: "The scarf suits you." }
+  gswZh: Schal
+  tags: [presents, clothes]
+
+- id: ueberraschung
+  de: Überraschung
+  en: surprise
+  pos: noun
+  gender: f
+  plural: Überraschungen
+  example: { de: "Das Geschenk ist eine Überraschung.", en: "The present is a surprise." }
+  gswZh: Überraschig
+  tags: [presents]
+
+- id: regenschirm
+  de: Regenschirm
+  en: umbrella
+  pos: noun
+  gender: m
+  plural: Regenschirme
+  example: { de: "Der Regenschirm gehört Nadine.", en: "The umbrella is Nadine's." }
+  gswZh: Rägeschirm / Schirm
+  tags: [things]
+
+# ---------- invitations and parties ----------
+- id: einladung
+  de: Einladung
+  en: invitation
+  pos: noun
+  gender: f
+  plural: Einladungen
+  example: { de: "Danke für die Einladung!", en: "Thanks for the invitation!" }
+  gswZh: Iiladig
+  tags: [invitations]
+
+- id: einladen
+  de: einladen
+  en: to invite
+  pos: verb
+  example: { de: "Ich lade dich zu meinem Geburtstag ein.", en: "I'm inviting you to my birthday." }
+  gswZh: iilade (ich lad di ii)
+  tags: [invitations, separable]
+
+- id: gast
+  de: Gast
+  en: guest
+  pos: noun
+  gender: m
+  plural: Gäste
+  example: { de: "Die Schokolade ist für deine Gäste.", en: "The chocolate is for your guests." }
+  gswZh: Gascht (plural Gäscht)
+  tags: [invitations, party]
+
+- id: gastgeber
+  de: Gastgeber / Gastgeberin
+  en: host / hostess
+  pos: noun
+  gender: m
+  plural: Gastgeber / Gastgeberinnen
+  example: { de: "Die Gastgeberin hat einen Kuchen gebacken.", en: "The hostess has baked a cake." }
+  gswZh: Gastgäber / Gastgäberin
+  tags: [invitations, party]
+
+- id: apero
+  de: Aperitif
+  en: drinks (and snacks) after work or before dinner
+  pos: noun
+  gender: m
+  plural: Aperitifs
+  example: { de: "Nach der Arbeit gibt es einen Aperitif.", en: "After work there are drinks." }
+  chStd: der Apéro (Apéros); Apéro riche = with lots of food
+  gswZh: Apéro
+  tags: [invitations, party, helvetism]
+
+- id: buffet
+  de: Buffet
+  en: buffet
+  pos: noun
+  gender: n
+  plural: Buffets
+  example: { de: "Kommt, das Buffet ist offen!", en: "Come on, the buffet is open!" }
+  gswZh: Buffet
+  tags: [party, food]
+
+- id: glueckwunsch
+  de: Glückwunsch
+  en: congratulations, good wishes
+  pos: noun
+  gender: m
+  plural: Glückwünsche
+  example: { de: "Herzlichen Glückwunsch zum Geburtstag!", en: "Happy birthday!" }
+  gswZh: Glückwunsch (Vill Glück zum Geburtstag!)
+  tags: [invitations, phrases]
+
+- id: gratulieren
+  de: gratulieren
+  en: to congratulate
+  pos: verb
+  example: { de: "Wir gratulieren dir zum Geburtstag.", en: "Happy birthday from us." }
+  gswZh: gratuliere
+  tags: [invitations, dative-verbs]
+
+- id: absagen
+  de: absagen
+  en: to cancel, to decline (an invitation)
+  pos: verb
+  example: { de: "Leider muss ich für Freitag absagen.", en: "Unfortunately I have to decline for Friday." }
+  gswZh: absäge
+  tags: [invitations, separable]
+
+# ---------- verbs with the dative ----------
+- id: gefallen
+  de: gefallen
+  en: to please (Das gefällt mir = I like it)
+  pos: verb
+  example: { de: "Das Buch gefällt mir sehr.", en: "I really like the book." }
+  gswZh: gfalle (es gfallt mer)
+  gswBe: gfalle / gfaue (es gfaut mer)
+  tags: [dative-verbs, irregular]
+
+- id: gehoeren
+  de: gehören
+  en: to belong (to)
+  pos: verb
+  example: { de: "Wem gehört der Schirm?", en: "Whose umbrella is this?" }
+  gswZh: ghöre (Wem ghört das?)
+  tags: [dative-verbs, inseparable]
+
+- id: schmecken
+  de: schmecken
+  en: to taste (good)
+  pos: verb
+  example: { de: "Schmeckt dir der Kuchen?", en: "Do you like the cake?" }
+  gswZh: "Das isch fein! (schmöcke = to smell)"
+  tags: [dative-verbs, food, false-friend]
+
+- id: helfen
+  de: helfen
+  en: to help
+  pos: verb
+  example: { de: "Kannst du mir nach der Arbeit helfen?", en: "Can you help me after work?" }
+  gswZh: hälfe (ich hilf, du hilfsch, er hilft)
+  tags: [dative-verbs, irregular]
+
+- id: danken
+  de: danken
+  en: to thank
+  pos: verb
+  example: { de: "Ich danke dir für das Geschenk.", en: "Thank you for the present." }
+  gswZh: danke (merci)
+  tags: [dative-verbs]
+
+- id: passen
+  de: passen
+  en: to fit; to suit (a plan)
+  pos: verb
+  example: { de: "Passt dir Freitag um sechs?", en: "Does Friday at six suit you?" }
+  gswZh: passe (Das passt mer.)
+  tags: [dative-verbs]
+
+- id: stehen-passen
+  de: stehen
+  en: to suit (someone's looks)
+  pos: verb
+  example: { de: "Die Farbe steht dir super.", en: "The colour really suits you." }
+  gswZh: stah (Das staht der guet!)
+  tags: [dative-verbs, compliments]
+
+# ---------- compliments and reactions ----------
+- id: noetig
+  de: nötig
+  en: necessary
+  pos: adj
+  example: { de: "Das wäre doch nicht nötig gewesen!", en: "You really shouldn't have!" }
+  gswZh: nötig
+  tags: [compliments]
+
+- id: lieb
+  de: lieb
+  en: kind, sweet (of a person)
+  pos: adj
+  example: { de: "Das ist aber lieb von dir!", en: "That's really kind of you!" }
+  gswZh: lieb
+  tags: [compliments, describing]
+
+- id: huebsch
+  de: hübsch
+  en: pretty
+  pos: adj
+  example: { de: "Die Kerzen sind sehr hübsch.", en: "The candles are very pretty." }
+  gswZh: hübsch / schön
+  tags: [compliments, describing]
+
+- id: nicht-noetig
+  de: Das wäre doch nicht nötig gewesen!
+  en: You really shouldn't have! (thanking for a present)
+  pos: phrase
+  example: { de: "Blumen für mich? Das wäre doch nicht nötig gewesen!", en: "Flowers for me? You really shouldn't have!" }
+  gswZh: Das wär doch nöd nötig gsii!
+  tags: [compliments, phrases]
+
+- id: danke-einladung
+  de: Danke für die Einladung!
+  en: Thanks for the invitation!
+  pos: phrase
+  example: { de: "Danke für die Einladung! Ich komme gern.", en: "Thanks for the invitation! I'd love to come." }
+  gswZh: Merci für d Iiladig!
+  tags: [invitations, phrases]

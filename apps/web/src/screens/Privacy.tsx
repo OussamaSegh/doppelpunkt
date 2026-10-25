@@ -1,29 +1,32 @@
-// /privacy: the beta privacy notice (docs/PRIVACY.md, bundled at build time).
+// /privacy: the privacy policy (docs/PRIVACY.md, bundled at build time), without the operator notes.
 import { Link } from 'react-router-dom';
 import privacy from '../../../../docs/PRIVACY.md?raw';
-import { Markdown } from '../components/Markdown';
+import { LegalPage } from '../components/LegalPage';
 import { betaActive } from '../lib/beta/config';
+import { billingActive } from '../lib/billing/config';
 import { learnerPrivacyText } from '../lib/beta/privacy';
 
 const text = learnerPrivacyText(privacy);
 
 export function Privacy() {
+  const beta = betaActive();
+  const billing = billingActive();
   return (
-    <div className="space-y-4">
-      <h1 className="text-xl font-bold">Privacy</h1>
-      {!betaActive() && (
+    <LegalPage title="Privacy" text={text}>
+      {!beta && (
         <p className="card text-sm" role="status">
-          The beta programme is not active in this build: this app sends nothing to us. The notice below describes the beta.
+          {billing
+            ? 'The beta programme is not active in this build. The app contacts our server only when you buy, redeem or restore an unlock.'
+            : 'The beta programme is not active in this build: this app sends nothing to us. The beta and payment sections below describe optional services.'}
         </p>
       )}
-      <article className="card">
-        <Markdown text={text} headings="document" className="text-sm leading-relaxed" />
-      </article>
-      <p className="text-sm">
-        <Link to="/settings#s-beta" className="text-accent underline">
-          Change your beta choices in Settings
-        </Link>
-      </p>
-    </div>
+      {beta && (
+        <p className="text-sm">
+          <Link to="/settings#s-beta" className="text-accent underline">
+            Change your beta choices in Settings
+          </Link>
+        </p>
+      )}
+    </LegalPage>
   );
 }

@@ -11,6 +11,8 @@ import { db, todayKey, type AttemptRow, type UnitStatusRow } from '../db';
 import { useAttempts, useSettings } from '../lib/hooks';
 import { betaActive } from '../lib/beta/config';
 import { UNITS_PER_LEVEL } from '../lib/cando';
+import { canOpenLevel, canOpenUnit, useEntitlements, type EntitlementState } from '../lib/billing/entitlements';
+import { LockIcon } from '../components/Lock';
 
 // Beta builds only; loaded on demand so it costs nothing in the initial bundle.
 const BetaIntroCard = lazy(() => import('../beta/BetaIntroCard').then((m) => ({ default: m.BetaIntroCard })));
@@ -41,6 +43,9 @@ function LevelOverview() {
   const level: Level = isLevel(params.level) ? params.level : (settings?.level ?? 'A1');
   const pack = findPack(packs, level) ?? (isLevel(params.level) ? undefined : packs[0]);
   const available = new Set(packs.map((p) => p.level));
+  const ent = useEntitlements();
+  // While the tokens are being checked (a few ms), show nothing as locked rather than flash locks.
+  const locked = (l: string) => ent.ready && !canOpenLevel(l, ent);
 
   return (
     <div className="space-y-5">
@@ -62,6 +67,12 @@ function LevelOverview() {
             >
               {l}
               {isPreview(packs.find((p) => p.level === l)!) && <span className="ml-1 text-[10px] font-medium uppercase tracking-wide">preview</span>}
+              {locked(l) && (
+                <span className="ml-1 inline-flex items-center">
+                  <LockIcon />
+                  <span className="sr-only">locked</span>
+                </span>
+              )}
             </Link>
           ) : (
             <span key={l} className="chip cursor-not-allowed text-muted opacity-60" title="Coming soon" aria-disabled="true">
@@ -83,6 +94,7 @@ function LevelOverview() {
             . More {pack.level} units are on the way; these are ready to use.
           </p>
         )}
+        {locked(pack.level) && <LockedLevelNote level={pack.level} />}
         <ol className="space-y-3" aria-label={`${pack.level} units`}>
           {pack.units.map((u) => (
             <li key={u.id}>
@@ -91,6 +103,7 @@ function LevelOverview() {
                 attempts={attempts ?? []}
                 status={statuses?.find((s) => s.unitId === u.id)}
                 suggested={settings?.level === u.level && settings.startUnit === u.number}
+                ent={ent}
               />
             </li>
           ))}
@@ -98,7 +111,15 @@ function LevelOverview() {
         {pack.exams.length > 0 && (
           <Link to="/exam" className="card flex items-center justify-between gap-3 border-gold/50 py-3 transition-colors hover:border-accent">
             <span>
-              <span className="block font-semibold">{pack.level} mock exam</span>
+              <span className="flex items-center gap-1.5 font-semibold">
+                {pack.level} mock exam
+                {locked(pack.level) && (
+                  <>
+                    <LockIcon />
+                    <span className="sr-only">(locked)</span>
+                  </>
+                )}
+              </span>
               <span className="block text-sm text-muted">
                 Timed practice in the exam format: <span lang="de">Hören, Lesen, Schreiben, Sprechen</span>.
               </span>
@@ -135,17 +156,56 @@ function LevelOverview() {
   );
 }
 
-function UnitCard({ unit, attempts, status, suggested }: { unit: CompiledUnit; attempts: AttemptRow[]; status?: UnitStatusRow; suggested: boolean }) {
+/** On a level that needs an unlock: unit 1 is a free preview. */
+function LockedLevelNote({ level }: { level: string }) {
+  return (
+    <div className="card flex flex-wrap items-center justify-between gap-3 border-gold/50 py-3" role="note" aria-label={`${level} is locked`}>
+      <p className="flex min-w-0 flex-1 items-start gap-2 text-sm">
+        <LockIcon className="mt-0.5 h-4 w-4 text-gold-strong" />
+        <span>
+          <span className="font-semibold">{level} is locked.</span> Unit 1 is a free preview. Unlock {level} for every unit and the mock exam; it
+          works offline once unlocked.
+        </span>
+      </p>
+      <Link to={`/unlock/${level}`} className="btn-primary">
+        Unlock {level}
+      </Link>
+    </div>
+  );
+}
+
+function UnitCard({
+  unit,
+  attempts,
+  status,
+  suggested,
+  ent,
+}: {
+  unit: CompiledUnit;
+  attempts: AttemptRow[];
+  status?: UnitStatusRow;
+  suggested: boolean;
+  ent: EntitlementState;
+}) {
   const p = unitProgress(unit, attempts);
   const value = p.total ? p.done / p.total : 0;
+  const levelLocked = ent.ready && !canOpenLevel(unit.level, ent);
+  const locked = ent.ready && !canOpenUnit(unit, ent);
   return (
-    <Link to={`/unit/${unit.id}`} className="card block transition-colors hover:border-accent">
+    <Link to={`/unit/${unit.id}`} className={`card block transition-colors hover:border-accent ${locked ? 'opacity-80' : ''}`}>
       <div className="flex items-start justify-between gap-3">
         <div className="min-w-0">
           <p className="text-xs font-semibold uppercase tracking-wide text-muted">
             {unit.level} · Unit {unit.number}
             {suggested && <span className="ml-2 rounded bg-gold-soft px-1.5 text-gold-strong">Start here</span>}
             {status?.completedAt && <span className="ml-2 rounded bg-ok-soft px-1.5 text-ok">Done</span>}
+            {levelLocked && !locked && <span className="ml-2 rounded bg-gold-soft px-1.5 text-gold-strong">Free preview</span>}
+            {locked && (
+              <span className="ml-2 inline-flex items-center gap-1 rounded bg-surface-2 px-1.5 text-muted">
+                <LockIcon className="h-3 w-3" />
+                Locked
+              </span>
+            )}
           </p>
           <h2 lang="de" className="truncate text-lg font-semibold">
             {unit.title}

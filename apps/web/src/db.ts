@@ -213,6 +213,23 @@ export type ItemStatRow = {
   seconds: number;
 };
 
+/**
+ * A signed license token (packages/license) that unlocks levels on this device. The token is the
+ * proof; `sku` and `levels` are copies for display, and the app verifies the token again on every
+ * start. No personal data: the purchase id is random.
+ */
+export type LicenseRow = {
+  /** Random purchase id from the token. */
+  pid: string;
+  token: string;
+  sku: string;
+  levels: string[];
+  /** Expiry (ISO) for time-limited products such as the yearly pass. */
+  expiresAt?: string;
+  source: 'checkout' | 'code' | 'restore' | 'token' | 'import';
+  addedAt: string;
+};
+
 export class DoppelpunktDB extends Dexie {
   settings!: EntityTable<Settings, 'key'>;
   attempts!: EntityTable<AttemptRow, 'id'>;
@@ -226,6 +243,7 @@ export class DoppelpunktDB extends Dexie {
   outbox!: EntityTable<OutboxRow, 'id'>;
   reports!: EntityTable<ReportRow, 'id'>;
   itemStats!: EntityTable<ItemStatRow, 'itemId'>;
+  licenses!: EntityTable<LicenseRow, 'pid'>;
 
   constructor(name = 'doppelpunkt') {
     super(name);
@@ -243,6 +261,9 @@ export class DoppelpunktDB extends Dexie {
     this.version(2).stores({ examResults: '++id, examId, level, at' });
     // v0.5: beta outbox, the learner's own feedback reports, item statistics since the last upload.
     this.version(3).stores({ outbox: '++id, kind, createdAt', reports: '++id, outboxId, status', itemStats: 'itemId' });
+    // v1.0: license tokens (payments). Only a new table, so there is no data to migrate: Dexie adds
+    // it when a v3 database opens and leaves the other tables untouched (tested in db.test.ts).
+    this.version(4).stores({ licenses: 'pid, sku, addedAt' });
   }
 }
 
@@ -280,7 +301,8 @@ export type ProgressExport = {
   app: 'doppelpunkt';
   format: 1;
   exportedAt: string;
-  tables: Record<ExportTable, unknown[]>;
+  /** `licenses` (unlock tokens) is optional: files from before v1.0 don't have it. */
+  tables: Record<ExportTable, unknown[]> & { licenses?: unknown[] };
 };
 
 /** Progress as JSON. Encrypted AI keys are deliberately left out. */
@@ -293,7 +315,8 @@ export async function exportProgress(): Promise<ProgressExport> {
     const { installId: _id, installIdAt: _at, pendingForget: _pf, ...beta } = row.beta;
     return { ...row, beta };
   });
-  return { app: 'doppelpunkt', format: 1, exportedAt: new Date().toISOString(), tables };
+  // Unlock tokens travel with a backup, so a new device can be unlocked by importing it.
+  return { app: 'doppelpunkt', format: 1, exportedAt: new Date().toISOString(), tables: { ...tables, licenses: await db.licenses.toArray() } };
 }
 
 export function isProgressExport(v: unknown): v is ProgressExport {
@@ -301,12 +324,15 @@ export function isProgressExport(v: unknown): v is ProgressExport {
   const o = v as Record<string, unknown>;
   if (o.app !== 'doppelpunkt' || o.format !== 1 || typeof o.tables !== 'object' || o.tables === null) return false;
   const tables = o.tables as Record<string, unknown>;
-  return EXPORT_TABLES.every((t) => tables[t] === undefined || Array.isArray(tables[t]));
+  return [...EXPORT_TABLES, 'licenses'].every((t) => tables[t] === undefined || Array.isArray(tables[t]));
 }
 
-/** Replaces local progress with an export. Keys stay untouched. */
+/**
+ * Replaces local progress with an export. Keys stay untouched. Unlock tokens in the file are added
+ * to the ones on the device (never removed); the app verifies each token before it counts.
+ */
 export async function importProgress(data: ProgressExport): Promise<void> {
-  const tables = EXPORT_TABLES.map((t) => db.table(t));
+  const tables = [...EXPORT_TABLES.map((t) => db.table(t)), db.licenses];
   await db.transaction('rw', tables, async () => {
     for (const t of EXPORT_TABLES) {
       const table = db.table(t);
@@ -314,6 +340,10 @@ export async function importProgress(data: ProgressExport): Promise<void> {
       const rows = data.tables[t] ?? [];
       if (rows.length) await table.bulkPut(rows);
     }
+    const licenses = (data.tables.licenses ?? []).filter(
+      (r): r is LicenseRow => typeof r === 'object' && r !== null && typeof (r as LicenseRow).pid === 'string' && typeof (r as LicenseRow).token === 'string',
+    );
+    for (const row of licenses) if (!(await db.licenses.get(row.pid))) await db.licenses.put({ ...row, source: 'import' });
   });
 }
 

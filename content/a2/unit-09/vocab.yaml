@@ -1,0 +1,347 @@
+# A2 unit 9 – Feste und Bräuche
+
+# ---------- customs ----------
+- id: brauch
+  de: Brauch
+  en: custom, tradition
+  pos: noun
+  gender: m
+  plural: Bräuche
+  example: { de: "Der Zibelemärit ist ein alter Brauch in Bern.", en: "The Zibelemärit is an old custom in Bern." }
+  gswZh: Bruuch
+  tags: [customs]
+
+- id: tradition
+  de: Tradition
+  en: tradition
+  pos: noun
+  gender: f
+  plural: Traditionen
+  example: { de: "Bei uns ist Feuerwerk am 5. November eine Tradition.", en: "Fireworks on 5 November are a tradition where I come from." }
+  gswZh: Tradition
+  tags: [customs]
+
+- id: umzug-parade
+  de: Umzug
+  en: procession, parade (also a house move)
+  pos: noun
+  gender: m
+  plural: Umzüge
+  example: { de: "Der Umzug beginnt um sechs Uhr am Bahnhof.", en: "The procession starts at six o'clock at the station." }
+  gswZh: Umzug
+  tags: [customs]
+
+- id: kostuem
+  de: Kostüm
+  en: costume
+  pos: noun
+  gender: n
+  plural: Kostüme
+  example: { de: "An der Fasnacht tragen viele Leute ein Kostüm.", en: "At carnival many people wear a costume." }
+  gswZh: Choschtüm / Kostüm
+  tags: [customs, carnival]
+
+- id: maske
+  de: Maske
+  en: mask
+  pos: noun
+  gender: f
+  plural: Masken
+  example: { de: "In Basel tragen die Leute große Masken.", en: "In Basel people wear big masks." }
+  gswZh: Maske / Larve (Basel)
+  tags: [customs, carnival]
+
+- id: sich-verkleiden
+  de: sich verkleiden
+  en: to dress up (in a costume)
+  pos: verb
+  example: { de: "Als Kind habe ich mich jedes Jahr als Pirat verkleidet.", en: "As a child I dressed up as a pirate every year." }
+  gswZh: sich verchleide
+  tags: [customs, carnival, reflexive]
+
+- id: laterne
+  de: Laterne
+  en: lantern
+  pos: noun
+  gender: f
+  plural: Laternen
+  example: { de: "Die Kinder laufen mit ihren Laternen durch die Straßen.", en: "The children walk through the streets with their lanterns." }
+  gswZh: Laterne
+  tags: [customs, autumn]
+
+- id: ruebe
+  de: Rübe
+  en: turnip
+  pos: noun
+  gender: f
+  plural: Rüben
+  example: { de: "Im November schnitzen die Kinder Rüben.", en: "In November the children carve turnips." }
+  chStd: Räbe (weisse Rübe; das Räbeliechtli = turnip lantern)
+  gswZh: Räbe (s Räbeliechtli)
+  tags: [customs, autumn, helvetism]
+
+- id: schnitzen
+  de: schnitzen
+  en: to carve
+  pos: verb
+  example: { de: "Hast du schon einmal eine Laterne geschnitzt?", en: "Have you ever carved a lantern?" }
+  gswZh: schnitze (gschnitzt)
+  tags: [customs, verbs]
+
+- id: weihnachtsmarkt
+  de: Weihnachtsmarkt
+  en: Christmas market
+  pos: noun
+  gender: m
+  plural: Weihnachtsmärkte
+  example: { de: "Auf dem Weihnachtsmarkt trinken wir Glühwein.", en: "At the Christmas market we drink mulled wine." }
+  gswZh: Wienachtsmärt
+  tags: [customs, christmas]
+
+- id: adventskalender
+  de: Adventskalender
+  en: Advent calendar
+  pos: noun
+  gender: m
+  plural: Adventskalender
+  example: { de: "Jeden Tag im Dezember öffnen die Kinder ein Türchen im Adventskalender.", en: "Every day in December the children open a little door in the Advent calendar." }
+  gswZh: Adväntskaländer
+  tags: [customs, christmas]
+
+- id: christbaum
+  de: Christbaum
+  en: Christmas tree
+  pos: noun
+  gender: m
+  plural: Christbäume
+  example: { de: "Am 24. Dezember schmücken wir den Christbaum.", en: "On 24 December we decorate the Christmas tree." }
+  chStd: Christbaum / Weihnachtsbaum
+  gswZh: Chrischtbaum / Wienachtsbaum
+  tags: [customs, christmas]
+
+- id: schmuecken
+  de: schmücken
+  en: to decorate
+  pos: verb
+  example: { de: "Wir haben das Wohnzimmer mit Kerzen geschmückt.", en: "We decorated the living room with candles." }
+  gswZh: schmücke
+  tags: [customs, verbs]
+
+- id: lied
+  de: Lied
+  en: song
+  pos: noun
+  gender: n
+  plural: Lieder
+  example: { de: "Beim Umzug singen die Kinder ein Lied.", en: "The children sing a song in the procession." }
+  gswZh: Lied (Plural Lieder)
+  tags: [customs, music]
+
+- id: osterhase
+  de: Osterhase
+  en: Easter bunny
+  pos: noun
+  gender: m
+  plural: Osterhasen
+  example: { de: "Der Osterhase bringt die Eier.", en: "The Easter bunny brings the eggs." }
+  gswZh: Oschterhaas
+  tags: [customs, easter]
+
+- id: osterei
+  de: Osterei
+  en: Easter egg
+  pos: noun
+  gender: n
+  plural: Ostereier
+  example: { de: "An Ostern suchen die Kinder Ostereier im Garten.", en: "At Easter the children look for Easter eggs in the garden." }
+  gswZh: Oschterei
+  tags: [customs, easter]
+
+- id: faerben
+  de: färben
+  en: to dye, to colour
+  pos: verb
+  example: { de: "Vor Ostern färben wir Eier.", en: "Before Easter we dye eggs." }
+  gswZh: färbe
+  tags: [customs, easter, verbs]
+
+- id: gluehwein
+  de: Glühwein
+  en: mulled wine
+  pos: noun
+  gender: m
+  plural: Glühweine
+  example: { de: "Wenn es kalt ist, trinke ich gern einen Glühwein.", en: "When it's cold I like a mulled wine." }
+  gswZh: Glüewii
+  tags: [customs, christmas, food]
+
+- id: zwiebelkuchen
+  de: Zwiebelkuchen
+  en: onion tart
+  pos: noun
+  gender: m
+  plural: Zwiebelkuchen
+  example: { de: "Auf dem Zibelemärit essen viele Leute Zwiebelkuchen.", en: "At the onion market many people eat onion tart." }
+  gswZh: Zwieblechueche
+  gswBe: Zibelechueche
+  tags: [customs, food]
+
+- id: konfetti
+  de: Konfetti
+  en: confetti
+  pos: noun
+  gender: n
+  plural: "-"
+  example: { de: "Nach der Fasnacht ist überall Konfetti.", en: "After carnival there's confetti everywhere." }
+  gswZh: Konfetti / Räppli (Basel)
+  tags: [customs, carnival]
+
+- id: guggenmusik
+  de: Guggenmusik
+  en: carnival brass band (playing loud, deliberately off-key music)
+  pos: noun
+  gender: f
+  plural: Guggenmusiken
+  example: { de: "Die Guggenmusik spielt sehr laut.", en: "The carnival band plays very loudly." }
+  chStd: "Guggenmusik (Duden: süddeutsch, schweizerisch)"
+  gswZh: Guggemusig
+  tags: [customs, carnival, helvetism]
+
+- id: glocke
+  de: Glocke
+  en: bell
+  pos: noun
+  gender: f
+  plural: Glocken
+  example: { de: "Beim Klausjagen hört man viele Glocken.", en: "At the Klausjagen you hear lots of bells." }
+  gswZh: Glogge / Trychle (big cowbell)
+  tags: [customs]
+
+- id: anzuenden
+  de: anzünden
+  en: to light (a candle, a fire)
+  pos: verb
+  example: { de: "Am Abend zünden wir die Kerzen an.", en: "In the evening we light the candles." }
+  gswZh: aazünde (aazündt)
+  tags: [customs, verbs, separable]
+
+- id: stattfinden
+  de: stattfinden
+  en: to take place
+  pos: verb
+  example: { de: "Der Zibelemärit findet am vierten Montag im November statt.", en: "The onion market takes place on the fourth Monday in November." }
+  gswZh: stattfinde
+  tags: [customs, verbs, separable]
+
+- id: kindheit
+  de: Kindheit
+  en: childhood
+  pos: noun
+  gender: f
+  plural: "-"
+  example: { de: "In meiner Kindheit haben wir an Weihnachten immer gesungen.", en: "In my childhood we always sang at Christmas." }
+  gswZh: Chindheit
+  tags: [time, people]
+
+- id: als-conj
+  de: als
+  en: when (one event or period in the past)
+  pos: conj
+  example: { de: "Als ich klein war, habe ich in Hamburg gewohnt.", en: "When I was little, I lived in Hamburg." }
+  gswZh: wänn / wo (Wo n ich chlii gsii bin …)
+  tags: [conjunctions, time]
+
+- id: wenn-conj
+  de: wenn
+  en: when(ever); if
+  pos: conj
+  example: { de: "Wenn du Zeit hast, komm mit!", en: "If you have time, come along!" }
+  gswZh: wänn
+  tags: [conjunctions, time]
+
+- id: jedes-mal
+  de: jedes Mal
+  en: every time
+  pos: phrase
+  example: { de: "Jedes Mal, wenn ich in Bern bin, esse ich Zopf.", en: "Every time I'm in Bern I eat Zopf." }
+  gswZh: jedes Mal
+  tags: [time]
+
+- id: damals
+  de: damals
+  en: back then, at that time
+  pos: adv
+  example: { de: "Damals hatten wir noch kein Auto.", en: "Back then we didn't have a car yet." }
+  gswZh: dozmal / damals
+  tags: [time]
+
+- id: frueher
+  de: früher
+  en: in the past, formerly
+  pos: adv
+  example: { de: "Früher haben die Leute die Laternen zu Hause geschnitzt.", en: "In the past people carved the lanterns at home." }
+  gswZh: früener
+  tags: [time]
+
+- id: traditionell
+  de: traditionell
+  en: traditional(ly)
+  pos: adj
+  example: { de: "Traditionell isst man an Ostern Eier.", en: "Traditionally people eat eggs at Easter." }
+  gswZh: traditionell
+  tags: [customs, describing]
+
+- id: lustig
+  de: lustig
+  en: funny, fun
+  pos: adj
+  example: { de: "Die Fasnacht ist laut und lustig.", en: "Carnival is loud and fun." }
+  gswZh: luschtig / lustig
+  tags: [describing]
+
+- id: typisch
+  de: typisch
+  en: typical
+  pos: adj
+  example: { de: "Was ist ein typisches Fest in deinem Land?", en: "What's a typical festival in your country?" }
+  gswZh: typisch
+  tags: [describing]
+
+- id: bunt
+  de: bunt
+  en: colourful
+  pos: adj
+  example: { de: "Die Kostüme sind sehr bunt.", en: "The costumes are very colourful." }
+  gswZh: bunt / farbig
+  tags: [describing, colours]
+
+- id: laerm
+  de: Lärm
+  en: noise
+  pos: noun
+  gender: m
+  plural: "-"
+  example: { de: "An Silvester gibt es viel Lärm.", en: "On New Year's Eve there's a lot of noise." }
+  gswZh: Lärm / Krach
+  tags: [describing]
+
+- id: jahreszeit
+  de: Jahreszeit
+  en: season
+  pos: noun
+  gender: f
+  plural: Jahreszeiten
+  example: { de: "Der Herbst ist meine Lieblingsjahreszeit.", en: "Autumn is my favourite season." }
+  gswZh: Jahresziit
+  tags: [time, seasons]
+
+- id: viertel-quartier
+  de: Viertel
+  en: neighbourhood, district
+  pos: noun
+  gender: n
+  plural: Viertel
+  example: { de: "In unserem Viertel gibt es im November einen Umzug.", en: "In our neighbourhood there's a procession in November." }
+  chStd: Quartier (das Quartier)
+  gswZh: Quartier
+  tags: [places, helvetism]

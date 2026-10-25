@@ -1,0 +1,731 @@
+# A2 unit 10 – Medien und Kommunikation
+
+# ---------- vocabulary ----------
+- id: a2-u10-match-phone
+  type: match
+  skill: vocabulary
+  variety: de
+  prompt: Match the words with English.
+  pairs:
+    - ["die Sprachnachricht", "voice message"]
+    - ["der Anhang", "attachment"]
+    - ["der Betreff", "subject line"]
+    - ["das Passwort", "password"]
+    - ["der Akku", "battery"]
+    - ["der Bildschirm", "screen"]
+  explanation: >-
+    Sprache + Nachricht → die Sprachnachricht (the last word gives the gender). der Akku is short for
+    Akkumulator: Mein Akku ist leer = my battery is dead.
+
+- id: a2-u10-match-actions
+  type: match
+  skill: vocabulary
+  variety: de
+  prompt: Match the verbs with English.
+  pairs:
+    - ["schicken", "to send"]
+    - ["löschen", "to delete"]
+    - ["speichern", "to save"]
+    - ["herunterladen", "to download"]
+    - ["teilen", "to share"]
+    - ["bekommen", "to get, to receive"]
+  explanation: >-
+    Trap: bekommen means to get, not to become (werden). herunterladen is separable: Ich lade die App herunter –
+    Ich habe sie heruntergeladen.
+
+# ---------- grammar: indirect questions ----------
+- id: a2-u10-mcq-ob
+  type: mcq
+  skill: grammar
+  variety: ch-std
+  grammar: [indirect-questions]
+  prompt: Choose the right word.
+  question: Weisst du, ___ Nadine morgen auch kommt?
+  options: ["wenn", "ob", "dass", "als"]
+  answer: 1
+  rationales:
+    - "wenn is for a condition (if it happens …) – here you ask whether."
+    - "Correct. A yes/no question becomes an ob-clause: whether."
+    - "dass reports a fact (that); it doesn't ask."
+    - "als is for one event in the past."
+  explanation: >-
+    The direct question is a yes/no question (Kommt Nadine morgen?). As an indirect question it takes ob, and
+    the verb goes to the end: …, ob Nadine morgen auch kommt.
+
+- id: a2-u10-mcq-indirect-order
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [indirect-questions]
+  prompt: Which sentence is correct?
+  options:
+    - "Ich weiß nicht, wann beginnt der Film."
+    - "Ich weiß nicht, wann der Film beginnt."
+    - "Ich weiß nicht, wenn der Film beginnt."
+    - "Ich weiß nicht, der Film wann beginnt."
+  answer: 1
+  rationales:
+    - "In an indirect question the verb goes to the end."
+    - "Correct. Question word + subject + … + verb at the end."
+    - "wenn is not a question word: when? = wann."
+    - "The question word starts the clause."
+  explanation: >-
+    An indirect question is a subordinate clause: question word first, verb last. Keep the question word wann
+    (not wenn). The punctuation follows the opener: Ich weiß nicht, … . but Weißt du, …?
+
+- id: a2-u10-gap-indirect
+  type: gap
+  skill: grammar
+  variety: de
+  grammar: [indirect-questions]
+  prompt: "Put the verb at the end of the indirect question: ist – beginnt – hat."
+  text: Weißt du, wo mein Handy ___? Kannst du mir sagen, wann die Sendung ___? Ich möchte wissen, ob Martin Zeit ___.
+  answers: [["ist"], ["beginnt"], ["hat"]]
+  explanation: >-
+    Indirect questions put the conjugated verb last: wo mein Handy ist, wann die Sendung beginnt, ob Martin
+    Zeit hat.
+
+- id: a2-u10-transform-ob
+  type: transform
+  skill: grammar
+  variety: de
+  grammar: [indirect-questions]
+  prompt: "Make it an indirect question. Start with: Ich weiß nicht, …"
+  from: de
+  to: de
+  source: Kommt Martin heute ins Büro?
+  answers: ["Ich weiß nicht, ob Martin heute ins Büro kommt.", "Ich weiss nicht, ob Martin heute ins Büro kommt."]
+  explanation: >-
+    A yes/no question → ob. kommt moves to the end. The sentence now ends with a full stop: it's a statement.
+
+- id: a2-u10-transform-wo
+  type: transform
+  skill: grammar
+  variety: de
+  grammar: [indirect-questions]
+  prompt: "Make it a polite question. Start with: Wissen Sie, …"
+  from: de
+  to: de
+  source: Wo ist der Bahnhof?
+  answers: ["Wissen Sie, wo der Bahnhof ist?"]
+  explanation: >-
+    The question word stays (wo), the verb goes to the end (ist). Wissen Sie, …? is the polite form for
+    strangers – much friendlier than a direct question.
+
+- id: a2-u10-order-ob
+  type: order
+  skill: grammar
+  variety: de
+  grammar: [indirect-questions]
+  prompt: Put the words in order.
+  tokens: ["Weißt", "du", "ob", "die", "Sitzung", "um", "zehn", "beginnt"]
+  answers: ["Weißt du, ob die Sitzung um zehn beginnt?"]
+  explanation: >-
+    Weißt du (verb first: a yes/no question), then the ob-clause with beginnt at the very end.
+
+- id: a2-u10-translate-ob
+  type: translate
+  skill: writing
+  variety: de
+  grammar: [indirect-questions]
+  prompt: Translate into German (informal).
+  source: Do you know if Anna has my number?
+  answers:
+    - "Weißt du, ob Anna meine Nummer hat?"
+    - "Weisst du, ob Anna meine Nummer hat?"
+    - "Weißt du, ob Anna meine Telefonnummer hat?"
+    - "Weisst du, ob Anna meine Telefonnummer hat?"
+  explanation: >-
+    if = whether → ob (not wenn). hat goes to the end of the ob-clause.
+
+- id: a2-u10-gap-wie-was
+  type: gap
+  skill: grammar
+  variety: de
+  grammar: [indirect-questions]
+  prompt: "Fill in the question word or ob: wie – was – ob."
+  text: Kannst du mir zeigen, ___ die App funktioniert? Ich weiß nicht, ___ das Passwort ist. Frag Martin, ___ er das Dokument hat.
+  answers: [["wie"], ["was"], ["ob"]]
+  explanation: >-
+    W-questions keep their word (Wie funktioniert die App? → wie die App funktioniert; Was ist das Passwort? →
+    was das Passwort ist). A yes/no question (Hat er das Dokument?) takes ob.
+
+# ---------- grammar: deshalb / trotzdem ----------
+- id: a2-u10-mcq-deshalb
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [connectors-deshalb-trotzdem]
+  prompt: Choose the right ending.
+  question: Mein Akku war leer. Deshalb ___
+  options: ["ich habe nicht angerufen.", "ich nicht angerufen habe.", "habe ich nicht angerufen.", "nicht ich habe angerufen."]
+  answer: 2
+  rationales:
+    - "deshalb is position 1, so the verb must come next."
+    - "Verb last is subordinate-clause order (after weil) – deshalb starts a main clause."
+    - "Correct. deshalb + verb + subject."
+    - "The verb must be in position 2."
+  explanation: >-
+    deshalb is an adverb in position 1: Deshalb habe ich … Don't treat it like weil, which sends the verb to the
+    end.
+
+- id: a2-u10-gap-deshalb-trotzdem
+  type: gap
+  skill: grammar
+  variety: ch-std
+  grammar: [connectors-deshalb-trotzdem]
+  prompt: "Fill in deshalb or trotzdem."
+  text: Mein Handy ist kaputt, ___ schreibe ich dir vom Computer. Ich lösche jeden Abend alte Mails, ___ ist mein Postfach voll. Der Zug hat Verspätung, ___ komme ich später.
+  answers: [["deshalb"], ["trotzdem"], ["deshalb"]]
+  explanation: >-
+    deshalb = consequence (so): broken phone → I write from the computer; late train → I'll be late.
+    trotzdem = contrast (even so): I delete mails, but the inbox is still full.
+
+- id: a2-u10-mcq-trotzdem
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [connectors-deshalb-trotzdem]
+  prompt: "What does the second sentence mean? \"Es regnet. Trotzdem gehen wir spazieren.\""
+  options: ["It's raining, so we're staying at home.", "It's raining, but we're going for a walk anyway.", "When it rains, we go for a walk.", "It's raining because we're going for a walk."]
+  answer: 1
+  rationales:
+    - "That would be deshalb bleiben wir zu Hause."
+    - "Correct. trotzdem = even so, anyway."
+    - "That would be Wenn es regnet, …"
+    - "That would be a strange weil sentence."
+  explanation: >-
+    trotzdem announces something that happens in spite of the first sentence. Verb next: Trotzdem gehen wir …
+
+- id: a2-u10-transform-deshalb
+  type: transform
+  skill: grammar
+  variety: de
+  grammar: [connectors-deshalb-trotzdem]
+  prompt: "Rewrite the sentence with deshalb. Start with the reason."
+  from: de
+  to: de
+  source: Ich schreibe dir, weil mein Telefon kaputt ist.
+  answers:
+    - "Mein Telefon ist kaputt, deshalb schreibe ich dir."
+    - "Mein Telefon ist kaputt. Deshalb schreibe ich dir."
+    - "Mein Telefon ist kaputt, ich schreibe dir deshalb."
+  explanation: >-
+    weil + reason (verb last) → reason as a main clause + deshalb + consequence (verb right after deshalb).
+
+- id: a2-u10-order-trotzdem
+  type: order
+  skill: grammar
+  variety: de
+  grammar: [connectors-deshalb-trotzdem]
+  prompt: Put the words in order.
+  tokens: ["Es", "regnet", "trotzdem", "gehen", "wir", "spazieren"]
+  answers: ["Es regnet, trotzdem gehen wir spazieren.", "Es regnet, wir gehen trotzdem spazieren."]
+  explanation: >-
+    trotzdem in position 1 → verb next (gehen wir). It can also go after the verb: wir gehen trotzdem spazieren.
+
+# ---------- grammar: zu + infinitive ----------
+- id: a2-u10-gap-zu-infinitive
+  type: gap
+  skill: grammar
+  variety: de
+  grammar: [zu-infinitive]
+  prompt: "Fill in zu + infinitive: lesen – anrufen – aufladen."
+  text: Ich habe keine Zeit, die Mail ___. Vergiss nicht, Martin ___! Es ist wichtig, das Handy ___.
+  answers: [["zu lesen"], ["anzurufen"], ["aufzuladen"]]
+  explanation: >-
+    zu + infinitive goes at the end. With separable verbs zu sits in the middle, written as one word:
+    anzurufen, aufzuladen.
+
+- id: a2-u10-mcq-zu
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [zu-infinitive]
+  prompt: Choose the correct ending.
+  question: Es ist wichtig, ___
+  options: ["das Passwort zu speichern.", "zu das Passwort speichern.", "das Passwort speichern zu.", "das Passwort zu gespeichert."]
+  answer: 0
+  rationales:
+    - "Correct. zu + infinitive at the end."
+    - "zu goes right before the infinitive, at the end."
+    - "zu comes before the verb, not after it."
+    - "zu takes the infinitive (speichern), not the participle."
+  explanation: >-
+    Es ist wichtig / schwierig / einfach, … zu + infinitive. The object (das Passwort) comes first, zu speichern
+    closes the sentence.
+
+- id: a2-u10-mcq-no-zu-modal
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [zu-infinitive, modal-review]
+  prompt: Which sentence is correct?
+  options: ["Ich muss die Mail zu lesen.", "Ich habe keine Lust, die Mail lesen.", "Ich habe keine Lust, die Mail zu lesen.", "Ich möchte die Mail zu lesen."]
+  answer: 2
+  rationales:
+    - "No zu after modal verbs (müssen)."
+    - "After Lust haben you need zu: … zu lesen."
+    - "Correct. Lust haben + zu + infinitive."
+    - "No zu after möchten."
+  explanation: >-
+    zu + infinitive after phrases such as Lust / Zeit haben, vergessen, es ist wichtig. But never zu after the
+    modal verbs (muss, kann, will, darf, soll, möchte): Ich muss die Mail lesen.
+
+- id: a2-u10-translate-vergiss
+  type: translate
+  skill: writing
+  variety: de
+  grammar: [zu-infinitive, imperative]
+  prompt: Translate into German (informal).
+  source: Don't forget to charge your phone!
+  answers:
+    - "Vergiss nicht, dein Handy aufzuladen!"
+    - "Vergiss nicht, das Handy aufzuladen!"
+    - "Vergiss nicht, dein Handy zu laden!"
+    - "Vergiss nicht, dein Natel aufzuladen!"
+  explanation: >-
+    Vergiss nicht (du-imperative of vergessen) + zu-infinitive. aufladen is separable → aufzuladen.
+
+# ---------- messages and emails ----------
+- id: a2-u10-match-register
+  type: match
+  skill: writing
+  variety: ch-std
+  grammar: [messages-register]
+  prompt: Match the openings and closings with their use.
+  pairs:
+    - ["Sehr geehrte Frau Brunner,", "formal opening to a woman"]
+    - ["Sehr geehrter Herr Huber,", "formal opening to a man"]
+    - ["Lieber Martin,", "informal opening to a man"]
+    - ["Hallo zusammen,", "informal opening to a group"]
+    - ["Freundliche Grüsse", "formal closing"]
+  explanation: >-
+    Sehr geehrte (Frau) / Sehr geehrter (Herr) for people you say Sie to; Liebe / Lieber or Hallo for friends
+    and colleagues you say du to. In Switzerland Freundliche Grüsse is the usual closing of a work email.
+
+- id: a2-u10-mcq-formal-email
+  type: mcq
+  skill: writing
+  variety: ch-std
+  grammar: [messages-register]
+  prompt: You write to your landlord, Herr Meier, for the first time. How do you start?
+  options: ["Hoi Herr Meier,", "Lieber Herr Meier, wie gehts?", "Hallo Meier,", "Sehr geehrter Herr Meier,"]
+  answer: 3
+  rationales:
+    - "Hoi is for friends."
+    - "Lieber + wie gehts is too familiar for a first formal email."
+    - "Hallo + surname alone sounds rude."
+    - "Correct. Formal: Sehr geehrter Herr + surname."
+  explanation: >-
+    A landlord is a Sie-contact: Sehr geehrter Herr Meier, and the next line starts with a small letter (ich
+    schreibe Ihnen, weil …). Close with Freundliche Grüsse and your full name.
+
+# ---------- reading ----------
+- id: a2-u10-mcq-reading-chat
+  type: mcq
+  skill: reading
+  variety: ch-std
+  grammar: [connectors-deshalb-trotzdem]
+  prompt: Read the email from Sabine Brunner. What is the new rule for the team chat?
+  options: ["No messages after 7 p.m. and at the weekend", "Only the boss may write in the chat.", "Documents must be shared in the chat.", "The chat is closed on Fridays."]
+  answer: 0
+  explanation: >-
+    "Am Wochenende und nach 19 Uhr haben alle frei. Deshalb bitte keine Nachrichten nach 19 Uhr!" deshalb links
+    the reason (everyone is off) with the rule. Documents go by email with an attachment.
+
+- id: a2-u10-mcq-reading-passwort
+  type: mcq
+  skill: reading
+  variety: ch-std
+  grammar: [zu-infinitive]
+  prompt: Read the email again. Where do the colleagues get the new Wi-Fi password?
+  options: ["In the team chat", "From Martin", "By email", "At reception"]
+  answer: 3
+  explanation: >-
+    "Es ist wichtig, das Passwort nicht im Chat zu teilen. Ihr findet es am Empfang." Martin is the person to ask
+    about documents. der Empfang = reception.
+
+- id: a2-u10-translate-reading
+  type: translate
+  skill: reading
+  variety: ch-std
+  grammar: [indirect-questions]
+  prompt: Translate into English.
+  source: Viele von euch haben mich gefragt, ob wir den Team-Chat auch am Wochenende benutzen sollen.
+  answers:
+    - "Many of you have asked me whether we should use the team chat at the weekend too."
+    - "Many of you have asked me if we should use the team chat at the weekend too."
+    - "Many of you asked me whether we should also use the team chat at the weekend."
+    - "Many of you have asked me whether we should use the team chat on weekends too."
+  explanation: >-
+    gefragt, ob … = asked whether … – an indirect yes/no question with the verb (sollen) at the end. benutzen =
+    to use.
+
+# ---------- listening ----------
+- id: a2-u10-mcq-listening-tom
+  type: mcq
+  skill: listening
+  variety: de
+  grammar: [connectors-deshalb-trotzdem]
+  prompt: Listen to the intro dialogue again. Why hasn't Tom read Nadine's message?
+  options: ["He was in a meeting.", "His phone is broken.", "He deleted it.", "He was working from home."]
+  answer: 1
+  explanation: >-
+    "Mein Handy ist kaputt, deshalb habe ich seit gestern keine Nachrichten bekommen." Martin is the one working
+    from home; Nadine may have deleted Martin's email.
+
+- id: a2-u10-mcq-listening-sitzung
+  type: mcq
+  skill: listening
+  variety: ch-std
+  grammar: [indirect-questions]
+  prompt: Listen to Nadine. What does she want to know?
+  transcript: |-
+    Nadine: Ach so! Ich habe im Team-Chat geschrieben. Weisst du, ob die Sitzung heute um zehn oder um elf ist?
+  options: ["Where the meeting is", "Who is coming to the meeting", "Whether the meeting is at ten or at eleven", "Whether Tom has written in the chat"]
+  answer: 2
+  explanation: >-
+    Weisst du, ob … oder …? = Do you know whether … or …? The verb ist is at the end of the ob-clause.
+
+- id: a2-u10-dictation-zeit
+  type: dictation
+  skill: listening
+  variety: de
+  grammar: [zu-infinitive]
+  prompt: Listen and write what you hear.
+  transcript: Ich habe heute keine Zeit, deine Nachricht zu lesen.
+  explanation: >-
+    keine Zeit haben + zu + infinitive at the end: zu lesen. deine Nachricht is the object (feminine accusative).
+
+- id: a2-u10-dictation-ob
+  type: dictation
+  skill: listening
+  variety: de
+  grammar: [indirect-questions]
+  prompt: Listen and write what you hear.
+  transcript: Kannst du mir sagen, ob Martin schon geantwortet hat?
+  explanation: >-
+    ob-clause with the Perfekt: the auxiliary hat is the last word, after the participle geantwortet.
+
+# ---------- speaking ----------
+- id: a2-u10-speak-frame
+  type: speak
+  skill: speaking
+  variety: de
+  grammar: [connectors-deshalb-trotzdem]
+  prompt: "Read aloud, then talk about how you use media."
+  target: Am Morgen lese ich die Nachrichten auf dem Handy. Ich habe wenig Zeit, deshalb höre ich im Zug Podcasts.
+  explanation: >-
+    Frame: Am Morgen / Am Abend + verb + ich …; a reason with deshalb + verb. Change the times, the device and
+    what you read, watch or listen to.
+
+- id: a2-u10-speak-shadow-tom
+  type: speak
+  skill: speaking
+  variety: de
+  grammar: [connectors-deshalb-trotzdem]
+  prompt: "Shadowing: speak along with Tom's line from the intro dialogue, then say it alone."
+  target: Nein, tut mir leid. Mein Handy ist kaputt, deshalb habe ich seit gestern keine Nachrichten bekommen.
+  explanation: >-
+    Stress the new information: Mein HANdy ist kaPUTT, | DESHALB habe ich … NACHrichten bekommen. Short pause
+    before deshalb.
+
+- id: a2-u10-speak-shadow-nadine
+  type: speak
+  skill: speaking
+  variety: ch-std
+  grammar: [indirect-questions]
+  prompt: "Shadowing: speak along with Nadine, then say it alone."
+  target: Weisst du, ob die Sitzung heute um zehn oder um elf ist?
+  explanation: >-
+    Swiss Standard German: a light, tapped r in oder, a clear ts for the z in Sitzung and zehn, and weisst with
+    ss. The voice rises at the end, as in any yes/no question. See the drill The Swiss Standard German accent.
+
+- id: a2-u10-speak-intonation
+  type: speak
+  skill: speaking
+  variety: de
+  grammar: [indirect-questions]
+  prompt: "Intonation: an either-or question rises on the first option and falls on the second."
+  target: Ist die Sitzung um zehn oder um elf?
+  explanation: >-
+    um ZEHN ↗ oder um ELF ↘. The falling end tells the listener there are only two options. A yes/no question
+    (Kommst du?) rises at the end.
+
+- id: a2-u10-speak-pron-sch
+  type: speak
+  skill: speaking
+  variety: de
+  grammar: [zu-infinitive]
+  prompt: "Pronunciation: s, sch, st and sp. Read aloud slowly."
+  target: Ich schicke dir später eine Sprachnachricht und speichere deine Nummer.
+  explanation: >-
+    schicke = sch; später, Sprachnachricht, speichere start with sp = schp; Nummer has no s at all. In the middle
+    of a word st and sp stay s-t, s-p (Postfach). See the drill s, sch, st and sp.
+
+# ---------- roleplay and writing ----------
+- id: a2-u10-roleplay-lena
+  type: roleplay
+  skill: speaking
+  variety: de
+  grammar: [indirect-questions, connectors-deshalb-trotzdem, zu-infinitive]
+  tutor: lena
+  prompt: "Roleplay with Lena: phones, apps and the news."
+  scenario: >-
+    Lena asks how you use your phone, which apps you like and where you get the news. Answer, give reasons with
+    deshalb, and ask her two indirect questions (Weisst du, ob …? Kannst du mir sagen, wie …?).
+  goals:
+    - Say how and when you use your phone and the internet.
+    - Give a consequence with deshalb and a contrast with trotzdem.
+    - Ask Lena two polite indirect questions with the verb at the end.
+    - Use zu + infinitive once (Ich habe keine Zeit, … zu …).
+  model: |
+    Lena: Wie oft benutzt du dein Handy?
+    Du: Sehr oft. Am Morgen lese ich die Nachrichten, deshalb kaufe ich keine Zeitung mehr.
+    Lena: Und welche Apps magst du?
+    Du: Ich mag die SBB-App. Ich fahre jeden Tag Zug, deshalb ist sie wichtig für mich.
+    Lena: Schaust du am Abend Videos?
+    Du: Manchmal. Ich bin oft müde, trotzdem schaue ich noch eine Serie. Weißt du, ob es eine gute App für Deutsch gibt?
+    Lena: Klar, Doppelpunkt! (lacht)
+    Du: Und kannst du mir sagen, wie man Sprachnachrichten löscht? Ich habe nie Zeit, das zu suchen.
+  explanation: >-
+    Indirect questions: Weißt du, ob es … gibt? Kannst du mir sagen, wie man … löscht? (verb last). deshalb and
+    trotzdem with the verb right after them. zu + infinitive: Ich habe nie Zeit, das zu suchen.
+
+- id: a2-u10-write-email
+  type: write
+  skill: writing
+  variety: ch-std
+  grammar: [messages-register, indirect-questions, connectors-deshalb-trotzdem]
+  prompt: Write a formal email.
+  task: >-
+    Write an email (6–8 sentences) to your German teacher, Frau Keller. You can't come to the course on Thursday.
+    Say why (deshalb or weil), ask whether she can send you the homework (ob), and ask when the next test is
+    (wann). Use a subject line and a formal opening and closing.
+  minWords: 50
+  model: >-
+    Betreff: Deutschkurs am Donnerstag
+
+
+    Sehr geehrte Frau Keller,
+
+
+    leider kann ich am Donnerstag nicht in den Deutschkurs kommen. Ich muss für meine Firma nach Basel fahren,
+    deshalb bin ich den ganzen Tag nicht in Zürich. Können Sie mir sagen, ob Sie mir die Hausaufgaben per Mail
+    schicken können? Ich möchte auch wissen, wann der nächste Test ist. Es ist mir wichtig, nichts zu verpassen.
+    Vielen Dank für Ihre Antwort!
+
+
+    Freundliche Grüsse
+
+    Tom Baker
+  checklist:
+    - I write a short subject line (Betreff).
+    - I open with Sehr geehrte Frau Keller and close with Freundliche Grüsse and my full name.
+    - I give a reason with deshalb (verb next) or weil (verb last).
+    - I ask one ob-question and one wann-question with the verb at the end.
+    - I use Sie / Ihnen throughout.
+  explanation: >-
+    Formal emails in Switzerland: Sehr geehrte Frau …, (with a comma, the next line starts with a small letter;
+    without a comma, with a capital), Sie forms, Freundliche Grüsse. Indirect questions sound polite: Können Sie mir sagen, ob …? verpassen = to miss.
+
+# ---------- Swiss Standard German ----------
+- id: a2-u10-chstd-match
+  type: match
+  skill: vocabulary
+  variety: ch-std
+  prompt: Match the Swiss Standard German words with the words used in Germany.
+  pairs:
+    - ["das Mail", "die E-Mail"]
+    - ["das Natel", "das Handy"]
+    - ["Merci!", "Danke!"]
+    - ["Freundliche Grüsse", "Mit freundlichen Grüßen"]
+  explanation: >-
+    Duden: das E-Mail / das Mail (neuter) is used especially in southern Germany, Austria and Switzerland;
+    das Natel is Swiss, next to Handy. Swiss work emails usually close with Freundliche Grüsse (ss, never ß).
+
+# ---------- Swiss lane (gsw-zh) ----------
+- id: a2-u10-ch-mcq-znacht
+  type: mcq
+  skill: reading
+  variety: gsw-zh
+  prompt: "Read Reto's first message in the group chat: \"Hoi zäme! Wie gahts? Am Samschtig mach ich Znacht. Händ ihr Ziit?\" What is he planning?"
+  options: ["A lunch on Sunday", "A dinner on Saturday", "A trip on Saturday", "A breakfast on Saturday"]
+  answer: 1
+  rationales:
+    - "Samschtig is Saturday, and Znacht is dinner."
+    - "Correct. Am Samschtig mach ich Znacht = Am Samstag koche ich Abendessen."
+    - "Znacht is a meal, not a trip."
+    - "Breakfast would be Zmorge."
+  explanation: >-
+    Hoi zäme = Hallo zusammen, Wie gahts? = Wie geht's?, de Znacht = das Abendessen, Händ ihr Ziit? = Habt ihr
+    Zeit? Swiss friends write messages like this in dialect.
+
+- id: a2-u10-ch-transform-oeb
+  type: transform
+  skill: reading
+  variety: gsw-zh
+  grammar: [indirect-questions]
+  prompt: What does Sandra write? Write it in Standard German.
+  from: gsw-zh
+  to: de
+  source: Weisch scho, öb d Nadine au chunnt?
+  answers:
+    - "Weißt du schon, ob Nadine auch kommt?"
+    - "Weisst du schon, ob Nadine auch kommt?"
+    - "Weißt du schon, ob die Nadine auch kommt?"
+    - "Weisst du schon, ob die Nadine auch kommt?"
+  explanation: >-
+    Weisch = weisst du (the du is often dropped), öb = ob, d Nadine = (die) Nadine – Swiss German puts an article
+    before names – chunnt = kommt, at the end of the ob-clause as in Standard German.
+
+- id: a2-u10-ch-mcq-drum
+  type: mcq
+  skill: listening
+  variety: gsw-zh
+  grammar: [connectors-deshalb-trotzdem]
+  prompt: Listen to Sandra's message. Why will she come late?
+  transcript: |-
+    Sandra: Ich ha am Samschtig Frühdienscht, drum chum ich erscht am achti. Isch das ok?
+  options: ["Her train is late.", "She has to buy a dessert.", "She is working the early shift.", "She is visiting her mother."]
+  answer: 2
+  rationales:
+    - "No train is mentioned."
+    - "Tom and Anna bring the dessert."
+    - "Correct. Frühdienscht = early shift; drum = deshalb."
+    - "Her mother is not mentioned here."
+  explanation: >-
+    drum = darum / deshalb, and as in Standard German the verb comes next: drum chum ich … erscht am achti = erst
+    um acht (not before eight).
+
+- id: a2-u10-ch-match-texting
+  type: match
+  skill: vocabulary
+  variety: gsw-zh
+  prompt: Match the Swiss text-message words with Standard German.
+  pairs:
+    - ["Hoi zäme!", "Hallo zusammen!"]
+    - ["Kei Ahnig.", "Keine Ahnung."]
+    - ["Bis morn!", "Bis morgen!"]
+    - ["Händ en schöne Abig!", "Habt einen schönen Abend!"]
+    - ["merci vill mal", "vielen Dank"]
+  explanation: >-
+    zäme = zusammen, Ahnig = Ahnung (-ung → -ig), morn = morgen, Abig = Abend, händ = habt (plural). Spellings
+    vary from person to person – read them aloud.
+
+- id: a2-u10-ch-mcq-hdl
+  type: mcq
+  skill: vocabulary
+  variety: gsw-zh
+  prompt: "Sandra ends a message to her mother with \"hdl\". What does it mean?"
+  options: ["Love you (ha di gärn / hab dich lieb)", "Until later", "Have a nice day", "Call me back"]
+  answer: 0
+  rationales:
+    - "Correct. hdl = ha di gärn (Swiss) / hab dich lieb (German): to family and close friends."
+    - "Until later = bis spöter."
+    - "Have a nice day = en schöne Tag."
+    - "Call me back = lüüt mer zrugg."
+  explanation: >-
+    hdl is used in Switzerland and Germany. In Swiss German it is read as ha di gärn (= ich habe dich gern). Use
+    it only with people who are close to you.
+
+- id: a2-u10-ch-gap-oeb
+  type: gap
+  skill: grammar
+  variety: gsw-zh
+  grammar: [indirect-questions]
+  prompt: "Guided production: write the Zurich word for ob (whether)."
+  text: Weisch du, ___ de Reto am Samschtig Ziit hät?
+  answers: [["öb", "ob"]]
+  explanation: >-
+    ob → öb in Zurich German (ob is also heard). As in Standard German, the verb hät (hat) goes to the end of the
+    öb-clause.
+
+- id: a2-u10-ch-transform-de-gsw
+  type: transform
+  skill: vocabulary
+  variety: gsw-zh
+  prompt: "Recognition: how do you say this in Zurich German? (Common spellings are accepted.)"
+  from: de
+  to: gsw-zh
+  source: Keine Ahnung. Bis morgen!
+  answers:
+    - "Kei Ahnig. Bis morn!"
+    - "Kei Ahnig. Bis morge!"
+    - "Kä Ahnig. Bis morn!"
+    - "Kei Ahnig, bis morn!"
+  explanation: >-
+    keine → kei, Ahnung → Ahnig, morgen (tomorrow) → morn. Careful: am Morge = in the morning.
+
+- id: a2-u10-roleplay-reto
+  type: roleplay
+  skill: listening
+  variety: gsw-zh
+  grammar: [indirect-questions, connectors-deshalb-trotzdem]
+  tutor: reto
+  prompt: "Listening roleplay with Reto: planning dinner by message."
+  scenario: >-
+    Reto writes to you in Zurich German about his dinner on Saturday. Read his messages, then answer in Standard
+    German: say if you can come, ask what you should bring and whether others are coming.
+  goals:
+    - Understand Reto's dialect messages (Händ ihr Ziit? Weisch, öb …? drum …).
+    - Answer whether you can come and ask a question with ob.
+    - Close the chat politely (Bis Samstag! Schönen Abend!).
+  model: |
+    Reto: Hoi! Am Samschtig mach ich Znacht. Häsch Ziit?
+    Du: Hallo Reto! Ja, gern. Um wie viel Uhr?
+    Reto: Am sibni. D Nadine chunnt au, drum mach ich es Fondue.
+    Du: Super! Weißt du, ob Sandra auch kommt?
+    Reto: Ja, aber erscht am achti. Si hät Frühdienscht.
+    Du: Soll ich etwas mitbringen?
+    Reto: Es Dessert wär mega lieb. Bis Samschtig!
+    Du: Bis Samstag! Schönen Abend!
+  explanation: >-
+    Decoding: Häsch Ziit? = Hast du Zeit?, am sibni = um sieben, drum = deshalb, erscht am achti = erst um acht,
+    wär mega lieb = wäre sehr nett.
+
+# ---------- Bernese (gsw-be, recognition) ----------
+- id: a2-u10-ch-be-mcq-aalute
+  type: mcq
+  skill: listening
+  variety: gsw-be
+  prompt: Listen to the voice message from Sandra's mother. What happened today?
+  transcript: |-
+    Mami: Hoi Sandra, i ha der hüt zwöimau aaglütet. Hesch mi Nachricht übercho?
+  options: ["She sent Sandra two letters.", "She visited Sandra twice.", "She is going to call Sandra this evening.", "She phoned Sandra twice."]
+  answer: 3
+  explanation: >-
+    aaglütet = angerufen (berndeutsch.ch: aalüte, PP aaglütet), zwöimau = zweimal (l → u). Hesch … übercho? =
+    Hast du … bekommen? (berndeutsch.ch: übercho).
+
+- id: a2-u10-ch-be-transform
+  type: transform
+  skill: reading
+  variety: gsw-be
+  grammar: [separable-verbs]
+  prompt: What does Sandra answer? Write it in Standard German.
+  from: gsw-be
+  to: de
+  source: Mi Akku isch läär gsy. I lüte der hüt am Abe a.
+  answers:
+    - "Mein Akku war leer. Ich rufe dich heute Abend an."
+    - "Mein Akku ist leer gewesen. Ich rufe dich heute Abend an."
+    - "Mein Akku war leer. Ich rufe dich heute am Abend an."
+  explanation: >-
+    gsy = gewesen (no war in dialect), läär = leer, i lüte der … a = ich rufe dich … an (aalüte is separable, and
+    it takes the dative der = dir), am Abe = am Abend.
+
+- id: a2-u10-ch-be-match
+  type: match
+  skill: vocabulary
+  variety: gsw-be
+  prompt: Match the Bernese words with Standard German.
+  pairs:
+    - ["aalüte", "anrufen"]
+    - ["übercho", "bekommen"]
+    - ["zwöimau", "zweimal"]
+    - ["tschou", "tschüss"]
+  explanation: >-
+    From berndeutsch.ch: aalüte (PP aaglütet), übercho (i ha übercho), tschou (informal goodbye). zwöimau shows
+    the Bernese l → u (mal → mau).

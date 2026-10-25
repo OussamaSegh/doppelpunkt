@@ -1,0 +1,361 @@
+# A2 unit 5 – Umziehen und Einrichten
+
+# ---------- the move ----------
+- id: umzug
+  de: Umzug
+  en: move (to a new home)
+  pos: noun
+  gender: m
+  plural: Umzüge
+  example: { de: "Tom hilft Nadine beim Umzug.", en: "Tom is helping Nadine with the move." }
+  chStd: der Umzug / das Zügeln
+  gswZh: Züglete / s Zügle
+  gswBe: Züglete (d Züglete)
+  tags: [moving, helvetism]
+
+- id: umziehen
+  de: umziehen
+  en: to move (house)
+  pos: verb
+  example: { de: "Nadine ist nach Winterthur umgezogen.", en: "Nadine has moved to Winterthur." }
+  chStd: zügeln (Wir zügeln am Samstag.)
+  gswZh: zügle (züglet)
+  gswBe: zügle (züglet)
+  tags: [moving, separable, helvetism]
+
+- id: tragen
+  de: tragen
+  en: to carry
+  pos: verb
+  example: { de: "Kannst du den Karton in den Keller tragen?", en: "Can you carry the box to the cellar?" }
+  gswZh: träge
+  tags: [moving, irregular]
+
+- id: karton
+  de: Karton
+  en: cardboard box
+  pos: noun
+  gender: m
+  plural: Kartons
+  example: { de: "Die Teller sind noch im Karton.", en: "The plates are still in the box." }
+  gswZh: Karton / Kartonschachtle
+  tags: [moving]
+
+- id: aufbauen
+  de: aufbauen
+  en: to put together, to assemble
+  pos: verb
+  example: { de: "Das Bett baue ich später auf.", en: "I'll put the bed together later." }
+  gswZh: ufstelle / zämebaue
+  tags: [moving, separable]
+
+- id: einrichten
+  de: einrichten
+  en: to furnish
+  pos: verb
+  example: { de: "Ich richte mein Wohnzimmer neu ein.", en: "I'm furnishing my living room again." }
+  gswZh: iirichte
+  tags: [furnishing, separable]
+
+# ---------- furniture ----------
+- id: moebel
+  de: Möbel
+  en: furniture
+  pos: noun
+  pluralOnly: true
+  example: { de: "Die Möbel sind schon in der Wohnung.", en: "The furniture is already in the flat." }
+  gswZh: Möbel
+  gswBe: Möbu (small = Möbeli)
+  tags: [furnishing]
+
+- id: sofa
+  de: Sofa
+  en: sofa
+  pos: noun
+  gender: n
+  plural: Sofas
+  example: { de: "Das Sofa steht unter dem Fenster.", en: "The sofa is under the window." }
+  gswZh: Sofa
+  tags: [furnishing]
+
+- id: sessel
+  de: Sessel
+  en: armchair
+  pos: noun
+  gender: m
+  plural: Sessel
+  example: { de: "Neben dem Sofa steht ein Sessel.", en: "There's an armchair next to the sofa." }
+  gswZh: Sessel / Fauteuil
+  chStd: der Sessel / der Fauteuil
+  tags: [furnishing, helvetism]
+
+- id: schrank
+  de: Schrank
+  en: cupboard, wardrobe
+  pos: noun
+  gender: m
+  plural: Schränke
+  example: { de: "Stell die Gläser bitte in den Schrank.", en: "Please put the glasses in the cupboard." }
+  gswZh: Chaschte / Schrank
+  tags: [furnishing]
+
+- id: regal
+  de: Regal
+  en: shelf, set of shelves
+  pos: noun
+  gender: n
+  plural: Regale
+  example: { de: "Die Bücher stehen im Regal.", en: "The books are on the shelves." }
+  chStd: das Gestell
+  gswZh: Gstell / Regal
+  tags: [furnishing, helvetism]
+
+- id: tisch
+  de: Tisch
+  en: table
+  pos: noun
+  gender: m
+  plural: Tische
+  example: { de: "Der Tisch kommt in die Küche.", en: "The table goes in the kitchen." }
+  gswZh: Tisch (small = Tischli)
+  tags: [furnishing, diminutive]
+
+- id: stuhl
+  de: Stuhl
+  en: chair
+  pos: noun
+  gender: m
+  plural: Stühle
+  example: { de: "Um den Tisch stehen vier Stühle.", en: "There are four chairs around the table." }
+  gswZh: Stuehl (small = Stüeli)
+  gswBe: Stuel (small = Stüeli)
+  tags: [furnishing, diminutive]
+
+- id: bett
+  de: Bett
+  en: bed
+  pos: noun
+  gender: n
+  plural: Betten
+  example: { de: "Das Bett steht an der Wand.", en: "The bed is against the wall." }
+  gswZh: Bett
+  tags: [furnishing]
+
+- id: lampe
+  de: Lampe
+  en: lamp, light
+  pos: noun
+  gender: f
+  plural: Lampen
+  example: { de: "Die Lampe hängt über dem Tisch.", en: "The light hangs above the table." }
+  gswZh: Lampe
+  tags: [furnishing]
+
+- id: teppich
+  de: Teppich
+  en: rug, carpet
+  pos: noun
+  gender: m
+  plural: Teppiche
+  example: { de: "Auf dem Boden liegt ein blauer Teppich.", en: "There's a blue rug on the floor." }
+  gswZh: Teppich
+  tags: [furnishing]
+
+- id: bild
+  de: Bild
+  en: picture
+  pos: noun
+  gender: n
+  plural: Bilder
+  example: { de: "Wir hängen das Bild über das Sofa.", en: "We'll hang the picture above the sofa." }
+  gswZh: Bild
+  tags: [furnishing]
+
+- id: spiegel
+  de: Spiegel
+  en: mirror
+  pos: noun
+  gender: m
+  plural: Spiegel
+  example: { de: "Der Spiegel hängt im Bad.", en: "The mirror hangs in the bathroom." }
+  gswZh: Spiegel
+  tags: [furnishing]
+
+- id: vorhang
+  de: Vorhang
+  en: curtain
+  pos: noun
+  gender: m
+  plural: Vorhänge
+  example: { de: "Die Vorhänge sind noch im Karton.", en: "The curtains are still in the box." }
+  gswZh: Vorhang
+  tags: [furnishing]
+
+# ---------- in the room ----------
+- id: flur
+  de: Flur
+  en: hallway, corridor
+  pos: noun
+  gender: m
+  plural: Flure
+  example: { de: "Der Karton steht im Flur.", en: "The box is in the hallway." }
+  chStd: der Gang
+  gswZh: Gang
+  tags: [rooms, helvetism]
+
+- id: wand
+  de: Wand
+  en: wall (inside)
+  pos: noun
+  gender: f
+  plural: Wände
+  example: { de: "An der Wand hängt ein Bild.", en: "There's a picture on the wall." }
+  gswZh: Wand
+  tags: [rooms]
+
+- id: boden
+  de: Boden
+  en: floor
+  pos: noun
+  gender: m
+  plural: Böden
+  example: { de: "Meine Kleider liegen noch auf dem Boden.", en: "My clothes are still lying on the floor." }
+  gswZh: Bode
+  tags: [rooms]
+
+- id: decke
+  de: Decke
+  en: ceiling; blanket
+  pos: noun
+  gender: f
+  plural: Decken
+  example: { de: "Die Lampe hängt an der Decke.", en: "The light hangs from the ceiling." }
+  gswZh: Decki
+  tags: [rooms]
+
+- id: ecke
+  de: Ecke
+  en: corner
+  pos: noun
+  gender: f
+  plural: Ecken
+  example: { de: "Stell den Sessel in die Ecke.", en: "Put the armchair in the corner." }
+  gswZh: Egge
+  tags: [rooms]
+
+# ---------- position verbs ----------
+- id: stellen
+  de: stellen
+  en: to put (upright), to stand
+  pos: verb
+  example: { de: "Ich stelle den Tisch in die Küche.", en: "I'm putting the table in the kitchen." }
+  gswZh: stelle
+  tags: [position-verbs]
+
+- id: stehen
+  de: stehen
+  en: to stand, to be (upright)
+  pos: verb
+  example: { de: "Der Tisch steht in der Küche.", en: "The table is in the kitchen." }
+  chStd: "Perfekt: ist gestanden"
+  gswZh: stah (es staht)
+  tags: [position-verbs, irregular]
+
+- id: legen
+  de: legen
+  en: to put (flat), to lay
+  pos: verb
+  example: { de: "Ich lege das Handy auf den Tisch.", en: "I'm putting the phone on the table." }
+  gswZh: lege / leie
+  tags: [position-verbs]
+
+- id: liegen
+  de: liegen
+  en: to lie, to be (lying)
+  pos: verb
+  example: { de: "Das Handy liegt auf dem Tisch.", en: "The phone is on the table." }
+  chStd: "Perfekt: ist gelegen"
+  gswZh: ligge
+  tags: [position-verbs, irregular]
+
+- id: haengen
+  de: hängen
+  en: to hang
+  pos: verb
+  example: { de: "Ich hänge das Bild an die Wand. Jetzt hängt es an der Wand.", en: "I'm hanging the picture on the wall. Now it's on the wall." }
+  gswZh: hänke
+  tags: [position-verbs]
+
+# ---------- two-way prepositions ----------
+- id: neben
+  de: neben
+  en: next to
+  pos: prep
+  example: { de: "Der Sessel steht neben dem Sofa.", en: "The armchair is next to the sofa." }
+  gswZh: näbe
+  tags: [prepositions, two-way]
+
+- id: zwischen
+  de: zwischen
+  en: between
+  pos: prep
+  example: { de: "Die Lampe steht zwischen dem Sofa und dem Sessel.", en: "The lamp is between the sofa and the armchair." }
+  gswZh: zwüsche
+  tags: [prepositions, two-way]
+
+- id: hinter
+  de: hinter
+  en: behind
+  pos: prep
+  example: { de: "Der Karton steht hinter der Tür.", en: "The box is behind the door." }
+  gswZh: hinder
+  tags: [prepositions, two-way]
+
+- id: ueber
+  de: über
+  en: above, over
+  pos: prep
+  example: { de: "Über dem Sofa hängt ein Bild.", en: "There's a picture above the sofa." }
+  gswZh: über
+  tags: [prepositions, two-way]
+
+- id: unter
+  de: unter
+  en: under, below
+  pos: prep
+  example: { de: "Die Katze schläft unter dem Bett.", en: "The cat is sleeping under the bed." }
+  gswZh: under
+  tags: [prepositions, two-way]
+
+# ---------- describing a room ----------
+- id: hell
+  de: hell
+  en: bright, light
+  pos: adj
+  example: { de: "Das Wohnzimmer ist groß und hell.", en: "The living room is big and bright." }
+  gswZh: hell
+  tags: [describing, rooms]
+
+- id: dunkel
+  de: dunkel
+  en: dark
+  pos: adj
+  example: { de: "Der Flur ist ein bisschen dunkel.", en: "The hallway is a bit dark." }
+  gswZh: dunkel
+  tags: [describing, rooms]
+
+- id: leer
+  de: leer
+  en: empty
+  pos: adj
+  example: { de: "Die leeren Kartons trage ich in den Keller.", en: "I'm carrying the empty boxes to the cellar." }
+  gswZh: läär / leer
+  tags: [describing, moving]
+
+- id: schwer
+  de: schwer
+  en: heavy; difficult
+  pos: adj
+  example: { de: "Der Schrank ist sehr schwer.", en: "The wardrobe is very heavy." }
+  gswZh: schwär
+  tags: [describing, moving]

@@ -10,6 +10,8 @@ import { db, type ExamResultRow } from '../db';
 import { examMinutes, FORMAT_NAME, SKILL_NAME } from '../lib/exam';
 import { ExamResults } from './exam/ExamResults';
 import { ExamRun } from './exam/ExamRun';
+import { canOpenLevel, useEntitlements } from '../lib/billing/entitlements';
+import { LockedNotice, LockIcon } from '../components/Lock';
 
 export function Exam() {
   return (
@@ -31,6 +33,7 @@ function ExamRoute() {
   const { examId } = useParams();
   const [search] = useSearchParams();
   const packs = useContent((s) => s.packs);
+  const ent = useEntitlements();
   if (!examId) return <ExamList packs={packs} />;
   const found = findExam(packs, examId);
   if (!found) {
@@ -40,6 +43,8 @@ function ExamRoute() {
       </EmptyState>
     );
   }
+  if (!ent.ready) return <p role="status">Checking your unlocks…</p>;
+  if (!canOpenLevel(found.pack.level, ent)) return <LockedNotice level={found.pack.level} what={`The ${found.pack.level} mock exam`} />;
   const resultId = Number(search.get('result'));
   if (Number.isInteger(resultId) && resultId > 0) return <SavedResult exam={found.exam} pack={found.pack} id={resultId} />;
   return (
@@ -78,6 +83,7 @@ function SavedResult({ exam, pack, id }: { exam: MockExam; pack: LevelPack; id: 
 function ExamList({ packs }: { packs: LevelPack[] }) {
   const results = useLiveQuery(() => db.examResults.orderBy('at').reverse().toArray(), []);
   const withExams = packs.filter((p) => p.exams.length > 0);
+  const ent = useEntitlements();
   return (
     <div className="space-y-5">
       <header>
@@ -91,8 +97,13 @@ function ExamList({ packs }: { packs: LevelPack[] }) {
       ) : (
         withExams.map((p) => (
           <section key={p.level} aria-labelledby={`exams-${p.level}`} className="space-y-3">
-            <h2 id={`exams-${p.level}`} className="font-semibold">
+            <h2 id={`exams-${p.level}`} className="flex items-center gap-1.5 font-semibold">
               {p.level}
+              {ent.ready && !canOpenLevel(p.level, ent) && (
+                <Link to={`/unlock/${p.level}`} className="inline-flex items-center gap-1 text-sm font-normal text-muted underline">
+                  <LockIcon /> Locked: unlock {p.level}
+                </Link>
+              )}
             </h2>
             <ul className="space-y-3">
               {p.exams.map((e) => (

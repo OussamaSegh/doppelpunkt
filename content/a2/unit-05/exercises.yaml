@@ -1,0 +1,691 @@
+# A2 unit 5 – Umziehen und Einrichten
+
+# ---------- vocabulary ----------
+- id: a2-u05-match-furniture
+  type: match
+  skill: vocabulary
+  variety: de
+  prompt: Match the furniture with English.
+  pairs:
+    - ["der Schrank", "cupboard, wardrobe"]
+    - ["der Sessel", "armchair"]
+    - ["das Regal", "shelves"]
+    - ["der Teppich", "rug"]
+    - ["der Spiegel", "mirror"]
+    - ["der Vorhang", "curtain"]
+  explanation: >-
+    Most furniture nouns are masculine (der Schrank, der Tisch, der Stuhl, der Sessel); learn them with der.
+    Möbel (furniture) is plural only: die Möbel.
+
+- id: a2-u05-match-room
+  type: match
+  skill: vocabulary
+  variety: de
+  prompt: Match the room and moving words with English.
+  pairs:
+    - ["die Wand", "wall"]
+    - ["die Decke", "ceiling"]
+    - ["der Boden", "floor"]
+    - ["die Ecke", "corner"]
+    - ["der Umzug", "move"]
+    - ["tragen", "to carry"]
+  explanation: >-
+    die Decke is both the ceiling and a blanket. der Umzug comes from umziehen (to move house); in
+    Switzerland people say zügeln.
+
+# ---------- grammar: two-way prepositions ----------
+- id: a2-u05-mcq-wo-wohin
+  type: mcq
+  skill: grammar
+  variety: ch-std
+  grammar: [two-way-prepositions]
+  prompt: Choose the correct article.
+  question: Stell das Sofa bitte an ___ Wand.
+  options: ["der", "den", "die", "dem"]
+  answer: 2
+  rationales:
+    - "der would be Wo? (an der Wand = on the wall) – but stellen is movement."
+    - "den is masculine; die Wand is feminine."
+    - "Correct. Wohin? → accusative: an die Wand."
+    - "dem is masculine or neuter dative."
+  explanation: >-
+    stellen describes movement to a place (Wohin?), so an takes the accusative: an die Wand. The result is
+    a position (Wo?): Das Sofa steht an der Wand.
+
+- id: a2-u05-gap-wo
+  type: gap
+  skill: grammar
+  variety: de
+  grammar: [two-way-prepositions]
+  prompt: "Where is it? Fill in dem or der (Wo? + dative)."
+  text: Der Karton steht hinter ___ Tür. Die Lampe hängt über ___ Tisch. Die Katze schläft unter ___ Bett.
+  answers: [["der"], ["dem"], ["dem"]]
+  explanation: >-
+    Position (Wo?) takes the dative: die Tür → hinter der Tür, der Tisch → über dem Tisch, das Bett → unter
+    dem Bett.
+
+- id: a2-u05-gap-wohin
+  type: gap
+  skill: grammar
+  variety: de
+  grammar: [two-way-prepositions]
+  prompt: "Where does it go? Fill in den, die or das (Wohin? + accusative)."
+  text: Ich stelle den Sessel in ___ Ecke. Leg das Buch auf ___ Tisch. Häng die Jacke über ___ Sofa.
+  answers: [["die"], ["den"], ["das"]]
+  explanation: >-
+    Movement (Wohin?) takes the accusative: in die Ecke (f), auf den Tisch (m – the only form that changes
+    from the nominative), über das Sofa (n).
+
+- id: a2-u05-mcq-liegt-auf
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [two-way-prepositions, position-verbs]
+  prompt: Choose the correct phrase.
+  question: Wo ist mein Handy? – Es liegt ___.
+  options: ["auf dem Tisch", "auf den Tisch", "auf der Tisch", "auf Tisch"]
+  answer: 0
+  rationales:
+    - "Correct. Wo? → dative: auf dem Tisch."
+    - "den is accusative (Wohin?): Ich lege es auf den Tisch."
+    - "der Tisch is masculine; the dative is dem."
+    - "German needs the article here."
+  explanation: >-
+    liegen is a position (Wo?), so auf takes the dative: auf dem Tisch. With legen (movement) it would be
+    auf den Tisch.
+
+- id: a2-u05-mcq-ins
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [preposition-contractions, two-way-prepositions]
+  prompt: Choose the right form.
+  question: Es ist spät. Ich gehe jetzt ___ Bett.
+  options: ["im", "am", "in den", "ins"]
+  answer: 3
+  rationales:
+    - "im = in dem: a position (Ich liege im Bett)."
+    - "am = an dem: next to / at the bed."
+    - "das Bett is neuter, so not den."
+    - "Correct. Movement: in das → ins Bett."
+  explanation: >-
+    ins Bett gehen is movement (Wohin?): in das → ins. Once you are there: Ich liege im Bett (in dem → im).
+
+- id: a2-u05-transform-wohin-wo
+  type: transform
+  skill: grammar
+  variety: de
+  grammar: [two-way-prepositions, position-verbs]
+  prompt: "Say where the picture is now. Use hängt."
+  from: de
+  to: de
+  source: Ich hänge das Bild an die Wand.
+  answers: ["Das Bild hängt an der Wand.", "Jetzt hängt das Bild an der Wand.", "Es hängt an der Wand."]
+  explanation: >-
+    After the movement (an die Wand, accusative) comes the position (an der Wand, dative). hängen is used
+    for both, but the case changes.
+
+- id: a2-u05-gap-zwischen
+  type: gap
+  skill: grammar
+  variety: ch-std
+  grammar: [two-way-prepositions]
+  prompt: "Fill in the article (Wo? = dative)."
+  text: Im Gang steht das Velo zwischen ___ Schrank und ___ Tür.
+  answers: [["dem"], ["der"]]
+  explanation: >-
+    stehen = position, so zwischen takes the dative: der Schrank → dem Schrank, die Tür → der Tür. Swiss
+    Standard German keeps the Velo in the Gang (hallway).
+
+# ---------- grammar: stellen / stehen, legen / liegen, hängen ----------
+- id: a2-u05-mcq-stellen-legen
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [position-verbs]
+  prompt: Choose the right verb for the bottle.
+  question: Ich ___ die Flasche Wein in den Kühlschrank.
+  options: ["lege", "stelle", "stehe", "liege"]
+  answer: 1
+  rationales:
+    - "legen is for things put flat (a book, a phone)."
+    - "Correct. A bottle stands upright: stellen + accusative."
+    - "stehen has no object: Die Flasche steht im Kühlschrank."
+    - "liegen = to lie (no object)."
+  explanation: >-
+    German chooses the verb by position: upright → stellen / stehen, flat → legen / liegen. A bottle stands:
+    Ich stelle die Flasche in den Kühlschrank. Now it steht im Kühlschrank.
+
+- id: a2-u05-mcq-steht
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [position-verbs, two-way-prepositions]
+  prompt: Choose the correct sentence.
+  options: ["Der Tisch stellt in der Küche.", "Der Tisch steht in die Küche.", "Der Tisch stellt in die Küche.", "Der Tisch steht in der Küche."]
+  answer: 3
+  rationales:
+    - "stellen needs a person who puts something somewhere."
+    - "Position takes the dative: in der Küche."
+    - "A table can't put itself anywhere."
+    - "Correct. Position verb + dative."
+  explanation: >-
+    The table is simply there: stehen + Wo? + dative (in der Küche). stellen would need a subject who does
+    it: Nadine stellt den Tisch in die Küche.
+
+- id: a2-u05-match-verb-pairs
+  type: match
+  skill: grammar
+  variety: de
+  grammar: [position-verbs]
+  prompt: Match each movement with the position that results.
+  pairs:
+    - ["Ich stelle die Lampe auf den Tisch.", "Die Lampe steht auf dem Tisch."]
+    - ["Ich lege das Buch ins Regal.", "Das Buch liegt im Regal."]
+    - ["Ich hänge den Spiegel an die Wand.", "Der Spiegel hängt an der Wand."]
+    - ["Ich lege den Teppich vor das Sofa.", "Der Teppich liegt vor dem Sofa."]
+  explanation: >-
+    Movement verbs (stellen, legen, hängen) + accusative → position verbs (stehen, liegen, hängen) + dative:
+    auf den → auf dem, ins → im, an die → an der, vor das → vor dem.
+
+- id: a2-u05-order-sofa
+  type: order
+  skill: grammar
+  variety: ch-std
+  grammar: [two-way-prepositions, position-verbs]
+  prompt: Put the words in order.
+  tokens: ["Das", "Sofa", "steht", "unter", "dem", "Fenster"]
+  answers: ["Das Sofa steht unter dem Fenster.", "Unter dem Fenster steht das Sofa."]
+  explanation: >-
+    Position: stehen + unter dem Fenster (dative). The place can also go first; then the verb stays in
+    position 2 and the subject follows.
+
+- id: a2-u05-order-glaeser
+  type: order
+  skill: grammar
+  variety: de
+  grammar: [two-way-prepositions, position-verbs, imperative]
+  prompt: Put the words in order.
+  tokens: ["Stell", "die", "Gläser", "bitte", "in", "den", "Schrank"]
+  answers: ["Stell die Gläser bitte in den Schrank.", "Stell bitte die Gläser in den Schrank."]
+  explanation: >-
+    Imperative (du): the verb comes first. Glasses stand upright, so stellen. in den Schrank: masculine
+    accusative, because the glasses move into the cupboard.
+
+- id: a2-u05-mcq-haengen
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [position-verbs, perfekt-haben]
+  prompt: Choose the correct Perfekt.
+  question: Gestern ___ ich das Bild über das Sofa ___.
+  options: ["habe … gehangen", "bin … gehängt", "habe … gehängt", "bin … gehangen"]
+  answer: 2
+  rationales:
+    - "gehangen is the participle of the position verb (Das Bild hat dort gehangen)."
+    - "Movement verbs with an object take haben."
+    - "Correct. hängen + object (movement) is regular: habe … gehängt."
+    - "This mixes sein with the position participle."
+  explanation: >-
+    hängen with an object (I hang something) is regular: hat gehängt. hängen as a position (it hangs) is
+    irregular: hat gehangen. Compare stellen – hat gestellt, stehen – hat gestanden.
+
+- id: a2-u05-gap-verbs
+  type: gap
+  skill: grammar
+  variety: de
+  grammar: [position-verbs]
+  prompt: "Fill in liegt, steht or hängt."
+  text: Der Teppich ___ auf dem Boden. Die Lampe ___ an der Decke. Der Sessel ___ in der Ecke.
+  answers: [["liegt"], ["hängt"], ["steht"]]
+  explanation: >-
+    A rug lies flat (liegt), a ceiling light hangs (hängt), an armchair stands (steht). All three describe
+    a position, so the prepositions take the dative.
+
+- id: a2-u05-translate-put
+  type: translate
+  skill: writing
+  variety: de
+  grammar: [position-verbs, two-way-prepositions]
+  prompt: Translate into German (informal). You are talking about a bag.
+  source: Put the bag on the chair, please.
+  answers: ["Stell die Tasche bitte auf den Stuhl.", "Stell bitte die Tasche auf den Stuhl.", "Leg die Tasche bitte auf den Stuhl.", "Leg bitte die Tasche auf den Stuhl.", "Stell die Tasche auf den Stuhl, bitte.", "Leg die Tasche auf den Stuhl, bitte."]
+  explanation: >-
+    English put = stellen (upright) or legen (flat); a bag can be either. auf den Stuhl: movement, so
+    accusative (der Stuhl → den Stuhl).
+
+# ---------- grammar: contractions ----------
+- id: a2-u05-gap-contractions
+  type: gap
+  skill: grammar
+  variety: de
+  grammar: [preposition-contractions]
+  prompt: "Fill in im, ins, am or ans."
+  text: Das Bett steht ___ Schlafzimmer. Stell das Sofa ___ Wohnzimmer! Der Spiegel hängt ___ Schrank.
+  answers: [["im"], ["ins"], ["am"]]
+  explanation: >-
+    Wo? → im (in dem), am (an dem). Wohin? → ins (in das), ans (an das). Use the contraction: im Schlafzimmer,
+    not in dem Schlafzimmer.
+
+- id: a2-u05-mcq-im-zentrum
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [preposition-contractions, two-way-prepositions]
+  prompt: Choose the right form.
+  question: Unsere neue Wohnung ist ___ Zentrum, direkt am See.
+  options: ["im", "ins", "in", "in das"]
+  answer: 0
+  rationales:
+    - "Correct. Position: in dem → im Zentrum."
+    - "ins is movement (Wohin?)."
+    - "das Zentrum needs an article here."
+    - "in das is movement – and would contract to ins."
+  explanation: >-
+    sein + place is a position (Wo?): im Zentrum. am See (an dem See) is the same pattern. Movement would be
+    Wir ziehen ins Zentrum.
+
+- id: a2-u05-transform-wohin
+  type: transform
+  skill: grammar
+  variety: de
+  grammar: [two-way-prepositions, position-verbs]
+  prompt: "Say where you put it. Start with Ich stelle …"
+  from: de
+  to: de
+  source: Der Stuhl steht in der Ecke.
+  answers: ["Ich stelle den Stuhl in die Ecke."]
+  explanation: >-
+    stehen (position, Wo? + dative) → stellen (movement, Wohin? + accusative): der Stuhl becomes the object
+    den Stuhl, and in der Ecke becomes in die Ecke.
+
+- id: a2-u05-translate-moved
+  type: translate
+  skill: writing
+  variety: ch-std
+  grammar: [two-way-prepositions, perfekt-sein]
+  prompt: Translate into Swiss Standard German. Use zügeln.
+  source: We moved into a new flat in May.
+  answers: ["Wir sind im Mai in eine neue Wohnung gezügelt.", "Im Mai sind wir in eine neue Wohnung gezügelt.", "Wir haben im Mai in eine neue Wohnung gezügelt.", "Im Mai haben wir in eine neue Wohnung gezügelt."]
+  explanation: >-
+    in eine neue Wohnung: movement, so accusative. zügeln (= umziehen) takes sein like umziehen (Wir sind
+    umgezogen); with haben is also heard (Wiktionary). im Mai = in dem Mai.
+
+# ---------- reading ----------
+- id: a2-u05-mcq-reading-sofa
+  type: mcq
+  skill: reading
+  variety: ch-std
+  prompt: Read Nadine's message. Where is the picture from her grandmother?
+  options: ["On the floor next to the bed", "In a box in the kitchen", "On the wall above the sofa", "Above the kitchen table"]
+  answer: 2
+  explanation: >-
+    "An der Wand über dem Sofa hängt das Bild von meiner Grossmutter." Position: an der Wand, über dem Sofa –
+    both dative.
+
+- id: a2-u05-mcq-reading-chaos
+  type: mcq
+  skill: reading
+  variety: ch-std
+  prompt: Why is the bedroom still chaotic?
+  options: ["The bed is in pieces on the floor.", "Her clothes are still lying on the floor.", "The curtains are still in the box.", "Tom has put the plates on the bed."]
+  answer: 1
+  explanation: >-
+    "Das Bett steht schon an der Wand, aber meine Kleider liegen noch auf dem Boden." Clothes lie (liegen);
+    the bed stands (stehen).
+
+- id: a2-u05-translate-reading
+  type: translate
+  skill: reading
+  variety: ch-std
+  prompt: Translate into English.
+  source: Die Gläser habe ich in den Schrank gestellt, aber die Teller sind noch im Karton.
+  answers: ["I've put the glasses in the cupboard, but the plates are still in the box.", "I put the glasses in the cupboard, but the plates are still in the box.", "I've put the glasses into the cupboard, but the plates are still in the box."]
+  explanation: >-
+    in den Schrank gestellt: movement (accusative) with stellen; im Karton: position (dative). The object die
+    Gläser comes first for emphasis.
+
+# ---------- listening ----------
+- id: a2-u05-mcq-listening-tisch
+  type: mcq
+  skill: listening
+  variety: de
+  prompt: Listen to the intro dialogue again. Where does the table go?
+  options: ["In the kitchen", "Next to the sofa", "Into the living room", "In the hallway"]
+  answer: 0
+  explanation: >-
+    Tom asks "Stelle ich ihn neben das Sofa?", but Nadine says "Nein, der Tisch kommt in die Küche." in die
+    Küche: movement, accusative.
+
+- id: a2-u05-mcq-listening-karton
+  type: mcq
+  skill: listening
+  variety: ch-std
+  grammar: [two-way-prepositions, position-verbs]
+  prompt: Listen to Nadine. Where is the box with the glasses?
+  transcript: |-
+    Nadine: Er steht im Gang, hinter der Tür. Stell die Gläser bitte in den Schrank.
+  options: ["In the cupboard", "In the kitchen, next to the table", "Under the window", "In the hallway, behind the door"]
+  answer: 3
+  explanation: >-
+    im Gang (Swiss Standard for im Flur), hinter der Tür: position, dative. The glasses go in den Schrank –
+    movement, accusative.
+
+- id: a2-u05-dictation-sofa
+  type: dictation
+  skill: listening
+  variety: de
+  grammar: [two-way-prepositions]
+  prompt: Listen and write what you hear.
+  transcript: Stell das Sofa bitte an die Wand.
+  explanation: >-
+    stellen + Wohin? → accusative: an die Wand. Imperative with du: Stell …!
+
+- id: a2-u05-dictation-lampe
+  type: dictation
+  skill: listening
+  variety: de
+  grammar: [two-way-prepositions, position-verbs]
+  prompt: Listen and write what you hear.
+  transcript: Die Lampe hängt schon über dem Tisch.
+  explanation: >-
+    hängen as a position + Wo? → dative: über dem Tisch.
+
+# ---------- speaking ----------
+- id: a2-u05-speak-frame
+  type: speak
+  skill: speaking
+  variety: de
+  grammar: [two-way-prepositions, position-verbs]
+  prompt: "Read aloud, then describe your own living room."
+  target: In meinem Wohnzimmer steht ein Sofa unter dem Fenster. An der Wand hängt ein Bild, und auf dem Boden liegt ein Teppich.
+  explanation: >-
+    Three position verbs + dative: steht unter dem Fenster, hängt an der Wand, liegt auf dem Boden. Swap in
+    your own furniture.
+
+- id: a2-u05-speak-shadow-tom
+  type: speak
+  skill: speaking
+  variety: de
+  grammar: [position-verbs]
+  prompt: "Shadowing: speak along with Tom's line from the intro dialogue, then say it alone."
+  target: Sehr schön! Aber das Bett liegt noch in Teilen auf dem Boden.
+  explanation: >-
+    Stress SCHÖN, BETT and BO-den. The ö in schön is long and rounded; Boden has a long o and a final n.
+
+- id: a2-u05-speak-shadow-nadine
+  type: speak
+  skill: speaking
+  variety: ch-std
+  grammar: [two-way-prepositions, preposition-contractions]
+  prompt: "Shadowing: speak along with Nadine, then say it alone."
+  target: Ins Wohnzimmer, bitte. Stell es an die Wand, unter das Fenster.
+  explanation: >-
+    Swiss Standard German: the st in Stell is scht, the r in unter and Fenster is tapped and not reduced to a.
+    See the drill The Swiss Standard German accent.
+
+- id: a2-u05-speak-intonation
+  type: speak
+  skill: speaking
+  variety: de
+  grammar: [two-way-prepositions]
+  prompt: "Intonation: Wohin? falls; in the answer the new place is stressed."
+  target: Wohin kommt der Tisch? – In die Küche.
+  explanation: >-
+    WoHIN kommt der Tisch? falls at the end like every W-question. The answer stresses the new information:
+    in die KÜ-che.
+
+- id: a2-u05-speak-pron-st
+  type: speak
+  skill: speaking
+  variety: de
+  grammar: [position-verbs]
+  prompt: "Pronunciation: st and sp at the start of a word. Read aloud slowly."
+  target: Stell den Stuhl in die Ecke, der Spiegel steht schon im Flur, und der Schrank ist sehr schwer.
+  explanation: >-
+    At the start of a word st and sp are scht and schp: Stell, Stuhl, Spiegel, steht. Inside a word st is
+    plain st (ist, fast). See the drill s, sch, st and sp.
+
+# ---------- roleplay and writing ----------
+- id: a2-u05-roleplay-lena
+  type: roleplay
+  skill: speaking
+  variety: de
+  grammar: [two-way-prepositions, position-verbs, preposition-contractions]
+  tutor: lena
+  prompt: "Roleplay with Lena: moving day."
+  scenario: >-
+    Lena is moving and you are helping. She tells you where the furniture goes, and you ask and say where
+    you put things. Then describe the living room together.
+  goals:
+    - Ask where things go with Wohin? and answer with an accusative (in die Küche, an die Wand).
+    - Say where things are with Wo? and a dative (im Flur, auf dem Tisch).
+    - Use stellen / legen / hängen for movement and stehen / liegen / hängen for position.
+    - Use im / ins and am / ans.
+  model: |
+    Lena: Danke, dass du mir hilfst! Der Schrank ist sehr schwer.
+    Du: Kein Problem. Wohin kommt der Schrank?
+    Lena: Ins Schlafzimmer, an die Wand neben dem Fenster.
+    Du: Okay. Und wo sind die Bücher?
+    Lena: Sie sind im Karton im Flur. Stell sie bitte ins Regal.
+    Du: Mache ich. Wohin hängen wir den Spiegel?
+    Lena: An die Tür im Bad.
+    Du: Fertig! Der Spiegel hängt jetzt an der Tür, und die Bücher stehen im Regal.
+  explanation: >-
+    Wohin? → accusative (ins Schlafzimmer, an die Wand, an die Tür); Wo? → dative (im Flur, neben dem Fenster,
+    an der Tür). Books stand in a shelf (stehen), so stellen.
+
+- id: a2-u05-write-room
+  type: write
+  skill: writing
+  variety: de
+  grammar: [two-way-prepositions, position-verbs, preposition-contractions, perfekt-haben]
+  prompt: Describe your new room.
+  task: >-
+    You have just moved. Write a message to a friend (6–8 sentences): say when you moved and who helped,
+    describe one room (what is where), say what is still in boxes, and invite your friend.
+  minWords: 50
+  model: >-
+    Hallo Leo! Seit Samstag wohne ich in der neuen Wohnung. Meine Schwester hat mir beim Umzug geholfen. Mein
+    Zimmer ist klein, aber sehr hell. Das Bett steht an der Wand, und neben dem Bett steht ein Regal. Über dem
+    Schreibtisch hängt ein Bild von London. Auf dem Boden liegt ein grüner Teppich. Die Bücher sind noch im
+    Karton im Flur, aber morgen stelle ich sie ins Regal. Komm doch am Wochenende vorbei! Liebe Grüße, Maya
+  checklist:
+    - I use stehen, liegen and hängen for things that are somewhere.
+    - After Wo? I use the dative (an der Wand, neben dem Bett, im Karton).
+    - After Wohin? I use the accusative (ins Regal, in die Küche).
+    - I use the contractions im, ins, am.
+    - I use the Perfekt for the move (hat mir geholfen).
+  explanation: >-
+    A room description is a chain of position verbs + dative. Plans use movement verbs + accusative (morgen
+    stelle ich sie ins Regal).
+
+# ---------- Swiss Standard German ----------
+- id: a2-u05-chstd-match
+  type: match
+  skill: vocabulary
+  variety: ch-std
+  prompt: Match the Swiss Standard German words with the words used in Germany.
+  pairs:
+    - ["zügeln", "umziehen"]
+    - ["der Gang", "der Flur"]
+    - ["das Gestell", "das Regal"]
+    - ["der Estrich", "der Dachboden"]
+  explanation: >-
+    zügeln is Swiss for moving house (Wiktionary: Schweiz). der Gang is the Swiss hallway, das Gestell a set of
+    shelves, and der Estrich the attic (in Germany Estrich is floor screed).
+
+# ---------- Swiss lane (gsw-zh) ----------
+- id: a2-u05-ch-mcq-ane
+  type: mcq
+  skill: listening
+  variety: gsw-zh
+  grammar: [two-way-prepositions]
+  prompt: Listen to Reto. What does he ask?
+  transcript: |-
+    Reto: Hoi! Ich ha der s Tischli us em Chäller bracht. Wo söll ich s ane stelle?
+  options: ["Whether Sandra needs a table", "Where the cellar is", "Where he should put the little table", "Whether he can take the table to the cellar"]
+  answer: 2
+  rationales:
+    - "He has already brought it."
+    - "He has just come from the cellar."
+    - "Correct. Wo söll ich s ane stelle? = Wohin soll ich es stellen?"
+    - "He brought it from the cellar (us em Chäller)."
+  explanation: >-
+    s Tischli = das kleine Tischchen (-li diminutive), us em Chäller = aus dem Keller, wo … ane = wohin,
+    söll = soll.
+
+- id: a2-u05-ch-transform-stube
+  type: transform
+  skill: reading
+  variety: gsw-zh
+  grammar: [two-way-prepositions]
+  prompt: What does Sandra say? Write it in Standard German.
+  from: gsw-zh
+  to: de
+  source: Stell s bitte i d Stube, näbe s Sofa.
+  answers: ["Stell es bitte ins Wohnzimmer, neben das Sofa.", "Stell es bitte in die Stube, neben das Sofa.", "Stell es bitte ins Wohnzimmer neben das Sofa."]
+  explanation: >-
+    i d Stube = in die Stube (das Wohnzimmer), näbe s Sofa = neben das Sofa: movement, so accusative, as in
+    Standard German.
+
+- id: a2-u05-ch-match-li
+  type: match
+  skill: vocabulary
+  variety: gsw-zh
+  prompt: Match the -li words with their meaning.
+  pairs:
+    - ["s Tischli", "a small table"]
+    - ["s Hüsli", "a little house"]
+    - ["s Chätzli", "a kitten"]
+    - ["s Müsli", "a little mouse"]
+    - ["es Bitzeli", "a little bit"]
+  explanation: >-
+    -li makes words small or friendly, and every -li word is neuter (d Chatz → s Chätzli). Vowels get an
+    umlaut: Huus → Hüsli, Muus → Müsli. Don't confuse s Müsli (mouse) with s Müesli (cereal).
+
+- id: a2-u05-ch-mcq-neuter
+  type: mcq
+  skill: grammar
+  variety: gsw-zh
+  prompt: "What is the article of Chätzli (kitten), the -li form of d Chatz?"
+  options: ["d (feminine, like d Chatz)", "de (masculine)", "it has no article", "s / es (neuter)"]
+  answer: 3
+  rationales:
+    - "The base word is feminine, but -li changes the gender."
+    - "No -li word is masculine."
+    - "Diminutives have an article like other nouns: es Chätzli."
+    - "Correct. Every -li word is neuter: s Chätzli, es Chätzli."
+  explanation: >-
+    Diminutives are always neuter, in dialect (s Tischli, s Chätzli) and in Standard German (das Tischchen,
+    das Kätzchen, das Mädchen).
+
+- id: a2-u05-ch-mcq-abe
+  type: mcq
+  skill: listening
+  variety: gsw-zh
+  grammar: [two-way-prepositions]
+  prompt: Listen to Reto. What does he offer to do?
+  transcript: |-
+    Reto: Und die leere Kartons? Söll ich die abe in Chäller träge?
+  options: ["Carry the empty boxes down to the cellar", "Bring more boxes up from the cellar", "Throw the boxes away outside", "Unpack the boxes in the living room"]
+  answer: 0
+  rationales:
+    - "Correct. abe = hinunter, in Chäller = in den Keller, träge = tragen."
+    - "ufe would be up; he is going down."
+    - "use would be out; he says abe (down)."
+    - "The boxes are empty (leer)."
+  explanation: >-
+    Direction words: abe = down, ufe = up, ine = in, use = out. in Chäller = in den Keller (movement,
+    accusative; the article is swallowed).
+
+- id: a2-u05-ch-gap-li
+  type: gap
+  skill: grammar
+  variety: gsw-zh
+  prompt: "Guided production: write the -li form of Tisch (a little table)."
+  text: Ich ha der es ___ us em Chäller bracht.
+  answers: [["Tischli"]]
+  explanation: >-
+    Tisch + -li = Tischli, a neuter noun (es Tischli). Words with a, o, u or au also take an umlaut: Chatz →
+    Chätzli, Huus → Hüsli.
+
+- id: a2-u05-ch-transform-de-gsw
+  type: transform
+  skill: vocabulary
+  variety: gsw-zh
+  prompt: "Recognition: how do you say this in Zurich German? (Common spellings are accepted.)"
+  from: de
+  to: gsw-zh
+  source: Komm herein!
+  answers: ["Chumm ine!", "Chum ine!"]
+  explanation: >-
+    kommen → cho (imperative chumm), herein / hinein → ine. Also: Chumm ufe! (Komm herauf!), Chumm abe!
+    (Komm herunter!).
+
+- id: a2-u05-roleplay-reto
+  type: roleplay
+  skill: listening
+  variety: gsw-zh
+  grammar: [two-way-prepositions, position-verbs]
+  tutor: reto
+  prompt: "Listening roleplay with Reto: help him furnish his balcony."
+  scenario: >-
+    Reto has bought a small table and two chairs for his balcony. He asks you in Zurich German where to put
+    them and tells you where things are. You answer in Standard German.
+  goals:
+    - Understand Wo söll ich … ane stelle? and the direction words ufe, abe, ine, use.
+    - Understand the -li words (Tischli, Stüeli, es Bitzeli).
+    - Tell Reto where things go with Wohin? + accusative.
+  model: |
+    Reto: Lueg, es Tischli und zwei Stüeli für de Balkon! Wo söll ich s Tischli ane stelle?
+    Du: Stell es in die Ecke, neben die Tür.
+    Reto: Guet. Und d Stüeli?
+    Du: Die Stühle stellen wir an den Tisch.
+    Reto: Perfekt. Chunnsch mit use? Mir trinked es Bier.
+    Du: Gern! Wo ist das Bier?
+    Reto: Im Chüelschrank, une i de Chuchi.
+  explanation: >-
+    Decoding: wo … ane = wohin, s Tischli / d Stüeli = the small table / chairs (-li, neuter), use = hinaus
+    (on the balcony), une i de Chuchi = unten in der Küche (Wo?, dative de).
+
+# ---------- Bernese (gsw-be, recognition) ----------
+- id: a2-u05-ch-be-mcq-zuegle
+  type: mcq
+  skill: listening
+  variety: gsw-be
+  prompt: Listen to Sandra. What news does she give about Mia?
+  transcript: |-
+    Sandra: Ja, Mami! Es isch so härzig. Und d Mia züglet im Mai uf Thun.
+  options: ["Mia is getting a kitten in May.", "Mia is moving to Thun in May.", "Mia is visiting Thun in May.", "Mia is getting married in Thun."]
+  answer: 1
+  explanation: >-
+    zügle = umziehen (berndeutsch.ch: zügle, PP. züglet; Swiss Standard zügeln). uf Thun = nach Thun. härzig =
+    herzig (cute) is about Sandra's kitten.
+
+- id: a2-u05-ch-be-transform
+  type: transform
+  skill: reading
+  variety: gsw-be
+  prompt: What does Sandra's mother say? Write it in Standard German.
+  from: gsw-be
+  to: de
+  source: I weiss. Mir hälfe re bi dr Züglete.
+  answers: ["Ich weiß. Wir helfen ihr beim Umzug.", "Ich weiss. Wir helfen ihr beim Umzug.", "Ich weiß. Wir helfen ihr bei der Züglete.", "Ich weiß. Wir helfen ihr beim Zügeln."]
+  explanation: >-
+    i = ich, mir = wir (not me!), hälfe re = helfen ihr (helfen + dative), bi dr Züglete = beim Umzug
+    (berndeutsch.ch: Züglete f.).
+
+- id: a2-u05-ch-be-match
+  type: match
+  skill: vocabulary
+  variety: gsw-be
+  prompt: Match the Bernese words with Standard German.
+  pairs:
+    - ["d Möbu", "die Möbel"]
+    - ["ds Hüsli", "das Häuschen"]
+    - ["ds Stüeli", "das Stühlchen"]
+    - ["abe", "hinunter"]
+  explanation: >-
+    From berndeutsch.ch: Möbel / Möbu (n., Bernese l → u), Hüsli (n.), Stuel – Stüeli (n.), abe (hinunter,
+    herunter). Bernese neuter article: ds.

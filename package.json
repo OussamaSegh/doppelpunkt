@@ -11,6 +11,7 @@
     "content:lint": "npm run lint -w @doppelpunkt/tools",
     "content:build": "npm run build-packs -w @doppelpunkt/tools",
     "content:report": "npm run report -w @doppelpunkt/tools",
+    "book:build": "npm run book:build -w @doppelpunkt/tools --",
     "audio:scripts": "npm run audio:scripts -w @doppelpunkt/tools --",
     "audio:process": "npm run audio:process -w @doppelpunkt/tools --",
     "audio:link": "npm run audio:link -w @doppelpunkt/tools --",

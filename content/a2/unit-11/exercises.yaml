@@ -1,0 +1,725 @@
+# A2 unit 11 – Natur und Umwelt
+
+# ---------- vocabulary ----------
+- id: a2-u11-match-nature
+  type: match
+  skill: vocabulary
+  variety: de
+  prompt: Match the nature words with English.
+  pairs:
+    - ["der Wald", "forest"]
+    - ["der Fluss", "river"]
+    - ["die Wiese", "meadow"]
+    - ["der Gipfel", "summit"]
+    - ["der Vogel", "bird"]
+    - ["die Kuh", "cow"]
+  explanation: >-
+    Plurals with umlaut: der Wald → die Wälder, der Fluss → die Flüsse, der Vogel → die Vögel, die Kuh → die Kühe.
+    der Gipfel doesn't change (die Gipfel) – and in Switzerland s Gipfeli is a croissant!
+
+- id: a2-u11-match-recycling
+  type: match
+  skill: vocabulary
+  variety: de
+  prompt: Match the recycling words with English.
+  pairs:
+    - ["das Altglas", "glass for recycling"]
+    - ["das Altpapier", "waste paper"]
+    - ["der Biomüll", "green waste"]
+    - ["die Dose", "can"]
+    - ["trennen", "to sort, to separate"]
+    - ["wegwerfen", "to throw away"]
+  explanation: >-
+    alt- in compounds means "used, for recycling": Altglas, Altpapier. wegwerfen is separable and irregular: Ich
+    werfe die Flasche weg – Ich habe sie weggeworfen.
+
+# ---------- grammar: könnte / würde ----------
+- id: a2-u11-mcq-koenntest
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [wuerde-koennte, dative-pronouns]
+  prompt: You need help with the heavy bags. What is the most polite?
+  options: ["Könntest du mir bitte helfen?", "Hilf mir!", "Du hilfst mir.", "Kannst du mich helfen?"]
+  answer: 0
+  rationales:
+    - "Correct. könnte + bitte + infinitive at the end: very polite."
+    - "An imperative without bitte sounds like an order."
+    - "A statement, not a request."
+    - "Two problems: helfen takes the dative (mir), and kannst is less polite."
+  explanation: >-
+    Könntest du (mir) bitte …? is the polite request: könnte in position 1, the infinitive helfen at the end.
+    helfen always takes the dative: mir, not mich.
+
+- id: a2-u11-gap-koennte-wuerde
+  type: gap
+  skill: grammar
+  variety: ch-std
+  grammar: [wuerde-koennte]
+  prompt: "Fill in the right form of könnte or würde (the word in brackets)."
+  text: ___ (könnte) Sie bitte langsamer sprechen? ___ (würde) du mir die Route schicken? Ich ___ (würde) gern auf den Pilatus wandern.
+  answers: [["Könnten"], ["Würdest"], ["würde"]]
+  explanation: >-
+    Sie → könnten (like the plural), du → würdest, ich → würde (no -t, like ich möchte). The infinitive is at the
+    end: sprechen, schicken, wandern.
+
+- id: a2-u11-mcq-wuerde-form
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [wuerde-koennte]
+  prompt: Choose the correct sentence.
+  options: ["Würdest du mir die Route schickst?", "Würdest du mir die Route schicken?", "Würdest du schicken mir die Route?", "Würdest du mir die Route zu schicken?"]
+  answer: 1
+  rationales:
+    - "After würde the second verb is an infinitive: schicken."
+    - "Correct. würde in position 1 (question), infinitive at the end."
+    - "The infinitive goes to the end, after the objects."
+    - "No zu after würde."
+  explanation: >-
+    würde works like a modal verb: würde + infinitive at the end, no zu. Würdest du mir die Route schicken? =
+    Would you send me the route?
+
+- id: a2-u11-transform-polite
+  type: transform
+  skill: grammar
+  variety: de
+  grammar: [wuerde-koennte, imperative]
+  prompt: "Make the request polite. Start with: Könnten Sie bitte …"
+  from: de
+  to: de
+  source: Schließen Sie das Fenster!
+  answers: ["Könnten Sie bitte das Fenster schließen?", "Könnten Sie bitte das Fenster schliessen?", "Könnten Sie das Fenster bitte schließen?", "Könnten Sie das Fenster bitte schliessen?"]
+  explanation: >-
+    Imperative → Könnten Sie (bitte) + object + infinitive at the end + question mark. schließen = to close
+    (Swiss spelling schliessen).
+
+- id: a2-u11-translate-wuerde-gern
+  type: translate
+  skill: writing
+  variety: de
+  grammar: [wuerde-koennte]
+  prompt: Translate into German.
+  source: I'd like to have a picnic by the lake.
+  answers:
+    - "Ich würde gern am See ein Picknick machen."
+    - "Ich würde gerne am See ein Picknick machen."
+    - "Ich würde gern ein Picknick am See machen."
+    - "Ich würde gerne ein Picknick am See machen."
+    - "Ich möchte am See ein Picknick machen."
+    - "Ich möchte ein Picknick am See machen."
+  explanation: >-
+    I'd like to … = Ich würde gern … (or Ich möchte …) + infinitive at the end. am See = an dem See (Wo? → dative).
+
+# ---------- grammar: man, jemand, niemand, etwas, nichts ----------
+- id: a2-u11-mcq-man-verb
+  type: mcq
+  skill: grammar
+  variety: ch-std
+  grammar: [indefinite-pronouns]
+  prompt: Choose the right verb form.
+  question: In der Schweiz ___ man den Abfall.
+  options: ["trennen", "trennst", "trennt", "getrennt"]
+  answer: 2
+  rationales:
+    - "man is singular, not plural."
+    - "That is the du form."
+    - "Correct. man takes the er/sie/es form: man trennt."
+    - "A participle needs haben: man hat … getrennt."
+  explanation: >-
+    man = people in general. The verb is always in the er/sie/es form: man trennt, man darf, man weiss. Don't write
+    it like der Mann.
+
+- id: a2-u11-gap-indefinite
+  type: gap
+  skill: grammar
+  variety: de
+  grammar: [indefinite-pronouns]
+  prompt: "Fill in jemand, niemand, etwas or nichts."
+  text: Hat ___ meinen Schlüssel gesehen? – Nein, leider ___. Möchtest du ___ trinken? – Nein danke, ich möchte ___.
+  answers: [["jemand"], ["niemand"], ["etwas", "was"], ["nichts"]]
+  explanation: >-
+    jemand (someone) – niemand (nobody); etwas (something; colloquially was) – nichts (nothing). niemand and
+    nichts are already negative: no extra nicht.
+
+- id: a2-u11-mcq-nichts
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [indefinite-pronouns, nicht-kein]
+  prompt: "How do you say \"I haven't forgotten anything\"?"
+  options: ["Ich habe nicht nichts vergessen.", "Ich habe etwas nicht vergessen.", "Ich habe niemand vergessen.", "Ich habe nichts vergessen."]
+  answer: 3
+  rationales:
+    - "Two negatives – in German that is wrong."
+    - "That means there is one thing I didn't forget."
+    - "niemand = nobody – a person, not a thing."
+    - "Correct. not … anything = nichts."
+  explanation: >-
+    English not … anything = German nichts (one word). not … anyone = niemand. Don't add nicht.
+
+- id: a2-u11-transform-man
+  type: transform
+  skill: grammar
+  variety: ch-std
+  grammar: [indefinite-pronouns, modal-muessen-duerfen]
+  prompt: "Rewrite the rule with man."
+  from: ch-std
+  to: ch-std
+  source: "Hier dürfen Sie nicht grillieren."
+  answers: ["Hier darf man nicht grillieren.", "Man darf hier nicht grillieren."]
+  explanation: >-
+    Signs and rules often use man: Sie dürfen → man darf (er/sie/es form). grillieren is Swiss Standard for
+    grillen (Duden: schweizerisch).
+
+- id: a2-u11-translate-jemand
+  type: translate
+  skill: writing
+  variety: de
+  grammar: [indefinite-pronouns, perfekt-haben]
+  prompt: Translate into German.
+  source: Has anyone read the weather forecast?
+  answers:
+    - "Hat jemand den Wetterbericht gelesen?"
+    - "Hat schon jemand den Wetterbericht gelesen?"
+    - "Hat jemand schon den Wetterbericht gelesen?"
+    - "Hat jemand die Wettervorhersage gelesen?"
+  explanation: >-
+    anyone in a question = jemand. Perfekt: hat … gelesen (lesen → gelesen). der Wetterbericht = the weather
+    report.
+
+- id: a2-u11-match-requests
+  type: match
+  skill: grammar
+  variety: de
+  grammar: [wuerde-koennte]
+  prompt: Match the polite requests with English.
+  pairs:
+    - ["Könntest du mir helfen?", "Could you help me?"]
+    - ["Würden Sie langsamer sprechen?", "Would you speak more slowly?"]
+    - ["Ich würde gern wandern.", "I'd like to go hiking."]
+    - ["Könnten wir eine Pause machen?", "Could we take a break?"]
+  explanation: >-
+    könnte = could, würde = would. Both send the infinitive to the end. Ich würde gern … is a wish, like Ich
+    möchte …
+
+- id: a2-u11-gap-man-rules
+  type: gap
+  skill: grammar
+  variety: ch-std
+  grammar: [indefinite-pronouns, modal-muessen-duerfen]
+  prompt: "Signs in a park: fill in the verb for man (darf – muss – kann)."
+  text: Hier ___ man nicht grillieren. Den Abfall ___ man wieder mitnehmen. Im See ___ man im Sommer baden.
+  answers: [["darf"], ["muss"], ["kann", "darf"]]
+  explanation: >-
+    man + er/sie/es form: man darf (allowed), man muss (must), man kann (can). nicht dürfen = not allowed. baden =
+    to swim, to bathe.
+
+# ---------- grammar: dative review ----------
+- id: a2-u11-gap-dative-review
+  type: gap
+  skill: grammar
+  variety: ch-std
+  grammar: [dative-review, dative-articles, dative-prepositions]
+  prompt: "Fill in the dative article: dem, der or den."
+  text: Der PET-Sack steht neben ___ Kühlschrank. Wir fahren mit ___ Zug nach Luzern. Oben auf ___ Alp gibt es ein Restaurant. Ich gehe gern mit ___ Kindern in den Wald.
+  answers: [["dem"], ["dem"], ["der"], ["den"]]
+  explanation: >-
+    der Kühlschrank, der Zug → dem (m); die Alp → der (f); die Kinder → den Kindern (plural + -n). neben and auf
+    take the dative for Wo?, mit always.
+
+- id: a2-u11-mcq-wo-wohin
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [dative-review]
+  prompt: Choose the right article.
+  question: Leg die Flasche bitte in ___ Sack. – Sie ist schon in ___ Sack.
+  options: ["den … den", "dem … dem", "den … dem", "dem … den"]
+  answer: 2
+  rationales:
+    - "The second sentence asks Wo? – that needs the dative."
+    - "The first sentence is a movement (Wohin?) – accusative."
+    - "Correct. Wohin? → in den Sack (accusative); Wo? → in dem / im Sack (dative)."
+    - "It's the other way round."
+  explanation: >-
+    Two-way prepositions: movement to a place (Wohin?) = accusative, location (Wo?) = dative. in dem contracts to
+    im: Sie ist schon im Sack.
+
+- id: a2-u11-mcq-gehoert
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [dative-review]
+  prompt: Choose the right pronoun.
+  question: Wem gehört die Trinkflasche? – Sie gehört ___.
+  options: ["mir", "mich", "ich", "mein"]
+  answer: 0
+  rationales:
+    - "Correct. gehören takes the dative: mir."
+    - "mich is the accusative."
+    - "ich is the nominative."
+    - "mein is a possessive and needs a noun."
+  explanation: >-
+    gehören, helfen, gefallen, schmecken take the dative: Das gehört mir. Die Aussicht gefällt mir. Wem? = to whom
+    (dative question word).
+
+- id: a2-u11-order-dative
+  type: order
+  skill: grammar
+  variety: ch-std
+  grammar: [dative-review, wuerde-koennte]
+  prompt: Put the words in order to make a polite question.
+  tokens: ["Könntest", "du", "mir", "die", "Karte", "geben"]
+  answers: ["Könntest du mir die Karte geben?"]
+  explanation: >-
+    Dative person (mir) before the accusative thing (die Karte), infinitive geben at the end. Könntest du … ?
+    makes it polite.
+
+- id: a2-u11-order-man
+  type: order
+  skill: grammar
+  variety: de
+  grammar: [indefinite-pronouns, dative-review]
+  prompt: Put the words in order.
+  tokens: ["Vom", "Gipfel", "hat", "man", "eine", "tolle", "Aussicht"]
+  answers: ["Vom Gipfel hat man eine tolle Aussicht.", "Man hat vom Gipfel eine tolle Aussicht.", "Man hat eine tolle Aussicht vom Gipfel."]
+  explanation: >-
+    vom = von dem (dative). With Vom Gipfel in position 1, the verb hat comes next and then man.
+
+# ---------- reading ----------
+- id: a2-u11-mcq-reading-pet
+  type: mcq
+  skill: reading
+  variety: ch-std
+  grammar: [indefinite-pronouns]
+  prompt: Read the leaflet from Wädenswil. What do you do with PET bottles?
+  options: ["Put them in the rubbish bag", "Take them back to the shop", "Take them to the station on Sunday", "Tie them together with string"]
+  answer: 1
+  explanation: >-
+    "PET-Flaschen bringt man in den Laden zurück." man = you / people. String (eine Schnur) is for paper and
+    cardboard.
+
+- id: a2-u11-mcq-reading-glas
+  type: mcq
+  skill: reading
+  variety: ch-std
+  prompt: Read the leaflet again. When mustn't you throw glass into the containers?
+  options: ["Before 7 a.m.", "On the first Wednesday of the month", "On Sundays and after 8 p.m.", "On Tuesdays"]
+  answer: 2
+  explanation: >-
+    "Am Sonntag und nach 20 Uhr darf man dort kein Glas einwerfen, denn es ist sehr laut." 7 a.m. on Tuesday is for
+    the rubbish bags; the first Wednesday is the paper collection.
+
+- id: a2-u11-translate-reading
+  type: translate
+  skill: reading
+  variety: ch-std
+  prompt: Translate into English.
+  source: Die Gemeinde sammelt Papier und Karton jeden ersten Mittwoch im Monat.
+  answers:
+    - "The municipality collects paper and cardboard on the first Wednesday of every month."
+    - "The municipality collects paper and cardboard every first Wednesday of the month."
+    - "The council collects paper and cardboard on the first Wednesday of each month."
+    - "The town collects paper and cardboard on the first Wednesday of every month."
+  explanation: >-
+    die Gemeinde = the municipality (local council), sammeln = to collect, jeden ersten Mittwoch im Monat = on the
+    first Wednesday of every month (accusative of time: jeden).
+
+# ---------- listening ----------
+- id: a2-u11-mcq-listening-ausflug
+  type: mcq
+  skill: listening
+  variety: ch-std
+  prompt: Listen to the intro dialogue again. Where is the team going on Saturday?
+  options: ["To the Üetliberg", "Up the Pilatus", "To Lake Geneva", "To the recycling point"]
+  answer: 1
+  explanation: >-
+    "Auf den Pilatus. Wir wandern zuerst durch den Wald, und oben hat man eine tolle Aussicht auf den
+    Vierwaldstättersee." The Üetliberg is Sandra and Reto's hike.
+
+- id: a2-u11-mcq-listening-pet
+  type: mcq
+  skill: listening
+  variety: ch-std
+  grammar: [indefinite-pronouns, dative-review]
+  prompt: Listen to Martin. Where do the PET bottles go?
+  transcript: |-
+    Martin: In den PET-Sack neben dem Kühlschrank. Das Glas bringt man zur Sammelstelle, und das Altpapier holt die Stadt am Donnerstag ab.
+  options: ["To the recycling point", "Into the normal rubbish", "Into the fridge", "Into the PET bag next to the fridge"]
+  answer: 3
+  explanation: >-
+    in den PET-Sack (Wohin? → accusative) neben dem Kühlschrank (Wo? → dative). The glass goes to the
+    Sammelstelle.
+
+- id: a2-u11-dictation-wald
+  type: dictation
+  skill: listening
+  variety: de
+  grammar: [perfekt-sein, dative-review]
+  prompt: Listen and write what you hear.
+  transcript: Wir sind durch den Wald gewandert und haben am See ein Picknick gemacht.
+  explanation: >-
+    gewandert takes sein (movement), gemacht takes haben. durch + accusative (den Wald), am See = an dem See (Wo? →
+    dative).
+
+- id: a2-u11-dictation-koennten
+  type: dictation
+  skill: listening
+  variety: de
+  grammar: [wuerde-koennte]
+  prompt: Listen and write what you hear.
+  transcript: Könnten Sie mir bitte sagen, wo die Sammelstelle ist?
+  explanation: >-
+    Könnten Sie (polite) + an indirect question with the verb at the end (unit 10): wo die Sammelstelle ist.
+
+- id: a2-u11-mcq-listening-regenjacke
+  type: mcq
+  skill: listening
+  variety: de
+  grammar: [indefinite-pronouns]
+  prompt: Listen to Tom and Martin. What will Tom take with him, and why?
+  transcript: |-
+    Tom: Mache ich. Hat jemand schon den Wetterbericht gelesen?
+    Martin: Ja, es soll sonnig sein. Aber in den Bergen weiss man nie!
+    Tom: Dann nehme ich auch eine Regenjacke mit.
+  options: ["Sun cream, because it will be sunny", "Plastic bottles, because they are light", "A warm pullover, because it's cold", "A rain jacket, because the weather in the mountains can change"]
+  answer: 3
+  explanation: >-
+    "In den Bergen weiss man nie!" (you never know) – so Tom takes a Regenjacke. man = people in general; es soll
+    sonnig sein = it's supposed to be sunny.
+
+- id: a2-u11-transform-niemand
+  type: transform
+  skill: grammar
+  variety: de
+  grammar: [indefinite-pronouns]
+  prompt: "Make the sentence negative with niemand (no nicht)."
+  from: de
+  to: de
+  source: Jemand hat heute angerufen.
+  answers: ["Niemand hat heute angerufen.", "Heute hat niemand angerufen."]
+  explanation: >-
+    jemand → niemand. niemand already means not anyone, so you don't add nicht: Niemand hat heute angerufen.
+
+# ---------- speaking ----------
+- id: a2-u11-speak-frame
+  type: speak
+  skill: speaking
+  variety: de
+  grammar: [perfekt-sein, wuerde-koennte]
+  prompt: "Read aloud, then talk about your last day outdoors."
+  target: Letzten Sonntag bin ich auf den Üetliberg gewandert. Oben war die Aussicht wunderschön. Nächstes Mal würde ich gern an einen See fahren.
+  explanation: >-
+    Frame: Letzten … bin ich … gewandert / gefahren. Oben / Dort war … Nächstes Mal würde ich gern … Change the
+    place and what you saw.
+
+- id: a2-u11-speak-shadow-tom
+  type: speak
+  skill: speaking
+  variety: de
+  grammar: [wuerde-koennte]
+  prompt: "Shadowing: speak along with Tom's lines from the intro dialogue, then say them alone."
+  target: Super! Würdest du mir die Route schicken?
+  explanation: >-
+    A polite yes/no question rises at the end: … die ROUte schicken? ↗ The ü in würdest is rounded: say ee with
+    pursed lips.
+
+- id: a2-u11-speak-shadow-martin
+  type: speak
+  skill: speaking
+  variety: ch-std
+  grammar: [indefinite-pronouns]
+  prompt: "Shadowing: speak along with Martin, then say it alone."
+  target: Ja, es soll sonnig sein. Aber in den Bergen weiss man nie!
+  explanation: >-
+    Swiss Standard German: the r in Bergen is tapped, the s in sonnig and sein is voiceless (a Swiss feature), and
+    weiss has a short, clear s. See the drill The Swiss Standard German accent.
+
+- id: a2-u11-speak-intonation
+  type: speak
+  skill: speaking
+  variety: de
+  grammar: [wuerde-koennte]
+  prompt: "Intonation: a polite request rises at the end; bitte is unstressed."
+  target: Könnten Sie mir bitte helfen?
+  explanation: >-
+    KÖNNten Sie mir bitte HELfen? ↗ Stress the first and the last verb; bitte stays light. A falling end would sound
+    impatient.
+
+- id: a2-u11-speak-pron-ue
+  type: speak
+  skill: speaking
+  variety: de
+  grammar: [wuerde-koennte]
+  prompt: "Pronunciation: ü vs u and i. Read aloud slowly."
+  target: Würdest du die Flüsse und die grünen Hügel fotografieren? Die Kühe stehen hinter dem Wald.
+  explanation: >-
+    ü in würdest, Flüsse, grünen, Hügel, Kühe: lips rounded as for u, tongue forward as for i. Compare Kuh (u) –
+    Kühe (ü). der Hügel = hill. See the drill ü vs u and i.
+
+# ---------- roleplay and writing ----------
+- id: a2-u11-roleplay-lena
+  type: roleplay
+  skill: speaking
+  variety: de
+  grammar: [wuerde-koennte, indefinite-pronouns, perfekt-sein]
+  tutor: lena
+  prompt: "Roleplay with Lena: a weekend outdoors."
+  scenario: >-
+    Lena wants to go to the mountains with you next weekend. Talk about where you were last time, suggest a place
+    with Ich würde gern …, and ask her politely to do something (Könntest du …?). Talk about rubbish on the trip.
+  goals:
+    - Tell where you were outdoors last time (Perfekt with sein for wandern / fahren).
+    - Make a suggestion with Ich würde gern …
+    - Ask Lena politely with Könntest du …? or Würdest du …?
+    - Use man or niemand / nichts once (Man darf …, Niemand …).
+  model: |
+    Lena: Wollen wir nächstes Wochenende in die Berge?
+    Du: Gern! Letzten Monat bin ich auf den Pilatus gewandert. Die Aussicht war toll.
+    Lena: Und wohin möchtest du dieses Mal?
+    Du: Ich würde gern an einen Bergsee wandern und dort ein Picknick machen.
+    Lena: Super Idee. Was nehmen wir mit?
+    Du: Könntest du Brot und Käse mitbringen? Ich nehme Wasser in Trinkflaschen mit, dann haben wir kein Plastik.
+    Lena: Und den Abfall?
+    Du: Den nehmen wir wieder mit nach Hause. In den Bergen gibt es oft keinen Abfalleimer, man darf nichts liegen lassen.
+  explanation: >-
+    würde gern for a wish, Könntest du …? for a polite request, man for a rule. liegen lassen = to leave lying around.
+
+- id: a2-u11-write-tipps
+  type: write
+  skill: writing
+  variety: ch-std
+  grammar: [indefinite-pronouns, wuerde-koennte, dative-review]
+  prompt: Write recycling tips for a new neighbour.
+  task: >-
+    A new neighbour from abroad has moved into your building. Write a short note (6–8 sentences): explain where the
+    rubbish, PET, glass and paper go (with man), and ask him or her politely to do one thing (Könnten Sie / Würden
+    Sie …?). Offer help.
+  minWords: 50
+  model: >-
+    Liebe Frau Okafor,
+
+
+    herzlich willkommen im Haus! Hier ein paar Tipps zum Abfall. Den normalen Abfall wirft man in den offiziellen
+    Abfallsack. Die Säcke stellt man am Dienstagmorgen an die Strasse. PET-Flaschen bringt man in den Supermarkt
+    zurück, und das Glas kommt in die Container beim Bahnhof. Altpapier sammelt die Gemeinde einmal im Monat.
+    Könnten Sie bitte die Kartons klein machen? Sonst ist der Keller schnell voll. Wenn Sie Fragen haben, helfe ich
+    Ihnen gern!
+
+
+    Freundliche Grüsse
+
+    Anna Weber
+  checklist:
+    - I explain at least three kinds of rubbish with man (Man bringt …, … wirft man …).
+    - I ask politely with Könnten Sie bitte …? or Würden Sie bitte …?
+    - I use the dative after prepositions where needed (beim Bahnhof, in den Containern / Wo?).
+    - I open and close the note correctly (Liebe Frau … / Freundliche Grüsse).
+  explanation: >-
+    Rules sound friendly with man (Man bringt die Flaschen zurück) and polite requests with könnten. Liebe Frau
+    Okafor is friendly but still uses Sie – right for a new neighbour. Check your own municipality's rules.
+
+# ---------- Swiss Standard German ----------
+- id: a2-u11-chstd-match
+  type: match
+  skill: vocabulary
+  variety: ch-std
+  prompt: Match the Swiss Standard German words with the words used in Germany.
+  pairs:
+    - ["rezyklieren", "recyceln"]
+    - ["der Kehricht", "der Müll"]
+    - ["das Grüngut", "der Biomüll"]
+    - ["die Alp", "die Alm"]
+  explanation: >-
+    Duden marks rezyklieren and Kehricht (in the sense of Müll) as Swiss. Grüngut is the Swiss word for green
+    waste; die Alp is the Swiss form of Alm (a summer mountain pasture).
+
+# ---------- Swiss lane (gsw-zh) ----------
+- id: a2-u11-ch-mcq-glas
+  type: mcq
+  skill: listening
+  variety: gsw-zh
+  prompt: Listen to Sandra. When can't you bring glass?
+  transcript: |-
+    Sandra: Ja, aber nöd am Sunntig und nöd z Nacht. Lueg, s staat uf em Schild.
+  options: ["On Saturdays", "In the morning", "On Sundays and at night", "Never – glass goes in the rubbish bag"]
+  answer: 2
+  rationales:
+    - "Sandra says yes for Saturday."
+    - "The morning is not mentioned."
+    - "Correct. nöd am Sunntig und nöd z Nacht."
+    - "Glass is recycled, not thrown away."
+  explanation: >-
+    nöd am Sunntig = nicht am Sonntag, z Nacht = in der Nacht, s staat uf em Schild = es steht auf dem Schild
+    (dative em).
+
+- id: a2-u11-ch-transform-oepper
+  type: transform
+  skill: reading
+  variety: gsw-zh
+  grammar: [indefinite-pronouns, perfekt-haben]
+  prompt: What does Reto say? Write it in Standard German.
+  from: gsw-zh
+  to: de
+  source: Da hät öpper Güsel näbe de Container gstellt. Und niemert nimmt en mit.
+  answers:
+    - "Da hat jemand Müll neben die Container gestellt. Und niemand nimmt ihn mit."
+    - "Da hat jemand Abfall neben die Container gestellt. Und niemand nimmt ihn mit."
+    - "Da hat jemand Müll neben die Container gestellt, und niemand nimmt ihn mit."
+    - "Da hat jemand Abfall neben die Container gestellt, und niemand nimmt ihn mit."
+    - "Da hat jemand Müll neben den Container gestellt. Und niemand nimmt ihn mit."
+    - "Da hat jemand Abfall neben den Container gestellt. Und niemand nimmt ihn mit."
+  explanation: >-
+    öpper = jemand, de Güsel = der Müll / Abfall, gstellt = gestellt, niemert = niemand, en = ihn. In Standard
+    German stellen + neben takes the accusative (Wohin?): neben die Container.
+
+- id: a2-u11-ch-match-pronouns
+  type: match
+  skill: vocabulary
+  variety: gsw-zh
+  grammar: [indefinite-pronouns]
+  prompt: Match the Zurich German words with Standard German.
+  pairs:
+    - ["öpper", "jemand"]
+    - ["niemert", "niemand"]
+    - ["öppis", "etwas"]
+    - ["nüt", "nichts"]
+    - ["mer", "man"]
+  explanation: >-
+    Four short words you hear all the time: öpper, niemert (also niemer), öppis, nüt. mer = man (also mir = wir!
+    – the context tells you which).
+
+- id: a2-u11-ch-mcq-pet
+  type: mcq
+  skill: listening
+  variety: gsw-zh
+  prompt: Listen to Sandra. What does she say about PET and green waste?
+  transcript: |-
+    Sandra: Nei! S PET bringsch in Lade zrugg. Und s Grüengut chunnt in grüene Container.
+  options: ["Both go in the rubbish bag.", "PET goes back to the shop, green waste in the green container.", "PET goes in the green container.", "Green waste goes back to the shop."]
+  answer: 1
+  rationales:
+    - "Nei! – they don't go in the Güselsack."
+    - "Correct. bringsch in Lade zrugg = bringst (du) in den Laden zurück."
+    - "PET goes back to the shop."
+    - "The other way round."
+  explanation: >-
+    in Lade = in den Laden, zrugg = zurück, s Grüengut = das Grüngut (green waste), in grüene Container = in den
+    grünen Container.
+
+- id: a2-u11-ch-mcq-wandere
+  type: mcq
+  skill: listening
+  variety: gsw-zh
+  prompt: Listen to Sandra and Reto. What do they plan for tomorrow?
+  transcript: |-
+    Sandra: Das find ich nöd guet. Du, gömmer morn go wandere? Uf de Üetliberg?
+    Reto: Gärn! Ich nimm öppis z ässe mit.
+  options: ["A hike up the Üetliberg – Reto brings something to eat", "A swim in the lake", "Another trip to the recycling point", "A dinner at Reto's"]
+  answer: 0
+  rationales:
+    - "Correct. gömmer go wandere = gehen wir wandern; öppis z ässe = etwas zu essen."
+    - "The lake is not mentioned here."
+    - "They are at the recycling point today."
+    - "That was the chat in unit 10."
+  explanation: >-
+    gömmer = gönd mir (gehen wir), go wandere = go + infinitive, morn = morgen, öppis z ässe = etwas zu essen.
+
+- id: a2-u11-ch-gap-oepper
+  type: gap
+  skill: grammar
+  variety: gsw-zh
+  grammar: [indefinite-pronouns]
+  prompt: "Guided production: write the Zurich words for jemand and nichts."
+  text: Hät ___ min Schlüssel gseh? – Nei, ich ha ___ gseh.
+  answers:
+    - ["öpper"]
+    - ["nüt", "nüüt"]
+  explanation: >-
+    jemand → öpper, nichts → nüt. gseh = gesehen, min Schlüssel = meinen Schlüssel (dialect has no -en ending
+    here).
+
+- id: a2-u11-ch-transform-de-gsw
+  type: transform
+  skill: vocabulary
+  variety: gsw-zh
+  prompt: "Recognition: how do you say this in Zurich German? (Common spellings are accepted.)"
+  from: de
+  to: gsw-zh
+  source: Wir gehen am Sonntag auf den Berg.
+  answers:
+    - "Mir gönd am Sunntig uf de Bärg."
+    - "Mir gönd am Sunntig uf de Berg."
+    - "Mir gönd am Sundig uf de Bärg."
+    - "Am Sunntig gönd mir uf de Bärg."
+  explanation: >-
+    wir → mir, gehen → gönd, Sonntag → Sunntig, auf den → uf de, Berg → Bärg. The accusative den becomes de.
+
+- id: a2-u11-roleplay-reto
+  type: roleplay
+  skill: listening
+  variety: gsw-zh
+  grammar: [indefinite-pronouns, wuerde-koennte]
+  tutor: reto
+  prompt: "Listening roleplay with Reto: at the recycling point."
+  scenario: >-
+    You meet Reto at the recycling point. He explains in Zurich German where everything goes and suggests a hike.
+    You answer in Standard German and ask him to help you with something.
+  goals:
+    - Understand Reto's recycling tips (s PET, s Altglas, s Grüengut, de Güselsack).
+    - Understand öpper, niemert, öppis, nüt.
+    - Ask Reto politely for help (Könntest du mir …?) and answer his suggestion.
+  model: |
+    Reto: Hoi! Häsch au so vill Altglas?
+    Du: Ja! Könntest du mir sagen, wo das braune Glas hinkommt?
+    Reto: Dete, in mittlere Container. Und s PET bringsch in Lade zrugg.
+    Du: Danke! Und das Papier?
+    Reto: S Papier holt d Stadt ab. Aber lueg: Da hät öpper Güsel anegstellt, und niemert nimmt en mit!
+    Du: Das finde ich nicht gut.
+    Reto: Gömmer am Sunntig go wandere?
+    Du: Gern! Ich bringe etwas zu essen mit.
+  explanation: >-
+    Decoding: dete = dort, in mittlere Container = in den mittleren Container, holt d Stadt ab = holt die Stadt ab,
+    öpper = jemand, anegstellt = hingestellt, niemert = niemand.
+
+# ---------- Bernese (gsw-be, recognition) ----------
+- id: a2-u11-ch-be-mcq-gurte
+  type: mcq
+  skill: listening
+  variety: gsw-be
+  prompt: Listen to Sandra's mother. What does she ask Sandra?
+  transcript: |-
+    Mami: Sandra, mir göh am Sunntig uf e Gurte. Chunsch o?
+  options: ["Whether Sandra is going to the lake", "Whether Sandra has a warm jacket", "Whether Sandra is coming up the Gurten on Sunday", "Whether Sandra is coming for dinner"]
+  answer: 2
+  explanation: >-
+    mir göh = wir gehen, uf e Gurte = auf den Gurten (Bern's local hill), Chunsch o? = Kommst du auch?
+
+- id: a2-u11-ch-be-transform
+  type: transform
+  skill: reading
+  variety: gsw-be
+  grammar: [indefinite-pronouns, imperative]
+  prompt: What does Sandra's mother say? Write it in Standard German.
+  from: gsw-be
+  to: de
+  source: Nimm öppis Warms mit, gäu!
+  answers: ["Nimm etwas Warmes mit, gell!", "Nimm etwas Warmes mit, okay?", "Nimm etwas Warmes mit!"]
+  explanation: >-
+    öppis = etwas (Zurich and Bern), öppis Warms = etwas Warmes, gäu = gell (Bernese l → u). mitnehmen is
+    separable: Nimm … mit!
+
+- id: a2-u11-ch-be-match
+  type: match
+  skill: vocabulary
+  variety: gsw-be
+  prompt: Match the Bernese words with Standard German.
+  pairs:
+    - ["dr Ghüder", "der Müll"]
+    - ["dr Ghüdersack", "der Müllsack"]
+    - ["niemer", "niemand"]
+    - ["dr Bärg", "der Berg"]
+  explanation: >-
+    From berndeutsch.ch: Ghüder (m., Kehricht, Abfall), Ghüdersack (m., Müllsack), niemer (niemand), Bärg (m.,
+    Plural Bärge). Zurich says de Güsel and de Güselsack.

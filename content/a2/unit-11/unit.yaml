@@ -1,0 +1,305 @@
+id: a2-u11
+level: A2
+number: 11
+title: Natur und Umwelt
+titleEn: Nature and the environment
+goal: >-
+  By the end you can talk about nature, a weekend outdoors and recycling – the landscape, animals and the
+  weather on a hike, and where the rubbish goes – ask politely with könnte and würde (Könntest du mir
+  helfen? Würden Sie das Fenster schliessen?), use man, jemand, niemand, etwas and nichts, review the dative
+  (neben dem Kühlschrank, mit dem Zug, Kannst du mir helfen?), and understand Swiss recycling rules and the
+  Zurich words öpper, niemert, öppis, nüt.
+canDo:
+  - I can describe a landscape and a day outdoors (Wir sind durch den Wald auf den Gipfel gewandert. Oben war die Aussicht toll.).
+  - I can ask for something politely with könnte and würde (Könntest du bitte …? Würden Sie mir … ?), and say what I would like (Ich würde gern …).
+  - I can use man for rules and general statements (Hier trennt man den Abfall.) and jemand, niemand, etwas, nichts.
+  - I can use the dative after prepositions, with dative verbs and dative pronouns (mit dem Velo, neben der Tür, Das gehört mir.).
+  - I can understand simple recycling rules in Switzerland (PET, Altglas, Altpapier, Grüngut, Abfallsack).
+  - I can recognise Zurich German nature and recycling words (de Bärg, de See, wandere, de Güsel, s Grüengut) and öpper, niemert, öppis, nüt.
+
+review:
+  notes:
+    - "'Bisch au am Entsorge?' – am + infinitive (= gerade dabei) and entsorge natural?"
+    - "'Ja, s Altglas und de Karton. Weisch du, öb mer s Glas am Samschtig bringe dörf?' – mer (= man), dörf (A1 lexicon: er dörf) natural?"
+    - "'Ja, aber nöd am Sunntig und nöd z Nacht. Lueg, s staat uf em Schild.' – uf em Schild (dative em)?"
+    - "'Und d PET-Flasche? Die chönd nöd in Güselsack, oder?' – in Güselsack (= in den), chönd (plural of chöne)?"
+    - "'Nei! S PET bringsch in Lade zrugg. Und s Grüengut chunnt in grüene Container.' – in Lade zrugg, s Grüengut (Swiss Standard Grüngut), in grüene Container?"
+    - "'Lueg, da hät öpper Güsel näbe de Container gstellt. Und niemert nimmt en mit.' – näbe de Container (dative plural de), en (= ihn, for de Güsel) natural?"
+    - "'Ich nimm öppis z ässe mit.' / 'Und ich bring nüt – nur gueti Luune!' – ich nimm, gueti Luune natural?"
+    - "Vocabulary gswZh forms without a source: Natur, Umwält, Wald, Baum (Plural Bäum), Fluss, Wise, Tier, Vogel, Chue (Plural Chüe), Alp, Gipfel, Wääg / Wanderwääg, Picknick, Abfall / Güsel, Sammelstell, Altglas, Altpapier, PET-Fläsche, Büchse, Grüengut, Plastik, tränne, rezykliere, wägwerfe, sammle, schütze, spare, Energie, Strom, Luft, suuber, dreckig, mer (man), öpper, niemert, chönnt / chöntsch, würd / würdsch; Reto roleplay: dete (dort), in mittlere Container, anegstellt (hingestellt)."
+    - "Swiss Standard: rezyklieren (Duden: schweizerisch), der Kehricht (Duden: schweizerisch = Müll), die Alp (Swiss for Alm), das Grüngut, der Abfallsack / Kehrichtsack, die Sammelstelle, das Altglas, das PET (das PET-Recycling). Please tick; is 'Büchse' (= Dose) still common in Swiss Standard?"
+    - "Recycling facts to check before release: PET bottles back to the shop; glass by colour at the Sammelstelle, often not on Sundays or at night; paper and cardboard tied in bundles on collection days; the city of Zurich's fee bag Züri-Sack; Grüngut in a green container. Rules differ by municipality."
+    - "Bernese: 'Sandra, mir göh am Sunntig uf e Gurte. Chunsch o?' (mir göh: lexicon; Gurte = the Gurten, Bern's local hill) / 'Nei, merci, i ga mit em Reto uf e Üetliberg.' (i ga?) / 'Schön! Nimm öppis Warms mit, gäu!' (öppis: BD öpper #13040 for the pattern) – sentence flow?"
+
+intro:
+  scene: >-
+    Monday morning in the office kitchen. Martin, Tom's colleague from Bern, is sorting the rubbish. Then they
+    talk about the team hike on Saturday. Martin speaks Swiss Standard German.
+  dialogue:
+    - speaker: Martin
+      text: Tom, könntest du mir kurz helfen? Jemand hat die PET-Flaschen in den Abfall geworfen.
+      en: Tom, could you help me for a moment? Someone has thrown the PET bottles in the rubbish.
+      variety: ch-std
+    - speaker: Tom
+      text: Oh, das war vielleicht ich. Wohin kommen sie denn?
+      en: Oh, that was maybe me. Where do they go, then?
+    - speaker: Martin
+      text: In den PET-Sack neben dem Kühlschrank. Das Glas bringt man zur Sammelstelle, und das Altpapier holt die Stadt am Donnerstag ab.
+      en: Into the PET bag next to the fridge. You take the glass to the recycling point, and the city collects the waste paper on Thursday.
+      variety: ch-std
+    - speaker: Tom
+      text: In England trennen wir den Müll auch, aber nicht so viel.
+      en: In England we sort our rubbish too, but not so much.
+    - speaker: Martin
+      text: Hier trennt man fast alles. Der Abfallsack kostet extra, deshalb wirft niemand gern etwas weg.
+      en: Here people sort almost everything. The rubbish bag costs extra, so nobody likes throwing things away.
+      variety: ch-std
+    - speaker: Tom
+      text: Ah, deshalb ist der Sack so teuer! Übrigens, wohin gehen wir am Samstag?
+      en: Ah, that's why the bag is so expensive! By the way, where are we going on Saturday?
+    - speaker: Martin
+      text: Auf den Pilatus. Wir wandern zuerst durch den Wald, und oben hat man eine tolle Aussicht auf den Vierwaldstättersee.
+      en: Up the Pilatus. First we hike through the forest, and at the top you have a great view of Lake Lucerne.
+      variety: ch-std
+    - speaker: Tom
+      text: Super! Würdest du mir die Route schicken?
+      en: Great! Would you send me the route?
+    - speaker: Martin
+      text: Klar. Und könntest du etwas zu trinken mitnehmen? Aber bitte nicht in Plastikflaschen.
+      en: Sure. And could you bring something to drink? But please not in plastic bottles.
+      variety: ch-std
+    - speaker: Tom
+      text: Mache ich. Hat jemand schon den Wetterbericht gelesen?
+      en: Will do. Has anyone read the weather forecast yet?
+    - speaker: Martin
+      text: Ja, es soll sonnig sein. Aber in den Bergen weiss man nie!
+      en: Yes, it's supposed to be sunny. But in the mountains you never know!
+      variety: ch-std
+    - speaker: Tom
+      text: Dann nehme ich auch eine Regenjacke mit.
+      en: Then I'll take a rain jacket too.
+
+grammar:
+  - id: wuerde-koennte
+    title: "Polite requests with könnte and würde"
+    body: >-
+      You already know *Kannst du …?* and *Ich hätte gern …* (A1). For a **more polite** request, use
+      **könnte** or **würde** + infinitive at the end. Learn them as chunks – the full Konjunktiv II comes at
+      B1.
+
+
+      - ***Könntest** du mir bitte **helfen**? **Könnten** Sie das Fenster **schliessen**?* (könnte = could)
+
+      - ***Würdest** du mir die Route **schicken**? **Würden** Sie bitte langsamer **sprechen**?* (würde = would)
+
+      - ***Ich würde gern** auf den Pilatus **wandern**.* = I would like to … (a wish, like *ich möchte*)
+
+
+      Both have no -t in the *ich* and *er/sie* forms: *ich könnte, er könnte; ich würde, sie würde*. **bitte**
+      makes it even more polite. Compare: *Hilf mir!* (an order) → *Kannst du mir helfen?* (neutral) →
+      *Könntest du mir bitte helfen?* (polite).
+    tables:
+      - [["Person", "können → könnte", "werden → würde"],
+         ["ich", "könnte", "würde"],
+         ["du", "könntest", "würdest"],
+         ["er / sie / es / man", "könnte", "würde"],
+         ["wir", "könnten", "würden"],
+         ["ihr", "könntet", "würdet"],
+         ["sie / Sie", "könnten", "würden"]]
+      - [["Polite request", "English"],
+         ["Könntest du mir bitte helfen?", "Could you help me, please?"],
+         ["Würden Sie bitte das Fenster schliessen?", "Would you close the window, please?"],
+         ["Ich würde gern eine Pause machen.", "I'd like to take a break."]]
+    commonMistakes:
+      - "*Könntest du mir helfen bitte?* → **Könntest du mir bitte helfen?** The infinitive closes the sentence."
+      - "*Würdest du mir die Route schickst?* → **Würdest du mir die Route schicken?** würde + infinitive."
+      - "*Ich würde gern zu wandern.* → **Ich würde gern wandern.** No zu after würde or könnte."
+
+  - id: indefinite-pronouns
+    title: "man, jemand, niemand, etwas, nichts"
+    body: >-
+      - **man** = *one / you / people* in general. It takes the **er/sie/es** form of the verb: *Hier **trennt
+        man** fast alles. In den Bergen **weiss man** nie. Wie **sagt man** das auf Deutsch?* Don't confuse it with
+        *der Mann* (double n). Swiss and German rules and signs use man a lot: *Hier darf man nicht grillieren.*
+
+      - **jemand** = *someone, anyone* – **niemand** = *nobody*: ***Jemand** hat die Flaschen in den Abfall
+        geworfen. Hat **jemand** den Wetterbericht gelesen? **Niemand** wirft gern etwas weg.* After a
+        preposition or as a dative you may hear *jemandem / niemandem*; at A2 recognising them is enough.
+
+      - **etwas** = *something, anything* – **nichts** = *nothing*: *Könntest du **etwas** zu trinken mitnehmen?
+        Ich habe **nichts** gesehen.* Colloquially *was* for etwas: *Möchtest du was trinken?*
+
+
+      Careful: **niemand / nichts** already contain the *not*. *Ich habe nichts gesehen*, not *Ich habe nicht
+      nichts gesehen.*
+    tables:
+      - [["Positive", "Negative", "English"],
+         ["jemand", "niemand", "someone / nobody"],
+         ["etwas", "nichts", "something / nothing"],
+         ["man", "–", "one, you, people (general)"]]
+      - [["Sentence", "English"],
+         ["Hier trennt man den Abfall.", "Here people sort their rubbish."],
+         ["Hat jemand angerufen? – Nein, niemand.", "Did anyone call? – No, nobody."],
+         ["Ich brauche etwas zu essen.", "I need something to eat."],
+         ["Ich habe nichts vergessen.", "I haven't forgotten anything."]]
+    commonMistakes:
+      - "*Man trennen den Abfall.* → **Man trennt den Abfall.** man takes the er/sie/es form."
+      - "*Ich habe nicht nichts gesehen.* → **Ich habe nichts gesehen.** One negative is enough."
+      - "*Niemand hat nicht angerufen.* → **Niemand hat angerufen.**"
+      - "*Hat jemand etwas?* is fine – but *Hat jemand nichts?* is rarely what you mean."
+
+  - id: dative-review
+    title: "Review: the dative"
+    body: >-
+      The dative has three jobs at A2. The articles are always the same: **dem** (m, n), **der** (f), **den
+      … -n** (plural); *einem / einer*; *meinem / meiner*.
+
+
+      - **After dative prepositions** (unit 3): *aus, bei, mit, nach, seit, von, zu* – *mit **dem** Zug, **zum**
+        Gipfel, **seit einer** Woche, **nach dem** Wandern*.
+
+      - **After two-way prepositions for Wo?** (unit 5): *in, an, auf, neben, unter, über, vor, hinter, zwischen*
+        – *Der Sack steht **neben dem** Kühlschrank. Oben **auf dem** Berg ist ein Restaurant. **Im** Wald ist
+        es kühl.* (Wohin? takes the accusative: *Leg die Flasche **in den** Sack.*)
+
+      - **For the person with dative verbs and "to / for someone"** (unit 4): *helfen, gefallen, gehören,
+        schmecken, danken; geben, schenken, schicken* – *Könntest du **mir** helfen? Die Aussicht gefällt
+        **ihr**. Wem gehört die Flasche? – Sie gehört **dem** Kollegen.*
+    tables:
+      - [["Job", "Example"],
+         ["dative preposition", "Wir fahren mit dem Zug nach Luzern."],
+         ["two-way preposition: Wo?", "Die Flasche steht neben dem Kühlschrank."],
+         ["two-way preposition: Wohin? (accusative)", "Stell die Flasche neben den Kühlschrank."],
+         ["dative verb", "Kannst du mir helfen? Das gehört meiner Kollegin."],
+         ["dative + accusative", "Würdest du mir die Route schicken?"]]
+    commonMistakes:
+      - "*Kannst du mich helfen?* → **Kannst du mir helfen?** helfen takes the dative."
+      - "*Der Sack ist neben den Kühlschrank.* → **Der Sack ist neben dem Kühlschrank.** Wo? = dative."
+      - "*mit die Kinder* → **mit den Kindern.** Dative plural den + -n."
+
+reading:
+  title: "Abfall in unserer Gemeinde – kurz erklärt"
+  text: >-
+    Willkommen in Wädenswil! Hier finden Sie die wichtigsten Regeln für den Abfall.
+
+
+    Kehricht: Normalen Abfall wirft man nur in den offiziellen Abfallsack. Die Säcke kauft man im Supermarkt.
+    Stellen Sie die Säcke am Dienstag vor 7 Uhr an die Strasse.
+
+
+    PET und Glas: PET-Flaschen bringt man in den Laden zurück. Altglas bringen Sie bitte zur Sammelstelle beim
+    Bahnhof: grünes, braunes und weisses Glas kommt in verschiedene Container. Am Sonntag und nach 20 Uhr darf
+    man dort kein Glas einwerfen, denn es ist sehr laut.
+
+
+    Papier und Karton: Die Gemeinde sammelt Papier und Karton jeden ersten Mittwoch im Monat. Bitte binden Sie
+    alles mit einer Schnur zusammen.
+
+
+    Grüngut: Gemüse- und Gartenabfälle kommen in den grünen Container.
+
+
+    Haben Sie Fragen? Dann rufen Sie uns an oder schauen Sie auf unsere Website. Wir helfen Ihnen gern!
+  en: >-
+    Welcome to Wädenswil! Here you'll find the most important rules for rubbish.
+
+
+    General rubbish: you only put normal rubbish in the official rubbish bag. You buy the bags at the
+    supermarket. Put the bags out on the street on Tuesday before 7 a.m.
+
+
+    PET and glass: you take PET bottles back to the shop. Please take waste glass to the recycling point near
+    the station: green, brown and white glass goes into different containers. On Sundays and after 8 p.m. you
+    mustn't throw glass in there, because it's very loud.
+
+
+    Paper and cardboard: the municipality collects paper and cardboard on the first Wednesday of every month.
+    Please tie everything together with string.
+
+
+    Green waste: vegetable and garden waste goes into the green container.
+
+
+    Any questions? Then give us a call or look at our website. We're happy to help!
+
+swiss:
+  scene: >-
+    Saturday morning at the recycling point in their part of Zurich. Reto and Sandra meet with their bags of
+    glass, cardboard and PET – and plan a hike. Listen for öpper, niemert, öppis and nüt. Then Sandra's mother
+    calls from Bern.
+  dialogue:
+    - speaker: Sandra
+      text: Hoi Reto! Bisch au am Entsorge?
+      en: Hi Reto! Are you getting rid of your rubbish too?
+      variety: gsw-zh
+    - speaker: Reto
+      text: Ja, s Altglas und de Karton. Weisch du, öb mer s Glas am Samschtig bringe dörf?
+      en: Yes, the old glass and the cardboard. Do you know whether you can bring glass on a Saturday?
+      variety: gsw-zh
+    - speaker: Sandra
+      text: Ja, aber nöd am Sunntig und nöd z Nacht. Lueg, s staat uf em Schild.
+      en: Yes, but not on Sundays and not at night. Look, it says so on the sign.
+      variety: gsw-zh
+    - speaker: Reto
+      text: Und d PET-Flasche? Die chönd nöd in Güselsack, oder?
+      en: And the PET bottles? They can't go in the rubbish bag, can they?
+      variety: gsw-zh
+    - speaker: Sandra
+      text: Nei! S PET bringsch in Lade zrugg. Und s Grüengut chunnt in grüene Container.
+      en: No! You take the PET back to the shop. And the green waste goes in the green container.
+      variety: gsw-zh
+    - speaker: Reto
+      text: Lueg, da hät öpper Güsel näbe de Container gstellt. Und niemert nimmt en mit.
+      en: Look, someone has put rubbish next to the containers. And nobody takes it away.
+      variety: gsw-zh
+    - speaker: Sandra
+      text: Das find ich nöd guet. Du, gömmer morn go wandere? Uf de Üetliberg?
+      en: I don't think that's OK. Hey, shall we go hiking tomorrow? Up the Üetliberg?
+      variety: gsw-zh
+    - speaker: Reto
+      text: Gärn! Ich nimm öppis z ässe mit.
+      en: I'd love to! I'll bring something to eat.
+      variety: gsw-zh
+    - speaker: Sandra
+      text: Und ich bring nüt – nur gueti Luune!
+      en: And I'll bring nothing – just a good mood!
+      variety: gsw-zh
+    - speaker: Mami
+      text: Sandra, mir göh am Sunntig uf e Gurte. Chunsch o?
+      en: Sandra, we're going up the Gurten on Sunday. Are you coming too?
+      variety: gsw-be
+    - speaker: Sandra
+      text: Nei, merci, i ga mit em Reto uf e Üetliberg.
+      en: No, thanks, I'm going up the Üetliberg with Reto.
+      variety: gsw-be
+    - speaker: Mami
+      text: Schön! Nimm öppis Warms mit, gäu!
+      en: Nice! Take something warm with you, won't you!
+      variety: gsw-be
+  notes:
+    - >-
+      **Recycling in Switzerland** is taken seriously, and the rules are local – check your municipality's
+      leaflet or app. In many towns the **Abfallsack / Kehrichtsack** for normal rubbish costs extra (in the
+      city of Zurich the official **Züri-Sack**), so people sort a lot: **PET** bottles go back to the shop,
+      **Altglas** by colour into containers at the **Sammelstelle** (often not on Sundays or at night – the
+      noise!), **Altpapier** and **Karton** tied in bundles on collection days, and **Grüngut** (green waste) in
+      a green container. Swiss Standard says **rezyklieren** for recyceln (Duden: schweizerisch) and **der
+      Kehricht** for Müll (Duden: schweizerisch).
+    - >-
+      **öpper, niemert, öppis, nüt:** *jemand* → **öpper** (*Da hät öpper Güsel näbe de Container gstellt*), *niemand* →
+      **niemert** (also *niemer*), *etwas* → **öppis** (*Ich nimm öppis z ässe mit*), *nichts* → **nüt** (*Ich
+      bring nüt*). *man* is often **mer** in Zurich German: *öb mer s Glas bringe dörf* (= ob man das Glas
+      bringen darf). Bernese has the same words: *öpper* (berndeutsch.ch), *niemer* (berndeutsch.ch), *öppis,
+      nüt*.
+    - >-
+      **Nature words:** **de Bärg** (Berg; Bernese *dr Bärg*, berndeutsch.ch), **de See**, **de Wald**, **d
+      Wise** (Wiese), **d Chue / d Chüe** (Kuh / Kühe), **d Alp** (Swiss for Alm: a summer mountain pasture),
+      **wandere** (go hiking). **Gömmer go wandere?** = Gehen wir wandern? – *go* + infinitive again (A2.7).
+    - >-
+      **Polite requests in dialect** sound like Standard German: **Chöntsch du mer hälfe?** (Könntest du mir
+      helfen?), **Würdsch du …?** (Würdest du …?). At A2 you only need to recognise them.
+    - >-
+      **Bernese** (Sandra's mother): **mir göh** = wir gehen, **uf e Gurte** = auf den Gurten (Bern's local
+      hill), **o** = auch, **i ga** = ich gehe, **öppis Warms** = etwas Warmes, **gäu** = gell. In Bern the
+      rubbish is **dr Ghüder** (berndeutsch.ch: m., *Kehricht, Abfall*), the bin bag **dr Ghüdersack**
+      (berndeutsch.ch), while Zurich says **de Güsel** and **de Güselsack**.

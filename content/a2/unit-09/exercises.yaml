@@ -1,0 +1,734 @@
+# A2 unit 9 – Feste und Bräuche
+
+# ---------- vocabulary ----------
+- id: a2-u09-match-customs
+  type: match
+  skill: vocabulary
+  variety: de
+  prompt: Match the words with English.
+  pairs:
+    - ["der Brauch", "custom"]
+    - ["der Umzug", "procession"]
+    - ["das Kostüm", "costume"]
+    - ["die Laterne", "lantern"]
+    - ["das Lied", "song"]
+    - ["der Lärm", "noise"]
+  explanation: >-
+    der Umzug is both a procession (Fasnachtsumzug) and a house move (unit 5) – the context tells you which.
+    Plurals to learn: die Bräuche, die Umzüge, die Lieder.
+
+- id: a2-u09-match-seasons
+  type: match
+  skill: vocabulary
+  variety: de
+  prompt: Match the festival words with English.
+  pairs:
+    - ["der Weihnachtsmarkt", "Christmas market"]
+    - ["der Adventskalender", "Advent calendar"]
+    - ["der Christbaum", "Christmas tree"]
+    - ["der Glühwein", "mulled wine"]
+    - ["der Osterhase", "Easter bunny"]
+    - ["das Osterei", "Easter egg"]
+  explanation: >-
+    Compounds take the gender of the last word: der Markt → der Weihnachtsmarkt, das Ei → das Osterei, der
+    Wein → der Glühwein. Christbaum is common in southern Germany, Austria and Switzerland; Weihnachtsbaum is
+    used everywhere.
+
+# ---------- grammar: als / wenn / wann ----------
+- id: a2-u09-mcq-als-childhood
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [wenn-als]
+  prompt: Choose the right word.
+  question: ___ ich ein Kind war, habe ich in Manchester gewohnt.
+  options: ["Wenn", "Wann", "Als", "Dass"]
+  answer: 2
+  rationales:
+    - "wenn is for repeated events or the present. Childhood is one period."
+    - "wann is the question word (When?)."
+    - "Correct. One period in the past: als."
+    - "dass means that – it doesn't express time."
+  explanation: >-
+    als = when, for one event or one period in the past (Als ich ein Kind war, als ich in Bern war). The verb
+    goes to the end of the als-clause, and the main clause starts with its verb: habe ich …
+
+- id: a2-u09-mcq-immer-wenn
+  type: mcq
+  skill: grammar
+  variety: ch-std
+  grammar: [wenn-als]
+  prompt: Choose the right word.
+  question: Immer ___ ich in Bern bin, esse ich Zibelechueche.
+  options: ["als", "wenn", "wann", "ob"]
+  answer: 1
+  rationales:
+    - "als is only for one event in the past – here it's the present and repeated."
+    - "Correct. Repeated (immer) and present: wenn."
+    - "wann asks a question."
+    - "ob means whether (unit 10)."
+  explanation: >-
+    Every time / whenever = immer wenn or jedes Mal, wenn. In the present wenn is the only choice; als never
+    goes with the present tense.
+
+- id: a2-u09-gap-als-wenn
+  type: gap
+  skill: grammar
+  variety: ch-std
+  grammar: [wenn-als]
+  prompt: "Fill in als or wenn."
+  text: ___ ich zehn Jahre alt war, bin ich zum ersten Mal an die Fasnacht gegangen. Jedes Mal, ___ die Guggenmusik gespielt hat, habe ich getanzt. Heute tanze ich immer noch, ___ ich Guggenmusik höre.
+  answers: [["Als", "als"], ["wenn"], ["wenn"]]
+  explanation: >-
+    One moment in the past (zehn Jahre alt, zum ersten Mal) → als. Repeated in the past (jedes Mal) → wenn.
+    Present → always wenn.
+
+- id: a2-u09-mcq-wann
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [wenn-als, w-questions]
+  prompt: Choose the right word.
+  question: ___ beginnt der Umzug? – Um sechs Uhr am Bahnhof.
+  options: ["Wenn", "Wann", "Als", "Wo"]
+  answer: 1
+  rationales:
+    - "wenn starts a clause (if / whenever), it doesn't ask a question."
+    - "Correct. A question about time: wann."
+    - "als starts a clause about the past."
+    - "wo asks where – the answer gives a time."
+  explanation: >-
+    wann? = question word (verb in position 2: Wann beginnt …?). wenn and als are conjunctions: they start a
+    clause with the verb at the end. Trap: English when covers all three.
+
+- id: a2-u09-mcq-wenn-word-order
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [wenn-condition]
+  prompt: Which sentence is correct?
+  options:
+    - "Wenn ich Zeit habe, ich gehe zum Umzug."
+    - "Wenn ich habe Zeit, gehe ich zum Umzug."
+    - "Wenn habe ich Zeit, ich gehe zum Umzug."
+    - "Wenn ich Zeit habe, gehe ich zum Umzug."
+  answer: 3
+  rationales:
+    - "After the wenn-clause the main clause starts with the verb: gehe ich."
+    - "In the wenn-clause the verb goes to the end: Zeit habe."
+    - "Both verbs are in the wrong place."
+    - "Correct. Verb last in the wenn-clause, verb first in the main clause."
+  explanation: >-
+    The wenn-clause counts as position 1, so the main verb comes next: Wenn ich Zeit habe, gehe ich … Inside
+    the wenn-clause the verb is at the end. You get "verb, verb" in the middle of the sentence.
+
+- id: a2-u09-gap-wenn-verb-end
+  type: gap
+  skill: grammar
+  variety: de
+  grammar: [wenn-condition, haben-present, sein-present]
+  prompt: "Fill in the verb at the end of the wenn-clause: ist or hast."
+  text: Wenn es kalt ___, trinken wir Glühwein. Wenn du am Montag frei ___, kannst du mitkommen. Was machst du, wenn du Geburtstag ___?
+  answers: [["ist"], ["hast"], ["hast"]]
+  explanation: >-
+    In a wenn-clause the conjugated verb is the last word: wenn es kalt ist, wenn du frei hast, wenn du
+    Geburtstag hast. Frei haben = to have the day off.
+
+- id: a2-u09-order-als
+  type: order
+  skill: grammar
+  variety: de
+  grammar: [wenn-als, perfekt-haben]
+  prompt: Put the words in order. Start with Als.
+  tokens: ["Als", "ich", "klein", "war", "habe", "ich", "viel", "gesungen"]
+  answers: ["Als ich klein war, habe ich viel gesungen.", "Ich habe viel gesungen, als ich klein war."]
+  explanation: >-
+    Als ich klein war (verb war at the end) is position 1; then the verb habe, the subject ich and the
+    participle gesungen at the end. The other order is correct too: Ich habe viel gesungen, als ich klein war.
+
+- id: a2-u09-order-wenn
+  type: order
+  skill: grammar
+  variety: de
+  grammar: [wenn-condition]
+  prompt: Put the words in order.
+  tokens: ["Wenn", "es", "regnet", "bleiben", "wir", "zu", "Hause"]
+  answers: ["Wenn es regnet, bleiben wir zu Hause.", "Wir bleiben zu Hause, wenn es regnet."]
+  explanation: >-
+    Wenn es regnet (verb last), bleiben wir … (verb first). If the main clause comes first, it has normal verb
+    second order: Wir bleiben zu Hause, wenn es regnet.
+
+- id: a2-u09-transform-als
+  type: transform
+  skill: grammar
+  variety: ch-std
+  grammar: [wenn-als, praeteritum-sein-haben, perfekt-haben]
+  prompt: "Join the two sentences with als. Start with Als."
+  from: ch-std
+  to: ch-std
+  source: Ich war in Bern. Ich habe den Zibelemärit besucht.
+  answers: ["Als ich in Bern war, habe ich den Zibelemärit besucht.", "Ich habe den Zibelemärit besucht, als ich in Bern war."]
+  explanation: >-
+    One visit in the past → als. war moves to the end of the als-clause; the main clause starts with the verb:
+    habe ich … besucht.
+
+- id: a2-u09-transform-wenn
+  type: transform
+  skill: grammar
+  variety: de
+  grammar: [wenn-condition]
+  prompt: "Join the two sentences with wenn (if). Start with Wenn."
+  from: de
+  to: de
+  source: Das Wetter ist schön. Wir grillen im Garten.
+  answers: ["Wenn das Wetter schön ist, grillen wir im Garten.", "Wir grillen im Garten, wenn das Wetter schön ist."]
+  explanation: >-
+    A condition → wenn. ist goes to the end of the wenn-clause, then the main clause starts with grillen.
+
+- id: a2-u09-gap-als-perfekt
+  type: gap
+  skill: grammar
+  variety: ch-std
+  grammar: [wenn-als, perfekt-haben, participles-irregular]
+  prompt: "Fill in the Perfekt of sehen (two gaps)."
+  text: Als ich in Basel war, ___ ich die Fasnacht ___.
+  answers: [["habe"], ["gesehen"]]
+  explanation: >-
+    The main clause after als is an ordinary Perfekt sentence: habe in position 2 (right after the als-clause)
+    and the participle gesehen at the end (sehen → gesehen, A2.1).
+
+- id: a2-u09-translate-als
+  type: translate
+  skill: writing
+  variety: de
+  grammar: [wenn-als, praeteritum-sein-haben, perfekt-haben]
+  prompt: Translate into German.
+  source: When I was a child, I lived in Hamburg.
+  answers:
+    - "Als ich ein Kind war, habe ich in Hamburg gewohnt."
+    - "Als ich klein war, habe ich in Hamburg gewohnt."
+    - "Als ich ein Kind war, wohnte ich in Hamburg."
+    - "Ich habe in Hamburg gewohnt, als ich ein Kind war."
+    - "Als Kind habe ich in Hamburg gewohnt."
+  explanation: >-
+    One period in the past → als, with war at the end of the clause. Then the main clause starts with the verb:
+    habe ich … gewohnt. Short alternative without a clause: Als Kind habe ich in Hamburg gewohnt.
+
+- id: a2-u09-translate-every-time
+  type: translate
+  skill: writing
+  variety: ch-std
+  grammar: [wenn-als]
+  prompt: Translate into German.
+  source: Every time I'm in Bern, I visit my mother.
+  answers:
+    - "Jedes Mal, wenn ich in Bern bin, besuche ich meine Mutter."
+    - "Immer wenn ich in Bern bin, besuche ich meine Mutter."
+    - "Wenn ich in Bern bin, besuche ich meine Mutter."
+    - "Ich besuche meine Mutter, wenn ich in Bern bin."
+    - "Ich besuche meine Mutter jedes Mal, wenn ich in Bern bin."
+  explanation: >-
+    Repeated and in the present → wenn (immer wenn / jedes Mal, wenn). bin at the end of the clause, then
+    besuche ich.
+
+- id: a2-u09-gap-wann-wenn-als
+  type: gap
+  skill: grammar
+  variety: de
+  grammar: [wenn-als, wenn-condition]
+  prompt: "Fill in wann, wenn or als."
+  text: ___ ist das Fest? – Am Samstag. ___ du Lust hast, kommen wir dich abholen. Letztes Jahr, ___ ich in Zürich angekommen bin, habe ich das Fest noch nicht gekannt.
+  answers: [["Wann"], ["Wenn"], ["als"]]
+  explanation: >-
+    A question → wann. A condition (if) → wenn. One event in the past (when I arrived) → als. abholen = to pick
+    up; gekannt = known (kennen → gekannt).
+
+# ---------- grammar: dates ----------
+- id: a2-u09-mcq-date
+  type: mcq
+  skill: grammar
+  variety: ch-std
+  grammar: [dates-festivals, dates-ordinals]
+  prompt: Wann ist der Schweizer Nationalfeiertag?
+  options: ["Am erste August", "Am ersten August", "Im ersten August", "Am eins August"]
+  answer: 1
+  rationales:
+    - "After am the ordinal ends in -en: ersten."
+    - "Correct. am + ordinal with -ten: am ersten August."
+    - "im is for months alone (im August), not for a date."
+    - "Dates need the ordinal (erste), not the cardinal (eins)."
+  explanation: >-
+    Dates: am + ordinal + -en (am ersten, am sechsten, am fünfundzwanzigsten). Written: am 1. August. The
+    1st of August is the Swiss national day (A1.12).
+
+- id: a2-u09-gap-dates
+  type: gap
+  skill: grammar
+  variety: ch-std
+  grammar: [dates-festivals, dates-ordinals]
+  prompt: "Write the dates in words: 6., 23. and 1."
+  text: Der Samichlaus kommt am ___ Dezember. Der Zibelemärit ist dieses Jahr am ___ November. Heute ist der ___ Dezember.
+  answers:
+    - ["sechsten", "6."]
+    - ["dreiundzwanzigsten", "23."]
+    - ["erste", "1."]
+  explanation: >-
+    1–19: -ten (sechsten), from 20: -sten (dreiundzwanzigsten). After am (dative) the ending is -en; after
+    der (nominative: Heute ist der …) it is -e: der erste Dezember.
+
+- id: a2-u09-match-date-prepositions
+  type: match
+  skill: grammar
+  variety: de
+  grammar: [dates-festivals]
+  prompt: Match the German time phrases with English.
+  pairs:
+    - ["am 1. August", "on 1 August"]
+    - ["im Februar", "in February"]
+    - ["an Ostern", "at Easter"]
+    - ["vom 24. bis zum 26. Dezember", "from 24 to 26 December"]
+    - ["am Nachmittag", "in the afternoon"]
+  explanation: >-
+    am for days, dates and parts of the day; im for months and seasons; an for festivals (southern Germany,
+    Austria, Switzerland; zu Ostern in northern Germany); vom … bis zum for a period.
+
+- id: a2-u09-mcq-an-ostern
+  type: mcq
+  skill: grammar
+  variety: ch-std
+  grammar: [dates-festivals]
+  prompt: Choose the right preposition (Swiss / southern German usage).
+  question: ___ Ostern färben wir Eier und suchen sie im Garten.
+  options: ["Im", "Um", "Am", "An"]
+  answer: 3
+  rationales:
+    - "im is for months and seasons (im April)."
+    - "um is for clock times."
+    - "am is for one day: am Ostersonntag – but not with the festival name."
+    - "Correct. Festivals: an Ostern, an Weihnachten."
+  explanation: >-
+    an + festival: an Ostern, an Weihnachten, an Silvester. In northern Germany you also hear zu Ostern. For a
+    single day use am: am Ostermontag.
+
+# ---------- reading ----------
+- id: a2-u09-mcq-reading-raebe
+  type: mcq
+  skill: reading
+  variety: ch-std
+  prompt: Read Nadine's text. What did the children do in the afternoon?
+  options: ["They baked biscuits.", "They sang in the church.", "They carved stars, hearts and moons into turnips.", "They bought lanterns in a shop."]
+  answer: 2
+  explanation: >-
+    "Am Nachmittag haben die Kinder im Kindergarten Räben geschnitzt: Sie haben Sterne, Herzen und Monde in die
+    Räben gemacht." die Räbe is the Swiss word for a white turnip.
+
+- id: a2-u09-mcq-reading-lampen
+  type: mcq
+  skill: reading
+  variety: ch-std
+  grammar: [wenn-als]
+  prompt: Read the text again. What did Nadine's father do when she was a child?
+  options: ["He lit her candle again every time it went out.", "He carved her turnip.", "He switched off the street lamps.", "He sang the songs very loudly."]
+  answer: 0
+  explanation: >-
+    "Immer wenn meine Kerze ausgegangen ist, hat mein Vater sie wieder angezündet." Immer wenn = every time
+    (repeated in the past) – that's why the text says wenn and not als. The council (die Gemeinde) switched off
+    the lamps.
+
+- id: a2-u09-translate-reading
+  type: translate
+  skill: reading
+  variety: ch-std
+  grammar: [wenn-als]
+  prompt: Translate into English.
+  source: Als ich ein Kind war, habe ich das auch jedes Jahr gemacht.
+  answers:
+    - "When I was a child, I did that every year too."
+    - "When I was a child, I also did that every year."
+    - "When I was a kid, I did that every year too."
+    - "As a child, I did that every year too."
+  explanation: >-
+    Als = when (one period: childhood). habe … gemacht is the Perfekt, which English translates with the simple
+    past: I did.
+
+# ---------- listening ----------
+- id: a2-u09-mcq-listening-markt
+  type: mcq
+  skill: listening
+  variety: ch-std
+  grammar: [dates-festivals]
+  prompt: Listen to the intro dialogue again. When is the Zibelemärit?
+  options: ["On 4 November", "Every Monday in November", "On the fourth Monday in November", "On the first weekend in December"]
+  answer: 2
+  explanation: >-
+    "Immer am vierten Montag im November": am + ordinal (vierten) + Montag, im + month. On 4 November would be
+    am vierten November.
+
+- id: a2-u09-mcq-listening-martin
+  type: mcq
+  skill: listening
+  variety: ch-std
+  grammar: [wenn-als, perfekt-sein]
+  prompt: Listen to Martin. What did he do when he was little?
+  transcript: |-
+    Martin: Ja, als ich klein war, bin ich jedes Jahr mit meinem Grossvater hingegangen. Und immer wenn ich heute dort bin, denke ich an ihn.
+  options: ["He went to the market with his grandfather every year.", "He sold onions at the market.", "He visited his grandfather in Zurich.", "He went to the market only once."]
+  answer: 0
+  explanation: >-
+    als ich klein war (one period) + jedes Jahr … hingegangen (Perfekt with sein: hingehen is a movement). The
+    second part, immer wenn ich heute dort bin, is repeated and present → wenn.
+
+- id: a2-u09-dictation-feuer
+  type: dictation
+  skill: listening
+  variety: de
+  grammar: [wenn-als, perfekt-haben]
+  prompt: Listen and write what you hear.
+  transcript: Als ich ein Kind war, haben wir jedes Jahr ein großes Feuer gemacht.
+  explanation: >-
+    als + war at the end of the clause, then haben wir … gemacht. großes: neuter accusative (ein großes Feuer);
+    also written grosses in Switzerland.
+
+- id: a2-u09-dictation-gluehwein
+  type: dictation
+  skill: listening
+  variety: de
+  grammar: [wenn-condition]
+  prompt: Listen and write what you hear.
+  transcript: Wenn es kalt ist, trinken wir auf dem Weihnachtsmarkt Glühwein.
+  explanation: >-
+    wenn … ist (verb last), then trinken wir (verb first). auf dem Weihnachtsmarkt: auf + dative for where
+    (unit 5).
+
+# ---------- speaking ----------
+- id: a2-u09-speak-frame
+  type: speak
+  skill: speaking
+  variety: de
+  grammar: [wenn-als, dates-festivals]
+  prompt: "Read aloud, then talk about a festival from your country."
+  target: Bei uns gibt es im Dezember einen Weihnachtsmarkt. Als ich ein Kind war, bin ich jedes Jahr mit meiner Familie hingegangen.
+  explanation: >-
+    A frame for any festival: Bei uns gibt es im … / am … ein Fest. Als ich ein Kind war, habe ich … / bin ich
+    … Change the month, the festival and what you did.
+
+- id: a2-u09-speak-shadow-tom
+  type: speak
+  skill: speaking
+  variety: de
+  grammar: [wenn-als, wenn-condition]
+  prompt: "Shadowing: speak along with Tom's line from the intro dialogue, then say it alone."
+  target: Als ich ein Kind war, haben wir mit den Nachbarn ein großes Feuer gemacht. Wenn es kalt war, haben wir Suppe gegessen.
+  explanation: >-
+    Two clause pairs with a short pause after the comma: Als ich ein KIND war, | haben wir … FEUer gemacht.
+    The verb at the end of each clause (war) is not stressed.
+
+- id: a2-u09-speak-shadow-martin
+  type: speak
+  skill: speaking
+  variety: ch-std
+  grammar: [dates-festivals]
+  prompt: "Shadowing: speak along with Martin, then say it alone."
+  target: Ja, am Montag ist Zibelemärit. Das ist der Zwiebelmarkt in Bern, immer am vierten Montag im November.
+  explanation: >-
+    Swiss Standard German: the r in vierten and November is tapped, Zwiebelmarkt keeps a clear -el, and the
+    stress of each word is on the first syllable (ZIbelemärit, NOvember is often NO- in Switzerland). See the
+    drill The Swiss Standard German accent.
+
+- id: a2-u09-speak-intonation
+  type: speak
+  skill: speaking
+  variety: ch-std
+  prompt: "Intonation: in a list the voice rises on each item and falls only at the end."
+  target: Es gibt Zwiebelzöpfe, Zwiebelkuchen und Glühwein.
+  explanation: >-
+    Zwiebelzöpfe ↗, Zwiebelkuchen ↗ und Glühwein ↘. A falling tone before the end would sound as if the list
+    were finished.
+
+- id: a2-u09-speak-pron-glottal
+  type: speak
+  skill: speaking
+  variety: de
+  grammar: [dates-festivals]
+  prompt: "Pronunciation: the glottal stop before vowels. Read aloud slowly."
+  target: An Ostern essen alle Eier, am Abend auch im alten Haus.
+  explanation: >-
+    Every word that starts with a vowel gets a tiny new start: |An |Ostern |essen |alle |Eier. Don't link them as
+    in English (an-Nostern). See the drill The glottal stop (Knacklaut).
+
+# ---------- roleplay and writing ----------
+- id: a2-u09-roleplay-lena
+  type: roleplay
+  skill: speaking
+  variety: de
+  grammar: [wenn-als, wenn-condition, dates-festivals, perfekt-haben]
+  tutor: lena
+  prompt: "Roleplay with Lena: a festival from your country."
+  scenario: >-
+    Lena asks you about a festival or tradition from your country. Tell her when it is, what people do and eat,
+    and what you did as a child. Ask her about a festival in Germany.
+  goals:
+    - Say when the festival takes place (am …, im …, an …).
+    - Say what people do and eat (Man …, Es gibt …).
+    - Tell one childhood memory with als and one repeated event with wenn.
+    - Ask Lena about a festival in her country (Was macht ihr an …? Wann ist …?).
+  model: |
+    Lena: Welches Fest feiert ihr in deinem Land?
+    Du: In England gibt es am 5. November die Bonfire Night. Es gibt Feuer und Feuerwerk.
+    Lena: Und was habt ihr da gemacht, als du klein warst?
+    Du: Als ich ein Kind war, haben wir im Garten ein Feuer gemacht. Wenn es kalt war, haben wir Suppe gegessen.
+    Lena: Schön! Bei uns in Hamburg gibt es im Dezember viele Weihnachtsmärkte.
+    Du: Wann beginnen die Weihnachtsmärkte?
+    Lena: Ende November. Wenn du im Dezember nach Hamburg kommst, gehen wir zusammen hin!
+  explanation: >-
+    als for the childhood memory (als ich ein Kind war), wenn for repeated or future events (wenn es kalt war,
+    wenn du kommst), wann for the question. Dates with am, im and an.
+
+- id: a2-u09-write-fest
+  type: write
+  skill: writing
+  variety: de
+  grammar: [wenn-als, wenn-condition, dates-festivals, perfekt-haben]
+  prompt: Write about a festival.
+  task: >-
+    Write a short text (6–8 sentences) for the course blog: "Ein Fest aus meinem Land". Say what the festival
+    is, when it takes place, what people do, eat and drink, and what you did as a child. Use als once and wenn
+    at least once.
+  minWords: 60
+  model: >-
+    In Mexiko feiern wir am 1. und 2. November den Día de Muertos, den Tag der Toten. Die Familien schmücken die
+    Häuser mit Blumen, Kerzen und Fotos. Man isst ein süßes Brot und trinkt heiße Schokolade. Als ich ein Kind
+    war, haben wir jedes Jahr meine Großeltern besucht. Wir haben zusammen gekocht und viele Lieder gesungen.
+    Immer wenn ich heute das Brot rieche, denke ich an meine Großmutter. Wenn du im November in Mexiko bist,
+    musst du das Fest sehen!
+  checklist:
+    - I say when the festival is (am …, im …, an …) with ordinal numbers for dates.
+    - I use als for one event or period in the past (Als ich ein Kind war, …).
+    - I use wenn for repeated events or conditions (Immer wenn …, Wenn du …).
+    - After an als- or wenn-clause the main clause starts with the verb.
+    - I use the Perfekt for what I did (haben wir besucht, sind wir gegangen).
+  explanation: >-
+    A festival text needs dates (am 1. November), the present for what people usually do (Man isst …), and als
+    + Perfekt for a childhood memory. riechen = to smell.
+
+# ---------- Swiss Standard German ----------
+- id: a2-u09-chstd-match
+  type: match
+  skill: vocabulary
+  variety: ch-std
+  prompt: Match the Swiss Standard German words with the words used in Germany.
+  pairs:
+    - ["die Räbe", "die (weiße) Rübe"]
+    - ["die Fasnacht", "der Karneval / der Fasching"]
+    - ["der Samichlaus", "der Nikolaus"]
+    - ["das Quartier", "das Viertel"]
+  explanation: >-
+    Duden marks Räbe and Samichlaus as Swiss. Fasnacht is used in Switzerland and southwest Germany; Karneval
+    in the Rhineland, Fasching in Bavaria and Austria. Quartier = a part of a town (Wohnquartier).
+
+# ---------- Swiss lane (gsw-zh) ----------
+- id: a2-u09-ch-mcq-raebe
+  type: mcq
+  skill: listening
+  variety: gsw-zh
+  prompt: Listen to Sandra. What is she doing?
+  transcript: |-
+    Sandra: Ich schnitz es Räbeliechtli. Am Friitig isch de Räbeliechtli-Umzug im Quartier.
+  options: ["She's cooking turnip soup.", "She's carving a turnip lantern for a procession on Friday.", "She's buying candles for Friday.", "She's decorating a Christmas tree."]
+  answer: 1
+  rationales:
+    - "Räbe is a turnip, but she isn't cooking."
+    - "Correct. schnitz = schnitze (carve), es Räbeliechtli = a turnip lantern, am Friitig = on Friday."
+    - "Candles go inside the lantern, but she doesn't buy them."
+    - "Christmas trees are not mentioned."
+  explanation: >-
+    Ich schnitz = ich schnitze (the first person often drops -e). s Räbeliechtli is Räbe + Liecht + -li (a
+    lantern made from a turnip). Umzug and Quartier are the same in Swiss Standard German.
+
+- id: a2-u09-ch-transform-waenn-als
+  type: transform
+  skill: reading
+  variety: gsw-zh
+  grammar: [wenn-als, praeteritum-sein-haben]
+  prompt: What does Reto say? Write it in Standard German.
+  from: gsw-zh
+  to: de
+  source: Wänn ich es Chind gsii bin, han ich au jedes Jahr eis gschnitzt.
+  answers:
+    - "Als ich ein Kind war, habe ich auch jedes Jahr eins geschnitzt."
+    - "Als ich ein Kind war, habe ich auch jedes Jahr eine geschnitzt."
+    - "Als ich ein Kind gewesen bin, habe ich auch jedes Jahr eins geschnitzt."
+    - "Als ich Kind war, habe ich auch jedes Jahr eins geschnitzt."
+  explanation: >-
+    Here wänn means als: one period in the past. In Standard German use als + war (Swiss German has no war:
+    gsii bin = gewesen bin). eis = eins (one – a lantern), gschnitzt = geschnitzt.
+
+- id: a2-u09-ch-mcq-waenn-meaning
+  type: mcq
+  skill: grammar
+  variety: gsw-zh
+  grammar: [wenn-als, wenn-condition]
+  prompt: "In the Zurich sentence \"Wänn s rägnet, bliib ich dihei\", what is wänn in Standard German?"
+  options: ["als", "wann", "weil", "wenn"]
+  answer: 3
+  rationales:
+    - "als would need a single event in the past; this is a condition in the present."
+    - "wann would ask a question – here wänn starts a clause."
+    - "weil = because; that would be wil in Zurich German."
+    - "Correct. A condition in the present: Wenn es regnet, bleibe ich zu Hause."
+  explanation: >-
+    Zurich wänn covers three Standard words: wenn (if, whenever), als (one time in the past) and wann (the
+    question word). Decide from the context: present or repeated → wenn; one past event → als; question → wann.
+
+- id: a2-u09-ch-match-customs
+  type: match
+  skill: vocabulary
+  variety: gsw-zh
+  prompt: Match the Swiss customs with what they are.
+  pairs:
+    - ["d Fasnacht", "carnival in February or March"]
+    - ["s Räbeliechtli", "a turnip lantern carried in November"]
+    - ["s Chlausjage", "a night procession with huge lanterns and bells on 5 December"]
+    - ["d Guggemusig", "a loud, deliberately off-key carnival band"]
+    - ["de Zibelemärit", "the onion market in Bern in November"]
+  explanation: >-
+    Fasnacht is biggest in Basel and Lucerne; Räbeliechtli processions are held in many towns in November;
+    Chlausjage takes place in Küssnacht am Rigi; the Zibelemärit is on the fourth Monday in November.
+
+- id: a2-u09-ch-mcq-fasnacht
+  type: mcq
+  skill: listening
+  variety: gsw-zh
+  prompt: Listen to Reto. Where does he go in February?
+  transcript: |-
+    Reto: Klar! Im Februar gang ich wieder a d Fasnacht uf Luzern. Wänn d Guggemusige spiled, isch es mega luut.
+  options: ["To a concert in Zurich", "Skiing in Grindelwald", "To the onion market in Bern", "To the carnival in Lucerne"]
+  answer: 3
+  rationales:
+    - "Guggemusige play music, but at the carnival, not in a concert hall."
+    - "Grindelwald was Sandra's trip in A2.2."
+    - "The onion market is in November, in Bern."
+    - "Correct. a d Fasnacht uf Luzern = zur Fasnacht nach Luzern."
+  explanation: >-
+    gang ich = gehe ich, a d Fasnacht = an die / zur Fasnacht, uf Luzern = nach Luzern (uf + town for the
+    direction). mega luut = sehr laut.
+
+- id: a2-u09-ch-gap-waenn
+  type: gap
+  skill: grammar
+  variety: gsw-zh
+  grammar: [wenn-als, wenn-condition]
+  prompt: "Guided production: write the Zurich word that covers both als and wenn (Standard: Als …, Wenn …)."
+  text: ___ ich chlii gsii bin, han ich vill gsunge. ___ s rägnet, bliib ich dihei.
+  answers:
+    - ["Wänn", "wänn", "Wän", "wän", "Wo", "wo"]
+    - ["Wänn", "wänn", "Wän", "wän"]
+  explanation: >-
+    wänn = als (Wänn ich chlii gsii bin = Als ich klein war) and wenn (Wänn s rägnet = Wenn es regnet). For a
+    single past event many people also say wo (Wo n ich chlii gsii bin), so wo is accepted in the first gap.
+
+- id: a2-u09-ch-transform-de-gsw
+  type: transform
+  skill: vocabulary
+  variety: gsw-zh
+  grammar: [wenn-condition]
+  prompt: "Recognition: how do you say this in Zurich German? (Common spellings are accepted.)"
+  from: de
+  to: gsw-zh
+  source: Wenn es regnet, bleibe ich zu Hause.
+  answers:
+    - "Wänn s rägnet, bliib ich dihei."
+    - "Wänns rägnet, bliib ich dihei."
+    - "Wänn es rägnet, bliib ich dihei."
+    - "Wänn s rägnet, blib ich dihei."
+    - "Wänns rägnet, blib ich dihei."
+    - "Wänn s rägnet, bliibe ich dihei."
+    - "Wänn s rägnet, bin ich dihei."
+  explanation: >-
+    wenn → wänn, es → s, regnen → rägne (er rägnet), bleiben → bliibe (ich bliib), zu Hause → dihei. The word
+    order is the same as in Standard German.
+
+- id: a2-u09-ch-mcq-chlausjage
+  type: mcq
+  skill: listening
+  variety: gsw-zh
+  grammar: [dates-festivals]
+  prompt: Listen to Sandra. When is the Klausjagen?
+  transcript: |-
+    Sandra: Am füfte Dezämber z Nacht, mit grosse Liechter und Glogge. Wänn du wottsch, chunnsch mit.
+  options: ["On 5 December, at night", "On 6 December, in the morning", "On 15 December, at lunchtime", "On 5 November, in the evening"]
+  answer: 0
+  rationales:
+    - "Correct. am füfte Dezämber = am fünften Dezember, z Nacht = at night."
+    - "The Samichlaus comes on 6 December, but the Klausjagen is the evening before."
+    - "füfte = fünfte (5th); 15th would be füfzähte."
+    - "Dezämber, not November."
+  explanation: >-
+    füfte = fünfte, Dezämber = Dezember, z Nacht = in der Nacht (not de Znacht = dinner). Wänn du wottsch =
+    Wenn du willst.
+
+- id: a2-u09-roleplay-reto
+  type: roleplay
+  skill: listening
+  variety: gsw-zh
+  grammar: [wenn-als, wenn-condition, dates-festivals]
+  tutor: reto
+  prompt: "Listening roleplay with Reto: Swiss customs."
+  scenario: >-
+    Reto tells you in Zurich German about Swiss customs – the Räbeliechtli, the Fasnacht in Lucerne and the
+    Chlausjage – and asks you about a festival in your country. You answer in Standard German.
+  goals:
+    - Understand Reto's wänn-sentences (Wänn ich es Chind gsii bin …, Wänn d Guggemusige spiled …).
+    - Understand the names and dates of the customs (im Februar, am füfte Dezämber).
+    - Tell Reto about a festival from your country, with one als-sentence.
+  model: |
+    Reto: Kännsch du s Räbeliechtli? Wänn ich es Chind gsii bin, han ich jedes Jahr eis gschnitzt.
+    Du: Nein, das kenne ich nicht. Was ist das?
+    Reto: Mer schnitzt e Räbe und tuet e Cherze drii. Und im Februar gang ich a d Fasnacht uf Luzern.
+    Du: Toll! In England gibt es am 5. November die Bonfire Night.
+    Reto: Und was händ ihr da gmacht?
+    Du: Als ich klein war, haben wir ein Feuer gemacht und Würstchen gegessen.
+  explanation: >-
+    Decoding: wänn = als / wenn, gsii bin = war, gschnitzt = geschnitzt, mer = man, tuet … drii = tut …
+    hinein, e Cherze = eine Kerze, händ ihr gmacht = habt ihr gemacht.
+
+# ---------- Bernese (gsw-be, recognition) ----------
+- id: a2-u09-ch-be-mcq-maerit
+  type: mcq
+  skill: listening
+  variety: gsw-be
+  prompt: Listen to Sandra's mother. What does she ask?
+  transcript: |-
+    Mami: Sandra, am Mänti isch Zibelemärit. Chunsch o?
+  options: ["Whether Sandra is coming to the onion market on Monday", "Whether Sandra has bought onions", "When the onion market is", "Whether Sandra works on Monday"]
+  answer: 0
+  explanation: >-
+    am Mänti = am Montag, isch Zibelemärit = ist Zwiebelmarkt, Chunsch o? = Kommst du auch? (o = auch in
+    Bernese). Märit = Markt (berndeutsch.ch).
+
+- id: a2-u09-ch-be-transform
+  type: transform
+  skill: reading
+  variety: gsw-be
+  grammar: [modal-koennen-wollen, modal-muessen-duerfen]
+  prompt: What does Sandra answer? Write it in Standard German.
+  from: gsw-be
+  to: de
+  source: Nei, i cha nid, i mues schaffe.
+  answers: ["Nein, ich kann nicht, ich muss arbeiten.", "Nein, ich kann nicht. Ich muss arbeiten."]
+  explanation: >-
+    i = ich, cha = kann (Zurich chan), nid = nicht (Zurich nöd), mues = muss, schaffe = arbeiten.
+
+- id: a2-u09-ch-be-match
+  type: match
+  skill: vocabulary
+  variety: gsw-be
+  prompt: Match the Bernese words with Standard German.
+  pairs:
+    - ["d Zibele", "die Zwiebel"]
+    - ["dr Märit", "der Markt"]
+    - ["gäng", "immer"]
+    - ["d Züpfe", "der Zopf"]
+  explanation: >-
+    All four from berndeutsch.ch: Zibele (f.), Märit (m.), gäng (immer, stets), Züpfe (f., the braided Sunday
+    bread – feminine in Bern, der Zopf in Standard German).

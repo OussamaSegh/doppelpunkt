@@ -1,0 +1,683 @@
+# A2 unit 6 – Vergleichen und Kaufen
+
+# ---------- vocabulary ----------
+- id: a2-u06-match-shop
+  type: match
+  skill: vocabulary
+  variety: de
+  prompt: Match the shopping words with English.
+  pairs:
+    - ["der Preis", "price"]
+    - ["das Angebot", "special offer"]
+    - ["der Rabatt", "discount"]
+    - ["die Quittung", "receipt"]
+    - ["die Garantie", "guarantee"]
+    - ["umtauschen", "to exchange"]
+  explanation: >-
+    im Angebot = on special offer (Swiss shops: in Aktion). umtauschen is separable: Ich tausche das um.
+
+- id: a2-u06-match-adjectives
+  type: match
+  skill: vocabulary
+  variety: de
+  prompt: Match the adjectives with their opposites.
+  pairs:
+    - ["teuer", "billig"]
+    - ["schwer", "leicht"]
+    - ["laut", "leise"]
+    - ["neu", "gebraucht"]
+    - ["groß", "klein"]
+  explanation: >-
+    Learn adjectives in pairs. günstig is a polite word for billig: billig can also mean cheap and of poor
+    quality.
+
+# ---------- grammar: comparative ----------
+- id: a2-u06-mcq-als
+  type: mcq
+  skill: grammar
+  variety: ch-std
+  grammar: [comparative, als-wie]
+  prompt: Choose the correct comparison.
+  question: Das rote Velo ist ___ das blaue.
+  options: ["billig als", "billiger wie", "mehr billig als", "billiger als"]
+  answer: 3
+  rationales:
+    - "The adjective needs the comparative ending -er."
+    - "In speech you hear wie, but after a comparative Standard German uses als."
+    - "German never uses mehr + adjective for the comparative."
+    - "Correct. Comparative -er + als."
+  explanation: >-
+    To compare two unequal things: adjective + -er + als. billig → billiger als. English 'more' is never
+    translated: bequemer, not mehr bequem.
+
+- id: a2-u06-gap-comparative
+  type: gap
+  skill: grammar
+  variety: de
+  grammar: [comparative]
+  prompt: "Write the comparative of the adjective in brackets."
+  text: Diese Kopfhörer sind ___ (leicht). Das Sofa ist ___ (bequem). Der neue Laptop ist ___ (schnell).
+  answers: [["leichter"], ["bequemer"], ["schneller"]]
+  explanation: >-
+    Most adjectives just add -er: leichter, bequemer, schneller – also long ones (bequem → bequemer), where
+    English says more comfortable.
+
+- id: a2-u06-gap-umlaut
+  type: gap
+  skill: grammar
+  variety: de
+  grammar: [comparative]
+  prompt: "Write the comparative (these take an umlaut or change)."
+  text: Mein Bruder ist ___ (alt) als ich. Der Bildschirm ist ___ (groß). Das Velo ist ___ (teuer) als das andere.
+  answers: [["älter"], ["größer", "grösser"], ["teurer"]]
+  explanation: >-
+    Short adjectives with a, o, u often take an umlaut: alt → älter, groß → größer. teuer drops the e:
+    teurer (not teuerer).
+
+- id: a2-u06-mcq-besser
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [comparative]
+  prompt: Choose the correct form.
+  question: Die neue Kaffeemaschine ist gut, aber die alte war ___.
+  options: ["guter", "besser", "mehr gut", "am besten"]
+  answer: 1
+  rationales:
+    - "gut is irregular – there is no guter as a comparative."
+    - "Correct. gut – besser – am besten."
+    - "German never says mehr gut."
+    - "am besten is the superlative (the best of all)."
+  explanation: >-
+    Four everyday adjectives are irregular: gut – besser, viel – mehr, gern – lieber, hoch – höher.
+
+- id: a2-u06-mcq-viel-teurer
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [comparative]
+  prompt: "How do you say \"much more expensive\"?"
+  options: ["viel teurer", "sehr teurer", "mehr teurer", "viel mehr teuer"]
+  answer: 0
+  rationales:
+    - "Correct. viel makes a comparative stronger."
+    - "sehr goes with the basic form (sehr teuer), not the comparative."
+    - "mehr + comparative is double."
+    - "German never uses mehr + adjective."
+  explanation: >-
+    To make a comparative stronger use viel (or noch): viel teurer, noch billiger. sehr goes only with the
+    basic adjective: sehr teuer.
+
+- id: a2-u06-transform-comparative
+  type: transform
+  skill: grammar
+  variety: de
+  grammar: [comparative, als-wie]
+  prompt: "Join the two sentences with a comparative + als."
+  from: de
+  to: de
+  source: Der Laptop kostet 900 Franken. Das Tablet kostet 400 Franken. (teuer)
+  answers: ["Der Laptop ist teurer als das Tablet.", "Das Tablet ist billiger als der Laptop.", "Das Tablet ist günstiger als der Laptop."]
+  explanation: >-
+    teuer → teurer (drop the e) + als. Turned round with the opposite: Das Tablet ist billiger / günstiger
+    als der Laptop.
+
+- id: a2-u06-gap-swiss-prices
+  type: gap
+  skill: grammar
+  variety: ch-std
+  grammar: [comparative, superlative]
+  prompt: "Fill in the comparative or superlative of günstig."
+  text: Die «Classic» ist ___ als die «Premium», aber die «Mini» ist am ___.
+  answers: [["günstiger"], ["günstigsten"]]
+  explanation: >-
+    günstig – günstiger – am günstigsten. After am the superlative always ends in -sten. Swiss texts use the
+    guillemets « » for quotation marks.
+
+# ---------- grammar: superlative ----------
+- id: a2-u06-mcq-am-billigsten
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [superlative]
+  prompt: Choose the correct superlative.
+  question: Von den drei Maschinen ist die «Mini» ___.
+  options: ["am billigste", "die billiger", "am billigsten", "am meisten billig"]
+  answer: 2
+  rationales:
+    - "After am the ending is -sten, with n."
+    - "That is a comparative."
+    - "Correct. am + adjective + -sten."
+    - "German never uses meisten + adjective for the superlative."
+  explanation: >-
+    For three or more things use am + -sten: am billigsten, am schnellsten. Adjectives ending in -t, -d, -s,
+    -z add -esten: am leichtesten, am kürzesten.
+
+- id: a2-u06-mcq-am-liebsten
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [superlative, gern-lieber]
+  prompt: Choose the correct form.
+  question: Ich trinke gern Tee, lieber Kaffee und ___ heiße Schokolade.
+  options: ["am gernsten", "am lieber", "am liebsten", "am meisten gern"]
+  answer: 2
+  rationales:
+    - "gern is irregular – there is no gernsten."
+    - "lieber is the comparative; the superlative is am liebsten."
+    - "Correct. gern – lieber – am liebsten."
+    - "German never uses meisten with gern."
+  explanation: >-
+    gern – lieber – am liebsten is irregular. Also: gut – besser – am besten, viel – mehr – am meisten,
+    hoch – höher – am höchsten.
+
+- id: a2-u06-match-irregular
+  type: match
+  skill: grammar
+  variety: de
+  grammar: [comparative, superlative]
+  prompt: Match the adjectives with their superlatives.
+  pairs:
+    - ["gut", "am besten"]
+    - ["viel", "am meisten"]
+    - ["gern", "am liebsten"]
+    - ["hoch", "am höchsten"]
+    - ["groß", "am größten"]
+  explanation: >-
+    The irregular ones are the most frequent: gut – besser – am besten, viel – mehr – am meisten, gern –
+    lieber – am liebsten, hoch – höher – am höchsten. groß only adds -ten after ß: am größten.
+
+- id: a2-u06-order-akku
+  type: order
+  skill: grammar
+  variety: ch-std
+  grammar: [superlative]
+  prompt: Put the words in order.
+  tokens: ["Bei", "diesem", "Modell", "hält", "der", "Akku", "am", "längsten"]
+  answers: ["Bei diesem Modell hält der Akku am längsten.", "Der Akku hält bei diesem Modell am längsten."]
+  explanation: >-
+    am längsten goes at the end like any adjective after a verb. The verb hält stays in position 2.
+
+- id: a2-u06-order-als
+  type: order
+  skill: grammar
+  variety: de
+  grammar: [comparative, als-wie]
+  prompt: Put the words in order.
+  tokens: ["Das", "Tablet", "ist", "viel", "leichter", "als", "der", "Laptop"]
+  answers: ["Das Tablet ist viel leichter als der Laptop."]
+  explanation: >-
+    viel + comparative + als + the second thing (nominative, like the first: das Tablet – der Laptop).
+
+- id: a2-u06-mcq-superlative-ending
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [superlative]
+  prompt: "Which superlative is correct?"
+  options: ["am leichtsten", "am leichtest", "am leichteren", "am leichtesten"]
+  answer: 3
+  rationales:
+    - "After -t you need -esten, or it is hard to say."
+    - "After am the ending is always -(e)sten."
+    - "-eren is not a superlative ending."
+    - "Correct. leicht ends in -t: am leichtesten."
+  explanation: >-
+    Adjectives ending in -d, -t, -s, -ß, -z add -esten: am leichtesten, am ältesten, am kürzesten. Exception:
+    am größten.
+
+# ---------- grammar: als / wie ----------
+- id: a2-u06-gap-als-wie
+  type: gap
+  skill: grammar
+  variety: de
+  grammar: [als-wie]
+  prompt: "Fill in als or wie."
+  text: Das Tablet ist so teuer ___ das Handy. Der Laptop ist teurer ___ das Tablet. Das Handy ist nicht so schwer ___ der Laptop.
+  answers: [["wie"], ["als"], ["wie"]]
+  explanation: >-
+    Equal (so … wie, nicht so … wie) → wie. Unequal (comparative) → als: teurer als.
+
+- id: a2-u06-translate-as-good
+  type: translate
+  skill: writing
+  variety: de
+  grammar: [als-wie]
+  prompt: Translate into German.
+  source: The small headphones are just as good as the expensive ones.
+  answers: ["Die kleinen Kopfhörer sind genauso gut wie die teuren.", "Die kleinen Kopfhörer sind so gut wie die teuren.", "Die kleinen Kopfhörer sind genau so gut wie die teuren."]
+  explanation: >-
+    as … as = so … wie; just as … as = genauso … wie. die teuren = the expensive ones (the adjective stands
+    for the noun).
+
+- id: a2-u06-gap-shopping
+  type: gap
+  skill: grammar
+  variety: de
+  grammar: [shopping-chunks]
+  prompt: "Complete the shopping phrases: bezahlen, umtauschen, empfehlen."
+  text: Welches Modell können Sie mir ___? – Kann ich mit Karte ___? – Kann ich das mit der Quittung ___?
+  answers: [["empfehlen"], ["bezahlen"], ["umtauschen"]]
+  explanation: >-
+    With a modal verb (können) the infinitive goes to the end: … mir empfehlen, … bezahlen, … umtauschen.
+
+- id: a2-u06-mcq-think
+  type: mcq
+  skill: speaking
+  variety: de
+  grammar: [shopping-chunks]
+  prompt: You like the coffee machine, but you want to think about it. What do you say?
+  options: ["Ich nehme sie.", "Kann ich das umtauschen?", "Ich überlege es mir noch.", "Das ist mir zu billig."]
+  answer: 2
+  rationales:
+    - "This means you buy it."
+    - "This asks about exchanging it after buying."
+    - "Correct. = I'll think about it."
+    - "Nobody says this – and it doesn't mean you want to think."
+  explanation: >-
+    Ich überlege es mir noch (I'll think it over) is the polite way to leave a shop without buying. Ich nehme
+    die / sie hier = I'll take it.
+
+- id: a2-u06-transform-du-sie
+  type: transform
+  skill: grammar
+  variety: de
+  grammar: [shopping-chunks, du-sie]
+  prompt: "Ask the shop assistant politely (Sie)."
+  from: de
+  to: de
+  source: Kannst du mir helfen?
+  answers: ["Können Sie mir helfen?", "Können Sie mir bitte helfen?", "Könnten Sie mir helfen?"]
+  explanation: >-
+    du kannst → Sie können. helfen takes the dative (mir), which does not change. In a shop always use Sie.
+
+- id: a2-u06-translate-card
+  type: translate
+  skill: writing
+  variety: de
+  grammar: [shopping-chunks]
+  prompt: Translate into German.
+  source: Can I pay by card?
+  answers: ["Kann ich mit Karte bezahlen?", "Kann ich mit Karte zahlen?", "Kann ich mit der Karte bezahlen?", "Kann ich mit Kreditkarte bezahlen?"]
+  explanation: >-
+    mit Karte bezahlen (by card), bar bezahlen (in cash). Modal verb können + infinitive at the end.
+
+# ---------- reading ----------
+- id: a2-u06-mcq-reading-cheapest
+  type: mcq
+  skill: reading
+  variety: ch-std
+  prompt: Read the flyer. Which machine is the cheapest, and for whom is it ideal?
+  options: ["The «Classic», for families", "The «Premium», for coffee lovers", "The «Mini», for two people", "The «Mini», for one person"]
+  answer: 3
+  explanation: >-
+    "Die «Mini» ist unsere kleinste Maschine. Sie ist am billigsten … Ideal für eine Person." 89 francs
+    instead of 119.
+
+- id: a2-u06-mcq-reading-all
+  type: mcq
+  skill: reading
+  variety: ch-std
+  prompt: What is true for all three machines?
+  options: ["They are as quiet as the old models and use less electricity.", "They are louder but faster than the old models.", "They all make two cups at once.", "They have a five-year guarantee."]
+  answer: 0
+  explanation: >-
+    "Alle drei Maschinen sind genauso leise wie unsere alten Modelle, aber sie brauchen weniger Strom." The
+    guarantee is two years (zwei Jahre Garantie).
+
+- id: a2-u06-translate-reading
+  type: translate
+  skill: reading
+  variety: ch-std
+  prompt: Translate into English.
+  source: Die «Classic» ist grösser und schneller als die «Mini».
+  answers: ["The Classic is bigger and faster than the Mini.", "The «Classic» is bigger and faster than the «Mini».", "The \"Classic\" is bigger and faster than the \"Mini\"."]
+  explanation: >-
+    grösser (Swiss spelling of größer) and schneller are comparatives; als = than. The machines are
+    feminine because die Maschine is.
+
+# ---------- listening ----------
+- id: a2-u06-mcq-listening-why
+  type: mcq
+  skill: listening
+  variety: de
+  prompt: Listen to the intro dialogue again. Why does Tom need new headphones?
+  options: ["His old ones are broken.", "He takes the train every day.", "He wants them as a present.", "He is going to Manchester tomorrow."]
+  answer: 1
+  explanation: >-
+    "Ich fahre jeden Tag Zug." Manchester only comes up in his joke: "Das ist länger als eine Reise nach
+    Manchester!"
+
+- id: a2-u06-mcq-listening-verkaeuferin
+  type: mcq
+  skill: listening
+  variety: ch-std
+  grammar: [als-wie, comparative]
+  prompt: Listen to the shop assistant. What does she say about these headphones?
+  transcript: |-
+    Verkäuferin: Diese hier. Sie sind so gut wie die teuren, aber kleiner und leichter.
+  options: ["They are better than the expensive ones.", "They are bigger but lighter.", "They are as good as the expensive ones, but smaller and lighter.", "They are not as good as the expensive ones."]
+  answer: 2
+  explanation: >-
+    so gut wie = as good as (equal → wie); kleiner und leichter are comparatives (-er) without als, because
+    the comparison is clear.
+
+- id: a2-u06-dictation-billiger
+  type: dictation
+  skill: listening
+  variety: de
+  grammar: [comparative, als-wie]
+  prompt: Listen and write what you hear.
+  transcript: Die Kopfhörer sind dreißig Franken billiger als die anderen.
+  explanation: >-
+    billiger als: comparative + als. dreißig can also be written dreissig.
+
+- id: a2-u06-dictation-am-besten
+  type: dictation
+  skill: listening
+  variety: de
+  grammar: [superlative]
+  prompt: Listen and write what you hear.
+  transcript: Welches Modell ist am besten für mich?
+  explanation: >-
+    am besten: the irregular superlative of gut. Welches Modell (das Modell, neuter).
+
+# ---------- speaking ----------
+- id: a2-u06-speak-frame
+  type: speak
+  skill: speaking
+  variety: de
+  grammar: [comparative, superlative]
+  prompt: "Read aloud, then compare two things you own."
+  target: Mein neues Handy ist größer und schneller als das alte. Der Akku hält am längsten von allen Handys.
+  explanation: >-
+    Frame: X ist + comparative + als Y. Then a superlative with am -sten. Swap in your own things (Velo, Laptop,
+    Wohnung).
+
+- id: a2-u06-speak-shadow-tom
+  type: speak
+  skill: speaking
+  variety: de
+  grammar: [comparative, als-wie]
+  prompt: "Shadowing: speak along with Tom's line from the intro dialogue, then say it alone."
+  target: Vierzig Stunden? Das ist länger als eine Reise nach Manchester!
+  explanation: >-
+    Surprised question, then a joke: VIER-zig STUN-den? rises; LÄN-ger falls. The ä in länger is an open e.
+
+- id: a2-u06-speak-shadow-martin
+  type: speak
+  skill: speaking
+  variety: ch-std
+  grammar: [comparative]
+  prompt: "Shadowing: speak along with Martin, then say it alone."
+  target: Und sie sind dreissig Franken billiger als die anderen. Nimm sie!
+  explanation: >-
+    Swiss Standard German: Franken with a clear k and the ending -en, the r tapped; billiger keeps the r in
+    -er. See the drill The Swiss Standard German accent.
+
+- id: a2-u06-speak-intonation
+  type: speak
+  skill: speaking
+  variety: de
+  grammar: [comparative]
+  prompt: "Intonation: an either-or question rises on the first choice and falls on the second."
+  target: Sind diese hier besser oder die da?
+  explanation: >-
+    In an either-or question the voice rises on the first option (diese HIER ↗) and falls on the last (oder
+    die DA ↘). A rise at the end would turn it into a yes/no question.
+
+- id: a2-u06-speak-pron-oe
+  type: speak
+  skill: speaking
+  variety: de
+  grammar: [comparative, superlative]
+  prompt: "Pronunciation: ö. Read aloud slowly."
+  target: Das Sofa ist schöner und größer, aber am schönsten ist der höhere Sessel.
+  explanation: >-
+    schöner, größer, schönsten, höhere: say e with rounded lips. The comparative often adds an umlaut, so ö
+    and o (groß – größer, hoch – höher) are a pair to practise. See the drill ö vs o and e.
+
+# ---------- roleplay and writing ----------
+- id: a2-u06-roleplay-lena
+  type: roleplay
+  skill: speaking
+  variety: de
+  grammar: [comparative, superlative, als-wie, shopping-chunks]
+  tutor: lena
+  prompt: "Roleplay with Lena: buying a laptop."
+  scenario: >-
+    Lena works in an electronics shop. You need a laptop for your German course and your work. Ask her for
+    advice, compare two or three models (price, weight, battery) and decide.
+  goals:
+    - Ask for advice (Welches Modell können Sie mir empfehlen?).
+    - Compare two models with a comparative + als and so … wie.
+    - Ask which is the best / cheapest / lightest (am besten, am billigsten, am leichtesten).
+    - Decide or say you'll think about it, and ask how to pay.
+  model: |
+    Lena: Guten Tag! Kann ich Ihnen helfen?
+    Du: Ja, ich suche einen Laptop. Welches Modell können Sie mir empfehlen?
+    Lena: Dieses hier ist sehr leicht. Und dieses ist schneller, aber auch schwerer.
+    Du: Welches ist billiger?
+    Lena: Das leichte. Es kostet 700 Franken, das schnelle 950.
+    Du: Und welcher Akku hält am längsten?
+    Lena: Beim leichten Modell hält er zwölf Stunden. Das ist genauso lang wie beim schnellen.
+    Du: Dann nehme ich das leichte. Kann ich mit Karte bezahlen?
+    Lena: Natürlich.
+  explanation: >-
+    Comparatives (schneller, schwerer, billiger), a superlative (am längsten), and genauso … wie for equal
+    things. Ich nehme … ends the decision.
+
+- id: a2-u06-write-review
+  type: write
+  skill: writing
+  variety: de
+  grammar: [comparative, superlative, als-wie, perfekt-haben]
+  prompt: Write a short product review.
+  task: >-
+    You have bought something new (a phone, a bike, headphones, a coffee machine …). Write a short review
+    (6–8 sentences) for a shop website: what you bought and why, how it compares with your old one or with
+    other models, what is best about it, and whether you recommend it.
+  minWords: 50
+  model: >-
+    Ich habe letzte Woche eine neue Kaffeemaschine gekauft, die «Classic». Meine alte Maschine war laut und
+    sehr langsam. Die neue ist viel schneller und leiser als die alte. Sie ist nicht so groß wie die
+    «Premium», aber sie macht zwei Tassen auf einmal. Am besten gefällt mir der Milchschäumer: Mein Cappuccino
+    schmeckt jetzt besser als im Café! Sie war in Aktion und dreißig Prozent günstiger. Ich kann sie sehr
+    empfehlen.
+  checklist:
+    - I use at least three comparatives with als (schneller als, besser als).
+    - I use so … wie or nicht so … wie once.
+    - I use a superlative with am (am besten, am liebsten).
+    - Adjectives like bequem and praktisch take -er, never mehr.
+    - I use the Perfekt for the purchase (ich habe … gekauft).
+  explanation: >-
+    A review compares: comparative + als (schneller als die alte), equality with so … wie, and the best point
+    with am besten. Irregular forms (besser, am besten) are the most frequent.
+
+# ---------- Swiss Standard German ----------
+- id: a2-u06-chstd-match
+  type: match
+  skill: vocabulary
+  variety: ch-std
+  prompt: Match the Swiss shopping words with the words used in Germany.
+  pairs:
+    - ["in Aktion", "im Angebot"]
+    - ["die Occasion", "die Gebrauchtware"]
+    - ["das Velo", "das Fahrrad"]
+    - ["Fr. 89.–", "89 Euro"]
+  explanation: >-
+    Swiss shops put special offers in Aktion; a second-hand item is an Occasion (Duden: österreichisch,
+    schweizerisch). Prices are in Franken, written Fr. 89.– or CHF 89.– (and not in euros).
+
+# ---------- Swiss lane (gsw-zh) ----------
+- id: a2-u06-ch-mcq-besser
+  type: mcq
+  skill: listening
+  variety: gsw-zh
+  grammar: [comparative]
+  prompt: Listen to Reto. Why does he prefer the blue bike at first?
+  transcript: |-
+    Reto: S rote isch schöner, aber s blaue isch gröösser – das passt mer besser.
+  options: ["It's nicer.", "It's cheaper.", "It's on special offer.", "It's bigger, so it suits him better."]
+  answer: 3
+  rationales:
+    - "He says the red one is nicer (schöner)."
+    - "He hasn't talked about price yet."
+    - "The special offer is the red bike, later."
+    - "Correct. gröösser = größer, das passt mer besser = das passt mir besser."
+  explanation: >-
+    Comparatives as in Standard German: schöner, gröösser (Swiss long öö), besser. mer = mir (unstressed).
+
+- id: a2-u06-ch-transform-tuuer
+  type: transform
+  skill: reading
+  variety: gsw-zh
+  prompt: What does Reto say? Write it in Standard German.
+  from: gsw-zh
+  to: de
+  source: Vierhundert Franke. Das isch mer z tüür.
+  answers: ["Vierhundert Franken. Das ist mir zu teuer.", "400 Franken. Das ist mir zu teuer."]
+  explanation: >-
+    tüür = teuer, z = zu, mer = mir. Das ist mir zu teuer = that's too expensive for me (dative mir).
+
+- id: a2-u06-ch-match-price
+  type: match
+  skill: vocabulary
+  variety: gsw-zh
+  prompt: Match the Zurich German shopping words with Standard German.
+  pairs:
+    - ["tüür", "teuer"]
+    - ["günschtig", "günstig"]
+    - ["gäbig", "praktisch"]
+    - ["i de Aktion", "im Angebot"]
+    - ["am billigschte", "am billigsten"]
+  explanation: >-
+    Swiss vowels (tüür), st → scht (günschtig, billigschte), and a typical Swiss word: gäbig = handy. Aktion
+    is the everyday word on Swiss price tags.
+
+- id: a2-u06-ch-mcq-billigschte
+  type: mcq
+  skill: grammar
+  variety: gsw-zh
+  grammar: [superlative]
+  prompt: "What is \"Das isch am billigschte\" in Standard German?"
+  options: ["Das ist zu billig.", "Das ist am billigsten.", "Das ist billiger.", "Das ist sehr billig."]
+  answer: 1
+  rationales:
+    - "zu billig would be z billig."
+    - "Correct. The Zurich superlative ends in -schte: am billigschte."
+    - "billiger is the comparative."
+    - "sehr billig would be mega billig or sehr billig."
+  explanation: >-
+    Superlatives in Zurich German end in -schte, without the final n: am billigschte, am beschte, am
+    liebschte (= am billigsten, am besten, am liebsten).
+
+- id: a2-u06-ch-mcq-so-guet
+  type: mcq
+  skill: listening
+  variety: gsw-zh
+  grammar: [als-wie]
+  prompt: Listen to Sandra. What does she say about the red bike?
+  transcript: |-
+    Sandra: Und es isch fascht so guet wie s blaue.
+  options: ["It's almost as good as the blue one.", "It's much better than the blue one.", "It's not as good as the blue one.", "It's as expensive as the blue one."]
+  answer: 0
+  rationales:
+    - "Correct. fascht so guet wie = fast so gut wie."
+    - "besser would be the comparative."
+    - "nöd so guet wie would be not as good."
+    - "She is talking about quality (guet), not price."
+  explanation: >-
+    so … wie for equal things, as in Standard German. fascht = fast (almost), guet = gut.
+
+- id: a2-u06-ch-gap-comparative
+  type: gap
+  skill: grammar
+  variety: gsw-zh
+  grammar: [comparative]
+  prompt: "Guided production: write the Zurich comparative of gross (größer)."
+  text: S blaue Velo isch ___ als s rote.
+  answers: [["gröösser", "grösser", "größer"]]
+  explanation: >-
+    gross → gröösser, with the umlaut as in Standard German (groß → größer) and a long öö. Swiss spelling
+    never uses ß.
+
+- id: a2-u06-ch-transform-de-gsw
+  type: transform
+  skill: vocabulary
+  variety: gsw-zh
+  prompt: "Recognition: how do you say this in Zurich German? (Common spellings are accepted.)"
+  from: de
+  to: gsw-zh
+  source: Das ist praktisch!
+  answers: ["Das isch gäbig!", "Das isch praktisch!"]
+  explanation: >-
+    gäbig = praktisch, handy – one of the most typical Swiss words (berndeutsch.ch: gäbig = handlich,
+    bequem). ist → isch.
+
+- id: a2-u06-roleplay-reto
+  type: roleplay
+  skill: listening
+  variety: gsw-zh
+  grammar: [comparative, superlative, shopping-chunks]
+  tutor: reto
+  prompt: "Listening roleplay with Reto: at the bike sale."
+  scenario: >-
+    You meet Reto at the second-hand bike sale. He compares two bikes in Zurich German and asks for your
+    opinion. You answer in Standard German.
+  goals:
+    - Understand Zurich comparatives and superlatives (gröösser, tüürer, am billigschte).
+    - Understand tüür, günschtig, gäbig and i de Aktion.
+    - Give your opinion with a comparative + als and say which is best.
+  model: |
+    Reto: Lueg, s grüene Velo isch gröösser, aber au tüürer.
+    Du: Wie viel kostet es?
+    Reto: Drühundert Franke. S schwarze isch i de Aktion, nur hundertachzg.
+    Du: Das schwarze ist billiger, aber ist es auch gut?
+    Reto: Ja, und es hät Liechter – das isch gäbig.
+    Du: Dann finde ich das schwarze am besten. Es ist günstiger als das grüne.
+    Reto: Guet, ich nimm s schwarze!
+  explanation: >-
+    Decoding: gröösser = größer, tüürer = teurer, i de Aktion = im Angebot, Liechter = Lichter, gäbig =
+    praktisch.
+
+# ---------- Bernese (gsw-be, recognition) ----------
+- id: a2-u06-ch-be-mcq-choeschtlech
+  type: mcq
+  skill: listening
+  variety: gsw-be
+  prompt: Listen to Sandra's mother. What does she ask?
+  transcript: |-
+    Mami: Isch das Velo nid chöschtlech gsy?
+  options: ["Whether the bike was new", "Whether the bike was expensive", "Where Reto bought the bike", "Whether the bike was nice"]
+  answer: 1
+  explanation: >-
+    chöschtlech = teuer, kostspielig (berndeutsch.ch), nid = nicht, gsy = gewesen: War das Velo nicht teuer?
+
+- id: a2-u06-ch-be-transform
+  type: transform
+  skill: reading
+  variety: gsw-be
+  grammar: [comparative]
+  prompt: What does Sandra answer? Write it in Standard German.
+  from: gsw-be
+  to: de
+  source: Nei, es isch i dr Aktion gsy – viu billiger aus ds blaue.
+  answers: ["Nein, es war im Angebot – viel billiger als das blaue.", "Nein, es war in Aktion – viel billiger als das blaue.", "Nein, es ist im Angebot gewesen – viel billiger als das blaue."]
+  explanation: >-
+    isch … gsy = war (Perfekt in dialect), i dr Aktion = in der Aktion / im Angebot, viu = viel, aus = als
+    (Bernese l → u), ds blaue = das blaue.
+
+- id: a2-u06-ch-be-match
+  type: match
+  skill: vocabulary
+  variety: gsw-be
+  prompt: Match the Bernese words with Standard German.
+  pairs:
+    - ["chöschtlech", "teuer"]
+    - ["gäbig", "praktisch"]
+    - ["viu", "viel"]
+    - ["aus (billiger aus …)", "als"]
+  explanation: >-
+    From berndeutsch.ch: chöschtlech (expensive), gäbig (handy). viu and aus show the Bernese l → u (viel →
+    viu, als → aus).

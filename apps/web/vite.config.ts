@@ -13,6 +13,9 @@ export const workspaceAliases = {
   '@doppelpunkt/engine': pkg('engine'),
   '@doppelpunkt/ai': pkg('ai'),
   '@doppelpunkt/beta-schema': pkg('beta-schema'),
+  // The more specific entry first: aliases match by prefix.
+  '@doppelpunkt/license/testing': fileURLToPath(new URL('../../packages/license/src/testing.ts', import.meta.url)),
+  '@doppelpunkt/license': pkg('license'),
 };
 
 /** App version for beta envelopes: the root package.json version. */
@@ -26,6 +29,28 @@ process.env.VITE_APP_VERSION ??= appVersion;
  * with page.route. Keep in sync with COLLECTOR_ORIGIN in e2e/beta/collector.ts.
  */
 export const E2E_COLLECTOR_URL = 'http://127.0.0.1:4329';
+
+/**
+ * `vite build --mode e2e-billing` (npm run build:e2e-billing) builds the payments variant for the
+ * Playwright billing suite (playwright.billing.config.ts) into dist-billing: VITE_BILLING_URL points at
+ * a mock billing Worker that the specs serve with page.route, and the build trusts the public TEST
+ * key (packages/license/src/testing.ts). Keep in sync with BILLING_ORIGIN in e2e/billing/billing.ts.
+ */
+export const E2E_BILLING_URL = 'http://127.0.0.1:4339';
+/** TEST_PUBLIC_KEYS_SPEC from packages/license/src/testing.ts (not imported: vite.config runs before aliases). */
+const TEST_KEYS_SPEC = 'test:GuiNp1C5G_QgabPYBnp4c8UFd8gOz-3UPex1-Ap1GWw';
+
+/** Payments are on only when both the billing URL and a public key are set (docs/PAYMENTS.md). */
+function checkBillingEnv(mode: string) {
+  const url = process.env.VITE_BILLING_URL?.trim();
+  const keys = process.env.VITE_LICENSE_PUBLIC_KEYS?.trim();
+  if (mode !== 'e2e-billing' && mode !== 'test' && /(^|,)\s*test:/.test(keys ?? '')) {
+    throw new Error('VITE_LICENSE_PUBLIC_KEYS contains the public TEST key ("test:..."). Its private key is in git; never trust it in a real build.');
+  }
+  if (!!url !== !!keys) {
+    console.warn(`[doppelpunkt] ${url ? 'VITE_BILLING_URL is set but VITE_LICENSE_PUBLIC_KEYS is not' : 'VITE_LICENSE_PUBLIC_KEYS is set but VITE_BILLING_URL is not'}: payments stay off and every level is unlocked.`);
+  }
+}
 
 const config: UserConfig = {
   resolve: { alias: workspaceAliases },
@@ -74,7 +99,8 @@ const config: UserConfig = {
         // Take control of the page on first install, so the first visit's requests are cached too.
         clientsClaim: true,
         navigateFallback: 'index.html',
-        navigateFallbackDenylist: [/\/packs\//],
+        // The static landing page (public/landing/) is its own document, not the app shell.
+        navigateFallbackDenylist: [/\/packs\//, /\/landing\//],
         runtimeCaching: [
           {
             urlPattern: ({ url }) => url.pathname.includes('/packs/') && url.pathname.endsWith('.json'),
@@ -100,5 +126,10 @@ const config: UserConfig = {
 
 export default defineConfig(({ mode }) => {
   if (mode === 'e2e-beta') process.env.VITE_COLLECTOR_URL ??= E2E_COLLECTOR_URL;
+  if (mode === 'e2e-billing') {
+    process.env.VITE_BILLING_URL ??= E2E_BILLING_URL;
+    process.env.VITE_LICENSE_PUBLIC_KEYS ??= TEST_KEYS_SPEC;
+  }
+  checkBillingEnv(mode);
   return config;
 });

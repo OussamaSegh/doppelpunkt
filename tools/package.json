@@ -13,7 +13,8 @@
     "audio:upload": "tsx src/audio-upload.ts",
     "typecheck": "tsc --noEmit -p .",
     "beta:report": "tsx src/beta-report.ts",
-    "beta:fixture": "tsx src/beta-fixture.ts"
+    "beta:fixture": "tsx src/beta-fixture.ts",
+    "book:build": "tsx src/book.ts"
   },
   "dependencies": {
     "@doppelpunkt/content-schema": "0.5.0",

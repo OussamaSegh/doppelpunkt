@@ -1,0 +1,326 @@
+# A2 unit 6 – Vergleichen und Kaufen
+
+# ---------- price and offers ----------
+- id: preis
+  de: Preis
+  en: price
+  pos: noun
+  gender: m
+  plural: Preise
+  example: { de: "Der Preis ist gut.", en: "The price is good." }
+  gswZh: Priis
+  tags: [shopping, money]
+
+- id: angebot
+  de: Angebot
+  en: special offer; offer
+  pos: noun
+  gender: n
+  plural: Angebote
+  example: { de: "Die Kopfhörer sind im Angebot.", en: "The headphones are on special offer." }
+  chStd: die Aktion (in Aktion)
+  gswZh: Aktion (i de Aktion)
+  tags: [shopping, swiss-life]
+
+- id: ausverkauf
+  de: Ausverkauf
+  en: sale (clearance)
+  pos: noun
+  gender: m
+  plural: Ausverkäufe
+  example: { de: "Im Januar ist Ausverkauf.", en: "In January there are the sales." }
+  gswZh: Uusverchauf / Ausverchauf
+  tags: [shopping]
+
+- id: rabatt
+  de: Rabatt
+  en: discount
+  pos: noun
+  gender: m
+  plural: Rabatte
+  example: { de: "Es gibt zwanzig Prozent Rabatt.", en: "There's a twenty per cent discount." }
+  gswZh: Rabatt
+  tags: [shopping, money]
+
+- id: prozent
+  de: Prozent
+  en: per cent
+  pos: noun
+  gender: n
+  plural: Prozente
+  example: { de: "Die Maschine ist dreißig Prozent günstiger.", en: "The machine is thirty per cent cheaper." }
+  gswZh: Prozänt
+  tags: [shopping, numbers]
+
+- id: quittung
+  de: Quittung
+  en: receipt
+  pos: noun
+  gender: f
+  plural: Quittungen
+  example: { de: "Kann ich bitte eine Quittung haben?", en: "Can I have a receipt, please?" }
+  gswZh: Quittig
+  tags: [shopping]
+
+- id: garantie
+  de: Garantie
+  en: guarantee, warranty
+  pos: noun
+  gender: f
+  plural: Garantien
+  example: { de: "Es gibt zwei Jahre Garantie.", en: "There's a two-year guarantee." }
+  gswZh: Garantie
+  tags: [shopping]
+
+# ---------- products ----------
+- id: qualitaet
+  de: Qualität
+  en: quality
+  pos: noun
+  gender: f
+  plural: Qualitäten
+  example: { de: "Die Qualität ist besser als der Preis.", en: "The quality is better than the price suggests." }
+  gswZh: Qualität
+  tags: [shopping, describing]
+
+- id: modell
+  de: Modell
+  en: model
+  pos: noun
+  gender: n
+  plural: Modelle
+  example: { de: "Welches Modell ist am leichtesten?", en: "Which model is the lightest?" }
+  gswZh: Modäll
+  tags: [shopping, electronics]
+
+- id: marke
+  de: Marke
+  en: brand
+  pos: noun
+  gender: f
+  plural: Marken
+  example: { de: "Diese Marke ist teurer als die andere.", en: "This brand is more expensive than the other one." }
+  gswZh: Marke
+  tags: [shopping]
+
+- id: kopfhoerer
+  de: Kopfhörer
+  en: headphones
+  pos: noun
+  gender: m
+  plural: Kopfhörer
+  example: { de: "Ich brauche neue Kopfhörer für den Zug.", en: "I need new headphones for the train." }
+  gswZh: Chopfhörer
+  tags: [shopping, electronics]
+
+- id: akku-battery
+  de: Akku
+  en: (rechargeable) battery
+  pos: noun
+  gender: m
+  plural: Akkus
+  example: { de: "Der Akku hält vierzig Stunden.", en: "The battery lasts forty hours." }
+  gswZh: Akku
+  tags: [electronics]
+
+- id: laptop
+  de: Laptop
+  en: laptop
+  pos: noun
+  gender: m
+  plural: Laptops
+  example: { de: "Der Laptop ist schwerer als das Tablet.", en: "The laptop is heavier than the tablet." }
+  gswZh: Laptop
+  tags: [electronics]
+
+- id: kaffeemaschine
+  de: Kaffeemaschine
+  en: coffee machine
+  pos: noun
+  gender: f
+  plural: Kaffeemaschinen
+  example: { de: "Die kleine Kaffeemaschine ist am billigsten.", en: "The small coffee machine is the cheapest." }
+  gswZh: Kafimaschine
+  tags: [shopping, household]
+
+# ---------- verbs ----------
+- id: vergleichen
+  de: vergleichen
+  en: to compare
+  pos: verb
+  example: { de: "Ich vergleiche die Preise im Internet.", en: "I compare the prices online." }
+  gswZh: vergliiche
+  tags: [shopping, inseparable]
+
+- id: aussuchen
+  de: aussuchen
+  en: to choose, to pick out
+  pos: verb
+  example: { de: "Hast du schon ein Geschenk ausgesucht?", en: "Have you picked out a present yet?" }
+  gswZh: uussueche
+  tags: [shopping, separable]
+
+- id: bezahlen
+  de: bezahlen
+  en: to pay
+  pos: verb
+  example: { de: "Kann ich mit Karte bezahlen?", en: "Can I pay by card?" }
+  gswZh: zale / zahle
+  tags: [shopping, money]
+
+- id: umtauschen
+  de: umtauschen
+  en: to exchange (goods)
+  pos: verb
+  example: { de: "Mit der Quittung kann man alles umtauschen.", en: "With the receipt you can exchange anything." }
+  gswZh: umtuusche
+  tags: [shopping, separable]
+
+- id: sparen
+  de: sparen
+  en: to save (money)
+  pos: verb
+  example: { de: "In der Aktion spare ich dreißig Franken.", en: "With the offer I save thirty francs." }
+  gswZh: spare
+  tags: [money]
+
+- id: ausgeben
+  de: ausgeben
+  en: to spend (money)
+  pos: verb
+  example: { de: "Ich möchte nicht mehr als hundert Franken ausgeben.", en: "I don't want to spend more than a hundred francs." }
+  gswZh: uusgää
+  tags: [money, separable, irregular]
+
+- id: halten
+  de: halten
+  en: to last; to hold
+  pos: verb
+  example: { de: "Wie lange hält der Akku?", en: "How long does the battery last?" }
+  gswZh: hebe / halte
+  tags: [electronics, irregular]
+
+# ---------- describing products ----------
+- id: billig
+  de: billig
+  en: cheap
+  pos: adj
+  example: { de: "Das rote Velo ist billiger als das blaue.", en: "The red bike is cheaper than the blue one." }
+  gswZh: billig (am billigschte)
+  tags: [describing, money]
+
+- id: teuer
+  de: teuer
+  en: expensive
+  pos: adj
+  example: { de: "Die Kopfhörer sind teurer als die anderen.", en: "The headphones are more expensive than the others." }
+  gswZh: tüür (tüürer)
+  tags: [describing, money]
+
+- id: guenstig
+  de: günstig
+  en: good value, inexpensive
+  pos: adj
+  example: { de: "Diese Maschine ist am günstigsten.", en: "This machine is the best value." }
+  gswZh: günschtig
+  tags: [describing, money]
+
+- id: leicht
+  de: leicht
+  en: light (not heavy); easy
+  pos: adj
+  example: { de: "Diese Kopfhörer sind leichter.", en: "These headphones are lighter." }
+  gswZh: liecht
+  tags: [describing]
+
+- id: bequem
+  de: bequem
+  en: comfortable
+  pos: adj
+  example: { de: "Das Sofa ist bequemer als der Sessel.", en: "The sofa is more comfortable than the armchair." }
+  gswZh: bequem
+  tags: [describing]
+
+- id: modern
+  de: modern
+  en: modern
+  pos: adj
+  example: { de: "Das neue Modell ist moderner.", en: "The new model is more modern." }
+  gswZh: modern
+  tags: [describing]
+
+- id: praktisch
+  de: praktisch
+  en: practical, handy
+  pos: adj
+  example: { de: "Ein Korb am Velo ist sehr praktisch.", en: "A basket on the bike is very handy." }
+  gswZh: gäbig / praktisch
+  gswBe: gäbig
+  tags: [describing]
+
+- id: gebraucht
+  de: gebraucht
+  en: used, second-hand
+  pos: adj
+  example: { de: "Ich kaufe ein gebrauchtes Velo.", en: "I'm buying a second-hand bike." }
+  chStd: die Occasion (= used item; ein Occasionsauto)
+  gswZh: Occasion (es Occasionsvelo)
+  tags: [shopping, helvetism]
+
+- id: laut
+  de: laut
+  en: loud, noisy
+  pos: adj
+  example: { de: "Die alte Maschine ist lauter als die neue.", en: "The old machine is louder than the new one." }
+  gswZh: luut
+  tags: [describing]
+
+- id: leise
+  de: leise
+  en: quiet
+  pos: adj
+  example: { de: "Die neuen Modelle sind genauso leise wie die alten.", en: "The new models are just as quiet as the old ones." }
+  gswZh: liislig / lislig
+  tags: [describing]
+
+# ---------- comparison words ----------
+- id: besser
+  de: besser
+  en: better
+  pos: adj
+  example: { de: "Welche Kopfhörer sind besser?", en: "Which headphones are better?" }
+  gswZh: besser
+  tags: [comparison, irregular]
+
+- id: am-besten
+  de: am besten
+  en: (the) best
+  pos: phrase
+  example: { de: "Diese Kopfhörer sind am besten für den Zug.", en: "These headphones are the best for the train." }
+  gswZh: am beschte
+  tags: [comparison, irregular]
+
+- id: mehr
+  de: mehr
+  en: more
+  pos: adv
+  example: { de: "Das Velo kostet mehr als 300 Franken.", en: "The bike costs more than 300 francs." }
+  gswZh: meh
+  tags: [comparison, irregular]
+
+- id: als
+  de: als
+  en: than (after a comparative)
+  pos: conj
+  example: { de: "Tom ist größer als Martin.", en: "Tom is taller than Martin." }
+  gswZh: als / wie / weder
+  gswBe: aus
+  tags: [comparison]
+
+- id: genauso
+  de: genauso … wie
+  en: just as … as
+  pos: phrase
+  example: { de: "Das rote Velo ist genauso gut wie das blaue.", en: "The red bike is just as good as the blue one." }
+  gswZh: gliich … wie / grad eso … wie
+  tags: [comparison]

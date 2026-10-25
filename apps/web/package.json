@@ -10,8 +10,10 @@
     "budget": "node scripts/check-budget.mjs",
     "typecheck": "tsc --noEmit -p .",
     "build:e2e-beta": "vite build --mode e2e-beta --outDir dist-beta",
-    "test:e2e": "playwright test && playwright test -c playwright.beta.config.ts",
-    "test:e2e:beta": "playwright test -c playwright.beta.config.ts"
+    "test:e2e": "playwright test && playwright test -c playwright.beta.config.ts && playwright test -c playwright.billing.config.ts",
+    "test:e2e:beta": "playwright test -c playwright.beta.config.ts",
+    "build:e2e-billing": "vite build --mode e2e-billing --outDir dist-billing",
+    "test:e2e:billing": "playwright test -c playwright.billing.config.ts"
   },
   "dependencies": {
     "@doppelpunkt/ai": "0.5.0",
@@ -23,7 +25,8 @@
     "react-dom": "^19.1.0",
     "react-router-dom": "^7.6.0",
     "zustand": "^5.0.5",
-    "@doppelpunkt/beta-schema": "0.5.0"
+    "@doppelpunkt/beta-schema": "0.5.0",
+    "@doppelpunkt/license": "0.5.0"
   },
   "devDependencies": {
     "@playwright/test": "1.63.0",

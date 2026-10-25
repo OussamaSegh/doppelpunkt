@@ -1,0 +1,368 @@
+# A2 unit 11 – Natur und Umwelt
+
+# ---------- nature ----------
+- id: natur
+  de: Natur
+  en: nature
+  pos: noun
+  gender: f
+  plural: "-"
+  example: { de: "Am Wochenende bin ich gern in der Natur.", en: "At the weekend I like being out in nature." }
+  gswZh: Natur
+  tags: [nature]
+
+- id: umwelt
+  de: Umwelt
+  en: environment
+  pos: noun
+  gender: f
+  plural: "-"
+  example: { de: "Plastik ist schlecht für die Umwelt.", en: "Plastic is bad for the environment." }
+  gswZh: Umwält
+  tags: [nature, environment]
+
+- id: wald
+  de: Wald
+  en: forest, woods
+  pos: noun
+  gender: m
+  plural: Wälder
+  example: { de: "Wir sind zwei Stunden durch den Wald gewandert.", en: "We hiked through the forest for two hours." }
+  gswZh: Wald
+  tags: [nature]
+
+- id: baum
+  de: Baum
+  en: tree
+  pos: noun
+  gender: m
+  plural: Bäume
+  example: { de: "Unter dem Baum machen wir ein Picknick.", en: "We're having a picnic under the tree." }
+  gswZh: Baum (Plural Bäum)
+  tags: [nature]
+
+- id: fluss
+  de: Fluss
+  en: river
+  pos: noun
+  gender: m
+  plural: Flüsse
+  example: { de: "In Bern kann man im Fluss schwimmen.", en: "In Bern you can swim in the river." }
+  gswZh: Fluss
+  tags: [nature]
+
+- id: wiese
+  de: Wiese
+  en: meadow, field (of grass)
+  pos: noun
+  gender: f
+  plural: Wiesen
+  example: { de: "Auf der Wiese stehen viele Kühe.", en: "There are lots of cows in the meadow." }
+  gswZh: Wise / Matte (in the mountains)
+  tags: [nature]
+
+- id: gipfel
+  de: Gipfel
+  en: summit, peak
+  pos: noun
+  gender: m
+  plural: Gipfel
+  example: { de: "Vom Gipfel hat man eine tolle Aussicht.", en: "From the summit you have a great view." }
+  gswZh: Gipfel
+  tags: [nature, mountains]
+
+- id: alm
+  de: Alm
+  en: mountain pasture (summer pasture)
+  pos: noun
+  gender: f
+  plural: Almen
+  example: { de: "Im Sommer sind die Kühe auf der Alm.", en: "In summer the cows are up on the mountain pasture." }
+  chStd: die Alp (Plural Alpen)
+  gswZh: Alp
+  tags: [nature, mountains, helvetism]
+
+- id: wanderweg
+  de: Wanderweg
+  en: hiking trail
+  pos: noun
+  gender: m
+  plural: Wanderwege
+  example: { de: "Die gelben Schilder zeigen den Wanderweg.", en: "The yellow signs show the hiking trail." }
+  gswZh: Wanderwääg
+  tags: [nature, leisure]
+
+- id: picknick
+  de: Picknick
+  en: picnic
+  pos: noun
+  gender: n
+  plural: Picknicks
+  example: { de: "Am Mittag machen wir ein Picknick am See.", en: "At noon we have a picnic by the lake." }
+  gswZh: Picknick
+  tags: [nature, leisure, food]
+
+- id: tier
+  de: Tier
+  en: animal
+  pos: noun
+  gender: n
+  plural: Tiere
+  example: { de: "Im Wald haben wir viele Tiere gesehen.", en: "We saw lots of animals in the forest." }
+  gswZh: Tier
+  tags: [nature, animals]
+
+- id: vogel
+  de: Vogel
+  en: bird
+  pos: noun
+  gender: m
+  plural: Vögel
+  example: { de: "Am Morgen singen die Vögel.", en: "The birds sing in the morning." }
+  gswZh: Vogel (Plural Vögel)
+  tags: [nature, animals]
+
+- id: kuh
+  de: Kuh
+  en: cow
+  pos: noun
+  gender: f
+  plural: Kühe
+  example: { de: "Die Kühe tragen große Glocken.", en: "The cows wear big bells." }
+  gswZh: Chue (Plural Chüe)
+  tags: [nature, animals]
+
+# ---------- environment and recycling ----------
+- id: abfall
+  de: Abfall
+  en: rubbish, waste
+  pos: noun
+  gender: m
+  plural: Abfälle
+  example: { de: "Wohin kommt dieser Abfall?", en: "Where does this rubbish go?" }
+  chStd: Abfall / der Kehricht (Duden – schweizerisch)
+  gswZh: Abfall / Güsel
+  gswBe: Ghüder (dr Ghüder)
+  tags: [environment, recycling, helvetism]
+
+- id: muellsack
+  de: Müllsack
+  en: rubbish bag, bin bag
+  pos: noun
+  gender: m
+  plural: Müllsäcke
+  example: { de: "Der Müllsack kostet in vielen Gemeinden extra.", en: "In many municipalities the rubbish bag costs extra." }
+  chStd: Abfallsack / Kehrichtsack
+  gswZh: Güselsack (in Zurich de Züri-Sack)
+  gswBe: Ghüdersack
+  tags: [environment, recycling, helvetism]
+
+- id: sammelstelle
+  de: Sammelstelle
+  en: recycling point, collection point
+  pos: noun
+  gender: f
+  plural: Sammelstellen
+  example: { de: "Das Glas bringe ich zur Sammelstelle beim Bahnhof.", en: "I take the glass to the recycling point near the station." }
+  gswZh: Sammelstell
+  tags: [environment, recycling]
+
+- id: altglas
+  de: Altglas
+  en: glass for recycling
+  pos: noun
+  gender: n
+  plural: "-"
+  example: { de: "Am Sonntag darf man kein Altglas einwerfen.", en: "You mustn't throw glass in the container on Sundays." }
+  gswZh: Altglas
+  tags: [environment, recycling]
+
+- id: altpapier
+  de: Altpapier
+  en: waste paper
+  pos: noun
+  gender: n
+  plural: "-"
+  example: { de: "Die Stadt holt das Altpapier am Donnerstag ab.", en: "The city collects the waste paper on Thursday." }
+  gswZh: Altpapier
+  tags: [environment, recycling]
+
+- id: pet-flasche
+  de: PET-Flasche
+  en: PET bottle (plastic drinks bottle)
+  pos: noun
+  gender: f
+  plural: PET-Flaschen
+  example: { de: "PET-Flaschen bringt man in den Laden zurück.", en: "You take PET bottles back to the shop." }
+  gswZh: PET-Fläsche
+  tags: [environment, recycling]
+
+- id: dose
+  de: Dose
+  en: can, tin
+  pos: noun
+  gender: f
+  plural: Dosen
+  example: { de: "Alte Dosen kommen in einen eigenen Container.", en: "Old cans go into a separate container." }
+  chStd: Dose / Büchse
+  gswZh: Büchse / Dose
+  tags: [environment, recycling]
+
+- id: biomuell
+  de: Biomüll
+  en: green waste, food and garden waste
+  pos: noun
+  gender: m
+  plural: "-"
+  example: { de: "Gemüsereste sind Biomüll.", en: "Vegetable scraps are green waste." }
+  chStd: das Grüngut
+  gswZh: Grüengut
+  tags: [environment, recycling, helvetism]
+
+- id: plastik
+  de: Plastik
+  en: plastic
+  pos: noun
+  gender: n
+  plural: "-"
+  example: { de: "Ich kaufe möglichst wenig Plastik.", en: "I buy as little plastic as possible." }
+  gswZh: Plastik
+  tags: [environment]
+
+- id: trennen
+  de: trennen
+  en: to separate, to sort (rubbish)
+  pos: verb
+  example: { de: "In der Schweiz trennt man den Abfall.", en: "In Switzerland people sort their rubbish." }
+  gswZh: tränne
+  tags: [environment, verbs]
+
+- id: recyceln
+  de: recyceln
+  en: to recycle
+  pos: verb
+  example: { de: "Man kann fast alles recyceln.", en: "You can recycle almost everything." }
+  chStd: rezyklieren (Duden – schweizerisch)
+  gswZh: rezykliere
+  tags: [environment, verbs, helvetism]
+
+- id: wegwerfen
+  de: wegwerfen
+  en: to throw away
+  pos: verb
+  example: { de: "Wirf die Flasche nicht weg!", en: "Don't throw the bottle away!" }
+  gswZh: wägwerfe
+  tags: [environment, verbs, separable]
+
+- id: sammeln
+  de: sammeln
+  en: to collect
+  pos: verb
+  example: { de: "Die Gemeinde sammelt jeden Monat Papier.", en: "The municipality collects paper every month." }
+  gswZh: sammle
+  tags: [environment, verbs]
+
+- id: schuetzen
+  de: schützen
+  en: to protect
+  pos: verb
+  example: { de: "Wir müssen die Natur schützen.", en: "We have to protect nature." }
+  gswZh: schütze
+  tags: [environment, verbs]
+
+- id: energie-sparen
+  de: Energie sparen
+  en: to save energy
+  pos: phrase
+  example: { de: "Mit dem Velo spart man Geld und Energie.", en: "Cycling saves money and energy." }
+  gswZh: Energie spare
+  tags: [environment, verbs]
+
+- id: energie
+  de: Energie
+  en: energy
+  pos: noun
+  gender: f
+  plural: Energien
+  example: { de: "Licht aus! Wir sparen Energie.", en: "Lights off! We're saving energy." }
+  gswZh: Energie
+  tags: [environment]
+
+- id: strom
+  de: Strom
+  en: electricity
+  pos: noun
+  gender: m
+  plural: "-"
+  example: { de: "Ein großer Teil vom Schweizer Strom kommt aus Wasser.", en: "A large part of Swiss electricity comes from water." }
+  gswZh: Strom
+  tags: [environment]
+
+- id: luft
+  de: Luft
+  en: air
+  pos: noun
+  gender: f
+  plural: "-"
+  example: { de: "In den Bergen ist die Luft frisch.", en: "In the mountains the air is fresh." }
+  gswZh: Luft
+  tags: [nature, environment]
+
+- id: sauber
+  de: sauber
+  en: clean
+  pos: adj
+  example: { de: "Das Wasser im See ist sehr sauber.", en: "The water in the lake is very clean." }
+  gswZh: suuber
+  tags: [describing, environment]
+
+- id: schmutzig
+  de: schmutzig
+  en: dirty
+  pos: adj
+  example: { de: "Nach der Wanderung sind meine Schuhe schmutzig.", en: "After the hike my shoes are dirty." }
+  gswZh: dreckig
+  tags: [describing]
+
+# ---------- pronouns and polite forms ----------
+- id: man
+  de: man
+  en: one, you, people (in general)
+  pos: pron
+  example: { de: "Hier darf man nicht grillieren.", en: "You're not allowed to barbecue here." }
+  gswZh: mer / me
+  tags: [pronouns]
+
+- id: jemand
+  de: jemand
+  en: someone, anyone
+  pos: pron
+  example: { de: "Hat jemand meinen Schlüssel gesehen?", en: "Has anyone seen my key?" }
+  gswZh: öpper
+  gswBe: öpper
+  tags: [pronouns]
+
+- id: niemand
+  de: niemand
+  en: nobody, no one
+  pos: pron
+  example: { de: "Am Sonntag ist niemand im Büro.", en: "On Sunday there's nobody in the office." }
+  gswZh: niemert / niemer
+  gswBe: niemer
+  tags: [pronouns]
+
+- id: koennte
+  de: könnte (könntest, könnten)
+  en: could (polite)
+  pos: verb
+  example: { de: "Könntest du mir bitte helfen?", en: "Could you help me, please?" }
+  gswZh: chönnt (chöntsch du …?)
+  tags: [verbs, polite]
+
+- id: wuerde
+  de: würde (würdest, würden)
+  en: would
+  pos: verb
+  example: { de: "Ich würde gern auf den Pilatus wandern.", en: "I'd like to hike up the Pilatus." }
+  gswZh: würd (würdsch du …?)
+  tags: [verbs, polite]

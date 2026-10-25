@@ -1,0 +1,692 @@
+# A2 unit 4 – Geschenke und Einladungen
+
+# ---------- vocabulary ----------
+- id: a2-u04-match-presents
+  type: match
+  skill: vocabulary
+  variety: de
+  prompt: Match the present words with English.
+  pairs:
+    - ["das Geschenk", "present"]
+    - ["der Blumenstrauß", "bunch of flowers"]
+    - ["der Gutschein", "voucher"]
+    - ["die Kerze", "candle"]
+    - ["die Überraschung", "surprise"]
+    - ["auspacken", "to unwrap"]
+  explanation: >-
+    schenken (to give as a present) and das Geschenk belong together, like einladen and die Einladung. -ung
+    nouns are always feminine: die Überraschung, die Einladung.
+
+- id: a2-u04-match-party
+  type: match
+  skill: vocabulary
+  variety: de
+  prompt: Match the party words with English.
+  pairs:
+    - ["die Einladung", "invitation"]
+    - ["der Gast", "guest"]
+    - ["die Gastgeberin", "hostess"]
+    - ["absagen", "to decline"]
+    - ["gratulieren", "to congratulate"]
+    - ["mitbringen", "to bring along"]
+  explanation: >-
+    der Gast has an umlaut in the plural: die Gäste. absagen, mitbringen and einladen are separable: Ich sage
+    ab, ich bringe etwas mit, ich lade dich ein.
+
+# ---------- grammar: verbs with the dative ----------
+- id: a2-u04-mcq-helfen
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [dative-verbs, dative-pronouns]
+  prompt: Choose the correct pronoun.
+  question: Kannst du ___ nach der Arbeit helfen?
+  options: ["mich", "mir", "ich", "meiner"]
+  answer: 1
+  rationales:
+    - "mich is accusative – but helfen takes the dative."
+    - "Correct. helfen + dative: mir."
+    - "ich is the subject form."
+    - "meiner is a possessive ending, not a pronoun."
+  explanation: >-
+    helfen is one of the verbs that take the dative: jemandem helfen. Kannst du mir helfen? Ich helfe dir.
+    English 'help me' tempts you to use the accusative mich.
+
+- id: a2-u04-gap-gefallen
+  type: gap
+  skill: grammar
+  variety: de
+  grammar: [dative-verbs]
+  prompt: "Fill in gefällt or gefallen."
+  text: Das Buch ___ mir sehr. Die Blumen ___ ihr bestimmt. ___ dir meine neue Jacke?
+  answers: [["gefällt"], ["gefallen"], ["Gefällt", "gefällt"]]
+  explanation: >-
+    With gefallen the thing you like is the subject, so the verb agrees with the thing: das Buch gefällt
+    (singular), die Blumen gefallen (plural). The person who likes it is in the dative: mir, ihr, dir.
+
+- id: a2-u04-gap-dative-nouns
+  type: gap
+  skill: grammar
+  variety: de
+  grammar: [dative-verbs, dative-articles]
+  prompt: "Fill in dem, der or den."
+  text: Der Regenschirm gehört ___ Kollegin. Wir gratulieren ___ Chef. Der Kuchen schmeckt ___ Gästen.
+  answers: [["der"], ["dem"], ["den"]]
+  explanation: >-
+    gehören, gratulieren and schmecken take a dative object: die Kollegin → der Kollegin, der Chef → dem
+    Chef, die Gäste → den Gästen (dative plural: den + noun with -n).
+
+- id: a2-u04-mcq-wem
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [dative-verbs]
+  prompt: Choose the right question word.
+  question: ___ gehört die Jacke? – Sie gehört Nico.
+  options: ["Wem", "Wer", "Wen", "Was"]
+  answer: 0
+  rationales:
+    - "Correct. gehören + dative: Wem?"
+    - "Wer asks for the subject, but the jacket is the subject here."
+    - "Wen asks for an accusative object."
+    - "Was asks for a thing, but the answer is a person."
+  explanation: >-
+    The dative question word is wem (to whom?): Wem gehört das? Wem schenkst du die Blumen? Wer = who
+    (subject), wen = whom (accusative), wem = to whom (dative).
+
+- id: a2-u04-mcq-gefaellt-mir
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [dative-verbs]
+  prompt: "How do you say \"I like the scarf\"?"
+  options: ["Ich gefalle den Schal.", "Mir gefallen der Schal.", "Ich gefällt der Schal.", "Der Schal gefällt mir."]
+  answer: 3
+  rationales:
+    - "This means something like 'I please the scarf'."
+    - "The verb must agree with der Schal (singular): gefällt."
+    - "ich is not the subject of gefallen here; the scarf is."
+    - "Correct. The scarf is the subject; I am in the dative."
+  explanation: >-
+    gefallen turns the English sentence round: Der Schal gefällt mir (literally: the scarf pleases me). Mir
+    gefällt der Schal is also correct – the dative can go first.
+
+- id: a2-u04-transform-gefallen
+  type: transform
+  skill: grammar
+  variety: de
+  grammar: [dative-verbs]
+  prompt: "Rewrite the sentence with gefallen."
+  from: de
+  to: de
+  source: Ich mag die Kerzen.
+  answers: ["Die Kerzen gefallen mir.", "Mir gefallen die Kerzen."]
+  explanation: >-
+    die Kerzen becomes the subject (plural, so gefallen), and ich becomes the dative mir. mögen and gefallen
+    mean nearly the same; gefallen is often used for things you see.
+
+- id: a2-u04-gap-stehen-passen
+  type: gap
+  skill: grammar
+  variety: ch-std
+  grammar: [dative-verbs, dative-pronouns]
+  prompt: "Fill in the dative pronoun of du, Sie and ich."
+  text: Die Farbe steht ___ super! – Frau Steiner, passt ___ Freitag um sechs? – Ja, Freitag passt ___ gut.
+  answers: [["dir"], ["Ihnen"], ["mir"]]
+  explanation: >-
+    stehen (to suit) and passen (to suit a plan) take the dative: dir (du), Ihnen (formal Sie), mir (ich).
+    Ihnen is always written with a capital I when it means formal you.
+
+# ---------- grammar: dative + accusative ----------
+- id: a2-u04-mcq-schenke-meiner
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [dative-accusative-verbs, possessives]
+  prompt: Choose the correct form.
+  question: Ich schenke ___ Mutter einen Blumenstrauß.
+  options: ["meine", "meinen", "meiner", "meinem"]
+  answer: 2
+  rationales:
+    - "meine is nominative or accusative – but the mother receives: dative."
+    - "meinen is accusative masculine or dative plural."
+    - "Correct. die Mutter → dative: meiner Mutter."
+    - "meinem is masculine or neuter dative."
+  explanation: >-
+    schenken has a person (dative) and a thing (accusative): meiner Mutter (dative, feminine) einen
+    Blumenstrauß (accusative, masculine). The person who receives is always in the dative.
+
+- id: a2-u04-mcq-gebe-ihm
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [dative-accusative-verbs, dative-pronouns]
+  prompt: "Choose the right pronoun for Reto."
+  question: Reto hat Geburtstag. Ich gebe ___ das Geschenk.
+  options: ["ihn", "er", "sein", "ihm"]
+  answer: 3
+  rationales:
+    - "ihn is accusative – the thing given is accusative, the person dative."
+    - "er is the subject form."
+    - "sein is a possessive (his)."
+    - "Correct. The receiver is dative: ihm."
+  explanation: >-
+    The person who receives is in the dative: er → ihm, sie → ihr. The thing (das Geschenk) is the
+    accusative object. Don't mix up ihm (dative) and ihn (accusative).
+
+- id: a2-u04-match-wem-was
+  type: match
+  skill: grammar
+  variety: de
+  grammar: [dative-accusative-verbs, object-order]
+  prompt: "Match each question with its answer."
+  pairs:
+    - ["Wem schenkst du die Blumen?", "Meiner Gastgeberin."]
+    - ["Was schenkst du ihr?", "Einen Blumenstrauß."]
+    - ["Wem zeigst du die Fotos?", "Den Gästen."]
+    - ["Was bringt ihr mit?", "Eine Flasche Wein."]
+  explanation: >-
+    Wem? asks for the person (dative: meiner Gastgeberin, den Gästen); Was? asks for the thing (accusative:
+    einen Blumenstrauß, eine Flasche Wein).
+
+- id: a2-u04-order-schenken
+  type: order
+  skill: grammar
+  variety: ch-std
+  grammar: [object-order, dative-accusative-verbs]
+  prompt: Put the words in order.
+  tokens: ["Wir", "schenken", "unserer", "Kollegin", "einen", "Krimi"]
+  answers: ["Wir schenken unserer Kollegin einen Krimi."]
+  explanation: >-
+    Two nouns: the dative (unserer Kollegin) comes before the accusative (einen Krimi). The verb stays in
+    position 2.
+
+- id: a2-u04-order-ihn-ihr
+  type: order
+  skill: grammar
+  variety: de
+  grammar: [object-order]
+  prompt: "Put the words in order (ihn = den Schirm, ihr = Nadine)."
+  tokens: ["Ich", "bringe", "ihn", "ihr", "später"]
+  answers: ["Ich bringe ihn ihr später.", "Später bringe ich ihn ihr."]
+  explanation: >-
+    Two pronouns: the accusative (ihn) comes before the dative (ihr). That is the opposite of the order
+    with two nouns (Ich bringe Nadine den Schirm).
+
+- id: a2-u04-mcq-order-pronouns
+  type: mcq
+  skill: grammar
+  variety: de
+  grammar: [object-order]
+  prompt: "Which sentence is correct? (es = das Buch, ihm = Tom)"
+  options: ["Ich gebe es ihm morgen.", "Ich gebe ihm es morgen.", "Ich gebe morgen ihm es.", "Ich gebe es morgen zu ihm."]
+  answer: 0
+  rationales:
+    - "Correct. Accusative pronoun + dative pronoun: es ihm."
+    - "Two pronouns: the accusative es goes first."
+    - "The pronouns go right after the verb, and in the order es ihm."
+    - "No preposition: the dative ihm alone means 'to him'."
+  explanation: >-
+    With two pronouns the accusative comes first: Ich gebe es ihm. Ich zeige sie dir. In speech es often
+    shrinks to 's: Ich geb's ihm.
+
+- id: a2-u04-gap-object-order
+  type: gap
+  skill: grammar
+  variety: de
+  grammar: [object-order, dative-accusative-verbs]
+  prompt: "Fill in ihr or sie (ihr = to Anna, sie = the flowers)."
+  text: Ich schenke Anna die Blumen. Ich schenke ___ die Blumen. Ich schenke sie Anna. Ich schenke sie ___.
+  answers: [["ihr"], ["ihr"]]
+  explanation: >-
+    Anna as the receiver becomes the dative pronoun ihr. A pronoun goes before a noun (ihr die Blumen), and
+    with two pronouns the accusative comes first (sie ihr).
+
+- id: a2-u04-translate-show
+  type: translate
+  skill: writing
+  variety: de
+  grammar: [dative-accusative-verbs, dative-pronouns]
+  prompt: Translate into German (informal).
+  source: I'll show you the photos.
+  answers: ["Ich zeige dir die Fotos.", "Ich zeige dir die Bilder.", "Ich zeig dir die Fotos."]
+  explanation: >-
+    zeigen + person (dative: dir) + thing (accusative: die Fotos). The present tense is used for the near
+    future.
+
+# ---------- grammar: invitations and thanks ----------
+- id: a2-u04-gap-einladen
+  type: gap
+  skill: grammar
+  variety: de
+  grammar: [inviting-thanking, separable-verbs]
+  prompt: "Complete the invitation: lade … ein, mitbringen, Einladung."
+  text: Ich ___ dich zu meinem Geburtstag ___. – Danke für die ___! Soll ich etwas mitbringen?
+  answers: [["lade"], ["ein"], ["Einladung"]]
+  explanation: >-
+    einladen is separable: Ich lade dich … ein (the prefix goes to the end). Danke für + accusative noun: für
+    die Einladung.
+
+- id: a2-u04-mcq-decline
+  type: mcq
+  skill: speaking
+  variety: de
+  grammar: [inviting-thanking]
+  prompt: Your colleague invites you to a party, but you can't go. What do you say?
+  options: ["Nein, ich will nicht.", "Das wäre doch nicht nötig gewesen!", "Danke für die Einladung, aber leider kann ich nicht.", "Ich gratuliere dir!"]
+  answer: 2
+  rationales:
+    - "Too direct – it sounds rude."
+    - "This is what you say when you get a present."
+    - "Correct. Thank first, then decline with leider."
+    - "This congratulates someone."
+  explanation: >-
+    A polite refusal thanks first and softens the no with leider: Danke für die Einladung, aber leider kann
+    ich nicht. Ich habe schon etwas vor.
+
+- id: a2-u04-transform-du-sie
+  type: transform
+  skill: grammar
+  variety: de
+  grammar: [dative-verbs, du-sie]
+  prompt: "Say it to your boss (formal Sie)."
+  from: de
+  to: de
+  source: Gefällt dir das Geschenk?
+  answers: ["Gefällt Ihnen das Geschenk?"]
+  explanation: >-
+    The dative of formal Sie is Ihnen: Gefällt Ihnen …? Kann ich Ihnen helfen? Wie geht es Ihnen?
+
+- id: a2-u04-translate-kind
+  type: translate
+  skill: writing
+  variety: de
+  grammar: [inviting-thanking]
+  prompt: Translate into German (informal). You have just received a present.
+  source: That's really kind of you! You shouldn't have!
+  answers: ["Das ist aber lieb von dir! Das wäre doch nicht nötig gewesen!", "Das ist sehr lieb von dir! Das wäre doch nicht nötig gewesen!", "Das ist aber nett von dir! Das wäre doch nicht nötig gewesen!", "Das ist sehr nett von dir! Das wäre doch nicht nötig gewesen!"]
+  explanation: >-
+    lieb von dir / nett von dir = kind of you. Das wäre doch nicht nötig gewesen is a fixed phrase: learn it
+    as one block (wäre … gewesen is the subjunctive, which comes later).
+
+# ---------- reading ----------
+- id: a2-u04-mcq-reading-when
+  type: mcq
+  skill: reading
+  variety: ch-std
+  prompt: Read Nadine's invitation. When and where is the Apéro?
+  options: ["On Friday at 5.30 p.m. in a restaurant", "On Wednesday at 5.30 p.m. in the meeting room", "On Friday from 5.30 p.m. in the meeting room on the third floor", "On Friday at 3 p.m. in Nadine's flat"]
+  answer: 2
+  explanation: >-
+    "am Freitag, 14. März, ab 17.30 Uhr im Sitzungszimmer im dritten Stock". Wednesday is the deadline to
+    reply (bis Mittwoch).
+
+- id: a2-u04-mcq-reading-bring
+  type: mcq
+  skill: reading
+  variety: ch-std
+  prompt: What does Nadine say about presents?
+  options: ["Please bring no big presents, but a cake is welcome.", "Everyone should bring a bottle of wine.", "She would like a voucher.", "Please bring a present for her partner."]
+  answer: 0
+  explanation: >-
+    "Bitte bringt keine grossen Geschenke mit! … Ihr backt gern? Dann dürft ihr gern einen Kuchen mitbringen."
+    Note the Swiss spelling grossen (ss for ß).
+
+- id: a2-u04-translate-reading
+  type: translate
+  skill: reading
+  variety: ch-std
+  prompt: Translate into English.
+  source: Ich lade euch herzlich zu meinem Geburtstagsapéro ein.
+  answers: ["I warmly invite you to my birthday drinks.", "I warmly invite you to my birthday Apéro.", "I'd like to invite you all to my birthday drinks.", "I cordially invite you to my birthday drinks."]
+  explanation: >-
+    einladen zu = to invite to; euch = you (plural). A Swiss Apéro is drinks with snacks, here after work.
+
+# ---------- listening ----------
+- id: a2-u04-mcq-listening-present
+  type: mcq
+  skill: listening
+  variety: de
+  prompt: Listen to the intro dialogue again. What do Tom and Martin give Nadine?
+  options: ["A scarf and flowers", "A crime novel and chocolate", "A voucher for the cinema", "A bottle of wine"]
+  answer: 1
+  explanation: >-
+    "Wir können ihr ein Buch schenken" – and later Nadine says "Ein Krimi aus Zürich". The chocolate is for
+    her guests: "Und die Schokolade ist für deine Gäste."
+
+- id: a2-u04-mcq-listening-schirm
+  type: mcq
+  skill: listening
+  variety: de
+  grammar: [dative-verbs, object-order]
+  prompt: Listen to Tom. What is he going to do?
+  transcript: |-
+    Tom: Nein, der gehört Nadine. Ich bringe ihn ihr später.
+  options: ["Buy Nadine an umbrella", "Borrow Nadine's umbrella", "Take Nadine her umbrella later", "Give the umbrella to Martin"]
+  answer: 2
+  explanation: >-
+    der gehört Nadine = it belongs to Nadine. Ich bringe ihn ihr: ihn = the umbrella (accusative), ihr = to
+    her (dative). Two pronouns: accusative first.
+
+- id: a2-u04-dictation-einladung
+  type: dictation
+  skill: listening
+  variety: de
+  grammar: [dative-accusative-verbs, perfekt-haben]
+  prompt: Listen and write what you hear.
+  transcript: Sie hat mir gestern eine Einladung geschickt.
+  explanation: >-
+    schicken + dative (mir) + accusative (eine Einladung). Perfekt: hat … geschickt.
+
+- id: a2-u04-dictation-kuchen
+  type: dictation
+  skill: listening
+  variety: de
+  grammar: [dative-verbs]
+  prompt: Listen and write what you hear.
+  transcript: Der Kuchen schmeckt den Gästen sehr gut.
+  explanation: >-
+    schmecken + dative: den Gästen (dative plural, noun + -n). The cake is the subject.
+
+# ---------- speaking ----------
+- id: a2-u04-speak-frame
+  type: speak
+  skill: speaking
+  variety: de
+  grammar: [dative-accusative-verbs, dative-verbs]
+  prompt: "Read aloud, then say what you give a friend for their birthday."
+  target: Meine Freundin hat Geburtstag. Ich schenke ihr einen Schal. Ich hoffe, er gefällt ihr.
+  explanation: >-
+    A frame for any present: Ich schenke ihm / ihr + accusative. Ich hoffe, er / sie / es gefällt ihm / ihr –
+    the pronoun matches the gender of the present (der Schal → er).
+
+- id: a2-u04-speak-shadow-tom
+  type: speak
+  skill: speaking
+  variety: de
+  grammar: [inviting-thanking]
+  prompt: "Shadowing: speak along with Tom's line from the intro dialogue, then say it alone."
+  target: Herzlichen Glückwunsch, Nadine! Das ist für dich, von Martin und mir.
+  explanation: >-
+    Warm and clear: stress GLÜCK-wunsch and DICH. The ü in Glückwunsch and für is short and rounded. See the
+    drill ü vs u and i.
+
+- id: a2-u04-speak-shadow-nadine
+  type: speak
+  skill: speaking
+  variety: ch-std
+  grammar: [inviting-thanking]
+  prompt: "Shadowing: speak along with Nadine, then say it alone."
+  target: Oh, vielen Dank! Das wäre doch nicht nötig gewesen!
+  explanation: >-
+    Swiss Standard German: the ch in doch and nicht is pronounced further back, and the r in wäre is tapped.
+    The melody rises on DANK and NÖ-tig. See the drill The Swiss Standard German accent.
+
+- id: a2-u04-speak-intonation
+  type: speak
+  skill: speaking
+  variety: de
+  grammar: [dative-verbs]
+  prompt: "Intonation: a yes/no question rises; the enthusiastic answer falls."
+  target: Gefällt dir das Geschenk? – Ja, es gefällt mir sehr!
+  explanation: >-
+    Gefällt dir das GeSCHENK? rises at the end. The answer falls and stresses SEHR. Showing pleasure clearly
+    is part of the politeness.
+
+- id: a2-u04-speak-pron-ue
+  type: speak
+  skill: speaking
+  variety: de
+  grammar: [inviting-thanking]
+  prompt: "Pronunciation: ü. Read aloud slowly."
+  target: Herzlichen Glückwunsch! Die Blumen sind für dich, und natürlich gibt es auch Kuchen mit Früchten.
+  explanation: >-
+    Glückwunsch, für, natürlich, Früchten: say ee and round your lips. Don't let ü slide into u (Blumen,
+    Kuchen) – compare Glück and Blumen. See the drill ü vs u and i.
+
+# ---------- roleplay and writing ----------
+- id: a2-u04-roleplay-lena
+  type: roleplay
+  skill: speaking
+  variety: de
+  grammar: [dative-verbs, dative-accusative-verbs, object-order, inviting-thanking]
+  tutor: lena
+  prompt: "Roleplay with Lena: a present for a friend."
+  scenario: >-
+    Your friend Paul has his birthday on Saturday and has invited you and Lena. Plan a present together:
+    say what Paul likes, suggest a present, and agree on what you bring to the party.
+  goals:
+    - Say what Paul likes with gefallen or schmecken (Bücher gefallen ihm, Schokolade schmeckt ihm).
+    - Suggest a present with schenken + dative + accusative (Wir können ihm … schenken).
+    - Use a pronoun for the present and for Paul in the right order (Ich bringe es ihm mit).
+    - Answer the invitation politely (Ich komme gern / Soll ich etwas mitbringen?).
+  model: |
+    Lena: Paul hat am Samstag Geburtstag. Was schenken wir ihm?
+    Du: Hm, Musik gefällt ihm sehr. Wir können ihm einen Gutschein für ein Konzert schenken.
+    Lena: Gute Idee! Und bringen wir auch etwas für die Party mit?
+    Du: Ja, ich backe einen Kuchen. Schokoladenkuchen schmeckt ihm am besten.
+    Lena: Super. Wer kauft den Gutschein?
+    Du: Ich kaufe ihn morgen und bringe ihn dir am Freitag.
+    Lena: Perfekt. Hast du ihm schon geantwortet?
+    Du: Ja, ich habe ihm geschrieben: Danke für die Einladung, ich komme gern!
+  explanation: >-
+    Dative verbs: gefällt ihm, schmeckt ihm. Two objects: ihm einen Gutschein (pronoun + noun), ihn dir
+    (two pronouns: accusative first).
+
+- id: a2-u04-write-thanks
+  type: write
+  skill: writing
+  variety: de
+  grammar: [inviting-thanking, dative-verbs, dative-accusative-verbs, perfekt-haben]
+  prompt: Write a thank-you message.
+  task: >-
+    You were at a friend's birthday party last weekend. Write a short message (6–8 sentences): thank them for
+    the invitation, say what you liked (the food, the music, the people), say whether your present fitted or
+    was useful, and invite them to your place.
+  minWords: 50
+  model: >-
+    Liebe Sara, vielen Dank für die Einladung am Samstag! Die Party hat mir sehr gefallen. Dein Kuchen hat
+    super geschmeckt, und die Musik war toll. Ich habe deinem Bruder meine Telefonnummer gegeben – wir gehen
+    nächste Woche zusammen wandern. Gefällt dir der Schal? Er steht dir bestimmt gut! Ich lade dich im Mai zu
+    mir ein. Dann koche ich dir etwas Englisches. Liebe Grüße, Emma
+  checklist:
+    - I thank for the invitation (Danke / Vielen Dank für die Einladung).
+    - I use gefallen, schmecken or stehen with the person in the dative (Die Party hat mir gefallen).
+    - I use a verb with a person and a thing (Ich habe deinem Bruder meine Nummer gegeben).
+    - Two objects are in the right order (dative noun before accusative noun; pronoun before noun).
+    - I invite my friend (Ich lade dich … ein) and end with Liebe Grüße.
+  explanation: >-
+    A thank-you message uses the whole unit: dative verbs (hat mir gefallen, hat geschmeckt), giving with two
+    objects (deinem Bruder meine Nummer) and invitation phrases. The Perfekt of gefallen is hat gefallen.
+
+# ---------- Swiss Standard German ----------
+- id: a2-u04-chstd-match
+  type: match
+  skill: vocabulary
+  variety: ch-std
+  prompt: Match the Swiss Standard German words with the words used in Germany.
+  pairs:
+    - ["der Apéro", "der Aperitif"]
+    - ["Merci!", "Danke!"]
+    - ["der Blumenstrauss", "der Blumenstrauß"]
+    - ["die Schoggi", "die Schokolade"]
+  explanation: >-
+    Apéro (Duden: besonders schweizerisch) is drinks and snacks after work or before a meal. merci is the
+    everyday Swiss thank you. Swiss spelling always writes ss for ß. Schoggi is common in Swiss speech and on
+    packaging.
+
+# ---------- Swiss lane (gsw-zh) ----------
+- id: a2-u04-ch-mcq-fuer-dich
+  type: mcq
+  skill: listening
+  variety: gsw-zh
+  prompt: Listen to Sandra. What is she doing?
+  transcript: |-
+    Sandra: Hoi Reto! Vill Glück zum Geburtstag! Das isch für dich.
+  options: ["Inviting Reto to her birthday", "Asking Reto for a present", "Thanking Reto for a present", "Wishing Reto a happy birthday and giving him a present"]
+  answer: 3
+  rationales:
+    - "It's Reto's birthday, not hers."
+    - "She is giving, not asking."
+    - "Reto thanks her afterwards."
+    - "Correct. Vill Glück zum Geburtstag! Das isch für dich = Das ist für dich."
+  explanation: >-
+    Vill Glück zum Geburtstag! = Herzlichen Glückwunsch zum Geburtstag! Das isch für dich = Das ist für dich:
+    isch = ist.
+
+- id: a2-u04-ch-transform-noetig
+  type: transform
+  skill: reading
+  variety: gsw-zh
+  prompt: What does Reto say? Write it in Standard German.
+  from: gsw-zh
+  to: de
+  source: Oh, merci! Das wär doch nöd nötig gsii!
+  answers: ["Oh, danke! Das wäre doch nicht nötig gewesen!", "Oh, merci! Das wäre doch nicht nötig gewesen!", "Oh, vielen Dank! Das wäre doch nicht nötig gewesen!"]
+  explanation: >-
+    nöd = nicht, gsii = gewesen, wär = wäre. The same polite phrase as in Standard German – you shouldn't
+    have!
+
+- id: a2-u04-ch-match-party
+  type: match
+  skill: vocabulary
+  variety: gsw-zh
+  prompt: Match the Zurich German words with Standard German.
+  pairs:
+    - ["s Gschänk", "das Geschenk"]
+    - ["d Iiladig", "die Einladung"]
+    - ["de Wii", "der Wein"]
+    - ["d Gäscht", "die Gäste"]
+    - ["fein", "lecker"]
+  explanation: >-
+    Long ii for Standard ei (Wii, Iiladig), -ung → -ig (Iiladig), st → scht (Gäscht). fein is the Swiss word
+    for tasty.
+
+- id: a2-u04-ch-mcq-gfallt-mer
+  type: mcq
+  skill: grammar
+  variety: gsw-zh
+  grammar: [dative-verbs, dative-pronouns]
+  prompt: "What is \"Das gfallt mer\" in Standard German?"
+  options: ["Das fällt mir ein.", "Das gefällt mir.", "Das gefällt ihr.", "Das gehört mir."]
+  answer: 1
+  rationales:
+    - "einfallen (to occur to someone) is a different verb."
+    - "Correct. gfallt = gefällt, mer = mir (unstressed)."
+    - "ihr would be ere in Zurich German."
+    - "gehört would be ghört."
+  explanation: >-
+    gfallt = gefällt (ge- → g-, no umlaut), mer = the short unstressed form of mir. In the same way der = dir
+    (Gfallt der s? = Gefällt es dir?).
+
+- id: a2-u04-ch-mcq-ghoert
+  type: mcq
+  skill: listening
+  variety: gsw-zh
+  grammar: [dative-verbs, dative-articles]
+  prompt: Listen to Sandra and Reto. Whose jacket is it?
+  transcript: |-
+    Sandra: Gärn. Wem ghört eigentlich die Jagge da?
+    Reto: Die ghört em Nico, mim Kolleg vom Kafi.
+  options: ["Reto's", "Sandra's", "Nico's, Reto's friend from the café", "The café owner's"]
+  answer: 2
+  rationales:
+    - "Reto says it belongs to someone else."
+    - "Sandra is asking because it's not hers."
+    - "Correct. Die ghört em Nico = Die gehört dem Nico."
+    - "Nico works at the café, but he is Reto's friend (Kolleg), not the owner."
+  explanation: >-
+    Wem ghört …? = Wem gehört …? ghöre = gehören (in Zurich also = hören). em Nico = dem Nico (dative), mim
+    Kolleg = meinem Kollegen; Kolleg also means friend.
+
+- id: a2-u04-ch-gap-pronoun
+  type: gap
+  skill: grammar
+  variety: gsw-zh
+  grammar: [dative-verbs, dative-pronouns]
+  prompt: "Guided production: write the short Zurich form of mir (unstressed)."
+  text: Mega, das gfallt ___.
+  answers: [["mer", "mir"]]
+  explanation: >-
+    Unstressed mir becomes mer in Zurich German: Das gfallt mer. Es tuet mer leid. (dir → der). The full form
+    mir is used when it is stressed and is accepted too.
+
+- id: a2-u04-ch-transform-de-gsw
+  type: transform
+  skill: vocabulary
+  variety: gsw-zh
+  prompt: "Recognition: how do you say this in Zurich German? (Common spellings are accepted.)"
+  from: de
+  to: gsw-zh
+  source: Das ist für dich.
+  answers: ["Das isch für dich.", "Das isch für di.", "Das isch für Dich."]
+  explanation: >-
+    ist → isch. für dich stays the same; in fast speech you also hear für di.
+
+- id: a2-u04-roleplay-reto
+  type: roleplay
+  skill: listening
+  variety: gsw-zh
+  grammar: [dative-verbs, dative-accusative-verbs, inviting-thanking]
+  tutor: reto
+  prompt: "Listening roleplay with Reto: his birthday party."
+  scenario: >-
+    You arrive at Reto's birthday party with a present. Reto thanks you in Zurich German, asks whether you
+    like the food and shows you round. You answer in Standard German.
+  goals:
+    - Wish Reto a happy birthday and give him your present (Das ist für dich).
+    - Understand Merci, das wär doch nöd nötig gsii! and Gfallt der …?
+    - Say that you like something with gefallen or schmecken (Der Kuchen schmeckt mir).
+  model: |
+    Du: Hallo Reto! Alles Gute zum Geburtstag! Das ist für dich.
+    Reto: Oh, merci vilmal! Das wär doch nöd nötig gsii!
+    Du: Gern! Ich hoffe, es gefällt dir.
+    Reto: Es Buech! Mega, das gfallt mer. Wottsch es Glas Wii?
+    Du: Ja, gern. Und der Kuchen sieht super aus!
+    Reto: Nimm es Stück! Isch er fein?
+    Du: Ja, er schmeckt mir sehr gut.
+  explanation: >-
+    Decoding: merci vilmal = vielen Dank, das wär doch nöd nötig gsii = das wäre doch nicht nötig gewesen,
+    gfallt mer = gefällt mir, Isch er fein? = Schmeckt er? (fein = lecker).
+
+# ---------- Bernese (gsw-be, recognition) ----------
+- id: a2-u04-ch-be-mcq-gfaue
+  type: mcq
+  skill: listening
+  variety: gsw-be
+  grammar: [dative-verbs, perfekt-haben]
+  prompt: Listen to Sandra's mother. What does she want to know?
+  transcript: |-
+    Mami: Und, het em Reto ds Gschänk gfaue?
+  options: ["What Sandra gave Reto", "Whether Reto liked the present", "When Reto's birthday is", "Whether Sandra liked Reto's present"]
+  answer: 1
+  explanation: >-
+    het … gfaue = hat … gefallen (Bernese l → u: gfalle → gfaue, berndeutsch.ch), em Reto = dem Reto (who
+    likes it), ds Gschänk = das Geschenk (the thing liked).
+
+- id: a2-u04-ch-be-transform
+  type: transform
+  skill: reading
+  variety: gsw-be
+  prompt: What does Sandra answer? Write it in Standard German.
+  from: gsw-be
+  to: de
+  source: Är het sech fescht gfröit.
+  answers: ["Er hat sich sehr gefreut.", "Er hat sich total gefreut.", "Er hat sich riesig gefreut.", "Er hat sich wirklich gefreut."]
+  explanation: >-
+    är = er, het = hat, sech = sich, gfröit = gefreut (berndeutsch.ch: fröie, sech; PP. gfröit), fescht =
+    sehr (literally fest).
+
+- id: a2-u04-ch-be-match
+  type: match
+  skill: vocabulary
+  variety: gsw-be
+  prompt: Match the Bernese words with Standard German.
+  pairs:
+    - ["ds Gschänk", "das Geschenk"]
+    - ["schänke", "schenken"]
+    - ["gfaue", "gefallen"]
+    - ["d Blueme", "die Blume"]
+  explanation: >-
+    From berndeutsch.ch: Gschänk (n.), schänke (PP. gschänkt), gfalle / gfaue (Bernese l → u), Blueme (f.,
+    small Blüemli). ds is the Bernese neuter article (Zurich s).

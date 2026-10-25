@@ -37,6 +37,13 @@ const Pronunciation = lazyScreen(() => import('./screens/Pronunciation'), 'Pronu
 const Exam = lazyScreen(() => import('./screens/Exam'), 'Exam');
 const Beta = lazyScreen(() => import('./screens/Beta'), 'Beta');
 const Privacy = lazyScreen(() => import('./screens/Privacy'), 'Privacy');
+const Terms = lazyScreen(() => import('./screens/Legal'), 'Terms');
+const Imprint = lazyScreen(() => import('./screens/Legal'), 'Imprint');
+const About = lazyScreen(() => import('./screens/About'), 'About');
+const Unlock = lazyScreen(() => import('./screens/Unlock'), 'Unlock');
+
+/** Pages anyone can open before onboarding (linked from the landing page and the welcome screen). */
+const PUBLIC_PATHS = ['/welcome', '/placement', '/about', '/privacy', '/terms', '/imprint'];
 
 /** Keeps the theme in sync and sends new learners to onboarding. */
 function Root() {
@@ -57,8 +64,8 @@ function Root() {
       </p>
     );
   }
-  const inOnboarding = location.pathname.startsWith('/welcome') || location.pathname.startsWith('/placement');
-  if (!settings.onboarded && !inOnboarding) return <Navigate to="/welcome" replace />;
+  const isPublic = PUBLIC_PATHS.some((p) => location.pathname.startsWith(p));
+  if (!settings.onboarded && !isPublic) return <Navigate to="/welcome" replace />;
   return <Outlet />;
 }
 
@@ -90,6 +97,11 @@ const router = createBrowserRouter(
             { path: '/settings', element: <SettingsScreen /> },
             { path: '/beta', element: <Beta /> },
             { path: '/privacy', element: <Privacy /> },
+            { path: '/terms', element: <Terms /> },
+            { path: '/imprint', element: <Imprint /> },
+            { path: '/about', element: <About /> },
+            { path: '/unlock', element: <Unlock /> },
+            { path: '/unlock/:level', element: <Unlock /> },
             { path: '*', element: <NotFound /> },
           ],
         },

@@ -1,0 +1,314 @@
+id: a2-u05
+level: A2
+number: 5
+title: Umziehen und Einrichten
+titleEn: Moving and furnishing
+goal: >-
+  By the end you can say where things are and where they go when you move or furnish a flat, ask and
+  give instructions while carrying furniture, and describe a room – using the two-way prepositions (in, an,
+  auf, über, unter, vor, hinter, neben, zwischen) with the dative for Wo? and the accusative for Wohin?, the
+  verb pairs stellen / stehen, legen / liegen and hängen, and the contractions im / ins, am / ans – and
+  recognise the Swiss -li diminutives (Tischli, Hüsli, Chätzli, es Bitzeli) and the direction words ufe,
+  abe, ine, use.
+canDo:
+  - I can say where furniture and objects are (Das Sofa steht im Wohnzimmer unter dem Fenster.).
+  - I can say where things go and give instructions when moving (Stell den Tisch bitte in die Küche!).
+  - I can choose the dative after Wo? and the accusative after Wohin? with in, an, auf, über, unter, vor, hinter, neben and zwischen.
+  - I can use stellen / stehen, legen / liegen and hängen correctly.
+  - I can describe my flat or my room in a short message.
+  - I can recognise Swiss -li diminutives (es Tischli, es Chätzli, es Bitzeli) and the dialect direction words ufe, abe, ine, use, and the Swiss word zügle (to move house).
+
+review:
+  notes:
+    - "'Hoi Reto, chumm ine!' – ine (herein / hinein) as the everyday 'come in'?"
+    - "'Ich ha der s Tischli us em Chäller bracht. Wo söll ich s ane stelle?' – ha der s (habe dir das), us em Chäller, wo … ane (wohin, lexicon wo ane) natural?"
+    - "'Stell s bitte i d Stube, näbe s Sofa.' – i d (in die, accusative of direction) and näbe s (neben das); näbe vs näbed?"
+    - "'Oh, und wer isch das? Es Chätzli!' / 'Ja, das isch d Mimi. Si wohnt sit geschter bi mir.' – si for a kitten (natural, or es)?"
+    - "'Mega herzig! Was macht si det uf em Chaschte?' – uf em (dative of place), Chaschte (lexicon) for a wardrobe."
+    - "'Si spilt mit irem Müsli. Es isch us Stoff.' – irem (ihrem) as the dative possessive; Müsli (little mouse) vs Müesli (muesli): please confirm the vowel difference in Zurich."
+    - "'Und die leere Kartons? Söll ich die abe in Chäller träge?' – Kartons for cardboard boxes, abe in Chäller (in den Keller), träge (tragen)."
+    - "'Ja, gärn. Und dänn chunnsch wider ufe, und mir trinked es Käfeli.' – ufe for 'up here' seen from the speaker below (Standard herauf / hinauf both ufe?); trinked."
+    - "Direction words taught in the notes: ufe (hinauf / herauf), abe (hinunter / herunter), ine (hinein / herein), use (hinaus / heraus), ane (hin). Zurich ufe and abe are in the lexicon; ine and use are not sourced for Zurich (BD #12202 has abe for Bern). Is the her- / hin- difference really lost in Zurich?"
+    - "Zurich two-way prepositions in the notes: i, uf, a, näbe, hinder, under, über, vor, zwüsche; the case shows in the article (i d Stube = in die, i de Stube = in der; uf de Tisch = auf den, uf em Tisch = auf dem). Please confirm, especially masculine accusative de vs dative em."
+    - "-li diminutives: Tischli, Hüsli (BD #17401), Chätzli (BD #17220), Müsli, Bitzeli (zuerich.com: es bitzeli), Käfeli, Stüeli (BD #56932), Möbeli (BD #34216). All neuter. Umlaut rule (Huus → Hüsli, Chatz → Chätzli, Muus → Müsli) please tick."
+    - "zügle / zügeln = umziehen (Wiktionary: Schweiz; spread from Bern and Fribourg), Züglete (BD #46343, f.), Zügelwagen, Zügelkiste: please tick for Zurich (s Zügle, d Züglete)."
+    - "Swiss Standard in the vocabulary: zügeln, der Umzug / die Züglete, der Gang (Flur), das Gestell (Regal), der Karton (box), der Estrich: Gang and Gestell as Helvetisms need a tick."
+    - "Swiss Standard dialogue: 'Merci für deine Hilfe. Der Zügelwagen ist schon da.' / 'Er steht im Gang, hinter der Tür.' (Gang for Flur), and the Swiss Perfekt with sein in the grammar point (ist gestanden, ist gelegen; DUDEN-K) – please tick."
+    - "Vocabulary gswZh forms without a source: Umzug / Züglete, zügle (züglet), Möbel, Sessel, Chaschte, Gstell, Tisch, Stuehl / Stüeli, Bett, Lampe, Teppich, Bild, Spiegel, Vorhang, Kartonschachtle, Gang, Wand, Bode, Decki, Egge, stelle, stah, lege, ligge, hänke, träge, ufstelle, iirichte, näbe, zwüsche, hinder, under, hell, dunkel, läär, schwär."
+    - "Bernese: 'Sandra, i ghöre, du hesch es Chätzli?' (Chätzli n., BD #17220) / 'Ja, Mami! Es isch so härzig. Und d Mia züglet im Mai uf Thun.' (zügle, PP. züglet, BD #12911; härzig, lexicon; uf Thun = nach Thun?) / 'I weiss. Mir hälfe re bi dr Züglete.' (Züglete f., BD #46343; re = ihr, unstressed?) – sentence flow?"
+
+intro:
+  scene: >-
+    Saturday morning in Winterthur. Tom's colleague Nadine is moving into a new flat, and Tom is helping
+    her carry the furniture. Nadine speaks Swiss Standard German with him and says zügeln for umziehen.
+  dialogue:
+    - speaker: Nadine
+      text: Hallo Tom! Merci für deine Hilfe. Der Zügelwagen ist schon da.
+      en: Hi Tom! Thanks for your help. The removal van is already here.
+      variety: ch-std
+    - speaker: Tom
+      text: Gern! Wohin kommt das Sofa?
+      en: My pleasure! Where does the sofa go?
+    - speaker: Nadine
+      text: Ins Wohnzimmer, bitte. Stell es an die Wand, unter das Fenster.
+      en: Into the living room, please. Put it against the wall, under the window.
+      variety: ch-std
+    - speaker: Tom
+      text: Okay. Und der Tisch? Stelle ich ihn neben das Sofa?
+      en: OK. And the table? Shall I put it next to the sofa?
+    - speaker: Nadine
+      text: Nein, der Tisch kommt in die Küche. Die Stühle auch.
+      en: No, the table goes in the kitchen. The chairs too.
+      variety: ch-std
+    - speaker: Tom
+      text: Und wo ist der Karton mit den Gläsern?
+      en: And where's the box with the glasses?
+    - speaker: Nadine
+      text: Er steht im Gang, hinter der Tür. Stell die Gläser bitte in den Schrank.
+      en: It's in the hallway, behind the door. Please put the glasses in the cupboard.
+      variety: ch-std
+    - speaker: Tom
+      text: Mache ich. Und wohin hängen wir das Bild?
+      en: Will do. And where shall we hang the picture?
+    - speaker: Nadine
+      text: Über das Sofa. Die Lampe hängt schon über dem Tisch.
+      en: Above the sofa. The lamp is already hanging above the table.
+      variety: ch-std
+    - speaker: Tom
+      text: Sehr schön! Aber das Bett liegt noch in Teilen auf dem Boden.
+      en: Very nice! But the bed is still lying in pieces on the floor.
+    - speaker: Nadine
+      text: Das baue ich später auf. Jetzt machen wir zuerst eine Pause – ich habe Pizza bestellt!
+      en: I'll put that together later. First let's take a break – I've ordered pizza!
+      variety: ch-std
+    - speaker: Tom
+      text: Super, ich habe Hunger!
+      en: Great, I'm hungry!
+
+grammar:
+  - id: two-way-prepositions
+    title: "Two-way prepositions: Wo? + dative, Wohin? + accusative"
+    body: >-
+      Nine prepositions can take **either** the dative **or** the accusative: **in, an, auf, über, unter, vor,
+      hinter, neben, zwischen**. The question decides:
+
+
+      - **Wo?** (where – a position, no change of place) → **dative**: *Das Sofa steht **im** Wohnzimmer.
+      Die Lampe hängt **über dem** Tisch. Der Karton steht **hinter der** Tür.*
+
+      - **Wohin?** (where to – movement to a new place) → **accusative**: *Stell das Sofa **ins** Wohnzimmer!
+      Wir hängen das Bild **über das** Sofa. Leg die Gläser **in den** Schrank.*
+
+
+      Only the article changes. For masculine nouns it is very clear: *in **dem** (im) Schrank* – *in **den**
+      Schrank*. Feminine: *in **der** Küche* – *in **die** Küche*. Neuter: *im Bett* – *ins Bett*.
+
+
+      Meaning: **an** = on / against a vertical surface (*an der Wand*), **auf** = on top of a horizontal
+      surface (*auf dem Tisch*), **über** = above (not touching), **unter** = under, **vor** = in front of,
+      **hinter** = behind, **neben** = next to, **zwischen** = between.
+    tables:
+      - [["", "der Tisch (m)", "die Wand (f)", "das Sofa (n)", "die Stühle (pl)"],
+         ["Wo? (dative)", "auf dem Tisch", "an der Wand", "neben dem Sofa", "zwischen den Stühlen"],
+         ["Wohin? (accusative)", "auf den Tisch", "an die Wand", "neben das Sofa", "zwischen die Stühle"]]
+    commonMistakes:
+      - "*Ich stelle das Sofa im Wohnzimmer.* → **Ich stelle das Sofa ins Wohnzimmer.** Movement to a place: accusative (ins)."
+      - "*Das Buch liegt auf den Tisch.* → **Das Buch liegt auf dem Tisch.** Position: dative."
+      - "*Das Bild hängt auf der Wand.* → **Das Bild hängt an der Wand.** Vertical surfaces take an."
+      - "*Ich gehe nach der Küche.* → **Ich gehe in die Küche.** Rooms take in + accusative; nach is for towns, countries and nach Hause."
+
+  - id: position-verbs
+    title: "stellen / stehen, legen / liegen, hängen"
+    body: >-
+      German says *how* a thing is placed: upright (**stehen**), flat (**liegen**) or hanging (**hängen**).
+      Each position has a pair of verbs:
+
+
+      - **Movement** (someone puts something somewhere) – Wohin? + **accusative**: **stellen** (put upright),
+      **legen** (lay flat), **hängen** (hang up). They are regular: *hat gestellt, hat gelegt, hat gehängt*.
+
+      - **Position** (where it is) – Wo? + **dative**: **stehen** (stand), **liegen** (lie), **hängen** (hang).
+      They are irregular: *hat gestanden, hat gelegen, hat gehangen* – and in Swiss Standard German *ist
+      gestanden, ist gelegen* (see A2.2).
+
+
+      *Ich **stelle** den Karton **in den** Gang.* → *Der Karton **steht im** Gang.*
+
+      *Ich **lege** das Handy **auf den** Tisch.* → *Das Handy **liegt auf dem** Tisch.*
+
+      *Ich **hänge** das Bild **an die** Wand.* → *Das Bild **hängt an der** Wand.*
+
+
+      Bottles, glasses, furniture and boxes *stehen*; books, phones, carpets and people in bed *liegen*.
+    tables:
+      - [["Position", "Movement (Wohin? + Akk.)", "Position (Wo? + Dat.)"],
+         ["upright", "stellen – hat gestellt", "stehen – hat gestanden"],
+         ["flat", "legen – hat gelegt", "liegen – hat gelegen"],
+         ["hanging", "hängen – hat gehängt", "hängen – hat gehangen"]]
+    commonMistakes:
+      - "*Ich lege die Flasche in den Kühlschrank.* → **Ich stelle die Flasche in den Kühlschrank.** Bottles stand."
+      - "*Ich stehe den Stuhl in die Ecke.* → **Ich stelle den Stuhl in die Ecke.** stehen has no object; stellen does."
+      - "*Das Buch legt auf dem Tisch.* → **Das Buch liegt auf dem Tisch.** legen = to put; liegen = to lie."
+      - "English uses *put* for everything. German needs **stellen**, **legen** or **hängen**."
+
+  - id: preposition-contractions
+    title: "Contractions: im / ins, am / ans"
+    body: >-
+      As with *zum, zur, beim, vom* (unit 3), some two-way prepositions merge with the article **dem** or
+      **das**:
+
+
+      - *in dem → **im*** (Wo?) – *in das → **ins*** (Wohin?): *Das Bett steht **im** Schlafzimmer. Ich gehe **ins**
+      Bett.*
+
+      - *an dem → **am*** – *an das → **ans***: *Der Spiegel hängt **am** Schrank. Stell das Velo **ans** Haus.*
+
+      - In speech also *auf das → **aufs***: *Leg es **aufs** Sofa.*
+
+
+      The contracted forms are the normal ones. *in dem Wohnzimmer* sounds stiff – say **im Wohnzimmer**. There
+      is no contraction with *der* or *den* after these prepositions: *in der Küche, in den Schrank*.
+    tables:
+      - [["Long form", "Contraction", "Case", "Example"],
+         ["in dem", "im", "dative", "im Gang"],
+         ["in das", "ins", "accusative", "ins Wohnzimmer"],
+         ["an dem", "am", "dative", "am Fenster"],
+         ["an das", "ans", "accusative", "ans Fenster"]]
+    commonMistakes:
+      - "*Ich gehe im Bett.* → **Ich gehe ins Bett.** Movement: ins (in das)."
+      - "*Ich wohne ins Zentrum.* → **Ich wohne im Zentrum.** Position: im (in dem)."
+      - "*inder Küche* / *in'r Küche* → **in der Küche.** der does not contract."
+
+reading:
+  title: "Endlich gezügelt!"
+  text: >-
+    Hallo Sabine
+
+
+    Ich bin endlich in der neuen Wohnung! Am Samstag hat mir mein Kollege Tom beim Zügeln geholfen. Jetzt ist
+    fast alles am richtigen Platz.
+
+
+    Das Wohnzimmer ist gross und hell. Das Sofa steht unter dem Fenster, und daneben steht ein kleiner Tisch
+    mit einer Lampe. An der Wand über dem Sofa hängt das Bild von meiner Grossmutter. Auf dem Boden liegt ein
+    blauer Teppich.
+
+
+    In der Küche stehen der Tisch und vier Stühle. Die Gläser habe ich in den Schrank gestellt, aber die
+    Teller sind noch im Karton. Das Schlafzimmer ist noch chaotisch: Das Bett steht schon an der Wand, aber
+    meine Kleider liegen noch auf dem Boden.
+
+
+    Komm doch nächste Woche vorbei! Dann trinken wir einen Kaffee auf dem Balkon.
+
+
+    Liebe Grüsse
+
+    Nadine
+  en: >-
+    Hi Sabine
+
+
+    I'm finally in the new flat! On Saturday my colleague Tom helped me with the move. Now almost everything
+    is in the right place.
+
+
+    The living room is big and bright. The sofa is under the window, and next to it there's a small table
+    with a lamp. On the wall above the sofa hangs the picture from my grandmother. On the floor there's a
+    blue carpet.
+
+
+    In the kitchen there's the table and four chairs. I've put the glasses in the cupboard, but the plates
+    are still in the box. The bedroom is still chaotic: the bed is already against the wall, but my clothes
+    are still lying on the floor.
+
+
+    Do drop by next week! Then we'll have a coffee on the balcony.
+
+
+    Best wishes
+
+    Nadine
+
+swiss:
+  scene: >-
+    Sunday afternoon at Sandra's flat. Reto brings her a little table from his cellar and meets Sandra's new
+    kitten. Listen for the -li words (Tischli, Chätzli, Müsli, Käfeli) and the direction words ine, ufe,
+    abe. Later Sandra's mother calls from Bern.
+  dialogue:
+    - speaker: Sandra
+      text: Hoi Reto, chumm ine!
+      en: Hi Reto, come in!
+      variety: gsw-zh
+    - speaker: Reto
+      text: Hoi! Ich ha der s Tischli us em Chäller bracht. Wo söll ich s ane stelle?
+      en: Hi! I've brought you the little table from the cellar. Where shall I put it?
+      variety: gsw-zh
+    - speaker: Sandra
+      text: Merci! Stell s bitte i d Stube, näbe s Sofa.
+      en: Thanks! Please put it in the living room, next to the sofa.
+      variety: gsw-zh
+    - speaker: Reto
+      text: Oh, und wer isch das? Es Chätzli!
+      en: Oh, and who's this? A kitten!
+      variety: gsw-zh
+    - speaker: Sandra
+      text: Ja, das isch d Mimi. Si wohnt sit geschter bi mir.
+      en: Yes, this is Mimi. She's been living with me since yesterday.
+      variety: gsw-zh
+    - speaker: Reto
+      text: Mega herzig! Was macht si det uf em Chaschte?
+      en: So cute! What's she doing up there on the wardrobe?
+      variety: gsw-zh
+    - speaker: Sandra
+      text: Si spilt mit irem Müsli. Es isch us Stoff.
+      en: She's playing with her little mouse. It's made of fabric.
+      variety: gsw-zh
+    - speaker: Reto
+      text: Und die leere Kartons? Söll ich die abe in Chäller träge?
+      en: And the empty boxes? Shall I carry them down to the cellar?
+      variety: gsw-zh
+    - speaker: Sandra
+      text: Ja, gärn. Und dänn chunnsch wider ufe, und mir trinked es Käfeli.
+      en: Yes, please. And then you come back up, and we'll have a coffee.
+      variety: gsw-zh
+    - speaker: Mami
+      text: Sandra, i ghöre, du hesch es Chätzli?
+      en: Sandra, I hear you've got a kitten?
+      variety: gsw-be
+    - speaker: Sandra
+      text: Ja, Mami! Es isch so härzig. Und d Mia züglet im Mai uf Thun.
+      en: Yes, Mum! It's so cute. And Mia is moving to Thun in May.
+      variety: gsw-be
+    - speaker: Mami
+      text: I weiss. Mir hälfe re bi dr Züglete.
+      en: I know. We'll help her with the move.
+      variety: gsw-be
+  notes:
+    - >-
+      **-li diminutives** are everywhere in Swiss German: **s Tischli** (Tisch), **s Hüsli** (Huus),
+      **s Chätzli** (Chatz), **s Müsli** (Muus), **s Käfeli** (Kafi), **es Bitzeli** (a little bit). Every -li word is
+      **neuter**, whatever the gender of the base word (*d Chatz → s Chätzli*), and a, o, u, au usually get an
+      umlaut (*Huus → Hüsli*). Careful: **s Müsli** is a little mouse – the cereal is **s Müesli**.
+    - >-
+      **-li is not always small.** It often just sounds friendly or modest: *es Käfeli* is a normal coffee,
+      *es Bitzeli* = ein bisschen. Swiss Standard German keeps some of them too: *Gipfeli, Rüebli, Müesli,
+      Guetzli*.
+    - >-
+      **Direction words:** **ufe** = up, **abe** = down, **ine** = in, **use** = out, said when someone or
+      something moves: *Chumm ine! Ich trag d Kartons abe in Chäller. Chunnsch wider ufe?* **ane** = (to) there:
+      *Wo söll ich s ane stelle?* (= Wohin soll ich es stellen?) Position words end in -e without a direction:
+      *obe* (oben), *une* (unten), *dinne* (drinnen), *dusse* (draussen).
+    - >-
+      **Wo? and Wohin? in dialect:** the same nine prepositions (*i, uf, a, näbe, hinder, under, über, vor,
+      zwüsche*), and the article shows the case: **i d Stube** (Wohin?, accusative) – **i de Stube** (Wo?, dative);
+      **uf de Chaschte** (Wohin?) – **uf em Chaschte** (Wo?).
+    - >-
+      **zügle** = umziehen (Swiss Standard **zügeln**, Wiktionary: originally from the alpine farming of Bern
+      and Fribourg, now all over German-speaking Switzerland). The move itself is **d Züglete** (berndeutsch.ch)
+      or *s Zügle*, the van is the **Zügelwagen**. Most Swiss flats are rented, and many leases end on fixed
+      dates, so moving days are busy.
+    - >-
+      **Bernese** (Sandra's mother): **i ghöre** = ich höre, **du hesch** = du hast, **härzig** = herzig, süss
+      (Zurich *herzig*), **d Mia züglet** = Mia zieht um (berndeutsch.ch: zügle, PP. *züglet*), **uf Thun** = nach
+      Thun, **mir hälfe re** = wir helfen ihr, **bi dr Züglete** = beim Umzug.

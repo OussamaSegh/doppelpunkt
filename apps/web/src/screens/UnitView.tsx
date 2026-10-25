@@ -6,6 +6,8 @@ import { EmptyState } from '../components/EmptyState';
 import { findPack, findUnit, useContent } from '../content';
 import { useSettings, useUnitStatus } from '../lib/hooks';
 import { markVisited } from '../lib/progress';
+import { canOpenUnit, useEntitlements } from '../lib/billing/entitlements';
+import { LockedNotice } from '../components/Lock';
 import { CheckStep, EinstiegStep, GrammatikStep, LesenStep, SchwiizStep, UebungenStep, WortschatzStep } from './unit/steps';
 
 export type StepId = 'einstieg' | 'wortschatz' | 'grammatik' | 'lesen' | 'uebungen' | 'schwiiz' | 'check';
@@ -38,13 +40,15 @@ function UnitScreen() {
   const settings = useSettings();
   const unit = findUnit(packs, unitId);
   const status = useUnitStatus(unitId);
+  const ent = useEntitlements();
+  const allowed = !!unit && ent.ready && canOpenUnit(unit, ent);
 
   const steps = unit ? stepsFor(unit) : [];
   const current = steps.find((s) => s.id === step);
 
   useEffect(() => {
-    if (unit && current) void markVisited(unit, current.id);
-  }, [unit, current]);
+    if (unit && current && allowed) void markVisited(unit, current.id);
+  }, [unit, current, allowed]);
 
   if (!unit) {
     return (
@@ -53,6 +57,8 @@ function UnitScreen() {
       </EmptyState>
     );
   }
+  if (!ent.ready) return <p role="status">Checking your unlocks…</p>;
+  if (!allowed) return <LockedNotice level={unit.level} what={`Unit ${unit.number}`} />;
   if (!current) return <Navigate to={`/unit/${unit.id}/einstieg`} replace />;
 
   let body: ReactNode;

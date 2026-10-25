@@ -1,0 +1,294 @@
+id: a2-u09
+level: A2
+number: 9
+title: Feste und Bräuche
+titleEn: Customs and traditions
+goal: >-
+  By the end you can describe a festival or a tradition from your country and from Switzerland – when it
+  takes place, what people do, eat and sing, and what you did as a child – using als for one event in the
+  past (Als ich ein Kind war, …), wenn for repeated events and conditions (Immer wenn es schneit, …; Wenn
+  du Zeit hast, …), dates with ordinal numbers (am 6. Dezember, am vierten Montag im November), and
+  recognise Swiss customs and the Zurich word wänn, which covers wenn, wann and als.
+canDo:
+  - I can describe a festival or custom from my country and say when it takes place (Am 5. November gibt es in England Feuerwerk.).
+  - I can tell what I did as a child at a festival with als and the Perfekt (Als ich klein war, habe ich jedes Jahr Laternen gebastelt.).
+  - I can talk about repeated events and conditions with wenn (Immer wenn es kalt ist, trinken wir Glühwein. Wenn du Zeit hast, komm mit!).
+  - I can choose between als, wenn and wann.
+  - I can give dates with ordinal numbers and prepositions (am ersten August, im Februar, an Ostern, vom 24. bis zum 26. Dezember).
+  - I can recognise Swiss customs (Fasnacht, Räbeliechtli, Zibelemärit, Chlausjage) and understand Zurich wänn for both wenn and als (Wänn ich es Chind gsii bin, …).
+
+review:
+  notes:
+    - "Curriculum: 'wänn in dialect is used for both wenn and als'. The unit teaches wänn for both and mentions wo as the other very common word for als (Wo n ich chlii gsii bin, …). Is wo actually the more frequent form for a single past event in Zurich? Should wo be taught first? (No fetchable source; ALS-ZH only shows relative wo.)"
+    - "'Ich schnitz es Räbeliechtli. Am Friitig isch de Räbeliechtli-Umzug im Quartier.' – schnitz (1st person without -e), im Quartier natural?"
+    - "'Wänn ich es Chind gsii bin, han ich au jedes Jahr eis gschnitzt.' – eis (= eins, neuter pronoun for es Räbeliechtli) and gschnitzt natural?"
+    - "'Im Februar gang ich wieder a d Fasnacht uf Luzern.' – a d Fasnacht (an die Fasnacht) and uf Luzern (direction, as uf Grindelwald in A2.2)?"
+    - "'Wänn d Guggemusige spiled, isch es mega luut.' – plural Guggemusige (BD: Guggemusig), verb spiled, luut?"
+    - "'Häsch scho mal s Chlausjage z Küssnacht gseh? Am füfte Dezämber z Nacht, mit grosse Liechter und Glogge.' – s Chlausjage (Swiss Standard: das Klausjagen), z Nacht = in der Nacht, mit grosse Liechter (dative plural without -n)?"
+    - "Vocabulary gswZh forms without a source: Bruuch, Tradition, Umzug, Choschtüm, Maske, sich verchleide, Laterne, Räbe, schnitze, Wienachtsmärt, Adväntskaländer, Chrischtbaum, schmücke, Lied, Oschterhaas, Oschterei, färbe, Glüewii, Zwieblechueche, Konfetti, Chindheit, früener, dozmal (ALS-ZH: Doozmaal), aazünde, lustig / luschtig, Glogge, Lärm, Jahresziit, stattfinde."
+    - "Swiss Standard: die Räbe (Duden: schweizerisch, weisse Rübe), die Guggenmusik (Duden: süddeutsch, schweizerisch), der Samichlaus (Duden: schweizerisch), die Fasnacht, das Klausjagen, an Ostern / an Weihnachten (southern and Swiss; northern Germany zu Ostern). Please tick, and check Martin's line 'Ich nehme frei.'"
+    - "Facts to confirm: Zibelemärit on the fourth Monday in November with a confetti battle in the afternoon (Wikipedia; BD #12581 '4. Montag im November'); Räbeliechtli processions in November, street lights often switched off (Wikipedia, Räbeliechtli); Küssnachter Klausjagen on 5 December at 20:15 with Iffelen and Trychler (luzern.com)."
+    - "Bernese: 'Sandra, am Mänti isch Zibelemärit. Chunsch o?' (Mänti: lexicon; Zibelemärit m. BD #12581) / 'Nei, i cha nid, i mues schaffe.' / 'Schad! De choufen i dir e Zibelezüpfe.' (choufe BD #55495, Zibele BD #12578, Züpfe BD #13006; the compound Zibelezüpfe is not in BD; n-insertion choufen i?) – sentence flow?"
+
+intro:
+  scene: >-
+    Friday afternoon in the office in Zurich Oerlikon, in late November. Martin, Tom's colleague from Bern, is
+    taking Monday off. He speaks Swiss Standard German with Tom and tells him why.
+  dialogue:
+    - speaker: Martin
+      text: Tom, am Montag bin ich nicht im Büro. Ich nehme frei.
+      en: Tom, I'm not in the office on Monday. I'm taking the day off.
+      variety: ch-std
+    - speaker: Tom
+      text: Ah, fährst du nach Bern?
+      en: Ah, are you going to Bern?
+    - speaker: Martin
+      text: Ja, am Montag ist Zibelemärit. Das ist der Zwiebelmarkt in Bern, immer am vierten Montag im November.
+      en: Yes, on Monday it's the Zibelemärit. That's the onion market in Bern, always on the fourth Monday in November.
+      variety: ch-std
+    - speaker: Tom
+      text: Ein Markt nur für Zwiebeln?
+      en: A market just for onions?
+    - speaker: Martin
+      text: Fast! Es gibt Zwiebelzöpfe, Zwiebelkuchen und Glühwein. Und am Nachmittag ist überall Konfetti.
+      en: Almost! There are onion braids, onion tart and mulled wine. And in the afternoon there's confetti everywhere.
+      variety: ch-std
+    - speaker: Tom
+      text: Lustig! Warst du als Kind auch schon dort?
+      en: Fun! Did you go there as a child, too?
+      variety: de
+    - speaker: Martin
+      text: Ja, als ich klein war, bin ich jedes Jahr mit meinem Grossvater hingegangen. Und immer wenn ich heute dort bin, denke ich an ihn.
+      en: Yes, when I was little, I went there every year with my grandfather. And whenever I'm there today, I think of him.
+      variety: ch-std
+    - speaker: Tom
+      text: Schön. Bei uns in England gibt es am 5. November die Bonfire Night, mit Feuer und Feuerwerk.
+      en: Nice. Back home in England we have Bonfire Night on 5 November, with bonfires and fireworks.
+    - speaker: Martin
+      text: Und was habt ihr da gemacht?
+      en: And what did you do then?
+      variety: ch-std
+    - speaker: Tom
+      text: Als ich ein Kind war, haben wir mit den Nachbarn ein großes Feuer gemacht. Wenn es kalt war, haben wir Suppe gegessen.
+      en: When I was a child, we made a big bonfire with the neighbours. When it was cold, we had soup.
+    - speaker: Martin
+      text: Das klingt gemütlich! Wenn du Lust hast, kannst du am Montag mitkommen.
+      en: That sounds cosy! If you feel like it, you can come along on Monday.
+      variety: ch-std
+    - speaker: Tom
+      text: Gern – wenn der Chef Ja sagt!
+      en: I'd love to – if the boss says yes!
+
+grammar:
+  - id: wenn-als
+    title: "als or wenn? One time in the past, or every time"
+    body: >-
+      English has one word, *when*; German has three. For the **past** you choose between **als** and
+      **wenn**:
+
+      - **als** = *when* for **one** event or **one** period in the past: ***Als** ich ein Kind war, habe ich in
+        Manchester gewohnt. **Als** wir in Bern waren, haben wir den Zibelemärit besucht.*
+
+      - **wenn** = *when / whenever* for **repeated** events, in the past and the present – often with
+        **immer** or **jedes Mal**: ***Immer wenn** ich in Bern bin, denke ich an ihn. **Wenn** es kalt war,
+        haben wir Suppe gegessen* (every time it was cold).
+
+      - **wann** = *when?* is the **question** word: ***Wann** ist der Zibelemärit?*
+
+
+      **als** and **wenn** start a **subordinate clause**: the conjugated verb goes to the **end** of that
+      clause (*als ich klein **war***), as after *weil* and *dass* (unit 8). If the clause comes **first**,
+      the main clause starts with its **verb**: *Als ich klein war, **bin** ich jedes Jahr hingegangen* – the
+      whole als-clause is position 1.
+
+
+      In als-clauses, *sein* and *haben* are usually in the Präteritum (*als ich klein **war**, als wir
+      noch kein Auto **hatten***); other verbs can be in the Perfekt: *Als ich nach Zürich gekommen **bin**,
+      …*
+    tables:
+      - [["Word", "Use", "Example"],
+         ["als", "one event / period in the past", "Als ich zehn war, habe ich Ski fahren gelernt."],
+         ["wenn", "repeated (past or present)", "Immer wenn wir in Bern waren, haben wir Zopf gegessen."],
+         ["wenn", "condition, future (if / when)", "Wenn es regnet, bleiben wir zu Hause."],
+         ["wann", "question (when?)", "Wann beginnt der Umzug?"]]
+      - [["Clause 1 (position 1)", "Verb (position 2)", "Rest of the main clause"],
+         ["Als ich klein war,", "bin", "ich jedes Jahr zum Markt gegangen."],
+         ["Wenn es kalt war,", "haben", "wir Suppe gegessen."],
+         ["Immer wenn ich dort bin,", "denke", "ich an ihn."]]
+    commonMistakes:
+      - "*Wenn ich ein Kind war, …* → **Als ich ein Kind war, …** Childhood is one period in the past: als."
+      - "*Als ich in Bern bin, …* → **Wenn ich in Bern bin, …** Present (or future) is always wenn."
+      - "*Als ich klein war, ich bin …* → **Als ich klein war, bin ich …** After the clause comes the verb."
+      - "*Wenn beginnt der Umzug?* → **Wann beginnt der Umzug?** The question word is wann."
+
+  - id: wenn-condition
+    title: "wenn = if: conditions and plans"
+    body: >-
+      **wenn** also means **if** – for real conditions in the present or future: ***Wenn** du Zeit **hast**,
+      komm mit! **Wenn** es regnet, bleiben wir zu Hause. Was machst du, **wenn** der Chef Nein sagt?*
+
+
+      English often uses *when* for a future event that will surely happen: *When I'm in Bern, I'll call you.*
+      German uses **wenn** here, too – with the **present tense**: ***Wenn** ich in Bern **bin**, rufe ich dich
+      an.*
+
+
+      The word order is the same as with als: verb at the end of the wenn-clause; verb first in the main clause
+      when the wenn-clause comes first. Don't confuse *wenn* with *ob* (whether, unit 10): *Ich weiss nicht,
+      **ob** ich Zeit habe.*
+    tables:
+      - [["wenn-clause first", "main clause first"],
+         ["Wenn du Lust hast, kannst du mitkommen.", "Du kannst mitkommen, wenn du Lust hast."],
+         ["Wenn es kalt ist, trinken wir Glühwein.", "Wir trinken Glühwein, wenn es kalt ist."],
+         ["Wenn ich in Bern bin, rufe ich dich an.", "Ich rufe dich an, wenn ich in Bern bin."]]
+    commonMistakes:
+      - "*Wenn du hast Zeit, …* → **Wenn du Zeit hast, …** The verb goes to the end of the wenn-clause."
+      - "*Wenn es regnet, wir bleiben zu Hause.* → **Wenn es regnet, bleiben wir zu Hause.**"
+      - "*Wenn ich in Bern sein werde, …* → **Wenn ich in Bern bin, …** The present tense is enough for the future."
+
+  - id: dates-festivals
+    title: "Dates and festivals: am ersten August, im Februar, an Ostern"
+    body: >-
+      Dates use **ordinal numbers** (A1.9): **am** + ordinal **-ten** (1–19) / **-sten** (20+):
+      *am ersten August, am sechsten Dezember, am fünfundzwanzigsten Dezember*. In writing: *am 1. August*
+      (the full stop marks the ordinal).
+
+
+      - Day: **am** *6. Dezember*, **am** *vierten Montag im November*, **am** *Nachmittag*
+
+      - Month and season: **im** *Februar*, **im** *Winter*
+
+      - Festivals: **an** *Ostern*, **an** *Weihnachten*, **an** *Silvester* (southern Germany, Austria,
+        Switzerland; in northern Germany also **zu** *Ostern*) – but **am** *Ostersonntag*
+
+      - From … to: **vom** *24.* **bis zum** *26. Dezember*
+
+
+      Asking for the date: *Der Wievielte ist heute? – Heute ist **der** erste Dezember* (nominative: **-te**).
+      *Wann ist der Nationalfeiertag? – **Am** ersten August* (dative after am: **-ten**).
+    tables:
+      - [["Question", "Answer", "Ending"],
+         ["Der Wievielte ist heute?", "Heute ist der vierte Dezember.", "der … -te"],
+         ["Wann ist der Nationalfeiertag?", "Am ersten August.", "am … -ten"],
+         ["Wann kommt der Samichlaus?", "Am sechsten Dezember.", "am … -ten"],
+         ["Wie lange sind die Feiertage?", "Vom 24. bis zum 26. Dezember.", "vom / bis zum … -ten"]]
+    commonMistakes:
+      - "*am eins August* → **am ersten August.** Dates use ordinal numbers."
+      - "*im Ostern* → **an Ostern** (or *zu Ostern* in northern Germany)."
+      - "*am Februar* → **im Februar.** Months take im."
+      - "*Heute ist der vierten Dezember.* → **Heute ist der vierte Dezember.** After der (nominative): -te."
+
+reading:
+  title: "Räbeliechtli: Ein Abend im November"
+  text: >-
+    Letzten Freitag war bei uns im Quartier der Räbeliechtli-Umzug. Am Nachmittag haben die Kinder im
+    Kindergarten Räben geschnitzt: Sie haben Sterne, Herzen und Monde in die Räben gemacht. Am Abend hat die
+    Gemeinde die Strassenlampen ausgeschaltet, und es war ganz dunkel. Dann haben wir die Kerzen in den
+    Räben angezündet. Die Kinder sind mit ihren Räbeliechtli langsam durch die Strassen gelaufen und haben
+    Lieder gesungen.
+
+
+    Als ich ein Kind war, habe ich das auch jedes Jahr gemacht. Ich erinnere mich noch gut: Immer wenn meine
+    Kerze ausgegangen ist, hat mein Vater sie wieder angezündet. Heute macht das mein Sohn Luca. Wenn das Wetter
+    schön ist, stellen wir die Räbe nach dem Umzug auf den Balkon. Dann leuchtet sie noch ein paar Tage.
+
+
+    Nadine aus Winterthur
+  en: >-
+    Last Friday our neighbourhood had its Räbeliechtli procession. In the afternoon the children carved turnips
+    at the kindergarten: they cut stars, hearts and moons into them. In the evening the local council switched
+    off the street lamps, and it was completely dark. Then we lit the candles in the turnips. The children
+    walked slowly through the streets with their turnip lanterns and sang songs.
+
+
+    When I was a child, I did that every year, too. I still remember it well: every time my candle went out, my
+    father lit it again. Today my son Luca does it. When the weather is nice, we put the turnip on the balcony
+    after the procession. Then it glows for a few more days.
+
+
+    Nadine from Winterthur
+
+swiss:
+  scene: >-
+    A Wednesday evening in November in the stairwell of their building in Zurich. Sandra is carving a turnip
+    lantern for the neighbourhood procession, and Reto stops for a chat. Listen for wänn – it means both als
+    and wenn – and for the names of Swiss customs. Then Sandra's mother calls from Bern.
+  dialogue:
+    - speaker: Reto
+      text: Hoi Sandra! Was machsch du da mit dere Räbe?
+      en: Hi Sandra! What are you doing there with that turnip?
+      variety: gsw-zh
+    - speaker: Sandra
+      text: Ich schnitz es Räbeliechtli. Am Friitig isch de Räbeliechtli-Umzug im Quartier.
+      en: I'm carving a turnip lantern. On Friday it's the lantern procession in the neighbourhood.
+      variety: gsw-zh
+    - speaker: Reto
+      text: Lässig! Wänn ich es Chind gsii bin, han ich au jedes Jahr eis gschnitzt.
+      en: Cool! When I was a child, I carved one every year too.
+      variety: gsw-zh
+    - speaker: Sandra
+      text: Und gaasch du au a d Fasnacht?
+      en: And do you go to the carnival too?
+      variety: gsw-zh
+    - speaker: Reto
+      text: Klar! Im Februar gang ich wieder a d Fasnacht uf Luzern. Wänn d Guggemusige spiled, isch es mega luut.
+      en: Of course! In February I'm going to the carnival in Lucerne again. When the carnival bands play, it's really loud.
+      variety: gsw-zh
+    - speaker: Sandra
+      text: Ich gang lieber as Chlausjage. Häsch scho mal s Chlausjage z Küssnacht gseh?
+      en: I prefer going to the Klausjagen. Have you ever seen the Klausjagen in Küssnacht?
+      variety: gsw-zh
+    - speaker: Reto
+      text: Nei, no nie. Wänn isch das?
+      en: No, never. When is it?
+      variety: gsw-zh
+    - speaker: Sandra
+      text: Am füfte Dezämber z Nacht, mit grosse Liechter und Glogge. Wänn du wottsch, chunnsch mit.
+      en: On the fifth of December, at night, with big lanterns and bells. If you want, come along.
+      variety: gsw-zh
+    - speaker: Reto
+      text: Gärn!
+      en: I'd love to!
+      variety: gsw-zh
+    - speaker: Mami
+      text: Sandra, am Mänti isch Zibelemärit. Chunsch o?
+      en: Sandra, on Monday it's the onion market. Are you coming too?
+      variety: gsw-be
+    - speaker: Sandra
+      text: Nei, i cha nid, i mues schaffe.
+      en: No, I can't, I have to work.
+      variety: gsw-be
+    - speaker: Mami
+      text: Schad! De choufen i dir e Zibelezüpfe.
+      en: Pity! Then I'll buy you an onion braid.
+      variety: gsw-be
+  notes:
+    - >-
+      **wänn = wenn, als and wann.** Zurich German has one word for all three: **Wänn ich es Chind gsii bin**
+      (= Als ich ein Kind war), **Wänn d Guggemusige spiled** (= Wenn die Guggenmusiken spielen), **Wänn isch
+      das?** (= Wann ist das?). For a single past event you will also often hear **wo**: *Wo n ich chlii gsii
+      bin, …* (the *n* links wo and ich). The word order is the same as in Standard German: verb at the end of
+      the wänn-clause.
+    - >-
+      **Childhood stories are in the Perfekt** – Swiss German has no *war*: *Wänn ich es Chind gsii bin, han
+      ich jedes Jahr eis gschnitzt* (= Als ich ein Kind war, habe ich jedes Jahr eins geschnitzt). *Früener*
+      (früher) and *dozmal* (damals; written *Doozmaal* on Alemannic Wikipedia) set the scene.
+    - >-
+      **Swiss customs:** **d Fasnacht** (carnival, February / March; biggest in Basel and Lucerne) with
+      **Guggemusige** – brass bands that play loudly and deliberately out of tune (Duden: *Guggenmusik*,
+      süddeutsch, schweizerisch). **S Räbeliechtli** (November): children carve a **Räbe** (white turnip;
+      Duden: schweizerisch), put a candle inside and walk through the dark streets singing; the street lights
+      are often switched off. **De Zibelemärit** in Bern: the onion market on the fourth Monday in November,
+      with onion braids, onion tart and a confetti battle (berndeutsch.ch, Wikipedia). **S Chlausjage** in
+      Küssnacht am Rigi on the evening of 5 December: over a thousand men with huge lit-up paper lanterns
+      (**Iffele**), cowbells (**Trychle**) and whips (luzern.com).
+    - >-
+      **Useful words:** *schnitze* (schnitzen), *s Quartier* (the neighbourhood – also Swiss Standard),
+      *luut* (laut), *d Liechter* (die Lichter), *d Glogge* (die Glocken), *z Nacht* (= in der Nacht – not the
+      same as *de Znacht*, dinner!), *dere Räbe* (dieser Rübe), *eis* (eins: *es Räbeliechtli → eis*).
+    - >-
+      **Bernese** (Sandra's mother): **am Mänti** = am Montag, **dr Zibelemärit** (m., berndeutsch.ch), **o** =
+      auch, **i cha nid** = ich kann nicht, **i mues schaffe** = ich muss arbeiten, **Schad!** = Schade!,
+      **choufe** = kaufen (berndeutsch.ch: *choufe, gchouft*), **d Zibele** = die Zwiebel (Zurich *Zwieble /
+      Bölle*), **d Züpfe** = der Zopf (berndeutsch.ch: f.) – in Bern the braided Sunday bread is feminine. Bernese
+      also has **gäng** = immer (berndeutsch.ch).

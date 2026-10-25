@@ -1,0 +1,336 @@
+# A2 unit 7 – Gesund leben
+
+# ---------- sport and exercise ----------
+- id: sport
+  de: Sport
+  en: sport, exercise
+  pos: noun
+  gender: m
+  plural: "-"
+  example: { de: "Ich mache dreimal pro Woche Sport.", en: "I exercise three times a week." }
+  gswZh: Sport
+  tags: [health, sport]
+
+- id: joggen
+  de: joggen
+  en: to jog
+  pos: verb
+  example: { de: "Nadine geht vor der Arbeit joggen.", en: "Nadine goes jogging before work." }
+  gswZh: jogge (ich gang go jogge)
+  gswBe: jogge / tschogge
+  tags: [health, sport]
+
+- id: fitnesscenter
+  de: Fitnessstudio
+  en: gym
+  pos: noun
+  gender: n
+  plural: Fitnessstudios
+  example: { de: "Tom meldet sich im Fitnessstudio an.", en: "Tom signs up at the gym." }
+  chStd: das Fitnesscenter / das Fitness (ins Fitness gehen)
+  gswZh: s Fitness (is Fitness gaa)
+  tags: [health, sport, helvetism]
+
+- id: yoga
+  de: Yoga
+  en: yoga
+  pos: noun
+  gender: n
+  plural: "-"
+  example: { de: "Yoga hilft mir gegen Stress.", en: "Yoga helps me with stress." }
+  gswZh: Yoga
+  tags: [health, sport]
+
+- id: bewegung
+  de: Bewegung
+  en: exercise, movement
+  pos: noun
+  gender: f
+  plural: Bewegungen
+  example: { de: "Bewegung ist gesund.", en: "Exercise is healthy." }
+  gswZh: Bewegig
+  tags: [health, sport]
+
+# ---------- stress and sleep ----------
+- id: stress
+  de: Stress
+  en: stress
+  pos: noun
+  gender: m
+  plural: "-"
+  example: { de: "Was machst du gegen Stress?", en: "What do you do about stress?" }
+  gswZh: Stress
+  tags: [health]
+
+- id: gestresst
+  de: gestresst
+  en: stressed
+  pos: adj
+  example: { de: "Ich bin total gestresst.", en: "I'm totally stressed." }
+  gswZh: gstresst
+  tags: [health, feelings]
+
+- id: muede
+  de: müde
+  en: tired
+  pos: adj
+  example: { de: "Nach der Arbeit bin ich immer so müde.", en: "After work I'm always so tired." }
+  gswZh: müed
+  gswBe: müed
+  tags: [health, feelings]
+
+- id: schlaf
+  de: Schlaf
+  en: sleep
+  pos: noun
+  gender: m
+  plural: "-"
+  example: { de: "Guter Schlaf ist wichtig.", en: "Good sleep is important." }
+  gswZh: Schlaf
+  tags: [health, sleep]
+
+- id: aufwachen
+  de: aufwachen
+  en: to wake up
+  pos: verb
+  example: { de: "Um sechs wache ich nicht einmal auf!", en: "At six I'm not even awake!" }
+  gswZh: verwache / uufwache
+  tags: [health, routine, separable]
+
+# ---------- food and the body ----------
+- id: ernaehrung
+  de: Ernährung
+  en: diet, nutrition
+  pos: noun
+  gender: f
+  plural: "-"
+  example: { de: "Eine gesunde Ernährung ist wichtig.", en: "A healthy diet is important." }
+  gswZh: Ernährig
+  tags: [health, food]
+
+- id: gemuese
+  de: Gemüse
+  en: vegetables
+  pos: noun
+  gender: n
+  plural: "-"
+  example: { de: "Ich esse jeden Tag viel Gemüse.", en: "I eat lots of vegetables every day." }
+  gswZh: Gmües
+  tags: [health, food]
+
+- id: obst
+  de: Obst
+  en: fruit
+  pos: noun
+  gender: n
+  plural: "-"
+  example: { de: "Obst ist gesünder als Schokolade.", en: "Fruit is healthier than chocolate." }
+  chStd: die Früchte (viel Gemüse und Früchte)
+  gswZh: Frücht / Obscht
+  tags: [health, food, helvetism]
+
+- id: koerper
+  de: Körper
+  en: body
+  pos: noun
+  gender: m
+  plural: Körper
+  example: { de: "Sport ist gut für den Körper.", en: "Sport is good for the body." }
+  gswZh: Körper
+  tags: [health, body]
+
+- id: ruecken
+  de: Rücken
+  en: back
+  pos: noun
+  gender: m
+  plural: Rücken
+  example: { de: "Vom Sitzen tut mir der Rücken weh.", en: "My back hurts from sitting." }
+  gswZh: Rugge
+  tags: [health, body]
+
+- id: zahn
+  de: Zahn
+  en: tooth
+  pos: noun
+  gender: m
+  plural: Zähne
+  example: { de: "Ich putze mir zweimal am Tag die Zähne.", en: "I brush my teeth twice a day." }
+  gswZh: Zaa / Zahn (plural Zää)
+  tags: [health, body]
+
+- id: schnupfen
+  de: Schnupfen
+  en: cold (runny nose)
+  pos: noun
+  gender: m
+  plural: "-"
+  example: { de: "Ich habe einen Schnupfen.", en: "I've got a cold." }
+  gswZh: Pfnüsel
+  tags: [health]
+
+# ---------- reflexive verbs ----------
+- id: sich-fuehlen
+  de: sich fühlen
+  en: to feel
+  pos: verb
+  example: { de: "Ich fühle mich viel fitter.", en: "I feel much fitter." }
+  gswZh: sich füele (ich füel mich)
+  tags: [reflexive, health]
+
+- id: sich-freuen
+  de: sich freuen (auf / über)
+  en: to look forward to / to be happy about
+  pos: verb
+  example: { de: "Ich freue mich auf das Wochenende.", en: "I'm looking forward to the weekend." }
+  gswZh: sich fröie (ich fröi mich)
+  gswBe: sech fröie (i fröie mi)
+  tags: [reflexive, feelings]
+
+- id: sich-bewegen
+  de: sich bewegen
+  en: to move, to exercise
+  pos: verb
+  example: { de: "Du bewegst dich zu wenig.", en: "You don't move enough." }
+  gswZh: sich bewege
+  tags: [reflexive, health]
+
+- id: sich-ausruhen
+  de: sich ausruhen
+  en: to rest
+  pos: verb
+  example: { de: "Am Wochenende ruhe ich mich aus.", en: "At the weekend I rest." }
+  gswZh: sich uusruebe / sich uusruhe
+  tags: [reflexive, health, separable]
+
+- id: sich-entspannen
+  de: sich entspannen
+  en: to relax
+  pos: verb
+  example: { de: "Beim Yoga entspanne ich mich.", en: "I relax when I do yoga." }
+  gswZh: sich entspanne
+  tags: [reflexive, health]
+
+- id: sich-erholen
+  de: sich erholen
+  en: to recover, to get some rest
+  pos: verb
+  example: { de: "Hast du dich in den Ferien gut erholt?", en: "Did you have a good rest on holiday?" }
+  gswZh: sich erhole
+  tags: [reflexive, health]
+
+- id: sich-anziehen
+  de: sich anziehen
+  en: to get dressed
+  pos: verb
+  example: { de: "Ich stehe auf und ziehe mich an.", en: "I get up and get dressed." }
+  gswZh: sich aalegge
+  tags: [reflexive, routine, separable]
+
+- id: sich-waschen
+  de: sich waschen
+  en: to wash (oneself)
+  pos: verb
+  example: { de: "Wasch dir bitte die Hände!", en: "Please wash your hands!" }
+  gswZh: sich wäsche
+  tags: [reflexive, routine]
+
+- id: sich-duschen
+  de: sich duschen
+  en: to have a shower
+  pos: verb
+  example: { de: "Nach dem Joggen dusche ich mich.", en: "After jogging I have a shower." }
+  gswZh: dusche / sich dusche
+  tags: [reflexive, routine]
+
+- id: sich-beeilen
+  de: sich beeilen
+  en: to hurry
+  pos: verb
+  example: { de: "Beeil dich, der Zug fährt um sieben!", en: "Hurry up, the train leaves at seven!" }
+  gswZh: pressiere / sich beeile
+  tags: [reflexive, routine]
+
+- id: sich-treffen
+  de: sich treffen
+  en: to meet (each other)
+  pos: verb
+  example: { de: "Wir treffen uns um halb sieben beim Bahnhof.", en: "We meet at half past six by the station." }
+  gswZh: sich träffe (mir träffed öis)
+  tags: [reflexive, routine, irregular]
+
+- id: sich-anmelden
+  de: sich anmelden
+  en: to sign up, to register
+  pos: verb
+  example: { de: "Vielleicht melde ich mich im Fitnessstudio an.", en: "Maybe I'll sign up at the gym." }
+  gswZh: sich aamälde
+  tags: [reflexive, separable]
+
+# ---------- healthy or not ----------
+- id: gesund
+  de: gesund
+  en: healthy
+  pos: adj
+  example: { de: "Lachen ist gesund!", en: "Laughing is healthy!" }
+  gswZh: gsund (öppis Gsunds)
+  tags: [health, describing]
+
+- id: ungesund
+  de: ungesund
+  en: unhealthy
+  pos: adj
+  example: { de: "Zu viel Zucker ist ungesund.", en: "Too much sugar is unhealthy." }
+  gswZh: ungsund
+  tags: [health, describing]
+
+- id: fit
+  de: fit
+  en: fit
+  pos: adj
+  example: { de: "Jetzt fühle ich mich viel fitter.", en: "Now I feel much fitter." }
+  gswZh: fit
+  tags: [health, describing]
+
+- id: regelmaessig
+  de: regelmäßig
+  en: regularly
+  pos: adv
+  example: { de: "Essen Sie regelmäßig und gesund.", en: "Eat regularly and healthily." }
+  chStd: regelmässig
+  gswZh: regelmässig
+  tags: [health, frequency]
+
+- id: rauchen
+  de: rauchen
+  en: to smoke
+  pos: verb
+  example: { de: "Ich rauche seit zwei Jahren nicht mehr.", en: "I haven't smoked for two years." }
+  gswZh: rauche
+  tags: [health]
+
+- id: abnehmen
+  de: abnehmen
+  en: to lose weight
+  pos: verb
+  example: { de: "Ich möchte drei Kilo abnehmen.", en: "I'd like to lose three kilos." }
+  gswZh: abnäh
+  tags: [health, separable]
+
+- id: tipp
+  de: Tipp
+  en: tip, piece of advice
+  pos: noun
+  gender: m
+  plural: Tipps
+  example: { de: "Hast du einen Tipp gegen Stress?", en: "Do you have a tip for stress?" }
+  gswZh: Tipp
+  tags: [health, advice]
+
+- id: zaehne-putzen
+  de: sich die Zähne putzen
+  en: to brush one's teeth
+  pos: phrase
+  example: { de: "Ich putze mir am Morgen und am Abend die Zähne.", en: "I brush my teeth in the morning and in the evening." }
+  gswZh: d Zää putze
+  tags: [reflexive, routine, body]

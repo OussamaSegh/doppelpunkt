@@ -1,13 +1,16 @@
 node_modules/
 dist/
 dist-beta/
+dist-billing/
 build/
 .vite/
 coverage/
 playwright-report/
 playwright-report-beta/
+playwright-report-billing/
 test-results/
 test-results-beta/
+test-results-billing/
 *.log
 .DS_Store
 .env
@@ -16,3 +19,6 @@ test-results-beta/
 apps/web/public/packs/
 # Beta exports and reports (raw collector data; see docs/BETA.md). Root only: apps/web/src/beta is code.
 /beta/
+
+# Generated book sources and PDFs (npm run book:build; see docs/BOOKS.md).
+/books/build/

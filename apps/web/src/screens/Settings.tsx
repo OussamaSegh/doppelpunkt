@@ -17,6 +17,8 @@ import { useSettings } from '../lib/hooks';
 import { useSession } from '../lib/session';
 import { applyTheme } from '../lib/theme';
 import { BetaSettings } from '../beta/BetaSettings';
+import { UnlocksSettings } from '../components/UnlocksSettings';
+import { Link } from 'react-router-dom';
 
 
 export function SettingsScreen() {
@@ -37,6 +39,9 @@ export function SettingsScreen() {
         </div>
         <RelayAndCap settings={settings} />
       </Section>
+      <Section title="Unlocks" id="unlocks">
+        <UnlocksSettings />
+      </Section>
       <Section title="Learning" id="learning">
         <LearningPrefs settings={settings} />
       </Section>
@@ -48,6 +53,22 @@ export function SettingsScreen() {
       </Section>
       <Section title="Help improve Doppelpunkt (beta)" id="beta">
         <BetaSettings settings={settings} />
+      </Section>
+      <Section title="About and legal" id="legal">
+        <nav aria-label="About and legal" className="card flex flex-wrap gap-x-4 gap-y-2 text-sm">
+          <Link to="/about" className="text-accent underline">
+            About Doppelpunkt
+          </Link>
+          <Link to="/privacy" className="text-accent underline">
+            Privacy policy
+          </Link>
+          <Link to="/terms" className="text-accent underline">
+            Terms of use
+          </Link>
+          <Link to="/imprint" className="text-accent underline">
+            Imprint
+          </Link>
+        </nav>
       </Section>
     </div>
   );
@@ -415,7 +436,7 @@ function DataTools() {
   };
 
   const doReset = async () => {
-    if (!confirm('Delete all progress, settings and saved keys on this device? This cannot be undone.')) return;
+    if (!confirm('Delete all progress, settings, saved keys and unlocks on this device? This cannot be undone.')) return;
     lockAll();
     // Beta: ask the collector to forget this install before the id disappears with the data.
     await import('../lib/beta/prefs').then((m) => m.setStatsOptIn(false)).catch(() => undefined);

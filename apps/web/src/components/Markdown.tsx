@@ -136,8 +136,10 @@ function inline(s: string): ReactNode[] {
       const [, label = '', href = ''] = link;
       if (SAFE_HREF.test(href)) {
         const external = /^https?:/.test(href);
+        // Same-site paths are app routes: prefix the base path (e.g. /doppelpunkt/ on GitHub Pages).
+        const target = href.startsWith('/') ? `${(import.meta.env?.BASE_URL ?? '/').replace(/\/$/, '')}${href}` : href;
         out.push(
-          <a key={k++} href={href} className="text-accent underline" {...(external ? { target: '_blank', rel: 'noreferrer noopener' } : {})}>
+          <a key={k++} href={target} className="text-accent underline" {...(external ? { target: '_blank', rel: 'noreferrer noopener' } : {})}>
             {label}
           </a>,
         );

@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Doppelpunkt: learn Standard German and Swiss German</title>
+    <meta name="description" content="Learn Standard German and Swiss German side by side, A1 to C2. Works offline, AI tutors with your own key, no account, no tracking." />
+    <meta name="theme-color" content="#fbf8f1" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#0f1626" media="(prefers-color-scheme: dark)" />
+    <meta property="og:title" content="Doppelpunkt" />
+    <meta property="og:description" content="Standard German and Swiss German side by side, A1 to C2. Offline, private, AI tutors with your own key." />
+    <link rel="icon" href="../icons/logo.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="../icons/apple-touch-icon.png" />
+    <script>
+      // Relative links ("../" = the app) need the trailing slash: /doppelpunkt/landing -> /doppelpunkt/landing/
+      if (/\/landing$/.test(location.pathname)) location.replace(location.pathname + '/' + location.search + location.hash);
+      // Same theme preference as the app (localStorage "dp-theme"), applied before first paint.
+      (function () {
+        var t = 'system';
+        try { t = localStorage.getItem('dp-theme') || 'system'; } catch (e) {}
+        if (t === 'system') t = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        document.documentElement.dataset.theme = t;
+      })();
+    </script>
+    <style>
+      /* Tokens shared with the app (src/index.css). Gold = Standard German, red = Swiss German. */
+      :root {
+        --gold: #b07a12; --gold-soft: #f6ebcf; --gold-strong: #8a5e0a;
+        --swiss: #c8281c; --swiss-soft: #f9dcd8; --swiss-strong: #9e1f15;
+        --ink: #1c2a4a; --accent: #2f4f8f; --accent-soft: #e2e8f5;
+        --bg: #fbf8f1; --surface: #ffffff; --surface-2: #f3efe5; --fg: #1b1f2a; --muted: #5b6273; --line: #e2dccd;
+        --btn-bg: #1c2a4a; --btn-fg: #ffffff;
+        color-scheme: light;
+      }
+      [data-theme="dark"] {
+        --gold: #e0b04a; --gold-soft: #3a2e14; --gold-strong: #f2cd7c;
+        --swiss: #f0675b; --swiss-soft: #42201d; --swiss-strong: #ff9a90;
+        --accent: #8fb0f0; --accent-soft: #1e2c4a;
+        --bg: #0f1626; --surface: #172035; --surface-2: #1e2942; --fg: #ecedf2; --muted: #a3aabb; --line: #2c3856;
+        --btn-bg: #8fb0f0; --btn-fg: #0f1626;
+        color-scheme: dark;
+      }
+      * { box-sizing: border-box; }
+      html, body { margin: 0; background: var(--bg); color: var(--fg); }
+      body { font: 16px/1.55 ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; -webkit-font-smoothing: antialiased; }
+      a { color: var(--accent); }
+      :focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; border-radius: 6px; }
+      .wrap { max-width: 64rem; margin: 0 auto; padding: 0 1.25rem; }
+      header.top { display: flex; align-items: center; justify-content: space-between; padding: 1rem 0; }
+      .brand { display: flex; align-items: center; gap: .6rem; font-weight: 700; font-size: 1.15rem; color: var(--fg); text-decoration: none; }
+      .toggle { border: 1px solid var(--line); background: var(--surface); color: var(--fg); border-radius: 999px; padding: .35rem .8rem; font: inherit; font-size: .85rem; cursor: pointer; }
+      .hero { text-align: center; padding: 3rem 0 2.5rem; }
+      .hero h1 { font-size: clamp(2rem, 6vw, 3.25rem); line-height: 1.1; margin: 0 0 1rem; letter-spacing: -.02em; }
+      .hero p { font-size: 1.15rem; color: var(--muted); max-width: 40rem; margin: 0 auto 1.75rem; }
+      .de { color: var(--gold-strong); font-weight: 650; }
+      .ch { color: var(--swiss-strong); font-weight: 650; }
+      .cta { display: inline-block; background: var(--btn-bg); color: var(--btn-fg); text-decoration: none; font-weight: 650; padding: .85rem 1.6rem; border-radius: .9rem; }
+      .cta:hover { background: var(--accent); }
+      .sub { display: block; margin-top: .75rem; font-size: .9rem; color: var(--muted); }
+      section { padding: 2rem 0; }
+      h2 { font-size: 1.5rem; margin: 0 0 1rem; }
+      .pair { display: grid; gap: 1rem; grid-template-columns: 1fr 1fr; }
+      @media (max-width: 40rem) { .pair { grid-template-columns: 1fr; } }
+      .card { background: var(--surface); border: 1px solid var(--line); border-radius: 1rem; padding: 1.1rem 1.2rem; }
+      .card.gold { border-color: color-mix(in srgb, var(--gold) 55%, transparent); }
+      .card.red { border-color: color-mix(in srgb, var(--swiss) 55%, transparent); }
+      .label { font-size: .75rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; margin: 0 0 .6rem; }
+      .gold .label { color: var(--gold-strong); }
+      .red .label { color: var(--swiss-strong); }
+      .line { display: flex; gap: .6rem; align-items: baseline; margin: .45rem 0; }
+      .tag { flex: none; font-size: .65rem; font-weight: 800; letter-spacing: .05em; border-radius: .4rem; padding: .15rem .35rem; border: 1px solid; }
+      .tag.de { background: var(--gold-soft); color: var(--gold-strong); border-color: color-mix(in srgb, var(--gold) 40%, transparent); }
+      .tag.ch { background: var(--swiss-soft); color: var(--swiss-strong); border-color: color-mix(in srgb, var(--swiss) 40%, transparent); }
+      .features { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); list-style: none; padding: 0; margin: 0; }
+      .features h3 { margin: 0 0 .35rem; font-size: 1.05rem; }
+      .features p { margin: 0; color: var(--muted); font-size: .95rem; }
+      .price { text-align: center; }
+      .price p { color: var(--muted); max-width: 40rem; margin: 0 auto 1.25rem; }
+      footer { border-top: 1px solid var(--line); padding: 1.5rem 0 2.5rem; color: var(--muted); font-size: .9rem; display: flex; flex-wrap: wrap; gap: .5rem 1.25rem; justify-content: space-between; }
+      footer nav { display: flex; flex-wrap: wrap; gap: .5rem 1.25rem; }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <header class="top">
+        <a class="brand" href="./">
+          <svg width="32" height="32" viewBox="0 0 512 512" aria-hidden="true"><rect width="512" height="512" rx="112" fill="#1c2a4a" /><circle cx="256" cy="166" r="66" fill="#d9a21b" /><circle cx="256" cy="346" r="66" fill="#d63a2c" /></svg>
+          Doppelpunkt
+        </a>
+        <button class="toggle" type="button" id="theme" aria-label="Switch between light and dark theme">◐ Theme</button>
+      </header>
+
+      <main>
+        <div class="hero">
+          <h1>Learn <span class="de">Standard German</span> and <span class="ch">Swiss German</span>, side by side</h1>
+          <p>A course from A1 to C2 for people who live in Switzerland, or want to. Every unit teaches the German you read and write, and the dialect you hear every day.</p>
+          <a class="cta" href="../" id="open-app">Open the app</a>
+          <span class="sub">Free to start. Works in your browser, installs like an app, no account.</span>
+        </div>
+
+        <section aria-labelledby="pairs">
+          <h2 id="pairs">Two ways to say it</h2>
+          <div class="pair">
+            <div class="card gold">
+              <p class="label">Standard German</p>
+              <p class="line"><span class="tag de" title="Standard German">DE</span><span lang="de">Guten Tag! Wie geht es Ihnen?</span></p>
+              <p class="line"><span class="tag de" title="Standard German">DE</span><span lang="de">Ich bin Reto. Wie heißt du?</span></p>
+              <p class="line"><span class="tag de" title="Standard German">DE</span><span lang="de">Woher kommst du?</span></p>
+            </div>
+            <div class="card red">
+              <p class="label">Swiss German (Zurich)</p>
+              <p class="line"><span class="tag ch" title="Zurich German">ZH</span><span lang="gsw">Grüezi! Wie gaats Ine?</span></p>
+              <p class="line"><span class="tag ch" title="Zurich German">ZH</span><span lang="gsw">Ich bi de Reto. Wie heissisch du?</span></p>
+              <p class="line"><span class="tag ch" title="Zurich German">ZH</span><span lang="gsw">Vo wo chunnsch du?</span></p>
+            </div>
+          </div>
+        </section>
+
+        <section aria-labelledby="features">
+          <h2 id="features">What you get</h2>
+          <ul class="features">
+            <li class="card"><h3>Two lanes in every unit</h3><p>Standard German first, then a Swiss lane in Zurich or Bern German, with native audio and Dieth-style spelling.</p></li>
+            <li class="card"><h3>AI tutors, your own key</h3><p>Writing feedback and role-plays with Lena, Frau Keller and Reto. Bring a key from Anthropic, OpenAI, Google or xAI: it stays encrypted on your device and you pay the provider directly.</p></li>
+            <li class="card"><h3>Works offline</h3><p>Lessons, audio, spaced-repetition review and every closed exercise work without a connection, graded on your device.</p></li>
+            <li class="card"><h3>Private by design</h3><p>No account, no tracking, no ads. Your progress stays in your browser, and you can export it any time.</p></li>
+            <li class="card"><h3>Exam-ready</h3><p>CEFR levels A1 to C2, pronunciation drills and timed mock exams in the Goethe, telc and ÖSD style.</p></li>
+            <li class="card"><h3>Books that unlock the app</h3><p>Book 1 "Doppelpunkt 1: Ankommen" follows the same units, and its access code unlocks A2.</p></li>
+          </ul>
+        </section>
+
+        <section class="price" aria-labelledby="price">
+          <h2 id="price">Start free</h2>
+          <p>A1 is free, and you can try unit 1 of every other level. Unlock a level once, or every level for a year. No subscription that renews behind your back.</p>
+          <a class="cta" href="../">Open the app</a>
+        </section>
+      </main>
+
+      <footer>
+        <span>© Doppelpunkt</span>
+        <nav aria-label="Legal">
+          <a href="../about">About</a>
+          <a href="../privacy">Privacy policy</a>
+          <a href="../terms">Terms of use</a>
+          <a href="../imprint">Imprint</a>
+        </nav>
+      </footer>
+    </div>
+    <script>
+      (function () {
+        var btn = document.getElementById('theme');
+        btn.addEventListener('click', function () {
+          var next = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
+          document.documentElement.dataset.theme = next;
+          try { localStorage.setItem('dp-theme', next); } catch (e) {}
+        });
+      })();
+    </script>
+  </body>
+</html>

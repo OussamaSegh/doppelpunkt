@@ -1,0 +1,317 @@
+id: a2-u06
+level: A2
+number: 6
+title: Vergleichen und Kaufen
+titleEn: Comparing and buying
+goal: >-
+  By the end you can compare products, prices and quality, ask a shop assistant for advice, choose and pay,
+  and understand a simple special-offer flyer – using the comparative (billiger, größer, besser … als), the
+  superlative (am billigsten, am besten), so … wie and the key shopping phrases – and recognise Zurich
+  shopping talk (gröösser, am billigschte, tüür / günschtig, i de Aktion, das isch gäbig).
+canDo:
+  - I can compare two things (Das rote Velo ist billiger als das blaue.) and say which is best (Dieses Modell ist am leichtesten.).
+  - I can form comparatives and superlatives, including the irregular ones (gut – besser – am besten, viel – mehr – am meisten, gern – lieber – am liebsten).
+  - I can use als after a comparative and so … wie for things that are equal (Es ist so gut wie das andere.).
+  - I can ask for advice in a shop, ask about price and quality, and pay (Kann ich mit Karte bezahlen?).
+  - I can understand the main information in a special-offer flyer (prices, discounts, differences).
+  - I can recognise Zurich German comparisons and shopping words (gröösser, am billigschte, tüür, günschtig, gäbig, i de Aktion).
+
+review:
+  notes:
+    - "'Lueg emal, die zwei Velos! Wels gfallt der besser?' – wels (welches) spelling, also weles / welles?"
+    - "'S rote isch schöner, aber s blaue isch gröösser – das passt mer besser.' – s rote / s blaue (das rote / das blaue, neuter adjective without -s?), gröösser (curriculum) with long öö."
+    - "'Was choschtet s blaue?' – choschte (kosten), 3rd person choschtet?"
+    - "'Vierhundert Franke. Das isch mer z tüür.' – z tüür (zu teuer), mer (mir), Franke (Franken) natural?"
+    - "'S rote isch i de Aktion: nur zweihundertfüfzg. Das isch am billigschte.' – i de Aktion (curriculum Aktion), zweihundertfüfzg (250), am billigschte (curriculum)."
+    - "'Günschtig! Und es hät e Chörbli – das isch gäbig für s Poschte.' – günschtig (curriculum), Chörbli (Körbchen) spelling, gäbig (lexicon), für s Poschte natural?"
+    - "'Und es isch fascht so guet wie s blaue.' – fascht (fast) spelling, so … wie."
+    - "'Also guet, ich nimm s rote. Jetzt bruuch ich nur no en Helm – aber en günschtige!' – en günschtige (einen günstigen) natural?"
+    - "Comparison words in the notes: als, wie and weder after a comparative (ALS-ZH: 'Andersch weder im Nöihoochtüütsch'). How common is weder in Zurich today, and is 'gröösser wie' the most usual?"
+    - "Superlative forms in the notes: am billigschte, am beschte, am meischte, am liebschte (lexicon), am gröschte (am grössten): please tick, especially am gröschte."
+    - "Swiss Standard: die Occasion (Duden: österreichisch, schweizerisch = used item), in Aktion (Duden gives no Swiss label for Aktion = Sonderangebot, but it is the usual word in Swiss shops – please confirm), der Ausverkauf (seasonal sale), Franken / CHF, 'Kann ich mit Karte bezahlen?'. Please tick."
+    - "Swiss Standard dialogue lines (Martin, Verkäuferin): 'Moment, die da sind in Aktion – zwanzig Prozent günstiger.' / 'Sie sind so gut wie die teuren, aber kleiner und leichter.' – please tick."
+    - "Vocabulary gswZh forms without a source: Priis, Rabatt, Prozänt, Qualität, Modäll, Marke, Chopfhörer, Akku, Bildschirm, Kafimaschine, Garantie, Quittig, umtuusche, vergliiche, uussueche, zale, spare, uusgää, billig, günschtig, liecht, bequem, modern, Occasion, luut, liisli, besser, am beschte, meh, als / wie / weder, gliich, hebe (halten: de Akku hebt lang?)."
+    - "Bernese: 'Isch das Velo nid chöschtlech gsy?' (chöschtlech = teuer, BD #31049; gsy BD #12165) / 'Nei, es isch i dr Aktion gsy – viu billiger aus ds blaue.' (aus = als in Bernese, by l → u? viu, lexicon) / 'Super, de het er ja Glück gha!' – sentence flow, aus for als?"
+
+intro:
+  scene: >-
+    Saturday in an electronics shop in Zurich. Tom needs new headphones for the train, and his colleague
+    Martin, from Bern, has come along. Martin and the shop assistant speak Swiss Standard German.
+  dialogue:
+    - speaker: Tom
+      text: Martin, welche Kopfhörer sind besser – diese hier oder die da?
+      en: Martin, which headphones are better – these or those?
+    - speaker: Martin
+      text: Diese hier sind leichter, aber die da sind bequemer.
+      en: These are lighter, but those are more comfortable.
+      variety: ch-std
+    - speaker: Tom
+      text: Aber sie sind auch viel teurer. 149 Franken!
+      en: But they're also much more expensive. 149 francs!
+    - speaker: Martin
+      text: Moment, die da sind in Aktion – zwanzig Prozent günstiger.
+      en: Wait, those are on special offer – twenty per cent cheaper.
+      variety: ch-std
+    - speaker: Verkäuferin
+      text: Guten Tag! Kann ich Ihnen helfen?
+      en: Hello! Can I help you?
+      variety: ch-std
+    - speaker: Tom
+      text: Ja, gern. Ich fahre jeden Tag Zug. Welche Kopfhörer sind am besten für mich?
+      en: Yes, please. I take the train every day. Which headphones are best for me?
+    - speaker: Verkäuferin
+      text: Diese hier. Sie sind so gut wie die teuren, aber kleiner und leichter.
+      en: These ones. They're as good as the expensive ones, but smaller and lighter.
+      variety: ch-std
+    - speaker: Tom
+      text: Und wie lange hält der Akku?
+      en: And how long does the battery last?
+    - speaker: Verkäuferin
+      text: Vierzig Stunden. Bei diesem Modell hält er am längsten.
+      en: Forty hours. On this model it lasts the longest.
+      variety: ch-std
+    - speaker: Tom
+      text: Vierzig Stunden? Das ist länger als eine Reise nach Manchester!
+      en: Forty hours? That's longer than a trip to Manchester!
+    - speaker: Martin
+      text: Und sie sind dreissig Franken billiger als die anderen. Nimm sie!
+      en: And they're thirty francs cheaper than the others. Take them!
+      variety: ch-std
+    - speaker: Tom
+      text: Okay, die nehme ich. Kann ich mit Karte bezahlen?
+      en: OK, I'll take them. Can I pay by card?
+
+grammar:
+  - id: comparative
+    title: "The comparative: billiger, größer, besser … als"
+    body: >-
+      To compare two things, add **-er** to the adjective and use **als** (than): *Diese Kopfhörer sind
+      **leichter als** die anderen. Das rote Velo ist **billiger als** das blaue.*
+
+
+      - **Short adjectives with a, o, u** usually take an **umlaut**: *alt → **ä**lter, groß → gr**ö**ßer, jung →
+      j**ü**nger, kurz → k**ü**rzer, lang → l**ä**nger, warm → w**ä**rmer*.
+
+      - **-er / -el adjectives** drop an e: *teuer → **teurer**, dunkel → **dunkler***.
+
+      - **Irregular:** ***gut → besser**, **viel → mehr**, **gern → lieber**, **hoch → höher***.
+
+
+      English often says *more* (*more comfortable*), but German **always** uses -er, however long the
+      adjective: *bequem → **bequemer**, praktisch → **praktischer**, interessant → **interessanter***. Use
+      ***viel*** to make it stronger: *viel teurer* = much more expensive.
+    tables:
+      - [["Adjective", "Comparative", "Note"],
+         ["billig", "billiger", "regular"],
+         ["bequem", "bequemer", "never mehr bequem"],
+         ["groß / alt / lang", "größer / älter / länger", "umlaut"],
+         ["teuer", "teurer", "drops the e"],
+         ["gut / viel / gern", "besser / mehr / lieber", "irregular"],
+         ["hoch", "höher", "loses the c"]]
+    commonMistakes:
+      - "*Das ist mehr bequem.* → **Das ist bequemer.** German never uses mehr + adjective."
+      - "*Das ist billiger wie das andere.* → **Das ist billiger als das andere.** After a comparative, Standard German uses als."
+      - "*teuerer* → **teurer**; *guter* → **besser**."
+      - "*Das ist viel mehr teurer.* → **Das ist viel teurer.**"
+
+  - id: superlative
+    title: "The superlative: am billigsten, am besten"
+    body: >-
+      To say which of three or more is the most, use **am** + adjective + **-sten**: *Dieses Modell ist **am
+      billigsten**. Der Akku hält hier **am längsten**.*
+
+
+      - Adjectives ending in **-d, -t, -s, -ß, -z** add **-esten**: *am ältesten, am kürzesten, am leichtesten,
+      am heißesten* – but *am größten*.
+
+      - The **umlaut** of the comparative stays: *am ältesten, am längsten, am wärmsten*.
+
+      - **Irregular:** ***am besten, am meisten, am liebsten, am höchsten***.
+
+
+      Before a noun the superlative takes adjective endings: *das **beste** Modell, die **billigsten**
+      Kopfhörer*. At A2, learn *der / die / das beste* as a chunk; the full adjective endings come in B1.
+    tables:
+      - [["Adjective", "Comparative", "Superlative"],
+         ["billig", "billiger", "am billigsten"],
+         ["leicht", "leichter", "am leichtesten"],
+         ["lang", "länger", "am längsten"],
+         ["groß", "größer", "am größten"],
+         ["gut", "besser", "am besten"],
+         ["viel", "mehr", "am meisten"],
+         ["gern", "lieber", "am liebsten"]]
+    commonMistakes:
+      - "*Das ist am billigste.* → **Das ist am billigsten.** am + -sten (with n)."
+      - "*am bestesten* → **am besten**; *am mehrsten* → **am meisten**."
+      - "*Das ist das meiste bequeme Sofa.* → **Das ist das bequemste Sofa.**"
+
+  - id: als-wie
+    title: "als and wie: comparing equal and unequal things"
+    body: >-
+      German has two comparison words:
+
+
+      - **Unequal** → comparative + **als**: *Das blaue Velo ist **teurer als** das rote.*
+
+      - **Equal** → **so** + adjective + **wie**: *Die kleinen Kopfhörer sind **so gut wie** die teuren.* Make it
+      stronger with ***genauso … wie*** (just as … as), negate it with ***nicht so … wie*** (not as … as): *Das
+      Handy ist **nicht so teuer wie** der Laptop.*
+
+
+      After *als* and *wie* the second thing is in the same case as the first, usually the nominative: *Er ist
+      größer **als ich**.* In everyday southern and Swiss speech you often hear *größer wie* – it is
+      understood, but write **als**.
+    tables:
+      - [["Meaning", "Pattern", "Example"],
+         ["more / -er than", "Komparativ + als", "Der Laptop ist schwerer als das Tablet."],
+         ["as … as", "so / genauso + Adjektiv + wie", "Das Tablet ist so teuer wie das Handy."],
+         ["not as … as", "nicht so + Adjektiv + wie", "Das Handy ist nicht so schwer wie der Laptop."]]
+    commonMistakes:
+      - "*so gut als* → **so gut wie.** Equal things take wie."
+      - "*Er ist älter als mich.* → **Er ist älter als ich.** Same case on both sides."
+      - "*Das ist gleich teuer wie …* is fine in speech; *genauso teuer wie* is the safe written form."
+
+  - id: shopping-chunks
+    title: "In the shop: asking, choosing, paying"
+    body: >-
+      Useful phrases for buying something bigger than groceries:
+
+
+      - **Asking for help:** *Können Sie mir helfen? Ich suche Kopfhörer. Welches Modell können Sie mir
+      empfehlen?*
+
+      - **Comparing:** *Was ist der Unterschied? Welches ist besser / leichter / günstiger? Haben Sie das auch
+      in Schwarz / in Größe M?*
+
+      - **Price:** *Was kostet das? Ist das in Aktion? Gibt es Rabatt?*
+
+      - **Deciding:** *Ich nehme die hier. – Ich überlege es mir noch.* (I'll think about it.)
+
+      - **Paying and after:** *Kann ich mit Karte / bar bezahlen? Kann ich eine Quittung haben? Kann ich das
+      umtauschen? Wie lange ist die Garantie?*
+    tables:
+      - [["Situation", "German"],
+         ["ask for advice", "Welches Modell können Sie mir empfehlen?"],
+         ["ask the difference", "Was ist der Unterschied?"],
+         ["decide", "Ich nehme die hier. / Ich überlege es mir noch."],
+         ["pay", "Kann ich mit Karte bezahlen?"],
+         ["after buying", "Kann ich das umtauschen? Ich habe die Quittung."]]
+    commonMistakes:
+      - "*Ich will die kaufen.* sounds abrupt in a shop → **Ich nehme die hier.**"
+      - "*Kann ich mit Kreditkarte zahlen bitte?* → **Kann ich bitte mit Karte bezahlen?** bitte goes before the end."
+      - "*Ich denke darüber.* → **Ich überlege es mir noch.**"
+
+reading:
+  title: "Aktion der Woche: Kaffeemaschinen"
+  text: >-
+    Diese Woche in Aktion – nur bis Samstag!
+
+
+    Die «Mini» ist unsere kleinste Maschine. Sie ist am billigsten und passt in jede Küche: 89 Franken statt
+    119 Franken. Ideal für eine Person.
+
+
+    Die «Classic» ist grösser und schneller als die «Mini». Sie macht zwei Tassen Kaffee auf einmal und hat
+    einen Milchschäumer für Cappuccino. Preis: 179 Franken statt 229 Franken.
+
+
+    Die «Premium» ist am grössten und am schnellsten. Sie mahlt die Bohnen selbst, und der Kaffee schmeckt am
+    besten. Sie ist natürlich auch am teuersten: 499 Franken statt 599 Franken.
+
+
+    Alle drei Maschinen sind genauso leise wie unsere alten Modelle, aber sie brauchen weniger Strom. Für alle
+    Maschinen gibt es zwei Jahre Garantie. Mit der Quittung können Sie jede Maschine innerhalb von 30 Tagen
+    umtauschen.
+  en: >-
+    On special offer this week – only until Saturday!
+
+
+    The "Mini" is our smallest machine. It is the cheapest and fits in any kitchen: 89 francs instead of 119
+    francs. Ideal for one person.
+
+
+    The "Classic" is bigger and faster than the "Mini". It makes two cups of coffee at once and has a milk
+    frother for cappuccino. Price: 179 francs instead of 229 francs.
+
+
+    The "Premium" is the biggest and the fastest. It grinds the beans itself, and its coffee tastes the best.
+    Of course it is also the most expensive: 499 francs instead of 599 francs.
+
+
+    All three machines are just as quiet as our old models, but they use less electricity. All machines come
+    with a two-year guarantee. With the receipt you can exchange any machine within 30 days.
+
+swiss:
+  scene: >-
+    Saturday morning at a second-hand bike sale in Zurich. Reto needs a bike for the city, and Sandra helps
+    him choose. Listen for the comparisons gröösser, schöner, am billigschte, the words tüür, günschtig, gäbig
+    and i de Aktion. Later Sandra tells her mother in Bern about it.
+  dialogue:
+    - speaker: Sandra
+      text: Lueg emal, die zwei Velos! Wels gfallt der besser?
+      en: Look at these two bikes! Which one do you like better?
+      variety: gsw-zh
+    - speaker: Reto
+      text: S rote isch schöner, aber s blaue isch gröösser – das passt mer besser.
+      en: The red one is nicer, but the blue one is bigger – that suits me better.
+      variety: gsw-zh
+    - speaker: Sandra
+      text: Was choschtet s blaue?
+      en: How much is the blue one?
+      variety: gsw-zh
+    - speaker: Reto
+      text: Vierhundert Franke. Das isch mer z tüür.
+      en: Four hundred francs. That's too expensive for me.
+      variety: gsw-zh
+    - speaker: Sandra
+      text: "S rote isch i de Aktion: nur zweihundertfüfzg. Das isch am billigschte."
+      en: "The red one is on special offer: only two hundred and fifty. That's the cheapest."
+      variety: gsw-zh
+    - speaker: Reto
+      text: Günschtig! Und es hät e Chörbli – das isch gäbig für s Poschte.
+      en: Good price! And it has a little basket – that's handy for the shopping.
+      variety: gsw-zh
+    - speaker: Sandra
+      text: Und es isch fascht so guet wie s blaue.
+      en: And it's almost as good as the blue one.
+      variety: gsw-zh
+    - speaker: Reto
+      text: Also guet, ich nimm s rote. Jetzt bruuch ich nur no en Helm – aber en günschtige!
+      en: All right, I'll take the red one. Now I only need a helmet – but a cheap one!
+      variety: gsw-zh
+    - speaker: Mami
+      text: Isch das Velo nid chöschtlech gsy?
+      en: Wasn't the bike expensive?
+      variety: gsw-be
+    - speaker: Sandra
+      text: Nei, es isch i dr Aktion gsy – viu billiger aus ds blaue.
+      en: No, it was on special offer – much cheaper than the blue one.
+      variety: gsw-be
+    - speaker: Mami
+      text: Super, de het er ja Glück gha!
+      en: Great, then he was lucky!
+      variety: gsw-be
+  notes:
+    - >-
+      **Comparatives in Zurich German** work as in Standard German, with Swiss vowels: **gröösser** (grösser),
+      **schöner**, **tüürer** (teurer), **billiger**, **besser**. The superlative ends in **-schte**: **am
+      billigschte, am beschte, am liebschte, am meischte** (st → scht, and no final n).
+    - >-
+      **als, wie or weder?** After a comparative Zurich speakers say **als** or **wie** (*billiger als / wie s
+      blaue*), and traditionally also **weder** (Alemannic Wikipedia: *andersch weder im Nöihoochtüütsch* =
+      anders als im Neuhochdeutschen). For equal things: **so guet wie**. Bernese says **aus** for *als* (l → u).
+    - >-
+      **Price words:** **tüür** = teuer, **günschtig** = günstig, **billig** = billig (also: cheap and nasty),
+      **z tüür** = zu teuer, **gäbig** = praktisch, handy (lexicon; berndeutsch.ch: *gäbig*). **I de Aktion** =
+      im Angebot: *Aktion* is the everyday word on price tags in Swiss supermarkets and shops.
+    - >-
+      **Shopping in Switzerland:** prices are in **Franken** (CHF), often written *Fr. 89.–* or *89.–*. Second-hand
+      things are an **Occasion** (Duden: schweizerisch; *es Occasionsvelo*), and twice a year – in January and
+      July – shops have their **Ausverkauf** (sales). Bike sales (*Velobörsen*) are popular in spring.
+    - >-
+      **Neuter adjectives as nouns:** *s rote, s blaue* = das rote, das blaue (Velo). In Zurich German the
+      neuter adjective usually has no -s ending here (*s rote*, not *s rotes*).
+    - >-
+      **Bernese** (Sandra's mother): **chöschtlech** = teuer, kostspielig (berndeutsch.ch), **nid** = nicht, **gsy**
+      = gewesen, **viu** = viel, **aus** = als, **ds blaue** = das blaue, **de het er Glück gha** = dann hat er
+      Glück gehabt.

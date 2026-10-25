@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { updateSettings, type Dialect } from '../db';
 import { Logo } from '../components/Logo';
 import { GermanText } from '../components/GermanText';
@@ -55,6 +55,20 @@ export function Onboarding() {
           <button type="button" className="btn-primary w-full" onClick={() => setStep('dialect')}>
             Get started
           </button>
+          <nav aria-label="About and legal" className="flex flex-wrap justify-center gap-x-4 gap-y-1 text-sm">
+            <Link to="/about" className="text-accent underline">
+              What is Doppelpunkt?
+            </Link>
+            <Link to="/privacy" className="text-muted underline">
+              Privacy
+            </Link>
+            <Link to="/terms" className="text-muted underline">
+              Terms
+            </Link>
+            <Link to="/imprint" className="text-muted underline">
+              Imprint
+            </Link>
+          </nav>
         </section>
       )}
 

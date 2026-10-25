@@ -1,0 +1,332 @@
+id: a2-u10
+level: A2
+number: 10
+title: Medien und Kommunikation
+titleEn: Media and messaging
+goal: >-
+  By the end you can talk about how you use your phone, apps and the news, write short messages and
+  emails in the right register (Lieber Martin … / Sehr geehrte Frau Brunner …), ask politely with indirect
+  questions (Weisst du, ob …? Kannst du mir sagen, wann …?), link ideas with deshalb, trotzdem and dann,
+  use zu + infinitive (Ich habe keine Zeit, die Mail zu lesen.), and read the dialect messages Swiss
+  people send each other.
+canDo:
+  - I can say how I use my phone, apps, the internet and the news (Ich lese die Nachrichten auf dem Handy.).
+  - I can ask indirect questions with ob and a question word, with the verb at the end (Weisst du, ob Nadine kommt? Ich weiss nicht, wann der Film beginnt.).
+  - I can give a consequence or a contrast with deshalb and trotzdem (Mein Akku war leer, deshalb habe ich nicht angerufen.).
+  - I can use zu + infinitive after common phrases (Ich habe keine Zeit, … zu …; Vergiss nicht, … anzurufen.).
+  - I can write a short personal message and a short formal email with the right opening and closing.
+  - I can read simple Swiss German text messages (Hoi zäme! Weisch, öb …? Kei Ahnig. Bis morn! Händ en schöne Abig!) and know that many Swiss people text in dialect.
+
+review:
+  notes:
+    - "'Hoi zäme! Wie gahts? Am Samschtig mach ich Znacht. Händ ihr Ziit?' – Wie gahts (texting spelling; lexicon Wie gaats? / Wie gahts?), mach ich Znacht (= koche ich das Abendessen) natural?"
+    - "'Weisch scho, öb d Nadine au chunnt?' – öb (= ob) as the Zurich form; also ob?"
+    - "'Kei Ahnig. Ich ha ere gschribe, aber si hät no nöd gantwortet.' – ere (dative of si, curriculum A2.4), gschribe (ALS-ZH: gschribe), gantwortet (participle of antworte) natural?"
+    - "'Ich ha am Samschtig Frühdienscht, drum chum ich erscht am achti.' – drum (= darum, deshalb) as the everyday Zurich connector; Frühdienscht?"
+    - "'Klar, kei Problem. Bis Samschtig! Händ en schöne Abig!' – Händ en schöne Abig (curriculum) as a greeting to several people in a chat."
+    - "Texting abbreviations taught as recognition only: hdl (ha di gärn / hab dich lieb), lg (liebi Grüess / liebe Grüsse), sry, ok, merci vill mal. No fetchable source lists Swiss chat abbreviations; please confirm which are current."
+    - "Note: 'People aged 20 to 40 write about 80 % of their messages in dialect, people over 65 about 38 %' – SRF, 21 May 2026, on a University of Bern study (Adrian Leemann, Dialäktatlas surveys, still under peer review). Please check the figures before release."
+    - "Vocabulary gswZh forms without a source: Nachricht, Sprachnachricht / Sprachi, Mail (s Mail), übercho / bechoo (bekommen), Aahang, Passwort, Akku, Bildschirm, s Internet, s WLAN, App, Video, poste, teile, lösche, spichere, abelade (herunterladen), schicke, antworte, d Antwort, d Nachrichte (news), Artikel, Sändig, Radio, wichtig, drum, trotzdem, öb, vergässe, frage."
+    - "Swiss Standard: das Mail / das E-Mail (Duden: neuter especially in southern Germany, Austria and Switzerland), das Natel (Duden: schweizerisch neben Handy), Merci, das Inserat. Nadine's lines: 'Weisst du, ob die Sitzung um zehn oder um elf ist?', 'Ich lösche jeden Abend alte Mails.' Please tick."
+    - "Bernese: 'Hoi Sandra, i ha der hüt zwöimau aaglütet. Hesch mi Nachricht übercho?' (aalüte PP aaglütet BD #17260; übercho BD #18862; der = dir?; zwöimau with l → u) / 'Sorry, Mami, mi Akku isch läär gsy. I lüte der hüt am Abe a.' (Abe: lexicon) / 'Guet, tschou!' (BD #12136) – sentence flow?"
+
+intro:
+  scene: >-
+    Tuesday morning in the office in Zurich. Nadine, Tom's colleague from Winterthur, can't reach him on his
+    phone. She speaks Swiss Standard German with him.
+  dialogue:
+    - speaker: Nadine
+      text: Tom, hast du meine Nachricht gelesen?
+      en: Tom, did you read my message?
+      variety: ch-std
+    - speaker: Tom
+      text: Nein, tut mir leid. Mein Handy ist kaputt, deshalb habe ich seit gestern keine Nachrichten bekommen.
+      en: No, sorry. My phone is broken, so I haven't got any messages since yesterday.
+    - speaker: Nadine
+      text: Ach so! Ich habe im Team-Chat geschrieben. Weisst du, ob die Sitzung heute um zehn oder um elf ist?
+      en: I see! I wrote in the team chat. Do you know whether the meeting today is at ten or at eleven?
+      variety: ch-std
+    - speaker: Tom
+      text: Keine Ahnung. Martin weiß sicher, wann sie beginnt.
+      en: No idea. Martin is sure to know when it starts.
+    - speaker: Nadine
+      text: Martin ist heute im Homeoffice. Er hat ein Mail an alle geschickt, aber ich finde es nicht mehr.
+      en: Martin is working from home today. He sent an email to everyone, but I can't find it any more.
+      variety: ch-std
+    - speaker: Tom
+      text: Hast du es vielleicht gelöscht?
+      en: Did you maybe delete it?
+    - speaker: Nadine
+      text: Kann sein. Ich lösche jeden Abend alte Mails. Trotzdem ist mein Postfach immer voll!
+      en: Could be. I delete old emails every evening. Even so, my inbox is always full!
+      variety: ch-std
+    - speaker: Tom
+      text: Dann schreibe ich Martin schnell vom Computer aus.
+      en: Then I'll quickly write to Martin from the computer.
+    - speaker: Nadine
+      text: Gute Idee. Und vergiss nicht, ihm das Dokument zu schicken!
+      en: Good idea. And don't forget to send him the document!
+      variety: ch-std
+    - speaker: Tom
+      text: Mache ich. Oh, er hat schon geantwortet. Die Sitzung ist um elf.
+      en: Will do. Oh, he's already replied. The meeting is at eleven.
+    - speaker: Nadine
+      text: Super, dann habe ich noch Zeit, einen Kaffee zu trinken!
+      en: Great, then I still have time to have a coffee!
+      variety: ch-std
+
+grammar:
+  - id: indirect-questions
+    title: "Indirect questions: Weisst du, ob …? Kannst du mir sagen, wann …?"
+    body: >-
+      A direct question can sound abrupt. Put a polite phrase in front and the question becomes a
+      **subordinate clause** with the **verb at the end**: *Wann beginnt die Sitzung?* → *Weisst du, **wann** die
+      Sitzung **beginnt**?*
+
+
+      - **W-questions** keep their question word: *Wo ist mein Handy?* → *Ich weiss nicht, **wo** mein Handy
+        **ist**.*
+
+      - **Yes/no questions** take **ob** (*whether / if*): *Kommt Nadine?* → *Weisst du, **ob** Nadine
+        **kommt**?*
+
+
+      Typical openers: *Weisst du / Wissen Sie, …? Kannst du mir sagen, …? Ich weiss nicht, … Ich möchte wissen,
+      … Ich frage Martin, …* The end of the sentence follows the opener: a question mark after *Weisst du, …?*, a
+      full stop after *Ich weiss nicht, …*.
+
+
+      **ob or wenn?** English *if* has two jobs. *Whether* = **ob** (*Ich weiss nicht, ob er kommt*). A
+      condition = **wenn** (*Wenn er kommt, kochen wir*, unit 9).
+    tables:
+      - [["Direct question", "Indirect question (verb at the end)"],
+         ["Wann beginnt die Sitzung?", "Weisst du, wann die Sitzung beginnt?"],
+         ["Wo ist mein Handy?", "Ich weiss nicht, wo mein Handy ist."],
+         ["Kommt Nadine morgen?", "Weisst du, ob Nadine morgen kommt?"],
+         ["Hat Martin geantwortet?", "Kannst du mir sagen, ob Martin geantwortet hat?"],
+         ["Wie funktioniert die App?", "Ich möchte wissen, wie die App funktioniert."]]
+    commonMistakes:
+      - "*Weisst du, wann beginnt die Sitzung?* → **Weisst du, wann die Sitzung beginnt?** The verb goes to the end."
+      - "*Ich weiss nicht, wenn er kommt.* → **Ich weiss nicht, ob er kommt.** whether = ob."
+      - "*Weisst du, ob hat er geantwortet?* → **Weisst du, ob er geantwortet hat?** In the Perfekt, hat is the very last word."
+
+  - id: connectors-deshalb-trotzdem
+    title: "deshalb, trotzdem, dann: linking two main clauses"
+    body: >-
+      **deshalb** (*so, that's why*), **trotzdem** (*even so, anyway*) and **dann** (*then*) are adverbs, not
+      conjunctions. They take **position 1** of a normal main clause, so the **verb comes straight after them**:
+      *Mein Akku war leer. **Deshalb habe** ich nicht angerufen.*
+
+
+      - **deshalb** = consequence: *Mein Handy ist kaputt, **deshalb habe** ich keine Nachrichten bekommen.*
+
+      - **trotzdem** = contrast (it happens anyway): *Ich lösche jeden Abend Mails. **Trotzdem ist** mein
+        Postfach voll.*
+
+      - **dann** = next step or consequence: *Er hat geantwortet, **dann** schreibe ich jetzt die Mail.*
+
+
+      They can also stand later in the clause: *Ich habe **deshalb** nicht angerufen. Wir gehen **trotzdem**
+      spazieren.* Compare **weil** (unit 8), which sends the verb to the end: *Ich habe nicht angerufen, **weil**
+      mein Akku leer **war**.*
+    tables:
+      - [["Clause 1", "Position 1", "Verb", "Rest"],
+         ["Mein Akku war leer,", "deshalb", "habe", "ich nicht angerufen."],
+         ["Es regnet,", "trotzdem", "gehen", "wir spazieren."],
+         ["Er hat geantwortet,", "dann", "schreibe", "ich die Mail."]]
+      - [["Cause first (deshalb)", "Consequence first (weil)"],
+         ["Mein Akku war leer, deshalb habe ich nicht angerufen.", "Ich habe nicht angerufen, weil mein Akku leer war."]]
+    commonMistakes:
+      - "*Deshalb ich habe nicht angerufen.* → **Deshalb habe ich nicht angerufen.** deshalb is position 1: verb next."
+      - "*Trotzdem ich komme.* → **Trotzdem komme ich.**"
+      - "*Ich komme, trotzdem ich krank bin.* → **Ich bin krank, trotzdem komme ich.** trotzdem is not a conjunction."
+
+  - id: zu-infinitive
+    title: "zu + infinitive: Ich habe keine Zeit, die Mail zu lesen."
+    body: >-
+      After many phrases the second verb comes as **zu + infinitive** at the **end**: *Ich habe keine Zeit, die
+      Mail **zu lesen**. Vergiss nicht, das Dokument **zu schicken**! Es ist wichtig, das Passwort **zu
+      speichern**.*
+
+
+      With **separable verbs**, *zu* goes **between** the prefix and the verb, written as one word:
+      *anrufen → an**zu**rufen, aufladen → auf**zu**laden, herunterladen → herunter**zu**laden*.
+
+
+      **No zu after modal verbs** (A1.7): *Ich **muss** die Mail **lesen*** (not *zu lesen*). And no *zu* after
+      *möchten, können, wollen, dürfen, sollen*.
+
+
+      Common openers at A2: *Ich habe (keine) Zeit / Lust, … zu …; Vergiss nicht, … zu …; Es ist wichtig /
+      schwierig / einfach, … zu …; Ich versuche, … zu …* (versuchen = to try).
+    tables:
+      - [["Opener", "zu + infinitive at the end"],
+         ["Ich habe keine Zeit,", "die Mail zu lesen."],
+         ["Vergiss nicht,", "Martin anzurufen!"],
+         ["Es ist wichtig,", "das Handy aufzuladen."],
+         ["Ich habe Lust,", "einen Kaffee zu trinken."]]
+    commonMistakes:
+      - "*Ich muss die Mail zu lesen.* → **Ich muss die Mail lesen.** No zu after modal verbs."
+      - "*Vergiss nicht, zu anrufen.* → **Vergiss nicht anzurufen.** Separable verbs: zu in the middle."
+      - "*Ich habe keine Zeit zu die Mail lesen.* → **Ich habe keine Zeit, die Mail zu lesen.** zu + infinitive at the very end."
+
+  - id: messages-register
+    title: "Messages and emails: du or Sie, openings and closings"
+    body: >-
+      German messages show the **register** in the first and last line.
+
+
+      - **Informal** (friends, many colleagues in Switzerland): *Hallo Martin, / Hoi Martin, / **Lieber** Martin, /
+        **Liebe** Nadine,* – closing *Viele Grüsse / Liebe Grüsse / LG*, and your first name.
+
+      - **Formal** (a landlord, a company, someone you say Sie to): ***Sehr geehrte** Frau Brunner, / **Sehr
+        geehrter** Herr Huber, / Sehr geehrte Damen und Herren,* – closing ***Freundliche Grüsse*** (common in
+        Switzerland) or ***Mit freundlichen Grüssen***, and your full name.
+
+
+      After the comma of the opening, the next line starts with a **small letter** unless the word is a noun or
+      *Sie*: *Sehr geehrte Frau Brunner, | ich möchte …* In Switzerland the comma is often left out; then the
+      next line starts with a capital letter (*Liebe Kolleginnen und Kollegen | Viele von euch …*). Give an email a short **Betreff** (subject line). In
+      Switzerland you write **ss** for ß: *Grüsse, weiss*.
+    tables:
+      - [["", "Informal", "Formal"],
+         ["Opening (man)", "Lieber Martin,", "Sehr geehrter Herr Huber,"],
+         ["Opening (woman)", "Liebe Nadine,", "Sehr geehrte Frau Brunner,"],
+         ["Opening (group / unknown)", "Hallo zusammen,", "Sehr geehrte Damen und Herren,"],
+         ["Closing", "Viele Grüsse / Liebe Grüsse", "Freundliche Grüsse / Mit freundlichen Grüssen"]]
+    commonMistakes:
+      - "*Sehr geehrte Herr Huber,* → **Sehr geehrter Herr Huber,** The ending follows Herr / Frau."
+      - "*Lieber Frau Brunner,* → **Liebe Frau Brunner,** (or formal **Sehr geehrte Frau Brunner,**)."
+      - "*Hallo Frau Brunner, wie gehts?* is too casual for a first email to a landlord – use Sehr geehrte …"
+
+reading:
+  title: "Mail: Neue Regeln für den Team-Chat"
+  text: >-
+    Betreff: Team-Chat und Mails – bitte lesen
+
+
+    Liebe Kolleginnen und Kollegen
+
+
+    Viele von euch haben mich gefragt, ob wir den Team-Chat auch am Wochenende benutzen sollen. Die Antwort
+    ist: Nein. Am Wochenende und nach 19 Uhr haben alle frei. Deshalb bitte keine Nachrichten nach 19 Uhr!
+
+
+    Für wichtige Dokumente schickt ihr bitte weiterhin ein Mail mit Anhang. Im Chat findet man alte Dateien
+    nach ein paar Tagen nicht mehr. Wenn ihr nicht wisst, wo ein Dokument ist, fragt Martin.
+
+
+    Und noch etwas: Unser WLAN-Passwort ist neu. Es ist wichtig, das Passwort nicht im Chat zu teilen. Ihr
+    findet es am Empfang.
+
+
+    Ich weiss, dass das viele Regeln sind. Trotzdem hoffe ich, dass alles klar ist. Bei Fragen ruft mich
+    einfach an.
+
+
+    Freundliche Grüsse
+
+    Sabine Brunner
+  en: >-
+    Subject: Team chat and emails – please read
+
+
+    Dear colleagues
+
+
+    Many of you have asked me whether we should use the team chat at the weekend too. The answer is: no. At the
+    weekend and after 7 p.m. everyone is off. So please no messages after 7 p.m.!
+
+
+    For important documents, please continue to send an email with an attachment. In the chat you can't find
+    old files any more after a few days. If you don't know where a document is, ask Martin.
+
+
+    And one more thing: our Wi-Fi password is new. It's important not to share the password in the chat. You
+    can get it at reception.
+
+
+    I know that's a lot of rules. Even so, I hope everything is clear. If you have questions, just call me.
+
+
+    Kind regards
+
+    Sabine Brunner
+
+swiss:
+  scene: >-
+    Thursday evening. Reto writes in the group chat "Znacht am Samschtig" with Sandra, Tom and Anna. Like most
+    Swiss people his age, he texts in dialect, and Sandra too – there is no fixed spelling. Tom answers in
+    Standard German. Later Sandra's mother leaves her a voice message from Bern.
+  dialogue:
+    - speaker: Reto
+      text: Hoi zäme! Wie gahts? Am Samschtig mach ich Znacht. Händ ihr Ziit?
+      en: Hi everyone! How are you? On Saturday I'm cooking dinner. Do you have time?
+      variety: gsw-zh
+    - speaker: Sandra
+      text: Hoi! Ja, gärn! Weisch scho, öb d Nadine au chunnt?
+      en: Hi! Yes, I'd love to! Do you know yet whether Nadine is coming too?
+      variety: gsw-zh
+    - speaker: Reto
+      text: Kei Ahnig. Ich ha ere gschribe, aber si hät no nöd gantwortet.
+      en: No idea. I wrote to her, but she hasn't replied yet.
+      variety: gsw-zh
+    - speaker: Tom
+      text: Hallo zusammen! Anna und ich kommen gern. Sollen wir etwas mitbringen?
+      en: Hi all! Anna and I would love to come. Shall we bring something?
+    - speaker: Reto
+      text: Merci, das isch lieb! Bringed ihr es Dessert?
+      en: Thanks, that's kind! Will you bring a dessert?
+      variety: gsw-zh
+    - speaker: Sandra
+      text: Ich ha am Samschtig Frühdienscht, drum chum ich erscht am achti. Isch das ok?
+      en: I'm on the early shift on Saturday, so I won't come until eight. Is that OK?
+      variety: gsw-zh
+    - speaker: Reto
+      text: Klar, kei Problem. Bis Samschtig! Händ en schöne Abig!
+      en: Sure, no problem. See you Saturday! Have a nice evening, all of you!
+      variety: gsw-zh
+    - speaker: Sandra
+      text: Merci, du au! hdl
+      en: Thanks, you too! Love you (lots of love)
+      variety: gsw-zh
+    - speaker: Mami
+      text: Hoi Sandra, i ha der hüt zwöimau aaglütet. Hesch mi Nachricht übercho?
+      en: Hi Sandra, I phoned you twice today. Did you get my message?
+      variety: gsw-be
+    - speaker: Sandra
+      text: Sorry, Mami, mi Akku isch läär gsy. I lüte der hüt am Abe a.
+      en: Sorry, Mum, my battery was dead. I'll call you this evening.
+      variety: gsw-be
+    - speaker: Mami
+      text: Guet, tschou!
+      en: OK, bye!
+      variety: gsw-be
+  notes:
+    - >-
+      **Swiss people text in dialect.** Speaking is dialect, and so is most private writing on the phone: in a
+      University of Bern study reported by SRF (2026), people aged 20 to 40 wrote about 80 % of their messages in
+      dialect, people over 65 about 38 %. Emails at work, letters and forms stay in Swiss Standard German. So
+      in Switzerland you need to *read* dialect, even if you never write it.
+    - >-
+      **No fixed spelling.** Everyone writes the way they speak: *Wie gahts? / Wie gaats? / wiegahts?*, *gärn /
+      gern*, *chunnt / chunt*. Read the message **aloud** – the sounds tell you the word: *Ziit* (Zeit),
+      *gschribe* (geschrieben), *Ahnig* (Ahnung), *erscht* (erst).
+    - >-
+      **Dialect grammar in messages:** **öb** = ob (*Weisch, öb d Nadine chunnt?* – the verb is at the end, as in
+      Standard German), **drum** = darum / deshalb (*drum chum ich erscht am achti*), **trotzdem** is the same,
+      **z** + infinitive = zu + infinitive (*Ich ha kei Ziit, z poschte*). **Händ ihr …?** = Habt ihr …?, and
+      **Händ en schöne Abig!** = Habt einen schönen Abend! (to several people; to one person: *Häsch en schöne
+      Abig!* or simply *En schöne!*).
+    - >-
+      **Short forms you will see:** *hdl* (ha di gärn / hab dich lieb – to family and close friends), *lg*
+      (liebi Grüess), *sry*, *ok*, *merci vill mal*, *Bis morn!* (Bis morgen!), *Bis spöter!*. Emojis do the rest.
+    - >-
+      **Swiss Standard German:** **das Mail** (Duden: the neuter *das E-Mail / das Mail* is used especially in
+      southern Germany, Austria and Switzerland), **das Natel** (Duden: schweizerisch, next to *Handy*),
+      **Merci**, and **Freundliche Grüsse** to close a work email.
+    - >-
+      **Bernese** (Sandra's mother): **aalüte** = anrufen (berndeutsch.ch: PP *aaglütet*; *i lüte der a* = ich rufe
+      dich an), **übercho** = bekommen (berndeutsch.ch: *i ha übercho*), **hesch** = hast du, **zwöimau** =
+      zweimal (l → u), **läär** = leer, **gsy** = gewesen, **am Abe** = am Abend, **tschou** = tschüss
+      (berndeutsch.ch).

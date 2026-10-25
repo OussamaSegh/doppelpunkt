@@ -1,0 +1,346 @@
+# A2 unit 10 – Medien und Kommunikation
+
+# ---------- messages ----------
+- id: nachricht
+  de: Nachricht
+  en: message
+  pos: noun
+  gender: f
+  plural: Nachrichten
+  example: { de: "Hast du meine Nachricht gelesen?", en: "Did you read my message?" }
+  gswZh: Nachricht
+  tags: [media, messages]
+
+- id: sprachnachricht
+  de: Sprachnachricht
+  en: voice message
+  pos: noun
+  gender: f
+  plural: Sprachnachrichten
+  example: { de: "Meine Mutter schickt mir jeden Tag eine Sprachnachricht.", en: "My mother sends me a voice message every day." }
+  gswZh: Sprachnachricht / Sprachi (colloquial)
+  tags: [media, messages]
+
+- id: e-mail
+  de: E-Mail
+  en: email
+  pos: noun
+  gender: f
+  plural: E-Mails
+  example: { de: "Ich schreibe dir später eine E-Mail.", en: "I'll write you an email later." }
+  chStd: das Mail / das E-Mail (Duden – neuter especially in Switzerland)
+  gswZh: s Mail
+  tags: [media, messages, helvetism]
+
+- id: betreff
+  de: Betreff
+  en: subject (of an email)
+  pos: noun
+  gender: m
+  plural: Betreffe
+  example: { de: "Schreib bitte einen kurzen Betreff.", en: "Please write a short subject line." }
+  gswZh: Betreff
+  tags: [media, messages]
+
+- id: anhang
+  de: Anhang
+  en: attachment
+  pos: noun
+  gender: m
+  plural: Anhänge
+  example: { de: "Das Dokument ist im Anhang.", en: "The document is attached." }
+  gswZh: Aahang
+  tags: [media, messages]
+
+- id: antwort
+  de: Antwort
+  en: answer, reply
+  pos: noun
+  gender: f
+  plural: Antworten
+  example: { de: "Vielen Dank für deine schnelle Antwort!", en: "Thanks a lot for your quick reply!" }
+  gswZh: Antwort
+  tags: [media, messages]
+
+- id: antworten
+  de: antworten
+  en: to answer, to reply
+  pos: verb
+  example: { de: "Martin hat schon geantwortet.", en: "Martin has already replied." }
+  gswZh: antworte (gantwortet)
+  tags: [media, verbs]
+
+- id: erreichen
+  de: erreichen
+  en: to reach, to get hold of (someone)
+  pos: verb
+  example: { de: "Ich habe dich gestern nicht erreicht.", en: "I couldn't get hold of you yesterday." }
+  gswZh: erreiche
+  tags: [media, verbs, inseparable]
+
+- id: bekommen
+  de: bekommen
+  en: to get, to receive
+  pos: verb
+  example: { de: "Ich habe deine Nachricht nicht bekommen.", en: "I didn't get your message." }
+  gswZh: übercho / bechoo (ich ha übercho)
+  gswBe: übercho (i ha übercho)
+  tags: [media, verbs, false-friend]
+
+- id: loeschen
+  de: löschen
+  en: to delete
+  pos: verb
+  example: { de: "Ich lösche jeden Abend alte E-Mails.", en: "I delete old emails every evening." }
+  gswZh: lösche
+  tags: [media, verbs]
+
+- id: speichern
+  de: speichern
+  en: to save (a file, a number)
+  pos: verb
+  example: { de: "Hast du meine Nummer gespeichert?", en: "Have you saved my number?" }
+  gswZh: spichere
+  tags: [media, verbs]
+
+- id: teilen
+  de: teilen
+  en: to share
+  pos: verb
+  example: { de: "Teil das Passwort bitte nicht im Chat!", en: "Please don't share the password in the chat!" }
+  gswZh: teile
+  tags: [media, verbs]
+
+- id: herunterladen
+  de: herunterladen
+  en: to download
+  pos: verb
+  example: { de: "Ich habe die App heruntergeladen.", en: "I've downloaded the app." }
+  gswZh: abelade / herunterlade
+  tags: [media, verbs, separable]
+
+- id: aufladen
+  de: aufladen
+  en: to charge (a battery)
+  pos: verb
+  example: { de: "Ich muss mein Handy aufladen.", en: "I have to charge my phone." }
+  gswZh: uflade / lade
+  tags: [media, verbs, separable]
+
+- id: posten
+  de: posten
+  en: to post (online)
+  pos: verb
+  example: { de: "Sie postet jeden Tag ein Foto.", en: "She posts a photo every day." }
+  gswZh: poste
+  tags: [media, verbs]
+
+# ---------- devices and the internet ----------
+- id: smartphone
+  de: Smartphone
+  en: smartphone
+  pos: noun
+  gender: n
+  plural: Smartphones
+  example: { de: "Ich lese die Zeitung auf dem Smartphone.", en: "I read the newspaper on my smartphone." }
+  chStd: Smartphone / Natel (Duden – schweizerisch)
+  gswZh: Handy / Natel
+  tags: [media, devices, helvetism]
+
+- id: akku
+  de: Akku
+  en: (rechargeable) battery
+  pos: noun
+  gender: m
+  plural: Akkus
+  example: { de: "Mein Akku ist leer.", en: "My battery is dead." }
+  gswZh: Akku
+  tags: [media, devices]
+
+- id: bildschirm
+  de: Bildschirm
+  en: screen
+  pos: noun
+  gender: m
+  plural: Bildschirme
+  example: { de: "Der Bildschirm von meinem Handy ist kaputt.", en: "The screen of my phone is broken." }
+  gswZh: Bildschirm
+  tags: [media, devices]
+
+- id: app
+  de: App
+  en: app
+  pos: noun
+  gender: f
+  plural: Apps
+  example: { de: "Mit dieser App kann man Zugbillette kaufen.", en: "With this app you can buy train tickets." }
+  gswZh: App
+  tags: [media, internet]
+
+- id: internet
+  de: Internet
+  en: internet
+  pos: noun
+  gender: n
+  plural: "-"
+  example: { de: "Ich suche die Adresse im Internet.", en: "I'm looking up the address on the internet." }
+  gswZh: Internet
+  tags: [media, internet]
+
+- id: wlan
+  de: WLAN
+  en: Wi-Fi
+  pos: noun
+  gender: n
+  plural: WLANs
+  example: { de: "Wie ist das WLAN-Passwort?", en: "What's the Wi-Fi password?" }
+  gswZh: WLAN / Wifi
+  tags: [media, internet]
+
+- id: passwort
+  de: Passwort
+  en: password
+  pos: noun
+  gender: n
+  plural: Passwörter
+  example: { de: "Ich habe mein Passwort vergessen.", en: "I've forgotten my password." }
+  gswZh: Passwort
+  tags: [media, internet]
+
+- id: video
+  de: Video
+  en: video
+  pos: noun
+  gender: n
+  plural: Videos
+  example: { de: "Hast du das Video schon gesehen?", en: "Have you seen the video yet?" }
+  gswZh: Video
+  tags: [media, internet]
+
+- id: online
+  de: online
+  en: online
+  pos: adj
+  example: { de: "Ich kaufe meine Billette online.", en: "I buy my tickets online." }
+  gswZh: online
+  tags: [media, internet]
+
+# ---------- the news ----------
+- id: nachrichten-news
+  de: Nachrichten
+  en: the news
+  pos: noun
+  pluralOnly: true
+  example: { de: "Am Morgen höre ich die Nachrichten im Radio.", en: "In the morning I listen to the news on the radio." }
+  gswZh: d Nachrichte
+  tags: [media, news]
+
+- id: artikel
+  de: Artikel
+  en: article
+  pos: noun
+  gender: m
+  plural: Artikel
+  example: { de: "Ich habe einen interessanten Artikel gelesen.", en: "I read an interesting article." }
+  gswZh: Artikel
+  tags: [media, news]
+
+- id: sendung
+  de: Sendung
+  en: programme, show (TV, radio)
+  pos: noun
+  gender: f
+  plural: Sendungen
+  example: { de: "Die Sendung beginnt um acht.", en: "The programme starts at eight." }
+  gswZh: Sändig
+  tags: [media, news]
+
+- id: radio
+  de: Radio
+  en: radio
+  pos: noun
+  gender: n
+  plural: Radios
+  example: { de: "Im Auto höre ich gern Radio.", en: "I like listening to the radio in the car." }
+  gswZh: Radio
+  tags: [media, news]
+
+# ---------- linking and asking ----------
+- id: ob
+  de: ob
+  en: whether, if
+  pos: conj
+  example: { de: "Weißt du, ob Nadine morgen kommt?", en: "Do you know whether Nadine is coming tomorrow?" }
+  gswZh: öb / ob
+  tags: [conjunctions, questions]
+
+- id: deshalb
+  de: deshalb
+  en: so, that's why
+  pos: adv
+  example: { de: "Mein Akku war leer, deshalb habe ich nicht angerufen.", en: "My battery was dead, so I didn't call." }
+  gswZh: drum / wäge dem
+  tags: [connectors]
+
+- id: trotzdem
+  de: trotzdem
+  en: even so, anyway
+  pos: adv
+  example: { de: "Es regnet, trotzdem gehen wir spazieren.", en: "It's raining, but we're going for a walk anyway." }
+  gswZh: trotzdem
+  tags: [connectors]
+
+- id: wissen
+  de: wissen
+  en: to know (a fact)
+  pos: verb
+  example: { de: "Ich weiß nicht, wann der Film beginnt.", en: "I don't know when the film starts." }
+  gswZh: wüsse (ich weiss, du weisch)
+  tags: [verbs, irregular]
+
+- id: fragen
+  de: fragen
+  en: to ask
+  pos: verb
+  example: { de: "Ich frage Martin, ob er Zeit hat.", en: "I'll ask Martin whether he has time." }
+  gswZh: frage
+  tags: [verbs]
+
+- id: vergessen
+  de: vergessen
+  en: to forget
+  pos: verb
+  example: { de: "Vergiss nicht, das Dokument zu schicken!", en: "Don't forget to send the document!" }
+  gswZh: vergässe (participle vergässe)
+  tags: [verbs, irregular]
+
+- id: wichtig
+  de: wichtig
+  en: important
+  pos: adj
+  example: { de: "Es ist wichtig, das Passwort nicht zu teilen.", en: "It's important not to share the password." }
+  gswZh: wichtig
+  tags: [describing]
+
+- id: keine-ahnung
+  de: Keine Ahnung!
+  en: No idea!
+  pos: phrase
+  example: { de: "Wann kommt der Bus? – Keine Ahnung!", en: "When is the bus coming? – No idea!" }
+  gswZh: Kei Ahnig!
+  tags: [phrases]
+
+- id: sehr-geehrte
+  de: Sehr geehrte Frau … / Sehr geehrter Herr …
+  en: Dear Ms … / Dear Mr … (formal)
+  pos: phrase
+  example: { de: "Sehr geehrte Frau Brunner, vielen Dank für Ihre Mail.", en: "Dear Ms Brunner, thank you for your email." }
+  tags: [messages, register]
+
+- id: freundliche-gruesse
+  de: Mit freundlichen Grüßen
+  en: Kind regards, Yours sincerely (formal)
+  pos: phrase
+  example: { de: "Mit freundlichen Grüßen, Tom Baker", en: "Kind regards, Tom Baker" }
+  chStd: Freundliche Grüsse (very common in Switzerland)
+  tags: [messages, register]

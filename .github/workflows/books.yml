@@ -1,0 +1,60 @@
+name: Books
+
+# Builds Book 1 "Doppelpunkt 1: Ankommen" and its answer key as PDF (docs/BOOKS.md) and uploads
+# them as a workflow artifact. Runs when content, the book tools or the template change.
+on:
+  push:
+    branches: [main]
+    paths: ['content/**', 'books/**', 'tools/src/book.ts', 'tools/src/load.ts', 'packages/content-schema/**', '.github/workflows/books.yml']
+  pull_request:
+    paths: ['content/**', 'books/**', 'tools/src/book.ts', 'tools/src/load.ts', 'packages/content-schema/**', '.github/workflows/books.yml']
+  workflow_dispatch:
+
+concurrency:
+  group: books-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  book:
+    name: Build Book 1 (PDF)
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      # Same version as TYPST_VERSION in tools/src/book.ts.
+      - uses: typst-community/setup-typst@v4
+        with:
+          typst-version: '0.13.1'
+
+      - name: Fonts (Inter for headings; body fonts ship with typst)
+        run: sudo apt-get update && sudo apt-get install -y --no-install-recommends fonts-inter poppler-utils
+
+      - name: Book generator tests
+        run: npx vitest run tools/test/book.test.ts
+
+      - name: Build the book and the answer key
+        run: npm run book:build -- --require-pdf --no-download
+
+      - name: Page counts
+        run: for f in books/build/*.pdf; do echo "$f: $(pdfinfo "$f" | awk '/^Pages/ {print $2}') pages"; done
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: doppelpunkt-1-ankommen-pdf
+          path: |
+            books/build/*.pdf
+            books/build/*.typ
+          if-no-files-found: error
+          retention-days: 30

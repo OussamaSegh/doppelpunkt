@@ -1,0 +1,329 @@
+id: a2-u07
+level: A2
+number: 7
+title: Gesund leben
+titleEn: Living healthily
+goal: >-
+  By the end you can talk about your daily routine, sport, sleep, food and stress, say how you feel, and
+  give someone simple advice – using reflexive verbs (sich fühlen, sich freuen, sich bewegen, sich
+  ausruhen) with the reflexive pronouns mich, dich, sich, uns, euch, sich, and sich + dative with parts of
+  the body as a chunk (Ich putze mir die Zähne) – and recognise the Swiss go + infinitive (Ich gang go
+  jogge. Mir gönd go schwümme.), sich fröie, müed and gstresst.
+canDo:
+  - I can describe my routine with reflexive verbs (Ich stehe auf, dusche mich und ziehe mich an.).
+  - I can say how I feel and what I do for my health (Ich fühle mich fit. Ich bewege mich jeden Tag.).
+  - I can use the reflexive pronouns in the present and the Perfekt (Ich habe mich gut erholt.).
+  - I can give simple advice with the imperative and müssen / können (Ruh dich aus! Du musst mehr schlafen.).
+  - I can understand a short magazine text with health tips.
+  - I can recognise the Swiss German go + infinitive (Ich gang go jogge, Mir gönd go schwümme) and sich fröie, müed, gstresst.
+
+review:
+  notes:
+    - "'Hoi Reto! Du gsehsch müed us. Was isch los?' – gsehsch … us (siehst … aus), müed (lexicon), Was isch los? (lexicon)."
+    - "'Ich bi total gstresst. Im Kafi isch so vill los, und ich schlaf schlächt.' – gstresst (curriculum), schlaf (1st person without -e), schlächt (lexicon)."
+    - "'Du muesch di meh bewege. Ich gang am Abig go jogge – chunnsch mit?' – di (dich) as the unstressed reflexive, bewege; go jogge (curriculum)."
+    - "'Jogge? Nei, das isch mer z streng.' – z streng (zu anstrengend, A2.3); the joke in line 8 plays on streng = strict (Germany) and streng = tiring (Switzerland)."
+    - "'Dänn gömmer halt go schwümme. Im Hallebad isch es schön warm.' – gömmer (gehen wir, A1.7), go schwümme (lexicon), Hallebad (A2.1)."
+    - "'Okay, das tönt guet. Ich fröi mich!' – tönt (Duden: tönen = klingen, schweizerisch), Ich fröi mich (fröie, sich: BD #12017 for Bern; Zurich fröi mich?)."
+    - "'Und morn gönd mir zäme go poschte – öppis Gsunds fürs Znacht!' – Mir gönd go poschte (curriculum), öppis Gsunds (etwas Gesundes), fürs Znacht."
+    - "'Du bisch strenger als min Dokter!' – strenger als (comparative review), Dokter (lexicon)."
+    - "Reflexive pronouns in the notes: mich / mi, dich / di, sich, öis, eu, sich (WP-SG: 'Laa mi la ässe' for mi). Please confirm the unstressed mi / di and the plural öis / eu."
+    - "go + infinitive in the notes: Ich gang go jogge, Mir gönd go poschte (curriculum), Chunnsch mit go schwümme?, past Ich bi go jogge (lexicon: Ich bi go schwümme; WP-SG 'Ich gang jetzt go ässe', 'Er chunnt jetzt cho ässe'). Is 'chunnsch mit go schwümme?' natural, or 'chunnsch au go schwümme?'"
+    - "Pfnüsel = Schnupfen (zuerich.com glossary) – Zurich vocabulary; and de Pfnüsel in Swiss Standard? (Duden page for Pfnüsel could not be fetched.)"
+    - "Swiss Standard: das Fitness / ins Fitness gehen (for Fitnesscenter; Duden gives Fitnesscenter without a label), die Früchte (Obst), das Gemüse, sich anmelden, tönen = klingen (Duden: schweizerisch). Please tick."
+    - "Swiss Standard dialogue lines (Nadine): 'Jetzt gehe ich zweimal pro Woche joggen.' / 'Ich stehe um sechs auf, ziehe mich an und jogge eine halbe Stunde am See.' / 'Wir treffen uns um halb sieben beim Bahnhof.' – beim Bahnhof (Swiss) vs am Bahnhof?"
+    - "Vocabulary gswZh forms without a source: Sport, jogge, Fitness, Yoga, Stress, gstresst, Schlaf, Ernährig, Gmües, Frücht / Obscht, Körper, Rugge, Zaa (Zä), Pfnüsel, sich füele, sich fröie, sich bewege, sich uusruebe / sich uusruhe, sich entspanne, sich erhole, sich aalegge, sich wäsche, sich dusche, sich beeile / pressiere, sich träffe, sich aamälde, uufwache / verwache, fit, gsund, ungsund, regelmässig, Tipp, abnäh, rauche, Bewegig."
+    - "Bernese: 'Sandra, bisch müed?' (müed, BD #54376) / 'E chli. I bi am Morge go jogge.' (jogge / tschogge, BD #56700: 'mir sy tschogget'; is 'i bi go jogge' Bernese, or 'i bi ga jogge'?) / 'Bravo! I fröie mi, dass es dir guet geit.' (fröie, sech, BD #12017; geit = geht) – sentence flow?"
+
+intro:
+  scene: >-
+    Monday lunchtime in the canteen in Zurich Oerlikon. Tom looks tired. His colleague Nadine, from
+    Winterthur, speaks Swiss Standard German with him and tells him how she keeps fit.
+  dialogue:
+    - speaker: Nadine
+      text: Tom, du siehst müde aus. Fühlst du dich nicht gut?
+      en: Tom, you look tired. Aren't you feeling well?
+      variety: ch-std
+    - speaker: Tom
+      text: Doch, aber ich bin total gestresst. Ich schlafe schlecht und bewege mich zu wenig.
+      en: I am, but I'm totally stressed. I sleep badly and I don't move enough.
+    - speaker: Nadine
+      text: Das kenne ich. Früher habe ich mich auch nie bewegt. Jetzt gehe ich zweimal pro Woche joggen.
+      en: I know that feeling. I never used to exercise either. Now I go jogging twice a week.
+      variety: ch-std
+    - speaker: Tom
+      text: Wirklich? Und wann? Nach der Arbeit bin ich immer so müde.
+      en: Really? And when? After work I'm always so tired.
+    - speaker: Nadine
+      text: Am Morgen, vor der Arbeit. Ich stehe um sechs auf, ziehe mich an und jogge eine halbe Stunde am See.
+      en: In the morning, before work. I get up at six, get dressed and jog for half an hour by the lake.
+      variety: ch-std
+    - speaker: Tom
+      text: Um sechs? Um sechs wache ich nicht einmal auf!
+      en: At six? At six I'm not even awake!
+    - speaker: Nadine
+      text: Am Anfang war das schwer. Aber jetzt fühle ich mich viel fitter.
+      en: At first it was hard. But now I feel much fitter.
+      variety: ch-std
+    - speaker: Tom
+      text: Und was machst du gegen Stress?
+      en: And what do you do about stress?
+    - speaker: Nadine
+      text: Am Wochenende ruhe ich mich richtig aus. Und am Abend schaue ich nicht mehr aufs Handy.
+      en: At the weekend I have a proper rest. And in the evening I don't look at my phone any more.
+      variety: ch-std
+    - speaker: Tom
+      text: Gute Idee. Vielleicht melde ich mich im Fitnesscenter an.
+      en: Good idea. Maybe I'll sign up at the gym.
+    - speaker: Nadine
+      text: Oder du kommst am Donnerstag mit. Wir treffen uns um halb sieben beim Bahnhof.
+      en: Or you come along on Thursday. We meet at half past six by the station.
+      variety: ch-std
+    - speaker: Tom
+      text: Um halb sieben am Morgen? Na gut … ich versuche es!
+      en: At half past six in the morning? Oh well … I'll give it a try!
+
+grammar:
+  - id: reflexive-verbs
+    title: "Reflexive verbs: sich fühlen, sich freuen, sich bewegen …"
+    body: >-
+      A **reflexive verb** has an object that is the same person as the subject: *Ich fühle **mich** gut.* (I feel
+      good – literally I feel myself good.) In the dictionary they are listed with **sich**: *sich fühlen, sich
+      bewegen, sich ausruhen*.
+
+
+      - Some verbs are **always** reflexive: ***sich freuen** (auf / über), **sich erholen**, **sich beeilen**,
+      **sich ausruhen***.
+
+      - Others can have another object, and are reflexive when you do it to yourself: *Ich wasche **das Auto**.*
+      – *Ich wasche **mich**.* / *Ich ziehe **das Kind** an.* – *Ich ziehe **mich** an.*
+
+      - ***sich treffen*** can mean *each other*: *Wir treffen **uns** um halb sieben.*
+
+
+      English often has no pronoun here (*I'm resting, I get dressed, hurry up!*), so the German *mich / dich /
+      sich* is easy to forget. ***sich freuen auf*** + accusative = to look forward to; ***sich freuen über*** =
+      to be happy about: *Ich freue mich **auf** das Wochenende. Sie freut sich **über** das Geschenk.*
+    tables:
+      - [["Verb", "Example", "English"],
+         ["sich fühlen", "Ich fühle mich fit.", "I feel fit."],
+         ["sich bewegen", "Du bewegst dich zu wenig.", "You don't move enough."],
+         ["sich ausruhen", "Am Sonntag ruhe ich mich aus.", "On Sunday I rest."],
+         ["sich freuen auf", "Wir freuen uns auf die Ferien.", "We're looking forward to the holidays."],
+         ["sich beeilen", "Beeil dich!", "Hurry up!"],
+         ["sich anziehen", "Er zieht sich an.", "He gets dressed."],
+         ["sich treffen", "Wir treffen uns am Bahnhof.", "We meet at the station."]]
+    commonMistakes:
+      - "*Ich fühle gut.* → **Ich fühle mich gut.** fühlen needs the reflexive pronoun."
+      - "*Ich freue auf das Wochenende.* → **Ich freue mich auf das Wochenende.**"
+      - "*Ich ziehe an.* → **Ich ziehe mich an.** Without mich, you are dressing someone (or something) else."
+      - "*Ich bin gefreut.* → **Ich habe mich gefreut.** Reflexive verbs take haben in the Perfekt."
+
+  - id: reflexive-pronouns
+    title: "Reflexive pronouns: mich, dich, sich, uns, euch, sich"
+    body: >-
+      The reflexive pronoun changes with the subject. It is the same as the accusative pronoun, except for
+      **er / sie / es / sie / Sie**, which all have **sich** (small s, also for formal *Sie*).
+
+
+      **Position:** the pronoun comes straight after the conjugated verb – *Ich fühle **mich** besser.* If the
+      subject comes after the verb, the pronoun follows the subject: *Jetzt fühle ich **mich** besser. Fühlst du
+      **dich** nicht gut?* With separable verbs the prefix goes to the end: *Ich ziehe **mich an**. Ich ruhe
+      **mich** am Wochenende **aus**.*
+
+
+      **Perfekt:** reflexive verbs take **haben**: *Ich **habe mich** gut **erholt**. Wir **haben uns** am See
+      **getroffen**.*
+    tables:
+      - [["Subject", "Pronoun", "Example"],
+         ["ich", "mich", "Ich bewege mich."],
+         ["du", "dich", "Beeil dich!"],
+         ["er / sie / es", "sich", "Sie ruht sich aus."],
+         ["wir", "uns", "Wir treffen uns."],
+         ["ihr", "euch", "Freut ihr euch?"],
+         ["sie / Sie", "sich", "Fühlen Sie sich besser?"]]
+    commonMistakes:
+      - "*Fühlen Sie Sich besser?* → **Fühlen Sie sich besser?** The reflexive sich is never capitalised."
+      - "*Wir treffen sich.* → **Wir treffen uns.** sich is only for er / sie / es / sie / Sie."
+      - "*Ich mich fühle gut.* → **Ich fühle mich gut.** The verb stays in position 2."
+
+  - id: reflexive-dative-body
+    title: "Preview: sich + dative with parts of the body"
+    body: >-
+      When a reflexive verb has **another object** – usually a part of the body or clothes – the reflexive
+      pronoun goes into the **dative**: *Ich wasche **mich**.* (accusative) but *Ich wasche **mir** die Hände.*
+      (dative + accusative). Learn these as chunks for now:
+
+
+      - *Ich putze **mir** die Zähne.* (I brush my teeth.)
+
+      - *Wasch **dir** die Hände!* (Wash your hands!)
+
+      - *Ich ziehe **mir** eine Jacke an.* (I put a jacket on.)
+
+
+      Only *mich* and *dich* change (→ *mir, dir*); *sich, uns, euch* stay the same. Note that German uses
+      **die** Zähne, **die** Hände – not *meine*: the dative pronoun already says whose.
+    tables:
+      - [["Accusative (no other object)", "Dative (with another object)"],
+         ["Ich wasche mich.", "Ich wasche mir die Hände."],
+         ["Du ziehst dich an.", "Du ziehst dir die Jacke an."],
+         ["Er wäscht sich.", "Er wäscht sich die Haare."]]
+    commonMistakes:
+      - "*Ich putze meine Zähne.* is understood, but German says **Ich putze mir die Zähne.**"
+      - "*Ich wasche mich die Hände.* → **Ich wasche mir die Hände.** With another object: dative."
+
+  - id: giving-advice
+    title: "Giving simple advice"
+    body: >-
+      At A2 you can give advice with tools you already know:
+
+
+      - **Imperative**, softened with *doch* or *mal*: *Ruh dich **doch** aus! Geh **mal** früher ins Bett!*
+      With reflexive verbs the pronoun follows the verb: *Beeil **dich**! Erholt **euch** gut! Ruhen Sie
+      **sich** aus!*
+
+      - ***müssen*** for something important and ***können*** for a suggestion: *Du **musst** mehr schlafen. Du
+      **kannst** auch schwimmen gehen.*
+
+      - ***Am besten …*** (best of all): ***Am besten** gehst du jeden Tag spazieren.*
+
+      - ***Wie wäre es mit …?*** (chunk): *Wie wäre es mit Yoga?*
+
+
+      The polite *sollten* (*Sie sollten mehr schlafen*) comes in B1.
+    tables:
+      - [["Tool", "Example"],
+         ["imperative + doch / mal", "Ruh dich doch mal aus!"],
+         ["müssen", "Du musst mehr Wasser trinken."],
+         ["können", "Du kannst auch mit dem Velo zur Arbeit fahren."],
+         ["am besten", "Am besten gehst du früh ins Bett."],
+         ["Wie wäre es mit …?", "Wie wäre es mit einem Spaziergang?"]]
+    commonMistakes:
+      - "*Ruh aus!* → **Ruh dich aus!** The reflexive pronoun stays in the imperative."
+      - "*Du musst mehr schlafen gehen früh.* → **Du musst früher schlafen gehen.** The infinitives go to the end."
+
+reading:
+  title: "Fünf Tipps für weniger Stress"
+  text: >-
+    Viele Menschen in der Schweiz fühlen sich gestresst. Was hilft? Hier sind fünf einfache Tipps.
+
+
+    1. Bewegen Sie sich jeden Tag – mindestens 30 Minuten. Sie müssen nicht ins Fitness gehen: Ein
+    Spaziergang in der Mittagspause oder die Velofahrt zur Arbeit sind auch gut.
+
+
+    2. Schlafen Sie genug. Die meisten Erwachsenen brauchen sieben bis acht Stunden. Legen Sie das Handy eine
+    Stunde vor dem Schlafen weg.
+
+
+    3. Essen Sie regelmässig und gesund: viel Gemüse und Früchte, wenig Zucker.
+
+
+    4. Machen Sie Pausen. Stehen Sie jede Stunde kurz auf und trinken Sie ein Glas Wasser.
+
+
+    5. Treffen Sie sich mit Freunden. Lachen ist gesund!
+
+
+    Und am wichtigsten: Freuen Sie sich auch über kleine Dinge – einen Kaffee in der Sonne oder ein gutes
+    Buch.
+  en: >-
+    Many people in Switzerland feel stressed. What helps? Here are five simple tips.
+
+
+    1. Move every day – for at least 30 minutes. You don't have to go to the gym: a walk in your lunch break
+    or cycling to work are good too.
+
+
+    2. Get enough sleep. Most adults need seven to eight hours. Put your phone away an hour before you go to
+    sleep.
+
+
+    3. Eat regularly and healthily: lots of vegetables and fruit, little sugar.
+
+
+    4. Take breaks. Stand up briefly every hour and drink a glass of water.
+
+
+    5. Meet up with friends. Laughing is healthy!
+
+
+    And most important of all: enjoy the little things too – a coffee in the sun or a good book.
+
+swiss:
+  scene: >-
+    Thursday evening outside the café. Reto has finished a long shift, and Sandra, a nurse, gives him some
+    advice. Listen for go + infinitive (go jogge, go schwümme, go poschte), müed, gstresst and Ich fröi mich.
+    Later Sandra's mother calls from Bern.
+  dialogue:
+    - speaker: Sandra
+      text: Hoi Reto! Du gsehsch müed us. Was isch los?
+      en: Hi Reto! You look tired. What's up?
+      variety: gsw-zh
+    - speaker: Reto
+      text: Ich bi total gstresst. Im Kafi isch so vill los, und ich schlaf schlächt.
+      en: I'm totally stressed. There's so much going on at the café, and I'm sleeping badly.
+      variety: gsw-zh
+    - speaker: Sandra
+      text: Du muesch di meh bewege. Ich gang am Abig go jogge – chunnsch mit?
+      en: You need to move more. I go jogging in the evening – are you coming along?
+      variety: gsw-zh
+    - speaker: Reto
+      text: Jogge? Nei, das isch mer z streng.
+      en: Jogging? No, that's too much effort for me.
+      variety: gsw-zh
+    - speaker: Sandra
+      text: Dänn gömmer halt go schwümme. Im Hallebad isch es schön warm.
+      en: Then let's go swimming instead. It's nice and warm in the indoor pool.
+      variety: gsw-zh
+    - speaker: Reto
+      text: Okay, das tönt guet. Ich fröi mich!
+      en: OK, that sounds good. I'm looking forward to it!
+      variety: gsw-zh
+    - speaker: Sandra
+      text: Und morn gönd mir zäme go poschte – öppis Gsunds fürs Znacht!
+      en: And tomorrow we'll go shopping together – something healthy for dinner!
+      variety: gsw-zh
+    - speaker: Reto
+      text: Du bisch strenger als min Dokter!
+      en: You're stricter than my doctor!
+      variety: gsw-zh
+    - speaker: Mami
+      text: Sandra, bisch müed?
+      en: Sandra, are you tired?
+      variety: gsw-be
+    - speaker: Sandra
+      text: E chli. I bi am Morge go jogge.
+      en: A bit. I went jogging this morning.
+      variety: gsw-be
+    - speaker: Mami
+      text: Bravo! I fröie mi, dass es dir guet geit.
+      en: Well done! I'm glad you're doing well.
+      variety: gsw-be
+  notes:
+    - >-
+      **go + infinitive:** when you go somewhere to do something, Swiss German puts **go** before the
+      infinitive: **Ich gang go jogge** (Ich gehe joggen), **Mir gönd go poschte** (Wir gehen einkaufen),
+      **Gömmer go schwümme?** (Gehen wir schwimmen?). Wikipedia gives *Ich gang jetzt go ässe*. With *cho* it is
+      **cho**: *Er chunnt cho ässe*. In the past the participle *gange* disappears: **Ich bi go jogge** (= Ich bin
+      joggen gegangen).
+    - >-
+      **Reflexive verbs** are the same as in Standard German, with Swiss pronouns: **ich fröi mich**, **du
+      muesch di bewege** (unstressed *di* for *dich*, *mi* for *mich*), **er fühlt sich**, **mir träffed öis**.
+      Bernese: **i fröie mi** (berndeutsch.ch: *fröie, sech*), **är het sech gfröit**.
+    - >-
+      **How you feel:** **müed** = müde, **gstresst** = gestresst, **fit**, **chrank** = krank, **de Pfnüsel** =
+      der Schnupfen (zuerich.com). And a joke from unit 3: **streng** means *tiring* in Switzerland (*Jogge isch mer
+      z streng*) – but *strenger als min Dokter* is *stricter than my doctor*.
+    - >-
+      **Das tönt guet!** = Das klingt gut. *tönen* in the sense *klingen* is Swiss (Duden: schweizerisch), so you
+      also hear *Das tönt interessant* in Swiss Standard German.
+    - >-
+      **Sport in Switzerland:** people jog by the lake, swim in the Badi in summer and the Hallebad in winter,
+      and many cycle to work. A gym is often just **s Fitness** (*Ich gang is Fitness*). Lunch-break walks and
+      Sunday hikes are part of the culture.
+    - >-
+      **Bernese** (Sandra's mother): **bisch müed?** = bist du müde? (berndeutsch.ch: *müed*), **e chli** = ein
+      bisschen, **I bi … go jogge** = ich bin joggen gegangen (berndeutsch.ch also has *tschogge*), **I fröie mi**
+      = ich freue mich, **es geit dir guet** = es geht dir gut.
