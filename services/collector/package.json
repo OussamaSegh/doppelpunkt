@@ -1,0 +1,10 @@
+{
+  "name": "@doppelpunkt/collector",
+  "version": "0.4.0",
+  "private": true,
+  "type": "module",
+  "main": "src/index.ts",
+  "scripts": { "typecheck": "tsc --noEmit -p ." },
+  "dependencies": { "@doppelpunkt/beta-schema": "0.4.0", "zod": "^3.25.0" },
+  "devDependencies": { "@cloudflare/workers-types": "^4.20250601.0" }
+}

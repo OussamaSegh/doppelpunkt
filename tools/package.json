@@ -1,5 +1,8 @@
 {
-  "name": "@doppelpunkt/tools", "version": "0.4.0", "private": true, "type": "module",
+  "name": "@doppelpunkt/tools",
+  "version": "0.4.0",
+  "private": true,
+  "type": "module",
   "scripts": {
     "lint": "tsx src/lint.ts",
     "build-packs": "tsx src/build-packs.ts",
@@ -10,6 +13,14 @@
     "audio:upload": "tsx src/audio-upload.ts",
     "typecheck": "tsc --noEmit -p ."
   },
-  "dependencies": { "@doppelpunkt/content-schema": "0.4.0", "@doppelpunkt/engine": "0.4.0", "yaml": "^2.8.0", "zod": "^3.25.0" },
-  "devDependencies": { "@types/node": "^22.0.0" }
+  "dependencies": {
+    "@doppelpunkt/content-schema": "0.4.0",
+    "@doppelpunkt/engine": "0.4.0",
+    "yaml": "^2.8.0",
+    "zod": "^3.25.0",
+    "@doppelpunkt/beta-schema": "0.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0"
+  }
 }
