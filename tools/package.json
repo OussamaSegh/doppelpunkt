@@ -1,0 +1,6 @@
+{
+  "name": "@doppelpunkt/tools", "version": "0.1.0", "private": true, "type": "module",
+  "scripts": { "lint": "tsx src/lint.ts", "build-packs": "tsx src/build-packs.ts", "typecheck": "tsc --noEmit -p ." },
+  "dependencies": { "@doppelpunkt/content-schema": "0.1.0", "@doppelpunkt/engine": "0.1.0", "yaml": "^2.8.0" },
+  "devDependencies": { "@types/node": "^22.0.0" }
+}
